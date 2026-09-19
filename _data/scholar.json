@@ -4,46 +4,18 @@
   "name": "Jin Sam Cho",
   "affiliation": "KAIST",
   "metrics": {
+    "since_year": 2021,
     "citations": 23,
     "citations_since": 16,
     "hindex": 1,
     "hindex_since": 1,
     "i10": 1,
-    "i10_since": 1,
-    "since_year": 2021
+    "i10_since": 1
   },
   "cites_per_year": [
     {
       "year": 2012,
       "count": 2
-    },
-    {
-      "year": 2013,
-      "count": 0
-    },
-    {
-      "year": 2014,
-      "count": 0
-    },
-    {
-      "year": 2015,
-      "count": 0
-    },
-    {
-      "year": 2016,
-      "count": 0
-    },
-    {
-      "year": 2017,
-      "count": 0
-    },
-    {
-      "year": 2018,
-      "count": 0
-    },
-    {
-      "year": 2019,
-      "count": 0
     },
     {
       "year": 2020,
