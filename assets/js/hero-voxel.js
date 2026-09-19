@@ -10,6 +10,7 @@
   var TEAL = new THREE.Color(cssVar('--accent', '#6ad7c2'));
   var GOLD = new THREE.Color('#f5c542');
   var PINK = new THREE.Color('#ff7a9c');
+  var TRGB = Math.round(TEAL.r * 255) + ',' + Math.round(TEAL.g * 255) + ',' + Math.round(TEAL.b * 255);
 
   var W = mount.clientWidth || 480, H = mount.clientHeight || 460;
   var scene = new THREE.Scene();
@@ -60,6 +61,38 @@
   robot.add(box(0.18, 0.2, 0.2, M.dark, -0.16, 0.24, 0));
   robot.add(box(0.18, 0.2, 0.2, M.dark, 0.16, 0.24, 0));
   scene.add(robot);
+
+  // ---- AI core: a floating hologram brain that guides the robot ----
+  function glowTex(alpha) {
+    var s = 128, cv = document.createElement('canvas'); cv.width = cv.height = s;
+    var x = cv.getContext('2d'), g = x.createRadialGradient(s / 2, s / 2, 0, s / 2, s / 2, s / 2);
+    g.addColorStop(0, 'rgba(' + TRGB + ',' + alpha + ')');
+    g.addColorStop(0.45, 'rgba(' + TRGB + ',' + (alpha * 0.35) + ')');
+    g.addColorStop(1, 'rgba(' + TRGB + ',0)');
+    x.fillStyle = g; x.fillRect(0, 0, s, s);
+    var t = new THREE.CanvasTexture(cv); t.needsUpdate = true; return t;
+  }
+  var ai = new THREE.Group();
+  var aiCore = new THREE.Mesh(new THREE.IcosahedronGeometry(0.2, 0),
+    new THREE.MeshBasicMaterial({ color: TEAL, wireframe: true, transparent: true, opacity: 0.95 }));
+  var aiInner = new THREE.Mesh(new THREE.IcosahedronGeometry(0.12, 0),
+    new THREE.MeshBasicMaterial({ color: TEAL, transparent: true, opacity: 0.55 }));
+  ai.add(aiCore); ai.add(aiInner);
+  var halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex(0.85), transparent: true, opacity: 0.85, depthWrite: false, blending: THREE.AdditiveBlending }));
+  halo.scale.set(1.0, 1.0, 1.0); ai.add(halo);
+  var aiNodes = [];
+  for (var an = 0; an < 3; an++) { var nd = new THREE.Mesh(new THREE.SphereGeometry(0.04, 8, 8), flat(TEAL)); ai.add(nd); aiNodes.push(nd); }
+  scene.add(ai);
+
+  // guidance link (AI → robot) and scan link (AI → target)
+  function line(op) { return new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(), new THREE.Vector3()]), new THREE.LineBasicMaterial({ color: TEAL, transparent: true, opacity: op })); }
+  var link = line(0.3); scene.add(link);
+  var scan = line(0.5); scene.add(scan);
+  // targeting reticle on the parcel
+  var reticle = new THREE.Group();
+  var ring1 = new THREE.Mesh(new THREE.TorusGeometry(0.42, 0.02, 6, 32), flat(TEAL)); ring1.rotation.x = Math.PI / 2; reticle.add(ring1);
+  var ring2 = new THREE.Mesh(new THREE.TorusGeometry(0.3, 0.015, 6, 28), new THREE.MeshBasicMaterial({ color: TEAL, transparent: true, opacity: 0.6 })); ring2.rotation.x = Math.PI / 2; reticle.add(ring2);
+  reticle.visible = false; scene.add(reticle);
 
   // ---- little human (chibi) ----
   var human = new THREE.Group();
@@ -155,6 +188,28 @@
     hHead.rotation.z = Math.sin(tsec * 1.7 + 1) * 0.04;
     human.position.y = Math.abs(Math.sin(tsec * 2.2)) * 0.03;
 
+    // --- AI core: hovers above the robot, "thinks", and guides it ---
+    var aiY = robot.position.y + 2.05 + Math.sin(tsec * 2.6) * 0.08;
+    ai.position.set(robot.position.x, aiY, robot.position.z);
+    aiCore.rotation.y += dt * 1.3; aiCore.rotation.x += dt * 0.7; aiInner.rotation.y -= dt * 1.8;
+    var thinking = (p.n === 'command' || p.n === 'toCrate' || p.n === 'pick');
+    var apulse = 1 + Math.sin(tsec * (thinking ? 9 : 4)) * (thinking ? 0.18 : 0.08);
+    halo.scale.setScalar(1.15 * apulse);
+    halo.material.opacity = thinking ? 1.0 : 0.7;
+    for (var q = 0; q < aiNodes.length; q++) {
+      var a2 = tsec * (thinking ? 3.2 : 1.8) + q * (Math.PI * 2 / 3);
+      aiNodes[q].position.set(Math.cos(a2) * 0.33, Math.sin(a2 * 1.4) * 0.1, Math.sin(a2) * 0.33);
+    }
+    link.geometry.setFromPoints([ai.position.clone(), robot.position.clone().add(new THREE.Vector3(0, 1.35, 0))]);
+    var targeting = (p.n === 'command' || p.n === 'toCrate') && crate.visible;
+    reticle.visible = targeting; scan.visible = targeting;
+    if (targeting) {
+      reticle.position.set(crate.position.x, 0.05, crate.position.z);
+      reticle.rotation.z += dt * 1.6;
+      reticle.scale.setScalar(1 + Math.sin(tsec * 6) * 0.12);
+      scan.geometry.setFromPoints([ai.position.clone(), new THREE.Vector3(crate.position.x, 0.3, crate.position.z)]);
+    }
+
     if (p.n === 'command') {
       var s = 1 + Math.sin(k * Math.PI) * 0.12; human.scale.set(1, s, 1);       // human bounce
       hArmR.rotation.x = -Math.sin(k * Math.PI) * 1.2;                            // point/wave
@@ -232,9 +287,14 @@
       '@media(prefers-reduced-motion:reduce){.vx-a,.vx-b,.vx-h{animation:none}}</style>' +
       '<div class="vx-fb"><svg viewBox="0 0 360 300" width="90%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A human pays a little robot a coin for moving a parcel">' +
       '<ellipse cx="180" cy="256" rx="140" ry="24" fill="' + t + '" opacity="0.08"/>' +
-      // heart over robot
-      '<g class="vx-h"><path d="M104 60c-9-16-34-8-34 10 0 14 18 24 34 36 16-12 34-22 34-36 0-18-25-26-34-10z" fill="' + p + '"/></g>' +
-      // "!" over human
+      // AI core hovering above the robot (guides it)
+      '<line x1="101" y1="86" x2="101" y2="106" stroke="' + t + '" stroke-width="2" stroke-dasharray="3 3" opacity="0.5"/>' +
+      '<g class="vx-h"><circle cx="101" cy="66" r="20" fill="' + t + '" opacity="0.14"/>' +
+      '<circle cx="101" cy="66" r="11" fill="none" stroke="' + t + '" stroke-width="3"/>' +
+      '<circle cx="101" cy="66" r="4" fill="' + t + '"/>' +
+      '<circle cx="123" cy="66" r="3" fill="' + t + '"/><circle cx="79" cy="66" r="3" fill="' + t + '"/><circle cx="101" cy="44" r="3" fill="' + t + '"/></g>' +
+      // small heart (robot happy) + "!" over human
+      '<g class="vx-h"><path d="M156 150c-5-9-19-4-19 6 0 8 10 13 19 20 9-7 19-12 19-20 0-10-14-15-19-6z" fill="' + p + '"/></g>' +
       '<g class="vx-h"><rect x="272" y="44" width="10" height="30" rx="5" fill="' + t + '"/><circle cx="277" cy="86" r="6" fill="' + t + '"/></g>' +
       // coin between
       '<circle cx="180" cy="120" r="16" fill="none" stroke="' + g + '" stroke-width="4"/><circle cx="180" cy="120" r="7" fill="' + g + '" opacity="0.5"/>' +
