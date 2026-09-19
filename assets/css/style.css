@@ -56,6 +56,26 @@ img{max-width:100%;display:block}
 .hero .meta a{border-bottom:1px solid var(--line);padding-bottom:1px}
 .hero .meta a:hover{border-color:var(--accent)}
 
+/* hero 2-column with voxel art */
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+.hero-copy{min-width:0}
+.hero-art{position:relative;min-height:460px}
+.voxel{width:100%;height:460px}
+.voxel canvas{display:block;width:100%;height:100%}
+.coinbadge{position:absolute;left:6px;bottom:8px;display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;background:var(--bg-elev);border:1px solid var(--line);border-radius:999px;padding:6px 13px}
+.coinbadge .coinicon{color:var(--accent);font-size:14px;line-height:1}
+.coinbadge #coincount{color:var(--accent);font-weight:700;font-variant-numeric:tabular-nums;min-width:1ch}
+.coinbadge .coinlbl{color:var(--muted)}
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:6px}
+  .hero-art{min-height:330px}
+  .voxel{height:330px}
+}
+@media(max-width:560px){
+  .hero-art{min-height:270px}
+  .voxel{height:270px}
+}
+
 /* ---- section ---- */
 .section{padding:46px 0}
 .section-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:26px;gap:16px}
