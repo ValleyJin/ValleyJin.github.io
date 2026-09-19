@@ -6,8 +6,8 @@ backend:
   name: github
   repo: ValleyJin/ValleyJin.github.io
   branch: main
-  # base_url = your deployed OAuth proxy (Cloudflare Worker). Replace after setup:
-  base_url: https://valleyjin-cms-auth.YOUR-SUBDOMAIN.workers.dev
+  # base_url = deployed OAuth proxy (Cloudflare Worker)
+  base_url: https://valleyjin-cms-auth.jscho71.workers.dev
   auth_endpoint: /auth
 
 publish_mode: simple
