@@ -46,7 +46,13 @@
   // ---- little robot (chibi: big head, stubby body) ----
   var robot = new THREE.Group();
   var rBody = box(0.62, 0.5, 0.5, M.bot, 0, 0.62, 0); robot.add(rBody);
-  robot.add(box(0.34, 0.12, 0.26, M.teal, 0, 0.64, 0.25));           // chest light
+  // KAIST wordmark on the chest (textured plane)
+  var _kaistTex = new THREE.TextureLoader().load('/assets/img/kaist.png');
+  _kaistTex.minFilter = THREE.LinearFilter; _kaistTex.magFilter = THREE.LinearFilter;
+  var _lw = 0.4, _lh = _lw / 4.44;
+  var chestLogo = new THREE.Mesh(new THREE.PlaneGeometry(_lw, _lh), new THREE.MeshBasicMaterial({ map: _kaistTex, transparent: true }));
+  chestLogo.position.set(0, 0.64, 0.256);
+  robot.add(chestLogo);
   var rHead = new THREE.Group(); rHead.position.set(0, 1.12, 0);
   rHead.add(box(0.66, 0.56, 0.6, M.bot, 0, 0, 0));                    // head
   rHead.add(box(0.5, 0.26, 0.06, M.teal, 0, 0.02, 0.31));            // visor
