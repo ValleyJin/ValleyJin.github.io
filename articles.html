@@ -1,0 +1,69 @@
+---
+layout: default
+title: Articles
+permalink: /articles/
+---
+{% assign s = site.data.scholar %}
+<div class="article" style="max-width:840px">
+  <header class="article-head" style="margin-bottom:26px">
+    <span class="cat">Research</span>
+    <h1>Articles</h1>
+    <div class="meta">
+      <span>{{ s.name }}{% if s.affiliation %} · {{ s.affiliation }}{% endif %}</span>
+      <a href="{{ s.profile_url }}" target="_blank" rel="noopener">Google Scholar ↗</a>
+    </div>
+  </header>
+
+  {% if s.metrics.citations %}
+  <!-- metrics -->
+  <div class="sc-metrics">
+    <div class="sc-metric"><span class="v">{{ s.metrics.citations }}</span><span class="k">Citations</span>{% if s.metrics.citations_since %}<span class="s">{{ s.metrics.citations_since }} since {{ s.metrics.since_year }}</span>{% endif %}</div>
+    <div class="sc-metric"><span class="v">{{ s.metrics.hindex }}</span><span class="k">h-index</span>{% if s.metrics.hindex_since %}<span class="s">{{ s.metrics.hindex_since }} since {{ s.metrics.since_year }}</span>{% endif %}</div>
+    <div class="sc-metric"><span class="v">{{ s.metrics.i10 }}</span><span class="k">i10-index</span>{% if s.metrics.i10_since %}<span class="s">{{ s.metrics.i10_since }} since {{ s.metrics.since_year }}</span>{% endif %}</div>
+  </div>
+  {% endif %}
+
+  {% if s.cites_per_year and s.cites_per_year.size > 0 %}
+  <!-- citations per year -->
+  <div class="sc-graph">
+    <div class="sc-graph-title mono">Citations per year</div>
+    {% assign maxc = 1 %}
+    {% for y in s.cites_per_year %}{% if y.count > maxc %}{% assign maxc = y.count %}{% endif %}{% endfor %}
+    {% assign n = s.cites_per_year.size %}
+    {% assign vw = n | times: 46 | plus: 10 %}
+    <svg class="sc-bars" viewBox="0 0 {{ vw }} 170" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Citations per year">
+      {% for y in s.cites_per_year %}
+        {% assign x = forloop.index0 | times: 46 | plus: 12 %}
+        {% assign h = y.count | times: 120 | divided_by: maxc %}
+        {% assign by = 138 | minus: h %}
+        <rect x="{{ x }}" y="{{ by }}" width="28" height="{{ h }}" rx="3" class="sc-bar"/>
+        <text x="{{ x | plus: 14 }}" y="{{ by | minus: 6 }}" text-anchor="middle" class="sc-num">{{ y.count }}</text>
+        <text x="{{ x | plus: 14 }}" y="158" text-anchor="middle" class="sc-yr">{{ y.year }}</text>
+      {% endfor %}
+    </svg>
+  </div>
+  {% endif %}
+
+  {% if s.articles and s.articles.size > 0 %}
+  <!-- publications -->
+  <div class="section-head" style="margin:34px 0 6px"><h2>Publications</h2><span class="more mono">{{ s.articles.size }} entries</span></div>
+  <ul class="pubs">
+    {% for a in s.articles %}
+    <li class="pub-row">
+      <a class="pub-main" href="{{ a.link | default: s.profile_url }}" target="_blank" rel="noopener">
+        <span class="pt">{{ a.title }}</span>
+        <span class="pmeta">{{ a.authors }}{% if a.venue %} · <i>{{ a.venue }}</i>{% endif %}{% if a.year %} · {{ a.year }}{% endif %}</span>
+      </a>
+      <span class="pcite" title="Cited by">{% if a.cited_by and a.cited_by > 0 %}cited by <b>{{ a.cited_by }}</b>{% else %}—{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="mono" style="color:var(--muted);font-size:12px;margin-top:22px">Synced from Google Scholar{% if s.updated %} · updated {{ s.updated }}{% endif %}. <a href="{{ s.profile_url }}" target="_blank" rel="noopener">Full profile ↗</a></p>
+  {% else %}
+  <!-- empty state -->
+  <div class="stat-card" style="text-align:center;padding:40px 24px">
+    <p style="color:var(--ink-soft);margin:0 0 14px">Publications are synced from Google Scholar.</p>
+    <a class="mono" href="{{ s.profile_url }}" target="_blank" rel="noopener" style="color:var(--accent)">Open the Google Scholar profile ↗</a>
+  </div>
+  {% endif %}
+</div>

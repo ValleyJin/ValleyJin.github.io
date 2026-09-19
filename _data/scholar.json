@@ -1,0 +1,379 @@
+{
+  "updated": "2026-09-19",
+  "profile_url": "https://scholar.google.com/citations?user=ThQ_DqUAAAAJ&hl=en",
+  "name": "Jin Sam Cho",
+  "affiliation": "KAIST",
+  "metrics": {
+    "citations": 23,
+    "citations_since": 16,
+    "hindex": 1,
+    "hindex_since": 1,
+    "i10": 1,
+    "i10_since": 1,
+    "since_year": 2021
+  },
+  "cites_per_year": [
+    {
+      "year": 2012,
+      "count": 2
+    },
+    {
+      "year": 2013,
+      "count": 0
+    },
+    {
+      "year": 2014,
+      "count": 0
+    },
+    {
+      "year": 2015,
+      "count": 0
+    },
+    {
+      "year": 2016,
+      "count": 0
+    },
+    {
+      "year": 2017,
+      "count": 0
+    },
+    {
+      "year": 2018,
+      "count": 0
+    },
+    {
+      "year": 2019,
+      "count": 0
+    },
+    {
+      "year": 2020,
+      "count": 5
+    },
+    {
+      "year": 2021,
+      "count": 2
+    },
+    {
+      "year": 2022,
+      "count": 3
+    },
+    {
+      "year": 2023,
+      "count": 2
+    },
+    {
+      "year": 2024,
+      "count": 7
+    },
+    {
+      "year": 2025,
+      "count": 2
+    }
+  ],
+  "articles": [
+    {
+      "title": "The impact of artificial intelligence on the audit market",
+      "authors": "JS Cho, S Ahn, W Jung",
+      "venue": "Korean Account. J 27, 289-330, 2018",
+      "year": 2018,
+      "cited_by": 21,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:aqlVkmm33-oC"
+    },
+    {
+      "title": "Cost Estimation Framework for SMART (SMR)",
+      "authors": "JS Cho, JY Kim",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2011",
+      "year": 2011,
+      "cited_by": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:_FxGoFyzp5QC"
+    },
+    {
+      "title": "Radiation Shielding Doors Design for the Accelerator & Beam application Building of PEFP",
+      "authors": "JM Nam, YG Han, GP Jeon, YS Min, JS Cho, KJ Mun, JH Cho, JY Kim",
+      "venue": "Transactions of the Korean Nuclear Society Autumn Meeting Jeju, Korea, 2010",
+      "year": 2010,
+      "cited_by": 1,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:4TOpqqG69KYC"
+    },
+    {
+      "title": "Design change of tower cooling water system for proton accelerator research center",
+      "authors": "GP Jeon, JY Kima, IT Song, YS Min, KJ Mun, JS Cho, JM Nama, SS Park, ...",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2012",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:ufrVoPGSRksC"
+    },
+    {
+      "title": "Emergency door installation for the accelerator and beam application building of proton accelerator research center",
+      "authors": "YG Han, JM Nam, GP Jeon, YS Min, SS Park, JS Cho, KJ Mun, IT Song, ...",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2012",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "title": "Development of personal safety and interlock system for the Proton Accelerator Research Center of PEFP",
+      "authors": "SS Park, JY Kim, JH Cho, KJ Mun, JS Cho, GP Jeon, YS Min, JM Nam",
+      "venue": "",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:qxL8FJ1GzNcC"
+    },
+    {
+      "title": "Penetration sealing system of proton accelerator research center",
+      "authors": "JM Nam, YG Han, GP Jeon, YS Min, SS Park, JS Cho, KJ Mun, IT Song, ...",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2012",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:YOwf2qJgpHMC"
+    },
+    {
+      "title": "Driving Parts Optimization Design for Radiation Shielding Doors of Proton Accelerator Research Center",
+      "authors": "JM Nam, YG Han, GP Jeon, YS Min, SS Park, JS Cho, KJ Mun, SW Cho, ...",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2012",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "Economic Evaluation Methodology Review on KAERI’s Recent Projects",
+      "authors": "J Cho, J Kima",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2012",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "title": "The Design of Compressed air system in the Conventional Facility of Proton Accelerator Research Center",
+      "authors": "GP Jeon, JY Kima, SW Cho, YS Min, KJ Mun, JS Cho, JM Nama, SS Park, ...",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2012",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+      "title": "Design of Communication System in Conventional Facilities for the Proton Accelerator Research Center",
+      "authors": "SS Park, JY Kima, SW Cho, KJ Mun, JS Cho, GP Jeon, YS Min, JM Nama, ...",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2012",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:4DMP91E08xMC"
+    },
+    {
+      "title": "Analysis Report of Reducing Cooling Loads by Using the LOW-E Pair Glass",
+      "authors": "YK Han, JM Nam, YS Min, SS Park, JS Cho, KJ Mun, HW Jung, SW Cho, ...",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2012",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:WF5omc3nYNoC"
+    },
+    {
+      "title": "Current status of construction license of PEFP",
+      "authors": "JY Kim, JS Cho, YS Min, JM Nam, GP Jeon, SS Park, JH Jo, IT Song",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2012",
+      "year": 2012,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:qjMakFHDy7sC"
+    },
+    {
+      "title": "The Radiation Streaming Calculation for Air Gap of the Shielding Door",
+      "authors": "YS Min, GP Jeon, KJ Mun, JM Nam, JS Cho, JH Cho, JY Kim",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2011",
+      "year": 2011,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:M3ejUd6NZC8C"
+    },
+    {
+      "title": "Design of Accelerator Emergency Stop System for the Proton Accelerator Research Center of PEFP",
+      "authors": "SS Park, JY Kima, JH Cho, KJ Mun, JS Cho, GP Jeon, YS Min, JM Nam",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2011",
+      "year": 2011,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "title": "Structural Analysis of the Proton Accelerator Research Center in PEFP",
+      "authors": "JM Nam, GP Jeon, YS Min, SS Park, JS Cho, KJ Mun, JH Cho, JY Kim",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2011",
+      "year": 2011,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:LkGwnXOMwfcC"
+    },
+    {
+      "title": "Electric Power System Design Status of PEFP",
+      "authors": "KJ Mun, SS Park, JS Cho, GP Jeon, YS Min, JM Nam, JY Kim, JH Cho",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2011",
+      "year": 2011,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:W7OEmFMy1HYC"
+    },
+    {
+      "title": "The Radiation Streaming Calculation of the Wave Guide using DUCT-III",
+      "authors": "YS Min, GP Jeon, KJ Mun, J Nam, JS Cho, JY Kim",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2010",
+      "year": 2010,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:Zph67rFs4hoC"
+    },
+    {
+      "title": "The Calculation and Design of Fire suppression system in the proton accelerator research center",
+      "authors": "GP Jeon, JY Kima, JH Cho, YS Min, KJ Mun, JS Cho, JM Nama, SS Park, ...",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2010",
+      "year": 2010,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:kNdYIx-mwKoC"
+    },
+    {
+      "title": "Conceptual Framework of Economic Evaluation on SMRs",
+      "authors": "J Cho, J Kima, C Kimb",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2010",
+      "year": 2010,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:Tyk-4Ss8FVUC"
+    },
+    {
+      "title": "Development of Radiation Area Entrance Procedure of PEFP",
+      "authors": "SS Park, JY Kima, JH Cho, KJ Mun, JS Cho, GP Jeon, YS Min, JM Nama",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2010",
+      "year": 2010,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "title": "The Design of Shielding for Target Room of the Proton Accelerator Research Center",
+      "authors": "YS Min, GP Jeon, KJ Mun, J Nam, JS Choa, JY Kim",
+      "venue": "Target 30 (20), 150, 2010",
+      "year": 2010,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:roLk4NBRz8UC"
+    },
+    {
+      "title": "Design Concept for Access Control System of PEFP",
+      "authors": "SS Park, JY Kima, YS Min, KJ Mun, JS Cho, GP Jeon, JM Nama, HG Ju, ...",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2010",
+      "year": 2010,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:eQOLeE2rZwMC"
+    },
+    {
+      "title": "The Exhaust System Configuration of Controlled Area in the Proton Accelerator Research Center by Accelerator Operation Mode",
+      "authors": "GP Jeon, JY Kim, YS Min, KJ Mun, JS Cho, JM Nam, SS Park, HG Joo, ...",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2010",
+      "year": 2010,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:YsMSGLbcyi4C"
+    },
+    {
+      "title": "Electric Power System Protection of PEFP",
+      "authors": "KJ Mun, JY Kim, GP Jeon, JS Cho, YS Min, JM Nam, SS Park",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2010",
+      "year": 2010,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:Y0pCki6q_DkC"
+    },
+    {
+      "title": "양성자가속기 연구센터의 전력계통 보호계전 방식",
+      "authors": "문경준， 이석기， 전계포， 조진삼， 민의섭， 남정민， 김준연",
+      "venue": "대한전기학회 학술대회 논문집, 428-429, 2009",
+      "year": 2009,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:_kc_bZDykSQC"
+    },
+    {
+      "title": "Civil Engineering Works Status of the Proton Accelerator Research Center in PEFP-Site and Access Road Earthwork",
+      "authors": "JM Nam, GP Jeon, YS Min, SS Park, JS Cho, KJ Mun, JY Kim",
+      "venue": "",
+      "year": 2009,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:0EnyYjriUFMC"
+    },
+    {
+      "title": "Radiation Zone Classification and Protection Aspect for the Proton Accelerator Research Center of PEFP",
+      "authors": "JY Kim, KJ Mun, YS Min, GP Jeon, JS Cho, NY Kim, JH Jo",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2009",
+      "year": 2009,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:5nxA0vEk-isC"
+    },
+    {
+      "title": "Shielding Parameter for 100 MeV Proton Accelerator",
+      "authors": "YS Min, KJ Mun, JS Cho, JY Kim",
+      "venue": "Energy [MeV] 150, 180o, 2009",
+      "year": 2009,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:UebtZRa9Y70C"
+    },
+    {
+      "title": "Communication Systems and SI & FMS Design for Support of Proton Accelerator Research Center of PEFP",
+      "authors": "SK Lee, JY Kim, KJ Mun, GP Jeon, JS Cho, YS Min, JM Nam",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2009",
+      "year": 2009,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:hqOjcs7Dif8C"
+    },
+    {
+      "title": "Electric Power System Design for the Support Facilities of Proton Accelerator Research Center of PEFP",
+      "authors": "KJ Mun, JY Kim, GP Jeon, JS Cho, YS Min, JM Nam, SK Lee",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2009",
+      "year": 2009,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:Se3iqnhoufwC"
+    },
+    {
+      "title": "Architecture and Civil Design Status of the Proton Accelerator Research Center in PEFP",
+      "authors": "JM Nam, JY Kim, KJ Mun, GP Jeon, JS Cho, SK Lee, YS Min, HG Joo",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2009",
+      "year": 2009,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:IjCSPb-OGe4C"
+    },
+    {
+      "title": "WBS setup & Critical Path Analysis on Proton Accelerator Research Institute Construction",
+      "authors": "JS Cho, JY Kim, KJ Mun, SK Lee, YS Min, GP Jeon, JM Nam",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2009",
+      "year": 2009,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:9yKSN-GCB0IC"
+    },
+    {
+      "title": "The General Arrangement Modification of Ion beam Application Building and Utility Building in Proton Accelerator Research center",
+      "authors": "GP Jeon, JY Kim, KJ Mun, YS Min, JM Nam, SK Lee, JS Cho",
+      "venue": "Proceedings of the KNS spring meeting, 2-2, 2009",
+      "year": 2009,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:u5HHmVD_uO8C"
+    },
+    {
+      "title": "Radiation Shielding Design for 300keV Ion Implanter",
+      "authors": "YS Min, JS Lee, KJ Mun, JS Cho, JY Kim",
+      "venue": "Journal of Nuclear Science and Technology 45 (sup5), 108-111, 2008",
+      "year": 2008,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:8k81kl-MbHgC"
+    },
+    {
+      "title": "Project Host Site Cooperation System Building and Management",
+      "authors": "JS Cho, JY Kim, KJ Mun, GP Jeon",
+      "venue": "Korea Atomic Energy Research Institute, Daejeon (Korea, Republic of), 2008",
+      "year": 2008,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:KlAtU1dfN6UC"
+    },
+    {
+      "title": "Application of Neural Network to Electric Power System Fault Diagnosis of PEFP",
+      "authors": "KJ Mun, SK Lee, JS Cho, JY Kim",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2007",
+      "year": 2007,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:MXK_kJrjxJIC"
+    },
+    {
+      "title": "Conventional Facilities Design of PEFP–Facility Layout and System Configuration",
+      "authors": "JY Kim, KJ Mun, GP Jeon, J Nam, JS Cho",
+      "venue": "Proceedings of the KNS autumn meeting, 2-2, 2007",
+      "year": 2007,
+      "cited_by": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ThQ_DqUAAAAJ&pagesize=100&citation_for_view=ThQ_DqUAAAAJ:zYLM7Y9cAGgC"
+    }
+  ]
+}
