@@ -1,0 +1,21 @@
+{
+  "updated": "2026-09-19",
+  "public_repos": 51,
+  "followers": 25,
+  "total_stars": 332,
+  "contributions": 1172,
+  "languages": [
+    { "name": "TypeScript", "pct": 34 },
+    { "name": "Python", "pct": 27 },
+    { "name": "Java", "pct": 16 },
+    { "name": "Shell", "pct": 12 },
+    { "name": "Solidity", "pct": 11 }
+  ],
+  "recent": [
+    { "name": "vllm-cloud-run", "desc": "Serving your LLMs via vLLM on Google Cloud Run", "lang": "Shell", "stars": 4, "url": "https://github.com/ValleyJin/vllm-cloud-run", "pushed": "2026-09-18" },
+    { "name": "paran-ai-sample", "desc": "Applied AI experiments", "lang": "Python", "stars": 0, "url": "https://github.com/ValleyJin/paran-ai-sample", "pushed": "2026-09-12" },
+    { "name": "knowrob_OPAL", "desc": "Ontology-based physical-AI learning", "lang": "C++", "stars": 1, "url": "https://github.com/ValleyJin/knowrob_OPAL", "pushed": "2026-08-30" },
+    { "name": "react_basic", "desc": "React / TypeScript study", "lang": "TypeScript", "stars": 1, "url": "https://github.com/ValleyJin/react_basic", "pushed": "2026-08-20" },
+    { "name": "spring-react-ioc-crud-study", "desc": "Spring + React CRUD study", "lang": "Java", "stars": 1, "url": "https://github.com/ValleyJin/spring-react-ioc-crud-study", "pushed": "2026-08-05" }
+  ]
+}

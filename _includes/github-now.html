@@ -1,0 +1,39 @@
+{% assign gh = site.data.github %}
+<div class="now-grid">
+  <div class="now">
+    <ul class="repos">
+      {% if gh and gh.recent %}
+        {% for r in gh.recent limit:5 %}
+        <li>
+          <span class="tag">{{ r.lang | default: "repo" }}</span>
+          <span class="body">
+            <b><a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.name }}</a></b>
+            {% if r.stars and r.stars > 0 %}<span> · ★ {{ r.stars }}</span>{% endif %}<br>
+            <span>{{ r.desc | default: "—" }}</span>
+          </span>
+        </li>
+        {% endfor %}
+      {% else %}
+        <li><span class="tag">repo</span><span class="body"><b>Syncing…</b><br><span>GitHub activity refreshes daily.</span></span></li>
+      {% endif %}
+    </ul>
+  </div>
+
+  <aside class="stat-card">
+    <div class="stat-row"><span class="k">contributions / yr</span><span class="v">{{ gh.contributions | default: "—" }}</span></div>
+    <div class="stat-row"><span class="k">public repos</span><span class="v">{{ gh.public_repos | default: "—" }}</span></div>
+    <div class="stat-row"><span class="k">total stars</span><span class="v">{{ gh.total_stars | default: "—" }}</span></div>
+    <div class="stat-row"><span class="k">followers</span><span class="v">{{ gh.followers | default: "—" }}</span></div>
+    {% if gh and gh.languages %}
+    <div class="langbars">
+      {% for l in gh.languages limit:5 %}
+      <div class="langbar">
+        <span>{{ l.name }}</span>
+        <span class="track"><span class="fill" style="width:{{ l.pct }}%"></span></span>
+        <span>{{ l.pct }}%</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </aside>
+</div>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>{% include head.html %}</head>
+<body>
+  {% include nav.html %}
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow kicker">Jin Sam Cho · ValleyJin · Seoul, Korea</p>
+      <h1>Building at the intersection of <em>AI</em>, <em>blockchain</em>, and the <em>physical world</em>.</h1>
+      <p class="lede">Coding <span class="accent">+</span> Business. I ship LLM systems on the cloud, build blockchain infrastructure, and teach machines about the physical world — then write about what I learn.</p>
+      <div class="meta">
+        <a href="https://github.com/{{ site.github_user }}" target="_blank" rel="noopener">github/{{ site.github_user }}</a>
+        <a href="https://x.com/{{ site.social.x }}" target="_blank" rel="noopener">x/@{{ site.social.x }}</a>
+        <a href="{{ '/writing/' | relative_url }}">→ writing</a>
+      </div>
+    </div>
+  </header>
+
+  <hr class="rule">
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Currently building</h2>
+        <a class="more" href="https://github.com/{{ site.github_user }}?tab=repositories" target="_blank" rel="noopener">all repos ↗</a>
+      </div>
+      {% include github-now.html %}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><h2>Focus</h2></div>
+      <div class="focus">
+        <div class="cell"><h3><span class="idx">01</span> AI · LLM &amp; Cloud</h3><p>Serving open LLMs at scale — vLLM on Google Cloud Run, inference optimization, agentic pipelines.</p></div>
+        <div class="cell"><h3><span class="idx">02</span> Blockchain</h3><p>Ethereum &amp; OP-stack L2 infrastructure with the Tokamak Network ecosystem.</p></div>
+        <div class="cell"><h3><span class="idx">03</span> Physical AI</h3><p>Ontology-based reasoning for embodied agents and robotics (KnowRob).</p></div>
+        <div class="cell"><h3><span class="idx">04</span> Full-stack</h3><p>Product engineering across React · TypeScript front-ends and Spring · Java services.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Writing</h2>
+        <a class="more" href="{{ '/writing/' | relative_url }}">all posts →</a>
+      </div>
+      <ul class="posts">
+        {% for post in site.posts limit:6 %}
+        <li>
+          <a class="post-row" href="{{ post.url | relative_url }}">
+            <span class="d">{{ post.date | date: "%Y.%m.%d" }}</span>
+            <span class="t">{{ post.title }}{% if post.excerpt %}<span class="sub">{{ post.excerpt | strip_html | truncate: 90 }}</span>{% endif %}</span>
+            <span class="c">{{ post.category }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  {% include footer.html %}
+</body>
+</html>

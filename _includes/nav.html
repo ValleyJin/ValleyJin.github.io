@@ -1,0 +1,23 @@
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="dot"></span>valleyjin</a>
+    <div class="links">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/writing/' | relative_url }}">Writing</a>
+      <a class="hide-sm" href="{{ '/about/' | relative_url }}">About</a>
+      <a href="https://github.com/{{ site.github_user }}" target="_blank" rel="noopener">GitHub</a>
+      <a href="#" id="themeToggle" title="Toggle theme">◐</a>
+    </div>
+  </div>
+</nav>
+<script>
+  document.getElementById('themeToggle').addEventListener('click',function(e){
+    e.preventDefault();
+    var root=document.documentElement;
+    var cur=root.getAttribute('data-theme');
+    var sysDark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var next=(cur? cur : (sysDark?'dark':'light'))==='dark'?'light':'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next);}catch(e){}
+  });
+</script>

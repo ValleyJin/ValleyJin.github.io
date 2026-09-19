@@ -1,0 +1,42 @@
+# Decap CMS configuration
+# Auth uses the GitHub backend via a lightweight OAuth proxy (Cloudflare Worker).
+# See SETUP-CMS.md for the two one-time steps to make login work.
+
+backend:
+  name: github
+  repo: ValleyJin/ValleyJin.github.io
+  branch: main
+  # base_url = your deployed OAuth proxy (Cloudflare Worker). Replace after setup:
+  base_url: https://valleyjin-cms-auth.YOUR-SUBDOMAIN.workers.dev
+  auth_endpoint: /auth
+
+publish_mode: simple
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+site_url: https://valleyjin.github.io
+display_url: https://valleyjin.github.io
+locale: en
+
+collections:
+  - name: posts
+    label: "Post"
+    label_singular: "Post"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "writing/{{slug}}/"
+    summary: "{{title}}  ·  {{category}}  ·  {{date | date('YYYY-MM-DD')}}"
+    sortable_fields: [date, title]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "YYYY-MM-DD HH:mm:ss +0900" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["AI", "Blockchain", "Physical AI", "Dev", "Meta"]
+        default: "AI"
+      - { label: "Tags", name: "tags", widget: "list", default: [], required: false }
+      - { label: "Cover image", name: "cover", widget: "image", required: false, choose_url: false }
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false, hint: "One or two sentences shown in listings." }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Body", name: "body", widget: "markdown" }

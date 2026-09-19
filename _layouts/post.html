@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="article">
+  <a class="back" href="{{ '/writing/' | relative_url }}">← Writing</a>
+  <header class="article-head">
+    {% if page.category %}<span class="cat">{{ page.category }}</span>{% endif %}
+    <h1>{{ page.title }}</h1>
+    <div class="meta">
+      <span>{{ page.date | date: "%b %-d, %Y" }}</span>
+      {% assign words = content | number_of_words %}
+      <span>{{ words | divided_by: 220 | plus: 1 }} min read</span>
+    </div>
+  </header>
+  {% if page.cover %}<img class="cover" src="{{ page.cover | relative_url }}" alt="{{ page.title }}">{% endif %}
+  <div class="prose">{{ content }}</div>
+  {% if page.tags and page.tags.size > 0 %}
+  <div class="tags">
+    {% for tag in page.tags %}<a href="{{ '/writing/' | relative_url }}">#{{ tag }}</a>{% endfor %}
+  </div>
+  {% endif %}
+</article>

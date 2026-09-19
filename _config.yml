@@ -1,0 +1,49 @@
+title: Jin Sam Cho
+tagline: Coding + Business
+description: >-
+  Building at the intersection of AI systems, blockchain infrastructure,
+  and physical AI. Engineer & builder from Korea.
+author: Jin Sam Cho
+url: "https://valleyjin.github.io"
+lang: en
+timezone: Asia/Seoul
+
+github_user: ValleyJin
+social:
+  x: ValleyJin
+  github: ValleyJin
+  email: ""      # optional: fill to show a mailto link
+
+permalink: /writing/:title/
+paginate: 8
+paginate_path: "/writing/page:num/"
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
+
+exclude:
+  - README.md
+  - SETUP-CMS.md
+  - Gemfile
+  - Gemfile.lock
+  - script.py
+  - tools
+  - vendor
+  - .github
+  - node_modules
