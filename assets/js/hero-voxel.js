@@ -50,8 +50,9 @@
   var rHead = new THREE.Group(); rHead.position.set(0, 1.12, 0);
   rHead.add(box(0.66, 0.56, 0.6, M.bot, 0, 0, 0));                    // head
   rHead.add(box(0.5, 0.26, 0.06, M.teal, 0, 0.02, 0.31));            // visor
-  rHead.add(box(0.11, 0.13, 0.04, mat(0x0f1418), -0.12, 0.03, 0.345)); // eyes (dark on visor)
-  rHead.add(box(0.11, 0.13, 0.04, mat(0x0f1418), 0.12, 0.03, 0.345));
+  var eyeMat = new THREE.MeshLambertMaterial({ color: 0x0f1418 });    // eyes (dark; glow teal when firing)
+  rHead.add(box(0.11, 0.13, 0.05, eyeMat, -0.12, 0.03, 0.345));
+  rHead.add(box(0.11, 0.13, 0.05, eyeMat, 0.12, 0.03, 0.345));
   rHead.add(box(0.05, 0.16, 0.05, M.bot2, 0, 0.36, 0));               // antenna
   rHead.add(box(0.12, 0.12, 0.12, M.teal, 0, 0.5, 0));                // antenna ball
   robot.add(rHead);
@@ -87,7 +88,22 @@
   // guidance link (AI → robot) and scan link (AI → target)
   function line(op) { return new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(), new THREE.Vector3()]), new THREE.LineBasicMaterial({ color: TEAL, transparent: true, opacity: op })); }
   var link = line(0.3); scene.add(link);
-  var scan = line(0.5); scene.add(scan);
+  // eye lasers — two beams fired from the robot's eyes onto the parcel
+  var beamGeo = new THREE.CylinderGeometry(0.022, 0.022, 1, 6);
+  function beam() { return new THREE.Mesh(beamGeo, new THREE.MeshBasicMaterial({ color: TEAL, transparent: true, opacity: 0.85, blending: THREE.AdditiveBlending, depthWrite: false })); }
+  var beamL = beam(), beamR = beam(); beamL.visible = beamR.visible = false; scene.add(beamL); scene.add(beamR);
+  var impact = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex(0.95), transparent: true, opacity: 0.9, depthWrite: false, blending: THREE.AdditiveBlending }));
+  impact.visible = false; scene.add(impact);
+  var UP = new THREE.Vector3(0, 1, 0);
+  function orientBeam(m, a, b) {
+    var dir = new THREE.Vector3().subVectors(b, a), len = dir.length();
+    m.position.copy(a).addScaledVector(dir, 0.5);
+    m.scale.set(1, len, 1);
+    m.quaternion.setFromUnitVectors(UP, dir.clone().normalize());
+  }
+  function eyeWorld(sx) {
+    return new THREE.Vector3(sx * 0.12, 1.15, 0.36).applyAxisAngle(UP, robot.rotation.y).add(robot.position);
+  }
   // targeting reticle on the parcel
   var reticle = new THREE.Group();
   var ring1 = new THREE.Mesh(new THREE.TorusGeometry(0.42, 0.02, 6, 32), flat(TEAL)); ring1.rotation.x = Math.PI / 2; reticle.add(ring1);
@@ -158,10 +174,13 @@
     { n: 'toCrate', d: 1.15 },
     { n: 'pick', d: 0.5 },
     { n: 'toHuman', d: 1.15 },
+    { n: 'pose', d: 1.4 },
     { n: 'deliver', d: 0.55 },
-    { n: 'pay', d: 1.0 }
+    { n: 'pay', d: 0.9 },
+    { n: 'celebrate', d: 1.9 }
   ];
   var ph = 0, pt = 0, from = new THREE.Vector3(), to = new THREE.Vector3(), carry = false;
+  var faceCam = Math.atan2(camera.position.x - HUMAN.x, camera.position.z - HUMAN.z), poseFrom = 0;
   robot.position.set(0.4, 0, -0.1); robot.rotation.y = -0.6;
 
   function ease(x) { return x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2; }
@@ -171,11 +190,17 @@
     if (n === 'command') { pop('!', TEAL, human.position.clone().add(new THREE.Vector3(0, 2.05, 0))); }
     else if (n === 'toCrate') { from.copy(robot.position); to.set(CRATE.x + 0.55, 0, CRATE.z); face(to.x - from.x, to.z - from.z); }
     else if (n === 'toHuman') { from.copy(robot.position); to.set(HUMAN.x - 0.7, 0, HUMAN.z); face(to.x - from.x, to.z - from.z); carry = true; }
+    else if (n === 'pose') { poseFrom = robot.rotation.y; }
     else if (n === 'deliver') { /* hand parcel to human */ }
     else if (n === 'pay') {
       crate.visible = false;
       payCoin(human.position.clone().add(new THREE.Vector3(0, 1.0, 0)), robot.position.clone().add(new THREE.Vector3(0, 1.1, 0)));
-      pop('♥', PINK, robot.position.clone().add(new THREE.Vector3(0, 1.9, 0)));
+    }
+    else if (n === 'celebrate') {                      // heart burst on receiving the coin
+      var hp = robot.position.clone();
+      pop('♥', PINK, hp.clone().add(new THREE.Vector3(0, 1.98, 0)));
+      pop('♥', PINK, hp.clone().add(new THREE.Vector3(-0.42, 1.72, 0)));
+      pop('♥', PINK, hp.clone().add(new THREE.Vector3(0.42, 1.72, 0)));
     }
   }
   enter('command');
@@ -202,12 +227,22 @@
     }
     link.geometry.setFromPoints([ai.position.clone(), robot.position.clone().add(new THREE.Vector3(0, 1.35, 0))]);
     var targeting = (p.n === 'command' || p.n === 'toCrate') && crate.visible;
-    reticle.visible = targeting; scan.visible = targeting;
+    reticle.visible = targeting;
+    beamL.visible = beamR.visible = impact.visible = targeting;
     if (targeting) {
+      var tgt = new THREE.Vector3(crate.position.x, 0.32, crate.position.z);
       reticle.position.set(crate.position.x, 0.05, crate.position.z);
       reticle.rotation.z += dt * 1.6;
       reticle.scale.setScalar(1 + Math.sin(tsec * 6) * 0.12);
-      scan.geometry.setFromPoints([ai.position.clone(), new THREE.Vector3(crate.position.x, 0.3, crate.position.z)]);
+      orientBeam(beamL, eyeWorld(-1), tgt);
+      orientBeam(beamR, eyeWorld(1), tgt);
+      var fl = 0.55 + Math.abs(Math.sin(tsec * 26)) * 0.45;                 // laser flicker
+      beamL.material.opacity = beamR.material.opacity = fl;
+      impact.position.copy(tgt);
+      impact.scale.setScalar(0.4 + Math.sin(tsec * 12) * 0.08);
+      eyeMat.color.set(TEAL);                                              // eyes glow while firing
+    } else {
+      eyeMat.color.setHex(0x0f1418);                                       // eyes back to normal
     }
 
     if (p.n === 'command') {
@@ -219,18 +254,38 @@
       robot.position.y = Math.abs(Math.sin(k * Math.PI * 6)) * 0.1;               // hop
       var sw = Math.sin(k * Math.PI * 6) * 0.6; rArmL.rotation.x = sw; rArmR.rotation.x = -sw;
       if (p.n === 'toHuman') { crate.visible = true; crate.position.set(robot.position.x, robot.position.y + 1.55, robot.position.z); crate.rotation.y += dt; }
+    } else if (p.n === 'pose') {
+      // arrive in front of the human, turn to face the viewer, hold the parcel, pause
+      robot.rotation.y = poseFrom + (faceCam - poseFrom) * ease(Math.min(1, k * 1.7));
+      robot.position.y = Math.abs(Math.sin(tsec * 3)) * 0.04;
+      crate.visible = true;
+      crate.position.set(robot.position.x, robot.position.y + 1.55 + Math.sin(tsec * 3) * 0.03, robot.position.z);
+      crate.rotation.y = faceCam;
+      rArmL.rotation.x = 0; rArmR.rotation.x = Math.max(0, Math.sin(k * Math.PI * 3)) * 0.5; // little hello wave
     } else if (p.n === 'pick') {
       rArmL.rotation.x = -0.7; rArmR.rotation.x = -0.7;
       var sq = 1 - Math.sin(k * Math.PI) * 0.18; robot.scale.set(1 + (1 - sq) * 0.6, sq, 1 + (1 - sq) * 0.6); // squash
       crate.position.set(robot.position.x, 0.28 + e * (1.55 - 0.28), robot.position.z);
     } else if (p.n === 'deliver') {
-      robot.scale.set(1, 1, 1);
+      robot.scale.set(1, 1, 1); robot.rotation.y = faceCam;
       var hx = HUMAN.x, hz = HUMAN.z;
       crate.position.set(robot.position.x + (hx - robot.position.x) * e, 1.55 - e * 0.9, robot.position.z + (hz - robot.position.z) * e);
       hArmL.rotation.x = -e * 1.0; hArmR.rotation.x = -e * 1.0;
     } else if (p.n === 'pay') {
+      robot.rotation.y = faceCam;
+      rArmL.rotation.x = -0.35; rArmR.rotation.x = -0.35;                         // reach to receive the coin
+      hArmL.rotation.x = 0; hArmR.rotation.x = -0.5 * (1 - e);                    // human's toss arm returns
+      robot.position.y = 0; robot.scale.set(1, 1, 1);
+    } else if (p.n === 'celebrate') {
+      robot.rotation.y = faceCam;
       rArmL.rotation.x = 0; rArmR.rotation.x = 0; hArmL.rotation.x = 0; hArmR.rotation.x = 0;
-      robot.position.y = Math.abs(Math.sin(k * Math.PI * 3)) * 0.14;              // happy hop
+      if (k < 0.62) {                                                             // two hops in place
+        var jj = (k / 0.62) * Math.PI * 2, hop = Math.abs(Math.sin(jj));
+        robot.position.y = hop * 0.42;
+        robot.scale.set(1 - hop * 0.06, 1 + hop * 0.12, 1 - hop * 0.06);
+      } else {                                                                    // brief pose, then loop
+        robot.position.y = 0; robot.scale.set(1, 1, 1);
+      }
     }
 
     // coins fly along an arc
