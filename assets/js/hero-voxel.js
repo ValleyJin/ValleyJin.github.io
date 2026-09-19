@@ -40,11 +40,7 @@
   };
   function box(w, h, dp, m, x, y, z) { var e = new THREE.Mesh(new THREE.BoxGeometry(w, h, dp), m); e.position.set(x, y, z); return e; }
 
-  // ---- ground (small tidy platform) ----
-  var N = 6, ground = new THREE.Group();
-  for (var i = 0; i < N; i++) for (var j = 0; j < N; j++)
-    ground.add(box(0.9, 0.36, 0.9, (i + j) % 2 ? M.tileA : M.tileB, i - (N - 1) / 2, -0.2, j - (N - 1) / 2));
-  scene.add(ground);
+  // (isometric floor removed — characters float on the transparent hero background)
 
   // ---- little robot (chibi: big head, stubby body) ----
   var robot = new THREE.Group();
