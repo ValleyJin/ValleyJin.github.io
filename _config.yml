@@ -44,6 +44,7 @@ exclude:
   - Gemfile.lock
   - script.py
   - tools
+  - study
   - vendor
   - .github
   - node_modules
