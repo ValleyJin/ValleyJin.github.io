@@ -1,0 +1,107 @@
+name: Sync Google Scholar
+
+on:
+  schedule:
+    - cron: "41 5 * * *"      # daily 05:41 UTC (~14:41 KST)
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+    paths: [ ".github/workflows/scholar.yml" ]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-scholar
+  cancel-in-progress: true
+
+env:
+  AUTHOR_ID: ThQ_DqUAAAAJ
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch from SerpAPI (skips if no key)
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          if [ -z "$SERPAPI_KEY" ]; then
+            echo "No SERPAPI_KEY secret set — keeping the existing snapshot. See study/09."
+            exit 0
+          fi
+          python3 - <<'PY'
+          import os, json, urllib.request, urllib.parse, datetime
+          KEY = os.environ["SERPAPI_KEY"]; AID = os.environ["AUTHOR_ID"]
+          def get(params):
+              params.update({"engine":"google_scholar_author","author_id":AID,"api_key":KEY,"hl":"en"})
+              url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
+              with urllib.request.urlopen(url, timeout=60) as r:
+                  return json.load(r)
+
+          first = get({"num":100})
+          author = first.get("author",{})
+          cb = first.get("cited_by",{})
+
+          def cell(row, key):
+              v = row.get(key,{})
+              return v if isinstance(v,dict) else {}
+          metrics = {"since_year": None}
+          for row in cb.get("table",[]):
+              if "citations" in row:
+                  c = row["citations"]; metrics["citations"]=c.get("all"); metrics["citations_since"]=list(c.items())[-1][1] if len(c)>1 else None
+                  for k in c:
+                      if k.startswith("since_"): metrics["since_year"]=int(k.split("_")[1])
+              if "h_index" in row:
+                  h=row["h_index"]; metrics["hindex"]=h.get("all"); metrics["hindex_since"]=[v for k,v in h.items() if k!="all"][0] if len(h)>1 else None
+              if "i10_index" in row:
+                  i=row["i10_index"]; metrics["i10"]=i.get("all"); metrics["i10_since"]=[v for k,v in i.items() if k!="all"][0] if len(i)>1 else None
+
+          cpy = [{"year":g.get("year"),"count":g.get("citations")} for g in cb.get("graph",[])]
+
+          # paginate articles
+          arts=[]; start=0
+          data=first
+          while True:
+              for a in data.get("articles",[]):
+                  arts.append({
+                      "title":a.get("title","").strip(),
+                      "authors":a.get("authors","").strip(),
+                      "venue":a.get("publication","").strip(),
+                      "year":int(a["year"]) if str(a.get("year","")).isdigit() else 0,
+                      "cited_by":(a.get("cited_by") or {}).get("value") or 0,
+                      "link":a.get("link","")
+                  })
+              nxt = (data.get("serpapi_pagination") or {}).get("next")
+              if not nxt: break
+              start += 100
+              data = get({"num":100,"start":start})
+
+          arts.sort(key=lambda x:(-(x["cited_by"] or 0), -(x["year"] or 0)))
+          out={
+              "updated": datetime.date.today().isoformat(),
+              "profile_url": f"https://scholar.google.com/citations?user={AID}&hl=en",
+              "name": author.get("name","").strip(),
+              "affiliation": author.get("affiliations","").strip(),
+              "metrics": metrics,
+              "cites_per_year": cpy,
+              "articles": arts
+          }
+          os.makedirs("_data", exist_ok=True)
+          json.dump(out, open("_data/scholar.json","w",encoding="utf-8"), ensure_ascii=False, indent=2)
+          print(f"Wrote _data/scholar.json — {len(arts)} articles, {metrics.get('citations')} citations")
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/scholar.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: sync Google Scholar [skip ci]"
+            git push
+          else
+            echo "No changes."
+          fi
