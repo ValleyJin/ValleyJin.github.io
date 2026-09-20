@@ -17,6 +17,7 @@ permalink: /articles/
   <div class="sc-tabs" role="tablist">
     <button class="sc-tab is-active" type="button" data-pane="pubs" role="tab" aria-selected="true">Publications</button>
     <button class="sc-tab" type="button" data-pane="topics" role="tab" aria-selected="false">My Topics</button>
+    <button class="sc-tab" type="button" data-pane="scholars" role="tab" aria-selected="false">Following</button>
   </div>
 
   <div id="pane-pubs" class="tabpane">
@@ -120,6 +121,44 @@ permalink: /articles/
     {% endif %}
   </div><!-- /pane-topics -->
 
+  <div id="pane-scholars" class="tabpane" hidden>
+    {% assign sc = site.data.scholars %}
+    <p class="mono" style="color:var(--muted);font-size:12px;margin:2px 0 20px">
+      Latest papers by scholars I follow{% if sc.generated %} · updated {{ sc.generated }}{% endif %} · via <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>
+    </p>
+    {% assign shown = 0 %}
+    {% if sc.scholars and sc.scholars.size > 0 %}
+      {% for g in sc.scholars %}
+        {% if g.papers and g.papers.size > 0 %}
+        {% assign shown = shown | plus: 1 %}
+        <div class="topic-group">
+          <div class="section-head" style="margin:26px 0 6px">
+            <h2>{{ g.name }}</h2>
+            {% if g.count %}<a class="more mono" href="https://openalex.org/works?filter=authorships.author.id:{{ g.id }}" target="_blank" rel="noopener">{{ g.count }} works ↗</a>{% endif %}
+          </div>
+          <ul class="pubs">
+            {% for p in g.papers %}
+            <li class="pub-row">
+              <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
+                <span class="pt">{{ p.title }}</span>
+                <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>
+              </a>
+              <span class="pcite" title="Cited by">{% if p.cites and p.cites > 0 %}cited by <b>{{ p.cites }}</b>{% else %}—{% endif %}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% if shown == 0 %}
+      <div class="stat-card" style="text-align:center;padding:40px 24px">
+        <p style="color:var(--ink-soft);margin:0 0 8px">아직 팔로우한 학자가 없습니다.</p>
+        <p class="mono" style="color:var(--muted);font-size:12px;margin:0"><b>/admin → Settings → My Topics</b>에서 “표시명 | OpenAlex ID”로 추가하세요.</p>
+      </div>
+    {% endif %}
+  </div><!-- /pane-scholars -->
+
   <!-- day modal -->
   <div class="tmodal" id="tmodal" hidden>
     <div class="tmodal-back" id="tmodal-back"></div>
@@ -183,14 +222,16 @@ permalink: /articles/
   <script>
     (function(){
       var tabs=[].slice.call(document.querySelectorAll('.sc-tab'));
-      var panes={pubs:document.getElementById('pane-pubs'),topics:document.getElementById('pane-topics')};
+      var panes={pubs:document.getElementById('pane-pubs'),topics:document.getElementById('pane-topics'),scholars:document.getElementById('pane-scholars')};
       function show(name){
+        if(!panes[name]) name='pubs';
         Object.keys(panes).forEach(function(k){ if(panes[k]) panes[k].hidden=(k!==name); });
         tabs.forEach(function(b){var on=b.dataset.pane===name;b.classList.toggle('is-active',on);b.setAttribute('aria-selected',on);});
-        try{history.replaceState(null,'',name==='topics'?'#topics':location.pathname);}catch(e){}
+        try{history.replaceState(null,'',name==='pubs'?location.pathname:'#'+name);}catch(e){}
       }
       tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.pane);});});
-      if(location.hash==='#topics') show('topics');
+      var h=(location.hash||'').replace('#','');
+      if(h==='topics'||h==='scholars') show(h);
     })();
   </script>
 </div>

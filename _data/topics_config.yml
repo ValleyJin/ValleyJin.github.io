@@ -4,7 +4,11 @@
 # 분야는 Computer Science(AI·데이터베이스)로 제약된다.
 years: 3            # 최근 N년 논문만
 per_topic: 4        # 토픽당 논문 수
+per_scholar: 5      # 팔로우 학자당 논문 수
 field_concept: C41008148   # OpenAlex concept: Computer Science
+# 팔로우 학자: 한 줄에 "표시명 | OpenAlex ID(A…) 또는 ORCID". 동명이인 구분 위해 ID 필수.
+# ID는 https://openalex.org 에서 이름 검색해 확인(또는 관리자에게 요청).
+scholars: |
 topics: |
   Deep persona
   Graph database

@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CFG = ROOT / "_data" / "topics_config.yml"
 OUT = ROOT / "_data" / "topics.json"
 ARCHIVE = ROOT / "_data" / "topics_new.json"   # 발견일(new)별 논문 누적
+SCHOLARS = ROOT / "_data" / "scholars.json"    # 팔로우 학자별 최신 논문
 MAILTO = "jscho71@kaist.ac.kr"
 API = "https://api.openalex.org/works"
 
@@ -75,6 +76,24 @@ def fetch(query, concept, cutoff, n):
         "mailto": MAILTO,
         "select": "title,publication_year,authorships,primary_location,doi,cited_by_count,id",
     }
+    url = API + "?" + urllib.parse.urlencode(q)
+    req = urllib.request.Request(url, headers={"User-Agent": f"valleyjin-topics ({MAILTO})"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.load(r)
+
+
+def fetch_author(author_id, cutoff, n):
+    """한 학자의 최신 논문. author_id = OpenAlex 'A…' 또는 ORCID."""
+    aid = author_id.strip()
+    if aid[:1] in ("A", "a") and aid[1:2].isdigit():
+        who = f"authorships.author.id:{aid}"
+    else:  # ORCID
+        orc = aid if aid.startswith("http") else "https://orcid.org/" + aid
+        who = f"authorships.author.orcid:{orc}"
+    filt = f"{who},type:article,from_publication_date:{cutoff}"
+    q = {"filter": filt, "sort": "publication_date:desc", "per_page": max(n * 2, 8),
+         "mailto": MAILTO,
+         "select": "title,publication_year,authorships,primary_location,doi,cited_by_count,id"}
     url = API + "?" + urllib.parse.urlencode(q)
     req = urllib.request.Request(url, headers={"User-Agent": f"valleyjin-topics ({MAILTO})"})
     with urllib.request.urlopen(req, timeout=60) as r:
@@ -163,6 +182,41 @@ def main():
     ARCHIVE.write_text(json.dumps(arch, ensure_ascii=False, indent=2), encoding="utf-8")
     total = sum(len(d["papers"]) for d in arch["days"])
     print(f"✓ archive: {total} papers / {len(arch['days'])} days (+{len(new_today)} new today)")
+
+    # ── 팔로우 학자들의 최신 논문 → scholars.json ──
+    per_scholar = int(cfg.get("per_scholar", 5))
+    sresult = {"generated": today, "scholars": []}
+    for name, aid in parse_topics(cfg.get("scholars", "")):
+        blk = {"name": name, "id": aid, "papers": []}
+        try:
+            data = fetch_author(aid, cutoff, per_scholar)
+        except Exception as e:
+            print(f"! scholar {name}: {e}", file=sys.stderr)
+            sresult["scholars"].append(blk)
+            continue
+        blk["count"] = data.get("meta", {}).get("count")
+        seen_s = set()
+        for w in data.get("results", []):
+            title = clean_title(w.get("title"))
+            key = title.lower()[:70]
+            if not title or key in seen_s or len(title) < 8:
+                continue
+            seen_s.add(key)
+            src = (w.get("primary_location") or {}).get("source") or {}
+            blk["papers"].append({
+                "title": title,
+                "authors": apa_authors(w.get("authorships", [])),
+                "year": w.get("publication_year"),
+                "venue": (src.get("display_name") or "").strip(),
+                "url": w.get("doi") or w.get("id"),
+                "cites": w.get("cited_by_count", 0),
+            })
+            if len(blk["papers"]) >= per_scholar:
+                break
+        sresult["scholars"].append(blk)
+        print(f"  scholar {name}: {len(blk['papers'])} papers")
+    SCHOLARS.write_text(json.dumps(sresult, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"✓ wrote {SCHOLARS.relative_to(ROOT)} — {len(sresult['scholars'])} scholars")
 
 
 if __name__ == "__main__":

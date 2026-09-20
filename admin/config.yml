@@ -54,5 +54,11 @@ collections:
             widget: "text"
             hint: "한 줄에 토픽 하나. '표시명 | 검색어' 형식이면 | 뒤가 실제 OpenAlex 검색어(선택). AI·DB 분야로 자동 제약."
           - { label: "Papers per topic", name: "per_topic", widget: "number", value_type: "int", default: 4, min: 1, max: 10 }
+          - label: "Following scholars"
+            name: "scholars"
+            widget: "text"
+            required: false
+            hint: "한 줄에 학자 한 명. '표시명 | OpenAlex ID(A…) 또는 ORCID'. 동명이인 구분 위해 ID 필수 — 이름만 알면 관리자에게 ID 요청."
+          - { label: "Papers per scholar", name: "per_scholar", widget: "number", value_type: "int", default: 5, min: 1, max: 12 }
           - { label: "Only last N years", name: "years", widget: "number", value_type: "int", default: 3, min: 1, max: 10 }
           - { label: "Field concept (OpenAlex)", name: "field_concept", widget: "hidden", default: "C41008148" }
