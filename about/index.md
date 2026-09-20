@@ -12,12 +12,15 @@ permalink: /about/
     </div>
     <figcaption>Daejeon · Korea</figcaption>
   </figure>
-  <p class="about-lede reveal d1">
-    I'm <strong>Jin Sam Cho</strong> (ValleyJin) — an engineer and builder from Korea
-    working where software meets business. My north star is simple:
-    <strong class="accent">Coding&nbsp;+&nbsp;Business</strong>. Across two decades I've
-    gone from national research labs to founding startups, and today I lead AI at K3I.
-  </p>
+  <div class="about-copy reveal d1">
+    <p class="about-hi">Hi, <em>friends</em>!</p>
+    <p class="about-lede">
+      I'm <strong>Jin Sam Cho</strong> (ValleyJin) — an engineer and builder from Korea
+      working where software meets business. My north star is simple:
+      <strong class="accent">Coding&nbsp;+&nbsp;Business</strong>. Across two decades I've
+      gone from national research labs to founding startups, and today I lead AI at K3I.
+    </p>
+  </div>
 </div>
 
 <h3>Launched</h3>
@@ -142,7 +145,7 @@ permalink: /about/
   <div class="h"><span class="v"><a href="https://product.kyobobook.co.kr/detail/S000001866155" target="_blank" rel="noopener">2</a></span><span class="k">Books authored</span></div>
   <div class="h"><span class="v"><a href="https://patents.google.com/?inventor=%EC%A1%B0%EC%A7%84%EC%82%BC&country=KR" target="_blank" rel="noopener">10+</a></span><span class="k">Korean patents</span></div>
 </div>
-<ul class="cv-list">
+<ul class="cv-list cv-years">
   <li class="cv-item">
     <div class="cv-when">2005</div>
     <div class="cv-body">

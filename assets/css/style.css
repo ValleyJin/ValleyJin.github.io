@@ -296,6 +296,8 @@ img{max-width:100%;display:block}
   font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
 }
 .about-portrait figcaption::before{content:"";width:18px;height:1px;background:var(--accent);flex:none}
+.about-hi{font-size:clamp(32px,4.6vw,46px);font-weight:700;letter-spacing:-.03em;line-height:1.02;color:var(--ink);margin:0 0 16px}
+.about-hi em{font-style:normal;color:var(--accent)}
 .about-lede{font-size:18.5px;line-height:1.72;color:var(--ink-soft);margin:0}
 .about-lede strong{color:var(--ink);font-weight:650}
 .about-lede .accent{color:var(--accent)}
@@ -342,6 +344,9 @@ img{max-width:100%;display:block}
 .cv-body .org a:hover{color:var(--accent);border-color:var(--accent)}
 .cv-body p{margin:0;font-size:14.5px;line-height:1.6;color:var(--muted);font-family:var(--sans)}
 @media(max-width:560px){.cv-item{grid-template-columns:1fr;gap:6px}.cv-when{order:-1;padding-top:0}}
+/* Recognition awards: year as large typography filling the left column */
+.cv-years .cv-when{font-size:clamp(38px,5.2vw,54px);font-weight:700;color:var(--muted);letter-spacing:-.02em;line-height:1;padding-top:0;font-variant-numeric:tabular-nums;opacity:.85}
+@media(max-width:560px){.cv-years .cv-when{font-size:34px}}
 
 .skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-family:var(--sans);margin:2px 0 8px}
 .skills-grid .cell{background:var(--bg);padding:20px 22px}
