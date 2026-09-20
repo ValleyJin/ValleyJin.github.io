@@ -212,7 +212,7 @@ def main():
             tl = title.lower()
             if qwords and all(qw in tl for qw in qwords):   # 제목에 키워드 전부 포함 = 확실히 주제
                 strict.append(paper)
-        pick = strict if len(strict) >= 3 else arr          # 제목매칭 부족하면 관련도결과로 폴백
+        pick = strict if strict else arr                    # 제목에 키워드 든 게 있으면 그것만(정밀)
         pick.sort(key=lambda p: p["cites"], reverse=True)
         mostcited[label] = pick[:6]
 
