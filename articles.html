@@ -75,8 +75,8 @@ permalink: /articles/
     {% assign t = site.data.topics %}
     <!-- topic filter tabs -->
     <div class="ntabs" id="ntabs" role="tablist"></div>
-    <div class="newest" id="newest" hidden>
-      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2>Newest</h2><p class="nmeta mono" style="margin:0"><svg class="via-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/></svg>via <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>{% if t.generated %} · updated {{ t.generated }}{% endif %}</p></div>
+    <div class="newest" id="newest" style="margin-top:52px" hidden>
+      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2>Newest</h2></div>
       <div class="tcal" id="tcal">
         <div class="tcal-bar">
           <button type="button" class="tcal-nav" id="tcal-prev" aria-label="Previous month">‹</button>
@@ -90,7 +90,7 @@ permalink: /articles/
     </div>
 
     <div class="mostcited" id="mostcited" hidden>
-      <div class="section-head" style="margin:34px 0 6px"><h2>Most cited</h2><a id="em-link" class="more mono" target="_blank" rel="noopener" hidden>More ↗</a></div>
+      <div class="section-head" style="margin:34px 0 6px"><h2>Most cited</h2><span id="more-links" class="more mono" hidden>More : <a id="oa-link" target="_blank" rel="noopener">OpenAlex</a><span id="more-sep"> · </span><a id="em-link" target="_blank" rel="noopener">Emergentmind</a></span></div>
       <ul class="pubs" id="mostcited-list"></ul>
     </div>
   </div><!-- /pane-topics -->
@@ -147,8 +147,18 @@ permalink: /articles/
       if(!topicList.length){ papers.forEach(function(p){ if(p.topic&&topicList.indexOf(p.topic)<0) topicList.push(p.topic); }); }
       var mostData=data.mostcited||{};   // 키워드별 전기간 누적 피인용 상위
       var emMap=data.em||{};             // 토픽별 Emergent Mind URL
+      var oaMap=data.oa||{};             // 토픽별 OpenAlex 검색화면
       var emLink=document.getElementById('em-link');
-      function renderEM(){ if(!emLink) return; var u=emMap[st.topic]; if(u){ emLink.href=u; emLink.hidden=false; } else { emLink.hidden=true; } }
+      var oaLink=document.getElementById('oa-link');
+      var moreWrap=document.getElementById('more-links');
+      var moreSep=document.getElementById('more-sep');
+      function renderEM(){
+        var em=emMap[st.topic], oa=oaMap[st.topic];
+        if(emLink){ if(em){ emLink.href=em; emLink.hidden=false; } else emLink.hidden=true; }
+        if(oaLink){ if(oa){ oaLink.href=oa; oaLink.hidden=false; } else oaLink.hidden=true; }
+        if(moreSep){ moreSep.hidden=!(em&&oa); }
+        if(moreWrap){ moreWrap.hidden=!(em||oa); }
+      }
       // 우측 리스트를 좌측 달력 높이에 맞춤(탭이 보이게 되면 크기가 잡힘)
       if(window.ResizeObserver){ try{ var _cal=document.getElementById('tcal'); new ResizeObserver(function(){ var h=_cal.offsetHeight||0; if(h>0) listEl.style.maxHeight=h+'px'; }).observe(_cal); }catch(e){} }
       var todayKST=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'});   // 오늘(KST)

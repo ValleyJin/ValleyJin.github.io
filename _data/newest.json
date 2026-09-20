@@ -1913,5 +1913,15 @@
         "topic": "Ontology"
       }
     ]
+  },
+  "oa": {
+    "Deep persona": "https://openalex.org/works?filter=default.search:Deep%20persona",
+    "Graph database": "https://openalex.org/works?filter=default.search:Graph%20database",
+    "Memory in Agentic AI": "https://openalex.org/works?filter=default.search:Agentic%20memory%20systems",
+    "LLM inference serving": "https://openalex.org/works?filter=default.search:LLM%20inference%20serving",
+    "Ethereum Layer-2": "https://openalex.org/works?filter=default.search:Ethereum%20layer-2%20rollup",
+    "Zero-knowledge proofs (ZKP)": "https://openalex.org/works?filter=default.search:zero-knowledge%20proof",
+    "Graph neural networks (GNN)": "https://openalex.org/works?filter=default.search:graph%20neural%20network",
+    "Ontology": "https://openalex.org/works?filter=default.search:ontology%20knowledge%20representation"
   }
 }

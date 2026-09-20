@@ -220,6 +220,8 @@ def main():
         "generated": today,
         "topics": [label for label, _q, _e in topics],   # 탭 순서(config 순)
         "em": {label: em for label, _q, em in topics if em},   # 토픽별 Emergent Mind URL
+        "oa": {label: "https://openalex.org/works?filter=default.search:" + urllib.parse.quote(q, safe="")
+               for label, q, _e in topics},                     # 토픽별 OpenAlex 검색화면
         "papers": newest,
         "mostcited": mostcited,                      # 키워드별 전기간 피인용 상위
     }, ensure_ascii=False, indent=2), encoding="utf-8")
