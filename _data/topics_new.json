@@ -322,6 +322,16 @@
           "cites": 414,
           "topic": "Ontology",
           "key": "https://doi.org/10.1093/nar/gkad1005"
+        },
+        {
+          "title": "SRplot: A free online platform for data visualization and graphing",
+          "authors": "Tang, D., Chen, M., Huang, X., Zhang, G., Zeng, L., Zhang, G., et al.",
+          "year": 2023,
+          "venue": "PLoS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0294236",
+          "cites": 2565,
+          "topic": "Graph database",
+          "key": "https://doi.org/10.1371/journal.pone.0294236"
         }
       ]
     }
