@@ -1,10 +1,16 @@
 ---
-layout: post
-title: "Giving robots a usable model of the world"
+title: Giving robots a usable model of the world
 date: 2026-08-15 09:00:00 +0900
 category: Physical AI
-tags: [robotics, knowrob, ontology, physical-ai]
-excerpt: "Perception tells a robot what it sees. Knowledge tells it what that means. The gap between the two is where most of the work is."
+tags:
+  - robotics
+  - knowrob
+  - ontology
+  - physical-ai
+cover: /assets/images/uploads/스크린샷-2026-09-20-오후-6.26.52.png
+excerpt: Perception tells a robot what it sees. Knowledge tells it what that
+  means. The gap between the two is where most of the work is.
+layout: post
 ---
 
 A robot can detect a cup. Whether it knows a cup can hold liquid, tips over, and belongs on
