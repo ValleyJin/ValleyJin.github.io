@@ -1,5 +1,15 @@
 {
   "generated": "2026-09-20",
+  "topics": [
+    "Deep persona",
+    "Graph database",
+    "Memory in Agentic AI",
+    "LLM inference serving",
+    "Ethereum Layer-2",
+    "Zero-knowledge proofs (ZKP)",
+    "Graph neural networks (GNN)",
+    "Ontology"
+  ],
   "papers": [
     {
       "date": "2027-01-01",

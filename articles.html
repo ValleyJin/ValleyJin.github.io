@@ -77,13 +77,18 @@ permalink: /articles/
 
   <div id="pane-topics" class="tabpane" hidden>
     {% assign t = site.data.topics %}
-    <p class="mono" style="color:var(--muted);font-size:12px;margin:2px 0 20px">
-      Latest papers in topics I follow{% if t.field %} · {{ t.field }}{% endif %}{% if t.generated %} · updated {{ t.generated }}{% endif %} · via <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>
-    </p>
+    <!-- topic filter tabs -->
+    <div class="ntabs" id="ntabs" role="tablist"></div>
+    <p class="nmeta mono">via <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>{% if t.generated %} · updated {{ t.generated }}{% endif %}</p>
 
-    <!-- Newest: calendar (left) of publication dates + selected day's papers (right) -->
     <div class="newest" id="newest" hidden>
-      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2>Newest</h2><span class="more mono">by publication date</span></div>
+      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px">
+        <h2>Newest</h2>
+        <span class="nsort" id="nsort">
+          <button type="button" data-sort="newest" class="is-active">Newest</button>
+          <button type="button" data-sort="cited">Most cited</button>
+        </span>
+      </div>
       <div class="tcal" id="tcal">
         <div class="tcal-bar">
           <button type="button" class="tcal-nav" id="tcal-prev" aria-label="Previous month">‹</button>
@@ -95,33 +100,6 @@ permalink: /articles/
       </div>
       <div class="newest-list" id="newest-list"></div>
     </div>
-    {% if t.topics and t.topics.size > 0 %}
-      {% for grp in t.topics %}
-      <div class="topic-group">
-        <div class="section-head" style="margin:26px 0 6px">
-          <h2>{{ grp.topic }}</h2>
-          {% if grp.count %}<a class="more mono" href="https://openalex.org/works?filter=default.search:{{ grp.query | url_encode }}" target="_blank" rel="noopener">{{ grp.count }} works ↗</a>{% endif %}
-        </div>
-        <ul class="pubs">
-          {% for p in grp.papers %}
-          <li class="pub-row">
-            <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
-              <span class="pt">{{ p.title }}</span>
-              <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>
-            </a>
-            <span class="pcite" title="Cited by">{% if p.cites and p.cites > 0 %}cited by <b>{{ p.cites }}</b>{% else %}—{% endif %}</span>
-          </li>
-          {% else %}
-          <li class="pub-row"><span class="pmeta" style="color:var(--muted)">No recent results.</span></li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endfor %}
-    {% else %}
-      <div class="stat-card" style="text-align:center;padding:40px 24px">
-        <p style="color:var(--ink-soft);margin:0">Topic feed is generated daily from OpenAlex.</p>
-      </div>
-    {% endif %}
   </div><!-- /pane-topics -->
 
   <div id="pane-scholars" class="tabpane" hidden>
@@ -167,52 +145,60 @@ permalink: /articles/
     (function(){
       var el=document.getElementById('newest-data'); if(!el) return;
       var data={}; try{ data=JSON.parse(el.textContent||'{}'); }catch(e){ return; }
-      var papers=(data.papers||[]); if(!papers.length) return;
-      var byDate={};
-      papers.forEach(function(p){ (byDate[p.date]=byDate[p.date]||[]).push(p); });
-      var dates=Object.keys(byDate).sort();
+      var papers=(data.papers||[]);
       var wrap=document.getElementById('newest'), grid=document.getElementById('tcal-grid'),
-          title=document.getElementById('tcal-title'), listEl=document.getElementById('newest-list');
+          title=document.getElementById('tcal-title'), listEl=document.getElementById('newest-list'),
+          tabsEl=document.getElementById('ntabs'), sortEl=document.getElementById('nsort');
       wrap.hidden=false;
       function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
       function pad(n){return (n<10?'0':'')+n;}
-      var todayKST=new Date().toLocaleDateString('en-CA', {timeZone:'Asia/Seoul'});   // 오늘(한국시각) YYYY-MM-DD
-      var sel=todayKST;
-      if(!byDate[sel]){                                                            // 오늘 논문 없으면 오늘 이하 최근 발간일로
-        var prior=dates.filter(function(d){ return d<=todayKST; });
-        sel=prior.length ? prior[prior.length-1] : dates[dates.length-1];
+      var topicList=(data.topics&&data.topics.length)?data.topics.slice():[];
+      if(!topicList.length){ papers.forEach(function(p){ if(p.topic&&topicList.indexOf(p.topic)<0) topicList.push(p.topic); }); }
+      var todayKST=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'});   // 오늘(KST)
+      var st={topic:'All', sort:'newest', sel:todayKST};                             // 기본 = 오늘 포커스
+      var cm=todayKST.split('-'); var cur=new Date(+cm[0], +cm[1]-1, 1);
+      function filtered(){ return st.topic==='All'?papers:papers.filter(function(p){return p.topic===st.topic;}); }
+      function byDate(){ var m={}; filtered().forEach(function(p){ (m[p.date]=m[p.date]||[]).push(p); }); return m; }
+      function paperLi(p){
+        return '<li class="pub-row"><a class="pub-main" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+
+          '<span class="pt">'+esc(p.title)+'</span>'+
+          '<span class="pmeta">'+(st.topic==='All'?'<b style="color:var(--accent)">'+esc(p.topic)+'</b> · ':'')+esc(p.authors)+' ('+esc(p.year)+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span></a>'+
+          '<span class="pcite">cited by <b>'+(p.cites||0)+'</b></span></li>';
       }
-      var cM=todayKST.split('-'); var cur=new Date(+cM[0], +cM[1]-1, 1);           // 달력은 오늘의 달
-      function renderList(key){
-        var ps=(byDate[key]||[]);
-        var head='<div class="nl-head mono">'+esc(key)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div>';
-        if(!ps.length){ listEl.innerHTML=head+'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">이 날 발간된 논문이 없습니다.</p>'; return; }
-        listEl.innerHTML=head+'<ul class="pubs">'+
-          ps.map(function(p){
-            return '<li class="pub-row"><a class="pub-main" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+
-                   '<span class="pt">'+esc(p.title)+'</span>'+
-                   '<span class="pmeta"><b style="color:var(--accent)">'+esc(p.topic)+'</b> · '+esc(p.authors)+' ('+esc(p.year)+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span></a>'+
-                   '<span class="pcite">cited by <b>'+(p.cites||0)+'</b></span></li>';
-          }).join('')+'</ul>';
+      function renderTabs(){
+        tabsEl.innerHTML=['All'].concat(topicList).map(function(tp){ return '<button type="button" class="ntab'+(tp===st.topic?' is-active':'')+'" data-topic="'+esc(tp)+'">'+esc(tp)+'</button>'; }).join('');
+        [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){ st.topic=b.dataset.topic; renderTabs(); renderCal(); renderList(); }; });
       }
-      function render(){
-        var y=cur.getFullYear(), m=cur.getMonth();
+      function renderSort(){ [].slice.call(sortEl.querySelectorAll('button')).forEach(function(b){ b.classList.toggle('is-active',b.dataset.sort===st.sort); b.onclick=function(){ st.sort=b.dataset.sort; renderSort(); renderCal(); renderList(); }; }); }
+      function renderList(){
+        if(st.sort==='cited'){
+          var cp=filtered().slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);}).slice(0,40);
+          listEl.innerHTML='<div class="nl-head mono">Most cited · '+esc(st.topic)+' · '+cp.length+'</div>'+(cp.length?'<ul class="pubs">'+cp.map(paperLi).join('')+'</ul>':'');
+        } else {
+          var ps=(byDate()[st.sel]||[]);
+          var head='<div class="nl-head mono">'+esc(st.sel)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div>';
+          listEl.innerHTML=head+(ps.length?'<ul class="pubs">'+ps.map(paperLi).join('')+'</ul>':'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">이 날 발간된 논문이 없습니다.</p>');
+        }
+      }
+      function renderCal(){
+        var m=byDate(), y=cur.getFullYear(), mo=cur.getMonth();
         title.textContent=cur.toLocaleString('en-US',{month:'long',year:'numeric'});
         grid.innerHTML='';
-        var startDow=new Date(y,m,1).getDay(), dim=new Date(y,m+1,0).getDate();
+        var startDow=new Date(y,mo,1).getDay(), dim=new Date(y,mo+1,0).getDate();
         for(var i=0;i<startDow;i++){ var e=document.createElement('span'); e.className='tcal-cell empty'; grid.appendChild(e); }
         for(var day=1;day<=dim;day++){
-          var key=y+'-'+pad(m+1)+'-'+pad(day), ps=byDate[key];
+          var key=y+'-'+pad(mo+1)+'-'+pad(day), ps=m[key];
+          var isSel=(st.sort==='newest'&&key===st.sel);
           var c=document.createElement(ps?'button':'span');
-          c.className='tcal-cell'+(ps?' has':'')+(key===sel?' sel':'');
+          c.className='tcal-cell'+(ps?' has':'')+(isSel?' sel':'');
           c.innerHTML='<span class="d">'+day+'</span>'+(ps?'<span class="n">'+ps.length+'</span>':'');
-          if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ sel=k; renderList(k); render(); };})(key)); }
+          if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ st.sort='newest'; st.sel=k; renderSort(); renderCal(); renderList(); };})(key)); }
           grid.appendChild(c);
         }
       }
-      document.getElementById('tcal-prev').onclick=function(){ cur.setMonth(cur.getMonth()-1); render(); };
-      document.getElementById('tcal-next').onclick=function(){ cur.setMonth(cur.getMonth()+1); render(); };
-      renderList(sel); render();
+      document.getElementById('tcal-prev').onclick=function(){ cur.setMonth(cur.getMonth()-1); renderCal(); };
+      document.getElementById('tcal-next').onclick=function(){ cur.setMonth(cur.getMonth()+1); renderCal(); };
+      renderTabs(); renderSort(); renderCal(); renderList();
     })();
   </script>
 

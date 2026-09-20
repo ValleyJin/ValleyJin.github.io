@@ -174,8 +174,12 @@ def main():
                 "cites": w.get("cited_by_count", 0), "topic": label,
             })
     newest.sort(key=lambda p: p["date"], reverse=True)
-    newest = newest[:150]
-    NEWEST.write_text(json.dumps({"generated": today, "papers": newest}, ensure_ascii=False, indent=2), encoding="utf-8")
+    newest = newest[:200]
+    NEWEST.write_text(json.dumps({
+        "generated": today,
+        "topics": [label for label, _ in topics],   # 탭 순서(config 순)
+        "papers": newest,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
     ndays = len({p["date"] for p in newest})
     print(f"✓ newest: {len(newest)} papers over {ndays} publication days")
 
@@ -205,6 +209,12 @@ def main():
                     "url": a.get("link") or "",
                     "cites": cb.get("value") or 0,
                 })
+            def _yr(v):
+                try:
+                    return int(str(v)[:4])
+                except Exception:
+                    return 0
+            blk["papers"].sort(key=lambda p: _yr(p.get("year")), reverse=True)   # 최신 논문이 맨 위
             sresult["scholars"].append(blk)
             print(f"  scholar {name}: {len(blk['papers'])} papers")
         SCHOLARS.write_text(json.dumps(sresult, ensure_ascii=False, indent=2), encoding="utf-8")
