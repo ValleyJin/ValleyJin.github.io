@@ -1,0 +1,16 @@
+# My Topics — 팔로우하는 연구 토픽 설정.
+# 편집: /admin → Settings → My Topics (또는 이 파일 직접 수정).
+# topics: 한 줄에 토픽 하나. "표시명 | 검색어" 형식이면 | 뒤가 실제 OpenAlex 검색어(선택).
+# 분야는 Computer Science(AI·데이터베이스)로 제약된다.
+years: 3            # 최근 N년 논문만
+per_topic: 4        # 토픽당 논문 수
+field_concept: C41008148   # OpenAlex concept: Computer Science
+topics: |
+  LLM inference serving
+  Deep persona
+  Memory in Agentic AI
+  Ethereum Layer-2 | Ethereum layer-2 rollup
+  Zero-knowledge proofs (ZKP) | zero-knowledge proof
+  Graph database
+  Graph neural networks (GNN) | graph neural network
+  Ontology | ontology knowledge representation

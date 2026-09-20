@@ -14,6 +14,12 @@ permalink: /articles/
     </div>
   </header>
 
+  <div class="sc-tabs" role="tablist">
+    <button class="sc-tab is-active" type="button" data-pane="pubs" role="tab" aria-selected="true">Publications</button>
+    <button class="sc-tab" type="button" data-pane="topics" role="tab" aria-selected="false">My Topics</button>
+  </div>
+
+  <div id="pane-pubs" class="tabpane">
   {% if s.metrics.citations %}
   <!-- metrics -->
   <div class="sc-metrics">
@@ -66,4 +72,53 @@ permalink: /articles/
     <a class="mono" href="{{ s.profile_url }}" target="_blank" rel="noopener" style="color:var(--accent)">Open the Google Scholar profile ↗</a>
   </div>
   {% endif %}
+  </div><!-- /pane-pubs -->
+
+  <div id="pane-topics" class="tabpane" hidden>
+    {% assign t = site.data.topics %}
+    <p class="mono" style="color:var(--muted);font-size:12px;margin:2px 0 20px">
+      Latest papers in topics I follow{% if t.field %} · {{ t.field }}{% endif %}{% if t.generated %} · updated {{ t.generated }}{% endif %} · via <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>
+    </p>
+    {% if t.topics and t.topics.size > 0 %}
+      {% for grp in t.topics %}
+      <div class="topic-group">
+        <div class="section-head" style="margin:26px 0 6px">
+          <h2>{{ grp.topic }}</h2>
+          {% if grp.count %}<a class="more mono" href="https://openalex.org/works?filter=default.search:{{ grp.query | url_encode }}" target="_blank" rel="noopener">{{ grp.count }} works ↗</a>{% endif %}
+        </div>
+        <ul class="pubs">
+          {% for p in grp.papers %}
+          <li class="pub-row">
+            <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
+              <span class="pt">{{ p.title }}</span>
+              <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>
+            </a>
+            <span class="pcite" title="Cited by">{% if p.cites and p.cites > 0 %}cited by <b>{{ p.cites }}</b>{% else %}—{% endif %}</span>
+          </li>
+          {% else %}
+          <li class="pub-row"><span class="pmeta" style="color:var(--muted)">No recent results.</span></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    {% else %}
+      <div class="stat-card" style="text-align:center;padding:40px 24px">
+        <p style="color:var(--ink-soft);margin:0">Topic feed is generated daily from OpenAlex.</p>
+      </div>
+    {% endif %}
+  </div><!-- /pane-topics -->
+
+  <script>
+    (function(){
+      var tabs=[].slice.call(document.querySelectorAll('.sc-tab'));
+      var panes={pubs:document.getElementById('pane-pubs'),topics:document.getElementById('pane-topics')};
+      function show(name){
+        Object.keys(panes).forEach(function(k){ if(panes[k]) panes[k].hidden=(k!==name); });
+        tabs.forEach(function(b){var on=b.dataset.pane===name;b.classList.toggle('is-active',on);b.setAttribute('aria-selected',on);});
+        try{history.replaceState(null,'',name==='topics'?'#topics':location.pathname);}catch(e){}
+      }
+      tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.pane);});});
+      if(location.hash==='#topics') show('topics');
+    })();
+  </script>
 </div>

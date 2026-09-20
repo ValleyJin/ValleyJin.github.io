@@ -175,6 +175,13 @@ img{max-width:100%;display:block}
 .pub-row .pcite b{color:var(--accent)}
 @media(max-width:640px){.sc-metrics{grid-template-columns:1fr 1fr}.pub-row{grid-template-columns:1fr}.pub-row .pcite{grid-column:1}}
 
+/* Publications / My Topics tabs */
+.sc-tabs{display:flex;gap:6px;margin:2px 0 20px;border-bottom:1px solid var(--line-soft)}
+.sc-tab{appearance:none;background:0;border:0;cursor:pointer;font-family:var(--mono);font-size:13px;letter-spacing:.03em;color:var(--muted);padding:8px 8px 12px;margin-bottom:-1px;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
+.sc-tab:hover{color:var(--ink-soft)}
+.sc-tab.is-active{color:var(--ink);border-bottom-color:var(--accent)}
+.topic-group + .topic-group{margin-top:8px}
+
 /* ============================================================
    Article (post) — serif body for an editorial, sensuous read
    ============================================================ */

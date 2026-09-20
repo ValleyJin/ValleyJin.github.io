@@ -40,3 +40,19 @@ collections:
       - { label: "Excerpt", name: "excerpt", widget: "text", required: false, hint: "One or two sentences shown in listings." }
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: settings
+    label: "Settings"
+    files:
+      - name: topics
+        label: "My Topics (research feed)"
+        file: "_data/topics_config.yml"
+        description: "Articles 페이지 'My Topics' 피드에 쓰는 팔로우 토픽. 저장하면 매일 도는 OpenAlex 자동갱신이 반영한다."
+        fields:
+          - label: "Topics"
+            name: "topics"
+            widget: "text"
+            hint: "한 줄에 토픽 하나. '표시명 | 검색어' 형식이면 | 뒤가 실제 OpenAlex 검색어(선택). AI·DB 분야로 자동 제약."
+          - { label: "Papers per topic", name: "per_topic", widget: "number", value_type: "int", default: 4, min: 1, max: 10 }
+          - { label: "Only last N years", name: "years", widget: "number", value_type: "int", default: 3, min: 1, max: 10 }
+          - { label: "Field concept (OpenAlex)", name: "field_concept", widget: "hidden", default: "C41008148" }
