@@ -1,24 +1,25 @@
-# My Topics — 팔로우하는 연구 토픽 설정.
-# 편집: /admin → Settings → My Topics (또는 이 파일 직접 수정).
-# topics: 한 줄에 토픽 하나. "표시명 | 검색어" 형식이면 | 뒤가 실제 OpenAlex 검색어(선택).
-# 분야는 Computer Science(AI·데이터베이스)로 제약된다.
-years: 3            # 최근 N년 논문만
-per_topic: 4        # 토픽당 논문 수
-per_scholar: 5      # 팔로우 학자당 논문 수
-field_concept: C41008148   # OpenAlex concept: Computer Science
-# 팔로우 학자: 한 줄에 "표시명 | Google Scholar user id". 동명이인 없음(본인 큐레이션).
-# id = 프로필 URL scholar.google.com/citations?user=XXXX 의 user 값.
+topics: >
+  Deep persona | Deep persona |
+  https://www.emergentmind.com/topics/deep-persona-alignment-dpa
+
+  Graph database | Graph database | https://www.emergentmind.com/topics/graph-database-neo4j
+
+  Memory in Agentic AI | Agentic memory systems | https://www.emergentmind.com/topics/agentic-memory-systems
+
+  LLM inference serving | LLM inference serving | https://www.emergentmind.com/topics/efficient-serving-of-large-language-models
+
+  Ethereum Layer-2 | Ethereum layer-2 rollup | https://www.emergentmind.com/topics/evm-compatible-chains
+
+  Zero-knowledge proofs (ZKP) | zero-knowledge proof | https://www.emergentmind.com/topics/zero-knowledge-proofs-zkps
+
+  Graph neural networks (GNN) | graph neural network | https://www.emergentmind.com/topics/graph-neural-networks-gnn
+
+  Ontology | ontology knowledge representation | https://www.emergentmind.com/topics/ontology-grounded-llm-construction
+per_topic: 4
 scholars: |
   Jae-Suk Yang · KAIST | gM0qYNUAAAAJ
   Min-Soo Kim · KAIST | 1wZVw8QAAAAJ
   Joon Sung Park · Stanford | Y4Oc0cMAAAAJ
-# 형식: "표시명 | 검색어 | Emergent Mind 토픽 URL"  (검색어·URL은 선택)
-topics: |
-  Deep persona | Deep persona | https://www.emergentmind.com/topics/deep-persona-alignment-dpa
-  Graph database | Graph database | https://www.emergentmind.com/topics/graph-database-neo4j
-  Memory in Agentic AI | Memory in Agentic AI | https://www.emergentmind.com/topics/agentic-memory-systems
-  LLM inference serving | LLM inference serving | https://www.emergentmind.com/topics/efficient-serving-of-large-language-models
-  Ethereum Layer-2 | Ethereum layer-2 rollup | https://www.emergentmind.com/topics/evm-compatible-chains
-  Zero-knowledge proofs (ZKP) | zero-knowledge proof | https://www.emergentmind.com/topics/zero-knowledge-proofs-zkps
-  Graph neural networks (GNN) | graph neural network | https://www.emergentmind.com/topics/graph-neural-networks-gnn
-  Ontology | ontology knowledge representation | https://www.emergentmind.com/topics/ontology-grounded-llm-construction
+per_scholar: 5
+years: 3
+field_concept: C41008148
