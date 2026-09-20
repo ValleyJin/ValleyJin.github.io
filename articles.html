@@ -175,7 +175,7 @@ permalink: /articles/
           var cp=filtered().slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);}).slice(0,40);
           listEl.innerHTML='<div class="nl-head mono">Most cited · '+esc(st.topic)+' · '+cp.length+'</div>'+(cp.length?'<ul class="pubs">'+cp.map(paperLi).join('')+'</ul>':'');
         } else {
-          var ps=(byDate()[st.sel]||[]);
+          var ps=(byDate()[st.sel]||[]).slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);});
           var head='<div class="nl-head mono">'+esc(st.sel)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div>';
           listEl.innerHTML=head+(ps.length?'<ul class="pubs">'+ps.map(paperLi).join('')+'</ul>':'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">이 날 발간된 논문이 없습니다.</p>');
         }
