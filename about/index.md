@@ -139,7 +139,7 @@ permalink: /about/
 <h3>Recognition</h3>
 <div class="cv-highlights">
   <div class="h"><span class="v"><a href="https://scholar.google.co.kr/citations?user=ThQ_DqUAAAAJ&hl=en" target="_blank" rel="noopener">36</a></span><span class="k">Published articles</span></div>
-  <div class="h"><span class="v">2</span><span class="k">Books authored</span></div>
+  <div class="h"><span class="v"><a href="https://product.kyobobook.co.kr/detail/S000001866155" target="_blank" rel="noopener">2</a></span><span class="k">Books authored</span></div>
   <div class="h"><span class="v">10+</span><span class="k">Korean patents</span></div>
 </div>
 <ul class="cv-list">
