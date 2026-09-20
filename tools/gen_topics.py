@@ -234,7 +234,7 @@ def main():
     else:
         per_scholar = int(cfg.get("per_scholar", 5))
         sresult = {"generated": today, "source": "Google Scholar", "scholars": []}
-        for name, uid in scholars_list:
+        for name, uid, _ in scholars_list:
             blk = {"name": name, "id": uid, "papers": []}
             try:
                 data = fetch_scholar(uid, serp_key, per_scholar)
