@@ -1,0 +1,14 @@
+{%- comment -%} Post list thumbnail: YouTube (hover-plays) > cover image > empty placeholder {%- endcomment -%}
+{%- assign yt = post.youtube -%}
+{%- if yt and yt != "" -%}
+  {%- if yt contains "watch?v=" -%}{%- assign _id = yt | split: "watch?v=" | last | split: "&" | first -%}
+  {%- elsif yt contains "youtu.be/" -%}{%- assign _id = yt | split: "youtu.be/" | last | split: "?" | first -%}
+  {%- elsif yt contains "/embed/" -%}{%- assign _id = yt | split: "/embed/" | last | split: "?" | first -%}
+  {%- elsif yt contains "/shorts/" -%}{%- assign _id = yt | split: "/shorts/" | last | split: "?" | first -%}
+  {%- else -%}{%- assign _id = yt | strip -%}{%- endif -%}
+  <span class="pth pth-yt" data-yt="{{ _id }}"><img src="https://i.ytimg.com/vi/{{ _id }}/hqdefault.jpg" alt="" loading="lazy"><span class="pth-play" aria-hidden="true"></span></span>
+{%- elsif post.cover and post.cover != "" -%}
+  <span class="pth"><img src="{{ post.cover | relative_url }}" alt="" loading="lazy"></span>
+{%- else -%}
+  <span class="pth pth-empty" aria-hidden="true"></span>
+{%- endif -%}

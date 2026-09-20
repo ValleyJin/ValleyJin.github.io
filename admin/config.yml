@@ -46,6 +46,7 @@ collections:
         default: "{{ _labels | first }}"
 {% raw %}      - { label: "Tags", name: "tags", widget: "list", default: [], required: false }
       - { label: "Cover image", name: "cover", widget: "image", required: false, choose_url: false }
+      - { label: "YouTube (optional)", name: "youtube", widget: "string", required: false, hint: "대표 영상 URL 또는 ID. 목록 썸네일에 표시되고 마우스 호버 시 미리보기가 재생된다. Cover image보다 우선." }
       - { label: "Excerpt", name: "excerpt", widget: "text", required: false, hint: "One or two sentences shown in listings." }
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Body", name: "body", widget: "markdown" }

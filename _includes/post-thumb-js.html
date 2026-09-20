@@ -1,0 +1,19 @@
+<script>
+/* Hover-to-play preview for YouTube post thumbnails (muted, no controls). */
+(function(){
+  var items = document.querySelectorAll('.pth-yt');
+  items.forEach(function(el){
+    var id = el.getAttribute('data-yt'); if(!id) return;
+    var orig = el.innerHTML, playing = false;
+    el.addEventListener('mouseenter', function(){
+      if(playing) return; playing = true;
+      el.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + id +
+        '?autoplay=1&mute=1&controls=0&loop=1&playlist=' + id +
+        '&modestbranding=1&rel=0&playsinline=1" allow="autoplay" title="preview" tabindex="-1"></iframe>';
+    });
+    el.addEventListener('mouseleave', function(){
+      if(!playing) return; playing = false; el.innerHTML = orig;
+    });
+  });
+})();
+</script>

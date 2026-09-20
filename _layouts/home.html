@@ -33,12 +33,14 @@
         <li>
           <a class="post-row" href="{{ post.url | relative_url }}">
             <span class="d">{{ post.date | date: "%Y.%m.%d" }}</span>
+            {% include post-thumb.html %}
             <span class="t">{{ post.title }}{% if post.excerpt %}<span class="sub">{{ post.excerpt | strip_html | truncate: 90 }}</span>{% endif %}</span>
             <span class="c">{{ post.category }}</span>
           </a>
         </li>
         {% endfor %}
       </ul>
+      {% include post-thumb-js.html %}
     </div>
   </section>
 
