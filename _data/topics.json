@@ -70,12 +70,12 @@
           "cites": 18
         },
         {
-          "title": "SRplot: A free online platform for data visualization and graphing",
-          "authors": "Tang, D., Chen, M., Huang, X., Zhang, G., Zeng, L., Zhang, G., et al.",
-          "year": 2023,
-          "venue": "PLoS ONE",
-          "url": "https://doi.org/10.1371/journal.pone.0294236",
-          "cites": 2565
+          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
+          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
+          "year": 2024,
+          "venue": "Proceedings of the VLDB Endowment",
+          "url": "https://doi.org/10.14778/3685800.3685814",
+          "cites": 15
         }
       ],
       "count": 117165

@@ -1630,61 +1630,52 @@
         "topic": "Graph database"
       },
       {
-        "title": "An automated method for finding molecular complexes in large protein interaction networks",
-        "authors": "Bader, G. D., & Hogue, C. W.",
-        "year": 2003,
-        "venue": "BMC Bioinformatics",
-        "url": "https://doi.org/10.1186/1471-2105-4-2",
-        "cites": 6380,
+        "title": "Face recognition by elastic bunch graph matching",
+        "authors": "Wiskott, L., Fellous, J., Kuiger, N., & Malsburg, C. V. D.",
+        "year": 1997,
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "url": "https://doi.org/10.1109/34.598235",
+        "cites": 2891,
         "topic": "Graph database"
       },
       {
-        "title": "The KEGG resource for deciphering the genome",
-        "authors": "Kanehisa, M.",
-        "year": 2003,
-        "venue": "Nucleic Acids Research",
-        "url": "https://doi.org/10.1093/nar/gkh063",
-        "cites": 5321,
+        "title": "Survey of graph database models",
+        "authors": "Angles, R., & Gutiérrez, C.",
+        "year": 2008,
+        "venue": "ACM Computing Surveys",
+        "url": "https://doi.org/10.1145/1322432.1322433",
+        "cites": 1711,
         "topic": "Graph database"
       },
       {
-        "title": "BioGRID: a general repository for interaction datasets",
-        "authors": "Stark, C.",
-        "year": 2005,
-        "venue": "Nucleic Acids Research",
-        "url": "https://doi.org/10.1093/nar/gkj109",
-        "cites": 4154,
+        "title": "A (sub)graph isomorphism algorithm for matching large graphs",
+        "authors": "Cordella, L., Foggia, P., Sansone, C., & Vento, M.",
+        "year": 2004,
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "url": "https://doi.org/10.1109/tpami.2004.75",
+        "cites": 1502,
         "topic": "Graph database"
       },
       {
-        "title": "The Reactome Pathway Knowledgebase",
-        "authors": "Fabregat, A., Jupe, S., Matthews, L., Sidiropoulos, K., Gillespie, M., Garapati, P., et al.",
+        "title": "Foundations of Modern Query Languages for Graph Databases",
+        "authors": "Angles, R., Arenas, M., Barceló, P., Hogan, A., Reutter, J. L., & Vrgoč, D.",
         "year": 2017,
-        "venue": "Nucleic Acids Research",
-        "url": "https://doi.org/10.1093/nar/gkx1132",
-        "cites": 3225,
+        "venue": "ACM Computing Surveys",
+        "url": "https://doi.org/10.1145/3104031",
+        "cites": 383,
         "topic": "Graph database"
       },
       {
-        "title": "InterProScan: protein domains identifier",
-        "authors": "Quévillon, E., Silventoinen, V., Pillai, S., Harte, N., Mulder, N., Apweiler, R., et al.",
-        "year": 2005,
-        "venue": "Nucleic Acids Research",
-        "url": "https://doi.org/10.1093/nar/gki442",
-        "cites": 3205,
+        "title": "Reactome graph database: Efficient access to complex pathway data",
+        "authors": "Fabregat, A., Korninger, F., Viteri, G., Sidiropoulos, K., Marín-García, P., Ping, P., et al.",
+        "year": 2018,
+        "venue": "PLoS Computational Biology",
+        "url": "https://doi.org/10.1371/journal.pcbi.1005968",
+        "cites": 298,
         "topic": "Graph database"
       }
     ],
     "Memory in Agentic AI": [
-      {
-        "title": "Bounds on Multiprocessing Timing Anomalies",
-        "authors": "Graham, R.",
-        "year": 1969,
-        "venue": "SIAM Journal on Applied Mathematics",
-        "url": "https://doi.org/10.1137/0117039",
-        "cites": 2383,
-        "topic": "Memory in Agentic AI"
-      },
       {
         "title": "Artificial Intelligence: Structures and Strategies for Complex Problem Solving",
         "authors": "Khorasani, E. S.",
@@ -1704,15 +1695,6 @@
         "topic": "Memory in Agentic AI"
       },
       {
-        "title": "A new strategy to understand how HIV infects women: identification of a window of vulnerability during the menstrual cycle",
-        "authors": "Wira, C. R., & Fahey, J. V.",
-        "year": 2008,
-        "venue": "AIDS",
-        "url": "https://doi.org/10.1097/qad.0b013e3283060ea4",
-        "cites": 246,
-        "topic": "Memory in Agentic AI"
-      },
-      {
         "title": "AI Agents vs. Agentic AI: A Conceptual taxonomy, applications and challenges",
         "authors": "Sapkota, R., Roumeliotis, K. I., & Karkee, M.",
         "year": 2025,
@@ -1728,6 +1710,24 @@
         "venue": "SuperIntelligence - Robotics - Safety & Alignment",
         "url": "https://doi.org/10.70777/si.v2i3.15161",
         "cites": 172,
+        "topic": "Memory in Agentic AI"
+      },
+      {
+        "title": "The Rise of Agentic AI: A Review of Definitions, Frameworks, Architectures, Applications, Evaluation Metrics, and Challenges",
+        "authors": "Bandi, A., Kongari, B., Naguru, R., Pasnoor, S., & Vilipala, S. V.",
+        "year": 2025,
+        "venue": "Future Internet",
+        "url": "https://doi.org/10.3390/fi17090404",
+        "cites": 166,
+        "topic": "Memory in Agentic AI"
+      },
+      {
+        "title": "Agentic AI: A Comprehensive Survey of Technologies, Applications, and Societal Implications",
+        "authors": "Pati, A. K.",
+        "year": 2025,
+        "venue": "IEEE Access",
+        "url": "https://doi.org/10.1109/access.2025.3585609",
+        "cites": 83,
         "topic": "Memory in Agentic AI"
       }
     ],
@@ -1863,15 +1863,6 @@
         "topic": "Zero-knowledge proofs (ZKP)"
       },
       {
-        "title": "A Privacy-Preserving and Transparent Certification System for Digital Credentials",
-        "authors": "Q., S. R., Hein, M., & N., J. L.",
-        "year": 2014,
-        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
-        "url": "https://doi.org/10.4230/lipics.opodis.2022.9",
-        "cites": 1210,
-        "topic": "Zero-knowledge proofs (ZKP)"
-      },
-      {
         "title": "Zero-knowledge proofs of identity",
         "authors": "Feige, U., Fiat, A., & Shamir, A.",
         "year": 1988,
@@ -1881,34 +1872,34 @@
         "topic": "Zero-knowledge proofs (ZKP)"
       },
       {
-        "title": "Security and Privacy on Blockchain",
-        "authors": "Zhang, R., Xue, R., & Liu, L.",
-        "year": 2019,
-        "venue": "ACM Computing Surveys",
-        "url": "https://doi.org/10.1145/3316481",
-        "cites": 900,
+        "title": "Definitions and properties of zero-knowledge proof systems",
+        "authors": "Goldreich, O., & Oren, Y.",
+        "year": 1994,
+        "venue": "Journal of Cryptology",
+        "url": "https://doi.org/10.1007/bf00195207",
+        "cites": 608,
         "topic": "Zero-knowledge proofs (ZKP)"
       },
       {
-        "title": "Nonmalleable Cryptography",
-        "authors": "Dolev, D., Dwork, C., & Naor, M.",
-        "year": 2000,
+        "title": "On the Composition of Zero-Knowledge Proof Systems",
+        "authors": "Goldreich, O., & Krawczyk, H.",
+        "year": 1996,
         "venue": "SIAM Journal on Computing",
-        "url": "https://doi.org/10.1137/s0097539795291562",
-        "cites": 748,
+        "url": "https://doi.org/10.1137/s0097539791220688",
+        "cites": 427,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "How to construct constant-round zero-knowledge proof systems for NP",
+        "authors": "Goldreich, O., & Kahan, A.",
+        "year": 1996,
+        "venue": "Journal of Cryptology",
+        "url": "https://doi.org/10.1007/bf00208001",
+        "cites": 335,
         "topic": "Zero-knowledge proofs (ZKP)"
       }
     ],
     "Graph neural networks (GNN)": [
-      {
-        "title": "Gradient-based learning applied to document recognition",
-        "authors": "LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P.",
-        "year": 1998,
-        "venue": "Proceedings of the IEEE",
-        "url": "https://doi.org/10.1109/5.726791",
-        "cites": 59717,
-        "topic": "Graph neural networks (GNN)"
-      },
       {
         "title": "Collective dynamics of ‘small-world’ networks",
         "authors": "Watts, D. J., & Strogatz, S. H.",
@@ -1916,15 +1907,6 @@
         "venue": "Nature",
         "url": "https://doi.org/10.1038/30918",
         "cites": 43633,
-        "topic": "Graph neural networks (GNN)"
-      },
-      {
-        "title": "Complex networks: Structure and dynamics",
-        "authors": "Boccaletti, S., Latora, V., Moreno, Y., Chávez, M., & Hwang, D.",
-        "year": 2006,
-        "venue": "Physics Reports",
-        "url": "https://doi.org/10.1016/j.physrep.2005.10.009",
-        "cites": 11140,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -1946,12 +1928,30 @@
         "topic": "Graph neural networks (GNN)"
       },
       {
-        "title": "Dynamic Graph CNN for Learning on Point Clouds",
-        "authors": "Wang, Y., Sun, Y., Liu, Z., Sarma, S. E., Bronstein, M. M., & Solomon, J.",
-        "year": 2019,
-        "venue": "ACM Transactions on Graphics",
-        "url": "https://doi.org/10.1145/3326362",
-        "cites": 7052,
+        "title": "Graph neural networks: A review of methods and applications",
+        "authors": "Zhou, J., Cui, G., Hu, S., Zhang, Z., Yang, C., Liu, Z., et al.",
+        "year": 2020,
+        "venue": "AI Open",
+        "url": "https://doi.org/10.1016/j.aiopen.2021.01.001",
+        "cites": 5867,
+        "topic": "Graph neural networks (GNN)"
+      },
+      {
+        "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
+        "authors": "Gabriel, S., Mário, R., António, T., & Marlene, A.",
+        "year": 2024,
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+        "url": "https://doi.org/10.4230/lipics.sea.2024.20",
+        "cites": 5417,
+        "topic": "Graph neural networks (GNN)"
+      },
+      {
+        "title": "Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties",
+        "authors": "Xie, T., & Grossman, J. C.",
+        "year": 2018,
+        "venue": "Physical Review Letters",
+        "url": "https://doi.org/10.1103/physrevlett.120.145301",
+        "cites": 2873,
         "topic": "Graph neural networks (GNN)"
       }
     ],
@@ -1984,15 +1984,6 @@
         "topic": "Ontology"
       },
       {
-        "title": "Systematic software development using VDM",
-        "authors": "Vadera, S.",
-        "year": 1986,
-        "venue": "Data Processing",
-        "url": "https://doi.org/10.1016/0011-684x(86)90240-6",
-        "cites": 1126,
-        "topic": "Ontology"
-      },
-      {
         "title": "Disease Ontology: a backbone for disease semantic integration",
         "authors": "Schriml, L. M., Arze, C., Nadendla, S., Chang, Y. W., Mazaitis, M. J., Felix, V., et al.",
         "year": 2011,
@@ -2008,6 +1999,15 @@
         "venue": "Nucleic Acids Research",
         "url": "https://doi.org/10.1093/nar/gkr469",
         "cites": 810,
+        "topic": "Ontology"
+      },
+      {
+        "title": "The evolution, challenges, and future of knowledge representation in product design systems",
+        "authors": "Chandrasegaran, S., Ramani, K., Sriram, R. D., Horváth, I., Bernard, A., Harik, R., et al.",
+        "year": 2012,
+        "venue": "Computer-Aided Design",
+        "url": "https://doi.org/10.1016/j.cad.2012.08.006",
+        "cites": 657,
         "topic": "Ontology"
       }
     ]
