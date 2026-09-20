@@ -1650,57 +1650,12 @@
     ],
     "Memory in Agentic AI": [
       {
-        "title": "Artificial Intelligence: Structures and Strategies for Complex Problem Solving",
-        "authors": "Khorasani, E. S.",
-        "year": 2008,
-        "venue": "Scalable Computing Practice and Experience",
-        "url": "https://doi.org/10.12694/scpe.v9i3.534",
-        "cites": 328,
-        "topic": "Memory in Agentic AI"
-      },
-      {
-        "title": "Empowering biomedical discovery with AI agents",
-        "authors": "Gao, S., Fang, A., Huang, Y., Giunchiglia, V., Noori, A., Schwarz, J. R., et al.",
-        "year": 2024,
-        "venue": "Cell",
-        "url": "https://doi.org/10.1016/j.cell.2024.09.022",
-        "cites": 291,
-        "topic": "Memory in Agentic AI"
-      },
-      {
-        "title": "AI Agents vs. Agentic AI: A Conceptual taxonomy, applications and challenges",
-        "authors": "Sapkota, R., Roumeliotis, K. I., & Karkee, M.",
+        "title": "Agentic AI for Cultural Heritage: Embedding Risk Memory in Semantic Digital Twins",
+        "authors": "Pavlidis, G.",
         "year": 2025,
-        "venue": "Information Fusion",
-        "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-        "cites": 205,
-        "topic": "Memory in Agentic AI"
-      },
-      {
-        "title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
-        "authors": "Sapkota, R., Roumeliotis, K. I., & Karkee, M.",
-        "year": 2025,
-        "venue": "SuperIntelligence - Robotics - Safety & Alignment",
-        "url": "https://doi.org/10.70777/si.v2i3.15161",
-        "cites": 172,
-        "topic": "Memory in Agentic AI"
-      },
-      {
-        "title": "The Rise of Agentic AI: A Review of Definitions, Frameworks, Architectures, Applications, Evaluation Metrics, and Challenges",
-        "authors": "Bandi, A., Kongari, B., Naguru, R., Pasnoor, S., & Vilipala, S. V.",
-        "year": 2025,
-        "venue": "Future Internet",
-        "url": "https://doi.org/10.3390/fi17090404",
-        "cites": 166,
-        "topic": "Memory in Agentic AI"
-      },
-      {
-        "title": "Agentic AI: A Comprehensive Survey of Technologies, Applications, and Societal Implications",
-        "authors": "Pati, A. K.",
-        "year": 2025,
-        "venue": "IEEE Access",
-        "url": "https://doi.org/10.1109/access.2025.3585609",
-        "cites": 83,
+        "venue": "Computers",
+        "url": "https://doi.org/10.3390/computers14070266",
+        "cites": 7,
         "topic": "Memory in Agentic AI"
       }
     ],
@@ -1762,57 +1717,21 @@
     ],
     "Ethereum Layer-2": [
       {
-        "title": "Practical Limitations of Ethereum’s Layer-2",
-        "authors": "Neiheiser, R., Inácio, G., Rech, L., Montez, C., Matos, M., & Rodrigues, L.",
-        "year": 2023,
-        "venue": "IEEE Access",
-        "url": "https://doi.org/10.1109/access.2023.3237897",
-        "cites": 52,
-        "topic": "Ethereum Layer-2"
-      },
-      {
-        "title": "A Holistic Approach for Trustworthy Distributed Systems with WebAssembly and TEEs",
-        "authors": "Andrei, A., Claudiu-Nicu, B., Oana-Otilia, C., Pascal, F., Corentin, L., Emanuel, O., et al.",
-        "year": 2024,
-        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
-        "url": "https://doi.org/10.4230/lipics.opodis.2023.23",
-        "cites": 34,
-        "topic": "Ethereum Layer-2"
-      },
-      {
-        "title": "BlockMEDC: Blockchain Smart Contracts System for Securing Moroccan Higher Education Digital Certificates",
-        "authors": "Fartitchou, M., Lamaakal, I., Makkaoui, K. E., Allali, Z. E., & Maleh, Y.",
+        "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
+        "authors": "Melo, C., Miqueias, J., Messias, J., Gonçalves, G., Silva, F. A., Soares, A., et al.",
         "year": 2025,
-        "venue": "IEEE Access",
-        "url": "https://doi.org/10.1109/access.2025.3546177",
-        "cites": 22,
+        "venue": "Future Generation Computer Systems",
+        "url": "https://doi.org/10.1016/j.future.2025.108316",
+        "cites": 2,
         "topic": "Ethereum Layer-2"
       },
       {
-        "title": "Decentralized IoT Data Authentication with Signature Aggregation",
-        "authors": "Burgos, J. B., & Pustišek, M.",
-        "year": 2024,
-        "venue": "Sensors",
-        "url": "https://doi.org/10.3390/s24031037",
-        "cites": 17,
-        "topic": "Ethereum Layer-2"
-      },
-      {
-        "title": "The Blockchain Trilemma: An Evaluation Framework",
-        "authors": "Quattrocchi, G., Scaramuzza, F., & Tamburri, D. A.",
-        "year": 2024,
-        "venue": "IEEE Software",
-        "url": "https://doi.org/10.1109/ms.2024.3417341",
-        "cites": 16,
-        "topic": "Ethereum Layer-2"
-      },
-      {
-        "title": "Scalable & secure real-world asset tokenization using ethereum staking & layer-2 solutions",
-        "authors": "Zhao, X., Ding, J., Su, Y., Wang, H., Guo, F., Zhang, Q., et al.",
-        "year": 2025,
-        "venue": "Peer-to-Peer Networking and Applications",
-        "url": "https://doi.org/10.1007/s12083-025-02032-6",
-        "cites": 5,
+        "title": "Kajian Literatur: Rollups Sebagai Solusi Skalabilitas Ethereum dari Layer 1 ke Layer 2",
+        "authors": "Kumala, Y. N., Parlika, R., & Maulana, H.",
+        "year": 2026,
+        "venue": "Prosiding Seminar Nasional Informatika Bela Negara",
+        "url": "https://doi.org/10.33005/santika.v6i1.912",
+        "cites": 0,
         "topic": "Ethereum Layer-2"
       }
     ],
