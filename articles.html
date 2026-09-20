@@ -79,7 +79,7 @@ permalink: /articles/
     {% assign t = site.data.topics %}
     <!-- topic filter tabs -->
     <div class="ntabs" id="ntabs" role="tablist"></div>
-    <p class="nmeta mono">via <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>{% if t.generated %} · updated {{ t.generated }}{% endif %}</p>
+    <p class="nmeta mono"><svg class="via-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/></svg>via <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>{% if t.generated %} · updated {{ t.generated }}{% endif %}</p>
 
     <div class="newest" id="newest" hidden>
       <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2>Newest</h2></div>
@@ -96,7 +96,7 @@ permalink: /articles/
     </div>
 
     <div class="mostcited" id="mostcited" hidden>
-      <div class="section-head" style="margin:34px 0 6px"><h2>Most cited</h2><a id="em-link" class="more mono" target="_blank" rel="noopener" hidden>For more: Emergent Mind ↗</a></div>
+      <div class="section-head" style="margin:34px 0 6px"><h2>Most cited</h2><a id="em-link" class="more mono" target="_blank" rel="noopener" hidden>Deep dive into Emergent Mind ↗</a></div>
       <ul class="pubs" id="mostcited-list"></ul>
     </div>
   </div><!-- /pane-topics -->

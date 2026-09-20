@@ -210,6 +210,7 @@ img{max-width:100%;display:block}
 .ntab:hover{color:var(--ink-soft);border-color:var(--accent-dim)}
 .ntab.is-active{color:var(--accent);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--bg-elev))}
 .nmeta{font-size:11px;color:var(--muted);margin:0 0 18px}
+.via-ico{width:12px;height:12px;display:inline-block;vertical-align:-2px;margin-right:5px;color:var(--accent)}
 .nmeta a{color:var(--muted);border-bottom:1px solid var(--line)}
 .nmeta a:hover{color:var(--accent);border-color:var(--accent)}
 .nsort{display:inline-flex;gap:2px;font-family:var(--mono);font-size:12px}
