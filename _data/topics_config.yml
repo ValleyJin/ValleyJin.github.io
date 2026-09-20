@@ -6,11 +6,11 @@ years: 3            # 최근 N년 논문만
 per_topic: 4        # 토픽당 논문 수
 field_concept: C41008148   # OpenAlex concept: Computer Science
 topics: |
-  LLM inference serving
   Deep persona
+  Graph database
   Memory in Agentic AI
+  LLM inference serving
   Ethereum Layer-2 | Ethereum layer-2 rollup
   Zero-knowledge proofs (ZKP) | zero-knowledge proof
-  Graph database
   Graph neural networks (GNN) | graph neural network
   Ontology | ontology knowledge representation

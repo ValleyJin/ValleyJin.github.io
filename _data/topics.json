@@ -3,45 +3,6 @@
   "field": "Computer Science · AI & databases",
   "topics": [
     {
-      "topic": "LLM inference serving",
-      "query": "LLM inference serving",
-      "papers": [
-        {
-          "title": "SLO-Aware GPU DVFS for Energy-Efficient LLM Inference Serving",
-          "authors": "Kakolyris, A. K., Masouros, D., Xydis, S., & Soudris, D.",
-          "year": 2024,
-          "venue": "IEEE Computer Architecture Letters",
-          "url": "https://doi.org/10.1109/lca.2024.3406038",
-          "cites": 39
-        },
-        {
-          "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
-          "authors": "Gao, S., Zhang, X., Shen, Y., & Chen, L.",
-          "year": 2025,
-          "venue": "Proceedings of the ACM on Management of Data",
-          "url": "https://doi.org/10.1145/3725394",
-          "cites": 5
-        },
-        {
-          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
-          "authors": "Guo, D., Yang, D., Zhang, H., Song, J., Wang, P., Zhu, Q., et al.",
-          "year": 2025,
-          "venue": "Nature",
-          "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 992
-        },
-        {
-          "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
-          "authors": "Wilkins, G., Keshav, S., & Mortier, R.",
-          "year": 2024,
-          "venue": "ACM SIGEnergy Energy Informatics Review",
-          "url": "https://doi.org/10.1145/3727200.3727217",
-          "cites": 27
-        }
-      ],
-      "count": 5819
-    },
-    {
       "topic": "Deep persona",
       "query": "Deep persona",
       "papers": [
@@ -81,6 +42,45 @@
       "count": 10248
     },
     {
+      "topic": "Graph database",
+      "query": "Graph database",
+      "papers": [
+        {
+          "title": "Testing Graph Database Systems via Graph-Aware Metamorphic Relations",
+          "authors": "Zhuang, Z., Li, P., Ma, P., Meng, W., & Wang, S.",
+          "year": 2023,
+          "venue": "Proceedings of the VLDB Endowment",
+          "url": "https://doi.org/10.14778/3636218.3636236",
+          "cites": 22
+        },
+        {
+          "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
+          "authors": "Hornsteiner, M., Kreussel, M., Steindl, C., Ebner, F. F., Empl, P., & Schönig, S.",
+          "year": 2024,
+          "venue": "Future Internet",
+          "url": "https://doi.org/10.3390/fi16120438",
+          "cites": 28
+        },
+        {
+          "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
+          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K.",
+          "year": 2024,
+          "venue": "MethodsX",
+          "url": "https://doi.org/10.1016/j.mex.2024.102683",
+          "cites": 18
+        },
+        {
+          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
+          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
+          "year": 2024,
+          "venue": "Proceedings of the VLDB Endowment",
+          "url": "https://doi.org/10.14778/3685800.3685814",
+          "cites": 15
+        }
+      ],
+      "count": 117165
+    },
+    {
       "topic": "Memory in Agentic AI",
       "query": "Memory in Agentic AI",
       "papers": [
@@ -118,6 +118,45 @@
         }
       ],
       "count": 40629
+    },
+    {
+      "topic": "LLM inference serving",
+      "query": "LLM inference serving",
+      "papers": [
+        {
+          "title": "SLO-Aware GPU DVFS for Energy-Efficient LLM Inference Serving",
+          "authors": "Kakolyris, A. K., Masouros, D., Xydis, S., & Soudris, D.",
+          "year": 2024,
+          "venue": "IEEE Computer Architecture Letters",
+          "url": "https://doi.org/10.1109/lca.2024.3406038",
+          "cites": 39
+        },
+        {
+          "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
+          "authors": "Gao, S., Zhang, X., Shen, Y., & Chen, L.",
+          "year": 2025,
+          "venue": "Proceedings of the ACM on Management of Data",
+          "url": "https://doi.org/10.1145/3725394",
+          "cites": 5
+        },
+        {
+          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+          "authors": "Guo, D., Yang, D., Zhang, H., Song, J., Wang, P., Zhu, Q., et al.",
+          "year": 2025,
+          "venue": "Nature",
+          "url": "https://doi.org/10.1038/s41586-025-09422-z",
+          "cites": 992
+        },
+        {
+          "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
+          "authors": "Wilkins, G., Keshav, S., & Mortier, R.",
+          "year": 2024,
+          "venue": "ACM SIGEnergy Energy Informatics Review",
+          "url": "https://doi.org/10.1145/3727200.3727217",
+          "cites": 27
+        }
+      ],
+      "count": 5819
     },
     {
       "topic": "Ethereum Layer-2",
@@ -196,45 +235,6 @@
         }
       ],
       "count": 40480
-    },
-    {
-      "topic": "Graph database",
-      "query": "Graph database",
-      "papers": [
-        {
-          "title": "Testing Graph Database Systems via Graph-Aware Metamorphic Relations",
-          "authors": "Zhuang, Z., Li, P., Ma, P., Meng, W., & Wang, S.",
-          "year": 2023,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3636218.3636236",
-          "cites": 22
-        },
-        {
-          "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
-          "authors": "Hornsteiner, M., Kreussel, M., Steindl, C., Ebner, F. F., Empl, P., & Schönig, S.",
-          "year": 2024,
-          "venue": "Future Internet",
-          "url": "https://doi.org/10.3390/fi16120438",
-          "cites": 28
-        },
-        {
-          "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
-          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K.",
-          "year": 2024,
-          "venue": "MethodsX",
-          "url": "https://doi.org/10.1016/j.mex.2024.102683",
-          "cites": 18
-        },
-        {
-          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
-          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
-          "year": 2024,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3685800.3685814",
-          "cites": 15
-        }
-      ],
-      "count": 117165
     },
     {
       "topic": "Graph neural networks (GNN)",
