@@ -194,6 +194,99 @@ img{max-width:100%;display:block}
 .tags a{font-family:var(--mono);font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:4px 12px}
 .tags a:hover{border-color:var(--accent);color:var(--accent)}
 
+/* ============================================================
+   About — intro portrait (photo + lede, responsive, fade-in)
+   ============================================================ */
+.about-intro{
+  display:grid;grid-template-columns:300px 1fr;gap:40px;align-items:center;
+  margin:2px 0 42px;
+}
+.about-portrait{margin:0;position:relative}
+.about-frame{
+  position:relative;overflow:hidden;border-radius:16px;
+  border:1px solid var(--line);background:var(--bg-elev);
+  box-shadow:0 22px 50px -28px rgba(0,0,0,.65);
+  aspect-ratio:552/690;
+}
+/* accent hairline that draws itself in on load */
+.about-frame::after{
+  content:"";position:absolute;inset:0;border-radius:16px;pointer-events:none;
+  box-shadow:inset 0 0 0 1px transparent;transition:box-shadow .35s ease;
+}
+.about-portrait:hover .about-frame::after{box-shadow:inset 0 0 0 1px var(--accent)}
+.about-frame img{
+  width:100%;height:100%;object-fit:cover;display:block;margin:0;border:0;border-radius:0;
+  transform:scale(1.02);transition:transform 1.2s cubic-bezier(.2,.7,.2,1),filter .5s ease;
+  filter:saturate(.97);
+}
+.about-portrait:hover .about-frame img{transform:scale(1.08);filter:saturate(1.05)}
+.about-portrait figcaption{
+  display:flex;align-items:center;gap:9px;margin-top:14px;
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+}
+.about-portrait figcaption::before{content:"";width:18px;height:1px;background:var(--accent);flex:none}
+.about-lede{font-size:18.5px;line-height:1.72;color:var(--ink-soft);margin:0}
+.about-lede strong{color:var(--ink);font-weight:650}
+.about-lede .accent{color:var(--accent)}
+@media(max-width:600px){
+  .about-intro{grid-template-columns:1fr;gap:24px}
+  .about-portrait{max-width:280px;margin:0 auto}
+  .about-lede{font-size:17px;text-align:left}
+}
+
+/* ---- About: CV — experience / skills / education / recognition ---- */
+.cv-list{list-style:none;margin:2px 0 10px;padding:0;font-family:var(--sans)}
+.cv-item{display:grid;grid-template-columns:148px 1fr;gap:22px;padding:20px 0;border-bottom:1px solid var(--line-soft)}
+.cv-item:last-child{border-bottom:0}
+.cv-when{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.01em;padding-top:4px;white-space:nowrap}
+.cv-body{min-width:0}
+.cv-body h4{margin:0 0 4px;font-size:16.5px;font-weight:600;letter-spacing:-.01em;color:var(--ink);transition:color .15s}
+.cv-item:hover .cv-body h4{color:var(--accent)}
+.cv-body .org{display:flex;flex-wrap:wrap;gap:5px 12px;align-items:baseline;margin:0 0 8px}
+.cv-body .org .role{font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;color:var(--accent)}
+.cv-body .org a{font-family:var(--mono);font-size:11.5px;color:var(--muted);border-bottom:1px solid var(--line)}
+.cv-body .org a:hover{color:var(--accent);border-color:var(--accent)}
+.cv-body p{margin:0;font-size:14.5px;line-height:1.6;color:var(--muted);font-family:var(--sans)}
+@media(max-width:560px){.cv-item{grid-template-columns:1fr;gap:6px}.cv-when{order:-1;padding-top:0}}
+
+.skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-family:var(--sans);margin:2px 0 8px}
+.skills-grid .cell{background:var(--bg);padding:20px 22px}
+.skills-grid .cell h4{margin:0 0 9px;font-size:14px;font-weight:600;color:var(--ink);display:flex;align-items:center;gap:9px}
+.skills-grid .cell h4 .idx{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.skills-grid .cell ul{list-style:none;margin:0;padding:0}
+.skills-grid .cell li{font-size:13.5px;color:var(--muted);line-height:1.5;padding:3px 0;position:relative;padding-left:14px}
+.skills-grid .cell li::before{content:"";position:absolute;left:0;top:10px;width:5px;height:5px;border-radius:1px;background:var(--accent-dim)}
+.skills-grid .cell.wide{grid-column:1 / -1}
+.skills-grid .cell.wide ul{columns:2;column-gap:32px}
+@media(max-width:560px){.skills-grid{grid-template-columns:1fr}.skills-grid .cell.wide ul{columns:1}}
+
+.edu-list{list-style:none;margin:2px 0 8px;padding:0;font-family:var(--sans)}
+.edu-list li{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--line-soft)}
+.edu-list li:last-child{border-bottom:0}
+.edu-list .deg{font-size:14.5px;color:var(--ink-soft)}
+.edu-list .deg b{color:var(--ink);font-weight:600}
+.edu-list .yr{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
+@media(max-width:480px){.edu-list li{grid-template-columns:1fr;gap:2px}.edu-list .yr{grid-column:1}}
+
+.cv-highlights{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:2px 0 22px;font-family:var(--sans)}
+.cv-highlights .h{background:var(--bg-elev);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;gap:2px}
+.cv-highlights .h .v{font-size:27px;font-weight:650;color:var(--accent);letter-spacing:-.01em;line-height:1}
+.cv-highlights .h .k{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-top:5px}
+.cv-highlights .h a{color:inherit}
+@media(max-width:480px){.cv-highlights{grid-template-columns:1fr 1fr}}
+.about-etc{font-family:var(--sans);font-size:14.5px;line-height:1.65;color:var(--muted);margin:2px 0 10px}
+.about-etc strong{color:var(--ink-soft);font-weight:600}
+
+/* fade / rise reveal on load — staggered, motion-safe */
+@keyframes about-rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes about-fade{from{opacity:0}to{opacity:1}}
+.reveal{animation:about-rise .8s cubic-bezier(.22,.61,.36,1) both}
+.reveal.d1{animation-delay:.10s}
+.reveal.d2{animation-delay:.22s}
+.reveal.d3{animation-delay:.34s}
+.about-portrait.reveal{animation:about-fade .9s ease both}
+@media(prefers-reduced-motion:reduce){.reveal{animation:none}.about-frame img{transition:none}}
+
 /* light mode: respect readers who force light, keep it legible */
 @media(prefers-color-scheme:light){
   :root{--bg:#fbfbfa;--bg-elev:#fff;--ink:#16171b;--ink-soft:#3d3f47;--muted:#6b6d77;--line:#e6e6e4;--line-soft:#efefec;--accent:#0f8f79;--accent-dim:#bfe7de;--nav-bg:rgba(251,251,250,.82)}

@@ -6,3 +6,8 @@ node_modules/
 vendor/
 Gemfile.lock
 .DS_Store
+
+# cms-worker (Cloudflare) — 캐시/시크릿 제외
+cms-worker/.wrangler/
+cms-worker/.env
+.gstack/
