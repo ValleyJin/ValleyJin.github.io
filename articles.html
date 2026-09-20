@@ -204,6 +204,7 @@ permalink: /articles/
           if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ sel=k; renderList(k); render(); };})(key)); }
           grid.appendChild(c);
         }
+        try{ listEl.style.maxHeight=document.getElementById('tcal').offsetHeight+'px'; }catch(e){}
       }
       document.getElementById('tcal-prev').onclick=function(){ cur.setMonth(cur.getMonth()-1); render(); };
       document.getElementById('tcal-next').onclick=function(){ cur.setMonth(cur.getMonth()+1); render(); };
