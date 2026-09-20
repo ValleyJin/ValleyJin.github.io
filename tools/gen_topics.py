@@ -20,7 +20,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 CFG = ROOT / "_data" / "topics_config.yml"
 OUT = ROOT / "_data" / "topics.json"
-ARCHIVE = ROOT / "_data" / "topics_new.json"   # 발견일(new)별 논문 누적
+NEWEST = ROOT / "_data" / "newest.json"        # 최근 '발간'된 논문(발간일순, 달력용)
 SCHOLARS = ROOT / "_data" / "scholars.json"    # 팔로우 학자별 최신 논문
 MAILTO = "jscho71@kaist.ac.kr"
 API = "https://api.openalex.org/works"
@@ -67,15 +67,17 @@ def apa_authors(authorships):
     return ", ".join(names[:-1]) + ", & " + names[-1]
 
 
-def fetch(query, concept, cutoff, n):
+def fetch(query, concept, cutoff, n, sort=None):
     filt = (f"default.search:{query},type:article,"
             f"from_publication_date:{cutoff},concepts.id:{concept},has_doi:true")
     q = {
         "filter": filt,
         "per_page": max(n * 2, 8),  # 여유분(중복 제거 후 n개 확보)
         "mailto": MAILTO,
-        "select": "title,publication_year,authorships,primary_location,doi,cited_by_count,id",
+        "select": "title,publication_year,publication_date,authorships,primary_location,doi,cited_by_count,id",
     }
+    if sort:
+        q["sort"] = sort
     url = API + "?" + urllib.parse.urlencode(q)
     req = urllib.request.Request(url, headers={"User-Agent": f"valleyjin-topics ({MAILTO})"})
     with urllib.request.urlopen(req, timeout=60) as r:
@@ -144,35 +146,38 @@ def main():
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"✓ wrote {OUT.relative_to(ROOT)} — {len(result['topics'])} topics")
 
-    # ── 발견일(new)별 아카이브: 이전에 본 적 없는 논문만 '오늘' 버킷에 쌓는다 ──
+    # ── Newest: 팔로우 토픽에서 '최근 발간'된 논문(발간일순) → 달력용 ──
     today = result["generated"]
-    arch = {"days": []}
-    if ARCHIVE.exists():
+    newest, seen_n = [], set()
+    for label, query in topics:
         try:
-            arch = json.loads(ARCHIVE.read_text(encoding="utf-8")) or {"days": []}
-        except Exception:
-            arch = {"days": []}
-    seen = {p["key"] for d in arch.get("days", []) for p in d.get("papers", []) if p.get("key")}
-    new_today, seen_now = [], set()
-    for grp in result["topics"]:
-        for p in grp["papers"]:
-            key = (p.get("url") or p["title"]).strip().lower()
-            if not key or key in seen or key in seen_now:
+            data = fetch(query, concept, cutoff, 12, sort="publication_date:desc")
+        except Exception as e:
+            print(f"! newest {label}: {e}", file=sys.stderr)
+            continue
+        for w in data.get("results", []):
+            pd = w.get("publication_date")
+            title = clean_title(w.get("title"))
+            key = (w.get("doi") or title).strip().lower()
+            if not pd or not title or len(title) < 8 or key in seen_n:
                 continue
-            seen_now.add(key)
-            new_today.append({**p, "topic": grp["topic"], "key": key})
-    if new_today:
-        entry = next((d for d in arch["days"] if d["date"] == today), None)
-        if entry:
-            have = {p["key"] for p in entry["papers"]}
-            entry["papers"].extend(p for p in new_today if p["key"] not in have)
-        else:
-            arch["days"].append({"date": today, "papers": new_today})
-    arch["days"].sort(key=lambda d: d["date"], reverse=True)
-    arch["days"] = arch["days"][:120]      # 최근 ~120일 유지
-    ARCHIVE.write_text(json.dumps(arch, ensure_ascii=False, indent=2), encoding="utf-8")
-    total = sum(len(d["papers"]) for d in arch["days"])
-    print(f"✓ archive: {total} papers / {len(arch['days'])} days (+{len(new_today)} new today)")
+            src = (w.get("primary_location") or {}).get("source") or {}
+            venue = (src.get("display_name") or "").strip()
+            if not venue or venue.lower().startswith(("zenodo", "figshare", "ssrn")):
+                continue
+            seen_n.add(key)
+            newest.append({
+                "date": pd, "title": title,
+                "authors": apa_authors(w.get("authorships", [])),
+                "year": w.get("publication_year"), "venue": venue,
+                "url": w.get("doi") or w.get("id"),
+                "cites": w.get("cited_by_count", 0), "topic": label,
+            })
+    newest.sort(key=lambda p: p["date"], reverse=True)
+    newest = newest[:150]
+    NEWEST.write_text(json.dumps({"generated": today, "papers": newest}, ensure_ascii=False, indent=2), encoding="utf-8")
+    ndays = len({p["date"] for p in newest})
+    print(f"✓ newest: {len(newest)} papers over {ndays} publication days")
 
     # ── 팔로우 학자들의 최신 논문 → scholars.json (Google Scholar via SerpAPI) ──
     scholars_list = parse_topics(cfg.get("scholars", ""))   # "표시명 | scholar user id"
