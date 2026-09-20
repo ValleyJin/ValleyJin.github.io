@@ -22,7 +22,7 @@ permalink: /about/
 
 <h3>Launched</h3>
 <ul class="cv-list">
-  <li class="cv-item has-thumb">
+  <li class="cv-item">
     <div class="cv-when">2026 — Present</div>
     <div class="cv-body">
       <h4>Kyopo AI</h4>
@@ -33,9 +33,6 @@ permalink: /about/
         (files up to 5&nbsp;GB); sentence-level caching cuts cost up to 80%, with glossary control
         and text-to-speech in 40+ languages.</p>
     </div>
-    <a class="launch-thumb" href="https://kyopo.ai" target="_blank" rel="noopener" aria-label="Open Kyopo AI">
-      <img src="{{ '/assets/images/kyopo-thumb.jpg' | relative_url }}" alt="Kyopo AI" loading="lazy" width="1000" height="625">
-    </a>
   </li>
 </ul>
 
