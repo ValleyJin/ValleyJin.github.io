@@ -10,7 +10,7 @@ permalink: /about/
       <img src="{{ '/assets/img/jin.jpg' | relative_url }}" alt="Jin Sam Cho (ValleyJin) standing by a lakeside in Korea"
            width="552" height="690" loading="eager" decoding="async">
     </div>
-    <figcaption>Daejeon · Korea</figcaption>
+    <figcaption>On a windy spring day</figcaption>
   </figure>
   <p class="about-lede reveal d1">
     I'm <strong>Jin Sam Cho</strong> (ValleyJin) — an engineer and builder from Korea
