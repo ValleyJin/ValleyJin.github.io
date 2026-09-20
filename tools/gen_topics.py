@@ -145,8 +145,12 @@ def main():
         result["topics"].append(block)
         print(f"  {label}: {len(block['papers'])} papers")
 
-    OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"✓ wrote {OUT.relative_to(ROOT)} — {len(result['topics'])} topics")
+    # 모든 토픽 fetch가 실패(예: OpenAlex 429)해 전부 비면 기존 파일을 덮지 않는다.
+    if not any(b["papers"] for b in result["topics"]) and OUT.exists():
+        print("! 모든 토픽 fetch 실패(OpenAlex 오류 추정) — 기존 topics.json 유지", file=sys.stderr)
+    else:
+        OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"✓ wrote {OUT.relative_to(ROOT)} — {len(result['topics'])} topics")
 
     # ── Newest: 팔로우 토픽에서 '최근 발간'된 논문(발간일순) → 달력용 ──
     today = result["generated"]
@@ -216,17 +220,21 @@ def main():
         pick.sort(key=lambda p: p["cites"], reverse=True)
         mostcited[label] = pick[:6]
 
-    NEWEST.write_text(json.dumps({
-        "generated": today,
-        "topics": [label for label, _q, _e in topics],   # 탭 순서(config 순)
-        "em": {label: em for label, _q, em in topics if em},   # 토픽별 Emergent Mind URL
-        "oa": {label: "https://openalex.org/works?filter=default.search:" + urllib.parse.quote(q, safe="")
-               for label, q, _e in topics},                     # 토픽별 OpenAlex 검색화면
-        "papers": newest,
-        "mostcited": mostcited,                      # 키워드별 전기간 피인용 상위
-    }, ensure_ascii=False, indent=2), encoding="utf-8")
-    ndays = len({p["date"] for p in newest})
-    print(f"✓ newest: {len(newest)} papers over {ndays} publication days")
+    # newest/mostcited가 전부 비면(API 오류) 기존 newest.json을 보존한다.
+    if not newest and not any(mostcited.values()) and NEWEST.exists():
+        print("! newest/mostcited 비어있음(OpenAlex 오류 추정) — 기존 newest.json 유지", file=sys.stderr)
+    else:
+        NEWEST.write_text(json.dumps({
+            "generated": today,
+            "topics": [label for label, _q, _e in topics],   # 탭 순서(config 순)
+            "em": {label: em for label, _q, em in topics if em},   # 토픽별 Emergent Mind URL
+            "oa": {label: "https://openalex.org/works?filter=default.search:" + urllib.parse.quote(q, safe="")
+                   for label, q, _e in topics},                     # 토픽별 OpenAlex 검색화면
+            "papers": newest,
+            "mostcited": mostcited,                      # 키워드별 전기간 피인용 상위
+        }, ensure_ascii=False, indent=2), encoding="utf-8")
+        ndays = len({p["date"] for p in newest})
+        print(f"✓ newest: {len(newest)} papers over {ndays} publication days")
 
     # ── 팔로우 학자들의 최신 논문 → scholars.json (Google Scholar via SerpAPI) ──
     scholars_list = parse_topics(cfg.get("scholars", ""))   # "표시명 | scholar user id"
