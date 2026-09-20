@@ -7,7 +7,7 @@ tags:
   - knowrob
   - ontology
   - physical-ai
-cover: /assets/images/uploads/스크린샷-2026-09-20-오후-6.26.52.png
+cover: /assets/images/uploads/robots-cover.png
 excerpt: Perception tells a robot what it sees. Knowledge tells it what that
   means. The gap between the two is where most of the work is.
 layout: post
