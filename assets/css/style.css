@@ -255,21 +255,16 @@ img{max-width:100%;display:block}
   .svc-thumb{order:-1;border-left:0;border-bottom:1px solid var(--line);aspect-ratio:16/10}
 }
 
-/* ---- About: Launched (shipped products, solo-built) ---- */
-.launch-list{list-style:none;margin:2px 0 8px;padding:0;font-family:var(--sans)}
-.launch-item{background:var(--bg-elev);border:1px solid var(--line);border-radius:14px;padding:22px 24px;transition:border-color .2s}
-.launch-item + .launch-item{margin-top:14px}
-.launch-item:hover{border-color:var(--accent-dim)}
-.launch-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:8px}
-.launch-head h4{margin:0;font-size:20px;font-weight:650;letter-spacing:-.01em}
-.launch-head h4 a{color:var(--ink)}
-.launch-head h4 a:hover{color:var(--accent)}
-.launch-head .solo{font-family:var(--mono);font-size:11px;letter-spacing:.04em;color:var(--accent);border:1px solid var(--accent-dim);border-radius:999px;padding:3px 10px;white-space:nowrap}
-.launch-tag{margin:0 0 10px;font-size:15.5px;line-height:1.5;color:var(--ink-soft);font-weight:550}
-.launch-item p.desc{margin:0;font-size:14.5px;line-height:1.62;color:var(--muted);font-family:var(--sans)}
-.launch-meta{margin-top:13px;font-family:var(--mono);font-size:12px}
-.launch-meta a{color:var(--muted);border-bottom:1px solid var(--line)}
-.launch-meta a:hover{color:var(--accent);border-color:var(--accent)}
+/* ---- About: Launched (Experience-format row + small thumbnail on right) ---- */
+.cv-item.has-thumb{grid-template-columns:148px 1fr 190px}
+.cv-item.has-thumb .cv-body p b.accent{color:var(--accent);font-weight:600}
+.launch-thumb{display:block;align-self:center;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--bg-elev)}
+.launch-thumb img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:left center;display:block;transition:transform .4s ease}
+.launch-thumb:hover img{transform:scale(1.05)}
+@media(max-width:640px){
+  .cv-item.has-thumb{grid-template-columns:1fr}
+  .launch-thumb{margin-top:6px;max-width:300px}
+}
 
 /* ---- About: CV — experience / skills / education / recognition ---- */
 .cv-list{list-style:none;margin:2px 0 10px;padding:0;font-family:var(--sans)}

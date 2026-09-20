@@ -21,21 +21,21 @@ permalink: /about/
 </div>
 
 <h3>Launched</h3>
-<ul class="launch-list">
-  <li class="launch-item">
-    <div class="launch-head">
-      <h4><a href="https://kyopo.ai" target="_blank" rel="noopener">Kyopo AI</a></h4>
-      <span class="solo">Solo · designed &amp; built end-to-end</span>
+<ul class="cv-list">
+  <li class="cv-item has-thumb">
+    <div class="cv-when">2026 — Present</div>
+    <div class="cv-body">
+      <h4>Kyopo AI</h4>
+      <div class="org"><span class="role">Solo · 7 AI agents</span><a href="https://kyopo.ai" target="_blank" rel="noopener">kyopo.ai</a></div>
+      <p>Multilingual batch document translation into 50+ languages,
+        <b class="accent">developed and run automatically by 7 AI agents</b> (K3I's PersonaXR
+        deep-persona AI) — I direct; they build, ship, and operate it. Preserves tables and layout
+        (files up to 5&nbsp;GB); sentence-level caching cuts cost up to 80%, with glossary control
+        and text-to-speech in 40+ languages.</p>
     </div>
-    <p class="launch-tag">“Let the world speak” — multilingual batch document translation,
-      <span class="accent">developed and run automatically by a crew of 7 AI agents</span>.</p>
-    <p class="desc">Seven specialized AI agents (K3I's PersonaXR deep-persona AI, each with its own
-      persona and expertise) build, ship, and operate the product — I direct them; they do the work.
-      It translates Excel, Word, HWPX, PowerPoint, PDF, and Google Workspace files into 50+ languages
-      in one pass while keeping tables and layout intact (files up to 5&nbsp;GB). Sentence-level
-      caching cuts cost up to 80%, with glossary control, a 0%-omission verification loop, and
-      text-to-speech in 40+ languages.</p>
-    <div class="launch-meta"><a href="https://kyopo.ai" target="_blank" rel="noopener">kyopo.ai</a></div>
+    <a class="launch-thumb" href="https://kyopo.ai" target="_blank" rel="noopener" aria-label="Open Kyopo AI">
+      <img src="{{ '/assets/images/kyopo-thumb.jpg' | relative_url }}" alt="Kyopo AI" loading="lazy" width="1000" height="625">
+    </a>
   </li>
 </ul>
 
