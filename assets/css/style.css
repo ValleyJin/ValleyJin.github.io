@@ -166,8 +166,13 @@ img{max-width:100%;display:block}
 .foot a:hover{border-color:var(--accent)}
 
 /* ---- Articles (Google Scholar) ---- */
-.sc-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:8px 0 30px}
+.sc-metrics{display:grid;grid-template-columns:0.8fr 1fr 1fr 1fr;gap:14px;margin:8px 0 30px}
 .sc-metric{background:var(--bg-elev);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;gap:2px}
+.sc-photo{text-decoration:none;justify-content:space-between;transition:border-color .15s}
+.sc-photo:hover{border-color:var(--accent-dim)}
+.sc-photo .k{color:var(--ink-soft);transition:color .15s}
+.sc-photo:hover .k{color:var(--accent)}
+.sc-avatar{width:100%;max-width:78px;aspect-ratio:1;object-fit:cover;border-radius:10px;margin-bottom:10px;background:var(--bg)}
 .sc-metric .v{font-size:28px;font-weight:650;color:var(--accent);letter-spacing:-.01em}
 .sc-metric .k{font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
 .sc-metric .s{font-family:var(--mono);font-size:11px;color:var(--muted)}

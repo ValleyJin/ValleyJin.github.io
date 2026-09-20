@@ -7,7 +7,7 @@ permalink: /articles/
 <div class="article" style="max-width:840px">
   <header class="article-head" style="margin-bottom:26px">
     <span class="cat">Research</span>
-    <div class="section-head" style="margin:0"><h1 style="margin:0">Articles</h1><a class="more mono" href="{{ s.profile_url }}" target="_blank" rel="noopener">Google Scholar ↗</a></div>
+    <h1 style="margin:0">Articles</h1>
   </header>
 
   <div class="sc-tabs" role="tablist">
@@ -20,6 +20,7 @@ permalink: /articles/
   {% if s.metrics.citations %}
   <!-- metrics -->
   <div class="sc-metrics">
+    <a class="sc-metric sc-photo" href="{{ s.profile_url }}" target="_blank" rel="noopener"><img class="sc-avatar" src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ThQ_DqUAAAAJ&citpid=2" alt="{{ s.name }} — Google Scholar profile" loading="lazy"><span class="k">Google Scholar ↗</span></a>
     <div class="sc-metric"><span class="v">{{ s.metrics.citations }}</span><span class="k">Citations</span>{% if s.metrics.citations_since %}<span class="s">{{ s.metrics.citations_since }} since {{ s.metrics.since_year }}</span>{% endif %}</div>
     <div class="sc-metric"><span class="v">{{ s.metrics.hindex }}</span><span class="k">h-index</span>{% if s.metrics.hindex_since %}<span class="s">{{ s.metrics.hindex_since }} since {{ s.metrics.since_year }}</span>{% endif %}</div>
     <div class="sc-metric"><span class="v">{{ s.metrics.i10 }}</span><span class="k">i10-index</span>{% if s.metrics.i10_since %}<span class="s">{{ s.metrics.i10_since }} since {{ s.metrics.since_year }}</span>{% endif %}</div>
