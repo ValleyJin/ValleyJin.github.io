@@ -26,12 +26,12 @@ permalink: /about/
     <div class="cv-when">2026 — Present</div>
     <div class="cv-body">
       <h4>Kyopo AI</h4>
-      <div class="org"><span class="role">Solo · 7 AI agents</span><a href="https://kyopo.ai" target="_blank" rel="noopener">kyopo.ai</a></div>
-      <p>Multilingual batch document translation into 50+ languages,
-        <b class="accent">developed and run automatically by 7 AI agents</b> (K3I's PersonaXR
-        deep-persona AI) — I direct; they build, ship, and operate it. Preserves tables and layout
-        (files up to 5&nbsp;GB); sentence-level caching cuts cost up to 80%, with glossary control
-        and text-to-speech in 40+ languages.</p>
+      <div class="org"><span class="role">Solo · designed &amp; built</span><a href="https://kyopo.ai" target="_blank" rel="noopener">kyopo.ai</a></div>
+      <p><b class="accent">Multilingual batch document translation</b> into 50+ languages, designed
+        and built end-to-end. Translates Excel, Word, HWPX, PowerPoint, PDF, and Google Workspace
+        files in one pass while keeping tables and layout intact (files up to 5&nbsp;GB).
+        Sentence-level caching cuts cost up to 80%, with glossary control and text-to-speech
+        in 40+ languages.</p>
     </div>
   </li>
 </ul>
