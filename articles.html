@@ -82,13 +82,7 @@ permalink: /articles/
     <p class="nmeta mono">via <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>{% if t.generated %} · updated {{ t.generated }}{% endif %}</p>
 
     <div class="newest" id="newest" hidden>
-      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px">
-        <h2>Newest</h2>
-        <span class="nsort" id="nsort">
-          <button type="button" data-sort="newest" class="is-active">Newest</button>
-          <button type="button" data-sort="cited">Most cited</button>
-        </span>
-      </div>
+      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2>Newest</h2></div>
       <div class="tcal" id="tcal">
         <div class="tcal-bar">
           <button type="button" class="tcal-nav" id="tcal-prev" aria-label="Previous month">‹</button>
@@ -99,6 +93,11 @@ permalink: /articles/
         <div class="tcal-grid" id="tcal-grid"></div>
       </div>
       <div class="newest-list" id="newest-list"></div>
+    </div>
+
+    <div class="mostcited" id="mostcited" hidden>
+      <div class="section-head" style="margin:34px 0 6px"><h2>Most cited</h2></div>
+      <ul class="pubs" id="mostcited-list"></ul>
     </div>
   </div><!-- /pane-topics -->
 
@@ -148,14 +147,15 @@ permalink: /articles/
       var papers=(data.papers||[]);
       var wrap=document.getElementById('newest'), grid=document.getElementById('tcal-grid'),
           title=document.getElementById('tcal-title'), listEl=document.getElementById('newest-list'),
-          tabsEl=document.getElementById('ntabs'), sortEl=document.getElementById('nsort');
-      wrap.hidden=false;
+          tabsEl=document.getElementById('ntabs'),
+          mcWrap=document.getElementById('mostcited'), mcList=document.getElementById('mostcited-list');
+      wrap.hidden=false; if(mcWrap) mcWrap.hidden=false;
       function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
       function pad(n){return (n<10?'0':'')+n;}
       var topicList=(data.topics&&data.topics.length)?data.topics.slice():[];
       if(!topicList.length){ papers.forEach(function(p){ if(p.topic&&topicList.indexOf(p.topic)<0) topicList.push(p.topic); }); }
       var todayKST=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'});   // 오늘(KST)
-      var st={topic:'All', sort:'newest', sel:todayKST};                             // 기본 = 오늘 포커스
+      var st={topic:'All', sel:todayKST};                                            // 기본 = 오늘 포커스
       var cm=todayKST.split('-'); var cur=new Date(+cm[0], +cm[1]-1, 1);
       function filtered(){ return st.topic==='All'?papers:papers.filter(function(p){return p.topic===st.topic;}); }
       function byDate(){ var m={}; filtered().forEach(function(p){ (m[p.date]=m[p.date]||[]).push(p); }); return m; }
@@ -167,18 +167,17 @@ permalink: /articles/
       }
       function renderTabs(){
         tabsEl.innerHTML=['All'].concat(topicList).map(function(tp){ return '<button type="button" class="ntab'+(tp===st.topic?' is-active':'')+'" data-topic="'+esc(tp)+'">'+esc(tp)+'</button>'; }).join('');
-        [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){ st.topic=b.dataset.topic; renderTabs(); renderCal(); renderList(); }; });
+        [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){ st.topic=b.dataset.topic; renderTabs(); renderCal(); renderList(); renderMostCited(); }; });
       }
-      function renderSort(){ [].slice.call(sortEl.querySelectorAll('button')).forEach(function(b){ b.classList.toggle('is-active',b.dataset.sort===st.sort); b.onclick=function(){ st.sort=b.dataset.sort; renderSort(); renderCal(); renderList(); }; }); }
       function renderList(){
-        if(st.sort==='cited'){
-          var cp=filtered().slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);}).slice(0,40);
-          listEl.innerHTML='<div class="nl-head mono">Most cited · '+esc(st.topic)+' · '+cp.length+'</div>'+(cp.length?'<ul class="pubs">'+cp.map(paperLi).join('')+'</ul>':'');
-        } else {
-          var ps=(byDate()[st.sel]||[]).slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);});
-          var head='<div class="nl-head mono">'+esc(st.sel)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div>';
-          listEl.innerHTML=head+(ps.length?'<ul class="pubs">'+ps.map(paperLi).join('')+'</ul>':'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">이 날 발간된 논문이 없습니다.</p>');
-        }
+        var ps=(byDate()[st.sel]||[]).slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);});
+        var head='<div class="nl-head mono">'+esc(st.sel)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div>';
+        listEl.innerHTML=head+(ps.length?'<ul class="pubs">'+ps.map(paperLi).join('')+'</ul>':'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">이 날 발간된 논문이 없습니다.</p>');
+      }
+      function renderMostCited(){
+        if(!mcList) return;
+        var cp=filtered().slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);}).slice(0,15);
+        mcList.innerHTML=cp.length?cp.map(paperLi).join(''):'<li class="pub-row"><span class="pmeta" style="color:var(--muted)">No results.</span></li>';
       }
       function renderCal(){
         var m=byDate(), y=cur.getFullYear(), mo=cur.getMonth();
@@ -188,17 +187,16 @@ permalink: /articles/
         for(var i=0;i<startDow;i++){ var e=document.createElement('span'); e.className='tcal-cell empty'; grid.appendChild(e); }
         for(var day=1;day<=dim;day++){
           var key=y+'-'+pad(mo+1)+'-'+pad(day), ps=m[key];
-          var isSel=(st.sort==='newest'&&key===st.sel);
           var c=document.createElement(ps?'button':'span');
-          c.className='tcal-cell'+(ps?' has':'')+(isSel?' sel':'');
+          c.className='tcal-cell'+(ps?' has':'')+(key===st.sel?' sel':'');
           c.innerHTML='<span class="d">'+day+'</span>'+(ps?'<span class="n">'+ps.length+'</span>':'');
-          if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ st.sort='newest'; st.sel=k; renderSort(); renderCal(); renderList(); };})(key)); }
+          if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ st.sel=k; renderCal(); renderList(); };})(key)); }
           grid.appendChild(c);
         }
       }
       document.getElementById('tcal-prev').onclick=function(){ cur.setMonth(cur.getMonth()-1); renderCal(); };
       document.getElementById('tcal-next').onclick=function(){ cur.setMonth(cur.getMonth()+1); renderCal(); };
-      renderTabs(); renderSort(); renderCal(); renderList();
+      renderTabs(); renderCal(); renderList(); renderMostCited();
     })();
   </script>
 
