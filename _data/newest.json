@@ -1510,6 +1510,56 @@
       "url": "https://doi.org/10.18489/sacjv38i1/22847",
       "cites": 1,
       "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-07-29",
+      "title": "A lightweight and configurable blockchain framework for vaccine certification",
+      "authors": "Abuhashim, A. A., & Shafei, H. A.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-64280-7",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Blockchain Technology for Secure and Decentralized Data Management",
+      "authors": "Dhanani, D. J.",
+      "year": 2026,
+      "venue": "Iconic Research and Engineering Journals",
+      "url": "https://doi.org/10.64388/irev10i1-1720159",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Contextualized, Trustworthy, and Collective Scientific Decision Workflows",
+      "authors": "Miri, P., Stankovski, V., Lavbič, D., Potočar, M., & Kochovski, P.",
+      "year": 2026,
+      "venue": "SN Computer Science",
+      "url": "https://doi.org/10.1007/s42979-026-05224-w",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "BFL-Guard: A Blockchain-Enabled Federated Learning Framework with Zero-Knowledge Gradient Verification and Tokenized Incentives",
+      "authors": "S, K., L, T., V, E., & R, S.",
+      "year": 2026,
+      "venue": "International Journal of Latest Technology in Engineering Management & Applied Science",
+      "url": "https://doi.org/10.51583/ijltemas.2026.150600186",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Blockchain-based verification of academic credentials: A multi-node consensus approach using MultiChain",
+      "authors": "Sarwar, K., Shah, S. A. A., Khan, U. A., Hassan, M., Haq, H. U., & Shakil, I.",
+      "year": 2026,
+      "venue": "Natural and Applied Sciences International Journal (NASIJ)",
+      "url": "https://doi.org/10.47264/idea.nasij/7.1.4",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
     }
   ]
 }
