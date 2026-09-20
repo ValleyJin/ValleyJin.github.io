@@ -45,6 +45,15 @@ img{max-width:100%;display:block}
 .nav .links a{position:relative}
 .nav .links a:hover{color:var(--accent)}
 @media(max-width:640px){.nav .links{gap:14px;font-size:12px}.nav .links .hide-sm{display:none}}
+@media(max-width:440px){
+  .nav .wrap{padding:0 14px}
+  .nav .brand{font-size:12.5px;gap:7px}
+  .nav .links{gap:11px;font-size:11.5px}
+}
+@media(max-width:360px){
+  .nav .brand{font-size:12px}
+  .nav .links{gap:9px;font-size:11px}
+}
 
 /* ---- hero ---- */
 .hero{padding:74px 0 40px}
