@@ -68,8 +68,10 @@ def apa_authors(authorships):
 
 
 def fetch(query, concept, cutoff, n, sort=None):
-    filt = (f"default.search:{query},type:article,"
-            f"from_publication_date:{cutoff},concepts.id:{concept},has_doi:true")
+    parts = [f"default.search:{query}", "type:article", f"concepts.id:{concept}", "has_doi:true"]
+    if cutoff:
+        parts.insert(2, f"from_publication_date:{cutoff}")   # cutoff=None → 전기간
+    filt = ",".join(parts)
     q = {
         "filter": filt,
         "per_page": max(n * 2, 8),  # 여유분(중복 제거 후 n개 확보)
@@ -175,10 +177,42 @@ def main():
             })
     newest.sort(key=lambda p: p["date"], reverse=True)
     newest = newest[:200]
+
+    # ── Most cited: 토픽(키워드)별 '전기간' 누적 피인용 상위 (날짜 무관) ──
+    mostcited = {}
+    for label, query in topics:
+        arr, seen_m = [], set()
+        try:
+            data = fetch(query, concept, None, 8, sort="cited_by_count:desc")  # cutoff None = 전기간
+        except Exception as e:
+            print(f"! mostcited {label}: {e}", file=sys.stderr)
+            mostcited[label] = []
+            continue
+        for w in data.get("results", []):
+            title = clean_title(w.get("title"))
+            key = (w.get("doi") or title).strip().lower()
+            if not title or key in seen_m:
+                continue
+            src = (w.get("primary_location") or {}).get("source") or {}
+            venue = (src.get("display_name") or "").strip()
+            if not venue or venue.lower().startswith(("zenodo", "figshare", "ssrn")):
+                continue
+            seen_m.add(key)
+            arr.append({
+                "title": title, "authors": apa_authors(w.get("authorships", [])),
+                "year": w.get("publication_year"), "venue": venue,
+                "url": w.get("doi") or w.get("id"), "cites": w.get("cited_by_count", 0),
+                "topic": label,
+            })
+            if len(arr) >= 6:
+                break
+        mostcited[label] = arr
+
     NEWEST.write_text(json.dumps({
         "generated": today,
         "topics": [label for label, _ in topics],   # 탭 순서(config 순)
         "papers": newest,
+        "mostcited": mostcited,                      # 키워드별 전기간 피인용 상위
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     ndays = len({p["date"] for p in newest})
     print(f"✓ newest: {len(newest)} papers over {ndays} publication days")

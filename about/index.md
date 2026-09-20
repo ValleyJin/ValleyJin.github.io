@@ -12,15 +12,12 @@ permalink: /about/
     </div>
     <figcaption>Daejeon · Korea</figcaption>
   </figure>
-  <div class="about-copy reveal d1">
-    <p class="about-hi">Hi, <em>friends</em>!</p>
-    <p class="about-lede">
-      I'm <strong>Jin Sam Cho</strong> (ValleyJin) — an engineer and builder from Korea
-      working where software meets business. My north star is simple:
-      <strong class="accent">Coding&nbsp;+&nbsp;Business</strong>. Across two decades I've
-      gone from national research labs to founding startups, and today I lead AI at K3I.
-    </p>
-  </div>
+  <p class="about-lede reveal d1">
+    I'm <strong>Jin Sam Cho</strong> (ValleyJin) — an engineer and builder from Korea
+    working where software meets business. My north star is simple:
+    <strong class="accent">Coding&nbsp;+&nbsp;Business</strong>. Across two decades I've
+    gone from national research labs to founding startups, and today I lead AI at K3I.
+  </p>
 </div>
 
 <h3>Launched</h3>
@@ -151,7 +148,7 @@ permalink: /about/
     <div class="cv-body">
       <h4>Minister's Commendation</h4>
       <div class="org"><span class="role">Ministry of Trade, Industry & Energy</span></div>
-      <p>For contribution to Korea's 100&nbsp;MeV proton accelerator development and to radioactive-waste facility site selection.</p>
+      <p><b class="accent">Awarded</b> for contribution to Korea's 100&nbsp;MeV proton accelerator development and to radioactive-waste facility site selection.</p>
     </div>
   </li>
   <li class="cv-item">
@@ -159,7 +156,7 @@ permalink: /about/
     <div class="cv-body">
       <h4>MBC Campus Music Festival — Grand Prize</h4>
       <div class="org"><span class="role">Composer</span><a href="https://music.bugs.co.kr/track/493197" target="_blank" rel="noopener">listen</a></div>
-      <p>Awarded the grand prize as composer of the winning song.</p>
+      <p><b class="accent">Awarded</b> the grand prize as composer of the winning song.</p>
     </div>
   </li>
 </ul>

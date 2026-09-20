@@ -154,6 +154,9 @@ permalink: /articles/
       function pad(n){return (n<10?'0':'')+n;}
       var topicList=(data.topics&&data.topics.length)?data.topics.slice():[];
       if(!topicList.length){ papers.forEach(function(p){ if(p.topic&&topicList.indexOf(p.topic)<0) topicList.push(p.topic); }); }
+      var mostData=data.mostcited||{};   // 키워드별 전기간 누적 피인용 상위
+      // 우측 리스트를 좌측 달력 높이에 맞춤(탭이 보이게 되면 크기가 잡힘)
+      if(window.ResizeObserver){ try{ var _cal=document.getElementById('tcal'); new ResizeObserver(function(){ var h=_cal.offsetHeight||0; if(h>0) listEl.style.maxHeight=h+'px'; }).observe(_cal); }catch(e){} }
       var todayKST=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'});   // 오늘(KST)
       var st={topic:'All', sel:todayKST};                                            // 기본 = 오늘 포커스
       var cm=todayKST.split('-'); var cur=new Date(+cm[0], +cm[1]-1, 1);
@@ -174,9 +177,18 @@ permalink: /articles/
         var head='<div class="nl-head mono">'+esc(st.sel)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div>';
         listEl.innerHTML=head+(ps.length?'<ul class="pubs">'+ps.map(paperLi).join('')+'</ul>':'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">이 날 발간된 논문이 없습니다.</p>');
       }
+      function mostCited(){
+        var out;
+        if(st.topic!=='All'){ out=(mostData[st.topic]||[]).slice(); }
+        else { out=[]; Object.keys(mostData).forEach(function(k){ out=out.concat(mostData[k]||[]); }); }
+        if(!out.length){ out=filtered().slice(); }               // 폴백: mostcited 데이터 없을 때
+        out.sort(function(a,b){return (b.cites||0)-(a.cites||0);});
+        var seen={}, uniq=[]; out.forEach(function(p){ var k=(p.url||p.title); if(!seen[k]){ seen[k]=1; uniq.push(p); } });
+        return uniq.slice(0,15);
+      }
       function renderMostCited(){
         if(!mcList) return;
-        var cp=filtered().slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);}).slice(0,15);
+        var cp=mostCited();
         mcList.innerHTML=cp.length?cp.map(paperLi).join(''):'<li class="pub-row"><span class="pmeta" style="color:var(--muted)">No results.</span></li>';
       }
       function renderCal(){
