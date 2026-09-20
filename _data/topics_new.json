@@ -1,10 +1,7 @@
 {
-  "generated": "2026-09-20",
-  "field": "Computer Science · AI & databases",
-  "topics": [
+  "days": [
     {
-      "topic": "LLM inference serving",
-      "query": "LLM inference serving",
+      "date": "2026-09-20",
       "papers": [
         {
           "title": "SLO-Aware GPU DVFS for Energy-Efficient LLM Inference Serving",
@@ -12,7 +9,9 @@
           "year": 2024,
           "venue": "IEEE Computer Architecture Letters",
           "url": "https://doi.org/10.1109/lca.2024.3406038",
-          "cites": 39
+          "cites": 39,
+          "topic": "LLM inference serving",
+          "key": "https://doi.org/10.1109/lca.2024.3406038"
         },
         {
           "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
@@ -20,7 +19,9 @@
           "year": 2025,
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
-          "cites": 5
+          "cites": 5,
+          "topic": "LLM inference serving",
+          "key": "https://doi.org/10.1145/3725394"
         },
         {
           "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
@@ -28,7 +29,9 @@
           "year": 2025,
           "venue": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 992
+          "cites": 992,
+          "topic": "LLM inference serving",
+          "key": "https://doi.org/10.1038/s41586-025-09422-z"
         },
         {
           "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
@@ -36,22 +39,19 @@
           "year": 2024,
           "venue": "ACM SIGEnergy Energy Informatics Review",
           "url": "https://doi.org/10.1145/3727200.3727217",
-          "cites": 27
-        }
-      ],
-      "count": 5819
-    },
-    {
-      "topic": "Deep persona",
-      "query": "Deep persona",
-      "papers": [
+          "cites": 27,
+          "topic": "LLM inference serving",
+          "key": "https://doi.org/10.1145/3727200.3727217"
+        },
         {
           "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
           "authors": "Lee, H., Kim, Y., & Kim, S.",
           "year": 2024,
           "venue": "Applied Sciences",
           "url": "https://doi.org/10.3390/app14031014",
-          "cites": 8
+          "cites": 8,
+          "topic": "Deep persona",
+          "key": "https://doi.org/10.3390/app14031014"
         },
         {
           "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
@@ -59,7 +59,9 @@
           "year": 2025,
           "venue": "Computer Networks",
           "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 1
+          "cites": 1,
+          "topic": "Deep persona",
+          "key": "https://doi.org/10.1016/j.comnet.2025.111784"
         },
         {
           "title": "Personas-based Student Grouping using reinforcement learning and linear programming",
@@ -67,7 +69,9 @@
           "year": 2023,
           "venue": "Knowledge-Based Systems",
           "url": "https://doi.org/10.1016/j.knosys.2023.111071",
-          "cites": 15
+          "cites": 15,
+          "topic": "Deep persona",
+          "key": "https://doi.org/10.1016/j.knosys.2023.111071"
         },
         {
           "title": "Chatbot Technology Use and Acceptance Using Educational Personas",
@@ -75,22 +79,19 @@
           "year": 2024,
           "venue": "Informatics",
           "url": "https://doi.org/10.3390/informatics11020038",
-          "cites": 24
-        }
-      ],
-      "count": 10248
-    },
-    {
-      "topic": "Memory in Agentic AI",
-      "query": "Memory in Agentic AI",
-      "papers": [
+          "cites": 24,
+          "topic": "Deep persona",
+          "key": "https://doi.org/10.3390/informatics11020038"
+        },
         {
           "title": "Empowering biomedical discovery with AI agents",
           "authors": "Gao, S., Fang, A., Huang, Y., Giunchiglia, V., Noori, A., Schwarz, J. R., et al.",
           "year": 2024,
           "venue": "Cell",
           "url": "https://doi.org/10.1016/j.cell.2024.09.022",
-          "cites": 291
+          "cites": 291,
+          "topic": "Memory in Agentic AI",
+          "key": "https://doi.org/10.1016/j.cell.2024.09.022"
         },
         {
           "title": "AI Agents vs. Agentic AI: A Conceptual taxonomy, applications and challenges",
@@ -98,7 +99,9 @@
           "year": 2025,
           "venue": "Information Fusion",
           "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-          "cites": 205
+          "cites": 205,
+          "topic": "Memory in Agentic AI",
+          "key": "https://doi.org/10.1016/j.inffus.2025.103599"
         },
         {
           "title": "A survey on large language model based autonomous agents",
@@ -106,7 +109,9 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1606
+          "cites": 1606,
+          "topic": "Memory in Agentic AI",
+          "key": "https://doi.org/10.1007/s11704-024-40231-1"
         },
         {
           "title": "The Rise of Agentic AI: A Review of Definitions, Frameworks, Architectures, Applications, Evaluation Metrics, and Challenges",
@@ -114,22 +119,19 @@
           "year": 2025,
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi17090404",
-          "cites": 166
-        }
-      ],
-      "count": 40629
-    },
-    {
-      "topic": "Ethereum Layer-2",
-      "query": "Ethereum layer-2 rollup",
-      "papers": [
+          "cites": 166,
+          "topic": "Memory in Agentic AI",
+          "key": "https://doi.org/10.3390/fi17090404"
+        },
         {
           "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
           "authors": "Melo, C., Miqueias, J., Messias, J., Gonçalves, G., Silva, F. A., Soares, A., et al.",
           "year": 2025,
           "venue": "Future Generation Computer Systems",
           "url": "https://doi.org/10.1016/j.future.2025.108316",
-          "cites": 2
+          "cites": 2,
+          "topic": "Ethereum Layer-2",
+          "key": "https://doi.org/10.1016/j.future.2025.108316"
         },
         {
           "title": "Decentralized IoT Data Authentication with Signature Aggregation",
@@ -137,7 +139,9 @@
           "year": 2024,
           "venue": "Sensors",
           "url": "https://doi.org/10.3390/s24031037",
-          "cites": 17
+          "cites": 17,
+          "topic": "Ethereum Layer-2",
+          "key": "https://doi.org/10.3390/s24031037"
         },
         {
           "title": "Future Monitors in Optimistic Rollups",
@@ -145,7 +149,9 @@
           "year": 2025,
           "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
           "url": "https://doi.org/10.4230/oasics.fmbc.2025.5",
-          "cites": 36
+          "cites": 36,
+          "topic": "Ethereum Layer-2",
+          "key": "https://doi.org/10.4230/oasics.fmbc.2025.5"
         },
         {
           "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
@@ -153,22 +159,19 @@
           "year": 2024,
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16090315",
-          "cites": 31
-        }
-      ],
-      "count": 546
-    },
-    {
-      "topic": "Zero-knowledge proofs (ZKP)",
-      "query": "zero-knowledge proof",
-      "papers": [
+          "cites": 31,
+          "topic": "Ethereum Layer-2",
+          "key": "https://doi.org/10.3390/fi16090315"
+        },
         {
           "title": "Leveraging zero knowledge proofs for blockchain-based identity sharing: A survey of advancements, challenges and opportunities",
           "authors": "Zhou, L., Diro, A., Saini, A., Kaisar, S., & Hiep, P. C.",
           "year": 2024,
           "venue": "Journal of Information Security and Applications",
           "url": "https://doi.org/10.1016/j.jisa.2023.103678",
-          "cites": 181
+          "cites": 181,
+          "topic": "Zero-knowledge proofs (ZKP)",
+          "key": "https://doi.org/10.1016/j.jisa.2023.103678"
         },
         {
           "title": "zkFL: Zero-Knowledge Proof-Based Gradient Aggregation for Federated Learning",
@@ -176,7 +179,9 @@
           "year": 2024,
           "venue": "IEEE Transactions on Big Data",
           "url": "https://doi.org/10.1109/tbdata.2024.3403370",
-          "cites": 50
+          "cites": 50,
+          "topic": "Zero-knowledge proofs (ZKP)",
+          "key": "https://doi.org/10.1109/tbdata.2024.3403370"
         },
         {
           "title": "Securing Smart Manufacturing by Integrating Anomaly Detection With Zero-Knowledge Proofs",
@@ -184,7 +189,9 @@
           "year": 2024,
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2024.3373697",
-          "cites": 48
+          "cites": 48,
+          "topic": "Zero-knowledge proofs (ZKP)",
+          "key": "https://doi.org/10.1109/access.2024.3373697"
         },
         {
           "title": "Trusted Model Aggregation With Zero-Knowledge Proofs in Federated Learning",
@@ -192,22 +199,19 @@
           "year": 2024,
           "venue": "IEEE Transactions on Parallel and Distributed Systems",
           "url": "https://doi.org/10.1109/tpds.2024.3455762",
-          "cites": 29
-        }
-      ],
-      "count": 40480
-    },
-    {
-      "topic": "Graph database",
-      "query": "Graph database",
-      "papers": [
+          "cites": 29,
+          "topic": "Zero-knowledge proofs (ZKP)",
+          "key": "https://doi.org/10.1109/tpds.2024.3455762"
+        },
         {
           "title": "Testing Graph Database Systems via Graph-Aware Metamorphic Relations",
           "authors": "Zhuang, Z., Li, P., Ma, P., Meng, W., & Wang, S.",
           "year": 2023,
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3636218.3636236",
-          "cites": 22
+          "cites": 22,
+          "topic": "Graph database",
+          "key": "https://doi.org/10.14778/3636218.3636236"
         },
         {
           "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
@@ -215,7 +219,9 @@
           "year": 2024,
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16120438",
-          "cites": 28
+          "cites": 28,
+          "topic": "Graph database",
+          "key": "https://doi.org/10.3390/fi16120438"
         },
         {
           "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
@@ -223,7 +229,9 @@
           "year": 2024,
           "venue": "MethodsX",
           "url": "https://doi.org/10.1016/j.mex.2024.102683",
-          "cites": 18
+          "cites": 18,
+          "topic": "Graph database",
+          "key": "https://doi.org/10.1016/j.mex.2024.102683"
         },
         {
           "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
@@ -231,22 +239,19 @@
           "year": 2024,
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3685800.3685814",
-          "cites": 15
-        }
-      ],
-      "count": 117165
-    },
-    {
-      "topic": "Graph neural networks (GNN)",
-      "query": "graph neural network",
-      "papers": [
+          "cites": 15,
+          "topic": "Graph database",
+          "key": "https://doi.org/10.14778/3685800.3685814"
+        },
         {
           "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
           "authors": "Gabriel, S., Mário, R., António, T., & Marlene, A.",
           "year": 2024,
           "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
           "url": "https://doi.org/10.4230/lipics.sea.2024.20",
-          "cites": 5417
+          "cites": 5417,
+          "topic": "Graph neural networks (GNN)",
+          "key": "https://doi.org/10.4230/lipics.sea.2024.20"
         },
         {
           "title": "Spatio-Temporal Graph Neural Networks for Predictive Learning in Urban Computing: A Survey",
@@ -254,7 +259,9 @@
           "year": 2023,
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2023.3333824",
-          "cites": 532
+          "cites": 532,
+          "topic": "Graph neural networks (GNN)",
+          "key": "https://doi.org/10.1109/tkde.2023.3333824"
         },
         {
           "title": "A review of graph neural networks: concepts, architectures, techniques, challenges, datasets, applications, and future directions",
@@ -262,7 +269,9 @@
           "year": 2024,
           "venue": "Journal Of Big Data",
           "url": "https://doi.org/10.1186/s40537-023-00876-4",
-          "cites": 588
+          "cites": 588,
+          "topic": "Graph neural networks (GNN)",
+          "key": "https://doi.org/10.1186/s40537-023-00876-4"
         },
         {
           "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
@@ -270,22 +279,19 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3443141",
-          "cites": 489
-        }
-      ],
-      "count": 193332
-    },
-    {
-      "topic": "Ontology",
-      "query": "ontology knowledge representation",
-      "papers": [
+          "cites": 489,
+          "topic": "Graph neural networks (GNN)",
+          "key": "https://doi.org/10.1109/tpami.2024.3443141"
+        },
         {
           "title": "Enhancing Learning Personalization in Educational Environments through Ontology-Based Knowledge Representation",
           "authors": "Villegas-Ch, W., & Garcí­a-Ortiz, J.",
           "year": 2023,
           "venue": "Computers",
           "url": "https://doi.org/10.3390/computers12100199",
-          "cites": 36
+          "cites": 36,
+          "topic": "Ontology",
+          "key": "https://doi.org/10.3390/computers12100199"
         },
         {
           "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
@@ -293,7 +299,9 @@
           "year": 2025,
           "venue": "Ontology of Designing",
           "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
-          "cites": 1
+          "cites": 1,
+          "topic": "Ontology",
+          "key": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522"
         },
         {
           "title": "Recent Trends and Insights in Semantic Web and Ontology-Driven Knowledge Representation Across Disciplines Using Topic Modeling",
@@ -301,7 +309,9 @@
           "year": 2025,
           "venue": "Electronics",
           "url": "https://doi.org/10.3390/electronics14071313",
-          "cites": 18
+          "cites": 18,
+          "topic": "Ontology",
+          "key": "https://doi.org/10.3390/electronics14071313"
         },
         {
           "title": "The Human Phenotype Ontology in 2024: phenotypes around the world",
@@ -309,10 +319,11 @@
           "year": 2023,
           "venue": "Nucleic Acids Research",
           "url": "https://doi.org/10.1093/nar/gkad1005",
-          "cites": 414
+          "cites": 414,
+          "topic": "Ontology",
+          "key": "https://doi.org/10.1093/nar/gkad1005"
         }
-      ],
-      "count": 24938
+      ]
     }
   ]
 }

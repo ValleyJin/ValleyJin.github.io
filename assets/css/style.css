@@ -185,6 +185,34 @@ img{max-width:100%;display:block}
 .topic-group .section-head h2{display:flex;align-items:center;gap:10px;color:var(--accent)}
 .topic-group .section-head h2::before{content:"";width:6px;height:6px;border-radius:1px;background:var(--accent);flex:none}
 
+/* My Topics — calendar of newly-found papers */
+.tcal{border:1px solid var(--line);border-radius:14px;padding:16px 16px 8px;margin:2px 0 26px;background:var(--bg-elev)}
+.tcal-bar{display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:12px}
+.tcal-title{font-family:var(--mono);font-size:13px;letter-spacing:.05em;color:var(--ink);min-width:150px;text-align:center}
+.tcal-nav{appearance:none;background:0;border:1px solid var(--line);border-radius:8px;color:var(--ink-soft);width:28px;height:28px;cursor:pointer;font-size:15px;line-height:1}
+.tcal-nav:hover{border-color:var(--accent);color:var(--accent)}
+.tcal-dow{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-bottom:5px}
+.tcal-dow span{text-align:center;font-family:var(--mono);font-size:10px;color:var(--muted)}
+.tcal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+.tcal-cell{aspect-ratio:1;border:0;background:0;border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;font-family:var(--mono);padding:0}
+.tcal-cell .d{font-size:12px;color:var(--muted)}
+.tcal-cell.empty{visibility:hidden}
+.tcal-cell.has{cursor:pointer;background:var(--bg);border:1px solid var(--accent-dim)}
+.tcal-cell.has .d{color:var(--ink)}
+.tcal-cell.has .n{font-size:10px;font-weight:700;color:var(--accent);line-height:1}
+.tcal-cell.has:hover{border-color:var(--accent)}
+.tcal-hint{font-size:11px;color:var(--muted);text-align:center;margin:10px 0 0}
+
+/* My Topics — day modal */
+.tmodal{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:20px}
+.tmodal[hidden]{display:none}
+.tmodal-back{position:absolute;inset:0;background:rgba(0,0,0,.55);backdrop-filter:blur(2px)}
+.tmodal-card{position:relative;z-index:1;background:var(--bg-elev);border:1px solid var(--line);border-radius:16px;max-width:720px;width:100%;max-height:82vh;overflow:auto;padding:22px 24px;box-shadow:0 30px 80px -30px rgba(0,0,0,.7)}
+.tmodal-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 8px;position:sticky;top:-22px;background:var(--bg-elev);padding:6px 0 8px}
+.tmodal-head h3{margin:0;font-size:14px;font-family:var(--mono);color:var(--ink);font-weight:600;letter-spacing:.03em}
+.tmodal-head button{appearance:none;background:0;border:0;color:var(--muted);font-size:17px;cursor:pointer;line-height:1}
+.tmodal-head button:hover{color:var(--accent)}
+
 /* ============================================================
    Article (post) — serif body for an editorial, sensuous read
    ============================================================ */

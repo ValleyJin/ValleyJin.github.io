@@ -79,6 +79,18 @@ permalink: /articles/
     <p class="mono" style="color:var(--muted);font-size:12px;margin:2px 0 20px">
       Latest papers in topics I follow{% if t.field %} · {{ t.field }}{% endif %}{% if t.generated %} · updated {{ t.generated }}{% endif %} · via <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a>
     </p>
+
+    <!-- calendar: newly-found papers per day (click a day → modal) -->
+    <div class="tcal" id="tcal" hidden>
+      <div class="tcal-bar">
+        <button type="button" class="tcal-nav" id="tcal-prev" aria-label="Previous month">‹</button>
+        <span class="tcal-title" id="tcal-title"></span>
+        <button type="button" class="tcal-nav" id="tcal-next" aria-label="Next month">›</button>
+      </div>
+      <div class="tcal-dow"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+      <div class="tcal-grid" id="tcal-grid"></div>
+      <p class="tcal-hint mono">날짜 아래 숫자 = 그날 새로 찾은 논문 수 · 클릭하면 목록</p>
+    </div>
     {% if t.topics and t.topics.size > 0 %}
       {% for grp in t.topics %}
       <div class="topic-group">
@@ -107,6 +119,66 @@ permalink: /articles/
       </div>
     {% endif %}
   </div><!-- /pane-topics -->
+
+  <!-- day modal -->
+  <div class="tmodal" id="tmodal" hidden>
+    <div class="tmodal-back" id="tmodal-back"></div>
+    <div class="tmodal-card" role="dialog" aria-modal="true" aria-labelledby="tmodal-title">
+      <div class="tmodal-head"><h3 id="tmodal-title"></h3><button type="button" id="tmodal-x" aria-label="Close">✕</button></div>
+      <ul class="pubs" id="tmodal-list"></ul>
+    </div>
+  </div>
+  <script type="application/json" id="tnew-data">{{ site.data.topics_new | jsonify }}</script>
+  <script>
+    (function(){
+      var el=document.getElementById('tnew-data'); if(!el) return;
+      var data={}; try{ data=JSON.parse(el.textContent||'{}'); }catch(e){ return; }
+      var days=(data.days||[]), byDate={};
+      days.forEach(function(d){ byDate[d.date]=d.papers||[]; });
+      var keys=Object.keys(byDate).sort(); if(!keys.length) return;
+      var cal=document.getElementById('tcal'), grid=document.getElementById('tcal-grid'), title=document.getElementById('tcal-title');
+      cal.hidden=false;
+      function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+      function pad(n){return (n<10?'0':'')+n;}
+      var last=keys[keys.length-1].split('-'); var cur=new Date(+last[0], +last[1]-1, 1);
+      function render(){
+        var y=cur.getFullYear(), m=cur.getMonth();
+        title.textContent=cur.toLocaleString('en-US',{month:'long',year:'numeric'});
+        grid.innerHTML='';
+        var startDow=(new Date(y,m,1).getDay()+6)%7;            // Mon=0
+        var dim=new Date(y,m+1,0).getDate();
+        for(var i=0;i<startDow;i++){ var e=document.createElement('span'); e.className='tcal-cell empty'; grid.appendChild(e); }
+        for(var day=1;day<=dim;day++){
+          var key=y+'-'+pad(m+1)+'-'+pad(day), papers=byDate[key];
+          var c=document.createElement(papers?'button':'span');
+          c.className='tcal-cell'+(papers?' has':'');
+          c.innerHTML='<span class="d">'+day+'</span>'+(papers?'<span class="n">'+papers.length+'</span>':'');
+          if(papers){ c.type='button'; c.setAttribute('aria-label',papers.length+' new papers on '+key); c.addEventListener('click',(function(k){return function(){openModal(k);};})(key)); }
+          grid.appendChild(c);
+        }
+      }
+      document.getElementById('tcal-prev').onclick=function(){ cur.setMonth(cur.getMonth()-1); render(); };
+      document.getElementById('tcal-next').onclick=function(){ cur.setMonth(cur.getMonth()+1); render(); };
+
+      var modal=document.getElementById('tmodal'), mlist=document.getElementById('tmodal-list'), mtitle=document.getElementById('tmodal-title');
+      function openModal(key){
+        var papers=byDate[key]||[];
+        mtitle.textContent='New on '+key+' · '+papers.length+' paper'+(papers.length!==1?'s':'');
+        mlist.innerHTML=papers.map(function(p){
+          return '<li class="pub-row"><a class="pub-main" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+
+                 '<span class="pt">'+esc(p.title)+'</span>'+
+                 '<span class="pmeta"><b style="color:var(--accent)">'+esc(p.topic)+'</b> · '+esc(p.authors)+' ('+esc(p.year)+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span></a>'+
+                 '<span class="pcite">'+(p.cites?'cited by <b>'+p.cites+'</b>':'—')+'</span></li>';
+        }).join('');
+        modal.hidden=false; document.body.style.overflow='hidden';
+      }
+      function closeModal(){ modal.hidden=true; document.body.style.overflow=''; }
+      document.getElementById('tmodal-x').onclick=closeModal;
+      document.getElementById('tmodal-back').onclick=closeModal;
+      document.addEventListener('keydown',function(e){ if(e.key==='Escape') closeModal(); });
+      render();
+    })();
+  </script>
 
   <script>
     (function(){

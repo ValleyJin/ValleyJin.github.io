@@ -20,6 +20,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 CFG = ROOT / "_data" / "topics_config.yml"
 OUT = ROOT / "_data" / "topics.json"
+ARCHIVE = ROOT / "_data" / "topics_new.json"   # 발견일(new)별 논문 누적
 MAILTO = "jscho71@kaist.ac.kr"
 API = "https://api.openalex.org/works"
 
@@ -132,6 +133,36 @@ def main():
 
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"✓ wrote {OUT.relative_to(ROOT)} — {len(result['topics'])} topics")
+
+    # ── 발견일(new)별 아카이브: 이전에 본 적 없는 논문만 '오늘' 버킷에 쌓는다 ──
+    today = result["generated"]
+    arch = {"days": []}
+    if ARCHIVE.exists():
+        try:
+            arch = json.loads(ARCHIVE.read_text(encoding="utf-8")) or {"days": []}
+        except Exception:
+            arch = {"days": []}
+    seen = {p["key"] for d in arch.get("days", []) for p in d.get("papers", []) if p.get("key")}
+    new_today, seen_now = [], set()
+    for grp in result["topics"]:
+        for p in grp["papers"]:
+            key = (p.get("url") or p["title"]).strip().lower()
+            if not key or key in seen or key in seen_now:
+                continue
+            seen_now.add(key)
+            new_today.append({**p, "topic": grp["topic"], "key": key})
+    if new_today:
+        entry = next((d for d in arch["days"] if d["date"] == today), None)
+        if entry:
+            have = {p["key"] for p in entry["papers"]}
+            entry["papers"].extend(p for p in new_today if p["key"] not in have)
+        else:
+            arch["days"].append({"date": today, "papers": new_today})
+    arch["days"].sort(key=lambda d: d["date"], reverse=True)
+    arch["days"] = arch["days"][:120]      # 최근 ~120일 유지
+    ARCHIVE.write_text(json.dumps(arch, ensure_ascii=False, indent=2), encoding="utf-8")
+    total = sum(len(d["papers"]) for d in arch["days"])
+    print(f"✓ archive: {total} papers / {len(arch['days'])} days (+{len(new_today)} new today)")
 
 
 if __name__ == "__main__":
