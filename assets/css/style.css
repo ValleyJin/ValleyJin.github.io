@@ -85,7 +85,7 @@ img{max-width:100%;display:block}
 .hero-art{position:relative;min-height:460px}
 .voxel{width:100%;height:460px}
 .voxel canvas{display:block;width:100%;height:100%}
-.coinbadge{position:absolute;right:6px;bottom:43px;display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;background:var(--bg-elev);border:1px solid var(--line);border-radius:999px;padding:6px 13px}
+.coinbadge{position:absolute;right:6px;bottom:43px;display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px}
 .coinbadge .coinicon{color:var(--accent);font-size:14px;line-height:1}
 .coinbadge #coincount{color:var(--accent);font-weight:700;font-variant-numeric:tabular-nums;min-width:1ch}
 .coinbadge .coinlbl{color:var(--muted)}
