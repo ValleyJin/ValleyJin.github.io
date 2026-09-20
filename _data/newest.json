@@ -20,6 +20,16 @@
     "Graph neural networks (GNN)": "https://www.emergentmind.com/topics/graph-neural-networks-gnn",
     "Ontology": "https://www.emergentmind.com/topics/ontology-grounded-llm-construction"
   },
+  "oa": {
+    "Deep persona": "https://openalex.org/works?filter=default.search:Deep%20persona",
+    "Graph database": "https://openalex.org/works?filter=default.search:Graph%20database",
+    "Memory in Agentic AI": "https://openalex.org/works?filter=default.search:Agentic%20memory%20systems",
+    "LLM inference serving": "https://openalex.org/works?filter=default.search:LLM%20inference%20serving",
+    "Ethereum Layer-2": "https://openalex.org/works?filter=default.search:Ethereum%20layer-2%20rollup",
+    "Zero-knowledge proofs (ZKP)": "https://openalex.org/works?filter=default.search:zero-knowledge%20proof",
+    "Graph neural networks (GNN)": "https://openalex.org/works?filter=default.search:graph%20neural%20network",
+    "Ontology": "https://openalex.org/works?filter=default.search:ontology%20knowledge%20representation"
+  },
   "papers": [
     {
       "date": "2027-01-01",
@@ -53,6 +63,346 @@
     },
     {
       "date": "2026-09-19",
+      "title": "Trends and challenges in authorship analysis: a review of ML, DL, and LLM approaches",
+      "authors": "Habib, N., Adewumi, T., Liwicki, M., & Barney, E.",
+      "year": 2026,
+      "venue": "Language Resources and Evaluation",
+      "url": "https://doi.org/10.1007/s10579-026-09951-7",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "LD-IoU: A Novel Lorentzian Distance-based Localization Loss for Enhanced Bounding-box Regression with Faster Convergence in YOLOv8-based Knee Osteoarthritis Detection",
+      "authors": "Radif, M., Hazar, M. J., Abed, Z. I., & Fadhil, S. A.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.24",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Business Failure Prediction Model Using Sentiment Analysis of Social Media Data",
+      "authors": "Mgbah, N., Emmah, V. T., & Bennet, E. O.",
+      "year": 2026,
+      "venue": "International Journal of Computer Science and Mobile Computing",
+      "url": "https://doi.org/10.47760/ijcsmc.2026.v15i09.003",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Design and Development of Serial Ensemble Deep Network and Enhanced Fusion Strategies for Parkinson’s Disease Analysis",
+      "authors": "Reddy, C., Kanchana, M., & Reddy, N. M.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.28",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Dual-stream Temporal Cross-resolution Transformer for Accurate Intrusion Detection in IoT Networks",
+      "authors": "Patil, V. A., Neelegowda, K. A., & Laxmana, S. N. C. P.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.16",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "GT-Muzero: SQL Query Plan Optimization via Graph Transformers and Model-Based Reinforcement Learning",
+      "authors": "Ye, F., Li, W., Zhou, Q., Ye, J., & Liu, M.",
+      "year": 2026,
+      "venue": "Informatica",
+      "url": "https://doi.org/10.31449/inf.v50i15.13987",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "A Modular Vision-language Pipeline for On-premise Information Extraction from HCMUE Administrative Documents: Benchmark, Integration, and Accuracy-latency Trade-off",
+      "authors": "Ma, N. G., Tran, S. H., & Nguyen, K. Q.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.67",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Bridging Nature, Data, and Artificial Intelligence: An Interdisciplinary Approach for Natural Products Discovery",
+      "authors": "Hegazi, N. M.",
+      "year": 2026,
+      "venue": "Science and Technology Nexus",
+      "url": "https://doi.org/10.25259/stn_11_2026",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Interface-guided Using Equivariant Graph Attention Network for Protein-protein Strength Prediction",
+      "authors": "Hussein, O. A., & Al-Shamery, E. S.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.32",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Discrete Bounded Keypoint Jitter: A Topology-preserving Augmentation for Pose-based Vandalism Detection on Small Datasets",
+      "authors": "Yaseen, A. H., & Salih, M. A.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.20",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Harm as Contraction of Reachable Continuation: Reachability, Resistance, and the Structure of Moral Damage",
+      "authors": "Lawson, A. E.",
+      "year": 2026,
+      "venue": "PhilPapers (PhilPapers Foundation)",
+      "url": "https://doi.org/10.5281/zenodo.22849012",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Agouti Optimization Algorithm: A Novel Bio-inspired Metaheuristic based on Wide Forest Foraging and Spatial Memory-guided Local Foraging for Global Optimization",
+      "authors": "Hamadneh, T., Ali, M., Almomani, O., Alenezi, A., Montazeri, Z., Dehghani, M., et al.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.41",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Kinkajou Optimization Algorithm: A Novel Bio-inspired Metaheuristic Algorithm Based on Wide Tree-canopy Exploration and Local Branch Inspection for Global Optimization",
+      "authors": "Montazeri, Z., Dehghani, M., Alenezi, A., Almomani, O., & Eguchi, K.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.33",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "RA-STGNN-AMR: Forecast-filter-rank Spatio-temporal Graph Learning for Resilient and Energy-feasible AGV/AMR Fleet Coordination",
+      "authors": "Sadu, V. B., Rao, L. V. V. G., & Krishna, A. G.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.65",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Explainable Hybrid Intelligence for Autonomous Cyber Defense: Adaptive Intrusion Detection and Real-time Firewall Enforcement Using Reinforcement Learning",
+      "authors": "Mahfouz, M. H., Ali, R. E., & Mahmoud, A.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.75",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Enhancing Locator Resilience and UI Adaptability Using Smart Scriptless Framework for Autonomous Visual and Textual Validation",
+      "authors": "Murugan, S. S., & M, B.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.56",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Margay Optimization Algorithm: A Novel Bio-inspired Metaheuristic based on Adaptive Canopy Exploration and Stealth Pursuit for Global Optimization",
+      "authors": "Hamadneh, T., Ali, M., Almomani, O., Alenezi, A., Montazeri, Z., Dehghani, M., et al.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.48",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "A Novel Federated and Quantum-resistant Security Framework for Edge-cloud Systems",
+      "authors": "Sarika, S., & Rani, S. J.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.29",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "A Multi-stage Framework for Plant Disease Diagnosis with Prototype-based Severity Estimation and Treatment Recommendation",
+      "authors": "Raheem, M. H., & AL-Bakri, N. F.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.21",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "A CNN-BiLSTM-based Framework for Real-time DDoS Detection and Mitigation in IoT Edge Networks",
+      "authors": "Abdulrahman, M. M., Saeed, H. S., Abdulameer, T. H., & Ali, I.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.49",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "RA-UNetX: A Lightweight Residual–Attention U-Net with Segmentation-guided ConvNeXt-Tiny for Multi-class Lung Disease Diagnosis from Chest X-rays",
+      "authors": "Shanmugavelu, A., & Joseph, A. L. R. P.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.14",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Comprehensive Evaluation of Few-shot In-context Learning and Dual-agent Ensemble Strategies for Pneumothorax Detection Using Resource-efficient Vision-language Models",
+      "authors": "Hernanda, A. K., Nugroho, S. M. S., Rachmadi, R. F., Sensusiati, A. D., & Purnama, I. K. E.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.02",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "AC/DC: Automated Compilation for Dynamic Circuits",
+      "authors": "Niu, S., Kökcü, E., Mitra, A., Szasz, A., Hashim, A., Kalloor, J., et al.",
+      "year": 2026,
+      "venue": "ACM Transactions on Quantum Computing",
+      "url": "https://doi.org/10.1145/3846519",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Regularisation of regression trees by summation of p values",
+      "authors": "Engler, N., Lindholm, M., Lindskog, F., & Nazar, T.",
+      "year": 2026,
+      "venue": "Computational Statistics",
+      "url": "https://doi.org/10.1007/s00180-026-01805-8",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Zero-shot rib design: Merging a training-free generative prior with topology optimization",
+      "authors": "Kwon, Y., & Kang, N.",
+      "year": 2026,
+      "venue": "Advanced Engineering Informatics",
+      "url": "https://doi.org/10.1016/j.aei.2026.105276",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Auditing Feature-level Label Leakage in Intrusion Detection Benchmarks Using Mutual Information",
+      "authors": "Ismael, H. A., Al-Ta’i, Z. T. M., & Abbas, J. M.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.74",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "An Integrated Machine Learning Framework for Multi-task Retail Decision Support with Explainable AI",
+      "authors": "Taher, E., Elzanfaly, D. S., & El-Behaidy, W. H.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.71",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Exact Identity Aware Evaluation of Static Malware Images and API Sequences Using Multi Scale Features and Confidence Aware Selective Prediction",
+      "authors": "Abdulwahid, S. N., Yahya, M. H. M., & Alsumaıdaee, Y. A.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.68",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "TRACE: Transformer Rationale Attribution via Cumulative Evidence, An In-training Mechanism for Faithful and Depth-integrated Explainability",
+      "authors": "Aleb, N.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.11",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Drug-conditioned Residue Gating with Bidirectional Cross-attention for Drug-target Binding Affinity Prediction",
+      "authors": "Alhadethy, N. H., Hashim, A. N., & Al-Rashid, S. Z.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.47",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "MalXGraph-ViT: A Hybrid Transformer-graph Neural Network Framework with Explainable AI for Robust Malware Detection and Classification on Emerging Public Benchmarks",
+      "authors": "Singh, C., Thakkar, R., Vo, N., Alam, J., & Saini, P.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.50",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Personalized library knowledge services driven by chain-of-thought large language models",
+      "authors": "Wang, Q., Zhu, Q., & Chen, Q.",
+      "year": 2026,
+      "venue": "Journal of Information Science",
+      "url": "https://doi.org/10.1177/01655515261478576",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Evaluating Quantum Support Vector Machine for Multiclass Student Performance Prediction: A Comparative Analysis with Machine Learning and Deep Learning Models",
+      "authors": "Rohman, A., Rijati, N., Pujiono, & Fanani, A. Z.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.04",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Identifying Memorization of Diffusion Models through p-Laplace Analysis: Estimators, Bounds and Applications",
+      "authors": "Brokman, J., Gershon, I., Giloni, A., Hofman, O., Vainshtein, R., Kojima, H., et al.",
+      "year": 2026,
+      "venue": "Journal of Mathematical Imaging and Vision",
+      "url": "https://doi.org/10.1007/s10851-026-01338-1",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
       "title": "Graph neural network-based service migration decision in vehicular networks",
       "authors": "Wang, L., Zheng, X., Liu, L., Feng, H., Li, W., & Liu, H.",
       "year": 2026,
@@ -60,6 +410,146 @@
       "url": "https://doi.org/10.1038/s41598-026-71909-0",
       "cites": 0,
       "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Token-level defect feedback and alternating optimization for coupled code generation and defect detection with large language models",
+      "authors": "Shan, W.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-71524-z",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "AgriMAC: An Attention Based Multimodal Deep Clustering Framework for Rice Health Assessment",
+      "authors": "Andini, N. M., Yuliana, M., & Hadi, M. Z. S.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.06",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Opt DR-GNN: optimization enabled reliability prediction and hybrid deep reinforcement -graph neural network for dynamic restoration of WDM networks",
+      "authors": "Chen, T.",
+      "year": 2026,
+      "venue": "Biomedical Signal Processing and Control",
+      "url": "https://doi.org/10.1016/j.bspc.2026.111505",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Integrated blockchain-federated learning framework for IOT security",
+      "authors": "Sadhukhan, S., Dey, P., & Mukherjee, G.",
+      "year": 2026,
+      "venue": "Journal of Cloud Computing Advances Systems and Applications",
+      "url": "https://doi.org/10.1186/s13677-026-00981-8",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "A Hybrid CNN-LSTM Approach with MediaPipe Landmarks for Enhanced Facial Expression Recognition in Stylized Characters",
+      "authors": "Farhan, S. M., Shaker, S. H., & Allami, R.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.27",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Artificial intelligence and Machine learning in pharmacy and pharmaceutical technology",
+      "authors": "Shaikh, S. S.",
+      "year": 2026,
+      "venue": "Journal of Pharmaceutical and Biological Sciences",
+      "url": "https://doi.org/10.18231/j.jpbs.14270.1787994979",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Adaptive Sketch-based Stream Clustering for High-dimensional Data Streams under Representation Drift",
+      "authors": "Al-Shamery, A. A., & Jode, Y. S.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.44",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "SA-EffNet: Lightweight Multi-task Deep Learning for Kidney Disease Classification",
+      "authors": "Dahan, F.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.55",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Adaptive Edge Filtering and Priority-aware Aggregation for Energy-QoS Management in Dense Smart Greenhouse IoT Networks",
+      "authors": "Amiroh, K., Widyantara, H., Setiawan, Y., & Daely, P. T.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.54",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Artificial Intelligence-Driven Personalized Employment Guidance for College Students: Model Construction and Effectiveness Evaluation",
+      "authors": "Dai, L., & Fu, F.",
+      "year": 2026,
+      "venue": "Journal of Advanced Computational Intelligence and Intelligent Informatics",
+      "url": "https://doi.org/10.20965/jaciii.2026.p1344",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "RACER-MSA: Reliability-adaptive and Counterfactual Evidence Reasoning for Multimodal Sentiment Detection and Emotion Classification",
+      "authors": "Bhatia, J., & Sodhi, G. K.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.73",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "PVmatAgent: A Large Language Model (LLM) Agent for Perovskite Photovoltaic Material Design and Analysis",
+      "authors": "Deng, H., Wu, Y., Wang, Y., & Zhang, L.",
+      "year": 2026,
+      "venue": "Materials Genome Engineering Advances",
+      "url": "https://doi.org/10.1002/mgea.70102",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "IBUA-BioNER: Integrating Balanced Undersampling and Adaptive Augmentation for Few-Shot Biomedical Named Entity Recognition",
+      "authors": "Siswanto, A., Tutuko, B., Firdaus, & Jasmir",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.01",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Ontological evaluation system of memes in traditional settlement cultural landscape based on knowledge mapping",
+      "authors": "Cui, Y., Tang, Y., & Chen, Z.",
+      "year": 2026,
+      "venue": "Humanities and Social Sciences Communications",
+      "url": "https://doi.org/10.1057/s41599-026-08791-8",
+      "cites": 0,
+      "topic": "Ontology"
     },
     {
       "date": "2026-09-18",
@@ -93,73 +583,63 @@
     },
     {
       "date": "2026-09-18",
-      "title": "Mechanistic Discovery in Complex Diseases through Multi-Modal AI and Knowledge Graphs",
-      "authors": "Babaiha, N. S.",
+      "title": "A Structured Methodology for Transforming UML Models into Relational SQL Architectures for Web-Based Information Systems",
+      "authors": "Komleva, O.",
       "year": 2026,
-      "venue": "bonndoc (University of Bonn)",
-      "url": "https://doi.org/10.48565/bonndoc-972",
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijcaeffd72e49911",
       "cites": 0,
       "topic": "Graph database"
     },
     {
       "date": "2026-09-18",
-      "title": "What is the Role of Small Models in the LLM Era: A Survey",
-      "authors": "Chen, L., & Varoquaux, G.",
+      "title": "Contrast Enhancement Techniques for Plant Leaf Disease Detection: A Review of CLAHE and Related Preprocessing Methods in CNN-Based Diagnosis",
+      "authors": "Senthil, R., & Khatwal, R.",
       "year": 2026,
-      "venue": "Computational Linguistics",
-      "url": "https://doi.org/10.1162/coli.a.652",
-      "cites": 6,
-      "topic": "Memory in Agentic AI"
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijca88c81a099730",
+      "cites": 0,
+      "topic": "Graph database"
     },
     {
       "date": "2026-09-18",
-      "title": "Evaluating fine-tuned, embedding-based, and zero-shot models for aspect-based sentiment analysis in South Slavic news",
-      "authors": "Chatterjee, N., Koloski, B., Doucet, A., Pollak, S., & Purver, M.",
+      "title": "Responsible AI for Community Detection: Ethical Challenges, Frameworks, and Future Directions",
+      "authors": "Sinha, M., Sharma, R., Sharma, D., & Mathur, P.",
       "year": 2026,
-      "venue": "Frontiers in Artificial Intelligence",
-      "url": "https://doi.org/10.3389/frai.2026.1844418",
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijcaedf533d84aee",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Graph database"
     },
     {
       "date": "2026-09-18",
-      "title": "The Role of Physics in Modern Multidisciplinary Research: Applications in Healthcare, Energy, Environment, and Artificial Intelligence",
-      "authors": "Gupta, D. A. P., & Raja, A.",
+      "title": "Neural-XGB Fusion: A Hybrid Approach for Disaster Prediction and Management Using Machine Learning",
+      "authors": "Kushwaha, D. S., Sapkale, D. K., Khairnar, K. K., Kanse, S. S., & Bhole, M. N.",
       "year": 2026,
-      "venue": "International Journal of Drug Delivery Technology",
-      "url": "https://doi.org/10.25258/ijddt.16.83s.24",
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijcaaefd60e28e07",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Graph database"
     },
     {
       "date": "2026-09-18",
-      "title": "A HYBRID ENSEMBLE MODEL OF XGBOOST AND LSTM FOR PERSONALIZED HYPERTENSION MEDICATION RECOMMENDATION FROM ELECTRONIC HEALTH RECORDS",
-      "authors": "Kumar, K. P., & Mayil, V. V.",
+      "title": "A Hybrid Ensembled Deep Learning Framework for Explainable Skin Cancer Classification and Lesion Detection",
+      "authors": "Rao, R. U., & Kishore, C. N.",
       "year": 2026,
-      "venue": "International Journal of Drug Delivery Technology",
-      "url": "https://doi.org/10.25258/ijddt.16.83s.54",
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijca1c80067bdfa8",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Graph database"
     },
     {
       "date": "2026-09-18",
-      "title": "From obligation to enforcement: mapping EU AI act and CRA cybersecurity requirements to technical controls for LLM-based autonomous agents",
-      "authors": "Ogayemi, A.",
+      "title": "Effective Video Mirror Detection with Random Motion Cues Using Weighted Sum Model",
+      "authors": "Devipriya",
       "year": 2026,
-      "venue": "International Journal of Information Security",
-      "url": "https://doi.org/10.1007/s10207-026-01336-9",
+      "venue": "REST Journal on Emerging trends in Modelling and Manufacturing",
+      "url": "https://doi.org/10.46632/jemm/12/3/3",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "From evolutionary individuality to cognitive integration: a cross-modular perspective on human–AI coevolution",
-      "authors": "Shi, E. R.",
-      "year": 2026,
-      "venue": "Frontiers in Psychology",
-      "url": "https://doi.org/10.3389/fpsyg.2026.1768785",
-      "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Graph database"
     },
     {
       "date": "2026-09-18",
@@ -170,6 +650,56 @@
       "url": "https://doi.org/10.1007/s11263-026-03040-6",
       "cites": 0,
       "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "What is the Role of Small Models in the LLM Era: A Survey",
+      "authors": "Chen, L., & Varoquaux, G.",
+      "year": 2026,
+      "venue": "Computational Linguistics",
+      "url": "https://doi.org/10.1162/coli.a.652",
+      "cites": 6,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Evaluating fine-tuned, embedding-based, and zero-shot models for aspect-based sentiment analysis in South Slavic news",
+      "authors": "Chatterjee, N., Koloski, B., Doucet, A., Pollak, S., & Purver, M.",
+      "year": 2026,
+      "venue": "Frontiers in Artificial Intelligence",
+      "url": "https://doi.org/10.3389/frai.2026.1844418",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Zero-Shot Dengue Forecasting with LLM-Based Time Series Foundation Models",
+      "authors": "Machchar, P. S., & Ramanuj, P. N.",
+      "year": 2026,
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijcab17db3823872",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Detection of Artificial Intelligence-Generated Phishing Attacks Using Transformer Models",
+      "authors": "Nnaji, S. O., Nneamaka, A. F., Uchenwa, C. L., & Nwoka, A. E.",
+      "year": 2026,
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijca209cd5833714",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Comparative Analysis of Blockchain Platforms for Decentralized Applications",
+      "authors": "Sotnykov, K.",
+      "year": 2026,
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijcae7b63928a409",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
     },
     {
       "date": "2026-09-18",
@@ -223,173 +753,23 @@
     },
     {
       "date": "2026-09-18",
-      "title": "Mixed-integer linear optimization for semi-supervised optimal classification trees",
-      "authors": "Burgard, J. P., Pinheiro, M. E., & Schmidt, M.",
+      "title": "A Seven-Layer Hierarchical Security Framework for Confidentiality and Information Flow Control",
+      "authors": "Beheshtifard, S., & Mahmoudi, F.",
       "year": 2026,
-      "venue": "Journal of Global Optimization",
-      "url": "https://doi.org/10.1007/s10898-026-01630-9",
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijca0877a47d4a84",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Zero-knowledge proofs (ZKP)"
     },
     {
       "date": "2026-09-18",
-      "title": "Tree-like pairwise interaction networks",
-      "authors": "Richman, R., Scognamiglio, S., & Wüthrich, M. V.",
+      "title": "Robust Data Authentication Code for IoT Device Data Authentication in a Layered E-Healthcare System",
+      "authors": "Prabha, P., & Chatterjee, K.",
       "year": 2026,
-      "venue": "Annals of Actuarial Science",
-      "url": "https://doi.org/10.1017/s1748499526100402",
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijca1ff3258bd0b2",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "A Graph-based Neural-network Surrogate Model for an Accelerating Semianalytical Model of Galaxy Formation and Evolution",
-      "authors": "Li, X., Zhai, Z., Yang, X., Benson, A., & Wang, Y.",
-      "year": 2026,
-      "venue": "The Astrophysical Journal Supplement Series",
-      "url": "https://doi.org/10.3847/1538-4365/ae9a75",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "CoTAR: Topology and Atomic State Reconstruction in Condensed Phases",
-      "authors": "Mori, H., Miyazaki, Y., & Kikkawa, T.",
-      "year": 2026,
-      "venue": "Journal of Chemical Information and Modeling",
-      "url": "https://doi.org/10.1021/acs.jcim.6c02184",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Emergent problem-graph alignment in RL-discovered entanglement topologies for QAOA",
-      "authors": "Rohe, T., Ruiloba, F. H., Baumann, M., Stenzel, G., Sünkel, L., Gabor, T., et al.",
-      "year": 2026,
-      "venue": "Frontiers in Quantum Science and Technology",
-      "url": "https://doi.org/10.3389/frqst.2026.1912763",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Emotional neuro-control of higher-order nonlinear leader-follower systems with limited communication and fully unknown dynamics",
-      "authors": "Baghbani, F., Akbarzadeh-T, M., & Sistani, M. N.",
-      "year": 2026,
-      "venue": "Cognitive Neurodynamics",
-      "url": "https://doi.org/10.1007/s11571-026-10532-1",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Camouflage-resistant graph neural networks for power grid anomaly detection",
-      "authors": "Guo, Y., Wang, J., Liu, B., Li, D., Meng, Z., & Zhu, Y.",
-      "year": 2026,
-      "venue": "Cybersecurity",
-      "url": "https://doi.org/10.1186/s42400-026-00656-6",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "REIGN: Regime-Enhanced Intelligent Granger Network for Nonstationary Causal Discovery",
-      "authors": "Dang, Q., Dinh, M. N., Le, D., & Nguyen, D.",
-      "year": 2026,
-      "venue": "Journal of Data Science and Intelligent Systems",
-      "url": "https://doi.org/10.47852/bonviewjdsis620210441",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "SİNTEZ EDİLMİŞ YENİ ARİLSULFONİLPİPERİDİN TÖRƏMƏLƏRİNİN in vitro BİOLOJİ SINAĞI VƏ MurA FERMENTİNƏ QARŞI İNHİBİTOR POTENSİALININ in silico TƏDQİQİ",
-      "authors": "N.P, M. S. Z. L. M. G. Ə. K. A. L.",
-      "year": 2026,
-      "venue": "Scientific Journal",
-      "url": "https://doi.org/10.30546/emnaa.2026.02.28.148",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Big Data-Driven Production Scheduling Risk Identification Using a Lightweight Adaptive Graph Attention Network",
-      "authors": "Dong, P., Han, G., & Yuan, L.",
-      "year": 2026,
-      "venue": "Big Data",
-      "url": "https://doi.org/10.1177/2167647x261487341",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Harmonizing Predictive Accuracy and Cooperative Outcomes in Game-Theoretic Systems",
-      "authors": "Pawar, M. S.",
-      "year": 2026,
-      "venue": "International Journal of Artificial Intelligence and Agent Systems",
-      "url": "https://doi.org/10.67231/ks5tht27",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "A novel FedLLM intrusion detection framework for privacy-preserving security in IoT enabled smart city network",
-      "authors": "Basheer, S., Aldehim, G., Alluhaidan, A. S., & Sakri, S.",
-      "year": 2026,
-      "venue": "Wireless Networks",
-      "url": "https://doi.org/10.1007/s11276-026-04221-4",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Mechanism-aware and safety-validated AI for drug repurposing: a critical review and translational pharmacology framework",
-      "authors": "Hazra, M., & Anandaram, H.",
-      "year": 2026,
-      "venue": "Frontiers in Pharmacology",
-      "url": "https://doi.org/10.3389/fphar.2026.1915973",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Counterfactual reasoning and causal intervention for multi-modal rumor detection",
-      "authors": "Liu, Q., Cai, G., Bi, G., & Qiu, Z.",
-      "year": 2026,
-      "venue": "Knowledge and Information Systems",
-      "url": "https://doi.org/10.1007/s10115-026-02875-2",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "An Edge-Deployable Lightweight Dynamic Spatio-Temporal Graph Neural Network for Joint Distribution-Network Line-Loss Prediction and Operating-State Recognition",
-      "authors": "Wang, H., Yuan, Y., Yuan, X., Zhang, S., & Li, M.",
-      "year": 2026,
-      "venue": "International Journal of Pattern Recognition and Artificial Intelligence",
-      "url": "https://doi.org/10.1142/s0218001426400628",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Optimization of Resource Allocation in 5G Networks Using Game Theory-Based Algorithms",
-      "authors": "Loey, M., Krishna, V. R., Gokulakrishnan, S., Rao, M. K., Mbasso, W. F., & Jha, S.",
-      "year": 2026,
-      "venue": "Journal of Circuits Systems and Computers",
-      "url": "https://doi.org/10.1142/s0218126626502774",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "A REAL-TİME AI-DRİVEN AGRİCULTURAL ROVER INTEGRATİNG PLANT DİSEASE DETECTİON AND GEO-REFERENCED SOİL MOİSTURE ANALYSİS",
-      "authors": "N.E, G. V. D. F. H. H. H.",
-      "year": 2026,
-      "venue": "Scientific Journal",
-      "url": "https://doi.org/10.30546/emnaa.2026.02.28.123",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Zero-knowledge proofs (ZKP)"
     },
     {
       "date": "2026-09-17",
@@ -459,197 +839,7 @@
       "venue": "ACM Transactions on Software Engineering and Methodology",
       "url": "https://doi.org/10.1145/3848030",
       "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Prompting Large Language Models with Partial Knowledge for Answering Questions with Unseen Entities",
-      "authors": "Yan, Z., Li, R., Wang, J., Chen, J., Tan, H., wang, Y., et al.",
-      "year": 2026,
-      "venue": "ACM Transactions on Information Systems",
-      "url": "https://doi.org/10.1145/3847674",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Agent-based post-hoc correction of agricultural yield forecasts",
-      "authors": "Beddows, M., Durrant, A., & Leontidis, G.",
-      "year": 2026,
-      "venue": "Frontiers in Artificial Intelligence",
-      "url": "https://doi.org/10.3389/frai.2026.1911884",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "A deep reinforcement learning framework for coastal multi-hazard emergency response",
-      "authors": "Sanò, M., Ferrario, D. M., Torresan, S., & Critto, A.",
-      "year": 2026,
-      "venue": "International Journal of Disaster Risk Reduction",
-      "url": "https://doi.org/10.1016/j.ijdrr.2026.106439",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Exploring key genes associated with metabolic cell death in ischemic stroke: a comprehensive analysis of single-cell, bulk transcriptome, and experimental validation",
-      "authors": "Wu, C., Yang, C., Deng, C., Ning, W., Ding, T., Wang, Q., et al.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-71782-x",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "CSCProv: causal-semantic consistent provenance graph compression for attack detection",
-      "authors": "An, N., Zhu, Y., Yan, W., Wu, X., Jiang, B., Liu, J., et al.",
-      "year": 2026,
-      "venue": "Cybersecurity",
-      "url": "https://doi.org/10.1186/s42400-026-00648-6",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Research on AI-Empowered Software Test Case Generation",
-      "authors": "Jin, P.",
-      "year": 2026,
-      "venue": "International Journal of Responsible Artificial Intelligence Research",
-      "url": "https://doi.org/10.67298/paper/870012",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "The GPCRVP score reliably predicts the impact of GLP1R human variants on receptor function",
-      "authors": "Lopez‐Balastegui, M., Lian, S., Gao, W., Gbahou, F., Stępniewski, T. M., Dam, J., et al.",
-      "year": 2026,
-      "venue": "Diabetologia",
-      "url": "https://doi.org/10.1007/s00125-026-06859-3",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "LazypipeX: customizable virome analysis pipeline enabling fast and sensitive virus discovery from NGS data",
-      "authors": "Weinstein, I., Vapalahti, O., Kant, R., & Smura, T.",
-      "year": 2026,
-      "venue": "npj Viruses",
-      "url": "https://doi.org/10.1038/s44298-026-00237-x",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "From surveillance to intelligence: a scoping review of machine learning for antimicrobial resistance surveillance intelligence across One Health",
-      "authors": "Rabbani, S. A., El-Tanani, M., Matalka, I. I., Sharma, S., saini, M., & Kumar, R.",
-      "year": 2026,
-      "venue": "Frontiers in Public Health",
-      "url": "https://doi.org/10.3389/fpubh.2026.1922265",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Standardizing Access to Sensitive Data with Machine-Actionable Access Conditions",
-      "authors": "Meer, L. V. D., Hesam, A., Touber, J., Braukmann, R., Thorpe, D., Kraaikamp, E., et al.",
-      "year": 2026,
-      "venue": "International Journal for Population Data Science",
-      "url": "https://doi.org/10.23889/ijpds.v11i1.3454",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Data-driven massive reaction networks reveal mechanistic pathways underlying catalytic CO2 hydrogenation",
-      "authors": "Verma, A. M., Chaturvedi, S., Paul, S., Nandi, S., Sheshanarayana, R., Santhosh, K., et al.",
-      "year": 2026,
-      "venue": "Nature Communications",
-      "url": "https://doi.org/10.1038/s41467-026-77080-4",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Revisiting molecular descriptors with TDiMS for interpretable intramolecular interactions based on substructure pairs",
-      "authors": "Hamada, L., Kishimoto, A., Miyaguchi, K., Hirose, M., Fuchiwaki, J., Priyadarsini, I., et al.",
-      "year": 2026,
-      "venue": "Nature Computational Science",
-      "url": "https://doi.org/10.1038/s43588-026-01036-3",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Are you afraid? Neurophysiological responses to multidimensional fear in an interactive semi-immersive environment",
-      "authors": "Candela, M. O., Calderón-Gurubel, J. E., Ortiz-Espinoza, A. A., Elizondo-García, J., Velez-Saboyá, C. S., Lozoya-Santos, J. D., et al.",
-      "year": 2026,
-      "venue": "Frontiers in Systems Neuroscience",
-      "url": "https://doi.org/10.3389/fnsys.2026.1908489",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Academic vocabulary use in research publications in the AI era: human-authored vs AI-mediated texts",
-      "authors": "Laosrirattanachai, P., & Laosrirattanachai, P.",
-      "year": 2026,
-      "venue": "The JALT CALL Journal",
-      "url": "https://doi.org/10.29140/jaltcall.2026.103271",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "On the data-sparsity of the solution of Riccati equations with applications to feedback control",
-      "authors": "Massei, S., & Saluzzi, L.",
-      "year": 2026,
-      "venue": "Numerische Mathematik",
-      "url": "https://doi.org/10.1007/s00211-026-01572-0",
-      "cites": 0,
-      "topic": "Memory in Agentic AI"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "ImaGGen: Zero-Shot Generation of Co-Speech Semantic Gestures Grounded in Language and Image Input",
-      "authors": "Voß, H., & Kopp, S.",
-      "year": 2026,
-      "venue": "ACM Transactions on Interactive Intelligent Systems",
-      "url": "https://doi.org/10.1145/3845992",
-      "cites": 0,
-      "topic": "Memory in Agentic AI"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "An energy-aware federated intelligence framework for sustainable WSN-IoT ecosystems",
-      "authors": "Elumalai, G., Gopal, D., Chinnadurai, J., & Teresa, V.",
-      "year": 2026,
-      "venue": "Peer-to-Peer Networking and Applications",
-      "url": "https://doi.org/10.1007/s12083-026-02291-x",
-      "cites": 0,
-      "topic": "Memory in Agentic AI"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Explainable LLM-assisted fault diagnosis for smart manufacturing using multi-trace diagnostic rationales and verification",
-      "authors": "Kiangala, K. S., & Wang, Z.",
-      "year": 2026,
-      "venue": "The International Journal of Advanced Manufacturing Technology",
-      "url": "https://doi.org/10.1007/s00170-026-19043-z",
-      "cites": 0,
-      "topic": "Memory in Agentic AI"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "From IL-23/IL-17 to GM-CSF: how is the immuno-inflammatory continuum reshaped in spondyloarthritis?",
-      "authors": "Jia, J., Xie, W., Zhou, J., Wu, W., & Zhou, S.",
-      "year": 2026,
-      "venue": "Frontiers in Immunology",
-      "url": "https://doi.org/10.3389/fimmu.2026.1786912",
-      "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "LLM inference serving"
     },
     {
       "date": "2026-09-17",
@@ -659,17 +849,7 @@
       "venue": "Discover Artificial Intelligence",
       "url": "https://doi.org/10.1007/s44163-026-02204-0",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Explainable Artificial Intelligence to Unveil Patterns of Antioxidant Peptides for Free Radical Regulation",
-      "authors": "Schneider, M. C. J. A., Souza, B. S., Ferreira, L. V., Damaso, M. G., & Pimentel, A. S.",
-      "year": 2026,
-      "venue": "Journal of Chemical Information and Modeling",
-      "url": "https://doi.org/10.1021/acs.jcim.6c01872",
-      "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "LLM inference serving"
     },
     {
       "date": "2026-09-17",
@@ -723,133 +903,23 @@
     },
     {
       "date": "2026-09-17",
-      "title": "MOUFLON: multi-group modularity-based fairness-aware community detection",
-      "authors": "Panayiotou, G., Simon, A. M. M., Magnani, M., & Calikus, E.",
+      "title": "Prompting Large Language Models with Partial Knowledge for Answering Questions with Unseen Entities",
+      "authors": "Yan, Z., Li, R., Wang, J., Chen, J., Tan, H., wang, Y., et al.",
       "year": 2026,
-      "venue": "Data Mining and Knowledge Discovery",
-      "url": "https://doi.org/10.1007/s10618-026-01260-5",
-      "cites": 1,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "venue": "ACM Transactions on Information Systems",
+      "url": "https://doi.org/10.1145/3847674",
+      "cites": 0,
+      "topic": "Ontology"
     },
     {
       "date": "2026-09-17",
-      "title": "Slow-moving pattern interfaces in general directions for a two-dimensional Swift–Hohenberg-type equation",
-      "authors": "Hilder, B., & Jansen, J.",
+      "title": "An energy-aware federated intelligence framework for sustainable WSN-IoT ecosystems",
+      "authors": "Elumalai, G., Gopal, D., Chinnadurai, J., & Teresa, V.",
       "year": 2026,
-      "venue": "Calculus of Variations and Partial Differential Equations",
-      "url": "https://doi.org/10.1007/s00526-026-03366-6",
+      "venue": "Peer-to-Peer Networking and Applications",
+      "url": "https://doi.org/10.1007/s12083-026-02291-x",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Source-Free Domain Adaptation with Vision-Language Prior",
-      "authors": "Tang, S., Bai, Y., Su, W., Ye, M., Zhang, J., & Zhu, X.",
-      "year": 2026,
-      "venue": "International Journal of Computer Vision",
-      "url": "https://doi.org/10.1007/s11263-026-03023-7",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "EdgeEval: A model-agnostic rapid prototyping framework for image processing at the edge",
-      "authors": "Islam, M. S., Abdullah-Al-Kafi, M., Moni, R., Onik, A. I., Siddiquee, S. M. T., & Raza, D. M.",
-      "year": 2026,
-      "venue": "Array",
-      "url": "https://doi.org/10.1016/j.array.2026.101248",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Building National Analytics Capacity: Advances and Future Pathways",
-      "authors": "Unamma, U. M.",
-      "year": 2026,
-      "venue": "INTERNATIONAL JOURNAL OF SOCIAL SCIENCES AND MANAGEMENT RESEARCH",
-      "url": "https://doi.org/10.56201/ijssmr.v7.no4.2021.pg69.99",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Training Energy-Based Models with Non-MCMC Samplers and Efficient Temperature Estimation",
-      "authors": "Kubo, K., & Goto, H.",
-      "year": 2026,
-      "venue": "PRX Intelligence",
-      "url": "https://doi.org/10.1103/2vb5-2lt8",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Machine learning-based classification of operating regimes in an urban wastewater treatment plant: a benchmark on reconstructed reference labels",
-      "authors": "Oviedo-Bayas, B.",
-      "year": 2026,
-      "venue": "Frontiers in Environmental Science",
-      "url": "https://doi.org/10.3389/fenvs.2026.1941653",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Modeling and analysis of teacher-student interaction in electronic commerce courses from a multidimensional interaction perspective",
-      "authors": "黄文群, Yang, J., & Liu, J.",
-      "year": 2026,
-      "venue": "Discover Artificial Intelligence",
-      "url": "https://doi.org/10.1007/s44163-026-02090-6",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Waveband-resolved nonlinear characterization of SERF-magnetocardiography signals: a phase-space reconstruction framework for exploratory clinical cohort analysis",
-      "authors": "Li, K., Zhou, X., Pang, J., Shang, R., Zhang, Y., Cui, Y., et al.",
-      "year": 2026,
-      "venue": "Frontiers in Physiology",
-      "url": "https://doi.org/10.3389/fphys.2026.1770392",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Fiber optic sensing for structural health monitoring in harsh environments advancing degradation physics signal robustness and long term reliability prediction",
-      "authors": "Rafi, M., & Noh, K. A. M.",
-      "year": 2026,
-      "venue": "Discover Civil Engineering",
-      "url": "https://doi.org/10.1007/s44290-026-00613-9",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Automated detection of mutual gaze in mobile eye-tracking studies of multi-party interactions",
-      "authors": "Dirker, D., & Stukenbrock, A.",
-      "year": 2026,
-      "venue": "Frontiers in Communication",
-      "url": "https://doi.org/10.3389/fcomm.2026.1857066",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Dynamic defense strategies for cyber-physical systems using Stackelberg games and deep reinforcement learning in discrete and continuous time",
-      "authors": "Raptis, A., Gritzalis, S., & Yannacopoulos, A.",
-      "year": 2026,
-      "venue": "International Journal of Information Security",
-      "url": "https://doi.org/10.1007/s10207-026-01328-9",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "A hybrid RAG and rule-based reasoning framework for technical document analysis",
-      "authors": "Thomas, E. R., Natarajan, N., Jayaprakashan, K., & Malini, A.",
-      "year": 2026,
-      "venue": "Frontiers in Artificial Intelligence",
-      "url": "https://doi.org/10.3389/frai.2026.1922508",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Ontology"
     },
     {
       "date": "2026-09-17",
@@ -1123,26 +1193,6 @@
     },
     {
       "date": "2026-09-16",
-      "title": "Deep learning coupled with scalable domain-specific structural validation expands RNA virus discovery from metatranscriptomes",
-      "authors": "Luo, G., Zang, Z., Yuan, L., Zhou, J., Dong, A., Huang, Y., et al.",
-      "year": 2026,
-      "venue": "Nature Communications",
-      "url": "https://doi.org/10.1038/s41467-026-77183-y",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Dynamic medical knowledge graph updating method based on LLM decision control",
-      "authors": "Hu, K., Hu, J., Yue, M., Sun, Y., & Wang, B.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-71802-w",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-16",
       "title": "Adaptive emergency braking for highway safety: a simulation framework for performance and reliability evaluation",
       "authors": "Ribeiro, R., Gonçalves, C., & Pombo, N.",
       "year": 2026,
@@ -1192,46 +1242,6 @@
       "topic": "Ontology"
     },
     {
-      "date": "2026-09-16",
-      "title": "Measurement in the Ultimatum and Dictator Games: Construct validity, standardization and the problem of coordination",
-      "authors": "Jiménez‐Buedo, M.",
-      "year": 2026,
-      "venue": "History & Philosophy of the Life Sciences",
-      "url": "https://doi.org/10.1007/s40656-026-00725-6",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Biodiversity Genomics Europe plus (BGE+) Project – Abridged Grant Proposal",
-      "authors": "Koureas, D., Alonso, E., Beja, P., Böhne, A., Bourlat, S., Buzan, E., et al.",
-      "year": 2026,
-      "venue": "Research Ideas and Outcomes",
-      "url": "https://doi.org/10.3897/rio.12.e214291",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "BERTRAG as a BERT-enhanced retrieval-augmented generation framework for preserving Awori and Ogu indigenous knowledge",
-      "authors": "Olabanjo, O., Wusu, A., & Afisi, O.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-69728-4",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Participating with AI: how generative visualisations are changing participatory planning",
-      "authors": "Ruoppila, S., & Anastasiou, K.",
-      "year": 2026,
-      "venue": "Urban Research & Practice",
-      "url": "https://doi.org/10.1080/17535069.2026.2730986",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
       "date": "2026-09-15",
       "title": "Inteligencia artificial en la empresa contemporánea: implicaciones filosóficas, éticas y organizacionales",
       "authors": "Godínez, H. S.",
@@ -1250,16 +1260,6 @@
       "url": "https://doi.org/10.66707/dzc2ck91",
       "cites": 0,
       "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-15",
-      "title": "Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models",
-      "authors": "Bai, G., Chai, Z., Chen, L., Wang, S., Lu, J., Zhang, N., et al.",
-      "year": 2026,
-      "venue": "ACM Computing Surveys",
-      "url": "https://doi.org/10.1145/3845797",
-      "cites": 40,
-      "topic": "LLM inference serving"
     },
     {
       "date": "2026-09-14",
@@ -1560,16 +1560,6 @@
       "url": "https://doi.org/10.51583/ijltemas.2026.150600186",
       "cites": 0,
       "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-07-20",
-      "title": "Blockchain-based verification of academic credentials: A multi-node consensus approach using MultiChain",
-      "authors": "Sarwar, K., Shah, S. A. A., Khan, U. A., Hassan, M., Haq, H. U., & Shakil, I.",
-      "year": 2026,
-      "venue": "Natural and Applied Sciences International Journal (NASIJ)",
-      "url": "https://doi.org/10.47264/idea.nasij/7.1.4",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
     }
   ],
   "mostcited": {
@@ -1618,7 +1608,7 @@
         "year": 2017,
         "venue": "ACM Computing Surveys",
         "url": "https://doi.org/10.1145/3104031",
-        "cites": 383,
+        "cites": 384,
         "topic": "Graph database"
       },
       {
@@ -1627,7 +1617,7 @@
         "year": 2018,
         "venue": "PLoS Computational Biology",
         "url": "https://doi.org/10.1371/journal.pcbi.1005968",
-        "cites": 298,
+        "cites": 299,
         "topic": "Graph database"
       },
       {
@@ -1660,12 +1650,12 @@
     ],
     "Memory in Agentic AI": [
       {
-        "title": "Agentic AI for Cultural Heritage: Embedding Risk Memory in Semantic Digital Twins",
-        "authors": "Pavlidis, G.",
+        "title": "MemIndex: Agentic Event-based Distributed Memory Management for Multi-agent Systems",
+        "authors": "Saleh, A., Tarkoma, S., Lindgren, A., Donta, P. K., Dustdar, S., Pirttikangas, S., et al.",
         "year": 2025,
-        "venue": "Computers",
-        "url": "https://doi.org/10.3390/computers14070266",
-        "cites": 7,
+        "venue": "ACM Transactions on Autonomous and Adaptive Systems",
+        "url": "https://doi.org/10.1145/3774946",
+        "cites": 4,
         "topic": "Memory in Agentic AI"
       }
     ],
@@ -1761,7 +1751,7 @@
         "year": 1988,
         "venue": "Journal of Cryptology",
         "url": "https://doi.org/10.1007/bf02351717",
-        "cites": 1035,
+        "cites": 1036,
         "topic": "Zero-knowledge proofs (ZKP)"
       },
       {
@@ -1808,7 +1798,7 @@
         "year": 2020,
         "venue": "IEEE Transactions on Neural Networks and Learning Systems",
         "url": "https://doi.org/10.1109/tnnls.2020.2978386",
-        "cites": 9967,
+        "cites": 9975,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -1817,7 +1807,7 @@
         "year": 2008,
         "venue": "IEEE Transactions on Neural Networks",
         "url": "https://doi.org/10.1109/tnn.2008.2005605",
-        "cites": 9734,
+        "cites": 9738,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -1826,7 +1816,7 @@
         "year": 2020,
         "venue": "AI Open",
         "url": "https://doi.org/10.1016/j.aiopen.2021.01.001",
-        "cites": 5867,
+        "cites": 5869,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -1844,7 +1834,7 @@
         "year": 2018,
         "venue": "Physical Review Letters",
         "url": "https://doi.org/10.1103/physrevlett.120.145301",
-        "cites": 2873,
+        "cites": 2875,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -1864,7 +1854,7 @@
         "year": 1995,
         "venue": "International Journal of Human-Computer Studies",
         "url": "https://doi.org/10.1006/ijhc.1995.1066",
-        "cites": 1204,
+        "cites": 1205,
         "topic": "Ontology"
       },
       {
@@ -1900,28 +1890,18 @@
         "year": 2022,
         "venue": "World Wide Web",
         "url": "https://doi.org/10.1007/s11280-022-01016-3",
-        "cites": 71,
+        "cites": 72,
         "topic": "Ontology"
       },
       {
-        "title": "Ontology-based knowledge representation of industrial production workflow",
-        "authors": "Yang, C., Zheng, Y., Tu, X., Ala-Laurinaho, R., Autiosalo, J., Seppänen, O., et al.",
-        "year": 2023,
-        "venue": "Advanced Engineering Informatics",
-        "url": "https://doi.org/10.1016/j.aei.2023.102185",
-        "cites": 70,
+        "title": "Ontology based knowledge representation technique, domain modeling languages and planners for robotic path planning: A survey",
+        "authors": "Gayathri, R., & Uma, V.",
+        "year": 2018,
+        "venue": "ICT Express",
+        "url": "https://doi.org/10.1016/j.icte.2018.04.008",
+        "cites": 71,
         "topic": "Ontology"
       }
     ]
-  },
-  "oa": {
-    "Deep persona": "https://openalex.org/works?filter=default.search:Deep%20persona",
-    "Graph database": "https://openalex.org/works?filter=default.search:Graph%20database",
-    "Memory in Agentic AI": "https://openalex.org/works?filter=default.search:Agentic%20memory%20systems",
-    "LLM inference serving": "https://openalex.org/works?filter=default.search:LLM%20inference%20serving",
-    "Ethereum Layer-2": "https://openalex.org/works?filter=default.search:Ethereum%20layer-2%20rollup",
-    "Zero-knowledge proofs (ZKP)": "https://openalex.org/works?filter=default.search:zero-knowledge%20proof",
-    "Graph neural networks (GNN)": "https://openalex.org/works?filter=default.search:graph%20neural%20network",
-    "Ontology": "https://openalex.org/works?filter=default.search:ontology%20knowledge%20representation"
   }
 }
