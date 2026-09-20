@@ -31,7 +31,9 @@ jobs:
       - name: Install deps
         run: pip install --quiet pyyaml
 
-      - name: Generate My Topics feed (OpenAlex — keyless)
+      - name: Generate My Topics feed (OpenAlex) + Following (Google Scholar)
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}   # 팔로우 학자 = Google Scholar via SerpAPI
         run: python tools/gen_topics.py
 
       - name: Commit if changed

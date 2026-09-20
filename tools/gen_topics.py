@@ -8,7 +8,7 @@ in APA style, and writes _data/topics.json for the Articles page to render.
 Google Scholar has no API; OpenAlex is free, keyless, and structured — see
 study/13 (and study/08 for the Scholar author feed).
 """
-import json, re, sys, urllib.request, urllib.parse
+import json, os, re, sys, urllib.request, urllib.parse
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -82,21 +82,12 @@ def fetch(query, concept, cutoff, n):
         return json.load(r)
 
 
-def fetch_author(author_id, cutoff, n):
-    """한 학자의 최신 논문. author_id = OpenAlex 'A…' 또는 ORCID."""
-    aid = author_id.strip()
-    if aid[:1] in ("A", "a") and aid[1:2].isdigit():
-        who = f"authorships.author.id:{aid}"
-    else:  # ORCID
-        orc = aid if aid.startswith("http") else "https://orcid.org/" + aid
-        who = f"authorships.author.orcid:{orc}"
-    filt = f"{who},type:article,from_publication_date:{cutoff}"
-    q = {"filter": filt, "sort": "publication_date:desc", "per_page": max(n * 2, 8),
-         "mailto": MAILTO,
-         "select": "title,publication_year,authorships,primary_location,doi,cited_by_count,id"}
-    url = API + "?" + urllib.parse.urlencode(q)
-    req = urllib.request.Request(url, headers={"User-Agent": f"valleyjin-topics ({MAILTO})"})
-    with urllib.request.urlopen(req, timeout=60) as r:
+def fetch_scholar(user_id, key, n):
+    """Google Scholar 프로필의 최신 논문(SerpAPI). 저자 본인이 큐레이션 → 동명이인 없음."""
+    params = {"engine": "google_scholar_author", "author_id": user_id.strip(),
+              "api_key": key, "hl": "en", "sort": "pubdate", "num": min(max(n, 1), 100)}
+    url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
+    with urllib.request.urlopen(url, timeout=60) as r:
         return json.load(r)
 
 
@@ -183,40 +174,36 @@ def main():
     total = sum(len(d["papers"]) for d in arch["days"])
     print(f"✓ archive: {total} papers / {len(arch['days'])} days (+{len(new_today)} new today)")
 
-    # ── 팔로우 학자들의 최신 논문 → scholars.json ──
-    per_scholar = int(cfg.get("per_scholar", 5))
-    sresult = {"generated": today, "scholars": []}
-    for name, aid in parse_topics(cfg.get("scholars", "")):
-        blk = {"name": name, "id": aid, "papers": []}
-        try:
-            data = fetch_author(aid, cutoff, per_scholar)
-        except Exception as e:
-            print(f"! scholar {name}: {e}", file=sys.stderr)
-            sresult["scholars"].append(blk)
-            continue
-        blk["count"] = data.get("meta", {}).get("count")
-        seen_s = set()
-        for w in data.get("results", []):
-            title = clean_title(w.get("title"))
-            key = title.lower()[:70]
-            if not title or key in seen_s or len(title) < 8:
+    # ── 팔로우 학자들의 최신 논문 → scholars.json (Google Scholar via SerpAPI) ──
+    scholars_list = parse_topics(cfg.get("scholars", ""))   # "표시명 | scholar user id"
+    serp_key = os.environ.get("SERPAPI_KEY")
+    if not serp_key:
+        print("· SERPAPI_KEY 없음 — scholars.json 유지(키 있는 Action에서 채워짐).", file=sys.stderr)
+    else:
+        per_scholar = int(cfg.get("per_scholar", 5))
+        sresult = {"generated": today, "source": "Google Scholar", "scholars": []}
+        for name, uid in scholars_list:
+            blk = {"name": name, "id": uid, "papers": []}
+            try:
+                data = fetch_scholar(uid, serp_key, per_scholar)
+            except Exception as e:
+                print(f"! scholar {name}: {e}", file=sys.stderr)
+                sresult["scholars"].append(blk)
                 continue
-            seen_s.add(key)
-            src = (w.get("primary_location") or {}).get("source") or {}
-            blk["papers"].append({
-                "title": title,
-                "authors": apa_authors(w.get("authorships", [])),
-                "year": w.get("publication_year"),
-                "venue": (src.get("display_name") or "").strip(),
-                "url": w.get("doi") or w.get("id"),
-                "cites": w.get("cited_by_count", 0),
-            })
-            if len(blk["papers"]) >= per_scholar:
-                break
-        sresult["scholars"].append(blk)
-        print(f"  scholar {name}: {len(blk['papers'])} papers")
-    SCHOLARS.write_text(json.dumps(sresult, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"✓ wrote {SCHOLARS.relative_to(ROOT)} — {len(sresult['scholars'])} scholars")
+            for a in (data.get("articles") or [])[:per_scholar]:
+                cb = a.get("cited_by") or {}
+                blk["papers"].append({
+                    "title": clean_title(a.get("title")),
+                    "authors": (a.get("authors") or "").strip(),
+                    "year": a.get("year") or "",
+                    "venue": (a.get("publication") or "").strip(),
+                    "url": a.get("link") or "",
+                    "cites": cb.get("value") or 0,
+                })
+            sresult["scholars"].append(blk)
+            print(f"  scholar {name}: {len(blk['papers'])} papers")
+        SCHOLARS.write_text(json.dumps(sresult, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"✓ wrote {SCHOLARS.relative_to(ROOT)} — {len(sresult['scholars'])} scholars (Google Scholar)")
 
 
 if __name__ == "__main__":
