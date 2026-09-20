@@ -70,7 +70,7 @@ img{max-width:100%;display:block}
 .hero .hero-name{font-size:clamp(42px,7vw,70px);line-height:1.02;letter-spacing:-.03em;font-weight:700;margin:2px 0 12px;max-width:none}
 .hero .hero-tagline{font-size:clamp(19px,2.7vw,26px);line-height:1.28;letter-spacing:-.01em;color:var(--ink);font-weight:550;margin:0 0 22px;max-width:24ch}
 .hero .hero-tagline em{font-style:normal;color:var(--accent)}
-.hero .lede{font-size:18px;color:var(--ink-soft);max-width:60ch;margin:0 0 26px}
+.hero .lede{font-size:18px;color:var(--ink-soft);max-width:44ch;margin:0 0 26px}
 .hero .meta{display:flex;flex-wrap:wrap;gap:8px 22px;font-family:var(--mono);font-size:13px;color:var(--muted)}
 .hero .meta a{border-bottom:1px solid var(--line);padding-bottom:1px}
 .hero .meta a:hover{border-color:var(--accent)}
