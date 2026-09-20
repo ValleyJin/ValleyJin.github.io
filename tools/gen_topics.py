@@ -67,8 +67,8 @@ def apa_authors(authorships):
     return ", ".join(names[:-1]) + ", & " + names[-1]
 
 
-def fetch(query, concept, cutoff, n, sort=None):
-    parts = [f"default.search:{query}", "type:article", f"concepts.id:{concept}", "has_doi:true"]
+def fetch(query, concept, cutoff, n, sort=None, field="default"):
+    parts = [f"{field}.search:{query}", "type:article", f"concepts.id:{concept}", "has_doi:true"]
     if cutoff:
         parts.insert(2, f"from_publication_date:{cutoff}")   # cutoff=None → 전기간
     filt = ",".join(parts)
@@ -183,7 +183,8 @@ def main():
     for label, query in topics:
         arr, seen_m = [], set()
         try:
-            data = fetch(query, concept, None, 8, sort="cited_by_count:desc")  # cutoff None = 전기간
+            data = fetch(query, concept, None, 8, sort="cited_by_count:desc",
+                         field="title_and_abstract")   # 전기간·주제정밀(제목+초록)
         except Exception as e:
             print(f"! mostcited {label}: {e}", file=sys.stderr)
             mostcited[label] = []

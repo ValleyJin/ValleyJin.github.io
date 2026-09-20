@@ -103,9 +103,6 @@ permalink: /articles/
 
   <div id="pane-scholars" class="tabpane" hidden>
     {% assign sc = site.data.scholars %}
-    <p class="mono" style="color:var(--muted);font-size:12px;margin:2px 0 20px">
-      Latest papers by scholars I follow{% if sc.generated %} · updated {{ sc.generated }}{% endif %} · via <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a>
-    </p>
     {% assign shown = 0 %}
     {% if sc.scholars and sc.scholars.size > 0 %}
       {% for g in sc.scholars %}
