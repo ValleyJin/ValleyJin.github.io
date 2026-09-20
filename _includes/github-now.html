@@ -25,14 +25,16 @@
     <div class="stat-row"><span class="k">total stars</span><span class="v">{{ gh.total_stars | default: "—" }}</span></div>
     <div class="stat-row"><span class="k">followers</span><span class="v">{{ gh.followers | default: "—" }}</span></div>
     {% if gh and gh.languages %}
-    <div class="langbars">
-      {% for l in gh.languages limit:5 %}
-      <div class="langbar">
-        <span>{{ l.name }}</span>
-        <span class="track"><span class="fill" style="width:{{ l.pct }}%"></span></span>
-        <span>{{ l.pct }}%</span>
-      </div>
-      {% endfor %}
+    {% assign cols = "#6ad7c2,#4fb3a3,#3d8f86,#6b7280,#3b414a" | split: "," %}
+    {% assign acc = 0 %}
+    {% capture pie %}{% for l in gh.languages limit:5 %}{% assign start = acc %}{% assign acc = acc | plus: l.pct %}{% if forloop.last %}{% assign stop = 100 %}{% else %}{% assign stop = acc %}{% endif %}{{ cols[forloop.index0] }} {{ start }}% {{ stop }}%{% unless forloop.last %}, {% endunless %}{% endfor %}{% endcapture %}
+    <div class="langchart">
+      <div class="langpie" style="background:conic-gradient({{ pie }})"><span class="langhole"></span></div>
+      <ul class="langlegend">
+        {% for l in gh.languages limit:5 %}
+        <li><span class="sw" style="background:{{ cols[forloop.index0] }}"></span><span class="ln">{{ l.name }}</span><span class="lp">{{ l.pct }}%</span></li>
+        {% endfor %}
+      </ul>
     </div>
     {% endif %}
   </aside>
