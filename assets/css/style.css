@@ -67,6 +67,7 @@ img{max-width:100%;display:block}
 @media(prefers-color-scheme:light){:root:not([data-theme="dark"]) .hero .kicker .ghmark{filter:none}}
 :root[data-theme="light"] .hero .kicker .ghmark{filter:none}
 :root[data-theme="dark"] .hero .kicker .ghmark{filter:invert(1)}
+.hero .kicker .ghmark.xmark,:root[data-theme="light"] .hero .kicker .ghmark.xmark,:root[data-theme="dark"] .hero .kicker .ghmark.xmark{filter:none;border-radius:4px}
 .hero .hero-name{font-size:clamp(42px,7vw,70px);line-height:1.02;letter-spacing:-.03em;font-weight:700;margin:2px 0 12px;max-width:none}
 .hero .hero-tagline{font-size:clamp(19px,2.7vw,26px);line-height:1.28;letter-spacing:-.01em;color:var(--ink);font-weight:550;margin:0 0 22px;max-width:24ch}
 .hero .hero-tagline em{font-style:normal;color:var(--accent)}
