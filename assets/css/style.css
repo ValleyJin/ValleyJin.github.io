@@ -51,8 +51,12 @@ img{max-width:100%;display:block}
 .hero .eyebrow{margin:0 0 18px}
 .hero h1{font-size:clamp(30px,5vw,46px);line-height:1.12;letter-spacing:-.02em;margin:0 0 20px;font-weight:650;max-width:16ch}
 .hero h1 em{font-style:normal;color:var(--accent)}
-.hero .kicker .ghid{color:var(--ink-soft);border-bottom:1px solid var(--line);padding-bottom:1px}
+.hero .kicker .ghid{color:var(--ink-soft);border-bottom:1px solid var(--line);padding-bottom:1px;display:inline-flex;align-items:center;gap:6px}
 .hero .kicker .ghid:hover{color:var(--accent);border-color:var(--accent)}
+.hero .kicker .ghmark{width:14px;height:14px;opacity:.85;filter:invert(1)}
+@media(prefers-color-scheme:light){:root:not([data-theme="dark"]) .hero .kicker .ghmark{filter:none}}
+:root[data-theme="light"] .hero .kicker .ghmark{filter:none}
+:root[data-theme="dark"] .hero .kicker .ghmark{filter:invert(1)}
 .hero .hero-name{font-size:clamp(42px,7vw,70px);line-height:1.02;letter-spacing:-.03em;font-weight:700;margin:2px 0 12px;max-width:none}
 .hero .hero-tagline{font-size:clamp(19px,2.7vw,26px);line-height:1.28;letter-spacing:-.01em;color:var(--ink);font-weight:550;margin:0 0 22px;max-width:24ch}
 .hero .hero-tagline em{font-style:normal;color:var(--accent)}
