@@ -1,5 +1,98 @@
 {
   "generated": "2026-09-20",
   "source": "Google Scholar",
-  "scholars": []
+  "scholars": [
+    {
+      "name": "Min-Soo Kim · KAIST",
+      "id": "1wZVw8QAAAAJ",
+      "papers": [
+        {
+          "title": "SafeQL: Search-based Refinement for Safe and Efficient LLM-based Text-to-SQL",
+          "authors": "G Lee, MS Kim",
+          "year": "2026",
+          "venue": "arXiv preprint arXiv:2608.09260, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:TGkaJS32XoUC",
+          "cites": 0
+        },
+        {
+          "title": "AFLiP: An Access-Recomputation Decoupling Framework for Efficient and Structure-Preserving GNN-based Link Prediction",
+          "authors": "J Bae, MS Kim",
+          "year": "2026",
+          "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and …, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:J3LtWjKFLicC",
+          "cites": 0
+        },
+        {
+          "title": "cuRPQ+: A System for Interactive Path-Aware Querying Beyond Plain CRPQs",
+          "authors": "S Kim, S Park, MS Kim",
+          "year": "2026",
+          "venue": "Proceedings of the VLDB Endowment 19 (12), 4698-4701, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:E7VqQtBCVmcC",
+          "cites": 0
+        },
+        {
+          "title": "CONDA: A Connectivity-Aware Dynamic Index for Approximate Nearest Neighbor Search over Evolving Data",
+          "authors": "D Lee, MS Kim",
+          "year": "2026",
+          "venue": "Proceedings of the VLDB Endowment 19 (11), 3357-3370, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:JH5k92_tO-AC",
+          "cites": 0
+        },
+        {
+          "title": "GraphContainer: A Unified Platform for Comparing and Debugging Graph RAG Methods",
+          "authors": "S An, C Hyun, MS Kim",
+          "year": "2026",
+          "venue": "arXiv preprint arXiv:2607.19362, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:YPNY0knpFBYC",
+          "cites": 0
+        }
+      ]
+    },
+    {
+      "name": "Joon Sung Park · Stanford",
+      "id": "Y4Oc0cMAAAAJ",
+      "papers": [
+        {
+          "title": "Finetuning LLMs for Human Behavior Prediction in Social Science Experiments",
+          "authors": "A Kolluri, S Wu, JS Park, MS Bernstein",
+          "year": "2025",
+          "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
+          "cites": 44
+        },
+        {
+          "title": "Creating General User Models from Computer Use",
+          "authors": "O Shaikh, S Sapkota, S Rizvi, E Horvitz, JS Park, D Yang, MS Bernstein",
+          "year": "2025",
+          "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
+          "cites": 86
+        },
+        {
+          "title": "Simulating Human Behavior With AI Agents",
+          "authors": "JS Park, CQ Zou, A Shaw, BM Hill, CJ Cai, MR Morris, R Willer, P Liang, ...",
+          "year": "2025",
+          "venue": "Stanford Institute for Human-Centered Artificial Intelligence (HAI), 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:uWQEDVKXjbEC",
+          "cites": 13
+        },
+        {
+          "title": "Human Subjects Research in the Age of Generative AI: Opportunities and Challenges of Applying LLM-Simulated Data to HCI Studies",
+          "authors": "AHC Hwang, MS Bernstein, SS Sundar, R Zhang, M Horta Ribeiro, Y Lu, ...",
+          "year": "2025",
+          "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors …, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:M05iB0D1s5AC",
+          "cites": 28
+        },
+        {
+          "title": "Generative Agent Simulations of Human Behavior",
+          "authors": "JS Park",
+          "year": "2025",
+          "venue": "Stanford University, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=5&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:a0OBvERweLwC",
+          "cites": 3
+        }
+      ]
+    }
+  ]
 }
