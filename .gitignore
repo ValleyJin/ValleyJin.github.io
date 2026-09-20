@@ -11,3 +11,6 @@ Gemfile.lock
 cms-worker/.wrangler/
 cms-worker/.env
 .gstack/
+
+# 개발/운영 교재 — 로컬 전용, GitHub 공개에서 제외
+study/
