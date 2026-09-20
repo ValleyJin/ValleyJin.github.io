@@ -91,8 +91,8 @@ img{max-width:100%;display:block}
   .voxel{height:330px}
 }
 @media(max-width:560px){
-  .hero-art{min-height:270px}
-  .voxel{height:270px}
+  .hero-art{min-height:290px}
+  .voxel{height:290px}
 }
 
 /* ---- section ---- */

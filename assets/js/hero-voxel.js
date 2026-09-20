@@ -14,9 +14,11 @@
 
   var W = mount.clientWidth || 480, H = mount.clientHeight || 460;
   var scene = new THREE.Scene();
-  var d = 4.0, aspect = W / H;
+  // 모바일에선 프레임(d)을 좁혀 로봇을 ~1.8배 크게 보여준다(가로 잘림 없는 최소값). 시선도 살짝 위로 올려 하트/코인이 안 잘리게.
+  function frame(w) { return w < 560 ? 2.2 : 4.0; }
+  var d = frame(W), aspect = W / H, look = d < 3 ? 1.0 : 0.75;
   var camera = new THREE.OrthographicCamera(-d * aspect, d * aspect, d, -d, -50, 100);
-  camera.position.set(7.5, 6.2, 8.5); camera.lookAt(0, 0.75, 0);
+  camera.position.set(7.5, 6.2, 8.5); camera.lookAt(0, look, 0);
 
   var renderer;
   try { renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true }); } catch (e) { renderer = null; }
@@ -332,6 +334,7 @@
 
   window.addEventListener('resize', function () {
     W = mount.clientWidth || W; H = mount.clientHeight || H; aspect = W / H;
+    d = frame(W); look = d < 3 ? 1.0 : 0.75; camera.lookAt(0, look, 0);
     camera.left = -d * aspect; camera.right = d * aspect; camera.top = d; camera.bottom = -d;
     camera.updateProjectionMatrix(); renderer.setSize(W, H);
   });
