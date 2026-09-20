@@ -183,8 +183,9 @@ def main():
     for label, query in topics:
         arr, seen_m = [], set()
         try:
-            data = fetch(query, concept, None, 8, sort="cited_by_count:desc",
-                         field="title_and_abstract")   # 전기간·주제정밀(제목+초록)
+            # 관련도(정렬X)로 주제 논문을 넓게 → 그중 인용수 상위. (cited_by_count 정렬은
+            # 관련도를 무시해 BLAST/ImageNet 같은 무관 초고인용을 끌어와서 안 씀)
+            data = fetch(query, concept, None, 30, field="title_and_abstract")
         except Exception as e:
             print(f"! mostcited {label}: {e}", file=sys.stderr)
             mostcited[label] = []
@@ -205,9 +206,8 @@ def main():
                 "url": w.get("doi") or w.get("id"), "cites": w.get("cited_by_count", 0),
                 "topic": label,
             })
-            if len(arr) >= 6:
-                break
-        mostcited[label] = arr
+        arr.sort(key=lambda p: p["cites"], reverse=True)   # 주제 논문 중 인용수 상위
+        mostcited[label] = arr[:6]
 
     NEWEST.write_text(json.dumps({
         "generated": today,
