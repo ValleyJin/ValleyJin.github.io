@@ -14,6 +14,11 @@ social:
   github: ValleyJin
   email: ""      # optional: fill to show a mailto link
 
+# 링크 공유 시 뜨는 소셜 카드(Open Graph / Twitter Card)
+twitter:
+  username: ValleyJin
+  card: summary_large_image
+
 permalink: /writing/:title/
 paginate: 8
 paginate_path: "/writing/page:num/"
@@ -36,6 +41,12 @@ feed:
 defaults:
   - scope: { path: "", type: "posts" }
     values: { layout: "post" }
+  - scope: { path: "" }        # 모든 페이지 기본 og:image (개별 페이지 front matter의 image로 덮어쓰기 가능)
+    values:
+      image:
+        path: /assets/images/og.png
+        width: 1200
+        height: 630
 
 exclude:
   - README.md
