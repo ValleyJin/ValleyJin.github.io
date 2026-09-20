@@ -20,7 +20,7 @@ permalink: /articles/
   {% if s.metrics.citations %}
   <!-- metrics -->
   <div class="sc-metrics">
-    <a class="sc-metric sc-photo" href="{{ s.profile_url }}" target="_blank" rel="noopener"><img class="sc-avatar" src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ThQ_DqUAAAAJ&citpid=2" alt="{{ s.name }} — Google Scholar profile" loading="lazy"><span class="k">Google Scholar ↗</span></a>
+    <a class="sc-metric sc-photo" href="{{ s.profile_url }}" target="_blank" rel="noopener"><img class="sc-avatar" src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ThQ_DqUAAAAJ&citpid=2" alt="{{ s.name }} — Google Scholar profile" loading="lazy" referrerpolicy="no-referrer"><span class="k">Google Scholar ↗</span></a>
     <div class="sc-metric"><span class="v">{{ s.metrics.citations }}</span><span class="k">Citations</span>{% if s.metrics.citations_since %}<span class="s">{{ s.metrics.citations_since }} since {{ s.metrics.since_year }}</span>{% endif %}</div>
     <div class="sc-metric"><span class="v">{{ s.metrics.hindex }}</span><span class="k">h-index</span>{% if s.metrics.hindex_since %}<span class="s">{{ s.metrics.hindex_since }} since {{ s.metrics.since_year }}</span>{% endif %}</div>
     <div class="sc-metric"><span class="v">{{ s.metrics.i10 }}</span><span class="k">i10-index</span>{% if s.metrics.i10_since %}<span class="s">{{ s.metrics.i10_since }} since {{ s.metrics.since_year }}</span>{% endif %}</div>
