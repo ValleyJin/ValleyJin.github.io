@@ -9,6 +9,7 @@ field_concept: C41008148   # OpenAlex concept: Computer Science
 # 팔로우 학자: 한 줄에 "표시명 | Google Scholar user id". 동명이인 없음(본인 큐레이션).
 # id = 프로필 URL scholar.google.com/citations?user=XXXX 의 user 값.
 scholars: |
+  Jae-Suk Yang · KAIST | gM0qYNUAAAAJ
   Min-Soo Kim · KAIST | 1wZVw8QAAAAJ
   Joon Sung Park · Stanford | Y4Oc0cMAAAAJ
 topics: |
