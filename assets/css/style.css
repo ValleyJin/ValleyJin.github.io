@@ -103,7 +103,7 @@ img{max-width:100%;display:block}
 .section-head .more:hover{color:var(--accent)}
 
 /* ---- currently / github now ---- */
-.now-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px}
+.now-grid{display:grid;grid-template-columns:1fr 440px;gap:40px}   /* 우측 stats 카드 폭 = 상단 Kyopo 썸네일(440px)과 통일 */
 @media(max-width:800px){.now-grid{grid-template-columns:1fr;gap:28px}}
 .now ul{list-style:none;margin:0;padding:0}
 .now li{padding:14px 0;border-bottom:1px solid var(--line-soft);display:flex;gap:14px;align-items:flex-start}
