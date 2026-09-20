@@ -235,6 +235,26 @@ img{max-width:100%;display:block}
   .about-lede{font-size:17px;text-align:left}
 }
 
+/* ---- Home: Launched Services (copy left, thumbnail right) ---- */
+.services{display:flex;flex-direction:column;gap:22px}
+.svc{display:grid;grid-template-columns:1fr 440px;align-items:stretch;
+  background:var(--bg-elev);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:border-color .2s}
+.svc:hover{border-color:var(--accent-dim)}
+.svc-copy{padding:28px 30px;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.svc-copy h3{margin:0 0 6px;font-size:21px;font-weight:650;letter-spacing:-.01em;display:flex;align-items:center;gap:11px;flex-wrap:wrap}
+.svc-copy h3 .solo{font-family:var(--mono);font-size:10.5px;letter-spacing:.03em;color:var(--accent);border:1px solid var(--accent-dim);border-radius:999px;padding:3px 9px;white-space:nowrap}
+.svc-tag{margin:0 0 10px;font-size:15px;color:var(--ink-soft);font-weight:550;line-height:1.45}
+.svc-copy p.svc-desc{margin:0 0 15px;font-size:13.5px;color:var(--muted);line-height:1.6}
+.svc-url{font-family:var(--mono);font-size:12.5px;color:var(--accent);align-self:flex-start;border-bottom:1px solid transparent}
+.svc:hover .svc-url{border-color:var(--accent)}
+.svc-thumb{display:block;overflow:hidden;background:var(--bg);border-left:1px solid var(--line)}
+.svc-thumb img{width:100%;height:100%;object-fit:cover;object-position:left center;display:block;transition:transform .5s ease}
+.svc:hover .svc-thumb img{transform:scale(1.04)}
+@media(max-width:760px){
+  .svc{grid-template-columns:1fr}
+  .svc-thumb{order:-1;border-left:0;border-bottom:1px solid var(--line);aspect-ratio:16/10}
+}
+
 /* ---- About: Launched (shipped products, solo-built) ---- */
 .launch-list{list-style:none;margin:2px 0 8px;padding:0;font-family:var(--sans)}
 .launch-item{background:var(--bg-elev);border:1px solid var(--line);border-radius:14px;padding:22px 24px;transition:border-color .2s}
