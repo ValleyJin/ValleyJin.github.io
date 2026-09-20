@@ -14,9 +14,10 @@
 
   var W = mount.clientWidth || 480, H = mount.clientHeight || 460;
   var scene = new THREE.Scene();
-  // 모바일에선 프레임(d)을 좁혀 로봇을 ~1.8배 크게 보여준다(가로 잘림 없는 최소값). 시선도 살짝 위로 올려 하트/코인이 안 잘리게.
-  function frame(w) { return w < 560 ? 2.2 : 4.0; }
-  var d = frame(W), aspect = W / H, look = d < 3 ? 1.0 : 0.75;
+  // 모바일(뷰포트 좁을 때)에서만 프레임(d)을 좁혀 로봇을 ~1.8배 크게. 캔버스 폭이 아니라
+  // 뷰포트 폭으로 판단해야 PC의 좁은 아트 컬럼에서 오확대되어 상자가 잘리지 않는다.
+  function frame() { return (window.innerWidth || 1200) < 560 ? 2.2 : 4.0; }
+  var d = frame(), aspect = W / H, look = d < 3 ? 1.0 : 0.75;
   var camera = new THREE.OrthographicCamera(-d * aspect, d * aspect, d, -d, -50, 100);
   camera.position.set(7.5, 6.2, 8.5); camera.lookAt(0, look, 0);
 
@@ -334,7 +335,7 @@
 
   window.addEventListener('resize', function () {
     W = mount.clientWidth || W; H = mount.clientHeight || H; aspect = W / H;
-    d = frame(W); look = d < 3 ? 1.0 : 0.75; camera.lookAt(0, look, 0);
+    d = frame(); look = d < 3 ? 1.0 : 0.75; camera.lookAt(0, look, 0);
     camera.left = -d * aspect; camera.right = d * aspect; camera.top = d; camera.bottom = -d;
     camera.updateProjectionMatrix(); renderer.setSize(W, H);
   });

@@ -7,7 +7,11 @@ permalink: /writing/
   <header class="article-head" style="margin-bottom:30px">
     <span class="cat">Journal</span>
     <h1>Writing</h1>
-    <div class="meta"><span>Notes on AI, blockchain, and building — {{ site.posts.size }} post{% if site.posts.size != 1 %}s{% endif %}.</span></div>
+    {%- assign _tc = site.data.topics_config.topics | newline_to_br | split: '<br />' -%}
+    {%- assign _labs = '' -%}
+    {%- for _l in _tc -%}{%- assign _s = _l | strip -%}{%- if _s != '' -%}{%- assign _lab = _s | split: '|' | first | strip -%}{%- assign _labs = _labs | append: _lab | append: '||' -%}{%- endif -%}{%- endfor -%}
+    {%- assign _top3 = _labs | split: '||' | slice: 0, 3 -%}
+    <div class="meta"><span>Notes on {% for _t in _top3 %}{% if forloop.last and _top3.size > 1 %}and {% endif %}{{ _t }}{% unless forloop.last %}, {% endunless %}{% endfor %} — {{ site.posts.size }} post{% if site.posts.size != 1 %}s{% endif %}.</span></div>
   </header>
   <ul class="posts">
     {% for post in site.posts %}

@@ -1,4 +1,13 @@
-# Decap CMS configuration
+---
+# This file is processed by Jekyll (front matter above) so the post Category
+# options can be generated from _data/topics_config.yml. Decap's own {{...}}
+# template tags are wrapped in {% raw %} so Liquid leaves them untouched.
+---
+{%- assign _tc = site.data.topics_config.topics | newline_to_br | split: '<br />' -%}
+{%- assign _labs = '' -%}
+{%- for _l in _tc -%}{%- assign _s = _l | strip -%}{%- if _s != '' -%}{%- assign _lab = _s | split: '|' | first | strip -%}{%- assign _labs = _labs | append: _lab | append: '||' -%}{%- endif -%}{%- endfor -%}
+{%- assign _labels = _labs | split: '||' -%}
+{% raw %}# Decap CMS configuration
 # Auth uses the GitHub backend via a lightweight OAuth proxy (Cloudflare Worker).
 # See SETUP-CMS.md for the two one-time steps to make login work.
 
@@ -33,9 +42,9 @@ collections:
       - label: "Category"
         name: "category"
         widget: "select"
-        options: ["AI", "Blockchain", "Physical AI", "Dev", "Meta"]
-        default: "AI"
-      - { label: "Tags", name: "tags", widget: "list", default: [], required: false }
+{% endraw %}        options: [{% for l in _labels %}"{{ l }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+        default: "{{ _labels | first }}"
+{% raw %}      - { label: "Tags", name: "tags", widget: "list", default: [], required: false }
       - { label: "Cover image", name: "cover", widget: "image", required: false, choose_url: false }
       - { label: "Excerpt", name: "excerpt", widget: "text", required: false, hint: "One or two sentences shown in listings." }
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
@@ -47,7 +56,7 @@ collections:
       - name: topics
         label: "My Topics (research feed)"
         file: "_data/topics_config.yml"
-        description: "Articles 페이지 'My Topics' 피드에 쓰는 팔로우 토픽. 저장하면 매일 도는 OpenAlex 자동갱신이 반영한다."
+        description: "Articles 페이지 'My Topics' 피드에 쓰는 팔로우 토픽. 저장하면 매일 도는 OpenAlex 자동갱신이 반영한다. (여기 토픽이 Writing 글 분류 카테고리로도 쓰인다.)"
         fields:
           - label: "Topics"
             name: "topics"
@@ -62,3 +71,4 @@ collections:
           - { label: "Papers per scholar", name: "per_scholar", widget: "number", value_type: "int", default: 5, min: 1, max: 12 }
           - { label: "Only last N years", name: "years", widget: "number", value_type: "int", default: 3, min: 1, max: 10 }
           - { label: "Field concept (OpenAlex)", name: "field_concept", widget: "hidden", default: "C41008148" }
+{% endraw %}

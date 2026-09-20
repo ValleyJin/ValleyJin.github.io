@@ -7,6 +7,6 @@
 {% seo %}
 {% feed_meta %}
 <script>
-  // honor a stored theme choice; default = system (no attribute)
-  (function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+  // honor a stored theme choice; default = dark (so in-app browsers like Facebook don't force light)
+  (function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t||'dark');}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();
 </script>
