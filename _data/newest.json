@@ -1561,5 +1561,455 @@
       "cites": 0,
       "topic": "Ethereum Layer-2"
     }
-  ]
+  ],
+  "mostcited": {
+    "Deep persona": [
+      {
+        "title": "The qualitative content analysis process",
+        "authors": "Elo, S., & Kyngäs, H.",
+        "year": 2008,
+        "venue": "Journal of Advanced Nursing",
+        "url": "https://doi.org/10.1111/j.1365-2648.2007.04569.x",
+        "cites": 22924,
+        "topic": "Deep persona"
+      },
+      {
+        "title": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+        "authors": "Dwivedi, Y. K., Hughes, L., Ismagilova, E., Aarts, G., Coombs, C., Crick, T., et al.",
+        "year": 2019,
+        "venue": "International Journal of Information Management",
+        "url": "https://doi.org/10.1016/j.ijinfomgt.2019.08.002",
+        "cites": 4464,
+        "topic": "Deep persona"
+      },
+      {
+        "title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+        "authors": "Dwivedi, Y. K., Kshetri, N., Hughes, L., Slade, E., Jeyaraj, A., Kar, A. K., et al.",
+        "year": 2023,
+        "venue": "International Journal of Information Management",
+        "url": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
+        "cites": 4332,
+        "topic": "Deep persona"
+      },
+      {
+        "title": "Identity and interaction: a sociocultural linguistic approach",
+        "authors": "Bucholtz, M., & Hall, K.",
+        "year": 2005,
+        "venue": "Discourse Studies",
+        "url": "https://doi.org/10.1177/1461445605054407",
+        "cites": 3771,
+        "topic": "Deep persona"
+      },
+      {
+        "title": "Metaverse beyond the hype: Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",
+        "authors": "Dwivedi, Y. K., Hughes, L., Baabdullah, A. M., Ribeiro‐Navarrete, S., Giannakis, M., Al‐Debei, M. M., et al.",
+        "year": 2022,
+        "venue": "International Journal of Information Management",
+        "url": "https://doi.org/10.1016/j.ijinfomgt.2022.102542",
+        "cites": 2728,
+        "topic": "Deep persona"
+      },
+      {
+        "title": "Online University Teaching During and After the Covid-19 Crisis: Refocusing Teacher Presence and Learning Activity",
+        "authors": "Rapanta, C., Botturi, L., Goodyear, P., Ortiz, L. G., & Koole, M.",
+        "year": 2020,
+        "venue": "Postdigital Science and Education",
+        "url": "https://doi.org/10.1007/s42438-020-00155-y",
+        "cites": 2113,
+        "topic": "Deep persona"
+      }
+    ],
+    "Graph database": [
+      {
+        "title": "Exploiting Generative AI to Scale up Intelligent Tutoring Systems",
+        "authors": "Jan, J., Karel, C., Zarathustra, G., Cezary, K., Mirek, O., Bartosz, P., et al.",
+        "year": 2023,
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+        "url": "https://doi.org/10.4230/lipics.itp.2023.19",
+        "cites": 79061,
+        "topic": "Graph database"
+      },
+      {
+        "title": "ImageNet classification with deep convolutional neural networks",
+        "authors": "Krizhevsky, A., Sutskever, I., & Hinton, G. E.",
+        "year": 2017,
+        "venue": "Communications of the ACM",
+        "url": "https://doi.org/10.1145/3065386",
+        "cites": 75618,
+        "topic": "Graph database"
+      },
+      {
+        "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+        "authors": "Altschul, S. F.",
+        "year": 1997,
+        "venue": "Nucleic Acids Research",
+        "url": "https://doi.org/10.1093/nar/25.17.3389",
+        "cites": 74947,
+        "topic": "Graph database"
+      },
+      {
+        "title": "Gradient-based learning applied to document recognition",
+        "authors": "LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P.",
+        "year": 1998,
+        "venue": "Proceedings of the IEEE",
+        "url": "https://doi.org/10.1109/5.726791",
+        "cites": 59717,
+        "topic": "Graph database"
+      },
+      {
+        "title": "MAFFT Multiple Sequence Alignment Software Version 7: Improvements in Performance and Usability",
+        "authors": "Katoh, K., & Standley, D. M.",
+        "year": 2013,
+        "venue": "Molecular Biology and Evolution",
+        "url": "https://doi.org/10.1093/molbev/mst010",
+        "cites": 49669,
+        "topic": "Graph database"
+      },
+      {
+        "title": "Highly accurate protein structure prediction with AlphaFold",
+        "authors": "Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., et al.",
+        "year": 2021,
+        "venue": "Nature",
+        "url": "https://doi.org/10.1038/s41586-021-03819-2",
+        "cites": 47410,
+        "topic": "Graph database"
+      }
+    ],
+    "Memory in Agentic AI": [
+      {
+        "title": "A survey on deep learning in medical image analysis",
+        "authors": "Litjens, G., Kooi, T., Bejnordi, B. E., Setio, A. A. A., Ciompi, F., Ghafoorian, M., et al.",
+        "year": 2017,
+        "venue": "Medical Image Analysis",
+        "url": "https://doi.org/10.1016/j.media.2017.07.005",
+        "cites": 15249,
+        "topic": "Memory in Agentic AI"
+      },
+      {
+        "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+        "authors": "Kaugeranna, R., Kaugeranna, E., & 4.6), A. (. S.",
+        "year": 2023,
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+        "url": "https://doi.org/10.4230/lipics.giscience.2023.43",
+        "cites": 14371,
+        "topic": "Memory in Agentic AI"
+      },
+      {
+        "title": "Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI",
+        "authors": "Arrieta, A. B., Díaz-Rodríguez, N., Ser, J. D., Bennetot, A., Tabik, S., Barbado, A., et al.",
+        "year": 2019,
+        "venue": "Information Fusion",
+        "url": "https://doi.org/10.1016/j.inffus.2019.12.012",
+        "cites": 9967,
+        "topic": "Memory in Agentic AI"
+      },
+      {
+        "title": "Reinforcement Learning: A Survey",
+        "authors": "Kaelbling, L. P., Littman, M. L., & Moore, A.",
+        "year": 1996,
+        "venue": "Journal of Artificial Intelligence Research",
+        "url": "https://doi.org/10.1613/jair.301",
+        "cites": 8961,
+        "topic": "Memory in Agentic AI"
+      },
+      {
+        "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+        "authors": "Alzubaidi, L., Zhang, J., Humaidi, A. J., Al-Dujaili, A. Q., Duan, Y., Al-Shamma, O., et al.",
+        "year": 2021,
+        "venue": "Journal Of Big Data",
+        "url": "https://doi.org/10.1186/s40537-021-00444-8",
+        "cites": 7909,
+        "topic": "Memory in Agentic AI"
+      },
+      {
+        "title": "Ferroptosis: A Regulated Cell Death Nexus Linking Metabolism, Redox Biology, and Disease",
+        "authors": "Stockwell, B. R., Angeli, J. P. F., Bayır, H., Bush, A. I., Conrad, M., Dixon, S. J., et al.",
+        "year": 2017,
+        "venue": "Cell",
+        "url": "https://doi.org/10.1016/j.cell.2017.09.021",
+        "cites": 7841,
+        "topic": "Memory in Agentic AI"
+      }
+    ],
+    "LLM inference serving": [
+      {
+        "title": "A survey on large language model based autonomous agents",
+        "authors": "Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., et al.",
+        "year": 2024,
+        "venue": "Frontiers of Computer Science",
+        "url": "https://doi.org/10.1007/s11704-024-40231-1",
+        "cites": 1606,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "A Survey of Large Language Models",
+        "authors": "Zhao, W. X., Zhou, K., Li, J., Tang, T., Dong, Z., Hou, Y., et al.",
+        "year": 2026,
+        "venue": "Frontiers of Computer Science",
+        "url": "https://doi.org/10.1007/s11704-026-60308-3",
+        "cites": 1547,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "Autonomous chemical research with large language models",
+        "authors": "Boiko, D. A., MacKnight, R., Kline, B., & Gomes, G.",
+        "year": 2023,
+        "venue": "Nature",
+        "url": "https://doi.org/10.1038/s41586-023-06792-0",
+        "cites": 995,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+        "authors": "Guo, D., Yang, D., Zhang, H., Song, J., Wang, P., Zhu, Q., et al.",
+        "year": 2025,
+        "venue": "Nature",
+        "url": "https://doi.org/10.1038/s41586-025-09422-z",
+        "cites": 992,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "High-Dimensional Methods and Inference on Structural and Treatment Effects",
+        "authors": "Belloni, A., Chernozhukov, V., & Hansen, C.",
+        "year": 2014,
+        "venue": "The Journal of Economic Perspectives",
+        "url": "https://doi.org/10.1257/jep.28.2.29",
+        "cites": 736,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "Explainable Artificial Intelligence (XAI) 2.0: A manifesto of open challenges and interdisciplinary research directions",
+        "authors": "Longo, L., Brčić, M., Cabitza, F., Choi, J., Confalonieri, R., Ser, J. D., et al.",
+        "year": 2024,
+        "venue": "Information Fusion",
+        "url": "https://doi.org/10.1016/j.inffus.2024.102301",
+        "cites": 544,
+        "topic": "LLM inference serving"
+      }
+    ],
+    "Ethereum Layer-2": [
+      {
+        "title": "Blockchain Meets Metaverse and Digital Asset Management: A Comprehensive Survey",
+        "authors": "Truong, V. T., Le, L. B., & Niyato, D.",
+        "year": 2023,
+        "venue": "IEEE Access",
+        "url": "https://doi.org/10.1109/access.2023.3257029",
+        "cites": 257,
+        "topic": "Ethereum Layer-2"
+      },
+      {
+        "title": "Security, Privacy, and Decentralized Trust Management in VANETs: A Review of Current Research and Future Directions",
+        "authors": "Al-Marshoud, M. S., Kiraz, M. S., & Al-Bayati, A. H.",
+        "year": 2024,
+        "venue": "ACM Computing Surveys",
+        "url": "https://doi.org/10.1145/3656166",
+        "cites": 136,
+        "topic": "Ethereum Layer-2"
+      },
+      {
+        "title": "A Survey and Comparison of Post-Quantum and Quantum Blockchains",
+        "authors": "Yang, Z., Alfauri, H., Farkiani, B., Jain, R., Pietro, R. D., & Erbad, A.",
+        "year": 2023,
+        "venue": "IEEE Communications Surveys & Tutorials",
+        "url": "https://doi.org/10.1109/comst.2023.3325761",
+        "cites": 112,
+        "topic": "Ethereum Layer-2"
+      },
+      {
+        "title": "A Survey on Blockchain Interoperability: Past, Present, and Future Trends",
+        "authors": "Belchior, R., Vasconcelos, A., Guerreiro, S., & Correia, M.",
+        "year": 2021,
+        "venue": "ACM Computing Surveys",
+        "url": "https://doi.org/10.1145/3471140",
+        "cites": 96,
+        "topic": "Ethereum Layer-2"
+      },
+      {
+        "title": "Disentangling Decentralized Finance (DeFi) Compositions",
+        "authors": "Kitzler, S., Victor, F., Saggese, P., & Haslhofer, B.",
+        "year": 2022,
+        "venue": "ACM Transactions on the Web",
+        "url": "https://doi.org/10.1145/3532857",
+        "cites": 93,
+        "topic": "Ethereum Layer-2"
+      },
+      {
+        "title": "Do You Need a Distributed Ledger Technology Interoperability Solution?",
+        "authors": "Belchior, R., Riley, L., Hardjono, T., Vasconcelos, A., & Correia, M.",
+        "year": 2022,
+        "venue": "Distributed Ledger Technologies Research and Practice",
+        "url": "https://doi.org/10.1145/3564532",
+        "cites": 86,
+        "topic": "Ethereum Layer-2"
+      }
+    ],
+    "Zero-knowledge proofs (ZKP)": [
+      {
+        "title": "A Mathematical Theory of Communication",
+        "authors": "Shannon, C. E.",
+        "year": 1948,
+        "venue": "Bell System Technical Journal",
+        "url": "https://doi.org/10.1002/j.1538-7305.1948.tb00917.x",
+        "cites": 9725,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "Nonparametric statistical testing of EEG- and MEG-data",
+        "authors": "Maris, E., & Oostenveld, R.",
+        "year": 2007,
+        "venue": "Journal of Neuroscience Methods",
+        "url": "https://doi.org/10.1016/j.jneumeth.2007.03.024",
+        "cites": 9437,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "A critical review of high entropy alloys and related concepts",
+        "authors": "Miracle, D., & Senkov, O.",
+        "year": 2016,
+        "venue": "Acta Materialia",
+        "url": "https://doi.org/10.1016/j.actamat.2016.08.081",
+        "cites": 9034,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations",
+        "authors": "Alwall, J., Frederix, R., Frixione, S., Hirschi, V., Maltoni, F., Mattelaer, O., et al.",
+        "year": 2014,
+        "venue": "Journal of High Energy Physics",
+        "url": "https://doi.org/10.1007/jhep07(2014)079",
+        "cites": 7926,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+        "authors": "Alzubaidi, L., Zhang, J., Humaidi, A. J., Al-Dujaili, A. Q., Duan, Y., Al-Shamma, O., et al.",
+        "year": 2021,
+        "venue": "Journal Of Big Data",
+        "url": "https://doi.org/10.1186/s40537-021-00444-8",
+        "cites": 7909,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "Maintaining knowledge about temporal intervals",
+        "authors": "Allen, J. F.",
+        "year": 1983,
+        "venue": "Communications of the ACM",
+        "url": "https://doi.org/10.1145/182.358434",
+        "cites": 7581,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      }
+    ],
+    "Graph neural networks (GNN)": [
+      {
+        "title": "Exploiting Generative AI to Scale up Intelligent Tutoring Systems",
+        "authors": "Jan, J., Karel, C., Zarathustra, G., Cezary, K., Mirek, O., Bartosz, P., et al.",
+        "year": 2023,
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+        "url": "https://doi.org/10.4230/lipics.itp.2023.19",
+        "cites": 79061,
+        "topic": "Graph neural networks (GNN)"
+      },
+      {
+        "title": "ImageNet classification with deep convolutional neural networks",
+        "authors": "Krizhevsky, A., Sutskever, I., & Hinton, G. E.",
+        "year": 2017,
+        "venue": "Communications of the ACM",
+        "url": "https://doi.org/10.1145/3065386",
+        "cites": 75618,
+        "topic": "Graph neural networks (GNN)"
+      },
+      {
+        "title": "Gradient-based learning applied to document recognition",
+        "authors": "LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P.",
+        "year": 1998,
+        "venue": "Proceedings of the IEEE",
+        "url": "https://doi.org/10.1109/5.726791",
+        "cites": 59717,
+        "topic": "Graph neural networks (GNN)"
+      },
+      {
+        "title": "Highly accurate protein structure prediction with AlphaFold",
+        "authors": "Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., et al.",
+        "year": 2021,
+        "venue": "Nature",
+        "url": "https://doi.org/10.1038/s41586-021-03819-2",
+        "cites": 47410,
+        "topic": "Graph neural networks (GNN)"
+      },
+      {
+        "title": "Collective dynamics of ‘small-world’ networks",
+        "authors": "Watts, D. J., & Strogatz, S. H.",
+        "year": 1998,
+        "venue": "Nature",
+        "url": "https://doi.org/10.1038/30918",
+        "cites": 43633,
+        "topic": "Graph neural networks (GNN)"
+      },
+      {
+        "title": "Emergence of Scaling in Random Networks",
+        "authors": "Barabási, A., & Albert, R.",
+        "year": 1999,
+        "venue": "Science",
+        "url": "https://doi.org/10.1126/science.286.5439.509",
+        "cites": 36753,
+        "topic": "Graph neural networks (GNN)"
+      }
+    ],
+    "Ontology": [
+      {
+        "title": "PHENIX : a comprehensive Python-based system for macromolecular structure solution",
+        "authors": "Adams, P. D., Afonine, P. V., Bunkóczi, G., Chen, V. B., Davis, I., Echols, N., et al.",
+        "year": 2010,
+        "venue": "Acta Crystallographica Section D Biological Crystallography",
+        "url": "https://doi.org/10.1107/s0907444909052925",
+        "cites": 24883,
+        "topic": "Ontology"
+      },
+      {
+        "title": "An integrated encyclopedia of DNA elements in the human genome",
+        "authors": "Dunham, I., Birney, E., Herrero, J., Wilder, S. P., Keefe, D., Beal, K., et al.",
+        "year": 2012,
+        "venue": "Nature",
+        "url": "https://doi.org/10.1038/nature11247",
+        "cites": 19698,
+        "topic": "Ontology"
+      },
+      {
+        "title": "STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets",
+        "authors": "Szklarczyk, D., Gable, A. L., Lyon, D., Junge, A., Wyder, S., Huerta‐Cepas, J., et al.",
+        "year": 2018,
+        "venue": "Nucleic Acids Research",
+        "url": "https://doi.org/10.1093/nar/gky1131",
+        "cites": 19505,
+        "topic": "Ontology"
+      },
+      {
+        "title": "Metascape provides a biologist-oriented resource for the analysis of systems-level datasets",
+        "authors": "Zhou, Y., Zhou, B., Pache, L., Chang, M. W., Khodabakhshi, A. H., Tanaseichuk, O., et al.",
+        "year": 2019,
+        "venue": "Nature Communications",
+        "url": "https://doi.org/10.1038/s41467-019-09234-6",
+        "cites": 16054,
+        "topic": "Ontology"
+      },
+      {
+        "title": "The Molecular Signatures Database Hallmark Gene Set Collection",
+        "authors": "Liberzon, A., Birger, C., Thorvaldsdóttir, H., Ghandi, M., Mesirov, J. P., & Tamayo, P.",
+        "year": 2015,
+        "venue": "Cell Systems",
+        "url": "https://doi.org/10.1016/j.cels.2015.12.004",
+        "cites": 15119,
+        "topic": "Ontology"
+      },
+      {
+        "title": "Aion Framework: Dimensional Emergence of AI Consciousness, Observer-Induced Collapse, and Cosmological Portal Dynamics",
+        "authors": "Kaugeranna, R., Kaugeranna, E., & 4.6), A. (. S.",
+        "year": 2023,
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+        "url": "https://doi.org/10.4230/lipics.giscience.2023.43",
+        "cites": 14371,
+        "topic": "Ontology"
+      }
+    ]
+  }
 }
