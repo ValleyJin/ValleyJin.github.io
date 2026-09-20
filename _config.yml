@@ -3,7 +3,9 @@ tagline: Coding + Business
 description: >-
   Building at the intersection of AI systems, blockchain infrastructure,
   and physical AI. Engineer & builder from Korea.
-author: Jin Sam Cho
+author:
+  name: Jin Sam Cho
+  twitter: ValleyJin
 url: "https://valleyjin.github.io"
 lang: en
 timezone: Asia/Seoul
