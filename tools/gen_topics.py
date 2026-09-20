@@ -190,6 +190,8 @@ def main():
             print(f"! mostcited {label}: {e}", file=sys.stderr)
             mostcited[label] = []
             continue
+        qwords = [w for w in re.findall(r"[a-z0-9]{3,}", query.lower())]
+        strict = []
         for w in data.get("results", []):
             title = clean_title(w.get("title"))
             key = (w.get("doi") or title).strip().lower()
@@ -200,14 +202,19 @@ def main():
             if not venue or venue.lower().startswith(("zenodo", "figshare", "ssrn")):
                 continue
             seen_m.add(key)
-            arr.append({
+            paper = {
                 "title": title, "authors": apa_authors(w.get("authorships", [])),
                 "year": w.get("publication_year"), "venue": venue,
                 "url": w.get("doi") or w.get("id"), "cites": w.get("cited_by_count", 0),
                 "topic": label,
-            })
-        arr.sort(key=lambda p: p["cites"], reverse=True)   # 주제 논문 중 인용수 상위
-        mostcited[label] = arr[:6]
+            }
+            arr.append(paper)
+            tl = title.lower()
+            if qwords and all(qw in tl for qw in qwords):   # 제목에 키워드 전부 포함 = 확실히 주제
+                strict.append(paper)
+        pick = strict if len(strict) >= 3 else arr          # 제목매칭 부족하면 관련도결과로 폴백
+        pick.sort(key=lambda p: p["cites"], reverse=True)
+        mostcited[label] = pick[:6]
 
     NEWEST.write_text(json.dumps({
         "generated": today,
