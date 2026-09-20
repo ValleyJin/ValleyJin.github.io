@@ -54,6 +54,7 @@ img{max-width:100%;display:block}
 .hero .kicker .ghid{color:var(--ink-soft);border-bottom:1px solid var(--line);padding-bottom:1px;display:inline-flex;align-items:center;gap:6px}
 .hero .kicker .ghid:hover{color:var(--accent);border-color:var(--accent)}
 .hero .kicker .ghmark{width:14px;height:14px;opacity:.85;filter:invert(1)}
+.hero .kicker .ghmark.mdmark{width:auto;height:11px}
 @media(prefers-color-scheme:light){:root:not([data-theme="dark"]) .hero .kicker .ghmark{filter:none}}
 :root[data-theme="light"] .hero .kicker .ghmark{filter:none}
 :root[data-theme="dark"] .hero .kicker .ghmark{filter:invert(1)}

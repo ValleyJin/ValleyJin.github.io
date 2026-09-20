@@ -26,7 +26,7 @@ permalink: /about/
     <div class="cv-when">2026 — Present</div>
     <div class="cv-body">
       <h4>K3I Co., Ltd</h4>
-      <div class="org"><span class="role">AX Lead</span><a href="https://k3i.co.kr" target="_blank" rel="noopener">k3i.co.kr</a></div>
+      <div class="org"><span class="role">AX Lead</span><a href="https://www.k3i.co.kr/web/index.do" target="_blank" rel="noopener">k3i.co.kr</a></div>
       <p>Planning and building agentic AI applications, leading the company's AI transformation.</p>
     </div>
   </li>
@@ -36,14 +36,6 @@ permalink: /about/
       <h4>Tokamak Network</h4>
       <div class="org"><span class="role">Product Manager & UI/UX Planner</span><a href="https://tokamak.network" target="_blank" rel="noopener">tokamak.network</a></div>
       <p>Product and UX for decentralized applications on Ethereum / OP-stack Layer-2 infrastructure.</p>
-    </div>
-  </li>
-  <li class="cv-item">
-    <div class="cv-when">2022</div>
-    <div class="cv-body">
-      <h4>ARTX</h4>
-      <div class="org"><span class="role">CTO</span><a href="https://artxcompany.co.kr" target="_blank" rel="noopener">artxcompany.co.kr</a></div>
-      <p>Led metaverse + blockchain development for ARTX.World — whitepaper, smart-contract POC, tokenomics design, and MVP.</p>
     </div>
   </li>
   <li class="cv-item">
