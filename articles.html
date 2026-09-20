@@ -177,12 +177,18 @@ permalink: /articles/
       wrap.hidden=false;
       function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
       function pad(n){return (n<10?'0':'')+n;}
-      var sel=dates[dates.length-1];                          // 기본 = 가장 논문 많은 최근 날
-      dates.forEach(function(d){ if(byDate[d].length>byDate[sel].length) sel=d; });
-      var last=sel.split('-'); var cur=new Date(+last[0], +last[1]-1, 1);
+      var todayKST=new Date().toLocaleDateString('en-CA', {timeZone:'Asia/Seoul'});   // 오늘(한국시각) YYYY-MM-DD
+      var sel=todayKST;
+      if(!byDate[sel]){                                                            // 오늘 논문 없으면 오늘 이하 최근 발간일로
+        var prior=dates.filter(function(d){ return d<=todayKST; });
+        sel=prior.length ? prior[prior.length-1] : dates[dates.length-1];
+      }
+      var cM=todayKST.split('-'); var cur=new Date(+cM[0], +cM[1]-1, 1);           // 달력은 오늘의 달
       function renderList(key){
         var ps=(byDate[key]||[]);
-        listEl.innerHTML='<div class="nl-head mono">'+esc(key)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div><ul class="pubs">'+
+        var head='<div class="nl-head mono">'+esc(key)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div>';
+        if(!ps.length){ listEl.innerHTML=head+'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">이 날 발간된 논문이 없습니다.</p>'; return; }
+        listEl.innerHTML=head+'<ul class="pubs">'+
           ps.map(function(p){
             return '<li class="pub-row"><a class="pub-main" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+
                    '<span class="pt">'+esc(p.title)+'</span>'+
@@ -204,7 +210,6 @@ permalink: /articles/
           if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ sel=k; renderList(k); render(); };})(key)); }
           grid.appendChild(c);
         }
-        try{ listEl.style.maxHeight=document.getElementById('tcal').offsetHeight+'px'; }catch(e){}
       }
       document.getElementById('tcal-prev').onclick=function(){ cur.setMonth(cur.getMonth()-1); render(); };
       document.getElementById('tcal-next').onclick=function(){ cur.setMonth(cur.getMonth()+1); render(); };
