@@ -5,314 +5,42 @@
     {
       "topic": "Deep persona",
       "query": "Deep persona",
-      "papers": [
-        {
-          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
-          "authors": "Lee, H., Kim, Y., & Kim, S.",
-          "year": 2024,
-          "venue": "Applied Sciences",
-          "url": "https://doi.org/10.3390/app14031014",
-          "cites": 8
-        },
-        {
-          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
-          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
-          "year": 2025,
-          "venue": "Computer Networks",
-          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 1
-        },
-        {
-          "title": "Personas-based Student Grouping using reinforcement learning and linear programming",
-          "authors": "Ma, S., Luo, Y., & Yang, Y.",
-          "year": 2023,
-          "venue": "Knowledge-Based Systems",
-          "url": "https://doi.org/10.1016/j.knosys.2023.111071",
-          "cites": 15
-        },
-        {
-          "title": "Chatbot Technology Use and Acceptance Using Educational Personas",
-          "authors": "Almahri, F. A. A. J., Bell, D., & Gulzar, Z.",
-          "year": 2024,
-          "venue": "Informatics",
-          "url": "https://doi.org/10.3390/informatics11020038",
-          "cites": 24
-        }
-      ],
-      "count": 10248
+      "papers": []
     },
     {
       "topic": "Graph database",
       "query": "Graph database",
-      "papers": [
-        {
-          "title": "Testing Graph Database Systems via Graph-Aware Metamorphic Relations",
-          "authors": "Zhuang, Z., Li, P., Ma, P., Meng, W., & Wang, S.",
-          "year": 2023,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3636218.3636236",
-          "cites": 22
-        },
-        {
-          "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
-          "authors": "Hornsteiner, M., Kreussel, M., Steindl, C., Ebner, F. F., Empl, P., & Schönig, S.",
-          "year": 2024,
-          "venue": "Future Internet",
-          "url": "https://doi.org/10.3390/fi16120438",
-          "cites": 28
-        },
-        {
-          "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
-          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K.",
-          "year": 2024,
-          "venue": "MethodsX",
-          "url": "https://doi.org/10.1016/j.mex.2024.102683",
-          "cites": 18
-        },
-        {
-          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
-          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
-          "year": 2024,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3685800.3685814",
-          "cites": 15
-        }
-      ],
-      "count": 117198
+      "papers": []
     },
     {
       "topic": "Memory in Agentic AI",
       "query": "Agentic memory systems",
-      "papers": [
-        {
-          "title": "A survey on large language model based autonomous agents",
-          "authors": "Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., et al.",
-          "year": 2024,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1609
-        },
-        {
-          "title": "Memory-Based Event-Triggered Fault-Tolerant Consensus Control of Nonlinear Multi-Agent Systems and Its Applications",
-          "authors": "Wang, J., Zheng, Y., Ding, J., Zhang, H., & Sun, J.",
-          "year": 2024,
-          "venue": "IEEE Transactions on Automation Science and Engineering",
-          "url": "https://doi.org/10.1109/tase.2024.3474968",
-          "cites": 31
-        },
-        {
-          "title": "Empowering biomedical discovery with AI agents",
-          "authors": "Gao, S., Fang, A., Huang, Y., Giunchiglia, V., Noori, A., Schwarz, J. R., et al.",
-          "year": 2024,
-          "venue": "Cell",
-          "url": "https://doi.org/10.1016/j.cell.2024.09.022",
-          "cites": 291
-        },
-        {
-          "title": "AI Agents vs. Agentic AI: A Conceptual taxonomy, applications and challenges",
-          "authors": "Sapkota, R., Roumeliotis, K. I., & Karkee, M.",
-          "year": 2025,
-          "venue": "Information Fusion",
-          "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-          "cites": 205
-        }
-      ],
-      "count": 68369
+      "papers": []
     },
     {
       "topic": "LLM inference serving",
       "query": "LLM inference serving",
-      "papers": [
-        {
-          "title": "SLO-Aware GPU DVFS for Energy-Efficient LLM Inference Serving",
-          "authors": "Kakolyris, A. K., Masouros, D., Xydis, S., & Soudris, D.",
-          "year": 2024,
-          "venue": "IEEE Computer Architecture Letters",
-          "url": "https://doi.org/10.1109/lca.2024.3406038",
-          "cites": 39
-        },
-        {
-          "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
-          "authors": "Gao, S., Zhang, X., Shen, Y., & Chen, L.",
-          "year": 2025,
-          "venue": "Proceedings of the ACM on Management of Data",
-          "url": "https://doi.org/10.1145/3725394",
-          "cites": 5
-        },
-        {
-          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
-          "authors": "Guo, D., Yang, D., Zhang, H., Song, J., Wang, P., Zhu, Q., et al.",
-          "year": 2025,
-          "venue": "Nature",
-          "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 997
-        },
-        {
-          "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
-          "authors": "Wilkins, G., Keshav, S., & Mortier, R.",
-          "year": 2024,
-          "venue": "ACM SIGEnergy Energy Informatics Review",
-          "url": "https://doi.org/10.1145/3727200.3727217",
-          "cites": 27
-        }
-      ],
-      "count": 5825
+      "papers": []
     },
     {
       "topic": "Ethereum Layer-2",
       "query": "Ethereum layer-2 rollup",
-      "papers": [
-        {
-          "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
-          "authors": "Melo, C., Miqueias, J., Messias, J., Gonçalves, G., Silva, F. A., Soares, A., et al.",
-          "year": 2025,
-          "venue": "Future Generation Computer Systems",
-          "url": "https://doi.org/10.1016/j.future.2025.108316",
-          "cites": 2
-        },
-        {
-          "title": "Decentralized IoT Data Authentication with Signature Aggregation",
-          "authors": "Burgos, J. B., & Pustišek, M.",
-          "year": 2024,
-          "venue": "Sensors",
-          "url": "https://doi.org/10.3390/s24031037",
-          "cites": 17
-        },
-        {
-          "title": "Future Monitors in Optimistic Rollups",
-          "authors": "Margarita, C., Martín, C., & César, S.",
-          "year": 2025,
-          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
-          "url": "https://doi.org/10.4230/oasics.fmbc.2025.5",
-          "cites": 36
-        },
-        {
-          "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
-          "authors": "Saif, M. B., Migliorini, S., & Spoto, F.",
-          "year": 2024,
-          "venue": "Future Internet",
-          "url": "https://doi.org/10.3390/fi16090315",
-          "cites": 31
-        }
-      ],
-      "count": 548
+      "papers": []
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
       "query": "zero-knowledge proof",
-      "papers": [
-        {
-          "title": "Leveraging zero knowledge proofs for blockchain-based identity sharing: A survey of advancements, challenges and opportunities",
-          "authors": "Zhou, L., Diro, A., Saini, A., Kaisar, S., & Hiep, P. C.",
-          "year": 2024,
-          "venue": "Journal of Information Security and Applications",
-          "url": "https://doi.org/10.1016/j.jisa.2023.103678",
-          "cites": 181
-        },
-        {
-          "title": "zkFL: Zero-Knowledge Proof-Based Gradient Aggregation for Federated Learning",
-          "authors": "Wang, Z., Dong, N., Sun, J., Knottenbelt, W. J., & Guo, Y.",
-          "year": 2024,
-          "venue": "IEEE Transactions on Big Data",
-          "url": "https://doi.org/10.1109/tbdata.2024.3403370",
-          "cites": 50
-        },
-        {
-          "title": "Securing Smart Manufacturing by Integrating Anomaly Detection With Zero-Knowledge Proofs",
-          "authors": "Salam, A., Abrar, M., Amin, F., Ullah, F., Khan, I. A., Alkhamees, B. F., et al.",
-          "year": 2024,
-          "venue": "IEEE Access",
-          "url": "https://doi.org/10.1109/access.2024.3373697",
-          "cites": 48
-        },
-        {
-          "title": "Trusted Model Aggregation With Zero-Knowledge Proofs in Federated Learning",
-          "authors": "Ma, R., Hwang, K., and, M. L., & Miao, Y.",
-          "year": 2024,
-          "venue": "IEEE Transactions on Parallel and Distributed Systems",
-          "url": "https://doi.org/10.1109/tpds.2024.3455762",
-          "cites": 29
-        }
-      ],
-      "count": 40517
+      "papers": []
     },
     {
       "topic": "Graph neural networks (GNN)",
       "query": "graph neural network",
-      "papers": [
-        {
-          "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
-          "authors": "Gabriel, S., Mário, R., António, T., & Marlene, A.",
-          "year": 2024,
-          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
-          "url": "https://doi.org/10.4230/lipics.sea.2024.20",
-          "cites": 5417
-        },
-        {
-          "title": "Spatio-Temporal Graph Neural Networks for Predictive Learning in Urban Computing: A Survey",
-          "authors": "Jin, G., Liang, Y., Fang, Y., Shao, Z., Huang, J., Zhang, J., et al.",
-          "year": 2023,
-          "venue": "IEEE Transactions on Knowledge and Data Engineering",
-          "url": "https://doi.org/10.1109/tkde.2023.3333824",
-          "cites": 533
-        },
-        {
-          "title": "A review of graph neural networks: concepts, architectures, techniques, challenges, datasets, applications, and future directions",
-          "authors": "Khemani, B., Patil, S., Kotecha, K., & Tanwar, S.",
-          "year": 2024,
-          "venue": "Journal Of Big Data",
-          "url": "https://doi.org/10.1186/s40537-023-00876-4",
-          "cites": 590
-        },
-        {
-          "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
-          "authors": "Jin, M., Koh, H. Y., Wen, Q., Zambon, D., Alippi, C., Webb, G. I., et al.",
-          "year": 2024,
-          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-          "url": "https://doi.org/10.1109/tpami.2024.3443141",
-          "cites": 490
-        }
-      ],
-      "count": 193448
+      "papers": []
     },
     {
       "topic": "Ontology",
       "query": "ontology knowledge representation",
-      "papers": [
-        {
-          "title": "Enhancing Learning Personalization in Educational Environments through Ontology-Based Knowledge Representation",
-          "authors": "Villegas-Ch, W., & Garcí­a-Ortiz, J.",
-          "year": 2023,
-          "venue": "Computers",
-          "url": "https://doi.org/10.3390/computers12100199",
-          "cites": 36
-        },
-        {
-          "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
-          "authors": "Gribova, V., Шалфеева, Е., Okun, D., & Shevchenko, O. N.",
-          "year": 2025,
-          "venue": "Ontology of Designing",
-          "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
-          "cites": 1
-        },
-        {
-          "title": "Recent Trends and Insights in Semantic Web and Ontology-Driven Knowledge Representation Across Disciplines Using Topic Modeling",
-          "authors": "Stănescu, G. C., & Oprea, S.",
-          "year": 2025,
-          "venue": "Electronics",
-          "url": "https://doi.org/10.3390/electronics14071313",
-          "cites": 18
-        },
-        {
-          "title": "The Human Phenotype Ontology in 2024: phenotypes around the world",
-          "authors": "Gargano, M., Matentzoglu, N., Coleman, B., Addo-Lartey, E. B., Anagnostopoulos, A. V., Anderton, J., et al.",
-          "year": 2023,
-          "venue": "Nucleic Acids Research",
-          "url": "https://doi.org/10.1093/nar/gkad1005",
-          "cites": 415
-        }
-      ],
-      "count": 24956
+      "papers": []
     }
   ]
 }
