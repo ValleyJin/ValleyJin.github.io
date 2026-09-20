@@ -152,5 +152,5 @@ Also: **10+ Korean patents** (AI — bankruptcy forecasting with CNN & GANN; blo
 <p markdown="1">
 A working journal. Posts are written in the open and the homepage stays in sync with my
 GitHub activity automatically. Find me on
-[GitHub](https://github.com/ValleyJin) and [X](https://x.com/ValleyJin).
+[GitHub](https://github.com/ValleyJin), [Medium](https://medium.com/@ValleyJin), and [X](https://x.com/ValleyJin).
 </p>
