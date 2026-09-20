@@ -58,7 +58,7 @@ permalink: /about/
     <div class="cv-when">2013 — 2015</div>
     <div class="cv-body">
       <h4>KAIST — Research Center for Future Strategy</h4>
-      <div class="org"><span class="role">Senior Researcher</span><a href="https://www.kaist.ac.kr" target="_blank" rel="noopener">kaist.ac.kr</a></div>
+      <div class="org"><span class="role">Senior Researcher</span><a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">kaist.ac.kr</a></div>
       <p>Built the Corporate Future Readiness Index (CFRI), a KAIST–JoongAng Ilbo joint project offering an alternative to conventional company valuation.</p>
     </div>
   </li>
@@ -66,7 +66,7 @@ permalink: /about/
     <div class="cv-when">2003 — 2013</div>
     <div class="cv-body">
       <h4>KAERI — Korea Atomic Energy Research Institute</h4>
-      <div class="org"><span class="role">Senior Researcher</span><a href="https://www.kaeri.re.kr" target="_blank" rel="noopener">kaeri.re.kr</a></div>
+      <div class="org"><span class="role">Senior Researcher</span><a href="https://www.kaeri.re.kr/eng/" target="_blank" rel="noopener">kaeri.re.kr</a></div>
       <p>Project manager of Korea's first 100&nbsp;MeV proton accelerator; ran regional tech-transfer cooperation programs and evaluated the economic benefit of developed technology.</p>
     </div>
   </li>
