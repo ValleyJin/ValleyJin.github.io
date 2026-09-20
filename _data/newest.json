@@ -1565,79 +1565,34 @@
   "mostcited": {
     "Deep persona": [
       {
-        "title": "Becoming a Virtual Professor: Pedagogical Roles and Asynchronous Learning Networks",
-        "authors": "Coppola, N., Hiltz, S. R., & Rotter, N. G.",
-        "year": 2002,
-        "venue": "Journal of Management Information Systems",
-        "url": "https://doi.org/10.1080/07421222.2002.11045703",
-        "cites": 478,
+        "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
+        "authors": "Lee, H., Kim, Y., & Kim, S.",
+        "year": 2024,
+        "venue": "Applied Sciences",
+        "url": "https://doi.org/10.3390/app14031014",
+        "cites": 8,
         "topic": "Deep persona"
       },
       {
-        "title": "AutoTutor and Family: A Review of 17 Years of Natural Language Tutoring",
-        "authors": "Nye, B. D., Graesser, A. C., & Hu, X.",
-        "year": 2014,
-        "venue": "International Journal of Artificial Intelligence in Education",
-        "url": "https://doi.org/10.1007/s40593-014-0029-5",
-        "cites": 282,
+        "title": "Improving Market Segmentation via Customer Personality Prediction using Deep AI Analysis",
+        "authors": "M, M. N. M. S. S. G. M. H. N. N. J. N.",
+        "year": 2024,
+        "venue": "Journal of Informatics Education and Research",
+        "url": "https://doi.org/10.52783/jier.v4i2.1062",
+        "cites": 3,
         "topic": "Deep persona"
       },
       {
-        "title": "Financial Cybercrime: A Comprehensive Survey of Deep Learning Approaches to Tackle the Evolving Financial Crime Landscape",
-        "authors": "Nicholls, J., Kuppa, A., & Le‐Khac, N.",
-        "year": 2021,
-        "venue": "IEEE Access",
-        "url": "https://doi.org/10.1109/access.2021.3134076",
-        "cites": 179,
-        "topic": "Deep persona"
-      },
-      {
-        "title": "Is stereotyping inevitable when designing with personas?",
-        "authors": "Turner, P., & Turner, S.",
-        "year": 2010,
-        "venue": "Design Studies",
-        "url": "https://doi.org/10.1016/j.destud.2010.06.002",
-        "cites": 163,
-        "topic": "Deep persona"
-      },
-      {
-        "title": "Emotional labour underlying caring: an evolutionary concept analysis",
-        "authors": "Huynh, T., Alderson, M., & Thompson, M. K.",
-        "year": 2008,
-        "venue": "Journal of Advanced Nursing",
-        "url": "https://doi.org/10.1111/j.1365-2648.2008.04780.x",
-        "cites": 155,
-        "topic": "Deep persona"
-      },
-      {
-        "title": "That straight talk: Sarah Palin and the sociolinguistics of demonstratives",
-        "authors": "Acton, E. K., & Potts, C.",
-        "year": 2014,
-        "venue": "Journal of Sociolinguistics",
-        "url": "https://doi.org/10.1111/josl.12062",
-        "cites": 99,
+        "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
+        "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
+        "year": 2025,
+        "venue": "Computer Networks",
+        "url": "https://doi.org/10.1016/j.comnet.2025.111784",
+        "cites": 1,
         "topic": "Deep persona"
       }
     ],
     "Graph database": [
-      {
-        "title": "KEGG: Kyoto Encyclopedia of Genes and Genomes",
-        "authors": "Kanehisa, M.",
-        "year": 2000,
-        "venue": "Nucleic Acids Research",
-        "url": "https://doi.org/10.1093/nar/28.1.27",
-        "cites": 40209,
-        "topic": "Graph database"
-      },
-      {
-        "title": "Face recognition by elastic bunch graph matching",
-        "authors": "Wiskott, L., Fellous, J., Kuiger, N., & Malsburg, C. V. D.",
-        "year": 1997,
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-        "url": "https://doi.org/10.1109/34.598235",
-        "cites": 2891,
-        "topic": "Graph database"
-      },
       {
         "title": "Survey of graph database models",
         "authors": "Angles, R., & Gutiérrez, C.",
@@ -1645,15 +1600,6 @@
         "venue": "ACM Computing Surveys",
         "url": "https://doi.org/10.1145/1322432.1322433",
         "cites": 1711,
-        "topic": "Graph database"
-      },
-      {
-        "title": "A (sub)graph isomorphism algorithm for matching large graphs",
-        "authors": "Cordella, L., Foggia, P., Sansone, C., & Vento, M.",
-        "year": 2004,
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-        "url": "https://doi.org/10.1109/tpami.2004.75",
-        "cites": 1502,
         "topic": "Graph database"
       },
       {
@@ -1672,6 +1618,33 @@
         "venue": "PLoS Computational Biology",
         "url": "https://doi.org/10.1371/journal.pcbi.1005968",
         "cites": 298,
+        "topic": "Graph database"
+      },
+      {
+        "title": "An in-depth comparison of subgraph isomorphism algorithms in graph databases",
+        "authors": "Lee, J., Han, W., Kasperovičs, R., & Lee, J. H.",
+        "year": 2012,
+        "venue": "Proceedings of the VLDB Endowment",
+        "url": "https://doi.org/10.14778/2535568.2448946",
+        "cites": 289,
+        "topic": "Graph database"
+      },
+      {
+        "title": "Query languages for graph databases",
+        "authors": "Wood, P. T.",
+        "year": 2012,
+        "venue": "ACM SIGMOD Record",
+        "url": "https://doi.org/10.1145/2206869.2206879",
+        "cites": 274,
+        "topic": "Graph database"
+      },
+      {
+        "title": "House of Graphs: A database of interesting graphs",
+        "authors": "Brinkmann, G., Coolsaet, K., Goedgebeur, J., & Mélot, H.",
+        "year": 2012,
+        "venue": "Discrete Applied Mathematics",
+        "url": "https://doi.org/10.1016/j.dam.2012.07.018",
+        "cites": 189,
         "topic": "Graph database"
       }
     ],
@@ -1751,39 +1724,39 @@
         "topic": "LLM inference serving"
       },
       {
-        "title": "ShuffleInfer: Disaggregate LLM Inference for Mixed Downstream Workloads",
-        "authors": "Hu, C., Huang, H., Xu, L., Chen, X., Wang, C., Jiang, X., et al.",
+        "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
+        "authors": "Gao, S., Zhang, X., Shen, Y., & Chen, L.",
         "year": 2025,
-        "venue": "ACM Transactions on Architecture and Code Optimization",
-        "url": "https://doi.org/10.1145/3732941",
-        "cites": 21,
+        "venue": "Proceedings of the ACM on Management of Data",
+        "url": "https://doi.org/10.1145/3725394",
+        "cites": 5,
         "topic": "LLM inference serving"
       },
       {
-        "title": "Chameleon: A Heterogeneous and Disaggregated Accelerator System for Retrieval-Augmented Language Models",
-        "authors": "Jiang, W., Zeller, M., Waleffe, R., Hoefler, T., & Alonso, G.",
-        "year": 2024,
-        "venue": "Proceedings of the VLDB Endowment",
-        "url": "https://doi.org/10.14778/3696435.3696439",
-        "cites": 17,
+        "title": "Serving Long-Context LLMs at the Mobile Edge: Test-Time Reinforcement Learning-Based Model Caching and Inference Offloading",
+        "authors": "Xu, M., Niyato, D., & Brinton, C. G.",
+        "year": 2026,
+        "venue": "IEEE Transactions on Networking",
+        "url": "https://doi.org/10.1109/ton.2026.3669011",
+        "cites": 4,
         "topic": "LLM inference serving"
       },
       {
-        "title": "TPI-LLM: Serving 70B-Scale LLMs Efficiently on Low-Resource Mobile Devices",
-        "authors": "Li, Z., Feng, W., Guizani, M., & Yu, H.",
-        "year": 2025,
+        "title": "BrownoutServe: SLO-Aware Inference Serving Under Bursty Workloads for MoE-Based LLMs",
+        "authors": "Hu, J., Xu, M., Ye, K., & Xu, C.",
+        "year": 2026,
+        "venue": "IEEE Transactions on Computers",
+        "url": "https://doi.org/10.1109/tc.2026.3655019",
+        "cites": 3,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "DOPD: A Dynamic PD-Disaggregation Architecture for Maximizing Goodput in LLM Inference Serving",
+        "authors": "Liao, J., Xu, M., Zheng, W., Wang, Y., Ye, K., Buyya, R., et al.",
+        "year": 2026,
         "venue": "IEEE Transactions on Services Computing",
-        "url": "https://doi.org/10.1109/tsc.2025.3596892",
-        "cites": 14,
-        "topic": "LLM inference serving"
-      },
-      {
-        "title": "LLMaaS: Serving Large-Language Models on Trusted Serverless Computing Platforms",
-        "authors": "Cai, Z., Ma, R., Fu, Y., Zhang, W., Ma, R., & Guan, H.",
-        "year": 2024,
-        "venue": "IEEE Transactions on Artificial Intelligence",
-        "url": "https://doi.org/10.1109/tai.2024.3429480",
-        "cites": 12,
+        "url": "https://doi.org/10.1109/tsc.2026.3670011",
+        "cites": 1,
         "topic": "LLM inference serving"
       }
     ],
@@ -1845,15 +1818,6 @@
     ],
     "Zero-knowledge proofs (ZKP)": [
       {
-        "title": "The Knowledge Complexity of Interactive Proof Systems",
-        "authors": "Goldwasser, S., Micali, S., & Rackoff, C.",
-        "year": 1989,
-        "venue": "SIAM Journal on Computing",
-        "url": "https://doi.org/10.1137/0218012",
-        "cites": 3298,
-        "topic": "Zero-knowledge proofs (ZKP)"
-      },
-      {
         "title": "Proofs that yield nothing but their validity or all languages in NP have zero-knowledge proof systems",
         "authors": "Goldreich, O., Micali, S., & Wigderson, A.",
         "year": 1991,
@@ -1897,18 +1861,18 @@
         "url": "https://doi.org/10.1007/bf00208001",
         "cites": 335,
         "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "A Survey on Zero-Knowledge Proof in Blockchain",
+        "authors": "Sun, X., Yu, F. R., Zhang, P., Sun, Z., Xie, W., & Peng, X.",
+        "year": 2021,
+        "venue": "IEEE Network",
+        "url": "https://doi.org/10.1109/mnet.011.2000473",
+        "cites": 314,
+        "topic": "Zero-knowledge proofs (ZKP)"
       }
     ],
     "Graph neural networks (GNN)": [
-      {
-        "title": "Collective dynamics of ‘small-world’ networks",
-        "authors": "Watts, D. J., & Strogatz, S. H.",
-        "year": 1998,
-        "venue": "Nature",
-        "url": "https://doi.org/10.1038/30918",
-        "cites": 43633,
-        "topic": "Graph neural networks (GNN)"
-      },
       {
         "title": "A Comprehensive Survey on Graph Neural Networks",
         "authors": "Wu, Z., Pan, S., Chen, F., Long, G., Zhang, C., & Yu, P. S.",
@@ -1953,27 +1917,18 @@
         "url": "https://doi.org/10.1103/physrevlett.120.145301",
         "cites": 2873,
         "topic": "Graph neural networks (GNN)"
+      },
+      {
+        "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+        "authors": "Batzner, S., Musaelian, A., Sun, L., Geiger, M., Mailoa, J. P., Kornbluth, M., et al.",
+        "year": 2022,
+        "venue": "Nature Communications",
+        "url": "https://doi.org/10.1038/s41467-022-29939-5",
+        "cites": 1846,
+        "topic": "Graph neural networks (GNN)"
       }
     ],
     "Ontology": [
-      {
-        "title": "A translation approach to portable ontology specifications",
-        "authors": "Gruber, T.",
-        "year": 1993,
-        "venue": "Knowledge Acquisition",
-        "url": "https://doi.org/10.1006/knac.1993.1008",
-        "cites": 12677,
-        "topic": "Ontology"
-      },
-      {
-        "title": "Toward principles for the design of ontologies used for knowledge sharing?",
-        "authors": "Gruber, T.",
-        "year": 1995,
-        "venue": "International Journal of Human-Computer Studies",
-        "url": "https://doi.org/10.1006/ijhc.1995.1081",
-        "cites": 7696,
-        "topic": "Ontology"
-      },
       {
         "title": "Formal ontology, conceptual analysis and knowledge representation",
         "authors": "Guarino, N.",
@@ -1984,30 +1939,48 @@
         "topic": "Ontology"
       },
       {
-        "title": "Disease Ontology: a backbone for disease semantic integration",
-        "authors": "Schriml, L. M., Arze, C., Nadendla, S., Chang, Y. W., Mazaitis, M. J., Felix, V., et al.",
-        "year": 2011,
-        "venue": "Nucleic Acids Research",
-        "url": "https://doi.org/10.1093/nar/gkr972",
-        "cites": 979,
+        "title": "Ontology-based knowledge representation for bioinformatics",
+        "authors": "Stevens, R.",
+        "year": 2000,
+        "venue": "Briefings in Bioinformatics",
+        "url": "https://doi.org/10.1093/bib/1.4.398",
+        "cites": 373,
         "topic": "Ontology"
       },
       {
-        "title": "BioPortal: enhanced functionality via new Web services from the National Center for Biomedical Ontology to access and use ontologies in software applications",
-        "authors": "Whetzel, P. L., Noy, N., Shah, N. H., Alexander, P. R., Nyulas, C., Tudorache, T., et al.",
-        "year": 2011,
-        "venue": "Nucleic Acids Research",
-        "url": "https://doi.org/10.1093/nar/gkr469",
-        "cites": 810,
+        "title": "Development of a method for ontology-based empirical knowledge representation and reasoning",
+        "authors": "Chen, Y.",
+        "year": 2010,
+        "venue": "Decision Support Systems",
+        "url": "https://doi.org/10.1016/j.dss.2010.02.010",
+        "cites": 107,
         "topic": "Ontology"
       },
       {
-        "title": "The evolution, challenges, and future of knowledge representation in product design systems",
-        "authors": "Chandrasegaran, S., Ramani, K., Sriram, R. D., Horváth, I., Bernard, A., Harik, R., et al.",
-        "year": 2012,
-        "venue": "Computer-Aided Design",
-        "url": "https://doi.org/10.1016/j.cad.2012.08.006",
-        "cites": 657,
+        "title": "Ontology-based knowledge representation for additive manufacturing",
+        "authors": "Sanfilippo, E. M., Belkadi, F., & Bernard, A.",
+        "year": 2019,
+        "venue": "Computers in Industry",
+        "url": "https://doi.org/10.1016/j.compind.2019.03.006",
+        "cites": 96,
+        "topic": "Ontology"
+      },
+      {
+        "title": "TransO: a knowledge-driven representation learning method with ontology information constraints",
+        "authors": "Li, Z., Liu, X., Wang, X., Liu, P., & Shen, Y.",
+        "year": 2022,
+        "venue": "World Wide Web",
+        "url": "https://doi.org/10.1007/s11280-022-01016-3",
+        "cites": 71,
+        "topic": "Ontology"
+      },
+      {
+        "title": "Ontology-based knowledge representation of industrial production workflow",
+        "authors": "Yang, C., Zheng, Y., Tu, X., Ala-Laurinaho, R., Autiosalo, J., Seppänen, O., et al.",
+        "year": 2023,
+        "venue": "Advanced Engineering Informatics",
+        "url": "https://doi.org/10.1016/j.aei.2023.102185",
+        "cites": 70,
         "topic": "Ontology"
       }
     ]
