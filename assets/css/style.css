@@ -180,7 +180,10 @@ img{max-width:100%;display:block}
 .sc-tab{appearance:none;background:0;border:0;cursor:pointer;font-family:var(--mono);font-size:13px;letter-spacing:.03em;color:var(--muted);padding:8px 8px 12px;margin-bottom:-1px;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
 .sc-tab:hover{color:var(--ink-soft)}
 .sc-tab.is-active{color:var(--ink);border-bottom-color:var(--accent)}
-.topic-group + .topic-group{margin-top:8px}
+.topic-group{padding-top:28px;border-top:1px solid var(--line);margin-top:34px}
+.topic-group:first-of-type{border-top:0;padding-top:4px;margin-top:10px}
+.topic-group .section-head h2{display:flex;align-items:center;gap:10px;color:var(--accent)}
+.topic-group .section-head h2::before{content:"";width:6px;height:6px;border-radius:1px;background:var(--accent);flex:none}
 
 /* ============================================================
    Article (post) — serif body for an editorial, sensuous read
