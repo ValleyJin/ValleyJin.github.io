@@ -90,9 +90,8 @@ permalink: /articles/
           <span class="tcal-title" id="tcal-title"></span>
           <button type="button" class="tcal-nav" id="tcal-next" aria-label="Next month">›</button>
         </div>
-        <div class="tcal-dow"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+        <div class="tcal-dow"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div>
         <div class="tcal-grid" id="tcal-grid"></div>
-        <p class="tcal-hint mono">날짜 아래 숫자 = 그날 발간된 논문 수 · 클릭하면 우측에 목록</p>
       </div>
       <div class="newest-list" id="newest-list"></div>
     </div>
@@ -200,7 +199,7 @@ permalink: /articles/
         var y=cur.getFullYear(), m=cur.getMonth();
         title.textContent=cur.toLocaleString('en-US',{month:'long',year:'numeric'});
         grid.innerHTML='';
-        var startDow=(new Date(y,m,1).getDay()+6)%7, dim=new Date(y,m+1,0).getDate();
+        var startDow=new Date(y,m,1).getDay(), dim=new Date(y,m+1,0).getDate();
         for(var i=0;i<startDow;i++){ var e=document.createElement('span'); e.className='tcal-cell empty'; grid.appendChild(e); }
         for(var day=1;day<=dim;day++){
           var key=y+'-'+pad(m+1)+'-'+pad(day), ps=byDate[key];
