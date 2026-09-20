@@ -27,17 +27,17 @@ API = "https://api.openalex.org/works"
 
 
 def parse_topics(raw):
-    """'라벨 | 검색어' 줄들을 [(label, query)] 로."""
+    """'라벨 | 검색어 | EM_URL' 줄들을 [(label, query, extra)] 로 (검색어·URL 선택)."""
     out = []
     for line in (raw or "").splitlines():
         line = line.strip()
         if not line:
             continue
-        if "|" in line:
-            label, query = [p.strip() for p in line.split("|", 1)]
-        else:
-            label = query = line
-        out.append((label, query or label))
+        parts = [p.strip() for p in line.split("|")]
+        label = parts[0]
+        query = parts[1] if len(parts) > 1 and parts[1] else label
+        extra = parts[2] if len(parts) > 2 else ""     # topics=EM URL, scholars=미사용
+        out.append((label, query, extra))
     return out
 
 
@@ -112,7 +112,7 @@ def main():
               "field": "Computer Science · AI & databases",
               "topics": []}
 
-    for label, query in topics:
+    for label, query, _em in topics:
         block = {"topic": label, "query": query, "papers": []}
         try:
             data = fetch(query, concept, cutoff, per_topic)
@@ -151,7 +151,7 @@ def main():
     # ── Newest: 팔로우 토픽에서 '최근 발간'된 논문(발간일순) → 달력용 ──
     today = result["generated"]
     newest, seen_n = [], set()
-    for label, query in topics:
+    for label, query, _em in topics:
         try:
             data = fetch(query, concept, cutoff, 12, sort="publication_date:desc")
         except Exception as e:
@@ -180,7 +180,7 @@ def main():
 
     # ── Most cited: 토픽(키워드)별 '전기간' 누적 피인용 상위 (날짜 무관) ──
     mostcited = {}
-    for label, query in topics:
+    for label, query, _em in topics:
         arr, seen_m = [], set()
         try:
             # 관련도(정렬X)로 주제 논문을 넓게 → 그중 인용수 상위. (cited_by_count 정렬은
@@ -218,7 +218,8 @@ def main():
 
     NEWEST.write_text(json.dumps({
         "generated": today,
-        "topics": [label for label, _ in topics],   # 탭 순서(config 순)
+        "topics": [label for label, _q, _e in topics],   # 탭 순서(config 순)
+        "em": {label: em for label, _q, em in topics if em},   # 토픽별 Emergent Mind URL
         "papers": newest,
         "mostcited": mostcited,                      # 키워드별 전기간 피인용 상위
     }, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -12,12 +12,13 @@ scholars: |
   Jae-Suk Yang · KAIST | gM0qYNUAAAAJ
   Min-Soo Kim · KAIST | 1wZVw8QAAAAJ
   Joon Sung Park · Stanford | Y4Oc0cMAAAAJ
+# 형식: "표시명 | 검색어 | Emergent Mind 토픽 URL"  (검색어·URL은 선택)
 topics: |
-  Deep persona
-  Graph database
-  Memory in Agentic AI
-  LLM inference serving
-  Ethereum Layer-2 | Ethereum layer-2 rollup
-  Zero-knowledge proofs (ZKP) | zero-knowledge proof
-  Graph neural networks (GNN) | graph neural network
-  Ontology | ontology knowledge representation
+  Deep persona | Deep persona | https://www.emergentmind.com/topics/deep-persona-alignment-dpa
+  Graph database | Graph database | https://www.emergentmind.com/topics/graph-database-neo4j
+  Memory in Agentic AI | Memory in Agentic AI | https://www.emergentmind.com/topics/agentic-memory-systems
+  LLM inference serving | LLM inference serving | https://www.emergentmind.com/topics/efficient-serving-of-large-language-models
+  Ethereum Layer-2 | Ethereum layer-2 rollup | https://www.emergentmind.com/topics/evm-compatible-chains
+  Zero-knowledge proofs (ZKP) | zero-knowledge proof | https://www.emergentmind.com/topics/zero-knowledge-proofs-zkps
+  Graph neural networks (GNN) | graph neural network | https://www.emergentmind.com/topics/graph-neural-networks-gnn
+  Ontology | ontology knowledge representation | https://www.emergentmind.com/topics/ontology-grounded-llm-construction
