@@ -163,8 +163,12 @@ permalink: /articles/
       // 우측 리스트를 좌측 달력 높이에 맞춤(탭이 보이게 되면 크기가 잡힘)
       if(window.ResizeObserver){ try{ var _cal=document.getElementById('tcal'); new ResizeObserver(function(){ var h=_cal.offsetHeight||0; if(h>0) listEl.style.maxHeight=h+'px'; }).observe(_cal); }catch(e){} }
       var todayKST=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'});   // 오늘(KST)
-      var st={topic:'All', sel:todayKST};                                            // 기본 = 오늘 포커스
-      var cm=todayKST.split('-'); var cur=new Date(+cm[0], +cm[1]-1, 1);
+      // 색인 지연으로 오늘이 비는 경우가 많다 → 오늘 논문이 없으면 '가장 최근 발간일'을 초기 선택
+      var _dts=(data.papers||[]).map(function(p){return p.date;}).sort();
+      var _latest=_dts.length?_dts[_dts.length-1]:todayKST;
+      var _init=(data.papers||[]).some(function(p){return p.date===todayKST;})?todayKST:_latest;
+      var st={topic:'All', sel:_init};                                               // 기본 = 오늘(없으면 최신 발간일)
+      var cm=st.sel.split('-'); var cur=new Date(+cm[0], +cm[1]-1, 1);
       function filtered(){ return st.topic==='All'?papers:papers.filter(function(p){return p.topic===st.topic;}); }
       function byDate(){ var m={}; filtered().forEach(function(p){ (m[p.date]=m[p.date]||[]).push(p); }); return m; }
       function paperLi(p){
@@ -175,7 +179,12 @@ permalink: /articles/
       }
       function renderTabs(){
         tabsEl.innerHTML=['All'].concat(topicList).map(function(tp){ return '<button type="button" class="ntab'+(tp===st.topic?' is-active':'')+'" data-topic="'+esc(tp)+'">'+esc(tp)+'</button>'; }).join('');
-        [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){ st.topic=b.dataset.topic; renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM(); }; });
+        [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){
+          st.topic=b.dataset.topic;
+          var fd=filtered().map(function(p){return p.date;}).sort();   // 새 토픽에 선택일 논문이 없으면 그 토픽 최신일로
+          if(fd.length && filtered().every(function(p){return p.date!==st.sel;})){ st.sel=fd[fd.length-1]; cm=st.sel.split('-'); cur=new Date(+cm[0], +cm[1]-1, 1); }
+          renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM();
+        }; });
       }
       function renderList(){
         var ps=(byDate()[st.sel]||[]).slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);});
