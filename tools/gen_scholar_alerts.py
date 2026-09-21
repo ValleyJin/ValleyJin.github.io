@@ -50,9 +50,9 @@ def _html_of(msg):
 
 def _kind(subject):
     s = (subject or "").lower()
-    if "citations" in s or "cited by" in s:
+    if "citation" in s or "cited by" in s or "인용" in s:
         return "Citation"
-    if "related" in s:
+    if "related" in s or "관련" in s or "서지정보" in s:
         return "Related"
     return "New"
 
