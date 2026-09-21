@@ -32,36 +32,6 @@
   },
   "papers": [
     {
-      "date": "2027-01-01",
-      "title": "From Sparse to Dense: Label-Efficient Weakly Supervised Segmentation for Images and Videos",
-      "authors": "Wang, J.",
-      "year": 2027,
-      "venue": "University of Liverpool",
-      "url": "https://doi.org/10.17638/03195330",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-12-31",
-      "title": "Research on Attention Guidance and User Autonomy in AI-Powered Immersive Environments",
-      "authors": "Qiao, M.",
-      "year": 2026,
-      "venue": "PhilPapers (PhilPapers Foundation)",
-      "url": "https://doi.org/10.17613/vpe2q-5qg42",
-      "cites": 0,
-      "topic": "Memory in Agentic AI"
-    },
-    {
-      "date": "2026-10-01",
-      "title": "Simultaneous Cortical Responses to Multiple Written Words",
-      "authors": "Chauhan, V., McCook, K., Latif, M., & White, A.",
-      "year": 2026,
-      "venue": "PubMed Central",
-      "url": "https://doi.org/10.1162/jocn.a.2624",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
       "date": "2026-09-19",
       "title": "Trends and challenges in authorship analysis: a review of ML, DL, and LLM approaches",
       "authors": "Habib, N., Adewumi, T., Liwicki, M., & Barney, E.",
@@ -533,6 +503,16 @@
     },
     {
       "date": "2026-09-19",
+      "title": "Structural characteristics of local cortical networks wired by distance dependent connectivity rules",
+      "authors": "Hellwig, B.",
+      "year": 2026,
+      "venue": "BMC Neuroscience",
+      "url": "https://doi.org/10.1186/s12868-026-01050-1",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
       "title": "IBUA-BioNER: Integrating Balanced Undersampling and Adaptive Augmentation for Few-Shot Biomedical Named Entity Recognition",
       "authors": "Siswanto, A., Tutuko, B., Firdaus, & Jasmir",
       "year": 2026,
@@ -643,23 +623,13 @@
     },
     {
       "date": "2026-09-18",
-      "title": "Diffusion Model-Based Video Editing: A Survey",
-      "authors": "Sun, W., Tu, R., Liao, J., & Tao, D.",
-      "year": 2026,
-      "venue": "International Journal of Computer Vision",
-      "url": "https://doi.org/10.1007/s11263-026-03040-6",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-18",
       "title": "What is the Role of Small Models in the LLM Era: A Survey",
       "authors": "Chen, L., & Varoquaux, G.",
       "year": 2026,
       "venue": "Computational Linguistics",
       "url": "https://doi.org/10.1162/coli.a.652",
       "cites": 6,
-      "topic": "LLM inference serving"
+      "topic": "Memory in Agentic AI"
     },
     {
       "date": "2026-09-18",
@@ -668,6 +638,16 @@
       "year": 2026,
       "venue": "Frontiers in Artificial Intelligence",
       "url": "https://doi.org/10.3389/frai.2026.1844418",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Diffusion Model-Based Video Editing: A Survey",
+      "authors": "Sun, W., Tu, R., Liao, J., & Tao, D.",
+      "year": 2026,
+      "venue": "International Journal of Computer Vision",
+      "url": "https://doi.org/10.1007/s11263-026-03040-6",
       "cites": 0,
       "topic": "LLM inference serving"
     },
@@ -839,7 +819,17 @@
       "venue": "ACM Transactions on Software Engineering and Methodology",
       "url": "https://doi.org/10.1145/3848030",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Prompting Large Language Models with Partial Knowledge for Answering Questions with Unseen Entities",
+      "authors": "Yan, Z., Li, R., Wang, J., Chen, J., Tan, H., wang, Y., et al.",
+      "year": 2026,
+      "venue": "ACM Transactions on Information Systems",
+      "url": "https://doi.org/10.1145/3847674",
+      "cites": 0,
+      "topic": "Graph database"
     },
     {
       "date": "2026-09-17",
@@ -900,16 +890,6 @@
       "url": "https://doi.org/10.1007/s44163-026-02205-z",
       "cites": 0,
       "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-17",
-      "title": "Prompting Large Language Models with Partial Knowledge for Answering Questions with Unseen Entities",
-      "authors": "Yan, Z., Li, R., Wang, J., Chen, J., Tan, H., wang, Y., et al.",
-      "year": 2026,
-      "venue": "ACM Transactions on Information Systems",
-      "url": "https://doi.org/10.1145/3847674",
-      "cites": 0,
-      "topic": "Ontology"
     },
     {
       "date": "2026-09-17",
@@ -1193,6 +1173,26 @@
     },
     {
       "date": "2026-09-16",
+      "title": "Deep learning coupled with scalable domain-specific structural validation expands RNA virus discovery from metatranscriptomes",
+      "authors": "Luo, G., Zang, Z., Yuan, L., Zhou, J., Dong, A., Huang, Y., et al.",
+      "year": 2026,
+      "venue": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-77183-y",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Dynamic medical knowledge graph updating method based on LLM decision control",
+      "authors": "Hu, K., Hu, J., Yue, M., Sun, Y., & Wang, B.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-71802-w",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-16",
       "title": "Adaptive emergency braking for highway safety: a simulation framework for performance and reliability evaluation",
       "authors": "Ribeiro, R., Gonçalves, C., & Pombo, N.",
       "year": 2026,
@@ -1328,6 +1328,16 @@
       "year": 2026,
       "venue": "Ethical Review of Social Sciences",
       "url": "https://doi.org/10.70150/2026er02",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Latent persona coordination as an attack surface in large language models",
+      "authors": "Riva, G., & Rocca, S. L.",
+      "year": 2026,
+      "venue": "npj Artificial Intelligence",
+      "url": "https://doi.org/10.1038/s44387-026-00154-7",
       "cites": 0,
       "topic": "Deep persona"
     },

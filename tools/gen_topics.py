@@ -67,10 +67,12 @@ def apa_authors(authorships):
     return ", ".join(names[:-1]) + ", & " + names[-1]
 
 
-def fetch(query, concept, cutoff, n, sort=None, field="default"):
+def fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
     parts = [f"{field}.search:{query}", "type:article", f"concepts.id:{concept}", "has_doi:true"]
     if cutoff:
         parts.insert(2, f"from_publication_date:{cutoff}")   # cutoff=None → 전기간
+    if until:
+        parts.append(f"to_publication_date:{until}")         # 미래(예약) 발간일 제외
     filt = ",".join(parts)
     q = {
         "filter": filt,
@@ -157,7 +159,7 @@ def main():
     newest, seen_n = [], set()
     for label, query, _em in topics:
         try:
-            data = fetch(query, concept, cutoff, 12, sort="publication_date:desc")
+            data = fetch(query, concept, cutoff, 12, sort="publication_date:desc", until=today)
         except Exception as e:
             print(f"! newest {label}: {e}", file=sys.stderr)
             continue
@@ -165,8 +167,8 @@ def main():
             pd = w.get("publication_date")
             title = clean_title(w.get("title"))
             key = (w.get("doi") or title).strip().lower()
-            if not pd or not title or len(title) < 8 or key in seen_n:
-                continue
+            if not pd or pd > today or not title or len(title) < 8 or key in seen_n:
+                continue                                     # pd > today = 미래 발간일 방어
             src = (w.get("primary_location") or {}).get("source") or {}
             venue = (src.get("display_name") or "").strip()
             if not venue or venue.lower().startswith(("zenodo", "figshare", "ssrn")):
