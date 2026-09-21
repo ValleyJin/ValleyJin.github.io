@@ -1,13 +1,13 @@
 {
-  "updated": "2026-09-19",
-  "public_repos": 52,
+  "updated": "2026-09-21",
+  "public_repos": 53,
   "followers": 25,
   "total_stars": 12,
-  "contributions": 1173,
+  "contributions": 1324,
   "languages": [
     {
       "name": "TypeScript",
-      "pct": 33
+      "pct": 31
     },
     {
       "name": "CSS",
@@ -15,11 +15,11 @@
     },
     {
       "name": "JavaScript",
-      "pct": 20
+      "pct": 21
     },
     {
       "name": "HTML",
-      "pct": 9
+      "pct": 10
     },
     {
       "name": "Java",
@@ -33,7 +33,7 @@
       "lang": "HTML",
       "stars": 1,
       "url": "https://github.com/ValleyJin/ValleyJin.github.io",
-      "pushed": "2026-09-19"
+      "pushed": "2026-09-21"
     },
     {
       "name": "spring-react-ioc-crud-study",
