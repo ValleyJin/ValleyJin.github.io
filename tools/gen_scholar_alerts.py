@@ -103,10 +103,15 @@ def main():
     M.select("INBOX")
     typ, data = M.search(None, '(FROM "%s")' % SENDER)
     ids = data[0].split()
+    print("· INBOX Scholar 메일 %d통 (FROM %s)" % (len(ids), SENDER), file=sys.stderr)
     if not ids:
-        print("· Scholar 알림 메일 없음.", file=sys.stderr)
-        M.logout()
-        return
+        # 발신 주소가 다를 수 있으니 'scholar' 포함 발신도 시도
+        typ, data = M.search(None, '(FROM "scholar")')
+        ids = data[0].split()
+        print("· FROM scholar 재검색: %d통" % len(ids), file=sys.stderr)
+        if not ids:
+            M.logout()
+            return
 
     seen, items = set(), []
     for num in reversed(ids[-MAX_MSGS:]):
@@ -114,7 +119,11 @@ def main():
         msg = email.message_from_bytes(msg_data[0][1])
         subject = _decode(msg.get("Subject"))
         kind = _kind(subject)
-        for it in parse_alert(_html_of(msg), kind):
+        html_body = _html_of(msg)
+        got = parse_alert(html_body, kind)
+        print("  · [%s] html=%d h3=%d a=%d parsed=%d" % (
+            subject[:45], len(html_body), html_body.count("<h3"), html_body.count("<a "), len(got)), file=sys.stderr)
+        for it in got:
             key = (it["title"].lower()[:80])
             if key in seen:
                 continue
