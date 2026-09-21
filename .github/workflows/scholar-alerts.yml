@@ -21,7 +21,7 @@ jobs:
         with: { python-version: "3.12" }
       - name: Fetch Google Scholar alert emails (Gmail IMAP)
         env:
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_USER: scholararticleforwarding@gmail.com
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python tools/gen_scholar_alerts.py
       - name: Commit if changed

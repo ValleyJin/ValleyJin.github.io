@@ -92,7 +92,7 @@ def parse_alert(html_body, kind):
 
 
 def main():
-    user = os.environ.get("GMAIL_USER")
+    user = os.environ.get("GMAIL_USER") or "scholararticleforwarding@gmail.com"
     pw = os.environ.get("GMAIL_APP_PASSWORD")
     if not user or not pw:
         print("· GMAIL_USER/GMAIL_APP_PASSWORD 없음 — scholar_alerts.json 유지.", file=sys.stderr)
