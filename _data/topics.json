@@ -39,7 +39,7 @@
           "cites": 24
         }
       ],
-      "count": 10242
+      "count": 10271
     },
     {
       "topic": "Graph database",
@@ -70,15 +70,15 @@
           "cites": 18
         },
         {
-          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
-          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
-          "year": 2024,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3685800.3685814",
-          "cites": 15
+          "title": "SRplot: A free online platform for data visualization and graphing",
+          "authors": "Tang, D., Chen, M., Huang, X., Zhang, G., Zeng, L., Zhang, G., et al.",
+          "year": 2023,
+          "venue": "PLoS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0294236",
+          "cites": 2570
         }
       ],
-      "count": 117082
+      "count": 117313
     },
     {
       "topic": "Memory in Agentic AI",
@@ -90,7 +90,7 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1609
+          "cites": 1610
         },
         {
           "title": "Memory-Based Event-Triggered Fault-Tolerant Consensus Control of Nonlinear Multi-Agent Systems and Its Applications",
@@ -114,10 +114,10 @@
           "year": 2025,
           "venue": "Information Fusion",
           "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-          "cites": 205
+          "cites": 206
         }
       ],
-      "count": 68334
+      "count": 68526
     },
     {
       "topic": "LLM inference serving",
@@ -145,7 +145,7 @@
           "year": 2025,
           "venue": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 997
+          "cites": 998
         },
         {
           "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
@@ -156,7 +156,7 @@
           "cites": 27
         }
       ],
-      "count": 5825
+      "count": 5850
     },
     {
       "topic": "Ethereum Layer-2",
@@ -195,7 +195,7 @@
           "cites": 31
         }
       ],
-      "count": 548
+      "count": 547
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -234,7 +234,7 @@
           "cites": 29
         }
       ],
-      "count": 40483
+      "count": 40599
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -273,7 +273,7 @@
           "cites": 490
         }
       ],
-      "count": 193302
+      "count": 193634
     },
     {
       "topic": "Ontology",
@@ -312,7 +312,7 @@
           "cites": 415
         }
       ],
-      "count": 24931
+      "count": 25021
     }
   ]
 }
