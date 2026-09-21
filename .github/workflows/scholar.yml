@@ -2,7 +2,7 @@ name: Sync Google Scholar
 
 on:
   schedule:
-    - cron: "41 5 * * *"      # daily 05:41 UTC (~14:41 KST)
+    - cron: "30 20 * * *"      # daily 20:30 UTC = 05:30 KST
   workflow_dispatch: {}
   push:
     branches: [ main ]

@@ -2,7 +2,7 @@ name: Sync GitHub activity
 
 on:
   schedule:
-    - cron: "17 6 * * *"      # daily, 06:17 UTC (~15:17 KST)
+    - cron: "40 20 * * *"      # daily 20:40 UTC = 05:40 KST
   workflow_dispatch: {}
   push:
     branches: [ main ]

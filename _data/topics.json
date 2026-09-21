@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-21",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -39,7 +39,7 @@
           "cites": 24
         }
       ],
-      "count": 10248
+      "count": 10242
     },
     {
       "topic": "Graph database",
@@ -78,7 +78,7 @@
           "cites": 15
         }
       ],
-      "count": 117198
+      "count": 117082
     },
     {
       "topic": "Memory in Agentic AI",
@@ -117,7 +117,7 @@
           "cites": 205
         }
       ],
-      "count": 68369
+      "count": 68334
     },
     {
       "topic": "LLM inference serving",
@@ -234,7 +234,7 @@
           "cites": 29
         }
       ],
-      "count": 40517
+      "count": 40483
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -273,7 +273,7 @@
           "cites": 490
         }
       ],
-      "count": 193448
+      "count": 193302
     },
     {
       "topic": "Ontology",
@@ -312,7 +312,7 @@
           "cites": 415
         }
       ],
-      "count": 24956
+      "count": 24931
     }
   ]
 }
