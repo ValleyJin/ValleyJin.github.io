@@ -232,7 +232,7 @@ permalink: /articles/
         for(var day=1;day<=dim;day++){
           var key=y+'-'+pad(mo+1)+'-'+pad(day), ps=m[key];
           var c=document.createElement(ps?'button':'span');
-          c.className='tcal-cell'+(ps?' has':'')+(key===st.sel?' sel':'');
+          c.className='tcal-cell'+(ps?' has':'')+(key===st.sel?' sel':'')+(key===todayKST?' today':'');
           c.innerHTML='<span class="d">'+day+'</span>'+(ps?'<span class="n">'+ps.length+'</span>':'');
           if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ st.sel=k; renderCal(); renderList(); };})(key)); }
           grid.appendChild(c);
