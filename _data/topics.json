@@ -471,6 +471,45 @@
       "count": 6729
     },
     {
+      "topic": "CVPR",
+      "query": "s2:CVPR",
+      "papers": [
+        {
+          "title": "Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding",
+          "authors": "Wang, S., Lin, Y., & Wu, Y.",
+          "year": 2024,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
+          "cites": 7
+        },
+        {
+          "title": "ReSpec: Relevance and Specificity Grounded Online Filtering for Learning on Video-Text Data Streams",
+          "authors": "Kim, C. D., Moon, J., Moon, S., Yun, H., Lee, S., Kembhavi, A., et al.",
+          "year": 2025,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52734.2025.02704",
+          "cites": 2
+        },
+        {
+          "title": "Learning Correlation Structures for Vision Transformers",
+          "authors": "Kim, M., Seo, P. H., Schmid, C., & Cho, M.",
+          "year": 2024,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
+          "cites": 35
+        },
+        {
+          "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
+          "authors": "Murai, R., Dexheimer, E., & Davison, A. J.",
+          "year": 2024,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
+          "cites": 303
+        }
+      ],
+      "count": 7364
+    },
+    {
       "topic": "Futures Studies",
       "query": "venue:S130638383",
       "papers": [

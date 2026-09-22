@@ -13,6 +13,7 @@
     "NeurIPS",
     "ICML",
     "ICLR",
+    "CVPR",
     "Futures Studies",
     "TFSC",
     "TAR",
@@ -25,6 +26,7 @@
     "NeurIPS",
     "ICML",
     "ICLR",
+    "CVPR",
     "Futures Studies",
     "TFSC",
     "TAR",
@@ -45,6 +47,7 @@
     "NeurIPS": "https://neurips.cc/",
     "ICML": "https://icml.cc/",
     "ICLR": "https://iclr.cc/",
+    "CVPR": "https://cvpr.thecvf.com/",
     "Futures Studies": "https://www.sciencedirect.com/journal/futures",
     "TFSC": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
     "TAR": "https://publications.aaahq.org/accounting-review",
@@ -66,6 +69,7 @@
     "NeurIPS": "https://www.semanticscholar.org/search?q=NeurIPS&sort=pub-date",
     "ICML": "https://www.semanticscholar.org/search?q=ICML&sort=pub-date",
     "ICLR": "https://www.semanticscholar.org/search?q=ICLR&sort=pub-date",
+    "CVPR": "https://www.semanticscholar.org/search?q=CVPR&sort=pub-date",
     "Futures Studies": "https://openalex.org/works?filter=primary_location.source.id:S130638383",
     "TFSC": "https://openalex.org/works?filter=primary_location.source.id:S39307421",
     "TAR": "https://openalex.org/works?filter=primary_location.source.id:S160506855",
@@ -2556,7 +2560,7 @@
         "year": 2022,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2201.12329",
-        "cites": 1422,
+        "cites": 1423,
         "topic": "ICLR"
       },
       {
@@ -2594,6 +2598,26 @@
         "url": "https://arxiv.org/abs/1910.07454",
         "cites": 280,
         "topic": "ICLR"
+      }
+    ],
+    "CVPR": [
+      {
+        "title": "2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017, Honolulu, HI, USA, July 21-26, 2017",
+        "authors": "Anon.",
+        "year": 2017,
+        "venue": "Computer Vision and Pattern Recognition",
+        "url": "https://doi.org/10.1109/cvpr35066.2017",
+        "cites": 44,
+        "topic": "CVPR"
+      },
+      {
+        "title": "1998 Conference on Computer Vision and Pattern Recognition (CVPR '98), June 23-25, 1998, Santa Barbara, CA, USA",
+        "authors": "Anon.",
+        "year": 1998,
+        "venue": "Computer Vision and Pattern Recognition",
+        "url": "https://www.semanticscholar.org/paper/0073595eae6b195af3951afbd62050e9a70df48f",
+        "cites": 0,
+        "topic": "CVPR"
       }
     ],
     "Futures Studies": [
