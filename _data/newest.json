@@ -62,6 +62,26 @@
   },
   "papers": [
     {
+      "date": "2026-09-21",
+      "title": "A battery life prediction method based on graph neural network assisted by deep reinforcement learning",
+      "authors": "Shen, H., Li, F., Shao, J., Jin, C., He, L., Ding, Y., et al.",
+      "year": 2026,
+      "venue": "Journal of Energy Storage",
+      "url": "https://doi.org/10.1016/j.est.2026.124517",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Improvement of personalized recommendation service level of intelligent libraries based on artificial intelligence and big data mining technology",
+      "authors": "Zhang, C.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-72513-y",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
       "date": "2026-09-20",
       "title": "Generative AI for Drug Discovery: GPT-2 and LSTM-Based Models for Designing EGFR Inhibitors",
       "authors": "Dasser, O., Benaceur, O. F., Fadel, S., & Kaanane, R.",
@@ -93,6 +113,56 @@
     },
     {
       "date": "2026-09-20",
+      "title": "AlphaZeroBeta: deep reinforcement learning for market-neutral portfolios",
+      "authors": "Belyakov, B.",
+      "year": 2026,
+      "venue": "Financial Innovation",
+      "url": "https://doi.org/10.1186/s40854-026-00955-4",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "EH-SWADS: energy-harvesting smart weather-aware drone sink for agricultural WSNs",
+      "authors": "Ahmed, N., Ghareeb, A. N., Fouad, Y., & Selem, E.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-72319-y",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Improving the security of web services by automatic robot detection",
+      "authors": "Karimi, A., Sajedi, H., & Abkenar, A. K.",
+      "year": 2026,
+      "venue": "Journal of Electrical Systems and Information Technology",
+      "url": "https://doi.org/10.1186/s43067-026-00400-7",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "A stability-oriented framework based on adaptive hunger games search for non-convex economic dispatch",
+      "authors": "Mustafa, A., Jan, A., Iqbal, A., & Abbasi, M. K.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-68731-z",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "System and Method for Generative AI-Driven Multi-Layer Topology Awareness and Dynamic Workload Placement in Container Orchestration Platforms",
+      "authors": "Narasimha, S. P.",
+      "year": 2026,
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "url": "https://doi.org/10.48175/ijarsct-38421",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-20",
       "title": "Scenario-based ESG scoring for sustainable financial investments using an advanced multi-facet fuzzy system",
       "authors": "Liu, W., Shen, Y., Dınçer, H., Yüksel, S., & Eti, S.",
       "year": 2026,
@@ -113,13 +183,93 @@
     },
     {
       "date": "2026-09-20",
+      "title": "Partial differential equations in the age of machine learning: a critical synthesis of classical, machine learning, and hybrid methods",
+      "authors": "Nooraiepour, M., Both, J. W., Kadeethum, T., & Sadeghnejad, S.",
+      "year": 2026,
+      "venue": "Artificial Intelligence Review",
+      "url": "https://doi.org/10.1007/s10462-026-11677-5",
+      "cites": 1,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-20",
       "title": "Developing meta-FM machine learning model with application for personalized language learning environment",
       "authors": "Li, Q., & Zhang, Y.",
       "year": 2026,
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-71932-1",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Design of an Integrated Modern Approach to Detect and Prevent Data Poisoning Attacks in AI Systems: A Multi-Stage Defense Framework for Robust and Secure Learning",
+      "authors": "Hatwar, N. L., Sharma, V. K., & Manjre, B.",
+      "year": 2026,
+      "venue": "ASEAN Journal of Scientific and Technological Reports",
+      "url": "https://doi.org/10.55164/ajstr.v29i10.262684",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "A course recommendation method based on bidirectional fusion of graph convolution using knowledge graphs",
+      "authors": "Hu, J., Zhang, Y., Ao, X., Zhang, S., & Zhu, Y.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-72215-5",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "A novel data-level prompt injection attack against graph prompt learning",
+      "authors": "Yuan, M., Zhang, Z., Quan, G., Pan, J., & Fu, Y.",
+      "year": 2026,
+      "venue": "Cybersecurity",
+      "url": "https://doi.org/10.1186/s42400-026-00650-y",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Probabilistic protection of smart power systems against load redistribution attacks using ai-based critical measurement selection",
+      "authors": "Samala, R. K., Kotapuri, M. R., & Kothuri, R. K.",
+      "year": 2026,
+      "venue": "Discover Electronics",
+      "url": "https://doi.org/10.1007/s44291-026-00274-z",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "A compact 2D photonic crystal biosensor for optical detection of glioblastoma brain tissues enhanced by neural networks",
+      "authors": "Mohamadpour, G., Yahya, S. I., Hazzazi, F., Aljaidi, M., Hussin, F. A., Alqudah, M. A., et al.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-72361-w",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Leveraging large models for domain knowledge-informed architecture search of fault diagnosis",
+      "authors": "Luo, F., Shi, J., Wu, L., Tan, J., Wang, S., Jiang, C., et al.",
+      "year": 2026,
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "url": "https://doi.org/10.1016/j.engappai.2026.116266",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Detailed identification method of blue and white porcelain decorative patterns for cultural heritage protection",
+      "authors": "Liu, Y.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-71411-7",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
     },
     {
       "date": "2026-09-20",
@@ -353,6 +503,106 @@
     },
     {
       "date": "2026-09-19",
+      "title": "Harm as Contraction of Reachable Continuation: Reachability, Resistance, and the Structure of Moral Damage",
+      "authors": "Lawson, A. E.",
+      "year": 2026,
+      "venue": "PhilPapers (PhilPapers Foundation)",
+      "url": "https://doi.org/10.5281/zenodo.22849012",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "SCN security situation assessment and prediction model based on improved selective convolutional network",
+      "authors": "Yang, Z.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-72223-5",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Enhancing heritage-oriented design learning through a value-sensitive approach to generative AI in higher education aesthetic pedagogy",
+      "authors": "Yu, T., & Li, Y.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-71408-2",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Token-level defect feedback and alternating optimization for coupled code generation and defect detection with large language models",
+      "authors": "Shan, W.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-71524-z",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Decoding the m6A-miRNA crosstalk in epileptogenesis: From writer-eraser-reader dynamics to RNA-based precision therapeutics",
+      "authors": "Rasheed, M. S., Akbar, I., Javed, U., Shakeel, M., Sajid, M., Sabir, A., et al.",
+      "year": 2026,
+      "venue": "ADMET & DMPK",
+      "url": "https://doi.org/10.5599/admet.3591",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Intelligent sensor-based fault diagnosis and tool wear prediction for CNC milling using hybrid machine learning",
+      "authors": "Shen, R., Liu, M., & Shi, J.",
+      "year": 2026,
+      "venue": "Journal of Engineering and Applied Science",
+      "url": "https://doi.org/10.1186/s44147-026-01210-4",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Systematic benchmarking of evaluation paradigms, safety boundaries, and clinical reasoning gaps for multimodal large language models in rehabilitation",
+      "authors": "Ye, P., Li, Y., Qu, M., Zhang, X., Liu, J., Zhu, T., et al.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-71999-w",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Redefining China’s Approach to AI Governance: Beyond Top-Down, Government-Led, and Command-and-Control",
+      "authors": "Fu, X., & Huang, T.",
+      "year": 2026,
+      "venue": "Journal of Contemporary China",
+      "url": "https://doi.org/10.1080/10670564.2026.2733081",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Comprehensive Evaluation of Few-shot In-context Learning and Dual-agent Ensemble Strategies for Pneumothorax Detection Using Resource-efficient Vision-language Models",
+      "authors": "Hernanda, A. K., Nugroho, S. M. S., Rachmadi, R. F., Sensusiati, A. D., & Purnama, I. K. E.",
+      "year": 2026,
+      "venue": "International journal of intelligent engineering and systems",
+      "url": "https://doi.org/10.22266/ijies2026.1031.02",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "Modeling communicative intentions in therapist–client dialogue using large language models and graph analysis",
+      "authors": "Panfilova, A., Bolshev, V., Latynov, V. V., Vanin, A. V., & Vlasova, A. S.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-71120-1",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-19",
       "title": "AC/DC: Automated Compilation for Dynamic Circuits",
       "authors": "Niu, S., Kökcü, E., Mitra, A., Szasz, A., Hashim, A., Kalloor, J., et al.",
       "year": 2026,
@@ -383,31 +633,11 @@
     },
     {
       "date": "2026-09-19",
-      "title": "Systematic benchmarking of evaluation paradigms, safety boundaries, and clinical reasoning gaps for multimodal large language models in rehabilitation",
-      "authors": "Ye, P., Li, Y., Qu, M., Zhang, X., Liu, J., Zhu, T., et al.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-71999-w",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-19",
       "title": "Auditing Feature-level Label Leakage in Intrusion Detection Benchmarks Using Mutual Information",
       "authors": "Ismael, H. A., Al-Ta’i, Z. T. M., & Abbas, J. M.",
       "year": 2026,
       "venue": "International journal of intelligent engineering and systems",
       "url": "https://doi.org/10.22266/ijies2026.1031.74",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Token-level defect feedback and alternating optimization for coupled code generation and defect detection with large language models",
-      "authors": "Shan, W.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-71524-z",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)"
     },
@@ -543,23 +773,43 @@
     },
     {
       "date": "2026-09-19",
-      "title": "Harm as Contraction of Reachable Continuation: Reachability, Resistance, and the Structure of Moral Damage",
-      "authors": "Lawson, A. E.",
+      "title": "Identifying Memorization of Diffusion Models through p-Laplace Analysis: Estimators, Bounds and Applications",
+      "authors": "Brokman, J., Gershon, I., Giloni, A., Hofman, O., Vainshtein, R., Kojima, H., et al.",
       "year": 2026,
-      "venue": "PhilPapers (PhilPapers Foundation)",
-      "url": "https://doi.org/10.5281/zenodo.22849012",
+      "venue": "Journal of Mathematical Imaging and Vision",
+      "url": "https://doi.org/10.1007/s10851-026-01338-1",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Graph neural networks (GNN)"
     },
     {
       "date": "2026-09-19",
-      "title": "Enhancing heritage-oriented design learning through a value-sensitive approach to generative AI in higher education aesthetic pedagogy",
-      "authors": "Yu, T., & Li, Y.",
+      "title": "ABFR-KAN: Kolmogorov-Arnold Networks for Functional Brain Analysis",
+      "authors": "Ward, T., & Imran, A. A.",
+      "year": 2026,
+      "venue": "The Journal of Machine Learning for Biomedical Imaging",
+      "url": "https://doi.org/10.59275/j.melba.2026-cbeb",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "An enhanced hierarchical Mamba-based cardiac segmentation network for cardiovascular analysis and disease diagnosis using multiple MRI datasets",
+      "authors": "Sehar, U., Ahmad, N., Tariq, Z., Peng, Y., & Zhou, J.",
       "year": 2026,
       "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-71408-2",
+      "url": "https://doi.org/10.1038/s41598-026-68601-8",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "UAV path planning based on improved Whale Optimization Algorithm in multi-obstacle scenarios",
+      "authors": "Wang, G., & Zhai, R.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-69784-w",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
     },
     {
       "date": "2026-09-19",
@@ -680,6 +930,106 @@
       "url": "https://doi.org/10.1177/00081256261486300",
       "cites": 0,
       "topic": "Deep persona"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Diffusion Model-Based Video Editing: A Survey",
+      "authors": "Sun, W., Tu, R., Liao, J., & Tao, D.",
+      "year": 2026,
+      "venue": "International Journal of Computer Vision",
+      "url": "https://doi.org/10.1007/s11263-026-03040-6",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "What is the Role of Small Models in the LLM Era: A Survey",
+      "authors": "Chen, L., & Varoquaux, G.",
+      "year": 2026,
+      "venue": "Computational Linguistics",
+      "url": "https://doi.org/10.1162/coli.a.652",
+      "cites": 6,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "DOTA-ME-CS: daily oriented text audio-Mandarin English-Code switching dataset",
+      "authors": "Li, Y., Wei, Z., Yu, H., Xue, J., Zhou, H., & Schuller, B. W.",
+      "year": 2026,
+      "venue": "Journal of Ambient Intelligence and Humanized Computing",
+      "url": "https://doi.org/10.1007/s12652-026-05119-x",
+      "cites": 1,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Evaluating fine-tuned, embedding-based, and zero-shot models for aspect-based sentiment analysis in South Slavic news",
+      "authors": "Chatterjee, N., Koloski, B., Doucet, A., Pollak, S., & Purver, M.",
+      "year": 2026,
+      "venue": "Frontiers in Artificial Intelligence",
+      "url": "https://doi.org/10.3389/frai.2026.1844418",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "An omnichannel strategy development framework leveraging customer opinion divergence using large language models and explainable AI",
+      "authors": "Choi, B., Son, Y., & choi, Y.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-71125-w",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "From obligation to enforcement: mapping EU AI act and CRA cybersecurity requirements to technical controls for LLM-based autonomous agents",
+      "authors": "Ogayemi, A.",
+      "year": 2026,
+      "venue": "International Journal of Information Security",
+      "url": "https://doi.org/10.1007/s10207-026-01336-9",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Towards Trustworthy and Scalable Agentic Smart Manufacturing: A Roadmap for Generative AI-integrated MAS 2.0",
+      "authors": "Leng, J., Wang, G., Zhu, T. J., Cao, J., Chen, C., Cui, H., et al.",
+      "year": 2026,
+      "venue": "International Journal of Extreme Manufacturing",
+      "url": "https://doi.org/10.1088/2631-7990/aea9db",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Applying Transformers and Knowledge Graphs to Home Care Event Detection",
+      "authors": "Yeh, J., Tsai, C., Huang, B., Yang, P., & Yeh, C.",
+      "year": 2026,
+      "venue": "Sensors and Materials",
+      "url": "https://doi.org/10.18494/sam6478",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Zero-Shot Dengue Forecasting with LLM-Based Time Series Foundation Models",
+      "authors": "Machchar, P. S., & Ramanuj, P. N.",
+      "year": 2026,
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijcab17db3823872",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Detection of Artificial Intelligence-Generated Phishing Attacks Using Transformer Models",
+      "authors": "Nnaji, S. O., Nneamaka, A. F., Uchenwa, C. L., & Nwoka, A. E.",
+      "year": 2026,
+      "venue": "International Journal of Computer Applications",
+      "url": "https://doi.org/10.5120/ijca209cd5833714",
+      "cites": 0,
+      "topic": "LLM inference serving"
     },
     {
       "date": "2026-09-18",
@@ -860,6 +1210,66 @@
       "url": "https://doi.org/10.1007/s44163-026-02249-1",
       "cites": 0,
       "topic": "Deep persona"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Guiding AI to Fix Its Own Flaws: An Empirical Study on LLM-Driven Secure Code Generation",
+      "authors": "Yan, H., Vaidya, S. S., Zhang, X., & Yao, Z.",
+      "year": 2026,
+      "venue": "ACM Transactions on Software Engineering and Methodology",
+      "url": "https://doi.org/10.1145/3848030",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "A hybrid framework combining large language models and Shapley-based methods for explainable cyberbullying detection",
+      "authors": "Loseto, G., Gramegna, F., Pinto, A., Scioscia, F., & Ruta, M.",
+      "year": 2026,
+      "venue": "Discover Artificial Intelligence",
+      "url": "https://doi.org/10.1007/s44163-026-02204-0",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "HydroSuite-AI: a web-based LLM environment for hydrological code generation and execution for the hydrosuite open-source ecosystem",
+      "authors": "Pursnani, V., Ramirez, C. E., Sermet, Y., & Demir, İ.",
+      "year": 2026,
+      "venue": "Earth Science Informatics",
+      "url": "https://doi.org/10.1007/s12145-026-02222-7",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Cost efficient multimodal LLM deployment integrating tokenization economics MLOps and FinOps environments",
+      "authors": "Sahu, A., Singh, A., Sahu, S., Mishra, D. P., Mishra, D. P., Mallick, S. R., et al.",
+      "year": 2026,
+      "venue": "Discover Computing",
+      "url": "https://doi.org/10.1007/s10791-026-10449-7",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Comparative Analysis of Large Language Models in Interpreting Publication Research Ethics: Insights from COPE Forum Case Studies",
+      "authors": "Sridharan, K., & Sivaramakrishnan, G.",
+      "year": 2026,
+      "venue": "Journal of Empirical Research on Human Research Ethics",
+      "url": "https://doi.org/10.1177/15562646261488630",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Knowledge graph-enhanced pre-trained language model for organizational resilience assessment and dynamic capability reconstruction path mining",
+      "authors": "Niu, H., Xiong, G., & Fu, G.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-70975-8",
+      "cites": 0,
+      "topic": "LLM inference serving"
     },
     {
       "date": "2026-09-17",
@@ -1650,416 +2060,6 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103896",
       "cites": 0,
       "topic": "Futures Studies"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "A Model-Based System Engineering and Blockchain-IPFS Framework for Enhancing Decision-Making in National Engineering Accreditation Systems Pines",
-      "authors": "Djatna, T.",
-      "year": 2026,
-      "venue": "Journal of Intelligent Decision Making and Information Science",
-      "url": "https://doi.org/10.59543/jidmis.v3.1438",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-21",
-      "title": "The information content of private information acquisition: evidence from FOIA requests to the SEC",
-      "authors": "Bao, D., Brendel, J., Drake, M. S., & Su, L.",
-      "year": 2026,
-      "venue": "Review of Accounting Studies",
-      "url": "https://doi.org/10.1007/s11142-026-09988-7",
-      "cites": 1,
-      "topic": "RAST"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Employee Non‐Disclosure Agreements and Corporate News",
-      "authors": "Holstead, C., Huang, J., & Pinto, J.",
-      "year": 2026,
-      "venue": "Contemporary Accounting Research",
-      "url": "https://doi.org/10.1111/1911-3846.70068",
-      "cites": 0,
-      "topic": "CAR"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Firm Investments in Employee‐Led Entrepreneurial Ventures",
-      "authors": "Wiernsperger, M.",
-      "year": 2026,
-      "venue": "Contemporary Accounting Research",
-      "url": "https://doi.org/10.1111/1911-3846.70073",
-      "cites": 0,
-      "topic": "CAR"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "Does news media affect audit quality? Evidence from variation in the “contagion effect”",
-      "authors": "Cowle, E. N., Rawson, C., & Rowe, S. P.",
-      "year": 2026,
-      "venue": "Review of Accounting Studies",
-      "url": "https://doi.org/10.1007/s11142-026-09986-9",
-      "cites": 0,
-      "topic": "RAST"
-    },
-    {
-      "date": "2026-08-20",
-      "title": "The consequences of audit firm mobility for attestation services across states",
-      "authors": "Pan, P. Y., Lee, G., & Lin, Y.",
-      "year": 2026,
-      "venue": "Review of Accounting Studies",
-      "url": "https://doi.org/10.1007/s11142-026-09989-6",
-      "cites": 0,
-      "topic": "RAST"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Beyond Automation: AI and the Human Value of Sell‐Side Analysts",
-      "authors": "Shanthikumar, D. M., & Yoo, I. S.",
-      "year": 2026,
-      "venue": "Journal of Accounting Research",
-      "url": "https://doi.org/10.1111/1475-679x.70083",
-      "cites": 0,
-      "topic": "JAR"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "Lending Relationships Along Ownership Lines: Institutional Cross‐Ownership and Bank Loan Contracts",
-      "authors": "Ma, Z., Owens, E., Stice, D., & Wang, D.",
-      "year": 2026,
-      "venue": "Contemporary Accounting Research",
-      "url": "https://doi.org/10.1111/1911-3846.70075",
-      "cites": 3,
-      "topic": "CAR"
-    },
-    {
-      "date": "2026-08-19",
-      "title": "How labor market competition shapes workplace information on social media: evidence from Glassdoor reviews",
-      "authors": "Li, S., Wang, R., & Zhang, L.",
-      "year": 2026,
-      "venue": "Review of Accounting Studies",
-      "url": "https://doi.org/10.1007/s11142-026-09987-8",
-      "cites": 0,
-      "topic": "RAST"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Speculative backward and forward: How speculative methods open possible futures of cannabis in the Greater China Region: A study of overseas Chinese students in the UK",
-      "authors": "Tsoi, M. T.",
-      "year": 2026,
-      "venue": "Futures",
-      "url": "https://doi.org/10.1016/j.futures.2026.103909",
-      "cites": 0,
-      "topic": "Futures Studies"
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Profits Lost in the Haze: Evidence From Wildfire Smoke",
-      "authors": "Kong, J., Loch, H., & Shen, M.",
-      "year": 2026,
-      "venue": "Contemporary Accounting Research",
-      "url": "https://doi.org/10.1111/1911-3846.70079",
-      "cites": 0,
-      "topic": "CAR"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "A Blockchain-Enabled Federated Neuro-Symbolic Framework for Secure Wearable Biosensor-Based Health Monitoring",
-      "authors": "Alshudukhi, K. S., & Tariq, N.",
-      "year": 2026,
-      "venue": "Biosensors",
-      "url": "https://doi.org/10.3390/bios16080442",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Non‐Fundamental Loan Renegotiations",
-      "authors": "Chen, A., Phillips, M., Moerman, R. W., & Ye, T.",
-      "year": 2026,
-      "venue": "Journal of Accounting Research",
-      "url": "https://doi.org/10.1111/1475-679x.70080",
-      "cites": 1,
-      "topic": "JAR"
-    },
-    {
-      "date": "2026-08-16",
-      "title": "Informing Entrepreneurs? Initial Public Offerings and New Business Formation",
-      "authors": "Lisowsky, P., Choi, J. H., Hochberg, Y. V., Kim, J., & LIU, M.",
-      "year": 2026,
-      "venue": "Journal of Accounting Research",
-      "url": "https://doi.org/10.1111/1475-679x.70082",
-      "cites": 0,
-      "topic": "JAR"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Exogenous stock liquidity improvements and voluntary disclosure",
-      "authors": "Hagenberg, T. C., Miller, B. P., Sharma, A., & Yohn, T. L.",
-      "year": 2026,
-      "venue": "Review of Accounting Studies",
-      "url": "https://doi.org/10.1007/s11142-026-09984-x",
-      "cites": 0,
-      "topic": "RAST"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "VERKLE-FRI: НОВА АРХІТЕКТУРА ДЛЯ БЕЗСТАНОВИХ ТА КВАНТОВО-СТІЙКИХ ВЕКТОРНИХ ЗОБОВ’ЯЗАНЬ",
-      "authors": "Akhalaia, G., Iavich, M., & Bocu, R.",
-      "year": 2026,
-      "venue": "RADIOELECTRONIC AND COMPUTER SYSTEMS",
-      "url": "https://doi.org/10.32620/reks.2026.2.17",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Decentralized Biometric Authentication via Threshold-Based Key Derivation †",
-      "authors": "Cui, H., Cheng, H., & Boorman, J.",
-      "year": 2026,
-      "venue": "Pragmatic Cybersecurity",
-      "url": "https://doi.org/10.53941/pc.2026.100011",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-11",
-      "title": "Blockchain-Based Clean Energy Trading: Security Architecture and Operational Risk Mitigation in Decentralized Energy Markets",
-      "authors": "Cai, A.",
-      "year": 2026,
-      "venue": "Advances in Economics Management and Political Sciences",
-      "url": "https://doi.org/10.54254/2754-1169/2026.gt35973",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-10",
-      "title": "A Blockchain-Based Traceability System To Mitigate Counterfeit Cosmetics In E-Commerce: Proposed Model And Experimental Validation",
-      "authors": "Tri, D. T., Han, H. G., & Nguyen, P.",
-      "year": 2026,
-      "venue": "Journal of Applied Informatics and Computing",
-      "url": "https://doi.org/10.30871/jaic.v10i4.12787",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-07",
-      "title": "Late trade credit payments to meet cash flow forecasts",
-      "authors": "Cohen, D., Liang, C., Lourie, B., & Nekrasov, A.",
-      "year": 2026,
-      "venue": "Review of Accounting Studies",
-      "url": "https://doi.org/10.1007/s11142-026-09985-w",
-      "cites": 1,
-      "topic": "RAST"
-    },
-    {
-      "date": "2026-08-07",
-      "title": "Non-audit services and earnings announcement timeliness",
-      "authors": "Hogan, C. E., Nessa, M. L., & Schroeder, J. H.",
-      "year": 2026,
-      "venue": "Review of Accounting Studies",
-      "url": "https://doi.org/10.1007/s11142-026-09983-y",
-      "cites": 0,
-      "topic": "RAST"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Disaggregating Cash Flows: The Effect of Linking and Labeling on Investors’ Understanding of the Statement of Cash Flows",
-      "authors": "Crandall, R., Garavaglia, S., & Mongold, C.",
-      "year": 2026,
-      "venue": "Journal of Accounting Research",
-      "url": "https://doi.org/10.1111/1475-679x.70081",
-      "cites": 0,
-      "topic": "JAR"
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Do Key Audit Matters in Hong Kong and Mainland China Provide Incremental Information and Improve Audit Quality?",
-      "authors": "Liao, L., Minutti-Meza, M., Sulcaj, V., Zhang, Y., & Zou, Y.",
-      "year": 2026,
-      "venue": "Contemporary Accounting Research",
-      "url": "https://doi.org/10.1111/1911-3846.70072",
-      "cites": 0,
-      "topic": "CAR"
-    },
-    {
-      "date": "2026-08-03",
-      "title": "eDAS: Extending Data Availability Sampling with Privacy and Compliance",
-      "authors": "Watkins, I., Mohnblatt, N., & Jovanovic, P.",
-      "year": 2026,
-      "venue": "IACR Communications in Cryptology",
-      "url": "https://doi.org/10.62056/andkp2c2h",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Efficient design of blockchain-based electronic health record systems with federated learning, off-chain storage, and zk-rollup parallelism for minimizing transaction costs",
-      "authors": "Raghav, A., Tripathi, A. M., & Chaudhary, R. K.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-62785-9",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Modular DAOs for Community-Based Resilience: A Blockchain Architecture for Critical Infrastructure Funding",
-      "authors": "Levinson, A., Mulligan, C., Ozdemir-Sonmez, F., & Knottenbelt, W. J.",
-      "year": 2026,
-      "venue": "Blockchain Research and Applications",
-      "url": "https://doi.org/10.1016/j.bcra.2026.100544",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Blockchain-enabled negotiation-based peer-to-peer energy trading: a dynamic pricing model for grid relief and consumer welfare",
-      "authors": "Bhavana, G., Anand, R., Ramprabhakar, J., & Lashab, A.",
-      "year": 2026,
-      "venue": "Electrical Engineering",
-      "url": "https://doi.org/10.1007/s00202-026-03706-x",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "The Debt Market Role of Asset Valuation Uncertainty",
-      "authors": "Aleszczyk, A., Vasvari, F. P., & Vyas, D.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2023-0477",
-      "cites": 2,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Does Anti-Tax Avoidance Regulation Curb Industry Concentration?",
-      "authors": "Gallemore, J., Geest, J. V. D., Jacob, M., & Peters, C.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2025-0338",
-      "cites": 0,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Broker In-House ESG Research",
-      "authors": "Wei, Y., Cahan, S. F., & Chen, L.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2023-0401",
-      "cites": 0,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Managerial Accountants and Investment Efficiency",
-      "authors": "Iselin, M., Ott, J., & Zou, Y.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2023-0699",
-      "cites": 0,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "The Market Disciplinary Effect of Asset Write-Off: Theory and Empirical Evidence from Goodwill Impairment",
-      "authors": "Jiang, Y., Lin, Y., & Xue, W.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2022-0526",
-      "cites": 0,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Social Tax Discontent and Individual Tax Avoidance",
-      "authors": "Belnap, A., Standridge, K., Thornock, J. R., & Williams, B.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2023-0689",
-      "cites": 0,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Benefits of Bank-Collateralized Loan Obligation Relationships: Evidence from Bankruptcy and Restructuring Outcomes of Collateralized Loan Obligation-Held Loans",
-      "authors": "Lin, Y., Vyas, D., & Xu, W.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2024-0758",
-      "cites": 0,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "When Companies Choose Their Reporting Standards: Evidence on SASB Adoption and Associated Outcomes",
-      "authors": "Bochkay, K., Choi, S., & Hales, J.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2023-0485",
-      "cites": 1,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Circuitousness in Disclosure Narratives",
-      "authors": "Guest, N. M., & Yan, J.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2023-0731",
-      "cites": 0,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Domestic Product Market Impacts of Politically Motivated Foreign Tariffs",
-      "authors": "Burd, C. S., & Ferguson, V.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2024-0708",
-      "cites": 0,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "An Empirical Investigation of New and Existing Non-GAAP Exclusion Quality Indicators",
-      "authors": "Davidson, S. O., Gómez, E., Heflin, F., & Wallace, D.",
-      "year": 2026,
-      "venue": "The Accounting Review",
-      "url": "https://doi.org/10.2308/tar-2023-0299",
-      "cites": 0,
-      "topic": "TAR"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "The role of accounting in the informal economy",
-      "authors": "Aguilar, M., Lind, G., & Ramesh, K.",
-      "year": 2026,
-      "venue": "Journal of Accounting and Economics",
-      "url": "https://doi.org/10.1016/j.jacceco.2026.101934",
-      "cites": 1,
-      "topic": "JAE"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Interpreting the effects of rule 10b5-1 reform",
-      "authors": "Honigsberg, C., & Jackson, R. J.",
-      "year": 2026,
-      "venue": "Journal of Accounting and Economics",
-      "url": "https://doi.org/10.1016/j.jacceco.2026.101933",
-      "cites": 0,
-      "topic": "JAE"
-    },
-    {
-      "date": "2026-08-01",
-      "title": "Knowledge is power: A field experiment in the Chinese and US stock markets",
-      "authors": "Wong, S. M., Yuan, X., Zhang, B., & Zhao, X.",
-      "year": 2026,
-      "venue": "Journal of Accounting and Economics",
-      "url": "https://doi.org/10.1016/j.jacceco.2026.101935",
-      "cites": 0,
-      "topic": "JAE"
     }
   ],
   "mostcited": {
@@ -2159,7 +2159,62 @@
         "topic": "Memory in Agentic AI"
       }
     ],
-    "LLM inference serving": [],
+    "LLM inference serving": [
+      {
+        "title": "SLO-Aware GPU DVFS for Energy-Efficient LLM Inference Serving",
+        "authors": "Kakolyris, A. K., Masouros, D., Xydis, S., & Soudris, D.",
+        "year": 2024,
+        "venue": "IEEE Computer Architecture Letters",
+        "url": "https://doi.org/10.1109/lca.2024.3406038",
+        "cites": 39,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
+        "authors": "Wilkins, G., Keshav, S., & Mortier, R.",
+        "year": 2024,
+        "venue": "ACM SIGEnergy Energy Informatics Review",
+        "url": "https://doi.org/10.1145/3727200.3727217",
+        "cites": 27,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
+        "authors": "Gao, S., Zhang, X., Shen, Y., & Chen, L.",
+        "year": 2025,
+        "venue": "Proceedings of the ACM on Management of Data",
+        "url": "https://doi.org/10.1145/3725394",
+        "cites": 5,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "Serving Long-Context LLMs at the Mobile Edge: Test-Time Reinforcement Learning-Based Model Caching and Inference Offloading",
+        "authors": "Xu, M., Niyato, D., & Brinton, C. G.",
+        "year": 2026,
+        "venue": "IEEE Transactions on Networking",
+        "url": "https://doi.org/10.1109/ton.2026.3669011",
+        "cites": 4,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "BrownoutServe: SLO-Aware Inference Serving Under Bursty Workloads for MoE-Based LLMs",
+        "authors": "Hu, J., Xu, M., Ye, K., & Xu, C.",
+        "year": 2026,
+        "venue": "IEEE Transactions on Computers",
+        "url": "https://doi.org/10.1109/tc.2026.3655019",
+        "cites": 3,
+        "topic": "LLM inference serving"
+      },
+      {
+        "title": "DOPD: A Dynamic PD-Disaggregation Architecture for Maximizing Goodput in LLM Inference Serving",
+        "authors": "Liao, J., Xu, M., Zheng, W., Wang, Y., Ye, K., Buyya, R., et al.",
+        "year": 2026,
+        "venue": "IEEE Transactions on Services Computing",
+        "url": "https://doi.org/10.1109/tsc.2026.3670011",
+        "cites": 1,
+        "topic": "LLM inference serving"
+      }
+    ],
     "Ethereum Layer-2": [
       {
         "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
@@ -2180,7 +2235,62 @@
         "topic": "Ethereum Layer-2"
       }
     ],
-    "Zero-knowledge proofs (ZKP)": [],
+    "Zero-knowledge proofs (ZKP)": [
+      {
+        "title": "Proofs that yield nothing but their validity or all languages in NP have zero-knowledge proof systems",
+        "authors": "Goldreich, O., Micali, S., & Wigderson, A.",
+        "year": 1991,
+        "venue": "Journal of the ACM",
+        "url": "https://doi.org/10.1145/116825.116852",
+        "cites": 1362,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "Zero-knowledge proofs of identity",
+        "authors": "Feige, U., Fiat, A., & Shamir, A.",
+        "year": 1988,
+        "venue": "Journal of Cryptology",
+        "url": "https://doi.org/10.1007/bf02351717",
+        "cites": 1036,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "Definitions and properties of zero-knowledge proof systems",
+        "authors": "Goldreich, O., & Oren, Y.",
+        "year": 1994,
+        "venue": "Journal of Cryptology",
+        "url": "https://doi.org/10.1007/bf00195207",
+        "cites": 609,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "On the Composition of Zero-Knowledge Proof Systems",
+        "authors": "Goldreich, O., & Krawczyk, H.",
+        "year": 1996,
+        "venue": "SIAM Journal on Computing",
+        "url": "https://doi.org/10.1137/s0097539791220688",
+        "cites": 427,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "How to construct constant-round zero-knowledge proof systems for NP",
+        "authors": "Goldreich, O., & Kahan, A.",
+        "year": 1996,
+        "venue": "Journal of Cryptology",
+        "url": "https://doi.org/10.1007/bf00208001",
+        "cites": 335,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      },
+      {
+        "title": "A Survey on Zero-Knowledge Proof in Blockchain",
+        "authors": "Sun, X., Yu, F. R., Zhang, P., Sun, Z., Xie, W., & Peng, X.",
+        "year": 2021,
+        "venue": "IEEE Network",
+        "url": "https://doi.org/10.1109/mnet.011.2000473",
+        "cites": 314,
+        "topic": "Zero-knowledge proofs (ZKP)"
+      }
+    ],
     "Graph neural networks (GNN)": [
       {
         "title": "A Comprehensive Survey on Graph Neural Networks",
