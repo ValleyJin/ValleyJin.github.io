@@ -250,6 +250,7 @@ def main():
         NEWEST.write_text(json.dumps({
             "generated": today,
             "topics": [label for label, _q, _e in topics],   # 탭 순서(config 순)
+            "venues": [label for label, _q, _e in topics if _q.startswith("venue:")],   # 학회/저널 토픽(구분선 아래 배치)
             "em": {label: em for label, _q, em in topics if em},   # 토픽별 Emergent Mind URL
             "oa": oa_map,                                            # 토픽별 OpenAlex 링크(학회=source, 그 외=검색어)
             "papers": newest,

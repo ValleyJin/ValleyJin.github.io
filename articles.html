@@ -216,7 +216,13 @@ permalink: /articles/
           '<span class="pcite">cited by <b>'+(p.cites||0)+'</b></span></li>';
       }
       function renderTabs(){
-        tabsEl.innerHTML=['All'].concat(topicList).map(function(tp){ return '<button type="button" class="ntab'+(tp===st.topic?' is-active':'')+'" data-topic="'+esc(tp)+'">'+esc(tp)+'</button>'; }).join('');
+        var _vs={}; (data.venues||[]).forEach(function(v){_vs[v]=1;});
+        var _norm=topicList.filter(function(t){return !_vs[t];}).slice().sort();   // 일반 토픽 알파벳순
+        var _ven=topicList.filter(function(t){return _vs[t];});                     // 학회/저널 토픽(config 순)
+        function _tab(tp){ return '<button type="button" class="ntab'+(tp===st.topic?' is-active':'')+'" data-topic="'+esc(tp)+'">'+esc(tp)+'</button>'; }
+        var _html=['All'].concat(_norm).map(_tab).join('');
+        if(_ven.length){ _html+='<span class="ntab-sep" aria-hidden="true"></span>'+_ven.map(_tab).join(''); }
+        tabsEl.innerHTML=_html;
         [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){
           st.topic=b.dataset.topic;
           var fd=filtered().map(function(p){return p.date;}).sort();   // 새 토픽에 선택일 논문이 없으면 그 토픽 최신일로
