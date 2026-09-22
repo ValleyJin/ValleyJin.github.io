@@ -355,39 +355,120 @@
     },
     {
       "topic": "NeurIPS",
-      "query": "venue:S4306420609",
+      "query": "s2:NeurIPS",
       "papers": [
         {
-          "title": "Differentially Private Sampling from Distributions",
-          "authors": "Raskhodnikova, S., Sivakumar, S., Smith, A., & Swanberg, M.",
+          "title": "Computational Complexity of Learning Neural Networks: Smoothness and Degeneracy",
+          "authors": "Daniely, A., Srebro, N., & Vardi, G.",
+          "year": 2023,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.52202/075280-3334",
+          "cites": 11
+        },
+        {
+          "title": "Inferring stochastic dynamics with growth from cross-sectional data",
+          "authors": "Zhang, S., Maddu, S., Qiu, X., & Chardès, V.",
           "year": 2025,
-          "venue": "SIAM Journal on Computing",
-          "url": "https://doi.org/10.1137/22m1538703",
-          "cites": 1
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2505.13197",
+          "cites": 5
+        },
+        {
+          "title": "Information-theoretic Generalization Analysis for Expected Calibration Error",
+          "authors": "Futami, F., & Fujisawa, M.",
+          "year": 2024,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2405.15709",
+          "cites": 22
+        },
+        {
+          "title": "GREAT Score: Global Robustness Evaluation of Adversarial Perturbation using Generative Models",
+          "authors": "Li, Z., Chen, P., & Ho, T.",
+          "year": 2023,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2304.09875",
+          "cites": 8
         }
       ],
-      "count": 2
+      "count": 13699
     },
     {
       "topic": "ICML",
-      "query": "venue:S4306419644",
+      "query": "s2:ICML",
       "papers": [
         {
-          "title": "Fairness and Bias in Online Selection",
-          "authors": "Correa, J., Cristi, A., Duetting, P., & Norouzi-Fard, A.",
+          "title": "Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality",
+          "authors": "Southern, J., Eitan, Y., Bar-Shalom, G., Bronstein, M. M., Maron, H., & Frasca, F.",
           "year": 2025,
-          "venue": "Operations Research",
-          "url": "https://doi.org/10.1287/opre.2021.0662",
+          "venue": "International Conference on Machine Learning",
+          "url": "https://doi.org/10.48550/arXiv.2501.03113",
+          "cites": 7
+        },
+        {
+          "title": "High-dimensional Clustering onto Hamiltonian Cycle",
+          "authors": "Huang, T., Cheng, S., Li, S., & Zhang, Z.",
+          "year": 2023,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://doi.org/10.48550/arXiv.2304.14531",
+          "cites": 12
+        },
+        {
+          "title": "High-Dimensional Tensor Regression With Oracle Properties",
+          "authors": "Wang, W., Shi, Y., & Zhao, Z.",
+          "year": 2025,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://www.semanticscholar.org/paper/000e9fb2207f1e40b2195a4d376d8ff46eb54bb7",
+          "cites": 0
+        },
+        {
+          "title": "The Number of Trials Matters in Infinite-Horizon General-Utility Markov Decision Processes",
+          "authors": "Santos, P. P., Sardinha, A., & Melo, F. S.",
+          "year": 2024,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://doi.org/10.48550/arXiv.2409.15128",
           "cites": 3
         }
       ],
-      "count": 2
+      "count": 7323
     },
     {
       "topic": "ICLR",
-      "query": "venue:S4306419637",
-      "papers": [],
-      "count": 0
+      "query": "s2:ICLR",
+      "papers": [
+        {
+          "title": "DiffusER: Diffusion via Edit-based Reconstruction",
+          "authors": "Reid, M., Hellendoorn, V. J., & Neubig, G.",
+          "year": 2023,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/0004c4e27e54f13577951416d8ed476e93f00ef9",
+          "cites": 39
+        },
+        {
+          "title": "Exploiting Hidden Symmetry to Improve Objective Perturbation for DP Linear Learners with a Nonsmooth L1-Norm",
+          "authors": "Chen, D., & Chua, G. A.",
+          "year": 2025,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/00094e8c9e3cff020fcc75ced74a751b1104fe8b",
+          "cites": 0
+        },
+        {
+          "title": "Generative Learning for Financial Time Series with Irregular and Scale-Invariant Patterns",
+          "authors": "Huang, H., Chen, M., & Qiao, X.",
+          "year": 2024,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/001d5eac903cee1be4b04b5fd6011034f18be3d1",
+          "cites": 62
+        },
+        {
+          "title": "Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs",
+          "authors": "Fu, H., Yao, J., Gottesman, O., Doshi-Velez, F., & Konidaris, G.",
+          "year": 2023,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/003b229489d88890674f0c6bffa41fed8df93cec",
+          "cites": 2
+        }
+      ],
+      "count": 6729
     },
     {
       "topic": "Futures Studies",

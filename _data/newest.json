@@ -22,9 +22,6 @@
     "RAST"
   ],
   "venues": [
-    "NeurIPS",
-    "ICML",
-    "ICLR",
     "Futures Studies",
     "TFSC",
     "TAR",
@@ -63,9 +60,9 @@
     "Graph neural networks (GNN)": "https://openalex.org/works?filter=default.search:graph%20neural%20network",
     "Ontology": "https://openalex.org/works?filter=default.search:ontology%20knowledge%20representation",
     "AI governance": "https://openalex.org/works?filter=default.search:AI%20governance",
-    "NeurIPS": "https://openalex.org/works?filter=primary_location.source.id:S4306420609",
-    "ICML": "https://openalex.org/works?filter=primary_location.source.id:S4306419644",
-    "ICLR": "https://openalex.org/works?filter=primary_location.source.id:S4306419637",
+    "NeurIPS": "https://www.semanticscholar.org/search?q=NeurIPS&sort=pub-date",
+    "ICML": "https://www.semanticscholar.org/search?q=ICML&sort=pub-date",
+    "ICLR": "https://www.semanticscholar.org/search?q=ICLR&sort=pub-date",
     "Futures Studies": "https://openalex.org/works?filter=primary_location.source.id:S130638383",
     "TFSC": "https://openalex.org/works?filter=primary_location.source.id:S39307421",
     "TAR": "https://openalex.org/works?filter=primary_location.source.id:S160506855",
@@ -1517,6 +1514,26 @@
     },
     {
       "date": "2026-09-16",
+      "title": "Vocabulary-Guided Gait Recognition",
+      "authors": "Huang, P., Hou, S., Cao, C., Liu, X., & Huang, Y.",
+      "year": 2026,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/085713-4678",
+      "cites": 8,
+      "topic": "NeurIPS"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Online Robust Reinforcement Learning Through Monte-Carlo Planning",
+      "authors": "Dam, T., Panaganti, K., Driss, B., & Wierman, A.",
+      "year": 2026,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://arxiv.org/abs/2609.18599",
+      "cites": 4,
+      "topic": "ICML"
+    },
+    {
+      "date": "2026-09-16",
       "title": "AI-assisted Delphi as a futures method: Synthetic experts and collective intelligence in technology foresight",
       "authors": "Şahin, C.",
       "year": 2026,
@@ -1677,6 +1694,16 @@
     },
     {
       "date": "2026-09-07",
+      "title": "LLM Layers Immediately Correct Each Other",
+      "authors": "Patrawala, A., Feng, J., Jones, E., & Steinhardt, J.",
+      "year": 2026,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/085713-4643",
+      "cites": 4,
+      "topic": "NeurIPS"
+    },
+    {
+      "date": "2026-09-07",
       "title": "Shifting and balancing under uncertainty: Ambidextrous leadership of digital strategies in the museums sector",
       "authors": "Merendino, A., & Meadows, M.",
       "year": 2026,
@@ -1704,6 +1731,16 @@
       "url": "https://doi.org/10.1111/1911-3846.70076",
       "cites": 0,
       "topic": "CAR"
+    },
+    {
+      "date": "2026-09-06",
+      "title": "Power Mean Estimation in Stochastic Continuous Monte-Carlo Tree Search",
+      "authors": "Dam, T.",
+      "year": 2026,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://arxiv.org/abs/2609.06489",
+      "cites": 3,
+      "topic": "ICML"
     },
     {
       "date": "2026-09-06",
@@ -1867,6 +1904,16 @@
     },
     {
       "date": "2026-09-01",
+      "title": "Connectome-Based Modelling Reveals Orientation Maps in the Drosophila Optic Lobe",
+      "authors": "Liew, J. N., Lin, S., Chen, B., Zhang, W., Zhu, X., & Hu, X.",
+      "year": 2026,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/085713-5498",
+      "cites": 0,
+      "topic": "NeurIPS"
+    },
+    {
+      "date": "2026-09-01",
       "title": "Emotion regulation in episodic strategy interventions: The case of organizational foresight",
       "authors": "Fergnani, A., Hodgkinson, G. P., & Rizzo, G.",
       "year": 2026,
@@ -1957,6 +2004,26 @@
     },
     {
       "date": "2026-08-31",
+      "title": "Real-Time Scene-Adaptive Tone Mapping for High-Dynamic Range Object Detection",
+      "authors": "Li, G., Qiu, L., Cao, P., Xie, F., Ji, X., & Sun, Q.",
+      "year": 2026,
+      "venue": "Neural Information Processing Systems",
+      "url": "https://doi.org/10.52202/085713-3262",
+      "cites": 2,
+      "topic": "NeurIPS"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "CateKV: On Sequential Consistency for Long-Context LLM Inference Acceleration",
+      "authors": "Jiang, H., Li, H., Zhang, J., Huang, F., Hu, Q., Sun, M., et al.",
+      "year": 2026,
+      "venue": "International Conference on Machine Learning",
+      "url": "https://arxiv.org/abs/2608.30295",
+      "cites": 3,
+      "topic": "ICML"
+    },
+    {
+      "date": "2026-08-31",
       "title": "From divergence to regime architecture: Epistemic regularization under accelerating technological change",
       "authors": "Hafezi, R.",
       "year": 2026,
@@ -1997,83 +2064,13 @@
     },
     {
       "date": "2026-08-29",
-      "title": "Harmful hopes in sustainability transitions",
-      "authors": "Ahola-Launonen, J., Kurki, S., Lindroth, M., & Sinevaara-Niskanen, H.",
+      "title": "sRGB Real Noise Modeling via Noise-Aware Sampling with Normalizing Flows",
+      "authors": "Kim, D., Jung, D., Baik, S., & Kim, T. H.",
       "year": 2026,
-      "venue": "Futures",
-      "url": "https://doi.org/10.1016/j.futures.2026.103918",
-      "cites": 0,
-      "topic": "Futures Studies"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Implementing Blockchain For Enhanced Security In Fog Computing Systems",
-      "authors": "Low, C. K., Lim, F. J., Tan, B. S., & Phoon, G. C.",
-      "year": 2026,
-      "venue": "IEM Journal",
-      "url": "https://doi.org/10.54552/bzddh935",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-28",
-      "title": "Competing creditor claims and loan recoverability: evidence from anti-recharacterization laws",
-      "authors": "Saffar, W., Sun, Y., & Zhang, J. J.",
-      "year": 2026,
-      "venue": "Review of Accounting Studies",
-      "url": "https://doi.org/10.1007/s11142-026-09993-w",
-      "cites": 0,
-      "topic": "RAST"
-    },
-    {
-      "date": "2026-08-27",
-      "title": "Leveraging Polygon Blockchain and Zero-Knowledge Proofs for Secure Electronic Evidence Storage in Court: A Novel Framework",
-      "authors": "Behera, S., & Arya, S.",
-      "year": 2026,
-      "venue": "ICCK Journal of Software Engineering",
-      "url": "https://doi.org/10.62762/jse.2026.766488",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Which megatrends are highly related to digital government? Priority analysis on STEEPV framework",
-      "authors": "Kun, L. Y., & Kim, J.",
-      "year": 2026,
-      "venue": "Futures",
-      "url": "https://doi.org/10.1016/j.futures.2026.103915",
-      "cites": 0,
-      "topic": "Futures Studies"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Governing rural futures: Structuring diverse perspectives on future problems and pathways to understand Dutch policy challenges",
-      "authors": "Muiderman, K., Enserink, M., Daalhuizen, F., Wieringen, D. V., & Huitzing, H.",
-      "year": 2026,
-      "venue": "Futures",
-      "url": "https://doi.org/10.1016/j.futures.2026.103916",
-      "cites": 0,
-      "topic": "Futures Studies"
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Participatory co-production, agonistic pluralism, and transformation; Reflexively evaluating a technology for inclusive employment for people with a disability",
-      "authors": "Grijseels, M., & Zuiderent-Jerak, T.",
-      "year": 2026,
-      "venue": "Futures",
-      "url": "https://doi.org/10.1016/j.futures.2026.103911",
-      "cites": 0,
-      "topic": "Futures Studies"
-    },
-    {
-      "date": "2026-08-25",
-      "title": "Blockchain for the eHealth Sector—A Survey and Implementation",
-      "authors": "Vizzarri, A., & Mazzenga, F.",
-      "year": 2026,
-      "venue": "Applied Sciences",
-      "url": "https://doi.org/10.3390/app16178461",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "venue": "International Conference on Learning Representations",
+      "url": "https://arxiv.org/abs/2608.29038",
+      "cites": 7,
+      "topic": "ICLR"
     }
   ],
   "mostcited": {
@@ -2475,124 +2472,124 @@
     ],
     "NeurIPS": [
       {
-        "title": "ImageNet classification with deep convolutional neural networks",
-        "authors": "Krizhevsky, A., Sutskever, I., & Hinton, G. E.",
-        "year": 2017,
-        "venue": "Communications of the ACM",
-        "url": "https://doi.org/10.1145/3065386",
-        "cites": 75618,
-        "topic": "NeurIPS"
-      },
-      {
-        "title": "Probabilistic Matrix Factorization",
-        "authors": "Mnih, A., & Salakhutdinov, R.",
-        "year": 2007,
+        "title": "The Machine Reconnaissance Blind Chess Tournament of NeurIPS 2022",
+        "authors": "Gardner, R. W., Perrotta, G., Shah, A., Kalyanakrishnan, S., Wang, K. A., Clark, G., et al.",
+        "year": 2021,
         "venue": "Neural Information Processing Systems",
-        "url": "https://openalex.org/W2137245235",
-        "cites": 3566,
-        "topic": "NeurIPS"
-      },
-      {
-        "title": "Advances in Neural Information Processing Systems 20",
-        "authors": "Bonilla, E. V., Chai, K. M. A., & Williams, C. K. I.",
-        "year": 2008,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://openalex.org/W2597289420",
-        "cites": 2599,
-        "topic": "NeurIPS"
-      },
-      {
-        "title": "ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 16",
-        "authors": "Storkey, A.",
-        "year": 2004,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://openalex.org/W2612972698",
-        "cites": 2029,
-        "topic": "NeurIPS"
-      },
-      {
-        "title": "Advances in Neural Information Processing Systems 21",
-        "authors": "Griffiths, T. L., Lucas, C. G., Williams, J. J., & Kalish, M. L.",
-        "year": 2009,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://openalex.org/W2596585349",
-        "cites": 1860,
-        "topic": "NeurIPS"
-      },
-      {
-        "title": "Learning to Discover Social Circles in Ego Networks",
-        "authors": "Leskovec, J., & McAuley, J.",
-        "year": 2012,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://openalex.org/W2155461593",
-        "cites": 1714,
+        "url": "https://www.semanticscholar.org/paper/0050e1c2005479bdad9ce5c21d555b05b7027914",
+        "cites": 4,
         "topic": "NeurIPS"
       }
     ],
     "ICML": [
       {
-        "title": "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
-        "authors": "Lafferty, J., McCallum, A., & Pereira, F. C. N.",
-        "year": 2001,
-        "venue": "ScholarlyCommons (University of Pennsylvania)",
-        "url": "https://openalex.org/W2147880316",
-        "cites": 12952,
+        "title": "Improving language models by retrieving from trillions of tokens",
+        "authors": "Borgeaud, S., Mensch, A., Hoffmann, J., Cai, T., Rutherford, E., Milli-can, K., et al.",
+        "year": 2021,
+        "venue": "International Conference on Machine Learning",
+        "url": "https://arxiv.org/abs/2112.04426",
+        "cites": 1911,
+        "topic": "ICML"
+      },
+      {
+        "title": "OptNet: Differentiable Optimization as a Layer in Neural Networks",
+        "authors": "Amos, B., & Kolter, J.",
+        "year": 2017,
+        "venue": "International Conference on Machine Learning",
+        "url": "https://arxiv.org/abs/1703.00443",
+        "cites": 1345,
+        "topic": "ICML"
+      },
+      {
+        "title": "Feature hashing for large scale multitask learning",
+        "authors": "Weinberger, K. Q., Dasgupta, A., Attenberg, J., Langford, J., & Smola, A.",
+        "year": 2009,
+        "venue": "International Conference on Machine Learning",
+        "url": "https://doi.org/10.1145/1553374.1553516",
+        "cites": 1121,
+        "topic": "ICML"
+      },
+      {
+        "title": "Parseval Networks: Improving Robustness to Adversarial Examples",
+        "authors": "Cissé, M., Bojanowski, P., Grave, E., Dauphin, Y., & Usunier, N.",
+        "year": 2017,
+        "venue": "International Conference on Machine Learning",
+        "url": "https://arxiv.org/abs/1704.08847",
+        "cites": 915,
+        "topic": "ICML"
+      },
+      {
+        "title": "Equivariant message passing for the prediction of tensorial properties and molecular spectra",
+        "authors": "Schütt, K. T., Unke, O. T., & Gastegger, M.",
+        "year": 2021,
+        "venue": "International Conference on Machine Learning",
+        "url": "https://arxiv.org/abs/2102.03150",
+        "cites": 854,
+        "topic": "ICML"
+      },
+      {
+        "title": "Partially Supervised Classification of Text Documents",
+        "authors": "Liu, B., Lee, W. S., Yu, P. S., & Li, X.",
+        "year": 2002,
+        "venue": "International Conference on Machine Learning",
+        "url": "https://www.semanticscholar.org/paper/006b577653e0e91e1cfd37c32c6d1cfb198a730e",
+        "cites": 663,
         "topic": "ICML"
       }
     ],
     "ICLR": [
       {
-        "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
-        "authors": "Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A. M., et al.",
-        "year": 2021,
-        "venue": "CaltechAUTHORS (California Institute of Technology)",
-        "url": "https://openalex.org/W3118310857",
-        "cites": 229,
+        "title": "Denoising Diffusion Implicit Models",
+        "authors": "Song, J., Meng, C., & Ermon, S.",
+        "year": 2020,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://arxiv.org/abs/2010.02502",
+        "cites": 13506,
         "topic": "ICLR"
       },
       {
-        "title": "Generative Modeling for Protein Structures",
-        "authors": "Anand, N., & Huang, P.",
+        "title": "DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR",
+        "authors": "Liu, S., Li, F., Zhang, H., Yang, X., Qi, X., Su, H., et al.",
+        "year": 2022,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://arxiv.org/abs/2201.12329",
+        "cites": 1422,
+        "topic": "ICLR"
+      },
+      {
+        "title": "Central Moment Discrepancy (CMD) for Domain-Invariant Representation Learning",
+        "authors": "Zellinger, W., Grubinger, T., Lughofer, E., Natschläger, T., & Saminger-Platz, S.",
+        "year": 2017,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://arxiv.org/abs/1702.08811",
+        "cites": 689,
+        "topic": "ICLR"
+      },
+      {
+        "title": "A DIRT-T Approach to Unsupervised Domain Adaptation",
+        "authors": "Shu, R., Hung, H., Narui, H., & Ermon, S.",
         "year": 2018,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://openalex.org/W2891185006",
-        "cites": 117,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://arxiv.org/abs/1802.08735",
+        "cites": 668,
         "topic": "ICLR"
       },
       {
-        "title": "Faster Neural Networks Straight from JPEG",
-        "authors": "Gueguen, L., Sergeev, A. E., Kadlec, B., Liu, R., & Yosinski, J.",
-        "year": 2018,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://openalex.org/W2891364477",
-        "cites": 74,
+        "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
+        "authors": "Shen, K., Ju, Z., Tan, X., Liu, Y., Leng, Y., He, L., et al.",
+        "year": 2023,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://doi.org/10.48550/arXiv.2304.09116",
+        "cites": 417,
         "topic": "ICLR"
       },
       {
-        "title": "Deep learning for physical processes: incorporating prior scientific knowledge*",
-        "authors": "Bézenac, E. D., Pajot, A., & Gallinari, P.",
+        "title": "An Exponential Learning Rate Schedule for Deep Learning",
+        "authors": "Li, Z., & Arora, S.",
         "year": 2019,
-        "venue": "Journal of Statistical Mechanics Theory and Experiment",
-        "url": "https://doi.org/10.1088/1742-5468/ab3195",
-        "cites": 62,
-        "topic": "ICLR"
-      },
-      {
-        "title": "Building Generalizable Agents with a Realistic and Rich 3D Environment",
-        "authors": "Wu, Y., Wu, Y., Gkioxari, G., & Tian, Y.",
-        "year": 2018,
-        "venue": "CaltechAUTHORS (California Institute of Technology)",
-        "url": "https://openalex.org/W2963088756",
-        "cites": 41,
-        "topic": "ICLR"
-      },
-      {
-        "title": "Diversity-Driven Exploration Strategy for Deep Reinforcement Learning",
-        "authors": "Hong, Z., Shann, T., Su, S., Chang, Y., & Lee, C.",
-        "year": 2018,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://openalex.org/W2962839548",
-        "cites": 27,
+        "venue": "International Conference on Learning Representations",
+        "url": "https://arxiv.org/abs/1910.07454",
+        "cites": 280,
         "topic": "ICLR"
       }
     ],
