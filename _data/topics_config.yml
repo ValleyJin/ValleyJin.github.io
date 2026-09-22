@@ -10,21 +10,21 @@ topics: |
   Zero-knowledge proofs (ZKP) | zero-knowledge proof | https://www.emergentmind.com/topics/zero-knowledge-proofs-zkps
   Graph neural networks (GNN) | graph neural network | https://www.emergentmind.com/topics/graph-neural-networks-gnn
   Ontology | ontology knowledge representation | https://www.emergentmind.com/topics/ontology-grounded-llm-construction
-  NeurIPS | venue:S4306420609
-  ICML | venue:S4306419644
-  ICLR | venue:S4306419637
-  Futures Studies | venue:S130638383
-  TFSC | venue:S39307421
-  TAR | venue:S160506855
-  JAE | venue:S62142384
-  JAR | venue:S111116695
-  CAR | venue:S65924262
-  RAST | venue:S11853582
+  NeurIPS | venue:S4306420609 | https://neurips.cc/
+  ICML | venue:S4306419644 | https://icml.cc/
+  ICLR | venue:S4306419637 | https://iclr.cc/
+  Futures Studies | venue:S130638383 | https://www.sciencedirect.com/journal/futures
+  TFSC | venue:S39307421 | https://www.sciencedirect.com/journal/technological-forecasting-and-social-change
+  TAR | venue:S160506855 | https://publications.aaahq.org/accounting-review
+  JAE | venue:S62142384 | https://www.sciencedirect.com/journal/journal-of-accounting-and-economics
+  JAR | venue:S111116695 | https://onlinelibrary.wiley.com/journal/1475679x
+  CAR | venue:S65924262 | https://onlinelibrary.wiley.com/journal/19113846
+  RAST | venue:S11853582 | https://link.springer.com/journal/11142
 per_topic: 4
 scholars: |
   Jae-Suk Yang · KAIST | gM0qYNUAAAAJ
   Min-Soo Kim · KAIST | 1wZVw8QAAAAJ
   Joon Sung Park · Stanford | Y4Oc0cMAAAAJ
-per_scholar: 5
+per_scholar: 10
 years: 3
 field_concept: C41008148
