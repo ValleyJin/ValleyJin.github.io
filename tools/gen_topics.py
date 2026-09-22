@@ -8,7 +8,7 @@ in APA style, and writes _data/topics.json for the Articles page to render.
 Google Scholar has no API; OpenAlex is free, keyless, and structured — see
 study/13 (and study/08 for the Scholar author feed).
 """
-import json, os, re, sys, urllib.request, urllib.parse
+import json, os, re, sys, time, urllib.request, urllib.parse, urllib.error
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -68,9 +68,13 @@ def apa_authors(authorships):
 
 
 def fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
-    parts = [f"{field}.search:{query}", "type:article", f"concepts.id:{concept}", "has_doi:true"]
+    if query.startswith("venue:"):
+        # 학회/저널 지정: 해당 source의 논문만. has_doi는 빼야 한다(NeurIPS/ICML/ICLR 등 학회는 DOI가 없는 경우가 많음).
+        parts = ["primary_location.source.id:" + query[6:].strip(), "type:article"]
+    else:
+        parts = [f"{field}.search:{query}", "type:article", f"concepts.id:{concept}", "has_doi:true"]
     if cutoff:
-        parts.insert(2, f"from_publication_date:{cutoff}")   # cutoff=None → 전기간
+        parts.append(f"from_publication_date:{cutoff}")      # cutoff=None → 전기간
     if until:
         parts.append(f"to_publication_date:{until}")         # 미래(예약) 발간일 제외
     filt = ",".join(parts)
@@ -84,8 +88,15 @@ def fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
         q["sort"] = sort
     url = API + "?" + urllib.parse.urlencode(q)
     req = urllib.request.Request(url, headers={"User-Agent": f"valleyjin-topics ({MAILTO})"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.load(r)
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 4:
+                time.sleep(1.5 * (attempt + 1))    # 429 백오프: 1.5, 3, 4.5, 6초
+                continue
+            raise
 
 
 def fetch_scholar(user_id, key, n):
@@ -222,6 +233,14 @@ def main():
         pick.sort(key=lambda p: p["cites"], reverse=True)
         mostcited[label] = pick[:6]
 
+    # 토픽별 OpenAlex 링크: 학회/저널이면 그 source의 works 페이지, 그 외는 검색어 검색
+    oa_map = {}
+    for _lab, _q, _e in topics:
+        if _q.startswith("venue:"):
+            oa_map[_lab] = "https://openalex.org/works?filter=primary_location.source.id:" + _q[6:].strip()
+        else:
+            oa_map[_lab] = "https://openalex.org/works?filter=default.search:" + urllib.parse.quote(_q, safe="")
+
     # newest/mostcited가 전부 비면(API 오류) 기존 newest.json을 보존한다.
     if not newest and not any(mostcited.values()) and NEWEST.exists():
         print("! newest/mostcited 비어있음(OpenAlex 오류 추정) — 기존 newest.json 유지", file=sys.stderr)
@@ -230,8 +249,7 @@ def main():
             "generated": today,
             "topics": [label for label, _q, _e in topics],   # 탭 순서(config 순)
             "em": {label: em for label, _q, em in topics if em},   # 토픽별 Emergent Mind URL
-            "oa": {label: "https://openalex.org/works?filter=default.search:" + urllib.parse.quote(q, safe="")
-                   for label, q, _e in topics},                     # 토픽별 OpenAlex 검색화면
+            "oa": oa_map,                                            # 토픽별 OpenAlex 링크(학회=source, 그 외=검색어)
             "papers": newest,
             "mostcited": mostcited,                      # 키워드별 전기간 피인용 상위
         }, ensure_ascii=False, indent=2), encoding="utf-8")

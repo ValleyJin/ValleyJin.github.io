@@ -122,12 +122,24 @@ permalink: /articles/
         {% if g.papers and g.papers.size > 0 %}
         {% assign shown = shown | plus: 1 %}
         <div class="topic-group">
-          <div class="section-head" style="margin:26px 0 6px">
-            <h2>{{ g.name }}</h2>
-            <a class="more mono" href="https://scholar.google.com/citations?user={{ g.id }}" target="_blank" rel="noopener">Scholar ↗</a>
+          <div class="section-head" style="margin:26px 0 10px"><h2>{{ g.name }}</h2></div>
+          {% assign p0 = g.papers | first %}
+          <div class="fw-lead">
+            <a class="fw-photo" href="https://scholar.google.com/citations?user={{ g.id }}" target="_blank" rel="noopener">
+              <img src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user={{ g.id }}" alt="{{ g.name }} — Google Scholar" loading="lazy" referrerpolicy="no-referrer">
+              <span class="k">Google Scholar ↗</span>
+            </a>
+            <div class="pub-row fw-first">
+              <a class="pub-main" href="{{ p0.url }}" target="_blank" rel="noopener">
+                <span class="pt">{{ p0.title }}</span>
+                <span class="pmeta">{{ p0.authors }} ({{ p0.year }}).{% if p0.venue %} <i>{{ p0.venue }}</i>.{% endif %}</span>
+              </a>
+              <span class="pcite" title="Cited by">cited by <b>{{ p0.cites | default: 0 }}</b></span>
+            </div>
           </div>
+          {% if g.papers.size > 1 %}
           <ul class="pubs">
-            {% for p in g.papers %}
+            {% for p in g.papers offset:1 %}
             <li class="pub-row">
               <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
                 <span class="pt">{{ p.title }}</span>
@@ -137,6 +149,7 @@ permalink: /articles/
             </li>
             {% endfor %}
           </ul>
+          {% endif %}
         </div>
         {% endif %}
       {% endfor %}

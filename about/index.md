@@ -129,16 +129,16 @@ permalink: /about/
 
 <h3>Education</h3>
 <ul class="edu-list">
-  <li><span class="deg"><b>KAIST</b> — Ph.D. Candidate, Graduate Program for Futures Strategy</span><span class="yr">2016 — Present</span></li>
-  <li><span class="deg"><b>KAIST</b> — M.S., Graduate Program for Futures Strategy</span><span class="yr">2013 — 2016</span></li>
-  <li><span class="deg"><b>Kyungpook National University</b> — Ph.D. Candidate, Business Administration</span><span class="yr">2009 — 2012</span></li>
-  <li><span class="deg"><b>Kyungpook National University</b> — M.A., Business Administration</span><span class="yr">1998 — 2003</span></li>
-  <li><span class="deg"><b>Kyungpook National University</b> — B.A., Business Administration</span><span class="yr">1990 — 1998</span></li>
+  <li><span class="deg"><b><a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">KAIST</a></b> — Ph.D. Candidate, Graduate Program for Futures Strategy</span><span class="yr">2016 — Present</span></li>
+  <li><span class="deg"><b><a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">KAIST</a></b> — M.S., Graduate Program for Futures Strategy</span><span class="yr">2013 — 2016</span></li>
+  <li><span class="deg"><b><a href="https://en.knu.ac.kr/" target="_blank" rel="noopener">Kyungpook National University</a></b> — Ph.D. Candidate, Business Administration</span><span class="yr">2009 — 2012</span></li>
+  <li><span class="deg"><b><a href="https://en.knu.ac.kr/" target="_blank" rel="noopener">Kyungpook National University</a></b> — M.A., Business Administration</span><span class="yr">1998 — 2003</span></li>
+  <li><span class="deg"><b><a href="https://en.knu.ac.kr/" target="_blank" rel="noopener">Kyungpook National University</a></b> — B.A., Business Administration</span><span class="yr">1990 — 1998</span></li>
 </ul>
 
 <h3>Recognition</h3>
 <div class="cv-highlights">
-  <div class="h"><span class="v"><a href="https://scholar.google.co.kr/citations?user=ThQ_DqUAAAAJ&hl=en" target="_blank" rel="noopener">36</a></span><span class="k">Published articles</span></div>
+  <div class="h"><span class="v"><a href="https://scholar.google.co.kr/citations?user=ThQ_DqUAAAAJ&hl=en" target="_blank" rel="noopener">{{ site.data.scholar.articles | size }}</a></span><span class="k">Published articles</span></div>
   <div class="h"><span class="v"><a href="https://product.kyobobook.co.kr/detail/S000001866155" target="_blank" rel="noopener">2</a></span><span class="k">Books authored</span></div>
   <div class="h"><span class="v"><a href="https://patents.google.com/?inventor=%EC%A1%B0%EC%A7%84%EC%82%BC&country=KR" target="_blank" rel="noopener">10+</a></span><span class="k">Korean patents</span></div>
 </div>

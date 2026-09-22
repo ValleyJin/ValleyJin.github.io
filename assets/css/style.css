@@ -147,6 +147,7 @@ img{max-width:100%;display:block}
 .post-row .d{font-family:var(--mono);font-size:12.5px;color:var(--muted)}
 .post-row .t{font-size:17px;font-weight:550;letter-spacing:-.01em;transition:color .15s}
 .post-row .t .sub{display:block;color:var(--muted);font-size:13.5px;font-weight:400;margin-top:3px}
+.new-flag{display:inline-block;font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.08em;color:var(--bg);background:var(--accent);border-radius:4px;padding:1px 5px;vertical-align:2px;margin-right:4px}
 .post-row .c{font-family:var(--mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
 /* list thumbnail (cover image / YouTube preview) */
 .pth{position:relative;display:block;width:104px;height:59px;border-radius:8px;overflow:hidden;background:var(--bg-elev);border:1px solid var(--line)}
@@ -191,6 +192,15 @@ img{max-width:100%;display:block}
 .pub-row .pmeta i{font-style:italic}
 .pub-row .pcite{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
 .pub-row .pcite b{color:var(--accent)}
+/* Following: first paper sits beside the author photo + Scholar link */
+.fw-lead{display:grid;grid-template-columns:158px 1fr;gap:24px;align-items:start;margin-bottom:2px}
+.fw-photo{display:flex;flex-direction:column;gap:10px;text-decoration:none;padding:14px;background:var(--bg-elev);border:1px solid var(--line);border-radius:12px;transition:border-color .15s}
+.fw-photo:hover{border-color:var(--accent-dim)}
+.fw-photo img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:8px;display:block;background:var(--bg)}
+.fw-photo .k{font-family:var(--mono);font-size:12.5px;color:var(--ink-soft);transition:color .15s}
+.fw-photo:hover .k{color:var(--accent)}
+.fw-first{padding:0;border-bottom:0}
+@media(max-width:640px){.fw-lead{grid-template-columns:1fr;gap:12px}.fw-photo{flex-direction:row;align-items:center}.fw-photo img{width:72px;height:72px}}
 @media(max-width:640px){.sc-metrics{grid-template-columns:1fr 1fr}.pub-row{grid-template-columns:1fr}.pub-row .pcite{grid-column:1}}
 
 /* Publications / My Topics tabs */
