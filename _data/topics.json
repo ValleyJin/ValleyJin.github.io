@@ -5,80 +5,12 @@
     {
       "topic": "Deep persona",
       "query": "Deep persona",
-      "papers": [
-        {
-          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
-          "authors": "Lee, H., Kim, Y., & Kim, S.",
-          "year": 2024,
-          "venue": "Applied Sciences",
-          "url": "https://doi.org/10.3390/app14031014",
-          "cites": 8
-        },
-        {
-          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
-          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
-          "year": 2025,
-          "venue": "Computer Networks",
-          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 1
-        },
-        {
-          "title": "Personas-based Student Grouping using reinforcement learning and linear programming",
-          "authors": "Ma, S., Luo, Y., & Yang, Y.",
-          "year": 2023,
-          "venue": "Knowledge-Based Systems",
-          "url": "https://doi.org/10.1016/j.knosys.2023.111071",
-          "cites": 15
-        },
-        {
-          "title": "Chatbot Technology Use and Acceptance Using Educational Personas",
-          "authors": "Almahri, F. A. A. J., Bell, D., & Gulzar, Z.",
-          "year": 2024,
-          "venue": "Informatics",
-          "url": "https://doi.org/10.3390/informatics11020038",
-          "cites": 24
-        }
-      ],
-      "count": 10265
+      "papers": []
     },
     {
       "topic": "Graph database",
       "query": "Graph database",
-      "papers": [
-        {
-          "title": "Testing Graph Database Systems via Graph-Aware Metamorphic Relations",
-          "authors": "Zhuang, Z., Li, P., Ma, P., Meng, W., & Wang, S.",
-          "year": 2023,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3636218.3636236",
-          "cites": 22
-        },
-        {
-          "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
-          "authors": "Hornsteiner, M., Kreussel, M., Steindl, C., Ebner, F. F., Empl, P., & Schönig, S.",
-          "year": 2024,
-          "venue": "Future Internet",
-          "url": "https://doi.org/10.3390/fi16120438",
-          "cites": 28
-        },
-        {
-          "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
-          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K.",
-          "year": 2024,
-          "venue": "MethodsX",
-          "url": "https://doi.org/10.1016/j.mex.2024.102683",
-          "cites": 18
-        },
-        {
-          "title": "SRplot: A free online platform for data visualization and graphing",
-          "authors": "Tang, D., Chen, M., Huang, X., Zhang, G., Zeng, L., Zhang, G., et al.",
-          "year": 2023,
-          "venue": "PLoS ONE",
-          "url": "https://doi.org/10.1371/journal.pone.0294236",
-          "cites": 2570
-        }
-      ],
-      "count": 117179
+      "papers": []
     },
     {
       "topic": "Memory in Agentic AI",
@@ -122,41 +54,7 @@
     {
       "topic": "LLM inference serving",
       "query": "LLM inference serving",
-      "papers": [
-        {
-          "title": "SLO-Aware GPU DVFS for Energy-Efficient LLM Inference Serving",
-          "authors": "Kakolyris, A. K., Masouros, D., Xydis, S., & Soudris, D.",
-          "year": 2024,
-          "venue": "IEEE Computer Architecture Letters",
-          "url": "https://doi.org/10.1109/lca.2024.3406038",
-          "cites": 39
-        },
-        {
-          "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
-          "authors": "Gao, S., Zhang, X., Shen, Y., & Chen, L.",
-          "year": 2025,
-          "venue": "Proceedings of the ACM on Management of Data",
-          "url": "https://doi.org/10.1145/3725394",
-          "cites": 5
-        },
-        {
-          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
-          "authors": "Guo, D., Yang, D., Zhang, H., Song, J., Wang, P., Zhu, Q., et al.",
-          "year": 2025,
-          "venue": "Nature",
-          "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 998
-        },
-        {
-          "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
-          "authors": "Wilkins, G., Keshav, S., & Mortier, R.",
-          "year": 2024,
-          "venue": "ACM SIGEnergy Energy Informatics Review",
-          "url": "https://doi.org/10.1145/3727200.3727217",
-          "cites": 27
-        }
-      ],
-      "count": 5849
+      "papers": []
     },
     {
       "topic": "Ethereum Layer-2",
