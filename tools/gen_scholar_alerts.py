@@ -48,6 +48,14 @@ def _html_of(msg):
     return ""
 
 
+def _scholar(subject):
+    """제목에서 학자명 추출. 'Joon Sung Park님의 자료가…' / 'Joon Sung Park - 새로운…'.
+    'Min-Soo Kim'처럼 이름 안의 하이픈은 구분자로 오인 안 하도록 ' - '(공백 하이픈 공백)만 구분자로."""
+    s = (subject or "").strip()
+    m = re.match(r"^(.+?)(?:님(?:의)?|\s+[-–—]\s+)", s)
+    return m.group(1).strip() if m else ""
+
+
 def _kind(subject):
     s = (subject or "").lower()
     if "citation" in s or "cited by" in s or "인용" in s:
@@ -119,8 +127,11 @@ def main():
         msg = email.message_from_bytes(msg_data[0][1])
         subject = _decode(msg.get("Subject"))
         kind = _kind(subject)
+        sch = _scholar(subject)
         html_body = _html_of(msg)
         got = parse_alert(html_body, kind)
+        for it in got:
+            it["scholar"] = sch
         print("  · [%s] html=%d h3=%d a=%d parsed=%d" % (
             subject[:45], len(html_body), html_body.count("<h3"), html_body.count("<a "), len(got)), file=sys.stderr)
         for it in got:

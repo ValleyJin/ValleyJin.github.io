@@ -100,23 +100,6 @@ permalink: /articles/
     {% assign sc = site.data.scholars %}
     {% assign shown = 0 %}
     {% assign sa = site.data.scholar_alerts %}
-    {% if sa.items and sa.items.size > 0 %}
-    {% assign shown = shown | plus: 1 %}
-    <div class="topic-group">
-      <div class="section-head" style="margin:2px 0 6px"><h2>Scholar alerts</h2><span class="more mono">via Google Scholar email</span></div>
-      <ul class="pubs">
-        {% for it in sa.items %}
-        <li class="pub-row">
-          <a class="pub-main" href="{{ it.url }}" target="_blank" rel="noopener">
-            <span class="pt">{{ it.title }}</span>
-            <span class="pmeta">{% if it.authors %}{{ it.authors }}{% endif %}{% if it.snippet %} — {{ it.snippet | truncate: 130 }}{% endif %}</span>
-          </a>
-          <span class="pcite">{{ it.kind }}</span>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
     {% if sc.scholars and sc.scholars.size > 0 %}
       {% for g in sc.scholars %}
         {% if g.papers and g.papers.size > 0 %}
@@ -153,6 +136,22 @@ permalink: /articles/
                 <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>
               </a>
               <span class="pcite" title="Cited by">cited by <b>{{ p.cites | default: 0 }}</b></span>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          {% assign gname = g.name | split: ' · ' | first %}
+          {% assign myAlerts = sa.items | where: 'scholar', gname %}
+          {% if myAlerts and myAlerts.size > 0 %}
+          <div class="fw-sub" style="margin:16px 0 2px">Alert <span class="fw-sub-note mono">· via Scholar email · cited / related</span></div>
+          <ul class="pubs fw-alert">
+            {% for it in myAlerts %}
+            <li class="pub-row">
+              <a class="pub-main" href="{{ it.url }}" target="_blank" rel="noopener">
+                <span class="pt">{{ it.title }}</span>
+                <span class="pmeta">{% if it.authors %}{{ it.authors }}{% endif %}{% if it.snippet %} — {{ it.snippet | truncate: 120 }}{% endif %}</span>
+              </a>
+              <span class="pcite">{{ it.kind }}</span>
             </li>
             {% endfor %}
           </ul>

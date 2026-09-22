@@ -201,7 +201,9 @@ img{max-width:100%;display:block}
 .fw-cited .pub-row{padding:9px 0}
 .fw-cited .pub-row:first-child{padding-top:0}
 .fw-recent{max-height:330px;overflow-y:auto;padding-right:10px}   /* 약 5편 높이, 나머지는 스크롤 */
-@media(max-width:640px){.fw-lead{grid-template-columns:1fr;gap:12px}.fw-cited{max-height:none}.fw-recent{max-height:none}}
+.fw-alert{max-height:272px;overflow-y:auto;padding-right:10px}    /* 최대 3편 노출, 나머지는 영역 내 스크롤 */
+.fw-sub-note{color:var(--muted);text-transform:none;letter-spacing:.02em;font-weight:400;font-size:10px}
+@media(max-width:640px){.fw-lead{grid-template-columns:1fr;gap:12px}.fw-cited{max-height:none}.fw-recent{max-height:none}.fw-alert{max-height:none}}
 @media(max-width:640px){.sc-metrics{grid-template-columns:1fr 1fr}.pub-row{grid-template-columns:1fr}.pub-row .pcite{grid-column:1}}
 
 /* Publications / My Topics tabs */
