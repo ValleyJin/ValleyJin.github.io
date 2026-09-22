@@ -168,6 +168,11 @@ def main():
     years = int(cfg.get("years", 3))
     per_topic = int(cfg.get("per_topic", 4))
     cutoff = (date.today() - timedelta(days=365 * years)).isoformat()
+    # Newest(달력)용: OpenAlex는 최근 며칠에 논문이 몰려 있어 단순 최신순으로 뽑으면
+    # 이번 달만 채워진다. 최근 N개월을 '달별'로 나눠 각 달에서 토픽별 상위 K편을 가져와
+    # 지난달(예: 8월)도 반드시 달력에 나오게 한다.
+    newest_months = int(cfg.get("newest_months", 2))          # 커버할 최근 개월 수(현재 달 포함)
+    newest_per_month = int(cfg.get("newest_per_month", 15))    # 토픽 × 달마다 상위 몇 편
 
     result = {"generated": date.today().isoformat(),
               "field": "Computer Science · AI & databases",
@@ -215,33 +220,54 @@ def main():
 
     # ── Newest: 팔로우 토픽에서 '최근 발간'된 논문(발간일순) → 달력용 ──
     today = result["generated"]
+    # 최근 newest_months개월의 (시작일, 종료일) 윈도우 목록 — 현재 달부터 과거로
+    from calendar import monthrange
+    _t = date.today()
+    windows, _wy, _wm = [], _t.year, _t.month
+    for _ in range(max(1, newest_months)):
+        _start = date(_wy, _wm, 1)
+        _end = date(_wy, _wm, monthrange(_wy, _wm)[1])
+        if _end > _t:
+            _end = _t                                        # 현재 달은 오늘까지
+        windows.append((_start.isoformat(), _end.isoformat()))
+        _wm -= 1
+        if _wm == 0:
+            _wm = 12; _wy -= 1
+
+    newest_from = windows[-1][0]                             # 커버 윈도우의 가장 이른 시작일(예: 8/1)
     newest, seen_n = [], set()
     for label, query, _em in topics:
-        try:
-            data = _fetch(query, concept, cutoff, 12, sort="publication_date:desc", until=today)
-        except Exception as e:
-            print(f"! newest {label}: {e}", file=sys.stderr)
-            continue
-        for w in data.get("results", []):
-            pd = w.get("publication_date")
-            title = clean_title(w.get("title"))
-            key = (w.get("doi") or title).strip().lower()
-            if not pd or pd > today or not title or len(title) < 8 or key in seen_n:
-                continue                                     # pd > today = 미래 발간일 방어
-            src = (w.get("primary_location") or {}).get("source") or {}
-            venue = (src.get("display_name") or "").strip()
-            if not venue or venue.lower().startswith(("zenodo", "figshare", "ssrn")):
+        for _wstart, _wend in windows:                       # 달마다 따로 받아 각 달을 보장
+            try:
+                data = _fetch(query, concept, _wstart, newest_per_month, sort="publication_date:desc", until=_wend)
+            except Exception as e:
+                print(f"! newest {label} {_wstart[:7]}: {e}", file=sys.stderr)
                 continue
-            seen_n.add(key)
-            newest.append({
-                "date": pd, "title": title,
-                "authors": apa_authors(w.get("authorships", [])),
-                "year": w.get("publication_year"), "venue": venue,
-                "url": w.get("doi") or w.get("id"),
-                "cites": w.get("cited_by_count", 0), "topic": label,
-            })
+            kept = 0
+            for w in data.get("results", []):
+                pd = w.get("publication_date")
+                title = clean_title(w.get("title"))
+                key = (w.get("doi") or title).strip().lower()
+                # s2/venue 소스가 날짜 필터를 무시하고 옛 논문을 섞어 보내는 경우 방어 → 윈도우 밖 제거
+                if not pd or pd > today or pd < newest_from or not title or len(title) < 8 or key in seen_n:
+                    continue                                 # pd 범위 밖 = 스킵
+                src = (w.get("primary_location") or {}).get("source") or {}
+                venue = (src.get("display_name") or "").strip()
+                if not venue or venue.lower().startswith(("zenodo", "figshare", "ssrn")):
+                    continue
+                seen_n.add(key)
+                newest.append({
+                    "date": pd, "title": title,
+                    "authors": apa_authors(w.get("authorships", [])),
+                    "year": w.get("publication_year"), "venue": venue,
+                    "url": w.get("doi") or w.get("id"),
+                    "cites": w.get("cited_by_count", 0), "topic": label,
+                })
+                kept += 1
+                if kept >= newest_per_month:                 # 토픽×달마다 상위 K편만
+                    break
     newest.sort(key=lambda p: p["date"], reverse=True)
-    newest = newest[:200]
+    newest = newest[:600]   # 최근 윈도우(약 75일) 전체 보존 — 토픽 필터가 프런트에서 걸리므로 넉넉히
 
     # ── Most cited: 토픽(키워드)별 '전기간' 누적 피인용 상위 (날짜 무관) ──
     mostcited = {}
