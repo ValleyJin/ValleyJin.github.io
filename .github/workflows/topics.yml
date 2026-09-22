@@ -2,7 +2,7 @@ name: Sync My Topics (OpenAlex)
 
 on:
   schedule:
-    - cron: "0 21 * * *"      # daily 21:00 UTC = 06:00 KST (아침 스크래핑)
+    - cron: "0 18 * * *"      # daily 18:00 UTC = 03:00 KST (새벽 article 업데이트)
   workflow_dispatch: {}
   push:
     branches: [ main ]

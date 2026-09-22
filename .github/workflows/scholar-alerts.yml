@@ -2,7 +2,7 @@ name: Sync Scholar alerts (email)
 
 on:
   schedule:
-    - cron: "20 21 * * *"      # daily 21:20 UTC = 06:20 KST (after topics)
+    - cron: "10 18 * * *"      # daily 18:10 UTC = 03:10 KST (article와 같은 새벽 3시대, topics 직후)
   workflow_dispatch: {}
 
 permissions:
