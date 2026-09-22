@@ -128,18 +128,35 @@ permalink: /articles/
               <img src="{% if g.photo and g.photo != '' %}{{ g.photo }}{% else %}https://scholar.googleusercontent.com/citations?view_op=medium_photo&user={{ g.id }}{% endif %}" alt="{{ g.name }} — Google Scholar" loading="lazy" referrerpolicy="no-referrer">
               <span class="k">Google Scholar ↗</span>
             </a>
-            <ul class="pubs fw-cited">
-              {% for p in g.papers %}
-              <li class="pub-row">
-                <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
-                  <span class="pt">{{ p.title }}</span>
-                  <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>
-                </a>
-                <span class="pcite" title="Cited by">cited by <b>{{ p.cites | default: 0 }}</b></span>
-              </li>
-              {% endfor %}
-            </ul>
+            <div class="fw-side">
+              <div class="fw-sub">Most cited</div>
+              <ul class="pubs fw-cited">
+                {% for p in g.papers %}
+                <li class="pub-row">
+                  <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
+                    <span class="pt">{{ p.title }}</span>
+                    <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>
+                  </a>
+                  <span class="pcite" title="Cited by">cited by <b>{{ p.cites | default: 0 }}</b></span>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
+          {% if g.recent and g.recent.size > 0 %}
+          <div class="fw-sub" style="margin:16px 0 2px">Recent</div>
+          <ul class="pubs">
+            {% for p in g.recent %}
+            <li class="pub-row">
+              <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
+                <span class="pt">{{ p.title }}</span>
+                <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>
+              </a>
+              <span class="pcite" title="Cited by">cited by <b>{{ p.cites | default: 0 }}</b></span>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </div>
         {% endif %}
       {% endfor %}

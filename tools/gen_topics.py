@@ -99,10 +99,12 @@ def fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
             raise
 
 
-def fetch_scholar(user_id, key, n):
+def fetch_scholar(user_id, key, n, sort=None):
     """Google Scholar 프로필의 최신 논문(SerpAPI). 저자 본인이 큐레이션 → 동명이인 없음."""
     params = {"engine": "google_scholar_author", "author_id": user_id.strip(),
-              "api_key": key, "hl": "en", "num": min(max(n, 1), 100)}   # sort 생략 = cited by(인용순)
+              "api_key": key, "hl": "en", "num": min(max(n, 1), 100)}
+    if sort:
+        params["sort"] = sort   # "pubdate" = 최근순 (생략 시 cited by 인용순)
     url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
     with urllib.request.urlopen(url, timeout=60) as r:
         return json.load(r)
@@ -264,33 +266,37 @@ def main():
     else:
         per_scholar = int(cfg.get("per_scholar", 5))
         sresult = {"generated": today, "source": "Google Scholar", "scholars": []}
-        for name, uid, _ in scholars_list:
-            blk = {"name": name, "id": uid, "papers": []}
-            try:
-                data = fetch_scholar(uid, serp_key, per_scholar)
-            except Exception as e:
-                print(f"! scholar {name}: {e}", file=sys.stderr)
-                sresult["scholars"].append(blk)
-                continue
-            blk["photo"] = ((data.get("author") or {}).get("thumbnail") or "")   # SerpAPI 저자 사진(안정적 URL)
-            for a in (data.get("articles") or [])[:per_scholar]:
-                cb = a.get("cited_by") or {}
-                blk["papers"].append({
-                    "title": clean_title(a.get("title")),
+        def _mk(a):
+            cb = a.get("cited_by") or {}
+            return {"title": clean_title(a.get("title")),
                     "authors": (a.get("authors") or "").strip(),
                     "year": a.get("year") or "",
                     "venue": (a.get("publication") or "").strip(),
                     "url": a.get("link") or "",
-                    "cites": cb.get("value") or 0,
-                })
-            def _yr(v):
-                try:
-                    return int(str(v)[:4])
-                except Exception:
-                    return 0
-            blk["papers"].sort(key=lambda p: p.get("cites") or 0, reverse=True)   # 인용 많은 논문이 맨 위
+                    "cites": cb.get("value") or 0}
+
+        def _yr(v):
+            try:
+                return int(str(v)[:4])
+            except Exception:
+                return 0
+
+        for name, uid, _ in scholars_list:
+            blk = {"name": name, "id": uid, "papers": [], "recent": []}
+            try:
+                data = fetch_scholar(uid, serp_key, per_scholar)                   # cited by(인용순)
+                data_r = fetch_scholar(uid, serp_key, per_scholar, sort="pubdate") # 최근순
+            except Exception as e:
+                print(f"! scholar {name}: {e}", file=sys.stderr)
+                sresult["scholars"].append(blk)
+                continue
+            blk["photo"] = ((data.get("author") or {}).get("thumbnail") or "")     # SerpAPI 저자 사진(안정적 URL)
+            blk["papers"] = [_mk(a) for a in (data.get("articles") or [])[:per_scholar]]
+            blk["papers"].sort(key=lambda p: p.get("cites") or 0, reverse=True)     # 인용 많은 순 (Most cited)
+            blk["recent"] = [_mk(a) for a in (data_r.get("articles") or [])[:per_scholar]]
+            blk["recent"].sort(key=lambda p: _yr(p.get("year")), reverse=True)      # 최근 발간 순 (Recent)
             sresult["scholars"].append(blk)
-            print(f"  scholar {name}: {len(blk['papers'])} papers")
+            print(f"  scholar {name}: {len(blk['papers'])} cited, {len(blk['recent'])} recent")
         SCHOLARS.write_text(json.dumps(sresult, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"✓ wrote {SCHOLARS.relative_to(ROOT)} — {len(sresult['scholars'])} scholars (Google Scholar)")
 
