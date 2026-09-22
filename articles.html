@@ -76,7 +76,13 @@ permalink: /articles/
     {% assign t = site.data.topics %}
     <!-- topic filter tabs -->
     <div class="ntabs" id="ntabs" role="tablist"></div>
-    <div class="newest" id="newest" style="margin-top:52px" hidden>
+    <!-- following scholars → Google Scholar alert filter -->
+    <div class="stabs-wrap" id="stabs-wrap" hidden>
+      <div class="stabs" id="stabs" role="tablist"></div>
+    </div>
+
+    <!-- ▼ topic mode: Newest + Most cited -->
+    <div class="newest" id="newest" style="margin-top:24px" hidden>
       <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2>Newest</h2><span class="more mono" style="text-transform:none">by publication date · indexed ~2–3d later</span></div>
       <div class="tcal" id="tcal">
         <div class="tcal-bar">
@@ -94,12 +100,27 @@ permalink: /articles/
       <div class="section-head" style="margin:34px 0 6px"><h2>Most cited</h2><span id="more-links" class="more mono" hidden>More : <a id="oa-link" target="_blank" rel="noopener">OpenAlex</a><span id="more-sep"> · </span><a id="em-link" target="_blank" rel="noopener">Emergentmind</a></span></div>
       <ul class="pubs" id="mostcited-list"></ul>
     </div>
+
+    <!-- ▼ scholar mode: Google Scholar alerts calendar + kind report -->
+    <div class="newest" id="scholarview" hidden>
+      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2 id="scal-h">Scholar alerts</h2><span class="more mono" style="text-transform:none">by alert email date · Google Scholar</span></div>
+      <div class="tcal" id="scal">
+        <div class="tcal-bar">
+          <button type="button" class="tcal-nav" id="scal-prev" aria-label="Previous month">‹</button>
+          <span class="tcal-title" id="scal-title"></span>
+          <button type="button" class="tcal-nav" id="scal-next" aria-label="Next month">›</button>
+        </div>
+        <div class="tcal-dow"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div>
+        <div class="tcal-grid" id="scal-grid"></div>
+      </div>
+      <div class="newest-list" id="scal-kinds"></div>
+    </div>
+    <div id="scholar-sections" hidden></div>
   </div><!-- /pane-topics -->
 
   <div id="pane-scholars" class="tabpane" hidden>
     {% assign sc = site.data.scholars %}
     {% assign shown = 0 %}
-    {% assign sa = site.data.scholar_alerts %}
     {% if sc.scholars and sc.scholars.size > 0 %}
       {% for g in sc.scholars %}
         {% if g.papers and g.papers.size > 0 %}
@@ -140,22 +161,6 @@ permalink: /articles/
             {% endfor %}
           </ul>
           {% endif %}
-          {% assign gname = g.name | split: ' · ' | first %}
-          {% assign myAlerts = sa.items | where: 'scholar', gname %}
-          {% if myAlerts and myAlerts.size > 0 %}
-          <div class="fw-sub" style="margin:16px 0 2px">Alert <span class="fw-sub-note mono">· via Scholar email · cited / related</span></div>
-          <ul class="pubs fw-alert">
-            {% for it in myAlerts %}
-            <li class="pub-row">
-              <a class="pub-main" href="{{ it.url }}" target="_blank" rel="noopener">
-                <span class="pt">{{ it.title }}</span>
-                <span class="pmeta">{% if it.authors %}{{ it.authors }}{% endif %}{% if it.snippet %} — {{ it.snippet | truncate: 120 }}{% endif %}</span>
-              </a>
-              <span class="pcite">{{ it.kind }}</span>
-            </li>
-            {% endfor %}
-          </ul>
-          {% endif %}
         </div>
         {% endif %}
       {% endfor %}
@@ -169,6 +174,8 @@ permalink: /articles/
   </div><!-- /pane-scholars -->
 
   <script type="application/json" id="newest-data">{{ site.data.newest | jsonify }}</script>
+  <script type="application/json" id="alerts-data">{{ site.data.scholar_alerts | jsonify }}</script>
+  <script type="application/json" id="scholars-data">{{ site.data.scholars.scholars | jsonify }}</script>
   <script>
     (function(){
       var el=document.getElementById('newest-data'); if(!el) return;
@@ -223,6 +230,7 @@ permalink: /articles/
         if(_ven.length){ _html+='<span class="ntab-sep" aria-hidden="true"></span>'+_ven.map(_tab).join(''); }
         tabsEl.innerHTML=_html;
         [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){
+          setMode('topics');
           st.topic=b.dataset.topic;
           var fd=filtered().map(function(p){return p.date;}).sort();   // 새 토픽에 선택일 논문이 없으면 그 토픽 최신일로
           if(fd.length && filtered().every(function(p){return p.date!==st.sel;})){ st.sel=fd[fd.length-1]; cm=st.sel.split('-'); cur=new Date(+cm[0], +cm[1]-1, 1); }
@@ -265,7 +273,104 @@ permalink: /articles/
       }
       document.getElementById('tcal-prev').onclick=function(){ cur.setMonth(cur.getMonth()-1); renderCal(); };
       document.getElementById('tcal-next').onclick=function(){ cur.setMonth(cur.getMonth()+1); renderCal(); };
+
+      /* ── Following scholars → Google Scholar alerts ────────────── */
+      var adata={}; try{ adata=JSON.parse((document.getElementById('alerts-data')||{}).textContent||'{}'); }catch(e){}
+      var alerts=(adata.items||[]);
+      var followed=[]; try{
+        (JSON.parse((document.getElementById('scholars-data')||{}).textContent||'[]')||[]).forEach(function(g){
+          var nm=String(g.name||'').split(' · ')[0].trim(); if(nm && followed.indexOf(nm)<0) followed.push(nm);
+        });
+      }catch(e){}
+      alerts.forEach(function(a){ if(a.scholar && followed.indexOf(a.scholar)<0) followed.push(a.scholar); });   // 알림에만 있는 학자도 포함
+
+      var stabsWrap=document.getElementById('stabs-wrap'), stabsEl=document.getElementById('stabs'),
+          svWrap=document.getElementById('scholarview'), sgrid=document.getElementById('scal-grid'),
+          stitle=document.getElementById('scal-title'), kindsEl=document.getElementById('scal-kinds'),
+          sectEl=document.getElementById('scholar-sections');
+      if(stabsWrap && followed.length){ stabsWrap.hidden=false; }
+
+      var KINDS=['Citation','Related','New'];
+      var _adts=alerts.map(function(a){return a.date;}).filter(Boolean).sort();
+      var sst={scholar:'All', sel:(_adts.length?_adts[_adts.length-1]:todayKST)};
+      var scm=sst.sel.split('-'); var scur=new Date(+scm[0], +scm[1]-1, 1);
+
+      function aFiltered(){ return sst.scholar==='All'?alerts:alerts.filter(function(a){return a.scholar===sst.scholar;}); }
+      function aByDate(){ var m={}; aFiltered().forEach(function(a){ if(a.date) (m[a.date]=m[a.date]||[]).push(a); }); return m; }
+      function alertLi(a){
+        return '<li class="pub-row"><a class="pub-main" href="'+esc(a.url)+'" target="_blank" rel="noopener">'+
+          '<span class="pt">'+esc(a.title)+'</span>'+
+          '<span class="pmeta">'+(a.authors?esc(a.authors):'')+(a.snippet?' — '+esc(String(a.snippet).slice(0,140)):'')+'</span></a>'+
+          '<span class="pcite">'+esc(a.kind||'New')+'</span></li>';
+      }
+      function renderStabs(){
+        function _tab(nm){ return '<button type="button" class="ntab'+(nm===sst.scholar?' is-active':'')+'" data-scholar="'+esc(nm)+'">'+esc(nm)+'</button>'; }
+        stabsEl.innerHTML=['All'].concat(followed).map(_tab).join('');
+        [].slice.call(stabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){
+          setMode('scholars');
+          sst.scholar=b.dataset.scholar;
+          var fd=aFiltered().map(function(a){return a.date;}).filter(Boolean).sort();   // 선택 학자에 현재 날짜 알림 없으면 최신일로
+          if(fd.length && aFiltered().every(function(a){return a.date!==sst.sel;})){ sst.sel=fd[fd.length-1]; scm=sst.sel.split('-'); scur=new Date(+scm[0], +scm[1]-1, 1); }
+          renderStabs(); renderScal(); renderKinds(); renderSections();
+        }; });
+      }
+      function renderScal(){
+        var m=aByDate(), y=scur.getFullYear(), mo=scur.getMonth();
+        stitle.textContent=scur.toLocaleString('en-US',{month:'long',year:'numeric'});
+        sgrid.innerHTML='';
+        var startDow=new Date(y,mo,1).getDay(), dim=new Date(y,mo+1,0).getDate();
+        for(var i=0;i<startDow;i++){ var e=document.createElement('span'); e.className='tcal-cell empty'; sgrid.appendChild(e); }
+        for(var day=1;day<=dim;day++){
+          var key=y+'-'+pad(mo+1)+'-'+pad(day), ps=m[key];
+          var c=document.createElement(ps?'button':'span');
+          c.className='tcal-cell'+(ps?' has':'')+(key===sst.sel?' sel':'')+(key===todayKST?' today':'');
+          c.innerHTML='<span class="d">'+day+'</span>'+(ps?'<span class="n">'+ps.length+'</span>':'');
+          if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ sst.sel=k; renderScal(); renderKinds(); renderSections(); };})(key)); }
+          sgrid.appendChild(c);
+        }
+      }
+      function renderKinds(){
+        var day=(aByDate()[sst.sel]||[]), cnt={Citation:0,Related:0,New:0};
+        day.forEach(function(a){ var k=a.kind||'New'; if(cnt[k]==null) k='New'; cnt[k]++; });
+        var rows=KINDS.map(function(k){ return '<div class="kr-row"><span class="kr-k">'+k+'</span><span class="kr-v'+(cnt[k]?'':' z')+'">'+cnt[k]+'</span></div>'; }).join('');
+        kindsEl.innerHTML='<div class="nl-head mono">'+esc(sst.sel)+' · '+day.length+' alert'+(day.length!==1?'s':'')+'</div><div class="kind-report">'+rows+'</div>';
+      }
+      function renderSections(){
+        var day=(aByDate()[sst.sel]||[]);
+        if(!day.length){ sectEl.innerHTML='<p class="mono" style="color:var(--muted);font-size:13px;margin:14px 0 0">No alert on this date.</p>'; return; }
+        var order=sst.scholar==='All'?followed:[sst.scholar], html='';
+        order.forEach(function(nm){
+          var mine=day.filter(function(a){return a.scholar===nm;});
+          if(!mine.length) return;
+          html+='<div class="topic-group" style="margin-top:18px"><div class="fw-sub">'+esc(nm)+' <span class="fw-sub-note mono">· '+mine.length+'</span></div><ul class="pubs">'+mine.map(alertLi).join('')+'</ul></div>';
+        });
+        if(sst.scholar==='All'){
+          var extra=day.filter(function(a){return followed.indexOf(a.scholar)<0;});
+          if(extra.length){ html+='<div class="topic-group" style="margin-top:18px"><div class="fw-sub">Other</div><ul class="pubs">'+extra.map(alertLi).join('')+'</ul></div>'; }
+        }
+        sectEl.innerHTML=html||'<p class="mono" style="color:var(--muted);font-size:13px;margin:14px 0 0">No alert on this date.</p>';
+      }
+      document.getElementById('scal-prev').onclick=function(){ scur.setMonth(scur.getMonth()-1); renderScal(); };
+      document.getElementById('scal-next').onclick=function(){ scur.setMonth(scur.getMonth()+1); renderScal(); };
+
+      /* ── mode 전환 (topics ↔ scholars) ─────────────────────────── */
+      function setMode(m){
+        var scholars=(m==='scholars');
+        if(wrap) wrap.hidden=scholars;
+        if(mcWrap) mcWrap.hidden=scholars;
+        if(svWrap) svWrap.hidden=!scholars;
+        if(sectEl) sectEl.hidden=!scholars;
+        if(scholars){
+          [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.classList.remove('is-active'); });
+        } else {
+          [].slice.call(stabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.classList.remove('is-active'); });
+          [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.classList.toggle('is-active', b.dataset.topic===st.topic); });
+        }
+      }
+
+      renderStabs(); renderScal(); renderKinds(); renderSections();
       renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM();
+      setMode('topics');
     })();
   </script>
 

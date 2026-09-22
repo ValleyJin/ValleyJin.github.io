@@ -12,8 +12,11 @@ Scholar는 공식 API가 없어 팔로우/인용/관련 논문 알림을 이메�
 """
 import os, sys, re, json, html, imaplib, email, urllib.parse
 from email.header import decode_header
-from datetime import date
+from email.utils import parsedate_to_datetime
+from datetime import date, timezone, timedelta
 from pathlib import Path
+
+KST = timezone(timedelta(hours=9))
 
 OUT = Path(__file__).resolve().parent.parent / "_data" / "scholar_alerts.json"
 SENDER = "scholaralerts-noreply@google.com"
@@ -46,6 +49,18 @@ def _html_of(msg):
     if msg.get_content_type() == "text/html":
         return msg.get_payload(decode=True).decode(msg.get_content_charset() or "utf-8", "ignore")
     return ""
+
+
+def _date(msg):
+    """메일 Date 헤더 → KST 기준 YYYY-MM-DD. 실패 시 오늘(KST)."""
+    try:
+        dt = parsedate_to_datetime(msg.get("Date"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(KST).date().isoformat()
+    except Exception:
+        from datetime import datetime
+        return datetime.now(KST).date().isoformat()
 
 
 def _scholar(subject):
@@ -128,10 +143,12 @@ def main():
         subject = _decode(msg.get("Subject"))
         kind = _kind(subject)
         sch = _scholar(subject)
+        dt = _date(msg)
         html_body = _html_of(msg)
         got = parse_alert(html_body, kind)
         for it in got:
             it["scholar"] = sch
+            it["date"] = dt
         print("  · [%s] html=%d h3=%d a=%d parsed=%d" % (
             subject[:45], len(html_body), html_body.count("<h3"), html_body.count("<a "), len(got)), file=sys.stderr)
         for it in got:

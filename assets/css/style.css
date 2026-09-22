@@ -242,6 +242,16 @@ img{max-width:100%;display:block}
 .ntab{appearance:none;cursor:pointer;font-family:var(--mono);font-size:12px;color:var(--muted);background:var(--bg-elev);border:1px solid var(--line);border-radius:999px;padding:6px 13px;transition:color .15s,border-color .15s,background .15s}
 .ntab:hover{color:var(--ink-soft);border-color:var(--accent-dim)}
 .ntab.is-active{color:var(--accent);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--bg-elev))}
+/* 팔로우 학자(구글 스칼라 알림) 필터 행 — 토픽/학회 아래 수평바로 구분 */
+.stabs-wrap{border-top:1px solid var(--line);margin:14px 0 2px;padding-top:14px}
+.stabs-wrap::before{content:"FOLLOWING · SCHOLAR ALERTS";display:block;font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--muted);margin:0 2px 8px}
+.stabs{display:flex;flex-wrap:wrap;gap:8px}
+/* 알림 종류별 집계 리포트(달력 우측) */
+.kind-report{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.kr-row{display:flex;align-items:center;justify-content:space-between;border:1px solid var(--line);border-radius:10px;padding:10px 14px;background:var(--bg-elev)}
+.kr-k{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--ink-soft)}
+.kr-v{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+.kr-v.z{color:var(--muted);font-weight:400}
 .nmeta{font-size:11px;color:var(--muted);margin:0 0 18px}
 .via-ico{width:12px;height:12px;display:inline-block;vertical-align:-2px;margin-right:5px;color:var(--accent)}
 .nmeta a{color:var(--muted);border-bottom:1px solid var(--line)}
