@@ -194,7 +194,7 @@ permalink: /articles/
       function renderEM(){
         var em=emMap[st.topic], oa=oaMap[st.topic];
         if(emLink){ if(em){ emLink.href=em; emLink.textContent=(em.indexOf('emergentmind')>-1?'Emergentmind ↗':'Journal site ↗'); emLink.hidden=false; } else emLink.hidden=true; }
-        if(oaLink){ if(oa){ oaLink.href=oa; oaLink.hidden=false; } else oaLink.hidden=true; }
+        if(oaLink){ if(oa){ oaLink.href=oa; oaLink.textContent=(oa.indexOf('semanticscholar')>-1?'Semantic Scholar ↗':'OpenAlex ↗'); oaLink.hidden=false; } else oaLink.hidden=true; }
         if(moreSep){ moreSep.hidden=!(em&&oa); }
         if(moreWrap){ moreWrap.hidden=!(em||oa); }
       }

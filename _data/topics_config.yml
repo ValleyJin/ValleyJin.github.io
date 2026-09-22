@@ -11,9 +11,9 @@ topics: |
   Graph neural networks (GNN) | graph neural network | https://www.emergentmind.com/topics/graph-neural-networks-gnn
   Ontology | ontology knowledge representation | https://www.emergentmind.com/topics/ontology-grounded-llm-construction
   AI governance | AI governance
-  NeurIPS | venue:S4306420609 | https://neurips.cc/
-  ICML | venue:S4306419644 | https://icml.cc/
-  ICLR | venue:S4306419637 | https://iclr.cc/
+  NeurIPS | s2:NeurIPS | https://neurips.cc/
+  ICML | s2:ICML | https://icml.cc/
+  ICLR | s2:ICLR | https://iclr.cc/
   Futures Studies | venue:S130638383 | https://www.sciencedirect.com/journal/futures
   TFSC | venue:S39307421 | https://www.sciencedirect.com/journal/technological-forecasting-and-social-change
   TAR | venue:S160506855 | https://publications.aaahq.org/accounting-review

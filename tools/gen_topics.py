@@ -99,6 +99,52 @@ def fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
             raise
 
 
+def fetch_s2(venue, cutoff, sort, n, until):
+    """Semantic Scholar bulk search — venue(학회)로 논문 수집. OpenAlex가 DOI 없는 학회
+    논문(NeurIPS/ICML/ICLR)을 못 잡는 한계를 보완. 결과를 OpenAlex 형식으로 변환해 호환."""
+    q = {"venue": venue, "fields": "title,year,venue,authors,citationCount,externalIds,publicationDate"}
+    if cutoff:
+        q["year"] = cutoff[:4] + "-" + (until[:4] if until else "")
+    if sort:
+        q["sort"] = sort.replace("publication_date", "publicationDate").replace("cited_by_count", "citationCount")
+    url = "https://api.semanticscholar.org/graph/v1/paper/search/bulk?" + urllib.parse.urlencode(q)
+    req = urllib.request.Request(url, headers={"User-Agent": f"valleyjin ({MAILTO})"})
+    s2key = os.environ.get("S2_API_KEY")
+    if s2key:
+        req.add_header("x-api-key", s2key)
+    raw = {}
+    for attempt in range(5):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                raw = json.load(r); break
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 4:
+                time.sleep(2 * (attempt + 1)); continue
+            raise
+    results = []
+    for p in (raw.get("data") or [])[: max(n * 3, 12)]:
+        ext = p.get("externalIds") or {}
+        doi = ext.get("DOI"); arx = ext.get("ArXiv"); pid = p.get("paperId") or ""
+        results.append({
+            "title": p.get("title"),
+            "publication_year": p.get("year"),
+            "publication_date": p.get("publicationDate") or (f"{p.get('year')}-01-01" if p.get("year") else None),
+            "authorships": [{"author": {"display_name": a.get("name")}} for a in (p.get("authors") or [])],
+            "primary_location": {"source": {"display_name": p.get("venue")}},
+            "doi": ("https://doi.org/" + doi) if doi else None,
+            "id": ("https://arxiv.org/abs/" + arx) if arx else ("https://www.semanticscholar.org/paper/" + pid),
+            "cited_by_count": p.get("citationCount") or 0,
+        })
+    return {"results": results, "meta": {"count": raw.get("total")}}
+
+
+def _fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
+    """토픽 소스 분기: 's2:<venue>' 는 Semantic Scholar, 그 외는 OpenAlex."""
+    if query.startswith("s2:"):
+        return fetch_s2(query[3:].strip(), cutoff, sort, n, until)
+    return fetch(query, concept, cutoff, n, sort=sort, field=field, until=until)
+
+
 def fetch_scholar(user_id, key, n, sort=None):
     """Google Scholar 프로필의 최신 논문(SerpAPI). 저자 본인이 큐레이션 → 동명이인 없음."""
     params = {"engine": "google_scholar_author", "author_id": user_id.strip(),
@@ -130,7 +176,7 @@ def main():
     for label, query, _em in topics:
         block = {"topic": label, "query": query, "papers": []}
         try:
-            data = fetch(query, concept, cutoff, per_topic)
+            data = _fetch(query, concept, cutoff, per_topic)
         except Exception as e:  # 한 토픽 실패가 전체를 막지 않게
             print(f"! {label}: {e}", file=sys.stderr)
             result["topics"].append(block)
@@ -172,7 +218,7 @@ def main():
     newest, seen_n = [], set()
     for label, query, _em in topics:
         try:
-            data = fetch(query, concept, cutoff, 12, sort="publication_date:desc", until=today)
+            data = _fetch(query, concept, cutoff, 12, sort="publication_date:desc", until=today)
         except Exception as e:
             print(f"! newest {label}: {e}", file=sys.stderr)
             continue
@@ -204,7 +250,7 @@ def main():
         try:
             # 관련도(정렬X)로 주제 논문을 넓게 → 그중 인용수 상위. (cited_by_count 정렬은
             # 관련도를 무시해 BLAST/ImageNet 같은 무관 초고인용을 끌어와서 안 씀)
-            data = fetch(query, concept, None, 30, field="title_and_abstract")
+            data = _fetch(query, concept, None, 30, field="title_and_abstract")
         except Exception as e:
             print(f"! mostcited {label}: {e}", file=sys.stderr)
             mostcited[label] = []
@@ -240,6 +286,8 @@ def main():
     for _lab, _q, _e in topics:
         if _q.startswith("venue:"):
             oa_map[_lab] = "https://openalex.org/works?filter=primary_location.source.id:" + _q[6:].strip()
+        elif _q.startswith("s2:"):
+            oa_map[_lab] = "https://www.semanticscholar.org/search?q=" + urllib.parse.quote(_q[3:].strip()) + "&sort=pub-date"
         else:
             oa_map[_lab] = "https://openalex.org/works?filter=default.search:" + urllib.parse.quote(_q, safe="")
 
