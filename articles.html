@@ -124,8 +124,8 @@ permalink: /articles/
         <div class="topic-group">
           <div class="section-head" style="margin:26px 0 10px"><h2>{{ g.name }}</h2></div>
           <div class="fw-lead">
-            <a class="fw-photo" href="https://scholar.google.com/citations?user={{ g.id }}" target="_blank" rel="noopener">
-              <img src="{% if g.photo and g.photo != '' %}{{ g.photo }}{% else %}https://scholar.googleusercontent.com/citations?view_op=medium_photo&user={{ g.id }}{% endif %}" alt="{{ g.name }} — Google Scholar" loading="lazy" referrerpolicy="no-referrer">
+            <a class="sc-metric sc-photo fw-photo" href="https://scholar.google.com/citations?user={{ g.id }}" target="_blank" rel="noopener">
+              <img class="sc-avatar" src="{% if g.photo and g.photo != '' %}{{ g.photo }}{% else %}https://scholar.googleusercontent.com/citations?view_op=medium_photo&user={{ g.id }}{% endif %}" alt="{{ g.name }} — Google Scholar" loading="lazy" referrerpolicy="no-referrer">
               <span class="k">Google Scholar ↗</span>
             </a>
             <div class="fw-side">
@@ -145,7 +145,7 @@ permalink: /articles/
           </div>
           {% if g.recent and g.recent.size > 0 %}
           <div class="fw-sub" style="margin:16px 0 2px">Recent</div>
-          <ul class="pubs">
+          <ul class="pubs fw-recent">
             {% for p in g.recent %}
             <li class="pub-row">
               <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">

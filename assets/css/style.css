@@ -193,18 +193,14 @@ img{max-width:100%;display:block}
 .pub-row .pcite{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
 .pub-row .pcite b{color:var(--accent)}
 /* Following: first paper sits beside the author photo + Scholar link */
-.fw-lead{display:grid;grid-template-columns:106px 1fr;gap:22px;align-items:start;margin-bottom:2px}
-.fw-photo{display:flex;flex-direction:column;gap:10px;text-decoration:none;padding:14px;background:var(--bg-elev);border:1px solid var(--line);border-radius:12px;transition:border-color .15s}
-.fw-photo:hover{border-color:var(--accent-dim)}
-.fw-photo img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:8px;display:block;background:var(--bg)}
-.fw-photo .k{font-family:var(--mono);font-size:12px;color:var(--ink-soft);transition:color .15s}
-.fw-photo:hover .k{color:var(--accent)}
+.fw-lead{display:grid;grid-template-columns:168px 1fr;gap:22px;align-items:start;margin-bottom:2px}   /* 좌: Publications와 동일한 sc-photo 카드 */
 .fw-side{min-width:0}
 .fw-sub{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
 .fw-cited{max-height:118px;overflow-y:auto;margin:0;padding-right:10px}
 .fw-cited .pub-row{padding:9px 0}
 .fw-cited .pub-row:first-child{padding-top:0}
-@media(max-width:640px){.fw-lead{grid-template-columns:1fr;gap:12px}.fw-photo{flex-direction:row;align-items:center;max-width:280px}.fw-photo img{width:72px;height:72px}.fw-cited{max-height:none}}
+.fw-recent{max-height:330px;overflow-y:auto;padding-right:10px}   /* 약 5편 높이, 나머지는 스크롤 */
+@media(max-width:640px){.fw-lead{grid-template-columns:1fr;gap:12px}.fw-cited{max-height:none}.fw-recent{max-height:none}}
 @media(max-width:640px){.sc-metrics{grid-template-columns:1fr 1fr}.pub-row{grid-template-columns:1fr}.pub-row .pcite{grid-column:1}}
 
 /* Publications / My Topics tabs */
