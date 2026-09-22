@@ -122,7 +122,41 @@
     {
       "topic": "LLM inference serving",
       "query": "LLM inference serving",
-      "papers": []
+      "papers": [
+        {
+          "title": "SLO-Aware GPU DVFS for Energy-Efficient LLM Inference Serving",
+          "authors": "Kakolyris, A. K., Masouros, D., Xydis, S., & Soudris, D.",
+          "year": 2024,
+          "venue": "IEEE Computer Architecture Letters",
+          "url": "https://doi.org/10.1109/lca.2024.3406038",
+          "cites": 39
+        },
+        {
+          "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
+          "authors": "Gao, S., Zhang, X., Shen, Y., & Chen, L.",
+          "year": 2025,
+          "venue": "Proceedings of the ACM on Management of Data",
+          "url": "https://doi.org/10.1145/3725394",
+          "cites": 5
+        },
+        {
+          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+          "authors": "Guo, D., Yang, D., Zhang, H., Song, J., Wang, P., Zhu, Q., et al.",
+          "year": 2025,
+          "venue": "Nature",
+          "url": "https://doi.org/10.1038/s41586-025-09422-z",
+          "cites": 998
+        },
+        {
+          "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
+          "authors": "Wilkins, G., Keshav, S., & Mortier, R.",
+          "year": 2024,
+          "venue": "ACM SIGEnergy Energy Informatics Review",
+          "url": "https://doi.org/10.1145/3727200.3727217",
+          "cites": 27
+        }
+      ],
+      "count": 5849
     },
     {
       "topic": "Ethereum Layer-2",
