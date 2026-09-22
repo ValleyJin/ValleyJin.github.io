@@ -1,0 +1,39 @@
+<!-- 방문자 댓글 = giscus (GitHub Discussions). 방문자는 새 토론을 못 만들고
+     각 글(Announcements 카테고리, pathname 매핑)에 댓글만 남길 수 있다.
+     저장·인증·스팸/검열은 GitHub이 대행. giscus 앱이 저장소에 설치돼 있어야 위젯이 뜬다. -->
+<section class="comments" aria-label="Comments">
+  <div class="section-head" style="margin:44px 0 12px"><h2>Comments</h2><span class="more mono" style="text-transform:none">sign in with GitHub to leave a note</span></div>
+  <div id="giscus-container"></div>
+</section>
+<script>
+  (function(){
+    var root=document.documentElement;
+    function mapTheme(t){ return t==='light' ? 'light' : 'dark'; }   // 사이트 테마 → giscus 테마
+    var s=document.createElement('script');
+    s.src='https://giscus.app/client.js';
+    s.setAttribute('data-repo','ValleyJin/ValleyJin.github.io');
+    s.setAttribute('data-repo-id','R_kgDOIBNqqg');
+    s.setAttribute('data-category','Announcements');            // 공지형 카테고리 = 방문자는 댓글만, 새 토론 생성 불가
+    s.setAttribute('data-category-id','DIC_kwDOIBNqqs4DGKsC');
+    s.setAttribute('data-mapping','pathname');                  // 글마다 pathname으로 별도 스레드
+    s.setAttribute('data-strict','1');
+    s.setAttribute('data-reactions-enabled','1');
+    s.setAttribute('data-emit-metadata','0');
+    s.setAttribute('data-input-position','bottom');
+    s.setAttribute('data-theme', mapTheme(root.getAttribute('data-theme')));
+    s.setAttribute('data-lang','en');
+    s.setAttribute('data-loading','lazy');
+    s.crossOrigin='anonymous'; s.async=true;
+    document.getElementById('giscus-container').appendChild(s);
+    // 사이트의 다크/라이트 토글(data-theme 변경)에 giscus 테마를 실시간 동기화
+    new MutationObserver(function(muts){
+      for(var i=0;i<muts.length;i++){
+        if(muts[i].attributeName==='data-theme'){
+          var f=document.querySelector('iframe.giscus-frame');
+          if(f) f.contentWindow.postMessage({giscus:{setConfig:{theme:mapTheme(root.getAttribute('data-theme'))}}},'https://giscus.app');
+          break;
+        }
+      }
+    }).observe(root,{attributes:true});
+  })();
+</script>

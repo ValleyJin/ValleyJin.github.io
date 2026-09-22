@@ -19,4 +19,5 @@ layout: default
     {% for tag in page.tags %}<a href="{{ '/writing/' | relative_url }}">#{{ tag }}</a>{% endfor %}
   </div>
   {% endif %}
+  {% include comments.html %}
 </article>
