@@ -140,7 +140,7 @@ permalink: /about/
 <div class="cv-highlights">
   <div class="h"><span class="v"><a href="https://scholar.google.co.kr/citations?user=ThQ_DqUAAAAJ&hl=en" target="_blank" rel="noopener">{{ site.data.scholar.articles | size }}</a></span><span class="k">Published articles</span></div>
   <div class="h"><span class="v"><a href="https://product.kyobobook.co.kr/detail/S000001866155" target="_blank" rel="noopener">2</a></span><span class="k">Books authored</span></div>
-  <div class="h"><span class="v"><a href="https://patents.google.com/?inventor=%EC%A1%B0%EC%A7%84%EC%82%BC&country=KR" target="_blank" rel="noopener">10+</a></span><span class="k">Korean patents</span></div>
+  <div class="h"><span class="v"><a href="https://patents.google.com/?inventor=%EC%A1%B0%EC%A7%84%EC%82%BC&country=KR" target="_blank" rel="noopener">{% if site.data.patents.count %}{{ site.data.patents.count }}{% else %}10+{% endif %}</a></span><span class="k">Korean patents</span></div>
 </div>
 <ul class="cv-list cv-years">
   <li class="cv-item">

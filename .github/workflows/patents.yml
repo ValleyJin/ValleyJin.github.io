@@ -1,0 +1,40 @@
+name: Sync Korean patents (KIPRIS)
+
+on:
+  schedule:
+    - cron: "50 20 * * *"      # daily 20:50 UTC = 05:50 KST
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+    paths: [ ".github/workflows/patents.yml", "tools/gen_patents.py" ]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: patents
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Fetch KIPRIS patent count
+        env:
+          KIPRIS_KEY: ${{ secrets.KIPRIS_KEY }}
+          PATENT_INVENTOR: 조진삼
+        run: python tools/gen_patents.py
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/patents.json
+          if git diff --cached --quiet; then
+            echo "No change."
+          else
+            git commit -m "chore: refresh Korean patent count [skip ci]"
+            git push
+          fi
