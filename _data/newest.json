@@ -471,6 +471,16 @@
     },
     {
       "date": "2026-09-21",
+      "title": "Detecting communities in social networks with graph convolutional neural networks",
+      "authors": "Rekha, M., & Ganai, A. H.",
+      "year": 2026,
+      "venue": "Discover Artificial Intelligence",
+      "url": "https://doi.org/10.1007/s44163-026-02218-8",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-21",
       "title": "Integrating Artificial Intelligence into Knowledge Management: The Case of Lithuanian Business Organizations",
       "authors": "Stasiūnaitė, I., & Siudikienė, D.",
       "year": 2026,
@@ -516,6 +526,26 @@
       "year": 2026,
       "venue": "Business and Human Rights Journal",
       "url": "https://doi.org/10.1017/bhj.2026.10055",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "From Formal Regulation to Operational Capacity: Asymmetric Adaptive Coordination in Deepfake Governance",
+      "authors": "Shi, J.",
+      "year": 2026,
+      "venue": "International Journal of Law Ethics and Social Sciences",
+      "url": "https://doi.org/10.70088/ah5fhc98",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Aurora and the Attribution of Runtime AI Governance",
+      "authors": "Stokes, M.",
+      "year": 2026,
+      "venue": "Open Science Framework",
+      "url": "https://doi.org/10.17605/osf.io/rh8gy",
       "cites": 0,
       "topic": "AI governance"
     },
@@ -591,23 +621,33 @@
     },
     {
       "date": "2026-09-20",
+      "title": "AlphaZeroBeta: deep reinforcement learning for market-neutral portfolios",
+      "authors": "Belyakov, B.",
+      "year": 2026,
+      "venue": "Financial Innovation",
+      "url": "https://doi.org/10.1186/s40854-026-00955-4",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "EH-SWADS: energy-harvesting smart weather-aware drone sink for agricultural WSNs",
+      "authors": "Ahmed, N., Ghareeb, A. N., Fouad, Y., & Selem, E.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-72319-y",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-20",
       "title": "Memristive singular value decomposition",
       "authors": "Ding, C., Liu, Z., Zhang, Y., Li, C., Tang, J., Gao, B., et al.",
       "year": 2026,
       "venue": "Nature Communications",
       "url": "https://doi.org/10.1038/s41467-026-76272-2",
       "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-20",
-      "title": "From Fine-Tuning to Grounding: Retrieval-Augmented Generation for Biomedical LLMs in Research and Clinical Data Infrastructures",
-      "authors": "ENAYATI, M., Priya, V., Prochaska, E., Sobe, K., & Wolfien, M.",
-      "year": 2026,
-      "venue": "Sci",
-      "url": "https://doi.org/10.3390/sci8090266",
-      "cites": 0,
-      "topic": "Graph database"
+      "topic": "LLM inference serving"
     },
     {
       "date": "2026-09-20",
@@ -691,16 +731,6 @@
     },
     {
       "date": "2026-09-20",
-      "title": "Adaptive model poisoning detection in federated learning for EV charging networks: a blockchain-anchored explainable AI approach",
-      "authors": "Rahmati, M., & Rahmati, N.",
-      "year": 2026,
-      "venue": "Journal of Electrical Systems and Information Technology",
-      "url": "https://doi.org/10.1186/s43067-026-00401-6",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-20",
       "title": "Developing meta-FM machine learning model with application for personalized language learning environment",
       "authors": "Li, Q., & Zhang, Y.",
       "year": 2026,
@@ -771,16 +801,6 @@
     },
     {
       "date": "2026-09-19",
-      "title": "Trends and challenges in authorship analysis: a review of ML, DL, and LLM approaches",
-      "authors": "Habib, N., Adewumi, T., Liwicki, M., & Barney, E.",
-      "year": 2026,
-      "venue": "Language Resources and Evaluation",
-      "url": "https://doi.org/10.1007/s10579-026-09951-7",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-19",
       "title": "An improved quantum software challenges classification approach using transfer learning and explainable AI",
       "authors": "Khan, N. D., Khan, J. A., Husain, M., Khan, M. S., Khan, A., Akbar, M. A., et al.",
       "year": 2026,
@@ -838,26 +858,6 @@
       "url": "https://doi.org/10.1038/s41598-026-71120-1",
       "cites": 0,
       "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "AC/DC: Automated Compilation for Dynamic Circuits",
-      "authors": "Niu, S., Kökcü, E., Mitra, A., Szasz, A., Hashim, A., Kalloor, J., et al.",
-      "year": 2026,
-      "venue": "ACM Transactions on Quantum Computing",
-      "url": "https://doi.org/10.1145/3846519",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Regularisation of regression trees by summation of p values",
-      "authors": "Engler, N., Lindholm, M., Lindskog, F., & Nazar, T.",
-      "year": 2026,
-      "venue": "Computational Statistics",
-      "url": "https://doi.org/10.1007/s00180-026-01805-8",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
     },
     {
       "date": "2026-09-19",
@@ -966,56 +966,6 @@
       "year": 2026,
       "venue": "Journal of Marketing Analytics",
       "url": "https://doi.org/10.1057/s41270-026-00540-9",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Exact Identity Aware Evaluation of Static Malware Images and API Sequences Using Multi Scale Features and Confidence Aware Selective Prediction",
-      "authors": "Abdulwahid, S. N., Yahya, M. H. M., & Alsumaıdaee, Y. A.",
-      "year": 2026,
-      "venue": "International journal of intelligent engineering and systems",
-      "url": "https://doi.org/10.22266/ijies2026.1031.68",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "IBUA-BioNER: Integrating Balanced Undersampling and Adaptive Augmentation for Few-Shot Biomedical Named Entity Recognition",
-      "authors": "Siswanto, A., Tutuko, B., Firdaus, & Jasmir",
-      "year": 2026,
-      "venue": "International journal of intelligent engineering and systems",
-      "url": "https://doi.org/10.22266/ijies2026.1031.01",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Ontological evaluation system of memes in traditional settlement cultural landscape based on knowledge mapping",
-      "authors": "Cui, Y., Tang, Y., & Chen, Z.",
-      "year": 2026,
-      "venue": "Humanities and Social Sciences Communications",
-      "url": "https://doi.org/10.1057/s41599-026-08791-8",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Flypaper: the documentality of model organisms",
-      "authors": "Dodson, S., & Buljung, B.",
-      "year": 2026,
-      "venue": "Journal of Documentation",
-      "url": "https://doi.org/10.1108/jd-02-2026-0103",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Network-based gene prioritization using hybrid scoring for complex disease module discovery",
-      "authors": "Bonomi, S., Bottelli, L., Oltra, E., & Alberio, T.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-71419-z",
       "cites": 0,
       "topic": "Ontology"
     },
@@ -1151,66 +1101,6 @@
     },
     {
       "date": "2026-09-18",
-      "title": "From obligation to enforcement: mapping EU AI act and CRA cybersecurity requirements to technical controls for LLM-based autonomous agents",
-      "authors": "Ogayemi, A.",
-      "year": 2026,
-      "venue": "International Journal of Information Security",
-      "url": "https://doi.org/10.1007/s10207-026-01336-9",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Hybrid framework for on‐the‐fly diagnosis of energy inefficiency in multi‐unit processes based on data‐driven and knowledge‐based integration",
-      "authors": "Koujok, M. E., Ghezzaz, H., & Amazouz, M.",
-      "year": 2026,
-      "venue": "The Canadian Journal of Chemical Engineering",
-      "url": "https://doi.org/10.1002/cjce.70560",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Towards Trustworthy and Scalable Agentic Smart Manufacturing: A Roadmap for Generative AI-integrated MAS 2.0",
-      "authors": "Leng, J., Wang, G., Zhu, T. J., Cao, J., Chen, C., Cui, H., et al.",
-      "year": 2026,
-      "venue": "International Journal of Extreme Manufacturing",
-      "url": "https://doi.org/10.1088/2631-7990/aea9db",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Applying Transformers and Knowledge Graphs to Home Care Event Detection",
-      "authors": "Yeh, J., Tsai, C., Huang, B., Yang, P., & Yeh, C.",
-      "year": 2026,
-      "venue": "Sensors and Materials",
-      "url": "https://doi.org/10.18494/sam6478",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Zero-Shot Dengue Forecasting with LLM-Based Time Series Foundation Models",
-      "authors": "Machchar, P. S., & Ramanuj, P. N.",
-      "year": 2026,
-      "venue": "International Journal of Computer Applications",
-      "url": "https://doi.org/10.5120/ijcab17db3823872",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-18",
-      "title": "Detection of Artificial Intelligence-Generated Phishing Attacks Using Transformer Models",
-      "authors": "Nnaji, S. O., Nneamaka, A. F., Uchenwa, C. L., & Nwoka, A. E.",
-      "year": 2026,
-      "venue": "International Journal of Computer Applications",
-      "url": "https://doi.org/10.5120/ijca209cd5833714",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-18",
       "title": "Comparative Analysis of Blockchain Platforms for Decentralized Applications",
       "authors": "Sotnykov, K.",
       "year": 2026,
@@ -1321,16 +1211,6 @@
     },
     {
       "date": "2026-09-17",
-      "title": "Guiding AI to Fix Its Own Flaws: An Empirical Study on LLM-Driven Secure Code Generation",
-      "authors": "Yan, H., Vaidya, S. S., Zhang, X., & Yao, Z.",
-      "year": 2026,
-      "venue": "ACM Transactions on Software Engineering and Methodology",
-      "url": "https://doi.org/10.1145/3848030",
-      "cites": 0,
-      "topic": "LLM inference serving"
-    },
-    {
-      "date": "2026-09-17",
       "title": "Unveiling the dynamics of data driven innovation in human resource analytics: A grounded theory of strategic approach to HRM",
       "authors": "malekinezhad, M. K., Rahimnia, F., Eslami, G., & Farahi, M. M.",
       "year": 2026,
@@ -1406,96 +1286,6 @@
       "year": 2026,
       "venue": "Inquiry",
       "url": "https://doi.org/10.1080/0020174x.2026.2727582",
-      "cites": 0,
-      "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "RAG-enhanced large language model for ideological and political education: an intelligent Q&A system and its impact on college students’ employment cognition",
-      "authors": "Xu, X.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-66721-9",
-      "cites": 0,
-      "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "The synesthetic power of sound in exhibition design: From sound as trigger to sound as interpreter",
-      "authors": "Borsotti, M.",
-      "year": 2026,
-      "venue": "Museum Materials and Discussions Journal of Museum Studies",
-      "url": "https://doi.org/10.60923/issn.3034-9699/26203",
-      "cites": 0,
-      "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Arguer’s Identity and Authorization for Phatic and Emotive Moves: A Proposal for an Extension to Inference Anchoring Theory",
-      "authors": "Konat, B., Delliponti, A., Wessel, E., & Obrębska, M.",
-      "year": 2026,
-      "venue": "Argumentation",
-      "url": "https://doi.org/10.1007/s10503-026-09731-1",
-      "cites": 0,
-      "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Entwining sound, space and narratives. Sound design approaches in exhibitions",
-      "authors": "Riva, M.",
-      "year": 2026,
-      "venue": "Museum Materials and Discussions Journal of Museum Studies",
-      "url": "https://doi.org/10.60923/issn.3034-9699/26209",
-      "cites": 0,
-      "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "INTELIGENCIA ARTIFICIAL EXPLICABLE EN EL LABORATORIO CLÍNICO: OPORTUNIDADES Y BARRERAS PARA MEJORAR LA PRECISIÓN DIAGNÓSTICA Y LA SEGURIDAD DEL PACIENTE",
-      "authors": "Blacio, M. V. F., Rivera, N. E. A., Alava, J. P. T., & Ocampo, G. G. L.",
-      "year": 2026,
-      "venue": "VitalyScience Revista Científica Multidisciplinaria",
-      "url": "https://doi.org/10.56519/05rf9726",
-      "cites": 0,
-      "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "INTELIGENCIA ARTIFICIAL PARA EL CRIBADO DE RETINOPATÍA DIABÉTICA: PRECISIÓN DIAGNÓSTICA, IMPLEMENTACIÓN EN ENTORNOS REALES Y DESAFÍOS ÉTICOS",
-      "authors": "Joya, T. E. S., González, I. A., Trujillo, J. A. T., & Jiménez, L. L. M.",
-      "year": 2026,
-      "venue": "VitalyScience Revista Científica Multidisciplinaria",
-      "url": "https://doi.org/10.56519/zx30j621",
-      "cites": 0,
-      "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "AR filters change how we think, not who we like: effects of role and age embodiment on cognitive performance and age bias",
-      "authors": "Jarrell, M., & Peillard, É.",
-      "year": 2026,
-      "venue": "Frontiers in Virtual Reality",
-      "url": "https://doi.org/10.3389/frvir.2026.1739451",
-      "cites": 0,
-      "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "A Humble Inquiry: Truth, Knowledge, Belief, and the Limits of Knowing",
-      "authors": "Pulickal, P. B.",
-      "year": 2026,
-      "venue": "PhilPapers (PhilPapers Foundation)",
-      "url": "https://doi.org/10.13140/rg.2.2.22448.11527",
-      "cites": 0,
-      "topic": "Deep persona"
-    },
-    {
-      "date": "2026-09-16",
-      "title": "Algorithmically Mediated Audience Design: Voice, Pragmatic Force, and Linguistic Normativity in Generative-AI Rewriting",
-      "authors": "Marzouq, T., & Alqurashi, N.",
-      "year": 2026,
-      "venue": "Journal of Pragmatics and Discourse Analysis",
-      "url": "https://doi.org/10.32996/jpda.2026.5.5.5",
       "cites": 0,
       "topic": "Deep persona"
     },
@@ -1781,36 +1571,6 @@
     },
     {
       "date": "2026-09-04",
-      "title": "Mapping the strategic salience of renewable energy market demand and smart grid technologies for future marketization: A method combining LLM and GNN",
-      "authors": "Liu, W., Xu, X., Qi, P., Yu, L., Wu, X., & Jin, H.",
-      "year": 2026,
-      "venue": "Technological Forecasting and Social Change",
-      "url": "https://doi.org/10.1016/j.techfore.2026.124871",
-      "cites": 0,
-      "topic": "TFSC"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "Industrial robot adoption and environmental sustainability: Technological and institutional pathways to sustainable development",
-      "authors": "Sharif, A., Shafiq, M. N., Gillani, S., Harymawan, I., & Cahyono, S.",
-      "year": 2026,
-      "venue": "Technological Forecasting and Social Change",
-      "url": "https://doi.org/10.1016/j.techfore.2026.124874",
-      "cites": 0,
-      "topic": "TFSC"
-    },
-    {
-      "date": "2026-09-04",
-      "title": "A person-centric dynamic view of responsible AI use: The role of behavioral signatures in supply chains",
-      "authors": "Ren, S.",
-      "year": 2026,
-      "venue": "Technological Forecasting and Social Change",
-      "url": "https://doi.org/10.1016/j.techfore.2026.124864",
-      "cites": 0,
-      "topic": "TFSC"
-    },
-    {
-      "date": "2026-09-04",
       "title": "Performance Manipulation as a Reaction to the Prevalence of Gossip: The Role of the Self‐Monitoring Trait",
       "authors": "Khajehnejad, S., Linder, S., & Foss, N. J.",
       "year": 2026,
@@ -1828,16 +1588,6 @@
       "url": "https://doi.org/10.1111/1911-3846.70082",
       "cites": 0,
       "topic": "CAR"
-    },
-    {
-      "date": "2026-09-03",
-      "title": "Profit first, cash later? Is the low ESG commitment in early-stage ventures just a money problem?",
-      "authors": "Yang, X., D'Amato, A., Cuomo, M. T., & Papa, A.",
-      "year": 2026,
-      "venue": "Technological Forecasting and Social Change",
-      "url": "https://doi.org/10.1016/j.techfore.2026.124869",
-      "cites": 0,
-      "topic": "TFSC"
     },
     {
       "date": "2026-09-03",
@@ -1860,26 +1610,6 @@
       "topic": "Futures Studies"
     },
     {
-      "date": "2026-09-02",
-      "title": "Fiscal monitoring policy and corporate R&D productivity",
-      "authors": "Ahmed, M. S., & King, T.",
-      "year": 2026,
-      "venue": "Technological Forecasting and Social Change",
-      "url": "https://doi.org/10.1016/j.techfore.2026.124857",
-      "cites": 0,
-      "topic": "TFSC"
-    },
-    {
-      "date": "2026-09-02",
-      "title": "Value creation, value capture, and economic growth: Revisiting the innovation–economic growth relationship and implications for sustainable technologies and AI",
-      "authors": "Schmallenbach, L., & Hoisl, K.",
-      "year": 2026,
-      "venue": "Technological Forecasting and Social Change",
-      "url": "https://doi.org/10.1016/j.techfore.2026.124843",
-      "cites": 0,
-      "topic": "TFSC"
-    },
-    {
       "date": "2026-09-01",
       "title": "Next generation blockchain architectures: An in depth study of cryptocurrency driven innovation",
       "authors": "Khan, J., Khan, G. A., Alam, I., Khan, M. R., Sharma, S., Hussain, T., et al.",
@@ -1898,26 +1628,6 @@
       "url": "https://doi.org/10.52202/085713-5498",
       "cites": 0,
       "topic": "NeurIPS"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Emotion regulation in episodic strategy interventions: The case of organizational foresight",
-      "authors": "Fergnani, A., Hodgkinson, G. P., & Rizzo, G.",
-      "year": 2026,
-      "venue": "Futures",
-      "url": "https://doi.org/10.1016/j.futures.2026.103920",
-      "cites": 0,
-      "topic": "Futures Studies"
-    },
-    {
-      "date": "2026-09-01",
-      "title": "Dual pathways to trust in AI: How competence-building and affinity-building factors enable employee-AI collaboration",
-      "authors": "Wu, M., Cheo, J., & Yuen, K. F.",
-      "year": 2026,
-      "venue": "Technological Forecasting and Social Change",
-      "url": "https://doi.org/10.1016/j.techfore.2026.124838",
-      "cites": 0,
-      "topic": "TFSC"
     },
     {
       "date": "2026-09-01",
@@ -2001,6 +1711,476 @@
     },
     {
       "date": "2026-08-31",
+      "title": "Can Analytic Theology Provide a Symbolic Logical Framework for Moral Safeguards in Large Language Models?",
+      "authors": "Negrini, F.",
+      "year": 2026,
+      "venue": "International Journal of Bioinformatics and Intelligent Computing",
+      "url": "https://doi.org/10.61797/ijbic.v5i2.771",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Applying Direct Preference Optimization to Large Language Models for Suppressing Excessive Responses in Virtual Standardized Patient.",
+      "authors": "Shindo, N., & Uto, M.",
+      "year": 2026,
+      "venue": "Transactions of the Japanese Society for Artificial Intelligence",
+      "url": "https://doi.org/10.1527/tjsai.41-5_lf26-h",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Value as Proximity to Purpose",
+      "authors": "Descole, D.",
+      "year": 2026,
+      "venue": "PhilPapers (PhilPapers Foundation)",
+      "url": "https://doi.org/10.5281/zenodo.22215414",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Digital innovation ecosystems in agri-food: An expert assessment of global trends and developments",
+      "authors": "Wolfert, J., Klerkx, L., Schober, G., Fielke, S., Rijswijk, K., Gardezi, M., et al.",
+      "year": 2026,
+      "venue": "NJAS Impact in Agricultural and Life Sciences",
+      "url": "https://doi.org/10.1080/27685241.2026.2725457",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Activity Theory as a Framework to Analyze e-Portfolios as Mediators in a Communication Design Program",
+      "authors": "Debrah, R. D., Hardman, J., M’Rithaa, M. K., Moro, I., & Rahman, A.",
+      "year": 2026,
+      "venue": "British Journal of Teacher Education and Pedagogy",
+      "url": "https://doi.org/10.32996/bjtep.2026.5.9.3",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Scenario-Oriented Specification (SOS): a design method for translating user scenarios into engineering specifications",
+      "authors": "Ismatullaev, U. V. U., & Kim, K.",
+      "year": 2026,
+      "venue": "Research in Engineering Design",
+      "url": "https://doi.org/10.1007/s00163-026-00498-w",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Decolonising the Digital Screen: Tri Loka as a Relational Framework for Analysing Paatal Lok",
+      "authors": "Paul, N., & Aneja, A.",
+      "year": 2026,
+      "venue": "The Criterion An International Journal in English",
+      "url": "https://doi.org/10.66376/criterion.v17.n4.1",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Propaganda política en la era de la inteligencia artificial generativa: transformaciones digitales",
+      "authors": "Ruiz, O. M., & Ramírez, A. M.",
+      "year": 2026,
+      "venue": "Momboy",
+      "url": "https://doi.org/10.70219/mby-272026-464",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "El papel emergente de la inteligencia artificial en los exámenes clínicos objetivos estructurados",
+      "authors": "Cahuapaza-Gutierrez, N. L., & Calderon-Hernandez, C. C.",
+      "year": 2026,
+      "venue": "Medical Education & Clinical Practice",
+      "url": "https://doi.org/10.21142/mecp.2026.1.3.e032",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Cybersecurity Threat Hunting and Vulnerability Analysis Using a Neo4j Graph Database of Open Source Intelligence",
+      "authors": "Pelofske, E., Liebrock, L. M., & Urias, V. E.",
+      "year": 2026,
+      "venue": "Digital Threats Research and Practice",
+      "url": "https://doi.org/10.1145/3822596",
+      "cites": 4,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Parking of connected automated vehicles: vehicle control, parking assignment, and multi-agent simulation",
+      "authors": "Shen, X., Choi, Y., Wong, A. C. Y., Borrelli, F., Moura, S. J., & Woo, S.",
+      "year": 2026,
+      "venue": "International Journal of Urban Sciences",
+      "url": "https://doi.org/10.1080/12265934.2026.2715995",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Functional-Edged Network Modeling",
+      "authors": "Xu, H., Zhang, C., & Zhang, C.",
+      "year": 2026,
+      "venue": "Technometrics",
+      "url": "https://doi.org/10.1080/00401706.2026.2724145",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "FoME: A foundation model for EEG using adaptive temporal-lateral attention scaling",
+      "authors": "Shi, E., Zhao, K., Yuan, Q., Hu, H., Wang, J., Yu, S., et al.",
+      "year": 2026,
+      "venue": "Computerized Medical Imaging and Graphics",
+      "url": "https://doi.org/10.1016/j.compmedimag.2026.102817",
+      "cites": 1,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "mmVelo: a deep generative model for estimating cell state-dependent dynamics across multiple modalities",
+      "authors": "Nomura, S., Kojima, Y., Minoura, K., Hayashi, S., Abe, K., Hirose, H., et al.",
+      "year": 2026,
+      "venue": "Bioinformatics",
+      "url": "https://doi.org/10.1093/bioinformatics/btag652",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Go figure: transparency in neuroscience images preserves context and clarifies interpretation",
+      "authors": "Taylor, P. A., Aggarwal, H., Bandettini, P. A., Barilari, M., Bright, M. G., Caballero‐Gaudes, C., et al.",
+      "year": 2026,
+      "venue": "Nature Methods",
+      "url": "https://doi.org/10.1038/s41592-026-03206-7",
+      "cites": 2,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Design of peptides with noncanonical amino acids using flow matching",
+      "authors": "Lee, J. S., & Kim, P. M.",
+      "year": 2026,
+      "venue": "Bioinformatics",
+      "url": "https://doi.org/10.1093/bioinformatics/btag654",
+      "cites": 6,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A lipid transfer-dependent feedback loop activates ATG9A compartments in autophagy initiation",
+      "authors": "Holzer, E., Sawa-Makarska, J. Z., Bernklau, D., Romanov, J., Schuschnig, M., & Martens, S.",
+      "year": 2026,
+      "venue": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-77368-5",
+      "cites": 3,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Addressing data confidentiality and interconnectivity in digital twins: A case study on the hot water cycle of a heat pump test bench",
+      "authors": "Rakotonirina, H., Charki, A., Espès, D., Costanzo, A., & Chokr, B.",
+      "year": 2026,
+      "venue": "Array",
+      "url": "https://doi.org/10.1016/j.array.2026.101175",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Multimodal surface defect detection from wooden logs for sawing optimization",
+      "authors": "Reich, B., Kunda, M., Zolotarev, F., Eerola, T., Zemčík, P., & Kauppi, T.",
+      "year": 2026,
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "url": "https://doi.org/10.1016/j.engappai.2026.116047",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Multi-instance Learning as Downstream Task of Self-Supervised Learningbased Pre-trained Model",
+      "authors": "Matsuishi, K., & Okita, T.",
+      "year": 2026,
+      "venue": "Transactions of the Japanese Society for Artificial Intelligence",
+      "url": "https://doi.org/10.1527/tjsai.41-5_a-p126",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Sublinear Space Graph Algorithms in the Continual Release Model",
+      "authors": "Epasto, A., Liu, Q. C., Mukherjee, T., & Zhou, F.",
+      "year": 2026,
+      "venue": "Journal of Privacy and Confidentiality",
+      "url": "https://doi.org/10.29012/jpc.997",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Human Perceptions Meet AI Analysis: A Usability Evaluation of Climate Conference Websites",
+      "authors": "Lima, D. T., Medeiros, A. M., Paulino, R. D. C. R., & Seruffo, M. C. R.",
+      "year": 2026,
+      "venue": "Journal on Interactive Systems",
+      "url": "https://doi.org/10.5753/jis.2026.7129",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Pro-GAT: Reconnecting Fragmented PROTACs Using Graph Attention Transformer",
+      "authors": "Vemuri, S., Bijigiri, L. P., Gogte, S., & Kondaparthi, V.",
+      "year": 2026,
+      "venue": "Journal of Chemical Information and Modeling",
+      "url": "https://doi.org/10.1021/acs.jcim.6c01049",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "An adaptive neuro-fuzzy blockchain–AI framework for secure and intelligent FinTech transactions",
+      "authors": "Mishra, G., & Mishra, Y.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-66643-6",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Meta-domain adaptive framework for efficient diagnostic assessment of lung infection using CT radiographs",
+      "authors": "Owais, M., Hassan, T., Afzal, N., Khan, S. H., Velayudhan, D., Ganapathi, I. I., et al.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-66897-0",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Subicular spatial codes arise from predictive mapping",
+      "authors": "Bennett, L., Cothi, W. D., Muessig, L., Rodrigues, F. R., Cacucci, F., Wills, T. J., et al.",
+      "year": 2026,
+      "venue": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-76686-y",
+      "cites": 1,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "ProvMind: provenance-grounded reasoning for materials synthesis",
+      "authors": "Zhang, Y., Tamura, R., Kumagai, M., & Tsuda, K.",
+      "year": 2026,
+      "venue": "npj Computational Materials",
+      "url": "https://doi.org/10.1038/s41524-026-02303-7",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "World Models for Robotic Manipulation: A Survey",
+      "authors": "Wang, F., Wang, Z., Pei, G., Zhang, M., 梁燦錫, Hu, J., et al.",
+      "year": 2026,
+      "venue": "SmartBot",
+      "url": "https://doi.org/10.1002/smb2.70053",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Bringing Reinforcement Learning to Multi-Period Financial Planning: A Bridge Between Learning-Enabled and Stochastic Optimization",
+      "authors": "Luo, Y., & Mulvey, J. M.",
+      "year": 2026,
+      "venue": "IMA Journal of Management Mathematics",
+      "url": "https://doi.org/10.1093/imaman/dpag028",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Agentic LLM Compilation of Adaptive Sampling Policies for Low-Power IoT Sensing",
+      "authors": "Boyouk, N., Behnamian, S., & Dehkordi, M. K. H.",
+      "year": 2026,
+      "venue": "Sensors",
+      "url": "https://doi.org/10.3390/s26175519",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Defensive cardiac states sharpen neural value representations during decision making",
+      "authors": "Klaassen, F., Bramson, B., Schoffelen, J., Voogd, L. D. D., & Roelofs, K.",
+      "year": 2026,
+      "venue": "Communications Biology",
+      "url": "https://doi.org/10.1038/s42003-026-10852-2",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A label-free adaptive signal reconstruction strategy within a supervised framework for rolling bearing fault diagnosis",
+      "authors": "Xiong, M., Chen, W., Zhou, X., & Sun, W.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-69244-5",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Performance Evaluation of an IoT-Enabled Mobile Robotic System for Smart Homes",
+      "authors": "Chisty, N. A., Arman, M. A., Walid, S., & Uddin, M. S.",
+      "year": 2026,
+      "venue": "AIUB Journal of Science and Engineering (AJSE)",
+      "url": "https://doi.org/10.53799/stn2d409",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Comparative predictive modelling of machine learning techniques for network traffic analysis",
+      "authors": "Egwuche, O. S., Magoso, M. N., Haruna, D. I., & Ogunwale, Y. E.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-68318-8",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "TPS-RAS: A Membrane Computing Inspired Lightweight Scheduling Strategy for Network-Aware Resource Allocation in Fog Computing",
+      "authors": "Zhang, Y., & Ji, Z.",
+      "year": 2026,
+      "venue": "KSII Transactions on Internet and Information Systems",
+      "url": "https://doi.org/10.3837/tiis.2026.08.013",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Performance Optimization of High-Speed Wireless Communication Systems Using Machine Learning",
+      "authors": "Ramalingam, M., Soundararajan, V. P., & Aruchamy, P.",
+      "year": 2026,
+      "venue": "Computing&AI Connect",
+      "url": "https://doi.org/10.69709/caic.2026.129929",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "RLE-Based Model Predictive Control vs. Rule-Based Control for Energy Management in Multi-Architecture Electric Vehicles",
+      "authors": "Kanase, D. B., Thorat, A., Mane, P., Malwe, P. D., Magade, P., Chan, C. K., et al.",
+      "year": 2026,
+      "venue": "Clean Energy Science and Technology",
+      "url": "https://doi.org/10.18686/cest944",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Are Our Current Rational Decision-Making Models Truly Rational? A Critical Analysis and a New Neurobiological Framework",
+      "authors": "TAN, K. H.",
+      "year": 2026,
+      "venue": "PhilPapers (PhilPapers Foundation)",
+      "url": "https://doi.org/10.5281/zenodo.22210688",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Chatbots are Learning to Speak Physics",
+      "authors": "DeGoffau, E.",
+      "year": 2026,
+      "venue": "Physics",
+      "url": "https://doi.org/10.1103/physics.19.119",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Generative Distribution Prediction: A Unified Approach to Multimodal Learning",
+      "authors": "Tian, X., & Shen, X. T.",
+      "year": 2026,
+      "venue": "Machine Learning",
+      "url": "https://doi.org/10.1007/s10994-026-07148-1",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "DemoGCL: Demographic-augmented graph contrastive learning for cold-start recommendation",
+      "authors": "Parmar, D. N., & Vaghela, K. N.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-69363-z",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Beyond beyond standardization: studying robustness of empirical claims based on topic modeling through multiverse analysis",
+      "authors": "Balluff, P., Viehmann, C., Linde, M., Peters, Y., Sun, J., & Chan, C.",
+      "year": 2026,
+      "venue": "Communication Methods and Measures",
+      "url": "https://doi.org/10.1080/19312458.2026.2714769",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Multimodal generative AI for pre-practicum mental health support competency development: a human-supervised framework for education–childcare partnerships",
+      "authors": "Xie, W., Xiang, C., Wu, F., & Chen, X.",
+      "year": 2026,
+      "venue": "Frontiers in Psychiatry",
+      "url": "https://doi.org/10.3389/fpsyt.2026.1922251",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "The anatomy of a resilient phishing detector: an in-depth analysis of a transformer's interpretability, causality, and robustness",
+      "authors": "Vishwachetan, D., Dayalan, G., & Bhandarkar, A.",
+      "year": 2026,
+      "venue": "Frontiers in Computer Science",
+      "url": "https://doi.org/10.3389/fcomp.2026.1836418",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A Modular Active–Reactive AAS Architecture for Mass-Customized Production: Validation on an Industrial-Grade Robotic Screwdriving Demonstrator",
+      "authors": "Silva, A. R. A. D., Cardoso, F. D. S., Postigo, M. A. O., Torné, I. G., Takano, Y. L., Almeida, L. P. A. D., et al.",
+      "year": 2026,
+      "venue": "Sensors",
+      "url": "https://doi.org/10.3390/s26175523",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Fully Quantized Training vs. Post-Training Quantization for a Small Hyperspectral Transformer Model for Pixel-Level Foreign Plastic Object Classification",
+      "authors": "Khan, Z., Yoon, S., & Bhandarkar, S. M.",
+      "year": 2026,
+      "venue": "Sensors",
+      "url": "https://doi.org/10.3390/s26175531",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A Statistical Comparison of Multi-Architecture Models for Retention-Period Classification of Chinese Electronic Official Documents",
+      "authors": "Zhang, H., Shi, L., & Pan, T.",
+      "year": 2026,
+      "venue": "Journal of Computer Science and Artificial Intelligence",
+      "url": "https://doi.org/10.54097/0bpxr973",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-31",
       "title": "A Literature Review of Smart Contract Performance Across Blockchain Environments",
       "authors": "Cahyono, D., Millah, S., Barasa, F. G., & Kareem, Y. M.",
       "year": 2026,
@@ -2008,6 +2188,606 @@
       "url": "https://doi.org/10.34306/b-front.v6i2.1176",
       "cites": 0,
       "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Matched Filtering for the Canadian Hydrogen Observatory and Radio-transient Detector Galaxy Search",
+      "authors": "Hopkins, H. S., Lang, D., Smith, K., Spekkens, K., Foreman, S., & Bij, A.",
+      "year": 2026,
+      "venue": "The Astrophysical Journal",
+      "url": "https://doi.org/10.3847/1538-4357/ae9094",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Explainable AI–enhanced pavement deterioration modeling using hybrid classification–regression deep learning architecture",
+      "authors": "Sedighian-Fard, M., Golroo, A., Javanmardi, M., Alahi, A., Tezerjani, H. D., Talaghat, M. A., et al.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-67842-x",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Optimization of Tessellation-based Statistics: Void Statistics",
+      "authors": "Liu, Y., Zhao, C., Yu, Y., Ding, Z., & Kneib, J.",
+      "year": 2026,
+      "venue": "The Astrophysical Journal Supplement Series",
+      "url": "https://doi.org/10.3847/1538-4365/ae928f",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "CVE-based security audit of open-source learning management systems in higher education using CVSS and OWASP",
+      "authors": "Guillermo, M., II, E. Y., & Ricafort, D. R.",
+      "year": 2026,
+      "venue": "International Journal of Science Technology Engineering and Mathematics",
+      "url": "https://doi.org/10.53378/ijstem.353374",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "ADAPTIVE BERNSTEIN POLYNOMIAL BASED TRACKING CONTROL FOR CARTESIAN POSITIONING MECHANISMS IN 3D PRINTING MOTION STAGES",
+      "authors": "Ünver, Ş.",
+      "year": 2026,
+      "venue": "International Journal of 3D Printing Technologies and Digital Industry",
+      "url": "https://doi.org/10.46519/ij3dptdi.1984544",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Proposed Requirements for a Blockchain-Based Electronic Laboratory Notebook",
+      "authors": "Tang, A. Y., & Ling, M. H.",
+      "year": 2026,
+      "venue": "Medical - Clinical - Research",
+      "url": "https://doi.org/10.52106/3069-9088.1030",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A Hybrid Classical-Quantum Processing Channel intended for Privacy-Preserving Facial Recognition",
+      "authors": "Al-Mukhtar, F. S., Hasan, R. M., & AbdulQader, R. A.",
+      "year": 2026,
+      "venue": "BASRA JOURNAL OF SCIENCE",
+      "url": "https://doi.org/10.29072/h1k0g448",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Adaptive-CGAN: a comprehensive framework for generative modeling on google cloud platform",
+      "authors": "Saber, W., El-Baz, A., & Rizk, R.",
+      "year": 2026,
+      "venue": "Cluster Computing",
+      "url": "https://doi.org/10.1007/s10586-026-06496-w",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Robustness and Fairness in Decentralized Pools: A Sharetree-Based Detection and Incentive Scheme",
+      "authors": "Peng, K., Zhu, D., & Peng, C.",
+      "year": 2026,
+      "venue": "KSII Transactions on Internet and Information Systems",
+      "url": "https://doi.org/10.3837/tiis.2026.08.020",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Jamming mitigation via hyperchaos underactuated synchronization",
+      "authors": "Gularte, K. H. M., GABALAN, W. A. M., Vargas, J. A. R., Costa, J. P. C. L. D., Silva, A., Santos, G. A., et al.",
+      "year": 2026,
+      "venue": "Nonlinear Dynamics",
+      "url": "https://doi.org/10.1007/s11071-026-12975-x",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "zkPoC: A Zero-Knowledge Proof-of-Credit Protocol for Decentralized Lending",
+      "authors": "Wu, Y., & Otsuka, T.",
+      "year": 2026,
+      "venue": "Distributed Ledger Technologies Research and Practice",
+      "url": "https://doi.org/10.1145/3842755",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "EDUSOV-ID: A Design-Science and Reproducible Demonstration of Sovereign, Offline-First Educational Identity and Learning-Path Traceability",
+      "authors": "Hervé, K. M., Anthony, B. A., Exaucé, T. N., Joseph, B. M., Kibenga, E., Anicet, T. N., et al.",
+      "year": 2026,
+      "venue": "International Journal of Innovative Science and Research Technology (IJISRT)",
+      "url": "https://doi.org/10.38124/ijisrt/26aug906",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Prior Distributions for Gaussian Models Under Differential Privacy with Bounds on Data Values",
+      "authors": "Kazan, Z., & Reiter, J. P.",
+      "year": 2026,
+      "venue": "Journal of Privacy and Confidentiality",
+      "url": "https://doi.org/10.29012/jpc.1004",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Physics-informed platooning with learning-augmented calibration and compensation: a real-world study",
+      "authors": "Liu, C., Ma, Q., Wang, X., Sun, Q., Sun, Y., Liu, Z., et al.",
+      "year": 2026,
+      "venue": "Communications in Transportation Research",
+      "url": "https://doi.org/10.26599/commtr.2026.9640049",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Opportunities and Risks of Technology Convergence in Precision Health",
+      "authors": "Vasiliu-Feltes, I., Bustamante, C. D., Bischof, E., & Dennis, M. S. J.",
+      "year": 2026,
+      "venue": "Blockchain in Healthcare Today",
+      "url": "https://doi.org/10.30953/bhty.v9.521",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Safe policy optimization with stretchable penalties",
+      "authors": "Pang, N., Huang, L., Dong, B., Chen, H., Jia, Z., & Zhang, W.",
+      "year": 2026,
+      "venue": "Neurocomputing",
+      "url": "https://doi.org/10.1016/j.neucom.2026.134968",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A deep approach to an energy-efficient voting-based consensus algorithm for secure financial transactions",
+      "authors": "Sathio, A. A., Rind, M. M., Khan, A. H., & Awan, S. A.",
+      "year": 2026,
+      "venue": "Cluster Computing",
+      "url": "https://doi.org/10.1007/s10586-026-06498-8",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Population morphology implies a common developmental blueprint for Drosophila motion detectors",
+      "authors": "Drummond, N., Zhao, A., & Borst, A.",
+      "year": 2026,
+      "venue": "PLoS Computational Biology",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014657",
+      "cites": 1,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "How to train your resistive network: Generalized equilibrium propagation and analytical learning",
+      "authors": "Lin, J., Desai, A., Barrows, F. P., & Caravelli, F.",
+      "year": 2026,
+      "venue": "APL Machine Learning",
+      "url": "https://doi.org/10.1063/5.0326359",
+      "cites": 1,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Full event interpretation with machine-learning-based particle-flow reconstruction in the CMS detector",
+      "authors": "Hayrapetyan, A., Makarenko, V., Tumasyan, A., Adam, W., Benato, L., Bergauer, T., et al.",
+      "year": 2026,
+      "venue": "The European Physical Journal C",
+      "url": "https://doi.org/10.1140/epjc/s10052-026-15754-5",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Tensor-Derived Similarity Networks for Characterising Spatial Patterns in Colorectal Cancer",
+      "authors": "Pham, T. D.",
+      "year": 2026,
+      "venue": "Biology Methods and Protocols",
+      "url": "https://doi.org/10.1093/biomethods/bpag050",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "MLIP-Enhanced Thermochemistry Predictions across Organic Chemical Space",
+      "authors": "Deng, B., & Stuyver, T.",
+      "year": 2026,
+      "venue": "Journal of Chemical Theory and Computation",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00936",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Multi-modal learning with incomplete data",
+      "authors": "López, A., Zobolas, J., Dumontier, T., & Aittokallio, T. A.",
+      "year": 2026,
+      "venue": "Nature Communications",
+      "url": "https://doi.org/10.1038/s41467-026-77212-w",
+      "cites": 1,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Analysis of Power Iteration Algorithm With Partially Observed Matrix‐Vector Products",
+      "authors": "Ghosh, S., Horesh, L., Kalantzis, V., Lu, Y., Nowicki, T., & Ubaru, S.",
+      "year": 2026,
+      "venue": "Numerical Linear Algebra with Applications",
+      "url": "https://doi.org/10.1002/nla.70114",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Federated Medical Image Segmentation under Real-World Label Noise: A Benchmark Suite for Noisy Label Learning Method Selection",
+      "authors": "Bujotzek, M., Bounias, D., Denner, S., Floca, R., Fischer, M., Neher, P., et al.",
+      "year": 2026,
+      "venue": "Journal of Imaging Informatics in Medicine",
+      "url": "https://doi.org/10.1007/s10278-026-02205-6",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "In-Context Learning Meets Small Molecule Property Prediction: Benchmarking Novel Machine Learning Approaches",
+      "authors": "Matyushin, D. D., & Sholokhova, A. Y.",
+      "year": 2026,
+      "venue": "Journal of Chemical Information and Modeling",
+      "url": "https://doi.org/10.1021/acs.jcim.6c02361",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Lightweight return-mapping surrogates for multiscale plasticity: a practical guide",
+      "authors": "Daneshyar, A., Herrmann, L., & Kollmannsberger, S.",
+      "year": 2026,
+      "venue": "Computational Mechanics",
+      "url": "https://doi.org/10.1007/s00466-026-02849-9",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Leveraging human reading behavior for keyphrase extraction: a webcam-based eye-tracking corpus",
+      "authors": "Zhang, C., Yan, X., & Yu, W.",
+      "year": 2026,
+      "venue": "Aslib Journal of Information Management",
+      "url": "https://doi.org/10.1108/ajim-05-2025-0248",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Learning reduced-order dynamics with singularity via Latent-Augmented Neural Ordinary Differential Equations",
+      "authors": "Wang, X., Zhou, Y., Mei, W., Zheng, D., Bai, Y., & Nagahara, M.",
+      "year": 2026,
+      "venue": "Engineering Applications of Artificial Intelligence",
+      "url": "https://doi.org/10.1016/j.engappai.2026.116087",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Adaptive Confidence and IoU Optimization for Accurate Real-Time Eel Counting Using YOLO-ONNX",
+      "authors": "Feliciano, C. G., & Damian, M. A. E.",
+      "year": 2026,
+      "venue": "International Journal of Emerging Technologies and Advanced Applications",
+      "url": "https://doi.org/10.62677/ijetaa.2607151",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Artificial Intelligence for Medical Imaging Diagnosis: From Accuracy to Clinical Reliability through Multimodal Fusion, Validation, and Regulatory Perspectives",
+      "authors": "Dodo, E. J., Yayock, A. T., Onwodi, G., & Tukuluku, R.",
+      "year": 2026,
+      "venue": "Journal of Science Research and Reviews",
+      "url": "https://doi.org/10.70882/josrar.2026.v3i4.230",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Towards minding the disability achievement gap: the case of technology-enhanced inclusive embodied design for integer arithmetic",
+      "authors": "Anton, J., Cosentino, G., Gelsomini, M., Sharma, K., Giannakos, M. N., & Abrahamson, D.",
+      "year": 2026,
+      "venue": "Educational Technology Research and Development",
+      "url": "https://doi.org/10.1007/s11423-026-10704-0",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A tailings dam safety question answering framework integrating a knowledge graph with retrieval augmented generation",
+      "authors": "Ma, B., Zhang, J., Zhou, J., Zhang, X., Hong, W., He, J., et al.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-68988-4",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Integration of Artificial Intelligence in Enterprise Resource Planning Systems: Opportunities, Challenges, and Future Research Directions",
+      "authors": "Sahoo, S. K., Choudhury, D., Dhal, P. R., Sahu, S., Majhi, S., & Dhar, I.",
+      "year": 2026,
+      "venue": "International Scientific Spectrum",
+      "url": "https://doi.org/10.66972/iscis21202622",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Artificial intelligence approaches for pollutant assessment and environmental toxicology",
+      "authors": "Barghi, E. G., Motafeghi, F., Gharab, J. G., & Ghassemi-Barghi, N.",
+      "year": 2026,
+      "venue": "Discover Artificial Intelligence",
+      "url": "https://doi.org/10.1007/s44163-026-02126-x",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Data-Driven Clustering of Malicious Actor Profiles Based on Machine Learning Analysis of Attack Patterns in Cyber-Threat Intelligence Feeds",
+      "authors": "Irshad, E., Nawaz, S., & Siddiqui, A. B.",
+      "year": 2026,
+      "venue": "AI Computer Science and Robotics Technology",
+      "url": "https://doi.org/10.5772/acrt.20250160",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Institutional Translation of Situated Experience: Guided Formation, Evidentiary Judgment, and Professional Competence",
+      "authors": "HUANG, W.",
+      "year": 2026,
+      "venue": "PhilPapers (PhilPapers Foundation)",
+      "url": "https://doi.org/10.17613/4wt31-4w486",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "1st International Conference on Competency-Based Engineering Education in the Face of Technological Transformation",
+      "authors": "Guevara, A. A.",
+      "year": 2026,
+      "venue": "International Multidisciplinary Journal of Emerging Technologies and Applications",
+      "url": "https://doi.org/10.67294/dptrgc89",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "AI-Guided Self-Driving Laboratories for Advanced Materials Discovery",
+      "authors": "Mallia, B., & Caputo, R.",
+      "year": 2026,
+      "venue": "Computing&AI Connect",
+      "url": "https://doi.org/10.69709/caic.2026.133382",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A Mathematical Model of Human Health and Longevity Based on Unified Complex Systems Theory",
+      "authors": "Cui, W.",
+      "year": 2026,
+      "venue": "European journal of applied sciences",
+      "url": "https://doi.org/10.14738/ejas.1404.11931",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "From Dictionaries to Deep Learning: A Systematic Mapping Review of the Natural Language Processing Tasks Used to Analyze Sustainability Reports",
+      "authors": "Cordes, H.",
+      "year": 2026,
+      "venue": "Corporate Social Responsibility and Environmental Management",
+      "url": "https://doi.org/10.1002/csr.70947",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "DICONDE in the Asset Administration Shell: Concepts and Data Workflows for Semantic Interoperability in NDE",
+      "authors": "Leinenbach, F., Panchal, D., & Poondru, M.",
+      "year": 2026,
+      "venue": "Research and Review Journal of Nondestructive Testing",
+      "url": "https://doi.org/10.58286/34565",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Crowds and anonymous characters: media, aesthetics, narrativity. Introduction",
+      "authors": "Krauß, C., & Lavocat, F.",
+      "year": 2026,
+      "venue": "Neohelicon",
+      "url": "https://doi.org/10.1007/s11059-026-00878-0",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Using large language models for legal decision-making in Austrian value-added tax law: a comparative study",
+      "authors": "Luketina, M., Benkel, A., & Schuetz, C. G.",
+      "year": 2026,
+      "venue": "Journal of Business Analytics",
+      "url": "https://doi.org/10.1080/2573234x.2026.2720626",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "7 Fellows, 7 Fellowships: Why N = 1 Matters in Program Evaluation",
+      "authors": "Dyster, T. G.",
+      "year": 2026,
+      "venue": "ATS Scholar",
+      "url": "https://doi.org/10.1093/atsscholar/aapag057",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Research Opportunities and Challenges of the EU’s Digital Services Act",
+      "authors": "Pierri, F., Araujo, T., Kruikemeier, S., Lorenz-Spreen, P., Abeele, M. V., Vandenbosch, L., et al.",
+      "year": 2026,
+      "venue": "Communications of the ACM",
+      "url": "https://doi.org/10.1145/3779412",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Enhancing disease surveillance in Nigeria through machine learning: opportunities, challenges and strategic recommendations",
+      "authors": "Aliyu, L. J., Umar, A. B., Sani, S. K., Haruna, U. A., Danjuma, A. H., Zubairu, M., et al.",
+      "year": 2026,
+      "venue": "BMC Artificial Intelligence",
+      "url": "https://doi.org/10.1186/s44398-026-00036-7",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "From discovery to deployment: technology transfer as a supply chain process",
+      "authors": "Agyei-Owusu, B., Siegel, D., Waldman, D., Gopalakrishnan, M., & Mishra, S.",
+      "year": 2026,
+      "venue": "The Journal of Technology Transfer",
+      "url": "https://doi.org/10.1007/s10961-026-10382-3",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Generative AI Adoption and Self-Reported Academic Integrity Risk: A Student Taxonomy in Latin American Higher Education",
+      "authors": "Torres-Díaz, J. C., Rivera, D., & Flandoli, A. M. B.",
+      "year": 2026,
+      "venue": "Education Sciences",
+      "url": "https://doi.org/10.3390/educsci16091397",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "A Study on the Pathways to Cultivating Chinese Cultural Awareness in College English Education",
+      "authors": "Chen, Y., & Fang, X.",
+      "year": 2026,
+      "venue": "Studies in English Language Teaching",
+      "url": "https://doi.org/10.22158/selt.v14n3p176",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Artificial Intelligence and the Right to Equal Education: A Legal Framework for Algorithmic Educational Justice",
+      "authors": "Elsakka, S. A., Rashid, N. A., & Ghofair, H. H.",
+      "year": 2026,
+      "venue": "LAW & PASS International Journal of Law Public Administration and Social Studies",
+      "url": "https://doi.org/10.47353/lawpass.v3i3.124",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Bibliometric Analysis of Hybrid Cloud Computing",
+      "authors": "Judijanto, L.",
+      "year": 2026,
+      "venue": "West Science Information System and Technology",
+      "url": "https://doi.org/10.58812/wsist.v4i02.3092",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Are Synthetic Data and Privacy Protection the Future of Artificial Intelligence Development?",
+      "authors": "Istiarsyah, I., Isnaeni, T., & Pahrijal, R.",
+      "year": 2026,
+      "venue": "West Science Information System and Technology",
+      "url": "https://doi.org/10.58812/wsist.v4i02.3091",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Algorithmic Administrative Authority: Reconstructing the Legal Boundaries of Government Power in the Age of Artificial Intelligence",
+      "authors": "Dehaibie, L., & Maes, F. C.",
+      "year": 2026,
+      "venue": "LAW & PASS International Journal of Law Public Administration and Social Studies",
+      "url": "https://doi.org/10.47353/lawpass.v3i3.123",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Analysis of Research Trends and Topics in City Digital Twin through Bibliometric Analysis and LDA Topic Modeling",
+      "authors": "Choi, B., An, H., & Kim, M.",
+      "year": 2026,
+      "venue": "Journal of Next-generation Convergence Information Services Technology",
+      "url": "https://doi.org/10.29056/jncist.2026.08.10",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Zero Trust Architecture Research Trends: A Bibliometric Study",
+      "authors": "Judijanto, L., & Dewantara, R.",
+      "year": 2026,
+      "venue": "West Science Information System and Technology",
+      "url": "https://doi.org/10.58812/wsist.v4i02.3093",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Bibliometric Analysis AI-Based Decision Analytics",
+      "authors": "Judijanto, L., & Muthmainah, H. N.",
+      "year": 2026,
+      "venue": "West Science Information System and Technology",
+      "url": "https://doi.org/10.58812/wsist.v4i02.3096",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Leveraging 5G, artificial intelligence and blockchain integration for accelerating digital economic outcomes in Botswana: A strategic framework for leapfrogging development",
+      "authors": "Bathai, T.",
+      "year": 2026,
+      "venue": "International Review of Social Sciences Research",
+      "url": "https://doi.org/10.53378/irssr.353370",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "NEUROCALIB: Design, Implementation and Internal Evaluation of a Calibrated, Explainable and Selective Bimodular Framework for Brain Tumor Classification and Segmentation on MRI",
+      "authors": "Mfumabi, H. K., Gradi, M., Clémence, N. N., Thérèse, K. K., Jordanie, K. M., Joël, K. M., et al.",
+      "year": 2026,
+      "venue": "International Journal of Innovative Science and Research Technology (IJISRT)",
+      "url": "https://doi.org/10.38124/ijisrt/26aug907",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Towards Responsible Generative AI in Education: Developing an Ethical and Human-Centric Framework",
+      "authors": "Bharali, S.",
+      "year": 2026,
+      "venue": "International Journal of Science and Engineering Applications",
+      "url": "https://doi.org/10.7753/ijcatr1509.1003",
+      "cites": 0,
+      "topic": "AI governance"
     },
     {
       "date": "2026-08-31",
@@ -2070,6 +2850,136 @@
       "topic": "TFSC"
     },
     {
+      "date": "2026-08-30",
+      "title": "Computer vision in transitional justice informatics: A review of technologies, ethics, and forensic applications",
+      "authors": "Mery, D., Rojas, H., & Dunstan, J.",
+      "year": 2026,
+      "venue": "Forensic Science International Reports",
+      "url": "https://doi.org/10.1016/j.fsir.2026.100515",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "E-participation and the Metaverse – insights from a Design Science Research project on immersive public participation",
+      "authors": "Fegert, J., & Pfeiffer, J.",
+      "year": 2026,
+      "venue": "European Journal of Information Systems",
+      "url": "https://doi.org/10.1080/0960085x.2026.2721630",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "TAMAGO: Full Game Art Gameful System for Animation Thesis Supervision",
+      "authors": "Troy, T., Nugroho, G. S., & Gunanto, S. G.",
+      "year": 2026,
+      "venue": "Journal of Games Game Art and Gamification",
+      "url": "https://doi.org/10.21512/jggag.v11i2.15765",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Design Thinking Approach to Hybrid Identity Mascot for The Visual Communication Design Department at Bina Insani University",
+      "authors": "Ronggowarsito, B. I., & Amanda, Z.",
+      "year": 2026,
+      "venue": "Eduvest - Journal Of Universal Studies",
+      "url": "https://doi.org/10.59188/eduvest.v6i8.53459",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Potenciar con IA la asistencia virtual de usuarios de lenguaje de señas: revisión sistemática de literatura",
+      "authors": "Ibarra, C. H. O., & Herrera, R. D. J. G.",
+      "year": 2026,
+      "venue": "RIMI revista de investigación multidisciplinaria Iberoamericana.",
+      "url": "https://doi.org/10.69850/rimi.vi3.279",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Strengthening Qur’anic Digital Literacy among Madrasah Teachers through the Integration of Qur’anic Interpretive Competence and Artificial Intelligence",
+      "authors": "Rohman, A., Amin, A., Rahman, A., Pranata, S. P., & Nasution, I. M.",
+      "year": 2026,
+      "venue": "Jurnal Pengabdian Masyarakat dan Penelitian Thawalib",
+      "url": "https://doi.org/10.54150/thame.v5i2.1234",
+      "cites": 0,
+      "topic": "Deep persona"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "LoMax: LLM‐Driven Local Code Optimization for MaxSAT Solvers",
+      "authors": "Gao, F., Huang, Y., Li, J., & Shi, J.",
+      "year": 2026,
+      "venue": "Concurrency and Computation Practice and Experience",
+      "url": "https://doi.org/10.1002/cpe.70926",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Evaluating Command-Line Interface-Based Agentic Large Language Model Coding Tools for Non-English Thematic Analysis: A 3 x 3 x 3 Factorial Study of Models, Prompts and Stochastic Variability",
+      "authors": "Chanintonsongkhla, C., & Chongcharoenkit, T.",
+      "year": 2026,
+      "venue": "International Journal of Learning Teaching and Educational Research",
+      "url": "https://doi.org/10.26803/ijlter.25.8.5",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Minimum-Exposure Observability: Task-Specific Diagnostic Utility Under Distributed-Trace Minimization",
+      "authors": "Vejju, L.",
+      "year": 2026,
+      "venue": "International Journal of Computer Information Systems and Industrial Management Applications",
+      "url": "https://doi.org/10.70917/ijcisim-2026-5317",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Lightweight Multiple Appropriate Facial Reaction Generation: Pruning-Regeneration and Correction Hybrid Precision Quantization",
+      "authors": "Gu, J., Ding, J., Song, S., Huang, H., Ren, C., & Chen, S.",
+      "year": 2026,
+      "venue": "Applied Artificial Intelligence",
+      "url": "https://doi.org/10.1080/08839514.2026.2721303",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Multifunctional Transition Metal Dichalcogenide‐Based Electronic Skin for AI‐Enhanced Multimodal Human–Machine Interaction and Robotic Control",
+      "authors": "Zhu, H., Wang, C., Guo, S., Zhu, J., Chen, M., Liu, M., et al.",
+      "year": 2026,
+      "venue": "Aggregate",
+      "url": "https://doi.org/10.1002/agt2.70428",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Scalable General-Purpose Cloud Compute: Architectural Innovations for Sustainable AI Infrastructure",
+      "authors": "Shanmugavadivelu, P.",
+      "year": 2026,
+      "venue": "International Journal of Computer Information Systems and Industrial Management Applications",
+      "url": "https://doi.org/10.70917/ijcisim-2026-5328",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Neural Probabilistic Circuits: Enabling Compositional and Interpretable Predictions Through Logical Reasoning",
+      "authors": "Chen, W., Yu, S. C., Shao, H., Sha, L., & Zhao, H.",
+      "year": 2026,
+      "venue": "Machine Learning",
+      "url": "https://doi.org/10.1007/s10994-026-07118-7",
+      "cites": 0,
+      "topic": "LLM inference serving"
+    },
+    {
       "date": "2026-08-29",
       "title": "sRGB Real Noise Modeling via Noise-Aware Sampling with Normalizing Flows",
       "authors": "Kim, D., Jung, D., Baik, S., & Kim, T. H.",
@@ -2078,6 +2988,766 @@
       "url": "https://arxiv.org/abs/2608.29038",
       "cites": 7,
       "topic": "ICLR"
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Harmful hopes in sustainability transitions",
+      "authors": "Ahola-Launonen, J., Kurki, S., Lindroth, M., & Sinevaara-Niskanen, H.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103918",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Implementing Blockchain For Enhanced Security In Fog Computing Systems",
+      "authors": "Low, C. K., Lim, F. J., Tan, B. S., & Phoon, G. C.",
+      "year": 2026,
+      "venue": "IEM Journal",
+      "url": "https://doi.org/10.54552/bzddh935",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "The power of benevolence: A multilevel examination of how and when socially responsible human resource management shapes team responsible innovation",
+      "authors": "Zhu, H., Zhao, F., Liu, J., & Chen, Y.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124856",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Forever Young? On the technological impact of green startups",
+      "authors": "Lupi, G. R., Rentocchini, F., & Rizzo, U.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124840",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Competing creditor claims and loan recoverability: evidence from anti-recharacterization laws",
+      "authors": "Saffar, W., Sun, Y., & Zhang, J. J.",
+      "year": 2026,
+      "venue": "Review of Accounting Studies",
+      "url": "https://doi.org/10.1007/s11142-026-09993-w",
+      "cites": 0,
+      "topic": "RAST"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "Leveraging Polygon Blockchain and Zero-Knowledge Proofs for Secure Electronic Evidence Storage in Court: A Novel Framework",
+      "authors": "Behera, S., & Arya, S.",
+      "year": 2026,
+      "venue": "ICCK Journal of Software Engineering",
+      "url": "https://doi.org/10.62762/jse.2026.766488",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Which megatrends are highly related to digital government? Priority analysis on STEEPV framework",
+      "authors": "Kun, L. Y., & Kim, J.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103915",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Governing rural futures: Structuring diverse perspectives on future problems and pathways to understand Dutch policy challenges",
+      "authors": "Muiderman, K., Enserink, M., Daalhuizen, F., Wieringen, D. V., & Huitzing, H.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103916",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Participatory co-production, agonistic pluralism, and transformation; Reflexively evaluating a technology for inclusive employment for people with a disability",
+      "authors": "Grijseels, M., & Zuiderent-Jerak, T.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103911",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Driverless, not thoughtless? Automated vehicle regulation, the dilemma of control, and the prospect of dual corrigibility",
+      "authors": "Haugland, B. T.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124866",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Blockchain for the eHealth Sector—A Survey and Implementation",
+      "authors": "Vizzarri, A., & Mazzenga, F.",
+      "year": 2026,
+      "venue": "Applied Sciences",
+      "url": "https://doi.org/10.3390/app16178461",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Tail-driven asymmetries in sustainable finance: SMEs, ESG, and energy innovation under market stress",
+      "authors": "Lahiani, A., Mefteh‐Wali, S., & Mselmi, N.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124855",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Public procurement for social innovation: Building a collaboration logic through interactive spaces",
+      "authors": "Pihlajamaa, M., Sigfrids, A., & Tuominen, T.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124853",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "When p=0: Governance failure and pure social diffusion in rivalrous technology adoption",
+      "authors": "Gasmi, T., Guesmi, R., Abdelbari, S. B., & Hammami, G.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124852",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Taxes and Investment: Evidence from the “Halloween Massacre” of 2006",
+      "authors": "Boland, M., Hlaing, K. P., & Lisowsky, P.",
+      "year": 2026,
+      "venue": "Journal of Accounting Research",
+      "url": "https://doi.org/10.1111/1475-679x.70084",
+      "cites": 0,
+      "topic": "JAR"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Staffing Leverage at the Audit Office and Audit Quality",
+      "authors": "Khavis, J. A., Li, M., & Szerwo, B.",
+      "year": 2026,
+      "venue": "Contemporary Accounting Research",
+      "url": "https://doi.org/10.1111/1911-3846.70081",
+      "cites": 0,
+      "topic": "CAR"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Decentralized Identity Management via Blockchain-Based Smart Contracts: A Cryptographic Self-Sovereign Framework",
+      "authors": "Beesabathuni, H. N.",
+      "year": 2026,
+      "venue": "International Journal of Intelligent Systems and Data Science",
+      "url": "https://doi.org/10.67231/s2b5mw29",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Gasless Verification in Decentralized Proof Systems: Design Patterns and Tradeoffs",
+      "authors": "Sotnykov, K.",
+      "year": 2026,
+      "venue": "International Journal of Computer Trends and Technology",
+      "url": "https://doi.org/10.14445/22312803/ijctt-v74i7p103",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Water infrastructures in the territories they traverse: The challenge of environing in uncertain times",
+      "authors": "Bouleau, G., Guimont, C., & Petitimbert, R.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103896",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "A Model-Based System Engineering and Blockchain-IPFS Framework for Enhancing Decision-Making in National Engineering Accreditation Systems Pines",
+      "authors": "Djatna, T.",
+      "year": 2026,
+      "venue": "Journal of Intelligent Decision Making and Information Science",
+      "url": "https://doi.org/10.59543/jidmis.v3.1438",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "The information content of private information acquisition: evidence from FOIA requests to the SEC",
+      "authors": "Bao, D., Brendel, J., Drake, M. S., & Su, L. N.",
+      "year": 2026,
+      "venue": "Review of Accounting Studies",
+      "url": "https://doi.org/10.1007/s11142-026-09988-7",
+      "cites": 1,
+      "topic": "RAST"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Backcasting: An innovative approach to conflict management for transformative innovation projects",
+      "authors": "Volpini, G.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124851",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Developing a conceptual framework for digital health engagement: Insights from a hybrid review and qualitative validation",
+      "authors": "Mohapatra, A., Bhattacharya, S., & Misra, S.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124849",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "“Bond. Green bond.” Yet when does green bond issuance truly benefit expected firm performance?",
+      "authors": "Cappa, F., Fasano, F., Oriani, R., & Vigne, S.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124842",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Employee Non‐Disclosure Agreements and Corporate News",
+      "authors": "Holstead, C., Huang, J., & Pinto, J. P.",
+      "year": 2026,
+      "venue": "Contemporary Accounting Research",
+      "url": "https://doi.org/10.1111/1911-3846.70068",
+      "cites": 0,
+      "topic": "CAR"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Firm Investments in Employee‐Led Entrepreneurial Ventures",
+      "authors": "Wiernsperger, M.",
+      "year": 2026,
+      "venue": "Contemporary Accounting Research",
+      "url": "https://doi.org/10.1111/1911-3846.70073",
+      "cites": 0,
+      "topic": "CAR"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "Does news media affect audit quality? Evidence from variation in the “contagion effect”",
+      "authors": "Cowle, E. N., Rawson, C., & Rowe, S. P.",
+      "year": 2026,
+      "venue": "Review of Accounting Studies",
+      "url": "https://doi.org/10.1007/s11142-026-09986-9",
+      "cites": 0,
+      "topic": "RAST"
+    },
+    {
+      "date": "2026-08-20",
+      "title": "The consequences of audit firm mobility for attestation services across states",
+      "authors": "Pan, P. Y., Lee, G., & Lin, Y.",
+      "year": 2026,
+      "venue": "Review of Accounting Studies",
+      "url": "https://doi.org/10.1007/s11142-026-09989-6",
+      "cites": 0,
+      "topic": "RAST"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Regulators as innovation enablers: Social capital and the central bank of Ireland's innovation sandbox",
+      "authors": "Leonard, E., Sheehan, B. A., Mullins, M., & Shannon, D.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124845",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Latent until directed: How regulatory science activates innovation capacity to shape corporate green tilt",
+      "authors": "Zhu, H., Ge, Y., & Wang, S.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124847",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "How changes in autonomy-supportive managerial practices affect job satisfaction in teleworking",
+      "authors": "Breuillot, A., Bocquet, R., & Poussing, N.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124848",
+      "cites": 0,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Beyond Automation: AI and the Human Value of Sell‐Side Analysts",
+      "authors": "Shanthikumar, D. M., & Yoo, I. S.",
+      "year": 2026,
+      "venue": "Journal of Accounting Research",
+      "url": "https://doi.org/10.1111/1475-679x.70083",
+      "cites": 0,
+      "topic": "JAR"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Lending Relationships Along Ownership Lines: Institutional Cross‐Ownership and Bank Loan Contracts",
+      "authors": "Ma, Z., Owens, E., Stice, D., & Wang, D.",
+      "year": 2026,
+      "venue": "Contemporary Accounting Research",
+      "url": "https://doi.org/10.1111/1911-3846.70075",
+      "cites": 3,
+      "topic": "CAR"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "How labor market competition shapes workplace information on social media: evidence from Glassdoor reviews",
+      "authors": "Li, S., Wang, R., & Zhang, L.",
+      "year": 2026,
+      "venue": "Review of Accounting Studies",
+      "url": "https://doi.org/10.1007/s11142-026-09987-8",
+      "cites": 0,
+      "topic": "RAST"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Speculative backward and forward: How speculative methods open possible futures of cannabis in the Greater China Region: A study of overseas Chinese students in the UK",
+      "authors": "Tsoi, M. T.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103909",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "The impact of artificial intelligence (AI) and customer relationship management (CRM) on integrated marketing communications (IMC)",
+      "authors": "Butkouskaya, V.",
+      "year": 2026,
+      "venue": "Technological Forecasting and Social Change",
+      "url": "https://doi.org/10.1016/j.techfore.2026.124850",
+      "cites": 1,
+      "topic": "TFSC"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Profits Lost in the Haze: Evidence From Wildfire Smoke",
+      "authors": "Kong, J., Loch, H., & Shen, M.",
+      "year": 2026,
+      "venue": "Contemporary Accounting Research",
+      "url": "https://doi.org/10.1111/1911-3846.70079",
+      "cites": 0,
+      "topic": "CAR"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Toward future accountability: Generative AI, social empathy, and participatory persona design",
+      "authors": "Park, G., Ju, M., & Kang, M.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103906",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "A Blockchain-Enabled Federated Neuro-Symbolic Framework for Secure Wearable Biosensor-Based Health Monitoring",
+      "authors": "Alshudukhi, K. S., & Tariq, N.",
+      "year": 2026,
+      "venue": "Biosensors",
+      "url": "https://doi.org/10.3390/bios16080442",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "A conceptual framework of hope in response to radical uncertainty in transitions",
+      "authors": "Hasselaar, J. J., Nieuwenhuis, M., Bohlmeijer, E. T., Vuuren, M. V., Beek, E. V., Wits, E., et al.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103908",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Non‐Fundamental Loan Renegotiations",
+      "authors": "Chen, A., PHILLIPS, M. A., Moerman, R. W., & Ye, T.",
+      "year": 2026,
+      "venue": "Journal of Accounting Research",
+      "url": "https://doi.org/10.1111/1475-679x.70080",
+      "cites": 1,
+      "topic": "JAR"
+    },
+    {
+      "date": "2026-08-16",
+      "title": "Informing Entrepreneurs? Initial Public Offerings and New Business Formation",
+      "authors": "Lisowsky, P., Choi, J. H., Hochberg, Y. V., Kim, J., & LIU, M.",
+      "year": 2026,
+      "venue": "Journal of Accounting Research",
+      "url": "https://doi.org/10.1111/1475-679x.70082",
+      "cites": 0,
+      "topic": "JAR"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Analyzing blockchain entrepreneurial ecosystems with foresight: A data-driven approach",
+      "authors": "Bzhalava, L., Hassan, S. S., Šipikal, M., Rehák, Š., & Makkonen, T.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103904",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "The Maré Framework: Converting liminal uncertainty into collective agency",
+      "authors": "Koch, F., Resende, N. C., Keils, A., Dinis, R. S., & Bozza, F. A.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103907",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Future design as temporal-ethical pedagogy: Towards “open futures” in education",
+      "authors": "Sutoris, P., & Nakagawa, Y.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103905",
+      "cites": 1,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Exogenous stock liquidity improvements and voluntary disclosure",
+      "authors": "Hagenberg, T. C., Miller, B. P., Sharma, A., & Yohn, T. L.",
+      "year": 2026,
+      "venue": "Review of Accounting Studies",
+      "url": "https://doi.org/10.1007/s11142-026-09984-x",
+      "cites": 0,
+      "topic": "RAST"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "VERKLE-FRI: НОВА АРХІТЕКТУРА ДЛЯ БЕЗСТАНОВИХ ТА КВАНТОВО-СТІЙКИХ ВЕКТОРНИХ ЗОБОВ’ЯЗАНЬ",
+      "authors": "Akhalaia, G., Iavich, M., & Bocu, R.",
+      "year": 2026,
+      "venue": "RADIOELECTRONIC AND COMPUTER SYSTEMS",
+      "url": "https://doi.org/10.32620/reks.2026.2.17",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Decentralized Biometric Authentication via Threshold-Based Key Derivation †",
+      "authors": "Cui, H., Cheng, H., & Boorman, J.",
+      "year": 2026,
+      "venue": "Pragmatic Cybersecurity",
+      "url": "https://doi.org/10.53941/pc.2026.100011",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Blockchain-Based Clean Energy Trading: Security Architecture and Operational Risk Mitigation in Decentralized Energy Markets",
+      "authors": "Cai, A.",
+      "year": 2026,
+      "venue": "Advances in Economics Management and Political Sciences",
+      "url": "https://doi.org/10.54254/2754-1169/2026.gt35973",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "A Blockchain-Based Traceability System To Mitigate Counterfeit Cosmetics In E-Commerce: Proposed Model And Experimental Validation",
+      "authors": "Tri, D. T., Han, H. G., & Nguyen, P.",
+      "year": 2026,
+      "venue": "Journal of Applied Informatics and Computing",
+      "url": "https://doi.org/10.30871/jaic.v10i4.12787",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "The adaptability of actors in socio-technical transformation: The case of artificial intelligence in the Korean automotive sector",
+      "authors": "Kim, J., Patluang, K., & KANG, J.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103902",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Studying climate futures: Capturing content and processes",
+      "authors": "Pedersen, O. C.",
+      "year": 2026,
+      "venue": "Futures",
+      "url": "https://doi.org/10.1016/j.futures.2026.103899",
+      "cites": 0,
+      "topic": "Futures Studies"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Late trade credit payments to meet cash flow forecasts",
+      "authors": "Cohen, D., Liang, C., Lourie, B., & Nekrasov, A.",
+      "year": 2026,
+      "venue": "Review of Accounting Studies",
+      "url": "https://doi.org/10.1007/s11142-026-09985-w",
+      "cites": 1,
+      "topic": "RAST"
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Non-audit services and earnings announcement timeliness",
+      "authors": "Hogan, C. E., Nessa, M. L., & Schroeder, J. H.",
+      "year": 2026,
+      "venue": "Review of Accounting Studies",
+      "url": "https://doi.org/10.1007/s11142-026-09983-y",
+      "cites": 0,
+      "topic": "RAST"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Disaggregating Cash Flows: The Effect of Linking and Labeling on Investors’ Understanding of the Statement of Cash Flows",
+      "authors": "Crandall, R., Garavaglia, S., & Mongold, C.",
+      "year": 2026,
+      "venue": "Journal of Accounting Research",
+      "url": "https://doi.org/10.1111/1475-679x.70081",
+      "cites": 0,
+      "topic": "JAR"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Do Key Audit Matters in Hong Kong and Mainland China Provide Incremental Information and Improve Audit Quality?",
+      "authors": "Liao, L., Minutti-Meza, M., Sulcaj, V., Zhang, Y., & Zou, Y.",
+      "year": 2026,
+      "venue": "Contemporary Accounting Research",
+      "url": "https://doi.org/10.1111/1911-3846.70072",
+      "cites": 0,
+      "topic": "CAR"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "eDAS: Extending Data Availability Sampling with Privacy and Compliance",
+      "authors": "Watkins, I., Mohnblatt, N., & Jovanovic, P.",
+      "year": 2026,
+      "venue": "IACR Communications in Cryptology",
+      "url": "https://doi.org/10.62056/andkp2c2h",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Efficient design of blockchain-based electronic health record systems with federated learning, off-chain storage, and zk-rollup parallelism for minimizing transaction costs",
+      "authors": "Raghav, A., Tripathi, A. M., & Chaudhary, R. K.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-62785-9",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Modular DAOs for Community-Based Resilience: A Blockchain Architecture for Critical Infrastructure Funding",
+      "authors": "Levinson, A., Mulligan, C. E. A., Ozdemir-Sonmez, F., & Knottenbelt, W. J.",
+      "year": 2026,
+      "venue": "Blockchain Research and Applications",
+      "url": "https://doi.org/10.1016/j.bcra.2026.100544",
+      "cites": 0,
+      "topic": "Ethereum Layer-2"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "The Debt Market Role of Asset Valuation Uncertainty",
+      "authors": "Aleszczyk, A., Vasvari, F. P., & Vyas, D.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2023-0477",
+      "cites": 2,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Does Anti-Tax Avoidance Regulation Curb Industry Concentration?",
+      "authors": "Gallemore, J., Geest, J. V. D., Jacob, M., & Peters, C.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2025-0338",
+      "cites": 0,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Broker In-House ESG Research",
+      "authors": "Wei, Y., Cahan, S. F., & Chen, L.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2023-0401",
+      "cites": 0,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Managerial Accountants and Investment Efficiency",
+      "authors": "Iselin, M., Ott, J., & Zou, Y.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2023-0699",
+      "cites": 0,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "The Market Disciplinary Effect of Asset Write-Off: Theory and Empirical Evidence from Goodwill Impairment",
+      "authors": "Jiang, Y., Lin, Y., & Xue, W.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2022-0526",
+      "cites": 0,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Social Tax Discontent and Individual Tax Avoidance",
+      "authors": "Belnap, A., Standridge, K. R., Thornock, J. R., & Williams, B.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2023-0689",
+      "cites": 0,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Benefits of Bank-Collateralized Loan Obligation Relationships: Evidence from Bankruptcy and Restructuring Outcomes of Collateralized Loan Obligation-Held Loans",
+      "authors": "Lin, Y., Vyas, D., & Xu, W.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2024-0758",
+      "cites": 0,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "When Companies Choose Their Reporting Standards: Evidence on SASB Adoption and Associated Outcomes",
+      "authors": "Bochkay, K., Choi, S., & Hales, J.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2023-0485",
+      "cites": 1,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Circuitousness in Disclosure Narratives",
+      "authors": "Guest, N. M., & Yan, J.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2023-0731",
+      "cites": 0,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Domestic Product Market Impacts of Politically Motivated Foreign Tariffs",
+      "authors": "Burd, C. S., & Ferguson, V.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2024-0708",
+      "cites": 0,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "An Empirical Investigation of New and Existing Non-GAAP Exclusion Quality Indicators",
+      "authors": "Davidson, S. O., Gómez, E., Heflin, F. L., & Wallace, D. M.",
+      "year": 2026,
+      "venue": "The Accounting Review",
+      "url": "https://doi.org/10.2308/tar-2023-0299",
+      "cites": 0,
+      "topic": "TAR"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "The role of accounting in the informal economy",
+      "authors": "Aguilar, M., Lind, G., & Ramesh, K.",
+      "year": 2026,
+      "venue": "Journal of Accounting and Economics",
+      "url": "https://doi.org/10.1016/j.jacceco.2026.101934",
+      "cites": 1,
+      "topic": "JAE"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Interpreting the effects of rule 10b5-1 reform",
+      "authors": "Honigsberg, C., & Jackson, R. J.",
+      "year": 2026,
+      "venue": "Journal of Accounting and Economics",
+      "url": "https://doi.org/10.1016/j.jacceco.2026.101933",
+      "cites": 0,
+      "topic": "JAE"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Knowledge is power: A field experiment in the Chinese and US stock markets",
+      "authors": "Wong, S. M., Yuan, X., Zhang, B., & Zhao, X.",
+      "year": 2026,
+      "venue": "Journal of Accounting and Economics",
+      "url": "https://doi.org/10.1016/j.jacceco.2026.101935",
+      "cites": 0,
+      "topic": "JAE"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "What drives banks’ overreaction to loan loss information? Discussion of imperfect expectations in loan loss forecasts",
+      "authors": "Liao, S., & Schmidt, B. A.",
+      "year": 2026,
+      "venue": "Journal of Accounting and Economics",
+      "url": "https://doi.org/10.1016/j.jacceco.2026.101936",
+      "cites": 0,
+      "topic": "JAE"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Regulating via social media: Deterrence effects of the SEC's use of Twitter",
+      "authors": "Duguay, R., Lin, J., Thomas, J. K. K., & Yin, L.",
+      "year": 2026,
+      "venue": "Journal of Accounting and Economics",
+      "url": "https://doi.org/10.1016/j.jacceco.2026.101938",
+      "cites": 0,
+      "topic": "JAE"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Measurement error when estimating covenant slack and violations",
+      "authors": "Dyreng, S., Ferracuti, E., Hills, R., & Kubic, M.",
+      "year": 2026,
+      "venue": "Journal of Accounting and Economics",
+      "url": "https://doi.org/10.1016/j.jacceco.2026.101937",
+      "cites": 0,
+      "topic": "JAE"
     }
   ],
   "mostcited": {
@@ -2495,7 +4165,7 @@
         "year": 2021,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/2112.04426",
-        "cites": 1911,
+        "cites": 1912,
         "topic": "ICML"
       },
       {
@@ -2531,7 +4201,7 @@
         "year": 2021,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/2102.03150",
-        "cites": 853,
+        "cites": 854,
         "topic": "ICML"
       },
       {
@@ -2551,7 +4221,7 @@
         "year": 2020,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2010.02502",
-        "cites": 13507,
+        "cites": 13510,
         "topic": "ICLR"
       },
       {
@@ -2560,7 +4230,7 @@
         "year": 2022,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2201.12329",
-        "cites": 1424,
+        "cites": 1425,
         "topic": "ICLR"
       },
       {
