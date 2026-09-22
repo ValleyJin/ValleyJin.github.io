@@ -293,6 +293,7 @@ permalink: /articles/
       var KINDS=['Citation','Related','New'];
       var _adts=alerts.map(function(a){return a.date;}).filter(Boolean).sort();
       var sst={scholar:'All', sel:(_adts.length?_adts[_adts.length-1]:todayKST)};
+      var skind=null;   // 선택된 알림 종류(Citation/Related/New); null이면 3종 전체
       var scm=sst.sel.split('-'); var scur=new Date(+scm[0], +scm[1]-1, 1);
 
       function aFiltered(){ return sst.scholar==='All'?alerts:alerts.filter(function(a){return a.scholar===sst.scholar;}); }
@@ -308,7 +309,7 @@ permalink: /articles/
         stabsEl.innerHTML=['All'].concat(followed).map(_tab).join('');
         [].slice.call(stabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){
           setMode('scholars');
-          sst.scholar=b.dataset.scholar;
+          sst.scholar=b.dataset.scholar; skind=null;
           var fd=aFiltered().map(function(a){return a.date;}).filter(Boolean).sort();   // 선택 학자에 현재 날짜 알림 없으면 최신일로
           if(fd.length && aFiltered().every(function(a){return a.date!==sst.sel;})){ sst.sel=fd[fd.length-1]; scm=sst.sel.split('-'); scur=new Date(+scm[0], +scm[1]-1, 1); }
           renderStabs(); renderScal(); renderKinds(); renderSections();
@@ -325,19 +326,29 @@ permalink: /articles/
           var c=document.createElement(ps?'button':'span');
           c.className='tcal-cell'+(ps?' has':'')+(key===sst.sel?' sel':'')+(key===todayKST?' today':'');
           c.innerHTML='<span class="d">'+day+'</span>'+(ps?'<span class="n">'+ps.length+'</span>':'');
-          if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ sst.sel=k; renderScal(); renderKinds(); renderSections(); };})(key)); }
+          if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ sst.sel=k; skind=null; renderScal(); renderKinds(); renderSections(); };})(key)); }   // 날짜 클릭 → 3종 전체
           sgrid.appendChild(c);
         }
       }
       function renderKinds(){
         var day=(aByDate()[sst.sel]||[]), cnt={Citation:0,Related:0,New:0};
         day.forEach(function(a){ var k=a.kind||'New'; if(cnt[k]==null) k='New'; cnt[k]++; });
-        var rows=KINDS.map(function(k){ return '<div class="kr-row"><span class="kr-k">'+k+'</span><span class="kr-v'+(cnt[k]?'':' z')+'">'+cnt[k]+'</span></div>'; }).join('');
-        kindsEl.innerHTML='<div class="nl-head mono">'+esc(sst.sel)+' · '+day.length+' alert'+(day.length!==1?'s':'')+'</div><div class="kind-report">'+rows+'</div>';
+        var rows=KINDS.map(function(k){
+          var on=(skind===k), can=cnt[k]>0;
+          return '<button type="button" class="kr-row'+(on?' on':'')+(can?'':' z0')+'" data-kind="'+k+'"'+(can?'':' disabled')+'>'+
+            '<span class="kr-k">'+k+'</span><span class="kr-v'+(cnt[k]?'':' z')+'">'+cnt[k]+'</span></button>';
+        }).join('');
+        kindsEl.innerHTML='<div class="nl-head mono">'+esc(sst.sel)+' · '+day.length+' alert'+(day.length!==1?'s':'')+
+          (skind?' · <b style="color:var(--accent)">'+skind+'</b> only':'')+'</div><div class="kind-report">'+rows+'</div>';
+        [].slice.call(kindsEl.querySelectorAll('.kr-row[data-kind]:not([disabled])')).forEach(function(b){ b.onclick=function(){
+          skind=(skind===b.dataset.kind)?null:b.dataset.kind;   // 같은 종류 재클릭 시 해제(전체)
+          renderKinds(); renderSections();
+        }; });
       }
       function renderSections(){
         var day=(aByDate()[sst.sel]||[]);
-        if(!day.length){ sectEl.innerHTML='<p class="mono" style="color:var(--muted);font-size:13px;margin:14px 0 0">No alert on this date.</p>'; return; }
+        if(skind){ day=day.filter(function(a){ return (a.kind||'New')===skind; }); }
+        if(!day.length){ sectEl.innerHTML='<p class="mono" style="color:var(--muted);font-size:13px;margin:14px 0 0">No '+(skind?esc(skind)+' ':'')+'alert on this date.</p>'; return; }
         var order=sst.scholar==='All'?followed:[sst.scholar], html='';
         order.forEach(function(nm){
           var mine=day.filter(function(a){return a.scholar===nm;});

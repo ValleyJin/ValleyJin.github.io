@@ -248,7 +248,10 @@ img{max-width:100%;display:block}
 .stabs{display:flex;flex-wrap:wrap;gap:8px}
 /* 알림 종류별 집계 리포트(달력 우측) */
 .kind-report{display:flex;flex-direction:column;gap:8px;margin-top:6px}
-.kr-row{display:flex;align-items:center;justify-content:space-between;border:1px solid var(--line);border-radius:10px;padding:10px 14px;background:var(--bg-elev)}
+.kr-row{appearance:none;width:100%;text-align:left;font:inherit;display:flex;align-items:center;justify-content:space-between;border:1px solid var(--line);border-radius:10px;padding:10px 14px;background:var(--bg-elev);cursor:pointer;transition:border-color .15s,background .15s}
+.kr-row:hover:not(.z0){border-color:var(--accent-dim)}
+.kr-row.on{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--bg-elev))}
+.kr-row.z0{cursor:default;opacity:.55}
 .kr-k{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--ink-soft)}
 .kr-v{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
 .kr-v.z{color:var(--muted);font-weight:400}
