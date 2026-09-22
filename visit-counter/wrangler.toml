@@ -1,0 +1,7 @@
+name = "valleyjin-visit-counter"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+kv_namespaces = [
+  { binding = "COUNTER", id = "cd0b58cb941747ef88016e191ebb3c75" }
+]

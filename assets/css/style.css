@@ -165,6 +165,7 @@ img{max-width:100%;display:block}
 .foot .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
 .foot a{border-bottom:1px solid var(--line)}
 .foot a:hover{border-color:var(--accent)}
+.foot .visits{font-variant-numeric:tabular-nums;color:var(--muted)}
 
 /* ---- Articles (Google Scholar) ---- */
 .sc-metrics{display:grid;grid-template-columns:0.8fr 1fr 1fr 1fr;gap:14px;margin:8px 0 30px}

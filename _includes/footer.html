@@ -1,6 +1,6 @@
 <footer class="foot">
   <div class="wrap">
-    <span>© {{ 'now' | date: "%Y" }} Jin Sam Cho · Coding + Business</span>
+    <span>© {{ 'now' | date: "%Y" }} Jin Sam Cho · Coding + Business<span id="visits" class="visits"></span></span>
     <span>
       <a href="https://github.com/{{ site.github_user }}" target="_blank" rel="noopener">GitHub</a> ·
       <a href="https://x.com/{{ site.social.x }}" target="_blank" rel="noopener">X</a> ·
@@ -8,3 +8,18 @@
     </span>
   </div>
 </footer>
+<script>
+  // 방문 카운터 — Cloudflare Worker + KV. 세션당 1회만 +1, 그 외엔 조회만. 쿠키·개인정보 없음.
+  (function(){
+    var W = "https://valleyjin-visit-counter.jscho71.workers.dev";
+    var el = document.getElementById('visits'); if(!el) return;
+    var hit = true; try{ hit = !sessionStorage.getItem('vj_visited'); }catch(e){}
+    fetch(W + (hit ? '/hit' : '/count'))
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        if (d && typeof d.count === 'number') el.textContent = ' · ' + d.count.toLocaleString() + ' visits';
+        try{ if(hit) sessionStorage.setItem('vj_visited','1'); }catch(e){}
+      })
+      .catch(function(){});
+  })();
+</script>
