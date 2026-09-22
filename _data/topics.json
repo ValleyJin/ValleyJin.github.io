@@ -24,7 +24,7 @@
         },
         {
           "title": "Personas-based Student Grouping using reinforcement learning and linear programming",
-          "authors": "Ma, S., Luo, Y., & Yang, Y.",
+          "authors": "Ma, S., Luo, Y., & Yang, Y. P.",
           "year": 2023,
           "venue": "Knowledge-Based Systems",
           "url": "https://doi.org/10.1016/j.knosys.2023.111071",
@@ -39,7 +39,7 @@
           "cites": 24
         }
       ],
-      "count": 10265
+      "count": 10276
     },
     {
       "topic": "Graph database",
@@ -63,22 +63,22 @@
         },
         {
           "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
-          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K.",
+          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K. V.",
           "year": 2024,
           "venue": "MethodsX",
           "url": "https://doi.org/10.1016/j.mex.2024.102683",
           "cites": 18
         },
         {
-          "title": "SRplot: A free online platform for data visualization and graphing",
-          "authors": "Tang, D., Chen, M., Huang, X., Zhang, G., Zeng, L., Zhang, G., et al.",
-          "year": 2023,
-          "venue": "PLoS ONE",
-          "url": "https://doi.org/10.1371/journal.pone.0294236",
-          "cites": 2570
+          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
+          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
+          "year": 2024,
+          "venue": "Proceedings of the VLDB Endowment",
+          "url": "https://doi.org/10.14778/3685800.3685814",
+          "cites": 15
         }
       ],
-      "count": 117179
+      "count": 117281
     },
     {
       "topic": "Memory in Agentic AI",
@@ -86,11 +86,11 @@
       "papers": [
         {
           "title": "A survey on large language model based autonomous agents",
-          "authors": "Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., et al.",
+          "authors": "Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H. Y., Zhang, J., et al.",
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1610
+          "cites": 1616
         },
         {
           "title": "Memory-Based Event-Triggered Fault-Tolerant Consensus Control of Nonlinear Multi-Agent Systems and Its Applications",
@@ -106,7 +106,7 @@
           "year": 2024,
           "venue": "Cell",
           "url": "https://doi.org/10.1016/j.cell.2024.09.022",
-          "cites": 291
+          "cites": 292
         },
         {
           "title": "AI Agents vs. Agentic AI: A Conceptual taxonomy, applications and challenges",
@@ -114,10 +114,10 @@
           "year": 2025,
           "venue": "Information Fusion",
           "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-          "cites": 206
+          "cites": 208
         }
       ],
-      "count": 68458
+      "count": 68556
     },
     {
       "topic": "LLM inference serving",
@@ -145,7 +145,7 @@
           "year": 2025,
           "venue": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 998
+          "cites": 1002
         },
         {
           "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
@@ -156,7 +156,7 @@
           "cites": 27
         }
       ],
-      "count": 5849
+      "count": 5866
     },
     {
       "topic": "Ethereum Layer-2",
@@ -203,7 +203,7 @@
       "papers": [
         {
           "title": "Leveraging zero knowledge proofs for blockchain-based identity sharing: A survey of advancements, challenges and opportunities",
-          "authors": "Zhou, L., Diro, A., Saini, A., Kaisar, S., & Hiep, P. C.",
+          "authors": "Zhou, L., Diro, A. A., Saini, A., Kaisar, S., & Hiep, P. C.",
           "year": 2024,
           "venue": "Journal of Information Security and Applications",
           "url": "https://doi.org/10.1016/j.jisa.2023.103678",
@@ -219,7 +219,7 @@
         },
         {
           "title": "Securing Smart Manufacturing by Integrating Anomaly Detection With Zero-Knowledge Proofs",
-          "authors": "Salam, A., Abrar, M., Amin, F., Ullah, F., Khan, I. A., Alkhamees, B. F., et al.",
+          "authors": "Salam, A., Abrar, M. Y. B. T., Amin, F., Ullah, F., Khan, I. A., Alkhamees, B. F., et al.",
           "year": 2024,
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2024.3373697",
@@ -234,7 +234,7 @@
           "cites": 29
         }
       ],
-      "count": 40553
+      "count": 40612
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -258,7 +258,7 @@
         },
         {
           "title": "A review of graph neural networks: concepts, architectures, techniques, challenges, datasets, applications, and future directions",
-          "authors": "Khemani, B., Patil, S., Kotecha, K., & Tanwar, S.",
+          "authors": "Khemani, B., Patil, S., Kotecha, K. V., & Tanwar, S.",
           "year": 2024,
           "venue": "Journal Of Big Data",
           "url": "https://doi.org/10.1186/s40537-023-00876-4",
@@ -273,7 +273,7 @@
           "cites": 490
         }
       ],
-      "count": 193424
+      "count": 193582
     },
     {
       "topic": "Ontology",
@@ -281,19 +281,11 @@
       "papers": [
         {
           "title": "Enhancing Learning Personalization in Educational Environments through Ontology-Based Knowledge Representation",
-          "authors": "Villegas-Ch, W., & Garcí­a-Ortiz, J.",
+          "authors": "Villegas-Ch, W. E., & Garcí­a-Ortiz, J.",
           "year": 2023,
           "venue": "Computers",
           "url": "https://doi.org/10.3390/computers12100199",
           "cites": 36
-        },
-        {
-          "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
-          "authors": "Gribova, V., Шалфеева, Е., Okun, D., & Shevchenko, O. N.",
-          "year": 2025,
-          "venue": "Ontology of Designing",
-          "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
-          "cites": 1
         },
         {
           "title": "Recent Trends and Insights in Semantic Web and Ontology-Driven Knowledge Representation Across Disciplines Using Topic Modeling",
@@ -304,15 +296,23 @@
           "cites": 18
         },
         {
+          "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
+          "authors": "Gribova, V. V., Шалфеева, Е. А., Okun, D. B., & Shevchenko, O. N.",
+          "year": 2025,
+          "venue": "Ontology of Designing",
+          "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
+          "cites": 1
+        },
+        {
           "title": "The Human Phenotype Ontology in 2024: phenotypes around the world",
-          "authors": "Gargano, M., Matentzoglu, N., Coleman, B., Addo-Lartey, E. B., Anagnostopoulos, A. V., Anderton, J., et al.",
+          "authors": "Gargano, M. A., Matentzoglu, N., Coleman, B. D., Addo-Lartey, E. B., Anagnostopoulos, A. V., Anderton, J., et al.",
           "year": 2023,
           "venue": "Nucleic Acids Research",
           "url": "https://doi.org/10.1093/nar/gkad1005",
-          "cites": 415
+          "cites": 416
         }
       ],
-      "count": 24988
+      "count": 25018
     },
     {
       "topic": "AI governance",
@@ -324,7 +324,7 @@
           "year": 2024,
           "venue": "Humanities and Social Sciences Communications",
           "url": "https://doi.org/10.1057/s41599-024-03560-x",
-          "cites": 181
+          "cites": 182
         },
         {
           "title": "Responsible AI Pattern Catalogue: A Collection of Best Practices for AI Governance and Engineering",
@@ -332,7 +332,7 @@
           "year": 2023,
           "venue": "ACM Computing Surveys",
           "url": "https://doi.org/10.1145/3626234",
-          "cites": 113
+          "cites": 114
         },
         {
           "title": "Trust, trustworthiness and AI governance",
@@ -344,14 +344,14 @@
         },
         {
           "title": "The governance of artificial intelligence in Canada: Findings and opportunities from a review of 84 AI governance initiatives",
-          "authors": "Attard-Frost, B., Brandusescu, A., & Lyons, K.",
+          "authors": "Attard-Frost, B., Brandusescu, A., & Lyons, K. A.",
           "year": 2024,
           "venue": "Government Information Quarterly",
           "url": "https://doi.org/10.1016/j.giq.2024.101929",
           "cites": 82
         }
       ],
-      "count": 106090
+      "count": 106274
     },
     {
       "topic": "NeurIPS",
@@ -519,7 +519,7 @@
           "year": 2024,
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2024.103399",
-          "cites": 94
+          "cites": 95
         },
         {
           "title": "Benefits or concerns of AI: A multistakeholder responsibility",
@@ -558,7 +558,7 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.122903",
-          "cites": 398
+          "cites": 399
         },
         {
           "title": "The effects of artificial intelligence applications in educational settings: Challenges and strategies",
@@ -566,7 +566,7 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123076",
-          "cites": 299
+          "cites": 300
         },
         {
           "title": "How does the digital transformation drive digital technology innovation of enterprises? Evidence from enterprise's digital patents",
@@ -574,7 +574,7 @@
           "year": 2024,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2024.123428",
-          "cites": 294
+          "cites": 295
         },
         {
           "title": "Research on the impact of the integration of digital economy and real economy on enterprise green innovation",
@@ -601,7 +601,7 @@
         },
         {
           "title": "Global versus Local ESG Ratings: Evidence from China",
-          "authors": "Chen, J. Z., Li, Z., Mao, T., & Yoon, A.",
+          "authors": "Chen, J. Z., Li, Z., Mao, T., & Yoon, A. S.",
           "year": 2025,
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2022-0703",
@@ -624,7 +624,7 @@
           "cites": 52
         }
       ],
-      "count": 297
+      "count": 299
     },
     {
       "topic": "JAE",
@@ -640,7 +640,7 @@
         },
         {
           "title": "Measuring innovation and navigating its unique information issues: A review of the accounting literature on innovation",
-          "authors": "Glaeser, S., & Lang, M. H.",
+          "authors": "Glaeser, S. A., & Lang, M. H.",
           "year": 2024,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2024.101720",
@@ -648,7 +648,7 @@
         },
         {
           "title": "The effect of patent disclosure quality on innovation",
-          "authors": "Dyer, T., Glaeser, S., Lang, M. H., & Sprecher, C.",
+          "authors": "Dyer, T. A., Glaeser, S. A., Lang, M. H., & Sprecher, C.",
           "year": 2023,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2023.101647",
@@ -683,26 +683,26 @@
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12559",
-          "cites": 384
+          "cites": 385
         },
         {
           "title": "Diversity Washing",
-          "authors": "Baker, A., Larcker, D. F., McClure, C., Saraph, D., & Watts, E. M.",
+          "authors": "Baker, A., Larcker, D. F., MCCLURE, C. G., Saraph, D., & Watts, E. M.",
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12542",
-          "cites": 143
+          "cites": 144
         },
         {
           "title": "Cultural Origin and Minority Shareholder Expropriation: Historical Evidence",
-          "authors": "Gu, Z., Sun, W., & Zhou, F.",
+          "authors": "Gu, Z., Sun, W., & Zhou, F. S.",
           "year": 2023,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12517",
           "cites": 95
         }
       ],
-      "count": 150
+      "count": 151
     },
     {
       "topic": "CAR",
@@ -718,7 +718,7 @@
         },
         {
           "title": "Financial statement adequacy and firms' MD&A disclosures",
-          "authors": "Brown, S., Hinson, L. A., & Tucker, J. W.",
+          "authors": "Brown, S. V., Hinson, L. A., & Tucker, J. W.",
           "year": 2023,
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12919",
@@ -734,7 +734,7 @@
         },
         {
           "title": "Data analytics strategy and internal information quality",
-          "authors": "Lem, K.",
+          "authors": "Lem, K. W.",
           "year": 2024,
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12942",
@@ -753,15 +753,23 @@
           "year": 2024,
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09833-9",
-          "cites": 95
+          "cites": 96
         },
         {
           "title": "ESG assurance in the United States",
-          "authors": "Gipper, B., Ross, S. M., & Shi, S.",
+          "authors": "Gipper, B., Ross, S. M., & Shi, S. X.",
           "year": 2024,
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09856-2",
           "cites": 83
+        },
+        {
+          "title": "Does automation improve financial reporting? Evidence from internal controls",
+          "authors": "Ashraf, M.",
+          "year": 2024,
+          "venue": "Review of Accounting Studies",
+          "url": "https://doi.org/10.1007/s11142-024-09822-y",
+          "cites": 63
         },
         {
           "title": "Actions speak louder than words: environmental law enforcement and audit fees",
@@ -770,17 +778,9 @@
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09823-x",
           "cites": 47
-        },
-        {
-          "title": "Decentralized Finance (DeFi) assurance: early evidence",
-          "authors": "Bourveau, T., Brendel, J., & Schoenfeld, J.",
-          "year": 2024,
-          "venue": "Review of Accounting Studies",
-          "url": "https://doi.org/10.1007/s11142-024-09834-8",
-          "cites": 42
         }
       ],
-      "count": 178
+      "count": 179
     }
   ]
 }
