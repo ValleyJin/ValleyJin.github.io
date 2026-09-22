@@ -21,6 +21,18 @@
     "CAR",
     "RAST"
   ],
+  "venues": [
+    "NeurIPS",
+    "ICML",
+    "ICLR",
+    "Futures Studies",
+    "TFSC",
+    "TAR",
+    "JAE",
+    "JAR",
+    "CAR",
+    "RAST"
+  ],
   "em": {
     "Deep persona": "https://www.emergentmind.com/topics/deep-persona-alignment-dpa",
     "Graph database": "https://www.emergentmind.com/topics/graph-database-neo4j",
