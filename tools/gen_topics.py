@@ -70,7 +70,7 @@ def apa_authors(authorships):
 def fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
     if query.startswith("venue:"):
         # 학회/저널 지정: 해당 source의 논문만. has_doi는 빼야 한다(NeurIPS/ICML/ICLR 등 학회는 DOI가 없는 경우가 많음).
-        parts = ["primary_location.source.id:" + query[6:].strip(), "type:article|proceedings-article"]
+        parts = ["locations.source.id:" + query[6:].strip(), "type:article|proceedings-article"]
     else:
         parts = [f"{field}.search:{query}", "type:article", f"concepts.id:{concept}", "has_doi:true"]
     if cutoff:
