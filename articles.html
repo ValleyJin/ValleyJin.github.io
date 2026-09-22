@@ -126,7 +126,7 @@ permalink: /articles/
           {% assign p0 = g.papers | first %}
           <div class="fw-lead">
             <a class="fw-photo" href="https://scholar.google.com/citations?user={{ g.id }}" target="_blank" rel="noopener">
-              <img src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user={{ g.id }}" alt="{{ g.name }} — Google Scholar" loading="lazy" referrerpolicy="no-referrer">
+              <img src="{% if g.photo and g.photo != '' %}{{ g.photo }}{% else %}https://scholar.googleusercontent.com/citations?view_op=medium_photo&user={{ g.id }}{% endif %}" alt="{{ g.name }} — Google Scholar" loading="lazy" referrerpolicy="no-referrer">
               <span class="k">Google Scholar ↗</span>
             </a>
             <div class="pub-row fw-first">

@@ -272,6 +272,7 @@ def main():
                 print(f"! scholar {name}: {e}", file=sys.stderr)
                 sresult["scholars"].append(blk)
                 continue
+            blk["photo"] = ((data.get("author") or {}).get("thumbnail") or "")   # SerpAPI 저자 사진(안정적 URL)
             for a in (data.get("articles") or [])[:per_scholar]:
                 cb = a.get("cited_by") or {}
                 blk["papers"].append({
