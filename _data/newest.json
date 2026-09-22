@@ -9,6 +9,7 @@
     "Zero-knowledge proofs (ZKP)",
     "Graph neural networks (GNN)",
     "Ontology",
+    "AI governance",
     "NeurIPS",
     "ICML",
     "ICLR",
@@ -49,6 +50,7 @@
     "Zero-knowledge proofs (ZKP)": "https://openalex.org/works?filter=default.search:zero-knowledge%20proof",
     "Graph neural networks (GNN)": "https://openalex.org/works?filter=default.search:graph%20neural%20network",
     "Ontology": "https://openalex.org/works?filter=default.search:ontology%20knowledge%20representation",
+    "AI governance": "https://openalex.org/works?filter=default.search:AI%20governance",
     "NeurIPS": "https://openalex.org/works?filter=primary_location.source.id:S4306420609",
     "ICML": "https://openalex.org/works?filter=primary_location.source.id:S4306419644",
     "ICLR": "https://openalex.org/works?filter=primary_location.source.id:S4306419637",
@@ -80,6 +82,16 @@
       "url": "https://doi.org/10.1038/s41598-026-72513-y",
       "cites": 0,
       "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Integrating Artificial Intelligence into Knowledge Management: The Case of Lithuanian Business Organizations",
+      "authors": "Stasiūnaitė, I., & Siudikienė, D.",
+      "year": 2026,
+      "venue": "Information & Media",
+      "url": "https://doi.org/10.15388/im.2026.105.1",
+      "cites": 0,
+      "topic": "AI governance"
     },
     {
       "date": "2026-09-20",
@@ -290,6 +302,46 @@
       "url": "https://doi.org/10.17613/njhbw-mv413",
       "cites": 0,
       "topic": "Ontology"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "NormasTCU — A Brazilian Portuguese IR dataset and an evaluation of LLM-as-a-judge for relevance assessment",
+      "authors": "Fernandes, L. C., Castro, M. V. B. D., Ribeiro, L. D. S., Pacheco, L. A. D. S., & Sandes, E. F. O.",
+      "year": 2026,
+      "venue": "Information Processing & Management",
+      "url": "https://doi.org/10.1016/j.ipm.2026.105151",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Applying explainable AI to analyze size-sorted ESG portfolios",
+      "authors": "Kocaarslan, B.",
+      "year": 2026,
+      "venue": "Financial Innovation",
+      "url": "https://doi.org/10.1186/s40854-026-00975-0",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "The Right to Privacy in the Age of Algorithmic Surveillance: Is Puttaswamy Future-Proof?",
+      "authors": "Behera, M., & RAO, G.",
+      "year": 2026,
+      "venue": "International Journal For Multidisciplinary Research",
+      "url": "https://doi.org/10.36948/ijfmr.2026.v08i05.87925",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "The Evolution of the Music Industry in Light of Information and Communication Technologies",
+      "authors": "Irava, T.",
+      "year": 2026,
+      "venue": "CROSS-CULTURAL MANAGEMENT JOURNAL",
+      "url": "https://doi.org/10.70147/c28215227",
+      "cites": 0,
+      "topic": "AI governance"
     },
     {
       "date": "2026-09-19",
@@ -2010,56 +2062,6 @@
       "url": "https://doi.org/10.3390/app16178461",
       "cites": 0,
       "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-25",
-      "title": "Taxes and Investment: Evidence from the “Halloween Massacre” of 2006",
-      "authors": "Boland, M., Hlaing, K. P., & Lisowsky, P.",
-      "year": 2026,
-      "venue": "Journal of Accounting Research",
-      "url": "https://doi.org/10.1111/1475-679x.70084",
-      "cites": 0,
-      "topic": "JAR"
-    },
-    {
-      "date": "2026-08-25",
-      "title": "Staffing Leverage at the Audit Office and Audit Quality",
-      "authors": "Khavis, J., Li, M., & Szerwo, B.",
-      "year": 2026,
-      "venue": "Contemporary Accounting Research",
-      "url": "https://doi.org/10.1111/1911-3846.70081",
-      "cites": 0,
-      "topic": "CAR"
-    },
-    {
-      "date": "2026-08-22",
-      "title": "Decentralized Identity Management via Blockchain-Based Smart Contracts: A Cryptographic Self-Sovereign Framework",
-      "authors": "Beesabathuni, H. N.",
-      "year": 2026,
-      "venue": "International Journal of Intelligent Systems and Data Science",
-      "url": "https://doi.org/10.67231/s2b5mw29",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-22",
-      "title": "Gasless Verification in Decentralized Proof Systems: Design Patterns and Tradeoffs",
-      "authors": "Sotnykov, K.",
-      "year": 2026,
-      "venue": "International Journal of Computer Trends and Technology",
-      "url": "https://doi.org/10.14445/22312803/ijctt-v74i7p103",
-      "cites": 0,
-      "topic": "Ethereum Layer-2"
-    },
-    {
-      "date": "2026-08-22",
-      "title": "Water infrastructures in the territories they traverse: The challenge of environing in uncertain times",
-      "authors": "Bouleau, G., Guimont, C., & Petitimbert, R.",
-      "year": 2026,
-      "venue": "Futures",
-      "url": "https://doi.org/10.1016/j.futures.2026.103896",
-      "cites": 0,
-      "topic": "Futures Studies"
     }
   ],
   "mostcited": {
@@ -2403,7 +2405,72 @@
         "topic": "Ontology"
       }
     ],
+    "AI governance": [
+      {
+        "title": "A governance model for the application of AI in health care",
+        "authors": "Reddy, S., Allan, S., Coghlan, S., & Cooper, P.",
+        "year": 2019,
+        "venue": "Journal of the American Medical Informatics Association",
+        "url": "https://doi.org/10.1093/jamia/ocz192",
+        "cites": 954,
+        "topic": "AI governance"
+      },
+      {
+        "title": "Governance of artificial intelligence",
+        "authors": "Taeihagh, A.",
+        "year": 2021,
+        "venue": "Policy and Society",
+        "url": "https://doi.org/10.1080/14494035.2021.1928377",
+        "cites": 531,
+        "topic": "AI governance"
+      },
+      {
+        "title": "Generative AI in healthcare: an implementation science informed translational path on application, integration and governance",
+        "authors": "Reddy, S.",
+        "year": 2024,
+        "venue": "Implementation Science",
+        "url": "https://doi.org/10.1186/s13012-024-01357-9",
+        "cites": 521,
+        "topic": "AI governance"
+      },
+      {
+        "title": "A Layered Model for AI Governance",
+        "authors": "Gasser, U., & Almeida, V.",
+        "year": 2017,
+        "venue": "IEEE Internet Computing",
+        "url": "https://doi.org/10.1109/mic.2017.4180835",
+        "cites": 419,
+        "topic": "AI governance"
+      },
+      {
+        "title": "The Dark Sides of Artificial Intelligence: An Integrated AI Governance Framework for Public Administration",
+        "authors": "Wirtz, B. W., Weyerer, J. C., & Sturm, B.",
+        "year": 2020,
+        "venue": "International Journal of Public Administration",
+        "url": "https://doi.org/10.1080/01900692.2020.1749851",
+        "cites": 382,
+        "topic": "AI governance"
+      },
+      {
+        "title": "AI governance: themes, knowledge gaps and future agendas",
+        "authors": "Birkstedt, T., Minkkinen, M., Tandon, A., & Mäntymäki, M.",
+        "year": 2023,
+        "venue": "Internet Research",
+        "url": "https://doi.org/10.1108/intr-01-2022-0042",
+        "cites": 288,
+        "topic": "AI governance"
+      }
+    ],
     "NeurIPS": [
+      {
+        "title": "ImageNet classification with deep convolutional neural networks",
+        "authors": "Krizhevsky, A., Sutskever, I., & Hinton, G. E.",
+        "year": 2017,
+        "venue": "Communications of the ACM",
+        "url": "https://doi.org/10.1145/3065386",
+        "cites": 75618,
+        "topic": "NeurIPS"
+      },
       {
         "title": "Probabilistic Matrix Factorization",
         "authors": "Mnih, A., & Salakhutdinov, R.",
@@ -2448,19 +2515,75 @@
         "url": "https://openalex.org/W2155461593",
         "cites": 1714,
         "topic": "NeurIPS"
-      },
-      {
-        "title": "Neural Word Embedding as Implicit Matrix Factorization",
-        "authors": "Levy, O., & Goldberg, Y.",
-        "year": 2014,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://openalex.org/W2125031621",
-        "cites": 1588,
-        "topic": "NeurIPS"
       }
     ],
-    "ICML": [],
-    "ICLR": [],
+    "ICML": [
+      {
+        "title": "Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data",
+        "authors": "Lafferty, J., McCallum, A., & Pereira, F. C. N.",
+        "year": 2001,
+        "venue": "ScholarlyCommons (University of Pennsylvania)",
+        "url": "https://openalex.org/W2147880316",
+        "cites": 12952,
+        "topic": "ICML"
+      }
+    ],
+    "ICLR": [
+      {
+        "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
+        "authors": "Li, Z., Kovachki, N., Azizzadenesheli, K., Liu, B., Bhattacharya, K., Stuart, A. M., et al.",
+        "year": 2021,
+        "venue": "CaltechAUTHORS (California Institute of Technology)",
+        "url": "https://openalex.org/W3118310857",
+        "cites": 229,
+        "topic": "ICLR"
+      },
+      {
+        "title": "Generative Modeling for Protein Structures",
+        "authors": "Anand, N., & Huang, P.",
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://openalex.org/W2891185006",
+        "cites": 117,
+        "topic": "ICLR"
+      },
+      {
+        "title": "Faster Neural Networks Straight from JPEG",
+        "authors": "Gueguen, L., Sergeev, A. E., Kadlec, B., Liu, R., & Yosinski, J.",
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://openalex.org/W2891364477",
+        "cites": 74,
+        "topic": "ICLR"
+      },
+      {
+        "title": "Deep learning for physical processes: incorporating prior scientific knowledge*",
+        "authors": "Bézenac, E. D., Pajot, A., & Gallinari, P.",
+        "year": 2019,
+        "venue": "Journal of Statistical Mechanics Theory and Experiment",
+        "url": "https://doi.org/10.1088/1742-5468/ab3195",
+        "cites": 62,
+        "topic": "ICLR"
+      },
+      {
+        "title": "Building Generalizable Agents with a Realistic and Rich 3D Environment",
+        "authors": "Wu, Y., Wu, Y., Gkioxari, G., & Tian, Y.",
+        "year": 2018,
+        "venue": "CaltechAUTHORS (California Institute of Technology)",
+        "url": "https://openalex.org/W2963088756",
+        "cites": 41,
+        "topic": "ICLR"
+      },
+      {
+        "title": "Diversity-Driven Exploration Strategy for Deep Reinforcement Learning",
+        "authors": "Hong, Z., Shann, T., Su, S., Chang, Y., & Lee, C.",
+        "year": 2018,
+        "venue": "Neural Information Processing Systems",
+        "url": "https://openalex.org/W2962839548",
+        "cites": 27,
+        "topic": "ICLR"
+      }
+    ],
     "Futures Studies": [
       {
         "title": "Science for the post-normal age",

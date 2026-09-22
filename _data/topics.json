@@ -315,16 +315,73 @@
       "count": 24988
     },
     {
+      "topic": "AI governance",
+      "query": "AI governance",
+      "papers": [
+        {
+          "title": "AI Governance in a Complex and Rapidly Changing Regulatory Landscape: A Global Perspective",
+          "authors": "Zaidan, E., & Ibrahim, I. A.",
+          "year": 2024,
+          "venue": "Humanities and Social Sciences Communications",
+          "url": "https://doi.org/10.1057/s41599-024-03560-x",
+          "cites": 181
+        },
+        {
+          "title": "Responsible AI Pattern Catalogue: A Collection of Best Practices for AI Governance and Engineering",
+          "authors": "Lu, Q., Zhu, L., Xu, X., Whittle, J., Zowghi, D., & Jacquet, A.",
+          "year": 2023,
+          "venue": "ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3626234",
+          "cites": 113
+        },
+        {
+          "title": "Trust, trustworthiness and AI governance",
+          "authors": "Lahusen, C., Maggetti, M., & Slavkovik, M.",
+          "year": 2024,
+          "venue": "Scientific Reports",
+          "url": "https://doi.org/10.1038/s41598-024-71761-0",
+          "cites": 60
+        },
+        {
+          "title": "The governance of artificial intelligence in Canada: Findings and opportunities from a review of 84 AI governance initiatives",
+          "authors": "Attard-Frost, B., Brandusescu, A., & Lyons, K.",
+          "year": 2024,
+          "venue": "Government Information Quarterly",
+          "url": "https://doi.org/10.1016/j.giq.2024.101929",
+          "cites": 82
+        }
+      ],
+      "count": 106090
+    },
+    {
       "topic": "NeurIPS",
       "query": "venue:S4306420609",
-      "papers": [],
-      "count": 0
+      "papers": [
+        {
+          "title": "Differentially Private Sampling from Distributions",
+          "authors": "Raskhodnikova, S., Sivakumar, S., Smith, A., & Swanberg, M.",
+          "year": 2025,
+          "venue": "SIAM Journal on Computing",
+          "url": "https://doi.org/10.1137/22m1538703",
+          "cites": 1
+        }
+      ],
+      "count": 2
     },
     {
       "topic": "ICML",
       "query": "venue:S4306419644",
-      "papers": [],
-      "count": 0
+      "papers": [
+        {
+          "title": "Fairness and Bias in Online Selection",
+          "authors": "Correa, J., Cristi, A., Duetting, P., & Norouzi-Fard, A.",
+          "year": 2025,
+          "venue": "Operations Research",
+          "url": "https://doi.org/10.1287/opre.2021.0662",
+          "cites": 3
+        }
+      ],
+      "count": 2
     },
     {
       "topic": "ICLR",
