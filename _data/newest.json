@@ -81,11 +81,381 @@
   "papers": [
     {
       "date": "2026-09-22",
+      "title": "Replications, Revisions, and Reanalyses: Managing Empirical Evidence in Software Engineering",
+      "authors": "Frattini, J., Fischbach, J., Fucci, D., Unterkalmsteiner, M., Mendez, D., Feldt, R., et al.",
+      "year": 2026,
+      "venue": "Frontiers in Computer Science",
+      "url": "https://doi.org/10.3389/fcomp.2026.1937190",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Discrete Margin-Infused Laplacian Boost Technique for Detecting Early Alzheimer's Disease",
+      "authors": "R., D. V., S., S. K., & S., S. K.",
+      "year": 2026,
+      "venue": "Journal of Innovative Image Processing",
+      "url": "https://doi.org/10.36548/jiip.2026.4.001",
+      "cites": 0,
+      "topic": "Graph database"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Correcting Autodifferentiation in Neural ODE Training",
+      "authors": "Xu, Y., Chen, S., & Li, Q.",
+      "year": 2026,
+      "venue": "SIAM Journal on Applied Mathematics",
+      "url": "https://doi.org/10.1137/25m172673x",
+      "cites": 1,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "DMET-Based Composite Learning Adaptive Optimized Fixed-Time Control for Uncertain Nonlinear Multi-agent Systems",
+      "authors": "Cheng, Y., Wu, J., & Li, X.",
+      "year": 2026,
+      "venue": "International Journal of Fuzzy Systems",
+      "url": "https://doi.org/10.1007/s40815-026-02280-5",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Real-time bus arrival prediction and bus bunching prevention using a multi-agent LSTM approach",
+      "authors": "Rawat, S., Abaidullina, A., Alimbayeva, D., Kumar, D., & Kumar, P.",
+      "year": 2026,
+      "venue": "Frontiers in Built Environment",
+      "url": "https://doi.org/10.3389/fbuil.2026.1894212",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Neurosymbolic code auditing",
+      "authors": "Wang, C., Zhang, Z., Xu, X., Zheng, M., Wei, G., & Zhang, X.",
+      "year": 2026,
+      "venue": "Foundations and Trends® in Programming Languages",
+      "url": "https://doi.org/10.1108/ftpgl-11-2025-0068",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "An \\({hp}\\)-Version Time Stepping Spectral Monte Carlo Method for Semi-linear Parabolic Equations",
+      "authors": "Feng, J., Hui, Z., Sheng, C., & Xu, C.",
+      "year": 2026,
+      "venue": "SIAM Journal on Numerical Analysis",
+      "url": "https://doi.org/10.1137/25m1787045",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "A Bibliometric Study of the Emerging Trends in Blockchain Research",
+      "authors": "Bărbuță, D., & Alexandrescu, A.",
+      "year": 2026,
+      "venue": "Future Internet",
+      "url": "https://doi.org/10.3390/fi18100500",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Hardware-assisted zero-knowledge authentication scheme for resource-constrained IoT terminals: USBKEY implementation and evaluation based on GSVOLE-2DLC",
+      "authors": "Wang, J., Xu, Z., Zhou, R., Xiao, C., & Zhang, L.",
+      "year": 2026,
+      "venue": "Journal of King Saud University - Computer and Information Sciences",
+      "url": "https://doi.org/10.1007/s44443-026-01300-6",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Multi-Task Deep Recommender Systems: A Survey",
+      "authors": "Wang, Y., Lam, H. T., Wong, Y. L., Liu, Z., Wang, W., Wang, Y., et al.",
+      "year": 2026,
+      "venue": "ACM Computing Surveys",
+      "url": "https://doi.org/10.1145/3846376",
+      "cites": 8,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Context-aware semantic similarity measurement for unsupervised word sense disambiguation",
+      "authors": "Martínez-Gil, J.",
+      "year": 2026,
+      "venue": "Applied Intelligence",
+      "url": "https://doi.org/10.1007/s10489-026-07492-8",
+      "cites": 1,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Multi-task Learning with Active Learning for Arabic Offensive Speech Detection",
+      "authors": "Alansari, A., & Luqman, H.",
+      "year": 2026,
+      "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+      "url": "https://doi.org/10.1145/3848627",
+      "cites": 1,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Link Prediction in Networked Data Using Structural Features and Machine Learning",
+      "authors": "Li, K.",
+      "year": 2026,
+      "venue": "Theoretical and Natural Science",
+      "url": "https://doi.org/10.54254/2753-8818/2026.37054",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Wavelet-enhanced Mamba and graph network-based model for time series anomaly detection",
+      "authors": "Xu, H., Ren, J., Liu, J., Ma, Z., Huang, W., & Niu, J.",
+      "year": 2026,
+      "venue": "International Journal of Machine Learning and Cybernetics",
+      "url": "https://doi.org/10.1007/s13042-026-03250-x",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "An interpretable deep learning framework for classifying neuronal morphologies using topology and graph neural networks",
+      "authors": "Kanari, L., Schmidt, S., Casalegno, F., Delattre, É., Lukic, J. B., Negrello, T., et al.",
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "url": "https://doi.org/10.1038/s41598-026-71217-7",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "A graph neural network surrogate for traffic simulation in probabilistic wildfire evacuation planning",
+      "authors": "Pishahang, M. H., Rodríguez, E., & Droguett, E. L.",
+      "year": 2026,
+      "venue": "Safety Science",
+      "url": "https://doi.org/10.1016/j.ssci.2026.107460",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Attack Chain Reconstruction Method Based on LLM Prior-Knowledge Guidance and Heterogeneous Graph Reasoning",
+      "authors": "Ni, L., Pei, J., Wang, H., & Chen, H.",
+      "year": 2026,
+      "venue": "Electronics",
+      "url": "https://doi.org/10.3390/electronics15194348",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "A dynamic graph convolutional network with multiscaled attention for traffic prediction",
+      "authors": "Ding, W., Xue, R., Yu, Q., Zhang, T., Chen, C., & Zhang, X.",
+      "year": 2026,
+      "venue": "International Journal of Web Information Systems",
+      "url": "https://doi.org/10.1108/ijwis-03-2026-0147",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Advancing Soil Assessment Quality for Crop Yield Prediction Using an Optimized Category Integrated Dual Task Graph Neural Network Approach",
+      "authors": "Mohana, J., Dass, P., Sathesh, M., Jayandhi, G., & Meganathan, R.",
+      "year": 2026,
+      "venue": "Irrigation and Drainage",
+      "url": "https://doi.org/10.1002/ird.70227",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Study of Mainstream Methods in Stock Price Prediction: Performance Characteristics, Comparative Analysis and Fusion Innovation Directions",
+      "authors": "Huang, Y.",
+      "year": 2026,
+      "venue": "Advances in Economics Management and Political Sciences",
+      "url": "https://doi.org/10.54254/2754-1169/2026.37196",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "A Review of Chest Imaging Report Generation Enhanced by Knowledge Graphs and Graph Neural Networks",
+      "authors": "Song, B.",
+      "year": 2026,
+      "venue": "Applied and Computational Engineering",
+      "url": "https://doi.org/10.54254/2755-2721/2026.ast37152",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Preserving the Motif-Relevant Structure in Graph Neural Networks: An Entropy-Aware Study of Aggregation and Depth",
+      "authors": "Kunst, L., Schwenker, F., & Kestler, H. A.",
+      "year": 2026,
+      "venue": "Entropy",
+      "url": "https://doi.org/10.3390/e28101043",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "From Data-Model Fit to Model-World Fit: A Framework for Integrating Domain Knowledge into Artificial Intelligence",
+      "authors": "Castellanos, A., Tremblay, M. C., Lukyanenko, R., Parsons, J., & Storey, V. C.",
+      "year": 2026,
+      "venue": "Information Systems Research",
+      "url": "https://doi.org/10.1287/isre.2023.0031",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-09-22",
       "title": "Performance, Attention, and Authority: Rethinking AI-Enabled Enterprise Performance Management",
       "authors": "Wouters, R.",
       "year": 2026,
       "venue": "Journal of Artificial Intelligence General science (JAIGS) ISSN 3006-4023",
       "url": "https://doi.org/10.60087/jaigs.v10i01.503",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Design and Deployment of Custom GPT Solutions Using Azure OpenAI Service",
+      "authors": "Trajanoski, S., & Karadimce, A.",
+      "year": 2026,
+      "venue": "WSEAS Transactions on Computers archive",
+      "url": "https://doi.org/10.37394/23205.2026.25.14",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "AI Governance Frameworks for Privacy-Preserving Intelligent Systems: Integrating Trust, Compliance, and Secure Data Architectures",
+      "authors": "Taherdoost, H.",
+      "year": 2026,
+      "venue": "Electronics",
+      "url": "https://doi.org/10.3390/electronics15194356",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Generative AI and the Reconfiguration of Creative Works in Short-Form Video Production: A Scoping Review",
+      "authors": "Yu, F.",
+      "year": 2026,
+      "venue": "Applied and Computational Engineering",
+      "url": "https://doi.org/10.54254/2755-2721/2026.ld37154",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Automating knowledge work while preserving human judgement: Chat Everywhere and AI-mediated learning platforms in the automated economy",
+      "authors": "Portugal, J.",
+      "year": 2026,
+      "venue": "ROBONOMICS The Journal of the Automated Economy",
+      "url": "https://doi.org/10.67723/rj.v7i.103",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "The same model, different responsibilities: Responsible NLP under the EU AI Act",
+      "authors": "Lamsiyah, S.",
+      "year": 2026,
+      "venue": "Natural language processing.",
+      "url": "https://doi.org/10.1017/nlp.2026.10036",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Cloud-Native Data Architecture: Optimizing Enterprise Analytics Using Multi-Cloud Data Warehousing Platforms",
+      "authors": "Azam, M. A., Kaur, G., & Roy, K. K.",
+      "year": 2026,
+      "venue": "The American Journal of Engineering And Technology",
+      "url": "https://doi.org/10.37547/tajet/volume08issue09-06",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Enterprise AI Governance Architecture: Integrating Security, Risk, Compliance, and Human Oversight",
+      "authors": "Bellala, K. R.",
+      "year": 2026,
+      "venue": "International Journal of Science and Research (IJSR)",
+      "url": "https://doi.org/10.21275/sr26919094233",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "ALGORITHMIC HOMOGENIZATION AND THE \"ECHO CHAMBER 2.0\": QUANTIFYING CULTURAL STAGNATION IN AUTOMATED MEDIA ENVIRONMENTS",
+      "authors": "Bhatia, P. S., Singh, J., & Kumar, A.",
+      "year": 2026,
+      "venue": "ShodhKosh Journal of Visual and Performing Arts",
+      "url": "https://doi.org/10.29121/shodhkosh.v7.i2.2026.9244",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Decentralized blockchain governance for explainable causal AI in macroeconomic forecasting",
+      "authors": "Abouzaid, O., & Boussedra, F.",
+      "year": 2026,
+      "venue": "Frontiers in Blockchain",
+      "url": "https://doi.org/10.3389/fbloc.2026.1883639",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "A Threat Modeling Prioritization and Automation Framework for Composable Architectures",
+      "authors": "Popescu, L., & Brad, R.",
+      "year": 2026,
+      "venue": "Future Internet",
+      "url": "https://doi.org/10.3390/fi18100499",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Systematically Reducing Hallucination in Generative AI from Users to Data to Models",
+      "authors": "Chen, J.",
+      "year": 2026,
+      "venue": "Applied and Computational Engineering",
+      "url": "https://doi.org/10.54254/2755-2721/2026.37185",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Born into the Algorithm: Global Law, Cognitive Autonomy, and Children’s Rights in the Age of Artificial Intelligence",
+      "authors": "Haley, P.",
+      "year": 2026,
+      "venue": "Laws",
+      "url": "https://doi.org/10.3390/laws15050120",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "From Chain-Based Global Value Chains to Intelligent Service Ecosystems: New Forms and Governance Challenges in China's Digital Services Trade Driven by Large AI Models",
+      "authors": "Chen, Y.",
+      "year": 2026,
+      "venue": "Advances in Economics Management and Political Sciences",
+      "url": "https://doi.org/10.54254/2754-1169/2026.37180",
+      "cites": 0,
+      "topic": "AI governance"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Rasyonel Fiyattan Algoritmik Rasyonaliteye: Yapay Zekâ Destekli Fiyatlandırmada Davranışsal Dönüşüm",
+      "authors": "Kasap, A., Karakus, M. C., Tecirli, F., & Kaya, Ç.",
+      "year": 2026,
+      "venue": "3 SEKTÖR SOSYAL EKONOMİ DERGİSİ",
+      "url": "https://doi.org/10.63556/tisej.2026.1796",
       "cites": 0,
       "topic": "AI governance"
     },
@@ -241,6 +611,16 @@
     },
     {
       "date": "2026-09-21",
+      "title": "Control-Plane Placement and Memory Substrates in Modern Agentic AI: A Comparative Method for Prompt-Native Systems, Agent Shells, and Durable Runtimes",
+      "authors": "Bondarenko, A., Zamorskaia, N., Djakons, D., Djakona, A., & Djakons, R.",
+      "year": 2026,
+      "venue": "Latvian Journal of Physics and Technical Sciences",
+      "url": "https://doi.org/10.2478/lpts-2026-0036",
+      "cites": 0,
+      "topic": "Memory in Agentic AI"
+    },
+    {
+      "date": "2026-09-21",
       "title": "Differentially private multimodal in-context learning via adaptive semantic manifold synthesis in large foundation models",
       "authors": "Yan, S., Guo, X., Gu, L., Li, Y., Mei, L. C., Kong, W., et al.",
       "year": 2026,
@@ -331,6 +711,16 @@
     },
     {
       "date": "2026-09-21",
+      "title": "Zk-InterChain: privacy-preserving protocol for cross-chain interactions between consortium and public blockchains",
+      "authors": "Tran, T., Tran, T., & Huynh, B.",
+      "year": 2026,
+      "venue": "The Journal of Supercomputing",
+      "url": "https://doi.org/10.1007/s11227-026-08820-y",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)"
+    },
+    {
+      "date": "2026-09-21",
       "title": "A Cumulative Ordered Spike-and-Slab Prior for Adaptive Dimension Selection in Joint Latent Space Models",
       "authors": "Lv, B., Tang, Y., & Zhang, S.",
       "year": 2026,
@@ -348,206 +738,6 @@
       "url": "https://doi.org/10.1007/s10618-026-01267-y",
       "cites": 0,
       "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "SR-CGCNN: Shared recurrent convolution in crystal graph neural networks for materials property prediction",
-      "authors": "Bhattacharjee, S.",
-      "year": 2026,
-      "venue": "Computational Materials Science",
-      "url": "https://doi.org/10.1016/j.commatsci.2026.115074",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Meteorological Time Series Interpolation: A Literature Review of Classical, Machine Learning and Deep Learning Approaches",
-      "authors": "Landassuri-Moreno, V. M., Martínez, A., Escobar, S. J. M., Salas, S. L., & López, M. Q.",
-      "year": 2026,
-      "venue": "International Journal of Combinatorial Optimization Problems and Informatics.",
-      "url": "https://doi.org/10.61467/2007.1558.2027.v18i1.1516",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Tarsius Image-Source Classification Using VGG Feature Extraction and Machine Learning Classifiers",
-      "authors": "Korompis, C. E. M., & Yuadi, I.",
-      "year": 2026,
-      "venue": "Journal of Business Social and Technology",
-      "url": "https://doi.org/10.59261/bustechno.v7i4.761",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Nested Sliding Surface in Robust Neuro Fuzzy Control for a Servomechanism System Regulation",
-      "authors": "Samperio, O., Ordaz, P., & Ramos-Fernandez, J. C.",
-      "year": 2026,
-      "venue": "International Journal of Combinatorial Optimization Problems and Informatics.",
-      "url": "https://doi.org/10.61467/2007.1558.2027.v18i1.1517",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "A battery life prediction method based on graph neural network assisted by deep reinforcement learning",
-      "authors": "Shen, H., Li, F., Shao, J., Jin, C., He, L., Ding, Y., et al.",
-      "year": 2026,
-      "venue": "Journal of Energy Storage",
-      "url": "https://doi.org/10.1016/j.est.2026.124517",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "PathSepsisNet: a pathway-aware temporal graph attention network integrating inflammatory crosstalk dynamics for early prediction of multi-organ dysfunction in sepsis",
-      "authors": "Üstündağ, H., & Doğanay, S.",
-      "year": 2026,
-      "venue": "Purinergic Signalling",
-      "url": "https://doi.org/10.1007/s11302-026-10185-z",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Improvement of personalized recommendation service level of intelligent libraries based on artificial intelligence and big data mining technology",
-      "authors": "Zhang, C.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-72513-y",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "AlloPool is a deep learning framework that infers protein allostery from molecular dynamics simulations",
-      "authors": "Marfoglia, M., Pedraza-Joya, M. A., Guirardel, L., Souleiman, A. C., & Barth, P.",
-      "year": 2026,
-      "venue": "PLoS Biology",
-      "url": "https://doi.org/10.1371/journal.pbio.3004002",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Online intrusion detection in computer networks using edge-aware attentive graph neural network",
-      "authors": "Kiss, Á., Nehéz, K., & Hornyák, O.",
-      "year": 2026,
-      "venue": "Intelligent Data Analysis",
-      "url": "https://doi.org/10.1177/1088467x261488186",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Shaping Graph Neural Networks with Dynamical Systems",
-      "authors": "Gravina, A.",
-      "year": 2026,
-      "venue": "Intelligenza Artificiale",
-      "url": "https://doi.org/10.1177/17248035261488802",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Deep Generative and Graph-Based Representation Learning for Multiomics Survival Stratification in Ovarian Cancer: Secondary Analysis",
-      "authors": "Marino, C. A., & Paz, C. D.",
-      "year": 2026,
-      "venue": "JMIR Bioinformatics and Biotechnology",
-      "url": "https://doi.org/10.2196/89069",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Power Bond graph-embedded causal flow-aware graph neural network for fault localization of electro-hydraulic systems",
-      "authors": "Gao, H., Huo, X., Meng, J., & He, C.",
-      "year": 2026,
-      "venue": "Mechanical Systems and Signal Processing",
-      "url": "https://doi.org/10.1016/j.ymssp.2026.114985",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Detecting communities in social networks with graph convolutional neural networks",
-      "authors": "Rekha, M., & Ganai, A. H.",
-      "year": 2026,
-      "venue": "Discover Artificial Intelligence",
-      "url": "https://doi.org/10.1007/s44163-026-02218-8",
-      "cites": 0,
-      "topic": "Graph neural networks (GNN)"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Integrating Artificial Intelligence into Knowledge Management: The Case of Lithuanian Business Organizations",
-      "authors": "Stasiūnaitė, I., & Siudikienė, D.",
-      "year": 2026,
-      "venue": "Information & Media",
-      "url": "https://doi.org/10.15388/im.2026.105.1",
-      "cites": 0,
-      "topic": "AI governance"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Data Pipeline Architecture for the Integration of Technology and Artificial Intelligence in the Competencies of the Future Manager",
-      "authors": "Orán, M. M., González-Mosqueda, M. L., Martínez-Tapia, K., Tagle, A. Á., Torres, E. D. J. M., Chiapa-Tellez, F., et al.",
-      "year": 2026,
-      "venue": "International Journal of Combinatorial Optimization Problems and Informatics.",
-      "url": "https://doi.org/10.61467/2007.1558.2027.v18i1.1509",
-      "cites": 0,
-      "topic": "AI governance"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Editor’s introduction",
-      "authors": "Kou, G.",
-      "year": 2026,
-      "venue": "Financial Innovation",
-      "url": "https://doi.org/10.1186/s40854-026-00976-z",
-      "cites": 0,
-      "topic": "AI governance"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Geospatial Artificial Intelligence (GeoAI) for Sustainable Urban Governance: A Systematic Review and Governance-Oriented Framework",
-      "authors": "Stephan, J., & Elmazi, G.",
-      "year": 2026,
-      "venue": "Smart Cities",
-      "url": "https://doi.org/10.3390/smartcities9090159",
-      "cites": 0,
-      "topic": "AI governance"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Leveraging Human Rights Frameworks for Agentic AI Governance",
-      "authors": "Lee, A., & Naimi, S.",
-      "year": 2026,
-      "venue": "Business and Human Rights Journal",
-      "url": "https://doi.org/10.1017/bhj.2026.10055",
-      "cites": 0,
-      "topic": "AI governance"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "From Formal Regulation to Operational Capacity: Asymmetric Adaptive Coordination in Deepfake Governance",
-      "authors": "Shi, J.",
-      "year": 2026,
-      "venue": "International Journal of Law Ethics and Social Sciences",
-      "url": "https://doi.org/10.70088/ah5fhc98",
-      "cites": 0,
-      "topic": "AI governance"
-    },
-    {
-      "date": "2026-09-21",
-      "title": "Aurora and the Attribution of Runtime AI Governance",
-      "authors": "Stokes, M.",
-      "year": 2026,
-      "venue": "Open Science Framework",
-      "url": "https://doi.org/10.17605/osf.io/rh8gy",
-      "cites": 0,
-      "topic": "AI governance"
     },
     {
       "date": "2026-09-20",
@@ -601,41 +791,11 @@
     },
     {
       "date": "2026-09-20",
-      "title": "A multimodal accident scenario database construction method for end-to-end autonomous vehicle testing",
-      "authors": "Zhao, J., Li, W., Zhu, B., Zhang, P., Jia, S., & Huang, Y.",
-      "year": 2026,
-      "venue": "Accident Analysis & Prevention",
-      "url": "https://doi.org/10.1016/j.aap.2026.108781",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-20",
-      "title": "AI-driven carbon and green accounting: architectures, applications, and the AI sustainability paradox",
-      "authors": "Yang, Q.",
-      "year": 2026,
-      "venue": "Journal of Applied Economics and Policy Studies",
-      "url": "https://doi.org/10.54254/2977-5701/2026.37242",
-      "cites": 0,
-      "topic": "Graph database"
-    },
-    {
-      "date": "2026-09-20",
       "title": "AlphaZeroBeta: deep reinforcement learning for market-neutral portfolios",
       "authors": "Belyakov, B.",
       "year": 2026,
       "venue": "Financial Innovation",
       "url": "https://doi.org/10.1186/s40854-026-00955-4",
-      "cites": 0,
-      "topic": "Memory in Agentic AI"
-    },
-    {
-      "date": "2026-09-20",
-      "title": "EH-SWADS: energy-harvesting smart weather-aware drone sink for agricultural WSNs",
-      "authors": "Ahmed, N., Ghareeb, A. N., Fouad, Y., & Selem, E.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-72319-y",
       "cites": 0,
       "topic": "Memory in Agentic AI"
     },
@@ -691,46 +851,6 @@
     },
     {
       "date": "2026-09-20",
-      "title": "Balancing trade-offs in circular medical device design: a case study on laparoscopic devices",
-      "authors": "Hoveling, T., Muindi, N., Faludi, J., & Bakker, C.",
-      "year": 2026,
-      "venue": "Journal of Industrial Ecology",
-      "url": "https://doi.org/10.1007/s44498-026-00189-8",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Leakage-aware hybrid tabular deep learning with target-provenance auditing for calorie-expenditure prediction and constrained exercise food recommendation",
-      "authors": "Raju, A. S. N., Gatla, R. K., Polamuri, S. R., Sekhar, G. C., Hussain, S. J., Kumar, D. G., et al.",
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "url": "https://doi.org/10.1038/s41598-026-71211-z",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Digital engagement, competitive balance, and stadium attendance in Indian Women's Football: An explainable machine learning and PLS-SEM framework",
-      "authors": "Sarkar, P., Som, S., & Bhat, R.",
-      "year": 2026,
-      "venue": "International Journal of Business and Management (IJBM)",
-      "url": "https://doi.org/10.56879/ijbm.v5i3.134",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-20",
-      "title": "Which inference is at risk? Assessment validity reasoning and generative AI",
-      "authors": "Weidlich, J.",
-      "year": 2026,
-      "venue": "Assessment & Evaluation in Higher Education",
-      "url": "https://doi.org/10.1080/02602938.2026.2734795",
-      "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
-    },
-    {
-      "date": "2026-09-20",
       "title": "Developing meta-FM machine learning model with application for personalized language learning environment",
       "authors": "Li, Q., & Zhang, Y.",
       "year": 2026,
@@ -766,6 +886,16 @@
       "year": 2026,
       "venue": "Knowledge Commons (Lakehead University)",
       "url": "https://doi.org/10.17613/njhbw-mv413",
+      "cites": 0,
+      "topic": "Ontology"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "AI-driven carbon and green accounting: architectures, applications, and the AI sustainability paradox",
+      "authors": "Yang, Q.",
+      "year": 2026,
+      "venue": "Journal of Applied Economics and Policy Studies",
+      "url": "https://doi.org/10.54254/2977-5701/2026.37242",
       "cites": 0,
       "topic": "Ontology"
     },
@@ -946,26 +1076,6 @@
       "year": 2026,
       "venue": "Journal of Social Science and Human Research Studies",
       "url": "https://doi.org/10.65150/ep-jsshrs/v2e9/2026-11",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "The philosophy of biolinguistics: a perspectival approach",
-      "authors": "Balari, S.",
-      "year": 2026,
-      "venue": "European Journal for Philosophy of Science",
-      "url": "https://doi.org/10.1007/s13194-026-00777-2",
-      "cites": 0,
-      "topic": "Ontology"
-    },
-    {
-      "date": "2026-09-19",
-      "title": "Perspectives on projective techniques in consumer research: a review, primary analysis, and methodological guidance",
-      "authors": "France, S. L., Albinsson, P. A., & Luintel, S.",
-      "year": 2026,
-      "venue": "Journal of Marketing Analytics",
-      "url": "https://doi.org/10.1057/s41270-026-00540-9",
       "cites": 0,
       "topic": "Ontology"
     },
@@ -3436,18 +3546,8 @@
       "year": 2026,
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103905",
-      "cites": 1,
+      "cites": 2,
       "topic": "Futures Studies"
-    },
-    {
-      "date": "2026-08-12",
-      "title": "Exogenous stock liquidity improvements and voluntary disclosure",
-      "authors": "Hagenberg, T. C., Miller, B. P., Sharma, A., & Yohn, T. L.",
-      "year": 2026,
-      "venue": "Review of Accounting Studies",
-      "url": "https://doi.org/10.1007/s11142-026-09984-x",
-      "cites": 0,
-      "topic": "RAST"
     },
     {
       "date": "2026-08-11",
@@ -3787,7 +3887,7 @@
         "year": 2008,
         "venue": "ACM Computing Surveys",
         "url": "https://doi.org/10.1145/1322432.1322433",
-        "cites": 1712,
+        "cites": 1713,
         "topic": "Graph database"
       },
       {
@@ -3796,7 +3896,7 @@
         "year": 2017,
         "venue": "ACM Computing Surveys",
         "url": "https://doi.org/10.1145/3104031",
-        "cites": 384,
+        "cites": 385,
         "topic": "Graph database"
       },
       {
@@ -3823,7 +3923,7 @@
         "year": 2012,
         "venue": "ACM SIGMOD Record",
         "url": "https://doi.org/10.1145/2206869.2206879",
-        "cites": 275,
+        "cites": 276,
         "topic": "Graph database"
       },
       {
@@ -3872,7 +3972,7 @@
         "year": 2025,
         "venue": "Proceedings of the ACM on Management of Data",
         "url": "https://doi.org/10.1145/3725394",
-        "cites": 5,
+        "cites": 6,
         "topic": "LLM inference serving"
       },
       {
@@ -3930,7 +4030,7 @@
         "year": 1991,
         "venue": "Journal of the ACM",
         "url": "https://doi.org/10.1145/116825.116852",
-        "cites": 1362,
+        "cites": 1363,
         "topic": "Zero-knowledge proofs (ZKP)"
       },
       {
@@ -3939,7 +4039,7 @@
         "year": 1988,
         "venue": "Journal of Cryptology",
         "url": "https://doi.org/10.1007/bf02351717",
-        "cites": 1036,
+        "cites": 1037,
         "topic": "Zero-knowledge proofs (ZKP)"
       },
       {
@@ -3948,7 +4048,7 @@
         "year": 1994,
         "venue": "Journal of Cryptology",
         "url": "https://doi.org/10.1007/bf00195207",
-        "cites": 609,
+        "cites": 610,
         "topic": "Zero-knowledge proofs (ZKP)"
       },
       {
@@ -3986,7 +4086,7 @@
         "year": 2020,
         "venue": "IEEE Transactions on Neural Networks and Learning Systems",
         "url": "https://doi.org/10.1109/tnnls.2020.2978386",
-        "cites": 9991,
+        "cites": 10002,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -3995,7 +4095,7 @@
         "year": 2008,
         "venue": "IEEE Transactions on Neural Networks",
         "url": "https://doi.org/10.1109/tnn.2008.2005605",
-        "cites": 9748,
+        "cites": 9756,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -4004,7 +4104,7 @@
         "year": 2020,
         "venue": "AI Open",
         "url": "https://doi.org/10.1016/j.aiopen.2021.01.001",
-        "cites": 5876,
+        "cites": 5879,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -4013,7 +4113,7 @@
         "year": 2024,
         "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
         "url": "https://doi.org/10.4230/lipics.sea.2024.20",
-        "cites": 5417,
+        "cites": 5418,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -4022,7 +4122,7 @@
         "year": 2018,
         "venue": "Physical Review Letters",
         "url": "https://doi.org/10.1103/physrevlett.120.145301",
-        "cites": 2879,
+        "cites": 2883,
         "topic": "Graph neural networks (GNN)"
       },
       {
@@ -4042,7 +4142,7 @@
         "year": 1995,
         "venue": "International Journal of Human-Computer Studies",
         "url": "https://doi.org/10.1006/ijhc.1995.1066",
-        "cites": 1206,
+        "cites": 1209,
         "topic": "Ontology"
       },
       {
@@ -4098,7 +4198,7 @@
         "year": 2019,
         "venue": "Journal of the American Medical Informatics Association",
         "url": "https://doi.org/10.1093/jamia/ocz192",
-        "cites": 956,
+        "cites": 957,
         "topic": "AI governance"
       },
       {
@@ -4116,7 +4216,7 @@
         "year": 2024,
         "venue": "Implementation Science",
         "url": "https://doi.org/10.1186/s13012-024-01357-9",
-        "cites": 522,
+        "cites": 523,
         "topic": "AI governance"
       },
       {
@@ -4134,7 +4234,7 @@
         "year": 2020,
         "venue": "International Journal of Public Administration",
         "url": "https://doi.org/10.1080/01900692.2020.1749851",
-        "cites": 382,
+        "cites": 383,
         "topic": "AI governance"
       },
       {
@@ -4143,7 +4243,7 @@
         "year": 2023,
         "venue": "Internet Research",
         "url": "https://doi.org/10.1108/intr-01-2022-0042",
-        "cites": 288,
+        "cites": 289,
         "topic": "AI governance"
       }
     ],
@@ -4165,7 +4265,7 @@
         "year": 2021,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/2112.04426",
-        "cites": 1912,
+        "cites": 1914,
         "topic": "ICML"
       },
       {
@@ -4174,7 +4274,7 @@
         "year": 2017,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/1703.00443",
-        "cites": 1345,
+        "cites": 1348,
         "topic": "ICML"
       },
       {
@@ -4221,7 +4321,7 @@
         "year": 2020,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2010.02502",
-        "cites": 13510,
+        "cites": 13526,
         "topic": "ICLR"
       },
       {
@@ -4230,7 +4330,7 @@
         "year": 2022,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2201.12329",
-        "cites": 1425,
+        "cites": 1426,
         "topic": "ICLR"
       },
       {
@@ -4297,7 +4397,7 @@
         "year": 1993,
         "venue": "Futures",
         "url": "https://doi.org/10.1016/0016-3287(93)90022-l",
-        "cites": 4266,
+        "cites": 4267,
         "topic": "Futures Studies"
       },
       {
@@ -4315,7 +4415,7 @@
         "year": 2017,
         "venue": "Futures",
         "url": "https://doi.org/10.1016/j.futures.2017.03.006",
-        "cites": 1868,
+        "cites": 1869,
         "topic": "Futures Studies"
       },
       {
@@ -4324,7 +4424,7 @@
         "year": 2006,
         "venue": "Futures",
         "url": "https://doi.org/10.1016/j.futures.2005.12.002",
-        "cites": 1412,
+        "cites": 1415,
         "topic": "Futures Studies"
       },
       {
@@ -4353,7 +4453,7 @@
         "year": 2016,
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2016.08.019",
-        "cites": 8628,
+        "cites": 8633,
         "topic": "TFSC"
       },
       {
@@ -4371,7 +4471,7 @@
         "year": 2006,
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2006.03.002",
-        "cites": 2740,
+        "cites": 2743,
         "topic": "TFSC"
       },
       {
@@ -4380,7 +4480,7 @@
         "year": 2021,
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2021.121092",
-        "cites": 2416,
+        "cites": 2417,
         "topic": "TFSC"
       },
       {
@@ -4409,7 +4509,7 @@
         "year": 1995,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/tar-9505096112",
-        "cites": 6059,
+        "cites": 6065,
         "topic": "TAR"
       },
       {
@@ -4418,7 +4518,7 @@
         "year": 2002,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/accr.2002.77.s-1.35",
-        "cites": 5408,
+        "cites": 5411,
         "topic": "TAR"
       },
       {
@@ -4427,7 +4527,7 @@
         "year": 2010,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/accr.00000005",
-        "cites": 4135,
+        "cites": 4141,
         "topic": "TAR"
       },
       {
@@ -4436,7 +4536,7 @@
         "year": 1997,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/tar-9709240185",
-        "cites": 3601,
+        "cites": 3605,
         "topic": "TAR"
       },
       {
@@ -4445,7 +4545,7 @@
         "year": 2008,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/accr.2008.83.3.757",
-        "cites": 2942,
+        "cites": 2946,
         "topic": "TAR"
       },
       {
@@ -4454,7 +4554,7 @@
         "year": 1996,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/tar-9611271989",
-        "cites": 2838,
+        "cites": 2841,
         "topic": "TAR"
       }
     ],
@@ -4465,7 +4565,7 @@
         "year": 2001,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/s0165-4101(01)00018-0",
-        "cites": 7550,
+        "cites": 7558,
         "topic": "JAE"
       },
       {
@@ -4474,7 +4574,7 @@
         "year": 2005,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/j.jacceco.2004.11.002",
-        "cites": 7206,
+        "cites": 7213,
         "topic": "JAE"
       },
       {
@@ -4483,7 +4583,7 @@
         "year": 2005,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/j.jacceco.2005.01.002",
-        "cites": 6750,
+        "cites": 6756,
         "topic": "JAE"
       },
       {
@@ -4492,7 +4592,7 @@
         "year": 1981,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/0165-4101(81)90002-1",
-        "cites": 5950,
+        "cites": 5957,
         "topic": "JAE"
       },
       {
@@ -4501,7 +4601,7 @@
         "year": 2006,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/j.jacceco.2006.01.002",
-        "cites": 5408,
+        "cites": 5414,
         "topic": "JAE"
       },
       {
@@ -4510,7 +4610,7 @@
         "year": 2002,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/s0165-4101(02)00059-9",
-        "cites": 4568,
+        "cites": 4575,
         "topic": "JAE"
       }
     ],
@@ -4521,7 +4621,7 @@
         "year": 1991,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2491047",
-        "cites": 8710,
+        "cites": 8716,
         "topic": "JAR"
       },
       {
@@ -4530,7 +4630,7 @@
         "year": 1968,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490232",
-        "cites": 6608,
+        "cites": 6615,
         "topic": "JAR"
       },
       {
@@ -4539,7 +4639,7 @@
         "year": 1980,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490395",
-        "cites": 6144,
+        "cites": 6148,
         "topic": "JAR"
       },
       {
@@ -4548,7 +4648,7 @@
         "year": 1966,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490171",
-        "cites": 4739,
+        "cites": 4743,
         "topic": "JAR"
       },
       {
@@ -4557,7 +4657,7 @@
         "year": 2008,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.1111/j.1475-679x.2008.00287.x",
-        "cites": 3096,
+        "cites": 3099,
         "topic": "JAR"
       },
       {
@@ -4566,7 +4666,7 @@
         "year": 1984,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490859",
-        "cites": 2962,
+        "cites": 2964,
         "topic": "JAR"
       }
     ],
@@ -4577,7 +4677,7 @@
         "year": 1995,
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1995.tb00461.x",
-        "cites": 5273,
+        "cites": 5274,
         "topic": "CAR"
       },
       {
@@ -4586,7 +4686,7 @@
         "year": 1996,
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1996.tb00489.x",
-        "cites": 4255,
+        "cites": 4263,
         "topic": "CAR"
       },
       {
@@ -4595,7 +4695,7 @@
         "year": 1998,
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1998.tb00547.x",
-        "cites": 3338,
+        "cites": 3344,
         "topic": "CAR"
       },
       {
@@ -4613,7 +4713,7 @@
         "year": 1999,
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1999.tb00592.x",
-        "cites": 1979,
+        "cites": 1980,
         "topic": "CAR"
       },
       {
@@ -4622,7 +4722,7 @@
         "year": 2011,
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.2010.01041.x",
-        "cites": 1930,
+        "cites": 1931,
         "topic": "CAR"
       }
     ],
@@ -4633,7 +4733,7 @@
         "year": 2021,
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-021-09609-5",
-        "cites": 1867,
+        "cites": 1870,
         "topic": "RAST"
       },
       {
@@ -4642,7 +4742,7 @@
         "year": 2002,
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1023/a:1020294523516",
-        "cites": 1523,
+        "cites": 1524,
         "topic": "RAST"
       },
       {
@@ -4651,7 +4751,7 @@
         "year": 2005,
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-005-1535-3",
-        "cites": 1514,
+        "cites": 1515,
         "topic": "RAST"
       },
       {
@@ -4660,7 +4760,7 @@
         "year": 2004,
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1023/b:rast.0000013627.90884.b7",
-        "cites": 1357,
+        "cites": 1358,
         "topic": "RAST"
       },
       {
@@ -4669,7 +4769,7 @@
         "year": 2013,
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-013-9258-3",
-        "cites": 911,
+        "cites": 912,
         "topic": "RAST"
       },
       {

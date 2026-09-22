@@ -39,7 +39,7 @@
           "cites": 24
         }
       ],
-      "count": 10276
+      "count": 10275
     },
     {
       "topic": "Graph database",
@@ -78,7 +78,7 @@
           "cites": 15
         }
       ],
-      "count": 117281
+      "count": 117294
     },
     {
       "topic": "Memory in Agentic AI",
@@ -90,7 +90,7 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1616
+          "cites": 1620
         },
         {
           "title": "Memory-Based Event-Triggered Fault-Tolerant Consensus Control of Nonlinear Multi-Agent Systems and Its Applications",
@@ -106,7 +106,7 @@
           "year": 2024,
           "venue": "Cell",
           "url": "https://doi.org/10.1016/j.cell.2024.09.022",
-          "cites": 292
+          "cites": 295
         },
         {
           "title": "AI Agents vs. Agentic AI: A Conceptual taxonomy, applications and challenges",
@@ -114,10 +114,10 @@
           "year": 2025,
           "venue": "Information Fusion",
           "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-          "cites": 208
+          "cites": 211
         }
       ],
-      "count": 68556
+      "count": 68563
     },
     {
       "topic": "LLM inference serving",
@@ -137,7 +137,7 @@
           "year": 2025,
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
-          "cites": 5
+          "cites": 6
         },
         {
           "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
@@ -145,7 +145,7 @@
           "year": 2025,
           "venue": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 1002
+          "cites": 1004
         },
         {
           "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
@@ -156,7 +156,7 @@
           "cites": 27
         }
       ],
-      "count": 5866
+      "count": 5868
     },
     {
       "topic": "Ethereum Layer-2",
@@ -195,7 +195,7 @@
           "cites": 31
         }
       ],
-      "count": 546
+      "count": 547
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -226,15 +226,15 @@
           "cites": 48
         },
         {
-          "title": "Trusted Model Aggregation With Zero-Knowledge Proofs in Federated Learning",
-          "authors": "Ma, R., Hwang, K., and, M. L., & Miao, Y.",
-          "year": 2024,
-          "venue": "IEEE Transactions on Parallel and Distributed Systems",
-          "url": "https://doi.org/10.1109/tpds.2024.3455762",
-          "cites": 29
+          "title": "A Zero-Knowledge Proof-Enabled Blockchain-Based Academic Record Verification System",
+          "authors": "Moya, J. A. B., Ayoade, J., & Uddin, M. A.",
+          "year": 2025,
+          "venue": "Sensors",
+          "url": "https://doi.org/10.3390/s25113450",
+          "cites": 38
         }
       ],
-      "count": 40612
+      "count": 40619
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -246,7 +246,7 @@
           "year": 2024,
           "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
           "url": "https://doi.org/10.4230/lipics.sea.2024.20",
-          "cites": 5417
+          "cites": 5418
         },
         {
           "title": "Spatio-Temporal Graph Neural Networks for Predictive Learning in Urban Computing: A Survey",
@@ -262,7 +262,7 @@
           "year": 2024,
           "venue": "Journal Of Big Data",
           "url": "https://doi.org/10.1186/s40537-023-00876-4",
-          "cites": 590
+          "cites": 592
         },
         {
           "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
@@ -270,10 +270,10 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3443141",
-          "cites": 490
+          "cites": 491
         }
       ],
-      "count": 193582
+      "count": 193638
     },
     {
       "topic": "Ontology",
@@ -312,7 +312,7 @@
           "cites": 416
         }
       ],
-      "count": 25018
+      "count": 25013
     },
     {
       "topic": "AI governance",
@@ -332,7 +332,7 @@
           "year": 2023,
           "venue": "ACM Computing Surveys",
           "url": "https://doi.org/10.1145/3626234",
-          "cites": 114
+          "cites": 115
         },
         {
           "title": "Trust, trustworthiness and AI governance",
@@ -351,7 +351,7 @@
           "cites": 82
         }
       ],
-      "count": 106274
+      "count": 106321
     },
     {
       "topic": "NeurIPS",
@@ -457,7 +457,7 @@
           "year": 2024,
           "venue": "International Conference on Learning Representations",
           "url": "https://www.semanticscholar.org/paper/001d5eac903cee1be4b04b5fd6011034f18be3d1",
-          "cites": 62
+          "cites": 63
         },
         {
           "title": "Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs",
@@ -504,7 +504,7 @@
           "year": 2024,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
-          "cites": 303
+          "cites": 304
         }
       ],
       "count": 7364
@@ -566,7 +566,7 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123076",
-          "cites": 300
+          "cites": 301
         },
         {
           "title": "How does the digital transformation drive digital technology innovation of enterprises? Evidence from enterprise's digital patents",
@@ -652,7 +652,7 @@
           "year": 2023,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2023.101647",
-          "cites": 77
+          "cites": 78
         },
         {
           "title": "The impact of generative AI on information processing: Evidence from the ban of ChatGPT in Italy",
@@ -753,7 +753,7 @@
           "year": 2024,
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09833-9",
-          "cites": 96
+          "cites": 97
         },
         {
           "title": "ESG assurance in the United States",
@@ -780,7 +780,7 @@
           "cites": 47
         }
       ],
-      "count": 179
+      "count": 177
     }
   ]
 }
