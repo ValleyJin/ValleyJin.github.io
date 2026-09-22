@@ -263,6 +263,7 @@ img{max-width:100%;display:block}
 
 /* Newest: calendar left + selected-day list right */
 .newest{display:grid;grid-template-columns:330px 1fr;gap:30px;align-items:start;margin:2px 0 30px}
+.newest[hidden]{display:none!important}   /* display:grid가 UA의 [hidden]을 이기므로 명시적으로 숨김 */
 .newest .tcal{margin:0}
 .newest-list{min-width:0;max-height:472px;overflow-y:auto;padding-right:8px}
 .newest-list::-webkit-scrollbar{width:8px}
