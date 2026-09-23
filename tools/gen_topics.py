@@ -265,26 +265,41 @@ def _norm_title(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+def _title_cands(nm):
+    """저널명 후보들: 원문 + 괄호 안(정식명) + 괄호 밖(약칭).
+    'EPL (Europhysics Letters)' → ['epl (europhysics letters)', 'europhysics letters', 'epl']."""
+    cands = [nm]
+    m = re.search(r"\(([^)]+)\)", nm)
+    if m:
+        cands.append(_norm_title(m.group(1)))                        # 괄호 안
+        cands.append(_norm_title(re.sub(r"\s*\([^)]*\)\s*", " ", nm)))  # 괄호 제거
+    out, seen = [], set()
+    for c in cands:
+        if c and c not in seen:
+            seen.add(c); out.append(c)
+    return out
+
+
 def scholar_q(pub, sci):
     """Scholar 논문 venue 텍스트 → 저널 분위(Q)·SJR (SCImago 제목 매칭).
-    정확 일치 실패 시 접두 매칭(예: 'Proceedings of the National Academy of Sciences'
-    ↔ SCImago '…of the United States of America')."""
+    괄호 약칭/정식명 후보를 모두 시도하고, 정확 일치 실패 시 접두 매칭
+    (예: 'Proceedings of the National Academy of Sciences' ↔ SCImago '…of the United States of America')."""
     tmap = (sci or {}).get("title", {})
     if not tmap:
         return {}
-    nm = _norm_title(_journal_name(pub))
-    e = tmap.get(nm)
-    if not e and len(nm) >= 16:                 # 접두 폴백(너무 짧은 이름은 오매칭 방지)
-        for t, v in tmap.items():
-            if t.startswith(nm) or nm.startswith(t):
-                e = v
-                break
-    if not e:
-        return {}
-    out = {"q": e["q"]}
-    if e.get("sjr") is not None:
-        out["sjr"] = e["sjr"]
-    return out
+    for nm in _title_cands(_norm_title(_journal_name(pub))):
+        e = tmap.get(nm)
+        if not e and len(nm) >= 16:             # 접두 폴백(너무 짧은 이름은 오매칭 방지)
+            for t, v in tmap.items():
+                if t.startswith(nm) or nm.startswith(t):
+                    e = v
+                    break
+        if e:
+            out = {"q": e["q"]}
+            if e.get("sjr") is not None:
+                out["sjr"] = e["sjr"]
+            return out
+    return {}
 
 
 CORE_URL = "http://portal.core.edu.au/conf-ranks/?search=&by=all&source=all&sort=arank&do=Export"
@@ -325,8 +340,23 @@ def _norm_conf(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+# 정식 철자명이 표기마다 다른 대형 학회 → 약칭(고유 핵심구). 잘못된 등급 방지 위해
+# 'systems'까지 포함한 정밀 구문만(ICONIP 'neural information processing'과 구분).
+CONF_PHRASE = {
+    "neural information processing systems": "neurips",
+    "international conference on machine learning": "icml",
+    "international conference on learning representations": "iclr",
+    "computer vision and pattern recognition": "cvpr",
+    "empirical methods in natural language processing": "emnlp",
+    "association for computational linguistics": "acl",
+    "knowledge discovery and data mining": "kdd",
+    "conference on human factors in computing systems": "chi",
+}
+
+
 def conf_rank(venue, core, topic=None):
-    """학회 논문 → CORE 등급(A*/A/B/C). topic 약칭 → venue 약칭/제목 → 부분 매칭 순."""
+    """학회 논문 → CORE 등급(A*/A/B/C). topic 약칭 → venue 약칭/제목 → 정식명 부분매칭 →
+    대형 학회 고유 핵심구 매핑 순. 오매칭(틀린 등급) 방지를 최우선으로 보수적으로 매칭."""
     if not core:
         return {}
     acr, ttl = core.get("acr", {}), core.get("title", {})
@@ -336,16 +366,21 @@ def conf_rank(venue, core, topic=None):
     nm = _norm_conf(_journal_name(venue))
     if nm in ttl:
         return {"crank": ttl[nm]}
-    # 부분 매칭: 'Proceedings of the 36th Annual …', 'Thirty-seventh Conference on …'처럼
-    # 서수·연례 접두가 붙은 정식 proceedings 명 → CORE 정식명이 그 안에 포함되면 인정.
-    # 가장 긴(가장 구체적인) 매칭을 채택해 짧은 이름의 오매칭을 피한다.
+    # 정식 proceedings 명 그대로가 venue에 포함(예: '…36th Annual ACM Symposium on User…' → UIST).
+    # CORE 정식명 자체를 부분문자열로만 봐서(선두 관용어 strip 안 함) 유사명 오매칭을 피한다.
     full = _norm_conf(venue)
     best = None
     for t, rank in ttl.items():
         if len(t) >= 25 and (t in nm or t in full):
             if best is None or len(t) > len(best[0]):
                 best = (t, rank)
-    return {"crank": best[1]} if best else {}
+    if best:
+        return {"crank": best[1]}
+    # 대형 학회: 표기가 달라도(‘Conference on Neural Information Processing Systems’) 고유 핵심구로 인정.
+    for phrase, acro in CONF_PHRASE.items():
+        if phrase in full and acro in acr:
+            return {"crank": acr[acro]}
+    return {}
 
 
 # CS 학회는 OpenAlex 약칭 검색이 부정확 → 정식명으로 조회
