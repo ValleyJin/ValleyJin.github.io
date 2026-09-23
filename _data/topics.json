@@ -44,7 +44,41 @@
     {
       "topic": "Graph database",
       "query": "Graph database",
-      "papers": []
+      "papers": [
+        {
+          "title": "Testing Graph Database Systems via Graph-Aware Metamorphic Relations",
+          "authors": "Zhuang, Z., Li, P., Ma, P., Meng, W., & Wang, S.",
+          "year": 2023,
+          "venue": "Proceedings of the VLDB Endowment",
+          "url": "https://doi.org/10.14778/3636218.3636236",
+          "cites": 22
+        },
+        {
+          "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
+          "authors": "Hornsteiner, M., Kreussel, M., Steindl, C., Ebner, F. F., Empl, P., & Schönig, S.",
+          "year": 2024,
+          "venue": "Future Internet",
+          "url": "https://doi.org/10.3390/fi16120438",
+          "cites": 28
+        },
+        {
+          "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
+          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K. V.",
+          "year": 2024,
+          "venue": "MethodsX",
+          "url": "https://doi.org/10.1016/j.mex.2024.102683",
+          "cites": 18
+        },
+        {
+          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
+          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
+          "year": 2024,
+          "venue": "Proceedings of the VLDB Endowment",
+          "url": "https://doi.org/10.14778/3685800.3685814",
+          "cites": 15
+        }
+      ],
+      "count": 117231
     },
     {
       "topic": "Memory in Agentic AI",
@@ -166,12 +200,80 @@
     {
       "topic": "Zero-knowledge proofs (ZKP)",
       "query": "zero-knowledge proof",
-      "papers": []
+      "papers": [
+        {
+          "title": "Leveraging zero knowledge proofs for blockchain-based identity sharing: A survey of advancements, challenges and opportunities",
+          "authors": "Zhou, L., Diro, A. A., Saini, A., Kaisar, S., & Hiep, P. C.",
+          "year": 2024,
+          "venue": "Journal of Information Security and Applications",
+          "url": "https://doi.org/10.1016/j.jisa.2023.103678",
+          "cites": 181
+        },
+        {
+          "title": "zkFL: Zero-Knowledge Proof-Based Gradient Aggregation for Federated Learning",
+          "authors": "Wang, Z., Dong, N., Sun, J., Knottenbelt, W. J., & Guo, Y.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Big Data",
+          "url": "https://doi.org/10.1109/tbdata.2024.3403370",
+          "cites": 50
+        },
+        {
+          "title": "Securing Smart Manufacturing by Integrating Anomaly Detection With Zero-Knowledge Proofs",
+          "authors": "Salam, A., Abrar, M. Y. B. T., Amin, F., Ullah, F., Khan, I. A., Alkhamees, B. F., et al.",
+          "year": 2024,
+          "venue": "IEEE Access",
+          "url": "https://doi.org/10.1109/access.2024.3373697",
+          "cites": 48
+        },
+        {
+          "title": "A Zero-Knowledge Proof-Enabled Blockchain-Based Academic Record Verification System",
+          "authors": "Moya, J. A. B., Ayoade, J., & Uddin, M. A.",
+          "year": 2025,
+          "venue": "Sensors",
+          "url": "https://doi.org/10.3390/s25113450",
+          "cites": 38
+        }
+      ],
+      "count": 40603
     },
     {
       "topic": "Graph neural networks (GNN)",
       "query": "graph neural network",
-      "papers": []
+      "papers": [
+        {
+          "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
+          "authors": "Gabriel, S., Mário, R., António, T., & Marlene, A.",
+          "year": 2024,
+          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+          "url": "https://doi.org/10.4230/lipics.sea.2024.20",
+          "cites": 5418
+        },
+        {
+          "title": "Spatio-Temporal Graph Neural Networks for Predictive Learning in Urban Computing: A Survey",
+          "authors": "Jin, G., Liang, Y., Fang, Y., Shao, Z., Huang, J., Zhang, J., et al.",
+          "year": 2023,
+          "venue": "IEEE Transactions on Knowledge and Data Engineering",
+          "url": "https://doi.org/10.1109/tkde.2023.3333824",
+          "cites": 533
+        },
+        {
+          "title": "A review of graph neural networks: concepts, architectures, techniques, challenges, datasets, applications, and future directions",
+          "authors": "Khemani, B., Patil, S., Kotecha, K. V., & Tanwar, S.",
+          "year": 2024,
+          "venue": "Journal Of Big Data",
+          "url": "https://doi.org/10.1186/s40537-023-00876-4",
+          "cites": 592
+        },
+        {
+          "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
+          "authors": "Jin, M., Koh, H. Y., Wen, Q., Zambon, D., Alippi, C., Webb, G. I., et al.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3443141",
+          "cites": 491
+        }
+      ],
+      "count": 193557
     },
     {
       "topic": "Ontology",

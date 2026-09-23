@@ -87,7 +87,8 @@
       "venue": "Frontiers in Computer Science",
       "url": "https://doi.org/10.3389/fcomp.2026.1937190",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -97,7 +98,8 @@
       "venue": "Journal of Innovative Image Processing",
       "url": "https://doi.org/10.36548/jiip.2026.4.001",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -107,7 +109,8 @@
       "venue": "SIAM Journal on Applied Mathematics",
       "url": "https://doi.org/10.1137/25m172673x",
       "cites": 1,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -117,7 +120,8 @@
       "venue": "International Journal of Fuzzy Systems",
       "url": "https://doi.org/10.1007/s40815-026-02280-5",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -127,7 +131,8 @@
       "venue": "Frontiers in Built Environment",
       "url": "https://doi.org/10.3389/fbuil.2026.1894212",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -137,7 +142,8 @@
       "venue": "Foundations and Trends® in Programming Languages",
       "url": "https://doi.org/10.1108/ftpgl-11-2025-0068",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -147,7 +153,8 @@
       "venue": "SIAM Journal on Numerical Analysis",
       "url": "https://doi.org/10.1137/25m1787045",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -157,7 +164,8 @@
       "venue": "Future Internet",
       "url": "https://doi.org/10.3390/fi18100500",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -167,7 +175,8 @@
       "venue": "Journal of King Saud University - Computer and Information Sciences",
       "url": "https://doi.org/10.1007/s44443-026-01300-6",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -177,7 +186,8 @@
       "venue": "ACM Computing Surveys",
       "url": "https://doi.org/10.1145/3846376",
       "cites": 8,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -187,7 +197,8 @@
       "venue": "Applied Intelligence",
       "url": "https://doi.org/10.1007/s10489-026-07492-8",
       "cites": 1,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -197,7 +208,8 @@
       "venue": "ACM Transactions on Asian and Low-Resource Language Information Processing",
       "url": "https://doi.org/10.1145/3848627",
       "cites": 1,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -207,7 +219,8 @@
       "venue": "Theoretical and Natural Science",
       "url": "https://doi.org/10.54254/2753-8818/2026.37054",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -217,7 +230,8 @@
       "venue": "International Journal of Machine Learning and Cybernetics",
       "url": "https://doi.org/10.1007/s13042-026-03250-x",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -227,7 +241,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-71217-7",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -237,7 +252,8 @@
       "venue": "Safety Science",
       "url": "https://doi.org/10.1016/j.ssci.2026.107460",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -247,7 +263,8 @@
       "venue": "Electronics",
       "url": "https://doi.org/10.3390/electronics15194348",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -257,7 +274,8 @@
       "venue": "International Journal of Web Information Systems",
       "url": "https://doi.org/10.1108/ijwis-03-2026-0147",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -267,7 +285,8 @@
       "venue": "Irrigation and Drainage",
       "url": "https://doi.org/10.1002/ird.70227",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -277,7 +296,8 @@
       "venue": "Advances in Economics Management and Political Sciences",
       "url": "https://doi.org/10.54254/2754-1169/2026.37196",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -287,7 +307,8 @@
       "venue": "Applied and Computational Engineering",
       "url": "https://doi.org/10.54254/2755-2721/2026.ast37152",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -297,7 +318,8 @@
       "venue": "Entropy",
       "url": "https://doi.org/10.3390/e28101043",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -307,7 +329,8 @@
       "venue": "Information Systems Research",
       "url": "https://doi.org/10.1287/isre.2023.0031",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -317,7 +340,8 @@
       "venue": "Journal of Artificial Intelligence General science (JAIGS) ISSN 3006-4023",
       "url": "https://doi.org/10.60087/jaigs.v10i01.503",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -327,7 +351,8 @@
       "venue": "WSEAS Transactions on Computers archive",
       "url": "https://doi.org/10.37394/23205.2026.25.14",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -337,7 +362,8 @@
       "venue": "Electronics",
       "url": "https://doi.org/10.3390/electronics15194356",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -347,7 +373,8 @@
       "venue": "Applied and Computational Engineering",
       "url": "https://doi.org/10.54254/2755-2721/2026.ld37154",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -357,7 +384,8 @@
       "venue": "ROBONOMICS The Journal of the Automated Economy",
       "url": "https://doi.org/10.67723/rj.v7i.103",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -367,7 +395,8 @@
       "venue": "Natural language processing.",
       "url": "https://doi.org/10.1017/nlp.2026.10036",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -377,7 +406,8 @@
       "venue": "The American Journal of Engineering And Technology",
       "url": "https://doi.org/10.37547/tajet/volume08issue09-06",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -387,7 +417,8 @@
       "venue": "International Journal of Science and Research (IJSR)",
       "url": "https://doi.org/10.21275/sr26919094233",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -397,7 +428,8 @@
       "venue": "ShodhKosh Journal of Visual and Performing Arts",
       "url": "https://doi.org/10.29121/shodhkosh.v7.i2.2026.9244",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -407,7 +439,8 @@
       "venue": "Frontiers in Blockchain",
       "url": "https://doi.org/10.3389/fbloc.2026.1883639",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -417,7 +450,8 @@
       "venue": "Future Internet",
       "url": "https://doi.org/10.3390/fi18100499",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -427,7 +461,8 @@
       "venue": "Applied and Computational Engineering",
       "url": "https://doi.org/10.54254/2755-2721/2026.37185",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -437,7 +472,8 @@
       "venue": "Laws",
       "url": "https://doi.org/10.3390/laws15050120",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -447,7 +483,8 @@
       "venue": "Advances in Economics Management and Political Sciences",
       "url": "https://doi.org/10.54254/2754-1169/2026.37180",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -457,7 +494,8 @@
       "venue": "3 SEKTÖR SOSYAL EKONOMİ DERGİSİ",
       "url": "https://doi.org/10.63556/tisej.2026.1796",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -467,7 +505,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09994-9",
       "cites": 0,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-21",
@@ -477,7 +516,8 @@
       "venue": "Quantum",
       "url": "https://doi.org/10.22331/q-2026-09-21-2212",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -487,7 +527,8 @@
       "venue": "Jurnal Teknologi Informatika dan Komputer",
       "url": "https://doi.org/10.37012/jtik.v12i2.3916",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -497,7 +538,8 @@
       "venue": "International Journal of Combinatorial Optimization Problems and Informatics.",
       "url": "https://doi.org/10.61467/2007.1558.2027.v18i1.1551",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -507,7 +549,8 @@
       "venue": "ECONOMIC COMPUTATION AND ECONOMIC CYBERNETICS STUDIES AND RESEARCH",
       "url": "https://doi.org/10.24818/18423264/60.3.26.17",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -517,7 +560,8 @@
       "venue": "ECONOMIC COMPUTATION AND ECONOMIC CYBERNETICS STUDIES AND RESEARCH",
       "url": "https://doi.org/10.24818/18423264/60.3.26.05",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -527,7 +571,8 @@
       "venue": "The American Journal of Engineering And Technology",
       "url": "https://doi.org/10.37547/tajet/volume08issue09-05",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -537,7 +582,8 @@
       "venue": "Translational Vision Science & Technology",
       "url": "https://doi.org/10.1167/tvst.15.9.11",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -547,7 +593,8 @@
       "venue": "ECONOMIC COMPUTATION AND ECONOMIC CYBERNETICS STUDIES AND RESEARCH",
       "url": "https://doi.org/10.24818/18423264/60.3.26.18",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -557,7 +604,8 @@
       "venue": "Europhysics Letters (EPL)",
       "url": "https://doi.org/10.1209/0295-5075/aeaa82",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -567,7 +615,8 @@
       "venue": "Peer-to-Peer Networking and Applications",
       "url": "https://doi.org/10.1007/s12083-026-02218-6",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -577,7 +626,8 @@
       "venue": "Electronics",
       "url": "https://doi.org/10.3390/electronics15184341",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -587,7 +637,8 @@
       "venue": "International Journal for Research in Applied Science and Engineering Technology",
       "url": "https://doi.org/10.22214/ijraset.2026.84903",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -597,7 +648,8 @@
       "venue": "Turkish Journal of Hematology",
       "url": "https://doi.org/10.4274/tjh.galenos.2026.82621",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -607,7 +659,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-70743-8",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -617,7 +670,8 @@
       "venue": "Latvian Journal of Physics and Technical Sciences",
       "url": "https://doi.org/10.2478/lpts-2026-0036",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -627,7 +681,8 @@
       "venue": "Journal of Engineering and Applied Science",
       "url": "https://doi.org/10.1186/s44147-026-01235-9",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -637,7 +692,8 @@
       "venue": "Épijournal de Géométrie Algébrique",
       "url": "https://doi.org/10.46298/epiga.2026.12974",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -647,7 +703,8 @@
       "venue": "Journal of Nonsmooth Analysis and Optimization",
       "url": "https://doi.org/10.46298/jnsao-2026-13780",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -657,7 +714,8 @@
       "venue": "Journal of Computational and Graphical Statistics",
       "url": "https://doi.org/10.1080/10618600.2026.2737261",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -667,7 +725,8 @@
       "venue": "Quantum",
       "url": "https://doi.org/10.22331/q-2026-09-21-2214",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -677,7 +736,8 @@
       "venue": "Data Mining and Knowledge Discovery",
       "url": "https://doi.org/10.1007/s10618-026-01230-x",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -687,7 +747,8 @@
       "venue": "Microsystems & Nanoengineering",
       "url": "https://doi.org/10.1038/s41378-026-01420-z",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -697,7 +758,8 @@
       "venue": "International Journal of Combinatorial Optimization Problems and Informatics.",
       "url": "https://doi.org/10.61467/2007.1558.2027.v18i1.1465",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -707,7 +769,8 @@
       "venue": "Advances in Earth and Environmental Science",
       "url": "https://doi.org/10.47485/2766-2624.1096",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -717,7 +780,8 @@
       "venue": "The Journal of Supercomputing",
       "url": "https://doi.org/10.1007/s11227-026-08820-y",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -727,7 +791,8 @@
       "venue": "Psychometrika",
       "url": "https://doi.org/10.1017/psy.2026.10134",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -737,7 +802,8 @@
       "venue": "Data Mining and Knowledge Discovery",
       "url": "https://doi.org/10.1007/s10618-026-01267-y",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-20",
@@ -747,7 +813,8 @@
       "venue": "Medinformatics",
       "url": "https://doi.org/10.47852/bonviewmedin62029449",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -757,7 +824,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-70049-9",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -767,7 +835,8 @@
       "venue": "Cybersecurity",
       "url": "https://doi.org/10.1186/s42400-026-00650-y",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -777,7 +846,8 @@
       "venue": "International Journal of Applied Smart Interdisciplinary Technologies",
       "url": "https://doi.org/10.68104/ijasit.v1.i3.42",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -787,7 +857,8 @@
       "venue": "Intelligence & Control",
       "url": "https://doi.org/10.53941/ic.2026.100011",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -797,7 +868,8 @@
       "venue": "Financial Innovation",
       "url": "https://doi.org/10.1186/s40854-026-00955-4",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -807,7 +879,8 @@
       "venue": "Nature Communications",
       "url": "https://doi.org/10.1038/s41467-026-76272-2",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -817,7 +890,8 @@
       "venue": "International Journal of Advanced Research in Science Communication and Technology",
       "url": "https://doi.org/10.48175/ijarsct-38421",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -827,7 +901,8 @@
       "venue": "Financial Innovation",
       "url": "https://doi.org/10.1186/s40854-026-00968-z",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -837,7 +912,8 @@
       "venue": "International Journal of Economics Finance and Management Sciences",
       "url": "https://doi.org/10.11648/j.ijefm.20261405.19",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -847,7 +923,8 @@
       "venue": "Cureus Journal of Computer Science.",
       "url": "https://doi.org/10.7759/s44389-026-00284-8",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -857,7 +934,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-71932-1",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -867,7 +945,8 @@
       "venue": "Knowledge Commons (Lakehead University)",
       "url": "https://doi.org/10.17613/416vj-e6w53",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -877,7 +956,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-68232-z",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -887,7 +967,8 @@
       "venue": "Knowledge Commons (Lakehead University)",
       "url": "https://doi.org/10.17613/njhbw-mv413",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -897,7 +978,8 @@
       "venue": "Journal of Applied Economics and Policy Studies",
       "url": "https://doi.org/10.54254/2977-5701/2026.37242",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -907,7 +989,8 @@
       "venue": "Journal of Accounting Research",
       "url": "https://doi.org/10.1111/1475-679x.70085",
       "cites": 0,
-      "topic": "JAR"
+      "topic": "JAR",
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-19",
@@ -917,7 +1000,8 @@
       "venue": "Behaviour and Information Technology",
       "url": "https://doi.org/10.1080/0144929x.2026.2719735",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -927,7 +1011,8 @@
       "venue": "npj Artificial Intelligence",
       "url": "https://doi.org/10.1038/s44387-026-00160-9",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -937,7 +1022,8 @@
       "venue": "Frontiers of Computer Science",
       "url": "https://doi.org/10.1007/s11704-026-51539-5",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -947,7 +1033,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-71999-w",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -957,7 +1044,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-71524-z",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -967,7 +1055,8 @@
       "venue": "Journal of Contemporary China",
       "url": "https://doi.org/10.1080/10670564.2026.2733081",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -977,7 +1066,8 @@
       "venue": "International journal of intelligent engineering and systems",
       "url": "https://doi.org/10.22266/ijies2026.1031.02",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -987,7 +1077,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-71120-1",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -997,7 +1088,8 @@
       "venue": "PhilPapers (PhilPapers Foundation)",
       "url": "https://doi.org/10.5281/zenodo.22849012",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1007,7 +1099,8 @@
       "venue": "Safety Science",
       "url": "https://doi.org/10.1016/j.ssci.2026.107461",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1017,7 +1110,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-71408-2",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1027,7 +1121,8 @@
       "venue": "American Journal of Multidisciplinary Research and Innovation",
       "url": "https://doi.org/10.54536/ajmri.v5i5.8515",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1037,7 +1132,8 @@
       "venue": "npj Systems Biology and Applications",
       "url": "https://doi.org/10.1038/s41540-026-00826-9",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1047,7 +1143,8 @@
       "venue": "International Journal of Scientific Research in Science Engineering and Technology",
       "url": "https://doi.org/10.32628/ijsrset261357",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1057,7 +1154,8 @@
       "venue": "Software & Systems Modeling",
       "url": "https://doi.org/10.1007/s10270-026-01422-5",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1067,7 +1165,8 @@
       "venue": "Materials Genome Engineering Advances",
       "url": "https://doi.org/10.1002/mgea.70102",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1077,7 +1176,8 @@
       "venue": "Journal of Social Science and Human Research Studies",
       "url": "https://doi.org/10.65150/ep-jsshrs/v2e9/2026-11",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1087,7 +1187,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124885",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-18",
@@ -1097,7 +1198,8 @@
       "venue": "The Design Journal",
       "url": "https://doi.org/10.1080/14606925.2026.2724415",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1107,7 +1209,8 @@
       "venue": "International Journal of Power Electronics and Drive Systems/International Journal of Electrical and Computer Engineering",
       "url": "https://doi.org/10.11591/ijece.v16i5.pp2795-2805",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1117,7 +1220,8 @@
       "venue": "International Journal of Artificial Intelligence and Agent Systems",
       "url": "https://doi.org/10.67231/fvj51b26",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1127,7 +1231,8 @@
       "venue": "Discover Artificial Intelligence",
       "url": "https://doi.org/10.1007/s44163-026-02243-7",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1137,7 +1242,8 @@
       "venue": "Kocaeli Üniversitesi İletişim Fakültesi Araştırma Dergisi",
       "url": "https://doi.org/10.67285/kilad.1975120",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1147,7 +1253,8 @@
       "venue": "California Management Review",
       "url": "https://doi.org/10.1177/00081256261486300",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1157,7 +1264,8 @@
       "venue": "International Journal of Computer Vision",
       "url": "https://doi.org/10.1007/s11263-026-03040-6",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1167,7 +1275,8 @@
       "venue": "Computational Linguistics",
       "url": "https://doi.org/10.1162/coli.a.652",
       "cites": 6,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1177,7 +1286,8 @@
       "venue": "Journal of Ambient Intelligence and Humanized Computing",
       "url": "https://doi.org/10.1007/s12652-026-05119-x",
       "cites": 1,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1187,7 +1297,8 @@
       "venue": "Frontiers in Artificial Intelligence",
       "url": "https://doi.org/10.3389/frai.2026.1844418",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1197,7 +1308,8 @@
       "venue": "PLoS Computational Biology",
       "url": "https://doi.org/10.1371/journal.pcbi.1014777",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1207,7 +1319,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-71125-w",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1217,7 +1330,8 @@
       "venue": "International Journal of Computer Applications",
       "url": "https://doi.org/10.5120/ijcae7b63928a409",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1227,7 +1341,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124879",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1237,7 +1352,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124878",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1247,7 +1363,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124883",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1257,7 +1374,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124884",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1267,7 +1385,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70089",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1277,7 +1396,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09990-z",
       "cites": 0,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-17",
@@ -1287,7 +1407,8 @@
       "venue": "Online Journal of Communication and Media Technologies",
       "url": "https://doi.org/10.30935/ojcmt/19272",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-17"
     },
     {
       "date": "2026-09-17",
@@ -1297,7 +1418,8 @@
       "venue": "The JALT CALL Journal",
       "url": "https://doi.org/10.29140/jaltcall.2026.102993",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-17"
     },
     {
       "date": "2026-09-17",
@@ -1307,7 +1429,8 @@
       "venue": "Frontiers in Artificial Intelligence",
       "url": "https://doi.org/10.3389/frai.2026.1894645",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-17"
     },
     {
       "date": "2026-09-17",
@@ -1317,7 +1440,8 @@
       "venue": "Discover Artificial Intelligence",
       "url": "https://doi.org/10.1007/s44163-026-02249-1",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-17"
     },
     {
       "date": "2026-09-17",
@@ -1327,7 +1451,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124880",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-17"
     },
     {
       "date": "2026-09-17",
@@ -1337,7 +1462,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124877",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-17"
     },
     {
       "date": "2026-09-17",
@@ -1347,7 +1473,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124882",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-17"
     },
     {
       "date": "2026-09-17",
@@ -1357,7 +1484,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70078",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-09-17"
     },
     {
       "date": "2026-09-17",
@@ -1367,7 +1495,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70085",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-09-17"
     },
     {
       "date": "2026-09-16",
@@ -1377,7 +1506,8 @@
       "venue": "Climatic Change",
       "url": "https://doi.org/10.1007/s10584-026-04279-1",
       "cites": 1,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-16"
     },
     {
       "date": "2026-09-16",
@@ -1387,7 +1517,8 @@
       "venue": "ACM Journal on Computing and Sustainable Societies",
       "url": "https://doi.org/10.1145/3848022",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-16"
     },
     {
       "date": "2026-09-16",
@@ -1397,7 +1528,8 @@
       "venue": "Inquiry",
       "url": "https://doi.org/10.1080/0020174x.2026.2727582",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-09-16"
     },
     {
       "date": "2026-09-16",
@@ -1407,7 +1539,8 @@
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.52202/085713-4678",
       "cites": 8,
-      "topic": "NeurIPS"
+      "topic": "NeurIPS",
+      "added": "2026-09-16"
     },
     {
       "date": "2026-09-16",
@@ -1417,7 +1550,8 @@
       "venue": "International Conference on Machine Learning",
       "url": "https://arxiv.org/abs/2609.18599",
       "cites": 4,
-      "topic": "ICML"
+      "topic": "ICML",
+      "added": "2026-09-16"
     },
     {
       "date": "2026-09-16",
@@ -1427,7 +1561,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103930",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-16"
     },
     {
       "date": "2026-09-15",
@@ -1437,7 +1572,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103937",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-15"
     },
     {
       "date": "2026-09-15",
@@ -1447,7 +1583,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103938",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-15"
     },
     {
       "date": "2026-09-15",
@@ -1457,7 +1594,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124876",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-15"
     },
     {
       "date": "2026-09-15",
@@ -1467,7 +1605,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70080",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-09-15"
     },
     {
       "date": "2026-09-14",
@@ -1477,7 +1616,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103936",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-14"
     },
     {
       "date": "2026-09-14",
@@ -1487,7 +1627,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124868",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-14"
     },
     {
       "date": "2026-09-14",
@@ -1497,7 +1638,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124865",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-14"
     },
     {
       "date": "2026-09-13",
@@ -1507,7 +1649,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103934",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-13"
     },
     {
       "date": "2026-09-12",
@@ -1517,7 +1660,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103931",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-12"
     },
     {
       "date": "2026-09-12",
@@ -1527,7 +1671,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124873",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-12"
     },
     {
       "date": "2026-09-11",
@@ -1537,7 +1682,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103935",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-11"
     },
     {
       "date": "2026-09-10",
@@ -1547,7 +1693,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103932",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-10"
     },
     {
       "date": "2026-09-09",
@@ -1557,7 +1704,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103933",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-09"
     },
     {
       "date": "2026-09-09",
@@ -1567,7 +1715,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103912",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-09"
     },
     {
       "date": "2026-09-09",
@@ -1577,7 +1726,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124872",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-09"
     },
     {
       "date": "2026-09-07",
@@ -1587,7 +1737,8 @@
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.52202/085713-4643",
       "cites": 4,
-      "topic": "NeurIPS"
+      "topic": "NeurIPS",
+      "added": "2026-09-07"
     },
     {
       "date": "2026-09-07",
@@ -1597,7 +1748,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124867",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-07"
     },
     {
       "date": "2026-09-07",
@@ -1607,7 +1759,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124875",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-09-07"
     },
     {
       "date": "2026-09-07",
@@ -1617,7 +1770,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70076",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-09-07"
     },
     {
       "date": "2026-09-06",
@@ -1627,7 +1781,8 @@
       "venue": "International Conference on Machine Learning",
       "url": "https://arxiv.org/abs/2609.06489",
       "cites": 3,
-      "topic": "ICML"
+      "topic": "ICML",
+      "added": "2026-09-06"
     },
     {
       "date": "2026-09-06",
@@ -1637,7 +1792,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103910",
       "cites": 10,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-06"
     },
     {
       "date": "2026-09-04",
@@ -1647,7 +1803,8 @@
       "venue": "Journal of Industrial Information Integration",
       "url": "https://doi.org/10.1016/j.jii.2026.101199",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-09-04"
     },
     {
       "date": "2026-09-04",
@@ -1657,7 +1814,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103929",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-04"
     },
     {
       "date": "2026-09-04",
@@ -1667,7 +1825,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103928",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-04"
     },
     {
       "date": "2026-09-04",
@@ -1677,7 +1836,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103921",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-04"
     },
     {
       "date": "2026-09-04",
@@ -1687,7 +1847,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70074",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-09-04"
     },
     {
       "date": "2026-09-04",
@@ -1697,7 +1858,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70082",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-09-04"
     },
     {
       "date": "2026-09-03",
@@ -1707,7 +1869,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09991-y",
       "cites": 0,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-09-03"
     },
     {
       "date": "2026-09-02",
@@ -1717,7 +1880,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103917",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-09-02"
     },
     {
       "date": "2026-09-01",
@@ -1727,7 +1891,8 @@
       "venue": "ICT Express",
       "url": "https://doi.org/10.1016/j.icte.2026.09.006",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-09-01",
@@ -1737,7 +1902,8 @@
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.52202/085713-5498",
       "cites": 0,
-      "topic": "NeurIPS"
+      "topic": "NeurIPS",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-09-01",
@@ -1747,7 +1913,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2024-0189",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-09-01",
@@ -1757,7 +1924,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2024-0006",
       "cites": 2,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-09-01",
@@ -1767,7 +1935,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2025-0350",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-09-01",
@@ -1777,7 +1946,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2024-0091",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-09-01",
@@ -1787,7 +1957,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0303",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-09-01",
@@ -1797,7 +1968,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2024-0518",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-09-01",
@@ -1807,7 +1979,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0495",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-09-01",
@@ -1817,7 +1990,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0662",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-09-01"
     },
     {
       "date": "2026-08-31",
@@ -1827,7 +2001,8 @@
       "venue": "International Journal of Bioinformatics and Intelligent Computing",
       "url": "https://doi.org/10.61797/ijbic.v5i2.771",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1837,7 +2012,8 @@
       "venue": "Transactions of the Japanese Society for Artificial Intelligence",
       "url": "https://doi.org/10.1527/tjsai.41-5_lf26-h",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1847,7 +2023,8 @@
       "venue": "PhilPapers (PhilPapers Foundation)",
       "url": "https://doi.org/10.5281/zenodo.22215414",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1857,7 +2034,8 @@
       "venue": "NJAS Impact in Agricultural and Life Sciences",
       "url": "https://doi.org/10.1080/27685241.2026.2725457",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1867,7 +2045,8 @@
       "venue": "British Journal of Teacher Education and Pedagogy",
       "url": "https://doi.org/10.32996/bjtep.2026.5.9.3",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1877,7 +2056,8 @@
       "venue": "Research in Engineering Design",
       "url": "https://doi.org/10.1007/s00163-026-00498-w",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1887,7 +2067,8 @@
       "venue": "The Criterion An International Journal in English",
       "url": "https://doi.org/10.66376/criterion.v17.n4.1",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1897,7 +2078,8 @@
       "venue": "Momboy",
       "url": "https://doi.org/10.70219/mby-272026-464",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1907,7 +2089,8 @@
       "venue": "Medical Education & Clinical Practice",
       "url": "https://doi.org/10.21142/mecp.2026.1.3.e032",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1917,7 +2100,8 @@
       "venue": "Digital Threats Research and Practice",
       "url": "https://doi.org/10.1145/3822596",
       "cites": 4,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1927,7 +2111,8 @@
       "venue": "International Journal of Urban Sciences",
       "url": "https://doi.org/10.1080/12265934.2026.2715995",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1937,7 +2122,8 @@
       "venue": "Technometrics",
       "url": "https://doi.org/10.1080/00401706.2026.2724145",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1947,7 +2133,8 @@
       "venue": "Computerized Medical Imaging and Graphics",
       "url": "https://doi.org/10.1016/j.compmedimag.2026.102817",
       "cites": 1,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1957,7 +2144,8 @@
       "venue": "Bioinformatics",
       "url": "https://doi.org/10.1093/bioinformatics/btag652",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1967,7 +2155,8 @@
       "venue": "Nature Methods",
       "url": "https://doi.org/10.1038/s41592-026-03206-7",
       "cites": 2,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1977,7 +2166,8 @@
       "venue": "Bioinformatics",
       "url": "https://doi.org/10.1093/bioinformatics/btag654",
       "cites": 6,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1987,7 +2177,8 @@
       "venue": "Nature Communications",
       "url": "https://doi.org/10.1038/s41467-026-77368-5",
       "cites": 3,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -1997,7 +2188,8 @@
       "venue": "Array",
       "url": "https://doi.org/10.1016/j.array.2026.101175",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2007,7 +2199,8 @@
       "venue": "Engineering Applications of Artificial Intelligence",
       "url": "https://doi.org/10.1016/j.engappai.2026.116047",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2017,7 +2210,8 @@
       "venue": "Transactions of the Japanese Society for Artificial Intelligence",
       "url": "https://doi.org/10.1527/tjsai.41-5_a-p126",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2027,7 +2221,8 @@
       "venue": "Journal of Privacy and Confidentiality",
       "url": "https://doi.org/10.29012/jpc.997",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2037,7 +2232,8 @@
       "venue": "Journal on Interactive Systems",
       "url": "https://doi.org/10.5753/jis.2026.7129",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2047,7 +2243,8 @@
       "venue": "Journal of Chemical Information and Modeling",
       "url": "https://doi.org/10.1021/acs.jcim.6c01049",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2057,7 +2254,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-66643-6",
       "cites": 0,
-      "topic": "Graph database"
+      "topic": "Graph database",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2067,7 +2265,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-66897-0",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2077,7 +2276,8 @@
       "venue": "Nature Communications",
       "url": "https://doi.org/10.1038/s41467-026-76686-y",
       "cites": 1,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2087,7 +2287,8 @@
       "venue": "npj Computational Materials",
       "url": "https://doi.org/10.1038/s41524-026-02303-7",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2097,7 +2298,8 @@
       "venue": "SmartBot",
       "url": "https://doi.org/10.1002/smb2.70053",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2107,7 +2309,8 @@
       "venue": "IMA Journal of Management Mathematics",
       "url": "https://doi.org/10.1093/imaman/dpag028",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2117,7 +2320,8 @@
       "venue": "Sensors",
       "url": "https://doi.org/10.3390/s26175519",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2127,7 +2331,8 @@
       "venue": "Communications Biology",
       "url": "https://doi.org/10.1038/s42003-026-10852-2",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2137,7 +2342,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-69244-5",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2147,7 +2353,8 @@
       "venue": "AIUB Journal of Science and Engineering (AJSE)",
       "url": "https://doi.org/10.53799/stn2d409",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2157,7 +2364,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-68318-8",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2167,7 +2375,8 @@
       "venue": "KSII Transactions on Internet and Information Systems",
       "url": "https://doi.org/10.3837/tiis.2026.08.013",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2177,7 +2386,8 @@
       "venue": "Computing&AI Connect",
       "url": "https://doi.org/10.69709/caic.2026.129929",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2187,7 +2397,8 @@
       "venue": "Clean Energy Science and Technology",
       "url": "https://doi.org/10.18686/cest944",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2197,7 +2408,8 @@
       "venue": "PhilPapers (PhilPapers Foundation)",
       "url": "https://doi.org/10.5281/zenodo.22210688",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2207,7 +2419,8 @@
       "venue": "Physics",
       "url": "https://doi.org/10.1103/physics.19.119",
       "cites": 0,
-      "topic": "Memory in Agentic AI"
+      "topic": "Memory in Agentic AI",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2217,7 +2430,8 @@
       "venue": "Machine Learning",
       "url": "https://doi.org/10.1007/s10994-026-07148-1",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2227,7 +2441,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-69363-z",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2237,7 +2452,8 @@
       "venue": "Communication Methods and Measures",
       "url": "https://doi.org/10.1080/19312458.2026.2714769",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2247,7 +2463,8 @@
       "venue": "Frontiers in Psychiatry",
       "url": "https://doi.org/10.3389/fpsyt.2026.1922251",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2257,7 +2474,8 @@
       "venue": "Frontiers in Computer Science",
       "url": "https://doi.org/10.3389/fcomp.2026.1836418",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2267,7 +2485,8 @@
       "venue": "Sensors",
       "url": "https://doi.org/10.3390/s26175523",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2277,7 +2496,8 @@
       "venue": "Sensors",
       "url": "https://doi.org/10.3390/s26175531",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2287,7 +2507,8 @@
       "venue": "Journal of Computer Science and Artificial Intelligence",
       "url": "https://doi.org/10.54097/0bpxr973",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2297,7 +2518,8 @@
       "venue": "Blockchain Frontier Technology",
       "url": "https://doi.org/10.34306/b-front.v6i2.1176",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2307,7 +2529,8 @@
       "venue": "The Astrophysical Journal",
       "url": "https://doi.org/10.3847/1538-4357/ae9094",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2317,7 +2540,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-67842-x",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2327,7 +2551,8 @@
       "venue": "The Astrophysical Journal Supplement Series",
       "url": "https://doi.org/10.3847/1538-4365/ae928f",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2337,7 +2562,8 @@
       "venue": "International Journal of Science Technology Engineering and Mathematics",
       "url": "https://doi.org/10.53378/ijstem.353374",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2347,7 +2573,8 @@
       "venue": "International Journal of 3D Printing Technologies and Digital Industry",
       "url": "https://doi.org/10.46519/ij3dptdi.1984544",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2357,7 +2584,8 @@
       "venue": "Medical - Clinical - Research",
       "url": "https://doi.org/10.52106/3069-9088.1030",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2367,7 +2595,8 @@
       "venue": "BASRA JOURNAL OF SCIENCE",
       "url": "https://doi.org/10.29072/h1k0g448",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2377,7 +2606,8 @@
       "venue": "Cluster Computing",
       "url": "https://doi.org/10.1007/s10586-026-06496-w",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2387,7 +2617,8 @@
       "venue": "KSII Transactions on Internet and Information Systems",
       "url": "https://doi.org/10.3837/tiis.2026.08.020",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2397,7 +2628,8 @@
       "venue": "Nonlinear Dynamics",
       "url": "https://doi.org/10.1007/s11071-026-12975-x",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2407,7 +2639,8 @@
       "venue": "Distributed Ledger Technologies Research and Practice",
       "url": "https://doi.org/10.1145/3842755",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2417,7 +2650,8 @@
       "venue": "International Journal of Innovative Science and Research Technology (IJISRT)",
       "url": "https://doi.org/10.38124/ijisrt/26aug906",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2427,7 +2661,8 @@
       "venue": "Journal of Privacy and Confidentiality",
       "url": "https://doi.org/10.29012/jpc.1004",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2437,7 +2672,8 @@
       "venue": "Communications in Transportation Research",
       "url": "https://doi.org/10.26599/commtr.2026.9640049",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2447,7 +2683,8 @@
       "venue": "Blockchain in Healthcare Today",
       "url": "https://doi.org/10.30953/bhty.v9.521",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)"
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2457,7 +2694,8 @@
       "venue": "Neurocomputing",
       "url": "https://doi.org/10.1016/j.neucom.2026.134968",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2467,7 +2705,8 @@
       "venue": "Cluster Computing",
       "url": "https://doi.org/10.1007/s10586-026-06498-8",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2477,7 +2716,8 @@
       "venue": "PLoS Computational Biology",
       "url": "https://doi.org/10.1371/journal.pcbi.1014657",
       "cites": 1,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2487,7 +2727,8 @@
       "venue": "APL Machine Learning",
       "url": "https://doi.org/10.1063/5.0326359",
       "cites": 1,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2497,7 +2738,8 @@
       "venue": "The European Physical Journal C",
       "url": "https://doi.org/10.1140/epjc/s10052-026-15754-5",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2507,7 +2749,8 @@
       "venue": "Biology Methods and Protocols",
       "url": "https://doi.org/10.1093/biomethods/bpag050",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2517,7 +2760,8 @@
       "venue": "Journal of Chemical Theory and Computation",
       "url": "https://doi.org/10.1021/acs.jctc.6c00936",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2527,7 +2771,8 @@
       "venue": "Nature Communications",
       "url": "https://doi.org/10.1038/s41467-026-77212-w",
       "cites": 1,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2537,7 +2782,8 @@
       "venue": "Numerical Linear Algebra with Applications",
       "url": "https://doi.org/10.1002/nla.70114",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2547,7 +2793,8 @@
       "venue": "Journal of Imaging Informatics in Medicine",
       "url": "https://doi.org/10.1007/s10278-026-02205-6",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2557,7 +2804,8 @@
       "venue": "Journal of Chemical Information and Modeling",
       "url": "https://doi.org/10.1021/acs.jcim.6c02361",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2567,7 +2815,8 @@
       "venue": "Computational Mechanics",
       "url": "https://doi.org/10.1007/s00466-026-02849-9",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2577,7 +2826,8 @@
       "venue": "Aslib Journal of Information Management",
       "url": "https://doi.org/10.1108/ajim-05-2025-0248",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2587,7 +2837,8 @@
       "venue": "Engineering Applications of Artificial Intelligence",
       "url": "https://doi.org/10.1016/j.engappai.2026.116087",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2597,7 +2848,8 @@
       "venue": "International Journal of Emerging Technologies and Advanced Applications",
       "url": "https://doi.org/10.62677/ijetaa.2607151",
       "cites": 0,
-      "topic": "Graph neural networks (GNN)"
+      "topic": "Graph neural networks (GNN)",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2607,7 +2859,8 @@
       "venue": "Journal of Science Research and Reviews",
       "url": "https://doi.org/10.70882/josrar.2026.v3i4.230",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2617,7 +2870,8 @@
       "venue": "Educational Technology Research and Development",
       "url": "https://doi.org/10.1007/s11423-026-10704-0",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2627,7 +2881,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-68988-4",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2637,7 +2892,8 @@
       "venue": "International Scientific Spectrum",
       "url": "https://doi.org/10.66972/iscis21202622",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2647,7 +2903,8 @@
       "venue": "Discover Artificial Intelligence",
       "url": "https://doi.org/10.1007/s44163-026-02126-x",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2657,7 +2914,8 @@
       "venue": "AI Computer Science and Robotics Technology",
       "url": "https://doi.org/10.5772/acrt.20250160",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2667,7 +2925,8 @@
       "venue": "PhilPapers (PhilPapers Foundation)",
       "url": "https://doi.org/10.17613/4wt31-4w486",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2677,7 +2936,8 @@
       "venue": "International Multidisciplinary Journal of Emerging Technologies and Applications",
       "url": "https://doi.org/10.67294/dptrgc89",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2687,7 +2947,8 @@
       "venue": "Computing&AI Connect",
       "url": "https://doi.org/10.69709/caic.2026.133382",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2697,7 +2958,8 @@
       "venue": "European journal of applied sciences",
       "url": "https://doi.org/10.14738/ejas.1404.11931",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2707,7 +2969,8 @@
       "venue": "Corporate Social Responsibility and Environmental Management",
       "url": "https://doi.org/10.1002/csr.70947",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2717,7 +2980,8 @@
       "venue": "Research and Review Journal of Nondestructive Testing",
       "url": "https://doi.org/10.58286/34565",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2727,7 +2991,8 @@
       "venue": "Neohelicon",
       "url": "https://doi.org/10.1007/s11059-026-00878-0",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2737,7 +3002,8 @@
       "venue": "Journal of Business Analytics",
       "url": "https://doi.org/10.1080/2573234x.2026.2720626",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2747,7 +3013,8 @@
       "venue": "ATS Scholar",
       "url": "https://doi.org/10.1093/atsscholar/aapag057",
       "cites": 0,
-      "topic": "Ontology"
+      "topic": "Ontology",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2757,7 +3024,8 @@
       "venue": "Communications of the ACM",
       "url": "https://doi.org/10.1145/3779412",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2767,7 +3035,8 @@
       "venue": "BMC Artificial Intelligence",
       "url": "https://doi.org/10.1186/s44398-026-00036-7",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2777,7 +3046,8 @@
       "venue": "The Journal of Technology Transfer",
       "url": "https://doi.org/10.1007/s10961-026-10382-3",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2787,7 +3057,8 @@
       "venue": "Education Sciences",
       "url": "https://doi.org/10.3390/educsci16091397",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2797,7 +3068,8 @@
       "venue": "Studies in English Language Teaching",
       "url": "https://doi.org/10.22158/selt.v14n3p176",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2807,7 +3079,8 @@
       "venue": "LAW & PASS International Journal of Law Public Administration and Social Studies",
       "url": "https://doi.org/10.47353/lawpass.v3i3.124",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2817,7 +3090,8 @@
       "venue": "West Science Information System and Technology",
       "url": "https://doi.org/10.58812/wsist.v4i02.3092",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2827,7 +3101,8 @@
       "venue": "West Science Information System and Technology",
       "url": "https://doi.org/10.58812/wsist.v4i02.3091",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2837,7 +3112,8 @@
       "venue": "LAW & PASS International Journal of Law Public Administration and Social Studies",
       "url": "https://doi.org/10.47353/lawpass.v3i3.123",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2847,7 +3123,8 @@
       "venue": "Journal of Next-generation Convergence Information Services Technology",
       "url": "https://doi.org/10.29056/jncist.2026.08.10",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2857,7 +3134,8 @@
       "venue": "West Science Information System and Technology",
       "url": "https://doi.org/10.58812/wsist.v4i02.3093",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2867,7 +3145,8 @@
       "venue": "West Science Information System and Technology",
       "url": "https://doi.org/10.58812/wsist.v4i02.3096",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2877,7 +3156,8 @@
       "venue": "International Review of Social Sciences Research",
       "url": "https://doi.org/10.53378/irssr.353370",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2887,7 +3167,8 @@
       "venue": "International Journal of Innovative Science and Research Technology (IJISRT)",
       "url": "https://doi.org/10.38124/ijisrt/26aug907",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2897,7 +3178,8 @@
       "venue": "International Journal of Science and Engineering Applications",
       "url": "https://doi.org/10.7753/ijcatr1509.1003",
       "cites": 0,
-      "topic": "AI governance"
+      "topic": "AI governance",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2907,7 +3189,8 @@
       "venue": "Neural Information Processing Systems",
       "url": "https://doi.org/10.52202/085713-3262",
       "cites": 2,
-      "topic": "NeurIPS"
+      "topic": "NeurIPS",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2917,7 +3200,8 @@
       "venue": "International Conference on Machine Learning",
       "url": "https://arxiv.org/abs/2608.30295",
       "cites": 3,
-      "topic": "ICML"
+      "topic": "ICML",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2927,7 +3211,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103919",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2937,7 +3222,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103914",
       "cites": 1,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2947,7 +3233,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124854",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2957,7 +3244,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124870",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-30",
@@ -2967,7 +3255,8 @@
       "venue": "Forensic Science International Reports",
       "url": "https://doi.org/10.1016/j.fsir.2026.100515",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -2977,7 +3266,8 @@
       "venue": "European Journal of Information Systems",
       "url": "https://doi.org/10.1080/0960085x.2026.2721630",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -2987,7 +3277,8 @@
       "venue": "Journal of Games Game Art and Gamification",
       "url": "https://doi.org/10.21512/jggag.v11i2.15765",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -2997,7 +3288,8 @@
       "venue": "Eduvest - Journal Of Universal Studies",
       "url": "https://doi.org/10.59188/eduvest.v6i8.53459",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -3007,7 +3299,8 @@
       "venue": "RIMI revista de investigación multidisciplinaria Iberoamericana.",
       "url": "https://doi.org/10.69850/rimi.vi3.279",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -3017,7 +3310,8 @@
       "venue": "Jurnal Pengabdian Masyarakat dan Penelitian Thawalib",
       "url": "https://doi.org/10.54150/thame.v5i2.1234",
       "cites": 0,
-      "topic": "Deep persona"
+      "topic": "Deep persona",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -3027,7 +3321,8 @@
       "venue": "Concurrency and Computation Practice and Experience",
       "url": "https://doi.org/10.1002/cpe.70926",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -3037,7 +3332,8 @@
       "venue": "International Journal of Learning Teaching and Educational Research",
       "url": "https://doi.org/10.26803/ijlter.25.8.5",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -3047,7 +3343,8 @@
       "venue": "International Journal of Computer Information Systems and Industrial Management Applications",
       "url": "https://doi.org/10.70917/ijcisim-2026-5317",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -3057,7 +3354,8 @@
       "venue": "Applied Artificial Intelligence",
       "url": "https://doi.org/10.1080/08839514.2026.2721303",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -3067,7 +3365,8 @@
       "venue": "Aggregate",
       "url": "https://doi.org/10.1002/agt2.70428",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -3077,7 +3376,8 @@
       "venue": "International Journal of Computer Information Systems and Industrial Management Applications",
       "url": "https://doi.org/10.70917/ijcisim-2026-5328",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-29",
@@ -3087,7 +3387,8 @@
       "venue": "Machine Learning",
       "url": "https://doi.org/10.1007/s10994-026-07118-7",
       "cites": 0,
-      "topic": "LLM inference serving"
+      "topic": "LLM inference serving",
+      "added": "2026-08-29"
     },
     {
       "date": "2026-08-29",
@@ -3097,7 +3398,8 @@
       "venue": "International Conference on Learning Representations",
       "url": "https://arxiv.org/abs/2608.29038",
       "cites": 7,
-      "topic": "ICLR"
+      "topic": "ICLR",
+      "added": "2026-08-29"
     },
     {
       "date": "2026-08-29",
@@ -3107,7 +3409,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103918",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-29"
     },
     {
       "date": "2026-08-28",
@@ -3117,7 +3420,8 @@
       "venue": "IEM Journal",
       "url": "https://doi.org/10.54552/bzddh935",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-28"
     },
     {
       "date": "2026-08-28",
@@ -3127,7 +3431,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124856",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-28"
     },
     {
       "date": "2026-08-28",
@@ -3137,7 +3442,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124840",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-28"
     },
     {
       "date": "2026-08-28",
@@ -3147,7 +3453,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09993-w",
       "cites": 0,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-08-28"
     },
     {
       "date": "2026-08-27",
@@ -3157,7 +3464,8 @@
       "venue": "ICCK Journal of Software Engineering",
       "url": "https://doi.org/10.62762/jse.2026.766488",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-27"
     },
     {
       "date": "2026-08-26",
@@ -3167,7 +3475,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103915",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-26"
     },
     {
       "date": "2026-08-26",
@@ -3177,7 +3486,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103916",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-26"
     },
     {
       "date": "2026-08-26",
@@ -3187,7 +3497,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103911",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-26"
     },
     {
       "date": "2026-08-26",
@@ -3197,7 +3508,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124866",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-26"
     },
     {
       "date": "2026-08-25",
@@ -3207,7 +3519,8 @@
       "venue": "Applied Sciences",
       "url": "https://doi.org/10.3390/app16178461",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-25"
     },
     {
       "date": "2026-08-25",
@@ -3217,7 +3530,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124855",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-25"
     },
     {
       "date": "2026-08-25",
@@ -3227,7 +3541,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124853",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-25"
     },
     {
       "date": "2026-08-25",
@@ -3237,7 +3552,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124852",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-25"
     },
     {
       "date": "2026-08-25",
@@ -3247,7 +3563,8 @@
       "venue": "Journal of Accounting Research",
       "url": "https://doi.org/10.1111/1475-679x.70084",
       "cites": 0,
-      "topic": "JAR"
+      "topic": "JAR",
+      "added": "2026-08-25"
     },
     {
       "date": "2026-08-25",
@@ -3257,7 +3574,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70081",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-08-25"
     },
     {
       "date": "2026-08-22",
@@ -3267,7 +3585,8 @@
       "venue": "International Journal of Intelligent Systems and Data Science",
       "url": "https://doi.org/10.67231/s2b5mw29",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-22"
     },
     {
       "date": "2026-08-22",
@@ -3277,7 +3596,8 @@
       "venue": "International Journal of Computer Trends and Technology",
       "url": "https://doi.org/10.14445/22312803/ijctt-v74i7p103",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-22"
     },
     {
       "date": "2026-08-22",
@@ -3287,7 +3607,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103896",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-22"
     },
     {
       "date": "2026-08-21",
@@ -3297,7 +3618,8 @@
       "venue": "Journal of Intelligent Decision Making and Information Science",
       "url": "https://doi.org/10.59543/jidmis.v3.1438",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-21"
     },
     {
       "date": "2026-08-21",
@@ -3307,7 +3629,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09988-7",
       "cites": 1,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-08-21"
     },
     {
       "date": "2026-08-20",
@@ -3317,7 +3640,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124851",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-20"
     },
     {
       "date": "2026-08-20",
@@ -3327,7 +3651,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124849",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-20"
     },
     {
       "date": "2026-08-20",
@@ -3337,7 +3662,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124842",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-20"
     },
     {
       "date": "2026-08-20",
@@ -3347,7 +3673,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70068",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-08-20"
     },
     {
       "date": "2026-08-20",
@@ -3357,7 +3684,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70073",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-08-20"
     },
     {
       "date": "2026-08-20",
@@ -3367,7 +3695,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09986-9",
       "cites": 0,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-08-20"
     },
     {
       "date": "2026-08-20",
@@ -3377,7 +3706,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09989-6",
       "cites": 0,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-08-20"
     },
     {
       "date": "2026-08-19",
@@ -3387,7 +3717,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124845",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-19"
     },
     {
       "date": "2026-08-19",
@@ -3397,7 +3728,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124847",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-19"
     },
     {
       "date": "2026-08-19",
@@ -3407,7 +3739,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124848",
       "cites": 0,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-19"
     },
     {
       "date": "2026-08-19",
@@ -3417,7 +3750,8 @@
       "venue": "Journal of Accounting Research",
       "url": "https://doi.org/10.1111/1475-679x.70083",
       "cites": 0,
-      "topic": "JAR"
+      "topic": "JAR",
+      "added": "2026-08-19"
     },
     {
       "date": "2026-08-19",
@@ -3427,7 +3761,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70075",
       "cites": 3,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-08-19"
     },
     {
       "date": "2026-08-19",
@@ -3437,7 +3772,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09987-8",
       "cites": 0,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-08-19"
     },
     {
       "date": "2026-08-18",
@@ -3447,7 +3783,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103909",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-18"
     },
     {
       "date": "2026-08-18",
@@ -3457,7 +3794,8 @@
       "venue": "Technological Forecasting and Social Change",
       "url": "https://doi.org/10.1016/j.techfore.2026.124850",
       "cites": 1,
-      "topic": "TFSC"
+      "topic": "TFSC",
+      "added": "2026-08-18"
     },
     {
       "date": "2026-08-18",
@@ -3467,7 +3805,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70079",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-08-18"
     },
     {
       "date": "2026-08-17",
@@ -3477,7 +3816,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103906",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-17"
     },
     {
       "date": "2026-08-16",
@@ -3487,7 +3827,8 @@
       "venue": "Biosensors",
       "url": "https://doi.org/10.3390/bios16080442",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-16"
     },
     {
       "date": "2026-08-16",
@@ -3497,7 +3838,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103908",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-16"
     },
     {
       "date": "2026-08-16",
@@ -3507,7 +3849,8 @@
       "venue": "Journal of Accounting Research",
       "url": "https://doi.org/10.1111/1475-679x.70080",
       "cites": 1,
-      "topic": "JAR"
+      "topic": "JAR",
+      "added": "2026-08-16"
     },
     {
       "date": "2026-08-16",
@@ -3517,7 +3860,8 @@
       "venue": "Journal of Accounting Research",
       "url": "https://doi.org/10.1111/1475-679x.70082",
       "cites": 0,
-      "topic": "JAR"
+      "topic": "JAR",
+      "added": "2026-08-16"
     },
     {
       "date": "2026-08-15",
@@ -3527,7 +3871,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103904",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-15"
     },
     {
       "date": "2026-08-14",
@@ -3537,7 +3882,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103907",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-14"
     },
     {
       "date": "2026-08-12",
@@ -3547,7 +3893,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103905",
       "cites": 2,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-12"
     },
     {
       "date": "2026-08-11",
@@ -3557,7 +3904,8 @@
       "venue": "RADIOELECTRONIC AND COMPUTER SYSTEMS",
       "url": "https://doi.org/10.32620/reks.2026.2.17",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-11"
     },
     {
       "date": "2026-08-11",
@@ -3567,7 +3915,8 @@
       "venue": "Pragmatic Cybersecurity",
       "url": "https://doi.org/10.53941/pc.2026.100011",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-11"
     },
     {
       "date": "2026-08-11",
@@ -3577,7 +3926,8 @@
       "venue": "Advances in Economics Management and Political Sciences",
       "url": "https://doi.org/10.54254/2754-1169/2026.gt35973",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-11"
     },
     {
       "date": "2026-08-10",
@@ -3587,7 +3937,8 @@
       "venue": "Journal of Applied Informatics and Computing",
       "url": "https://doi.org/10.30871/jaic.v10i4.12787",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-10"
     },
     {
       "date": "2026-08-10",
@@ -3597,7 +3948,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103902",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-10"
     },
     {
       "date": "2026-08-10",
@@ -3607,7 +3959,8 @@
       "venue": "Futures",
       "url": "https://doi.org/10.1016/j.futures.2026.103899",
       "cites": 0,
-      "topic": "Futures Studies"
+      "topic": "Futures Studies",
+      "added": "2026-08-10"
     },
     {
       "date": "2026-08-07",
@@ -3617,7 +3970,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09985-w",
       "cites": 1,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-08-07"
     },
     {
       "date": "2026-08-07",
@@ -3627,7 +3981,8 @@
       "venue": "Review of Accounting Studies",
       "url": "https://doi.org/10.1007/s11142-026-09983-y",
       "cites": 0,
-      "topic": "RAST"
+      "topic": "RAST",
+      "added": "2026-08-07"
     },
     {
       "date": "2026-08-06",
@@ -3637,7 +3992,8 @@
       "venue": "Journal of Accounting Research",
       "url": "https://doi.org/10.1111/1475-679x.70081",
       "cites": 0,
-      "topic": "JAR"
+      "topic": "JAR",
+      "added": "2026-08-06"
     },
     {
       "date": "2026-08-06",
@@ -3647,7 +4003,8 @@
       "venue": "Contemporary Accounting Research",
       "url": "https://doi.org/10.1111/1911-3846.70072",
       "cites": 0,
-      "topic": "CAR"
+      "topic": "CAR",
+      "added": "2026-08-06"
     },
     {
       "date": "2026-08-03",
@@ -3657,7 +4014,8 @@
       "venue": "IACR Communications in Cryptology",
       "url": "https://doi.org/10.62056/andkp2c2h",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-03"
     },
     {
       "date": "2026-08-01",
@@ -3667,7 +4025,8 @@
       "venue": "Scientific Reports",
       "url": "https://doi.org/10.1038/s41598-026-62785-9",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3677,7 +4036,8 @@
       "venue": "Blockchain Research and Applications",
       "url": "https://doi.org/10.1016/j.bcra.2026.100544",
       "cites": 0,
-      "topic": "Ethereum Layer-2"
+      "topic": "Ethereum Layer-2",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3687,7 +4047,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0477",
       "cites": 2,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3697,7 +4058,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2025-0338",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3707,7 +4069,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0401",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3717,7 +4080,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0699",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3727,7 +4091,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2022-0526",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3737,7 +4102,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0689",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3747,7 +4113,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2024-0758",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3757,7 +4124,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0485",
       "cites": 1,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3767,7 +4135,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0731",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3777,7 +4146,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2024-0708",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3787,7 +4157,8 @@
       "venue": "The Accounting Review",
       "url": "https://doi.org/10.2308/tar-2023-0299",
       "cites": 0,
-      "topic": "TAR"
+      "topic": "TAR",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3797,7 +4168,8 @@
       "venue": "Journal of Accounting and Economics",
       "url": "https://doi.org/10.1016/j.jacceco.2026.101934",
       "cites": 1,
-      "topic": "JAE"
+      "topic": "JAE",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3807,7 +4179,8 @@
       "venue": "Journal of Accounting and Economics",
       "url": "https://doi.org/10.1016/j.jacceco.2026.101933",
       "cites": 0,
-      "topic": "JAE"
+      "topic": "JAE",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3817,7 +4190,8 @@
       "venue": "Journal of Accounting and Economics",
       "url": "https://doi.org/10.1016/j.jacceco.2026.101935",
       "cites": 0,
-      "topic": "JAE"
+      "topic": "JAE",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3827,7 +4201,8 @@
       "venue": "Journal of Accounting and Economics",
       "url": "https://doi.org/10.1016/j.jacceco.2026.101936",
       "cites": 0,
-      "topic": "JAE"
+      "topic": "JAE",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3837,7 +4212,8 @@
       "venue": "Journal of Accounting and Economics",
       "url": "https://doi.org/10.1016/j.jacceco.2026.101938",
       "cites": 0,
-      "topic": "JAE"
+      "topic": "JAE",
+      "added": "2026-08-01"
     },
     {
       "date": "2026-08-01",
@@ -3847,7 +4223,8 @@
       "venue": "Journal of Accounting and Economics",
       "url": "https://doi.org/10.1016/j.jacceco.2026.101937",
       "cites": 0,
-      "topic": "JAE"
+      "topic": "JAE",
+      "added": "2026-08-01"
     }
   ],
   "mostcited": {
