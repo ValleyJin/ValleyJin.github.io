@@ -207,6 +207,12 @@ permalink: /articles/
       // 우측 리스트를 좌측 달력 높이에 맞춤(탭이 보이게 되면 크기가 잡힘)
       if(window.ResizeObserver){ try{ var _cal=document.getElementById('tcal'); new ResizeObserver(function(){ var h=_cal.offsetHeight||0; if(h>0) listEl.style.maxHeight=h+'px'; }).observe(_cal); }catch(e){} }
       var todayKST=new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Seoul'});   // 오늘(KST)
+      // '방금 추가됨(NEW)' 판정: added(최초 관측일) 기준. 발간일이 지난달이어도 이번에 색인됐으면 NEW.
+      // 플래그는 총 5일간 노출 — 추가된 날 100%에서 매일 20%씩 흐려져(1,.8,.6,.4,.2) 5일째 사라진다.
+      function _ageDays(a){ if(!a) return 999; return Math.floor((new Date(todayKST+'T00:00:00')-new Date(a+'T00:00:00'))/86400000); }
+      function newOpacity(a){ var g=_ageDays(a); if(g<0) g=0; return g<=4 ? (5-g)/5 : 0; }
+      function isNew(p){ return !!(p && p.added && newOpacity(p.added)>0); }
+      function newFlag(cls,op){ return '<span class="'+cls+'" style="opacity:'+op.toFixed(2)+'">NEW</span>'; }
       // 색인 지연으로 오늘이 비는 경우가 많다 → 오늘 논문이 없으면 '가장 최근 발간일'을 초기 선택
       var _dts=(data.papers||[]).map(function(p){return p.date;}).sort();
       var _latest=_dts.length?_dts[_dts.length-1]:todayKST;
@@ -217,7 +223,7 @@ permalink: /articles/
       function byDate(){ var m={}; filtered().forEach(function(p){ (m[p.date]=m[p.date]||[]).push(p); }); return m; }
       function paperLi(p){
         return '<li class="pub-row"><a class="pub-main" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+
-          '<span class="pt">'+esc(p.title)+'</span>'+
+          '<span class="pt">'+(isNew(p)?newFlag('new-flag',newOpacity(p.added))+' ':'')+esc(p.title)+'</span>'+
           '<span class="pmeta">'+(st.topic==='All'?'<b style="color:var(--accent)">'+esc(p.topic)+'</b> · ':'')+esc(p.authors)+' ('+esc(p.year)+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span></a>'+
           '<span class="pcite">cited by <b>'+(p.cites||0)+'</b></span></li>';
       }
@@ -264,9 +270,10 @@ permalink: /articles/
         for(var i=0;i<startDow;i++){ var e=document.createElement('span'); e.className='tcal-cell empty'; grid.appendChild(e); }
         for(var day=1;day<=dim;day++){
           var key=y+'-'+pad(mo+1)+'-'+pad(day), ps=m[key];
+          var op=0; if(ps){ ps.forEach(function(p){ var o=newOpacity(p.added); if(o>op) op=o; }); }   // 그 날짜의 가장 최근 추가분 기준
           var c=document.createElement(ps?'button':'span');
-          c.className='tcal-cell'+(ps?' has':'')+(key===st.sel?' sel':'')+(key===todayKST?' today':'');
-          c.innerHTML='<span class="d">'+day+'</span>'+(ps?'<span class="n">'+ps.length+'</span>':'');
+          c.className='tcal-cell'+(ps?' has':'')+(op>0?' newday':'')+(key===st.sel?' sel':'')+(key===todayKST?' today':'');
+          c.innerHTML='<span class="d">'+day+'</span>'+(ps?'<span class="n">'+ps.length+'</span>':'')+(op>0?newFlag('newday-flag',op):'');
           if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ st.sel=k; renderCal(); renderList(); };})(key)); }
           grid.appendChild(c);
         }

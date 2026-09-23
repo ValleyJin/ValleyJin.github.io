@@ -332,12 +332,18 @@ def main():
     merged = {}
     for p in prev:                       # 먼저 기존(누적) 논문을 넣고
         k = _nkey(p)
-        if k:
-            merged[k] = p
+        if not k:
+            continue
+        p.setdefault("added", p.get("date"))   # 최초 관측일 백필: 기존분은 발간일로(신규 표시 안 함)
+        merged[k] = p
     for p in fresh:                      # 새로 받은 것으로 덮어써 최신값(cites 등) 반영
         k = _nkey(p)
-        if k:
-            merged[k] = p
+        if not k:
+            continue
+        # added = '우리가 처음 본 날'. 발간일이 지난달이어도 이번에 처음 색인됐으면 오늘이 된다
+        # → 프런트에서 '방금 추가됨(NEW)'을 발간일과 무관하게 표시할 수 있다.
+        p["added"] = merged[k]["added"] if k in merged else today
+        merged[k] = p
     newest = sorted(merged.values(), key=lambda p: p.get("date", ""), reverse=True)[:2000]
 
     # 이번 fetch가 통째로 비고(API 오류) mostcited도 비면 기존 파일을 건드리지 않는다.
