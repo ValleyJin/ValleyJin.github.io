@@ -255,6 +255,26 @@ img{max-width:100%;display:block}
 .vi-cat{white-space:nowrap}
 .vi-note{margin-top:10px;font-size:11.5px;color:var(--muted)}
 .vi-note a{color:var(--accent)}
+/* 품질 지형도 인포그래픽 (Q4→Q1 축 + 학회지 배치) */
+.qmap{margin:0 0 26px;padding:16px 16px 14px;border:1px solid var(--line);border-radius:14px;background:var(--bg-elev)}
+.qmap-head{font-size:12px;letter-spacing:.06em;color:var(--accent);margin-bottom:14px}
+.qmap-sub{color:var(--muted);text-transform:none;letter-spacing:.02em;font-size:11px}
+.qmap-track{position:relative;display:flex;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+.qz{flex:1;position:relative;border-right:1px dashed var(--line)}
+.qz:last-child{border-right:0}
+.qz .qz-lab{position:absolute;bottom:7px;left:0;right:0;text-align:center;font-size:11px;font-weight:700;color:var(--ink);opacity:.8}
+.qz.q4{background:color-mix(in srgb,#8b8d98 20%,transparent)}
+.qz.q3{background:color-mix(in srgb,#5eb3e4 20%,transparent)}
+.qz.q2{background:color-mix(in srgb,#f2891e 20%,transparent)}
+.qz.q1{background:color-mix(in srgb,#e23b3b 20%,transparent)}
+.qpin{position:absolute;transform:translateX(-50%);white-space:nowrap;font-family:var(--mono);font-size:11px;font-weight:700;color:#fff;padding:3px 9px;border-radius:999px;display:inline-flex;align-items:center;gap:6px;box-shadow:0 1px 5px rgba(0,0,0,.35)}
+.qpin.q1{background:#e23b3b}.qpin.q2{background:#f2891e}.qpin.q3{background:#5eb3e4}.qpin.q4{background:#8b8d98}
+.qpin-sjr{font-weight:400;opacity:.9;font-size:10px}
+.qmap-conf{margin-top:14px;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.qmap-lab{font-size:10px;letter-spacing:.06em;color:var(--muted);margin-right:2px}
+.qconf{font-family:var(--mono);font-size:11px;color:var(--ink-soft);border:1px solid var(--line);border-radius:999px;padding:3px 10px;display:inline-flex;gap:5px;align-items:center}
+.qconf:hover{border-color:var(--accent);color:var(--accent)}
+.qconf-h{color:var(--muted);font-size:10px}
 /* Following: first paper sits beside the author photo + Scholar link */
 .fw-lead{display:grid;grid-template-columns:168px 1fr;gap:22px;align-items:start;margin-bottom:2px}   /* 좌: Publications와 동일한 sc-photo 카드 */
 .fw-side{min-width:0}

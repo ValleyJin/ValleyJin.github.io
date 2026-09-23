@@ -178,6 +178,7 @@ permalink: /articles/
 
   <div id="pane-metrics" class="tabpane" hidden>
     <div class="mguide">
+      <div id="qmap" class="qmap" hidden></div>
       <p class="mlead">논문 "수준"은 하나의 숫자가 아니라 <b>세 층위</b>로 나눠서 봅니다 — 어디에 실렸나(저널·학회), 그 논문 자체가 얼마나 인정받나(논문), 저자의 누적 실적(저자). Q1~Q4는 그중 <b>저널 층위</b> 지표입니다. 아래 표의 "확인"은 무료로 값을 볼 수 있는 곳입니다.</p>
 
       <div class="section-head" style="margin:26px 0 8px"><h2>1 · 저널·학회 층위 <span class="mh-sub mono">어디에 실렸나</span></h2></div>
@@ -246,6 +247,37 @@ permalink: /articles/
   <script type="application/json" id="alerts-data">{{ site.data.scholar_alerts | jsonify }}</script>
   <script type="application/json" id="scholars-data">{{ site.data.scholars.scholars | jsonify }}</script>
   <script type="application/json" id="venues-data">{{ site.data.venues | jsonify }}</script>
+  <script>
+    /* Metrics 탭: 내 관심 학회·저널 품질 지형도 (Q4→Q1 축 위에 배치) */
+    (function(){
+      var el=document.getElementById('qmap'); if(!el) return;
+      var vs={}; try{ vs=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){ return; }
+      function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+      var journals=[], confs=[];
+      Object.keys(vs).forEach(function(k){ var v=vs[k]; v.label=k; if(v.type==='journal'&&v.q) journals.push(v); else if(v.type==='conference') confs.push(v); });
+      if(!journals.length && !confs.length){ return; }
+      var zones=['Q4','Q3','Q2','Q1'], byz={Q1:[],Q2:[],Q3:[],Q4:[]};
+      journals.forEach(function(v){ (byz[v.q]||byz.Q1).push(v); });
+      zones.forEach(function(z){ byz[z].sort(function(a,b){return (b.sjr||0)-(a.sjr||0);}); });   // 구역 내 SJR 높은 순(위)
+      var maxStack=Math.max(1,byz.Q1.length,byz.Q2.length,byz.Q3.length,byz.Q4.length);
+      var STEP=30, BASE=34, trackH=BASE+maxStack*STEP+6;
+      var h='<div class="qmap-head mono">내 관심 학회·저널 품질 지형도 <span class="qmap-sub">SCImago 분위(Q4→Q1) 위에 저널 배치 · 학회는 분위 없음</span></div>';
+      h+='<div class="qmap-track" style="height:'+trackH+'px">';
+      zones.forEach(function(z){ h+='<div class="qz '+z.toLowerCase()+'"><span class="qz-lab mono">'+z+'</span></div>'; });
+      zones.forEach(function(z,zi){
+        var cx=(zi+0.5)*25;
+        byz[z].forEach(function(v,i){
+          h+='<a class="qpin q'+z.toLowerCase()+'" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" style="left:'+cx+'%;bottom:'+(BASE+i*STEP)+'px" title="'+esc(v.name||'')+(v.sjr!=null?' · SJR '+esc(v.sjr):'')+'">'+esc(v.label)+(v.sjr!=null?'<span class="qpin-sjr">'+esc(v.sjr)+'</span>':'')+'</a>';
+        });
+      });
+      h+='</div>';
+      if(confs.length){
+        confs.sort(function(a,b){return (b.h||0)-(a.h||0);});
+        h+='<div class="qmap-conf"><span class="qmap-lab mono">CONFERENCES · 분위 없음(CORE/h5)</span>'+confs.map(function(v){return '<a class="qconf" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" title="'+esc(v.name||'')+'">'+esc(v.label)+(v.h!=null?'<span class="qconf-h">h'+esc(v.h)+'</span>':'')+'</a>';}).join('')+'</div>';
+      }
+      el.innerHTML=h; el.hidden=false;
+    })();
+  </script>
   <script>
     (function(){
       var el=document.getElementById('newest-data'); if(!el) return;
