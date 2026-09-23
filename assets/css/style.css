@@ -203,7 +203,7 @@ img{max-width:100%;display:block}
 .pub-row.open .pt-caret{transform:rotate(90deg);color:var(--accent)}
 /* 저널 분위 배지 Q1~Q4 (Q1이 최상위) */
 .qbadge{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.02em;padding:1px 5px;border-radius:4px;color:#fff;vertical-align:1px}
-.qbadge.q1{background:#0f8f79}.qbadge.q2{background:#3b82f6}.qbadge.q3{background:#d99a1e}.qbadge.q4{background:#8b8d98}
+.qbadge.q1{background:#e23b3b}.qbadge.q2{background:#f2891e}.qbadge.q3{background:#5eb3e4}.qbadge.q4{background:#8b8d98}
 /* 제목 클릭 시 펼쳐지는 상세 지표 패널 */
 .pub-detail{grid-column:1/-1;margin:10px 0 2px;padding:12px 14px;background:var(--bg-elev);border:1px solid var(--line);border-radius:10px}
 .pd-metrics{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-bottom:8px}
