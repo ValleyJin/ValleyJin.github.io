@@ -12,7 +12,9 @@
           "year": "2011",
           "venue": "Proceedings of the National Academy of Sciences 108 (1), 18-23, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
-          "cites": 307
+          "cites": 307,
+          "q": "Q1",
+          "sjr": 3.28
         },
         {
           "title": "Information flow between stock indices",
@@ -251,7 +253,9 @@
           "year": "2022",
           "venue": "Energy & Environmental Science 15 (1), 123-135, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:ZqE1mSdD_DYC",
-          "cites": 179
+          "cites": 179,
+          "q": "Q1",
+          "sjr": 9.24
         },
         {
           "title": "Sulfur–carbon electrode with PEO‐LiFSI‐PVDF composite coating for high‐rate and long‐life lithium–sulfur batteries",
@@ -269,7 +273,9 @@
           "year": "2004",
           "venue": "Transactions of the ASAE 47 (5), 1785-1792, 2004",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:kF1pexMAQbMC",
-          "cites": 131
+          "cites": 131,
+          "q": "Q2",
+          "sjr": 0.17
         },
         {
           "title": "n-gram/2l: A space and time efficient two-level n-gram inverted index structure",
@@ -285,7 +291,9 @@
           "year": "2016",
           "venue": "Environmental science & technology 50 (7), 3453-3461, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:43bX7VzcjpAC",
-          "cites": 117
+          "cites": 117,
+          "q": "Q1",
+          "sjr": 3.78
         },
         {
           "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
@@ -439,7 +447,9 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 354
+          "cites": 354,
+          "q": "Q2",
+          "sjr": 0.5
         },
         {
           "title": "Holistic Evaluation of Text-to-Image Models",
@@ -463,7 +473,9 @@
           "year": "2023",
           "venue": "Transactions on Machine Learning Research (TMLR), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:M3ejUd6NZC8C",
-          "cites": 251
+          "cites": 251,
+          "q": "Q2",
+          "sjr": 0.74
         },
         {
           "title": "A Slow Algorithm Improves Users' Assessments of the Algorithm's Accuracy",
@@ -471,7 +483,9 @@
           "year": "2019",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 3 (CSCW), 1-15, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:u5HHmVD_uO8C",
-          "cites": 143
+          "cites": 143,
+          "q": "Q2",
+          "sjr": 0.5
         }
       ],
       "recent": [

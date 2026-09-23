@@ -371,7 +371,7 @@
           "year": 2025,
           "venue": "Neural Information Processing Systems",
           "url": "https://doi.org/10.48550/arXiv.2505.13197",
-          "cites": 5
+          "cites": 6
         },
         {
           "title": "Information-theoretic Generalization Analysis for Expected Calibration Error",
