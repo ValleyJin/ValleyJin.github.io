@@ -217,7 +217,7 @@ def load_scimago():
             if k:
                 m.setdefault(k, entry)
         if i_title >= 0 and c[i_title]:
-            tmap.setdefault(c[i_title].strip().lower(), entry)   # 제목(소문자) → entry
+            tmap.setdefault(_norm_title(c[i_title]), entry)      # 정규화 제목 → entry
     print(f"· SCImago {len(m)} ISSN / {len(tmap)} title 로드", file=sys.stderr)
     return {"issn": m, "title": tmap}
 
@@ -259,13 +259,26 @@ def _journal_name(pub):
     return s.strip()
 
 
+def _norm_title(s):
+    s = (s or "").strip().lower()
+    s = s.replace(" & ", " and ")
+    return re.sub(r"\s+", " ", s).strip()
+
+
 def scholar_q(pub, sci):
-    """Scholar 논문 venue 텍스트 → 저널 분위(Q)·SJR (SCImago 제목 매칭)."""
+    """Scholar 논문 venue 텍스트 → 저널 분위(Q)·SJR (SCImago 제목 매칭).
+    정확 일치 실패 시 접두 매칭(예: 'Proceedings of the National Academy of Sciences'
+    ↔ SCImago '…of the United States of America')."""
     tmap = (sci or {}).get("title", {})
     if not tmap:
         return {}
-    nm = _journal_name(pub).lower()
+    nm = _norm_title(_journal_name(pub))
     e = tmap.get(nm)
+    if not e and len(nm) >= 16:                 # 접두 폴백(너무 짧은 이름은 오매칭 방지)
+        for t, v in tmap.items():
+            if t.startswith(nm) or nm.startswith(t):
+                e = v
+                break
     if not e:
         return {}
     out = {"q": e["q"]}
