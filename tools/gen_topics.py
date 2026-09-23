@@ -261,8 +261,11 @@ def _journal_name(pub):
 
 def _norm_title(s):
     s = (s or "").strip().lower()
+    s = s.replace("®", "").replace("™", "").replace("©", "")     # 상표기호 제거
+    s = s.replace("–", "-").replace("—", "-")                    # 엔/엠 대시 → 하이픈
     s = s.replace(" & ", " and ")
-    return re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\s+", " ", s).strip()
+    return s.rstrip("… .").strip()                               # Scholar가 자른 끝 ellipsis 제거
 
 
 def _title_cands(nm):
@@ -354,31 +357,43 @@ CONF_PHRASE = {
 }
 
 
+def _conf_key(venue):
+    """venue → 학회 핵심 명칭. 'Proceedings of the', 'Adjunct', 연도, 서수(36th Annual) 제거.
+    Scholar가 끝을 '…'로 자른 경우도 그대로 둬 접두 매칭에 쓴다."""
+    s = _norm_title(_journal_name(venue))
+    for _ in range(3):
+        s = re.sub(r"^(adjunct\s+|proceedings of the\s+|proceedings of\s+|the\s+|\d{4}\s+|\d+(?:st|nd|rd|th)(?:\s+annual)?\s+)", "", s)
+    return s.strip()
+
+
 def conf_rank(venue, core, topic=None):
-    """학회 논문 → CORE 등급(A*/A/B/C). topic 약칭 → venue 약칭/제목 → 정식명 부분매칭 →
-    대형 학회 고유 핵심구 매핑 순. 오매칭(틀린 등급) 방지를 최우선으로 보수적으로 매칭."""
+    """학회 논문 → CORE 등급(A*/A/B/C). 약칭 → 정확명 → (잘림 대응)접두 매칭 → 대형학회 핵심구.
+    오매칭(틀린 등급) 방지를 최우선으로 보수적으로 매칭한다."""
     if not core:
         return {}
     acr, ttl = core.get("acr", {}), core.get("title", {})
     for key in (topic, venue):
         if key and key.strip().lower() in acr:
             return {"crank": acr[key.strip().lower()]}
-    nm = _norm_conf(_journal_name(venue))
-    if nm in ttl:
-        return {"crank": ttl[nm]}
-    # 정식 proceedings 명 그대로가 venue에 포함(예: '…36th Annual ACM Symposium on User…' → UIST).
-    # CORE 정식명 자체를 부분문자열로만 봐서(선두 관용어 strip 안 함) 유사명 오매칭을 피한다.
-    full = _norm_conf(venue)
+    key = _conf_key(venue)
+    if not key:
+        return {}
+    if key in ttl:
+        return {"crank": ttl[key]}
+    # 접두 매칭: Scholar가 끝을 자른 경우(‘…User Interface Software and …’)도 CORE 정식명의
+    # 접두이면 인정. 양방향 접두 + 최장 매칭으로 유사명 오매칭을 피한다(양쪽 20자 이상).
     best = None
-    for t, rank in ttl.items():
-        if len(t) >= 25 and (t in nm or t in full):
-            if best is None or len(t) > len(best[0]):
-                best = (t, rank)
+    if len(key) >= 20:
+        for t, rank in ttl.items():
+            if len(t) >= 20 and (t.startswith(key) or key.startswith(t)):
+                if best is None or len(t) > len(best[0]):
+                    best = (t, rank)
     if best:
         return {"crank": best[1]}
     # 대형 학회: 표기가 달라도(‘Conference on Neural Information Processing Systems’) 고유 핵심구로 인정.
+    # Scholar가 끝을 자른 경우도 위해 구문 앞 30자 부분매칭 허용(구문이 충분히 길어 오매칭 방지).
     for phrase, acro in CONF_PHRASE.items():
-        if phrase in full and acro in acr:
+        if acro in acr and (phrase in key or phrase[:30] in key):
             return {"crank": acr[acro]}
     return {}
 
