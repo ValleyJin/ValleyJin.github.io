@@ -215,6 +215,29 @@ img{max-width:100%;display:block}
 .pd-meta{color:var(--muted);font-size:12.5px;margin-bottom:8px}
 .pd-meta i{font-style:italic}
 .pd-link{color:var(--accent);font-size:12px}
+/* Metrics(지표 안내) 탭 */
+.mguide{max-width:780px}
+.mguide .section-head h2{display:flex;align-items:baseline;gap:10px;color:var(--accent)}
+.mh-sub{color:var(--muted);font-weight:400;text-transform:none;letter-spacing:.02em;font-size:12px}
+.mlead{color:var(--ink-soft);font-size:15px;line-height:1.65;margin:4px 0 6px}
+.mnote{color:var(--ink-soft);font-size:13.5px;line-height:1.6;margin:0 0 12px}
+.mtable-wrap{overflow-x:auto}
+.mtable{width:100%;border-collapse:collapse;font-size:13.5px}
+.mtable th,.mtable td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+.mtable thead th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+.mtable td:first-child{font-weight:600;color:var(--ink);white-space:nowrap}
+.mtable td b{color:var(--accent)}
+.mtable a{color:var(--accent);white-space:nowrap}
+.mcallout{margin:26px 0 4px;padding:14px 16px;border:1px solid var(--line);border-left:3px solid #d99a1e;border-radius:10px;background:var(--bg-elev)}
+.mco-title{color:#d99a1e;font-size:12px;letter-spacing:.04em;margin-bottom:8px}
+.mcallout ul{margin:0;padding-left:18px;color:var(--ink-soft);font-size:13.5px;line-height:1.7}
+.mcallout a{color:var(--accent)}
+.mlinks{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.mlinks a{display:block;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg-elev);transition:border-color .15s}
+.mlinks a:hover{border-color:var(--accent)}
+.mlinks a b{display:block;color:var(--ink);font-size:14px}
+.mlinks a span{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+@media(max-width:640px){.mlinks{grid-template-columns:1fr}}
 /* Following: first paper sits beside the author photo + Scholar link */
 .fw-lead{display:grid;grid-template-columns:168px 1fr;gap:22px;align-items:start;margin-bottom:2px}   /* 좌: Publications와 동일한 sc-photo 카드 */
 .fw-side{min-width:0}
