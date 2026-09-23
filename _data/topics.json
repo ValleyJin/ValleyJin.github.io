@@ -90,7 +90,7 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1620
+          "cites": 1622
         },
         {
           "title": "Memory-Based Event-Triggered Fault-Tolerant Consensus Control of Nonlinear Multi-Agent Systems and Its Applications",
@@ -156,7 +156,7 @@
           "cites": 27
         }
       ],
-      "count": 5868
+      "count": 5870
     },
     {
       "topic": "Ethereum Layer-2",
@@ -234,7 +234,7 @@
           "cites": 38
         }
       ],
-      "count": 40603
+      "count": 40605
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -273,7 +273,7 @@
           "cites": 491
         }
       ],
-      "count": 193557
+      "count": 193558
     },
     {
       "topic": "Ontology",
@@ -351,7 +351,7 @@
           "cites": 82
         }
       ],
-      "count": 106302
+      "count": 106307
     },
     {
       "topic": "NeurIPS",
@@ -510,7 +510,7 @@
       "count": 7364
     },
     {
-      "topic": "Futures Studies",
+      "topic": "Futures",
       "query": "venue:S130638383",
       "papers": [
         {
