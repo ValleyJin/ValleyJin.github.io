@@ -294,7 +294,7 @@ permalink: /articles/
       zones.forEach(function(z,zi){
         var cx=(zi+0.5)*25;
         byz[z].forEach(function(v,i){
-          h+='<a class="qpin q'+z.toLowerCase()+'" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" style="left:'+cx+'%;bottom:'+(BASE+i*STEP)+'px" title="'+esc(v.name||'')+(v.sjr!=null?' · SJR '+esc(v.sjr):'')+'">'+esc(v.label)+(v.sjr!=null?'<span class="qpin-sjr">'+esc(v.sjr)+'</span>':'')+'</a>';
+          h+='<a class="qpin '+z.toLowerCase()+'" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" style="left:'+cx+'%;bottom:'+(BASE+i*STEP)+'px" title="'+esc(v.name||'')+(v.sjr!=null?' · SJR '+esc(v.sjr):'')+'">'+esc(v.label)+(v.sjr!=null?'<span class="qpin-sjr">'+esc(v.sjr)+'</span>':'')+'</a>';
         });
       });
       h+='</div>';
