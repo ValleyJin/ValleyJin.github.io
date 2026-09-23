@@ -6170,7 +6170,7 @@
         "year": 2017,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/1703.00443",
-        "cites": 1350,
+        "cites": 1352,
         "topic": "ICML",
         "crank": "A*"
       },
@@ -6200,7 +6200,7 @@
         "year": 2021,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/2102.03150",
-        "cites": 855,
+        "cites": 856,
         "topic": "ICML",
         "crank": "A*"
       },
@@ -6222,7 +6222,7 @@
         "year": 2020,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2010.02502",
-        "cites": 13537,
+        "cites": 13543,
         "topic": "ICLR",
         "crank": "A*"
       },
@@ -6232,7 +6232,7 @@
         "year": 2022,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2201.12329",
-        "cites": 1427,
+        "cites": 1428,
         "topic": "ICLR",
         "crank": "A*"
       },
