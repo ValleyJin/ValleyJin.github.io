@@ -643,6 +643,21 @@
       "added": "2026-09-23"
     },
     {
+      "date": "2026-09-22",
+      "title": "Dynamic time-lagged relation graph structure learning for multivariate time series forecasting",
+      "authors": "Feng, X., Li, H., Wen, S., & Yang, T.",
+      "year": 2026,
+      "venue": "International Journal of Machine Learning and Cybernetics",
+      "url": "https://doi.org/10.1007/s13042-026-03297-w",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.7,
+      "added": "2026-09-23"
+    },
+    {
       "date": "2026-09-21",
       "title": "Heuristic and Optimal Synthesis of CNOT and Clifford Circuits",
       "authors": "Webster, M., Koutsioumpas, S., & Browne, D. E.",
@@ -1019,6 +1034,18 @@
       "added": "2026-09-21"
     },
     {
+      "date": "2026-09-21",
+      "title": "Semantic Shields: Automating Critical Infrastructure Defense via NLP-Driven Ransomware Profiling",
+      "authors": "Trowbridge, H., Zalcberg, I., Schley, R., Yagemann, C., Phan, N., Maduposu, S., et al.",
+      "year": 2026,
+      "venue": "Digital Commons - University of South Florida (University of South Florida)",
+      "url": "https://doi.org/10.5038/2378-0789.9.1.1154",
+      "cites": 0,
+      "topic": "Graph database",
+      "fwci": 0.0,
+      "added": "2026-09-23"
+    },
+    {
       "date": "2026-09-20",
       "title": "Generative AI for Drug Discovery: GPT-2 and LSTM-Based Models for Designing EGFR Inhibitors",
       "authors": "Dasser, O., Benaceur, O. F., Fadel, S., & Kaanane, R.",
@@ -1082,7 +1109,7 @@
       "venue": "Intelligence & Control",
       "url": "https://doi.org/10.53941/ic.2026.100011",
       "cites": 0,
-      "topic": "Graph database",
+      "topic": "LLM inference serving",
       "fwci": 0.0,
       "pct": 10,
       "added": "2026-09-20"
@@ -2172,7 +2199,6 @@
       "cites": 0,
       "topic": "Futures",
       "fwci": 0.0,
-      "pct": 10,
       "q": "Q1",
       "sjr": 1.43,
       "added": "2026-09-09"
@@ -5374,9 +5400,9 @@
         "year": 2018,
         "venue": "PLoS Computational Biology",
         "url": "https://doi.org/10.1371/journal.pcbi.1005968",
-        "cites": 299,
+        "cites": 300,
         "topic": "Graph database",
-        "fwci": 9.54,
+        "fwci": 9.5,
         "pct": 10,
         "q": "Q1",
         "sjr": 1.47
@@ -5517,9 +5543,9 @@
         "year": 2025,
         "venue": "Future Generation Computer Systems",
         "url": "https://doi.org/10.1016/j.future.2025.108316",
-        "cites": 2,
+        "cites": 3,
         "topic": "Ethereum Layer-2",
-        "fwci": 3.07,
+        "fwci": 4.56,
         "pct": 10,
         "q": "Q1",
         "sjr": 1.48
@@ -5683,9 +5709,9 @@
         "year": 2022,
         "venue": "Nature Communications",
         "url": "https://doi.org/10.1038/s41467-022-29939-5",
-        "cites": 1846,
+        "cites": 1873,
         "topic": "Graph neural networks (GNN)",
-        "fwci": 93.44,
+        "fwci": 93.66,
         "pct": 1,
         "q": "Q1",
         "sjr": 4.9
@@ -5830,9 +5856,9 @@
         "year": 2020,
         "venue": "International Journal of Public Administration",
         "url": "https://doi.org/10.1080/01900692.2020.1749851",
-        "cites": 383,
+        "cites": 384,
         "topic": "AI governance",
-        "fwci": 33.23,
+        "fwci": 33.18,
         "pct": 1,
         "q": "Q2",
         "sjr": 0.67

@@ -78,7 +78,7 @@
           "cites": 15
         }
       ],
-      "count": 117231
+      "count": 117235
     },
     {
       "topic": "Memory in Agentic AI",
@@ -117,7 +117,7 @@
           "cites": 211
         }
       ],
-      "count": 68534
+      "count": 68539
     },
     {
       "topic": "LLM inference serving",
@@ -156,7 +156,7 @@
           "cites": 27
         }
       ],
-      "count": 5870
+      "count": 5868
     },
     {
       "topic": "Ethereum Layer-2",
@@ -168,7 +168,7 @@
           "year": 2025,
           "venue": "Future Generation Computer Systems",
           "url": "https://doi.org/10.1016/j.future.2025.108316",
-          "cites": 2
+          "cites": 3
         },
         {
           "title": "Decentralized IoT Data Authentication with Signature Aggregation",
@@ -234,7 +234,7 @@
           "cites": 38
         }
       ],
-      "count": 40605
+      "count": 40606
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -273,7 +273,7 @@
           "cites": 491
         }
       ],
-      "count": 193558
+      "count": 193569
     },
     {
       "topic": "Ontology",
@@ -312,7 +312,7 @@
           "cites": 416
         }
       ],
-      "count": 25000
+      "count": 25002
     },
     {
       "topic": "AI governance",
@@ -348,10 +348,10 @@
           "year": 2024,
           "venue": "Government Information Quarterly",
           "url": "https://doi.org/10.1016/j.giq.2024.101929",
-          "cites": 82
+          "cites": 85
         }
       ],
-      "count": 106307
+      "count": 106316
     },
     {
       "topic": "NeurIPS",
