@@ -197,6 +197,24 @@ img{max-width:100%;display:block}
 .pub-row .pmeta i{font-style:italic}
 .pub-row .pcite{font-family:var(--mono);font-size:12px;color:var(--muted);white-space:nowrap}
 .pub-row .pcite b{color:var(--accent)}
+/* 제목 클릭 토글 버튼(링크 대체) + 펼침 caret */
+.pt-toggle{appearance:none;width:100%;text-align:left;background:0;border:0;padding:0;margin:0;font:inherit;color:inherit;cursor:pointer}
+.pt-caret{display:inline-block;margin-left:6px;color:var(--muted);font-size:13px;transition:transform .15s}
+.pub-row.open .pt-caret{transform:rotate(90deg);color:var(--accent)}
+/* 저널 분위 배지 Q1~Q4 (Q1이 최상위) */
+.qbadge{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.02em;padding:1px 5px;border-radius:4px;color:#fff;vertical-align:1px}
+.qbadge.q1{background:#0f8f79}.qbadge.q2{background:#3b82f6}.qbadge.q3{background:#d99a1e}.qbadge.q4{background:#8b8d98}
+/* 제목 클릭 시 펼쳐지는 상세 지표 패널 */
+.pub-detail{grid-column:1/-1;margin:10px 0 2px;padding:12px 14px;background:var(--bg-elev);border:1px solid var(--line);border-radius:10px}
+.pd-metrics{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-bottom:8px}
+.pd-m{font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
+.pd-m b{color:var(--accent);font-weight:700}
+.pd-m.top{color:#f2444e}
+.pd-hint{color:var(--muted);font-size:10px;margin-left:4px}
+.pd-note{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.pd-meta{color:var(--muted);font-size:12.5px;margin-bottom:8px}
+.pd-meta i{font-style:italic}
+.pd-link{color:var(--accent);font-size:12px}
 /* Following: first paper sits beside the author photo + Scholar link */
 .fw-lead{display:grid;grid-template-columns:168px 1fr;gap:22px;align-items:start;margin-bottom:2px}   /* 좌: Publications와 동일한 sc-photo 카드 */
 .fw-side{min-width:0}

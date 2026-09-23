@@ -82,7 +82,7 @@ def fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
         "filter": filt,
         "per_page": max(n * 2, 8),  # 여유분(중복 제거 후 n개 확보)
         "mailto": MAILTO,
-        "select": "title,publication_year,publication_date,authorships,primary_location,doi,cited_by_count,id",
+        "select": "title,publication_year,publication_date,authorships,primary_location,doi,cited_by_count,id,fwci,citation_normalized_percentile",
     }
     if sort:
         q["sort"] = sort
@@ -161,6 +161,86 @@ def clean_title(t):
     return re.sub(r"\s+", " ", t)
 
 
+SCIMAGO_URL = "https://www.scimagojr.com/journalrank.php?out=xls"   # 전체 저널 랭크 CSV(;구분)
+
+
+def load_scimago():
+    """SCImago 저널 랭크 → {정규화ISSN: {'q':'Q1','sjr':2.34}}. 저널 Q1~Q4 출처.
+    한 번 내려받아 ISSN으로 매칭한다. 실패해도(네트워크 등) 빈 dict로 조용히 진행."""
+    m = {}
+    try:
+        # SCImago는 봇 UA를 403으로 막는다 → 브라우저 UA + Referer로 요청
+        req = urllib.request.Request(SCIMAGO_URL, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+            "Referer": "https://www.scimagojr.com/journalrank.php",
+            "Accept": "text/csv,application/octet-stream,*/*",
+        })
+        with urllib.request.urlopen(req, timeout=120) as r:
+            raw = r.read().decode("utf-8", "ignore")
+    except Exception as e:
+        print(f"! SCImago 로드 실패(저널 분위 생략): {e}", file=sys.stderr)
+        return m
+    lines = raw.splitlines()
+    if not lines:
+        return m
+    header = [h.strip().strip('"') for h in lines[0].split(";")]
+    def _idx(name):
+        for i, h in enumerate(header):
+            if h.lower() == name.lower():
+                return i
+        return -1
+    i_issn, i_q, i_sjr = _idx("Issn"), _idx("SJR Best Quartile"), _idx("SJR")
+    if i_issn < 0 or i_q < 0:
+        print("! SCImago 헤더 형식 예상과 다름 — 분위 생략", file=sys.stderr)
+        return m
+    for ln in lines[1:]:
+        c = [x.strip().strip('"') for x in ln.split(";")]
+        if len(c) <= max(i_issn, i_q, i_sjr):
+            continue
+        q = c[i_q].strip()
+        if q not in ("Q1", "Q2", "Q3", "Q4"):
+            continue
+        sjr = None
+        if i_sjr >= 0 and c[i_sjr]:
+            try:
+                sjr = round(float(c[i_sjr].replace(",", ".")), 2)   # xls는 소수점이 콤마
+            except ValueError:
+                sjr = None
+        for iss in c[i_issn].replace(" ", "").split(","):
+            k = iss.replace("-", "").upper()
+            if k:
+                m.setdefault(k, {"q": q, "sjr": sjr})   # 여러 카테고리 중 Best Quartile 한 값
+    print(f"· SCImago {len(m)} ISSN 로드", file=sys.stderr)
+    return m
+
+
+def quality(w, sci):
+    """OpenAlex work → 품질지표: FWCI, 인용 백분위(Top 1/10%), 저널 분위(Q)·SJR."""
+    out = {}
+    fwci = w.get("fwci")
+    if isinstance(fwci, (int, float)):
+        out["fwci"] = round(float(fwci), 2)
+    cnp = w.get("citation_normalized_percentile") or {}
+    if cnp.get("is_in_top_1_percent"):
+        out["pct"] = 1
+    elif cnp.get("is_in_top_10_percent"):
+        out["pct"] = 10
+    src = (w.get("primary_location") or {}).get("source") or {}
+    cand = []
+    if src.get("issn_l"):
+        cand.append(src["issn_l"])
+    for i in (src.get("issn") or []):
+        cand.append(i)
+    for i in cand:
+        k = str(i).replace("-", "").replace(" ", "").upper()
+        if k in sci:
+            out["q"] = sci[k]["q"]
+            if sci[k].get("sjr") is not None:
+                out["sjr"] = sci[k]["sjr"]
+            break
+    return out
+
+
 def main():
     cfg = yaml.safe_load(CFG.read_text(encoding="utf-8")) or {}
     topics = parse_topics(cfg.get("topics", ""))
@@ -174,6 +254,7 @@ def main():
     # N=2(겹침): 색인 지연으로 다음 달에 뒤늦게 뜨는 전달 논문까지 이때 포착하려는 것.
     newest_months = int(cfg.get("newest_months", 2))          # 매 실행 새로 받을(겹칠) 최근 개월 수
     newest_per_month = int(cfg.get("newest_per_month", 15))    # 토픽 × 달마다 상위 몇 편
+    scimago = load_scimago()                                   # 저널 Q1~Q4 · SJR (ISSN 매칭)
 
     result = {"generated": date.today().isoformat(),
               "field": "Computer Science · AI & databases",
@@ -221,11 +302,36 @@ def main():
 
     # ── Newest: 팔로우 토픽에서 '최근 발간'된 논문(발간일순) → 달력용 ──
     today = result["generated"]
-    # 최근 newest_months개월의 (시작일, 종료일) 윈도우 목록 — 현재 달부터 과거로
     from calendar import monthrange
     _t = date.today()
+
+    # 기존 누적 파일을 먼저 읽는다(병합 + 전체갱신 판정에 사용)
+    prev, prev_meta = [], {}
+    if NEWEST.exists():
+        try:
+            prev_meta = json.loads(NEWEST.read_text(encoding="utf-8")) or {}
+            prev = prev_meta.get("papers", []) or []
+        except Exception:
+            prev, prev_meta = [], {}
+
+    # 전체 재fetch = 연 2회(1/1, 7/1 시작 반기). 그 반기에 아직 안 했으면 이번 실행에서 수행(놓침 방지).
+    # 전체갱신 땐 누적된 전 기간(가장 이른 달 ~ 현재)을 다시 받아 오래된 논문 지표(FWCI·Q·인용)까지 갱신.
+    newest_full_cap = int(cfg.get("newest_full_cap", 18))     # 전체갱신 시 거슬러 올라갈 최대 개월
+    period_start = date(_t.year, 7 if _t.month >= 7 else 1, 1).isoformat()
+    last_full = prev_meta.get("last_full")
+    is_full = (not last_full) or (last_full < period_start)
+    months = newest_months
+    if is_full:
+        _dts = [p.get("date", "") for p in prev if p.get("date")]
+        if _dts:
+            e = min(_dts)                                     # 누적 최이른 발간일 → 그 달부터 현재까지
+            months = (_t.year - int(e[:4])) * 12 + (_t.month - int(e[5:7])) + 1
+        months = max(newest_months, min(months, newest_full_cap))
+        print(f"· 전체 재fetch(반기 {period_start}): 최근 {months}개월 갱신", file=sys.stderr)
+
+    # 최근 months개월의 (시작일, 종료일) 윈도우 목록 — 현재 달부터 과거로
     windows, _wy, _wm = [], _t.year, _t.month
-    for _ in range(max(1, newest_months)):
+    for _ in range(max(1, months)):
         _start = date(_wy, _wm, 1)
         _end = date(_wy, _wm, monthrange(_wy, _wm)[1])
         if _end > _t:
@@ -235,7 +341,7 @@ def main():
         if _wm == 0:
             _wm = 12; _wy -= 1
 
-    newest_from = windows[-1][0]                             # 커버 윈도우의 가장 이른 시작일(예: 8/1)
+    newest_from = windows[-1][0]                             # 커버 윈도우의 가장 이른 시작일
     newest, seen_n = [], set()
     for label, query, _em in topics:
         for _wstart, _wend in windows:                       # 달마다 따로 받아 각 달을 보장
@@ -257,13 +363,15 @@ def main():
                 if not venue or venue.lower().startswith(("zenodo", "figshare", "ssrn")):
                     continue
                 seen_n.add(key)
-                newest.append({
+                _np = {
                     "date": pd, "title": title,
                     "authors": apa_authors(w.get("authorships", [])),
                     "year": w.get("publication_year"), "venue": venue,
                     "url": w.get("doi") or w.get("id"),
                     "cites": w.get("cited_by_count", 0), "topic": label,
-                })
+                }
+                _np.update(quality(w, scimago))   # FWCI·백분위·저널 분위(Q)·SJR
+                newest.append(_np)
                 kept += 1
                 if kept >= newest_per_month:                 # 토픽×달마다 상위 K편만
                     break
@@ -300,6 +408,7 @@ def main():
                 "url": w.get("doi") or w.get("id"), "cites": w.get("cited_by_count", 0),
                 "topic": label,
             }
+            paper.update(quality(w, scimago))   # FWCI·백분위·저널 분위(Q)·SJR
             arr.append(paper)
             tl = title.lower()
             if qwords and all(qw in tl for qw in qwords):   # 제목에 키워드 전부 포함 = 확실히 주제
@@ -318,15 +427,9 @@ def main():
         else:
             oa_map[_lab] = "https://openalex.org/works?filter=default.search:" + urllib.parse.quote(_q, safe="")
 
-    # 누적 병합: 기존 newest.json은 지난달까지 쌓인 결과. 이번에 받은 최근 N개월(fresh)을
-    # 병합해 '월별로 계속 쌓이게' 한다. 색인 지연으로 10월에 뒤늦게 뜨는 9월 논문도 겹침
-    # 윈도우(newest_months≥2) 덕에 이때 추가된다. 지난달 데이터는 절대 지우지 않는다.
-    prev = []
-    if NEWEST.exists():
-        try:
-            prev = (json.loads(NEWEST.read_text(encoding="utf-8")) or {}).get("papers", []) or []
-        except Exception:
-            prev = []
+    # 누적 병합: 기존 newest.json(prev, 위에서 로드)에 이번에 받은 fresh를 병합해 '월별로 계속
+    # 쌓이게' 한다. 색인 지연으로 다음 달에 뒤늦게 뜨는 전달 논문도 겹침 윈도우 덕에 추가된다.
+    # 지난달 데이터는 절대 지우지 않는다. (전체갱신 반기엔 fresh가 전 기간이라 지표가 새로고침된다)
     def _nkey(p):
         return (p.get("url") or p.get("title") or "").strip().lower()
     merged = {}
@@ -352,6 +455,7 @@ def main():
     else:
         NEWEST.write_text(json.dumps({
             "generated": today,
+            "last_full": today if is_full else last_full,     # 마지막 전체 재fetch일(반기 판정용)
             "topics": [label for label, _q, _e in topics],   # 탭 순서(config 순)
             "venues": [label for label, _q, _e in topics if _q.startswith("venue:") or _q.startswith("s2:")],   # 학회/저널 토픽(구분선 아래 배치)
             "em": {label: em for label, _q, em in topics if em},   # 토픽별 Emergent Mind URL

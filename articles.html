@@ -221,12 +221,36 @@ permalink: /articles/
       var cm=st.sel.split('-'); var cur=new Date(+cm[0], +cm[1]-1, 1);
       function filtered(){ return st.topic==='All'?papers:papers.filter(function(p){return p.topic===st.topic;}); }
       function byDate(){ var m={}; filtered().forEach(function(p){ (m[p.date]=m[p.date]||[]).push(p); }); return m; }
-      function paperLi(p){
-        return '<li class="pub-row"><a class="pub-main" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+
-          '<span class="pt">'+(isNew(p)?newFlag('new-flag',newOpacity(p.added))+' ':'')+esc(p.title)+'</span>'+
-          '<span class="pmeta">'+(st.topic==='All'?'<b style="color:var(--accent)">'+esc(p.topic)+'</b> · ':'')+esc(p.authors)+' ('+esc(p.year)+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span></a>'+
-          '<span class="pcite">cited by <b>'+(p.cites||0)+'</b></span></li>';
+      function qBadge(q){ return q?'<span class="qbadge '+esc(String(q).toLowerCase())+'" title="SCImago journal quartile">'+esc(q)+'</span>':''; }
+      function paperDetail(p){
+        var m=[];
+        if(p.q) m.push(qBadge(p.q));
+        if(p.sjr!=null) m.push('<span class="pd-m">SJR <b>'+esc(p.sjr)+'</b></span>');
+        if(p.fwci!=null) m.push('<span class="pd-m">FWCI <b>'+esc(p.fwci)+'</b><span class="pd-hint">vs field avg 1.0</span></span>');
+        if(p.pct) m.push('<span class="pd-m top">Top '+esc(p.pct)+'%</span>');
+        m.push('<span class="pd-m">cited by <b>'+(p.cites||0)+'</b></span>');
+        var meta=esc(p.authors||'')+(p.year?' ('+esc(p.year)+')':'')+(p.venue?' · <i>'+esc(p.venue)+'</i>':'');
+        return '<div class="pub-detail" hidden>'+
+          '<div class="pd-metrics">'+m.join('')+(p.q?'':'<span class="pd-note mono">journal quartile n/a · conference/preprint</span>')+'</div>'+
+          '<div class="pd-meta">'+meta+'</div>'+
+          '<a class="pd-link mono" href="'+esc(p.url)+'" target="_blank" rel="noopener">Open paper ↗</a></div>';
       }
+      function paperLi(p){
+        return '<li class="pub-row">'+
+          '<button type="button" class="pub-main pt-toggle" aria-expanded="false">'+
+            '<span class="pt">'+(isNew(p)?newFlag('new-flag',newOpacity(p.added))+' ':'')+esc(p.title)+'<span class="pt-caret" aria-hidden="true">›</span></span>'+
+            '<span class="pmeta">'+(st.topic==='All'?'<b style="color:var(--accent)">'+esc(p.topic)+'</b> · ':'')+esc(p.authors)+' ('+esc(p.year)+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span>'+
+          '</button>'+
+          '<span class="pcite">'+(p.q?qBadge(p.q)+' ':'')+'cited by <b>'+(p.cites||0)+'</b></span>'+
+          paperDetail(p)+'</li>';
+      }
+      // 제목 클릭 → 그 아래 상세 패널 토글 (리스트가 innerHTML로 재렌더돼도 위임이라 유지됨)
+      document.addEventListener('click', function(e){
+        var b=e.target.closest?e.target.closest('.pt-toggle'):null; if(!b) return;
+        var li=b.closest('.pub-row'); if(!li) return;
+        var d=li.querySelector('.pub-detail'); if(!d) return;
+        var open=d.hidden; d.hidden=!open; b.setAttribute('aria-expanded',open?'true':'false'); li.classList.toggle('open',open);
+      });
       function renderTabs(){
         var _vs={}; (data.venues||[]).forEach(function(v){_vs[v]=1;});
         var _norm=topicList.filter(function(t){return !_vs[t];}).slice().sort();   // 일반 토픽 알파벳순
