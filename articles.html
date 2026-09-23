@@ -272,7 +272,7 @@ permalink: /articles/
       if(!journals.length && !confs.length){ return; }
       var zones=['Q4','Q3','Q2','Q1'], byz={Q1:[],Q2:[],Q3:[],Q4:[]};
       journals.forEach(function(v){ (byz[v.q]||byz.Q1).push(v); });
-      zones.forEach(function(z){ byz[z].sort(function(a,b){return (b.sjr||0)-(a.sjr||0);}); });   // 구역 내 SJR 높은 순(위)
+      zones.forEach(function(z){ byz[z].sort(function(a,b){return (a.sjr||0)-(b.sjr||0);}); });   // 아래(BASE)부터 쌓으므로 오름차순 정렬 → 위가 SJR 최고(내림차순 표시)
       var maxStack=Math.max(1,byz.Q1.length,byz.Q2.length,byz.Q3.length,byz.Q4.length);
       var STEP=30, BASE=34, trackH=BASE+maxStack*STEP+6;
       var h='<div class="qmap-head mono">내 관심 학회·저널 품질 지형도 <span class="qmap-sub">SCImago 분위(Q4→Q1) 위에 저널 배치 · 학회는 분위 없음</span></div>';
