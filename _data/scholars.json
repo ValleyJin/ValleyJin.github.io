@@ -22,7 +22,9 @@
           "year": "2008",
           "venue": "EPL (Europhysics Letters) 82 (6), 68003, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:d1gkVwhDpl0C",
-          "cites": 210
+          "cites": 210,
+          "q": "Q2",
+          "sjr": 0.42
         },
         {
           "title": "Impact of the topology of global macroeconomic network on the spreading of economic crises",
@@ -439,7 +441,8 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 369
+          "cites": 369,
+          "crank": "A*"
         },
         {
           "title": "Working With AI to Persuade: Examining a Large Language Model’s Ability to Generate Pro-vaccination Messages",
@@ -457,7 +460,8 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 322
+          "cites": 322,
+          "crank": "A*"
         },
         {
           "title": "Auditing Algorithms: Understanding Algorithmic Systems from the Outside In",
@@ -551,7 +555,8 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 322
+          "cites": 322,
+          "crank": "A*"
         },
         {
           "title": "Architecting Novel Interactions with Generative AI Models",
