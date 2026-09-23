@@ -142,9 +142,9 @@ permalink: /articles/
                 <li class="pub-row">
                   <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
                     <span class="pt">{{ p.title }}</span>
-                    <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>
+                    <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b></span>{% endif %}
                   </a>
-                  <span class="pcite" title="Cited by">cited by <b>{{ p.cites | default: 0 }}</b></span>
+                  <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
                 </li>
                 {% endfor %}
               </ul>
@@ -157,9 +157,9 @@ permalink: /articles/
             <li class="pub-row">
               <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
                 <span class="pt">{{ p.title }}</span>
-                <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>
+                <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b></span>{% endif %}
               </a>
-              <span class="pcite" title="Cited by">cited by <b>{{ p.cites | default: 0 }}</b></span>
+              <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
             </li>
             {% endfor %}
           </ul>
@@ -191,6 +191,20 @@ permalink: /articles/
           <tr><td>CiteScore</td><td>4년 평균 피인용(Scopus). JIF보다 넓은 표본</td><td><a href="https://www.scopus.com/sources" target="_blank" rel="noopener">Scopus Sources ↗</a></td></tr>
           <tr><td>SNIP</td><td>분야 인용 밀도로 <b>정규화</b> → 분야 간 비교에 유리</td><td><a href="https://www.scopus.com/sources" target="_blank" rel="noopener">Scopus ↗</a></td></tr>
           <tr><td>h5-index</td><td>최근 5년 h-index. <b>학회(conference)</b> 평가에 유용</td><td><a href="https://scholar.google.com/citations?view_op=top_venues" target="_blank" rel="noopener">Scholar Metrics ↗</a></td></tr>
+        </tbody>
+      </table></div>
+
+      <div class="section-head" style="margin:26px 0 8px"><h2>학회지 vs 저널지 <span class="mh-sub mono">왜 NeurIPS가 저널들과 나란히?</span></h2></div>
+      <p class="mnote">CS에선 <b>학회가 곧 최상위 저널</b>이라 Q1~Q4가 안 맞습니다. 그래서 논문 카드·venue 패널에서 저널엔 <span class="qbadge q1">Q1</span>~<span class="qbadge q4">Q4</span>를, 학회엔 <b>CORE 등급</b> <span class="cbadge c-as">A*</span> <span class="cbadge c-a">A</span> <span class="cbadge c-b">B</span> <span class="cbadge c-c">C</span>를 <b>같은 자리</b>에 표시합니다.</p>
+      <div class="mtable-wrap"><table class="mtable">
+        <thead><tr><th></th><th>저널지 (Journal)</th><th>학회지 (Conference)</th></tr></thead>
+        <tbody>
+          <tr><td>형태</td><td>정기 간행 학술지(권·호로 연속 발행)</td><td>특정 학술대회 발표 논문 모음(보통 연 1회)</td></tr>
+          <tr><td>심사</td><td>여러 라운드(major/minor revision 반복 가능), 기간 김</td><td>대개 단일 라운드·마감 기반, 빠름</td></tr>
+          <tr><td>게재</td><td>수시/정기</td><td>대회 발표와 함께</td></tr>
+          <tr><td>위상</td><td>대부분 분야에서 최상위</td><td><b>CS에선 학회가 저널보다 권위</b>(NeurIPS·CVPR 등), 그 외 분야는 저널 우위</td></tr>
+          <tr><td>지표</td><td>SJR·JIF·CiteScore·<b>Q1~Q4</b></td><td>Google Scholar <b>h5-index</b>, <b>CORE 등급(A*/A/B/C)</b> — SJR/Q는 대개 없음</td></tr>
+          <tr><td>예</td><td>TFSC, TAR, Futures</td><td>NeurIPS, ICML, ICLR, CVPR</td></tr>
         </tbody>
       </table></div>
 
@@ -273,7 +287,8 @@ permalink: /articles/
       h+='</div>';
       if(confs.length){
         confs.sort(function(a,b){return (b.h||0)-(a.h||0);});
-        h+='<div class="qmap-conf"><span class="qmap-lab mono">CONFERENCES · 분위 없음(CORE/h5)</span>'+confs.map(function(v){return '<a class="qconf" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" title="'+esc(v.name||'')+'">'+esc(v.label)+(v.h!=null?'<span class="qconf-h">h'+esc(v.h)+'</span>':'')+'</a>';}).join('')+'</div>';
+        var crc={'A*':'as','A':'a','B':'b','C':'c'};
+        h+='<div class="qmap-conf"><span class="qmap-lab mono">CONFERENCES · CORE 등급</span>'+confs.map(function(v){return '<a class="qconf" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" title="'+esc(v.name||'')+'">'+esc(v.label)+(v.crank?'<span class="cbadge c-'+(crc[v.crank]||'a')+'">'+esc(v.crank)+'</span>':'')+(v.h!=null?'<span class="qconf-h">h'+esc(v.h)+'</span>':'')+'</a>';}).join('')+'</div>';
       }
       el.innerHTML=h; el.hidden=false;
     })();
@@ -324,35 +339,26 @@ permalink: /articles/
       function filtered(){ return st.topic==='All'?papers:papers.filter(function(p){return p.topic===st.topic;}); }
       function byDate(){ var m={}; filtered().forEach(function(p){ (m[p.date]=m[p.date]||[]).push(p); }); return m; }
       function qBadge(q){ return q?'<span class="qbadge '+esc(String(q).toLowerCase())+'" title="SCImago journal quartile">'+esc(q)+'</span>':''; }
-      function paperDetail(p){
+      var _crc={'A*':'as','A':'a','B':'b','C':'c'};
+      function cBadge(r){ if(!r) return ''; return '<span class="cbadge c-'+(_crc[r]||'a')+'" title="CORE conference rank">'+esc(r)+'</span>'; }
+      function vBadge(p){ return p.q?qBadge(p.q):(p.crank?cBadge(p.crank):''); }   // 저널=Q, 학회=CORE등급 (같은 자리)
+      // 논문 수준 정보(인라인): venue 다음 줄에 바로 표시. 우측 배지와 중복되는 Q는 생략.
+      function pqmLine(p){
         var m=[];
-        if(p.q) m.push(qBadge(p.q));
-        if(p.sjr!=null) m.push('<span class="pd-m">SJR <b>'+esc(p.sjr)+'</b></span>');
-        if(p.fwci!=null) m.push('<span class="pd-m">FWCI <b>'+esc(p.fwci)+'</b><span class="pd-hint">vs field avg 1.0</span></span>');
-        if(p.pct) m.push('<span class="pd-m top">Top '+esc(p.pct)+'%</span>');
-        m.push('<span class="pd-m">cited by <b>'+(p.cites||0)+'</b></span>');
-        var meta=esc(p.authors||'')+(p.year?' ('+esc(p.year)+')':'')+(p.venue?' · <i>'+esc(p.venue)+'</i>':'');
-        return '<div class="pub-detail" hidden>'+
-          '<div class="pd-metrics">'+m.join('')+(p.q?'':'<span class="pd-note mono">journal quartile n/a · conference/preprint</span>')+'</div>'+
-          '<div class="pd-meta">'+meta+'</div>'+
-          '<a class="pd-link mono" href="'+esc(p.url)+'" target="_blank" rel="noopener">Open paper ↗</a></div>';
+        if(p.sjr!=null) m.push('SJR <b>'+esc(p.sjr)+'</b>');
+        if(p.fwci!=null) m.push('FWCI <b>'+esc(p.fwci)+'</b><span class="pqm-hint">vs field avg 1.0</span>');
+        if(p.pct) m.push('<span class="pqm-top">Top '+esc(p.pct)+'%</span>');
+        return m.length ? '<span class="pqm mono">'+m.join('<span class="pqm-sep">·</span>')+'</span>' : '';
       }
       function paperLi(p){
         return '<li class="pub-row">'+
-          '<button type="button" class="pub-main pt-toggle" aria-expanded="false">'+
-            '<span class="pt">'+(isNew(p)?newFlag('new-flag',newOpacity(p.added))+' ':'')+esc(p.title)+'<span class="pt-caret" aria-hidden="true">›</span></span>'+
+          '<a class="pub-main" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+
+            '<span class="pt">'+(isNew(p)?newFlag('new-flag',newOpacity(p.added))+' ':'')+esc(p.title)+'</span>'+
             '<span class="pmeta">'+(st.topic==='All'?'<b style="color:var(--accent)">'+esc(p.topic)+'</b> · ':'')+esc(p.authors)+' ('+esc(p.year)+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span>'+
-          '</button>'+
-          '<span class="pcite">'+(p.q?qBadge(p.q)+' ':'')+'cited by <b>'+(p.cites||0)+'</b></span>'+
-          paperDetail(p)+'</li>';
+            pqmLine(p)+
+          '</a>'+
+          '<span class="pcite">'+(vBadge(p)?vBadge(p)+' ':'')+'cited by <b>'+(p.cites||0)+'</b></span></li>';
       }
-      // 제목 클릭 → 그 아래 상세 패널 토글 (리스트가 innerHTML로 재렌더돼도 위임이라 유지됨)
-      document.addEventListener('click', function(e){
-        var b=e.target.closest?e.target.closest('.pt-toggle'):null; if(!b) return;
-        var li=b.closest('.pub-row'); if(!li) return;
-        var d=li.querySelector('.pub-detail'); if(!d) return;
-        var open=d.hidden; d.hidden=!open; b.setAttribute('aria-expanded',open?'true':'false'); li.classList.toggle('open',open);
-      });
       var vinfo={}; try{ vinfo=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){}
       var viEl=document.getElementById('venue-info');
       function renderVenueInfo(){
@@ -361,7 +367,7 @@ permalink: /articles/
         if(!v){ viEl.hidden=true; viEl.innerHTML=''; return; }
         function qb(q){ return '<span class="qbadge '+esc(String(q).toLowerCase())+'">'+esc(q)+'</span>'; }
         var chips=[];
-        if(v.q) chips.push(qb(v.q));
+        if(v.q) chips.push(qb(v.q)); else if(v.crank) chips.push(cBadge(v.crank)+'<span class="vi-hint" style="margin-left:3px">CORE</span>');
         if(v.sjr!=null) chips.push('<span class="vi-m">SJR <b>'+esc(v.sjr)+'</b></span>');
         if(v.if2!=null && v.if2>0) chips.push('<span class="vi-m">IF<span class="vi-hint">2yr</span> <b>'+esc(v.if2)+'</b></span>');
         if(v.h!=null) chips.push('<span class="vi-m">h-index <b>'+esc(v.h)+'</b></span>');

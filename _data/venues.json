@@ -9,7 +9,8 @@
       "works": 4192,
       "domain": "Physical Sciences",
       "field": "Computer Science",
-      "sub": "Artificial Intelligence"
+      "sub": "Artificial Intelligence",
+      "crank": "A*"
     },
     "ICML": {
       "name": "International Conference on Machine Learning",
@@ -19,7 +20,8 @@
       "works": 1884,
       "domain": "Physical Sciences",
       "field": "Computer Science",
-      "sub": "Artificial Intelligence"
+      "sub": "Artificial Intelligence",
+      "crank": "A*"
     },
     "ICLR": {
       "name": "International Conference on Learning Representations",
@@ -29,7 +31,8 @@
       "works": 908,
       "domain": "Physical Sciences",
       "field": "Computer Science",
-      "sub": "Artificial Intelligence"
+      "sub": "Artificial Intelligence",
+      "crank": "A*"
     },
     "CVPR": {
       "name": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
@@ -39,7 +42,8 @@
       "works": 2082,
       "domain": "Physical Sciences",
       "field": "Computer Science",
-      "sub": "Artificial Intelligence"
+      "sub": "Artificial Intelligence",
+      "crank": "A*"
     },
     "Futures": {
       "name": "Futures",

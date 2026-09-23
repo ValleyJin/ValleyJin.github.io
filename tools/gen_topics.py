@@ -167,9 +167,10 @@ SCIMAGO_URL = "https://www.scimagojr.com/journalrank.php?out=xls"   # 전체 저
 
 
 def load_scimago():
-    """SCImago 저널 랭크 → {정규화ISSN: {'q':'Q1','sjr':2.34}}. 저널 Q1~Q4 출처.
-    한 번 내려받아 ISSN으로 매칭한다. 실패해도(네트워크 등) 빈 dict로 조용히 진행."""
-    m = {}
+    """SCImago 저널 랭크 → {'issn':{정규화ISSN:{q,sjr,cats}}, 'title':{저널명소문자:{...}}}.
+    ISSN 매칭(논문 카드·venue)과 제목 매칭(Google Scholar 논문의 venue 텍스트)을 모두 지원.
+    실패해도(네트워크 등) 빈 맵으로 조용히 진행."""
+    m, tmap = {}, {}
     try:
         # SCImago는 봇 UA를 403으로 막는다 → 브라우저 UA + Referer로 요청
         req = urllib.request.Request(SCIMAGO_URL, headers={
@@ -181,20 +182,20 @@ def load_scimago():
             raw = r.read().decode("utf-8", "ignore")
     except Exception as e:
         print(f"! SCImago 로드 실패(저널 분위 생략): {e}", file=sys.stderr)
-        return m
+        return {"issn": m, "title": tmap}
     lines = raw.splitlines()
     if not lines:
-        return m
+        return {"issn": m, "title": tmap}
     header = [h.strip().strip('"') for h in lines[0].split(";")]
     def _idx(name):
         for i, h in enumerate(header):
             if h.lower() == name.lower():
                 return i
         return -1
-    i_issn, i_q, i_sjr = _idx("Issn"), _idx("SJR Best Quartile"), _idx("SJR")
+    i_issn, i_q, i_sjr, i_title = _idx("Issn"), _idx("SJR Best Quartile"), _idx("SJR"), _idx("Title")
     if i_issn < 0 or i_q < 0:
         print("! SCImago 헤더 형식 예상과 다름 — 분위 생략", file=sys.stderr)
-        return m
+        return {"issn": m, "title": tmap}
     for ln in lines[1:]:
         c = [x.strip().strip('"') for x in ln.split(";")]
         if len(c) <= max(i_issn, i_q, i_sjr):
@@ -215,8 +216,10 @@ def load_scimago():
             k = iss.replace("-", "").upper()
             if k:
                 m.setdefault(k, entry)
-    print(f"· SCImago {len(m)} ISSN 로드", file=sys.stderr)
-    return m
+        if i_title >= 0 and c[i_title]:
+            tmap.setdefault(c[i_title].strip().lower(), entry)   # 제목(소문자) → entry
+    print(f"· SCImago {len(m)} ISSN / {len(tmap)} title 로드", file=sys.stderr)
+    return {"issn": m, "title": tmap}
 
 
 def quality(w, sci):
@@ -231,6 +234,7 @@ def quality(w, sci):
     elif cnp.get("is_in_top_10_percent"):
         out["pct"] = 10
     src = (w.get("primary_location") or {}).get("source") or {}
+    issn = (sci or {}).get("issn", {})
     cand = []
     if src.get("issn_l"):
         cand.append(src["issn_l"])
@@ -238,12 +242,88 @@ def quality(w, sci):
         cand.append(i)
     for i in cand:
         k = str(i).replace("-", "").replace(" ", "").upper()
-        if k in sci:
-            out["q"] = sci[k]["q"]
-            if sci[k].get("sjr") is not None:
-                out["sjr"] = sci[k]["sjr"]
+        if k in issn:
+            out["q"] = issn[k]["q"]
+            if issn[k].get("sjr") is not None:
+                out["sjr"] = issn[k]["sjr"]
             break
     return out
+
+
+def _journal_name(pub):
+    """Google Scholar publication 텍스트에서 저널명만 추출.
+    'International Journal of Modern Physics C 38 (03), 2750027, 2027' → 'International Journal of Modern Physics C'."""
+    s = (pub or "").split(",")[0].strip()          # 첫 쉼표 앞 = 저널명 + 볼륨
+    s = re.sub(r"\s*\(\d+[^)]*\)\s*$", "", s)       # 끝의 (03) 제거
+    s = re.sub(r"\s+\d[\d\s–-]*$", "", s)           # 끝의 볼륨 번호 제거
+    return s.strip()
+
+
+def scholar_q(pub, sci):
+    """Scholar 논문 venue 텍스트 → 저널 분위(Q)·SJR (SCImago 제목 매칭)."""
+    tmap = (sci or {}).get("title", {})
+    if not tmap:
+        return {}
+    nm = _journal_name(pub).lower()
+    e = tmap.get(nm)
+    if not e:
+        return {}
+    out = {"q": e["q"]}
+    if e.get("sjr") is not None:
+        out["sjr"] = e["sjr"]
+    return out
+
+
+CORE_URL = "http://portal.core.edu.au/conf-ranks/?search=&by=all&source=all&sort=arank&do=Export"
+
+
+def load_core():
+    """CORE 학회 랭킹 → {'acr':{약칭:등급}, 'title':{제목:등급}}. 학회는 Q1~Q4 대신 A*/A/B/C.
+    같은 학회의 여러 CORE 판(연도) 중 최신을 채택. 실패 시 빈 맵."""
+    import csv, io
+    acr, ttl, ay, ty = {}, {}, {}, {}
+    try:
+        req = urllib.request.Request(CORE_URL, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"})
+        raw = urllib.request.urlopen(req, timeout=90).read().decode("utf-8", "ignore")
+    except Exception as e:
+        print(f"! CORE 로드 실패(학회 등급 생략): {e}", file=sys.stderr)
+        return {"acr": acr, "title": ttl}
+    for r in csv.reader(io.StringIO(raw)):
+        if len(r) < 5:
+            continue
+        title, a, source, rank = r[1].strip(), r[2].strip(), r[3], r[4].strip()
+        if rank not in ("A*", "A", "B", "C"):
+            continue
+        mo = re.search(r"(\d{4})", source or "")
+        yr = int(mo.group(1)) if mo else 0
+        ak = a.lower()
+        if ak and ay.get(ak, -1) < yr:
+            ay[ak] = yr; acr[ak] = rank
+        tk = re.sub(r"\s+", " ", re.sub(r"\s*\(.*?\)\s*", " ", title)).strip().lower()
+        if tk and ty.get(tk, -1) < yr:
+            ty[tk] = yr; ttl[tk] = rank
+    print(f"· CORE {len(acr)} acronym / {len(ttl)} title 로드", file=sys.stderr)
+    return {"acr": acr, "title": ttl}
+
+
+def _norm_conf(s):
+    s = re.sub(r"\s*\(.*?\)\s*", " ", s or "").strip().lower()
+    s = re.sub(r"^(proceedings of (the )?|the )", "", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def conf_rank(venue, core, topic=None):
+    """학회 논문 → CORE 등급(A*/A/B/C). topic 약칭 우선, 그 다음 venue 약칭/제목 매칭."""
+    if not core:
+        return {}
+    acr, ttl = core.get("acr", {}), core.get("title", {})
+    for key in (topic, venue):
+        if key and key.strip().lower() in acr:
+            return {"crank": acr[key.strip().lower()]}
+    nm = _norm_conf(_journal_name(venue))
+    if nm in ttl:
+        return {"crank": ttl[nm]}
+    return {}
 
 
 # CS 학회는 OpenAlex 약칭 검색이 부정확 → 정식명으로 조회
@@ -287,9 +367,9 @@ def _field_of(src):
             "sub": (t.get("subfield") or {}).get("display_name")}
 
 
-def build_venues(topics, sci):
+def build_venues(topics, sci, core=None):
     """토픽의 학회/저널별 영향력지수·분야 → venues.json. 저널은 SJR·Q(분야별)·IF·h,
-    학회는 h-index·논문수·분야(OpenAlex)."""
+    학회는 h-index·논문수·분야(OpenAlex) + CORE 등급(A*/A/B/C)."""
     out = {}
     for label, query, link in topics:
         if query.startswith("venue:"):
@@ -304,10 +384,11 @@ def build_venues(topics, sci):
             for i in (src.get("issn") or []):
                 cand.append(i)
             sc = None
+            _issn = (sci or {}).get("issn", {})
             for i in cand:
                 k = str(i).replace("-", "").replace(" ", "").upper()
-                if k in sci:
-                    sc = sci[k]; break
+                if k in _issn:
+                    sc = _issn[k]; break
             v = {"name": src.get("display_name"), "type": "journal", "link": link,
                  "h": ss.get("h_index"), "if2": round(ss.get("2yr_mean_citedness") or 0, 1),
                  "works": src.get("works_count"), "issn": src.get("issn_l"),
@@ -325,6 +406,7 @@ def build_venues(topics, sci):
                 v.update({"name": src.get("display_name") or full, "h": ss.get("h_index"),
                           "works": src.get("works_count"), "domain": f.get("domain"),
                           "field": f.get("field"), "sub": f.get("sub")})
+            v.update(conf_rank(v.get("name"), core, label))   # CORE 등급(A*/A/B/C)
             out[label] = v
         if label in out:
             print(f"  venue {label}: {out[label].get('type')} q={out[label].get('q')} h={out[label].get('h')}", file=sys.stderr)
@@ -345,9 +427,10 @@ def main():
     newest_months = int(cfg.get("newest_months", 2))          # 매 실행 새로 받을(겹칠) 최근 개월 수
     newest_per_month = int(cfg.get("newest_per_month", 15))    # 토픽 × 달마다 상위 몇 편
     scimago = load_scimago()                                   # 저널 Q1~Q4 · SJR (ISSN 매칭)
+    core = load_core()                                         # 학회 A*/A/B/C (CORE)
 
     # 토픽 학회/저널의 영향력지수·분야 → venues.json (칩 선택 시 표시)
-    venues_meta = build_venues(topics, scimago)
+    venues_meta = build_venues(topics, scimago, core)
     if venues_meta:
         VENUES.write_text(json.dumps({"generated": date.today().isoformat(), "venues": venues_meta},
                                      ensure_ascii=False, indent=2), encoding="utf-8")
@@ -468,6 +551,8 @@ def main():
                     "cites": w.get("cited_by_count", 0), "topic": label,
                 }
                 _np.update(quality(w, scimago))   # FWCI·백분위·저널 분위(Q)·SJR
+                if "q" not in _np:                 # 저널 분위 없으면(학회 등) CORE 등급 시도
+                    _np.update(conf_rank(venue, core, label))
                 newest.append(_np)
                 kept += 1
                 if kept >= newest_per_month:                 # 토픽×달마다 상위 K편만
@@ -506,6 +591,8 @@ def main():
                 "topic": label,
             }
             paper.update(quality(w, scimago))   # FWCI·백분위·저널 분위(Q)·SJR
+            if "q" not in paper:
+                paper.update(conf_rank(venue, core, label))   # 학회 등급(CORE)
             arr.append(paper)
             tl = title.lower()
             if qwords and all(qw in tl for qw in qwords):   # 제목에 키워드 전부 포함 = 확실히 주제
@@ -573,12 +660,17 @@ def main():
         sresult = {"generated": today, "source": "Google Scholar", "scholars": []}
         def _mk(a):
             cb = a.get("cited_by") or {}
-            return {"title": clean_title(a.get("title")),
-                    "authors": (a.get("authors") or "").strip(),
-                    "year": a.get("year") or "",
-                    "venue": (a.get("publication") or "").strip(),
-                    "url": a.get("link") or "",
-                    "cites": cb.get("value") or 0}
+            pub = (a.get("publication") or "").strip()
+            p = {"title": clean_title(a.get("title")),
+                 "authors": (a.get("authors") or "").strip(),
+                 "year": a.get("year") or "",
+                 "venue": pub,
+                 "url": a.get("link") or "",
+                 "cites": cb.get("value") or 0}
+            p.update(scholar_q(pub, scimago))   # 저널 분위(Q)·SJR (venue 이름 매칭)
+            if "q" not in p:                    # 저널 아니면 학회 CORE 등급 시도
+                p.update(conf_rank(pub, core))
+            return p
 
         def _yr(v):
             try:
