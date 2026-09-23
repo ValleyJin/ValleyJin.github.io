@@ -1,5 +1,6 @@
 {
   "generated": "2026-09-23",
+  "last_full": "2026-09-23",
   "topics": [
     "Deep persona",
     "Graph database",
@@ -88,6 +89,10 @@
       "url": "https://doi.org/10.3389/fcomp.2026.1937190",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.65,
       "added": "2026-09-22"
     },
     {
@@ -99,6 +104,9 @@
       "url": "https://doi.org/10.36548/jiip.2026.4.001",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q4",
+      "sjr": 0.18,
       "added": "2026-09-22"
     },
     {
@@ -110,6 +118,9 @@
       "url": "https://doi.org/10.1137/25m172673x",
       "cites": 1,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.87,
       "added": "2026-09-22"
     },
     {
@@ -121,6 +132,10 @@
       "url": "https://doi.org/10.1007/s40815-026-02280-5",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.67,
       "added": "2026-09-22"
     },
     {
@@ -132,6 +147,9 @@
       "url": "https://doi.org/10.3389/fbuil.2026.1894212",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.63,
       "added": "2026-09-22"
     },
     {
@@ -143,6 +161,10 @@
       "url": "https://doi.org/10.1108/ftpgl-11-2025-0068",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q4",
+      "sjr": 0.11,
       "added": "2026-09-22"
     },
     {
@@ -154,6 +176,9 @@
       "url": "https://doi.org/10.1137/25m1787045",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.12,
       "added": "2026-09-22"
     },
     {
@@ -165,6 +190,10 @@
       "url": "https://doi.org/10.3390/fi18100500",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.84,
       "added": "2026-09-22"
     },
     {
@@ -176,6 +205,10 @@
       "url": "https://doi.org/10.1007/s44443-026-01300-6",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-22"
     },
     {
@@ -187,6 +220,10 @@
       "url": "https://doi.org/10.1145/3846376",
       "cites": 8,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 15.22,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 5.99,
       "added": "2026-09-22"
     },
     {
@@ -198,6 +235,9 @@
       "url": "https://doi.org/10.1007/s10489-026-07492-8",
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.89,
       "added": "2026-09-22"
     },
     {
@@ -209,6 +249,10 @@
       "url": "https://doi.org/10.1145/3848627",
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 5.7,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.57,
       "added": "2026-09-22"
     },
     {
@@ -220,6 +264,8 @@
       "url": "https://doi.org/10.54254/2753-8818/2026.37054",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -231,6 +277,10 @@
       "url": "https://doi.org/10.1007/s13042-026-03250-x",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.7,
       "added": "2026-09-22"
     },
     {
@@ -242,6 +292,9 @@
       "url": "https://doi.org/10.1038/s41598-026-71217-7",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-22"
     },
     {
@@ -253,6 +306,9 @@
       "url": "https://doi.org/10.1016/j.ssci.2026.107460",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.44,
       "added": "2026-09-22"
     },
     {
@@ -264,6 +320,10 @@
       "url": "https://doi.org/10.3390/electronics15194348",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.62,
       "added": "2026-09-22"
     },
     {
@@ -275,6 +335,9 @@
       "url": "https://doi.org/10.1108/ijwis-03-2026-0147",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.54,
       "added": "2026-09-22"
     },
     {
@@ -286,6 +349,9 @@
       "url": "https://doi.org/10.1002/ird.70227",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.45,
       "added": "2026-09-22"
     },
     {
@@ -297,6 +363,8 @@
       "url": "https://doi.org/10.54254/2754-1169/2026.37196",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -308,6 +376,7 @@
       "url": "https://doi.org/10.54254/2755-2721/2026.ast37152",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
       "added": "2026-09-22"
     },
     {
@@ -319,6 +388,9 @@
       "url": "https://doi.org/10.3390/e28101043",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.47,
       "added": "2026-09-22"
     },
     {
@@ -330,6 +402,10 @@
       "url": "https://doi.org/10.1287/isre.2023.0031",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 5.68,
       "added": "2026-09-22"
     },
     {
@@ -341,6 +417,8 @@
       "url": "https://doi.org/10.60087/jaigs.v10i01.503",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -352,6 +430,7 @@
       "url": "https://doi.org/10.37394/23205.2026.25.14",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-09-22"
     },
     {
@@ -363,6 +442,10 @@
       "url": "https://doi.org/10.3390/electronics15194356",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.62,
       "added": "2026-09-22"
     },
     {
@@ -374,6 +457,8 @@
       "url": "https://doi.org/10.54254/2755-2721/2026.ld37154",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -385,6 +470,8 @@
       "url": "https://doi.org/10.67723/rj.v7i.103",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -396,6 +483,10 @@
       "url": "https://doi.org/10.1017/nlp.2026.10036",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.5,
       "added": "2026-09-22"
     },
     {
@@ -407,6 +498,8 @@
       "url": "https://doi.org/10.37547/tajet/volume08issue09-06",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -418,6 +511,8 @@
       "url": "https://doi.org/10.21275/sr26919094233",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -429,6 +524,8 @@
       "url": "https://doi.org/10.29121/shodhkosh.v7.i2.2026.9244",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -440,6 +537,10 @@
       "url": "https://doi.org/10.3389/fbloc.2026.1883639",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.57,
       "added": "2026-09-22"
     },
     {
@@ -451,6 +552,10 @@
       "url": "https://doi.org/10.3390/fi18100499",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.84,
       "added": "2026-09-22"
     },
     {
@@ -462,6 +567,8 @@
       "url": "https://doi.org/10.54254/2755-2721/2026.37185",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -473,6 +580,10 @@
       "url": "https://doi.org/10.3390/laws15050120",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.36,
       "added": "2026-09-22"
     },
     {
@@ -484,6 +595,8 @@
       "url": "https://doi.org/10.54254/2754-1169/2026.37180",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -495,6 +608,8 @@
       "url": "https://doi.org/10.63556/tisej.2026.1796",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-22"
     },
     {
@@ -506,6 +621,10 @@
       "url": "https://doi.org/10.1007/s11142-026-09994-9",
       "cites": 0,
       "topic": "RAST",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-09-22"
     },
     {
@@ -517,6 +636,9 @@
       "url": "https://doi.org/10.22331/q-2026-09-21-2212",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.07,
       "added": "2026-09-21"
     },
     {
@@ -528,6 +650,8 @@
       "url": "https://doi.org/10.37012/jtik.v12i2.3916",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-21"
     },
     {
@@ -539,6 +663,7 @@
       "url": "https://doi.org/10.61467/2007.1558.2027.v18i1.1551",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
       "added": "2026-09-21"
     },
     {
@@ -550,6 +675,10 @@
       "url": "https://doi.org/10.24818/18423264/60.3.26.17",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q4",
+      "sjr": 0.23,
       "added": "2026-09-21"
     },
     {
@@ -561,6 +690,10 @@
       "url": "https://doi.org/10.24818/18423264/60.3.26.05",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q4",
+      "sjr": 0.23,
       "added": "2026-09-21"
     },
     {
@@ -572,6 +705,8 @@
       "url": "https://doi.org/10.37547/tajet/volume08issue09-05",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-21"
     },
     {
@@ -583,6 +718,9 @@
       "url": "https://doi.org/10.1167/tvst.15.9.11",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.94,
       "added": "2026-09-21"
     },
     {
@@ -594,6 +732,10 @@
       "url": "https://doi.org/10.24818/18423264/60.3.26.18",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q4",
+      "sjr": 0.23,
       "added": "2026-09-21"
     },
     {
@@ -605,6 +747,9 @@
       "url": "https://doi.org/10.1209/0295-5075/aeaa82",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.42,
       "added": "2026-09-21"
     },
     {
@@ -616,6 +761,10 @@
       "url": "https://doi.org/10.1007/s12083-026-02218-6",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.65,
       "added": "2026-09-21"
     },
     {
@@ -627,6 +776,9 @@
       "url": "https://doi.org/10.3390/electronics15184341",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.62,
       "added": "2026-09-21"
     },
     {
@@ -638,6 +790,8 @@
       "url": "https://doi.org/10.22214/ijraset.2026.84903",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-21"
     },
     {
@@ -649,6 +803,9 @@
       "url": "https://doi.org/10.4274/tjh.galenos.2026.82621",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.51,
       "added": "2026-09-21"
     },
     {
@@ -660,6 +817,10 @@
       "url": "https://doi.org/10.1038/s41598-026-70743-8",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-21"
     },
     {
@@ -671,6 +832,10 @@
       "url": "https://doi.org/10.2478/lpts-2026-0036",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q3",
+      "sjr": 0.26,
       "added": "2026-09-21"
     },
     {
@@ -682,6 +847,10 @@
       "url": "https://doi.org/10.1186/s44147-026-01235-9",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.56,
       "added": "2026-09-21"
     },
     {
@@ -693,6 +862,9 @@
       "url": "https://doi.org/10.46298/epiga.2026.12974",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.31,
       "added": "2026-09-21"
     },
     {
@@ -704,6 +876,7 @@
       "url": "https://doi.org/10.46298/jnsao-2026-13780",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
       "added": "2026-09-21"
     },
     {
@@ -715,6 +888,9 @@
       "url": "https://doi.org/10.1080/10618600.2026.2737261",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.33,
       "added": "2026-09-21"
     },
     {
@@ -726,6 +902,9 @@
       "url": "https://doi.org/10.22331/q-2026-09-21-2214",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.07,
       "added": "2026-09-21"
     },
     {
@@ -737,6 +916,9 @@
       "url": "https://doi.org/10.1007/s10618-026-01230-x",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.2,
       "added": "2026-09-21"
     },
     {
@@ -748,6 +930,9 @@
       "url": "https://doi.org/10.1038/s41378-026-01420-z",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.01,
       "added": "2026-09-21"
     },
     {
@@ -759,6 +944,7 @@
       "url": "https://doi.org/10.61467/2007.1558.2027.v18i1.1465",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
       "added": "2026-09-21"
     },
     {
@@ -770,6 +956,8 @@
       "url": "https://doi.org/10.47485/2766-2624.1096",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-21"
     },
     {
@@ -781,6 +969,10 @@
       "url": "https://doi.org/10.1007/s11227-026-08820-y",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.73,
       "added": "2026-09-21"
     },
     {
@@ -792,6 +984,9 @@
       "url": "https://doi.org/10.1017/psy.2026.10134",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.93,
       "added": "2026-09-21"
     },
     {
@@ -803,6 +998,9 @@
       "url": "https://doi.org/10.1007/s10618-026-01267-y",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.2,
       "added": "2026-09-21"
     },
     {
@@ -814,6 +1012,8 @@
       "url": "https://doi.org/10.47852/bonviewmedin62029449",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-20"
     },
     {
@@ -825,6 +1025,10 @@
       "url": "https://doi.org/10.1038/s41598-026-70049-9",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-20"
     },
     {
@@ -836,6 +1040,10 @@
       "url": "https://doi.org/10.1186/s42400-026-00650-y",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.06,
       "added": "2026-09-20"
     },
     {
@@ -847,6 +1055,8 @@
       "url": "https://doi.org/10.68104/ijasit.v1.i3.42",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-20"
     },
     {
@@ -858,6 +1068,8 @@
       "url": "https://doi.org/10.53941/ic.2026.100011",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-20"
     },
     {
@@ -869,6 +1081,9 @@
       "url": "https://doi.org/10.1186/s40854-026-00955-4",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.25,
       "added": "2026-09-20"
     },
     {
@@ -880,6 +1095,9 @@
       "url": "https://doi.org/10.1038/s41467-026-76272-2",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.9,
       "added": "2026-09-20"
     },
     {
@@ -891,6 +1109,8 @@
       "url": "https://doi.org/10.48175/ijarsct-38421",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-20"
     },
     {
@@ -902,6 +1122,9 @@
       "url": "https://doi.org/10.1186/s40854-026-00968-z",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.25,
       "added": "2026-09-20"
     },
     {
@@ -913,6 +1136,8 @@
       "url": "https://doi.org/10.11648/j.ijefm.20261405.19",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-20"
     },
     {
@@ -924,6 +1149,8 @@
       "url": "https://doi.org/10.7759/s44389-026-00284-8",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-20"
     },
     {
@@ -935,6 +1162,10 @@
       "url": "https://doi.org/10.1038/s41598-026-71932-1",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-20"
     },
     {
@@ -946,6 +1177,8 @@
       "url": "https://doi.org/10.17613/416vj-e6w53",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-20"
     },
     {
@@ -957,6 +1190,10 @@
       "url": "https://doi.org/10.1038/s41598-026-68232-z",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-20"
     },
     {
@@ -968,6 +1205,8 @@
       "url": "https://doi.org/10.17613/njhbw-mv413",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-20"
     },
     {
@@ -979,6 +1218,8 @@
       "url": "https://doi.org/10.54254/2977-5701/2026.37242",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-20"
     },
     {
@@ -990,6 +1231,10 @@
       "url": "https://doi.org/10.1111/1475-679x.70085",
       "cites": 0,
       "topic": "JAR",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 9.77,
       "added": "2026-09-20"
     },
     {
@@ -1001,6 +1246,9 @@
       "url": "https://doi.org/10.1080/0144929x.2026.2719735",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.14,
       "added": "2026-09-19"
     },
     {
@@ -1012,6 +1260,8 @@
       "url": "https://doi.org/10.1038/s44387-026-00160-9",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-19"
     },
     {
@@ -1023,6 +1273,9 @@
       "url": "https://doi.org/10.1007/s11704-026-51539-5",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.2,
       "added": "2026-09-19"
     },
     {
@@ -1034,6 +1287,9 @@
       "url": "https://doi.org/10.1038/s41598-026-71999-w",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-19"
     },
     {
@@ -1045,6 +1301,10 @@
       "url": "https://doi.org/10.1038/s41598-026-71524-z",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-19"
     },
     {
@@ -1056,6 +1316,10 @@
       "url": "https://doi.org/10.1080/10670564.2026.2733081",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.11,
       "added": "2026-09-19"
     },
     {
@@ -1067,6 +1331,9 @@
       "url": "https://doi.org/10.22266/ijies2026.1031.02",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.29,
       "added": "2026-09-19"
     },
     {
@@ -1078,6 +1345,10 @@
       "url": "https://doi.org/10.1038/s41598-026-71120-1",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-19"
     },
     {
@@ -1089,6 +1360,8 @@
       "url": "https://doi.org/10.5281/zenodo.22849012",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-19"
     },
     {
@@ -1100,6 +1373,9 @@
       "url": "https://doi.org/10.1016/j.ssci.2026.107461",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.44,
       "added": "2026-09-19"
     },
     {
@@ -1111,6 +1387,10 @@
       "url": "https://doi.org/10.1038/s41598-026-71408-2",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-19"
     },
     {
@@ -1122,6 +1402,8 @@
       "url": "https://doi.org/10.54536/ajmri.v5i5.8515",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-19"
     },
     {
@@ -1133,6 +1415,9 @@
       "url": "https://doi.org/10.1038/s41540-026-00826-9",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.31,
       "added": "2026-09-19"
     },
     {
@@ -1144,6 +1429,8 @@
       "url": "https://doi.org/10.32628/ijsrset261357",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-19"
     },
     {
@@ -1155,6 +1442,10 @@
       "url": "https://doi.org/10.1007/s10270-026-01422-5",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.66,
       "added": "2026-09-19"
     },
     {
@@ -1166,6 +1457,7 @@
       "url": "https://doi.org/10.1002/mgea.70102",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
       "added": "2026-09-19"
     },
     {
@@ -1177,6 +1469,8 @@
       "url": "https://doi.org/10.65150/ep-jsshrs/v2e9/2026-11",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-19"
     },
     {
@@ -1188,6 +1482,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124885",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-19"
     },
     {
@@ -1199,6 +1497,10 @@
       "url": "https://doi.org/10.1080/14606925.2026.2724415",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.32,
       "added": "2026-09-18"
     },
     {
@@ -1210,6 +1512,8 @@
       "url": "https://doi.org/10.11591/ijece.v16i5.pp2795-2805",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-18"
     },
     {
@@ -1221,6 +1525,8 @@
       "url": "https://doi.org/10.67231/fvj51b26",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-18"
     },
     {
@@ -1232,6 +1538,10 @@
       "url": "https://doi.org/10.1007/s44163-026-02243-7",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.18,
       "added": "2026-09-18"
     },
     {
@@ -1243,6 +1553,8 @@
       "url": "https://doi.org/10.67285/kilad.1975120",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-18"
     },
     {
@@ -1254,6 +1566,10 @@
       "url": "https://doi.org/10.1177/00081256261486300",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 2.75,
       "added": "2026-09-18"
     },
     {
@@ -1265,6 +1581,9 @@
       "url": "https://doi.org/10.1007/s11263-026-03040-6",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.1,
       "added": "2026-09-18"
     },
     {
@@ -1276,6 +1595,10 @@
       "url": "https://doi.org/10.1162/coli.a.652",
       "cites": 6,
       "topic": "LLM inference serving",
+      "fwci": 15.33,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.84,
       "added": "2026-09-18"
     },
     {
@@ -1287,6 +1610,10 @@
       "url": "https://doi.org/10.1007/s12652-026-05119-x",
       "cites": 1,
       "topic": "LLM inference serving",
+      "fwci": 5.74,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.76,
       "added": "2026-09-18"
     },
     {
@@ -1298,6 +1625,9 @@
       "url": "https://doi.org/10.3389/frai.2026.1844418",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.01,
       "added": "2026-09-18"
     },
     {
@@ -1309,6 +1639,9 @@
       "url": "https://doi.org/10.1371/journal.pcbi.1014777",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.47,
       "added": "2026-09-18"
     },
     {
@@ -1320,6 +1653,10 @@
       "url": "https://doi.org/10.1038/s41598-026-71125-w",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-09-18"
     },
     {
@@ -1331,6 +1668,8 @@
       "url": "https://doi.org/10.5120/ijcae7b63928a409",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-09-18"
     },
     {
@@ -1342,6 +1681,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124879",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-18"
     },
     {
@@ -1353,6 +1696,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124878",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-18"
     },
     {
@@ -1364,6 +1711,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124883",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-18"
     },
     {
@@ -1375,6 +1726,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124884",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-18"
     },
     {
@@ -1386,6 +1741,10 @@
       "url": "https://doi.org/10.1111/1911-3846.70089",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-09-18"
     },
     {
@@ -1397,6 +1756,10 @@
       "url": "https://doi.org/10.1007/s11142-026-09990-z",
       "cites": 0,
       "topic": "RAST",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-09-18"
     },
     {
@@ -1408,6 +1771,10 @@
       "url": "https://doi.org/10.30935/ojcmt/19272",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.54,
       "added": "2026-09-17"
     },
     {
@@ -1419,6 +1786,9 @@
       "url": "https://doi.org/10.29140/jaltcall.2026.102993",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.56,
       "added": "2026-09-17"
     },
     {
@@ -1430,6 +1800,9 @@
       "url": "https://doi.org/10.3389/frai.2026.1894645",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.01,
       "added": "2026-09-17"
     },
     {
@@ -1441,6 +1814,10 @@
       "url": "https://doi.org/10.1007/s44163-026-02249-1",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.18,
       "added": "2026-09-17"
     },
     {
@@ -1452,6 +1829,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124880",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-17"
     },
     {
@@ -1463,6 +1844,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124877",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-17"
     },
     {
@@ -1474,6 +1859,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124882",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-17"
     },
     {
@@ -1485,6 +1874,10 @@
       "url": "https://doi.org/10.1111/1911-3846.70078",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-09-17"
     },
     {
@@ -1496,6 +1889,10 @@
       "url": "https://doi.org/10.1111/1911-3846.70085",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-09-17"
     },
     {
@@ -1507,6 +1904,10 @@
       "url": "https://doi.org/10.1007/s10584-026-04279-1",
       "cites": 1,
       "topic": "Deep persona",
+      "fwci": 15.06,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.4,
       "added": "2026-09-16"
     },
     {
@@ -1518,6 +1919,7 @@
       "url": "https://doi.org/10.1145/3848022",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
       "added": "2026-09-16"
     },
     {
@@ -1529,6 +1931,9 @@
       "url": "https://doi.org/10.1080/0020174x.2026.2727582",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.65,
       "added": "2026-09-16"
     },
     {
@@ -1562,6 +1967,10 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103930",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-16"
     },
     {
@@ -1573,6 +1982,10 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103937",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-15"
     },
     {
@@ -1584,6 +1997,10 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103938",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-15"
     },
     {
@@ -1595,6 +2012,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124876",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-15"
     },
     {
@@ -1606,6 +2027,10 @@
       "url": "https://doi.org/10.1111/1911-3846.70080",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-09-15"
     },
     {
@@ -1617,6 +2042,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103936",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-14"
     },
     {
@@ -1628,6 +2056,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124868",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-14"
     },
     {
@@ -1639,6 +2070,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124865",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-14"
     },
     {
@@ -1650,6 +2085,10 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103934",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-13"
     },
     {
@@ -1661,6 +2100,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103931",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-12"
     },
     {
@@ -1672,6 +2114,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124873",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-12"
     },
     {
@@ -1683,6 +2128,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103935",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-11"
     },
     {
@@ -1694,6 +2142,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103932",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-10"
     },
     {
@@ -1705,6 +2156,10 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103933",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-09"
     },
     {
@@ -1716,6 +2171,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103912",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-09"
     },
     {
@@ -1727,6 +2185,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124872",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-09"
     },
     {
@@ -1749,6 +2211,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124867",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-07"
     },
     {
@@ -1760,6 +2226,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124875",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-09-07"
     },
     {
@@ -1771,6 +2240,10 @@
       "url": "https://doi.org/10.1111/1911-3846.70076",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-09-07"
     },
     {
@@ -1793,6 +2266,10 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103910",
       "cites": 10,
       "topic": "Futures Studies",
+      "fwci": 61.45,
+      "pct": 1,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-06"
     },
     {
@@ -1804,6 +2281,9 @@
       "url": "https://doi.org/10.1016/j.jii.2026.101199",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.15,
       "added": "2026-09-04"
     },
     {
@@ -1815,6 +2295,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103929",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-04"
     },
     {
@@ -1826,6 +2309,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103928",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-04"
     },
     {
@@ -1837,6 +2323,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103921",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-04"
     },
     {
@@ -1848,6 +2337,9 @@
       "url": "https://doi.org/10.1111/1911-3846.70074",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-09-04"
     },
     {
@@ -1859,6 +2351,9 @@
       "url": "https://doi.org/10.1111/1911-3846.70082",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-09-04"
     },
     {
@@ -1870,6 +2365,9 @@
       "url": "https://doi.org/10.1007/s11142-026-09991-y",
       "cites": 0,
       "topic": "RAST",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-09-03"
     },
     {
@@ -1881,6 +2379,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103917",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-09-02"
     },
     {
@@ -1892,6 +2393,10 @@
       "url": "https://doi.org/10.1016/j.icte.2026.09.006",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.98,
       "added": "2026-09-01"
     },
     {
@@ -1914,6 +2419,9 @@
       "url": "https://doi.org/10.2308/tar-2024-0189",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-09-01"
     },
     {
@@ -1925,6 +2433,10 @@
       "url": "https://doi.org/10.2308/tar-2024-0006",
       "cites": 2,
       "topic": "TAR",
+      "fwci": 18.31,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-09-01"
     },
     {
@@ -1936,6 +2448,9 @@
       "url": "https://doi.org/10.2308/tar-2025-0350",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-09-01"
     },
     {
@@ -1947,6 +2462,9 @@
       "url": "https://doi.org/10.2308/tar-2024-0091",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-09-01"
     },
     {
@@ -1958,6 +2476,9 @@
       "url": "https://doi.org/10.2308/tar-2023-0303",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-09-01"
     },
     {
@@ -1969,6 +2490,10 @@
       "url": "https://doi.org/10.2308/tar-2024-0518",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-09-01"
     },
     {
@@ -1980,6 +2505,10 @@
       "url": "https://doi.org/10.2308/tar-2023-0495",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-09-01"
     },
     {
@@ -1991,6 +2520,10 @@
       "url": "https://doi.org/10.2308/tar-2023-0662",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-09-01"
     },
     {
@@ -2002,6 +2535,7 @@
       "url": "https://doi.org/10.61797/ijbic.v5i2.771",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2013,6 +2547,9 @@
       "url": "https://doi.org/10.1527/tjsai.41-5_lf26-h",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "q": "Q4",
+      "sjr": 0.14,
       "added": "2026-08-31"
     },
     {
@@ -2024,6 +2561,7 @@
       "url": "https://doi.org/10.5281/zenodo.22215414",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2035,6 +2573,9 @@
       "url": "https://doi.org/10.1080/27685241.2026.2725457",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.51,
       "added": "2026-08-31"
     },
     {
@@ -2046,6 +2587,8 @@
       "url": "https://doi.org/10.32996/bjtep.2026.5.9.3",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -2057,6 +2600,9 @@
       "url": "https://doi.org/10.1007/s00163-026-00498-w",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.65,
       "added": "2026-08-31"
     },
     {
@@ -2068,6 +2614,8 @@
       "url": "https://doi.org/10.66376/criterion.v17.n4.1",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -2079,6 +2627,8 @@
       "url": "https://doi.org/10.70219/mby-272026-464",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -2090,6 +2640,7 @@
       "url": "https://doi.org/10.21142/mecp.2026.1.3.e032",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2101,6 +2652,9 @@
       "url": "https://doi.org/10.1145/3822596",
       "cites": 4,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.61,
       "added": "2026-08-31"
     },
     {
@@ -2112,6 +2666,9 @@
       "url": "https://doi.org/10.1080/12265934.2026.2715995",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.95,
       "added": "2026-08-31"
     },
     {
@@ -2123,6 +2680,9 @@
       "url": "https://doi.org/10.1080/00401706.2026.2724145",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.31,
       "added": "2026-08-31"
     },
     {
@@ -2134,6 +2694,10 @@
       "url": "https://doi.org/10.1016/j.compmedimag.2026.102817",
       "cites": 1,
       "topic": "Graph database",
+      "fwci": 6.13,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.25,
       "added": "2026-08-31"
     },
     {
@@ -2145,6 +2709,9 @@
       "url": "https://doi.org/10.1093/bioinformatics/btag652",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.53,
       "added": "2026-08-31"
     },
     {
@@ -2156,6 +2723,9 @@
       "url": "https://doi.org/10.1038/s41592-026-03206-7",
       "cites": 2,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 15.62,
       "added": "2026-08-31"
     },
     {
@@ -2167,6 +2737,10 @@
       "url": "https://doi.org/10.1093/bioinformatics/btag654",
       "cites": 6,
       "topic": "Graph database",
+      "fwci": 10.75,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 2.53,
       "added": "2026-08-31"
     },
     {
@@ -2178,6 +2752,10 @@
       "url": "https://doi.org/10.1038/s41467-026-77368-5",
       "cites": 3,
       "topic": "Graph database",
+      "fwci": 16.31,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 4.9,
       "added": "2026-08-31"
     },
     {
@@ -2189,6 +2767,9 @@
       "url": "https://doi.org/10.1016/j.array.2026.101175",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.26,
       "added": "2026-08-31"
     },
     {
@@ -2200,6 +2781,9 @@
       "url": "https://doi.org/10.1016/j.engappai.2026.116047",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.78,
       "added": "2026-08-31"
     },
     {
@@ -2211,6 +2795,9 @@
       "url": "https://doi.org/10.1527/tjsai.41-5_a-p126",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q4",
+      "sjr": 0.14,
       "added": "2026-08-31"
     },
     {
@@ -2222,6 +2809,9 @@
       "url": "https://doi.org/10.29012/jpc.997",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.33,
       "added": "2026-08-31"
     },
     {
@@ -2233,6 +2823,9 @@
       "url": "https://doi.org/10.5753/jis.2026.7129",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.23,
       "added": "2026-08-31"
     },
     {
@@ -2244,6 +2837,9 @@
       "url": "https://doi.org/10.1021/acs.jcim.6c01049",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-31"
     },
     {
@@ -2255,6 +2851,9 @@
       "url": "https://doi.org/10.1038/s41598-026-66643-6",
       "cites": 0,
       "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-31"
     },
     {
@@ -2266,6 +2865,9 @@
       "url": "https://doi.org/10.1038/s41598-026-66897-0",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-31"
     },
     {
@@ -2277,6 +2879,10 @@
       "url": "https://doi.org/10.1038/s41467-026-76686-y",
       "cites": 1,
       "topic": "Memory in Agentic AI",
+      "fwci": 10.61,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 4.9,
       "added": "2026-08-31"
     },
     {
@@ -2288,6 +2894,9 @@
       "url": "https://doi.org/10.1038/s41524-026-02303-7",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.94,
       "added": "2026-08-31"
     },
     {
@@ -2299,6 +2908,7 @@
       "url": "https://doi.org/10.1002/smb2.70053",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2310,6 +2920,9 @@
       "url": "https://doi.org/10.1093/imaman/dpag028",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.62,
       "added": "2026-08-31"
     },
     {
@@ -2321,6 +2934,9 @@
       "url": "https://doi.org/10.3390/s26175519",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.8,
       "added": "2026-08-31"
     },
     {
@@ -2332,6 +2948,9 @@
       "url": "https://doi.org/10.1038/s42003-026-10852-2",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.99,
       "added": "2026-08-31"
     },
     {
@@ -2343,6 +2962,9 @@
       "url": "https://doi.org/10.1038/s41598-026-69244-5",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-31"
     },
     {
@@ -2354,6 +2976,9 @@
       "url": "https://doi.org/10.53799/stn2d409",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.22,
       "added": "2026-08-31"
     },
     {
@@ -2365,6 +2990,9 @@
       "url": "https://doi.org/10.1038/s41598-026-68318-8",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-31"
     },
     {
@@ -2376,6 +3004,9 @@
       "url": "https://doi.org/10.3837/tiis.2026.08.013",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.27,
       "added": "2026-08-31"
     },
     {
@@ -2387,6 +3018,7 @@
       "url": "https://doi.org/10.69709/caic.2026.129929",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2398,6 +3030,9 @@
       "url": "https://doi.org/10.18686/cest944",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.48,
       "added": "2026-08-31"
     },
     {
@@ -2409,6 +3044,7 @@
       "url": "https://doi.org/10.5281/zenodo.22210688",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2420,6 +3056,7 @@
       "url": "https://doi.org/10.1103/physics.19.119",
       "cites": 0,
       "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2431,6 +3068,9 @@
       "url": "https://doi.org/10.1007/s10994-026-07148-1",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.03,
       "added": "2026-08-31"
     },
     {
@@ -2442,6 +3082,9 @@
       "url": "https://doi.org/10.1038/s41598-026-69363-z",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-31"
     },
     {
@@ -2453,6 +3096,9 @@
       "url": "https://doi.org/10.1080/19312458.2026.2714769",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.63,
       "added": "2026-08-31"
     },
     {
@@ -2464,6 +3110,9 @@
       "url": "https://doi.org/10.3389/fpsyt.2026.1922251",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.18,
       "added": "2026-08-31"
     },
     {
@@ -2475,6 +3124,9 @@
       "url": "https://doi.org/10.3389/fcomp.2026.1836418",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.65,
       "added": "2026-08-31"
     },
     {
@@ -2486,6 +3138,9 @@
       "url": "https://doi.org/10.3390/s26175523",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.8,
       "added": "2026-08-31"
     },
     {
@@ -2497,6 +3152,9 @@
       "url": "https://doi.org/10.3390/s26175531",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.8,
       "added": "2026-08-31"
     },
     {
@@ -2508,6 +3166,8 @@
       "url": "https://doi.org/10.54097/0bpxr973",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -2519,6 +3179,8 @@
       "url": "https://doi.org/10.34306/b-front.v6i2.1176",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -2530,6 +3192,9 @@
       "url": "https://doi.org/10.3847/1538-4357/ae9094",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.19,
       "added": "2026-08-31"
     },
     {
@@ -2541,6 +3206,9 @@
       "url": "https://doi.org/10.1038/s41598-026-67842-x",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-31"
     },
     {
@@ -2552,6 +3220,9 @@
       "url": "https://doi.org/10.3847/1538-4365/ae928f",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.27,
       "added": "2026-08-31"
     },
     {
@@ -2563,6 +3234,7 @@
       "url": "https://doi.org/10.53378/ijstem.353374",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2574,6 +3246,7 @@
       "url": "https://doi.org/10.46519/ij3dptdi.1984544",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2585,6 +3258,8 @@
       "url": "https://doi.org/10.52106/3069-9088.1030",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -2596,6 +3271,10 @@
       "url": "https://doi.org/10.29072/h1k0g448",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q4",
+      "sjr": 0.14,
       "added": "2026-08-31"
     },
     {
@@ -2607,6 +3286,9 @@
       "url": "https://doi.org/10.1007/s10586-026-06496-w",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.01,
       "added": "2026-08-31"
     },
     {
@@ -2618,6 +3300,9 @@
       "url": "https://doi.org/10.3837/tiis.2026.08.020",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.27,
       "added": "2026-08-31"
     },
     {
@@ -2629,6 +3314,9 @@
       "url": "https://doi.org/10.1007/s11071-026-12975-x",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.1,
       "added": "2026-08-31"
     },
     {
@@ -2640,6 +3328,9 @@
       "url": "https://doi.org/10.1145/3842755",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.46,
       "added": "2026-08-31"
     },
     {
@@ -2651,6 +3342,8 @@
       "url": "https://doi.org/10.38124/ijisrt/26aug906",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -2662,6 +3355,9 @@
       "url": "https://doi.org/10.29012/jpc.1004",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.33,
       "added": "2026-08-31"
     },
     {
@@ -2673,6 +3369,9 @@
       "url": "https://doi.org/10.26599/commtr.2026.9640049",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.97,
       "added": "2026-08-31"
     },
     {
@@ -2684,6 +3383,9 @@
       "url": "https://doi.org/10.30953/bhty.v9.521",
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.42,
       "added": "2026-08-31"
     },
     {
@@ -2695,6 +3397,9 @@
       "url": "https://doi.org/10.1016/j.neucom.2026.134968",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.47,
       "added": "2026-08-31"
     },
     {
@@ -2706,6 +3411,9 @@
       "url": "https://doi.org/10.1007/s10586-026-06498-8",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.01,
       "added": "2026-08-31"
     },
     {
@@ -2717,6 +3425,9 @@
       "url": "https://doi.org/10.1371/journal.pcbi.1014657",
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 3.35,
+      "q": "Q1",
+      "sjr": 1.47,
       "added": "2026-08-31"
     },
     {
@@ -2728,6 +3439,9 @@
       "url": "https://doi.org/10.1063/5.0326359",
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 2.05,
+      "q": "Q1",
+      "sjr": 1.02,
       "added": "2026-08-31"
     },
     {
@@ -2739,6 +3453,9 @@
       "url": "https://doi.org/10.1140/epjc/s10052-026-15754-5",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.16,
       "added": "2026-08-31"
     },
     {
@@ -2750,6 +3467,9 @@
       "url": "https://doi.org/10.1093/biomethods/bpag050",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.5,
       "added": "2026-08-31"
     },
     {
@@ -2761,6 +3481,9 @@
       "url": "https://doi.org/10.1021/acs.jctc.6c00936",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.49,
       "added": "2026-08-31"
     },
     {
@@ -2772,6 +3495,10 @@
       "url": "https://doi.org/10.1038/s41467-026-77212-w",
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 5.74,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 4.9,
       "added": "2026-08-31"
     },
     {
@@ -2783,6 +3510,9 @@
       "url": "https://doi.org/10.1002/nla.70114",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.75,
       "added": "2026-08-31"
     },
     {
@@ -2794,6 +3524,9 @@
       "url": "https://doi.org/10.1007/s10278-026-02205-6",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-31"
     },
     {
@@ -2805,6 +3538,9 @@
       "url": "https://doi.org/10.1021/acs.jcim.6c02361",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-31"
     },
     {
@@ -2816,6 +3552,9 @@
       "url": "https://doi.org/10.1007/s00466-026-02849-9",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.22,
       "added": "2026-08-31"
     },
     {
@@ -2827,6 +3566,9 @@
       "url": "https://doi.org/10.1108/ajim-05-2025-0248",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.78,
       "added": "2026-08-31"
     },
     {
@@ -2838,6 +3580,9 @@
       "url": "https://doi.org/10.1016/j.engappai.2026.116087",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.78,
       "added": "2026-08-31"
     },
     {
@@ -2849,6 +3594,7 @@
       "url": "https://doi.org/10.62677/ijetaa.2607151",
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2860,6 +3606,7 @@
       "url": "https://doi.org/10.70882/josrar.2026.v3i4.230",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2871,6 +3618,9 @@
       "url": "https://doi.org/10.1007/s11423-026-10704-0",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.84,
       "added": "2026-08-31"
     },
     {
@@ -2882,6 +3632,9 @@
       "url": "https://doi.org/10.1038/s41598-026-68988-4",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-31"
     },
     {
@@ -2893,6 +3646,7 @@
       "url": "https://doi.org/10.66972/iscis21202622",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2904,6 +3658,9 @@
       "url": "https://doi.org/10.1007/s44163-026-02126-x",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.18,
       "added": "2026-08-31"
     },
     {
@@ -2915,6 +3672,7 @@
       "url": "https://doi.org/10.5772/acrt.20250160",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2926,6 +3684,7 @@
       "url": "https://doi.org/10.17613/4wt31-4w486",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2937,6 +3696,8 @@
       "url": "https://doi.org/10.67294/dptrgc89",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -2948,6 +3709,7 @@
       "url": "https://doi.org/10.69709/caic.2026.133382",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2959,6 +3721,7 @@
       "url": "https://doi.org/10.14738/ejas.1404.11931",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2970,6 +3733,9 @@
       "url": "https://doi.org/10.1002/csr.70947",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.15,
       "added": "2026-08-31"
     },
     {
@@ -2981,6 +3747,7 @@
       "url": "https://doi.org/10.58286/34565",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -2992,6 +3759,9 @@
       "url": "https://doi.org/10.1007/s11059-026-00878-0",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.21,
       "added": "2026-08-31"
     },
     {
@@ -3003,6 +3773,9 @@
       "url": "https://doi.org/10.1080/2573234x.2026.2720626",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.44,
       "added": "2026-08-31"
     },
     {
@@ -3014,6 +3787,9 @@
       "url": "https://doi.org/10.1093/atsscholar/aapag057",
       "cites": 0,
       "topic": "Ontology",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.49,
       "added": "2026-08-31"
     },
     {
@@ -3025,6 +3801,9 @@
       "url": "https://doi.org/10.1145/3779412",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.54,
       "added": "2026-08-31"
     },
     {
@@ -3036,6 +3815,7 @@
       "url": "https://doi.org/10.1186/s44398-026-00036-7",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3047,6 +3827,9 @@
       "url": "https://doi.org/10.1007/s10961-026-10382-3",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.01,
       "added": "2026-08-31"
     },
     {
@@ -3058,6 +3841,9 @@
       "url": "https://doi.org/10.3390/educsci16091397",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.88,
       "added": "2026-08-31"
     },
     {
@@ -3069,6 +3855,7 @@
       "url": "https://doi.org/10.22158/selt.v14n3p176",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3080,6 +3867,7 @@
       "url": "https://doi.org/10.47353/lawpass.v3i3.124",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3091,6 +3879,8 @@
       "url": "https://doi.org/10.58812/wsist.v4i02.3092",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -3102,6 +3892,8 @@
       "url": "https://doi.org/10.58812/wsist.v4i02.3091",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-31"
     },
     {
@@ -3113,6 +3905,7 @@
       "url": "https://doi.org/10.47353/lawpass.v3i3.123",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3124,6 +3917,7 @@
       "url": "https://doi.org/10.29056/jncist.2026.08.10",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3135,6 +3929,7 @@
       "url": "https://doi.org/10.58812/wsist.v4i02.3093",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3146,6 +3941,7 @@
       "url": "https://doi.org/10.58812/wsist.v4i02.3096",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3157,6 +3953,7 @@
       "url": "https://doi.org/10.53378/irssr.353370",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3168,6 +3965,7 @@
       "url": "https://doi.org/10.38124/ijisrt/26aug907",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3179,6 +3977,7 @@
       "url": "https://doi.org/10.7753/ijcatr1509.1003",
       "cites": 0,
       "topic": "AI governance",
+      "fwci": 0.0,
       "added": "2026-08-31"
     },
     {
@@ -3212,6 +4011,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103919",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-31"
     },
     {
@@ -3223,6 +4025,10 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103914",
       "cites": 1,
       "topic": "Futures Studies",
+      "fwci": 4.13,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-31"
     },
     {
@@ -3234,6 +4040,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124854",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-31"
     },
     {
@@ -3245,6 +4054,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124870",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-31"
     },
     {
@@ -3256,6 +4068,9 @@
       "url": "https://doi.org/10.1016/j.fsir.2026.100515",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.38,
       "added": "2026-08-30"
     },
     {
@@ -3267,6 +4082,9 @@
       "url": "https://doi.org/10.1080/0960085x.2026.2721630",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.24,
       "added": "2026-08-30"
     },
     {
@@ -3278,6 +4096,7 @@
       "url": "https://doi.org/10.21512/jggag.v11i2.15765",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
       "added": "2026-08-30"
     },
     {
@@ -3289,6 +4108,7 @@
       "url": "https://doi.org/10.59188/eduvest.v6i8.53459",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
       "added": "2026-08-30"
     },
     {
@@ -3300,6 +4120,7 @@
       "url": "https://doi.org/10.69850/rimi.vi3.279",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
       "added": "2026-08-30"
     },
     {
@@ -3311,6 +4132,8 @@
       "url": "https://doi.org/10.54150/thame.v5i2.1234",
       "cites": 0,
       "topic": "Deep persona",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-30"
     },
     {
@@ -3322,6 +4145,9 @@
       "url": "https://doi.org/10.1002/cpe.70926",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.45,
       "added": "2026-08-30"
     },
     {
@@ -3333,6 +4159,9 @@
       "url": "https://doi.org/10.26803/ijlter.25.8.5",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.39,
       "added": "2026-08-30"
     },
     {
@@ -3344,6 +4173,9 @@
       "url": "https://doi.org/10.70917/ijcisim-2026-5317",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.23,
       "added": "2026-08-30"
     },
     {
@@ -3355,6 +4187,9 @@
       "url": "https://doi.org/10.1080/08839514.2026.2721303",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.79,
       "added": "2026-08-30"
     },
     {
@@ -3366,6 +4201,9 @@
       "url": "https://doi.org/10.1002/agt2.70428",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.01,
       "added": "2026-08-30"
     },
     {
@@ -3377,6 +4215,9 @@
       "url": "https://doi.org/10.70917/ijcisim-2026-5328",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.23,
       "added": "2026-08-30"
     },
     {
@@ -3388,6 +4229,9 @@
       "url": "https://doi.org/10.1007/s10994-026-07118-7",
       "cites": 0,
       "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.03,
       "added": "2026-08-29"
     },
     {
@@ -3410,6 +4254,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103918",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-29"
     },
     {
@@ -3421,6 +4268,7 @@
       "url": "https://doi.org/10.54552/bzddh935",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
       "added": "2026-08-28"
     },
     {
@@ -3432,6 +4280,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124856",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-28"
     },
     {
@@ -3443,6 +4294,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124840",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-28"
     },
     {
@@ -3454,6 +4308,9 @@
       "url": "https://doi.org/10.1007/s11142-026-09993-w",
       "cites": 0,
       "topic": "RAST",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-08-28"
     },
     {
@@ -3465,6 +4322,8 @@
       "url": "https://doi.org/10.62762/jse.2026.766488",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-27"
     },
     {
@@ -3476,6 +4335,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103915",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-26"
     },
     {
@@ -3487,6 +4349,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103916",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-26"
     },
     {
@@ -3498,6 +4363,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103911",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-26"
     },
     {
@@ -3509,6 +4377,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124866",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-26"
     },
     {
@@ -3520,6 +4391,9 @@
       "url": "https://doi.org/10.3390/app16178461",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.56,
       "added": "2026-08-25"
     },
     {
@@ -3531,6 +4405,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124855",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-25"
     },
     {
@@ -3542,6 +4419,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124853",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-25"
     },
     {
@@ -3553,6 +4433,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124852",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-25"
     },
     {
@@ -3564,6 +4447,9 @@
       "url": "https://doi.org/10.1111/1475-679x.70084",
       "cites": 0,
       "topic": "JAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 9.77,
       "added": "2026-08-25"
     },
     {
@@ -3575,6 +4461,9 @@
       "url": "https://doi.org/10.1111/1911-3846.70081",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-08-25"
     },
     {
@@ -3586,6 +4475,7 @@
       "url": "https://doi.org/10.67231/s2b5mw29",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
       "added": "2026-08-22"
     },
     {
@@ -3597,6 +4487,7 @@
       "url": "https://doi.org/10.14445/22312803/ijctt-v74i7p103",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
       "added": "2026-08-22"
     },
     {
@@ -3608,6 +4499,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103896",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-22"
     },
     {
@@ -3619,6 +4513,10 @@
       "url": "https://doi.org/10.59543/jidmis.v3.1438",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.77,
       "added": "2026-08-21"
     },
     {
@@ -3630,6 +4528,10 @@
       "url": "https://doi.org/10.1007/s11142-026-09988-7",
       "cites": 1,
       "topic": "RAST",
+      "fwci": 18.31,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-08-21"
     },
     {
@@ -3641,6 +4543,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124851",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-20"
     },
     {
@@ -3652,6 +4557,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124849",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-20"
     },
     {
@@ -3663,6 +4571,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124842",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-20"
     },
     {
@@ -3674,6 +4585,9 @@
       "url": "https://doi.org/10.1111/1911-3846.70068",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-08-20"
     },
     {
@@ -3685,6 +4599,9 @@
       "url": "https://doi.org/10.1111/1911-3846.70073",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-08-20"
     },
     {
@@ -3696,6 +4613,9 @@
       "url": "https://doi.org/10.1007/s11142-026-09986-9",
       "cites": 0,
       "topic": "RAST",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-08-20"
     },
     {
@@ -3707,6 +4627,9 @@
       "url": "https://doi.org/10.1007/s11142-026-09989-6",
       "cites": 0,
       "topic": "RAST",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-08-20"
     },
     {
@@ -3718,6 +4641,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124845",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-19"
     },
     {
@@ -3729,6 +4655,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124847",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-19"
     },
     {
@@ -3740,6 +4669,9 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124848",
       "cites": 0,
       "topic": "TFSC",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-19"
     },
     {
@@ -3751,6 +4683,9 @@
       "url": "https://doi.org/10.1111/1475-679x.70083",
       "cites": 0,
       "topic": "JAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 9.77,
       "added": "2026-08-19"
     },
     {
@@ -3762,6 +4697,9 @@
       "url": "https://doi.org/10.1111/1911-3846.70075",
       "cites": 3,
       "topic": "CAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-08-19"
     },
     {
@@ -3773,6 +4711,9 @@
       "url": "https://doi.org/10.1007/s11142-026-09987-8",
       "cites": 0,
       "topic": "RAST",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-08-19"
     },
     {
@@ -3784,6 +4725,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103909",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-18"
     },
     {
@@ -3795,6 +4739,10 @@
       "url": "https://doi.org/10.1016/j.techfore.2026.124850",
       "cites": 1,
       "topic": "TFSC",
+      "fwci": 9.73,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 3.48,
       "added": "2026-08-18"
     },
     {
@@ -3806,6 +4754,9 @@
       "url": "https://doi.org/10.1111/1911-3846.70079",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-08-18"
     },
     {
@@ -3817,6 +4768,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103906",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-17"
     },
     {
@@ -3828,6 +4782,9 @@
       "url": "https://doi.org/10.3390/bios16080442",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-16"
     },
     {
@@ -3839,6 +4796,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103908",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-16"
     },
     {
@@ -3850,6 +4810,9 @@
       "url": "https://doi.org/10.1111/1475-679x.70080",
       "cites": 1,
       "topic": "JAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 9.77,
       "added": "2026-08-16"
     },
     {
@@ -3861,6 +4824,9 @@
       "url": "https://doi.org/10.1111/1475-679x.70082",
       "cites": 0,
       "topic": "JAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 9.77,
       "added": "2026-08-16"
     },
     {
@@ -3872,6 +4838,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103904",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-15"
     },
     {
@@ -3883,6 +4852,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103907",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-14"
     },
     {
@@ -3894,6 +4866,10 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103905",
       "cites": 2,
       "topic": "Futures Studies",
+      "fwci": 30.44,
+      "pct": 1,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-12"
     },
     {
@@ -3905,6 +4881,9 @@
       "url": "https://doi.org/10.32620/reks.2026.2.17",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.29,
       "added": "2026-08-11"
     },
     {
@@ -3916,6 +4895,7 @@
       "url": "https://doi.org/10.53941/pc.2026.100011",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
       "added": "2026-08-11"
     },
     {
@@ -3927,6 +4907,7 @@
       "url": "https://doi.org/10.54254/2754-1169/2026.gt35973",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
       "added": "2026-08-11"
     },
     {
@@ -3938,6 +4919,8 @@
       "url": "https://doi.org/10.30871/jaic.v10i4.12787",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "pct": 10,
       "added": "2026-08-10"
     },
     {
@@ -3949,6 +4932,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103902",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-10"
     },
     {
@@ -3960,6 +4946,9 @@
       "url": "https://doi.org/10.1016/j.futures.2026.103899",
       "cites": 0,
       "topic": "Futures Studies",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
       "added": "2026-08-10"
     },
     {
@@ -3971,6 +4960,9 @@
       "url": "https://doi.org/10.1007/s11142-026-09985-w",
       "cites": 1,
       "topic": "RAST",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-08-07"
     },
     {
@@ -3982,6 +4974,9 @@
       "url": "https://doi.org/10.1007/s11142-026-09983-y",
       "cites": 0,
       "topic": "RAST",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 5.56,
       "added": "2026-08-07"
     },
     {
@@ -3993,6 +4988,9 @@
       "url": "https://doi.org/10.1111/1475-679x.70081",
       "cites": 0,
       "topic": "JAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 9.77,
       "added": "2026-08-06"
     },
     {
@@ -4004,6 +5002,9 @@
       "url": "https://doi.org/10.1111/1911-3846.70072",
       "cites": 0,
       "topic": "CAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 3.69,
       "added": "2026-08-06"
     },
     {
@@ -4015,6 +5016,7 @@
       "url": "https://doi.org/10.62056/andkp2c2h",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
       "added": "2026-08-03"
     },
     {
@@ -4026,6 +5028,9 @@
       "url": "https://doi.org/10.1038/s41598-026-62785-9",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.89,
       "added": "2026-08-01"
     },
     {
@@ -4037,6 +5042,9 @@
       "url": "https://doi.org/10.1016/j.bcra.2026.100544",
       "cites": 0,
       "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.3,
       "added": "2026-08-01"
     },
     {
@@ -4048,6 +5056,10 @@
       "url": "https://doi.org/10.2308/tar-2023-0477",
       "cites": 2,
       "topic": "TAR",
+      "fwci": 9.17,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4059,6 +5071,9 @@
       "url": "https://doi.org/10.2308/tar-2025-0338",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4070,6 +5085,9 @@
       "url": "https://doi.org/10.2308/tar-2023-0401",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4081,6 +5099,9 @@
       "url": "https://doi.org/10.2308/tar-2023-0699",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4092,6 +5113,9 @@
       "url": "https://doi.org/10.2308/tar-2022-0526",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4103,6 +5127,9 @@
       "url": "https://doi.org/10.2308/tar-2023-0689",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4114,6 +5141,9 @@
       "url": "https://doi.org/10.2308/tar-2024-0758",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4125,6 +5155,10 @@
       "url": "https://doi.org/10.2308/tar-2023-0485",
       "cites": 1,
       "topic": "TAR",
+      "fwci": 7.69,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4136,6 +5170,9 @@
       "url": "https://doi.org/10.2308/tar-2023-0731",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4147,6 +5184,9 @@
       "url": "https://doi.org/10.2308/tar-2024-0708",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4158,6 +5198,9 @@
       "url": "https://doi.org/10.2308/tar-2023-0299",
       "cites": 0,
       "topic": "TAR",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 4.4,
       "added": "2026-08-01"
     },
     {
@@ -4169,6 +5212,10 @@
       "url": "https://doi.org/10.1016/j.jacceco.2026.101934",
       "cites": 1,
       "topic": "JAE",
+      "fwci": 12.3,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 8.75,
       "added": "2026-08-01"
     },
     {
@@ -4180,6 +5227,9 @@
       "url": "https://doi.org/10.1016/j.jacceco.2026.101933",
       "cites": 0,
       "topic": "JAE",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 8.75,
       "added": "2026-08-01"
     },
     {
@@ -4191,6 +5241,9 @@
       "url": "https://doi.org/10.1016/j.jacceco.2026.101935",
       "cites": 0,
       "topic": "JAE",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 8.75,
       "added": "2026-08-01"
     },
     {
@@ -4202,6 +5255,9 @@
       "url": "https://doi.org/10.1016/j.jacceco.2026.101936",
       "cites": 0,
       "topic": "JAE",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 8.75,
       "added": "2026-08-01"
     },
     {
@@ -4213,6 +5269,9 @@
       "url": "https://doi.org/10.1016/j.jacceco.2026.101938",
       "cites": 0,
       "topic": "JAE",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 8.75,
       "added": "2026-08-01"
     },
     {
@@ -4224,6 +5283,9 @@
       "url": "https://doi.org/10.1016/j.jacceco.2026.101937",
       "cites": 0,
       "topic": "JAE",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 8.75,
       "added": "2026-08-01"
     }
   ],
@@ -4236,7 +5298,10 @@
         "venue": "Applied Sciences",
         "url": "https://doi.org/10.3390/app14031014",
         "cites": 8,
-        "topic": "Deep persona"
+        "topic": "Deep persona",
+        "fwci": 1.87,
+        "q": "Q2",
+        "sjr": 0.56
       },
       {
         "title": "Improving Market Segmentation via Customer Personality Prediction using Deep AI Analysis",
@@ -4245,7 +5310,8 @@
         "venue": "Journal of Informatics Education and Research",
         "url": "https://doi.org/10.52783/jier.v4i2.1062",
         "cites": 3,
-        "topic": "Deep persona"
+        "topic": "Deep persona",
+        "fwci": 0.98
       },
       {
         "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
@@ -4254,7 +5320,10 @@
         "venue": "Computer Networks",
         "url": "https://doi.org/10.1016/j.comnet.2025.111784",
         "cites": 1,
-        "topic": "Deep persona"
+        "topic": "Deep persona",
+        "fwci": 0.51,
+        "q": "Q1",
+        "sjr": 1.14
       }
     ],
     "Graph database": [
@@ -4265,7 +5334,11 @@
         "venue": "ACM Computing Surveys",
         "url": "https://doi.org/10.1145/1322432.1322433",
         "cites": 1713,
-        "topic": "Graph database"
+        "topic": "Graph database",
+        "fwci": 118.94,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.99
       },
       {
         "title": "Foundations of Modern Query Languages for Graph Databases",
@@ -4274,7 +5347,11 @@
         "venue": "ACM Computing Surveys",
         "url": "https://doi.org/10.1145/3104031",
         "cites": 385,
-        "topic": "Graph database"
+        "topic": "Graph database",
+        "fwci": 13.95,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.99
       },
       {
         "title": "Reactome graph database: Efficient access to complex pathway data",
@@ -4283,7 +5360,11 @@
         "venue": "PLoS Computational Biology",
         "url": "https://doi.org/10.1371/journal.pcbi.1005968",
         "cites": 299,
-        "topic": "Graph database"
+        "topic": "Graph database",
+        "fwci": 9.54,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.47
       },
       {
         "title": "An in-depth comparison of subgraph isomorphism algorithms in graph databases",
@@ -4292,7 +5373,11 @@
         "venue": "Proceedings of the VLDB Endowment",
         "url": "https://doi.org/10.14778/2535568.2448946",
         "cites": 289,
-        "topic": "Graph database"
+        "topic": "Graph database",
+        "fwci": 11.75,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.77
       },
       {
         "title": "Query languages for graph databases",
@@ -4301,7 +5386,11 @@
         "venue": "ACM SIGMOD Record",
         "url": "https://doi.org/10.1145/2206869.2206879",
         "cites": 276,
-        "topic": "Graph database"
+        "topic": "Graph database",
+        "fwci": 31.87,
+        "pct": 1,
+        "q": "Q2",
+        "sjr": 0.63
       },
       {
         "title": "House of Graphs: A database of interesting graphs",
@@ -4310,7 +5399,11 @@
         "venue": "Discrete Applied Mathematics",
         "url": "https://doi.org/10.1016/j.dam.2012.07.018",
         "cites": 189,
-        "topic": "Graph database"
+        "topic": "Graph database",
+        "fwci": 10.69,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.66
       }
     ],
     "Memory in Agentic AI": [
@@ -4321,7 +5414,10 @@
         "venue": "ACM Transactions on Autonomous and Adaptive Systems",
         "url": "https://doi.org/10.1145/3774946",
         "cites": 4,
-        "topic": "Memory in Agentic AI"
+        "topic": "Memory in Agentic AI",
+        "fwci": 2.03,
+        "q": "Q2",
+        "sjr": 0.72
       }
     ],
     "LLM inference serving": [
@@ -4332,7 +5428,11 @@
         "venue": "IEEE Computer Architecture Letters",
         "url": "https://doi.org/10.1109/lca.2024.3406038",
         "cites": 39,
-        "topic": "LLM inference serving"
+        "topic": "LLM inference serving",
+        "fwci": 6.1,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.54
       },
       {
         "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
@@ -4341,7 +5441,9 @@
         "venue": "ACM SIGEnergy Energy Informatics Review",
         "url": "https://doi.org/10.1145/3727200.3727217",
         "cites": 27,
-        "topic": "LLM inference serving"
+        "topic": "LLM inference serving",
+        "fwci": 8.15,
+        "pct": 10
       },
       {
         "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
@@ -4350,7 +5452,8 @@
         "venue": "Proceedings of the ACM on Management of Data",
         "url": "https://doi.org/10.1145/3725394",
         "cites": 6,
-        "topic": "LLM inference serving"
+        "topic": "LLM inference serving",
+        "fwci": 1.47
       },
       {
         "title": "Serving Long-Context LLMs at the Mobile Edge: Test-Time Reinforcement Learning-Based Model Caching and Inference Offloading",
@@ -4359,7 +5462,11 @@
         "venue": "IEEE Transactions on Networking",
         "url": "https://doi.org/10.1109/ton.2026.3669011",
         "cites": 4,
-        "topic": "LLM inference serving"
+        "topic": "LLM inference serving",
+        "fwci": 22.49,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.49
       },
       {
         "title": "BrownoutServe: SLO-Aware Inference Serving Under Bursty Workloads for MoE-Based LLMs",
@@ -4368,7 +5475,11 @@
         "venue": "IEEE Transactions on Computers",
         "url": "https://doi.org/10.1109/tc.2026.3655019",
         "cites": 3,
-        "topic": "LLM inference serving"
+        "topic": "LLM inference serving",
+        "fwci": 17.0,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.24
       },
       {
         "title": "DOPD: A Dynamic PD-Disaggregation Architecture for Maximizing Goodput in LLM Inference Serving",
@@ -4377,7 +5488,11 @@
         "venue": "IEEE Transactions on Services Computing",
         "url": "https://doi.org/10.1109/tsc.2026.3670011",
         "cites": 1,
-        "topic": "LLM inference serving"
+        "topic": "LLM inference serving",
+        "fwci": 10.85,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.6
       }
     ],
     "Ethereum Layer-2": [
@@ -4388,7 +5503,11 @@
         "venue": "Future Generation Computer Systems",
         "url": "https://doi.org/10.1016/j.future.2025.108316",
         "cites": 2,
-        "topic": "Ethereum Layer-2"
+        "topic": "Ethereum Layer-2",
+        "fwci": 3.07,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.48
       },
       {
         "title": "Kajian Literatur: Rollups Sebagai Solusi Skalabilitas Ethereum dari Layer 1 ke Layer 2",
@@ -4397,7 +5516,8 @@
         "venue": "Prosiding Seminar Nasional Informatika Bela Negara",
         "url": "https://doi.org/10.33005/santika.v6i1.912",
         "cites": 0,
-        "topic": "Ethereum Layer-2"
+        "topic": "Ethereum Layer-2",
+        "fwci": 0.0
       }
     ],
     "Zero-knowledge proofs (ZKP)": [
@@ -4408,7 +5528,11 @@
         "venue": "Journal of the ACM",
         "url": "https://doi.org/10.1145/116825.116852",
         "cites": 1363,
-        "topic": "Zero-knowledge proofs (ZKP)"
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 13.45,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.37
       },
       {
         "title": "Zero-knowledge proofs of identity",
@@ -4417,7 +5541,11 @@
         "venue": "Journal of Cryptology",
         "url": "https://doi.org/10.1007/bf02351717",
         "cites": 1037,
-        "topic": "Zero-knowledge proofs (ZKP)"
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 25.97,
+        "pct": 1,
+        "q": "Q2",
+        "sjr": 0.48
       },
       {
         "title": "Definitions and properties of zero-knowledge proof systems",
@@ -4426,7 +5554,11 @@
         "venue": "Journal of Cryptology",
         "url": "https://doi.org/10.1007/bf00195207",
         "cites": 610,
-        "topic": "Zero-knowledge proofs (ZKP)"
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 8.25,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.48
       },
       {
         "title": "On the Composition of Zero-Knowledge Proof Systems",
@@ -4435,7 +5567,11 @@
         "venue": "SIAM Journal on Computing",
         "url": "https://doi.org/10.1137/s0097539791220688",
         "cites": 427,
-        "topic": "Zero-knowledge proofs (ZKP)"
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 9.83,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 0.84
       },
       {
         "title": "How to construct constant-round zero-knowledge proof systems for NP",
@@ -4444,7 +5580,11 @@
         "venue": "Journal of Cryptology",
         "url": "https://doi.org/10.1007/bf00208001",
         "cites": 335,
-        "topic": "Zero-knowledge proofs (ZKP)"
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 6.36,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.48
       },
       {
         "title": "A Survey on Zero-Knowledge Proof in Blockchain",
@@ -4453,7 +5593,11 @@
         "venue": "IEEE Network",
         "url": "https://doi.org/10.1109/mnet.011.2000473",
         "cites": 314,
-        "topic": "Zero-knowledge proofs (ZKP)"
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 45.87,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.58
       }
     ],
     "Graph neural networks (GNN)": [
@@ -4464,7 +5608,11 @@
         "venue": "IEEE Transactions on Neural Networks and Learning Systems",
         "url": "https://doi.org/10.1109/tnnls.2020.2978386",
         "cites": 10002,
-        "topic": "Graph neural networks (GNN)"
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 551.64,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.15
       },
       {
         "title": "The Graph Neural Network Model",
@@ -4473,7 +5621,9 @@
         "venue": "IEEE Transactions on Neural Networks",
         "url": "https://doi.org/10.1109/tnn.2008.2005605",
         "cites": 9756,
-        "topic": "Graph neural networks (GNN)"
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 17.07,
+        "pct": 10
       },
       {
         "title": "Graph neural networks: A review of methods and applications",
@@ -4482,7 +5632,11 @@
         "venue": "AI Open",
         "url": "https://doi.org/10.1016/j.aiopen.2021.01.001",
         "cites": 5879,
-        "topic": "Graph neural networks (GNN)"
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 325.19,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.64
       },
       {
         "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
@@ -4491,7 +5645,9 @@
         "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
         "url": "https://doi.org/10.4230/lipics.sea.2024.20",
         "cites": 5418,
-        "topic": "Graph neural networks (GNN)"
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 253.12,
+        "pct": 1
       },
       {
         "title": "Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties",
@@ -4500,7 +5656,11 @@
         "venue": "Physical Review Letters",
         "url": "https://doi.org/10.1103/physrevlett.120.145301",
         "cites": 2883,
-        "topic": "Graph neural networks (GNN)"
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 54.48,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.79
       },
       {
         "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
@@ -4509,7 +5669,11 @@
         "venue": "Nature Communications",
         "url": "https://doi.org/10.1038/s41467-022-29939-5",
         "cites": 1846,
-        "topic": "Graph neural networks (GNN)"
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 93.44,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 4.9
       }
     ],
     "Ontology": [
@@ -4520,7 +5684,11 @@
         "venue": "International Journal of Human-Computer Studies",
         "url": "https://doi.org/10.1006/ijhc.1995.1066",
         "cites": 1209,
-        "topic": "Ontology"
+        "topic": "Ontology",
+        "fwci": 25.9,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.13
       },
       {
         "title": "Ontology-based knowledge representation for bioinformatics",
@@ -4529,7 +5697,11 @@
         "venue": "Briefings in Bioinformatics",
         "url": "https://doi.org/10.1093/bib/1.4.398",
         "cites": 375,
-        "topic": "Ontology"
+        "topic": "Ontology",
+        "fwci": 5.15,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 2.26
       },
       {
         "title": "Development of a method for ontology-based empirical knowledge representation and reasoning",
@@ -4538,7 +5710,11 @@
         "venue": "Decision Support Systems",
         "url": "https://doi.org/10.1016/j.dss.2010.02.010",
         "cites": 107,
-        "topic": "Ontology"
+        "topic": "Ontology",
+        "fwci": 11.25,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 2.08
       },
       {
         "title": "Ontology-based knowledge representation for additive manufacturing",
@@ -4547,7 +5723,11 @@
         "venue": "Computers in Industry",
         "url": "https://doi.org/10.1016/j.compind.2019.03.006",
         "cites": 96,
-        "topic": "Ontology"
+        "topic": "Ontology",
+        "fwci": 4.72,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 2.17
       },
       {
         "title": "TransO: a knowledge-driven representation learning method with ontology information constraints",
@@ -4556,7 +5736,11 @@
         "venue": "World Wide Web",
         "url": "https://doi.org/10.1007/s11280-022-01016-3",
         "cites": 72,
-        "topic": "Ontology"
+        "topic": "Ontology",
+        "fwci": 8.22,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 0.98
       },
       {
         "title": "Ontology based knowledge representation technique, domain modeling languages and planners for robotic path planning: A survey",
@@ -4565,7 +5749,11 @@
         "venue": "ICT Express",
         "url": "https://doi.org/10.1016/j.icte.2018.04.008",
         "cites": 71,
-        "topic": "Ontology"
+        "topic": "Ontology",
+        "fwci": 8.16,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 0.98
       }
     ],
     "AI governance": [
@@ -4576,7 +5764,11 @@
         "venue": "Journal of the American Medical Informatics Association",
         "url": "https://doi.org/10.1093/jamia/ocz192",
         "cites": 957,
-        "topic": "AI governance"
+        "topic": "AI governance",
+        "fwci": 11.08,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.87
       },
       {
         "title": "Governance of artificial intelligence",
@@ -4585,7 +5777,11 @@
         "venue": "Policy and Society",
         "url": "https://doi.org/10.1080/14494035.2021.1928377",
         "cites": 531,
-        "topic": "AI governance"
+        "topic": "AI governance",
+        "fwci": 46.43,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.44
       },
       {
         "title": "Generative AI in healthcare: an implementation science informed translational path on application, integration and governance",
@@ -4594,7 +5790,11 @@
         "venue": "Implementation Science",
         "url": "https://doi.org/10.1186/s13012-024-01357-9",
         "cites": 523,
-        "topic": "AI governance"
+        "topic": "AI governance",
+        "fwci": 41.17,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 4.95
       },
       {
         "title": "A Layered Model for AI Governance",
@@ -4603,7 +5803,11 @@
         "venue": "IEEE Internet Computing",
         "url": "https://doi.org/10.1109/mic.2017.4180835",
         "cites": 420,
-        "topic": "AI governance"
+        "topic": "AI governance",
+        "fwci": 19.23,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 0.84
       },
       {
         "title": "The Dark Sides of Artificial Intelligence: An Integrated AI Governance Framework for Public Administration",
@@ -4612,7 +5816,11 @@
         "venue": "International Journal of Public Administration",
         "url": "https://doi.org/10.1080/01900692.2020.1749851",
         "cites": 383,
-        "topic": "AI governance"
+        "topic": "AI governance",
+        "fwci": 33.23,
+        "pct": 1,
+        "q": "Q2",
+        "sjr": 0.67
       },
       {
         "title": "AI governance: themes, knowledge gaps and future agendas",
@@ -4621,7 +5829,11 @@
         "venue": "Internet Research",
         "url": "https://doi.org/10.1108/intr-01-2022-0042",
         "cites": 289,
-        "topic": "AI governance"
+        "topic": "AI governance",
+        "fwci": 59.22,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.21
       }
     ],
     "NeurIPS": [
@@ -4775,7 +5987,11 @@
         "venue": "Futures",
         "url": "https://doi.org/10.1016/0016-3287(93)90022-l",
         "cites": 4267,
-        "topic": "Futures Studies"
+        "topic": "Futures Studies",
+        "fwci": 43.16,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.43
       },
       {
         "title": "The other path: the invisible revolution in the third world",
@@ -4784,7 +6000,11 @@
         "venue": "Futures",
         "url": "https://doi.org/10.1016/0016-3287(90)90116-y",
         "cites": 2030,
-        "topic": "Futures Studies"
+        "topic": "Futures Studies",
+        "fwci": 130.81,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.43
       },
       {
         "title": "The forthcoming Artificial Intelligence (AI) revolution: Its impact on society and firms",
@@ -4793,7 +6013,11 @@
         "venue": "Futures",
         "url": "https://doi.org/10.1016/j.futures.2017.03.006",
         "cites": 1869,
-        "topic": "Futures Studies"
+        "topic": "Futures Studies",
+        "fwci": 389.34,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.43
       },
       {
         "title": "Scenario types and techniques: Towards a user's guide",
@@ -4802,7 +6026,11 @@
         "venue": "Futures",
         "url": "https://doi.org/10.1016/j.futures.2005.12.002",
         "cites": 1415,
-        "topic": "Futures Studies"
+        "topic": "Futures Studies",
+        "fwci": 82.32,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.43
       },
       {
         "title": "Review of fossil fuels and future energy technologies",
@@ -4811,7 +6039,11 @@
         "venue": "Futures",
         "url": "https://doi.org/10.1016/j.futures.2015.03.003",
         "cites": 1341,
-        "topic": "Futures Studies"
+        "topic": "Futures Studies",
+        "fwci": 10.35,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.43
       },
       {
         "title": "Global culture: Nationalism, globalization and modernity",
@@ -4820,7 +6052,11 @@
         "venue": "Futures",
         "url": "https://doi.org/10.1016/0016-3287(91)90106-c",
         "cites": 1332,
-        "topic": "Futures Studies"
+        "topic": "Futures Studies",
+        "fwci": 74.87,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.43
       }
     ],
     "TFSC": [
@@ -4831,7 +6067,11 @@
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2016.08.019",
         "cites": 8633,
-        "topic": "TFSC"
+        "topic": "TFSC",
+        "fwci": 2084.68,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.48
       },
       {
         "title": "European journal of operational research",
@@ -4840,7 +6080,11 @@
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/0040-1625(90)90023-o",
         "cites": 5380,
-        "topic": "TFSC"
+        "topic": "TFSC",
+        "fwci": 70.45,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.48
       },
       {
         "title": "Functions of innovation systems: A new approach for analysing technological change",
@@ -4849,7 +6093,11 @@
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2006.03.002",
         "cites": 2743,
-        "topic": "TFSC"
+        "topic": "TFSC",
+        "fwci": 82.08,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.48
       },
       {
         "title": "CB-SEM vs PLS-SEM methods for research in social sciences and technology forecasting",
@@ -4858,7 +6106,11 @@
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2021.121092",
         "cites": 2417,
-        "topic": "TFSC"
+        "topic": "TFSC",
+        "fwci": 585.08,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.48
       },
       {
         "title": "Green innovation and environmental performance: The role of green transformational leadership and green human resource management",
@@ -4867,7 +6119,11 @@
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2019.119762",
         "cites": 2100,
-        "topic": "TFSC"
+        "topic": "TFSC",
+        "fwci": 123.38,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.48
       },
       {
         "title": "Consensus measurement in Delphi studies",
@@ -4876,7 +6132,11 @@
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2012.04.013",
         "cites": 1851,
-        "topic": "TFSC"
+        "topic": "TFSC",
+        "fwci": 90.41,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.48
       }
     ],
     "TAR": [
@@ -4887,7 +6147,11 @@
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/tar-9505096112",
         "cites": 6065,
-        "topic": "TAR"
+        "topic": "TAR",
+        "fwci": 61.85,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 4.4
       },
       {
         "title": "The Quality of Accruals and Earnings: The Role of Accrual Estimation Errors",
@@ -4896,7 +6160,11 @@
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/accr.2002.77.s-1.35",
         "cites": 5411,
-        "topic": "TAR"
+        "topic": "TAR",
+        "fwci": 56.34,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 4.4
       },
       {
         "title": "Voluntary Nonfinancial Disclosure and the Cost of Equity Capital: The Initiation of Corporate Social Responsibility Reporting",
@@ -4905,7 +6173,11 @@
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/accr.00000005",
         "cites": 4141,
-        "topic": "TAR"
+        "topic": "TAR",
+        "fwci": 107.36,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 4.4
       },
       {
         "title": "Disclosure level and the cost of equity capital.",
@@ -4914,7 +6186,11 @@
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/tar-9709240185",
         "cites": 3605,
-        "topic": "TAR"
+        "topic": "TAR",
+        "fwci": 71.0,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 4.4
       },
       {
         "title": "Real and Accrual-Based Earnings Management in the Pre- and Post-Sarbanes-Oxley Periods",
@@ -4923,7 +6199,11 @@
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/accr.2008.83.3.757",
         "cites": 2946,
-        "topic": "TAR"
+        "topic": "TAR",
+        "fwci": 153.17,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 4.4
       },
       {
         "title": "Corporate Disclosure Policy and Analyst Behavior.",
@@ -4932,7 +6212,11 @@
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/tar-9611271989",
         "cites": 2841,
-        "topic": "TAR"
+        "topic": "TAR",
+        "fwci": 50.7,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 4.4
       }
     ],
     "JAE": [
@@ -4943,7 +6227,11 @@
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/s0165-4101(01)00018-0",
         "cites": 7558,
-        "topic": "JAE"
+        "topic": "JAE",
+        "fwci": 116.76,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 8.75
       },
       {
         "title": "Performance matched discretionary accrual measures",
@@ -4952,7 +6240,11 @@
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/j.jacceco.2004.11.002",
         "cites": 7213,
-        "topic": "JAE"
+        "topic": "JAE",
+        "fwci": 261.39,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 8.75
       },
       {
         "title": "The economic implications of corporate financial reporting",
@@ -4961,7 +6253,11 @@
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/j.jacceco.2005.01.002",
         "cites": 6756,
-        "topic": "JAE"
+        "topic": "JAE",
+        "fwci": 267.28,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 8.75
       },
       {
         "title": "Auditor size and audit quality",
@@ -4970,7 +6266,11 @@
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/0165-4101(81)90002-1",
         "cites": 5957,
-        "topic": "JAE"
+        "topic": "JAE",
+        "fwci": 26.61,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 8.75
       },
       {
         "title": "Earnings management through real activities manipulation",
@@ -4979,7 +6279,11 @@
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/j.jacceco.2006.01.002",
         "cites": 5414,
-        "topic": "JAE"
+        "topic": "JAE",
+        "fwci": 102.89,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 8.75
       },
       {
         "title": "Audit committee, board of director characteristics, and earnings management",
@@ -4988,7 +6292,11 @@
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/s0165-4101(02)00059-9",
         "cites": 4575,
-        "topic": "JAE"
+        "topic": "JAE",
+        "fwci": 87.42,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 8.75
       }
     ],
     "JAR": [
@@ -4999,7 +6307,11 @@
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2491047",
         "cites": 8716,
-        "topic": "JAR"
+        "topic": "JAR",
+        "fwci": 31.57,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 9.77
       },
       {
         "title": "An Empirical Evaluation of Accounting Income Numbers",
@@ -5008,7 +6320,11 @@
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490232",
         "cites": 6615,
-        "topic": "JAR"
+        "topic": "JAR",
+        "fwci": 66.36,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 9.77
       },
       {
         "title": "Financial Ratios and the Probabilistic Prediction of Bankruptcy",
@@ -5017,7 +6333,11 @@
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490395",
         "cites": 6148,
-        "topic": "JAR"
+        "topic": "JAR",
+        "fwci": 33.17,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 9.77
       },
       {
         "title": "Financial Ratios As Predictors of Failure",
@@ -5026,7 +6346,10 @@
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490171",
         "cites": 4743,
-        "topic": "JAR"
+        "topic": "JAR",
+        "fwci": 0.0,
+        "q": "Q1",
+        "sjr": 9.77
       },
       {
         "title": "International Accounting Standards and Accounting Quality",
@@ -5035,7 +6358,11 @@
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.1111/j.1475-679x.2008.00287.x",
         "cites": 3099,
-        "topic": "JAR"
+        "topic": "JAR",
+        "fwci": 225.21,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 9.77
       },
       {
         "title": "Methodological Issues Related to the Estimation of Financial Distress Prediction Models",
@@ -5044,7 +6371,11 @@
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490859",
         "cites": 2964,
-        "topic": "JAR"
+        "topic": "JAR",
+        "fwci": 30.53,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 9.77
       }
     ],
     "CAR": [
@@ -5055,7 +6386,11 @@
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1995.tb00461.x",
         "cites": 5274,
-        "topic": "CAR"
+        "topic": "CAR",
+        "fwci": 105.36,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.69
       },
       {
         "title": "Causes and Consequences of Earnings Manipulation: An Analysis of Firms Subject to Enforcement Actions by the SEC*",
@@ -5064,7 +6399,11 @@
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1996.tb00489.x",
         "cites": 4263,
-        "topic": "CAR"
+        "topic": "CAR",
+        "fwci": 71.51,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.69
       },
       {
         "title": "The Effect of Audit Quality on Earnings Management*",
@@ -5073,7 +6412,11 @@
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1998.tb00547.x",
         "cites": 3344,
-        "topic": "CAR"
+        "topic": "CAR",
+        "fwci": 45.43,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.69
       },
       {
         "title": "Valuation and Clean Surplus Accounting for Operating and Financial Activities*",
@@ -5082,7 +6425,11 @@
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1995.tb00462.x",
         "cites": 2340,
-        "topic": "CAR"
+        "topic": "CAR",
+        "fwci": 80.15,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.69
       },
       {
         "title": "Stock Performance and Intermediation Changes Surrounding Sustained Increases in Disclosure*",
@@ -5091,7 +6438,11 @@
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1999.tb00592.x",
         "cites": 1980,
-        "topic": "CAR"
+        "topic": "CAR",
+        "fwci": 56.48,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.69
       },
       {
         "title": "Predicting Material Accounting Misstatements*",
@@ -5100,7 +6451,11 @@
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.2010.01041.x",
         "cites": 1931,
-        "topic": "CAR"
+        "topic": "CAR",
+        "fwci": 157.58,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.69
       }
     ],
     "RAST": [
@@ -5111,7 +6466,11 @@
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-021-09609-5",
         "cites": 1870,
-        "topic": "RAST"
+        "topic": "RAST",
+        "fwci": 152.71,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.56
       },
       {
         "title": "Earnings Surprises, Growth Expectations, and Stock Returns or Don't Let an Earnings Torpedo Sink Your Portfolio",
@@ -5120,7 +6479,11 @@
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1023/a:1020294523516",
         "cites": 1524,
-        "topic": "RAST"
+        "topic": "RAST",
+        "fwci": 44.58,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.56
       },
       {
         "title": "Expected EPS and EPS Growth as Determinantsof Value",
@@ -5129,7 +6492,11 @@
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-005-1535-3",
         "cites": 1515,
-        "topic": "RAST"
+        "topic": "RAST",
+        "fwci": 110.96,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.56
       },
       {
         "title": "Assessing the Probability of Bankruptcy",
@@ -5138,7 +6505,11 @@
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1023/b:rast.0000013627.90884.b7",
         "cites": 1358,
-        "topic": "RAST"
+        "topic": "RAST",
+        "fwci": 49.66,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.56
       },
       {
         "title": "The information content of mandatory risk factor disclosures in corporate filings",
@@ -5147,7 +6518,11 @@
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-013-9258-3",
         "cites": 912,
-        "topic": "RAST"
+        "topic": "RAST",
+        "fwci": 58.38,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.56
       },
       {
         "title": "Propping through related party transactions",
@@ -5156,7 +6531,11 @@
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-008-9081-4",
         "cites": 897,
-        "topic": "RAST"
+        "topic": "RAST",
+        "fwci": 24.24,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.56
       }
     ]
   }
