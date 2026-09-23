@@ -169,9 +169,10 @@ def main():
     per_topic = int(cfg.get("per_topic", 4))
     cutoff = (date.today() - timedelta(days=365 * years)).isoformat()
     # Newest(달력)용: OpenAlex는 최근 며칠에 논문이 몰려 있어 단순 최신순으로 뽑으면
-    # 이번 달만 채워진다. 최근 N개월을 '달별'로 나눠 각 달에서 토픽별 상위 K편을 가져와
-    # 지난달(예: 8월)도 반드시 달력에 나오게 한다.
-    newest_months = int(cfg.get("newest_months", 2))          # 커버할 최근 개월 수(현재 달 포함)
+    # 이번 달만 채워진다. 매 실행은 최근 N개월을 '달별'로 나눠 토픽별 상위 K편을 받고,
+    # 결과를 기존 newest.json에 '병합(누적)'한다 → 8·9월은 계속 쌓여 남는다.
+    # N=2(겹침): 색인 지연으로 다음 달에 뒤늦게 뜨는 전달 논문까지 이때 포착하려는 것.
+    newest_months = int(cfg.get("newest_months", 2))          # 매 실행 새로 받을(겹칠) 최근 개월 수
     newest_per_month = int(cfg.get("newest_per_month", 15))    # 토픽 × 달마다 상위 몇 편
 
     result = {"generated": date.today().isoformat(),
@@ -267,7 +268,7 @@ def main():
                 if kept >= newest_per_month:                 # 토픽×달마다 상위 K편만
                     break
     newest.sort(key=lambda p: p["date"], reverse=True)
-    newest = newest[:600]   # 최근 윈도우(약 75일) 전체 보존 — 토픽 필터가 프런트에서 걸리므로 넉넉히
+    fresh = newest   # 이번 실행에서 새로 받은 최근 N개월치 (누적 병합 전)
 
     # ── Most cited: 토픽(키워드)별 '전기간' 누적 피인용 상위 (날짜 무관) ──
     mostcited = {}
@@ -317,9 +318,31 @@ def main():
         else:
             oa_map[_lab] = "https://openalex.org/works?filter=default.search:" + urllib.parse.quote(_q, safe="")
 
-    # newest/mostcited가 전부 비면(API 오류) 기존 newest.json을 보존한다.
-    if not newest and not any(mostcited.values()) and NEWEST.exists():
-        print("! newest/mostcited 비어있음(OpenAlex 오류 추정) — 기존 newest.json 유지", file=sys.stderr)
+    # 누적 병합: 기존 newest.json은 지난달까지 쌓인 결과. 이번에 받은 최근 N개월(fresh)을
+    # 병합해 '월별로 계속 쌓이게' 한다. 색인 지연으로 10월에 뒤늦게 뜨는 9월 논문도 겹침
+    # 윈도우(newest_months≥2) 덕에 이때 추가된다. 지난달 데이터는 절대 지우지 않는다.
+    prev = []
+    if NEWEST.exists():
+        try:
+            prev = (json.loads(NEWEST.read_text(encoding="utf-8")) or {}).get("papers", []) or []
+        except Exception:
+            prev = []
+    def _nkey(p):
+        return (p.get("url") or p.get("title") or "").strip().lower()
+    merged = {}
+    for p in prev:                       # 먼저 기존(누적) 논문을 넣고
+        k = _nkey(p)
+        if k:
+            merged[k] = p
+    for p in fresh:                      # 새로 받은 것으로 덮어써 최신값(cites 등) 반영
+        k = _nkey(p)
+        if k:
+            merged[k] = p
+    newest = sorted(merged.values(), key=lambda p: p.get("date", ""), reverse=True)[:2000]
+
+    # 이번 fetch가 통째로 비고(API 오류) mostcited도 비면 기존 파일을 건드리지 않는다.
+    if not fresh and not any(mostcited.values()) and NEWEST.exists():
+        print("! fetch 비어있음(OpenAlex 오류 추정) — 기존 newest.json 유지", file=sys.stderr)
     else:
         NEWEST.write_text(json.dumps({
             "generated": today,
