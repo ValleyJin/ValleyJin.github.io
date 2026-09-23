@@ -238,6 +238,23 @@ img{max-width:100%;display:block}
 .mlinks a b{display:block;color:var(--ink);font-size:14px}
 .mlinks a span{display:block;color:var(--muted);font-size:12px;margin-top:2px}
 @media(max-width:640px){.mlinks{grid-template-columns:1fr}}
+/* 학회/저널 칩 선택 시 나타나는 영향력지수·분야 패널 */
+.venue-info{margin:-2px 0 10px;padding:14px 16px;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:12px;background:var(--bg-elev)}
+.vi-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.vi-head a{font-size:14.5px;color:var(--ink)}
+.vi-head a b{color:var(--accent)}
+.vi-head a:hover{color:var(--accent)}
+.vi-type{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 8px}
+.vi-metrics{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-bottom:8px}
+.vi-m{font-family:var(--mono);font-size:12.5px;color:var(--ink-soft)}
+.vi-m b{color:var(--accent);font-weight:700}
+.vi-hint{color:var(--muted);font-size:9px;vertical-align:2px;margin-left:1px}
+.vi-row{font-size:13px;color:var(--ink-soft);margin-top:6px;line-height:1.7}
+.vi-lab{display:inline-block;min-width:74px;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.vi-cats{display:inline-flex;flex-wrap:wrap;gap:6px 12px}
+.vi-cat{white-space:nowrap}
+.vi-note{margin-top:10px;font-size:11.5px;color:var(--muted)}
+.vi-note a{color:var(--accent)}
 /* Following: first paper sits beside the author photo + Scholar link */
 .fw-lead{display:grid;grid-template-columns:168px 1fr;gap:22px;align-items:start;margin-bottom:2px}   /* 좌: Publications와 동일한 sc-photo 카드 */
 .fw-side{min-width:0}

@@ -1,0 +1,233 @@
+{
+  "generated": "2026-09-23",
+  "venues": {
+    "NeurIPS": {
+      "name": "Neural Information Processing Systems",
+      "type": "conference",
+      "link": "https://neurips.cc/",
+      "h": 166,
+      "works": 4192,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence"
+    },
+    "ICML": {
+      "name": "International Conference on Machine Learning",
+      "type": "conference",
+      "link": "https://icml.cc/",
+      "h": 115,
+      "works": 1884,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence"
+    },
+    "ICLR": {
+      "name": "International Conference on Learning Representations",
+      "type": "conference",
+      "link": "https://iclr.cc/",
+      "h": 87,
+      "works": 908,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence"
+    },
+    "CVPR": {
+      "name": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "type": "conference",
+      "link": "https://cvpr.thecvf.com/",
+      "h": 214,
+      "works": 2082,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence"
+    },
+    "Futures": {
+      "name": "Futures",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/futures",
+      "h": 172,
+      "if2": 4.6,
+      "works": 6760,
+      "issn": "0016-3287",
+      "domain": "Physical Sciences",
+      "field": "Environmental Science",
+      "sub": "Global and Planetary Change",
+      "sjr": 1.43,
+      "q": "Q1",
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Development",
+          "Q1"
+        ],
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ]
+      ]
+    },
+    "TFSC": {
+      "name": "Technological Forecasting and Social Change",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
+      "h": 291,
+      "if2": 16.9,
+      "works": 10253,
+      "issn": "0040-1625",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 3.48,
+      "q": "Q1",
+      "cats": [
+        [
+          "Applied Psychology",
+          "Q1"
+        ],
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ]
+      ]
+    },
+    "TAR": {
+      "name": "The Accounting Review",
+      "type": "journal",
+      "link": "https://publications.aaahq.org/accounting-review",
+      "h": 282,
+      "if2": 5.5,
+      "works": 11777,
+      "issn": "0001-4826",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 4.4,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ]
+      ]
+    },
+    "JAE": {
+      "name": "Journal of Accounting and Economics",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/journal-of-accounting-and-economics",
+      "h": 307,
+      "if2": 6.7,
+      "works": 1876,
+      "issn": "0165-4101",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 8.75,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ]
+      ]
+    },
+    "JAR": {
+      "name": "Journal of Accounting Research",
+      "type": "journal",
+      "link": "https://onlinelibrary.wiley.com/journal/1475679x",
+      "h": 299,
+      "if2": 11.2,
+      "works": 2814,
+      "issn": "0021-8456",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 9.77,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ]
+      ]
+    },
+    "CAR": {
+      "name": "Contemporary Accounting Research",
+      "type": "journal",
+      "link": "https://onlinelibrary.wiley.com/journal/19113846",
+      "h": 184,
+      "if2": 4.0,
+      "works": 2492,
+      "issn": "0823-9150",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 3.69,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ]
+      ]
+    },
+    "RAST": {
+      "name": "Review of Accounting Studies",
+      "type": "journal",
+      "link": "https://link.springer.com/journal/11142",
+      "h": 148,
+      "if2": 6.9,
+      "works": 1197,
+      "issn": "1380-6653",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 5.56,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ]
+      ]
+    }
+  }
+}

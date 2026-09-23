@@ -77,6 +77,8 @@ permalink: /articles/
     {% assign t = site.data.topics %}
     <!-- topic filter tabs -->
     <div class="ntabs" id="ntabs" role="tablist"></div>
+    <!-- 학회/저널 칩 선택 시: 영향력지수 + 어느 분야에서 평가받았는지 -->
+    <div id="venue-info" class="venue-info" hidden></div>
     <!-- following scholars → Google Scholar alert filter -->
     <div class="stabs-wrap" id="stabs-wrap" hidden>
       <div class="stabs" id="stabs" role="tablist"></div>
@@ -243,6 +245,7 @@ permalink: /articles/
   <script type="application/json" id="newest-data">{{ site.data.newest | jsonify }}</script>
   <script type="application/json" id="alerts-data">{{ site.data.scholar_alerts | jsonify }}</script>
   <script type="application/json" id="scholars-data">{{ site.data.scholars.scholars | jsonify }}</script>
+  <script type="application/json" id="venues-data">{{ site.data.venues | jsonify }}</script>
   <script>
     (function(){
       var el=document.getElementById('newest-data'); if(!el) return;
@@ -318,6 +321,29 @@ permalink: /articles/
         var d=li.querySelector('.pub-detail'); if(!d) return;
         var open=d.hidden; d.hidden=!open; b.setAttribute('aria-expanded',open?'true':'false'); li.classList.toggle('open',open);
       });
+      var vinfo={}; try{ vinfo=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){}
+      var viEl=document.getElementById('venue-info');
+      function renderVenueInfo(){
+        if(!viEl) return;
+        var v=vinfo[st.topic];
+        if(!v){ viEl.hidden=true; viEl.innerHTML=''; return; }
+        function qb(q){ return '<span class="qbadge '+esc(String(q).toLowerCase())+'">'+esc(q)+'</span>'; }
+        var chips=[];
+        if(v.q) chips.push(qb(v.q));
+        if(v.sjr!=null) chips.push('<span class="vi-m">SJR <b>'+esc(v.sjr)+'</b></span>');
+        if(v.if2!=null && v.if2>0) chips.push('<span class="vi-m">IF<span class="vi-hint">2yr</span> <b>'+esc(v.if2)+'</b></span>');
+        if(v.h!=null) chips.push('<span class="vi-m">h-index <b>'+esc(v.h)+'</b></span>');
+        if(v.works!=null) chips.push('<span class="vi-m">'+esc(v.works)+' works</span>');
+        var field=[v.domain,v.field,v.sub].filter(Boolean).map(esc).join(' · ');
+        var cats=(v.cats||[]).slice(0,6).map(function(c){ return '<span class="vi-cat">'+esc(c[0])+' '+qb(c[1])+'</span>'; }).join('');
+        viEl.innerHTML=
+          '<div class="vi-head"><a href="'+esc(v.link||'#')+'" target="_blank" rel="noopener"><b>'+esc(st.topic)+'</b> · '+esc(v.name||'')+' ↗</a><span class="vi-type mono">'+esc(v.type||'')+'</span></div>'+
+          (chips.length?'<div class="vi-metrics">'+chips.join('')+'</div>':'')+
+          (field?'<div class="vi-row"><span class="vi-lab mono">분야</span> '+field+'</div>':'')+
+          (cats?'<div class="vi-row"><span class="vi-lab mono">분야별 분위</span> <span class="vi-cats">'+cats+'</span></div>':'')+
+          (v.type==='conference'?'<div class="vi-note mono">CS 학회는 SJR·분위 대신 <a href="https://portal.core.edu.au/conf-ranks/" target="_blank" rel="noopener">CORE 등급 ↗</a> · <a href="https://scholar.google.com/citations?view_op=top_venues" target="_blank" rel="noopener">Scholar h5-index ↗</a>로 평가</div>':'');
+        viEl.hidden=false;
+      }
       function renderTabs(){
         var _vs={}; (data.venues||[]).forEach(function(v){_vs[v]=1;});
         var _norm=topicList.filter(function(t){return !_vs[t];}).slice().sort();   // 일반 토픽 알파벳순
@@ -331,7 +357,7 @@ permalink: /articles/
           st.topic=b.dataset.topic;
           var fd=filtered().map(function(p){return p.date;}).sort();   // 새 토픽에 선택일 논문이 없으면 그 토픽 최신일로
           if(fd.length && filtered().every(function(p){return p.date!==st.sel;})){ st.sel=fd[fd.length-1]; cm=st.sel.split('-'); cur=new Date(+cm[0], +cm[1]-1, 1); }
-          renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM();
+          renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM(); renderVenueInfo();
         }; });
       }
       function renderList(){
@@ -469,6 +495,7 @@ permalink: /articles/
         if(mcWrap) mcWrap.hidden=scholars;
         if(svWrap) svWrap.hidden=!scholars;
         if(sectEl) sectEl.hidden=!scholars;
+        if(viEl){ if(scholars){ viEl.hidden=true; } else { renderVenueInfo(); } }   // 학자 모드에선 venue 정보 숨김
         if(scholars){
           [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.classList.remove('is-active'); });
         } else {
@@ -478,7 +505,7 @@ permalink: /articles/
       }
 
       renderStabs(); renderScal(); renderKinds(); renderSections();
-      renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM();
+      renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM(); renderVenueInfo();
       setMode('topics');
     })();
   </script>

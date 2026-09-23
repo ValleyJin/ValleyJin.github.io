@@ -22,8 +22,10 @@ CFG = ROOT / "_data" / "topics_config.yml"
 OUT = ROOT / "_data" / "topics.json"
 NEWEST = ROOT / "_data" / "newest.json"        # 최근 '발간'된 논문(발간일순, 달력용)
 SCHOLARS = ROOT / "_data" / "scholars.json"    # 팔로우 학자별 최신 논문
+VENUES = ROOT / "_data" / "venues.json"        # 토픽 학회/저널의 영향력지수·분야
 MAILTO = "jscho71@kaist.ac.kr"
 API = "https://api.openalex.org/works"
+API_SOURCES = "https://api.openalex.org/sources"
 
 
 def parse_topics(raw):
@@ -206,10 +208,13 @@ def load_scimago():
                 sjr = round(float(c[i_sjr].replace(",", ".")), 2)   # xls는 소수점이 콤마
             except ValueError:
                 sjr = None
+        # 분야별 분위: Categories 컬럼이 ';'를 내부에 써서 열 분해가 불안정 → 'Name (Qn)' 패턴을 원본 줄에서 정규식 추출
+        cats = [[n.strip(), "Q" + d] for n, d in re.findall(r"([A-Za-z][\w &,./'\-]+?)\s+\(Q([1-4])\)", ln)]
+        entry = {"q": q, "sjr": sjr, "cats": cats}
         for iss in c[i_issn].replace(" ", "").split(","):
             k = iss.replace("-", "").upper()
             if k:
-                m.setdefault(k, {"q": q, "sjr": sjr})   # 여러 카테고리 중 Best Quartile 한 값
+                m.setdefault(k, entry)
     print(f"· SCImago {len(m)} ISSN 로드", file=sys.stderr)
     return m
 
@@ -241,6 +246,91 @@ def quality(w, sci):
     return out
 
 
+# CS 학회는 OpenAlex 약칭 검색이 부정확 → 정식명으로 조회
+CONF_FULLNAME = {
+    "NeurIPS": "Neural Information Processing Systems",
+    "ICML": "International Conference on Machine Learning",
+    "ICLR": "International Conference on Learning Representations",
+    "CVPR": "Computer Vision and Pattern Recognition",
+}
+
+
+def _oa_source_by_id(sid):
+    try:
+        with urllib.request.urlopen(f"{API_SOURCES}/{sid.strip()}?mailto={MAILTO}", timeout=30) as r:
+            return json.load(r)
+    except Exception:
+        return None
+
+
+def _oa_source_by_name(full):
+    """학회 정식명으로 conference source 검색. 정식명 정확 일치 우선, 없으면 논문수 최다."""
+    try:
+        url = (API_SOURCES + "?search=" + urllib.parse.quote(full)
+               + "&filter=type:conference&sort=works_count:desc&per_page=5&mailto=" + MAILTO)
+        with urllib.request.urlopen(url, timeout=30) as r:
+            res = (json.load(r).get("results") or [])
+    except Exception:
+        return None
+    exact = [s for s in res if (s.get("display_name") or "").strip().lower() == full.lower()]
+    lst = exact or res
+    return lst[0] if lst else None
+
+
+def _field_of(src):
+    tp = (src.get("topics") or [])
+    if not tp:
+        return {}
+    t = tp[0]
+    return {"domain": (t.get("domain") or {}).get("display_name"),
+            "field": (t.get("field") or {}).get("display_name"),
+            "sub": (t.get("subfield") or {}).get("display_name")}
+
+
+def build_venues(topics, sci):
+    """토픽의 학회/저널별 영향력지수·분야 → venues.json. 저널은 SJR·Q(분야별)·IF·h,
+    학회는 h-index·논문수·분야(OpenAlex)."""
+    out = {}
+    for label, query, link in topics:
+        if query.startswith("venue:"):
+            src = _oa_source_by_id(query[6:])
+            if not src:
+                continue
+            ss = src.get("summary_stats") or {}
+            f = _field_of(src)
+            cand = []
+            if src.get("issn_l"):
+                cand.append(src["issn_l"])
+            for i in (src.get("issn") or []):
+                cand.append(i)
+            sc = None
+            for i in cand:
+                k = str(i).replace("-", "").replace(" ", "").upper()
+                if k in sci:
+                    sc = sci[k]; break
+            v = {"name": src.get("display_name"), "type": "journal", "link": link,
+                 "h": ss.get("h_index"), "if2": round(ss.get("2yr_mean_citedness") or 0, 1),
+                 "works": src.get("works_count"), "issn": src.get("issn_l"),
+                 "domain": f.get("domain"), "field": f.get("field"), "sub": f.get("sub")}
+            if sc:
+                v["sjr"] = sc.get("sjr"); v["q"] = sc.get("q"); v["cats"] = sc.get("cats")
+            out[label] = v
+        elif query.startswith("s2:"):
+            full = CONF_FULLNAME.get(label, query[3:].strip())
+            src = _oa_source_by_name(full)
+            v = {"name": full, "type": "conference", "link": link}
+            if src:
+                ss = src.get("summary_stats") or {}
+                f = _field_of(src)
+                v.update({"name": src.get("display_name") or full, "h": ss.get("h_index"),
+                          "works": src.get("works_count"), "domain": f.get("domain"),
+                          "field": f.get("field"), "sub": f.get("sub")})
+            out[label] = v
+        if label in out:
+            print(f"  venue {label}: {out[label].get('type')} q={out[label].get('q')} h={out[label].get('h')}", file=sys.stderr)
+    return out
+
+
 def main():
     cfg = yaml.safe_load(CFG.read_text(encoding="utf-8")) or {}
     topics = parse_topics(cfg.get("topics", ""))
@@ -255,6 +345,13 @@ def main():
     newest_months = int(cfg.get("newest_months", 2))          # 매 실행 새로 받을(겹칠) 최근 개월 수
     newest_per_month = int(cfg.get("newest_per_month", 15))    # 토픽 × 달마다 상위 몇 편
     scimago = load_scimago()                                   # 저널 Q1~Q4 · SJR (ISSN 매칭)
+
+    # 토픽 학회/저널의 영향력지수·분야 → venues.json (칩 선택 시 표시)
+    venues_meta = build_venues(topics, scimago)
+    if venues_meta:
+        VENUES.write_text(json.dumps({"generated": date.today().isoformat(), "venues": venues_meta},
+                                     ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"✓ venues: {len(venues_meta)} venues", file=sys.stderr)
 
     result = {"generated": date.today().isoformat(),
               "field": "Computer Science · AI & databases",

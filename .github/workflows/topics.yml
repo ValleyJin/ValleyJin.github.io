@@ -40,10 +40,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _data/topics.json _data/newest.json _data/scholars.json
+          git add _data/topics.json _data/newest.json _data/scholars.json _data/venues.json
           if git diff --cached --quiet; then
             echo "No changes."
           else
-            git commit -m "chore: refresh topics + newest + scholars (OpenAlex/Scholar) [skip ci]"
+            git commit -m "chore: refresh topics + newest + scholars + venues (OpenAlex/Scholar) [skip ci]"
             git push
           fi
