@@ -28,7 +28,9 @@
           "year": "2011",
           "venue": "PloS one 6 (3), e18443, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:3vbIHxFL9FgC",
-          "cites": 174
+          "cites": 174,
+          "q": "Q1",
+          "sjr": 0.73
         },
         {
           "title": "Characteristics of the Korean stock market correlations",
@@ -36,7 +38,9 @@
           "year": "2006",
           "venue": "Physica A: Statistical Mechanics and its Applications 361 (1), 263-271, 2006",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:u5HHmVD_uO8C",
-          "cites": 144
+          "cites": 144,
+          "q": "Q2",
+          "sjr": 0.65
         },
         {
           "title": "Interpretable deep learning LSTM model for intelligent economic decision-making",
@@ -44,7 +48,9 @@
           "year": "2022",
           "venue": "Knowledge-Based Systems 248 (19), 108907, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:Vztgr1qGG8IC",
-          "cites": 128
+          "cites": 128,
+          "q": "Q1",
+          "sjr": 1.75
         },
         {
           "title": "Information flow between composite stock index and individual stocks",
@@ -52,7 +58,9 @@
           "year": "2008",
           "venue": "Physica A: Statistical Mechanics and its Applications 387 (12), 2851-2856, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:qjMakFHDy7sC",
-          "cites": 122
+          "cites": 122,
+          "q": "Q2",
+          "sjr": 0.65
         },
         {
           "title": "Global Diversification Discount and Its Discontents: Self-selection Makes a World of Difference",
@@ -60,7 +68,9 @@
           "year": "2016",
           "venue": "Strategic Management Journal 37 (11), 2254-2274, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:mel-f30kHHgC",
-          "cites": 112
+          "cites": 112,
+          "q": "Q1",
+          "sjr": 10.15
         },
         {
           "title": "Executive compensation, fat cats, and best athletes",
@@ -68,7 +78,9 @@
           "year": "2015",
           "venue": "American Sociological Review 80 (2), 299-328, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:9LpHyFPp1DQC",
-          "cites": 100
+          "cites": 100,
+          "q": "Q1",
+          "sjr": 3.28
         },
         {
           "title": "Global energy transitions and political systems",
@@ -76,7 +88,9 @@
           "year": "2019",
           "venue": "Renewable and Sustainable Energy Reviews 115, 109370, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:37UQlXuwjP4C",
-          "cites": 97
+          "cites": 97,
+          "q": "Q1",
+          "sjr": 4.0
         },
         {
           "title": "Network Structure Effects on Incumbency Advantage",
@@ -84,7 +98,9 @@
           "year": "2016",
           "venue": "Strategic Management Journal 37 (8), 1632-1648, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:G1UMdFYMoxkC",
-          "cites": 63
+          "cites": 63,
+          "q": "Q1",
+          "sjr": 10.15
         }
       ],
       "recent": [
@@ -94,7 +110,9 @@
           "year": "2027",
           "venue": "International Journal of Modern Physics C 38 (03), 2750027, 2027",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:jRIwE-1ttnoC",
-          "cites": 0
+          "cites": 0,
+          "q": "Q3",
+          "sjr": 0.3
         },
         {
           "title": "Beyond culture and language: Tracing emotional distance through facial expressions in Netflix trailers",
@@ -102,7 +120,9 @@
           "year": "2026",
           "venue": "Physica A: Statistical Mechanics and its Applications 697, 131736, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:uEM9VtRl8xsC",
-          "cites": 0
+          "cites": 0,
+          "q": "Q2",
+          "sjr": 0.65
         },
         {
           "title": "Strategic Prioritization of Environmental, Social, and Governance Goals: A Data‐Driven Efficiency Framework",
@@ -110,7 +130,9 @@
           "year": "2026",
           "venue": "Corporate Social Responsibility and Environmental Management 33 (4), 5236-5255, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:ynsZFq2pu0MC",
-          "cites": 3
+          "cites": 3,
+          "q": "Q1",
+          "sjr": 2.15
         },
         {
           "title": "LLMs as complementary tools for innovation surveys research: pattern replication and contextual relevance",
@@ -118,7 +140,9 @@
           "year": "2026",
           "venue": "Scientometrics, 1-34, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:uPCvBZYD9qUC",
-          "cites": 0
+          "cites": 0,
+          "q": "Q1",
+          "sjr": 1.08
         },
         {
           "title": "Networks of knowledge: hiring and collaboration networks in economics and physics departments",
@@ -126,7 +150,9 @@
           "year": "2026",
           "venue": "Journal of Informetrics 20 (1), 101777, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:oH8HCDhqVGsC",
-          "cites": 0
+          "cites": 0,
+          "q": "Q1",
+          "sjr": 1.1
         },
         {
           "title": "Central Bank Digital Currency Design, Systemic Risk, and Financial Stability:, A Complex Systems Simulation Approach",
@@ -150,7 +176,9 @@
           "year": "2026",
           "venue": "Energy Policy 208, 114934, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:-vzq6BoH5oUC",
-          "cites": 6
+          "cites": 6,
+          "q": "Q1",
+          "sjr": 2.52
         },
         {
           "title": "Predicting renewable energy stock volatility: A GARCH-CNN approach with indicator analysis",
@@ -158,7 +186,9 @@
           "year": "2026",
           "venue": "Renewable Energy 256, 124296, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:cOfwuRB03ygC",
-          "cites": 5
+          "cites": 5,
+          "q": "Q1",
+          "sjr": 1.89
         },
         {
           "title": "Analyzing Developmental Strategies and the Role of ICT in Underdeveloped Economies: Implications for North Korea",
@@ -166,7 +196,9 @@
           "year": "2026",
           "venue": "Journal of the Asia Pacific Economy 31 (1), 301-324, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:WM2K3OHRCGMC",
-          "cites": 0
+          "cites": 0,
+          "q": "Q2",
+          "sjr": 0.48
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=gM0qYNUAAAAJ&citpid=12"
@@ -181,7 +213,9 @@
           "year": "2009",
           "venue": "Proceedings of the VLDB Endowment 2 (1), 622-633, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:Y0pCki6q_DkC",
-          "cites": 346
+          "cites": 346,
+          "q": "Q1",
+          "sjr": 1.77
         },
         {
           "title": "TurboGraph: a fast parallel graph engine handling billion-scale graphs in a single PC",
@@ -197,7 +231,9 @@
           "year": "2018",
           "venue": "Journal of stroke 21 (1), 42, 2018",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:wSy_KLzO7YEC",
-          "cites": 306
+          "cites": 306,
+          "q": "Q1",
+          "sjr": 2.71
         },
         {
           "title": "Neural circuits underlying a psychotherapeutic regimen for fear disorders",
@@ -205,7 +241,9 @@
           "year": "2019",
           "venue": "Nature 566 (7744), 339-343, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:qwy9JoKyICEC",
-          "cites": 198
+          "cites": 198,
+          "q": "Q1",
+          "sjr": 19.71
         },
         {
           "title": "Towards Watt-scale hydroelectric energy harvesting by Ti3C2Tx-based transpiration-driven electrokinetic power generators",
@@ -221,7 +259,9 @@
           "year": "2023",
           "venue": "Advanced Energy Materials 13 (36), 2302139, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:pQTOvowfQioC",
-          "cites": 148
+          "cites": 148,
+          "q": "Q1",
+          "sjr": 7.68
         },
         {
           "title": "Detection of skin tumors on chicken carcasses using hyperspectral fluorescence imaging",
@@ -240,20 +280,22 @@
           "cites": 125
         },
         {
-          "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
-          "authors": "H Lim, MS Kim, Y Cho, J Ahn, S Ahn, JS Nam, J Bae, TG Yun, ID Kim",
-          "year": "2024",
-          "venue": "Advanced Materials 36 (12), 2301080, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:QoJ_w57xiyAC",
-          "cites": 116
-        },
-        {
           "title": "Generation of nanoparticles from friction between railway brake disks and pads",
           "authors": "HG Namgung, JB Kim, SH Woo, S Park, M Kim, MS Kim, GN Bae, D Park, ...",
           "year": "2016",
           "venue": "Environmental science & technology 50 (7), 3453-3461, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:43bX7VzcjpAC",
-          "cites": 116
+          "cites": 117
+        },
+        {
+          "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
+          "authors": "H Lim, MS Kim, Y Cho, J Ahn, S Ahn, JS Nam, J Bae, TG Yun, ID Kim",
+          "year": "2024",
+          "venue": "Advanced Materials 36 (12), 2301080, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:QoJ_w57xiyAC",
+          "cites": 116,
+          "q": "Q1",
+          "sjr": 8.27
         }
       ],
       "recent": [
@@ -279,7 +321,9 @@
           "year": "2026",
           "venue": "Proceedings of the VLDB Endowment 19 (12), 4698-4701, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:E7VqQtBCVmcC",
-          "cites": 0
+          "cites": 0,
+          "q": "Q1",
+          "sjr": 1.77
         },
         {
           "title": "CONDA: A Connectivity-Aware Dynamic Index for Approximate Nearest Neighbor Search over Evolving Data",
@@ -287,7 +331,9 @@
           "year": "2026",
           "venue": "Proceedings of the VLDB Endowment 19 (11), 3357-3370, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:JH5k92_tO-AC",
-          "cites": 0
+          "cites": 0,
+          "q": "Q1",
+          "sjr": 1.77
         },
         {
           "title": "GraphContainer: A Unified Platform for Comparing and Debugging Graph RAG Methods",
@@ -319,7 +365,8 @@
           "year": "2026",
           "venue": "International Conference on Learning Representations 2026, 108226-108260, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:tz746QTLzJkC",
-          "cites": 18
+          "cites": 18,
+          "crank": "A*"
         },
         {
           "title": "Graph data calculation method and apparatus",
@@ -335,7 +382,9 @@
           "year": "2026",
           "venue": "BMC Medical Informatics and Decision Making 26 (1), 143, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:vVJNg6_NJEsC",
-          "cites": 1
+          "cites": 1,
+          "q": "Q1",
+          "sjr": 1.22
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=1wZVw8QAAAAJ&citpid=6"
@@ -350,7 +399,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13122
+          "cites": 13180
         },
         {
           "title": "Generative Agents: Interactive Simulacra of Human Behavior",
@@ -358,7 +407,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8281
+          "cites": 8286
         },
         {
           "title": "Generative Agent Simulations of 1,000 People",
@@ -374,7 +423,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 658
+          "cites": 659
         },
         {
           "title": "Jury learning: Integrating dissenting voices into machine learning models",
@@ -390,7 +439,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 355
+          "cites": 354
         },
         {
           "title": "Holistic Evaluation of Text-to-Image Models",
@@ -406,7 +455,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 303
+          "cites": 304
         },
         {
           "title": "Evaluating Human-Language Model Interaction",
@@ -440,7 +489,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 87
+          "cites": 88
         },
         {
           "title": "Simulating Human Behavior With AI Agents",
@@ -504,7 +553,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8281
+          "cites": 8286
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Y4Oc0cMAAAAJ&citpid=2"

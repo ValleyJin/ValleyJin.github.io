@@ -81,6 +81,46 @@
   },
   "papers": [
     {
+      "date": "2026-09-23",
+      "title": "Beyond optimisation: Revisiting energy demand management",
+      "authors": "Borragán, G., Päβier, M., Verheyen, J., Annunziata, E., Biresselioglu, E., Calıs, G., et al.",
+      "year": 2026,
+      "venue": "Energy Research & Social Science",
+      "url": "https://doi.org/10.1016/j.erss.2026.104968",
+      "cites": 0,
+      "topic": "AI governance",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 2.43,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "AI-First Research Ecosystems: Redefining Multidisciplinary Innovation in the Digital Era",
+      "authors": "V, A. R. D. U. S., & Sahoo, D. M. V. D. A. K.",
+      "year": 2026,
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "url": "https://doi.org/10.48175/ijarsct-38434",
+      "cites": 0,
+      "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "AI Driven Multidomain Research: New Frontiers in Science, Business and Technology",
+      "authors": "Khedkar, P. (. D. C. P. (. E. B., Khedkar, D. C., & Chavan, P. D. S. P. S. R.",
+      "year": 2026,
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "url": "https://doi.org/10.48175/ijarsct-38432",
+      "cites": 0,
+      "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
+      "added": "2026-09-23"
+    },
+    {
       "date": "2026-09-22",
       "title": "Replications, Revisions, and Reanalyses: Managing Empirical Evidence in Software Engineering",
       "authors": "Frattini, J., Fischbach, J., Fucci, D., Unterkalmsteiner, M., Mendez, D., Feldt, R., et al.",
@@ -220,7 +260,7 @@
       "url": "https://doi.org/10.1145/3846376",
       "cites": 8,
       "topic": "Graph neural networks (GNN)",
-      "fwci": 15.22,
+      "fwci": 15.07,
       "pct": 10,
       "q": "Q1",
       "sjr": 5.99,
@@ -249,7 +289,7 @@
       "url": "https://doi.org/10.1145/3848627",
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
-      "fwci": 5.7,
+      "fwci": 5.66,
       "pct": 10,
       "q": "Q2",
       "sjr": 0.57,
@@ -658,6 +698,154 @@
       "added": "2026-09-23"
     },
     {
+      "date": "2026-09-22",
+      "title": "Robust SGLD Algorithm for Solving Non-convex Distributionally Robust Optimisation Problems",
+      "authors": "Neufeld, A., En, M. N. C., & Zhang, Y.",
+      "year": 2026,
+      "venue": "Applied Mathematics & Optimization",
+      "url": "https://doi.org/10.1007/s00245-026-10519-8",
+      "cites": 0,
+      "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.91,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "PRISM with a Pinch of Salt: Simple, Efficient, and Strongly Unforgeable Signatures from Isogenies",
+      "authors": "Basso, A., Borin, G., Castryck, W., Santos, M. C., Invernizzi, R., Leroux, A., et al.",
+      "year": 2026,
+      "venue": "Journal of Cryptology",
+      "url": "https://doi.org/10.1007/s00145-026-09585-6",
+      "cites": 0,
+      "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q2",
+      "sjr": 0.48,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Practical Teaching Reform of the “Deep Learning and Applications” Course Through the Collaboration of Knowledge Graphs and AI Agents",
+      "authors": "Su, T., & Bei, S.",
+      "year": 2026,
+      "venue": "Education and Social Work",
+      "url": "https://doi.org/10.63313/esw.9175",
+      "cites": 0,
+      "topic": "Graph database",
+      "fwci": 0.0,
+      "pct": 10,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Integration of density functional theory and machine learning for materials discovery in energy applications",
+      "authors": "P, J. J. G.",
+      "year": 2026,
+      "venue": "Discover Chemistry.",
+      "url": "https://doi.org/10.1007/s44371-026-00985-y",
+      "cites": 0,
+      "topic": "Graph database",
+      "fwci": 0.0,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Probabilistic Potential Field–Based Multimodal Machine Learning for Early Risk Stratification in Non-Hodgkin Lymphoma",
+      "authors": "Chandra, M. R., & Usha, D.",
+      "year": 2026,
+      "venue": "International Journal of Drug Delivery Technology",
+      "url": "https://doi.org/10.25258/ijddt.16.6.75",
+      "cites": 0,
+      "topic": "Graph database",
+      "fwci": 0.0,
+      "q": "Q3",
+      "sjr": 0.17,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "FEATURE TOKENIZER TRANSFORMER BASED ADVANCED DEEP LEARNING METHOD FOR PREDICTION OF THE BEARING CAPACITY OF BRANCHED PILES ON PEAT",
+      "authors": "Jamatia, D. K., & Dey, A. K.",
+      "year": 2026,
+      "venue": "INTERNATIONAL JOURNAL OF CIVIL ENGINEERING AND TECHNOLOGY (IJCIET)",
+      "url": "https://doi.org/10.34218/ijciet_17_05_001",
+      "cites": 0,
+      "topic": "Graph database",
+      "fwci": 0.0,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "A Heavy Traffic Theory of Matching Queues",
+      "authors": "Varma, S. M., & Maguluri, S. T.",
+      "year": 2026,
+      "venue": "Mathematics of Operations Research",
+      "url": "https://doi.org/10.1287/moor.2024.0818",
+      "cites": 0,
+      "topic": "Memory in Agentic AI",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.61,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Fully spectral scheme for the linear BGK equation on the whole space.",
+      "authors": "Grosse, B.",
+      "year": 2026,
+      "venue": "ESAIM Mathematical Modelling and Numerical Analysis",
+      "url": "https://doi.org/10.1051/m2an/2026071",
+      "cites": 0,
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.16,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "p–LSGR: A lightweight post–hoc latent–space resampling framework for imbalanced and complex graph distributions",
+      "authors": "Onabanjo, O., Huerta, G. M., Moreno‐García, C. F., Piloñeta, M. D., & Balsera, J. M. V.",
+      "year": 2026,
+      "venue": "Applied Artificial Intelligence",
+      "url": "https://doi.org/10.1080/08839514.2026.2729370",
+      "cites": 0,
+      "topic": "Graph neural networks (GNN)",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 0.79,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Toward Web 4.0: bidirectional trust between AI agents and blockchain",
+      "authors": "Xia, Y., Li, C., Li, L., Zhang, C., Duan, L., Xu, R., et al.",
+      "year": 2026,
+      "venue": "Blockchain",
+      "url": "https://doi.org/10.55092/blockchain20260008",
+      "cites": 0,
+      "topic": "AI governance",
+      "fwci": 0.0,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Bounded Autonomy and Verifiable Safety for Agentic AI Enabled Automation",
+      "authors": "Ramaswamy, S., & Nayak, D.",
+      "year": 2026,
+      "venue": "Journal of Intelligent & Robotic Systems",
+      "url": "https://doi.org/10.1007/s10846-026-02467-w",
+      "cites": 0,
+      "topic": "AI governance",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 0.72,
+      "added": "2026-09-23"
+    },
+    {
       "date": "2026-09-21",
       "title": "Heuristic and Optimal Synthesis of CNOT and Clifford Circuits",
       "authors": "Webster, M., Koutsioumpas, S., & Browne, D. E.",
@@ -761,7 +949,7 @@
       "venue": "ECONOMIC COMPUTATION AND ECONOMIC CYBERNETICS STUDIES AND RESEARCH",
       "url": "https://doi.org/10.24818/18423264/60.3.26.18",
       "cites": 0,
-      "topic": "Graph database",
+      "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
       "pct": 10,
       "q": "Q4",
@@ -1041,7 +1229,19 @@
       "venue": "Digital Commons - University of South Florida (University of South Florida)",
       "url": "https://doi.org/10.5038/2378-0789.9.1.1154",
       "cites": 0,
-      "topic": "Graph database",
+      "topic": "Zero-knowledge proofs (ZKP)",
+      "fwci": 0.0,
+      "added": "2026-09-23"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Closing the Interpretability Gap: Explainable ML-Based Malware Detection for Defensive Cyberspace Operations",
+      "authors": "Stirewalt, T., Hodgson, S., Tahiru, P., & Gebremedhin, A.",
+      "year": 2026,
+      "venue": "Digital Commons - University of South Florida (University of South Florida)",
+      "url": "https://doi.org/10.5038/2378-0789.9.1.1153",
+      "cites": 0,
+      "topic": "LLM inference serving",
       "fwci": 0.0,
       "added": "2026-09-23"
     },
@@ -1163,7 +1363,7 @@
       "venue": "Financial Innovation",
       "url": "https://doi.org/10.1186/s40854-026-00968-z",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)",
+      "topic": "Ontology",
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.25,
@@ -1177,7 +1377,7 @@
       "venue": "International Journal of Economics Finance and Management Sciences",
       "url": "https://doi.org/10.11648/j.ijefm.20261405.19",
       "cites": 0,
-      "topic": "Zero-knowledge proofs (ZKP)",
+      "topic": "Ontology",
       "fwci": 0.0,
       "pct": 10,
       "added": "2026-09-20"
@@ -1531,6 +1731,21 @@
       "added": "2026-09-19"
     },
     {
+      "date": "2026-09-19",
+      "title": "Privacy-Preserving Federated Learning with Layer 2 Blockchain Anchoring for Auditable Clinical Trial Eligibility Screening",
+      "authors": "Artenie, A. C., Morar, C. D., Popa, C., & Moldovan, O. G.",
+      "year": 2026,
+      "venue": "Applied Sciences",
+      "url": "https://doi.org/10.3390/app16189296",
+      "cites": 0,
+      "topic": "Ethereum Layer-2",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q2",
+      "sjr": 0.56,
+      "added": "2026-09-23"
+    },
+    {
       "date": "2026-09-18",
       "title": "Feminist service design: Experimenting with a diffractive approach to journey mapping",
       "authors": "Lindeberg, C. K., Morelli, N., & Simeone, L.",
@@ -1637,7 +1852,7 @@
       "url": "https://doi.org/10.1162/coli.a.652",
       "cites": 6,
       "topic": "LLM inference serving",
-      "fwci": 15.33,
+      "fwci": 15.07,
       "pct": 10,
       "q": "Q1",
       "sjr": 1.84,
@@ -1917,7 +2132,6 @@
       "cites": 0,
       "topic": "CAR",
       "fwci": 0.0,
-      "pct": 10,
       "q": "Q1",
       "sjr": 3.69,
       "added": "2026-09-17"
@@ -1987,6 +2201,7 @@
       "url": "https://doi.org/10.52202/085713-4678",
       "cites": 8,
       "topic": "NeurIPS",
+      "crank": "A*",
       "added": "2026-09-16"
     },
     {
@@ -1998,6 +2213,7 @@
       "url": "https://arxiv.org/abs/2609.18599",
       "cites": 4,
       "topic": "ICML",
+      "crank": "A*",
       "added": "2026-09-16"
     },
     {
@@ -2241,6 +2457,7 @@
       "url": "https://doi.org/10.52202/085713-4643",
       "cites": 4,
       "topic": "NeurIPS",
+      "crank": "A*",
       "added": "2026-09-07"
     },
     {
@@ -2296,6 +2513,7 @@
       "url": "https://arxiv.org/abs/2609.06489",
       "cites": 3,
       "topic": "ICML",
+      "crank": "A*",
       "added": "2026-09-06"
     },
     {
@@ -2449,6 +2667,7 @@
       "url": "https://doi.org/10.52202/085713-5498",
       "cites": 0,
       "topic": "NeurIPS",
+      "crank": "A*",
       "added": "2026-09-01"
     },
     {
@@ -2566,6 +2785,21 @@
       "q": "Q1",
       "sjr": 4.4,
       "added": "2026-09-01"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Navigating New Accounting Standards: Implications for Firms and Their Auditors",
+      "authors": "Anding, W.",
+      "year": 2026,
+      "venue": "Journal of Accounting and Economics",
+      "url": "https://doi.org/10.1016/j.jacceco.2026.101952",
+      "cites": 0,
+      "topic": "JAE",
+      "fwci": 0.0,
+      "pct": 10,
+      "q": "Q1",
+      "sjr": 8.75,
+      "added": "2026-09-23"
     },
     {
       "date": "2026-08-31",
@@ -2954,7 +3188,7 @@
     },
     {
       "date": "2026-08-31",
-      "title": "Bringing Reinforcement Learning to Multi-Period Financial Planning: A Bridge Between Learning-Enabled and Stochastic Optimization",
+      "title": "Bringing reinforcement learning to multi-period financial planning: a bridge between learning-enabled and stochastic optimization",
       "authors": "Luo, Y., & Mulvey, J. M.",
       "year": 2026,
       "venue": "IMA Journal of Management Mathematics",
@@ -3450,7 +3684,7 @@
       "year": 2026,
       "venue": "Cluster Computing",
       "url": "https://doi.org/10.1007/s10586-026-06498-8",
-      "cites": 0,
+      "cites": 2,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
       "q": "Q1",
@@ -3466,7 +3700,7 @@
       "url": "https://doi.org/10.1371/journal.pcbi.1014657",
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
-      "fwci": 3.35,
+      "fwci": 3.24,
       "q": "Q1",
       "sjr": 1.47,
       "added": "2026-08-31"
@@ -3536,7 +3770,7 @@
       "url": "https://doi.org/10.1038/s41467-026-77212-w",
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
-      "fwci": 5.74,
+      "fwci": 5.66,
       "pct": 10,
       "q": "Q1",
       "sjr": 4.9,
@@ -4030,6 +4264,7 @@
       "url": "https://doi.org/10.52202/085713-3262",
       "cites": 2,
       "topic": "NeurIPS",
+      "crank": "A*",
       "added": "2026-08-31"
     },
     {
@@ -4041,6 +4276,7 @@
       "url": "https://arxiv.org/abs/2608.30295",
       "cites": 3,
       "topic": "ICML",
+      "crank": "A*",
       "added": "2026-08-31"
     },
     {
@@ -4099,6 +4335,20 @@
       "q": "Q1",
       "sjr": 3.48,
       "added": "2026-08-31"
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Seeing through the dark: adaptive switch-guided knowledge distillation via heterogeneous teachers for robust plant disease diagnosis",
+      "authors": "Gondal, H. A. H., Im, S. J., Tariq, M. H., Irfan, M., Usman, M., Zeshan, M., et al.",
+      "year": 2026,
+      "venue": "Journal of King Saud University - Computer and Information Sciences",
+      "url": "https://doi.org/10.1007/s44443-026-01238-9",
+      "cites": 0,
+      "topic": "LLM inference serving",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 1.43,
+      "added": "2026-09-23"
     },
     {
       "date": "2026-08-30",
@@ -4284,6 +4534,7 @@
       "url": "https://arxiv.org/abs/2608.29038",
       "cites": 7,
       "topic": "ICLR",
+      "crank": "A*",
       "added": "2026-08-29"
     },
     {
@@ -4555,7 +4806,6 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "pct": 10,
       "q": "Q1",
       "sjr": 0.77,
       "added": "2026-08-21"
@@ -4914,6 +5164,20 @@
       "added": "2026-08-12"
     },
     {
+      "date": "2026-08-12",
+      "title": "Exogenous stock liquidity improvements and voluntary disclosure",
+      "authors": "Hagenberg, T. C., Miller, B. P., Sharma, A., & Yohn, T. L.",
+      "year": 2026,
+      "venue": "Review of Accounting Studies",
+      "url": "https://doi.org/10.1007/s11142-026-09984-x",
+      "cites": 0,
+      "topic": "RAST",
+      "fwci": 0.0,
+      "q": "Q1",
+      "sjr": 5.56,
+      "added": "2026-09-23"
+    },
+    {
       "date": "2026-08-11",
       "title": "VERKLE-FRI: НОВА АРХІТЕКТУРА ДЛЯ БЕЗСТАНОВИХ ТА КВАНТОВО-СТІЙКИХ ВЕКТОРНИХ ЗОБОВ’ЯЗАНЬ",
       "authors": "Akhalaia, G., Iavich, M., & Bocu, R.",
@@ -5097,7 +5361,7 @@
       "url": "https://doi.org/10.2308/tar-2023-0477",
       "cites": 2,
       "topic": "TAR",
-      "fwci": 9.17,
+      "fwci": 8.95,
       "pct": 10,
       "q": "Q1",
       "sjr": 4.4,
@@ -5374,9 +5638,9 @@
         "year": 2008,
         "venue": "ACM Computing Surveys",
         "url": "https://doi.org/10.1145/1322432.1322433",
-        "cites": 1713,
+        "cites": 1714,
         "topic": "Graph database",
-        "fwci": 118.94,
+        "fwci": 118.87,
         "pct": 1,
         "q": "Q1",
         "sjr": 5.99
@@ -5468,9 +5732,9 @@
         "year": 2024,
         "venue": "IEEE Computer Architecture Letters",
         "url": "https://doi.org/10.1109/lca.2024.3406038",
-        "cites": 39,
+        "cites": 40,
         "topic": "LLM inference serving",
-        "fwci": 6.1,
+        "fwci": 6.2,
         "pct": 10,
         "q": "Q2",
         "sjr": 0.54
@@ -5648,9 +5912,9 @@
         "year": 2020,
         "venue": "IEEE Transactions on Neural Networks and Learning Systems",
         "url": "https://doi.org/10.1109/tnnls.2020.2978386",
-        "cites": 10002,
+        "cites": 10010,
         "topic": "Graph neural networks (GNN)",
-        "fwci": 551.64,
+        "fwci": 551.91,
         "pct": 1,
         "q": "Q1",
         "sjr": 3.15
@@ -5661,9 +5925,9 @@
         "year": 2008,
         "venue": "IEEE Transactions on Neural Networks",
         "url": "https://doi.org/10.1109/tnn.2008.2005605",
-        "cites": 9756,
+        "cites": 9764,
         "topic": "Graph neural networks (GNN)",
-        "fwci": 17.07,
+        "fwci": 17.06,
         "pct": 10
       },
       {
@@ -5672,9 +5936,9 @@
         "year": 2020,
         "venue": "AI Open",
         "url": "https://doi.org/10.1016/j.aiopen.2021.01.001",
-        "cites": 5879,
+        "cites": 5883,
         "topic": "Graph neural networks (GNN)",
-        "fwci": 325.19,
+        "fwci": 325.24,
         "pct": 1,
         "q": "Q1",
         "sjr": 2.64
@@ -5778,7 +6042,7 @@
         "url": "https://doi.org/10.1007/s11280-022-01016-3",
         "cites": 72,
         "topic": "Ontology",
-        "fwci": 8.22,
+        "fwci": 8.23,
         "pct": 10,
         "q": "Q1",
         "sjr": 0.98
@@ -5830,9 +6094,9 @@
         "year": 2024,
         "venue": "Implementation Science",
         "url": "https://doi.org/10.1186/s13012-024-01357-9",
-        "cites": 523,
+        "cites": 524,
         "topic": "AI governance",
-        "fwci": 41.17,
+        "fwci": 41.15,
         "pct": 1,
         "q": "Q1",
         "sjr": 4.95
@@ -5869,9 +6133,9 @@
         "year": 2023,
         "venue": "Internet Research",
         "url": "https://doi.org/10.1108/intr-01-2022-0042",
-        "cites": 289,
+        "cites": 290,
         "topic": "AI governance",
-        "fwci": 59.22,
+        "fwci": 59.48,
         "pct": 1,
         "q": "Q1",
         "sjr": 2.21
@@ -5885,7 +6149,8 @@
         "venue": "Neural Information Processing Systems",
         "url": "https://www.semanticscholar.org/paper/0050e1c2005479bdad9ce5c21d555b05b7027914",
         "cites": 4,
-        "topic": "NeurIPS"
+        "topic": "NeurIPS",
+        "crank": "A*"
       }
     ],
     "ICML": [
@@ -5896,7 +6161,8 @@
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/2112.04426",
         "cites": 1914,
-        "topic": "ICML"
+        "topic": "ICML",
+        "crank": "A*"
       },
       {
         "title": "OptNet: Differentiable Optimization as a Layer in Neural Networks",
@@ -5905,7 +6171,8 @@
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/1703.00443",
         "cites": 1348,
-        "topic": "ICML"
+        "topic": "ICML",
+        "crank": "A*"
       },
       {
         "title": "Feature hashing for large scale multitask learning",
@@ -5914,7 +6181,8 @@
         "venue": "International Conference on Machine Learning",
         "url": "https://doi.org/10.1145/1553374.1553516",
         "cites": 1121,
-        "topic": "ICML"
+        "topic": "ICML",
+        "crank": "A*"
       },
       {
         "title": "Parseval Networks: Improving Robustness to Adversarial Examples",
@@ -5923,7 +6191,8 @@
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/1704.08847",
         "cites": 915,
-        "topic": "ICML"
+        "topic": "ICML",
+        "crank": "A*"
       },
       {
         "title": "Equivariant message passing for the prediction of tensorial properties and molecular spectra",
@@ -5931,8 +6200,9 @@
         "year": 2021,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/2102.03150",
-        "cites": 854,
-        "topic": "ICML"
+        "cites": 855,
+        "topic": "ICML",
+        "crank": "A*"
       },
       {
         "title": "Partially Supervised Classification of Text Documents",
@@ -5941,7 +6211,8 @@
         "venue": "International Conference on Machine Learning",
         "url": "https://www.semanticscholar.org/paper/006b577653e0e91e1cfd37c32c6d1cfb198a730e",
         "cites": 663,
-        "topic": "ICML"
+        "topic": "ICML",
+        "crank": "A*"
       }
     ],
     "ICLR": [
@@ -5951,8 +6222,9 @@
         "year": 2020,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2010.02502",
-        "cites": 13526,
-        "topic": "ICLR"
+        "cites": 13532,
+        "topic": "ICLR",
+        "crank": "A*"
       },
       {
         "title": "DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR",
@@ -5961,7 +6233,8 @@
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2201.12329",
         "cites": 1426,
-        "topic": "ICLR"
+        "topic": "ICLR",
+        "crank": "A*"
       },
       {
         "title": "Central Moment Discrepancy (CMD) for Domain-Invariant Representation Learning",
@@ -5970,7 +6243,8 @@
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/1702.08811",
         "cites": 689,
-        "topic": "ICLR"
+        "topic": "ICLR",
+        "crank": "A*"
       },
       {
         "title": "A DIRT-T Approach to Unsupervised Domain Adaptation",
@@ -5979,7 +6253,8 @@
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/1802.08735",
         "cites": 668,
-        "topic": "ICLR"
+        "topic": "ICLR",
+        "crank": "A*"
       },
       {
         "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
@@ -5988,7 +6263,8 @@
         "venue": "International Conference on Learning Representations",
         "url": "https://doi.org/10.48550/arXiv.2304.09116",
         "cites": 417,
-        "topic": "ICLR"
+        "topic": "ICLR",
+        "crank": "A*"
       },
       {
         "title": "An Exponential Learning Rate Schedule for Deep Learning",
@@ -5997,7 +6273,8 @@
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/1910.07454",
         "cites": 280,
-        "topic": "ICLR"
+        "topic": "ICLR",
+        "crank": "A*"
       }
     ],
     "CVPR": [
@@ -6008,7 +6285,8 @@
         "venue": "Computer Vision and Pattern Recognition",
         "url": "https://doi.org/10.1109/cvpr35066.2017",
         "cites": 44,
-        "topic": "CVPR"
+        "topic": "CVPR",
+        "crank": "A*"
       },
       {
         "title": "1998 Conference on Computer Vision and Pattern Recognition (CVPR '98), June 23-25, 1998, Santa Barbara, CA, USA",
@@ -6017,7 +6295,8 @@
         "venue": "Computer Vision and Pattern Recognition",
         "url": "https://www.semanticscholar.org/paper/0073595eae6b195af3951afbd62050e9a70df48f",
         "cites": 0,
-        "topic": "CVPR"
+        "topic": "CVPR",
+        "crank": "A*"
       }
     ],
     "Futures": [
@@ -6027,7 +6306,7 @@
         "year": 1993,
         "venue": "Futures",
         "url": "https://doi.org/10.1016/0016-3287(93)90022-l",
-        "cites": 4267,
+        "cites": 4270,
         "topic": "Futures",
         "fwci": 43.16,
         "pct": 1,
@@ -6066,9 +6345,9 @@
         "year": 2006,
         "venue": "Futures",
         "url": "https://doi.org/10.1016/j.futures.2005.12.002",
-        "cites": 1415,
+        "cites": 1417,
         "topic": "Futures",
-        "fwci": 82.32,
+        "fwci": 82.3,
         "pct": 1,
         "q": "Q1",
         "sjr": 1.43
@@ -6107,9 +6386,9 @@
         "year": 2016,
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2016.08.019",
-        "cites": 8633,
+        "cites": 8640,
         "topic": "TFSC",
-        "fwci": 2084.68,
+        "fwci": 2083.16,
         "pct": 1,
         "q": "Q1",
         "sjr": 3.48
@@ -6133,9 +6412,9 @@
         "year": 2006,
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2006.03.002",
-        "cites": 2743,
+        "cites": 2744,
         "topic": "TFSC",
-        "fwci": 82.08,
+        "fwci": 82.16,
         "pct": 1,
         "q": "Q1",
         "sjr": 3.48
@@ -6146,9 +6425,9 @@
         "year": 2021,
         "venue": "Technological Forecasting and Social Change",
         "url": "https://doi.org/10.1016/j.techfore.2021.121092",
-        "cites": 2417,
+        "cites": 2419,
         "topic": "TFSC",
-        "fwci": 585.08,
+        "fwci": 583.42,
         "pct": 1,
         "q": "Q1",
         "sjr": 3.48
@@ -6187,9 +6466,9 @@
         "year": 1995,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/tar-9505096112",
-        "cites": 6065,
+        "cites": 6070,
         "topic": "TAR",
-        "fwci": 61.85,
+        "fwci": 61.86,
         "pct": 1,
         "q": "Q1",
         "sjr": 4.4
@@ -6200,9 +6479,9 @@
         "year": 2002,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/accr.2002.77.s-1.35",
-        "cites": 5411,
+        "cites": 5414,
         "topic": "TAR",
-        "fwci": 56.34,
+        "fwci": 56.33,
         "pct": 1,
         "q": "Q1",
         "sjr": 4.4
@@ -6213,9 +6492,9 @@
         "year": 2010,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/accr.00000005",
-        "cites": 4142,
+        "cites": 4143,
         "topic": "TAR",
-        "fwci": 107.35,
+        "fwci": 107.31,
         "pct": 1,
         "q": "Q1",
         "sjr": 4.4
@@ -6226,7 +6505,7 @@
         "year": 1997,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/tar-9709240185",
-        "cites": 3605,
+        "cites": 3606,
         "topic": "TAR",
         "fwci": 71.0,
         "pct": 1,
@@ -6239,9 +6518,9 @@
         "year": 2008,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/accr.2008.83.3.757",
-        "cites": 2946,
+        "cites": 2947,
         "topic": "TAR",
-        "fwci": 153.17,
+        "fwci": 153.11,
         "pct": 1,
         "q": "Q1",
         "sjr": 4.4
@@ -6252,9 +6531,9 @@
         "year": 1996,
         "venue": "The Accounting Review",
         "url": "https://doi.org/10.2308/tar-9611271989",
-        "cites": 2841,
+        "cites": 2842,
         "topic": "TAR",
-        "fwci": 50.7,
+        "fwci": 50.71,
         "pct": 1,
         "q": "Q1",
         "sjr": 4.4
@@ -6267,7 +6546,7 @@
         "year": 2001,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/s0165-4101(01)00018-0",
-        "cites": 7558,
+        "cites": 7563,
         "topic": "JAE",
         "fwci": 116.76,
         "pct": 1,
@@ -6280,9 +6559,9 @@
         "year": 2005,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/j.jacceco.2004.11.002",
-        "cites": 7213,
+        "cites": 7216,
         "topic": "JAE",
-        "fwci": 261.39,
+        "fwci": 261.38,
         "pct": 1,
         "q": "Q1",
         "sjr": 8.75
@@ -6293,9 +6572,9 @@
         "year": 2005,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/j.jacceco.2005.01.002",
-        "cites": 6756,
+        "cites": 6759,
         "topic": "JAE",
-        "fwci": 267.28,
+        "fwci": 267.27,
         "pct": 1,
         "q": "Q1",
         "sjr": 8.75
@@ -6306,9 +6585,9 @@
         "year": 1981,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/0165-4101(81)90002-1",
-        "cites": 5957,
+        "cites": 5960,
         "topic": "JAE",
-        "fwci": 26.61,
+        "fwci": 26.6,
         "pct": 1,
         "q": "Q1",
         "sjr": 8.75
@@ -6319,9 +6598,9 @@
         "year": 2006,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/j.jacceco.2006.01.002",
-        "cites": 5414,
+        "cites": 5415,
         "topic": "JAE",
-        "fwci": 102.89,
+        "fwci": 103.03,
         "pct": 1,
         "q": "Q1",
         "sjr": 8.75
@@ -6332,7 +6611,7 @@
         "year": 2002,
         "venue": "Journal of Accounting and Economics",
         "url": "https://doi.org/10.1016/s0165-4101(02)00059-9",
-        "cites": 4575,
+        "cites": 4577,
         "topic": "JAE",
         "fwci": 87.42,
         "pct": 1,
@@ -6347,7 +6626,7 @@
         "year": 1991,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2491047",
-        "cites": 8716,
+        "cites": 8718,
         "topic": "JAR",
         "fwci": 31.57,
         "pct": 1,
@@ -6360,9 +6639,9 @@
         "year": 1968,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490232",
-        "cites": 6615,
+        "cites": 6617,
         "topic": "JAR",
-        "fwci": 66.36,
+        "fwci": 66.38,
         "pct": 1,
         "q": "Q1",
         "sjr": 9.77
@@ -6373,7 +6652,7 @@
         "year": 1980,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490395",
-        "cites": 6148,
+        "cites": 6149,
         "topic": "JAR",
         "fwci": 33.17,
         "pct": 1,
@@ -6386,7 +6665,7 @@
         "year": 1966,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490171",
-        "cites": 4743,
+        "cites": 4744,
         "topic": "JAR",
         "fwci": 0.0,
         "q": "Q1",
@@ -6398,9 +6677,9 @@
         "year": 2008,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.1111/j.1475-679x.2008.00287.x",
-        "cites": 3099,
+        "cites": 3100,
         "topic": "JAR",
-        "fwci": 225.21,
+        "fwci": 225.13,
         "pct": 1,
         "q": "Q1",
         "sjr": 9.77
@@ -6411,9 +6690,9 @@
         "year": 1984,
         "venue": "Journal of Accounting Research",
         "url": "https://doi.org/10.2307/2490859",
-        "cites": 2964,
+        "cites": 2965,
         "topic": "JAR",
-        "fwci": 30.53,
+        "fwci": 30.54,
         "pct": 1,
         "q": "Q1",
         "sjr": 9.77
@@ -6426,9 +6705,9 @@
         "year": 1995,
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1995.tb00461.x",
-        "cites": 5274,
+        "cites": 5275,
         "topic": "CAR",
-        "fwci": 105.36,
+        "fwci": 105.37,
         "pct": 1,
         "q": "Q1",
         "sjr": 3.69
@@ -6452,7 +6731,7 @@
         "year": 1998,
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1998.tb00547.x",
-        "cites": 3344,
+        "cites": 3346,
         "topic": "CAR",
         "fwci": 45.43,
         "pct": 1,
@@ -6478,9 +6757,9 @@
         "year": 1999,
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.1999.tb00592.x",
-        "cites": 1980,
+        "cites": 1981,
         "topic": "CAR",
-        "fwci": 56.48,
+        "fwci": 56.49,
         "pct": 1,
         "q": "Q1",
         "sjr": 3.69
@@ -6491,9 +6770,9 @@
         "year": 2011,
         "venue": "Contemporary Accounting Research",
         "url": "https://doi.org/10.1111/j.1911-3846.2010.01041.x",
-        "cites": 1931,
+        "cites": 1932,
         "topic": "CAR",
-        "fwci": 157.58,
+        "fwci": 157.63,
         "pct": 1,
         "q": "Q1",
         "sjr": 3.69
@@ -6506,9 +6785,9 @@
         "year": 2021,
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-021-09609-5",
-        "cites": 1870,
+        "cites": 1872,
         "topic": "RAST",
-        "fwci": 152.71,
+        "fwci": 152.6,
         "pct": 1,
         "q": "Q1",
         "sjr": 5.56
@@ -6532,9 +6811,9 @@
         "year": 2005,
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-005-1535-3",
-        "cites": 1515,
+        "cites": 1516,
         "topic": "RAST",
-        "fwci": 110.96,
+        "fwci": 110.84,
         "pct": 1,
         "q": "Q1",
         "sjr": 5.56
@@ -6571,9 +6850,9 @@
         "year": 2008,
         "venue": "Review of Accounting Studies",
         "url": "https://doi.org/10.1007/s11142-008-9081-4",
-        "cites": 897,
+        "cites": 898,
         "topic": "RAST",
-        "fwci": 24.24,
+        "fwci": 24.21,
         "pct": 1,
         "q": "Q1",
         "sjr": 5.56

@@ -39,7 +39,7 @@
           "cites": 24
         }
       ],
-      "count": 10273
+      "count": 10276
     },
     {
       "topic": "Graph database",
@@ -78,7 +78,7 @@
           "cites": 15
         }
       ],
-      "count": 117235
+      "count": 117261
     },
     {
       "topic": "Memory in Agentic AI",
@@ -90,7 +90,7 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1622
+          "cites": 1624
         },
         {
           "title": "Memory-Based Event-Triggered Fault-Tolerant Consensus Control of Nonlinear Multi-Agent Systems and Its Applications",
@@ -114,10 +114,10 @@
           "year": 2025,
           "venue": "Information Fusion",
           "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-          "cites": 211
+          "cites": 212
         }
       ],
-      "count": 68539
+      "count": 68561
     },
     {
       "topic": "LLM inference serving",
@@ -129,7 +129,7 @@
           "year": 2024,
           "venue": "IEEE Computer Architecture Letters",
           "url": "https://doi.org/10.1109/lca.2024.3406038",
-          "cites": 39
+          "cites": 40
         },
         {
           "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
@@ -145,7 +145,7 @@
           "year": 2025,
           "venue": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 1004
+          "cites": 1011
         },
         {
           "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
@@ -156,7 +156,7 @@
           "cites": 27
         }
       ],
-      "count": 5868
+      "count": 5872
     },
     {
       "topic": "Ethereum Layer-2",
@@ -176,7 +176,15 @@
           "year": 2024,
           "venue": "Sensors",
           "url": "https://doi.org/10.3390/s24031037",
-          "cites": 17
+          "cites": 18
+        },
+        {
+          "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
+          "authors": "Saif, M. B., Migliorini, S., & Spoto, F.",
+          "year": 2024,
+          "venue": "Future Internet",
+          "url": "https://doi.org/10.3390/fi16090315",
+          "cites": 34
         },
         {
           "title": "Future Monitors in Optimistic Rollups",
@@ -185,17 +193,9 @@
           "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
           "url": "https://doi.org/10.4230/oasics.fmbc.2025.5",
           "cites": 36
-        },
-        {
-          "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
-          "authors": "Saif, M. B., Migliorini, S., & Spoto, F.",
-          "year": 2024,
-          "venue": "Future Internet",
-          "url": "https://doi.org/10.3390/fi16090315",
-          "cites": 31
         }
       ],
-      "count": 547
+      "count": 548
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -234,7 +234,7 @@
           "cites": 38
         }
       ],
-      "count": 40606
+      "count": 40631
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -262,7 +262,7 @@
           "year": 2024,
           "venue": "Journal Of Big Data",
           "url": "https://doi.org/10.1186/s40537-023-00876-4",
-          "cites": 592
+          "cites": 593
         },
         {
           "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
@@ -270,10 +270,10 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3443141",
-          "cites": 491
+          "cites": 494
         }
       ],
-      "count": 193569
+      "count": 193627
     },
     {
       "topic": "Ontology",
@@ -309,10 +309,10 @@
           "year": 2023,
           "venue": "Nucleic Acids Research",
           "url": "https://doi.org/10.1093/nar/gkad1005",
-          "cites": 416
+          "cites": 417
         }
       ],
-      "count": 25002
+      "count": 25017
     },
     {
       "topic": "AI governance",
@@ -351,7 +351,7 @@
           "cites": 85
         }
       ],
-      "count": 106316
+      "count": 106385
     },
     {
       "topic": "NeurIPS",
@@ -519,7 +519,7 @@
           "year": 2024,
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2024.103399",
-          "cites": 95
+          "cites": 96
         },
         {
           "title": "Benefits or concerns of AI: A multistakeholder responsibility",
@@ -530,19 +530,19 @@
           "cites": 93
         },
         {
-          "title": "Disruptive Technologies for e-Diasporas: Blockchain, DAOs, Data Cooperatives, Metaverse, and ChatGPT",
-          "authors": "Calzada, I.",
-          "year": 2023,
-          "venue": "Futures",
-          "url": "https://doi.org/10.1016/j.futures.2023.103258",
-          "cites": 53
-        },
-        {
           "title": "Methods to imagine transformative futures. An integrative literature review.",
           "authors": "Ketonen‐Oksi, S., & Vigren, M.",
           "year": 2024,
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2024.103341",
+          "cites": 54
+        },
+        {
+          "title": "Disruptive Technologies for e-Diasporas: Blockchain, DAOs, Data Cooperatives, Metaverse, and ChatGPT",
+          "authors": "Calzada, I.",
+          "year": 2023,
+          "venue": "Futures",
+          "url": "https://doi.org/10.1016/j.futures.2023.103258",
           "cites": 53
         }
       ],
@@ -566,7 +566,7 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123076",
-          "cites": 301
+          "cites": 302
         },
         {
           "title": "How does the digital transformation drive digital technology innovation of enterprises? Evidence from enterprise's digital patents",
@@ -574,7 +574,7 @@
           "year": 2024,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2024.123428",
-          "cites": 295
+          "cites": 296
         },
         {
           "title": "Research on the impact of the integration of digital economy and real economy on enterprise green innovation",
@@ -597,7 +597,7 @@
           "year": 2023,
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2022-0251",
-          "cites": 77
+          "cites": 78
         },
         {
           "title": "Global versus Local ESG Ratings: Evidence from China",
@@ -636,7 +636,7 @@
           "year": 2024,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2024.101706",
-          "cites": 168
+          "cites": 170
         },
         {
           "title": "Measuring innovation and navigating its unique information issues: A review of the accounting literature on innovation",
@@ -663,7 +663,7 @@
           "cites": 55
         }
       ],
-      "count": 158
+      "count": 159
     },
     {
       "topic": "JAR",
@@ -683,7 +683,7 @@
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12559",
-          "cites": 385
+          "cites": 386
         },
         {
           "title": "Diversity Washing",
@@ -780,7 +780,7 @@
           "cites": 47
         }
       ],
-      "count": 176
+      "count": 178
     }
   ]
 }
