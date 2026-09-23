@@ -359,7 +359,8 @@
           "year": "2026",
           "venue": "Companion of the International Conference on Management of Data, 70-73, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:H7nrzBkawXsC",
-          "cites": 0
+          "cites": 0,
+          "crank": "A*"
         },
         {
           "title": "cuRPQ: A High-Performance GPU-Based Framework for Processing Regular and Conjunctive Regular Path Queries",
@@ -417,7 +418,8 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8286
+          "cites": 8286,
+          "crank": "A*"
         },
         {
           "title": "Generative Agent Simulations of 1,000 People",
@@ -433,7 +435,8 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 659
+          "cites": 659,
+          "crank": "A*"
         },
         {
           "title": "Jury learning: Integrating dissenting voices into machine learning models",
@@ -469,7 +472,9 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 304
+          "cites": 304,
+          "q": "Q1",
+          "sjr": 1.6
         },
         {
           "title": "Evaluating Human-Language Model Interaction",
@@ -499,7 +504,8 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 46
+          "cites": 46,
+          "crank": "A*"
         },
         {
           "title": "Creating General User Models from Computer Use",
@@ -507,7 +513,8 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 88
+          "cites": 88,
+          "crank": "A*"
         },
         {
           "title": "Simulating Human Behavior With AI Agents",
@@ -564,7 +571,8 @@
           "year": "2023",
           "venue": "Adjunct Proceedings of the 36th Annual ACM Symposium on User Interface …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:-f6ydRqryjwC",
-          "cites": 15
+          "cites": 15,
+          "crank": "A*"
         },
         {
           "title": "Generative Agents: Interactive Simulacra of Human Behavior",
@@ -572,7 +580,8 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8286
+          "cites": 8286,
+          "crank": "A*"
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=Y4Oc0cMAAAAJ&citpid=2"
