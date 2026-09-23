@@ -326,7 +326,7 @@ def _norm_conf(s):
 
 
 def conf_rank(venue, core, topic=None):
-    """학회 논문 → CORE 등급(A*/A/B/C). topic 약칭 우선, 그 다음 venue 약칭/제목 매칭."""
+    """학회 논문 → CORE 등급(A*/A/B/C). topic 약칭 → venue 약칭/제목 → 부분 매칭 순."""
     if not core:
         return {}
     acr, ttl = core.get("acr", {}), core.get("title", {})
@@ -336,7 +336,16 @@ def conf_rank(venue, core, topic=None):
     nm = _norm_conf(_journal_name(venue))
     if nm in ttl:
         return {"crank": ttl[nm]}
-    return {}
+    # 부분 매칭: 'Proceedings of the 36th Annual …', 'Thirty-seventh Conference on …'처럼
+    # 서수·연례 접두가 붙은 정식 proceedings 명 → CORE 정식명이 그 안에 포함되면 인정.
+    # 가장 긴(가장 구체적인) 매칭을 채택해 짧은 이름의 오매칭을 피한다.
+    full = _norm_conf(venue)
+    best = None
+    for t, rank in ttl.items():
+        if len(t) >= 25 and (t in nm or t in full):
+            if best is None or len(t) > len(best[0]):
+                best = (t, rank)
+    return {"crank": best[1]} if best else {}
 
 
 # CS 학회는 OpenAlex 약칭 검색이 부정확 → 정식명으로 조회
