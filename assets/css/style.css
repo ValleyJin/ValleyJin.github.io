@@ -654,8 +654,8 @@ img{max-width:100%;display:block}
 .qleg-note{color:var(--muted);font-size:11px;margin-left:auto}
 
 /* 토픽 칩 분야 그룹 라벨 */
-.ntab-grp{align-self:center;margin:0 4px 0 12px;padding-left:12px;border-left:1px solid var(--line);font-size:10.5px;letter-spacing:.04em;color:var(--muted);text-transform:none}
-.ntab-grp:first-of-type{border-left:0;padding-left:0;margin-left:6px}
+.ntab-grp{align-self:center;margin:0 8px 0 2px;min-width:52px;font-size:10.5px;letter-spacing:.04em;color:var(--muted);text-transform:none}
+.ntab-break{flex-basis:100%;height:0}   /* 분야 그룹 줄바꿈(보이지 않는 폭 100% 브레이크) */
 
 /* 산점도 축 눈금 + 격자선 */
 .qgl{position:absolute;background:var(--line);opacity:.4;z-index:0}
