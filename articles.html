@@ -447,6 +447,17 @@ permalink: /articles/
       var JGROUPS=['Futures Studies','Strategy','Accounting','Research Methods'];   // 저널 분야(AI=학회는 축이 달라 별도 탭)
       var jsel={}; JGROUPS.forEach(function(g){ jsel[g]=true; });   // 기본: 전부 선택
       var qsel={Q1:true,Q2:true,Q3:true,Q4:true};                  // 분위 필터(색 범례 클릭 토글)
+      var _FCODE={'Futures Studies':'FS','Strategy':'ST','Accounting':'AC','Research Methods':'RM'};
+      // 공유용: URL(#mf=,mq=,mv=)에서 필터/서브탭 복원
+      try{ var _amf=AState.get('mf'); if(_amf!=null){ var _rev={}; Object.keys(_FCODE).forEach(function(g){_rev[_FCODE[g]]=g;});
+             var _on={}; _amf.split(',').forEach(function(c){ if(_rev[c]) _on[_rev[c]]=1; }); JGROUPS.forEach(function(g){ jsel[g]=!!_on[g]; }); }
+           var _amq=AState.get('mq'); if(_amq!=null){ ['Q1','Q2','Q3','Q4'].forEach(function(Q){ qsel[Q]=_amq.indexOf(Q[1])>=0; }); } }catch(e){}
+      function _syncMetricURL(){ try{
+        var mfArr=JGROUPS.filter(function(g){return jsel[g];}), mf=mfArr.map(function(g){return _FCODE[g];}).join(',');
+        var mqArr=['Q1','Q2','Q3','Q4'].filter(function(Q){return qsel[Q];}), mq=mqArr.map(function(Q){return Q[1];}).join('');
+        var av=el.querySelector('.qtab.is-on'), mv=av?av.getAttribute('data-v'):'j';
+        AState.set({tab:'metrics', mf:(mfArr.length<4?mf:null), mq:(mqArr.length<4?mq:null), mv:(mv==='c'?'c':null)});
+      }catch(e){} }
       var jVR=null, jFullX=1, jFullY=1;                            // 확대 범위(데이터-줌); null=전체
       var jLastReg=null;                                           // 현재 회귀선(상세 패널 포지셔닝용)
       var jHL=null;                                                // 검색 강조 대상 라벨
@@ -508,7 +519,9 @@ permalink: /articles/
       btns.forEach(function(b){ b.addEventListener('click',function(){ var v=b.getAttribute('data-v');
         btns.forEach(function(x){x.classList.toggle('is-on',x===b);});
         views.forEach(function(x){x.hidden=x.getAttribute('data-v')!==v;});
-        if(cnote) cnote.hidden=(v!=='c'); }); });   // 학회 탭 옆 'AI conferences' 라벨
+        if(cnote) cnote.hidden=(v!=='c'); _syncMetricURL(); }); });   // 학회 탭 옆 'AI conferences' 라벨
+      // 공유용: URL의 mv=c 면 학회 서브탭으로 시작
+      try{ if(AState.get('mv')==='c' && confs.length){ var _ct=el.querySelector('.qtab[data-v="c"]'); if(_ct) _ct.click(); } }catch(e){}
       // 모바일(호버 불가): 탭으로 라벨 포커스 — 첫 탭은 포커스(이동X), 같은 점 재탭이면 이동
       if(!window.matchMedia || !matchMedia('(hover:hover)').matches){
         function _clearFoc(){ [].forEach.call(el.querySelectorAll('.qdot.is-foc'),function(x){x.classList.remove('is-foc');});
@@ -558,8 +571,8 @@ permalink: /articles/
         var f=e.target.closest ? e.target.closest('.qfld') : null;
         var q=e.target.closest ? e.target.closest('.qleg-q') : null;
         var dot=e.target.closest ? e.target.closest('.qdot') : null;
-        if(f){ var g=f.getAttribute('data-grp'); jsel[g]=!jsel[g]; jview.innerHTML=buildJ(); }
-        else if(q){ var Q=q.getAttribute('data-q'); qsel[Q]=!qsel[Q]; jview.innerHTML=buildJ(); }
+        if(f){ var g=f.getAttribute('data-grp'); jsel[g]=!jsel[g]; jview.innerHTML=buildJ(); _syncMetricURL(); }
+        else if(q){ var Q=q.getAttribute('data-q'); qsel[Q]=!qsel[Q]; jview.innerHTML=buildJ(); _syncMetricURL(); }
         else if(dot){ e.preventDefault(); if(_dragMoved){ _dragMoved=false; return; }
           renderJDetail(jByLabel[dot.getAttribute('data-lab')]); } }); }
       if(jdet){ jdet.addEventListener('click',function(e){ if(e.target.closest('.qd-x')){ jdet.hidden=true; jdet.className='qdetail'; } }); }
@@ -940,6 +953,7 @@ permalink: /articles/
         tabs.forEach(function(b){var on=b.dataset.pane===name;b.classList.toggle('is-active',on);b.setAttribute('aria-selected',on);});
         var upd={tab:name==='pubs'?null:name};
         if(name!=='topics'){ upd.topic=null; upd.date=null; }   // 다른 탭에선 My Topics 전용 파라미터 제거
+        if(name!=='metrics'){ upd.mf=null; upd.mq=null; upd.mv=null; }   // 다른 탭에선 Metrics 필터 파라미터 제거
         window.AState.set(upd);
       }
       tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.pane);});});
