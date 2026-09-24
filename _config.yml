@@ -61,3 +61,6 @@ exclude:
   - vendor
   - .github
   - node_modules
+
+# Contact
+kakao_openchat: "#"   # KakaoTalk 오픈채팅 링크로 교체

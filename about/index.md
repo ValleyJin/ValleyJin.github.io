@@ -172,6 +172,8 @@ Also: **10+ Korean patents** (AI — bankruptcy forecasting with CNN & GANN; blo
   <div class="contact-copy" markdown="1">
 Find me on [GitHub](https://github.com/ValleyJin), [Medium](https://medium.com/@ValleyJin), and [X](https://x.com/ValleyJin).
 
+Chat with me on [Telegram](https://t.me/ValleyJin) or [KakaoTalk open chat]({{ site.kakao_openchat | default: '#' }}).
+
 Email: **[cho@kaist.ac.kr](mailto:cho@kaist.ac.kr)**
   </div>
   <div class="contact-robot">

@@ -35,7 +35,7 @@
             <span class="d">{{ post.date | date: "%Y.%m.%d" }}</span>
             {% include post-thumb.html %}
             <span class="t">{% assign _pd = post.date | date: '%s' | plus: 0 %}{% assign _age = site.time | date: '%s' | minus: _pd %}{% if _age < 604800 %}<span class="new-flag">NEW</span> {% endif %}{{ post.title }}{% if post.excerpt %}<span class="sub">{{ post.excerpt | strip_html | truncate: 90 }}</span>{% endif %}</span>
-            <span class="c">{{ post.category }}</span>
+            <span class="c"><span class="cat">{{ post.category }}</span>{% assign _cc = site.data.comment_counts[post.url] | default: 0 %}<span class="pm mono" title="댓글 수">💬 {{ _cc }}</span></span>
           </a>
         </li>
         {% endfor %}
