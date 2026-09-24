@@ -310,7 +310,7 @@ permalink: /articles/
         // SVG는 좌상단 원점 → py(bottom%) 를 100-py 로 뒤집는다. viewBox 0..100, 박스가 clip.
         function sy1(j){ return (100-py(j)).toFixed(2); }
         var y0=reg.a*0+reg.b, yM=reg.a*sMax+reg.b;
-        h+='<svg class="qreg" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="'+px(0).toFixed(2)+'" y1="'+sy1(y0)+'" x2="'+px(sMax).toFixed(2)+'" y2="'+sy1(yM)+'"/></svg>';
+        h+='<svg class="qreg" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="'+px(0).toFixed(2)+'" y1="'+sy1(y0)+'" x2="'+px(sMax).toFixed(2)+'" y2="'+sy1(yM)+'"/></svg>';
       }
       h+='<span class="qax-y mono">JIF ↑</span><span class="qax-x mono">SJR →</span>';
       journals.forEach(function(v){
