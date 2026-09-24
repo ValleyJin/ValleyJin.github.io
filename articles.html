@@ -425,8 +425,8 @@ permalink: /articles/
         var fldBtns=JGROUPS.map(function(g){ return '<button type="button" class="qfld'+(jsel[g]?' is-on':'')+'" data-grp="'+esc(g)+'" aria-pressed="'+(jsel[g]?'true':'false')+'">'+esc(g)+'</button>'; }).join('');
         var qBtns=['q1','q2','q3','q4'].map(function(qq){ var Q=qq.toUpperCase(); return '<button type="button" class="qleg-q'+(qsel[Q]?'':' is-off')+'" data-q="'+Q+'" aria-pressed="'+(qsel[Q]?'true':'false')+'"><span class="qleg-d '+qq+'"></span>'+Q+'</button>'; }).join('');
         var nOn=JGROUPS.filter(function(g){return jsel[g];}).length, qOn=['Q1','Q2','Q3','Q4'].filter(function(Q){return qsel[Q];}).length;
-        var h='<div class="qflt"><span class="qflt-lbl mono">분야<span class="qflt-hint">복수 선택 · '+nOn+'/4</span></span><div class="qjbar">'+fldBtns+'</div></div>';
-        h+='<div class="qflt"><span class="qflt-lbl mono">분위 Q<span class="qflt-hint">복수 선택 · '+qOn+'/4</span></span><div class="qleg mono">'+qBtns+'</div></div>';
+        var h='<div class="qflt"><span class="qflt-lbl mono"><span class="qflt-step">1단계</span>분야<span class="qflt-hint">복수 선택 · '+nOn+'/4</span></span><div class="qjbar">'+fldBtns+'</div></div>';
+        h+='<div class="qflt"><span class="qflt-lbl mono"><span class="qflt-step">2단계</span>분위 Q<span class="qflt-hint">복수 선택 · '+qOn+'/4</span></span><div class="qleg mono">'+qBtns+'</div></div>';
         h+='<div class="qhint mono">점 크기 = 논문 수 · 점 클릭 = 상세 · 휠·핀치 확대, 확대 후 드래그로 이동, 더블클릭 리셋</div>';
         var jpts=jr.map(function(v){ var ify=(v.if2!=null?v.if2:0); return {x:ify,y:v.sjr,label:v.label,link:v.link,
           cls:String(v.q||'q1').toLowerCase(), r:bub(v.works,jwMax), num:(v.if2!=null?v.if2:'–')+'/'+v.sjr, out:excl.indexOf(v.label)>=0,   // IF/SJR(축 순서)

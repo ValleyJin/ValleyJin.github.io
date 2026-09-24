@@ -772,6 +772,7 @@ img{max-width:100%;display:block}
 .qflt{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 2px 8px}
 .qflt .qjbar,.qflt .qleg{margin:0;justify-content:flex-start;flex:1;min-width:0}
 .qflt-lbl{display:inline-flex;align-items:baseline;gap:7px;font-size:11px;font-weight:700;letter-spacing:.5px;color:var(--ink);text-transform:uppercase;white-space:nowrap;padding-right:11px;border-right:1px solid var(--line)}
+.qflt-step{align-self:center;font-size:9px;font-weight:700;letter-spacing:.3px;color:var(--accent);background:color-mix(in srgb,var(--accent) 16%,transparent);border-radius:5px;padding:2px 5px}
 .qflt-hint{font-size:9.5px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted)}
 .qleg-q:not(.is-off){color:var(--ink);font-weight:600}
 .qhint{margin:2px 2px 6px;font-size:10.5px;color:var(--muted);line-height:1.5}
