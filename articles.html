@@ -399,13 +399,14 @@ permalink: /articles/
       }
 
       /* ── 서브탭 조립 ── */
-      var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">학회</button>':'')+'</div>';
+      var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">학회</button><span class="qtab-note mono" id="qcnote" hidden>인공지능 학회</span>':'')+'</div>';
       el.innerHTML=tabs+'<div class="qview" data-v="j">'+jHtml+'</div>'+(confs.length?'<div class="qview" data-v="c" hidden>'+cHtml+'</div>':'');
       el.hidden=false;
-      var btns=[].slice.call(el.querySelectorAll('.qtab')), views=[].slice.call(el.querySelectorAll('.qview'));
+      var btns=[].slice.call(el.querySelectorAll('.qtab')), views=[].slice.call(el.querySelectorAll('.qview')), cnote=el.querySelector('#qcnote');
       btns.forEach(function(b){ b.addEventListener('click',function(){ var v=b.getAttribute('data-v');
         btns.forEach(function(x){x.classList.toggle('is-on',x===b);});
-        views.forEach(function(x){x.hidden=x.getAttribute('data-v')!==v;}); }); });
+        views.forEach(function(x){x.hidden=x.getAttribute('data-v')!==v;});
+        if(cnote) cnote.hidden=(v!=='c'); }); });   // 학회 탭 옆 '인공지능 학회' 라벨
       // '경영전략만' 토글: 저널 뷰를 필터해서 재렌더(이벤트 위임 — 재렌더돼도 유지)
       var jview=el.querySelector('.qview[data-v="j"]');
       if(jview){ jview.addEventListener('click',function(e){
