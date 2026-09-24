@@ -477,6 +477,7 @@ permalink: /articles/
           var ORDER=['미래학','경영전략','회계학','인공지능'];
           var groups={}; _ven.forEach(function(t){ var g=(VMETA[t]&&VMETA[t].group)||'기타'; (groups[g]=groups[g]||[]).push(t); });
           var gnames=Object.keys(groups).sort(function(a,b){ var ia=ORDER.indexOf(a), ib=ORDER.indexOf(b); return (ia<0?99:ia)-(ib<0?99:ib); });
+          _html+='<span class="ntab-sep" aria-hidden="true"></span>';   // 일반 토픽 / 학회·저널 구분 수평바
           gnames.forEach(function(g){ _html+='<span class="ntab-grp mono">'+esc(g)+'</span>'+groups[g].map(_tab).join(''); });
         }
         tabsEl.innerHTML=_html;
