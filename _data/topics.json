@@ -56,7 +56,7 @@
           "qcat": "Communication"
         }
       ],
-      "count": 10276
+      "count": 10277
     },
     {
       "topic": "Graph database",
@@ -113,7 +113,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 117222
+      "count": 117242
     },
     {
       "topic": "Memory in Agentic AI",
@@ -139,7 +139,7 @@
           "venue": "IEEE Transactions on Automation Science and Engineering",
           "url": "https://doi.org/10.1109/tase.2024.3474968",
           "cites": 31,
-          "fwci": 5.97,
+          "fwci": 5.93,
           "pct": 10,
           "q": "Q1",
           "sjr": 2.12,
@@ -172,7 +172,7 @@
           "qcat": "Hardware and Architecture"
         }
       ],
-      "count": 68537
+      "count": 68559
     },
     {
       "topic": "LLM inference serving",
@@ -207,8 +207,8 @@
           "year": 2025,
           "venue": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 1011,
-          "fwci": 953.85,
+          "cites": 1016,
+          "fwci": 955.49,
           "pct": 1,
           "q": "Q1",
           "sjr": 19.71,
@@ -226,7 +226,7 @@
           "nr": "na"
         }
       ],
-      "count": 5878
+      "count": 5879
     },
     {
       "topic": "Ethereum Layer-2",
@@ -341,7 +341,7 @@
           "qcat": "Analytical Chemistry"
         }
       ],
-      "count": 40634
+      "count": 40642
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -398,7 +398,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 193570
+      "count": 193621
     },
     {
       "topic": "Ontology",
@@ -454,7 +454,7 @@
           "qcat": "Genetics"
         }
       ],
-      "count": 24999
+      "count": 25009
     },
     {
       "topic": "AI governance",
@@ -513,7 +513,7 @@
           "qcat": "E-learning"
         }
       ],
-      "count": 106381
+      "count": 106479
     },
     {
       "topic": "NeurIPS",
@@ -1086,7 +1086,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 2599
+      "count": 2607
     },
     {
       "topic": "AIJ",
@@ -1288,8 +1288,8 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123076",
-          "cites": 302,
-          "fwci": 8.32,
+          "cites": 303,
+          "fwci": 8.34,
           "pct": 10,
           "q": "Q1",
           "sjr": 3.48,
@@ -1322,7 +1322,7 @@
           "qcat": "Applied Psychology"
         }
       ],
-      "count": 1597
+      "count": 1598
     },
     {
       "topic": "TAR",
@@ -1558,7 +1558,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 244
+      "count": 245
     },
     {
       "topic": "RAST",
@@ -1782,7 +1782,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 693
+      "count": 695
     },
     {
       "topic": "SMJ",
@@ -2018,7 +2018,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 93
+      "count": 94
     },
     {
       "topic": "HumRel",
@@ -2195,7 +2195,7 @@
           "qcat": "Finance"
         }
       ],
-      "count": 284
+      "count": 285
     },
     {
       "topic": "OrgSci",
@@ -2313,7 +2313,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 1389
+      "count": 1390
     },
     {
       "topic": "JMS",
@@ -2549,7 +2549,7 @@
           "qcat": "Engineering (miscellaneous)"
         }
       ],
-      "count": 492
+      "count": 494
     },
     {
       "topic": "JIBS",
@@ -2608,7 +2608,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 238
+      "count": 239
     },
     {
       "topic": "AOS",
@@ -2726,7 +2726,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 105
+      "count": 107
     },
     {
       "topic": "EAR",
@@ -2785,7 +2785,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 127
+      "count": 128
     },
     {
       "topic": "CPA",
@@ -2961,7 +2961,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 200
+      "count": 201
     },
     {
       "topic": "IJAIS",
