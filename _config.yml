@@ -63,4 +63,4 @@ exclude:
   - node_modules
 
 # Contact
-kakao_openchat: "#"   # KakaoTalk 오픈채팅 링크로 교체
+kakao_openchat: "https://invite.kakao.com/tc/tD3bFvM0CC"   # KakaoTalk 오픈채팅
