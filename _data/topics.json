@@ -56,7 +56,7 @@
           "qcat": "Communication"
         }
       ],
-      "count": 10274
+      "count": 10277
     },
     {
       "topic": "Graph database",
@@ -113,7 +113,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 117208
+      "count": 117216
     },
     {
       "topic": "Memory in Agentic AI",
@@ -172,7 +172,7 @@
           "qcat": "Hardware and Architecture"
         }
       ],
-      "count": 68519
+      "count": 68531
     },
     {
       "topic": "LLM inference serving",
@@ -226,7 +226,7 @@
           "nr": "na"
         }
       ],
-      "count": 5871
+      "count": 5874
     },
     {
       "topic": "Ethereum Layer-2",
@@ -341,7 +341,7 @@
           "qcat": "Analytical Chemistry"
         }
       ],
-      "count": 40627
+      "count": 40629
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -398,63 +398,12 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 193534
+      "count": 193546
     },
     {
       "topic": "Ontology",
       "query": "ontology knowledge representation",
-      "papers": [
-        {
-          "title": "Enhancing Learning Personalization in Educational Environments through Ontology-Based Knowledge Representation",
-          "authors": "Villegas-Ch, W. E., & Garcí­a-Ortiz, J.",
-          "year": 2023,
-          "venue": "Computers",
-          "url": "https://doi.org/10.3390/computers12100199",
-          "cites": 36,
-          "fwci": 7.65,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.94,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Recent Trends and Insights in Semantic Web and Ontology-Driven Knowledge Representation Across Disciplines Using Topic Modeling",
-          "authors": "Stănescu, G. C., & Oprea, S.",
-          "year": 2025,
-          "venue": "Electronics",
-          "url": "https://doi.org/10.3390/electronics14071313",
-          "cites": 18,
-          "fwci": 16.22,
-          "pct": 1,
-          "q": "Q2",
-          "sjr": 0.62,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
-          "authors": "Gribova, V. V., Шалфеева, Е. А., Okun, D. B., & Shevchenko, O. N.",
-          "year": 2025,
-          "venue": "Ontology of Designing",
-          "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
-          "cites": 1,
-          "fwci": 0.95,
-          "nr": "na"
-        },
-        {
-          "title": "The Human Phenotype Ontology in 2024: phenotypes around the world",
-          "authors": "Gargano, M. A., Matentzoglu, N., Coleman, B. D., Addo-Lartey, E. B., Anagnostopoulos, A. V., Anderton, J., et al.",
-          "year": 2023,
-          "venue": "Nucleic Acids Research",
-          "url": "https://doi.org/10.1093/nar/gkad1005",
-          "cites": 417,
-          "fwci": 82.07,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 8.11,
-          "qcat": "Genetics"
-        }
-      ],
-      "count": 24998
+      "papers": []
     },
     {
       "topic": "AI governance",
@@ -513,7 +462,7 @@
           "qcat": "E-learning"
         }
       ],
-      "count": 106370
+      "count": 106372
     },
     {
       "topic": "NeurIPS",
@@ -1183,8 +1132,8 @@
           "year": 2024,
           "venue": "Journal of Artificial Intelligence Research",
           "url": "https://doi.org/10.1613/jair.1.14888",
-          "cites": 68,
-          "fwci": 15.02,
+          "cites": 69,
+          "fwci": 15.12,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.11,
@@ -1617,7 +1566,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 178
+      "count": 176
     },
     {
       "topic": "FFS",
@@ -1775,14 +1724,14 @@
           "venue": "Technology Analysis and Strategic Management",
           "url": "https://doi.org/10.1080/09537325.2024.2405145",
           "cites": 39,
-          "fwci": 30.18,
+          "fwci": 30.09,
           "pct": 1,
           "q": "Q2",
           "sjr": 0.82,
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 694
+      "count": 693
     },
     {
       "topic": "SMJ",
@@ -1952,7 +1901,7 @@
           "venue": "Academy of Management Journal",
           "url": "https://doi.org/10.5465/amj.2025.4002",
           "cites": 44,
-          "fwci": 39.38,
+          "fwci": 38.91,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.78,
@@ -2174,8 +2123,8 @@
           "year": 2023,
           "venue": "Journal of Management",
           "url": "https://doi.org/10.1177/01492063231215032",
-          "cites": 130,
-          "fwci": 33.74,
+          "cites": 131,
+          "fwci": 33.9,
           "pct": 1,
           "q": "Q1",
           "sjr": 8.25,
@@ -2208,7 +2157,7 @@
           "venue": "Organization Science",
           "url": "https://doi.org/10.1287/orsc.2023.18430",
           "cites": 289,
-          "fwci": 76.69,
+          "fwci": 76.42,
           "pct": 1,
           "q": "Q1",
           "sjr": 7.93,
@@ -2234,7 +2183,7 @@
           "venue": "Organization Science",
           "url": "https://doi.org/10.1287/orsc.2025.21838",
           "cites": 153,
-          "fwci": 1602.09,
+          "fwci": 1594.0,
           "pct": 1,
           "q": "Q1",
           "sjr": 7.93,
@@ -2247,7 +2196,7 @@
           "venue": "Organization Science",
           "url": "https://doi.org/10.1287/orsc.2022.17160",
           "cites": 43,
-          "fwci": 26.99,
+          "fwci": 26.78,
           "pct": 1,
           "q": "Q1",
           "sjr": 7.93,
@@ -2601,7 +2550,7 @@
           "venue": "Journal of International Business Studies",
           "url": "https://doi.org/10.1057/s41267-024-00758-8",
           "cites": 85,
-          "fwci": 33.14,
+          "fwci": 33.02,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.45,

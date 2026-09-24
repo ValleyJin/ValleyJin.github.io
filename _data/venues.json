@@ -17,6 +17,9 @@
         "Reinforcement Learning in Robotics",
         "Advanced Image and Video Retrieval Techniques"
       ],
+      "founded": 1987,
+      "about": "The Conference on Neural Information Processing Systems is a machine learning and computational neuroscience conference held annually in December. Along with ICLR and ICML, it is one of the three primary conferences of h",
+      "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/500px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "crank": "A*",
       "group": "AI"
     },
@@ -36,6 +39,9 @@
         "Advanced Bandit Algorithms Research",
         "Climate variability and models"
       ],
+      "founded": 1980,
+      "about": "The International Conference on Machine Learning (ICML) is an international academic conference in machine learning held annually since 1980. It is the oldest and, along with NeurIPS and ICLR, one of the three primary co",
+      "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8e/ICML_logo_2026.svg/330px-ICML_logo_2026.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "crank": "A*",
       "group": "AI"
     },
@@ -55,6 +61,9 @@
         "Explainable Artificial Intelligence (XAI)",
         "Human Motion and Animation"
       ],
+      "founded": 2013,
+      "about": "The International Conference on Learning Representations (ICLR) is a machine learning conference typically held in late April or early May each year. Along with NeurIPS and ICML, it is one of the three primary conference",
+      "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5a/International_Conference_on_Learning_Representations.svg/960px-International_Conference_on_Learning_Representations.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "crank": "A*",
       "group": "AI"
     },
@@ -106,6 +115,8 @@
         "Reinforcement Learning in Robotics",
         "Robot Manipulation and Learning"
       ],
+      "founded": 1969,
+      "about": "The International Joint Conference on Artificial Intelligence (IJCAI) is a conference in the field of artificial intelligence. The conference series has been organized by the nonprofit IJCAI Organization since 1969. It w",
       "crank": "A*",
       "group": "AI"
     },
@@ -158,6 +169,7 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Computer Vision and Pattern Recognition",
+      "about": "The European Conference on Computer Vision (ECCV) is a biennial research conference with the proceedings published by Springer Science+Business Media. Similar to ICCV in scope and quality, it is held those years which IC",
       "crank": "A*",
       "group": "AI"
     },
@@ -206,11 +218,12 @@
         ]
       ],
       "topics3y": [
-        "Global trade and economics",
         "Text and Document Classification Technologies",
         "Spam and Phishing Detection",
         "Machine Learning in Bioinformatics"
       ],
+      "founded": 2000,
+      "about": "The Journal of Machine Learning Research is a peer-reviewed open access scientific journal covering machine learning. It was established in 2000 and the first editor-in-chief was Leslie Kaelbling. The current editors-in-",
       "group": "AI"
     },
     "TPAMI": {
@@ -254,6 +267,8 @@
         "Advanced Neural Network Applications",
         "Advanced Vision and Imaging"
       ],
+      "founded": 1979,
+      "about": "IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society.",
       "group": "AI"
     },
     "AIJ": {
@@ -285,6 +300,7 @@
         "Diverse Scientific and Economic Studies",
         "Human auditory perception and evaluation"
       ],
+      "about": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is ",
       "group": "AI"
     },
     "JAIR": {
@@ -312,6 +328,9 @@
         "Topic Modeling",
         "Constraint Satisfaction and Optimization"
       ],
+      "founded": 1993,
+      "about": "The Journal of Artificial Intelligence Research (JAIR) is an open access peer-reviewed scientific journal covering research in all areas of artificial intelligence.",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/6/64/JAIRcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "AI"
     },
     "Futures": {
@@ -382,6 +401,8 @@
         "Innovation Diffusion and Forecasting",
         "Technology Adoption and User Behaviour"
       ],
+      "founded": 1969,
+      "about": "Technological Forecasting and Social Change is a peer-reviewed academic journal published by Elsevier covering futures studies, technology assessment, and technology forecasting. Articles focus on methodology and actual ",
       "group": "Futures Studies"
     },
     "TAR": {
@@ -417,6 +438,9 @@
         "Financial Markets and Investment Strategies",
         "Accounting Education and Careers"
       ],
+      "founded": 1926,
+      "about": "The Accounting Review is a bimonthly peer-reviewed academic journal published by the American Accounting Association (AAA) that covers accounting with a scope encompassing any accounting-related subject and any research ",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/10/The_Accounting_Review_%28academic_journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Accounting"
     },
     "JAE": {
@@ -452,6 +476,9 @@
         "Financial Markets and Investment Strategies",
         "Corporate Taxation and Avoidance"
       ],
+      "founded": 1979,
+      "about": "The Journal of Accounting and Economics is a peer-reviewed academic journal focusing on the fields of accounting and economics. The editors-in-chief are J. Core, E. deHaan, and W. R. Guay.",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f3/Journal_of_Accounting_and_Economics_%28cover%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Accounting"
     },
     "JAR": {
@@ -487,6 +514,8 @@
         "Diverse Scientific and Economic Studies",
         "Human auditory perception and evaluation"
       ],
+      "founded": 1963,
+      "about": "The Journal of Accounting Research (JAR) is a leading peer-reviewed academic journal associated with the University of Chicago. It was established in 1963 and is published by Wiley-Blackwell on behalf of the Chookaszian ",
       "group": "Accounting"
     },
     "CAR": {
@@ -522,6 +551,8 @@
         "Financial Markets and Investment Strategies",
         "Financial Reporting and Valuation Research"
       ],
+      "founded": 1984,
+      "about": "Contemporary Accounting Research is a peer-reviewed academic journal covering research on all aspects of accounting's role within organizations, markets, or society. The journal publishes articles in all areas of account",
       "group": "Accounting"
     },
     "RAST": {
@@ -553,6 +584,9 @@
         "Financial Markets and Investment Strategies",
         "Financial Reporting and Valuation Research"
       ],
+      "founded": 1996,
+      "about": "The Review of Accounting Studies (RAST) is a quarterly peer-reviewed academic journal covering topics in the field of accounting that includes theoretical, empirical, and experimental research. RAST prioritizes processin",
+      "wimg": "https://upload.wikimedia.org/wikipedia/commons/e/e0/RASTJournalCover.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Accounting"
     },
     "FFS": {
@@ -588,6 +622,7 @@
         "Diverse Scientific and Economic Studies",
         "Human auditory perception and evaluation"
       ],
+      "about": "Futures & Foresight Science is a quarterly peer-reviewed academic journal published by Wiley. It covers research on advancing methods that aid anticipating the future. The journal was established in 2019 by founding edit",
       "group": "Futures Studies"
     },
     "JFS": {
@@ -685,6 +720,7 @@
         "Entrepreneurship Studies and Influences",
         "Private Equity and Venture Capital"
       ],
+      "about": "The Strategic Management Society (SMS) is a professional organization for the advancement of strategic management. The society consists of more than 3,000 members representing various backgrounds and perspectives from mo",
       "group": "Strategy"
     },
     "LRP": {
@@ -760,6 +796,9 @@
         "Corporate Finance and Governance"
       ],
       "ogimg": "https://www.aom.org/wp-content/uploads/2025/09/amj_featured_image.png",
+      "founded": 1958,
+      "about": "The Academy of Management Journal is a bimonthly peer-reviewed academic journal covering all aspects of management. It is published by the Academy of Management and was established in 1958 as the Journal of the Academy o",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/9/98/Logo_Academy_of_Management_Journal.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Strategy"
     },
     "SO": {
@@ -838,6 +877,9 @@
         "Gender Diversity and Inequality",
         "Employment and Welfare Studies"
       ],
+      "founded": 1947,
+      "about": "Human Relations is a monthly peer-reviewed academic journal covering research on social relationships in work-related settings. The journal is published by SAGE Publications on behalf of the Tavistock Institute of Human ",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/12/Human_Relations_front_cover_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Strategy"
     },
     "AMR": {
@@ -873,6 +915,8 @@
         "Job Satisfaction and Organizational Behavior",
         "Ethics in Business and Education"
       ],
+      "founded": 1976,
+      "about": "The Academy of Management Review (AMR) is a peer-reviewed academic journal on management. According to the Journal Citation Reports, the journal's 2022 impact factor is 16.400, ranking it 3rd out of 227 journals in the c",
       "group": "Strategy"
     },
     "JoM": {
@@ -904,6 +948,8 @@
         "Entrepreneurship Studies and Influences",
         "Management and Organizational Studies"
       ],
+      "founded": 1975,
+      "about": "The Journal of Management is a peer-reviewed academic journal published by SAGE Publications for the Southern Management Association and covering research on all aspects of management as well as the related field of indu",
       "group": "Strategy"
     },
     "OrgSci": {
@@ -970,6 +1016,7 @@
         "Corporate Finance and Governance",
         "Auditing, Earnings Management, Governance"
       ],
+      "about": "Management science is an interdisciplinary study of solving complex problems and making strategic decisions as it pertains to institutions, corporations, governments and other types of organizational entities. It is clos",
       "group": "Strategy"
     },
     "JMS": {
@@ -1005,6 +1052,9 @@
         "Human auditory perception and evaluation",
         "Corporate Finance and Governance"
       ],
+      "founded": 1963,
+      "about": "The Journal of Management Studies is a peer-reviewed academic journal that was established in 1963 and is published by Wiley-Blackwell on behalf of the Society for the Advancement of Management Studies. The journal publi",
+      "wimg": "https://upload.wikimedia.org/wikipedia/commons/4/47/JMS_Full_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Strategy"
     },
     "OrgStud": {
@@ -1040,6 +1090,7 @@
         "Gender Diversity and Inequality",
         "Cultural Industries and Urban Development"
       ],
+      "about": "Organizational behavior or organisational behaviour is the \"study of human behavior in organizational settings, the interface between human behavior and the organization, and the organization itself\". Organizational beha",
       "group": "Strategy"
     },
     "HRM": {
@@ -1079,6 +1130,7 @@
         "Gender Diversity and Inequality",
         "Employer Branding and e-HRM"
       ],
+      "about": "Human resource management (HRM) is the strategic and coherent approach to the effective and efficient management of people in a company or organization. Human resource management is primarily concerned with the managemen",
       "group": "Strategy"
     },
     "ResPol": {
@@ -1118,6 +1170,8 @@
         "Entrepreneurship Studies and Influences",
         "Intellectual Property and Patents"
       ],
+      "about": "Science policy is concerned with the allocation of resources for the conduct of science towards the goal of best serving the public interest. Topics include the funding of science, the careers of scientists, and the tran",
+      "wimg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/283.002-Erkennen-en-Waarderen-Position-Paper_EN_web.pdf/page1-960px-283.002-Erkennen-en-Waarderen-Position-Paper_EN_web.pdf.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "group": "Strategy"
     },
     "JIBS": {
@@ -1161,6 +1215,9 @@
         "Innovation and Knowledge Management",
         "International Student and Expatriate Challenges"
       ],
+      "founded": 1970,
+      "about": "The Journal of International Business Studies is a double blind peer-reviewed academic journal published by Palgrave Macmillan on behalf of the Academy of International Business covering research on international busines",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/1e/Jibs.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Strategy"
     },
     "AOS": {
@@ -1302,6 +1359,8 @@
         "Financial Markets and Investment Strategies",
         "Financial Reporting and Valuation Research"
       ],
+      "founded": 1992,
+      "about": "The European Accounting Review is the peer-refereed journal of the European Accounting Association, published by Taylor & Francis.",
       "group": "Accounting"
     },
     "CPA": {
@@ -1341,6 +1400,9 @@
         "Auditing, Earnings Management, Governance",
         "Accounting Education and Careers"
       ],
+      "founded": 1990,
+      "about": "Critical Perspectives on Accounting is a peer-reviewed academic journal published by Elsevier. The aim of the journal is to study how accounting works within society and to promote forms of accounting that are in the pub",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/15/Cover_of_Critical_Perspectives_on_Accounting_%28academic_journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Accounting"
     },
     "AiE": {
@@ -1477,6 +1539,8 @@
         "Corporate Social Responsibility Reporting",
         "Financial Markets and Investment Strategies"
       ],
+      "founded": 1969,
+      "about": "The British Accounting Review is an academic journal of the British Accounting and Finance Association that was established in 1969. Serving its purpose to educate and connect users, the British Accounting Review helps u",
       "group": "Accounting"
     },
     "MAR": {
