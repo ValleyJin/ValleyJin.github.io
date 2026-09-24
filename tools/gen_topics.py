@@ -520,26 +520,26 @@ def _field_of(src):
 # 내 토픽 venue의 큐레이션 분야(칩 그루핑용). OpenAlex 자동분류는 의도와 어긋남
 # (예: TFSC는 자동으로 'Strategy'지만 실제론 미래학 대표지).
 _VENUE_GROUP = {
-    "NeurIPS": "인공지능", "ICML": "인공지능", "ICLR": "인공지능", "CVPR": "인공지능",
-    "Futures": "미래학", "TFSC": "미래학", "FFS": "미래학", "JFS": "미래학", "EJFR": "미래학",
-    "TASM": "경영전략", "SMJ": "경영전략", "LRP": "경영전략", "AMJ": "경영전략", "SO": "경영전략",
-    "TAR": "회계학", "JAE": "회계학", "JAR": "회계학", "CAR": "회계학", "RAST": "회계학",
+    "NeurIPS": "AI", "ICML": "AI", "ICLR": "AI", "CVPR": "AI",
+    "Futures": "Futures Studies", "TFSC": "Futures Studies", "FFS": "Futures Studies", "JFS": "Futures Studies", "EJFR": "Futures Studies",
+    "TASM": "Strategy", "SMJ": "Strategy", "LRP": "Strategy", "AMJ": "Strategy", "SO": "Strategy",
+    "TAR": "Accounting", "JAE": "Accounting", "JAR": "Accounting", "CAR": "Accounting", "RAST": "Accounting",
 }
 
 
 def _venue_group(label, v):
-    """칩 그루핑 분야. 큐레이션 우선, 없으면 OpenAlex field로 추정."""
+    """칩 그루핑 분야(영문 라벨). 큐레이션 우선, 없으면 OpenAlex field로 추정."""
     if label in _VENUE_GROUP:
         return _VENUE_GROUP[label]
     if v.get("type") == "conference" or v.get("field") == "Computer Science":
-        return "인공지능"
+        return "AI"
     if v.get("sub") == "Accounting":
-        return "회계학"
+        return "Accounting"
     if v.get("field") == "Decision Sciences":
-        return "미래학"
+        return "Futures Studies"
     if v.get("field") == "Business, Management and Accounting":
-        return "경영전략"
-    return v.get("field") or "기타"
+        return "Strategy"
+    return v.get("field") or "Other"
 
 
 def build_venues(topics, sci, core=None):

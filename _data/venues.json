@@ -12,7 +12,7 @@
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
       "crank": "A*",
-      "group": "인공지능"
+      "group": "AI"
     },
     "ICML": {
       "name": "International Conference on Machine Learning",
@@ -25,7 +25,7 @@
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
       "crank": "A*",
-      "group": "인공지능"
+      "group": "AI"
     },
     "ICLR": {
       "name": "International Conference on Learning Representations",
@@ -38,7 +38,7 @@
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
       "crank": "A*",
-      "group": "인공지능"
+      "group": "AI"
     },
     "CVPR": {
       "name": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
@@ -51,7 +51,7 @@
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
       "crank": "A*",
-      "group": "인공지능"
+      "group": "AI"
     },
     "Futures": {
       "name": "Futures",
@@ -80,7 +80,7 @@
           "Q1"
         ]
       ],
-      "group": "미래학"
+      "group": "Futures Studies"
     },
     "TFSC": {
       "name": "Technological Forecasting and Social Change",
@@ -109,7 +109,7 @@
           "Q1"
         ]
       ],
-      "group": "미래학"
+      "group": "Futures Studies"
     },
     "TAR": {
       "name": "The Accounting Review",
@@ -138,7 +138,7 @@
           "Q1"
         ]
       ],
-      "group": "회계학"
+      "group": "Accounting"
     },
     "JAE": {
       "name": "Journal of Accounting and Economics",
@@ -167,7 +167,7 @@
           "Q1"
         ]
       ],
-      "group": "회계학"
+      "group": "Accounting"
     },
     "JAR": {
       "name": "Journal of Accounting Research",
@@ -196,7 +196,7 @@
           "Q1"
         ]
       ],
-      "group": "회계학"
+      "group": "Accounting"
     },
     "CAR": {
       "name": "Contemporary Accounting Research",
@@ -225,7 +225,7 @@
           "Q1"
         ]
       ],
-      "group": "회계학"
+      "group": "Accounting"
     },
     "RAST": {
       "name": "Review of Accounting Studies",
@@ -250,7 +250,7 @@
           "Q1"
         ]
       ],
-      "group": "회계학"
+      "group": "Accounting"
     },
     "FFS": {
       "name": "Futures & Foresight Science",
@@ -279,7 +279,7 @@
           "Q2"
         ]
       ],
-      "group": "미래학"
+      "group": "Futures Studies"
     },
     "JFS": {
       "name": "Journal of futures studies",
@@ -308,7 +308,7 @@
           "Q2"
         ]
       ],
-      "group": "미래학"
+      "group": "Futures Studies"
     },
     "TASM": {
       "name": "Technology Analysis and Strategic Management",
@@ -333,7 +333,7 @@
           "Q2"
         ]
       ],
-      "group": "경영전략"
+      "group": "Strategy"
     },
     "SMJ": {
       "name": "Strategic Management Journal",
@@ -358,7 +358,7 @@
           "Q1"
         ]
       ],
-      "group": "경영전략"
+      "group": "Strategy"
     },
     "LRP": {
       "name": "Long Range Planning",
@@ -387,7 +387,7 @@
           "Q1"
         ]
       ],
-      "group": "경영전략"
+      "group": "Strategy"
     },
     "AMJ": {
       "name": "Academy of Management Journal",
@@ -420,7 +420,7 @@
           "Q1"
         ]
       ],
-      "group": "경영전략"
+      "group": "Strategy"
     },
     "SO": {
       "name": "Strategic Organization",
@@ -453,7 +453,7 @@
           "Q1"
         ]
       ],
-      "group": "경영전략"
+      "group": "Strategy"
     }
   }
 }

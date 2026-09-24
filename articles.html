@@ -356,7 +356,7 @@ permalink: /articles/
 
       /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외). '경영전략만' 토글로 미래학+경영전략만 필터 ── */
       function buildJ(stratOnly){
-        var jr=journals.filter(function(v){return v.sjr!=null && (!stratOnly || v.group==='미래학' || v.group==='경영전략');});
+        var jr=journals.filter(function(v){return v.sjr!=null && (!stratOnly || v.group==='Futures Studies' || v.group==='Strategy');});
         var sMax=Math.max.apply(null,jr.map(function(v){return v.sjr;}).concat([0.1]));
         var jMax=Math.max.apply(null,jr.map(function(v){return v.if2!=null?v.if2:0;}).concat([0.1]));
         var rp=jr.filter(function(v){return v.if2!=null;}), reg=null, excl=[];
@@ -371,7 +371,7 @@ permalink: /articles/
           } else { reg=f0; }
         }
         var jwMax=Math.max.apply(null,jr.map(function(v){return v.works||0;}).concat([1]));
-        var h='<div class="qjbar"><button type="button" class="qtgl'+(stratOnly?' is-on':'')+'" id="qstrat" aria-pressed="'+(stratOnly?'true':'false')+'">경영전략만</button></div>';
+        var h='<div class="qjbar"><button type="button" class="qtgl'+(stratOnly?' is-on':'')+'" id="qstrat" aria-pressed="'+(stratOnly?'true':'false')+'">Strategy only</button></div>';
         h+=legend([['q1','Q1'],['q2','Q2'],['q3','Q3'],['q4','Q4']],'점 크기 = 논문 수');
         var jpts=jr.map(function(v){ var yy=(v.if2!=null?v.if2:0); return {x:v.sjr,y:yy,label:v.label,link:v.link,
           cls:String(v.q||'q1').toLowerCase(), r:bub(v.works,jwMax), num:v.sjr+'/'+(v.if2!=null?v.if2:'–'), out:excl.indexOf(v.label)>=0,
@@ -399,14 +399,14 @@ permalink: /articles/
       }
 
       /* ── 서브탭 조립 ── */
-      var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">학회</button><span class="qtab-note mono" id="qcnote" hidden>인공지능 학회</span>':'')+'</div>';
+      var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">학회</button><span class="qtab-note mono" id="qcnote" hidden>AI conferences</span>':'')+'</div>';
       el.innerHTML=tabs+'<div class="qview" data-v="j">'+jHtml+'</div>'+(confs.length?'<div class="qview" data-v="c" hidden>'+cHtml+'</div>':'');
       el.hidden=false;
       var btns=[].slice.call(el.querySelectorAll('.qtab')), views=[].slice.call(el.querySelectorAll('.qview')), cnote=el.querySelector('#qcnote');
       btns.forEach(function(b){ b.addEventListener('click',function(){ var v=b.getAttribute('data-v');
         btns.forEach(function(x){x.classList.toggle('is-on',x===b);});
         views.forEach(function(x){x.hidden=x.getAttribute('data-v')!==v;});
-        if(cnote) cnote.hidden=(v!=='c'); }); });   // 학회 탭 옆 '인공지능 학회' 라벨
+        if(cnote) cnote.hidden=(v!=='c'); }); });   // 학회 탭 옆 'AI conferences' 라벨
       // '경영전략만' 토글: 저널 뷰를 필터해서 재렌더(이벤트 위임 — 재렌더돼도 유지)
       var jview=el.querySelector('.qview[data-v="j"]');
       if(jview){ jview.addEventListener('click',function(e){
@@ -516,10 +516,11 @@ permalink: /articles/
         function _vtab(tp){ return '<button type="button" class="ntab ntab-v'+(tp===st.topic?' is-active':'')+'" data-topic="'+esc(tp)+'">'+esc(tp)+'</button>'; }   // 학회/저널=텍스트만
         var _html=['All'].concat(_norm).map(_tab).join('');
         if(_ven.length){   // 학회/저널 칩을 분야(group)별로 묶어서 표시
-          var ORDER=['미래학','경영전략','회계학','인공지능'];
+          var ORDER=['Futures Studies','Strategy','Accounting','AI'];
           var groups={}; _ven.forEach(function(t){ var g=(VMETA[t]&&VMETA[t].group)||'기타'; (groups[g]=groups[g]||[]).push(t); });
           var gnames=Object.keys(groups).sort(function(a,b){ var ia=ORDER.indexOf(a), ib=ORDER.indexOf(b); return (ia<0?99:ia)-(ib<0?99:ib); });
           _html+='<span class="ntab-sep" aria-hidden="true"></span>';   // 일반 토픽 / 학회·저널 구분 수평바
+          _html+='<span class="ntab-head mono">Following · Journal List</span>';   // 상위 제목
           gnames.forEach(function(g,i){ if(i>0) _html+='<span class="ntab-break" aria-hidden="true"></span>';   // 분야 그룹마다 줄바꿈 → 행 통일
             _html+='<span class="ntab-grp mono">'+esc(g)+'</span>'+groups[g].map(_vtab).join(''); });
         }

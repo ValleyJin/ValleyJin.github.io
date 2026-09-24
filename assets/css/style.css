@@ -693,3 +693,6 @@ img{max-width:100%;display:block}
 .ntab.ntab-v{border:0;background:none;border-radius:0;padding:4px 3px;color:var(--muted);border-bottom:1.5px solid transparent}
 .ntab.ntab-v:hover{color:var(--ink)}
 .ntab.ntab-v.is-active{color:var(--accent);border-bottom-color:var(--accent)}
+
+/* venue 그룹 상위 제목 (Following · Journal List) */
+.ntab-head{flex-basis:100%;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:2px 2px 4px}
