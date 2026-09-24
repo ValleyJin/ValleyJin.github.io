@@ -606,7 +606,7 @@ img{max-width:100%;display:block}
 .qb.q3{background:color-mix(in srgb,#5eb3e4 12%,transparent)}
 .qb.q2{background:color-mix(in srgb,#f2891e 12%,transparent)}
 .qb.q1{background:color-mix(in srgb,#e23b3b 12%,transparent)}
-.qb-lab{position:absolute;top:7px;left:0;right:0;text-align:center;font-size:10px;color:var(--muted);opacity:.75}
+.qb-lab{position:absolute;bottom:8px;left:0;right:0;text-align:center;font-size:15px;color:var(--muted);opacity:.75}
 .qax-y{position:absolute;left:6px;top:6px;font-size:10px;color:var(--muted)}
 .qax-x{position:absolute;right:8px;bottom:5px;font-size:10px;color:var(--muted)}
 .qdot{position:absolute;width:0;height:0}

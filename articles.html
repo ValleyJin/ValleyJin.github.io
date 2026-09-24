@@ -303,12 +303,9 @@ permalink: /articles/
           reg={a:a,b:b,r2:ssT>0?1-ssR/ssT:0};
         }
       }
-      var h='<div class="qmap-head mono">내 관심 저널 2D 지형도 <span class="qmap-sub">X=SJR(→) · Y=2yr IF(↑) · 점 색=SCImago 분위(분야 상대) · 회귀선</span></div>';
+      var h='<div class="qmap-head mono">내 관심 저널 2D 지형도 <span class="qmap-sub">X=SJR(→) · Y=2yr IF(↑) · 점 색=실제 SCImago 분위 · 밴드=SJR 참고구획</span></div>';
       h+='<div class="qplot">';
-      // X축 SJR 눈금 (분위는 색으로만 — 분위는 SJR 절댓값이 아니라 분야 상대라 밴드로 나눌 수 없음)
-      var gstep=sMax>8?2:(sMax>4?1:0.5), gt=[];
-      for(var tv=0; tv<=sMax+1e-9; tv+=gstep){ gt.push(Math.round(tv*100)/100); }
-      h+='<div class="qgrid">'+gt.map(function(t){return '<div class="qgline" style="left:'+px(t).toFixed(2)+'%"><span class="qgt mono">'+t+'</span></div>';}).join('')+'</div>';
+      h+='<div class="qbands">'+['q4','q3','q2','q1'].map(function(z){return '<div class="qb '+z+'"><span class="qb-lab mono">'+z.toUpperCase()+'</span></div>';}).join('')+'</div>';
       if(reg){
         // SVG는 좌상단 원점 → py(bottom%) 를 100-py 로 뒤집는다. viewBox 0..100, 박스가 clip.
         function sy1(j){ return (100-py(j)).toFixed(2); }
