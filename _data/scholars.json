@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -172,7 +172,8 @@
           "year": "2026",
           "venue": "Available at SSRN 6117261, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:cww_0JKUTDwC",
-          "cites": 0
+          "cites": 0,
+          "nr": "na"
         },
         {
           "title": "The portfolio eﬀect in the power sector of economies prioritizing renewable energy",
@@ -315,7 +316,8 @@
           "year": "2026",
           "venue": "arXiv preprint arXiv:2608.09260, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:TGkaJS32XoUC",
-          "cites": 0
+          "cites": 0,
+          "nr": "na"
         },
         {
           "title": "AFLiP: An Access-Recomputation Decoupling Framework for Efficient and Structure-Preserving GNN-based Link Prediction",
@@ -351,7 +353,8 @@
           "year": "2026",
           "venue": "arXiv preprint arXiv:2607.19362, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:YPNY0knpFBYC",
-          "cites": 0
+          "cites": 0,
+          "nr": "na"
         },
         {
           "title": "AkasicDB: Demonstrating Omni RAG with a Unified Vector-Graph-Relational DBMS",
@@ -410,7 +413,8 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13180
+          "cites": 13180,
+          "nr": "na"
         },
         {
           "title": "Generative Agents: Interactive Simulacra of Human Behavior",
@@ -427,7 +431,8 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 752
+          "cites": 752,
+          "nr": "na"
         },
         {
           "title": "Social Simulacra: Creating Populated Prototypes for Social Computing Systems",
@@ -522,7 +527,8 @@
           "year": "2025",
           "venue": "Stanford Institute for Human-Centered Artificial Intelligence (HAI), 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:uWQEDVKXjbEC",
-          "cites": 14
+          "cites": 14,
+          "nr": "na"
         },
         {
           "title": "Human Subjects Research in the Age of Generative AI: Opportunities and Challenges of Applying LLM-Simulated Data to HCI Studies",
@@ -530,7 +536,8 @@
           "year": "2025",
           "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:M05iB0D1s5AC",
-          "cites": 28
+          "cites": 28,
+          "nr": "na"
         },
         {
           "title": "Generative Agent Simulations of Human Behavior",
@@ -538,7 +545,8 @@
           "year": "2025",
           "venue": "Stanford University, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:a0OBvERweLwC",
-          "cites": 3
+          "cites": 3,
+          "nr": "na"
         },
         {
           "title": "Generative Agent Simulations of 1,000 People",
@@ -546,7 +554,8 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 752
+          "cites": 752,
+          "nr": "na"
         },
         {
           "title": "Personalization of Generative AI Systems",
@@ -554,7 +563,8 @@
           "year": "2024",
           "venue": "Proceedings of the 1st Workshop on Personalization of Generative AI Systems …, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:maZDTaKrznsC",
-          "cites": 0
+          "cites": 0,
+          "nr": "na"
         },
         {
           "title": "Holistic Evaluation of Text-to-Image Models",
