@@ -575,9 +575,12 @@ permalink: /articles/
         if(v.if2==null){ pt='IF 값이 없어 인용량 비교는 생략. SCImago <b>'+esc(q)+'</b> · SJR 위상 <b>'+jTier(v.sjr)+'</b> 기준으로 읽으세요.'; }
         else if(below){ pt='회귀선 <b>아래</b> — 인용량(IF) 대비 <b>권위(SJR)가 낮은 편</b>. 인용은 받지만 <b>최상위 저널로부터의 인용 비중</b>을 높이면 위상이 오릅니다. 분위 <b>'+esc(q)+'</b>('+({q1:'상위 25%',q2:'상위 25~50%',q3:'상위 50~75%',q4:'하위 25%'}[qcl]||'')+').'; }
         else { pt='회귀선 <b>위</b> — 인용량 대비 <b>권위(SJR)가 높은 편</b>. 소수라도 <b>권위 저널의 인용</b>을 받는 정통 저널. 분위 <b>'+esc(q)+'</b>('+({q1:'상위 25%',q2:'상위 25~50%',q3:'상위 50~75%',q4:'하위 25%'}[qcl]||'')+').'; }
+        // 썸네일: 저널지 표지는 무료·핫링크 공개 출처가 없어, 홈페이지 출판사 로고(파비콘)를 얹고 실패 시 약칭 타일 폴백
+        var _host=''; try{ _host=new URL(v.link).hostname.replace(/^www\./,''); }catch(e){}
+        var _logo=(_host && _host.indexOf('scimagojr')<0)?('https://www.google.com/s2/favicons?sz=128&domain='+encodeURIComponent(_host)):'';
         jdet.className='qdetail qd-open';
         jdet.innerHTML='<button type="button" class="qd-x" aria-label="닫기">×</button>'
-          +'<div class="qd-cover '+qcl+'"><span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">'+esc(v.group||'')+'</span></div>'
+          +'<div class="qd-cover '+qcl+'">'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">'+esc(v.group||'')+'</span></div>'
           +'<div class="qd-body">'
             +'<div class="qd-h">'+(v.link?'<a href="'+esc(v.link)+'" target="_blank" rel="noopener">'+esc(v.name||v.label)+' ↗</a>':esc(v.name||v.label))+'</div>'
             +'<div class="qd-chips">'+chips+'</div>'
