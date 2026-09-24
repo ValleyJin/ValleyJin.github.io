@@ -569,14 +569,26 @@ permalink: /articles/
       var cHtml='';
       if(confs.length){
         var crc={'A*':'as','A':'a','B':'b','C':'c'};
-        var hMax=Math.max.apply(null,confs.map(function(v){return v.h||0;}).concat([1]));
-        var iMax=Math.max.apply(null,confs.map(function(v){return v.i10||0;}).concat([1]));
         var cwMax=Math.max.apply(null,confs.map(function(v){return v.works||0;}).concat([1]));
-        cHtml=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']],'점 크기 = 논문 수 · h·i10은 누적 지표라 채택량 많은 학회(예: AAAI)가 부풀려 보임 — 편당 선별성은 CORE·커뮤니티 평판과 함께 보세요');
-        var cpts=confs.map(function(v){ return {x:v.h||0,y:v.i10||0,label:v.label,link:v.link,
-          cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'h'+(v.h||'–')+' · i10 '+(v.i10||'–'),
-          title:(v.name||'')+' · CORE '+(v.crank||'')+' · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
-        cHtml+=plot({pts:cpts,xMax:hMax,yMax:iMax,axX:'h-index →',axY:'i10 ↑',aspect:1.7});
+        var _hasIf2=confs.some(function(v){return v.if2!=null && v.if2>0;});
+        var hMax=Math.max.apply(null,confs.map(function(v){return v.h||0;}).concat([1]));
+        var cpts, cxMax, cyMax, cAxX, cAxY, cNote;
+        if(_hasIf2){   // X=논문당 최근 피인용(부피 무관 품질), Y=h-index(누적 규모) → AAAI 같은 대량학회는 좌상단(규모 큼·편당 보통)
+          cxMax=Math.max.apply(null,confs.map(function(v){return v.if2||0;}).concat([1]));
+          cyMax=hMax; cAxX='논문당 피인용(2yr) →'; cAxY='h-index ↑';
+          cNote='점 크기 = 논문 수 · 가로 = 논문당 최근 피인용(부피 무관, 편당 영향력) · 세로 = 누적 h-index — 대량 채택 학회(AAAI)는 세로만 높고 가로는 보통';
+          cpts=confs.map(function(v){ return {x:v.if2||0,y:v.h||0,label:v.label,link:v.link,
+            cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'IF '+(v.if2!=null?v.if2:'–')+' · h'+(v.h||'–'),
+            title:(v.name||'')+' · CORE '+(v.crank||'')+' · 논문당 IF '+(v.if2!=null?v.if2:'–')+' · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
+        } else {       // if2 채워지기 전 폴백: 기존 h × i10
+          cxMax=hMax; cyMax=Math.max.apply(null,confs.map(function(v){return v.i10||0;}).concat([1])); cAxX='h-index →'; cAxY='i10 ↑';
+          cNote='점 크기 = 논문 수';
+          cpts=confs.map(function(v){ return {x:v.h||0,y:v.i10||0,label:v.label,link:v.link,
+            cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'h'+(v.h||'–')+' · i10 '+(v.i10||'–'),
+            title:(v.name||'')+' · CORE '+(v.crank||'')+' · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
+        }
+        cHtml=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']],cNote);
+        cHtml+=plot({pts:cpts,xMax:cxMax,yMax:cyMax,axX:cAxX,axY:cAxY,aspect:1.7});
       }
 
       /* ── 서브탭 조립 ── */
@@ -691,6 +703,7 @@ permalink: /articles/
         var crk=v.crank||'', crc={'A*':'as','A':'a','B':'b','C':'c'}[crk]||'a';
         var t3=(v.topics3y&&v.topics3y.length)?v.topics3y.slice(0,5):null;
         var chips='<span class="qd-chip qd-cr-'+crc+'">CORE '+esc(crk||'—')+'</span>'
+          +(v.if2!=null&&v.if2>0?'<span class="qd-chip">논문당 IF '+esc(v.if2)+'</span>':'')
           +(v.h!=null?'<span class="qd-chip">h '+esc(v.h)+'</span>':'')
           +(v.i10!=null?'<span class="qd-chip">i10 '+esc(v.i10)+'</span>':'')
           +(v.works?'<span class="qd-chip">논문 '+esc(v.works)+'</span>':'');
