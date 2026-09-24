@@ -1,0 +1,707 @@
+{
+  "generated": "2026-09-24",
+  "source": "arXiv + OpenAlex + Semantic Scholar",
+  "topics": {
+    "Deep persona": {
+      "key": [
+        {
+          "title": "Persona-Aware Alignment Framework for Personalized Dialogue Generation",
+          "authors": "G Li, X Liu, Z Wu, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2511.10215",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2511.10215",
+          "cites": 0,
+          "key": true
+        }
+      ],
+      "related": [
+        {
+          "title": "DPRF: A Generalizable Dynamic Persona Refinement Framework for Optimizing Behavior Alignment Between Personalized LLM Role-Playing Agents and Humans",
+          "authors": "B Yao, B Sun, Y Dong, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2510.14205",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2510.14205",
+          "cites": 0
+        },
+        {
+          "title": "From 1,000,000 Users to Every User: Scaling Up Personalized Preference for User-level Alignment",
+          "authors": "J Li, J Guan, S Wu, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2503.15463",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2503.15463",
+          "cites": 0
+        },
+        {
+          "title": "Living the Novel: A System for Generating Self-Training Timeline-Aware Conversational Agents from Novels",
+          "authors": "Y Huang, T Yan, S Gong, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2512.07474",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2512.07474",
+          "cites": 0
+        },
+        {
+          "title": "PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory",
+          "authors": "B Jiang, Y Yuan, M Shen, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2512.06688",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2512.06688",
+          "cites": 0
+        },
+        {
+          "title": "Persona Features Control Emergent Misalignment",
+          "authors": "M Wang, T Tour, O Watkins, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2506.19823",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2506.19823",
+          "cites": 2
+        },
+        {
+          "title": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "authors": "L Castricato, N Lile, R Rafailov, et al.",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2407.17387",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2407.17387",
+          "cites": 0
+        },
+        {
+          "title": "Population-Aligned Persona Generation for LLM-based Social Simulation",
+          "authors": "Z Hu, J Lian, Z Xiao, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2509.10127",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2509.10127",
+          "cites": 0
+        },
+        {
+          "title": "Exploring Persona-dependent LLM Alignment for the Moral Machine Experiment",
+          "authors": "J Kim, J Kwon, L Vecchietti, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2504.10886",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2504.10886",
+          "cites": 0
+        },
+        {
+          "title": "Enhancing Persona Consistency for LLMs' Role-Playing using Persona-Aware Contrastive Learning",
+          "authors": "K Ji, Y Lian, L Li, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2503.17662",
+          "venue": "arXiv",
+          "topic": "Deep persona",
+          "arxiv": "2503.17662",
+          "cites": 0
+        }
+      ],
+      "citing": [
+        {
+          "title": "Toward Privileged Foundation Models:LUPI for Accelerated and Improved Learning",
+          "authors": "X Ding, L Akoglu",
+          "year": 2026,
+          "venue": "arXiv.org",
+          "url": "https://arxiv.org/abs/2605.07799",
+          "cites": 0,
+          "pubdate": "2026-05-08",
+          "cited_key": "Persona-Aware Alignment Framework for Personalized Dialogue ",
+          "first_seen": "2026-09-24"
+        }
+      ],
+      "n_citing": 1
+    },
+    "gABM": {
+      "key": [
+        {
+          "title": "Scalable Population Synthesis with Deep Generative Modeling",
+          "authors": "S Borysov, J Rich, F Pereira",
+          "year": 2018,
+          "url": "https://arxiv.org/abs/1808.06910",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "1808.06910",
+          "cites": 1,
+          "key": true
+        }
+      ],
+      "related": [
+        {
+          "title": "Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia",
+          "authors": "A Vezhnevets, J Agapiou, A Aharon, et al.",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2312.03664",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2312.03664",
+          "cites": 13
+        },
+        {
+          "title": "Generative Agent-Based Modeling: Unveiling Social System Dynamics through Coupling Mechanistic Models with Generative Artificial Intelligence",
+          "authors": "N Ghaffarzadegan, A Majumdar, R Williams, et al.",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2309.11456",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2309.11456",
+          "cites": 5
+        },
+        {
+          "title": "Simulating Public Administration Crisis: A Novel Generative Agent-Based Simulation System to Lower Technology Barriers in Social Science Research",
+          "authors": "B Xiao, Z Yin, Z Shan",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2311.06957",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2311.06957",
+          "cites": 4
+        },
+        {
+          "title": "Empowering Economic Simulation for Massively Multiplayer Online Games through Generative Agent-Based Modeling",
+          "authors": "B Xu, S Zhao, R Wu, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2506.04699",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2506.04699",
+          "cites": 0
+        },
+        {
+          "title": "Agent-Based Modelling Meets Generative AI in Social Network Simulations",
+          "authors": "A Ferraro, A Galli, V Gatta, et al.",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2411.16031",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2411.16031",
+          "cites": 1
+        },
+        {
+          "title": "Epidemic Modeling with Generative Agents",
+          "authors": "R Williams, N Hosseinichimeh, A Majumdar, et al.",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2307.04986",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2307.04986",
+          "cites": 16
+        },
+        {
+          "title": "Infected Smallville: How Disease Threat Shapes Sociality in LLM Agents",
+          "authors": "S Choi, K Lee, O Sng, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2506.13783",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2506.13783",
+          "cites": 0
+        },
+        {
+          "title": "Can Generative Agent-Based Modeling Replicate the Friendship Paradox in Social Media Simulations?",
+          "authors": "G Orlando, V Gatta, D Russo, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2502.05919",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2502.05919",
+          "cites": 0
+        },
+        {
+          "title": "Incentives to Build Houses, Trade Houses, or Trade House Building Skills in Simulated Worlds under Various Governing Systems or Institutions: Comparing Multi-agent Reinforcement Learning to Generative Agent-based Model",
+          "authors": "A Dizaji",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2411.17724",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2411.17724",
+          "cites": 0
+        },
+        {
+          "title": "Design and Evaluation of Generative Agent-based Platform for Human-Assistant Interaction Research: A Tale of 10 User Studies",
+          "authors": "Z Xuan, Y Wu, X Xu, et al.",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2505.09938",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2505.09938",
+          "cites": 0
+        },
+        {
+          "title": "Do Large Language Models Solve the Problems of Agent-Based Modeling? A Critical Review of Generative Social Simulations",
+          "authors": "M Larooij, P Törnberg",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2504.03274",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2504.03274",
+          "cites": 5
+        },
+        {
+          "title": "Designing Reliable Experiments with Generative Agent-Based Modeling: A Comprehensive Guide Using Concordia by Google DeepMind",
+          "authors": "A Navarro, N Koneva, A Sánchez-Macián, et al.",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2411.07038",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2411.07038",
+          "cites": 0
+        }
+      ],
+      "citing": [
+        {
+          "title": "A large language model framework for sample-free population synthesis",
+          "authors": "M Jones, R Dawson, J Mills",
+          "year": 2026,
+          "venue": "PLoS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0341704",
+          "cites": 1,
+          "pubdate": "2026-06-02",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Mobility Behavior Segmentation for Personalized AMoD Service Design: Evidence from Israel",
+          "authors": "G Dadashev, A Zukin, F Pereira, et al.",
+          "year": 2026,
+          "venue": "Urban Science",
+          "url": "https://doi.org/10.3390/urbansci10060306",
+          "cites": 1,
+          "pubdate": "2026-06-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Spatio-temporal graph neural networks for dairy farm sustainability forecasting and strategic scenario analysis",
+          "authors": "S Jayakumar, K Sullivan, J McLaughlin, et al.",
+          "year": 2026,
+          "venue": "Discover Artificial Intelligence",
+          "url": "https://doi.org/10.1007/s44163-026-01489-5",
+          "cites": 0,
+          "pubdate": "2026-05-31",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A Joint Synthetic Housing-Household Inventory",
+          "authors": "X Qian, S Dong, R Davidson",
+          "year": 2026,
+          "venue": "Cities",
+          "url": "https://arxiv.org/abs/2605.17031",
+          "cites": 0,
+          "pubdate": "2026-05-16",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Robust and reproducible evaluation framework for population synthesis models—Application to probabilistic and deep generative models",
+          "authors": "V Darsel, É Côme, L Oukhellou",
+          "year": 2026,
+          "venue": "Transportation Research Part C: Emerging Technologies",
+          "url": "https://doi.org/10.1016/j.trc.2026.105627",
+          "cites": 0,
+          "pubdate": "2026-05-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A large language model for feasible and diverse population synthesis",
+          "authors": "S Lim, H Yun, P Bansal, et al.",
+          "year": 2026,
+          "venue": "Transportation Research Part C: Emerging Technologies",
+          "url": "https://doi.org/10.1016/j.trc.2026.105581",
+          "cites": 3,
+          "pubdate": "2026-04-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Generate individual spatiotemporal activity sequences from population synthesis via deep learning approaches",
+          "authors": "Y Lu, G Liu, X Li, et al.",
+          "year": 2026,
+          "venue": "Engineering applications of artificial intelligence",
+          "url": "https://doi.org/10.1016/j.engappai.2026.113759",
+          "cites": 1,
+          "pubdate": "2026-03-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A Study on Demand-Responsive Transport for the Elderly Using Deep Generative and Activity-Based Models",
+          "authors": "J Jung, C Kim, J Lee, et al.",
+          "year": 2025,
+          "venue": "The Journal of The Korea Institute of Intelligent Transport Systems",
+          "url": "https://doi.org/10.12815/kits.2025.24.6.17",
+          "cites": 0,
+          "pubdate": "2025-12-31",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "On the Use of Generative AI in Simulation Studies: A Review of Techniques, Applications and Opportunities",
+          "authors": "N Feldkamp",
+          "year": 2025,
+          "venue": "Online World Conference on Soft Computing in Industrial Applications",
+          "url": "https://doi.org/10.1109/WSC68292.2025.11338955",
+          "cites": 2,
+          "pubdate": "2025-12-07",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Hierarchical Population Synthesis Using a Neural-Differentiable Programming Approach",
+          "authors": "I Mahmood, A Calinescu, M Wooldridge",
+          "year": 2025,
+          "venue": "Online World Conference on Soft Computing in Industrial Applications",
+          "url": "https://doi.org/10.1109/WSC68292.2025.11338863",
+          "cites": 1,
+          "pubdate": "2025-12-07",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A deep generative framework for joint households and individuals population synthesis",
+          "authors": "X Qian, U Gangwal, S Dong, et al.",
+          "year": 2025,
+          "venue": "Applied Soft Computing",
+          "url": "https://doi.org/10.1016/j.asoc.2025.114375",
+          "cites": 1,
+          "pubdate": "2025-12-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Population Synthesis using Incomplete Information",
+          "authors": "T Rastogi, D Jonsson, A Karlström",
+          "year": 2025,
+          "venue": "Transportation Research Procedia",
+          "url": "https://arxiv.org/abs/2510.00859",
+          "cites": 0,
+          "pubdate": "2025-10-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Development of a Synthetic Population and its Baseline Mobility Tool Ownership for the Province of Nova Scotia",
+          "authors": "V Arunakirinathan, M Habib",
+          "year": 2025,
+          "venue": "Transportation Research Record",
+          "url": "https://doi.org/10.1177/03611981251353721",
+          "cites": 1,
+          "pubdate": "2025-09-08",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Needs assessment in crisis contexts: Generating a synthetic population from limited demographic data",
+          "authors": "P Wetterwald, M Saarela, B Vozel",
+          "year": 2025,
+          "venue": "2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)",
+          "url": "https://doi.org/10.1109/ACDSA65407.2025.11166439",
+          "cites": 0,
+          "pubdate": "2025-08-07",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Population synthesis with deep generative model: a joint household-individual approach",
+          "authors": "A Sané, R Belaroussi, P Hankach, et al.",
+          "year": 2025,
+          "venue": "Computational Urban Science",
+          "url": "https://doi.org/10.1007/s43762-025-00195-9",
+          "cites": 6,
+          "pubdate": "2025-07-08",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Collaborative generative adversarial networks for fusing household travel survey and smart card data to generate heterogeneous activity schedules in urban digital twins",
+          "authors": "H Lee, P Bansal, K Vo, et al.",
+          "year": 2025,
+          "venue": "Transportation Research Part C: Emerging Technologies",
+          "url": "https://doi.org/10.1016/j.trc.2025.105125",
+          "cites": 14,
+          "pubdate": "2025-07-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Large-scale activity-based demand generation modelling: A literature review and exploration of potential approaches",
+          "authors": "N Nguyen, J Schweizer, F Rupi",
+          "year": 2025,
+          "venue": "Transport Engineer",
+          "url": "https://doi.org/10.1016/j.treng.2025.100329",
+          "cites": 5,
+          "pubdate": "2025-05-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Applying Spectral Clustering to Decode Mobility Patterns in Athens, Greece",
+          "authors": "E Andrinopoulou, P Tzouras",
+          "year": 2025,
+          "venue": "Applied Sciences",
+          "url": "https://doi.org/10.3390/app15073419",
+          "cites": 6,
+          "pubdate": "2025-03-21",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Population synthesis: a problem-based review",
+          "authors": "D La, H Vu, L Kamruzzaman, et al.",
+          "year": 2025,
+          "venue": "Transport reviews",
+          "url": "https://doi.org/10.1080/01441647.2025.2469069",
+          "cites": 6,
+          "pubdate": "2025-03-03",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Deep Contrastive Learning for Feature Alignment: Insights from Housing-Household Relationship Inference",
+          "authors": "X Qian, S Dong, R Davidson",
+          "year": 2025,
+          "venue": "Computers, Environment and Urban Systems",
+          "url": "https://arxiv.org/abs/2502.11205",
+          "cites": 1,
+          "pubdate": "2025-02-16",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Synthesising activity participations and scheduling with deep generative machine learning",
+          "authors": "F Shone, T Hillel",
+          "year": 2025,
+          "venue": "Transportation Research Part C: Emerging Technologies",
+          "url": "https://arxiv.org/abs/2501.10221",
+          "cites": 3,
+          "pubdate": "2025-01-17",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A novel data fusion method to leverage passively-collected mobility data in generating spatially-heterogeneous synthetic population",
+          "authors": "K Vo, E Kim, P Bansal",
+          "year": 2025,
+          "venue": "Transportation Research Part B: Methodological",
+          "url": "https://doi.org/10.1016/j.trb.2024.103128",
+          "cites": 11,
+          "pubdate": "2025-01-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A comprehensive investigation of variational auto-encoders for population synthesis",
+          "authors": "A Sané, P Vandanjon, R Belaroussi, et al.",
+          "year": 2024,
+          "venue": "Journal of Computational Social Science",
+          "url": "https://doi.org/10.1007/s42001-024-00332-0",
+          "cites": 5,
+          "pubdate": "2024-12-11",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Automated vehicles and the urban parking paradigm: Environmental implications and Citizen preference",
+          "authors": "A Garus, A Rodríguez, A Mourtzouchou, et al.",
+          "year": 2024,
+          "venue": "Transportation Research Part D: Transport and Environment",
+          "url": "https://doi.org/10.1016/j.trd.2024.104437",
+          "cites": 9,
+          "pubdate": "2024-11-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A Gentle Introduction and Tutorial on Deep Generative Models in Transportation Research",
+          "authors": "S Choi, Z Jin, S Ham, et al.",
+          "year": 2024,
+          "venue": "Transportation Research Part C: Emerging Technologies",
+          "url": "https://arxiv.org/abs/2410.07066",
+          "cites": 16,
+          "pubdate": "2024-10-09",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Using Small Area Estimation to Produce Reliable Transportation Statistics: The Case of Household Trips Estimation at the Census Tract Level",
+          "authors": "M Al-Khasawneh, C Cirillo",
+          "year": 2024,
+          "venue": "Data Science for Transportation",
+          "url": "https://doi.org/10.1007/s42421-024-00105-1",
+          "cites": 2,
+          "pubdate": "2024-09-11",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A novel machine learning-based spatialized population synthesis framework",
+          "authors": "M Khachman, C Morency, F Ciari",
+          "year": 2024,
+          "venue": "Transportation",
+          "url": "https://doi.org/10.1007/s11116-024-10534-0",
+          "cites": 2,
+          "pubdate": "2024-08-27",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Nationwide synthetic human mobility dataset construction from limited travel surveys and open data",
+          "authors": "T Kashiyama, Y Pang, Y Shibuya, et al.",
+          "year": 2024,
+          "venue": "Comput. Aided Civ. Infrastructure Eng.",
+          "url": "https://doi.org/10.1111/mice.13285",
+          "cites": 12,
+          "pubdate": "2024-06-10",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A MATSim model methodology to generate cycling-focused transport scenarios in England",
+          "authors": "D Castro, A Ford, P James, et al.",
+          "year": 2024,
+          "venue": "Journal of Urban Mobility",
+          "url": "https://doi.org/10.1016/j.urbmob.2024.100078",
+          "cites": 9,
+          "pubdate": "2024-06-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "A data-driven framework for agent-based modeling of vehicular travel using publicly available data",
+          "authors": "Y Zhou, X Liu, B Chen, et al.",
+          "year": 2024,
+          "venue": "Computers, Environment and Urban Systems",
+          "url": "https://doi.org/10.1016/j.compenvurbsys.2024.102095",
+          "cites": 8,
+          "pubdate": "2024-06-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Detecting synthetic population bias using a spatially-oriented framework and independent validation data",
+          "authors": "J Embury, A Nara, S Rey, et al.",
+          "year": 2024,
+          "venue": "International Journal of Geographical Information Science",
+          "url": "https://doi.org/10.1080/13658816.2024.2358399",
+          "cites": 3,
+          "pubdate": "2024-05-24",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Forecasting Daily Activity Plans of a Synthetic Population in an Upcoming District",
+          "authors": "R Belaroussi, Y Delhoum",
+          "year": 2024,
+          "venue": "Forecasting",
+          "url": "https://doi.org/10.3390/forecast6020021",
+          "cites": 0,
+          "pubdate": "2024-05-22",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Population Synthesis as Scenario Generation for Simulation-based Planning under Uncertainty",
+          "authors": "J Dyer, A Quera-Bofarull, N Bishop, et al.",
+          "year": 2024,
+          "venue": "Adaptive Agents and Multi-Agent Systems",
+          "url": "https://doi.org/10.5555/3635637.3662899",
+          "cites": 2,
+          "pubdate": "2024-05-06",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Review of the Mathematical Model, Properties, Classes and other Features of Software Agent Development",
+          "authors": "E Zelenko",
+          "year": 2024,
+          "venue": "Èlektronnoe modelirovanie",
+          "url": "https://doi.org/10.15407/emodel.46.02.003",
+          "cites": 0,
+          "pubdate": "2024-04-10",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "OLYMPUS-POPGEN: A synthetic population generation model to represent urban populations for assessing exposure to air quality",
+          "authors": "A Etuman, T Benoussaïd, H Charreire, et al.",
+          "year": 2024,
+          "venue": "PLoS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0299383",
+          "cites": 5,
+          "pubdate": "2024-03-08",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "An Agent-Based Model for Disease Epidemics in Greece",
+          "authors": "V Thomopoulos, K Tsichlas",
+          "year": 2024,
+          "venue": "Inf.",
+          "url": "https://doi.org/10.3390/info15030150",
+          "cites": 6,
+          "pubdate": "2024-03-07",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Individual-level activity-based modeling and indicators for assessing construction sites noise exposure in urban areas",
+          "authors": "P Hankach, V Bescond, P Gastineau, et al.",
+          "year": 2024,
+          "venue": "Sustainable cities and society",
+          "url": "https://doi.org/10.1016/j.scs.2024.105188",
+          "cites": 21,
+          "pubdate": "2024-02-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Generating synthetic population for simulating the spatiotemporal dynamics of epidemics",
+          "authors": "K Zhu, K Liu, J Liu, et al.",
+          "year": 2024,
+          "venue": "PLoS Comput. Biol.",
+          "url": "https://doi.org/10.1371/journal.pcbi.1011810",
+          "cites": 16,
+          "pubdate": "2024-02-01",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Estimation of Environmental Rebound Effect Induced by Shared Automated Passenger Transport Service in a Mid-Size European City via Microsimulation",
+          "authors": "A Garus, B Oreña, M Raposo, et al.",
+          "year": 2024,
+          "venue": "Transportation Research Record",
+          "url": "https://doi.org/10.1177/03611981231223752",
+          "cites": 10,
+          "pubdate": "2024-01-31",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        },
+        {
+          "title": "Integrating future trends and uncertainties in urban mobility design via data-driven personas and scenarios",
+          "authors": "T Gall, S Hörl, F Vallet, et al.",
+          "year": 2023,
+          "venue": "European Transport Research Review",
+          "url": "https://doi.org/10.1186/s12544-023-00622-0",
+          "cites": 8,
+          "pubdate": "2023-11-28",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-09-24"
+        }
+      ],
+      "n_citing": 75
+    }
+  }
+}
