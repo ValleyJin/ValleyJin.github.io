@@ -174,10 +174,7 @@ Find me on [GitHub](https://github.com/ValleyJin), [Medium](https://medium.com/@
 
 Email: **[cho@kaist.ac.kr](mailto:cho@kaist.ac.kr)**
   </div>
-  <div class="contact-robot" aria-hidden="true">
-    <div id="voxel" class="voxel"></div>
-    <span id="coincount" hidden></span>
+  <div class="contact-robot">
+    <img src="{{ '/assets/img/robot.svg' | relative_url }}" alt="A friendly KAIST robot waving hello with a blinking heart" width="200" height="360" loading="lazy">
   </div>
 </div>
-<script src="{{ '/assets/js/three.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/hero-voxel.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
