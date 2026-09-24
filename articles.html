@@ -182,23 +182,23 @@ permalink: /articles/
       <div id="qmap" class="qmap" hidden></div>
 
       <section class="qread" style="margin:22px 0 6px">
-        <div class="section-head" style="margin:0 0 8px"><h2>회귀선은 어떻게 그었나 <span class="mh-sub mono">논문 수 가중 견고회귀 — 방법·검정</span></h2></div>
-        <p class="mnote">점 크기(논문 수)가 큰 저널이 추세를 더 강하게 대표하도록, 그리고 추세에서 크게 벗어난 소수 점이 선을 왜곡하지 않도록 <b>가중 + 견고(robust) 회귀</b>를 씁니다. 정확한 절차는 다음과 같습니다.</p>
-        <h3 class="mh3">방법: 논문 수 가중 IRLS (Tukey biweight M-추정)</h3>
+        <div class="section-head" style="margin:0 0 8px"><h2>회귀선은 어떻게 그었나 <span class="mh-sub mono">논문 수 가중 최소제곱 — 방법·검정</span></h2></div>
+        <p class="mnote">점 크기(논문 수)가 큰 저널이 추세를 더 강하게 대표하도록 <b>가중최소제곱(WLS)</b>을 씁니다. 이상치를 인위로 제거·재가중하지 않고 <b>모든 점을 논문 수로만 가중</b>합니다(가중 자체가 영향력을 조절하므로 별도 이상치 처리는 중복이라 뺐습니다). 절차는 다음과 같습니다.</p>
+        <h3 class="mh3">방법: 논문 수 가중 최소제곱(WLS)</h3>
         <ul class="mlist">
           <li><b>모형</b>: SJR<sub>i</sub> = β·IF<sub>i</sub> + α + ε<sub>i</sub> (X = 2yr IF, Y = SJR)</li>
-          <li><b>사전 가중치</b> w<sup>0</sup><sub>i</sub> = 저널의 <b>논문 수(works)</b> → <b>가중최소제곱(WLS)</b>. 큰 점이 선을 끕니다.</li>
-          <li><b>견고 재가중</b>: <b>Tukey biweight(이중제곱) M-추정</b>을 <b>반복재가중최소제곱(IRLS)</b>으로 2회 적용. 표준화 잔차 u<sub>i</sub> = r<sub>i</sub> / (c·s), 가중 b<sub>i</sub> = (|u|&lt;1) ? (1−u²)² : 0. 최종 가중치 w<sub>i</sub> = w<sup>0</sup><sub>i</sub> · b<sub>i</sub>.</li>
-          <li><b>절단상수</b> c = 4.685 (biweight 95% 정규효율), <b>척도</b> s = 1.4826·MAD(잔차). b<sub>i</sub> = 0 이 된 점(추세에서 크게 이탈)은 캡션에 "제외"로 표기.</li>
+          <li><b>가중치</b> w<sub>i</sub> = 저널의 <b>논문 수(works)</b>. 논문이 많은 큰 점일수록 선을 더 강하게 끕니다.</li>
+          <li><b>추정</b>: 가중잔차제곱합 Σw<sub>i</sub>(y<sub>i</sub> − β·x<sub>i</sub> − α)² 을 최소화 → β̂ = (Σw·Σwxy − Σwx·Σwy) / (Σw·Σwx² − (Σwx)²), α̂ = (Σwy − β̂·Σwx) / Σw.</li>
+          <li><b>이상치</b>: 제거하지 않습니다. 어느 점도 빼지 않고 크기(논문 수)로만 반영합니다.</li>
         </ul>
         <h3 class="mh3">검정통계량</h3>
         <ul class="mlist">
-          <li><b>기울기 유의성</b>: <b>양측 t-검정</b>. t = β̂ / SE(β̂), SE(β̂) = √( (Σw<sub>i</sub>r<sub>i</sub>² / (n<sub>eff</sub>−2)) / Σw<sub>i</sub>(x<sub>i</sub>−x̄<sub>w</sub>)² ).</li>
-          <li><b>자유도</b> df = n<sub>eff</sub> − 2 (n<sub>eff</sub> = 최종 가중치 &gt; 0 인 점 수). <b>p값</b>은 Student t 분포(정규화 불완전베타 I<sub>x</sub>로 계산).</li>
-          <li><b>가중 결정계수</b> weighted R² = 1 − (Σw<sub>i</sub>r<sub>i</sub>²) / (Σw<sub>i</sub>(y<sub>i</sub>−ȳ<sub>w</sub>)²).</li>
+          <li><b>기울기 유의성</b>: <b>양측 t-검정</b>. t = β̂ / SE(β̂), SE(β̂) = √( (Σw<sub>i</sub>r<sub>i</sub>² / (n−2)) / Σw<sub>i</sub>(x<sub>i</sub>−x̄<sub>w</sub>)² ), r<sub>i</sub> = 잔차.</li>
+          <li><b>자유도</b> df = n − 2 (n = 점 수). <b>p값</b>은 Student t 분포(정규화 불완전베타 I<sub>x</sub>로 계산).</li>
+          <li><b>가중 결정계수</b> weighted R² = 1 − (Σw<sub>i</sub>r<sub>i</sub>²) / (Σw<sub>i</sub>(y<sub>i</sub>−ȳ<sub>w</sub>)²), ȳ<sub>w</sub> = 가중 평균.</li>
           <li><b>유의성 표기</b>: 계수 옆 별표 <b>* p&lt;.05, ** p&lt;.01, *** p&lt;.001</b>. 유의하지 않으면 <b>(n.s.)</b>.</li>
         </ul>
-        <p class="mnote" style="margin-top:2px">요약하면 <b>"논문 수를 사전가중치로 둔 Tukey biweight 견고 가중회귀(IRLS)"</b>이고, 선의 유의성은 <b>기울기 t-검정(가중 R²·양측 p값)</b>으로 판단합니다.</p>
+        <p class="mnote" style="margin-top:2px">요약하면 <b>"논문 수를 가중치로 둔 가중최소제곱(WLS)"</b>이고, 선의 유의성은 <b>기울기 t-검정(가중 R²·양측 p값)</b>으로 판단합니다.</p>
       </section>
 
       <section class="qread" style="margin:22px 0 6px">
@@ -475,22 +475,16 @@ permalink: /articles/
       // 가중회귀(WLS): 논문 수(점 크기)로 가중 → 큰 점이 선을 끈다
       function wls(p){ var Sw=0,Swx=0,Swy=0,Swxx=0,Swxy=0; p.forEach(function(o){var w=o.w; Sw+=w; Swx+=w*o.x; Swy+=w*o.y; Swxx+=w*o.x*o.x; Swxy+=w*o.x*o.y;}); var d=Sw*Swxx-Swx*Swx; if(!d||Sw<=0) return null; var a=(Sw*Swxy-Swx*Swy)/d, b=(Swy-a*Swx)/Sw; return {a:a,b:b,Sw:Sw,Swx:Swx,Swxx:Swxx}; }
       // 논문수 가중 + Tukey bisquare 견고 재가중(2회): 추세에서 크게 벗어난(작은) 점은 자동 축소/제외
+      // 순수 WLS(논문 수 가중, 이상치 제거·재가중 없음)
       function wfit(pts){ if(pts.length<2) return null;
-        var f=wls(pts.map(function(o){return {x:o.x,y:o.y,w:o.w0};})); if(!f) return null;
         var W=pts.map(function(o){return o.w0;});
-        for(var it=0; it<2; it++){
-          var res=pts.map(function(o){return o.y-(f.a*o.x+f.b);});
-          var mad=median(res.map(function(r){return Math.abs(r);})), s=(mad||1e-9)*1.4826, c=4.685;
-          W=pts.map(function(o,i){ var u=res[i]/(c*s), bi=(Math.abs(u)<1)?(1-u*u)*(1-u*u):0; return o.w0*bi; });
-          var f2=wls(pts.map(function(o,i){return {x:o.x,y:o.y,w:W[i]};})); if(f2) f=f2;
-        }
+        var f=wls(pts.map(function(o){return {x:o.x,y:o.y,w:o.w0};})); if(!f) return null;
         var Sw=0,Swy=0; W.forEach(function(w,i){Sw+=w; Swy+=w*pts[i].y;});
         var ybar=Sw?Swy/Sw:0, SSE=0,SST=0;
         pts.forEach(function(o,i){var yp=f.a*o.x+f.b; SSE+=W[i]*(o.y-yp)*(o.y-yp); SST+=W[i]*(o.y-ybar)*(o.y-ybar);});
-        var neff=W.filter(function(w){return w>1e-9;}).length, df=neff-2, Sxxw=f.Swxx-f.Swx*f.Swx/f.Sw;
+        var neff=pts.length, df=neff-2, Sxxw=f.Swxx-f.Swx*f.Swx/f.Sw;
         var se=(df>0&&Sxxw>0)?Math.sqrt((SSE/df)/Sxxw):null, tv=(se&&se>0)?f.a/se:null, pv=(tv!=null)?tpval(Math.abs(tv),df):null;
-        var excl=pts.filter(function(o,i){return W[i]<=1e-9;}).map(function(o){return o.l;});
-        return {a:f.a,b:f.b,r2:SST>0?1-SSE/SST:0,n:neff,p:pv,excl:excl}; }
+        return {a:f.a,b:f.b,r2:SST>0?1-SSE/SST:0,n:neff,p:pv,excl:[]}; }
       // 보이는 데이터 범위 [a,b]에 대한 nice 눈금
       function niceticksR(a,b){ if(!(b>a)) return []; var span=b-a, raw=span/4, mag=Math.pow(10,Math.floor(Math.log10(raw))), n=raw/mag, step=(n<1.5?1:n<3?2:n<7?5:10)*mag, out=[], t=Math.ceil((a-1e-9)/step)*step; for(var i=0;i<60 && t<=b+step*0.001;i++,t+=step) out.push(Math.round(t*1000)/1000); return out; }
       // 공통 산점도 빌더. cfg: {pts, xMax,yMax, axX,axY, reg?, view?} — view={x0,x1,y0,y1}(데이터-줌: 축 고정, 점만 확산)
@@ -564,7 +558,7 @@ permalink: /articles/
         h+=plot({pts:jpts,xMax:jMax,yMax:sMax,view:jVR,axX:'IF 2yr →',axY:'SJR ↑',reg:reg});   // X=IF, Y=SJR
         if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b), st=pstars(reg.p),
             pstr=(reg.p==null)?'':(reg.p<0.001?'p < 0.001':'p = '+reg.p.toFixed(3)), nsig=(reg.p!=null&&!st);
-          h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선<span class="qreg-w" title="논문 수를 사전가중치로 둔 Tukey biweight 견고 가중회귀(IRLS) · 기울기 t-검정">논문 수 가중</span> SJR ≈ <b>'+reg.a.toFixed(2)+'<sup class="qsig">'+st+'</sup></b> · IF '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(pstr?'  ·  '+pstr+(nsig?' (n.s.)':''):'')+'  <span class="qreg-note">'+(excl.length?esc(excl.join(', '))+' 제외 · ':'')+'* p&lt;.05 ** p&lt;.01 *** p&lt;.001 · 선 아래 = 인용 대비 질(SJR) 낮음</span></div>'; }
+          h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선<span class="qreg-w" title="논문 수를 가중치로 둔 가중최소제곱(WLS) · 기울기 t-검정">논문 수 가중</span> SJR ≈ <b>'+reg.a.toFixed(2)+'<sup class="qsig">'+st+'</sup></b> · IF '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(pstr?'  ·  '+pstr+(nsig?' (n.s.)':''):'')+'  <span class="qreg-note">'+(excl.length?esc(excl.join(', '))+' 제외 · ':'')+'* p&lt;.05 ** p&lt;.01 *** p&lt;.001 · 선 아래 = 인용 대비 질(SJR) 낮음</span></div>'; }
         return h;
       }
       var jHtml=buildJ();
