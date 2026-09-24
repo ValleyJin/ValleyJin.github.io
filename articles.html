@@ -572,7 +572,7 @@ permalink: /articles/
         var hMax=Math.max.apply(null,confs.map(function(v){return v.h||0;}).concat([1]));
         var iMax=Math.max.apply(null,confs.map(function(v){return v.i10||0;}).concat([1]));
         var cwMax=Math.max.apply(null,confs.map(function(v){return v.works||0;}).concat([1]));
-        cHtml=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']],'점 크기 = 논문 수');
+        cHtml=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']],'점 크기 = 논문 수 · h·i10은 누적 지표라 채택량 많은 학회(예: AAAI)가 부풀려 보임 — 편당 선별성은 CORE·커뮤니티 평판과 함께 보세요');
         var cpts=confs.map(function(v){ return {x:v.h||0,y:v.i10||0,label:v.label,link:v.link,
           cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'h'+(v.h||'–')+' · i10 '+(v.i10||'–'),
           title:(v.name||'')+' · CORE '+(v.crank||'')+' · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
