@@ -493,6 +493,7 @@ def build_venues(topics, sci, core=None):
                 ss = src.get("summary_stats") or {}
                 f = _field_of(src)
                 v.update({"name": src.get("display_name") or full, "h": ss.get("h_index"),
+                          "i10": ss.get("i10_index"),
                           "works": src.get("works_count"), "domain": f.get("domain"),
                           "field": f.get("field"), "sub": f.get("sub")})
             v.update(conf_rank(v.get("name"), core, label))   # CORE 등급(A*/A/B/C)

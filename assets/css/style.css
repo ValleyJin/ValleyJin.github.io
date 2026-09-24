@@ -629,3 +629,17 @@ img{max-width:100%;display:block}
 .qgline{position:absolute;top:0;bottom:0;width:1px;background:var(--line);opacity:.45}
 .qgline:first-child{opacity:0}
 .qgt{position:absolute;bottom:4px;left:3px;font-size:9px;color:var(--muted)}
+
+/* Metrics 서브탭(저널/학회) + 색 범례 + 학회 버블 + outlier 표시 */
+.qtabs{display:flex;gap:6px;margin:2px 0 12px}
+.qtab{font-family:var(--mono);font-size:12.5px;padding:5px 15px;border:1px solid var(--line);border-radius:999px;background:var(--bg-elev);color:var(--muted);cursor:pointer;transition:.15s}
+.qtab:hover{color:var(--ink)}
+.qtab.is-on{color:var(--ink);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent)}
+.qleg{display:flex;gap:15px;flex-wrap:wrap;align-items:center;margin:0 4px 4px;font-size:11.5px;color:var(--ink-soft)}
+.qleg-i{display:inline-flex;align-items:center;gap:5px}
+.qleg-d{width:10px;height:10px;border-radius:50%;display:inline-block;flex:0 0 auto}
+.qleg-d.q1{background:#e23b3b}.qleg-d.q2{background:#f2891e}.qleg-d.q3{background:#5eb3e4}.qleg-d.q4{background:#8b8d98}
+.qleg-d.c-as{background:#7728ff}.qleg-d.c-a{background:#8b5cf6}.qleg-d.c-b{background:#416faf}.qleg-d.c-c{background:#9aa0ac}
+.qdot.c-as .qdot-pt{background:#7728ff}.qdot.c-a .qdot-pt{background:#8b5cf6}.qdot.c-b .qdot-pt{background:#416faf}.qdot.c-c .qdot-pt{background:#9aa0ac}
+.qdot.is-out .qdot-pt{outline:2px dashed var(--ink-soft);outline-offset:2px}
+.qdot-ast{color:var(--muted);font-weight:400}

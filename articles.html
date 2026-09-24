@@ -276,7 +276,7 @@ permalink: /articles/
   <script type="application/json" id="scholars-data">{{ site.data.scholars.scholars | jsonify }}</script>
   <script type="application/json" id="venues-data">{{ site.data.venues | jsonify }}</script>
   <script>
-    /* Metrics 탭: 내 관심 학회·저널 품질 지형도 (Q4→Q1 축 위에 배치) */
+    /* Metrics 탭: 저널(SJR×IF) / 학회(h-index×i10, 크기=논문수) 2D 지형도 */
     (function(){
       var el=document.getElementById('qmap'); if(!el) return;
       var vs={}; try{ vs=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){ return; }
@@ -284,50 +284,75 @@ permalink: /articles/
       var journals=[], confs=[];
       Object.keys(vs).forEach(function(k){ var v=vs[k]; v.label=k; if(v.type==='journal'&&v.q) journals.push(v); else if(v.type==='conference') confs.push(v); });
       if(!journals.length && !confs.length){ return; }
-      // 2D 산점도: X=SJR(Q1~Q4 밴드), Y=JIF(2yr 평균 피인용). 점 색=실제 분위.
-      journals = journals.filter(function(v){ return v.sjr!=null; });
-      var sV=journals.map(function(v){return v.sjr;}), jV=journals.map(function(v){return (v.if2!=null?v.if2:0);});
-      var sMax=Math.max.apply(null,sV.concat([0.1])), jMax=Math.max.apply(null,jV.concat([0.1]));
       var PX=9, PY=12;   // 축 여백(%)
-      function px(s){ return PX + (s/sMax)*(100-PX-6); }         // 0 → 좌여백, sMax → 우측
-      function py(j){ return PY + (j/jMax)*(100-PY-8); }         // bottom 기준
-      // 최소제곱 회귀: y(IF) = a·x(SJR) + b, if2 있는 점만
-      var rp=journals.filter(function(v){return v.if2!=null;}), reg=null;
+      function median(a){ var s=a.slice().sort(function(x,y){return x-y;}),m=s.length>>1; return s.length?(s.length%2?s[m]:(s[m-1]+s[m])/2):0; }
+      function linfit(p){ var n=p.length,sx=0,sy=0,sxy=0,sxx=0; p.forEach(function(o){sx+=o.x;sy+=o.y;sxy+=o.x*o.y;sxx+=o.x*o.x;}); var d=n*sxx-sx*sx; if(!d) return null; var a=(n*sxy-sx*sy)/d,b=(sy-a*sx)/n,my=sy/n,sT=0,sR=0; p.forEach(function(o){var yp=a*o.x+b; sR+=(o.y-yp)*(o.y-yp); sT+=(o.y-my)*(o.y-my);}); return {a:a,b:b,r2:sT>0?1-sR/sT:0}; }
+      // 공통 산점도 빌더. cfg: {pts:[{x,y,label,link,cls,num,title,r?,out?}], xMax,yMax, axX,axY, reg?}
+      function plot(cfg){
+        function px(x){ return PX + (x/cfg.xMax)*(100-PX-6); }
+        function py(y){ return PY + (y/cfg.yMax)*(100-PY-8); }
+        var s='<div class="qplot">';
+        if(cfg.reg){ var r=cfg.reg, y0=r.b, yM=r.a*cfg.xMax+r.b;
+          s+='<svg class="qreg" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="'+px(0).toFixed(2)+'" y1="'+(100-py(y0)).toFixed(2)+'" x2="'+px(cfg.xMax).toFixed(2)+'" y2="'+(100-py(yM)).toFixed(2)+'"/></svg>'; }
+        s+='<span class="qax-y mono">'+esc(cfg.axY)+'</span><span class="qax-x mono">'+esc(cfg.axX)+'</span>';
+        cfg.pts.forEach(function(p){
+          var sz=p.r?' style="left:'+px(p.x).toFixed(2)+'%;bottom:'+py(p.y).toFixed(2)+'%"':' style="left:'+px(p.x).toFixed(2)+'%;bottom:'+py(p.y).toFixed(2)+'%"';
+          var ptSty=p.r?' style="width:'+p.r+'px;height:'+p.r+'px"':'';
+          s+='<a class="qdot '+p.cls+(p.out?' is-out':'')+'" href="'+esc(p.link||'#')+'" target="_blank" rel="noopener"'+sz+' title="'+esc(p.title)+'"><span class="qdot-pt"'+ptSty+'></span><span class="qdot-lab mono"><b>'+esc(p.label)+(p.out?'<span class="qdot-ast">*</span>':'')+'</b> <span class="qdot-n">'+esc(p.num)+'</span></span></a>';
+        });
+        return s+'</div>';
+      }
+      function legend(items){ return '<div class="qleg mono">'+items.map(function(z){return '<span class="qleg-i"><span class="qleg-d '+z[0]+'"></span>'+z[1]+'</span>';}).join('')+'</div>'; }
+
+      /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외) ── */
+      var jr=journals.filter(function(v){return v.sjr!=null;});
+      var sMax=Math.max.apply(null,jr.map(function(v){return v.sjr;}).concat([0.1]));
+      var jMax=Math.max.apply(null,jr.map(function(v){return v.if2!=null?v.if2:0;}).concat([0.1]));
+      var rp=jr.filter(function(v){return v.if2!=null;}), reg=null, excl=[];
       if(rp.length>=2){
-        var n=rp.length,sx=0,sy=0,sxy=0,sxx=0;
-        rp.forEach(function(v){sx+=v.sjr;sy+=v.if2;sxy+=v.sjr*v.if2;sxx+=v.sjr*v.sjr;});
-        var den=n*sxx-sx*sx;
-        if(den!==0){
-          var a=(n*sxy-sx*sy)/den, b=(sy-a*sx)/n, my=sy/n, ssT=0, ssR=0;
-          rp.forEach(function(v){var yp=a*v.sjr+b; ssR+=(v.if2-yp)*(v.if2-yp); ssT+=(v.if2-my)*(v.if2-my);});
-          reg={a:a,b:b,r2:ssT>0?1-ssR/ssT:0};
-        }
+        var pts=rp.map(function(v){return {x:v.sjr,y:v.if2,l:v.label};}), f0=linfit(pts);
+        if(f0 && pts.length>=3){
+          var res=pts.map(function(o){return o.y-(f0.a*o.x+f0.b);}), med=median(res),
+              mad=median(res.map(function(r){return Math.abs(r-med);})), out={};
+          if(mad>0){ pts.forEach(function(o,i){ if(Math.abs(0.6745*(res[i]-med)/mad)>3.5) out[o.l]=1; }); }
+          var kept=pts.filter(function(o){return !out[o.l];}); excl=Object.keys(out);
+          reg=(excl.length && kept.length>=2)?linfit(kept):f0;
+        } else { reg=f0; }
       }
-      var h='<div class="qmap-head mono">내 관심 저널 2D 지형도 <span class="qmap-sub">X=SJR(→) · Y=2yr IF(↑) · 점 색=실제 SCImago 분위 · 밴드=SJR 참고구획</span></div>';
-      h+='<div class="qplot">';
-      h+='<div class="qbands">'+['q4','q3','q2','q1'].map(function(z){return '<div class="qb '+z+'"><span class="qb-lab mono">'+z.toUpperCase()+'</span></div>';}).join('')+'</div>';
-      if(reg){
-        // SVG는 좌상단 원점 → py(bottom%) 를 100-py 로 뒤집는다. viewBox 0..100, 박스가 clip.
-        function sy1(j){ return (100-py(j)).toFixed(2); }
-        var y0=reg.a*0+reg.b, yM=reg.a*sMax+reg.b;
-        h+='<svg class="qreg" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="'+px(0).toFixed(2)+'" y1="'+sy1(y0)+'" x2="'+px(sMax).toFixed(2)+'" y2="'+sy1(yM)+'"/></svg>';
-      }
-      h+='<span class="qax-y mono">JIF ↑</span><span class="qax-x mono">SJR →</span>';
-      journals.forEach(function(v){
-        var x=px(v.sjr), y=py(v.if2!=null?v.if2:0);
-        h+='<a class="qdot '+esc(String(v.q||'q1').toLowerCase())+'" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" style="left:'+x.toFixed(2)+'%;bottom:'+y.toFixed(2)+'%" title="'+esc(v.name||'')+' · SJR '+esc(v.sjr)+(v.if2!=null?' · 2yr IF '+esc(v.if2):'')+'"><span class="qdot-pt"></span><span class="qdot-lab mono"><b>'+esc(v.label)+'</b> <span class="qdot-n">'+esc(v.sjr)+'/'+esc(v.if2!=null?v.if2:'–')+'</span></span></a>';
-      });
-      h+='</div>';
-      if(reg){
-        var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b);
-        h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  IF ≈ '+reg.a.toFixed(2)+' · SJR '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+'  <span class="qreg-note">(SJR 1 상승 → 2yr IF '+(reg.a>=0?'+':'')+reg.a.toFixed(2)+' 기대)</span></div>';
-      }
+      var jHtml='<div class="qmap-head mono">저널 · SJR × 2yr IF <span class="qmap-sub">가로=SJR · 세로=2yr 평균 피인용(IF) · 점 색=SCImago 분위</span></div>';
+      jHtml+=legend([['q1','Q1'],['q2','Q2'],['q3','Q3'],['q4','Q4']]);
+      var jpts=jr.map(function(v){ return {x:v.sjr,y:(v.if2!=null?v.if2:0),label:v.label,link:v.link,
+        cls:String(v.q||'q1').toLowerCase(), num:v.sjr+'/'+(v.if2!=null?v.if2:'–'), out:excl.indexOf(v.label)>=0,
+        title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')}; });
+      jHtml+=plot({pts:jpts,xMax:sMax,yMax:jMax,axX:'SJR →',axY:'IF ↑',reg:reg});
+      if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b);
+        jHtml+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  IF ≈ '+reg.a.toFixed(2)+' · SJR '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(excl.length?'  <span class="qreg-note">* '+esc(excl.join(', '))+' outlier 제외</span>':'  <span class="qreg-note">(SJR 1↑ → IF '+(reg.a>=0?'+':'')+reg.a.toFixed(2)+')</span>')+'</div>'; }
+
+      /* ── 학회: X=h-index, Y=i10-index, 점 크기=논문수, 색=CORE 등급 ── */
+      var cHtml='';
       if(confs.length){
-        confs.sort(function(a,b){return (b.h||0)-(a.h||0);});
         var crc={'A*':'as','A':'a','B':'b','C':'c'};
-        h+='<div class="qmap-conf"><span class="qmap-lab mono">CONFERENCES · CORE 등급</span>'+confs.map(function(v){return '<a class="qconf" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" title="'+esc(v.name||'')+'">'+esc(v.label)+(v.crank?'<span class="cbadge c-'+(crc[v.crank]||'a')+'">'+esc(v.crank)+'</span>':'')+(v.h!=null?'<span class="qconf-h">h'+esc(v.h)+'</span>':'')+'</a>';}).join('')+'</div>';
+        var hMax=Math.max.apply(null,confs.map(function(v){return v.h||0;}).concat([1]));
+        var iMax=Math.max.apply(null,confs.map(function(v){return v.i10||0;}).concat([1]));
+        var wMax=Math.max.apply(null,confs.map(function(v){return v.works||0;}).concat([1]));
+        function bub(w){ return (12 + Math.sqrt((w||0)/wMax)*22).toFixed(1); }  // 면적∝논문수
+        cHtml='<div class="qmap-head mono">학회 · h-index × i10-index <span class="qmap-sub">가로=h-index · 세로=i10-index(10회+ 인용 논문 수) · 점 크기=논문 수 · 색=CORE 등급</span></div>';
+        cHtml+=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']]);
+        var cpts=confs.map(function(v){ return {x:v.h||0,y:v.i10||0,label:v.label,link:v.link,
+          cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works), num:'h'+(v.h||'–')+' · i10 '+(v.i10||'–'),
+          title:(v.name||'')+' · CORE '+(v.crank||'')+' · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
+        cHtml+=plot({pts:cpts,xMax:hMax,yMax:iMax,axX:'h-index →',axY:'i10 ↑'});
+        cHtml+='<div class="qreg-cap mono"><span class="qleg-d c-as" style="width:9px;height:9px;border-radius:50%"></span>점 크기 = 논문 수(works) · 클수록 규모 큰 학회</div>';
       }
-      el.innerHTML=h; el.hidden=false;
+
+      /* ── 서브탭 조립 ── */
+      var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">학회</button>':'')+'</div>';
+      el.innerHTML=tabs+'<div class="qview" data-v="j">'+jHtml+'</div>'+(confs.length?'<div class="qview" data-v="c" hidden>'+cHtml+'</div>':'');
+      el.hidden=false;
+      var btns=[].slice.call(el.querySelectorAll('.qtab')), views=[].slice.call(el.querySelectorAll('.qview'));
+      btns.forEach(function(b){ b.addEventListener('click',function(){ var v=b.getAttribute('data-v');
+        btns.forEach(function(x){x.classList.toggle('is-on',x===b);});
+        views.forEach(function(x){x.hidden=x.getAttribute('data-v')!==v;}); }); });
     })();
   </script>
   <script>
