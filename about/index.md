@@ -129,9 +129,9 @@ permalink: /about/
 
 <h3>Education</h3>
 <ul class="edu-list">
-  <li><span class="deg"><b><a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">KAIST</a></b> — Ph.D. Candidate, Graduate Program for Futures Strategy</span><span class="yr">2016 — Present</span></li>
+  <li><span class="deg"><b><a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">KAIST</a></b> — Ph.D. Candidate, Graduate Program for Futures Strategy <span class="deg-spec">· Specialized in AI &amp; Network Science</span></span><span class="yr">2016 — Present</span></li>
   <li><span class="deg"><b><a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">KAIST</a></b> — M.S., Graduate Program for Futures Strategy</span><span class="yr">2013 — 2016</span></li>
-  <li><span class="deg"><b><a href="https://en.knu.ac.kr/" target="_blank" rel="noopener">Kyungpook National University</a></b> — Ph.D. Candidate, Business Administration</span><span class="yr">2009 — 2012</span></li>
+  <li><span class="deg"><b><a href="https://en.knu.ac.kr/" target="_blank" rel="noopener">Kyungpook National University</a></b> — Ph.D. Candidate, Business Administration <span class="deg-spec">· Specialized in Financial AI</span></span><span class="yr">2009 — 2012</span></li>
   <li><span class="deg"><b><a href="https://en.knu.ac.kr/" target="_blank" rel="noopener">Kyungpook National University</a></b> — M.A., Business Administration</span><span class="yr">1998 — 2003</span></li>
   <li><span class="deg"><b><a href="https://en.knu.ac.kr/" target="_blank" rel="noopener">Kyungpook National University</a></b> — B.A., Business Administration</span><span class="yr">1990 — 1998</span></li>
 </ul>

@@ -769,3 +769,6 @@ img{max-width:100%;display:block}
 .qzoom{position:absolute;inset:0;transform-origin:0 0;will-change:transform}
 .qplot{touch-action:pan-y}
 .qplot:hover{cursor:zoom-in}
+
+/* 학력 전공 특화 표기 (tangerine) */
+.deg-spec{color:#f2891e;font-weight:500}
