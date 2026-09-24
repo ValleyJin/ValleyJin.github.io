@@ -81,6 +81,7 @@ permalink: /articles/
     <div id="venue-info" class="venue-info" hidden></div>
     <!-- following scholars → Google Scholar alert filter -->
     <div class="stabs-wrap" id="stabs-wrap" hidden>
+      <button type="button" class="ntsec-h mono" id="stabs-h">Scholar Alerts<span class="ntsec-chev" aria-hidden="true"></span></button>
       <div class="stabs" id="stabs" role="tablist"></div>
     </div>
 
@@ -519,23 +520,26 @@ permalink: /articles/
           (v.type==='conference'?'<div class="vi-note mono">CS 학회는 SJR·분위 대신 <a href="https://portal.core.edu.au/conf-ranks/" target="_blank" rel="noopener">CORE 등급 ↗</a> · <a href="https://scholar.google.com/citations?view_op=top_venues" target="_blank" rel="noopener">Scholar h5-index ↗</a>로 평가</div>':'');
         viEl.hidden=false;
       }
+      var secCol={topics:false,journals:false};   // 섹션 접힘 상태(제목 클릭으로 토글)
       function renderTabs(){
         var _vs={}; (data.venues||[]).forEach(function(v){_vs[v]=1;});
         var _norm=topicList.filter(function(t){return !_vs[t];}).slice().sort();   // 일반 토픽 알파벳순
         var _ven=topicList.filter(function(t){return _vs[t];});                     // 학회/저널 토픽(config 순)
         function _tab(tp){ return '<button type="button" class="ntab'+(tp===st.topic?' is-active':'')+'" data-topic="'+esc(tp)+'">'+esc(tp)+'</button>'; }
         function _vtab(tp){ return '<button type="button" class="ntab ntab-v'+(tp===st.topic?' is-active':'')+'" data-topic="'+esc(tp)+'">'+esc(tp)+'</button>'; }   // 학회/저널=텍스트만
-        var _html='<span class="ntab-head mono">Topics</span>'+['All'].concat(_norm).map(_tab).join('');
+        function sec(key,title,body){ return '<div class="ntsec'+(secCol[key]?' is-collapsed':'')+'" data-sec="'+key+'"><button type="button" class="ntsec-h mono">'+title+'<span class="ntsec-chev" aria-hidden="true"></span></button><div class="ntsec-body'+(key==='journals'?' ntsec-body--grp':'')+'">'+body+'</div></div>'; }
+        var _html=sec('topics','Topics',['All'].concat(_norm).map(_tab).join(''));
         if(_ven.length){   // 학회/저널 칩을 분야(group)별로 묶어서 표시
           var ORDER=['Futures Studies','Strategy','Accounting','AI'];
           var groups={}; _ven.forEach(function(t){ var g=(VMETA[t]&&VMETA[t].group)||'기타'; (groups[g]=groups[g]||[]).push(t); });
           var gnames=Object.keys(groups).sort(function(a,b){ var ia=ORDER.indexOf(a), ib=ORDER.indexOf(b); return (ia<0?99:ia)-(ib<0?99:ib); });
-          _html+='<span class="ntab-sep" aria-hidden="true"></span>';   // 일반 토픽 / 학회·저널 구분 수평바
-          _html+='<span class="ntab-head mono">Journal List</span>';   // 상위 제목
-          gnames.forEach(function(g,i){ if(i>0) _html+='<span class="ntab-break" aria-hidden="true"></span>';   // 분야 그룹마다 줄바꿈 → 행 통일
-            _html+='<span class="ntab-grp mono">'+esc(g)+'</span>'+groups[g].map(_vtab).join(''); });
+          var jbody=''; gnames.forEach(function(g,i){ if(i>0) jbody+='<span class="ntab-break" aria-hidden="true"></span>';   // 분야 그룹마다 줄바꿈
+            jbody+='<span class="ntab-grp mono">'+esc(g)+'</span>'+groups[g].map(_vtab).join(''); });
+          _html+=sec('journals','Journal List',jbody);
         }
         tabsEl.innerHTML=_html;
+        [].slice.call(tabsEl.querySelectorAll('.ntsec-h')).forEach(function(hh){ hh.onclick=function(){   // 제목 클릭 → 접기/펼치기
+          var k=hh.parentElement.getAttribute('data-sec'); secCol[k]=!secCol[k]; hh.parentElement.classList.toggle('is-collapsed',secCol[k]); }; });
         [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){
           var tp=b.dataset.topic;
           if(tp===st.topic && vinfo[tp]){ viOpen=!viOpen; renderVenueInfo(); return; }   // 같은 학회/저널 재클릭 → 드롭다운 토글
@@ -600,6 +604,8 @@ permalink: /articles/
           stitle=document.getElementById('scal-title'), kindsEl=document.getElementById('scal-kinds'),
           sectEl=document.getElementById('scholar-sections');
       if(stabsWrap && followed.length){ stabsWrap.hidden=false; }
+      var stabsH=document.getElementById('stabs-h');   // Scholar Alerts 제목 클릭 → 접기/펼치기
+      if(stabsH && stabsWrap){ stabsH.addEventListener('click',function(){ stabsWrap.classList.toggle('is-collapsed'); }); }
 
       var KINDS=['Citation','Related','New'];
       var _adts=alerts.map(function(a){return a.date;}).filter(Boolean).sort();

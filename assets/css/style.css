@@ -338,7 +338,6 @@ img{max-width:100%;display:block}
 .ntab.is-active{color:var(--accent);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--bg-elev))}
 /* 팔로우 학자(구글 스칼라 알림) 필터 행 — 토픽/학회 아래 수평바로 구분 */
 .stabs-wrap{border-top:1px solid var(--line);margin:14px 0 2px;padding-top:14px}
-.stabs-wrap::before{content:"SCHOLAR ALERTS";display:block;font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--muted);margin:0 2px 8px}
 .stabs{display:flex;flex-wrap:wrap;gap:8px}
 /* 알림 종류별 집계 리포트(달력 우측) */
 .kind-report{display:flex;flex-direction:column;gap:8px;margin-top:6px}
@@ -719,3 +718,16 @@ img{max-width:100%;display:block}
 .qplot .qdot.is-foc{z-index:8}
 .qplot .qdot.is-foc .qdot-lab{opacity:1}
 .qplot .qdot.is-foc .qdot-pt{box-shadow:0 0 0 3px var(--bg-elev),0 0 0 4px var(--accent)}
+
+/* 접이식 섹션: 제목(쉐브론) 클릭 → 본문 드롭다운 */
+.ntabs{display:block}
+.ntsec{margin:0 0 4px}
+.ntsec + .ntsec{border-top:1px solid var(--line);padding-top:12px;margin-top:10px}
+.ntsec-h{display:inline-flex;align-items:center;gap:8px;background:none;border:0;padding:2px 2px 9px;cursor:pointer;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.ntsec-h:hover{color:var(--ink)}
+.ntsec-chev{width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid currentColor;transition:transform .16s}
+.ntsec.is-collapsed .ntsec-chev,.stabs-wrap.is-collapsed .ntsec-chev{transform:rotate(-90deg)}
+.ntsec-body{display:flex;flex-wrap:wrap;gap:8px}
+.ntsec.is-collapsed .ntsec-body,.stabs-wrap.is-collapsed .stabs{display:none}
+.stabs-wrap{border-top:1px solid var(--line);margin:14px 0 2px;padding-top:12px}
+.stabs-wrap .ntsec-h{display:flex}
