@@ -360,7 +360,7 @@ permalink: /articles/
       function niceticks(mx){ if(!(mx>0)) return [0]; var raw=mx/4, mag=Math.pow(10,Math.floor(Math.log10(raw))), n=raw/mag, step=(n<1.5?1:n<3?2:n<7?5:10)*mag, out=[]; for(var t=0;t<=mx+step*0.001;t+=step) out.push(Math.round(t*1000)/1000); return out; }
 
       /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외). 분야 복수선택으로 필터 ── */
-      var JGROUPS=['Futures Studies','Strategy','Accounting'];   // 저널 분야(AI=학회는 축이 달라 별도 탭)
+      var JGROUPS=['Futures Studies','Strategy','Accounting','Research Methods'];   // 저널 분야(AI=학회는 축이 달라 별도 탭)
       var jsel={}; JGROUPS.forEach(function(g){ jsel[g]=true; });   // 기본: 전부 선택
       var qsel={Q1:true,Q2:true,Q3:true,Q4:true};                  // 분위 필터(색 범례 클릭 토글)
       function buildJ(){

@@ -1,32 +1,6 @@
 {
   "generated": "2026-09-24",
   "venues": {
-    "Strategy|organizational research methods": {
-      "name": "Organizational Research Methods",
-      "label": "ORM",
-      "group": "Strategy",
-      "q": "Q1",
-      "sjr": 14.27,
-      "if2": 24.9,
-      "works": 78,
-      "cats": [
-        [
-          "Decision Sciences (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
-      "type": "journal",
-      "scatter": true,
-      "link": "https://www.scimagojr.com/journalsearch.php?q=organizational%20research%20methods"
-    },
     "Strategy|organization theory": {
       "name": "Organization Theory",
       "label": "OT",
@@ -1316,6 +1290,376 @@
       "type": "journal",
       "scatter": true,
       "link": "https://www.scimagojr.com/journalsearch.php?q=accounting%20history%20review"
+    },
+    "RM|organizational research methods": {
+      "name": "Organizational Research Methods",
+      "label": "ORM",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 14.27,
+      "if2": 24.9,
+      "works": 78,
+      "cats": [
+        [
+          "Decision Sciences (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=organizational%20research%20methods"
+    },
+    "RM|advances in methods and practices in psychological science": {
+      "name": "Advances In Methods And Practices In Psychological Science",
+      "label": "AMPPS",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 6.09,
+      "if2": 12.9,
+      "works": 98,
+      "cats": [
+        [
+          "Psychology (miscellaneous)",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=advances%20in%20methods%20and%20practices%20in%20psychological%20science"
+    },
+    "RM|psychological methods": {
+      "name": "Psychological Methods",
+      "label": "PsyM",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 4.77,
+      "if2": 7.0,
+      "works": 262,
+      "cats": [
+        [
+          "History and Philosophy of Science",
+          "Q1"
+        ],
+        [
+          "Psychology (miscellaneous)",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=psychological%20methods"
+    },
+    "RM|political analysis": {
+      "name": "Political Analysis",
+      "label": "PolAn",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 4.37,
+      "if2": 9.7,
+      "works": 121,
+      "cats": [
+        [
+          "Political Science and International Relations",
+          "Q1"
+        ],
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=political%20analysis"
+    },
+    "RM|journal of statistical software": {
+      "name": "Journal Of Statistical Software",
+      "label": "JSS",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 3.68,
+      "if2": 13.6,
+      "works": 122,
+      "cats": [
+        [
+          "Software",
+          "Q1"
+        ],
+        [
+          "Statistics and Probability",
+          "Q1"
+        ],
+        [
+          "Statistics, Probability and Uncertainty",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20statistical%20software"
+    },
+    "RM|annual review of statistics and its application": {
+      "name": "Annual Review Of Statistics And Its Application",
+      "label": "ARSA",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 3.49,
+      "if2": 10.1,
+      "works": 75,
+      "cats": [
+        [
+          "Statistics and Probability",
+          "Q1"
+        ],
+        [
+          "Statistics, Probability and Uncertainty",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=annual%20review%20of%20statistics%20and%20its%20application"
+    },
+    "RM|sociological methods & research": {
+      "name": "Sociological Methods & Research",
+      "label": "SMR",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 3.47,
+      "if2": 9.6,
+      "works": 173,
+      "cats": [
+        [
+          "Social Sciences (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=sociological%20methods%20%26%20research"
+    },
+    "RM|journal of mixed methods research": {
+      "name": "Journal Of Mixed Methods Research",
+      "label": "JMMR",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 3.24,
+      "if2": 9.8,
+      "works": 99,
+      "cats": [
+        [
+          "Education",
+          "Q1"
+        ],
+        [
+          "Social Sciences (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Statistics, Probability and Uncertainty",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20mixed%20methods%20research"
+    },
+    "RM|structural equation modeling": {
+      "name": "Structural Equation Modeling",
+      "label": "SEM",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 3.15,
+      "if2": 4.3,
+      "works": 210,
+      "cats": [
+        [
+          "Decision Sciences (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Modeling and Simulation",
+          "Q1"
+        ],
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=structural%20equation%20modeling"
+    },
+    "RM|research synthesis methods": {
+      "name": "Research Synthesis Methods",
+      "label": "RSM",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 3.14,
+      "if2": 7.2,
+      "works": 230,
+      "cats": [
+        [
+          "Education",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=research%20synthesis%20methods"
+    },
+    "RM|educational and psychological measurement": {
+      "name": "Educational And Psychological Measurement",
+      "label": "EPM",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 2.63,
+      "if2": 5.3,
+      "works": 147,
+      "cats": [
+        [
+          "Applied Mathematics",
+          "Q1"
+        ],
+        [
+          "Applied Psychology",
+          "Q1"
+        ],
+        [
+          "Developmental and Educational Psychology",
+          "Q1"
+        ],
+        [
+          "Education",
+          "Q1"
+        ],
+        [
+          "Psychology (miscellaneous)",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=educational%20and%20psychological%20measurement"
+    },
+    "RM|behavior research methods": {
+      "name": "Behavior Research Methods",
+      "label": "BRM",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 2.38,
+      "if2": 5.6,
+      "works": 887,
+      "cats": [
+        [
+          "Arts and Humanities (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Developmental and Educational Psychology",
+          "Q1"
+        ],
+        [
+          "Experimental and Cognitive Psychology",
+          "Q1"
+        ],
+        [
+          "Psychology (miscellaneous)",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=behavior%20research%20methods"
+    },
+    "RM|multivariate behavioral research": {
+      "name": "Multivariate Behavioral Research",
+      "label": "MBR",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 2.02,
+      "if2": 4.2,
+      "works": 214,
+      "cats": [
+        [
+          "Arts and Humanities (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Experimental and Cognitive Psychology",
+          "Q1"
+        ],
+        [
+          "Medicine (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Statistics and Probability",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=multivariate%20behavioral%20research"
+    },
+    "RM|qualitative research": {
+      "name": "Qualitative Research",
+      "label": "QualR",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 1.97,
+      "if2": 5.5,
+      "works": 229,
+      "cats": [
+        [
+          "History and Philosophy of Science",
+          "Q1"
+        ],
+        [
+          "Social Sciences (miscellaneous)",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=qualitative%20research"
+    },
+    "RM|psychometrika": {
+      "name": "Psychometrika",
+      "label": "Psymk",
+      "group": "Research Methods",
+      "q": "Q1",
+      "sjr": 1.93,
+      "if2": 2.9,
+      "works": 177,
+      "cats": [
+        [
+          "Applied Mathematics",
+          "Q1"
+        ],
+        [
+          "Psychology (miscellaneous)",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=psychometrika"
     }
   }
 }
