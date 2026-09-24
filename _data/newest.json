@@ -105,9 +105,9 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-23",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-23"
     },
     {
       "date": "2026-09-23",
@@ -120,9 +120,9 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-23",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-23"
     },
     {
       "date": "2026-09-22",
@@ -310,8 +310,8 @@
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-22",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -410,8 +410,8 @@
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-22",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -423,8 +423,8 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "added": "2026-09-22",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -466,8 +466,8 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-22",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -479,8 +479,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-09-22",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -508,8 +508,8 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-22",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -522,8 +522,8 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-22",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -551,8 +551,8 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-22",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -565,9 +565,9 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-22",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -580,8 +580,8 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-22",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-22"
     },
     {
       "date": "2026-09-22",
@@ -754,8 +754,8 @@
       "topic": "Graph database",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-23",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-23"
     },
     {
       "date": "2026-09-22",
@@ -767,8 +767,8 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "added": "2026-09-23",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-23"
     },
     {
       "date": "2026-09-22",
@@ -794,9 +794,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "added": "2026-09-23",
       "q": "Q2",
-      "sjr": 0.51
+      "sjr": 0.51,
+      "added": "2026-09-23"
     },
     {
       "date": "2026-09-22",
@@ -850,8 +850,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-09-23",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-23"
     },
     {
       "date": "2026-09-22",
@@ -893,9 +893,9 @@
       "topic": "Graph database",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-21",
       "q": "Q3",
-      "sjr": 0.22
+      "sjr": 0.22,
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -907,9 +907,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "added": "2026-09-21",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -952,8 +952,8 @@
       "topic": "Graph database",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-21",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -1038,9 +1038,9 @@
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-21",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -1125,8 +1125,8 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "added": "2026-09-21",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -1194,9 +1194,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "added": "2026-09-21",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -1209,8 +1209,8 @@
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-21",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-21"
     },
     {
       "date": "2026-09-21",
@@ -1265,9 +1265,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "added": "2026-09-23",
       "q": "Q2",
-      "sjr": 0.74
+      "sjr": 0.74,
+      "added": "2026-09-23"
     },
     {
       "date": "2026-09-21",
@@ -1279,9 +1279,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "added": "2026-09-23",
       "q": "Q2",
-      "sjr": 0.74
+      "sjr": 0.74,
+      "added": "2026-09-23"
     },
     {
       "date": "2026-09-20",
@@ -1353,9 +1353,9 @@
       "topic": "LLM inference serving",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-20",
       "q": "Q1",
-      "sjr": 1.28
+      "sjr": 1.28,
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -1396,9 +1396,9 @@
       "topic": "LLM inference serving",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-20",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -1425,9 +1425,9 @@
       "topic": "Ontology",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-20",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -1469,9 +1469,9 @@
       "topic": "Ontology",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-20",
       "q": "Q4",
-      "sjr": 0.1
+      "sjr": 0.1,
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -1499,9 +1499,9 @@
       "topic": "Ontology",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-20",
       "q": "Q4",
-      "sjr": 0.1
+      "sjr": 0.1,
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -1514,9 +1514,9 @@
       "topic": "Ontology",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-20",
       "q": "Q1",
-      "sjr": 0.62
+      "sjr": 0.62,
+      "added": "2026-09-20"
     },
     {
       "date": "2026-09-20",
@@ -1558,8 +1558,8 @@
       "topic": "Deep persona",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-19",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1659,8 +1659,8 @@
       "topic": "Ontology",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-19",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1702,8 +1702,8 @@
       "topic": "Ontology",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-19",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1730,9 +1730,9 @@
       "topic": "Ontology",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-19",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-19"
     },
     {
       "date": "2026-09-19",
@@ -1833,9 +1833,9 @@
       "topic": "Deep persona",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-18",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1848,9 +1848,9 @@
       "topic": "Deep persona",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-18",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1878,8 +1878,8 @@
       "topic": "Deep persona",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-18",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -1994,9 +1994,9 @@
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-09-18",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-09-18"
     },
     {
       "date": "2026-09-18",
@@ -2245,8 +2245,8 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "added": "2026-09-16",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-09-16"
     },
     {
       "date": "2026-09-16",
@@ -2881,9 +2881,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2909,8 +2909,8 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2937,8 +2937,8 @@
       "topic": "Deep persona",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2965,8 +2965,8 @@
       "topic": "Deep persona",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2979,8 +2979,8 @@
       "topic": "Deep persona",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -2992,9 +2992,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q1",
-      "sjr": 4.34
+      "sjr": 4.34,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3262,8 +3262,8 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3373,9 +3373,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q2",
-      "sjr": 0.71
+      "sjr": 0.71,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3401,8 +3401,8 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3414,8 +3414,8 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3526,9 +3526,9 @@
       "topic": "LLM inference serving",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
       "q": "Q4",
-      "sjr": 0.19
+      "sjr": 0.19,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3541,8 +3541,8 @@
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3596,9 +3596,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3610,9 +3610,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3625,9 +3625,9 @@
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
       "q": "Q1",
-      "sjr": 4.34
+      "sjr": 4.34,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3711,9 +3711,9 @@
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3964,9 +3964,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -3978,8 +3978,8 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4019,8 +4019,8 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4046,8 +4046,8 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4059,8 +4059,8 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4073,8 +4073,8 @@
       "topic": "Ontology",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4086,9 +4086,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q2",
-      "sjr": 0.71
+      "sjr": 0.71,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4100,9 +4100,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q4",
-      "sjr": 0.1
+      "sjr": 0.1,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4128,9 +4128,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q1",
-      "sjr": 2.18
+      "sjr": 2.18,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4198,8 +4198,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4239,8 +4239,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4252,8 +4252,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4266,8 +4266,8 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4280,8 +4280,8 @@
       "topic": "AI governance",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4293,8 +4293,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4306,8 +4306,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4319,8 +4319,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4332,8 +4332,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4345,8 +4345,8 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4358,9 +4358,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4372,9 +4372,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "added": "2026-08-31",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-08-31"
     },
     {
       "date": "2026-08-31",
@@ -4509,8 +4509,8 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "added": "2026-08-30",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -4522,8 +4522,8 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "added": "2026-08-30",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -4535,8 +4535,8 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "added": "2026-08-30",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -4549,8 +4549,8 @@
       "topic": "Deep persona",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-30",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-30"
     },
     {
       "date": "2026-08-30",
@@ -4686,8 +4686,8 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "added": "2026-08-28",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-28"
     },
     {
       "date": "2026-08-28",
@@ -4742,8 +4742,8 @@
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-27",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-27"
     },
     {
       "date": "2026-08-26",
@@ -4895,9 +4895,9 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "added": "2026-08-22",
       "q": "Q1",
-      "sjr": 0.9
+      "sjr": 0.9,
+      "added": "2026-08-22"
     },
     {
       "date": "2026-08-22",
@@ -4909,9 +4909,9 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "added": "2026-08-22",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "added": "2026-08-22"
     },
     {
       "date": "2026-08-22",
@@ -5332,8 +5332,8 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "added": "2026-08-11",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-11"
     },
     {
       "date": "2026-08-11",
@@ -5345,8 +5345,8 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "added": "2026-08-11",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-11"
     },
     {
       "date": "2026-08-10",
@@ -5359,8 +5359,8 @@
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
       "pct": 10,
-      "added": "2026-08-10",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-10"
     },
     {
       "date": "2026-08-10",
@@ -5456,8 +5456,8 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "added": "2026-08-03",
-      "nr": "na"
+      "nr": "na",
+      "added": "2026-08-03"
     },
     {
       "date": "2026-08-01",
@@ -6428,7 +6428,8 @@
         "url": "https://doi.org/10.1109/cvpr35066.2017",
         "cites": 44,
         "topic": "CVPR",
-        "crank": "A*"
+        "q": "Q2",
+        "sjr": 0.54
       },
       {
         "title": "1998 Conference on Computer Vision and Pattern Recognition (CVPR '98), June 23-25, 1998, Santa Barbara, CA, USA",
@@ -6438,7 +6439,8 @@
         "url": "https://www.semanticscholar.org/paper/0073595eae6b195af3951afbd62050e9a70df48f",
         "cites": 0,
         "topic": "CVPR",
-        "crank": "A*"
+        "q": "Q2",
+        "sjr": 0.54
       }
     ],
     "Futures": [

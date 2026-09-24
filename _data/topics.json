@@ -13,8 +13,9 @@
           "venue": "Applied Sciences",
           "url": "https://doi.org/10.3390/app14031014",
           "cites": 8,
-          "q": "Q4",
-          "sjr": 0.15
+          "fwci": 1.87,
+          "q": "Q2",
+          "sjr": 0.56
         },
         {
           "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
@@ -23,6 +24,7 @@
           "venue": "Computer Networks",
           "url": "https://doi.org/10.1016/j.comnet.2025.111784",
           "cites": 1,
+          "fwci": 0.51,
           "q": "Q1",
           "sjr": 1.14
         },
@@ -33,6 +35,7 @@
           "venue": "Knowledge-Based Systems",
           "url": "https://doi.org/10.1016/j.knosys.2023.111071",
           "cites": 15,
+          "fwci": 1.83,
           "q": "Q1",
           "sjr": 1.75
         },
@@ -43,6 +46,8 @@
           "venue": "Informatics",
           "url": "https://doi.org/10.3390/informatics11020038",
           "cites": 24,
+          "fwci": 5.28,
+          "pct": 10,
           "q": "Q1",
           "sjr": 0.88
         }
@@ -60,6 +65,7 @@
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3636218.3636236",
           "cites": 22,
+          "fwci": 2.04,
           "q": "Q1",
           "sjr": 1.77
         },
@@ -70,6 +76,8 @@
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16120438",
           "cites": 28,
+          "fwci": 4.13,
+          "pct": 10,
           "q": "Q1",
           "sjr": 0.84
         },
@@ -80,6 +88,8 @@
           "venue": "MethodsX",
           "url": "https://doi.org/10.1016/j.mex.2024.102683",
           "cites": 18,
+          "fwci": 3.96,
+          "pct": 10,
           "q": "Q1",
           "sjr": 0.55
         },
@@ -90,6 +100,7 @@
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3685800.3685814",
           "cites": 15,
+          "fwci": 2.2,
           "q": "Q1",
           "sjr": 1.77
         }
@@ -107,6 +118,8 @@
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-40231-1",
           "cites": 1624,
+          "fwci": 356.23,
+          "pct": 1,
           "q": "Q1",
           "sjr": 1.2
         },
@@ -117,6 +130,8 @@
           "venue": "IEEE Transactions on Automation Science and Engineering",
           "url": "https://doi.org/10.1109/tase.2024.3474968",
           "cites": 31,
+          "fwci": 5.97,
+          "pct": 10,
           "q": "Q1",
           "sjr": 2.12
         },
@@ -127,6 +142,8 @@
           "venue": "Cell",
           "url": "https://doi.org/10.1016/j.cell.2024.09.022",
           "cites": 295,
+          "fwci": 43.89,
+          "pct": 1,
           "q": "Q1",
           "sjr": 24.59
         },
@@ -137,6 +154,8 @@
           "venue": "Information Fusion",
           "url": "https://doi.org/10.1016/j.inffus.2025.103599",
           "cites": 212,
+          "fwci": 200.33,
+          "pct": 1,
           "q": "Q1",
           "sjr": 4.2
         }
@@ -154,6 +173,8 @@
           "venue": "IEEE Computer Architecture Letters",
           "url": "https://doi.org/10.1109/lca.2024.3406038",
           "cites": 40,
+          "fwci": 6.2,
+          "pct": 10,
           "q": "Q2",
           "sjr": 0.54
         },
@@ -164,6 +185,7 @@
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
           "cites": 6,
+          "fwci": 1.47,
           "nr": "na"
         },
         {
@@ -173,6 +195,8 @@
           "venue": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09422-z",
           "cites": 1011,
+          "fwci": 953.85,
+          "pct": 1,
           "q": "Q1",
           "sjr": 19.71
         },
@@ -183,6 +207,8 @@
           "venue": "ACM SIGEnergy Energy Informatics Review",
           "url": "https://doi.org/10.1145/3727200.3727217",
           "cites": 27,
+          "fwci": 8.15,
+          "pct": 10,
           "nr": "na"
         }
       ],
@@ -199,6 +225,8 @@
           "venue": "Future Generation Computer Systems",
           "url": "https://doi.org/10.1016/j.future.2025.108316",
           "cites": 3,
+          "fwci": 4.56,
+          "pct": 10,
           "q": "Q1",
           "sjr": 1.48
         },
@@ -209,6 +237,8 @@
           "venue": "Sensors",
           "url": "https://doi.org/10.3390/s24031037",
           "cites": 18,
+          "fwci": 10.8,
+          "pct": 10,
           "q": "Q1",
           "sjr": 0.8
         },
@@ -219,6 +249,8 @@
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16090315",
           "cites": 34,
+          "fwci": 19.79,
+          "pct": 1,
           "q": "Q1",
           "sjr": 0.84
         },
@@ -229,6 +261,7 @@
           "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
           "url": "https://doi.org/10.4230/oasics.fmbc.2025.5",
           "cites": 36,
+          "fwci": 0.0,
           "nr": "na"
         }
       ],
@@ -245,6 +278,8 @@
           "venue": "Journal of Information Security and Applications",
           "url": "https://doi.org/10.1016/j.jisa.2023.103678",
           "cites": 181,
+          "fwci": 108.93,
+          "pct": 1,
           "q": "Q1",
           "sjr": 0.91
         },
@@ -255,6 +290,8 @@
           "venue": "IEEE Transactions on Big Data",
           "url": "https://doi.org/10.1109/tbdata.2024.3403370",
           "cites": 50,
+          "fwci": 11.04,
+          "pct": 10,
           "q": "Q1",
           "sjr": 1.53
         },
@@ -265,6 +302,8 @@
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2024.3373697",
           "cites": 48,
+          "fwci": 10.57,
+          "pct": 10,
           "q": "Q1",
           "sjr": 0.88
         },
@@ -275,6 +314,8 @@
           "venue": "Sensors",
           "url": "https://doi.org/10.3390/s25113450",
           "cites": 38,
+          "fwci": 58.04,
+          "pct": 1,
           "q": "Q1",
           "sjr": 0.8
         }
@@ -292,6 +333,8 @@
           "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
           "url": "https://doi.org/10.4230/lipics.sea.2024.20",
           "cites": 5418,
+          "fwci": 253.12,
+          "pct": 1,
           "nr": "na"
         },
         {
@@ -301,6 +344,8 @@
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2023.3333824",
           "cites": 533,
+          "fwci": 57.39,
+          "pct": 1,
           "q": "Q1",
           "sjr": 3.02
         },
@@ -311,6 +356,8 @@
           "venue": "Journal Of Big Data",
           "url": "https://doi.org/10.1186/s40537-023-00876-4",
           "cites": 593,
+          "fwci": 130.21,
+          "pct": 1,
           "q": "Q1",
           "sjr": 1.96
         },
@@ -321,6 +368,8 @@
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3443141",
           "cites": 494,
+          "fwci": 93.52,
+          "pct": 1,
           "q": "Q1",
           "sjr": 4.83
         }
@@ -338,6 +387,8 @@
           "venue": "Computers",
           "url": "https://doi.org/10.3390/computers12100199",
           "cites": 36,
+          "fwci": 7.65,
+          "pct": 10,
           "q": "Q1",
           "sjr": 0.94
         },
@@ -348,8 +399,10 @@
           "venue": "Electronics",
           "url": "https://doi.org/10.3390/electronics14071313",
           "cites": 18,
-          "q": "Q4",
-          "sjr": 0.14
+          "fwci": 16.22,
+          "pct": 1,
+          "q": "Q2",
+          "sjr": 0.62
         },
         {
           "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
@@ -358,6 +411,7 @@
           "venue": "Ontology of Designing",
           "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
           "cites": 1,
+          "fwci": 0.95,
           "nr": "na"
         },
         {
@@ -367,6 +421,8 @@
           "venue": "Nucleic Acids Research",
           "url": "https://doi.org/10.1093/nar/gkad1005",
           "cites": 417,
+          "fwci": 82.07,
+          "pct": 1,
           "q": "Q1",
           "sjr": 8.11
         }
@@ -376,7 +432,57 @@
     {
       "topic": "AI governance",
       "query": "AI governance",
-      "papers": []
+      "papers": [
+        {
+          "title": "AI Governance in a Complex and Rapidly Changing Regulatory Landscape: A Global Perspective",
+          "authors": "Zaidan, E., & Ibrahim, I. A.",
+          "year": 2024,
+          "venue": "Humanities and Social Sciences Communications",
+          "url": "https://doi.org/10.1057/s41599-024-03560-x",
+          "cites": 182,
+          "fwci": 62.52,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 0.9
+        },
+        {
+          "title": "Responsible AI Pattern Catalogue: A Collection of Best Practices for AI Governance and Engineering",
+          "authors": "Lu, Q., Zhu, L., Xu, X., Whittle, J., Zowghi, D., & Jacquet, A.",
+          "year": 2023,
+          "venue": "ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3626234",
+          "cites": 115,
+          "fwci": 23.57,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 5.99
+        },
+        {
+          "title": "Trust, trustworthiness and AI governance",
+          "authors": "Lahusen, C., Maggetti, M., & Slavkovik, M.",
+          "year": 2024,
+          "venue": "Scientific Reports",
+          "url": "https://doi.org/10.1038/s41598-024-71761-0",
+          "cites": 60,
+          "fwci": 20.53,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 0.89
+        },
+        {
+          "title": "The governance of artificial intelligence in Canada: Findings and opportunities from a review of 84 AI governance initiatives",
+          "authors": "Attard-Frost, B., Brandusescu, A., & Lyons, K. A.",
+          "year": 2024,
+          "venue": "Government Information Quarterly",
+          "url": "https://doi.org/10.1016/j.giq.2024.101929",
+          "cites": 85,
+          "fwci": 29.1,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 3.58
+        }
+      ],
+      "count": 106364
     },
     {
       "topic": "NeurIPS",
@@ -565,6 +671,8 @@
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2024.103399",
           "cites": 96,
+          "fwci": 16.94,
+          "pct": 1,
           "q": "Q1",
           "sjr": 1.43
         },
@@ -575,6 +683,8 @@
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2024.103328",
           "cites": 93,
+          "fwci": 32.0,
+          "pct": 1,
           "q": "Q1",
           "sjr": 1.43
         },
@@ -585,6 +695,8 @@
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2024.103341",
           "cites": 54,
+          "fwci": 23.01,
+          "pct": 1,
           "q": "Q1",
           "sjr": 1.43
         },
@@ -595,6 +707,8 @@
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2023.103258",
           "cites": 53,
+          "fwci": 37.97,
+          "pct": 1,
           "q": "Q1",
           "sjr": 1.43
         }
@@ -612,6 +726,8 @@
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.122903",
           "cites": 399,
+          "fwci": 71.21,
+          "pct": 1,
           "q": "Q1",
           "sjr": 3.48
         },
@@ -622,6 +738,8 @@
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123076",
           "cites": 302,
+          "fwci": 8.32,
+          "pct": 10,
           "q": "Q1",
           "sjr": 3.48
         },
@@ -632,6 +750,8 @@
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2024.123428",
           "cites": 296,
+          "fwci": 188.84,
+          "pct": 1,
           "q": "Q1",
           "sjr": 3.48
         },
@@ -642,6 +762,8 @@
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123097",
           "cites": 257,
+          "fwci": 45.94,
+          "pct": 1,
           "q": "Q1",
           "sjr": 3.48
         }
@@ -659,6 +781,8 @@
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2022-0251",
           "cites": 78,
+          "fwci": 26.11,
+          "pct": 1,
           "q": "Q1",
           "sjr": 4.4
         },
@@ -669,6 +793,8 @@
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2022-0703",
           "cites": 72,
+          "fwci": 106.28,
+          "pct": 1,
           "q": "Q1",
           "sjr": 4.4
         },
@@ -679,6 +805,8 @@
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2019-0453",
           "cites": 58,
+          "fwci": 16.95,
+          "pct": 1,
           "q": "Q1",
           "sjr": 4.4
         },
@@ -689,6 +817,8 @@
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2020-0648",
           "cites": 52,
+          "fwci": 31.43,
+          "pct": 1,
           "q": "Q1",
           "sjr": 4.4
         }
@@ -706,6 +836,8 @@
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2024.101706",
           "cites": 170,
+          "fwci": 51.28,
+          "pct": 1,
           "q": "Q1",
           "sjr": 8.75
         },
@@ -716,6 +848,8 @@
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2024.101720",
           "cites": 141,
+          "fwci": 50.35,
+          "pct": 1,
           "q": "Q1",
           "sjr": 8.75
         },
@@ -726,6 +860,8 @@
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2023.101647",
           "cites": 78,
+          "fwci": 22.27,
+          "pct": 1,
           "q": "Q1",
           "sjr": 8.75
         },
@@ -736,6 +872,8 @@
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2025.101782",
           "cites": 55,
+          "fwci": 48.65,
+          "pct": 1,
           "q": "Q1",
           "sjr": 8.75
         }
@@ -753,6 +891,8 @@
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12548",
           "cites": 553,
+          "fwci": 352.46,
+          "pct": 1,
           "q": "Q1",
           "sjr": 9.77
         },
@@ -763,6 +903,8 @@
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12559",
           "cites": 386,
+          "fwci": 151.31,
+          "pct": 1,
           "q": "Q1",
           "sjr": 9.77
         },
@@ -773,6 +915,8 @@
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12542",
           "cites": 144,
+          "fwci": 92.87,
+          "pct": 1,
           "q": "Q1",
           "sjr": 9.77
         },
@@ -783,6 +927,8 @@
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12517",
           "cites": 95,
+          "fwci": 37.44,
+          "pct": 1,
           "q": "Q1",
           "sjr": 9.77
         }
@@ -800,6 +946,8 @@
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12915",
           "cites": 96,
+          "fwci": 37.33,
+          "pct": 1,
           "q": "Q1",
           "sjr": 3.69
         },
@@ -810,6 +958,8 @@
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12919",
           "cites": 52,
+          "fwci": 20.49,
+          "pct": 1,
           "q": "Q1",
           "sjr": 3.69
         },
@@ -820,6 +970,8 @@
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12920",
           "cites": 45,
+          "fwci": 15.37,
+          "pct": 1,
           "q": "Q1",
           "sjr": 3.69
         },
@@ -830,6 +982,8 @@
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12942",
           "cites": 32,
+          "fwci": 11.16,
+          "pct": 10,
           "q": "Q1",
           "sjr": 3.69
         }
@@ -847,6 +1001,8 @@
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09833-9",
           "cites": 97,
+          "fwci": 63.18,
+          "pct": 1,
           "q": "Q1",
           "sjr": 5.56
         },
@@ -857,6 +1013,8 @@
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09856-2",
           "cites": 83,
+          "fwci": 31.61,
+          "pct": 1,
           "q": "Q1",
           "sjr": 5.56
         },
@@ -867,6 +1025,8 @@
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09822-y",
           "cites": 63,
+          "fwci": 41.73,
+          "pct": 1,
           "q": "Q1",
           "sjr": 5.56
         },
@@ -877,6 +1037,8 @@
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09823-x",
           "cites": 47,
+          "fwci": 18.37,
+          "pct": 1,
           "q": "Q1",
           "sjr": 5.56
         }

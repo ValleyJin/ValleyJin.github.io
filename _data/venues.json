@@ -6,48 +6,48 @@
       "type": "conference",
       "link": "https://neurips.cc/",
       "h": 166,
+      "i10": 2049,
       "works": 4192,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
-      "crank": "A*",
-      "i10": 2049
+      "crank": "A*"
     },
     "ICML": {
       "name": "International Conference on Machine Learning",
       "type": "conference",
       "link": "https://icml.cc/",
       "h": 115,
+      "i10": 927,
       "works": 1884,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
-      "crank": "A*",
-      "i10": 927
+      "crank": "A*"
     },
     "ICLR": {
       "name": "International Conference on Learning Representations",
       "type": "conference",
       "link": "https://iclr.cc/",
       "h": 87,
+      "i10": 478,
       "works": 908,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
-      "crank": "A*",
-      "i10": 478
+      "crank": "A*"
     },
     "CVPR": {
       "name": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "type": "conference",
       "link": "https://cvpr.thecvf.com/",
       "h": 214,
+      "i10": 1835,
       "works": 2082,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
-      "crank": "A*",
-      "i10": 1835
+      "crank": "A*"
     },
     "Futures": {
       "name": "Futures",
