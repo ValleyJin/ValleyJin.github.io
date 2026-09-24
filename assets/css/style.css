@@ -596,3 +596,23 @@ img{max-width:100%;display:block}
 .ax-sub-p{color:var(--ink-soft);font-size:13.5px;margin:8px 0 10px}
 .ax-sub-note{color:var(--muted);font-size:11.5px;margin:0}
 @media(max-width:640px){.ax-grid{grid-template-columns:1fr}}
+
+/* 품질 지형도 2D 산점도 — X=SJR(Q밴드), Y=JIF */
+.qplot{position:relative;height:340px;margin:12px 4px 6px;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+.qbands{position:absolute;inset:0;display:flex}
+.qb{flex:1;position:relative;border-right:1px dashed var(--line)}
+.qb:last-child{border-right:0}
+.qb.q4{background:color-mix(in srgb,#8b8d98 12%,transparent)}
+.qb.q3{background:color-mix(in srgb,#5eb3e4 12%,transparent)}
+.qb.q2{background:color-mix(in srgb,#f2891e 12%,transparent)}
+.qb.q1{background:color-mix(in srgb,#e23b3b 12%,transparent)}
+.qb-lab{position:absolute;top:7px;left:0;right:0;text-align:center;font-size:10px;color:var(--muted);opacity:.75}
+.qax-y{position:absolute;left:6px;top:6px;font-size:10px;color:var(--muted)}
+.qax-x{position:absolute;right:8px;bottom:5px;font-size:10px;color:var(--muted)}
+.qdot{position:absolute;width:0;height:0}
+.qdot-pt{position:absolute;left:0;bottom:0;transform:translate(-50%,50%);width:12px;height:12px;border-radius:50%;box-shadow:0 0 0 3px var(--bg-elev);z-index:2}
+.qdot.q1 .qdot-pt{background:#e23b3b}.qdot.q2 .qdot-pt{background:#f2891e}.qdot.q3 .qdot-pt{background:#5eb3e4}.qdot.q4 .qdot-pt{background:#8b8d98}
+.qdot-lab{position:absolute;left:0;bottom:11px;transform:translateX(-50%);font-family:var(--mono);font-size:11px;white-space:nowrap;color:var(--ink-soft);z-index:3}
+.qdot-lab b{color:var(--ink)}
+.qdot-n{color:var(--muted);font-size:9px}
+.qdot:hover .qdot-lab b{color:var(--accent)}
