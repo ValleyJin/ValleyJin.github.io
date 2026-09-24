@@ -322,9 +322,13 @@ img{max-width:100%;display:block}
 /* 단축키 F 전체화면 모달 */
 body.qmap-fs-open{overflow:hidden}
 .qmap.is-fs{position:fixed;inset:0;z-index:2000;margin:0;padding:20px 30px 16px;border-radius:0;overflow:hidden;background:var(--bg);display:flex;flex-direction:column}
-.qmap.is-fs .qplot{max-width:100%;max-height:calc(100vh - 250px);width:100%;margin-left:auto;margin-right:auto;flex:0 0 auto}
+.qmap.is-fs .qplot{width:min(100%,(100vh - 250px)*16/9);max-width:100%;height:auto;margin-left:auto;margin-right:auto;flex:0 0 auto}
 .qmap-fs-x{position:fixed;top:14px;right:18px;z-index:2001;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--bg-elev);color:var(--ink-soft);font-size:23px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
 .qmap-fs-x:hover{color:var(--ink);border-color:var(--accent)}
+/* 전체화면에서 상세 패널은 점의 반대편 절반에 떠 있는 모달-온-모달 */
+.qmap.is-fs .qdetail.qd-open{position:fixed;top:50%;transform:translateY(-50%);right:2.5vw;left:auto;width:min(46vw,700px);max-height:88vh;overflow:auto;margin:0;z-index:2003;box-shadow:0 24px 70px rgba(0,0,0,.55);border-radius:16px}
+.qmap.is-fs .qdetail.qd-open.qd-fs-left{left:2.5vw;right:auto}
+.qmap.is-fs .qdetail.qd-open.qd-fs-right{right:2.5vw;left:auto}
 .qmap-head{font-size:12px;letter-spacing:.06em;color:var(--accent);margin-bottom:14px}
 .qmap-sub{color:var(--muted);text-transform:none;letter-spacing:.02em;font-size:11px}
 .qmap-track{position:relative;display:flex;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
