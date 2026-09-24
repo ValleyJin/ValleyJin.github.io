@@ -556,14 +556,15 @@ def resolve_journal_ids(topics):
     return out
 
 
-def recent_topics(sid, cutoff, n=5):
+def recent_topics(sid, cutoff, n=4):
     """OpenAlex works를 source+최근기간으로 topics.id 그룹집계 → 최근 활발 주제 상위 n개(이름).
-    저널/학회의 '최근 3년 주로 다뤄진 주제' 요약에 사용."""
+    저널/학회의 '최근 3년 주로 다뤄진 주제' 요약에 사용.
+    ※ group_by는 per_page가 그룹 수를 제한하므로 넉넉히 준다(결과 works는 비어 payload 작음)."""
     if not sid:
         return []
     try:
         url = _oa(API + "?filter=locations.source.id:" + sid + ",from_publication_date:" + cutoff
-                  + "&group_by=topics.id&per_page=1&mailto=" + MAILTO)
+                  + "&group_by=topics.id&per_page=50&mailto=" + MAILTO)
         req = urllib.request.Request(url, headers={"User-Agent": f"valleyjin-topics ({MAILTO})"})
         with urllib.request.urlopen(req, timeout=40) as r:
             g = json.load(r).get("group_by") or []
