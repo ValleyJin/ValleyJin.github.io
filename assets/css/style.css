@@ -745,3 +745,9 @@ img{max-width:100%;display:block}
 .svc-langleg li{display:inline-flex;align-items:center;gap:6px}
 .svc-langleg .sw{width:9px;height:9px;border-radius:2px;flex:0 0 auto}
 .svc-langleg b{color:var(--muted);font-weight:600}
+
+/* 저널 분야 복수선택 필터 칩 */
+.qjbar{flex-wrap:wrap;gap:6px}
+.qfld{font-family:var(--mono);font-size:11px;padding:4px 11px;border:1px solid var(--line);border-radius:999px;background:var(--bg-elev);color:var(--muted);cursor:pointer;transition:color .15s,border-color .15s,background .15s}
+.qfld:hover{color:var(--ink)}
+.qfld.is-on{color:var(--ink);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent)}
