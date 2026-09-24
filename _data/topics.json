@@ -61,7 +61,61 @@
     {
       "topic": "gABM",
       "query": "generative agent-based modeling",
-      "papers": []
+      "papers": [
+        {
+          "title": "LLMs and generative agent-based models for complex systems research",
+          "authors": "Lu, Y., Aleta, A., Du, C., Shi, L., & Moreno, Y.",
+          "year": 2024,
+          "venue": "Physics of Life Reviews",
+          "url": "https://doi.org/10.1016/j.plrev.2024.10.013",
+          "cites": 80,
+          "fwci": 25.45,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 2.06,
+          "qcat": "Agricultural and Biological Sciences (miscellaneous)"
+        },
+        {
+          "title": "Generative agent‐based modeling: an introduction and tutorial",
+          "authors": "Ghaffarzadegan, N., Majumdar, A., Williams, R. A., & Hosseinichimeh, N.",
+          "year": 2024,
+          "venue": "System Dynamics Review",
+          "url": "https://doi.org/10.1002/sdr.1761",
+          "cites": 63,
+          "fwci": 19.69,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.1,
+          "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
+          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
+          "year": 2025,
+          "venue": "Engineering Applications of Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
+          "cites": 15,
+          "fwci": 8.46,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.78,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "A survey on large language model based autonomous agents",
+          "authors": "Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H. Y., Zhang, J., et al.",
+          "year": 2024,
+          "venue": "Frontiers of Computer Science",
+          "url": "https://doi.org/10.1007/s11704-024-40231-1",
+          "cites": 1627,
+          "fwci": 356.25,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Computer Science (miscellaneous)"
+        }
+      ],
+      "count": 50887
     },
     {
       "topic": "Graph database",
@@ -292,12 +346,118 @@
     {
       "topic": "Zero-knowledge proofs (ZKP)",
       "query": "zero-knowledge proof",
-      "papers": []
+      "papers": [
+        {
+          "title": "Leveraging zero knowledge proofs for blockchain-based identity sharing: A survey of advancements, challenges and opportunities",
+          "authors": "Zhou, L., Diro, A. A., Saini, A., Kaisar, S., & Hiep, P. C.",
+          "year": 2024,
+          "venue": "Journal of Information Security and Applications",
+          "url": "https://doi.org/10.1016/j.jisa.2023.103678",
+          "cites": 181,
+          "fwci": 108.93,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 0.91,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "zkFL: Zero-Knowledge Proof-Based Gradient Aggregation for Federated Learning",
+          "authors": "Wang, Z., Dong, N., Sun, J., Knottenbelt, W. J., & Guo, Y.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Big Data",
+          "url": "https://doi.org/10.1109/tbdata.2024.3403370",
+          "cites": 51,
+          "fwci": 11.17,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.53,
+          "qcat": "Information Systems"
+        },
+        {
+          "title": "Securing Smart Manufacturing by Integrating Anomaly Detection With Zero-Knowledge Proofs",
+          "authors": "Salam, A., Abrar, M. Y. B. T., Amin, F., Ullah, F., Khan, I. A., Alkhamees, B. F., et al.",
+          "year": 2024,
+          "venue": "IEEE Access",
+          "url": "https://doi.org/10.1109/access.2024.3373697",
+          "cites": 48,
+          "fwci": 10.57,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "A Zero-Knowledge Proof-Enabled Blockchain-Based Academic Record Verification System",
+          "authors": "Moya, J. A. B., Ayoade, J., & Uddin, M. A.",
+          "year": 2025,
+          "venue": "Sensors",
+          "url": "https://doi.org/10.3390/s25113450",
+          "cites": 38,
+          "fwci": 58.04,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 0.8,
+          "qcat": "Analytical Chemistry"
+        }
+      ],
+      "count": 40642
     },
     {
       "topic": "Graph neural networks (GNN)",
       "query": "graph neural network",
-      "papers": []
+      "papers": [
+        {
+          "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
+          "authors": "Gabriel, S., Mário, R., António, T., & Marlene, A.",
+          "year": 2024,
+          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+          "url": "https://doi.org/10.4230/lipics.sea.2024.20",
+          "cites": 5418,
+          "fwci": 253.12,
+          "pct": 1,
+          "nr": "na"
+        },
+        {
+          "title": "Spatio-Temporal Graph Neural Networks for Predictive Learning in Urban Computing: A Survey",
+          "authors": "Jin, G., Liang, Y., Fang, Y., Shao, Z., Huang, J., Zhang, J., et al.",
+          "year": 2023,
+          "venue": "IEEE Transactions on Knowledge and Data Engineering",
+          "url": "https://doi.org/10.1109/tkde.2023.3333824",
+          "cites": 534,
+          "fwci": 57.35,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 3.02,
+          "qcat": "Computational Theory and Mathematics"
+        },
+        {
+          "title": "A review of graph neural networks: concepts, architectures, techniques, challenges, datasets, applications, and future directions",
+          "authors": "Khemani, B., Patil, S., Kotecha, K. V., & Tanwar, S.",
+          "year": 2024,
+          "venue": "Journal Of Big Data",
+          "url": "https://doi.org/10.1186/s40537-023-00876-4",
+          "cites": 595,
+          "fwci": 130.36,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.96,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
+          "authors": "Jin, M., Koh, H. Y., Wen, Q., Zambon, D., Alippi, C., Webb, G. I., et al.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3443141",
+          "cites": 494,
+          "fwci": 93.52,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        }
+      ],
+      "count": 193621
     },
     {
       "topic": "Ontology",
@@ -863,7 +1023,53 @@
     {
       "topic": "KDD",
       "query": "s2:KDD",
-      "papers": []
+      "papers": [
+        {
+          "title": "Hyper-USS: Answering Subset Query Over Multi-Attribute Data Stream",
+          "authors": "Miao, R., Zhang, Y., Qu, G., Yang, K., Yang, T., & Cui, B.",
+          "year": 2023,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3580305.3599383",
+          "cites": 12,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "Mitigating Pooling Bias in E-commerce Search via False Negative Estimation",
+          "authors": "Wang, X., Xiao, X., Zhang, R., Zhang, X., Na, T., Tenneti, T., et al.",
+          "year": 2023,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3637528.3671630",
+          "cites": 5,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "Graph Neural Bandits",
+          "authors": "Qi, Y., Ban, Y., & He, J.",
+          "year": 2023,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3580305.3599371",
+          "cites": 32,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "CREAM: Continual Retrieval on Dynamic Streaming Corpora with Adaptive Soft Memory",
+          "authors": "Son, H., Kang, H., Kim, S., Ho, S., Kang, S., Lee, D., et al.",
+          "year": 2026,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3770854.3780281",
+          "cites": 2,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        }
+      ],
+      "count": 2253
     },
     {
       "topic": "JMLR",

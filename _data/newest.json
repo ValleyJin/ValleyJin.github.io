@@ -13042,7 +13042,90 @@
         "qcat": "Computer Networks and Communications"
       }
     ],
-    "Graph neural networks (GNN)": [],
+    "Graph neural networks (GNN)": [
+      {
+        "title": "A Comprehensive Survey on Graph Neural Networks",
+        "authors": "Wu, Z., Pan, S., Chen, F., Long, G., Zhang, C., & Yu, P. S.",
+        "year": 2020,
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+        "url": "https://doi.org/10.1109/tnnls.2020.2978386",
+        "cites": 10017,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 553.16,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.15,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "The Graph Neural Network Model",
+        "authors": "Scarselli, F., Gori, M., Tsoi, A. C., Hagenbuchner, M., & Monfardini, G.",
+        "year": 2008,
+        "venue": "IEEE Transactions on Neural Networks",
+        "url": "https://doi.org/10.1109/tnn.2008.2005605",
+        "cites": 9766,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 17.03,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 3.15,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "Graph neural networks: A review of methods and applications",
+        "authors": "Zhou, J., Cui, G., Hu, S., Zhang, Z., Yang, C. H., Liu, Z., et al.",
+        "year": 2020,
+        "venue": "AI Open",
+        "url": "https://doi.org/10.1016/j.aiopen.2021.01.001",
+        "cites": 5886,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 325.98,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.64,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
+        "authors": "Gabriel, S., Mário, R., António, T., & Marlene, A.",
+        "year": 2024,
+        "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+        "url": "https://doi.org/10.4230/lipics.sea.2024.20",
+        "cites": 5418,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 253.12,
+        "pct": 1,
+        "nr": "na"
+      },
+      {
+        "title": "Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties",
+        "authors": "Xie, T., & Grossman, J. C.",
+        "year": 2018,
+        "venue": "Physical Review Letters",
+        "url": "https://doi.org/10.1103/physrevlett.120.145301",
+        "cites": 2883,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 54.48,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.79,
+        "qcat": "Physics and Astronomy (miscellaneous)"
+      },
+      {
+        "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
+        "authors": "Batzner, S., Musaelian, A., Sun, L., Geiger, M., Mailoa, J. P., Kornbluth, M., et al.",
+        "year": 2022,
+        "venue": "Nature Communications",
+        "url": "https://doi.org/10.1038/s41467-022-29939-5",
+        "cites": 1873,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 93.66,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 4.9,
+        "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
+      }
+    ],
     "Ontology": [
       {
         "title": "Formal ontology, conceptual analysis and knowledge representation",
@@ -13244,7 +13327,7 @@
         "year": 2017,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/1703.00443",
-        "cites": 1354,
+        "cites": 1355,
         "topic": "ICML",
         "crank": "A*"
       },
@@ -13264,7 +13347,7 @@
         "year": 2017,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/1704.08847",
-        "cites": 915,
+        "cites": 916,
         "topic": "ICML",
         "crank": "A*"
       },
@@ -13274,7 +13357,7 @@
         "year": 2021,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/2102.03150",
-        "cites": 857,
+        "cites": 858,
         "topic": "ICML",
         "crank": "A*"
       },
@@ -13296,7 +13379,7 @@
         "year": 2020,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2010.02502",
-        "cites": 13551,
+        "cites": 13555,
         "topic": "ICLR",
         "crank": "A*"
       },
@@ -13351,32 +13434,7 @@
         "crank": "A*"
       }
     ],
-    "CVPR": [
-      {
-        "title": "2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017, Honolulu, HI, USA, July 21-26, 2017",
-        "authors": "Anon.",
-        "year": 2017,
-        "venue": "Computer Vision and Pattern Recognition",
-        "url": "https://doi.org/10.1109/cvpr35066.2017",
-        "cites": 44,
-        "topic": "CVPR",
-        "q": "Q2",
-        "sjr": 0.54,
-        "qcat": "Computer Science (miscellaneous)"
-      },
-      {
-        "title": "1998 Conference on Computer Vision and Pattern Recognition (CVPR '98), June 23-25, 1998, Santa Barbara, CA, USA",
-        "authors": "Anon.",
-        "year": 1998,
-        "venue": "Computer Vision and Pattern Recognition",
-        "url": "https://www.semanticscholar.org/paper/0073595eae6b195af3951afbd62050e9a70df48f",
-        "cites": 0,
-        "topic": "CVPR",
-        "q": "Q2",
-        "sjr": 0.54,
-        "qcat": "Computer Science (miscellaneous)"
-      }
-    ],
+    "CVPR": [],
     "AAAI": [
       {
         "title": "Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence, July 27 -31, 2014, Québec City, Québec, Canada.",
@@ -13468,7 +13526,7 @@
         "year": 2023,
         "venue": "Annual Meeting of the Association for Computational Linguistics",
         "url": "https://doi.org/10.48550/arXiv.2312.11514",
-        "cites": 310,
+        "cites": 311,
         "topic": "ACL",
         "crank": "A*"
       },
@@ -13532,7 +13590,7 @@
         "year": 2020,
         "venue": "IEEE International Conference on Computer Vision",
         "url": "https://doi.org/10.1109/ICCV48922.2021.00823",
-        "cites": 2528,
+        "cites": 2529,
         "topic": "ICCV",
         "crank": "A*"
       },
@@ -13552,7 +13610,7 @@
         "year": 2021,
         "venue": "IEEE International Conference on Computer Vision",
         "url": "https://doi.org/10.1109/ICCV48922.2021.01204",
-        "cites": 1074,
+        "cites": 1075,
         "topic": "ICCV",
         "crank": "A*"
       },
