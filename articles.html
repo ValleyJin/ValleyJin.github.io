@@ -291,15 +291,40 @@ permalink: /articles/
       var PX=9, PY=12;   // 축 여백(%)
       function px(s){ return PX + (s/sMax)*(100-PX-6); }         // 0 → 좌여백, sMax → 우측
       function py(j){ return PY + (j/jMax)*(100-PY-8); }         // bottom 기준
-      var h='<div class="qmap-head mono">내 관심 저널 2D 지형도 <span class="qmap-sub">X=SJR(→) · Y=2yr IF(↑) · 색=SCImago 분위 · 밴드=SJR 참고구획</span></div>';
+      // 최소제곱 회귀: y(IF) = a·x(SJR) + b, if2 있는 점만
+      var rp=journals.filter(function(v){return v.if2!=null;}), reg=null;
+      if(rp.length>=2){
+        var n=rp.length,sx=0,sy=0,sxy=0,sxx=0;
+        rp.forEach(function(v){sx+=v.sjr;sy+=v.if2;sxy+=v.sjr*v.if2;sxx+=v.sjr*v.sjr;});
+        var den=n*sxx-sx*sx;
+        if(den!==0){
+          var a=(n*sxy-sx*sy)/den, b=(sy-a*sx)/n, my=sy/n, ssT=0, ssR=0;
+          rp.forEach(function(v){var yp=a*v.sjr+b; ssR+=(v.if2-yp)*(v.if2-yp); ssT+=(v.if2-my)*(v.if2-my);});
+          reg={a:a,b:b,r2:ssT>0?1-ssR/ssT:0};
+        }
+      }
+      var h='<div class="qmap-head mono">내 관심 저널 2D 지형도 <span class="qmap-sub">X=SJR(→) · Y=2yr IF(↑) · 점 색=SCImago 분위(분야 상대) · 회귀선</span></div>';
       h+='<div class="qplot">';
-      h+='<div class="qbands">'+['q4','q3','q2','q1'].map(function(z){return '<div class="qb '+z+'"><span class="qb-lab mono">'+z.toUpperCase()+'</span></div>';}).join('')+'</div>';
+      // X축 SJR 눈금 (분위는 색으로만 — 분위는 SJR 절댓값이 아니라 분야 상대라 밴드로 나눌 수 없음)
+      var gstep=sMax>8?2:(sMax>4?1:0.5), gt=[];
+      for(var tv=0; tv<=sMax+1e-9; tv+=gstep){ gt.push(Math.round(tv*100)/100); }
+      h+='<div class="qgrid">'+gt.map(function(t){return '<div class="qgline" style="left:'+px(t).toFixed(2)+'%"><span class="qgt mono">'+t+'</span></div>';}).join('')+'</div>';
+      if(reg){
+        // SVG는 좌상단 원점 → py(bottom%) 를 100-py 로 뒤집는다. viewBox 0..100, 박스가 clip.
+        function sy1(j){ return (100-py(j)).toFixed(2); }
+        var y0=reg.a*0+reg.b, yM=reg.a*sMax+reg.b;
+        h+='<svg class="qreg" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="'+px(0).toFixed(2)+'" y1="'+sy1(y0)+'" x2="'+px(sMax).toFixed(2)+'" y2="'+sy1(yM)+'"/></svg>';
+      }
       h+='<span class="qax-y mono">JIF ↑</span><span class="qax-x mono">SJR →</span>';
       journals.forEach(function(v){
         var x=px(v.sjr), y=py(v.if2!=null?v.if2:0);
         h+='<a class="qdot '+esc(String(v.q||'q1').toLowerCase())+'" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" style="left:'+x.toFixed(2)+'%;bottom:'+y.toFixed(2)+'%" title="'+esc(v.name||'')+' · SJR '+esc(v.sjr)+(v.if2!=null?' · 2yr IF '+esc(v.if2):'')+'"><span class="qdot-pt"></span><span class="qdot-lab mono"><b>'+esc(v.label)+'</b> <span class="qdot-n">'+esc(v.sjr)+'/'+esc(v.if2!=null?v.if2:'–')+'</span></span></a>';
       });
       h+='</div>';
+      if(reg){
+        var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b);
+        h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  IF ≈ '+reg.a.toFixed(2)+' · SJR '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+'  <span class="qreg-note">(SJR 1 상승 → 2yr IF '+(reg.a>=0?'+':'')+reg.a.toFixed(2)+' 기대)</span></div>';
+      }
       if(confs.length){
         confs.sort(function(a,b){return (b.h||0)-(a.h||0);});
         var crc={'A*':'as','A':'a','B':'b','C':'c'};
