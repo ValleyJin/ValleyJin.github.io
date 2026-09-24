@@ -835,6 +835,8 @@ img{max-width:100%;display:block}
 .qd-cover{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;height:112px;border-radius:11px;color:#fff;text-align:center;padding:8px}
 .qd-cover.q1{background:linear-gradient(150deg,#e23b3b,#a12626)}.qd-cover.q2{background:linear-gradient(150deg,#f2891e,#b5620f)}.qd-cover.q3{background:linear-gradient(150deg,#5eb3e4,#2f80b5)}.qd-cover.q4{background:linear-gradient(150deg,#9aa0ac,#6b6e78)}
 .qd-logo{width:44px;height:44px;border-radius:9px;background:#fff;padding:5px;object-fit:contain;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.qd-cover.has-cover{padding:0;background:#fff;overflow:hidden}
+.qd-cover-img{width:100%;height:100%;object-fit:cover;display:block}
 .qd-ac{font-size:23px;font-weight:700;letter-spacing:.5px}
 .qd-grp{font-size:10.5px;opacity:.9;line-height:1.25}
 .qd-h{font-size:15.5px;font-weight:600;margin-bottom:9px;color:var(--ink)}

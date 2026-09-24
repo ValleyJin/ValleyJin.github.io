@@ -588,9 +588,11 @@ permalink: /articles/
                   : '회귀선 <b>위</b>(인용 대비 권위 높은 편) — 정통 저널. 파급력 큰 주제로 확장 여지.';
         var pt = (t3? '<b>노려볼 주제</b>: '+esc(t3.slice(0,3).join(', '))+' 계열에 맞닿은 기여가 유리. ' : '')
           + '<b>방법</b>: '+ma+' '+posadv+' 분위 <b>'+esc(q)+'</b>('+qtxt+').';
-        // 썸네일: 저널지 표지는 무료·핫링크 공개 출처가 없어, 홈페이지 출판사 로고(파비콘)를 얹고 실패 시 약칭 타일 폴백
+        // 썸네일: ①Elsevier/ScienceDirect는 ISSN으로 실제 표지(ars.els-cdn) ②그 외는 출판사 로고(파비콘) ③실패 시 약칭 타일
         var _host=''; try{ _host=new URL(v.link).hostname.replace(/^www\./,''); }catch(e){}
         var _logo=(_host && _host.indexOf('scimagojr')<0)?('https://www.google.com/s2/favicons?sz=128&domain='+encodeURIComponent(_host)):'';
+        var _issn8=String(v.issn||'').replace(/[^0-9Xx]/g,'').toUpperCase();
+        var _cover=(_issn8.length===8 && /sciencedirect\.com|elsevier/.test(v.link||''))?('https://ars.els-cdn.com/content/image/X'+_issn8+'.jpg'):'';
         jdet.className='qdetail qd-open';
         jdet.innerHTML='<button type="button" class="qd-x" aria-label="닫기">×</button>'
           +'<div class="qd-cover '+qcl+'">'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">'+esc(v.group||'')+'</span></div>'
@@ -602,6 +604,8 @@ permalink: /articles/
             +'<div class="qd-sec"><span class="qd-lbl mono">공략 포인트</span><p>'+pt+'</p></div>'
           +'</div>';
         jdet.hidden=false;
+        // 실제 표지가 로드되면 타일을 표지 이미지로 교체(비동기, 실패 시 로고/타일 유지)
+        if(_cover){ var _im=new Image(); _im.onload=function(){ var cov=jdet.querySelector('.qd-cover'); if(cov){ cov.classList.add('has-cover'); cov.innerHTML='<img class="qd-cover-img" src="'+esc(_cover)+'" alt="'+esc((v.name||'')+' 표지')+'">'; } }; _im.src=_cover; }
       }
       if(jview){ jview.addEventListener('click',function(e){
         var f=e.target.closest ? e.target.closest('.qfld') : null;
