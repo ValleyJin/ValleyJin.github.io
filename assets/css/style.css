@@ -768,6 +768,7 @@ img{max-width:100%;display:block}
 /* 산점도 확대/축소(커서 중심). .qzoom이 transform 대상 */
 .qplot{touch-action:pan-y}
 .qplot:hover{cursor:zoom-in}
+.qplot.is-pan,.qplot.is-pan *{cursor:grabbing!important}
 
 /* 학력 전공 특화 표기 (tangerine) */
 .deg-spec{color:#f2891e;font-weight:500}

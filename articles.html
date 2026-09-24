@@ -215,6 +215,21 @@ permalink: /articles/
         <div class="mcallout"><div class="mco-title mono" style="color:var(--accent)">읽는 법</div><p style="margin:0;color:var(--ink-soft);font-size:13.5px;line-height:1.7"><b>Q 배지만 보지 말고 SJR·h-index·분야를 함께</b> 보세요. Futures(SJR 1.43)의 Q1은 진짜 강해서지만, JFS(SJR 0.38)의 Q1은 니치 분류 효과입니다 — 같은 "Q1"이라도 무게가 다릅니다. (JFS는 현재 journal로 정식 색인은 돼 있으나 영향력 지표는 약합니다.)</p></div>
       </section>
 
+      <section class="qread" style="margin:20px 0 6px">
+        <div class="section-head" style="margin:0 0 8px"><h2>분위(Q)의 기준은 SJR인가? <span class="mh-sub mono">SCImago SJR vs JCR JIF</span></h2></div>
+        <p class="mnote">이 사이트의 <b>Q1~Q4는 SCImago의 "SJR Best Quartile"</b>입니다 — 한 주제 카테고리 안의 저널을 <b>SJR로 순위 매겨</b> 상위 25%=Q1 … 하위 25%=Q4로 4등분한 값. 즉 <b>분위의 기준 지표는 SJR</b>입니다.</p>
+        <p class="mnote">다만 "Q1"은 <b>DB마다 기준이 다릅니다.</b> 학계에서 통용되는 분위 체계는 둘입니다:</p>
+        <div class="mtable-wrap"><table class="mtable">
+          <thead><tr><th>분위 체계</th><th>운영</th><th>분위 기준 지표</th></tr></thead>
+          <tbody>
+            <tr><td>JCR (Web of Science)</td><td>Clarivate</td><td><b>JIF</b> (Journal Impact Factor)</td></tr>
+            <tr><td><b>Scopus / SCImago</b> ← 이 사이트</td><td>Elsevier</td><td><b>SJR</b> (별도로 CiteScore 분위도 있음)</td></tr>
+          </tbody>
+        </table></div>
+        <p class="mnote">많은 분야·기관(특히 국내 SCI/JCR 관행)에서 "Q1 저널"은 보통 <b>JCR의 JIF 기준 분위</b>를 뜻합니다. 이 사이트는 <b>SCImago의 SJR 기준 분위</b>를 쓰므로, <b>같은 저널도 두 체계의 분위가 다를 수 있습니다</b>(JCR Q1인데 SCImago Q2, 혹은 반대).</p>
+        <div class="mcallout"><div class="mco-title mono" style="color:var(--accent)">왜 SCImago(SJR)?</div><p style="margin:0;color:var(--ink-soft);font-size:13.5px;line-height:1.7">JCR의 JIF·분위는 <b>구독 전용(유료)</b>이라 무료 자동 수집이 불가합니다. SCImago는 전체 랭크를 무료 CSV로 공개해 <b>하드코딩 없이 매 갱신 자동 반영</b>이 가능한 유일한 선택이었습니다. 그래서 이 사이트의 모든 Q 배지 = <b>SCImago SJR 분위</b>입니다.</p></div>
+      </section>
+
       <p class="mlead">논문 "수준"은 하나의 숫자가 아니라 <b>세 수준</b>로 나눠서 봅니다 — 어디에 실렸나(저널·학회), 그 논문 자체가 얼마나 인정받나(논문), 저자의 누적 실적(저자). Q1~Q4는 그중 <b>저널 수준</b> 지표입니다. 아래 표의 "확인"은 무료로 값을 볼 수 있는 곳입니다.</p>
 
       <div class="section-head" style="margin:26px 0 8px"><h2>1 · 저널·학회 수준 <span class="mh-sub mono">어디에 실렸나</span></h2></div>
@@ -388,7 +403,7 @@ permalink: /articles/
         jFullX=jMax; jFullY=sMax;
         if(!keepView || !jVR) jVR={x0:0,x1:jMax,y0:0,y1:sMax};   // 필터 변경 시 전체로 리셋, 줌 시 유지
         var h='<div class="qjbar">'+JGROUPS.map(function(g){ return '<button type="button" class="qfld'+(jsel[g]?' is-on':'')+'" data-grp="'+esc(g)+'" aria-pressed="'+(jsel[g]?'true':'false')+'">'+esc(g)+'</button>'; }).join('')+'</div>';
-        h+='<div class="qleg mono">'+['q1','q2','q3','q4'].map(function(qq){ var Q=qq.toUpperCase(); return '<button type="button" class="qleg-q'+(qsel[Q]?'':' is-off')+'" data-q="'+Q+'" aria-pressed="'+(qsel[Q]?'true':'false')+'"><span class="qleg-d '+qq+'"></span>'+Q+'</button>'; }).join('')+'<span class="qleg-note">점 크기 = 논문 수</span></div>';
+        h+='<div class="qleg mono">'+['q1','q2','q3','q4'].map(function(qq){ var Q=qq.toUpperCase(); return '<button type="button" class="qleg-q'+(qsel[Q]?'':' is-off')+'" data-q="'+Q+'" aria-pressed="'+(qsel[Q]?'true':'false')+'"><span class="qleg-d '+qq+'"></span>'+Q+'</button>'; }).join('')+'<span class="qleg-note">점 크기 = 논문 수 · 휠·핀치 확대, 확대 후 드래그로 이동, 더블클릭 리셋</span></div>';
         var jpts=jr.map(function(v){ var ify=(v.if2!=null?v.if2:0); return {x:ify,y:v.sjr,label:v.label,link:v.link,
           cls:String(v.q||'q1').toLowerCase(), r:bub(v.works,jwMax), num:(v.if2!=null?v.if2:'–')+'/'+v.sjr, out:excl.indexOf(v.label)>=0,   // IF/SJR(축 순서)
           below:(reg && excl.indexOf(v.label)<0 && v.sjr < reg.a*ify+reg.b),   // 회귀선 아래(질 낮음) → 라벨 아래로
@@ -453,16 +468,37 @@ permalink: /articles/
         if(nx1-nx0<jFullX*0.03 || ny1-ny0<jFullY*0.03) return;   // 최대 확대 제한
         jVR={x0:nx0,x1:nx1,y0:ny0,y1:ny1}; jview.innerHTML=buildJ(true);
       }
+      var _zoomed=function(){ return !!jVR && (jVR.x1-jVR.x0 < jFullX*0.985 || jVR.y1-jVR.y0 < jFullY*0.985); };
+      /* 팬: 화면 %-이동을 데이터 좌표로 환산해 view를 통째로 평행이동(폭 유지). 커서를 따라 내용이 움직임 */
+      function _panBy(mdxp, mdyp){   // mdxp,mdyp: 커서의 %-이동량 (x=오른쪽+, y=위쪽+)
+        if(!jVR) return; var v=jVR, w=v.x1-v.x0, h=v.y1-v.y0;
+        var ddx=mdxp/(100-PX-6)*w, ddy=mdyp/(100-PY-8)*h;   // 데이터 이동량
+        var nx0=v.x0-ddx, ny0=v.y0-ddy;                     // 내용이 커서를 따라가려면 view는 반대로
+        nx0=Math.max(0,Math.min(jFullX*1.03-w,nx0)); ny0=Math.max(0,Math.min(jFullY*1.05-h,ny0));
+        jVR={x0:nx0,x1:nx0+w,y0:ny0,y1:ny0+h}; jview.innerHTML=buildJ(true);
+      }
       el.addEventListener('wheel',function(e){ var plot=_jplot(e.target); if(!plot) return; e.preventDefault();
         var r=plot.getBoundingClientRect(); _dz((e.clientX-r.left)/r.width*100, (1-(e.clientY-r.top)/r.height)*100, Math.exp(-e.deltaY*0.0016)); },{passive:false});
       el.addEventListener('dblclick',function(e){ if(!_jplot(e.target)) return; jVR=null; jview.innerHTML=buildJ(); });
-      var _pn=null;
-      el.addEventListener('touchstart',function(e){ if(e.touches.length!==2) return; var plot=_jplot(e.target); if(!plot) return;
-        var r=plot.getBoundingClientRect(),a=e.touches[0],b=e.touches[1];
-        _pn={d:Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY),cx:((a.clientX+b.clientX)/2-r.left)/r.width*100,cy:(1-((a.clientY+b.clientY)/2-r.top)/r.height)*100}; },{passive:false});
-      el.addEventListener('touchmove',function(e){ if(!_pn||e.touches.length!==2) return; e.preventDefault();
-        var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.cx,_pn.cy,d/_pn.d); _pn.d=d; },{passive:false});
-      el.addEventListener('touchend',function(e){ if(e.touches.length<2) _pn=null; });
+      /* 마우스 드래그 팬(확대 상태에서만) */
+      var _drag=null;
+      el.addEventListener('mousedown',function(e){ if(e.button!==0) return; var plot=_jplot(e.target); if(!plot||!_zoomed()) return;
+        e.preventDefault(); var r=plot.getBoundingClientRect(); _drag={x:e.clientX,y:e.clientY,w:r.width,h:r.height,moved:0}; plot.classList.add('is-pan'); });
+      window.addEventListener('mousemove',function(e){ if(!_drag) return;
+        var mdxp=(e.clientX-_drag.x)/_drag.w*100, mdyp=-(e.clientY-_drag.y)/_drag.h*100;   // 화면 y는 아래로+ → 부호 반전
+        _drag.moved+=Math.abs(e.clientX-_drag.x)+Math.abs(e.clientY-_drag.y); _drag.x=e.clientX; _drag.y=e.clientY; _panBy(mdxp,mdyp); });
+      window.addEventListener('mouseup',function(){ if(!_drag) return; var p=jview.querySelector('.qplot.is-pan'); if(p) p.classList.remove('is-pan'); _drag=null; });
+      var _pn=null, _pan1=null;
+      el.addEventListener('touchstart',function(e){ var plot=_jplot(e.target); if(!plot) return;
+        var r=plot.getBoundingClientRect();
+        if(e.touches.length===2){ var a=e.touches[0],b=e.touches[1];
+          _pn={d:Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY),cx:((a.clientX+b.clientX)/2-r.left)/r.width*100,cy:(1-((a.clientY+b.clientY)/2-r.top)/r.height)*100}; _pan1=null; }
+        else if(e.touches.length===1 && _zoomed()){ var t=e.touches[0]; _pan1={x:t.clientX,y:t.clientY,w:r.width,h:r.height}; } },{passive:false});
+      el.addEventListener('touchmove',function(e){
+        if(_pn && e.touches.length===2){ e.preventDefault(); var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.cx,_pn.cy,d/_pn.d); _pn.d=d; }
+        else if(_pan1 && e.touches.length===1){ e.preventDefault(); var t=e.touches[0];
+          _panBy((t.clientX-_pan1.x)/_pan1.w*100, -(t.clientY-_pan1.y)/_pan1.h*100); _pan1.x=t.clientX; _pan1.y=t.clientY; } },{passive:false});
+      el.addEventListener('touchend',function(e){ if(e.touches.length<2) _pn=null; if(e.touches.length<1) _pan1=null; });
     })();
   </script>
   <script>
@@ -511,7 +547,7 @@ permalink: /articles/
       var cm=st.sel.split('-'); var cur=new Date(+cm[0], +cm[1]-1, 1);
       function filtered(){ return st.topic==='All'?papers:papers.filter(function(p){return p.topic===st.topic;}); }
       function byDate(){ var m={}; filtered().forEach(function(p){ (m[p.date]=m[p.date]||[]).push(p); }); return m; }
-      function qBadge(q){ return q?'<span class="qbadge '+esc(String(q).toLowerCase())+'" title="SCImago journal quartile">'+esc(q)+'</span>':''; }
+      function qBadge(q){ return q?'<span class="qbadge '+esc(String(q).toLowerCase())+'" title="SCImago SJR 분위 (Q1~Q4)">'+esc(q)+'</span>':''; }
       var _crc={'A*':'as','A':'a','B':'b','C':'c'};
       function cBadge(r){ if(!r) return ''; return '<span class="cbadge c-'+(_crc[r]||'a')+'" title="CORE conference rank">'+esc(r)+'</span>'; }
       function vBadge(p){ return p.q?qBadge(p.q):(p.crank?cBadge(p.crank):''); }   // 저널=Q, 학회=CORE등급 (같은 자리)
