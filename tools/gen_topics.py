@@ -398,6 +398,23 @@ def conf_rank(venue, core, topic=None):
     return {}
 
 
+# 등급이 원래 없는 매체 = 의도적 N/A(preprint·워크숍·초록·학위·기관/리포지토리). 이걸 'N/A'로,
+# 정상 저널/학회 모양인데 미매칭인 것은 blank로 남겨 '진짜 누락'을 눈에 띄게 한다.
+_NA_PAT = re.compile(
+    r"(arxiv|preprint|biorxiv|medrxiv|working paper|\bworkshop\b|extended abstract|"
+    r"\bthesis\b|dissertation|technical report|\btech report\b|digital commons|knowledge commons|"
+    r"\bssrn\b|zenodo|figshare|researchgate|osf\.io|\bhal-\d|\buniversity\b|\binstitute\b|"
+    r"\bproquest\b|repository|habilitation)", re.I)
+
+
+def na_venue(venue):
+    """등급이 원래 존재하지 않는 매체인가(의도적 N/A). venue가 없으면(워킹페이퍼) True."""
+    v = (venue or "").strip()
+    if not v:
+        return True
+    return bool(_NA_PAT.search(v))
+
+
 # CS 학회는 OpenAlex 약칭 검색이 부정확 → 정식명으로 조회
 CONF_FULLNAME = {
     "NeurIPS": "Neural Information Processing Systems",
@@ -625,6 +642,8 @@ def main():
                 _np.update(quality(w, scimago))   # FWCI·백분위·저널 분위(Q)·SJR
                 if "q" not in _np:                 # 저널 분위 없으면(학회 등) CORE 등급 시도
                     _np.update(conf_rank(venue, core, label))
+                if "q" not in _np and "crank" not in _np and na_venue(venue):
+                    _np["nr"] = "na"               # 등급 원래 없는 매체 → N/A(누락과 구분)
                 newest.append(_np)
                 kept += 1
                 if kept >= newest_per_month:                 # 토픽×달마다 상위 K편만
@@ -665,6 +684,8 @@ def main():
             paper.update(quality(w, scimago))   # FWCI·백분위·저널 분위(Q)·SJR
             if "q" not in paper:
                 paper.update(conf_rank(venue, core, label))   # 학회 등급(CORE)
+            if "q" not in paper and "crank" not in paper and na_venue(venue):
+                paper["nr"] = "na"
             arr.append(paper)
             tl = title.lower()
             if qwords and all(qw in tl for qw in qwords):   # 제목에 키워드 전부 포함 = 확실히 주제
@@ -742,6 +763,8 @@ def main():
             p.update(scholar_q(pub, scimago))   # 저널 분위(Q)·SJR (venue 이름 매칭)
             if "q" not in p:                    # 저널 아니면 학회 CORE 등급 시도
                 p.update(conf_rank(pub, core))
+            if "q" not in p and "crank" not in p and na_venue(pub):
+                p["nr"] = "na"                  # preprint·워크숍·기관 등 = N/A(누락과 구분)
             return p
 
         def _yr(v):

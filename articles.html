@@ -144,7 +144,7 @@ permalink: /articles/
                     <span class="pt">{{ p.title }}</span>
                     <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b></span>{% endif %}
                   </a>
-                  <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
+                  <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% elsif p.nr == 'na' %}<span class="nabadge" title="등급 없는 매체 (누락 아님)">N/A</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
                 </li>
                 {% endfor %}
               </ul>
@@ -159,7 +159,7 @@ permalink: /articles/
                 <span class="pt">{{ p.title }}</span>
                 <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b></span>{% endif %}
               </a>
-              <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
+              <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% elsif p.nr == 'na' %}<span class="nabadge" title="등급 없는 매체 (누락 아님)">N/A</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
             </li>
             {% endfor %}
           </ul>
@@ -286,16 +286,16 @@ permalink: /articles/
       if(!journals.length && !confs.length){ return; }
       var zones=['Q4','Q3','Q2','Q1'], byz={Q1:[],Q2:[],Q3:[],Q4:[]};
       journals.forEach(function(v){ (byz[v.q]||byz.Q1).push(v); });
-      zones.forEach(function(z){ byz[z].sort(function(a,b){return (a.sjr||0)-(b.sjr||0);}); });   // 아래(BASE)부터 쌓으므로 오름차순 정렬 → 위가 SJR 최고(내림차순 표시)
+      zones.forEach(function(z){ byz[z].sort(function(a,b){return (a.sjr||0)-(b.sjr||0);}); });   // 아래(BASE)부터 쌓으므로 오름차순 → 위가 SJR 최고(내림차순 표시)
       var maxStack=Math.max(1,byz.Q1.length,byz.Q2.length,byz.Q3.length,byz.Q4.length);
       var STEP=30, BASE=34, trackH=BASE+maxStack*STEP+6;
-      var h='<div class="qmap-head mono">내 관심 학회·저널 품질 지형도 <span class="qmap-sub">SCImago 분위(Q4→Q1) 위에 저널 배치 · 학회는 분위 없음</span></div>';
+      var h='<div class="qmap-head mono">내 관심 학회·저널 품질 지형도 <span class="qmap-sub">SCImago 분위(Q4→Q1)에 SJR순 배치 · 괄호=2yr IF(보조) · 학회는 CORE 등급</span></div>';
       h+='<div class="qmap-track" style="height:'+trackH+'px">';
       zones.forEach(function(z){ h+='<div class="qz '+z.toLowerCase()+'"><span class="qz-lab mono">'+z+'</span></div>'; });
       zones.forEach(function(z,zi){
         var cx=(zi+0.5)*25;
         byz[z].forEach(function(v,i){
-          h+='<a class="qpin '+z.toLowerCase()+'" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" style="left:'+cx+'%;bottom:'+(BASE+i*STEP)+'px" title="'+esc(v.name||'')+(v.sjr!=null?' · SJR '+esc(v.sjr):'')+'">'+esc(v.label)+(v.sjr!=null?'<span class="qpin-sjr">'+esc(v.sjr)+'</span>':'')+'</a>';
+          h+='<a class="qpin '+z.toLowerCase()+'" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" style="left:'+cx+'%;bottom:'+(BASE+i*STEP)+'px" title="'+esc(v.name||'')+(v.sjr!=null?' · SJR '+esc(v.sjr):'')+(v.if2!=null?' · 2yr IF '+esc(v.if2):'')+'">'+esc(v.label)+(v.sjr!=null?'<span class="qpin-sjr">'+esc(v.sjr)+'</span>':'')+(v.if2!=null?'<span class="qpin-if">('+esc(v.if2)+')</span>':'')+'</a>';
         });
       });
       h+='</div>';
@@ -356,6 +356,7 @@ permalink: /articles/
       var _crc={'A*':'as','A':'a','B':'b','C':'c'};
       function cBadge(r){ if(!r) return ''; return '<span class="cbadge c-'+(_crc[r]||'a')+'" title="CORE conference rank">'+esc(r)+'</span>'; }
       function vBadge(p){ return p.q?qBadge(p.q):(p.crank?cBadge(p.crank):''); }   // 저널=Q, 학회=CORE등급 (같은 자리)
+      function naBadge(p){ return (p.nr==='na')?'<span class="nabadge" title="등급 없는 매체 · preprint/워크숍/기관 (누락 아님)">N/A</span>':''; }
       // 논문 수준 정보(인라인): venue 다음 줄에 바로 표시. 우측 배지와 중복되는 Q는 생략.
       function pqmLine(p){
         var m=[];
@@ -371,7 +372,7 @@ permalink: /articles/
             '<span class="pmeta">'+(st.topic==='All'?'<b style="color:var(--accent)">'+esc(p.topic)+'</b> · ':'')+esc(p.authors)+' ('+esc(p.year)+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span>'+
             pqmLine(p)+
           '</a>'+
-          '<span class="pcite">'+(vBadge(p)?vBadge(p)+' ':'')+'cited by <b>'+(p.cites||0)+'</b></span></li>';
+          '<span class="pcite">'+(vBadge(p)?vBadge(p)+' ':(naBadge(p)?naBadge(p)+' ':''))+'cited by <b>'+(p.cites||0)+'</b></span></li>';
       }
       var vinfo={}; try{ vinfo=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){}
       var viEl=document.getElementById('venue-info');
