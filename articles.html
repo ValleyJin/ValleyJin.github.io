@@ -197,6 +197,23 @@ permalink: /articles/
         <div class="mcallout"><div class="mco-title mono" style="color:var(--accent)">그래서 outlier</div><p style="margin:0;color:var(--ink-soft);font-size:13.5px;line-height:1.7">나머지 저널은 "SJR이 높을수록 IF도 높다"는 회귀선(IF ≈ 0.69·SJR + 2.65)을 따르는데 <b>TFSC만 이 관계가 깨져</b> 통계적 outlier로 잡힙니다. 위 산점도가 <b>SJR과 IF가 어긋나는 저널</b>을 시각적으로 집어낸 셈입니다.</p></div>
       </section>
 
+      <section class="qread" style="margin:20px 0 6px">
+        <div class="section-head" style="margin:0 0 8px"><h2>'Q1'이 항상 강함은 아니다 <span class="mh-sub mono">니치 카테고리 착시 — JFS 사례</span></h2></div>
+        <p class="mnote">분위(Q)는 <b>분야 내 상대순위</b>라, SCImago는 한 저널이 속한 여러 카테고리 중 <b>가장 좋게 나오는 것</b>을 "Best Quartile"로 표시합니다. 인용 밀도가 낮은 <b>니치 카테고리</b>에 묶이면, 절대 지표가 약해도 그 좁은 풀의 상위 25%가 되어 Q1이 찍힙니다.</p>
+        <p class="mnote"><b>Journal of Futures Studies</b>(대만 Tamkang University) 예시 — 절대 지표는 전부 바닥권인데 배지는 Q1입니다:</p>
+        <div class="mtable-wrap"><table class="mtable">
+          <thead><tr><th>지표 / 분류</th><th>값</th><th>해석</th></tr></thead>
+          <tbody>
+            <tr><td>SJR</td><td>0.38</td><td>매우 낮음</td></tr>
+            <tr><td>h-index</td><td>14</td><td>낮음</td></tr>
+            <tr><td>2yr 피인용</td><td>≈ 0</td><td>거의 인용 안 됨</td></tr>
+            <tr><td>History &amp; Philosophy of Science</td><td><span class="qbadge q1">Q1</span></td><td>이 니치 분류에서만 Q1</td></tr>
+            <tr><td>Development</td><td><span class="qbadge q2">Q2</span></td><td>실질 분야에선 Q2</td></tr>
+          </tbody>
+        </table></div>
+        <div class="mcallout"><div class="mco-title mono" style="color:var(--accent)">읽는 법</div><p style="margin:0;color:var(--ink-soft);font-size:13.5px;line-height:1.7"><b>Q 배지만 보지 말고 SJR·h-index·분야를 함께</b> 보세요. Futures(SJR 1.43)의 Q1은 진짜 강해서지만, JFS(SJR 0.38)의 Q1은 니치 분류 효과입니다 — 같은 "Q1"이라도 무게가 다릅니다. (JFS는 현재 journal로 정식 색인은 돼 있으나 영향력 지표는 약합니다.)</p></div>
+      </section>
+
       <p class="mlead">논문 "수준"은 하나의 숫자가 아니라 <b>세 수준</b>로 나눠서 봅니다 — 어디에 실렸나(저널·학회), 그 논문 자체가 얼마나 인정받나(논문), 저자의 누적 실적(저자). Q1~Q4는 그중 <b>저널 수준</b> 지표입니다. 아래 표의 "확인"은 무료로 값을 볼 수 있는 곳입니다.</p>
 
       <div class="section-head" style="margin:26px 0 8px"><h2>1 · 저널·학회 수준 <span class="mh-sub mono">어디에 실렸나</span></h2></div>
@@ -446,10 +463,12 @@ permalink: /articles/
       }
       var vinfo={}; try{ vinfo=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){}
       var viEl=document.getElementById('venue-info');
+      var viOpen=true;   // 학회/저널 정보 드롭다운 열림 상태(같은 칩 재클릭 시 토글)
       function renderVenueInfo(){
         if(!viEl) return;
         var v=vinfo[st.topic];
         if(!v){ viEl.hidden=true; viEl.innerHTML=''; return; }
+        if(!viOpen){ viEl.hidden=true; return; }   // 토글로 닫힌 상태
         function qb(q){ return '<span class="qbadge '+esc(String(q).toLowerCase())+'">'+esc(q)+'</span>'; }
         var chips=[];
         if(v.q) chips.push(qb(v.q)); else if(v.crank) chips.push(cBadge(v.crank)+'<span class="vi-hint" style="margin-left:3px">CORE</span>');
@@ -482,8 +501,10 @@ permalink: /articles/
         }
         tabsEl.innerHTML=_html;
         [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){
+          var tp=b.dataset.topic;
+          if(tp===st.topic && vinfo[tp]){ viOpen=!viOpen; renderVenueInfo(); return; }   // 같은 학회/저널 재클릭 → 드롭다운 토글
           setMode('topics');
-          st.topic=b.dataset.topic;
+          st.topic=tp; viOpen=true;
           var fd=filtered().map(function(p){return p.date;}).sort();   // 새 토픽에 선택일 논문이 없으면 그 토픽 최신일로
           if(fd.length && filtered().every(function(p){return p.date!==st.sel;})){ st.sel=fd[fd.length-1]; cm=st.sel.split('-'); cur=new Date(+cm[0], +cm[1]-1, 1); }
           renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM(); renderVenueInfo();
