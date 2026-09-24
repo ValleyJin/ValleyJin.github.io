@@ -222,6 +222,15 @@ def load_scimago():
     return {"issn": m, "title": tmap}
 
 
+def _qcat(e):
+    """분위(Q)는 분야 상대순위 → 그 Q를 준 카테고리명(같은 Q 여럿이면 첫 번째)."""
+    q = (e or {}).get("q")
+    for c in (e or {}).get("cats") or []:
+        if c[1] == q:
+            return c[0]
+    return None
+
+
 def quality(w, sci):
     """OpenAlex work → 품질지표: FWCI, 인용 백분위(Top 1/10%), 저널 분위(Q)·SJR."""
     out = {}
@@ -246,6 +255,9 @@ def quality(w, sci):
             out["q"] = issn[k]["q"]
             if issn[k].get("sjr") is not None:
                 out["sjr"] = issn[k]["sjr"]
+            qc = _qcat(issn[k])
+            if qc:
+                out["qcat"] = qc
             break
     return out
 
@@ -301,6 +313,9 @@ def scholar_q(pub, sci):
             out = {"q": e["q"]}
             if e.get("sjr") is not None:
                 out["sjr"] = e["sjr"]
+            qc = _qcat(e)
+            if qc:
+                out["qcat"] = qc
             return out
     return {}
 
@@ -425,6 +440,9 @@ def build_vidx(vmeta):
             b = {"q": v["q"]}
             if v.get("sjr") is not None:
                 b["sjr"] = v["sjr"]
+            qc = _qcat({"q": v["q"], "cats": v.get("cats")})
+            if qc:
+                b["qcat"] = qc
         elif v.get("type") == "conference" and v.get("crank"):
             b = {"crank": v["crank"]}
         if not b:

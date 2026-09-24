@@ -142,7 +142,7 @@ permalink: /articles/
                 <li class="pub-row">
                   <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
                     <span class="pt">{{ p.title }}</span>
-                    <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b></span>{% endif %}
+                    <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b>{% if p.qcat %}<span class="pqm-sep">·</span><span class="pqm-cat">{{ p.qcat }} <b>{{ p.q }}</b></span>{% endif %}</span>{% endif %}
                   </a>
                   <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% elsif p.nr == 'na' %}<span class="nabadge" title="등급 없는 매체 (누락 아님)">N/A</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
                 </li>
@@ -157,7 +157,7 @@ permalink: /articles/
             <li class="pub-row">
               <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
                 <span class="pt">{{ p.title }}</span>
-                <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b></span>{% endif %}
+                <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b>{% if p.qcat %}<span class="pqm-sep">·</span><span class="pqm-cat">{{ p.qcat }} <b>{{ p.q }}</b></span>{% endif %}</span>{% endif %}
               </a>
               <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% elsif p.nr == 'na' %}<span class="nabadge" title="등급 없는 매체 (누락 아님)">N/A</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
             </li>
@@ -448,6 +448,7 @@ permalink: /articles/
       function pqmLine(p){
         var m=[];
         if(p.sjr!=null) m.push('SJR <b>'+esc(p.sjr)+'</b>');
+        if(p.qcat) m.push('<span class="pqm-cat">'+esc(p.qcat)+(p.q?' <b>'+esc(p.q)+'</b>':'')+'</span>');
         if(p.fwci!=null) m.push('FWCI <b>'+esc(p.fwci)+'</b><span class="pqm-hint">vs field avg 1.0</span>');
         if(p.pct) m.push('<span class="pqm-top">Top '+esc(p.pct)+'%</span>');
         return m.length ? '<span class="pqm mono">'+m.join('<span class="pqm-sep">·</span>')+'</span>' : '';

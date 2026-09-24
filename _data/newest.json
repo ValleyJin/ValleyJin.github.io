@@ -120,7 +120,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.43,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Energy Engineering and Power Technology"
     },
     {
       "date": "2026-09-23",
@@ -135,7 +136,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-23",
@@ -150,7 +152,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-22",
@@ -165,7 +168,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.65,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-09-22",
@@ -179,7 +183,8 @@
       "fwci": 0.0,
       "q": "Q4",
       "sjr": 0.18,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-22",
@@ -193,7 +198,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.87,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-22",
@@ -208,7 +214,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.67,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-22",
@@ -222,7 +229,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.63,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Urban Studies"
     },
     {
       "date": "2026-09-22",
@@ -237,7 +245,8 @@
       "pct": 10,
       "q": "Q4",
       "sjr": 0.11,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-09-22",
@@ -251,7 +260,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.12,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-22",
@@ -266,7 +276,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.84,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-09-22",
@@ -296,7 +307,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 5.99,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Theoretical Computer Science"
     },
     {
       "date": "2026-09-22",
@@ -310,7 +322,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.89,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-22",
@@ -354,7 +367,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.7,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-22",
@@ -368,7 +382,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-22",
@@ -382,7 +397,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.44,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Building and Construction"
     },
     {
       "date": "2026-09-22",
@@ -397,7 +413,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.62,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Electrical and Electronic Engineering"
     },
     {
       "date": "2026-09-22",
@@ -411,7 +428,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.54,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-09-22",
@@ -425,7 +443,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.45,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Agronomy and Crop Science"
     },
     {
       "date": "2026-09-22",
@@ -466,7 +485,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.47,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Electrical and Electronic Engineering"
     },
     {
       "date": "2026-09-22",
@@ -481,7 +501,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 5.68,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-09-22",
@@ -523,7 +544,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.62,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Electrical and Electronic Engineering"
     },
     {
       "date": "2026-09-22",
@@ -566,7 +588,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.5,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Linguistics and Language"
     },
     {
       "date": "2026-09-22",
@@ -595,7 +618,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-22",
@@ -624,7 +648,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.57,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-09-22",
@@ -639,7 +664,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.84,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-09-22",
@@ -668,7 +694,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.36,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Law"
     },
     {
       "date": "2026-09-22",
@@ -711,7 +738,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-22",
@@ -726,7 +754,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.71,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Computational Mathematics"
     },
     {
       "date": "2026-09-22",
@@ -741,7 +770,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.7,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-22",
@@ -755,7 +785,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.91,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-22",
@@ -769,7 +800,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.48,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-22",
@@ -810,7 +842,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.17,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Pharmaceutical Science"
     },
     {
       "date": "2026-09-22",
@@ -824,7 +857,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.51,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Civil and Structural Engineering"
     },
     {
       "date": "2026-09-22",
@@ -838,7 +872,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.61,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-09-22",
@@ -866,7 +901,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.79,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Electrical and Electronic Engineering"
     },
     {
       "date": "2026-09-22",
@@ -894,7 +930,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.72,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Industrial and Manufacturing Engineering"
     },
     {
       "date": "2026-09-22",
@@ -909,7 +946,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-21",
@@ -923,7 +961,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.07,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Atomic and Molecular Physics, and Optics"
     },
     {
       "date": "2026-09-21",
@@ -952,7 +991,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-21",
@@ -967,7 +1007,8 @@
       "pct": 10,
       "q": "Q4",
       "sjr": 0.23,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-21",
@@ -982,7 +1023,8 @@
       "pct": 10,
       "q": "Q4",
       "sjr": 0.23,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-21",
@@ -1010,7 +1052,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.94,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Ophthalmology"
     },
     {
       "date": "2026-09-21",
@@ -1025,7 +1068,8 @@
       "pct": 10,
       "q": "Q4",
       "sjr": 0.23,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-21",
@@ -1054,7 +1098,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.65,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-09-21",
@@ -1068,7 +1113,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.62,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Electrical and Electronic Engineering"
     },
     {
       "date": "2026-09-21",
@@ -1083,7 +1129,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-21",
@@ -1097,7 +1144,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.51,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Hematology"
     },
     {
       "date": "2026-09-21",
@@ -1112,7 +1160,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-21",
@@ -1183,7 +1232,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.33,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Discrete Mathematics and Combinatorics"
     },
     {
       "date": "2026-09-21",
@@ -1197,7 +1247,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.07,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Atomic and Molecular Physics, and Optics"
     },
     {
       "date": "2026-09-21",
@@ -1211,7 +1262,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.2,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-09-21",
@@ -1225,7 +1277,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.01,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Atomic and Molecular Physics, and Optics"
     },
     {
       "date": "2026-09-21",
@@ -1239,7 +1292,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-21",
@@ -1282,7 +1336,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.93,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-21",
@@ -1296,7 +1351,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.2,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-09-21",
@@ -1339,7 +1395,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-20",
@@ -1368,7 +1425,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-20",
@@ -1383,7 +1441,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.06,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-20",
@@ -1398,7 +1457,8 @@
       "pct": 10,
       "added": "2026-09-20",
       "q": "Q3",
-      "sjr": 0.26
+      "sjr": 0.26,
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-20",
@@ -1413,7 +1473,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.28,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Developmental and Educational Psychology"
     },
     {
       "date": "2026-09-20",
@@ -1427,7 +1488,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.25,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Finance"
     },
     {
       "date": "2026-09-20",
@@ -1441,7 +1503,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.9,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-20",
@@ -1456,7 +1519,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-20",
@@ -1470,7 +1534,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.25,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Finance"
     },
     {
       "date": "2026-09-20",
@@ -1485,7 +1550,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-20",
@@ -1514,7 +1580,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-20",
@@ -1529,7 +1596,8 @@
       "pct": 10,
       "q": "Q4",
       "sjr": 0.1,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-20",
@@ -1544,7 +1612,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-20",
@@ -1559,7 +1628,8 @@
       "pct": 10,
       "q": "Q4",
       "sjr": 0.1,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-20",
@@ -1589,7 +1659,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 9.77,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-20",
@@ -1604,7 +1675,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.36,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-20",
@@ -1619,7 +1691,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.36,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-19",
@@ -1633,7 +1706,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.14,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Developmental and Educational Psychology"
     },
     {
       "date": "2026-09-19",
@@ -1661,7 +1735,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.2,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Theoretical Computer Science"
     },
     {
       "date": "2026-09-19",
@@ -1675,7 +1750,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-19",
@@ -1690,7 +1766,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-19",
@@ -1705,7 +1782,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.11,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Development"
     },
     {
       "date": "2026-09-19",
@@ -1734,7 +1812,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-19",
@@ -1762,7 +1841,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.44,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Building and Construction"
     },
     {
       "date": "2026-09-19",
@@ -1777,7 +1857,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-19",
@@ -1805,7 +1886,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.31,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-19",
@@ -1820,7 +1902,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-19",
@@ -1835,7 +1918,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.66,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Modeling and Simulation"
     },
     {
       "date": "2026-09-19",
@@ -1849,7 +1933,8 @@
       "fwci": 0.0,
       "added": "2026-09-19",
       "q": "Q2",
-      "sjr": 0.62
+      "sjr": 0.62,
+      "qcat": "Condensed Matter Physics"
     },
     {
       "date": "2026-09-19",
@@ -1878,7 +1963,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-19",
@@ -1893,7 +1979,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.56,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-09-18",
@@ -1923,7 +2010,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-18",
@@ -1938,7 +2026,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-18",
@@ -1953,7 +2042,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.18,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-18",
@@ -1982,7 +2072,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 2.75,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Strategy and Management"
     },
     {
       "date": "2026-09-18",
@@ -1996,7 +2087,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.1,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-18",
@@ -2011,7 +2103,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.84,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-18",
@@ -2040,7 +2133,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.01,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-18",
@@ -2054,7 +2148,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.47,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Computational Theory and Mathematics"
     },
     {
       "date": "2026-09-18",
@@ -2069,7 +2164,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-09-18",
@@ -2084,7 +2180,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-09-18",
@@ -2099,7 +2196,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-18",
@@ -2114,7 +2212,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-18",
@@ -2129,7 +2228,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-18",
@@ -2144,7 +2244,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-18",
@@ -2159,7 +2260,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-18",
@@ -2174,7 +2276,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-18",
@@ -2189,7 +2292,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-18",
@@ -2204,7 +2308,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-17",
@@ -2219,7 +2324,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.54,
-      "added": "2026-09-17"
+      "added": "2026-09-17",
+      "qcat": "Media Technology"
     },
     {
       "date": "2026-09-17",
@@ -2247,7 +2353,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.01,
-      "added": "2026-09-17"
+      "added": "2026-09-17",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-17",
@@ -2262,7 +2369,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.18,
-      "added": "2026-09-17"
+      "added": "2026-09-17",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-17",
@@ -2277,7 +2385,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-17"
+      "added": "2026-09-17",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-17",
@@ -2292,7 +2401,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-17"
+      "added": "2026-09-17",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-17",
@@ -2307,7 +2417,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-17"
+      "added": "2026-09-17",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-17",
@@ -2321,7 +2432,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-09-17"
+      "added": "2026-09-17",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-17",
@@ -2336,7 +2448,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-09-17"
+      "added": "2026-09-17",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-17",
@@ -2365,7 +2478,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-17",
@@ -2380,7 +2494,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.36,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-17",
@@ -2395,7 +2510,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.36,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-16",
@@ -2410,7 +2526,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.4,
-      "added": "2026-09-16"
+      "added": "2026-09-16",
+      "qcat": "Atmospheric Science"
     },
     {
       "date": "2026-09-16",
@@ -2476,7 +2593,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-16"
+      "added": "2026-09-16",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-16",
@@ -2534,7 +2652,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-15",
@@ -2549,7 +2668,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-15"
+      "added": "2026-09-15",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-15",
@@ -2564,7 +2684,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-15"
+      "added": "2026-09-15",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-15",
@@ -2579,7 +2700,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-15"
+      "added": "2026-09-15",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-15",
@@ -2594,7 +2716,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-09-15"
+      "added": "2026-09-15",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-15",
@@ -2622,7 +2745,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-15",
@@ -2637,7 +2761,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 10.78,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-14",
@@ -2651,7 +2776,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-14"
+      "added": "2026-09-14",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-14",
@@ -2665,7 +2791,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-14"
+      "added": "2026-09-14",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-14",
@@ -2680,7 +2807,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-14"
+      "added": "2026-09-14",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-14",
@@ -2695,7 +2823,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-13",
@@ -2710,7 +2839,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-13"
+      "added": "2026-09-13",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-12",
@@ -2724,7 +2854,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-12"
+      "added": "2026-09-12",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-12",
@@ -2738,7 +2869,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-12"
+      "added": "2026-09-12",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-11",
@@ -2752,7 +2884,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-11"
+      "added": "2026-09-11",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-11",
@@ -2766,7 +2899,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.81,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Finance"
     },
     {
       "date": "2026-09-10",
@@ -2780,7 +2914,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-10"
+      "added": "2026-09-10",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-10",
@@ -2794,7 +2929,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-09",
@@ -2808,7 +2944,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-09"
+      "added": "2026-09-09",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-09",
@@ -2822,7 +2959,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-09"
+      "added": "2026-09-09",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-09",
@@ -2837,7 +2975,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-09"
+      "added": "2026-09-09",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-09",
@@ -2851,7 +2990,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-08",
@@ -2865,7 +3005,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.78,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-08",
@@ -2879,7 +3020,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.36,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-07",
@@ -2906,7 +3048,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-07"
+      "added": "2026-09-07",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-07",
@@ -2920,7 +3063,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-09-07"
+      "added": "2026-09-07",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-09-07",
@@ -2935,7 +3079,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-09-07"
+      "added": "2026-09-07",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-07",
@@ -2949,7 +3094,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-06",
@@ -2976,7 +3122,8 @@
       "pct": 1,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-06"
+      "added": "2026-09-06",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-05",
@@ -2990,7 +3137,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-05",
@@ -3004,7 +3152,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-05",
@@ -3018,7 +3167,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-05",
@@ -3032,7 +3182,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-04",
@@ -3046,7 +3197,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.15,
-      "added": "2026-09-04"
+      "added": "2026-09-04",
+      "qcat": "Industrial and Manufacturing Engineering"
     },
     {
       "date": "2026-09-04",
@@ -3060,7 +3212,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-04"
+      "added": "2026-09-04",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-04",
@@ -3074,7 +3227,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-04"
+      "added": "2026-09-04",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-04",
@@ -3088,7 +3242,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-04"
+      "added": "2026-09-04",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-04",
@@ -3102,7 +3257,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-09-04"
+      "added": "2026-09-04",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-04",
@@ -3116,7 +3272,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-09-04"
+      "added": "2026-09-04",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-04",
@@ -3130,7 +3287,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-04",
@@ -3145,7 +3303,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-04",
@@ -3159,7 +3318,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-04",
@@ -3173,7 +3333,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-04",
@@ -3187,7 +3348,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.81,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Finance"
     },
     {
       "date": "2026-09-03",
@@ -3201,7 +3363,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-09-03"
+      "added": "2026-09-03",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-03",
@@ -3215,7 +3378,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.36,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-02",
@@ -3229,7 +3393,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-02"
+      "added": "2026-09-02",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-02",
@@ -3243,7 +3408,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-02",
@@ -3258,7 +3424,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-02",
@@ -3272,7 +3439,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-09-02",
@@ -3286,7 +3454,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-09-01",
@@ -3301,7 +3470,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.98,
-      "added": "2026-09-01"
+      "added": "2026-09-01",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-09-01",
@@ -3327,7 +3497,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-09-01"
+      "added": "2026-09-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-01",
@@ -3342,7 +3513,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-09-01"
+      "added": "2026-09-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-01",
@@ -3356,7 +3528,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-09-01"
+      "added": "2026-09-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-01",
@@ -3370,7 +3543,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-09-01"
+      "added": "2026-09-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-01",
@@ -3384,7 +3558,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-09-01"
+      "added": "2026-09-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-01",
@@ -3399,7 +3574,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-09-01"
+      "added": "2026-09-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-01",
@@ -3414,7 +3590,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-09-01"
+      "added": "2026-09-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-01",
@@ -3429,7 +3606,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-09-01"
+      "added": "2026-09-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-01",
@@ -3444,7 +3622,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 8.75,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-09-01",
@@ -3458,7 +3637,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.81,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Finance"
     },
     {
       "date": "2026-09-01",
@@ -3472,7 +3652,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.81,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Finance"
     },
     {
       "date": "2026-08-31",
@@ -3486,7 +3667,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-08-31",
@@ -3500,7 +3682,8 @@
       "fwci": 0.0,
       "q": "Q4",
       "sjr": 0.14,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-08-31",
@@ -3555,7 +3738,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.65,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -3625,7 +3809,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.95,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Geography, Planning and Development"
     },
     {
       "date": "2026-08-31",
@@ -3639,7 +3824,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.31,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-08-31",
@@ -3654,7 +3840,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.25,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Graphics and Computer-Aided Design"
     },
     {
       "date": "2026-08-31",
@@ -3668,7 +3855,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.53,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Biochemistry"
     },
     {
       "date": "2026-08-31",
@@ -3682,7 +3870,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 15.62,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Biochemistry"
     },
     {
       "date": "2026-08-31",
@@ -3697,7 +3886,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 2.53,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Biochemistry"
     },
     {
       "date": "2026-08-31",
@@ -3712,7 +3902,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.9,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -3740,7 +3931,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.78,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-08-31",
@@ -3754,7 +3946,8 @@
       "fwci": 0.0,
       "q": "Q4",
       "sjr": 0.14,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-08-31",
@@ -3768,7 +3961,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.33,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -3782,7 +3976,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.23,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Information Systems"
     },
     {
       "date": "2026-08-31",
@@ -3796,7 +3991,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -3810,7 +4006,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -3824,7 +4021,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -3839,7 +4037,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.9,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -3853,7 +4052,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.94,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -3894,7 +4094,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.8,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Analytical Chemistry"
     },
     {
       "date": "2026-08-31",
@@ -3922,7 +4123,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -3950,7 +4152,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -3964,7 +4167,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.27,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-08-31",
@@ -3978,7 +4182,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.71,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computational Mathematics"
     },
     {
       "date": "2026-08-31",
@@ -3992,7 +4197,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.48,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Electrical and Electronic Engineering"
     },
     {
       "date": "2026-08-31",
@@ -4032,7 +4238,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.03,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-08-31",
@@ -4046,7 +4253,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -4060,7 +4268,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.63,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Communication"
     },
     {
       "date": "2026-08-31",
@@ -4074,7 +4283,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.18,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Psychiatry and Mental Health"
     },
     {
       "date": "2026-08-31",
@@ -4088,7 +4298,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.65,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -4102,7 +4313,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.8,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Analytical Chemistry"
     },
     {
       "date": "2026-08-31",
@@ -4116,7 +4328,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.8,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Analytical Chemistry"
     },
     {
       "date": "2026-08-31",
@@ -4131,7 +4344,8 @@
       "pct": 10,
       "q": "Q4",
       "sjr": 0.19,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-08-31",
@@ -4173,7 +4387,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -4201,7 +4416,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-08-31",
@@ -4215,7 +4431,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-08-31",
@@ -4259,7 +4476,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.01,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-08-31",
@@ -4273,7 +4491,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.27,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-08-31",
@@ -4287,7 +4506,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.1,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Aerospace Engineering"
     },
     {
       "date": "2026-08-31",
@@ -4301,7 +4521,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.46,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Information Systems"
     },
     {
       "date": "2026-08-31",
@@ -4316,7 +4537,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-08-31",
@@ -4330,7 +4552,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.33,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -4344,7 +4567,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.97,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Control and Systems Engineering"
     },
     {
       "date": "2026-08-31",
@@ -4358,7 +4582,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.42,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -4372,7 +4597,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.47,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-08-31",
@@ -4386,7 +4612,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.01,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Networks and Communications"
     },
     {
       "date": "2026-08-31",
@@ -4400,7 +4627,8 @@
       "fwci": 3.24,
       "q": "Q1",
       "sjr": 1.47,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computational Theory and Mathematics"
     },
     {
       "date": "2026-08-31",
@@ -4414,7 +4642,8 @@
       "fwci": 2.05,
       "q": "Q1",
       "sjr": 1.02,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -4456,7 +4685,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.49,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -4471,7 +4701,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.9,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -4485,7 +4716,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.75,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Algebra and Number Theory"
     },
     {
       "date": "2026-08-31",
@@ -4499,7 +4731,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -4513,7 +4746,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science Applications"
     },
     {
       "date": "2026-08-31",
@@ -4527,7 +4761,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.22,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-08-31",
@@ -4541,7 +4776,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.78,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Library and Information Sciences"
     },
     {
       "date": "2026-08-31",
@@ -4555,7 +4791,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.78,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-08-31",
@@ -4569,7 +4806,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-08-31",
@@ -4596,7 +4834,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.84,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Education"
     },
     {
       "date": "2026-08-31",
@@ -4610,7 +4849,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -4637,7 +4877,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.18,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-08-31",
@@ -4691,7 +4932,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.71,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computational Mathematics"
     },
     {
       "date": "2026-08-31",
@@ -4705,7 +4947,8 @@
       "fwci": 0.0,
       "q": "Q4",
       "sjr": 0.1,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Literature and Literary Theory"
     },
     {
       "date": "2026-08-31",
@@ -4719,7 +4962,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.15,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Development"
     },
     {
       "date": "2026-08-31",
@@ -4733,7 +4977,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.18,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-31",
@@ -4747,7 +4992,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.21,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Literature and Literary Theory"
     },
     {
       "date": "2026-08-31",
@@ -4761,7 +5007,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.44,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Industrial and Manufacturing Engineering"
     },
     {
       "date": "2026-08-31",
@@ -4775,7 +5022,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.49,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Critical Care and Intensive Care Medicine"
     },
     {
       "date": "2026-08-31",
@@ -4830,7 +5078,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.88,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Education"
     },
     {
       "date": "2026-08-31",
@@ -4963,7 +5212,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-08-31",
@@ -4977,7 +5227,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-08-31",
@@ -5015,7 +5266,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-31",
@@ -5030,7 +5282,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-31",
@@ -5044,7 +5297,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-31",
@@ -5058,7 +5312,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-31",
@@ -5086,7 +5341,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-31",
@@ -5100,7 +5356,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.78,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-30",
@@ -5114,7 +5371,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.38,
-      "added": "2026-08-30"
+      "added": "2026-08-30",
+      "qcat": "Law"
     },
     {
       "date": "2026-08-30",
@@ -5128,7 +5386,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.24,
-      "added": "2026-08-30"
+      "added": "2026-08-30",
+      "qcat": "Information Systems"
     },
     {
       "date": "2026-08-30",
@@ -5209,7 +5468,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.39,
-      "added": "2026-08-30"
+      "added": "2026-08-30",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-08-30",
@@ -5223,7 +5483,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.23,
-      "added": "2026-08-30"
+      "added": "2026-08-30",
+      "qcat": "Computer Vision and Pattern Recognition"
     },
     {
       "date": "2026-08-30",
@@ -5237,7 +5498,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.79,
-      "added": "2026-08-30"
+      "added": "2026-08-30",
+      "qcat": "Electrical and Electronic Engineering"
     },
     {
       "date": "2026-08-30",
@@ -5251,7 +5513,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.01,
-      "added": "2026-08-30"
+      "added": "2026-08-30",
+      "qcat": "Materials Chemistry"
     },
     {
       "date": "2026-08-30",
@@ -5265,7 +5528,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.23,
-      "added": "2026-08-30"
+      "added": "2026-08-30",
+      "qcat": "Computer Vision and Pattern Recognition"
     },
     {
       "date": "2026-08-29",
@@ -5279,7 +5543,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.03,
-      "added": "2026-08-29"
+      "added": "2026-08-29",
+      "qcat": "Artificial Intelligence"
     },
     {
       "date": "2026-08-29",
@@ -5305,7 +5570,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-29"
+      "added": "2026-08-29",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-29",
@@ -5319,7 +5585,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-28",
@@ -5346,7 +5613,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-28"
+      "added": "2026-08-28",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-28",
@@ -5360,7 +5628,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-28"
+      "added": "2026-08-28",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-28",
@@ -5374,7 +5643,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-08-28"
+      "added": "2026-08-28",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-28",
@@ -5388,7 +5658,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-28",
@@ -5402,7 +5673,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-27",
@@ -5430,7 +5702,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-26"
+      "added": "2026-08-26",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-26",
@@ -5444,7 +5717,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-26"
+      "added": "2026-08-26",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-26",
@@ -5458,7 +5732,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-26"
+      "added": "2026-08-26",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-26",
@@ -5472,7 +5747,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-26"
+      "added": "2026-08-26",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-26",
@@ -5486,7 +5762,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-25",
@@ -5500,7 +5777,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.56,
-      "added": "2026-08-25"
+      "added": "2026-08-25",
+      "qcat": "Applied Mathematics"
     },
     {
       "date": "2026-08-25",
@@ -5514,7 +5792,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-25"
+      "added": "2026-08-25",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-25",
@@ -5528,7 +5807,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-25"
+      "added": "2026-08-25",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-25",
@@ -5542,7 +5822,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-25"
+      "added": "2026-08-25",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-25",
@@ -5556,7 +5837,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 9.77,
-      "added": "2026-08-25"
+      "added": "2026-08-25",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-25",
@@ -5570,7 +5852,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-08-25"
+      "added": "2026-08-25",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-25",
@@ -5584,7 +5867,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-25",
@@ -5598,7 +5882,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.81,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Finance"
     },
     {
       "date": "2026-08-25",
@@ -5612,7 +5897,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.78,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-24",
@@ -5626,7 +5912,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-23",
@@ -5640,7 +5927,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-22",
@@ -5654,7 +5942,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.9,
-      "added": "2026-08-22"
+      "added": "2026-08-22",
+      "qcat": "Software"
     },
     {
       "date": "2026-08-22",
@@ -5668,7 +5957,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-08-22"
+      "added": "2026-08-22",
+      "qcat": "Political Science and International Relations"
     },
     {
       "date": "2026-08-22",
@@ -5682,7 +5972,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-22"
+      "added": "2026-08-22",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-21",
@@ -5696,7 +5987,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.77,
-      "added": "2026-08-21"
+      "added": "2026-08-21",
+      "qcat": "Information Systems and Management"
     },
     {
       "date": "2026-08-21",
@@ -5711,7 +6003,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-08-21"
+      "added": "2026-08-21",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-21",
@@ -5725,7 +6018,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.78,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-20",
@@ -5739,7 +6033,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-20",
@@ -5753,7 +6048,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-20",
@@ -5767,7 +6063,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-20",
@@ -5781,7 +6078,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-20",
@@ -5795,7 +6093,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-20",
@@ -5809,7 +6108,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-20",
@@ -5823,7 +6123,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-08-20"
+      "added": "2026-08-20",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-20",
@@ -5837,7 +6138,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-20",
@@ -5851,7 +6153,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-20",
@@ -5865,7 +6168,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.78,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-19",
@@ -5879,7 +6183,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-19",
@@ -5893,7 +6198,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-19",
@@ -5907,7 +6213,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-19",
@@ -5921,7 +6228,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 9.77,
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-19",
@@ -5935,7 +6243,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-19",
@@ -5949,7 +6258,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-08-19"
+      "added": "2026-08-19",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-19",
@@ -5963,7 +6273,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-19",
@@ -5977,7 +6288,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-19",
@@ -5991,7 +6303,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-19",
@@ -6005,7 +6318,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.81,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Finance"
     },
     {
       "date": "2026-08-18",
@@ -6019,7 +6333,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-18"
+      "added": "2026-08-18",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-18",
@@ -6034,7 +6349,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 3.48,
-      "added": "2026-08-18"
+      "added": "2026-08-18",
+      "qcat": "Applied Psychology"
     },
     {
       "date": "2026-08-18",
@@ -6048,7 +6364,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-08-18"
+      "added": "2026-08-18",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-18",
@@ -6062,7 +6379,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.36,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-17",
@@ -6076,7 +6394,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-17"
+      "added": "2026-08-17",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-16",
@@ -6090,7 +6409,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-16"
+      "added": "2026-08-16",
+      "qcat": "Analytical Chemistry"
     },
     {
       "date": "2026-08-16",
@@ -6104,7 +6424,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-16"
+      "added": "2026-08-16",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-16",
@@ -6118,7 +6439,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 9.77,
-      "added": "2026-08-16"
+      "added": "2026-08-16",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-16",
@@ -6132,7 +6454,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 9.77,
-      "added": "2026-08-16"
+      "added": "2026-08-16",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-16",
@@ -6146,7 +6469,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-15",
@@ -6160,7 +6484,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-15"
+      "added": "2026-08-15",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-14",
@@ -6174,7 +6499,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-14"
+      "added": "2026-08-14",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-12",
@@ -6189,7 +6515,8 @@
       "pct": 1,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-12"
+      "added": "2026-08-12",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-12",
@@ -6203,7 +6530,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-11",
@@ -6217,7 +6545,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.29,
-      "added": "2026-08-11"
+      "added": "2026-08-11",
+      "qcat": "Computer Graphics and Computer-Aided Design"
     },
     {
       "date": "2026-08-11",
@@ -6271,7 +6600,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-10"
+      "added": "2026-08-10",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-10",
@@ -6285,7 +6615,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-08-10"
+      "added": "2026-08-10",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-07",
@@ -6299,7 +6630,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-08-07"
+      "added": "2026-08-07",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-07",
@@ -6313,7 +6645,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 5.56,
-      "added": "2026-08-07"
+      "added": "2026-08-07",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-07",
@@ -6327,7 +6660,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.78,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-06",
@@ -6341,7 +6675,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 9.77,
-      "added": "2026-08-06"
+      "added": "2026-08-06",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-06",
@@ -6355,7 +6690,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 3.69,
-      "added": "2026-08-06"
+      "added": "2026-08-06",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-05",
@@ -6369,7 +6705,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.82,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Management Science and Operations Research"
     },
     {
       "date": "2026-08-04",
@@ -6383,7 +6720,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-03",
@@ -6410,7 +6748,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-02",
@@ -6424,7 +6763,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.15,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     },
     {
       "date": "2026-08-02",
@@ -6438,7 +6778,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 2.81,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Finance"
     },
     {
       "date": "2026-08-01",
@@ -6452,7 +6793,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.89,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Multidisciplinary"
     },
     {
       "date": "2026-08-01",
@@ -6481,7 +6823,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6495,7 +6838,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6509,7 +6853,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6523,7 +6868,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6537,7 +6883,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6551,7 +6898,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6565,7 +6913,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6580,7 +6929,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6594,7 +6944,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6608,7 +6959,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6622,7 +6974,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.4,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6637,7 +6990,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 8.75,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6651,7 +7005,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 8.75,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6665,7 +7020,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 8.75,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6679,7 +7035,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 8.75,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6693,7 +7050,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 8.75,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6707,7 +7065,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 8.75,
-      "added": "2026-08-01"
+      "added": "2026-08-01",
+      "qcat": "Accounting"
     },
     {
       "date": "2026-08-01",
@@ -6721,7 +7080,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 10.78,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business and International Management"
     }
   ],
   "mostcited": {
@@ -6736,7 +7096,8 @@
         "topic": "Deep persona",
         "fwci": 1.87,
         "q": "Q2",
-        "sjr": 0.56
+        "sjr": 0.56,
+        "qcat": "Applied Mathematics"
       },
       {
         "title": "Improving Market Segmentation via Customer Personality Prediction using Deep AI Analysis",
@@ -6759,7 +7120,8 @@
         "topic": "Deep persona",
         "fwci": 0.51,
         "q": "Q1",
-        "sjr": 1.14
+        "sjr": 1.14,
+        "qcat": "Computer Networks and Communications"
       }
     ],
     "Graph database": [
@@ -6774,7 +7136,8 @@
         "fwci": 118.87,
         "pct": 1,
         "q": "Q1",
-        "sjr": 5.99
+        "sjr": 5.99,
+        "qcat": "Theoretical Computer Science"
       },
       {
         "title": "Foundations of Modern Query Languages for Graph Databases",
@@ -6787,7 +7150,8 @@
         "fwci": 13.95,
         "pct": 1,
         "q": "Q1",
-        "sjr": 5.99
+        "sjr": 5.99,
+        "qcat": "Theoretical Computer Science"
       },
       {
         "title": "Reactome graph database: Efficient access to complex pathway data",
@@ -6800,7 +7164,8 @@
         "fwci": 9.5,
         "pct": 10,
         "q": "Q1",
-        "sjr": 1.47
+        "sjr": 1.47,
+        "qcat": "Computational Theory and Mathematics"
       },
       {
         "title": "An in-depth comparison of subgraph isomorphism algorithms in graph databases",
@@ -6839,7 +7204,8 @@
         "fwci": 10.69,
         "pct": 10,
         "q": "Q2",
-        "sjr": 0.66
+        "sjr": 0.66,
+        "qcat": "Applied Mathematics"
       }
     ],
     "Memory in Agentic AI": [
@@ -6853,7 +7219,8 @@
         "topic": "Memory in Agentic AI",
         "fwci": 2.03,
         "q": "Q2",
-        "sjr": 0.72
+        "sjr": 0.72,
+        "qcat": "Control and Systems Engineering"
       }
     ],
     "LLM inference serving": [
@@ -6868,7 +7235,8 @@
         "fwci": 6.2,
         "pct": 10,
         "q": "Q2",
-        "sjr": 0.54
+        "sjr": 0.54,
+        "qcat": "Hardware and Architecture"
       },
       {
         "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
@@ -6904,7 +7272,8 @@
         "fwci": 22.49,
         "pct": 1,
         "q": "Q1",
-        "sjr": 1.49
+        "sjr": 1.49,
+        "qcat": "Computer Networks and Communications"
       },
       {
         "title": "BrownoutServe: SLO-Aware Inference Serving Under Bursty Workloads for MoE-Based LLMs",
@@ -6917,7 +7286,8 @@
         "fwci": 17.0,
         "pct": 10,
         "q": "Q1",
-        "sjr": 1.24
+        "sjr": 1.24,
+        "qcat": "Computational Theory and Mathematics"
       },
       {
         "title": "DOPD: A Dynamic PD-Disaggregation Architecture for Maximizing Goodput in LLM Inference Serving",
@@ -6930,7 +7300,8 @@
         "fwci": 10.85,
         "pct": 10,
         "q": "Q1",
-        "sjr": 1.6
+        "sjr": 1.6,
+        "qcat": "Computer Networks and Communications"
       }
     ],
     "Ethereum Layer-2": [
@@ -6945,7 +7316,8 @@
         "fwci": 4.56,
         "pct": 10,
         "q": "Q1",
-        "sjr": 1.48
+        "sjr": 1.48,
+        "qcat": "Computer Networks and Communications"
       },
       {
         "title": "Kajian Literatur: Rollups Sebagai Solusi Skalabilitas Ethereum dari Layer 1 ke Layer 2",
@@ -6971,7 +7343,8 @@
         "fwci": 13.45,
         "pct": 10,
         "q": "Q1",
-        "sjr": 1.37
+        "sjr": 1.37,
+        "qcat": "Artificial Intelligence"
       },
       {
         "title": "Zero-knowledge proofs of identity",
@@ -6984,7 +7357,8 @@
         "fwci": 25.97,
         "pct": 1,
         "q": "Q2",
-        "sjr": 0.48
+        "sjr": 0.48,
+        "qcat": "Applied Mathematics"
       },
       {
         "title": "Definitions and properties of zero-knowledge proof systems",
@@ -6997,7 +7371,8 @@
         "fwci": 8.25,
         "pct": 10,
         "q": "Q2",
-        "sjr": 0.48
+        "sjr": 0.48,
+        "qcat": "Applied Mathematics"
       },
       {
         "title": "On the Composition of Zero-Knowledge Proof Systems",
@@ -7023,7 +7398,8 @@
         "fwci": 6.36,
         "pct": 10,
         "q": "Q2",
-        "sjr": 0.48
+        "sjr": 0.48,
+        "qcat": "Applied Mathematics"
       },
       {
         "title": "A Survey on Zero-Knowledge Proof in Blockchain",
@@ -7036,7 +7412,8 @@
         "fwci": 45.87,
         "pct": 1,
         "q": "Q1",
-        "sjr": 2.58
+        "sjr": 2.58,
+        "qcat": "Computer Networks and Communications"
       }
     ],
     "Graph neural networks (GNN)": [
@@ -7051,7 +7428,8 @@
         "fwci": 551.91,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.15
+        "sjr": 3.15,
+        "qcat": "Artificial Intelligence"
       },
       {
         "title": "The Graph Neural Network Model",
@@ -7064,7 +7442,8 @@
         "fwci": 17.06,
         "pct": 10,
         "q": "Q1",
-        "sjr": 3.15
+        "sjr": 3.15,
+        "qcat": "Artificial Intelligence"
       },
       {
         "title": "Graph neural networks: A review of methods and applications",
@@ -7077,7 +7456,8 @@
         "fwci": 325.24,
         "pct": 1,
         "q": "Q1",
-        "sjr": 2.64
+        "sjr": 2.64,
+        "qcat": "Artificial Intelligence"
       },
       {
         "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
@@ -7115,7 +7495,8 @@
         "fwci": 93.66,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.9
+        "sjr": 4.9,
+        "qcat": "Multidisciplinary"
       }
     ],
     "Ontology": [
@@ -7130,7 +7511,8 @@
         "fwci": 25.9,
         "pct": 1,
         "q": "Q1",
-        "sjr": 1.13
+        "sjr": 1.13,
+        "qcat": "Political Science and International Relations"
       },
       {
         "title": "Ontology-based knowledge representation for bioinformatics",
@@ -7143,7 +7525,8 @@
         "fwci": 5.15,
         "pct": 10,
         "q": "Q1",
-        "sjr": 2.26
+        "sjr": 2.26,
+        "qcat": "Information Systems"
       },
       {
         "title": "Development of a method for ontology-based empirical knowledge representation and reasoning",
@@ -7156,7 +7539,8 @@
         "fwci": 11.25,
         "pct": 10,
         "q": "Q1",
-        "sjr": 2.08
+        "sjr": 2.08,
+        "qcat": "Developmental and Educational Psychology"
       },
       {
         "title": "Ontology-based knowledge representation for additive manufacturing",
@@ -7182,7 +7566,8 @@
         "fwci": 8.23,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.98
+        "sjr": 0.98,
+        "qcat": "Computer Networks and Communications"
       },
       {
         "title": "Ontology based knowledge representation technique, domain modeling languages and planners for robotic path planning: A survey",
@@ -7195,7 +7580,8 @@
         "fwci": 8.16,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.98
+        "sjr": 0.98,
+        "qcat": "Artificial Intelligence"
       }
     ],
     "AI governance": [
@@ -7210,7 +7596,8 @@
         "fwci": 11.08,
         "pct": 10,
         "q": "Q1",
-        "sjr": 1.87
+        "sjr": 1.87,
+        "qcat": "Health Informatics"
       },
       {
         "title": "Governance of artificial intelligence",
@@ -7223,7 +7610,8 @@
         "fwci": 46.43,
         "pct": 1,
         "q": "Q1",
-        "sjr": 1.44
+        "sjr": 1.44,
+        "qcat": "Political Science and International Relations"
       },
       {
         "title": "Generative AI in healthcare: an implementation science informed translational path on application, integration and governance",
@@ -7236,7 +7624,8 @@
         "fwci": 41.15,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.95
+        "sjr": 4.95,
+        "qcat": "Health Informatics"
       },
       {
         "title": "A Layered Model for AI Governance",
@@ -7249,7 +7638,8 @@
         "fwci": 19.23,
         "pct": 1,
         "q": "Q1",
-        "sjr": 0.84
+        "sjr": 0.84,
+        "qcat": "Computer Networks and Communications"
       },
       {
         "title": "The Dark Sides of Artificial Intelligence: An Integrated AI Governance Framework for Public Administration",
@@ -7262,7 +7652,8 @@
         "fwci": 33.18,
         "pct": 1,
         "q": "Q2",
-        "sjr": 0.67
+        "sjr": 0.67,
+        "qcat": "Business and International Management"
       },
       {
         "title": "AI governance: themes, knowledge gaps and future agendas",
@@ -7275,7 +7666,8 @@
         "fwci": 59.48,
         "pct": 1,
         "q": "Q1",
-        "sjr": 2.21
+        "sjr": 2.21,
+        "qcat": "Communication"
       }
     ],
     "NeurIPS": [
@@ -7450,7 +7842,8 @@
         "fwci": 43.16,
         "pct": 1,
         "q": "Q1",
-        "sjr": 1.43
+        "sjr": 1.43,
+        "qcat": "Business and International Management"
       },
       {
         "title": "The other path: the invisible revolution in the third world",
@@ -7463,7 +7856,8 @@
         "fwci": 130.81,
         "pct": 1,
         "q": "Q1",
-        "sjr": 1.43
+        "sjr": 1.43,
+        "qcat": "Business and International Management"
       },
       {
         "title": "The forthcoming Artificial Intelligence (AI) revolution: Its impact on society and firms",
@@ -7476,7 +7870,8 @@
         "fwci": 389.34,
         "pct": 1,
         "q": "Q1",
-        "sjr": 1.43
+        "sjr": 1.43,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Scenario types and techniques: Towards a user's guide",
@@ -7489,7 +7884,8 @@
         "fwci": 82.3,
         "pct": 1,
         "q": "Q1",
-        "sjr": 1.43
+        "sjr": 1.43,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Review of fossil fuels and future energy technologies",
@@ -7502,7 +7898,8 @@
         "fwci": 10.35,
         "pct": 10,
         "q": "Q1",
-        "sjr": 1.43
+        "sjr": 1.43,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Global culture: Nationalism, globalization and modernity",
@@ -7515,7 +7912,8 @@
         "fwci": 74.87,
         "pct": 1,
         "q": "Q1",
-        "sjr": 1.43
+        "sjr": 1.43,
+        "qcat": "Business and International Management"
       }
     ],
     "TFSC": [
@@ -7530,7 +7928,8 @@
         "fwci": 2083.16,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.48
+        "sjr": 3.48,
+        "qcat": "Applied Psychology"
       },
       {
         "title": "European journal of operational research",
@@ -7543,7 +7942,8 @@
         "fwci": 70.45,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.48
+        "sjr": 3.48,
+        "qcat": "Applied Psychology"
       },
       {
         "title": "Functions of innovation systems: A new approach for analysing technological change",
@@ -7556,7 +7956,8 @@
         "fwci": 82.16,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.48
+        "sjr": 3.48,
+        "qcat": "Applied Psychology"
       },
       {
         "title": "CB-SEM vs PLS-SEM methods for research in social sciences and technology forecasting",
@@ -7569,7 +7970,8 @@
         "fwci": 583.42,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.48
+        "sjr": 3.48,
+        "qcat": "Applied Psychology"
       },
       {
         "title": "Green innovation and environmental performance: The role of green transformational leadership and green human resource management",
@@ -7582,7 +7984,8 @@
         "fwci": 123.38,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.48
+        "sjr": 3.48,
+        "qcat": "Applied Psychology"
       },
       {
         "title": "Consensus measurement in Delphi studies",
@@ -7595,7 +7998,8 @@
         "fwci": 90.41,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.48
+        "sjr": 3.48,
+        "qcat": "Applied Psychology"
       }
     ],
     "TAR": [
@@ -7610,7 +8014,8 @@
         "fwci": 61.86,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.4
+        "sjr": 4.4,
+        "qcat": "Accounting"
       },
       {
         "title": "The Quality of Accruals and Earnings: The Role of Accrual Estimation Errors",
@@ -7623,7 +8028,8 @@
         "fwci": 56.33,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.4
+        "sjr": 4.4,
+        "qcat": "Accounting"
       },
       {
         "title": "Voluntary Nonfinancial Disclosure and the Cost of Equity Capital: The Initiation of Corporate Social Responsibility Reporting",
@@ -7636,7 +8042,8 @@
         "fwci": 107.31,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.4
+        "sjr": 4.4,
+        "qcat": "Accounting"
       },
       {
         "title": "Disclosure level and the cost of equity capital.",
@@ -7649,7 +8056,8 @@
         "fwci": 71.0,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.4
+        "sjr": 4.4,
+        "qcat": "Accounting"
       },
       {
         "title": "Real and Accrual-Based Earnings Management in the Pre- and Post-Sarbanes-Oxley Periods",
@@ -7662,7 +8070,8 @@
         "fwci": 153.11,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.4
+        "sjr": 4.4,
+        "qcat": "Accounting"
       },
       {
         "title": "Corporate Disclosure Policy and Analyst Behavior.",
@@ -7675,7 +8084,8 @@
         "fwci": 50.71,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.4
+        "sjr": 4.4,
+        "qcat": "Accounting"
       }
     ],
     "JAE": [
@@ -7690,7 +8100,8 @@
         "fwci": 116.76,
         "pct": 1,
         "q": "Q1",
-        "sjr": 8.75
+        "sjr": 8.75,
+        "qcat": "Accounting"
       },
       {
         "title": "Performance matched discretionary accrual measures",
@@ -7703,7 +8114,8 @@
         "fwci": 261.38,
         "pct": 1,
         "q": "Q1",
-        "sjr": 8.75
+        "sjr": 8.75,
+        "qcat": "Accounting"
       },
       {
         "title": "The economic implications of corporate financial reporting",
@@ -7716,7 +8128,8 @@
         "fwci": 267.27,
         "pct": 1,
         "q": "Q1",
-        "sjr": 8.75
+        "sjr": 8.75,
+        "qcat": "Accounting"
       },
       {
         "title": "Auditor size and audit quality",
@@ -7729,7 +8142,8 @@
         "fwci": 26.6,
         "pct": 1,
         "q": "Q1",
-        "sjr": 8.75
+        "sjr": 8.75,
+        "qcat": "Accounting"
       },
       {
         "title": "Earnings management through real activities manipulation",
@@ -7742,7 +8156,8 @@
         "fwci": 103.03,
         "pct": 1,
         "q": "Q1",
-        "sjr": 8.75
+        "sjr": 8.75,
+        "qcat": "Accounting"
       },
       {
         "title": "Audit committee, board of director characteristics, and earnings management",
@@ -7755,7 +8170,8 @@
         "fwci": 87.42,
         "pct": 1,
         "q": "Q1",
-        "sjr": 8.75
+        "sjr": 8.75,
+        "qcat": "Accounting"
       }
     ],
     "JAR": [
@@ -7770,7 +8186,8 @@
         "fwci": 31.57,
         "pct": 1,
         "q": "Q1",
-        "sjr": 9.77
+        "sjr": 9.77,
+        "qcat": "Accounting"
       },
       {
         "title": "An Empirical Evaluation of Accounting Income Numbers",
@@ -7783,7 +8200,8 @@
         "fwci": 66.38,
         "pct": 1,
         "q": "Q1",
-        "sjr": 9.77
+        "sjr": 9.77,
+        "qcat": "Accounting"
       },
       {
         "title": "Financial Ratios and the Probabilistic Prediction of Bankruptcy",
@@ -7796,7 +8214,8 @@
         "fwci": 33.17,
         "pct": 1,
         "q": "Q1",
-        "sjr": 9.77
+        "sjr": 9.77,
+        "qcat": "Accounting"
       },
       {
         "title": "Financial Ratios As Predictors of Failure",
@@ -7808,7 +8227,8 @@
         "topic": "JAR",
         "fwci": 0.0,
         "q": "Q1",
-        "sjr": 9.77
+        "sjr": 9.77,
+        "qcat": "Accounting"
       },
       {
         "title": "International Accounting Standards and Accounting Quality",
@@ -7821,7 +8241,8 @@
         "fwci": 225.13,
         "pct": 1,
         "q": "Q1",
-        "sjr": 9.77
+        "sjr": 9.77,
+        "qcat": "Accounting"
       },
       {
         "title": "Methodological Issues Related to the Estimation of Financial Distress Prediction Models",
@@ -7834,7 +8255,8 @@
         "fwci": 30.54,
         "pct": 1,
         "q": "Q1",
-        "sjr": 9.77
+        "sjr": 9.77,
+        "qcat": "Accounting"
       }
     ],
     "CAR": [
@@ -7849,7 +8271,8 @@
         "fwci": 105.37,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.69
+        "sjr": 3.69,
+        "qcat": "Accounting"
       },
       {
         "title": "Causes and Consequences of Earnings Manipulation: An Analysis of Firms Subject to Enforcement Actions by the SEC*",
@@ -7862,7 +8285,8 @@
         "fwci": 71.51,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.69
+        "sjr": 3.69,
+        "qcat": "Accounting"
       },
       {
         "title": "The Effect of Audit Quality on Earnings Management*",
@@ -7875,7 +8299,8 @@
         "fwci": 45.43,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.69
+        "sjr": 3.69,
+        "qcat": "Accounting"
       },
       {
         "title": "Valuation and Clean Surplus Accounting for Operating and Financial Activities*",
@@ -7888,7 +8313,8 @@
         "fwci": 80.15,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.69
+        "sjr": 3.69,
+        "qcat": "Accounting"
       },
       {
         "title": "Stock Performance and Intermediation Changes Surrounding Sustained Increases in Disclosure*",
@@ -7901,7 +8327,8 @@
         "fwci": 56.49,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.69
+        "sjr": 3.69,
+        "qcat": "Accounting"
       },
       {
         "title": "Predicting Material Accounting Misstatements*",
@@ -7914,7 +8341,8 @@
         "fwci": 157.63,
         "pct": 1,
         "q": "Q1",
-        "sjr": 3.69
+        "sjr": 3.69,
+        "qcat": "Accounting"
       }
     ],
     "RAST": [
@@ -7929,7 +8357,8 @@
         "fwci": 152.6,
         "pct": 1,
         "q": "Q1",
-        "sjr": 5.56
+        "sjr": 5.56,
+        "qcat": "Accounting"
       },
       {
         "title": "Earnings Surprises, Growth Expectations, and Stock Returns or Don't Let an Earnings Torpedo Sink Your Portfolio",
@@ -7942,7 +8371,8 @@
         "fwci": 44.58,
         "pct": 1,
         "q": "Q1",
-        "sjr": 5.56
+        "sjr": 5.56,
+        "qcat": "Accounting"
       },
       {
         "title": "Expected EPS and EPS Growth as Determinantsof Value",
@@ -7955,7 +8385,8 @@
         "fwci": 110.84,
         "pct": 1,
         "q": "Q1",
-        "sjr": 5.56
+        "sjr": 5.56,
+        "qcat": "Accounting"
       },
       {
         "title": "Assessing the Probability of Bankruptcy",
@@ -7968,7 +8399,8 @@
         "fwci": 49.66,
         "pct": 1,
         "q": "Q1",
-        "sjr": 5.56
+        "sjr": 5.56,
+        "qcat": "Accounting"
       },
       {
         "title": "The information content of mandatory risk factor disclosures in corporate filings",
@@ -7981,7 +8413,8 @@
         "fwci": 58.38,
         "pct": 1,
         "q": "Q1",
-        "sjr": 5.56
+        "sjr": 5.56,
+        "qcat": "Accounting"
       },
       {
         "title": "Propping through related party transactions",
@@ -7994,7 +8427,8 @@
         "fwci": 24.21,
         "pct": 1,
         "q": "Q1",
-        "sjr": 5.56
+        "sjr": 5.56,
+        "qcat": "Accounting"
       }
     ],
     "FFS": [
@@ -8089,7 +8523,8 @@
         "fwci": 11.53,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.38
+        "sjr": 0.38,
+        "qcat": "History and Philosophy of Science"
       },
       {
         "title": "Scenarios Practices: In Search of Theory",
@@ -8114,7 +8549,8 @@
         "fwci": 2.95,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.38
+        "sjr": 0.38,
+        "qcat": "History and Philosophy of Science"
       },
       {
         "title": "The complex futures of emerging technologies: Challenges and opportunities for science foresight and governance in Australia",
@@ -8137,7 +8573,8 @@
         "topic": "JFS",
         "fwci": 0.0,
         "q": "Q1",
-        "sjr": 0.38
+        "sjr": 0.38,
+        "qcat": "History and Philosophy of Science"
       },
       {
         "title": "The Polak game, or: Where do you stand?",
@@ -8164,7 +8601,8 @@
         "fwci": 28.48,
         "pct": 1,
         "q": "Q2",
-        "sjr": 0.82
+        "sjr": 0.82,
+        "qcat": "Management Science and Operations Research"
       },
       {
         "title": "Strategic niche management and sustainable innovation journeys: theory, findings, research agenda, and policy",
@@ -8177,7 +8615,8 @@
         "fwci": 65.65,
         "pct": 1,
         "q": "Q2",
-        "sjr": 0.82
+        "sjr": 0.82,
+        "qcat": "Management Science and Operations Research"
       },
       {
         "title": "The sociology of expectations in science and technology",
@@ -8190,7 +8629,8 @@
         "fwci": 42.23,
         "pct": 1,
         "q": "Q2",
-        "sjr": 0.82
+        "sjr": 0.82,
+        "qcat": "Management Science and Operations Research"
       },
       {
         "title": "The dynamics of transitions in socio-technical systems: A multi-level analysis of the transition pathway from horse-drawn carriages to automobiles (1860–1930)",
@@ -8203,7 +8643,8 @@
         "fwci": 19.79,
         "pct": 1,
         "q": "Q2",
-        "sjr": 0.82
+        "sjr": 0.82,
+        "qcat": "Management Science and Operations Research"
       },
       {
         "title": "A Sociology of Expectations: Retrospecting Prospects and Prospecting Retrospects",
@@ -8216,7 +8657,8 @@
         "fwci": 36.38,
         "pct": 1,
         "q": "Q2",
-        "sjr": 0.82
+        "sjr": 0.82,
+        "qcat": "Management Science and Operations Research"
       },
       {
         "title": "Translating Sustainabilities between Green Niches and Socio-Technical Regimes",
@@ -8229,7 +8671,8 @@
         "fwci": 11.27,
         "pct": 1,
         "q": "Q2",
-        "sjr": 0.82
+        "sjr": 0.82,
+        "qcat": "Management Science and Operations Research"
       }
     ],
     "SMJ": [
@@ -8244,7 +8687,8 @@
         "fwci": 388.78,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.15
+        "sjr": 10.15,
+        "qcat": "Business and International Management"
       },
       {
         "title": "A resource‐based view of the firm",
@@ -8257,7 +8701,8 @@
         "fwci": 9.72,
         "pct": 10,
         "q": "Q1",
-        "sjr": 10.15
+        "sjr": 10.15,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Explicating dynamic capabilities: the nature and microfoundations of (sustainable) enterprise performance",
@@ -8270,7 +8715,8 @@
         "fwci": 326.77,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.15
+        "sjr": 10.15,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Toward a knowledge‐based theory of the firm",
@@ -8283,7 +8729,8 @@
         "fwci": 83.45,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.15
+        "sjr": 10.15,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Dynamic capabilities: what are they?",
@@ -8296,7 +8743,8 @@
         "fwci": 220.85,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.15
+        "sjr": 10.15,
+        "qcat": "Business and International Management"
       },
       {
         "title": "The cornerstones of competitive advantage: A resource‐based view",
@@ -8309,7 +8757,8 @@
         "fwci": 161.62,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.15
+        "sjr": 10.15,
+        "qcat": "Business and International Management"
       }
     ],
     "LRP": [
@@ -8324,7 +8773,8 @@
         "fwci": 5.06,
         "pct": 10,
         "q": "Q1",
-        "sjr": 2.81
+        "sjr": 2.81,
+        "qcat": "Finance"
       },
       {
         "title": "Organizational culture and leadership",
@@ -8337,7 +8787,8 @@
         "fwci": 606.61,
         "pct": 1,
         "q": "Q1",
-        "sjr": 2.81
+        "sjr": 2.81,
+        "qcat": "Finance"
       },
       {
         "title": "The Theory of the Growth of the Firm",
@@ -8350,7 +8801,8 @@
         "fwci": 519.21,
         "pct": 1,
         "q": "Q1",
-        "sjr": 2.81
+        "sjr": 2.81,
+        "qcat": "Finance"
       },
       {
         "title": "Business Models, Business Strategy and Innovation",
@@ -8363,7 +8815,8 @@
         "fwci": 224.76,
         "pct": 1,
         "q": "Q1",
-        "sjr": 2.81
+        "sjr": 2.81,
+        "qcat": "Finance"
       },
       {
         "title": "The balanced scorecard: Translating strategy into action",
@@ -8376,7 +8829,8 @@
         "fwci": 159.06,
         "pct": 1,
         "q": "Q1",
-        "sjr": 2.81
+        "sjr": 2.81,
+        "qcat": "Finance"
       },
       {
         "title": "The clash of civilizations and the remaking of world order",
@@ -8389,7 +8843,8 @@
         "fwci": 565.5,
         "pct": 1,
         "q": "Q1",
-        "sjr": 2.81
+        "sjr": 2.81,
+        "qcat": "Finance"
       }
     ],
     "AMJ": [
@@ -8404,7 +8859,8 @@
         "fwci": 436.97,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.78
+        "sjr": 10.78,
+        "qcat": "Business and International Management"
       },
       {
         "title": "PSYCHOLOGICAL CONDITIONS OF PERSONAL ENGAGEMENT AND DISENGAGEMENT AT WORK.",
@@ -8417,7 +8873,8 @@
         "fwci": 9.54,
         "pct": 10,
         "q": "Q1",
-        "sjr": 10.78
+        "sjr": 10.78,
+        "qcat": "Business and International Management"
       },
       {
         "title": "THE IMPACT OF HUMAN RESOURCE MANAGEMENT PRACTICES ON TURNOVER, PRODUCTIVITY, AND CORPORATE FINANCIAL PERFORMANCE.",
@@ -8430,7 +8887,8 @@
         "fwci": 101.62,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.78
+        "sjr": 10.78,
+        "qcat": "Business and International Management"
       },
       {
         "title": "AFFECT- AND COGNITION-BASED TRUST AS FOUNDATIONS FOR INTERPERSONAL COOPERATION IN ORGANIZATIONS.",
@@ -8443,7 +8901,8 @@
         "fwci": 51.54,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.78
+        "sjr": 10.78,
+        "qcat": "Business and International Management"
       },
       {
         "title": "PSYCHOLOGICAL, EMPOWERMENT IN THE WORKPLACE: DIMENSIONS, MEASUREMENT AND VALIDATION.",
@@ -8456,7 +8915,8 @@
         "fwci": 30.63,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.78
+        "sjr": 10.78,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Building Better Causal Theories: A Fuzzy Set Approach to Typologies in Organization Research",
@@ -8469,7 +8929,8 @@
         "fwci": 190.01,
         "pct": 1,
         "q": "Q1",
-        "sjr": 10.78
+        "sjr": 10.78,
+        "qcat": "Business and International Management"
       }
     ],
     "SO": [
@@ -8484,7 +8945,8 @@
         "fwci": 95.83,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.36
+        "sjr": 4.36,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Correcting for Endogeneity in Strategic Management Research",
@@ -8497,7 +8959,8 @@
         "fwci": 19.08,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.36
+        "sjr": 4.36,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Controlling for endogeneity with instrumental variables in strategic management research",
@@ -8510,7 +8973,8 @@
         "fwci": 24.01,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.36
+        "sjr": 4.36,
+        "qcat": "Business and International Management"
       },
       {
         "title": "Business sustainability: It is about time",
@@ -8523,7 +8987,8 @@
         "fwci": 28.91,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.36
+        "sjr": 4.36,
+        "qcat": "Business and International Management"
       },
       {
         "title": "What is the Eisenhardt Method, really?",
@@ -8536,7 +9001,8 @@
         "fwci": 83.84,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.36
+        "sjr": 4.36,
+        "qcat": "Business and International Management"
       },
       {
         "title": "The Small World of the American Corporate Elite, 1982-2001",
@@ -8549,7 +9015,8 @@
         "fwci": 76.4,
         "pct": 1,
         "q": "Q1",
-        "sjr": 4.36
+        "sjr": 4.36,
+        "qcat": "Business and International Management"
       }
     ]
   }

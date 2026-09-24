@@ -14,7 +14,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
           "cites": 307,
           "q": "Q1",
-          "sjr": 3.28
+          "sjr": 3.28,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Information flow between stock indices",
@@ -34,7 +35,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:3vbIHxFL9FgC",
           "cites": 174,
           "q": "Q1",
-          "sjr": 0.73
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Characteristics of the Korean stock market correlations",
@@ -44,7 +46,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:u5HHmVD_uO8C",
           "cites": 144,
           "q": "Q2",
-          "sjr": 0.65
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Interpretable deep learning LSTM model for intelligent economic decision-making",
@@ -54,7 +57,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:Vztgr1qGG8IC",
           "cites": 128,
           "q": "Q1",
-          "sjr": 1.75
+          "sjr": 1.75,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Information flow between composite stock index and individual stocks",
@@ -64,7 +68,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:qjMakFHDy7sC",
           "cites": 122,
           "q": "Q2",
-          "sjr": 0.65
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Global Diversification Discount and Its Discontents: Self-selection Makes a World of Difference",
@@ -74,7 +79,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:mel-f30kHHgC",
           "cites": 112,
           "q": "Q1",
-          "sjr": 10.15
+          "sjr": 10.15,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Executive compensation, fat cats, and best athletes",
@@ -84,7 +90,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:9LpHyFPp1DQC",
           "cites": 100,
           "q": "Q1",
-          "sjr": 3.28
+          "sjr": 3.28,
+          "qcat": "Sociology and Political Science"
         },
         {
           "title": "Global energy transitions and political systems",
@@ -94,7 +101,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:37UQlXuwjP4C",
           "cites": 97,
           "q": "Q1",
-          "sjr": 4.0
+          "sjr": 4.0,
+          "qcat": "Renewable Energy, Sustainability and the Environment"
         },
         {
           "title": "Network Structure Effects on Incumbency Advantage",
@@ -104,7 +112,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:G1UMdFYMoxkC",
           "cites": 63,
           "q": "Q1",
-          "sjr": 10.15
+          "sjr": 10.15,
+          "qcat": "Business and International Management"
         }
       ],
       "recent": [
@@ -116,7 +125,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:jRIwE-1ttnoC",
           "cites": 0,
           "q": "Q3",
-          "sjr": 0.3
+          "sjr": 0.3,
+          "qcat": "Computational Theory and Mathematics"
         },
         {
           "title": "Beyond culture and language: Tracing emotional distance through facial expressions in Netflix trailers",
@@ -126,7 +136,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:uEM9VtRl8xsC",
           "cites": 0,
           "q": "Q2",
-          "sjr": 0.65
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Strategic Prioritization of Environmental, Social, and Governance Goals: A Data‐Driven Efficiency Framework",
@@ -136,7 +147,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:ynsZFq2pu0MC",
           "cites": 3,
           "q": "Q1",
-          "sjr": 2.15
+          "sjr": 2.15,
+          "qcat": "Development"
         },
         {
           "title": "LLMs as complementary tools for innovation surveys research: pattern replication and contextual relevance",
@@ -146,7 +158,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:uPCvBZYD9qUC",
           "cites": 0,
           "q": "Q1",
-          "sjr": 1.08
+          "sjr": 1.08,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Networks of knowledge: hiring and collaboration networks in economics and physics departments",
@@ -156,7 +169,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:oH8HCDhqVGsC",
           "cites": 0,
           "q": "Q1",
-          "sjr": 1.1
+          "sjr": 1.1,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Central Bank Digital Currency Design, Systemic Risk, and Financial Stability:, A Complex Systems Simulation Approach",
@@ -184,7 +198,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:-vzq6BoH5oUC",
           "cites": 6,
           "q": "Q1",
-          "sjr": 2.52
+          "sjr": 2.52,
+          "qcat": "Management, Monitoring, Policy and Law"
         },
         {
           "title": "Predicting renewable energy stock volatility: A GARCH-CNN approach with indicator analysis",
@@ -194,7 +209,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:cOfwuRB03ygC",
           "cites": 5,
           "q": "Q1",
-          "sjr": 1.89
+          "sjr": 1.89,
+          "qcat": "Renewable Energy, Sustainability and the Environment"
         },
         {
           "title": "Analyzing Developmental Strategies and the Role of ICT in Underdeveloped Economies: Implications for North Korea",
@@ -204,7 +220,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:WM2K3OHRCGMC",
           "cites": 0,
           "q": "Q2",
-          "sjr": 0.48
+          "sjr": 0.48,
+          "qcat": "Development"
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=gM0qYNUAAAAJ&citpid=12"
@@ -240,7 +257,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:wSy_KLzO7YEC",
           "cites": 306,
           "q": "Q1",
-          "sjr": 2.71
+          "sjr": 2.71,
+          "qcat": "Cardiology and Cardiovascular Medicine"
         },
         {
           "title": "Neural circuits underlying a psychotherapeutic regimen for fear disorders",
@@ -250,7 +268,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:qwy9JoKyICEC",
           "cites": 198,
           "q": "Q1",
-          "sjr": 19.71
+          "sjr": 19.71,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Towards Watt-scale hydroelectric energy harvesting by Ti3C2Tx-based transpiration-driven electrokinetic power generators",
@@ -260,7 +279,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:ZqE1mSdD_DYC",
           "cites": 179,
           "q": "Q1",
-          "sjr": 9.24
+          "sjr": 9.24,
+          "qcat": "Environmental Chemistry"
         },
         {
           "title": "Sulfur–carbon electrode with PEO‐LiFSI‐PVDF composite coating for high‐rate and long‐life lithium–sulfur batteries",
@@ -270,7 +290,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:pQTOvowfQioC",
           "cites": 148,
           "q": "Q1",
-          "sjr": 7.68
+          "sjr": 7.68,
+          "qcat": "Renewable Energy, Sustainability and the Environment"
         },
         {
           "title": "Detection of skin tumors on chicken carcasses using hyperspectral fluorescence imaging",
@@ -280,7 +301,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:kF1pexMAQbMC",
           "cites": 131,
           "q": "Q2",
-          "sjr": 0.17
+          "sjr": 0.17,
+          "qcat": "Linguistics and Language"
         },
         {
           "title": "n-gram/2l: A space and time efficient two-level n-gram inverted index structure",
@@ -299,7 +321,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:43bX7VzcjpAC",
           "cites": 117,
           "q": "Q1",
-          "sjr": 3.78
+          "sjr": 3.78,
+          "qcat": "Environmental Chemistry"
         },
         {
           "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
@@ -309,7 +332,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:QoJ_w57xiyAC",
           "cites": 116,
           "q": "Q1",
-          "sjr": 8.27
+          "sjr": 8.27,
+          "qcat": "Mechanical Engineering"
         }
       ],
       "recent": [
@@ -404,7 +428,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:vVJNg6_NJEsC",
           "cites": 1,
           "q": "Q1",
-          "sjr": 1.22
+          "sjr": 1.22,
+          "qcat": "Computer Science Applications"
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=1wZVw8QAAAAJ&citpid=6"
@@ -466,7 +491,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
           "cites": 354,
           "q": "Q2",
-          "sjr": 0.5
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Holistic Evaluation of Text-to-Image Models",
@@ -485,7 +511,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
           "cites": 304,
           "q": "Q1",
-          "sjr": 1.6
+          "sjr": 1.6,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Evaluating Human-Language Model Interaction",
@@ -495,7 +522,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:M3ejUd6NZC8C",
           "cites": 251,
           "q": "Q2",
-          "sjr": 0.74
+          "sjr": 0.74,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "A Slow Algorithm Improves Users' Assessments of the Algorithm's Accuracy",
@@ -505,7 +533,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=10&citation_for_view=Y4Oc0cMAAAAJ:u5HHmVD_uO8C",
           "cites": 143,
           "q": "Q2",
-          "sjr": 0.5
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         }
       ],
       "recent": [

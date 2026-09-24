@@ -15,7 +15,8 @@
           "cites": 8,
           "fwci": 1.87,
           "q": "Q2",
-          "sjr": 0.56
+          "sjr": 0.56,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
@@ -26,7 +27,8 @@
           "cites": 1,
           "fwci": 0.51,
           "q": "Q1",
-          "sjr": 1.14
+          "sjr": 1.14,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Personas-based Student Grouping using reinforcement learning and linear programming",
@@ -37,7 +39,8 @@
           "cites": 15,
           "fwci": 1.83,
           "q": "Q1",
-          "sjr": 1.75
+          "sjr": 1.75,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Chatbot Technology Use and Acceptance Using Educational Personas",
@@ -49,7 +52,8 @@
           "fwci": 5.28,
           "pct": 10,
           "q": "Q1",
-          "sjr": 0.88
+          "sjr": 0.88,
+          "qcat": "Communication"
         }
       ],
       "count": 10274
@@ -79,7 +83,8 @@
           "fwci": 4.13,
           "pct": 10,
           "q": "Q1",
-          "sjr": 0.84
+          "sjr": 0.84,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
@@ -91,7 +96,8 @@
           "fwci": 3.96,
           "pct": 10,
           "q": "Q1",
-          "sjr": 0.55
+          "sjr": 0.55,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
@@ -121,7 +127,8 @@
           "fwci": 356.23,
           "pct": 1,
           "q": "Q1",
-          "sjr": 1.2
+          "sjr": 1.2,
+          "qcat": "Theoretical Computer Science"
         },
         {
           "title": "Memory-Based Event-Triggered Fault-Tolerant Consensus Control of Nonlinear Multi-Agent Systems and Its Applications",
@@ -133,7 +140,8 @@
           "fwci": 5.97,
           "pct": 10,
           "q": "Q1",
-          "sjr": 2.12
+          "sjr": 2.12,
+          "qcat": "Control and Systems Engineering"
         },
         {
           "title": "Empowering biomedical discovery with AI agents",
@@ -157,7 +165,8 @@
           "fwci": 200.33,
           "pct": 1,
           "q": "Q1",
-          "sjr": 4.2
+          "sjr": 4.2,
+          "qcat": "Hardware and Architecture"
         }
       ],
       "count": 68531
@@ -176,7 +185,8 @@
           "fwci": 6.2,
           "pct": 10,
           "q": "Q2",
-          "sjr": 0.54
+          "sjr": 0.54,
+          "qcat": "Hardware and Architecture"
         },
         {
           "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
@@ -198,7 +208,8 @@
           "fwci": 953.85,
           "pct": 1,
           "q": "Q1",
-          "sjr": 19.71
+          "sjr": 19.71,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
@@ -228,7 +239,8 @@
           "fwci": 4.56,
           "pct": 10,
           "q": "Q1",
-          "sjr": 1.48
+          "sjr": 1.48,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Decentralized IoT Data Authentication with Signature Aggregation",
@@ -240,7 +252,8 @@
           "fwci": 10.8,
           "pct": 10,
           "q": "Q1",
-          "sjr": 0.8
+          "sjr": 0.8,
+          "qcat": "Analytical Chemistry"
         },
         {
           "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
@@ -252,7 +265,8 @@
           "fwci": 19.79,
           "pct": 1,
           "q": "Q1",
-          "sjr": 0.84
+          "sjr": 0.84,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Future Monitors in Optimistic Rollups",
@@ -281,7 +295,8 @@
           "fwci": 108.93,
           "pct": 1,
           "q": "Q1",
-          "sjr": 0.91
+          "sjr": 0.91,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "zkFL: Zero-Knowledge Proof-Based Gradient Aggregation for Federated Learning",
@@ -293,7 +308,8 @@
           "fwci": 11.04,
           "pct": 10,
           "q": "Q1",
-          "sjr": 1.53
+          "sjr": 1.53,
+          "qcat": "Information Systems"
         },
         {
           "title": "Securing Smart Manufacturing by Integrating Anomaly Detection With Zero-Knowledge Proofs",
@@ -317,7 +333,8 @@
           "fwci": 58.04,
           "pct": 1,
           "q": "Q1",
-          "sjr": 0.8
+          "sjr": 0.8,
+          "qcat": "Analytical Chemistry"
         }
       ],
       "count": 40623
@@ -347,7 +364,8 @@
           "fwci": 57.39,
           "pct": 1,
           "q": "Q1",
-          "sjr": 3.02
+          "sjr": 3.02,
+          "qcat": "Computational Theory and Mathematics"
         },
         {
           "title": "A review of graph neural networks: concepts, architectures, techniques, challenges, datasets, applications, and future directions",
@@ -359,7 +377,8 @@
           "fwci": 130.21,
           "pct": 1,
           "q": "Q1",
-          "sjr": 1.96
+          "sjr": 1.96,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
@@ -371,7 +390,8 @@
           "fwci": 93.52,
           "pct": 1,
           "q": "Q1",
-          "sjr": 4.83
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
         }
       ],
       "count": 193528
@@ -390,7 +410,8 @@
           "fwci": 7.65,
           "pct": 10,
           "q": "Q1",
-          "sjr": 0.94
+          "sjr": 0.94,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Recent Trends and Insights in Semantic Web and Ontology-Driven Knowledge Representation Across Disciplines Using Topic Modeling",
@@ -402,7 +423,8 @@
           "fwci": 16.22,
           "pct": 1,
           "q": "Q2",
-          "sjr": 0.62
+          "sjr": 0.62,
+          "qcat": "Electrical and Electronic Engineering"
         },
         {
           "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
@@ -424,7 +446,8 @@
           "fwci": 82.07,
           "pct": 1,
           "q": "Q1",
-          "sjr": 8.11
+          "sjr": 8.11,
+          "qcat": "Genetics"
         }
       ],
       "count": 24998
@@ -455,7 +478,8 @@
           "fwci": 23.57,
           "pct": 1,
           "q": "Q1",
-          "sjr": 5.99
+          "sjr": 5.99,
+          "qcat": "Theoretical Computer Science"
         },
         {
           "title": "Trust, trustworthiness and AI governance",
@@ -467,7 +491,8 @@
           "fwci": 20.53,
           "pct": 1,
           "q": "Q1",
-          "sjr": 0.89
+          "sjr": 0.89,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "The governance of artificial intelligence in Canada: Findings and opportunities from a review of 84 AI governance initiatives",
@@ -479,7 +504,8 @@
           "fwci": 29.1,
           "pct": 1,
           "q": "Q1",
-          "sjr": 3.58
+          "sjr": 3.58,
+          "qcat": "E-learning"
         }
       ],
       "count": 106364
@@ -674,7 +700,8 @@
           "fwci": 16.94,
           "pct": 1,
           "q": "Q1",
-          "sjr": 1.43
+          "sjr": 1.43,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Benefits or concerns of AI: A multistakeholder responsibility",
@@ -686,7 +713,8 @@
           "fwci": 32.0,
           "pct": 1,
           "q": "Q1",
-          "sjr": 1.43
+          "sjr": 1.43,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Methods to imagine transformative futures. An integrative literature review.",
@@ -698,7 +726,8 @@
           "fwci": 23.01,
           "pct": 1,
           "q": "Q1",
-          "sjr": 1.43
+          "sjr": 1.43,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Disruptive Technologies for e-Diasporas: Blockchain, DAOs, Data Cooperatives, Metaverse, and ChatGPT",
@@ -710,7 +739,8 @@
           "fwci": 37.97,
           "pct": 1,
           "q": "Q1",
-          "sjr": 1.43
+          "sjr": 1.43,
+          "qcat": "Business and International Management"
         }
       ],
       "count": 430
@@ -729,7 +759,8 @@
           "fwci": 71.21,
           "pct": 1,
           "q": "Q1",
-          "sjr": 3.48
+          "sjr": 3.48,
+          "qcat": "Applied Psychology"
         },
         {
           "title": "The effects of artificial intelligence applications in educational settings: Challenges and strategies",
@@ -741,7 +772,8 @@
           "fwci": 8.32,
           "pct": 10,
           "q": "Q1",
-          "sjr": 3.48
+          "sjr": 3.48,
+          "qcat": "Applied Psychology"
         },
         {
           "title": "How does the digital transformation drive digital technology innovation of enterprises? Evidence from enterprise's digital patents",
@@ -753,7 +785,8 @@
           "fwci": 188.84,
           "pct": 1,
           "q": "Q1",
-          "sjr": 3.48
+          "sjr": 3.48,
+          "qcat": "Applied Psychology"
         },
         {
           "title": "Research on the impact of the integration of digital economy and real economy on enterprise green innovation",
@@ -765,7 +798,8 @@
           "fwci": 45.94,
           "pct": 1,
           "q": "Q1",
-          "sjr": 3.48
+          "sjr": 3.48,
+          "qcat": "Applied Psychology"
         }
       ],
       "count": 1597
@@ -784,7 +818,8 @@
           "fwci": 26.11,
           "pct": 1,
           "q": "Q1",
-          "sjr": 4.4
+          "sjr": 4.4,
+          "qcat": "Accounting"
         },
         {
           "title": "Global versus Local ESG Ratings: Evidence from China",
@@ -796,7 +831,8 @@
           "fwci": 106.28,
           "pct": 1,
           "q": "Q1",
-          "sjr": 4.4
+          "sjr": 4.4,
+          "qcat": "Accounting"
         },
         {
           "title": "The Economics of Audit Production: What Matters for Audit Quality? An Empirical Analysis of the Role of Midlevel Managers within the Audit Firm",
@@ -808,7 +844,8 @@
           "fwci": 16.95,
           "pct": 1,
           "q": "Q1",
-          "sjr": 4.4
+          "sjr": 4.4,
+          "qcat": "Accounting"
         },
         {
           "title": "CEO Risk Taking Equity Incentives and Workplace Misconduct",
@@ -820,7 +857,8 @@
           "fwci": 31.43,
           "pct": 1,
           "q": "Q1",
-          "sjr": 4.4
+          "sjr": 4.4,
+          "qcat": "Accounting"
         }
       ],
       "count": 299
@@ -839,7 +877,8 @@
           "fwci": 51.28,
           "pct": 1,
           "q": "Q1",
-          "sjr": 8.75
+          "sjr": 8.75,
+          "qcat": "Accounting"
         },
         {
           "title": "Measuring innovation and navigating its unique information issues: A review of the accounting literature on innovation",
@@ -851,7 +890,8 @@
           "fwci": 50.35,
           "pct": 1,
           "q": "Q1",
-          "sjr": 8.75
+          "sjr": 8.75,
+          "qcat": "Accounting"
         },
         {
           "title": "The effect of patent disclosure quality on innovation",
@@ -863,7 +903,8 @@
           "fwci": 22.27,
           "pct": 1,
           "q": "Q1",
-          "sjr": 8.75
+          "sjr": 8.75,
+          "qcat": "Accounting"
         },
         {
           "title": "The impact of generative AI on information processing: Evidence from the ban of ChatGPT in Italy",
@@ -875,7 +916,8 @@
           "fwci": 48.65,
           "pct": 1,
           "q": "Q1",
-          "sjr": 8.75
+          "sjr": 8.75,
+          "qcat": "Accounting"
         }
       ],
       "count": 159
@@ -894,7 +936,8 @@
           "fwci": 352.46,
           "pct": 1,
           "q": "Q1",
-          "sjr": 9.77
+          "sjr": 9.77,
+          "qcat": "Accounting"
         },
         {
           "title": "Using and Interpreting Fixed Effects Models",
@@ -906,7 +949,8 @@
           "fwci": 151.31,
           "pct": 1,
           "q": "Q1",
-          "sjr": 9.77
+          "sjr": 9.77,
+          "qcat": "Accounting"
         },
         {
           "title": "Diversity Washing",
@@ -918,7 +962,8 @@
           "fwci": 92.87,
           "pct": 1,
           "q": "Q1",
-          "sjr": 9.77
+          "sjr": 9.77,
+          "qcat": "Accounting"
         },
         {
           "title": "Cultural Origin and Minority Shareholder Expropriation: Historical Evidence",
@@ -930,7 +975,8 @@
           "fwci": 37.44,
           "pct": 1,
           "q": "Q1",
-          "sjr": 9.77
+          "sjr": 9.77,
+          "qcat": "Accounting"
         }
       ],
       "count": 151
@@ -949,7 +995,8 @@
           "fwci": 37.33,
           "pct": 1,
           "q": "Q1",
-          "sjr": 3.69
+          "sjr": 3.69,
+          "qcat": "Accounting"
         },
         {
           "title": "Financial statement adequacy and firms' MD&A disclosures",
@@ -961,7 +1008,8 @@
           "fwci": 20.49,
           "pct": 1,
           "q": "Q1",
-          "sjr": 3.69
+          "sjr": 3.69,
+          "qcat": "Accounting"
         },
         {
           "title": "Disclosure of tax‐related critical audit matters and tax‐related outcomes",
@@ -973,7 +1021,8 @@
           "fwci": 15.37,
           "pct": 1,
           "q": "Q1",
-          "sjr": 3.69
+          "sjr": 3.69,
+          "qcat": "Accounting"
         },
         {
           "title": "Data analytics strategy and internal information quality",
@@ -985,7 +1034,8 @@
           "fwci": 11.16,
           "pct": 10,
           "q": "Q1",
-          "sjr": 3.69
+          "sjr": 3.69,
+          "qcat": "Accounting"
         }
       ],
       "count": 244
@@ -1004,7 +1054,8 @@
           "fwci": 63.18,
           "pct": 1,
           "q": "Q1",
-          "sjr": 5.56
+          "sjr": 5.56,
+          "qcat": "Accounting"
         },
         {
           "title": "ESG assurance in the United States",
@@ -1016,7 +1067,8 @@
           "fwci": 31.61,
           "pct": 1,
           "q": "Q1",
-          "sjr": 5.56
+          "sjr": 5.56,
+          "qcat": "Accounting"
         },
         {
           "title": "Does automation improve financial reporting? Evidence from internal controls",
@@ -1028,7 +1080,8 @@
           "fwci": 41.73,
           "pct": 1,
           "q": "Q1",
-          "sjr": 5.56
+          "sjr": 5.56,
+          "qcat": "Accounting"
         },
         {
           "title": "Actions speak louder than words: environmental law enforcement and audit fees",
@@ -1040,7 +1093,8 @@
           "fwci": 18.37,
           "pct": 1,
           "q": "Q1",
-          "sjr": 5.56
+          "sjr": 5.56,
+          "qcat": "Accounting"
         }
       ],
       "count": 178
@@ -1161,7 +1215,8 @@
           "fwci": 34.66,
           "pct": 1,
           "q": "Q2",
-          "sjr": 0.82
+          "sjr": 0.82,
+          "qcat": "Management Science and Operations Research"
         },
         {
           "title": "Artificial intelligence and sustainable performance: role of organisational agility and environmental dynamism",
@@ -1173,7 +1228,8 @@
           "fwci": 16.24,
           "pct": 1,
           "q": "Q2",
-          "sjr": 0.82
+          "sjr": 0.82,
+          "qcat": "Management Science and Operations Research"
         },
         {
           "title": "Does CEO information technology background promote substantive green innovation or strategic green innovation?",
@@ -1185,7 +1241,8 @@
           "fwci": 7.15,
           "pct": 10,
           "q": "Q2",
-          "sjr": 0.82
+          "sjr": 0.82,
+          "qcat": "Management Science and Operations Research"
         },
         {
           "title": "The evolution of China’s wind power industry innovation network from the perspective of multidimensional proximity",
@@ -1197,7 +1254,8 @@
           "fwci": 30.18,
           "pct": 1,
           "q": "Q2",
-          "sjr": 0.82
+          "sjr": 0.82,
+          "qcat": "Management Science and Operations Research"
         }
       ],
       "count": 694
@@ -1216,7 +1274,8 @@
           "fwci": 73.52,
           "pct": 1,
           "q": "Q1",
-          "sjr": 10.15
+          "sjr": 10.15,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Physical climate change exposure and firms' adaptation strategy",
@@ -1228,7 +1287,8 @@
           "fwci": 29.51,
           "pct": 1,
           "q": "Q1",
-          "sjr": 10.15
+          "sjr": 10.15,
+          "qcat": "Business and International Management"
         },
         {
           "title": "A scientific approach to entrepreneurial decision‐making: Large‐scale replication and extension",
@@ -1240,7 +1300,8 @@
           "fwci": 37.96,
           "pct": 1,
           "q": "Q1",
-          "sjr": 10.15
+          "sjr": 10.15,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Geopolitical volatility and subsidiary investments",
@@ -1252,7 +1313,8 @@
           "fwci": 26.59,
           "pct": 1,
           "q": "Q1",
-          "sjr": 10.15
+          "sjr": 10.15,
+          "qcat": "Business and International Management"
         }
       ],
       "count": 286
@@ -1271,7 +1333,8 @@
           "fwci": 58.46,
           "pct": 1,
           "q": "Q1",
-          "sjr": 2.81
+          "sjr": 2.81,
+          "qcat": "Finance"
         },
         {
           "title": "The impact of digitalization on internationalization from an internalization theory lens",
@@ -1283,7 +1346,8 @@
           "fwci": 11.89,
           "pct": 10,
           "q": "Q1",
-          "sjr": 2.81
+          "sjr": 2.81,
+          "qcat": "Finance"
         },
         {
           "title": "Enhancing digital transformation in SMEs: The dynamic capabilities of innovation intermediaries within ecosystems",
@@ -1295,7 +1359,8 @@
           "fwci": 52.33,
           "pct": 1,
           "q": "Q1",
-          "sjr": 2.81
+          "sjr": 2.81,
+          "qcat": "Finance"
         },
         {
           "title": "The micro-foundations of ambidexterity for corporate social performance: A study on sustainability managers’ response to conflicting goals",
@@ -1307,7 +1372,8 @@
           "fwci": 23.26,
           "pct": 1,
           "q": "Q1",
-          "sjr": 2.81
+          "sjr": 2.81,
+          "qcat": "Finance"
         }
       ],
       "count": 140
@@ -1326,7 +1392,8 @@
           "fwci": 4.73,
           "pct": 10,
           "q": "Q1",
-          "sjr": 10.78
+          "sjr": 10.78,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Collaborating on the Edge of Failure: Frame Alignment across Multiple Interaction Arenas in Multi-Stakeholder Partnerships",
@@ -1338,7 +1405,8 @@
           "fwci": 15.72,
           "pct": 1,
           "q": "Q1",
-          "sjr": 10.78
+          "sjr": 10.78,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Bricks without Straw: Overcoming Resource Limitations to Architect Ecosystem Leadership",
@@ -1350,7 +1418,8 @@
           "fwci": 20.62,
           "pct": 1,
           "q": "Q1",
-          "sjr": 10.78
+          "sjr": 10.78,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Making a Theoretical Contribution with Qualitative Research",
@@ -1362,7 +1431,8 @@
           "fwci": 39.38,
           "pct": 1,
           "q": "Q1",
-          "sjr": 10.78
+          "sjr": 10.78,
+          "qcat": "Business and International Management"
         }
       ],
       "count": 170
@@ -1381,7 +1451,8 @@
           "fwci": 28.52,
           "pct": 1,
           "q": "Q1",
-          "sjr": 4.36
+          "sjr": 4.36,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Institutional entrepreneurship and digital transformation: The role of outsider CEOs",
@@ -1393,7 +1464,8 @@
           "fwci": 15.57,
           "pct": 1,
           "q": "Q1",
-          "sjr": 4.36
+          "sjr": 4.36,
+          "qcat": "Business and International Management"
         },
         {
           "title": "From impact to impacting: A pragmatist perspective on tackling grand challenges",
@@ -1405,7 +1477,8 @@
           "fwci": 6.37,
           "pct": 10,
           "q": "Q1",
-          "sjr": 4.36
+          "sjr": 4.36,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Generative AI and the social fabric of organizations",
@@ -1417,7 +1490,8 @@
           "fwci": 12.89,
           "pct": 10,
           "q": "Q1",
-          "sjr": 4.36
+          "sjr": 4.36,
+          "qcat": "Business and International Management"
         }
       ],
       "count": 93
