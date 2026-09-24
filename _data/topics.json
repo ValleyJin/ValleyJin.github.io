@@ -56,7 +56,7 @@
           "qcat": "Communication"
         }
       ],
-      "count": 10277
+      "count": 10276
     },
     {
       "topic": "Graph database",
@@ -107,13 +107,13 @@
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3685800.3685814",
           "cites": 15,
-          "fwci": 2.2,
+          "fwci": 2.19,
           "q": "Q1",
           "sjr": 1.77,
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 117216
+      "count": 117222
     },
     {
       "topic": "Memory in Agentic AI",
@@ -125,8 +125,8 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1624,
-          "fwci": 356.23,
+          "cites": 1627,
+          "fwci": 356.25,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.2,
@@ -172,7 +172,7 @@
           "qcat": "Hardware and Architecture"
         }
       ],
-      "count": 68531
+      "count": 68537
     },
     {
       "topic": "LLM inference serving",
@@ -198,7 +198,7 @@
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
           "cites": 6,
-          "fwci": 1.47,
+          "fwci": 1.45,
           "nr": "na"
         },
         {
@@ -226,7 +226,7 @@
           "nr": "na"
         }
       ],
-      "count": 5874
+      "count": 5878
     },
     {
       "topic": "Ethereum Layer-2",
@@ -239,7 +239,7 @@
           "venue": "Future Generation Computer Systems",
           "url": "https://doi.org/10.1016/j.future.2025.108316",
           "cites": 3,
-          "fwci": 4.56,
+          "fwci": 4.54,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.48,
@@ -307,8 +307,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Big Data",
           "url": "https://doi.org/10.1109/tbdata.2024.3403370",
-          "cites": 50,
-          "fwci": 11.04,
+          "cites": 51,
+          "fwci": 11.17,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.53,
@@ -341,7 +341,7 @@
           "qcat": "Analytical Chemistry"
         }
       ],
-      "count": 40629
+      "count": 40634
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -398,12 +398,63 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 193546
+      "count": 193570
     },
     {
       "topic": "Ontology",
       "query": "ontology knowledge representation",
-      "papers": []
+      "papers": [
+        {
+          "title": "Enhancing Learning Personalization in Educational Environments through Ontology-Based Knowledge Representation",
+          "authors": "Villegas-Ch, W. E., & Garcí­a-Ortiz, J.",
+          "year": 2023,
+          "venue": "Computers",
+          "url": "https://doi.org/10.3390/computers12100199",
+          "cites": 36,
+          "fwci": 7.65,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.94,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "Recent Trends and Insights in Semantic Web and Ontology-Driven Knowledge Representation Across Disciplines Using Topic Modeling",
+          "authors": "Stănescu, G. C., & Oprea, S.",
+          "year": 2025,
+          "venue": "Electronics",
+          "url": "https://doi.org/10.3390/electronics14071313",
+          "cites": 18,
+          "fwci": 16.22,
+          "pct": 1,
+          "q": "Q2",
+          "sjr": 0.62,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
+          "authors": "Gribova, V. V., Шалфеева, Е. А., Okun, D. B., & Shevchenko, O. N.",
+          "year": 2025,
+          "venue": "Ontology of Designing",
+          "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
+          "cites": 1,
+          "fwci": 0.95,
+          "nr": "na"
+        },
+        {
+          "title": "The Human Phenotype Ontology in 2024: phenotypes around the world",
+          "authors": "Gargano, M. A., Matentzoglu, N., Coleman, B. D., Addo-Lartey, E. B., Anagnostopoulos, A. V., Anderton, J., et al.",
+          "year": 2023,
+          "venue": "Nucleic Acids Research",
+          "url": "https://doi.org/10.1093/nar/gkad1005",
+          "cites": 418,
+          "fwci": 82.21,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 8.11,
+          "qcat": "Genetics"
+        }
+      ],
+      "count": 24999
     },
     {
       "topic": "AI governance",
@@ -429,7 +480,7 @@
           "venue": "ACM Computing Surveys",
           "url": "https://doi.org/10.1145/3626234",
           "cites": 115,
-          "fwci": 23.57,
+          "fwci": 23.52,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.99,
@@ -462,7 +513,7 @@
           "qcat": "E-learning"
         }
       ],
-      "count": 106372
+      "count": 106381
     },
     {
       "topic": "NeurIPS",
@@ -988,8 +1039,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3367329",
-          "cites": 982,
-          "fwci": 211.01,
+          "cites": 983,
+          "fwci": 210.11,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -1048,7 +1099,7 @@
           "venue": "Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.artint.2024.104129",
           "cites": 78,
-          "fwci": 17.22,
+          "fwci": 17.09,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.29,
@@ -1073,8 +1124,8 @@
           "year": 2024,
           "venue": "Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.artint.2024.104085",
-          "cites": 70,
-          "fwci": 15.46,
+          "cites": 71,
+          "fwci": 15.56,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.29,
@@ -1224,8 +1275,8 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.122903",
-          "cites": 399,
-          "fwci": 71.21,
+          "cites": 401,
+          "fwci": 71.41,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.48,
@@ -1342,8 +1393,8 @@
           "year": 2024,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2024.101706",
-          "cites": 170,
-          "fwci": 51.28,
+          "cites": 171,
+          "fwci": 51.47,
           "pct": 1,
           "q": "Q1",
           "sjr": 8.75,
@@ -1402,7 +1453,7 @@
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12548",
           "cites": 553,
-          "fwci": 352.46,
+          "fwci": 350.2,
           "pct": 1,
           "q": "Q1",
           "sjr": 9.77,
@@ -1441,7 +1492,7 @@
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12517",
           "cites": 95,
-          "fwci": 37.44,
+          "fwci": 37.29,
           "pct": 1,
           "q": "Q1",
           "sjr": 9.77,
@@ -1566,7 +1617,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 176
+      "count": 175
     },
     {
       "topic": "FFS",
@@ -1861,8 +1912,8 @@
           "year": 2023,
           "venue": "Academy of Management Journal",
           "url": "https://doi.org/10.5465/amj.2023.4006",
-          "cites": 171,
-          "fwci": 4.73,
+          "cites": 172,
+          "fwci": 4.75,
           "pct": 10,
           "q": "Q1",
           "sjr": 10.78,
@@ -2000,6 +2051,19 @@
           "qcat": "Arts and Humanities (miscellaneous)"
         },
         {
+          "title": "#Knowyourworth: How influencers commercialise meaningful work",
+          "authors": "Trittin‐Ulbrich, H., & Glozer, S.",
+          "year": 2024,
+          "venue": "Human Relations",
+          "url": "https://doi.org/10.1177/00187267231220260",
+          "cites": 23,
+          "fwci": 17.75,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.14,
+          "qcat": "Arts and Humanities (miscellaneous)"
+        },
+        {
           "title": "Navigating the twisted path of gaslighting: A manifestation of epistemic injustice for Palestinian women entrepreneurs",
           "authors": "Omran, W., & Yousafzai, S.",
           "year": 2023,
@@ -2007,19 +2071,6 @@
           "url": "https://doi.org/10.1177/00187267231203531",
           "cites": 22,
           "fwci": 15.74,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 4.14,
-          "qcat": "Arts and Humanities (miscellaneous)"
-        },
-        {
-          "title": "#Knowyourworth: How influencers commercialise meaningful work",
-          "authors": "Trittin‐Ulbrich, H., & Glozer, S.",
-          "year": 2024,
-          "venue": "Human Relations",
-          "url": "https://doi.org/10.1177/00187267231220260",
-          "cites": 22,
-          "fwci": 17.01,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.14,
@@ -2097,8 +2148,8 @@
           "year": 2024,
           "venue": "Journal of Management",
           "url": "https://doi.org/10.1177/01492063241268459",
-          "cites": 420,
-          "fwci": 62.81,
+          "cites": 421,
+          "fwci": 62.35,
           "pct": 1,
           "q": "Q1",
           "sjr": 8.25,
@@ -2380,7 +2431,7 @@
           "qcat": "Management of Technology and Innovation"
         }
       ],
-      "count": 223
+      "count": 224
     },
     {
       "topic": "HRM",
@@ -2804,8 +2855,8 @@
           "year": 2024,
           "venue": "Accounting in Europe",
           "url": "https://doi.org/10.1080/17449480.2024.2312145",
-          "cites": 271,
-          "fwci": 104.65,
+          "cites": 272,
+          "fwci": 104.9,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.96,
@@ -2876,8 +2927,8 @@
           "year": 2024,
           "venue": "Sustainability Accounting Management and Policy Journal",
           "url": "https://doi.org/10.1108/sampj-07-2023-0492",
-          "cites": 66,
-          "fwci": 19.76,
+          "cites": 67,
+          "fwci": 19.98,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.81,
@@ -3040,8 +3091,8 @@
           "year": 2023,
           "venue": "Management Accounting Research",
           "url": "https://doi.org/10.1016/j.mar.2023.100876",
-          "cites": 42,
-          "fwci": 16.55,
+          "cites": 43,
+          "fwci": 16.88,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.62,
@@ -3120,6 +3171,19 @@
           "qcat": "Accounting"
         },
         {
+          "title": "The accounting profession in the Twilight Zone: navigating digitalisation's sided challenges through ethical pathways for decision-making",
+          "authors": "Tiron‐Tudor, A., Rodgers, W., & Deliu, D.",
+          "year": 2024,
+          "venue": "Accounting Auditing & Accountability Journal",
+          "url": "https://doi.org/10.1108/aaaj-12-2022-6173",
+          "cites": 24,
+          "fwci": 14.37,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.57,
+          "qcat": "Accounting"
+        },
+        {
           "title": "Climate apartheid: the failures of accountability and climate justice",
           "authors": "Perkiss, S.",
           "year": 2024,
@@ -3127,19 +3191,6 @@
           "url": "https://doi.org/10.1108/aaaj-02-2024-6903",
           "cites": 22,
           "fwci": 3.91,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 1.57,
-          "qcat": "Accounting"
-        },
-        {
-          "title": "The failure of the United Kingdom’s accounting and fiscal governance",
-          "authors": "Heald, D. A., & Hodges, R.",
-          "year": 2024,
-          "venue": "Accounting Auditing & Accountability Journal",
-          "url": "https://doi.org/10.1108/aaaj-06-2023-6513",
-          "cites": 21,
-          "fwci": 13.45,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.57,

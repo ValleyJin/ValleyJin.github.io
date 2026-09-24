@@ -138,7 +138,7 @@
       "type": "conference",
       "link": "https://aclanthology.org/venues/emnlp/",
       "h": 65,
-      "i10": 462,
+      "i10": 463,
       "works": 847,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -151,7 +151,7 @@
       "type": "conference",
       "link": "https://iccv.thecvf.com/",
       "h": 160,
-      "i10": 1053,
+      "i10": 1056,
       "works": 1618,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -300,7 +300,9 @@
         "Diverse Scientific and Economic Studies",
         "Human auditory perception and evaluation"
       ],
-      "about": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is ",
+      "founded": 1970,
+      "about": "Artificial Intelligence is a scientific journal covering research in artificial intelligence. It was established in 1970 and is published by Elsevier. The journal is abstracted and indexed in Scopus and the Science Citat",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/c/cb/Artificial_Intelligence_%28journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "AI"
     },
     "JAIR": {
@@ -366,6 +368,7 @@
         "Diverse Scientific and Economic Studies",
         "Human auditory perception and evaluation"
       ],
+      "about": "Futures is a peer-reviewed academic journal covering futures studies. It is published by Elsevier. The editors-in-chief are Patrick van der Duin and Chris Groves.",
       "group": "Futures Studies"
     },
     "TFSC": {
@@ -409,7 +412,7 @@
       "name": "The Accounting Review",
       "type": "journal",
       "link": "https://publications.aaahq.org/accounting-review",
-      "h": 282,
+      "h": 286,
       "if2": 5.5,
       "works": 11777,
       "issn": "0001-4826",
@@ -559,7 +562,7 @@
       "name": "Review of Accounting Studies",
       "type": "journal",
       "link": "https://link.springer.com/journal/11142",
-      "h": 148,
+      "h": 152,
       "if2": 6.9,
       "works": 1197,
       "issn": "1380-6653",
@@ -695,7 +698,7 @@
       "name": "Strategic Management Journal",
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/10970266",
-      "h": 514,
+      "h": 515,
       "if2": 8.6,
       "works": 4536,
       "issn": "0143-2095",
@@ -763,7 +766,7 @@
       "type": "journal",
       "link": "https://aom.org/research/journals/journal",
       "h": 574,
-      "if2": 6.6,
+      "if2": 6.7,
       "works": 6934,
       "issn": "0001-4273",
       "domain": "Social Sciences",
@@ -838,6 +841,9 @@
         "Corporate Finance and Governance",
         "Entrepreneurship Studies and Influences"
       ],
+      "founded": 2003,
+      "about": "Strategic Organization is a quarterly peer-reviewed academic journal that covers the fields of strategic management and organization studies. Its editors-in-chief are Oliver Alexy, Hans Berends,, Charlotte Cloutier, Davi",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f6/Strategic_Organization.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Strategy"
     },
     "HumRel": {
@@ -956,8 +962,8 @@
       "name": "Organization Science",
       "type": "journal",
       "link": "https://pubsonline.informs.org/journal/orsc",
-      "h": 390,
-      "if2": 7.7,
+      "h": 391,
+      "if2": 7.8,
       "works": 2799,
       "issn": "1047-7039",
       "domain": "Social Sciences",
@@ -985,15 +991,17 @@
         "Corporate Finance and Governance",
         "Entrepreneurship Studies and Influences"
       ],
+      "founded": 1990,
+      "about": "Organization Science is a bimonthly peer-reviewed academic journal published by the Institute for Operations Research and the Management Sciences. It covers research on the dynamics of organizations. In 2012, it was one ",
       "group": "Strategy"
     },
     "MgmtSci": {
       "name": "Management Science",
       "type": "journal",
       "link": "http://pubsonline.informs.org/journal/mnsc",
-      "h": 480,
-      "if2": 6.3,
-      "works": 13830,
+      "h": 484,
+      "if2": 6.4,
+      "works": 13832,
       "issn": "0025-1909",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
@@ -1016,7 +1024,9 @@
         "Corporate Finance and Governance",
         "Auditing, Earnings Management, Governance"
       ],
-      "about": "Management science is an interdisciplinary study of solving complex problems and making strategic decisions as it pertains to institutions, corporations, governments and other types of organizational entities. It is clos",
+      "founded": 1954,
+      "about": "Management Science is a peer-reviewed academic journal that covers research on all aspects of management related to strategy, entrepreneurship, innovation, information technology, and organizations as well as all functio",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/4/4a/Management_Sciense_May_2011_cover.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Strategy"
     },
     "JMS": {
@@ -1090,7 +1100,9 @@
         "Gender Diversity and Inequality",
         "Cultural Industries and Urban Development"
       ],
-      "about": "Organizational behavior or organisational behaviour is the \"study of human behavior in organizational settings, the interface between human behavior and the organization, and the organization itself\". Organizational beha",
+      "founded": 1980,
+      "about": "Organization Studies is a monthly peer-reviewed academic journal that covers the field of organization studies. The journal's editors-in-chief are Renate Meyer and Paolo Quattrone. It was established in 1980 and is publi",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f8/Organization_Studies.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Strategy"
     },
     "HRM": {
@@ -1137,9 +1149,9 @@
       "name": "Research Policy",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/research-policy",
-      "h": 405,
+      "h": 407,
       "if2": 8.3,
-      "works": 5309,
+      "works": 5315,
       "issn": "0048-7333",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
@@ -1170,8 +1182,8 @@
         "Entrepreneurship Studies and Influences",
         "Intellectual Property and Patents"
       ],
-      "about": "Science policy is concerned with the allocation of resources for the conduct of science towards the goal of best serving the public interest. Topics include the funding of science, the careers of scientists, and the tran",
-      "wimg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/283.002-Erkennen-en-Waarderen-Position-Paper_EN_web.pdf/page1-960px-283.002-Erkennen-en-Waarderen-Position-Paper_EN_web.pdf.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "about": "Research Policy is a monthly peer-reviewed academic journal published by Elsevier on behalf of the Science Policy Research Unit at the University of Sussex. It was established by British economist Christopher Freeman in ",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/a/a4/Research_Policy_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "Strategy"
     },
     "JIBS": {
@@ -1410,7 +1422,7 @@
       "type": "journal",
       "link": "https://www.tandfonline.com/toc/raie20/current",
       "h": 58,
-      "if2": 9.7,
+      "if2": 9.8,
       "works": 372,
       "issn": "1744-9480",
       "domain": "Social Sciences",
@@ -1446,7 +1458,7 @@
       "link": "https://www.emerald.com/insight/publication/issn/2040-8021",
       "h": 80,
       "if2": 8.2,
-      "works": 696,
+      "works": 697,
       "issn": "2040-8021",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
