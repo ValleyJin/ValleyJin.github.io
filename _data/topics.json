@@ -61,7 +61,59 @@
     {
       "topic": "Graph database",
       "query": "Graph database",
-      "papers": []
+      "papers": [
+        {
+          "title": "Testing Graph Database Systems via Graph-Aware Metamorphic Relations",
+          "authors": "Zhuang, Z., Li, P., Ma, P., Meng, W., & Wang, S.",
+          "year": 2023,
+          "venue": "Proceedings of the VLDB Endowment",
+          "url": "https://doi.org/10.14778/3636218.3636236",
+          "cites": 22,
+          "fwci": 2.04,
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
+          "authors": "Hornsteiner, M., Kreussel, M., Steindl, C., Ebner, F. F., Empl, P., & Schönig, S.",
+          "year": 2024,
+          "venue": "Future Internet",
+          "url": "https://doi.org/10.3390/fi16120438",
+          "cites": 28,
+          "fwci": 4.13,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.84,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
+          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K. V.",
+          "year": 2024,
+          "venue": "MethodsX",
+          "url": "https://doi.org/10.1016/j.mex.2024.102683",
+          "cites": 18,
+          "fwci": 3.96,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.55,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
+          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
+          "year": 2024,
+          "venue": "Proceedings of the VLDB Endowment",
+          "url": "https://doi.org/10.14778/3685800.3685814",
+          "cites": 15,
+          "fwci": 2.2,
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
+        }
+      ],
+      "count": 117199
     },
     {
       "topic": "Memory in Agentic AI",
@@ -179,7 +231,58 @@
     {
       "topic": "Ethereum Layer-2",
       "query": "Ethereum layer-2 rollup",
-      "papers": []
+      "papers": [
+        {
+          "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
+          "authors": "Melo, C., Miqueias, J., Messias, J., Gonçalves, G., Silva, F. A., Soares, A., et al.",
+          "year": 2025,
+          "venue": "Future Generation Computer Systems",
+          "url": "https://doi.org/10.1016/j.future.2025.108316",
+          "cites": 3,
+          "fwci": 4.56,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.48,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "Decentralized IoT Data Authentication with Signature Aggregation",
+          "authors": "Burgos, J. B., & Pustišek, M.",
+          "year": 2024,
+          "venue": "Sensors",
+          "url": "https://doi.org/10.3390/s24031037",
+          "cites": 18,
+          "fwci": 10.8,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.8,
+          "qcat": "Analytical Chemistry"
+        },
+        {
+          "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
+          "authors": "Saif, M. B., Migliorini, S., & Spoto, F.",
+          "year": 2024,
+          "venue": "Future Internet",
+          "url": "https://doi.org/10.3390/fi16090315",
+          "cites": 34,
+          "fwci": 19.79,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 0.84,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "Future Monitors in Optimistic Rollups",
+          "authors": "Margarita, C., Martín, C., & César, S.",
+          "year": 2025,
+          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+          "url": "https://doi.org/10.4230/oasics.fmbc.2025.5",
+          "cites": 36,
+          "fwci": 0.0,
+          "nr": "na"
+        }
+      ],
+      "count": 548
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -591,6 +694,517 @@
         }
       ],
       "count": 7364
+    },
+    {
+      "topic": "AAAI",
+      "query": "s2:AAAI",
+      "papers": [
+        {
+          "title": "Designing Ambiguity Sets for Distributionally Robust Optimization Using Structural Causal Optimal Transport",
+          "authors": "Ehyaei, A., Farnadi, G., & Samadi, S.",
+          "year": 2025,
+          "venue": "AAAI Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.1609/aaai.v39i16.33808",
+          "cites": 2,
+          "crank": "A*"
+        },
+        {
+          "title": "When Are Two Lists Better than One?: Benefits and Harms in Joint Decision-making",
+          "authors": "Donahue, K., Kollias, K., & Gollapudi, S.",
+          "year": 2023,
+          "venue": "AAAI Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2308.11721",
+          "cites": 9,
+          "crank": "A*"
+        },
+        {
+          "title": "Automating the Expansion of Instrument Typicals in Piping and Instrumentation Diagrams (P&IDs)",
+          "authors": "Shteriyanov, V., Dzhusupova, R., Bosch, J., & Olsson, H.",
+          "year": 2025,
+          "venue": "AAAI Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.1609/aaai.v39i28.35155",
+          "cites": 5,
+          "crank": "A*"
+        },
+        {
+          "title": "Object Attribute Matters in Visual Question Answering",
+          "authors": "Li, P., Si, Q., Fu, P., Lin, Z., & Wang, Y.",
+          "year": 2023,
+          "venue": "AAAI Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2401.09442",
+          "cites": 7,
+          "crank": "A*"
+        }
+      ],
+      "count": 12343
+    },
+    {
+      "topic": "IJCAI",
+      "query": "s2:IJCAI",
+      "papers": [
+        {
+          "title": "Bayesian Optimization with Switching Cost: Regret Analysis and Lookahead Variants",
+          "authors": "Liu, P., Wang, H., & Qiyu, W.",
+          "year": 2023,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.24963/ijcai.2023/446",
+          "cites": 9,
+          "crank": "A*"
+        },
+        {
+          "title": "Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models",
+          "authors": "He, X., Wei, L., Xie, L., & Tian, Q.",
+          "year": 2024,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2401.03105",
+          "cites": 14,
+          "crank": "A*"
+        },
+        {
+          "title": "Polynomial-Time Relational Probabilistic Inference in Open Universes",
+          "authors": "Ge, L., Juba, B., & Nilsson, K.",
+          "year": 2025,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2505.04115",
+          "cites": 1,
+          "crank": "A*"
+        },
+        {
+          "title": "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond",
+          "authors": "Guo, K., Shen, Y., González‐Montiel, G., Huang, Y., Zhou, Y., Surve, M., et al.",
+          "year": 2024,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2502.09897",
+          "cites": 23,
+          "crank": "A*"
+        }
+      ],
+      "count": 2994
+    },
+    {
+      "topic": "ACL",
+      "query": "s2:ACL",
+      "papers": [
+        {
+          "title": "From Information to Insight: Leveraging LLMs for Open Aspect-Based Educational Summarization",
+          "authors": "Zhong, Y., & Litman, D. J.",
+          "year": 2025,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.95",
+          "cites": 2,
+          "crank": "A*"
+        },
+        {
+          "title": "QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning and Descriptions",
+          "authors": "Wang, S., Yu, W., Chen, X., Tian, X., Zhang, J., Lu, L., et al.",
+          "year": 2025,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.48550/arXiv.2503.20290",
+          "cites": 31,
+          "crank": "A*"
+        },
+        {
+          "title": "AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models",
+          "authors": "Wu, Y., Yu, W., Cheng, Y., Wang, Y., Zhang, X., Xu, J., et al.",
+          "year": 2024,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.48550/arXiv.2406.09295",
+          "cites": 10,
+          "crank": "A*"
+        },
+        {
+          "title": "MedScore: Generalizable Factuality Evaluation of Open-ended Long-form Medical Answers by Domain-adapted Claim Decomposition and Verification",
+          "authors": "Huang, H., DeLucia, A., Tiyyala, V., & Dredze, M.",
+          "year": 2025,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.18653/v1/2026.findings-acl.693",
+          "cites": 4,
+          "crank": "A*"
+        }
+      ],
+      "count": 11922
+    },
+    {
+      "topic": "EMNLP",
+      "query": "s2:EMNLP",
+      "papers": [
+        {
+          "title": "Solving Hard Analogy Questions with Relation Embedding Chains",
+          "authors": "Kumar, N., & Schockaert, S.",
+          "year": 2023,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2310.12379",
+          "cites": 1,
+          "crank": "A*"
+        },
+        {
+          "title": "FaST: Feature-aware Sampling and Tuning for Personalized Preference Alignment with Limited Data",
+          "authors": "Thonet, T., Kruszewski, G., Rozen, J., Erbacher, P., & Dymetman, M.",
+          "year": 2025,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2508.04698",
+          "cites": 5,
+          "crank": "A*"
+        },
+        {
+          "title": "Can LLM be a Personalized Judge?",
+          "authors": "Dong, Y. R., Hu, T., & Collier, N.",
+          "year": 2024,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2406.11657",
+          "cites": 136,
+          "crank": "A*"
+        },
+        {
+          "title": "CRAB: Assessing the Strength of Causal Relationships Between Real-world Events",
+          "authors": "Romanou, A., Montariol, S., Paul, D., Laugier, L., Aberer, K., & Bosselut, A.",
+          "year": 2023,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2311.04284",
+          "cites": 47,
+          "crank": "A*"
+        }
+      ],
+      "count": 8136
+    },
+    {
+      "topic": "ICCV",
+      "query": "s2:ICCV",
+      "papers": [
+        {
+          "title": "On the Complexity-Faithfulness Trade-Off of Gradient-Based Explanations",
+          "authors": "Mehrpanah, A., Gamba, M., Smith, K. A., & Azizpour, H.",
+          "year": 2025,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51701.2025.00337",
+          "cites": 2,
+          "crank": "A*"
+        },
+        {
+          "title": "Computationally-Efficient Neural Image Compression with Shallow Decoders",
+          "authors": "Yang, Y., & Mandt, S.",
+          "year": 2023,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51070.2023.00055",
+          "cites": 52,
+          "crank": "A*"
+        },
+        {
+          "title": "Generalized Few-Shot Point Cloud Segmentation Via Geometric Words",
+          "authors": "Xu, Y., Hu, C., Zhao, N., & Lee, G. H.",
+          "year": 2023,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51070.2023.01966",
+          "cites": 20,
+          "crank": "A*"
+        },
+        {
+          "title": "OVA-Fields: Weakly Supervised Open-Vocabulary Affordance Fields for Robot Operational Part Detection",
+          "authors": "Su, H., Xie, M., Cao, N., Ding, Y., Shao, B., Long, X., et al.",
+          "year": 2025,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51701.2025.00602",
+          "cites": 7,
+          "crank": "A*"
+        }
+      ],
+      "count": 4626
+    },
+    {
+      "topic": "ECCV",
+      "query": "s2:ECCV",
+      "papers": [
+        {
+          "title": "End-to-End Rate-Distortion Optimized 3D Gaussian Representation",
+          "authors": "Wang, H., Zhu, H., He, T., Feng, R., Deng, J., Bian, J., et al.",
+          "year": 2024,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2406.01597",
+          "cites": 96,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        },
+        {
+          "title": "Asynchronous Large Language Model Enhanced Planner for Autonomous Driving",
+          "authors": "Chen, Y., Ding, Z., Wang, Z., Wang, Y., Zhang, L., & Liu, S.",
+          "year": 2024,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2406.14556",
+          "cites": 60,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        },
+        {
+          "title": "Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation",
+          "authors": "Lai, B., Ryan, F., Jia, W., Liu, M., & Rehg, J. M.",
+          "year": 2023,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2305.03907",
+          "cites": 25,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        },
+        {
+          "title": "Event-Based Motion Magnification",
+          "authors": "Chen, Y., Guo, S., Yu, F., Zhang, F., Gu, J., & Xue, T.",
+          "year": 2024,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2402.11957",
+          "cites": 8,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        }
+      ],
+      "count": 2468
+    },
+    {
+      "topic": "KDD",
+      "query": "s2:KDD",
+      "papers": [
+        {
+          "title": "Hyper-USS: Answering Subset Query Over Multi-Attribute Data Stream",
+          "authors": "Miao, R., Zhang, Y., Qu, G., Yang, K., Yang, T., & Cui, B.",
+          "year": 2023,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3580305.3599383",
+          "cites": 12,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "Mitigating Pooling Bias in E-commerce Search via False Negative Estimation",
+          "authors": "Wang, X., Xiao, X., Zhang, R., Zhang, X., Na, T., Tenneti, T., et al.",
+          "year": 2023,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3637528.3671630",
+          "cites": 5,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "Graph Neural Bandits",
+          "authors": "Qi, Y., Ban, Y., & He, J.",
+          "year": 2023,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3580305.3599371",
+          "cites": 32,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "CREAM: Continual Retrieval on Dynamic Streaming Corpora with Adaptive Soft Memory",
+          "authors": "Son, H., Kang, H., Kim, S., Ho, S., Kang, S., Lee, D., et al.",
+          "year": 2026,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3770854.3780281",
+          "cites": 2,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        }
+      ],
+      "count": 2253
+    },
+    {
+      "topic": "JMLR",
+      "query": "venue:S118988714",
+      "papers": [
+        {
+          "title": "MEKA: A multi-label/multi-target extension to Weka",
+          "authors": "Read, J.",
+          "year": 2025,
+          "venue": "Aaltodoc (Aalto University)",
+          "url": "https://doi.org/10.57702/tmdwazw3",
+          "cites": 217,
+          "fwci": 0.96,
+          "nr": "na"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "topic": "TPAMI",
+      "query": "venue:S199944782",
+      "papers": [
+        {
+          "title": "A Comprehensive Survey of Continual Learning: Theory, Method and Application",
+          "authors": "Wang, L., Zhang, X., Su, H., & Zhu, J.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3367329",
+          "cites": 982,
+          "fwci": 211.01,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        },
+        {
+          "title": "Medical Image Segmentation Review: The Success of U-Net",
+          "authors": "Azad, R., Aghdam, E. K., Rauland, A., Jia, Y., Avval, A. H., Bozorgpour, A., et al.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3435571",
+          "cites": 903,
+          "fwci": 218.79,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        },
+        {
+          "title": "Vision-Language Models for Vision Tasks: A Survey",
+          "authors": "Zhang, J., Huang, J., Jin, S., & Lu, S.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3369699",
+          "cites": 897,
+          "fwci": 131.0,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        },
+        {
+          "title": "SpectralGPT: Spectral Remote Sensing Foundation Model",
+          "authors": "Hong, D., Zhang, B., Li, X., Li, Y., Li, C., Yao, J., et al.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3362475",
+          "cites": 848,
+          "fwci": 135.96,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        }
+      ],
+      "count": 2598
+    },
+    {
+      "topic": "AIJ",
+      "query": "venue:S196139623",
+      "papers": [
+        {
+          "title": "Polarized message-passing in graph neural networks",
+          "authors": "He, T., Liu, Y., Ong, Y., Wu, X., & Luo, X.",
+          "year": 2024,
+          "venue": "Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.artint.2024.104129",
+          "cites": 78,
+          "fwci": 17.22,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.29,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Human-AI coevolution",
+          "authors": "Pedreschi, D., Pappalardo, L., Ferragina, E., Baeza-Yates, R. A., Barabási, A., Dignum, F. P. M., et al.",
+          "year": 2024,
+          "venue": "Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.artint.2024.104244",
+          "cites": 76,
+          "fwci": 58.95,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.29,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Temporal inductive path neural network for temporal knowledge graph reasoning",
+          "authors": "Dong, H., Wang, P., Xiao, M., Ning, Z., Wang, P., & Zhou, Y.",
+          "year": 2024,
+          "venue": "Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.artint.2024.104085",
+          "cites": 70,
+          "fwci": 15.46,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.29,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Exploring the psychology of LLMs’ moral and legal reasoning",
+          "authors": "Almeida, G., Nunes, J. L., Engelmann, N., Wiegmann, A., & Araújo, M. D.",
+          "year": 2024,
+          "venue": "Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.artint.2024.104145",
+          "cites": 63,
+          "fwci": 189.68,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.29,
+          "qcat": "Artificial Intelligence"
+        }
+      ],
+      "count": 313
+    },
+    {
+      "topic": "JAIR",
+      "query": "venue:S139930977",
+      "papers": [
+        {
+          "title": "Human-in-the-Loop Reinforcement Learning: A Survey and Position on Requirements, Challenges, and Opportunities",
+          "authors": "Retzlaff, C. O., Das, S., Wayllace, C., Mousavi, P., Afshari, M. P., Yang, T., et al.",
+          "year": 2024,
+          "venue": "Journal of Artificial Intelligence Research",
+          "url": "https://doi.org/10.1613/jair.1.15348",
+          "cites": 156,
+          "fwci": 34.24,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.11,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Decision-Focused Learning: Foundations, State of the Art, Benchmark and Future Opportunities",
+          "authors": "Mandi, J., Kotary, J., Berden, S., Mulamba, M., Bucarey, V., Guns, T., et al.",
+          "year": 2024,
+          "venue": "Journal of Artificial Intelligence Research",
+          "url": "https://doi.org/10.1613/jair.1.15320",
+          "cites": 120,
+          "fwci": 37.36,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.11,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Cultural Bias in Explainable AI Research: A Systematic Analysis",
+          "authors": "Peters, U., & Carman, M.",
+          "year": 2024,
+          "venue": "Journal of Artificial Intelligence Research",
+          "url": "https://doi.org/10.1613/jair.1.14888",
+          "cites": 68,
+          "fwci": 15.02,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.11,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Agentic Large Language Models, a Survey",
+          "authors": "Plaat, A., Duijn, M. V., Stein, B. V., Preuß, M., Putten, P. V. D., & Batenburg, K. J.",
+          "year": 2025,
+          "venue": "Journal of Artificial Intelligence Research",
+          "url": "https://doi.org/10.1613/jair.1.18675",
+          "cites": 62,
+          "fwci": 59.22,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.11,
+          "qcat": "Artificial Intelligence"
+        }
+      ],
+      "count": 376
     },
     {
       "topic": "Futures",

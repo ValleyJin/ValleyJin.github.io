@@ -53,6 +53,213 @@
       "crank": "A*",
       "group": "AI"
     },
+    "AAAI": {
+      "name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "type": "conference",
+      "link": "https://aaai.org/conference/aaai/",
+      "h": 297,
+      "i10": 9582,
+      "works": 25116,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "crank": "A*",
+      "group": "AI"
+    },
+    "IJCAI": {
+      "name": "International Joint Conference on Artificial Intelligence",
+      "type": "conference",
+      "link": "https://www.ijcai.org/",
+      "h": 117,
+      "i10": 1289,
+      "works": 2846,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "crank": "A*",
+      "group": "AI"
+    },
+    "ACL": {
+      "name": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "type": "conference",
+      "link": "https://www.aclweb.org/",
+      "h": 69,
+      "i10": 395,
+      "works": 603,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "crank": "A*",
+      "group": "AI"
+    },
+    "EMNLP": {
+      "name": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+      "type": "conference",
+      "link": "https://aclanthology.org/venues/emnlp/",
+      "h": 65,
+      "i10": 462,
+      "works": 847,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "crank": "A*",
+      "group": "AI"
+    },
+    "ICCV": {
+      "name": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "type": "conference",
+      "link": "https://iccv.thecvf.com/",
+      "h": 160,
+      "i10": 1053,
+      "works": 1618,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "crank": "A*",
+      "group": "AI"
+    },
+    "ECCV": {
+      "name": "European Conference on Computer Vision",
+      "type": "conference",
+      "link": "https://eccv.ecva.net/",
+      "h": 7,
+      "i10": 6,
+      "works": 31,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
+      "crank": "A*",
+      "group": "AI"
+    },
+    "KDD": {
+      "name": "Knowledge Discovery and Data Mining",
+      "type": "conference",
+      "link": "https://www.kdd.org/",
+      "h": 36,
+      "i10": 92,
+      "works": 344,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Information Systems",
+      "crank": "A*",
+      "group": "AI"
+    },
+    "JMLR": {
+      "name": "Journal of Machine Learning Research",
+      "type": "journal",
+      "link": "https://www.jmlr.org/",
+      "h": 131,
+      "if2": 0,
+      "works": 1418,
+      "issn": "1532-4435",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "sjr": 2.0,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ],
+        [
+          "Control and Systems Engineering",
+          "Q1"
+        ],
+        [
+          "Software",
+          "Q1"
+        ],
+        [
+          "Statistics and Probability",
+          "Q1"
+        ]
+      ],
+      "group": "AI"
+    },
+    "TPAMI": {
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "type": "journal",
+      "link": "https://www.computer.org/csdl/journal/tp",
+      "h": 555,
+      "if2": 14.6,
+      "works": 12543,
+      "issn": "0162-8828",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
+      "sjr": 4.83,
+      "q": "Q1",
+      "cats": [
+        [
+          "Applied Mathematics",
+          "Q1"
+        ],
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ],
+        [
+          "Computational Theory and Mathematics",
+          "Q1"
+        ],
+        [
+          "Computer Vision and Pattern Recognition",
+          "Q1"
+        ],
+        [
+          "Software",
+          "Q1"
+        ]
+      ],
+      "group": "AI"
+    },
+    "AIJ": {
+      "name": "Artificial Intelligence",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/artificial-intelligence",
+      "h": 300,
+      "if2": 3.7,
+      "works": 4851,
+      "issn": "0004-3702",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "sjr": 1.29,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ],
+        [
+          "Linguistics and Language",
+          "Q1"
+        ]
+      ],
+      "group": "AI"
+    },
+    "JAIR": {
+      "name": "Journal of Artificial Intelligence Research",
+      "type": "journal",
+      "link": "https://www.jair.org/",
+      "h": 155,
+      "if2": 4.5,
+      "works": 1876,
+      "issn": "1076-9757",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "sjr": 1.11,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ]
+      ],
+      "group": "AI"
+    },
     "Futures": {
       "name": "Futures",
       "type": "journal",
@@ -823,6 +1030,96 @@
       ],
       "group": "Accounting"
     },
+    "EAR": {
+      "name": "European Accounting Review",
+      "type": "journal",
+      "link": "https://www.tandfonline.com/toc/rear20/current",
+      "h": 132,
+      "if2": 2.8,
+      "works": 1680,
+      "issn": "0963-8180",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 2.27,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Aerospace Engineering",
+          "Q1"
+        ],
+        [
+          "Arts and Humanities (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Automotive Engineering",
+          "Q1"
+        ],
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q1"
+        ],
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "History",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "CPA": {
+      "name": "Critical Perspectives on Accounting",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/critical-perspectives-on-accounting",
+      "h": 127,
+      "if2": 5.9,
+      "works": 2402,
+      "issn": "1045-2354",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Management Information Systems",
+      "sjr": 2.1,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "Information Systems and Management",
+          "Q1"
+        ],
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
     "AiE": {
       "name": "Accounting in Europe",
       "type": "journal",
@@ -852,6 +1149,68 @@
       ],
       "group": "Accounting"
     },
+    "SAMPJ": {
+      "name": "Sustainability Accounting Management and Policy Journal",
+      "type": "journal",
+      "link": "https://www.emerald.com/insight/publication/issn/2040-8021",
+      "h": 80,
+      "if2": 8.2,
+      "works": 696,
+      "issn": "2040-8021",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 1.81,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Renewable Energy, Sustainability and the Environment",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "IJAIS": {
+      "name": "International Journal of Accounting Information Systems",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/international-journal-of-accounting-information-systems",
+      "h": 92,
+      "if2": 12.1,
+      "works": 776,
+      "issn": "1467-0895",
+      "domain": "Physical Sciences",
+      "field": "Engineering",
+      "sub": "Aerospace Engineering",
+      "sjr": 1.75,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "Information Systems and Management",
+          "Q1"
+        ],
+        [
+          "Management Information Systems",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
     "BAR": {
       "name": "The British Accounting Review",
       "type": "journal",
@@ -868,6 +1227,35 @@
       "cats": [
         [
           "Accounting",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "MAR": {
+      "name": "Management Accounting Research",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/management-accounting-research",
+      "h": 144,
+      "if2": 3.8,
+      "works": 1021,
+      "issn": "1044-5005",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Management Information Systems",
+      "sjr": 1.62,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "Information Systems and Management",
           "Q1"
         ]
       ],
