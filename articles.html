@@ -658,7 +658,7 @@ permalink: /articles/
         if(_cover) _covs.push(_cover); if(v.wimg) _covs.push(v.wimg); if(v.ogimg) _covs.push(v.ogimg);   // → Elsevier ISSN 표지 → Wikipedia → og:image → (로고/타일)
         jdet.className='qdetail qd-open';
         jdet.innerHTML='<button type="button" class="qd-x" aria-label="닫기">×</button>'
-          +'<div class="qd-cover '+qcl+'">'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">'+esc(v.group||'')+'</span></div>'
+          +'<a class="qd-cover '+qcl+'"'+(v.link?' href="'+esc(v.link)+'" target="_blank" rel="noopener" title="'+esc(v.name||v.label)+' 열기"':'')+'>'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">'+esc(v.group||'')+'</span></a>'
           +'<div class="qd-body">'
             +'<div class="qd-h">'+(v.link?'<a href="'+esc(v.link)+'" target="_blank" rel="noopener">'+esc(v.name||v.label)+' ↗</a>':esc(v.name||v.label))+'</div>'
             +'<div class="qd-chips">'+chips+'</div>'
@@ -680,8 +680,11 @@ permalink: /articles/
         if(f){ var g=f.getAttribute('data-grp'); jsel[g]=!jsel[g]; jview.innerHTML=buildJ(); _syncMetricURL(); }
         else if(q){ var Q=q.getAttribute('data-q'); qsel[Q]=!qsel[Q]; jview.innerHTML=buildJ(); _syncMetricURL(); }
         else if(dot){ e.preventDefault(); if(_dragMoved){ _dragMoved=false; return; }
-          renderJDetail(jByLabel[dot.getAttribute('data-lab')]); } }); }
-      if(jdet){ jdet.addEventListener('click',function(e){ if(e.target.closest('.qd-x')){ jdet.hidden=true; jdet.className='qdetail'; try{AState.set({mp:null});}catch(_){} } }); }
+          var lab=dot.getAttribute('data-lab'); jHL=lab; jview.innerHTML=buildJ(true);   // 클릭한 점을 하이라이트(이전 하이라이트 해제)
+          renderJDetail(jByLabel[lab]); } }); }
+      if(jdet){ jdet.addEventListener('click',function(e){ if(e.target.closest('.qd-x')){ jdet.hidden=true; jdet.className='qdetail';
+        jHL=null; if(jview) jview.innerHTML=buildJ(true); if(cview){ [].forEach.call(cview.querySelectorAll('.qdot.is-hl'),function(d){d.classList.remove('is-hl');}); }   // 하이라이트 해제
+        try{AState.set({mp:null});}catch(_){} } }); }
 
       /* ── AI 학회 점 클릭 → 상세(소개/학회 방향/공략 포인트). 저널과 달리 CORE 등급·h/i10·최근 주제 기준 ── */
       var cByLabel={}; confs.forEach(function(v){ cByLabel[v.label]=v; });
@@ -711,7 +714,7 @@ permalink: /articles/
         var _logo=_host?('https://www.google.com/s2/favicons?sz=128&domain='+encodeURIComponent(_host)):'';
         jdet.className='qdetail qd-open';
         jdet.innerHTML='<button type="button" class="qd-x" aria-label="닫기">×</button>'
-          +'<div class="qd-cover cr-'+crc+'">'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">AI 학회</span></div>'
+          +'<a class="qd-cover cr-'+crc+'"'+(v.link?' href="'+esc(v.link)+'" target="_blank" rel="noopener" title="'+esc(v.name||v.label)+' 열기"':'')+'>'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">AI 학회</span></a>'
           +'<div class="qd-body">'
             +'<div class="qd-h">'+(v.link?'<a href="'+esc(v.link)+'" target="_blank" rel="noopener">'+esc(v.name||v.label)+' ↗</a>':esc(v.name||v.label))+'</div>'
             +'<div class="qd-chips">'+chips+'</div>'
@@ -724,7 +727,7 @@ permalink: /articles/
         if(v.wimg){ var _im=new Image(); _im.onload=function(){ var cov=jdet.querySelector('.qd-cover'); if(cov && !cov.classList.contains('has-cover')){ cov.classList.add('has-cover'); cov.innerHTML='<img class="qd-cover-img" src="'+esc(v.wimg)+'" alt="'+esc((v.name||'')+' 이미지')+'">'; } }; _im.src=v.wimg; }
       }
       if(cview){ cview.addEventListener('click',function(e){ var dot=e.target.closest?e.target.closest('.qdot'):null;
-        if(dot){ e.preventDefault(); renderCDetail(cByLabel[dot.getAttribute('data-lab')]); } }); }
+        if(dot){ e.preventDefault(); var lab=dot.getAttribute('data-lab'); _highlightC(cByLabel[lab]); renderCDetail(cByLabel[lab]); } }); }
       function _highlightC(v){ var ct=el.querySelector('.qtab[data-v="c"]'); if(ct&&!ct.classList.contains('is-on')) ct.click();
         if(!cview) return; [].forEach.call(cview.querySelectorAll('.qdot.is-hl'),function(d){d.classList.remove('is-hl');});
         var d=cview.querySelector('.qdot[data-lab="'+String(v.label).replace(/"/g,'')+'"]'); if(d) d.classList.add('is-hl'); }

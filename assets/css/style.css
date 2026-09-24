@@ -853,12 +853,13 @@ img{max-width:100%;display:block}
 .qplot.is-pan,.qplot.is-pan *{cursor:grabbing!important}
 .qdot{cursor:pointer}
 /* 점 클릭 상세 패널: 좌=커버, 우=소개/저널방향/공략포인트 */
-.qdetail{position:relative;display:grid;grid-template-columns:132px 1fr;gap:18px;margin:14px 4px 2px;padding:16px 18px;background:var(--bg-elev);border:1px solid var(--line);border-radius:14px;animation:qdfade .18s ease}
+.qdetail{position:relative;display:grid;grid-template-columns:118px 1fr;gap:18px;margin:14px 4px 2px;padding:16px 18px;background:var(--bg-elev);border:1px solid var(--line);border-radius:14px;animation:qdfade .18s ease}
 .qdetail[hidden]{display:none!important}   /* .qdetail의 display:grid가 [hidden]을 이겨 닫힘이 안 되던 문제 */
 @keyframes qdfade{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .qd-x{position:absolute;top:8px;right:10px;background:none;border:0;color:var(--muted);font-size:20px;line-height:1;cursor:pointer;padding:2px 6px}
 .qd-x:hover{color:var(--ink)}
-.qd-cover{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;height:112px;border-radius:11px;color:#fff;text-align:center;padding:8px}
+.qd-cover{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;aspect-ratio:3/4;border-radius:10px;color:#fff;text-align:center;padding:10px 8px;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.35);transition:transform .15s,box-shadow .15s}
+.qd-cover:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.45)}
 .qd-cover.q1{background:linear-gradient(150deg,#e23b3b,#a12626)}.qd-cover.q2{background:linear-gradient(150deg,#f2891e,#b5620f)}.qd-cover.q3{background:linear-gradient(150deg,#5eb3e4,#2f80b5)}.qd-cover.q4{background:linear-gradient(150deg,#9aa0ac,#6b6e78)}
 .qd-cover.cr-as{background:linear-gradient(150deg,#7728ff,#4a13a8)}.qd-cover.cr-a{background:linear-gradient(150deg,#a57dff,#6f43c8)}.qd-cover.cr-b{background:linear-gradient(150deg,#416faf,#284a78)}.qd-cover.cr-c{background:linear-gradient(150deg,#9aa0ac,#6b6e78)}
 .qd-chip.qd-cr-as{background:#7728ff;border-color:#7728ff;color:#fff}.qd-chip.qd-cr-a{background:#a57dff;border-color:#a57dff;color:#1a1030}.qd-chip.qd-cr-b{background:#416faf;border-color:#416faf;color:#fff}.qd-chip.qd-cr-c{background:#9aa0ac;border-color:#9aa0ac;color:#15161a}
@@ -878,7 +879,7 @@ img{max-width:100%;display:block}
 .qd-sec p{margin:0;font-size:13px;line-height:1.6;color:var(--ink-soft)}
 .qd-sec p b{color:var(--ink);font-weight:600}
 .qd-mut{color:var(--muted);font-size:11.5px}
-@media(max-width:560px){.qdetail{grid-template-columns:1fr;gap:12px}.qd-cover{height:78px;flex-direction:row;gap:12px}.qd-ac{font-size:20px}}
+@media(max-width:560px){.qdetail{grid-template-columns:96px 1fr;gap:14px}.qd-ac{font-size:18px}}
 
 /* 학력 전공 특화 표기 (tangerine) */
 .deg-spec{color:#f2891e;font-weight:500}
