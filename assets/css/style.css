@@ -325,7 +325,6 @@ body.qmap-fs-open{overflow:hidden}
 .qmap.is-fs .qplot{max-width:none}
 .qmap-fs-x{position:fixed;top:14px;right:18px;z-index:2001;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--bg-elev);color:var(--ink-soft);font-size:23px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
 .qmap-fs-x:hover{color:var(--ink);border-color:var(--accent)}
-.qmap.is-fs .qdot-pt{transform:translate(-50%,50%) scale(2)}   /* 전체화면: 점 지름(상한 포함) 2배 */
 .qmap-head{font-size:12px;letter-spacing:.06em;color:var(--accent);margin-bottom:14px}
 .qmap-sub{color:var(--muted);text-transform:none;letter-spacing:.02em;font-size:11px}
 .qmap-track{position:relative;display:flex;border-radius:10px;overflow:hidden;border:1px solid var(--line)}

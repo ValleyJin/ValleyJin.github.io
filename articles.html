@@ -584,7 +584,8 @@ permalink: /articles/
         return s+'</div>';
       }
       function legend(items,note){ return '<div class="qleg mono">'+items.map(function(z){return '<span class="qleg-i"><span class="qleg-d '+z[0]+'"></span>'+z[1]+'</span>';}).join('')+(note?'<span class="qleg-note">'+esc(note)+'</span>':'')+'</div>'; }
-      function bub(w,wm){ return (7 + Math.sqrt((w||0)/wm)*11).toFixed(1); }   // 점 지름: 면적 ∝ 논문 수(현재 뷰 최대 기준 정규화, 7~18px)
+      var _fs=false;   // 전체화면 여부(점 크기 범위에 반영)
+      function bub(w,wm){ var lo=_fs?3.5:7, hi=_fs?36:18; return (lo + Math.sqrt((w||0)/wm)*(hi-lo)).toFixed(1); }   // 점 지름: 면적 ∝ 논문 수. 일반 7~18px, 전체화면 3.5~36px(상한 2배·하한 절반)
       function niceticks(mx){ if(!(mx>0)) return [0]; var raw=mx/4, mag=Math.pow(10,Math.floor(Math.log10(raw))), n=raw/mag, step=(n<1.5?1:n<3?2:n<7?5:10)*mag, out=[]; for(var t=0;t<=mx+step*0.001;t+=step) out.push(Math.round(t*1000)/1000); return out; }
 
       /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외). 분야 복수선택으로 필터 ── */
@@ -641,7 +642,7 @@ permalink: /articles/
       var jHtml=buildJ();
 
       /* ── 학회: X=h-index, Y=i10-index, 점 크기=논문수, 색=CORE 등급 ── */
-      var cHtml='';
+      function buildC(){ var cHtml='';
       if(confs.length){
         var crc={'A*':'as','A':'a','B':'b','C':'c'};
         var cwMax=Math.max.apply(null,confs.map(function(v){return v.works||0;}).concat([1]));
@@ -657,6 +658,8 @@ permalink: /articles/
           title:(v.name||'')+' · CORE '+(v.crank||'')+' · 적중률 '+Math.round(_hit(v)*100)+'% · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
         cHtml+=plot({pts:cpts,xMax:cxMax,yMax:cyMax,axX:'인용 적중률(i10÷논문수) →',axY:'규모보정 h(h÷√논문수) ↑',aspect:1.7});
       }
+      return cHtml; }
+      var cHtml=buildC();
 
       /* ── 서브탭 조립 ── */
       var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">AI 학회</button>':'')
@@ -904,6 +907,7 @@ permalink: /articles/
       function _fsToggle(on){
         var want=(on==null)? !el.classList.contains('is-fs') : on;
         el.classList.toggle('is-fs',want); document.body.classList.toggle('qmap-fs-open',want);
+        _fs=want; if(jview) jview.innerHTML=buildJ(true); if(cview) cview.innerHTML=buildC();   // 점 크기 범위 재적용(상한 2배·하한 절반)
         if(want && !el.querySelector('.qmap-fs-x')){ var b=document.createElement('button'); b.className='qmap-fs-x'; b.type='button'; b.setAttribute('aria-label','전체화면 닫기'); b.textContent='×';
           b.addEventListener('click',function(){ _fsToggle(false); }); el.appendChild(b); }
       }
