@@ -664,8 +664,9 @@ permalink: /articles/
         var cpts=confs.map(function(v){ return {x:_hit(v),y:_hn(v),label:v.label,link:v.link,
           cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'적중 '+Math.round(_hit(v)*100)+'% · h/√n '+_hn(v).toFixed(1),
           title:(v.name||'')+' · CORE '+(v.crank||'')+' · 적중률 '+Math.round(_hit(v)*100)+'% · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
-        var _cev=eqView(cxMax,cyMax);   // 16:9 프레임 + 등축
-        cHtml+=plot({pts:cpts,xMax:_cev.x1,yMax:_cev.y1,view:_cev,axX:'인용 적중률(i10÷논문수) →',axY:'규모보정 h(h÷√논문수) ↑',aspect:FR});
+        // 학회 두 축은 단위가 무관한 정규화 비율 → 등축 무의미. 16:9 프레임에 데이터를 여백만 주고 채운다.
+        var _cv={x0:0,x1:cxMax*1.06,y0:0,y1:cyMax*1.1};
+        cHtml+=plot({pts:cpts,xMax:_cv.x1,yMax:_cv.y1,view:_cv,axX:'인용 적중률(i10÷논문수) →',axY:'규모보정 h(h÷√논문수) ↑',aspect:FR});
       }
       return cHtml; }
       var cHtml=buildC();
