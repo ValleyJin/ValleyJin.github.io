@@ -210,7 +210,8 @@ def load_scimago():
             except ValueError:
                 sjr = None
         # 분야별 분위: Categories 컬럼이 ';'를 내부에 써서 열 분해가 불안정 → 'Name (Qn)' 패턴을 원본 줄에서 정규식 추출
-        cats = [[n.strip(), "Q" + d] for n, d in re.findall(r"([A-Za-z][\w &,./'\-]+?)\s+\(Q([1-4])\)", ln)]
+        # 카테고리명에 내부 괄호가 있을 수 있다(예: "Physics and Astronomy (miscellaneous) (Q2)")
+        cats = [[n.strip(), "Q" + d] for n, d in re.findall(r"([A-Za-z][\w &,./'\-]*(?:\([^)]*\)[\w &,./'\-]*)*?)\s*\(Q([1-4])\)", ln)]
         entry = {"q": q, "sjr": sjr, "cats": cats}
         for iss in c[i_issn].replace(" ", "").split(","):
             k = iss.replace("-", "").upper()

@@ -25,7 +25,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&citation_for_view=gM0qYNUAAAAJ:d1gkVwhDpl0C",
           "cites": 210,
           "q": "Q2",
-          "sjr": 0.42
+          "sjr": 0.42,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "Impact of the topology of global macroeconomic network on the spreading of economic crises",
@@ -238,7 +239,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:Y0pCki6q_DkC",
           "cites": 346,
           "q": "Q1",
-          "sjr": 1.77
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "TurboGraph: a fast parallel graph engine handling billion-scale graphs in a single PC",
@@ -363,7 +365,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:E7VqQtBCVmcC",
           "cites": 0,
           "q": "Q1",
-          "sjr": 1.77
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "CONDA: A Connectivity-Aware Dynamic Index for Approximate Nearest Neighbor Search over Evolving Data",
@@ -373,7 +376,8 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:JH5k92_tO-AC",
           "cites": 0,
           "q": "Q1",
-          "sjr": 1.77
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "GraphContainer: A Unified Platform for Comparing and Debugging Graph RAG Methods",

@@ -292,7 +292,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-09-22",
@@ -338,7 +339,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.57,
-      "added": "2026-09-22"
+      "added": "2026-09-22",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-09-22",
@@ -978,7 +980,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.22,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Engineering (miscellaneous)"
     },
     {
       "date": "2026-09-21",
@@ -1084,7 +1087,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.42,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Physics and Astronomy (miscellaneous)"
     },
     {
       "date": "2026-09-21",
@@ -1177,7 +1181,8 @@
       "pct": 10,
       "q": "Q3",
       "sjr": 0.26,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Engineering (miscellaneous)"
     },
     {
       "date": "2026-09-21",
@@ -1192,7 +1197,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.56,
-      "added": "2026-09-21"
+      "added": "2026-09-21",
+      "qcat": "Engineering (miscellaneous)"
     },
     {
       "date": "2026-09-21",
@@ -1369,7 +1375,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.74,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-09-21",
@@ -1383,7 +1390,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.74,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-09-21",
@@ -1647,7 +1655,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.62,
-      "added": "2026-09-20"
+      "added": "2026-09-20",
+      "qcat": "Economics, Econometrics and Finance (miscellaneous)"
     },
     {
       "date": "2026-09-20",
@@ -1800,7 +1809,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.29,
-      "added": "2026-09-19"
+      "added": "2026-09-19",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-09-19",
@@ -2123,7 +2133,8 @@
       "pct": 10,
       "q": "Q2",
       "sjr": 0.76,
-      "added": "2026-09-18"
+      "added": "2026-09-18",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-09-18",
@@ -2468,7 +2479,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.74,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business, Management and Accounting (miscellaneous)"
     },
     {
       "date": "2026-09-17",
@@ -2614,7 +2626,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.74,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business, Management and Accounting (miscellaneous)"
     },
     {
       "date": "2026-09-16",
@@ -2628,7 +2641,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.74,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business, Management and Accounting (miscellaneous)"
     },
     {
       "date": "2026-09-16",
@@ -2643,7 +2657,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 0.74,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business, Management and Accounting (miscellaneous)"
     },
     {
       "date": "2026-09-16",
@@ -2737,7 +2752,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.74,
-      "added": "2026-09-24"
+      "added": "2026-09-24",
+      "qcat": "Business, Management and Accounting (miscellaneous)"
     },
     {
       "date": "2026-09-15",
@@ -3788,7 +3804,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 4.34,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Medicine (miscellaneous)"
     },
     {
       "date": "2026-08-31",
@@ -3925,7 +3942,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.26,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-08-31",
@@ -4088,7 +4106,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 0.62,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Economics, Econometrics and Finance (miscellaneous)"
     },
     {
       "date": "2026-08-31",
@@ -4117,7 +4136,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.99,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Agricultural and Biological Sciences (miscellaneous)"
     },
     {
       "date": "2026-08-31",
@@ -4146,7 +4166,8 @@
       "fwci": 0.0,
       "q": "Q3",
       "sjr": 0.22,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-08-31",
@@ -4457,7 +4478,8 @@
       "pct": 10,
       "q": "Q1",
       "sjr": 4.34,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Medicine (miscellaneous)"
     },
     {
       "date": "2026-08-31",
@@ -4681,7 +4703,8 @@
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.5,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Agricultural and Biological Sciences (miscellaneous)"
     },
     {
       "date": "2026-08-31",
@@ -5047,7 +5070,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.54,
-      "added": "2026-08-31"
+      "added": "2026-08-31",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-08-31",
@@ -5338,7 +5362,8 @@
       "fwci": 0.0,
       "q": "Q1",
       "sjr": 1.43,
-      "added": "2026-09-23"
+      "added": "2026-09-23",
+      "qcat": "Computer Science (miscellaneous)"
     },
     {
       "date": "2026-08-31",
@@ -7191,7 +7216,8 @@
         "fwci": 11.75,
         "pct": 10,
         "q": "Q1",
-        "sjr": 1.77
+        "sjr": 1.77,
+        "qcat": "Computer Science (miscellaneous)"
       },
       {
         "title": "Query languages for graph databases",
@@ -7399,7 +7425,8 @@
         "fwci": 9.83,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.84
+        "sjr": 0.84,
+        "qcat": "Computer Science (miscellaneous)"
       },
       {
         "title": "How to construct constant-round zero-knowledge proof systems for NP",
@@ -7496,7 +7523,8 @@
         "fwci": 54.48,
         "pct": 1,
         "q": "Q1",
-        "sjr": 2.79
+        "sjr": 2.79,
+        "qcat": "Physics and Astronomy (miscellaneous)"
       },
       {
         "title": "E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials",
@@ -7567,7 +7595,8 @@
         "fwci": 4.72,
         "pct": 10,
         "q": "Q1",
-        "sjr": 2.17
+        "sjr": 2.17,
+        "qcat": "Computer Science (miscellaneous)"
       },
       {
         "title": "TransO: a knowledge-driven representation learning method with ontology information constraints",
@@ -7830,7 +7859,8 @@
         "cites": 44,
         "topic": "CVPR",
         "q": "Q2",
-        "sjr": 0.54
+        "sjr": 0.54,
+        "qcat": "Computer Science (miscellaneous)"
       },
       {
         "title": "1998 Conference on Computer Vision and Pattern Recognition (CVPR '98), June 23-25, 1998, Santa Barbara, CA, USA",
@@ -7841,7 +7871,8 @@
         "cites": 0,
         "topic": "CVPR",
         "q": "Q2",
-        "sjr": 0.54
+        "sjr": 0.54,
+        "qcat": "Computer Science (miscellaneous)"
       }
     ],
     "Futures": [
@@ -8457,7 +8488,8 @@
         "fwci": 21.43,
         "pct": 1,
         "q": "Q1",
-        "sjr": 0.74
+        "sjr": 0.74,
+        "qcat": "Business, Management and Accounting (miscellaneous)"
       },
       {
         "title": "Horizon Scanning in Foresight – Why Horizon Scanning is only a part of the game",
@@ -8470,7 +8502,8 @@
         "fwci": 11.93,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.74
+        "sjr": 0.74,
+        "qcat": "Business, Management and Accounting (miscellaneous)"
       },
       {
         "title": "AI‐assisted scenario generation for strategic planning",
@@ -8483,7 +8516,8 @@
         "fwci": 11.54,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.74
+        "sjr": 0.74,
+        "qcat": "Business, Management and Accounting (miscellaneous)"
       },
       {
         "title": "Improving the question formulation in Delphi‐like surveys: Analysis of the effects of abstract language and amount of information on response behavior",
@@ -8496,7 +8530,8 @@
         "fwci": 15.38,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.74
+        "sjr": 0.74,
+        "qcat": "Business, Management and Accounting (miscellaneous)"
       },
       {
         "title": "Corporate foresight as a microfoundation of dynamic capabilities",
@@ -8509,7 +8544,8 @@
         "fwci": 7.16,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.74
+        "sjr": 0.74,
+        "qcat": "Business, Management and Accounting (miscellaneous)"
       },
       {
         "title": "Psychological biases and heuristics in the context of foresight and scenario processes",
@@ -8522,7 +8558,8 @@
         "fwci": 4.67,
         "pct": 10,
         "q": "Q1",
-        "sjr": 0.74
+        "sjr": 0.74,
+        "qcat": "Business, Management and Accounting (miscellaneous)"
       }
     ],
     "JFS": [
