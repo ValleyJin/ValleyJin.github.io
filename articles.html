@@ -311,6 +311,7 @@ permalink: /articles/
   <script type="application/json" id="alerts-data">{{ site.data.scholar_alerts | jsonify }}</script>
   <script type="application/json" id="scholars-data">{{ site.data.scholars.scholars | jsonify }}</script>
   <script type="application/json" id="venues-data">{{ site.data.venues | jsonify }}</script>
+  <script type="application/json" id="scatter-data">{{ site.data.scatter_venues | jsonify }}</script>
   <script>
     /* 공유 가능한 딥링크: 탭·토픽·날짜를 URL 해시에 인코딩(#tab=topics&topic=SMJ&date=…) */
     window.AState=(function(){
@@ -329,6 +330,9 @@ permalink: /articles/
       function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
       var journals=[], confs=[];
       Object.keys(vs).forEach(function(k){ var v=vs[k]; v.label=k; if(v.type==='journal'&&v.q) journals.push(v); else if(v.type==='conference') confs.push(v); });
+      // scatter 전용 저널(Q1~Q4 분포용, Topics 칩엔 미포함) 병합
+      try{ var sv=(JSON.parse((document.getElementById('scatter-data')||{}).textContent||'{}')||{}).venues||{};
+        Object.keys(sv).forEach(function(k){ var v=sv[k]; if(v.type==='journal'&&v.q&&v.sjr!=null) journals.push(v); }); }catch(e){}
       if(!journals.length && !confs.length){ return; }
       var PX=9, PY=12;   // 축 여백(%)
       function median(a){ var s=a.slice().sort(function(x,y){return x-y;}),m=s.length>>1; return s.length?(s.length%2?s[m]:(s[m-1]+s[m])/2):0; }
@@ -358,13 +362,14 @@ permalink: /articles/
       /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외). 분야 복수선택으로 필터 ── */
       var JGROUPS=['Futures Studies','Strategy','Accounting'];   // 저널 분야(AI=학회는 축이 달라 별도 탭)
       var jsel={}; JGROUPS.forEach(function(g){ jsel[g]=true; });   // 기본: 전부 선택
+      var qsel={Q1:true,Q2:true,Q3:true,Q4:true};                  // 분위 필터(색 범례 클릭 토글)
       function buildJ(){
-        var jr=journals.filter(function(v){return v.sjr!=null && jsel[v.group];});
+        var jr=journals.filter(function(v){return v.sjr!=null && jsel[v.group] && qsel[String(v.q||'Q1').toUpperCase()];});
         var sMax=Math.max.apply(null,jr.map(function(v){return v.sjr;}).concat([0.1]));
         var jMax=Math.max.apply(null,jr.map(function(v){return v.if2!=null?v.if2:0;}).concat([0.1]));
         var rp=jr.filter(function(v){return v.if2!=null;}), reg=null, excl=[];
         if(rp.length>=2){
-          var pts=rp.map(function(v){return {x:v.sjr,y:v.if2,l:v.label};}), f0=linfit(pts);
+          var pts=rp.map(function(v){return {x:v.if2,y:v.sjr,l:v.label};}), f0=linfit(pts);   // X=IF, Y=SJR
           if(f0 && pts.length>=3){
             var res=pts.map(function(o){return o.y-(f0.a*o.x+f0.b);}), med=median(res),
                 mad=median(res.map(function(r){return Math.abs(r-med);})), out={};
@@ -375,14 +380,14 @@ permalink: /articles/
         }
         var jwMax=Math.max.apply(null,jr.map(function(v){return v.works||0;}).concat([1]));
         var h='<div class="qjbar">'+JGROUPS.map(function(g){ return '<button type="button" class="qfld'+(jsel[g]?' is-on':'')+'" data-grp="'+esc(g)+'" aria-pressed="'+(jsel[g]?'true':'false')+'">'+esc(g)+'</button>'; }).join('')+'</div>';
-        h+=legend([['q1','Q1'],['q2','Q2'],['q3','Q3'],['q4','Q4']],'점 크기 = 논문 수');
-        var jpts=jr.map(function(v){ var yy=(v.if2!=null?v.if2:0); return {x:v.sjr,y:yy,label:v.label,link:v.link,
+        h+='<div class="qleg mono">'+['q1','q2','q3','q4'].map(function(qq){ var Q=qq.toUpperCase(); return '<button type="button" class="qleg-q'+(qsel[Q]?'':' is-off')+'" data-q="'+Q+'" aria-pressed="'+(qsel[Q]?'true':'false')+'"><span class="qleg-d '+qq+'"></span>'+Q+'</button>'; }).join('')+'<span class="qleg-note">점 크기 = 논문 수</span></div>';
+        var jpts=jr.map(function(v){ var ify=(v.if2!=null?v.if2:0); return {x:ify,y:v.sjr,label:v.label,link:v.link,
           cls:String(v.q||'q1').toLowerCase(), r:bub(v.works,jwMax), num:v.sjr+'/'+(v.if2!=null?v.if2:'–'), out:excl.indexOf(v.label)>=0,
-          below:(reg && excl.indexOf(v.label)<0 && yy < reg.a*v.sjr+reg.b),
+          below:(reg && excl.indexOf(v.label)<0 && v.sjr < reg.a*ify+reg.b),   // 회귀선 아래(질 낮음) → 라벨 아래로
           title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')+' · 논문 '+(v.works||'')}; });
-        h+=plot({pts:jpts,xMax:sMax,yMax:jMax,axX:'SJR →',axY:'IF 2yr ↑',reg:reg});
+        h+=plot({pts:jpts,xMax:jMax,yMax:sMax,axX:'IF 2yr →',axY:'SJR ↑',reg:reg});   // X=IF, Y=SJR
         if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b);
-          h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  IF ≈ '+reg.a.toFixed(2)+' · SJR '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(excl.length?'  <span class="qreg-note">* '+esc(excl.join(', '))+' outlier 제외</span>':'  <span class="qreg-note">(SJR 1↑ → IF '+(reg.a>=0?'+':'')+reg.a.toFixed(2)+')</span>')+'</div>'; }
+          h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  SJR ≈ '+reg.a.toFixed(2)+' · IF '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(excl.length?'  <span class="qreg-note">* '+esc(excl.join(', '))+' 아래 = 인용↑ 대비 질↓</span>':'  <span class="qreg-note">(IF 1↑ → SJR '+(reg.a>=0?'+':'')+reg.a.toFixed(2)+')</span>')+'</div>'; }
         return h;
       }
       var jHtml=buildJ();
@@ -424,9 +429,10 @@ permalink: /articles/
       // 분야 복수선택: 저널 뷰를 필터해서 재렌더(이벤트 위임 — 재렌더돼도 유지)
       var jview=el.querySelector('.qview[data-v="j"]');
       if(jview){ jview.addEventListener('click',function(e){
-        var t=e.target.closest ? e.target.closest('.qfld') : null; if(!t) return;
-        var g=t.getAttribute('data-grp'); jsel[g]=!jsel[g];
-        jview.innerHTML=buildJ(); }); }
+        var f=e.target.closest ? e.target.closest('.qfld') : null;
+        var q=e.target.closest ? e.target.closest('.qleg-q') : null;
+        if(f){ var g=f.getAttribute('data-grp'); jsel[g]=!jsel[g]; jview.innerHTML=buildJ(); }
+        else if(q){ var Q=q.getAttribute('data-q'); qsel[Q]=!qsel[Q]; jview.innerHTML=buildJ(); } }); }
     })();
   </script>
   <script>

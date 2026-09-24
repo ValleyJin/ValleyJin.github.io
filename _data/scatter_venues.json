@@ -1,0 +1,1321 @@
+{
+  "generated": "2026-09-24",
+  "venues": {
+    "Strategy|organizational research methods": {
+      "name": "Organizational Research Methods",
+      "label": "ORM",
+      "group": "Strategy",
+      "q": "Q1",
+      "sjr": 14.27,
+      "if2": 24.9,
+      "works": 78,
+      "cats": [
+        [
+          "Decision Sciences (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=organizational%20research%20methods"
+    },
+    "Strategy|organization theory": {
+      "name": "Organization Theory",
+      "label": "OT",
+      "group": "Strategy",
+      "q": "Q1",
+      "sjr": 4.85,
+      "if2": 8.1,
+      "works": 71,
+      "cats": [
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=organization%20theory"
+    },
+    "Strategy|manufacturing and service operations management": {
+      "name": "Manufacturing And Service Operations Management",
+      "label": "MSOM",
+      "group": "Strategy",
+      "q": "Q1",
+      "sjr": 4.66,
+      "if2": 5.1,
+      "works": 460,
+      "cats": [
+        [
+          "Management Science and Operations Research",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=manufacturing%20and%20service%20operations%20management"
+    },
+    "Strategy|tourism management": {
+      "name": "Tourism Management",
+      "label": "TM",
+      "group": "Strategy",
+      "q": "Q1",
+      "sjr": 4.5,
+      "if2": 19.6,
+      "works": 405,
+      "cats": [
+        [
+          "Development",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ],
+        [
+          "Tourism, Leisure and Hospitality Management",
+          "Q1"
+        ],
+        [
+          "Transportation",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=tourism%20management"
+    },
+    "Strategy|international journal of management reviews": {
+      "name": "International Journal Of Management Reviews",
+      "label": "MR",
+      "group": "Strategy",
+      "q": "Q1",
+      "sjr": 4.08,
+      "if2": 16.8,
+      "works": 91,
+      "cats": [
+        [
+          "Decision Sciences (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=international%20journal%20of%20management%20reviews"
+    },
+    "Strategy|journal of service management": {
+      "name": "Journal Of Service Management",
+      "label": "SM",
+      "group": "Strategy",
+      "q": "Q1",
+      "sjr": 3.76,
+      "if2": 12.8,
+      "works": 134,
+      "cats": [
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ],
+        [
+          "Tourism, Leisure and Hospitality Management",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20service%20management"
+    },
+    "Strategy|journal of marketing analytics": {
+      "name": "Journal Of Marketing Analytics",
+      "label": "MA",
+      "group": "Strategy",
+      "q": "Q2",
+      "sjr": 0.94,
+      "if2": 6.3,
+      "works": 191,
+      "cats": [
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Statistics, Probability and Uncertainty",
+          "Q1"
+        ],
+        [
+          "Marketing",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20marketing%20analytics"
+    },
+    "Strategy|european journal of management and business economics": {
+      "name": "European Journal Of Management And Business Economics",
+      "label": "EMBE",
+      "group": "Strategy",
+      "q": "Q2",
+      "sjr": 0.94,
+      "if2": 6.8,
+      "works": 110,
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Tourism, Leisure and Hospitality Management",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q2"
+        ],
+        [
+          "Marketing",
+          "Q2"
+        ],
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=european%20journal%20of%20management%20and%20business%20economics"
+    },
+    "Strategy|journal of business strategy": {
+      "name": "Journal Of Business Strategy",
+      "label": "BS",
+      "group": "Strategy",
+      "q": "Q2",
+      "sjr": 0.93,
+      "if2": 5.5,
+      "works": 146,
+      "cats": [
+        [
+          "Management Information Systems",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20business%20strategy"
+    },
+    "Strategy|baltic journal of management": {
+      "name": "Baltic Journal Of Management",
+      "label": "BM",
+      "group": "Strategy",
+      "q": "Q2",
+      "sjr": 0.93,
+      "if2": 4.4,
+      "works": 131,
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q2"
+        ],
+        [
+          "Marketing",
+          "Q2"
+        ],
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=baltic%20journal%20of%20management"
+    },
+    "Strategy|journal of management control": {
+      "name": "Journal Of Management Control",
+      "label": "MC",
+      "group": "Strategy",
+      "q": "Q2",
+      "sjr": 0.92,
+      "if2": 4.4,
+      "works": 52,
+      "cats": [
+        [
+          "Management Information Systems",
+          "Q1"
+        ],
+        [
+          "Management Science and Operations Research",
+          "Q1"
+        ],
+        [
+          "Accounting",
+          "Q2"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20management%20control"
+    },
+    "Strategy|journal of small business and enterprise development": {
+      "name": "Journal Of Small Business And Enterprise Development",
+      "label": "SBED",
+      "group": "Strategy",
+      "q": "Q2",
+      "sjr": 0.91,
+      "if2": 6.0,
+      "works": 208,
+      "cats": [
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20small%20business%20and%20enterprise%20development"
+    },
+    "Strategy|review of behavioral finance": {
+      "name": "Review Of Behavioral Finance",
+      "label": "BF",
+      "group": "Strategy",
+      "q": "Q3",
+      "sjr": 0.45,
+      "if2": 3.1,
+      "works": 155,
+      "cats": [
+        [
+          "Finance",
+          "Q2"
+        ],
+        [
+          "Accounting",
+          "Q3"
+        ],
+        [
+          "Strategy and Management",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=review%20of%20behavioral%20finance"
+    },
+    "Strategy|new england journal of entrepreneurship": {
+      "name": "New England Journal Of Entrepreneurship",
+      "label": "NEE",
+      "group": "Strategy",
+      "q": "Q3",
+      "sjr": 0.45,
+      "if2": 3.0,
+      "works": 30,
+      "cats": [
+        [
+          "Business and International Management",
+          "Q2"
+        ],
+        [
+          "Public Administration",
+          "Q2"
+        ],
+        [
+          "Accounting",
+          "Q3"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q3"
+        ],
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q3"
+        ],
+        [
+          "Strategy and Management",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=new%20england%20journal%20of%20entrepreneurship"
+    },
+    "Strategy|journal of media business studies": {
+      "name": "Journal Of Media Business Studies",
+      "label": "MBS",
+      "group": "Strategy",
+      "q": "Q3",
+      "sjr": 0.45,
+      "if2": 2.5,
+      "works": 53,
+      "cats": [
+        [
+          "Business and International Management",
+          "Q2"
+        ],
+        [
+          "Communication",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20media%20business%20studies"
+    },
+    "Strategy|journal of asset management": {
+      "name": "Journal Of Asset Management",
+      "label": "AM",
+      "group": "Strategy",
+      "q": "Q3",
+      "sjr": 0.45,
+      "if2": 2.0,
+      "works": 132,
+      "cats": [
+        [
+          "Business and International Management",
+          "Q2"
+        ],
+        [
+          "Information Systems and Management",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20asset%20management"
+    },
+    "Strategy|engineering management in production and services": {
+      "name": "Engineering Management In Production And Services",
+      "label": "EMPS",
+      "group": "Strategy",
+      "q": "Q3",
+      "sjr": 0.45,
+      "if2": 3.6,
+      "works": 104,
+      "cats": [
+        [
+          "Industrial and Manufacturing Engineering",
+          "Q2"
+        ],
+        [
+          "Management Information Systems",
+          "Q2"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=engineering%20management%20in%20production%20and%20services"
+    },
+    "Strategy|international journal of design": {
+      "name": "International Journal Of Design",
+      "label": "desig",
+      "group": "Strategy",
+      "q": "Q3",
+      "sjr": 0.44,
+      "if2": 2.7,
+      "works": 57,
+      "cats": [
+        [
+          "Visual Arts and Performing Arts",
+          "Q1"
+        ],
+        [
+          "Computer Graphics and Computer-Aided Design",
+          "Q2"
+        ],
+        [
+          "Industrial and Manufacturing Engineering",
+          "Q2"
+        ],
+        [
+          "Computer Science Applications",
+          "Q3"
+        ],
+        [
+          "Marketing",
+          "Q3"
+        ],
+        [
+          "Strategy and Management",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=international%20journal%20of%20design"
+    },
+    "Strategy|quality - access to success": {
+      "name": "Quality - Access To Success",
+      "label": "QATS",
+      "group": "Strategy",
+      "q": "Q4",
+      "sjr": 0.23,
+      "if2": 1.5,
+      "works": 731,
+      "cats": [
+        [
+          "Business and International Management",
+          "Q4"
+        ],
+        [
+          "Management Information Systems",
+          "Q4"
+        ],
+        [
+          "Strategy and Management",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=quality%20-%20access%20to%20success"
+    },
+    "Strategy|international journal of learning and intellectual capital": {
+      "name": "International Journal Of Learning And Intellectual Capital",
+      "label": "LIC",
+      "group": "Strategy",
+      "q": "Q4",
+      "sjr": 0.23,
+      "if2": 1.3,
+      "works": 108,
+      "cats": [
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q4"
+        ],
+        [
+          "Strategy and Management",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=international%20journal%20of%20learning%20and%20intellectual%20capital"
+    },
+    "Strategy|international journal of information technology project management": {
+      "name": "International Journal Of Information Technology Project Management",
+      "label": "ITPM",
+      "group": "Strategy",
+      "q": "Q4",
+      "sjr": 0.23,
+      "if2": 1.9,
+      "works": 39,
+      "cats": [
+        [
+          "Communication",
+          "Q3"
+        ],
+        [
+          "Information Systems and Management",
+          "Q3"
+        ],
+        [
+          "Management Information Systems",
+          "Q3"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q4"
+        ],
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q4"
+        ],
+        [
+          "Strategy and Management",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=international%20journal%20of%20information%20technology%20project%20management"
+    },
+    "Strategy|international journal of computer information systems and industrial management applications": {
+      "name": "International Journal Of Computer Information Systems And Industrial Management Applications",
+      "label": "CISIMA",
+      "group": "Strategy",
+      "q": "Q4",
+      "sjr": 0.23,
+      "if2": 1.3,
+      "works": 136,
+      "cats": [
+        [
+          "Computer Vision and Pattern Recognition",
+          "Q3"
+        ],
+        [
+          "Information Systems",
+          "Q3"
+        ],
+        [
+          "Management Information Systems",
+          "Q3"
+        ],
+        [
+          "Signal Processing",
+          "Q3"
+        ],
+        [
+          "Artificial Intelligence",
+          "Q4"
+        ],
+        [
+          "Strategy and Management",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=international%20journal%20of%20computer%20information%20systems%20and%20industrial%20management%20applications"
+    },
+    "Strategy|international journal of asian business and information management": {
+      "name": "International Journal Of Asian Business And Information Management",
+      "label": "ABIM",
+      "group": "Strategy",
+      "q": "Q4",
+      "sjr": 0.23,
+      "if2": 1.1,
+      "works": 71,
+      "cats": [
+        [
+          "Cultural Studies",
+          "Q2"
+        ],
+        [
+          "Business and International Management",
+          "Q4"
+        ],
+        [
+          "Computer Science Applications",
+          "Q4"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q4"
+        ],
+        [
+          "Strategy and Management",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=international%20journal%20of%20asian%20business%20and%20information%20management"
+    },
+    "Strategy|negotiation and conflict management research": {
+      "name": "Negotiation And Conflict Management Research",
+      "label": "NCMR",
+      "group": "Strategy",
+      "q": "Q4",
+      "sjr": 0.22,
+      "if2": 0.8,
+      "works": 42,
+      "cats": [
+        [
+          "Communication",
+          "Q3"
+        ],
+        [
+          "Strategy and Management",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=negotiation%20and%20conflict%20management%20research"
+    },
+    "Accounting|accounting, organizations and society": {
+      "name": "Accounting, Organizations And Society",
+      "label": "AOS",
+      "group": "Accounting",
+      "q": "Q1",
+      "sjr": 3.1,
+      "if2": 5.0,
+      "works": 115,
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Applied Psychology",
+          "Q1"
+        ],
+        [
+          "Information Systems and Management",
+          "Q1"
+        ],
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q1"
+        ],
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=accounting%2C%20organizations%20and%20society"
+    },
+    "Accounting|auditing": {
+      "name": "Auditing",
+      "label": "audit",
+      "group": "Accounting",
+      "q": "Q1",
+      "sjr": 2.32,
+      "if2": 4.5,
+      "works": 98,
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=auditing"
+    },
+    "Accounting|journal of technology transfer": {
+      "name": "Journal Of Technology Transfer",
+      "label": "TT",
+      "group": "Accounting",
+      "q": "Q1",
+      "sjr": 2.01,
+      "if2": 8.4,
+      "works": 251,
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Engineering (miscellaneous)",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20technology%20transfer"
+    },
+    "Accounting|sustainability accounting, management and policy journal": {
+      "name": "Sustainability Accounting, Management And Policy Journal",
+      "label": "SAMP",
+      "group": "Accounting",
+      "q": "Q1",
+      "sjr": 1.81,
+      "if2": 12.1,
+      "works": 164,
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Renewable Energy, Sustainability and the Environment",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=sustainability%20accounting%2C%20management%20and%20policy%20journal"
+    },
+    "Accounting|accounting, auditing and accountability journal": {
+      "name": "Accounting, Auditing And Accountability Journal",
+      "label": "AAA",
+      "group": "Accounting",
+      "q": "Q1",
+      "sjr": 1.57,
+      "if2": 4.1,
+      "works": 303,
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=accounting%2C%20auditing%20and%20accountability%20journal"
+    },
+    "Accounting|review of corporate finance": {
+      "name": "Review Of Corporate Finance",
+      "label": "CF",
+      "group": "Accounting",
+      "q": "Q1",
+      "sjr": 1.49,
+      "if2": 3.3,
+      "works": 48,
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=review%20of%20corporate%20finance"
+    },
+    "Accounting|qualitative research in accounting and management": {
+      "name": "Qualitative Research In Accounting And Management",
+      "label": "QRAM",
+      "group": "Accounting",
+      "q": "Q2",
+      "sjr": 1.03,
+      "if2": 3.7,
+      "works": 86,
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Accounting",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=qualitative%20research%20in%20accounting%20and%20management"
+    },
+    "Accounting|meditari accountancy research": {
+      "name": "Meditari Accountancy Research",
+      "label": "MAR",
+      "group": "Accounting",
+      "q": "Q2",
+      "sjr": 0.97,
+      "if2": 5.9,
+      "works": 259,
+      "cats": [
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Accounting",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=meditari%20accountancy%20research"
+    },
+    "Accounting|journal of accounting and public policy": {
+      "name": "Journal Of Accounting And Public Policy",
+      "label": "APP",
+      "group": "Accounting",
+      "q": "Q2",
+      "sjr": 0.97,
+      "if2": 2.7,
+      "works": 200,
+      "cats": [
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ],
+        [
+          "Accounting",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20accounting%20and%20public%20policy"
+    },
+    "Accounting|journal of accounting, auditing and finance": {
+      "name": "Journal Of Accounting, Auditing And Finance",
+      "label": "AAF",
+      "group": "Accounting",
+      "q": "Q2",
+      "sjr": 0.96,
+      "if2": 1.9,
+      "works": 123,
+      "cats": [
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "Accounting",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20accounting%2C%20auditing%20and%20finance"
+    },
+    "Accounting|journal of management control": {
+      "name": "Journal Of Management Control",
+      "label": "MC2",
+      "group": "Accounting",
+      "q": "Q2",
+      "sjr": 0.92,
+      "if2": 4.4,
+      "works": 52,
+      "cats": [
+        [
+          "Management Information Systems",
+          "Q1"
+        ],
+        [
+          "Management Science and Operations Research",
+          "Q1"
+        ],
+        [
+          "Accounting",
+          "Q2"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20management%20control"
+    },
+    "Accounting|journal of accounting literature": {
+      "name": "Journal Of Accounting Literature",
+      "label": "AL",
+      "group": "Accounting",
+      "q": "Q2",
+      "sjr": 0.91,
+      "if2": 3.8,
+      "works": 73,
+      "cats": [
+        [
+          "Accounting",
+          "Q2"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20accounting%20literature"
+    },
+    "Accounting|international journal of managerial and financial accounting": {
+      "name": "International Journal Of Managerial And Financial Accounting",
+      "label": "MFA",
+      "group": "Accounting",
+      "q": "Q3",
+      "sjr": 0.5,
+      "if2": 2.7,
+      "works": 60,
+      "cats": [
+        [
+          "Accounting",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=international%20journal%20of%20managerial%20and%20financial%20accounting"
+    },
+    "Accounting|risk management and insurance review": {
+      "name": "Risk Management And Insurance Review",
+      "label": "RMI",
+      "group": "Accounting",
+      "q": "Q3",
+      "sjr": 0.48,
+      "if2": 2.5,
+      "works": 65,
+      "cats": [
+        [
+          "Economics and Econometrics",
+          "Q2"
+        ],
+        [
+          "Finance",
+          "Q2"
+        ],
+        [
+          "Accounting",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=risk%20management%20and%20insurance%20review"
+    },
+    "Accounting|china journal of accounting studies": {
+      "name": "China Journal Of Accounting Studies",
+      "label": "CAS",
+      "group": "Accounting",
+      "q": "Q3",
+      "sjr": 0.48,
+      "if2": 2.2,
+      "works": 89,
+      "cats": [
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q2"
+        ],
+        [
+          "Accounting",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=china%20journal%20of%20accounting%20studies"
+    },
+    "Accounting|social and environmental accountability journal": {
+      "name": "Social And Environmental Accountability Journal",
+      "label": "SEA",
+      "group": "Accounting",
+      "q": "Q3",
+      "sjr": 0.47,
+      "if2": 1.9,
+      "works": 63,
+      "cats": [
+        [
+          "Accounting",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=social%20and%20environmental%20accountability%20journal"
+    },
+    "Accounting|accounting, economics and law: a convivium": {
+      "name": "Accounting, Economics And Law: A Convivium",
+      "label": "AELC",
+      "group": "Accounting",
+      "q": "Q3",
+      "sjr": 0.47,
+      "if2": 1.3,
+      "works": 75,
+      "cats": [
+        [
+          "Law",
+          "Q1"
+        ],
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q2"
+        ],
+        [
+          "Accounting",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=accounting%2C%20economics%20and%20law%3A%20a%20convivium"
+    },
+    "Accounting|journal of islamic accounting and business research": {
+      "name": "Journal Of Islamic Accounting And Business Research",
+      "label": "IABR",
+      "group": "Accounting",
+      "q": "Q3",
+      "sjr": 0.46,
+      "if2": 5.4,
+      "works": 291,
+      "cats": [
+        [
+          "Business and International Management",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ],
+        [
+          "Accounting",
+          "Q3"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20islamic%20accounting%20and%20business%20research"
+    },
+    "Accounting|journal of payments strategy and systems": {
+      "name": "Journal Of Payments Strategy And Systems",
+      "label": "PSS",
+      "group": "Accounting",
+      "q": "Q4",
+      "sjr": 0.21,
+      "if2": 0.7,
+      "works": 107,
+      "cats": [
+        [
+          "Information Systems and Management",
+          "Q3"
+        ],
+        [
+          "Accounting",
+          "Q4"
+        ],
+        [
+          "Information Systems",
+          "Q4"
+        ],
+        [
+          "Management Information Systems",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20payments%20strategy%20and%20systems"
+    },
+    "Accounting|journal of environmental accounting and management": {
+      "name": "Journal Of Environmental Accounting And Management",
+      "label": "EAM",
+      "group": "Accounting",
+      "q": "Q4",
+      "sjr": 0.21,
+      "if2": 0.8,
+      "works": 88,
+      "cats": [
+        [
+          "Urban Studies",
+          "Q3"
+        ],
+        [
+          "Accounting",
+          "Q4"
+        ],
+        [
+          "Ecological Modeling",
+          "Q4"
+        ],
+        [
+          "Ecology",
+          "Q4"
+        ],
+        [
+          "Management, Monitoring, Policy and Law",
+          "Q4"
+        ],
+        [
+          "Strategy and Management",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=journal%20of%20environmental%20accounting%20and%20management"
+    },
+    "Accounting|cronica tributaria": {
+      "name": "Cronica Tributaria",
+      "label": "CT",
+      "group": "Accounting",
+      "q": "Q4",
+      "sjr": 0.2,
+      "if2": 0.2,
+      "works": 81,
+      "cats": [
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q3"
+        ],
+        [
+          "Law",
+          "Q3"
+        ],
+        [
+          "Accounting",
+          "Q4"
+        ],
+        [
+          "Finance",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=cronica%20tributaria"
+    },
+    "Accounting|brazilian business review": {
+      "name": "Brazilian Business Review",
+      "label": "BB",
+      "group": "Accounting",
+      "q": "Q4",
+      "sjr": 0.2,
+      "if2": 0.8,
+      "works": 147,
+      "cats": [
+        [
+          "Accounting",
+          "Q4"
+        ],
+        [
+          "Business and International Management",
+          "Q4"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q4"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q4"
+        ],
+        [
+          "Strategy and Management",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=brazilian%20business%20review"
+    },
+    "Accounting|asian academy of management journal of accounting and finance": {
+      "name": "Asian Academy Of Management Journal Of Accounting And Finance",
+      "label": "AAMAF",
+      "group": "Accounting",
+      "q": "Q4",
+      "sjr": 0.2,
+      "if2": 1.1,
+      "works": 61,
+      "cats": [
+        [
+          "Accounting",
+          "Q4"
+        ],
+        [
+          "Finance",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=asian%20academy%20of%20management%20journal%20of%20accounting%20and%20finance"
+    },
+    "Accounting|accounting history review": {
+      "name": "Accounting History Review",
+      "label": "AH",
+      "group": "Accounting",
+      "q": "Q4",
+      "sjr": 0.2,
+      "if2": 0.4,
+      "works": 24,
+      "cats": [
+        [
+          "History",
+          "Q2"
+        ],
+        [
+          "Accounting",
+          "Q4"
+        ],
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q4"
+        ]
+      ],
+      "type": "journal",
+      "scatter": true,
+      "link": "https://www.scimagojr.com/journalsearch.php?q=accounting%20history%20review"
+    }
+  }
+}

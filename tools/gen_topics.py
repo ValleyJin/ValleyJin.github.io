@@ -192,7 +192,13 @@ def load_scimago():
             if h.lower() == name.lower():
                 return i
         return -1
+    def _idxp(sub):
+        for i, h in enumerate(header):
+            if sub.lower() in h.lower():
+                return i
+        return -1
     i_issn, i_q, i_sjr, i_title = _idx("Issn"), _idx("SJR Best Quartile"), _idx("SJR"), _idx("Title")
+    i_if2, i_docs = _idxp("citations / doc"), _idxp("docs. (3years")   # IF 대용(2yr 논문당 인용)·논문수
     if i_issn < 0 or i_q < 0:
         print("! SCImago 헤더 형식 예상과 다름 — 분위 생략", file=sys.stderr)
         return {"issn": m, "title": tmap}
@@ -212,7 +218,15 @@ def load_scimago():
         # 분야별 분위: Categories 컬럼이 ';'를 내부에 써서 열 분해가 불안정 → 'Name (Qn)' 패턴을 원본 줄에서 정규식 추출
         # 카테고리명에 내부 괄호가 있을 수 있다(예: "Physics and Astronomy (miscellaneous) (Q2)")
         cats = [[n.strip(), "Q" + d] for n, d in re.findall(r"([A-Za-z][\w &,./'\-]*(?:\([^)]*\)[\w &,./'\-]*)*?)\s*\(Q([1-4])\)", ln)]
-        entry = {"q": q, "sjr": sjr, "cats": cats}
+        if2 = None
+        if i_if2 >= 0 and len(c) > i_if2 and c[i_if2]:
+            try: if2 = round(float(c[i_if2].replace(",", ".")), 1)   # 2yr 논문당 인용(IF 대용)
+            except ValueError: if2 = None
+        works = None
+        if i_docs >= 0 and len(c) > i_docs and c[i_docs]:
+            try: works = int(c[i_docs].replace(",", "").replace(" ", ""))
+            except ValueError: works = None
+        entry = {"q": q, "sjr": sjr, "cats": cats, "if2": if2, "works": works}
         for iss in c[i_issn].replace(" ", "").split(","):
             k = iss.replace("-", "").upper()
             if k:

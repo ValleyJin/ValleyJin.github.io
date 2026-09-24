@@ -752,3 +752,10 @@ img{max-width:100%;display:block}
 .qfld:hover{color:var(--ink)}
 .qfld.is-on{color:var(--ink);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent)}
 .svc-langleg .svc-lang-sub{color:var(--muted);font-weight:400}
+
+/* 색 범례를 분위 필터 토글로 (Q1~Q4 클릭 표시/숨김) */
+.qleg-q{display:inline-flex;align-items:center;gap:5px;background:none;border:0;padding:3px 2px;cursor:pointer;font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);transition:opacity .15s,color .15s}
+.qleg-q:hover{color:var(--ink)}
+.qleg-q.is-off{opacity:.32}
+.qleg-q.is-off .qleg-d{filter:grayscale(1)}
+@media(max-width:640px){.qjbar{justify-content:flex-start}.qfld,.qleg-q{font-size:12px;padding:6px 12px}}
