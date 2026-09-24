@@ -244,6 +244,10 @@
         [
           "Accounting",
           "Q1"
+        ],
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
         ]
       ],
       "group": "회계학"
@@ -262,6 +266,10 @@
       "sjr": 0.74,
       "q": "Q1",
       "cats": [
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
         [
           "Management Science and Operations Research",
           "Q2"
@@ -290,6 +298,10 @@
         [
           "History and Philosophy of Science",
           "Q1"
+        ],
+        [
+          "Decision Sciences (miscellaneous)",
+          "Q2"
         ],
         [
           "Development",
@@ -393,6 +405,10 @@
       "cats": [
         [
           "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Business, Management and Accounting (miscellaneous)",
           "Q1"
         ],
         [

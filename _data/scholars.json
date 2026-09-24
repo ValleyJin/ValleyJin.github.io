@@ -200,7 +200,7 @@
           "cites": 6,
           "q": "Q1",
           "sjr": 2.52,
-          "qcat": "Management, Monitoring, Policy and Law"
+          "qcat": "Energy (miscellaneous)"
         },
         {
           "title": "Predicting renewable energy stock volatility: A GARCH-CNN approach with indicator analysis",
@@ -293,7 +293,7 @@
           "cites": 148,
           "q": "Q1",
           "sjr": 7.68,
-          "qcat": "Renewable Energy, Sustainability and the Environment"
+          "qcat": "Materials Science (miscellaneous)"
         },
         {
           "title": "Detection of skin tumors on chicken carcasses using hyperspectral fluorescence imaging",
@@ -324,7 +324,7 @@
           "cites": 117,
           "q": "Q1",
           "sjr": 3.78,
-          "qcat": "Environmental Chemistry"
+          "qcat": "Chemistry (miscellaneous)"
         },
         {
           "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
@@ -335,7 +335,7 @@
           "cites": 116,
           "q": "Q1",
           "sjr": 8.27,
-          "qcat": "Mechanical Engineering"
+          "qcat": "Materials Science (miscellaneous)"
         }
       ],
       "recent": [
