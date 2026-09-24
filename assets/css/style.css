@@ -235,6 +235,18 @@ img{max-width:100%;display:block}
 .mh3{font-size:14.5px;font-weight:650;color:var(--ink);margin:18px 0 8px}
 .mlist{margin:0 0 12px;padding-left:18px;color:var(--ink-soft);font-size:13.5px;line-height:1.75}
 .mlist li{margin:2px 0}
+/* JCR / SJR 정의 2단 카드 */
+.mcompare{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0}
+.mcard{background:var(--bg-elev);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.mcard-h{font-size:16px;font-weight:700;color:var(--ink);margin:0 0 10px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.mcard-sub{font-size:11px;font-weight:500;color:var(--muted)}
+.mclist{margin:0;padding-left:16px;color:var(--ink-soft);font-size:13px;line-height:1.6}
+.mclist>li{margin:5px 0}
+.mclist>li>b:first-child{display:inline-block;min-width:74px;color:var(--accent);font-weight:600;margin-right:4px}
+.mclist ul{margin:4px 0 0;padding-left:16px}
+.mclist ul li{margin:3px 0;list-style:circle}
+.mclist a{color:var(--accent)}
+@media(max-width:640px){.mcompare{grid-template-columns:1fr}}
 .mtable-wrap{overflow-x:auto}
 .mtable{width:100%;border-collapse:collapse;font-size:13.5px}
 .mtable th,.mtable td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line-soft);vertical-align:top}
