@@ -724,7 +724,9 @@ permalink: /articles/
         if(!panes[name]) name='pubs';
         Object.keys(panes).forEach(function(k){ if(panes[k]) panes[k].hidden=(k!==name); });
         tabs.forEach(function(b){var on=b.dataset.pane===name;b.classList.toggle('is-active',on);b.setAttribute('aria-selected',on);});
-        window.AState.set({tab:name==='pubs'?null:name});
+        var upd={tab:name==='pubs'?null:name};
+        if(name!=='topics'){ upd.topic=null; upd.date=null; }   // 다른 탭에선 My Topics 전용 파라미터 제거
+        window.AState.set(upd);
       }
       tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.pane);});});
       var h=(location.hash||'').replace(/^#/,'');
