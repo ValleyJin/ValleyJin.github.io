@@ -1,13 +1,13 @@
 {
   "updated": "2026-09-24",
   "public_repos": 53,
-  "followers": 25,
+  "followers": 26,
   "total_stars": 12,
-  "contributions": 1496,
+  "contributions": 1617,
   "languages": [
     {
       "name": "TypeScript",
-      "pct": 29
+      "pct": 26
     },
     {
       "name": "CSS",
@@ -15,14 +15,14 @@
     },
     {
       "name": "JavaScript",
-      "pct": 20
+      "pct": 18
     },
     {
       "name": "HTML",
-      "pct": 12
+      "pct": 16
     },
     {
-      "name": "Java",
+      "name": "Python",
       "pct": 7
     }
   ],
