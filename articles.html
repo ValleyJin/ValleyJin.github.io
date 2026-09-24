@@ -511,7 +511,7 @@ permalink: /articles/
       /* ── 서브탭 조립 ── */
       var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">학회</button><span class="qtab-note mono" id="qcnote" hidden>AI conferences</span>':'')
         +'<form class="qsearch" id="qsearch" role="search"><svg class="qsearch-ic" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>'
-        +'<input id="qsearch-in" type="search" autocomplete="off" placeholder="저널 검색 후 Enter"><span class="qsearch-msg mono" id="qsearch-msg"></span></form>'
+        +'<input id="qsearch-in" type="search" autocomplete="off" placeholder="저널 이름·약칭 검색"><span class="qsearch-msg mono" id="qsearch-msg"></span><div class="qsug" id="qsug" hidden></div></form>'
         +'</div>';
       el.innerHTML=tabs+'<div class="qview" data-v="j">'+jHtml+'</div>'+(confs.length?'<div class="qview" data-v="c" hidden>'+cHtml+'</div>':'')+'<div class="qdetail" id="jdetail" hidden></div>';
       el.hidden=false;
@@ -577,44 +577,60 @@ permalink: /articles/
           renderJDetail(jByLabel[dot.getAttribute('data-lab')]); } }); }
       if(jdet){ jdet.addEventListener('click',function(e){ if(e.target.closest('.qd-x')){ jdet.hidden=true; jdet.className='qdetail'; } }); }
 
-      /* 검색: Enter 시 저널을 찾아 강조. 현재 필터에 가려졌으면 그 분야·분위를 켜서 드러냄.
-         로드된 데이터에 없으면 외부 SCImago 인덱스(scimago_search.json)에서 찾아 새 점을 생성. */
-      var qsForm=el.querySelector('#qsearch'), qsIn=el.querySelector('#qsearch-in'), qsMsg=el.querySelector('#qsearch-msg');
+      /* 검색: 이름·약칭의 일부만 입력해도 관련 저널을 모두 드롭다운으로 표시.
+         로드된 저널(강조) + 외부 SCImago 인덱스(새 점 생성)를 함께 검색. */
+      var qsForm=el.querySelector('#qsearch'), qsIn=el.querySelector('#qsearch-in'), qsMsg=el.querySelector('#qsearch-msg'), qsug=el.querySelector('#qsug');
       function _nrm(s){ return String(s==null?'':s).toLowerCase().replace(/[^a-z0-9가-힣]/g,''); }
-      function _findLoaded(q){ var hit=null;
-        journals.forEach(function(v){ if(hit||v.sjr==null) return; if(_nrm(v.label)===q||_nrm(v.name)===q) hit=v; });
-        if(!hit) journals.forEach(function(v){ if(hit||v.sjr==null) return; if(_nrm(v.label).indexOf(q)>=0||_nrm(v.name).indexOf(q)>=0) hit=v; });
-        return hit; }
       function _showJTab(){ var jt=el.querySelector('.qtab[data-v="j"]'); if(jt&&!jt.classList.contains('is-on')) jt.click(); }
       function _setMsg(t,cls){ if(qsMsg){ qsMsg.textContent=t||''; qsMsg.className='qsearch-msg mono'+(cls?' '+cls:''); } }
+      var _scidx=null, _sugItems=[];
+      // q에 대한 매칭 점수(작을수록 상위): 0=라벨 완전일치,1=이름완전,2=라벨접두,3=이름접두,4=라벨포함,5=이름포함,-1=불일치
+      function _score(lab,nm,q){ if(lab===q)return 0; if(nm===q)return 1; if(lab.indexOf(q)===0)return 2; if(nm.indexOf(q)===0)return 3; if(lab.indexOf(q)>=0)return 4; if(nm.indexOf(q)>=0)return 5; return -1; }
+      function _matches(q){
+        var seen={}, res=[];
+        journals.forEach(function(v){ if(v.sjr==null||v.__new) return; var sc=_score(_nrm(v.label),_nrm(v.name),q); if(sc<0) return;
+          seen[_nrm(v.name)]=1; res.push({v:v,loaded:true,label:v.label,name:v.name,q:v.q,sjr:v.sjr,sc:sc}); });
+        (_scidx||[]).forEach(function(v){ var nn=_nrm(v.name); if(seen[nn]) return; var sc=_score(_nrm(v.label),nn,q); if(sc<0) return;
+          seen[nn]=1; res.push({v:v,loaded:false,label:v.label,name:v.name,q:v.q,sjr:v.sjr,sc:sc}); });
+        res.sort(function(a,b){ return (a.sc-b.sc) || (b.sjr-a.sjr); });
+        return res.slice(0,12);
+      }
       function _highlight(v){ jsel[v.group]=true; qsel[String(v.q||'Q1').toUpperCase()]=true; jHL=v.label; jVR=null; _showJTab(); jview.innerHTML=buildJ(); }
-      var _scidx=null;
-      function _extSearch(q,qraw){
-        function go(){ var hit=null; (_scidx||[]).forEach(function(v){ if(hit) return; if(_nrm(v.label)===q||_nrm(v.name)===q) hit=v; });
-          if(!hit) (_scidx||[]).forEach(function(v){ if(hit) return; if(_nrm(v.name).indexOf(q)>=0) hit=v; });
-          if(!hit){ _setMsg('"'+qraw+'" 찾을 수 없음','no'); return; }
-          // 이미 로드된 것과 중복이면 그걸 강조
-          var dup=_findLoaded(_nrm(hit.label))||_findLoaded(_nrm(hit.name)); if(dup){ _highlight(dup); _setMsg(dup.label+' 강조','ok'); return; }
-          for(var i=journals.length-1;i>=0;i--){ if(journals[i].__new) journals.splice(i,1); }   // 이전 검색 점 제거
-          var nv={label:hit.label,name:hit.name,group:'검색 결과',q:hit.q,sjr:hit.sjr,if2:(hit.if2!=null?hit.if2:null),
-            works:hit.works||0,cats:hit.cat?[[hit.cat,hit.q]]:[],
-            link:'https://www.scimagojr.com/journalsearch.php?q='+encodeURIComponent(hit.name),type:'journal',__new:true};
-          journals.push(nv); jByLabel[nv.label]=nv;
-          jHL=nv.label; jVR=null; _showJTab(); jview.innerHTML=buildJ();   // 필터 우회(항상 표시)+강조
-          _setMsg(nv.label+' 새 점 추가','ok'); }
-        if(_scidx){ go(); return; }
-        _setMsg('SCImago 조회 중…','');
-        fetch('{{ "/assets/data/scimago_search.json" | relative_url }}').then(function(r){ return r.ok?r.json():[]; })
-          .then(function(j){ _scidx=(j&&j.venues)||j||[]; go(); }).catch(function(){ _scidx=[]; _setMsg('외부 조회 실패','no'); });
+      function _injectExt(hit){
+        for(var i=journals.length-1;i>=0;i--){ if(journals[i].__new) journals.splice(i,1); }   // 이전 검색 점 제거
+        var nv={label:hit.label,name:hit.name,group:'검색 결과',q:hit.q,sjr:hit.sjr,if2:(hit.if2!=null?hit.if2:null),
+          works:hit.works||0,cats:hit.cat?[[hit.cat,hit.q]]:[],
+          link:'https://www.scimagojr.com/journalsearch.php?q='+encodeURIComponent(hit.name),type:'journal',__new:true};
+        journals.push(nv); jByLabel[nv.label]=nv; jHL=nv.label; jVR=null; _showJTab(); jview.innerHTML=buildJ(); return nv;
       }
-      function doSearch(qraw){
-        var q=_nrm(qraw); if(!q){ jHL=null; jview.innerHTML=buildJ(true); _setMsg(''); return; }
-        var hit=_findLoaded(q);
-        if(hit){ _highlight(hit); _setMsg(hit.label+' 강조','ok'); }
-        else { _extSearch(q,qraw); }
+      function _pick(item){
+        if(!item) return;
+        if(item.loaded){ _highlight(item.v); _setMsg(item.label+' 강조','ok'); }
+        else { var nv=_injectExt(item.v); _setMsg(nv.label+' 새 점 추가','ok'); }
+        _closeSug();
       }
-      if(qsForm){ qsForm.addEventListener('submit',function(e){ e.preventDefault(); doSearch(qsIn?qsIn.value:''); });
-        if(qsIn) qsIn.addEventListener('input',function(){ if(!qsIn.value){ jHL=null; _setMsg(''); jview.innerHTML=buildJ(true); } }); }
+      function _closeSug(){ if(qsug){ qsug.hidden=true; qsug.innerHTML=''; } _sugItems=[]; }
+      function _renderSug(){
+        var q=_nrm(qsIn?qsIn.value:''); if(!q){ _closeSug(); return; }
+        _sugItems=_matches(q);
+        if(!_sugItems.length){ qsug.innerHTML='<div class="qsug-empty mono">'+(_scidx?'결과 없음':'검색 준비 중…')+'</div>'; qsug.hidden=false; return; }
+        qsug.innerHTML=_sugItems.map(function(it,i){ var qc=String(it.q||'Q1').toLowerCase();
+          return '<button type="button" class="qsug-i" data-i="'+i+'"><span class="qsug-b '+qc+'">'+esc(it.q||'')+'</span><span class="qsug-nm">'+esc(it.name)+'</span><span class="qsug-meta mono">'+(it.loaded?'':'＋')+' SJR '+esc(it.sjr)+'</span></button>';
+        }).join(''); qsug.hidden=false;
+      }
+      function _loadIdx(cb){ if(_scidx){ cb&&cb(); return; }
+        fetch('{{ "/assets/data/scimago_search.json" | relative_url }}').then(function(r){ return r.ok?r.json():{}; })
+          .then(function(j){ _scidx=(j&&j.venues)||j||[]; cb&&cb(); }).catch(function(){ _scidx=[]; cb&&cb(); }); }
+      if(qsForm){
+        qsForm.addEventListener('submit',function(e){ e.preventDefault();
+          if(_sugItems.length){ _pick(_sugItems[0]); } else { _loadIdx(function(){ _sugItems=_matches(_nrm(qsIn.value)); if(_sugItems.length) _pick(_sugItems[0]); else _setMsg('"'+qsIn.value+'" 찾을 수 없음','no'); }); } });
+        qsug.addEventListener('mousedown',function(e){ var b=e.target.closest('.qsug-i'); if(b){ e.preventDefault(); _pick(_sugItems[+b.getAttribute('data-i')]); } });
+        if(qsIn){
+          qsIn.addEventListener('focus',function(){ _loadIdx(_renderSug); });
+          qsIn.addEventListener('input',function(){ if(!qsIn.value){ jHL=null; _setMsg(''); jview.innerHTML=buildJ(true); _closeSug(); return; } _loadIdx(_renderSug); });
+          qsIn.addEventListener('blur',function(){ setTimeout(_closeSug,150); });
+        }
+      }
 
       /* 데이터-줌: 커서 지점의 데이터 좌표를 고정한 채 view 범위를 좁혀 재렌더 → 축 고정, 점만 확산(크기 유지). 더블클릭=리셋 */
       function _jplot(t){ return t.closest ? t.closest('.qview[data-v="j"] .qplot') : null; }

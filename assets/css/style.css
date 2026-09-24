@@ -653,7 +653,16 @@ img{max-width:100%;display:block}
 /* Metrics 서브탭(저널/학회) + 색 범례 + 학회 버블 + outlier 표시 */
 .qtabs{display:flex;gap:6px;margin:2px 0 12px;align-items:center}
 /* 저널 검색 박스(우측 정렬) */
-.qsearch{margin-left:auto;display:flex;align-items:center;gap:7px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:5px 12px;max-width:300px}
+.qsearch{position:relative;margin-left:auto;display:flex;align-items:center;gap:7px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:5px 12px;max-width:300px}
+/* 검색 결과 드롭다운 */
+.qsug{position:absolute;top:calc(100% + 6px);right:0;left:0;z-index:30;max-height:280px;overflow-y:auto;background:var(--bg-elev);border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,.35);padding:4px}
+.qsug-i{display:flex;align-items:center;gap:9px;width:100%;text-align:left;background:none;border:0;border-radius:8px;padding:7px 9px;cursor:pointer;color:var(--ink)}
+.qsug-i:hover{background:color-mix(in srgb,var(--accent) 12%,transparent)}
+.qsug-b{flex:none;font-family:var(--mono);font-size:10px;font-weight:700;color:#fff;border-radius:4px;padding:1px 5px}
+.qsug-b.q1{background:#e23b3b}.qsug-b.q2{background:#f2891e}.qsug-b.q3{background:#5eb3e4;color:#0d1116}.qsug-b.q4{background:#8b8d98;color:#15161a}
+.qsug-nm{flex:1;min-width:0;font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.qsug-meta{flex:none;font-size:10.5px;color:var(--muted)}
+.qsug-empty{padding:9px 10px;font-size:11.5px;color:var(--muted)}
 .qsearch:focus-within{border-color:var(--accent)}
 .qsearch-ic{color:var(--muted);flex:none}
 .qsearch input{border:0;background:none;outline:none;color:var(--ink);font-family:var(--mono);font-size:12.5px;width:150px;min-width:60px}
