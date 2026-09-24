@@ -304,6 +304,33 @@ permalink: /articles/
         </tbody>
       </table></div>
 
+      <h3 class="mh3">지표 공식 — 초보자용 해설</h3>
+      <div class="mformula">
+        <div class="mf-name">JIF <span class="mf-sub mono">Journal Impact Factor · Clarivate</span></div>
+        <div class="mf-eq mono">JIF = (최근 <b>2년</b> 논문이 <b>올해</b> 받은 인용 수) ÷ (최근 2년에 발표한 논문 수)</div>
+        <p class="mf-x">쉽게 말해 <b>"논문 한 편이 최근 2년 기준 평균 몇 번 인용됐나"</b>입니다. 예: 2024·2025년에 100편을 냈고 그 논문들이 2026년에 총 500번 인용됐으면 JIF = 500÷100 = <b>5.0</b>. 분야마다 인용 빈도가 달라(의학 高, 수학 低) <b>분야가 다르면 숫자 자체로 비교하면 안 됩니다.</b></p>
+      </div>
+      <div class="mformula">
+        <div class="mf-name">CiteScore <span class="mf-sub mono">Scopus</span></div>
+        <div class="mf-eq mono">CiteScore = (최근 <b>4년</b> 논문의 인용 수) ÷ (최근 4년 논문 수)</div>
+        <p class="mf-x">JIF와 계산은 같지만 <b>창(window)이 4년</b>이라 표본이 넓고 안정적입니다. 인용이 느린 분야(사회·인문)에 상대적으로 유리합니다.</p>
+      </div>
+      <div class="mformula">
+        <div class="mf-name">SJR <span class="mf-sub mono">SCImago Journal Rank · 이 사이트 기준</span></div>
+        <div class="mf-eq mono">SJR<sub>i</sub> = (1−d)/N + d · Σ<sub>j→i</sub> ( SJR<sub>j</sub> / (저널 j의 인용 개수) )</div>
+        <p class="mf-x">핵심은 <b>"누가 인용했나"에 가중</b>을 준다는 점입니다. 단순 횟수가 아니라 <b>권위 있는 저널(SJR 높은 저널)의 인용일수록 더 큰 점수</b>를 줍니다. 그런데 저널의 권위(SJR)를 계산하려면 그 저널을 인용한 다른 저널의 권위가 필요하고… 이렇게 <b>서로 물고 물려</b> 값이 안정될 때까지 반복 계산합니다(<b>구글 페이지랭크와 같은 원리</b>). d는 감쇠계수(≈0.85), N은 전체 저널 수. 3년 창을 씁니다.</p>
+      </div>
+      <div class="mformula">
+        <div class="mf-name">SNIP <span class="mf-sub mono">Source Normalized Impact per Paper</span></div>
+        <div class="mf-eq mono">SNIP = (저널의 논문당 인용 수) ÷ (그 분야의 인용 밀도)</div>
+        <p class="mf-x">분야마다 "원래 인용이 얼마나 자주 일어나는지"가 다르므로, 그 <b>분야 평균으로 나눠 정규화</b>한 값입니다. 1보다 크면 분야 평균보다 자주 인용되는 것. <b>분야가 다른 저널을 공정하게 비교</b>할 때 유용합니다.</p>
+      </div>
+      <div class="mformula">
+        <div class="mf-name">h5-index <span class="mf-sub mono">Google Scholar · 학회 평가에 유용</span></div>
+        <div class="mf-eq mono">최근 <b>5년</b> 논문 중 <b>h번 이상 인용된 논문이 h편</b>이 되는 최대 h</div>
+        <p class="mf-x">저자용 h-index를 <b>저널·학회에 적용하고 최근 5년으로 제한</b>한 것. 소수의 초대박 논문이나 대량 발행에 덜 휘둘려, <b>학회(conference) 비교</b>에 특히 많이 쓰입니다.</p>
+      </div>
+
       <div class="section-head" style="margin:26px 0 8px"><h2>학회지 vs 저널지 <span class="mh-sub mono">왜 NeurIPS가 저널들과 나란히?</span></h2></div>
       <p class="mnote">CS에선 <b>학회가 곧 최상위 저널</b>이라 Q1~Q4가 안 맞습니다. 그래서 논문 카드·venue 패널에서 저널엔 <span class="qbadge q1">Q1</span>~<span class="qbadge q4">Q4</span>를, 학회엔 <b>CORE 등급</b> <span class="cbadge c-as">A*</span> <span class="cbadge c-a">A</span> <span class="cbadge c-b">B</span> <span class="cbadge c-c">C</span>를 <b>같은 자리</b>에 표시합니다.</p>
       <div class="mtable-wrap"><table class="mtable">
@@ -345,6 +372,23 @@ permalink: /articles/
         </tbody>
       </table></div>
 
+      <h3 class="mh3">지표 공식 — 초보자용 해설</h3>
+      <div class="mformula">
+        <div class="mf-name">FWCI <span class="mf-sub mono">Field-Weighted Citation Impact</span></div>
+        <div class="mf-eq mono">FWCI = (이 논문이 실제 받은 인용 수) ÷ (같은 <b>분야·같은 연도·같은 유형</b> 논문의 평균 인용 수)</div>
+        <p class="mf-x">가장 공정한 논문 단위 지표입니다. <b>"같은 분야에서, 같은 해에, 같은 종류(논문/리뷰)로 나온 글들이 평균 몇 번 인용됐는지"</b>를 기준(=1.0)으로 삼아, 이 논문이 그 몇 배인지 봅니다. <b>FWCI 2.0 = 세계 평균의 2배</b>. 분야·연도가 자동 보정되므로 <b>분야가 달라도 비교 가능</b>합니다.</p>
+      </div>
+      <div class="mformula">
+        <div class="mf-name">인용 백분위 · Top 1% / 10%</div>
+        <div class="mf-eq mono">같은 <b>분야·연도</b> 논문들을 인용 많은 순으로 줄 세웠을 때 <b>상위 몇 %</b>에 드나</div>
+        <p class="mf-x">"이 분야 같은 해 논문 중 인용 순위 <b>상위 1%(또는 10%)</b>에 든다"는 뜻입니다. 배수(FWCI)가 아니라 <b>순위(등수)</b>로 보는 방식이라 극단적 초대박 논문에 덜 휘둘립니다. 상위 1%는 흔히 <b>Highly Cited Paper</b>라 부릅니다.</p>
+      </div>
+      <div class="mformula">
+        <div class="mf-name">RCR <span class="mf-sub mono">Relative Citation Ratio · NIH</span></div>
+        <div class="mf-eq mono">RCR = (이 논문의 연간 인용률) ÷ (이 논문과 <b>함께 인용된 논문들</b>이 실린 분야의 기대 인용률)</div>
+        <p class="mf-x">분야를 미리 정해 나누는 대신, <b>"이 논문과 같이 인용되는 논문들"로 그 논문만의 맞춤 분야를 만들어</b> 비교합니다(공동인용 네트워크). <b>1.0 = NIH 평균 수준</b>. 분야 경계가 애매한 융합 연구에 특히 공정합니다.</p>
+      </div>
+
       <div class="section-head" style="margin:30px 0 8px"><h2>Level 3 지표) 저자 수준 <span class="mh-sub mono">누적 실적</span></h2></div>
       <div class="mtable-wrap"><table class="mtable">
         <thead><tr><th>지표</th><th>의미</th></tr></thead>
@@ -355,6 +399,28 @@ permalink: /articles/
           <tr><td>자기인용 제외 인용수</td><td>과대평가 방지</td></tr>
         </tbody>
       </table></div>
+
+      <h3 class="mh3">지표 공식 — 초보자용 해설</h3>
+      <div class="mformula">
+        <div class="mf-name">h-index</div>
+        <div class="mf-eq mono">논문을 인용 많은 순으로 줄 세웠을 때 <b>"h번째 논문이 h회 이상 인용"</b>인 최대 h</div>
+        <p class="mf-x">예: 인용수가 [40, 15, 9, 8, 3, 1]이면 → 1~4번째 논문은 각각 8회 이상 인용됐지만(4번째=8≥4) 5번째는 3&lt;5. 그래서 <b>h=4</b>. <b>"많이 인용된 논문을 꾸준히 여러 편"</b> 냈는지를 봅니다. 초대박 1편(생산성 부족)이나 다작이지만 저인용(영향력 부족) 어느 쪽도 h를 크게 못 올립니다. 단, <b>경력이 길수록·논문이 많을수록 유리</b>해 분야·연차 비교엔 주의.</p>
+      </div>
+      <div class="mformula">
+        <div class="mf-name">i10-index <span class="mf-sub mono">Google Scholar</span></div>
+        <div class="mf-eq mono">i10 = <b>인용 10회 이상인 논문의 수</b></div>
+        <p class="mf-x">계산이 가장 단순합니다. "10번 이상 인용된 논문이 몇 편인가." 구글 스칼라가 프로필에 표시합니다.</p>
+      </div>
+      <div class="mformula">
+        <div class="mf-name">g-index</div>
+        <div class="mf-eq mono">상위 g편의 <b>누적 인용 수가 g²이상</b>이 되는 최대 g</div>
+        <p class="mf-x">h-index의 약점(상위 초대박 논문의 크기를 무시)을 보완합니다. <b>상위 논문이 특별히 많이 인용되면 g가 h보다 커집니다.</b> 즉 "대표작의 파괴력"을 반영합니다.</p>
+      </div>
+      <div class="mformula">
+        <div class="mf-name">m-index (m-quotient)</div>
+        <div class="mf-eq mono">m = h-index ÷ (첫 논문 이후 경력 연수)</div>
+        <p class="mf-x">h-index를 <b>경력 길이로 나눠</b> 연차 보정한 값입니다. 신진 연구자와 원로를 <b>같은 출발선</b>에서 비교할 때 씁니다. m ≈ 1이면 매년 h가 1씩 오르는 우수한 페이스.</p>
+      </div>
 
       <div class="mcallout">
         <div class="mco-title mono">⚠ 분야별 주의</div>

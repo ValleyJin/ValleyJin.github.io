@@ -262,6 +262,15 @@ img{max-width:100%;display:block}
 @media(max-width:640px){.qbook-toc-list{grid-template-columns:1fr}}
 .mlist{margin:0 0 12px;padding-left:18px;color:var(--ink-soft);font-size:13.5px;line-height:1.75}
 .mlist li{margin:2px 0}
+/* 지표 공식 블록(초보자 해설) */
+.mformula{margin:12px 0;padding:12px 15px;border-left:2px solid var(--accent-dim);background:color-mix(in srgb,var(--accent) 5%,transparent);border-radius:0 9px 9px 0}
+.mf-name{font-size:14px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.mf-sub{font-weight:400;color:var(--muted)}
+.mf-eq{font-size:13px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:9px 11px;margin-bottom:9px;overflow-x:auto;line-height:1.6}
+.mf-eq b{color:var(--accent)}
+.mf-eq sub{font-size:.82em}
+.mf-x{margin:0;font-size:13px;line-height:1.7;color:var(--ink-soft)}
+.mf-x b{color:var(--ink);font-weight:600}
 /* JCR / SJR 정의 2단 카드 */
 .mcompare{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0}
 .mcard{background:var(--bg-elev);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
