@@ -179,6 +179,24 @@ permalink: /articles/
   <div id="pane-metrics" class="tabpane" hidden>
     <div class="mguide">
       <div id="qmap" class="qmap" hidden></div>
+
+      <section class="qread" style="margin:22px 0 6px">
+        <div class="section-head" style="margin:0 0 8px"><h2>SJR과 IF가 어긋날 때 <span class="mh-sub mono">TFSC처럼 IF는 높은데 SJR은 낮다면</span></h2></div>
+        <p class="mnote">두 지표는 <b>인용을 세는 방식</b>이 다릅니다.</p>
+        <div class="mtable-wrap"><table class="mtable">
+          <thead><tr><th></th><th>2yr IF</th><th>SJR</th></tr></thead>
+          <tbody>
+            <tr><td>세는 법</td><td>논문당 <b>평균 피인용 수</b>(원값)</td><td>인용을 <b>출처 저널의 권위로 가중</b>(PageRank식)</td></tr>
+            <tr><td>인용 1건</td><td>모두 똑같이 1</td><td>상위 저널의 인용일수록 큰 가중</td></tr>
+            <tr><td>집계 창</td><td>2년</td><td>3년</td></tr>
+          </tbody>
+        </table></div>
+        <p class="mnote"><b>높은 IF + 낮은 SJR = 많이 인용되지만, 인용해 주는 쪽의 권위는 상대적으로 낮다.</b></p>
+        <p class="mnote"><b>TFSC</b>(Technological Forecasting &amp; Social Change)로 보면 — <b>IF 16.9</b>: 논문이 빠르게·대량으로 인용됨(논문 1만 편 이상의 <b>메가저널</b>, 예측·혁신·AI·지속가능성 같은 뜨거운 응용 주제). <b>SJR 3.48</b>: 그 인용이 최상위 저널이 아니라 <b>폭넓은 중위권</b>에서 와서 권위 가중을 하면 점수가 낮아짐. 즉 <b>대중적·응용적 영향력은 폭발적이지만 학문적 권위로는 중상위</b>인 저널입니다.</p>
+        <p class="mnote"><b>반대(높은 SJR + 낮은 IF)</b> = 인용 절대량은 적어도 <b>최상위 저널들이 인용하는</b> 권위형 저널 — 이론·수학·소수정예 분야에 흔합니다.</p>
+        <div class="mcallout"><div class="mco-title mono" style="color:var(--accent)">그래서 outlier</div><p style="margin:0;color:var(--ink-soft);font-size:13.5px;line-height:1.7">나머지 저널은 "SJR이 높을수록 IF도 높다"는 회귀선(IF ≈ 0.69·SJR + 2.65)을 따르는데 <b>TFSC만 이 관계가 깨져</b> 통계적 outlier로 잡힙니다. 위 산점도가 <b>SJR과 IF가 어긋나는 저널</b>을 시각적으로 집어낸 셈입니다.</p></div>
+      </section>
+
       <p class="mlead">논문 "수준"은 하나의 숫자가 아니라 <b>세 수준</b>로 나눠서 봅니다 — 어디에 실렸나(저널·학회), 그 논문 자체가 얼마나 인정받나(논문), 저자의 누적 실적(저자). Q1~Q4는 그중 <b>저널 수준</b> 지표입니다. 아래 표의 "확인"은 무료로 값을 볼 수 있는 곳입니다.</p>
 
       <div class="section-head" style="margin:26px 0 8px"><h2>1 · 저널·학회 수준 <span class="mh-sub mono">어디에 실렸나</span></h2></div>
