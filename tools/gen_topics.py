@@ -760,7 +760,7 @@ def build_venues(topics, sci, core=None, cutoff=None):
                 ss = src.get("summary_stats") or {}
                 f = _field_of(src)
                 v.update({"name": src.get("display_name") or full, "h": ss.get("h_index"),
-                          "i10": ss.get("i10_index"),
+                          "i10": ss.get("i10_index"), "if2": round(ss.get("2yr_mean_citedness") or 0, 1),   # 논문당 최근 피인용(부피 비의존)
                           "works": src.get("works_count"), "domain": f.get("domain"),
                           "field": f.get("field"), "sub": f.get("sub")})
                 if cutoff:
