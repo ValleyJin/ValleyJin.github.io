@@ -649,3 +649,6 @@ img{max-width:100%;display:block}
 
 /* 회귀선 아래 점: 라벨을 점 아래로 */
 .qdot.qd-below .qdot-lab{top:12px;bottom:auto}
+
+/* 범례 우측 크기 안내 */
+.qleg-note{color:var(--muted);font-size:11px;margin-left:auto}
