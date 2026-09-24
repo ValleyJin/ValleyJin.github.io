@@ -415,6 +415,48 @@ def na_venue(venue):
     return bool(_NA_PAT.search(v))
 
 
+def build_vidx(vmeta):
+    """내 토픽 venues(venues.json)를 정규화 제목→배지 인덱스로. 논문 배지 매칭의
+    마지막 폴백 — 이미 해결된 내 학회지/저널은 절대 blank로 안 남게."""
+    idx = {}
+    for lab, v in (vmeta or {}).items():
+        b = {}
+        if v.get("type") == "journal" and v.get("q"):
+            b = {"q": v["q"]}
+            if v.get("sjr") is not None:
+                b["sjr"] = v["sjr"]
+        elif v.get("type") == "conference" and v.get("crank"):
+            b = {"crank": v["crank"]}
+        if not b:
+            continue
+        for nm in _title_cands(_norm_title(v.get("name", ""))):
+            idx.setdefault(nm, b)
+        idx.setdefault(_norm_title(lab), b)   # 라벨(예: 'NeurIPS')도 키로
+    return idx
+
+
+def badge(venue, sci, core, label=None, vidx=None, w=None):
+    """논문 1편의 수준 배지(q·sjr·crank·nr)를 결정 — 모든 경로 공통.
+    ① quality(ISSN, w 있을 때) ② scholar_q(제목) ③ conf_rank(CORE)
+    ④ 내 토픽 venues 조회 ⑤ 그래도 없으면 nr='na'(blank 금지)."""
+    out = {}
+    if w is not None:
+        out.update(quality(w, sci))            # fwci·pct + ISSN 저널 분위
+    if "q" not in out:
+        out.update(scholar_q(venue, sci))      # 제목 기반 저널 분위(ISSN 없는 S2 소스 등)
+    if "q" not in out:
+        cr = conf_rank(venue, core, label)
+        if cr:
+            out.update(cr)
+    if "q" not in out and "crank" not in out and vidx:
+        for nm in _title_cands(_norm_title(_journal_name(venue))):
+            if nm in vidx:
+                out.update(vidx[nm]); break
+    if "q" not in out and "crank" not in out:
+        out["nr"] = "na"                        # 매칭 실패 → N/A (blank 없이 항상 분류)
+    return out
+
+
 # CS 학회는 OpenAlex 약칭 검색이 부정확 → 정식명으로 조회
 CONF_FULLNAME = {
     "NeurIPS": "Neural Information Processing Systems",
@@ -525,6 +567,7 @@ def main():
         VENUES.write_text(json.dumps({"generated": date.today().isoformat(), "venues": venues_meta},
                                      ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"✓ venues: {len(venues_meta)} venues", file=sys.stderr)
+    vidx = build_vidx(venues_meta)    # 내 토픽 venues → 배지 폴백 인덱스
 
     result = {"generated": date.today().isoformat(),
               "field": "Computer Science · AI & databases",
@@ -550,14 +593,16 @@ def main():
             if not venue or venue.lower().startswith(("zenodo", "figshare", "ssrn")):
                 continue
             seen.add(key)
-            block["papers"].append({
+            _tp = {
                 "title": title,
                 "authors": apa_authors(w.get("authorships", [])),
                 "year": w.get("publication_year"),
                 "venue": venue,
                 "url": w.get("doi") or w.get("id"),
                 "cites": w.get("cited_by_count", 0),
-            })
+            }
+            _tp.update(badge(venue, scimago, core, label, vidx, w=w))   # 수준 배지
+            block["papers"].append(_tp)
             if len(block["papers"]) >= per_topic:
                 break
         result["topics"].append(block)
@@ -640,11 +685,7 @@ def main():
                     "url": w.get("doi") or w.get("id"),
                     "cites": w.get("cited_by_count", 0), "topic": label,
                 }
-                _np.update(quality(w, scimago))   # FWCI·백분위·저널 분위(Q)·SJR
-                if "q" not in _np:                 # 저널 분위 없으면(학회 등) CORE 등급 시도
-                    _np.update(conf_rank(venue, core, label))
-                if "q" not in _np and "crank" not in _np and na_venue(venue):
-                    _np["nr"] = "na"               # 등급 원래 없는 매체 → N/A(누락과 구분)
+                _np.update(badge(venue, scimago, core, label, vidx, w=w))   # 수준 배지(q·crank·nr, 폴백 포함)
                 newest.append(_np)
                 kept += 1
                 if kept >= newest_per_month:                 # 토픽×달마다 상위 K편만
@@ -682,11 +723,7 @@ def main():
                 "url": w.get("doi") or w.get("id"), "cites": w.get("cited_by_count", 0),
                 "topic": label,
             }
-            paper.update(quality(w, scimago))   # FWCI·백분위·저널 분위(Q)·SJR
-            if "q" not in paper:
-                paper.update(conf_rank(venue, core, label))   # 학회 등급(CORE)
-            if "q" not in paper and "crank" not in paper and na_venue(venue):
-                paper["nr"] = "na"
+            paper.update(badge(venue, scimago, core, label, vidx, w=w))   # 수준 배지(q·crank·nr, 폴백 포함)
             arr.append(paper)
             tl = title.lower()
             if qwords and all(qw in tl for qw in qwords):   # 제목에 키워드 전부 포함 = 확실히 주제
@@ -761,11 +798,7 @@ def main():
                  "venue": pub,
                  "url": a.get("link") or "",
                  "cites": cb.get("value") or 0}
-            p.update(scholar_q(pub, scimago))   # 저널 분위(Q)·SJR (venue 이름 매칭)
-            if "q" not in p:                    # 저널 아니면 학회 CORE 등급 시도
-                p.update(conf_rank(pub, core))
-            if "q" not in p and "crank" not in p and na_venue(pub):
-                p["nr"] = "na"                  # preprint·워크숍·기관 등 = N/A(누락과 구분)
+            p.update(badge(pub, scimago, core, None, vidx))   # 수준 배지(q·crank·nr, 폴백 포함)
             return p
 
         def _yr(v):

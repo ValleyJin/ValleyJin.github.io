@@ -12,7 +12,9 @@
           "year": 2024,
           "venue": "Applied Sciences",
           "url": "https://doi.org/10.3390/app14031014",
-          "cites": 8
+          "cites": 8,
+          "q": "Q4",
+          "sjr": 0.15
         },
         {
           "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
@@ -20,7 +22,9 @@
           "year": 2025,
           "venue": "Computer Networks",
           "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 1
+          "cites": 1,
+          "q": "Q1",
+          "sjr": 1.14
         },
         {
           "title": "Personas-based Student Grouping using reinforcement learning and linear programming",
@@ -28,7 +32,9 @@
           "year": 2023,
           "venue": "Knowledge-Based Systems",
           "url": "https://doi.org/10.1016/j.knosys.2023.111071",
-          "cites": 15
+          "cites": 15,
+          "q": "Q1",
+          "sjr": 1.75
         },
         {
           "title": "Chatbot Technology Use and Acceptance Using Educational Personas",
@@ -36,7 +42,9 @@
           "year": 2024,
           "venue": "Informatics",
           "url": "https://doi.org/10.3390/informatics11020038",
-          "cites": 24
+          "cites": 24,
+          "q": "Q1",
+          "sjr": 0.88
         }
       ],
       "count": 10274
@@ -51,7 +59,9 @@
           "year": 2023,
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3636218.3636236",
-          "cites": 22
+          "cites": 22,
+          "q": "Q1",
+          "sjr": 1.77
         },
         {
           "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
@@ -59,7 +69,9 @@
           "year": 2024,
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16120438",
-          "cites": 28
+          "cites": 28,
+          "q": "Q1",
+          "sjr": 0.84
         },
         {
           "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
@@ -67,7 +79,9 @@
           "year": 2024,
           "venue": "MethodsX",
           "url": "https://doi.org/10.1016/j.mex.2024.102683",
-          "cites": 18
+          "cites": 18,
+          "q": "Q1",
+          "sjr": 0.55
         },
         {
           "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
@@ -75,7 +89,9 @@
           "year": 2024,
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3685800.3685814",
-          "cites": 15
+          "cites": 15,
+          "q": "Q1",
+          "sjr": 1.77
         }
       ],
       "count": 117199
@@ -90,7 +106,9 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1624
+          "cites": 1624,
+          "q": "Q1",
+          "sjr": 1.2
         },
         {
           "title": "Memory-Based Event-Triggered Fault-Tolerant Consensus Control of Nonlinear Multi-Agent Systems and Its Applications",
@@ -98,7 +116,9 @@
           "year": 2024,
           "venue": "IEEE Transactions on Automation Science and Engineering",
           "url": "https://doi.org/10.1109/tase.2024.3474968",
-          "cites": 31
+          "cites": 31,
+          "q": "Q1",
+          "sjr": 2.12
         },
         {
           "title": "Empowering biomedical discovery with AI agents",
@@ -106,7 +126,9 @@
           "year": 2024,
           "venue": "Cell",
           "url": "https://doi.org/10.1016/j.cell.2024.09.022",
-          "cites": 295
+          "cites": 295,
+          "q": "Q1",
+          "sjr": 24.59
         },
         {
           "title": "AI Agents vs. Agentic AI: A Conceptual taxonomy, applications and challenges",
@@ -114,7 +136,9 @@
           "year": 2025,
           "venue": "Information Fusion",
           "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-          "cites": 212
+          "cites": 212,
+          "q": "Q1",
+          "sjr": 4.2
         }
       ],
       "count": 68531
@@ -129,7 +153,9 @@
           "year": 2024,
           "venue": "IEEE Computer Architecture Letters",
           "url": "https://doi.org/10.1109/lca.2024.3406038",
-          "cites": 40
+          "cites": 40,
+          "q": "Q2",
+          "sjr": 0.54
         },
         {
           "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
@@ -137,7 +163,8 @@
           "year": 2025,
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
-          "cites": 6
+          "cites": 6,
+          "nr": "na"
         },
         {
           "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
@@ -145,7 +172,9 @@
           "year": 2025,
           "venue": "Nature",
           "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 1011
+          "cites": 1011,
+          "q": "Q1",
+          "sjr": 19.71
         },
         {
           "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
@@ -153,7 +182,8 @@
           "year": 2024,
           "venue": "ACM SIGEnergy Energy Informatics Review",
           "url": "https://doi.org/10.1145/3727200.3727217",
-          "cites": 27
+          "cites": 27,
+          "nr": "na"
         }
       ],
       "count": 5872
@@ -168,7 +198,9 @@
           "year": 2025,
           "venue": "Future Generation Computer Systems",
           "url": "https://doi.org/10.1016/j.future.2025.108316",
-          "cites": 3
+          "cites": 3,
+          "q": "Q1",
+          "sjr": 1.48
         },
         {
           "title": "Decentralized IoT Data Authentication with Signature Aggregation",
@@ -176,7 +208,9 @@
           "year": 2024,
           "venue": "Sensors",
           "url": "https://doi.org/10.3390/s24031037",
-          "cites": 18
+          "cites": 18,
+          "q": "Q1",
+          "sjr": 0.8
         },
         {
           "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
@@ -184,7 +218,9 @@
           "year": 2024,
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16090315",
-          "cites": 34
+          "cites": 34,
+          "q": "Q1",
+          "sjr": 0.84
         },
         {
           "title": "Future Monitors in Optimistic Rollups",
@@ -192,7 +228,8 @@
           "year": 2025,
           "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
           "url": "https://doi.org/10.4230/oasics.fmbc.2025.5",
-          "cites": 36
+          "cites": 36,
+          "nr": "na"
         }
       ],
       "count": 548
@@ -207,7 +244,9 @@
           "year": 2024,
           "venue": "Journal of Information Security and Applications",
           "url": "https://doi.org/10.1016/j.jisa.2023.103678",
-          "cites": 181
+          "cites": 181,
+          "q": "Q1",
+          "sjr": 0.91
         },
         {
           "title": "zkFL: Zero-Knowledge Proof-Based Gradient Aggregation for Federated Learning",
@@ -215,7 +254,9 @@
           "year": 2024,
           "venue": "IEEE Transactions on Big Data",
           "url": "https://doi.org/10.1109/tbdata.2024.3403370",
-          "cites": 50
+          "cites": 50,
+          "q": "Q1",
+          "sjr": 1.53
         },
         {
           "title": "Securing Smart Manufacturing by Integrating Anomaly Detection With Zero-Knowledge Proofs",
@@ -223,7 +264,9 @@
           "year": 2024,
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2024.3373697",
-          "cites": 48
+          "cites": 48,
+          "q": "Q1",
+          "sjr": 0.88
         },
         {
           "title": "A Zero-Knowledge Proof-Enabled Blockchain-Based Academic Record Verification System",
@@ -231,7 +274,9 @@
           "year": 2025,
           "venue": "Sensors",
           "url": "https://doi.org/10.3390/s25113450",
-          "cites": 38
+          "cites": 38,
+          "q": "Q1",
+          "sjr": 0.8
         }
       ],
       "count": 40623
@@ -246,7 +291,8 @@
           "year": 2024,
           "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
           "url": "https://doi.org/10.4230/lipics.sea.2024.20",
-          "cites": 5418
+          "cites": 5418,
+          "nr": "na"
         },
         {
           "title": "Spatio-Temporal Graph Neural Networks for Predictive Learning in Urban Computing: A Survey",
@@ -254,7 +300,9 @@
           "year": 2023,
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2023.3333824",
-          "cites": 533
+          "cites": 533,
+          "q": "Q1",
+          "sjr": 3.02
         },
         {
           "title": "A review of graph neural networks: concepts, architectures, techniques, challenges, datasets, applications, and future directions",
@@ -262,7 +310,9 @@
           "year": 2024,
           "venue": "Journal Of Big Data",
           "url": "https://doi.org/10.1186/s40537-023-00876-4",
-          "cites": 593
+          "cites": 593,
+          "q": "Q1",
+          "sjr": 1.96
         },
         {
           "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
@@ -270,7 +320,9 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3443141",
-          "cites": 494
+          "cites": 494,
+          "q": "Q1",
+          "sjr": 4.83
         }
       ],
       "count": 193528
@@ -285,7 +337,9 @@
           "year": 2023,
           "venue": "Computers",
           "url": "https://doi.org/10.3390/computers12100199",
-          "cites": 36
+          "cites": 36,
+          "q": "Q1",
+          "sjr": 0.94
         },
         {
           "title": "Recent Trends and Insights in Semantic Web and Ontology-Driven Knowledge Representation Across Disciplines Using Topic Modeling",
@@ -293,7 +347,9 @@
           "year": 2025,
           "venue": "Electronics",
           "url": "https://doi.org/10.3390/electronics14071313",
-          "cites": 18
+          "cites": 18,
+          "q": "Q4",
+          "sjr": 0.14
         },
         {
           "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
@@ -301,7 +357,8 @@
           "year": 2025,
           "venue": "Ontology of Designing",
           "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
-          "cites": 1
+          "cites": 1,
+          "nr": "na"
         },
         {
           "title": "The Human Phenotype Ontology in 2024: phenotypes around the world",
@@ -309,7 +366,9 @@
           "year": 2023,
           "venue": "Nucleic Acids Research",
           "url": "https://doi.org/10.1093/nar/gkad1005",
-          "cites": 417
+          "cites": 417,
+          "q": "Q1",
+          "sjr": 8.11
         }
       ],
       "count": 24998
@@ -329,7 +388,8 @@
           "year": 2023,
           "venue": "Neural Information Processing Systems",
           "url": "https://doi.org/10.52202/075280-3334",
-          "cites": 11
+          "cites": 11,
+          "crank": "A*"
         },
         {
           "title": "Inferring stochastic dynamics with growth from cross-sectional data",
@@ -337,7 +397,8 @@
           "year": 2025,
           "venue": "Neural Information Processing Systems",
           "url": "https://doi.org/10.48550/arXiv.2505.13197",
-          "cites": 6
+          "cites": 6,
+          "crank": "A*"
         },
         {
           "title": "Information-theoretic Generalization Analysis for Expected Calibration Error",
@@ -345,7 +406,8 @@
           "year": 2024,
           "venue": "Neural Information Processing Systems",
           "url": "https://doi.org/10.48550/arXiv.2405.15709",
-          "cites": 22
+          "cites": 22,
+          "crank": "A*"
         },
         {
           "title": "GREAT Score: Global Robustness Evaluation of Adversarial Perturbation using Generative Models",
@@ -353,7 +415,8 @@
           "year": 2023,
           "venue": "Neural Information Processing Systems",
           "url": "https://doi.org/10.48550/arXiv.2304.09875",
-          "cites": 8
+          "cites": 8,
+          "crank": "A*"
         }
       ],
       "count": 13699
@@ -368,7 +431,8 @@
           "year": 2025,
           "venue": "International Conference on Machine Learning",
           "url": "https://doi.org/10.48550/arXiv.2501.03113",
-          "cites": 7
+          "cites": 7,
+          "crank": "A*"
         },
         {
           "title": "High-dimensional Clustering onto Hamiltonian Cycle",
@@ -376,7 +440,8 @@
           "year": 2023,
           "venue": "International Conference on Machine Learning",
           "url": "https://doi.org/10.48550/arXiv.2304.14531",
-          "cites": 12
+          "cites": 12,
+          "crank": "A*"
         },
         {
           "title": "High-Dimensional Tensor Regression With Oracle Properties",
@@ -384,7 +449,8 @@
           "year": 2025,
           "venue": "International Conference on Machine Learning",
           "url": "https://www.semanticscholar.org/paper/000e9fb2207f1e40b2195a4d376d8ff46eb54bb7",
-          "cites": 0
+          "cites": 0,
+          "crank": "A*"
         },
         {
           "title": "The Number of Trials Matters in Infinite-Horizon General-Utility Markov Decision Processes",
@@ -392,7 +458,8 @@
           "year": 2024,
           "venue": "International Conference on Machine Learning",
           "url": "https://doi.org/10.48550/arXiv.2409.15128",
-          "cites": 3
+          "cites": 3,
+          "crank": "A*"
         }
       ],
       "count": 7323
@@ -407,7 +474,8 @@
           "year": 2023,
           "venue": "International Conference on Learning Representations",
           "url": "https://www.semanticscholar.org/paper/0004c4e27e54f13577951416d8ed476e93f00ef9",
-          "cites": 39
+          "cites": 39,
+          "crank": "A*"
         },
         {
           "title": "Exploiting Hidden Symmetry to Improve Objective Perturbation for DP Linear Learners with a Nonsmooth L1-Norm",
@@ -415,7 +483,8 @@
           "year": 2025,
           "venue": "International Conference on Learning Representations",
           "url": "https://www.semanticscholar.org/paper/00094e8c9e3cff020fcc75ced74a751b1104fe8b",
-          "cites": 0
+          "cites": 0,
+          "crank": "A*"
         },
         {
           "title": "Generative Learning for Financial Time Series with Irregular and Scale-Invariant Patterns",
@@ -423,7 +492,8 @@
           "year": 2024,
           "venue": "International Conference on Learning Representations",
           "url": "https://www.semanticscholar.org/paper/001d5eac903cee1be4b04b5fd6011034f18be3d1",
-          "cites": 63
+          "cites": 63,
+          "crank": "A*"
         },
         {
           "title": "Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs",
@@ -431,7 +501,8 @@
           "year": 2023,
           "venue": "International Conference on Learning Representations",
           "url": "https://www.semanticscholar.org/paper/003b229489d88890674f0c6bffa41fed8df93cec",
-          "cites": 2
+          "cites": 2,
+          "crank": "A*"
         }
       ],
       "count": 6729
@@ -446,7 +517,9 @@
           "year": 2024,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
-          "cites": 7
+          "cites": 7,
+          "q": "Q2",
+          "sjr": 0.54
         },
         {
           "title": "ReSpec: Relevance and Specificity Grounded Online Filtering for Learning on Video-Text Data Streams",
@@ -454,7 +527,9 @@
           "year": 2025,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52734.2025.02704",
-          "cites": 2
+          "cites": 2,
+          "q": "Q2",
+          "sjr": 0.54
         },
         {
           "title": "Learning Correlation Structures for Vision Transformers",
@@ -462,7 +537,9 @@
           "year": 2024,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
-          "cites": 35
+          "cites": 35,
+          "q": "Q2",
+          "sjr": 0.54
         },
         {
           "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
@@ -470,7 +547,9 @@
           "year": 2024,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
-          "cites": 304
+          "cites": 304,
+          "q": "Q2",
+          "sjr": 0.54
         }
       ],
       "count": 7364
@@ -485,7 +564,9 @@
           "year": 2024,
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2024.103399",
-          "cites": 96
+          "cites": 96,
+          "q": "Q1",
+          "sjr": 1.43
         },
         {
           "title": "Benefits or concerns of AI: A multistakeholder responsibility",
@@ -493,7 +574,9 @@
           "year": 2024,
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2024.103328",
-          "cites": 93
+          "cites": 93,
+          "q": "Q1",
+          "sjr": 1.43
         },
         {
           "title": "Methods to imagine transformative futures. An integrative literature review.",
@@ -501,7 +584,9 @@
           "year": 2024,
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2024.103341",
-          "cites": 54
+          "cites": 54,
+          "q": "Q1",
+          "sjr": 1.43
         },
         {
           "title": "Disruptive Technologies for e-Diasporas: Blockchain, DAOs, Data Cooperatives, Metaverse, and ChatGPT",
@@ -509,7 +594,9 @@
           "year": 2023,
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2023.103258",
-          "cites": 53
+          "cites": 53,
+          "q": "Q1",
+          "sjr": 1.43
         }
       ],
       "count": 430
@@ -524,7 +611,9 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.122903",
-          "cites": 399
+          "cites": 399,
+          "q": "Q1",
+          "sjr": 3.48
         },
         {
           "title": "The effects of artificial intelligence applications in educational settings: Challenges and strategies",
@@ -532,7 +621,9 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123076",
-          "cites": 302
+          "cites": 302,
+          "q": "Q1",
+          "sjr": 3.48
         },
         {
           "title": "How does the digital transformation drive digital technology innovation of enterprises? Evidence from enterprise's digital patents",
@@ -540,7 +631,9 @@
           "year": 2024,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2024.123428",
-          "cites": 296
+          "cites": 296,
+          "q": "Q1",
+          "sjr": 3.48
         },
         {
           "title": "Research on the impact of the integration of digital economy and real economy on enterprise green innovation",
@@ -548,7 +641,9 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123097",
-          "cites": 257
+          "cites": 257,
+          "q": "Q1",
+          "sjr": 3.48
         }
       ],
       "count": 1597
@@ -563,7 +658,9 @@
           "year": 2023,
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2022-0251",
-          "cites": 78
+          "cites": 78,
+          "q": "Q1",
+          "sjr": 4.4
         },
         {
           "title": "Global versus Local ESG Ratings: Evidence from China",
@@ -571,7 +668,9 @@
           "year": 2025,
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2022-0703",
-          "cites": 72
+          "cites": 72,
+          "q": "Q1",
+          "sjr": 4.4
         },
         {
           "title": "The Economics of Audit Production: What Matters for Audit Quality? An Empirical Analysis of the Role of Midlevel Managers within the Audit Firm",
@@ -579,7 +678,9 @@
           "year": 2023,
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2019-0453",
-          "cites": 58
+          "cites": 58,
+          "q": "Q1",
+          "sjr": 4.4
         },
         {
           "title": "CEO Risk Taking Equity Incentives and Workplace Misconduct",
@@ -587,7 +688,9 @@
           "year": 2024,
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2020-0648",
-          "cites": 52
+          "cites": 52,
+          "q": "Q1",
+          "sjr": 4.4
         }
       ],
       "count": 299
@@ -602,7 +705,9 @@
           "year": 2024,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2024.101706",
-          "cites": 170
+          "cites": 170,
+          "q": "Q1",
+          "sjr": 8.75
         },
         {
           "title": "Measuring innovation and navigating its unique information issues: A review of the accounting literature on innovation",
@@ -610,7 +715,9 @@
           "year": 2024,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2024.101720",
-          "cites": 141
+          "cites": 141,
+          "q": "Q1",
+          "sjr": 8.75
         },
         {
           "title": "The effect of patent disclosure quality on innovation",
@@ -618,7 +725,9 @@
           "year": 2023,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2023.101647",
-          "cites": 78
+          "cites": 78,
+          "q": "Q1",
+          "sjr": 8.75
         },
         {
           "title": "The impact of generative AI on information processing: Evidence from the ban of ChatGPT in Italy",
@@ -626,7 +735,9 @@
           "year": 2025,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2025.101782",
-          "cites": 55
+          "cites": 55,
+          "q": "Q1",
+          "sjr": 8.75
         }
       ],
       "count": 159
@@ -641,7 +752,9 @@
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12548",
-          "cites": 553
+          "cites": 553,
+          "q": "Q1",
+          "sjr": 9.77
         },
         {
           "title": "Using and Interpreting Fixed Effects Models",
@@ -649,7 +762,9 @@
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12559",
-          "cites": 386
+          "cites": 386,
+          "q": "Q1",
+          "sjr": 9.77
         },
         {
           "title": "Diversity Washing",
@@ -657,7 +772,9 @@
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12542",
-          "cites": 144
+          "cites": 144,
+          "q": "Q1",
+          "sjr": 9.77
         },
         {
           "title": "Cultural Origin and Minority Shareholder Expropriation: Historical Evidence",
@@ -665,7 +782,9 @@
           "year": 2023,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12517",
-          "cites": 95
+          "cites": 95,
+          "q": "Q1",
+          "sjr": 9.77
         }
       ],
       "count": 151
@@ -680,7 +799,9 @@
           "year": 2023,
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12915",
-          "cites": 96
+          "cites": 96,
+          "q": "Q1",
+          "sjr": 3.69
         },
         {
           "title": "Financial statement adequacy and firms' MD&A disclosures",
@@ -688,7 +809,9 @@
           "year": 2023,
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12919",
-          "cites": 52
+          "cites": 52,
+          "q": "Q1",
+          "sjr": 3.69
         },
         {
           "title": "Disclosure of tax‐related critical audit matters and tax‐related outcomes",
@@ -696,7 +819,9 @@
           "year": 2023,
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12920",
-          "cites": 45
+          "cites": 45,
+          "q": "Q1",
+          "sjr": 3.69
         },
         {
           "title": "Data analytics strategy and internal information quality",
@@ -704,7 +829,9 @@
           "year": 2024,
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12942",
-          "cites": 32
+          "cites": 32,
+          "q": "Q1",
+          "sjr": 3.69
         }
       ],
       "count": 244
@@ -719,7 +846,9 @@
           "year": 2024,
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09833-9",
-          "cites": 97
+          "cites": 97,
+          "q": "Q1",
+          "sjr": 5.56
         },
         {
           "title": "ESG assurance in the United States",
@@ -727,7 +856,9 @@
           "year": 2024,
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09856-2",
-          "cites": 83
+          "cites": 83,
+          "q": "Q1",
+          "sjr": 5.56
         },
         {
           "title": "Does automation improve financial reporting? Evidence from internal controls",
@@ -735,7 +866,9 @@
           "year": 2024,
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09822-y",
-          "cites": 63
+          "cites": 63,
+          "q": "Q1",
+          "sjr": 5.56
         },
         {
           "title": "Actions speak louder than words: environmental law enforcement and audit fees",
@@ -743,7 +876,9 @@
           "year": 2024,
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09823-x",
-          "cites": 47
+          "cites": 47,
+          "q": "Q1",
+          "sjr": 5.56
         }
       ],
       "count": 178

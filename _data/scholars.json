@@ -164,7 +164,8 @@
           "year": "2026",
           "venue": "A Complex Systems Simulation Approach, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:hB2aVRuWZNwC",
-          "cites": 0
+          "cites": 0,
+          "nr": "na"
         },
         {
           "title": "Future Pathways of Cell and Gene Therapy in Korea: A Scenario Planning Approach",
@@ -228,7 +229,8 @@
           "year": "2013",
           "venue": "Proceedings of the 19th ACM SIGKDD international conference on Knowledge …, 2013",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:W7OEmFMy1HYC",
-          "cites": 313
+          "cites": 313,
+          "nr": "na"
         },
         {
           "title": "Executive summary of stroke statistics in Korea 2018: a report from the Epidemiology Research Council of the Korean Stroke Society",
@@ -286,7 +288,8 @@
           "year": "2005",
           "venue": "Proceedings of the 31st international conference on Very large data bases …, 2005",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&citation_for_view=1wZVw8QAAAAJ:u5HHmVD_uO8C",
-          "cites": 125
+          "cites": 125,
+          "nr": "na"
         },
         {
           "title": "Generation of nanoparticles from friction between railway brake disks and pads",
@@ -325,7 +328,8 @@
           "year": "2026",
           "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and …, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:J3LtWjKFLicC",
-          "cites": 0
+          "cites": 0,
+          "nr": "na"
         },
         {
           "title": "cuRPQ+: A System for Interactive Path-Aware Querying Beyond Plain CRPQs",
@@ -371,7 +375,8 @@
           "year": "2026",
           "venue": "Proceedings of the ACM on Management of Data 4 (3 (SIGMOD), 1-28, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:TesyEGJKHF4C",
-          "cites": 2
+          "cites": 2,
+          "nr": "na"
         },
         {
           "title": "Improving discrete diffusion unmasking policies beyond explicit reference policies",
@@ -388,7 +393,8 @@
           "year": "2026",
           "venue": "US Patent 12,602,735, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=10&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:X0DADzN9RKwC",
-          "cites": 0
+          "cites": 0,
+          "nr": "na"
         },
         {
           "title": "Development and internal validation of a deep learning algorithm for intraoperative arterial pressure-based stroke volume index estimation in children: a single-center …",
