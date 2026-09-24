@@ -558,8 +558,8 @@ img{max-width:100%;display:block}
 .contact-copy{min-width:0}
 .contact-copy p{margin:0 0 12px}
 .contact-robot{display:flex;justify-content:center}
-.contact-robot img{height:220px;width:auto;display:block}
-@media(max-width:720px){.contact{grid-template-columns:1fr;gap:12px}.contact-robot img{height:180px}}
+.contact-robot img{height:110px;width:auto;display:block;border:0;border-radius:0;background:0;box-shadow:none}
+@media(max-width:720px){.contact{grid-template-columns:1fr;gap:12px}.contact-robot img{height:92px}}
 
 /* Portfolio 헤더의 GitHub 링크(제목 우측, 작게) */
 .phead{display:flex;align-items:baseline;justify-content:space-between;gap:14px;flex-wrap:wrap}
