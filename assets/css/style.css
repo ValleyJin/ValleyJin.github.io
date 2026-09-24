@@ -679,3 +679,9 @@ img{max-width:100%;display:block}
 .svc-copy h3 .ax-arrow{color:var(--accent);font-weight:400}
 .svc-thumb--empty{display:flex;align-items:center;justify-content:center;min-height:200px;color:var(--muted);font-size:12px;letter-spacing:.04em}
 @media(max-width:800px){.svc-thumb--empty{min-height:0;aspect-ratio:16/10}}
+
+/* 저널 지형도 '경영전략만' 토글 */
+.qjbar{display:flex;justify-content:flex-end;margin:0 2px 6px}
+.qtgl{font-family:var(--mono);font-size:11.5px;padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--bg-elev);color:var(--muted);cursor:pointer;transition:color .15s,border-color .15s,background .15s}
+.qtgl:hover{color:var(--ink)}
+.qtgl.is-on{color:var(--ink);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent)}

@@ -354,30 +354,35 @@ permalink: /articles/
       function bub(w,wm){ return (7 + Math.sqrt((w||0)/wm)*11).toFixed(1); }   // 점 지름: 면적 ∝ 논문 수
       function niceticks(mx){ if(!(mx>0)) return [0]; var raw=mx/4, mag=Math.pow(10,Math.floor(Math.log10(raw))), n=raw/mag, step=(n<1.5?1:n<3?2:n<7?5:10)*mag, out=[]; for(var t=0;t<=mx+step*0.001;t+=step) out.push(Math.round(t*1000)/1000); return out; }
 
-      /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외) ── */
-      var jr=journals.filter(function(v){return v.sjr!=null;});
-      var sMax=Math.max.apply(null,jr.map(function(v){return v.sjr;}).concat([0.1]));
-      var jMax=Math.max.apply(null,jr.map(function(v){return v.if2!=null?v.if2:0;}).concat([0.1]));
-      var rp=jr.filter(function(v){return v.if2!=null;}), reg=null, excl=[];
-      if(rp.length>=2){
-        var pts=rp.map(function(v){return {x:v.sjr,y:v.if2,l:v.label};}), f0=linfit(pts);
-        if(f0 && pts.length>=3){
-          var res=pts.map(function(o){return o.y-(f0.a*o.x+f0.b);}), med=median(res),
-              mad=median(res.map(function(r){return Math.abs(r-med);})), out={};
-          if(mad>0){ pts.forEach(function(o,i){ if(Math.abs(0.6745*(res[i]-med)/mad)>3.5) out[o.l]=1; }); }
-          var kept=pts.filter(function(o){return !out[o.l];}); excl=Object.keys(out);
-          reg=(excl.length && kept.length>=2)?linfit(kept):f0;
-        } else { reg=f0; }
+      /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외). '경영전략만' 토글로 미래학+경영전략만 필터 ── */
+      function buildJ(stratOnly){
+        var jr=journals.filter(function(v){return v.sjr!=null && (!stratOnly || v.group==='미래학' || v.group==='경영전략');});
+        var sMax=Math.max.apply(null,jr.map(function(v){return v.sjr;}).concat([0.1]));
+        var jMax=Math.max.apply(null,jr.map(function(v){return v.if2!=null?v.if2:0;}).concat([0.1]));
+        var rp=jr.filter(function(v){return v.if2!=null;}), reg=null, excl=[];
+        if(rp.length>=2){
+          var pts=rp.map(function(v){return {x:v.sjr,y:v.if2,l:v.label};}), f0=linfit(pts);
+          if(f0 && pts.length>=3){
+            var res=pts.map(function(o){return o.y-(f0.a*o.x+f0.b);}), med=median(res),
+                mad=median(res.map(function(r){return Math.abs(r-med);})), out={};
+            if(mad>0){ pts.forEach(function(o,i){ if(Math.abs(0.6745*(res[i]-med)/mad)>3.5) out[o.l]=1; }); }
+            var kept=pts.filter(function(o){return !out[o.l];}); excl=Object.keys(out);
+            reg=(excl.length && kept.length>=2)?linfit(kept):f0;
+          } else { reg=f0; }
+        }
+        var jwMax=Math.max.apply(null,jr.map(function(v){return v.works||0;}).concat([1]));
+        var h='<div class="qjbar"><button type="button" class="qtgl'+(stratOnly?' is-on':'')+'" id="qstrat" aria-pressed="'+(stratOnly?'true':'false')+'">경영전략만</button></div>';
+        h+=legend([['q1','Q1'],['q2','Q2'],['q3','Q3'],['q4','Q4']],'점 크기 = 논문 수');
+        var jpts=jr.map(function(v){ var yy=(v.if2!=null?v.if2:0); return {x:v.sjr,y:yy,label:v.label,link:v.link,
+          cls:String(v.q||'q1').toLowerCase(), r:bub(v.works,jwMax), num:v.sjr+'/'+(v.if2!=null?v.if2:'–'), out:excl.indexOf(v.label)>=0,
+          below:(reg && excl.indexOf(v.label)<0 && yy < reg.a*v.sjr+reg.b),
+          title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')+' · 논문 '+(v.works||'')}; });
+        h+=plot({pts:jpts,xMax:sMax,yMax:jMax,axX:'SJR →',axY:'IF 2yr ↑',reg:reg});
+        if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b);
+          h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  IF ≈ '+reg.a.toFixed(2)+' · SJR '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(excl.length?'  <span class="qreg-note">* '+esc(excl.join(', '))+' outlier 제외</span>':'  <span class="qreg-note">(SJR 1↑ → IF '+(reg.a>=0?'+':'')+reg.a.toFixed(2)+')</span>')+'</div>'; }
+        return h;
       }
-      var jwMax=Math.max.apply(null,jr.map(function(v){return v.works||0;}).concat([1]));
-      var jHtml=legend([['q1','Q1'],['q2','Q2'],['q3','Q3'],['q4','Q4']],'점 크기 = 논문 수');
-      var jpts=jr.map(function(v){ var yy=(v.if2!=null?v.if2:0); return {x:v.sjr,y:yy,label:v.label,link:v.link,
-        cls:String(v.q||'q1').toLowerCase(), r:bub(v.works,jwMax), num:v.sjr+'/'+(v.if2!=null?v.if2:'–'), out:excl.indexOf(v.label)>=0,
-        below:(reg && excl.indexOf(v.label)<0 && yy < reg.a*v.sjr+reg.b),
-        title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')+' · 논문 '+(v.works||'')}; });
-      jHtml+=plot({pts:jpts,xMax:sMax,yMax:jMax,axX:'SJR →',axY:'IF 2yr ↑',reg:reg});
-      if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b);
-        jHtml+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  IF ≈ '+reg.a.toFixed(2)+' · SJR '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(excl.length?'  <span class="qreg-note">* '+esc(excl.join(', '))+' outlier 제외</span>':'  <span class="qreg-note">(SJR 1↑ → IF '+(reg.a>=0?'+':'')+reg.a.toFixed(2)+')</span>')+'</div>'; }
+      var jHtml=buildJ(false);
 
       /* ── 학회: X=h-index, Y=i10-index, 점 크기=논문수, 색=CORE 등급 ── */
       var cHtml='';
@@ -401,6 +406,11 @@ permalink: /articles/
       btns.forEach(function(b){ b.addEventListener('click',function(){ var v=b.getAttribute('data-v');
         btns.forEach(function(x){x.classList.toggle('is-on',x===b);});
         views.forEach(function(x){x.hidden=x.getAttribute('data-v')!==v;}); }); });
+      // '경영전략만' 토글: 저널 뷰를 필터해서 재렌더(이벤트 위임 — 재렌더돼도 유지)
+      var jview=el.querySelector('.qview[data-v="j"]');
+      if(jview){ jview.addEventListener('click',function(e){
+        var t=e.target.closest ? e.target.closest('#qstrat') : null; if(!t) return;
+        jview.innerHTML=buildJ(!t.classList.contains('is-on')); }); }
     })();
   </script>
   <script>
