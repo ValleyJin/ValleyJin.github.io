@@ -668,3 +668,14 @@ img{max-width:100%;display:block}
 /* 논문 카드: 어느 카테고리에서 받은 분위인지 */
 .pqm-cat{color:var(--muted)}
 .pqm-cat b{color:var(--ink-soft);font-weight:600}
+
+/* Launched 카드: 프로젝트명 우측 파트별 참여도 인라인 미니 그래프 */
+.svc-parts{display:inline-flex;align-items:flex-end;gap:8px;vertical-align:middle}
+.svc-part{display:inline-flex;flex-direction:column;align-items:center;gap:3px}
+.svc-part-k{font-size:8.5px;letter-spacing:.02em;color:var(--muted);line-height:1}
+.svc-part-bar{width:30px;height:4px;border-radius:2px;background:var(--line);overflow:hidden}
+.svc-part-bar i{display:block;height:100%;background:var(--accent)}
+/* AX Lead 카드의 화살표 + 빈 이미지 플레이스홀더 */
+.svc-copy h3 .ax-arrow{color:var(--accent);font-weight:400}
+.svc-thumb--empty{display:flex;align-items:center;justify-content:center;min-height:200px;color:var(--muted);font-size:12px;letter-spacing:.04em}
+@media(max-width:800px){.svc-thumb--empty{min-height:0;aspect-ratio:16/10}}

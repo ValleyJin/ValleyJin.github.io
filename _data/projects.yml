@@ -2,7 +2,13 @@
 # 카드 디자인은 랜딩/포트폴리오 공통(.svc). 여러 개 featured면 랜딩에서 자동스크롤 무한반복.
 launched:
   - name: Kyopo AI
-    role: Solo · designed & built
+    # 개발 파트별 참여도(%) — 프로젝트명 우측 인라인 미니 그래프. 100 = 전담.
+    parts:
+      - {k: Plan, v: 100}
+      - {k: Design, v: 100}
+      - {k: FE, v: 100}
+      - {k: BE, v: 100}
+      - {k: Infra, v: 100}
     tag: Multilingual batch document translation into 50+ languages.
     desc: >-
       Designed and built end-to-end — Excel, Word, HWPX, PowerPoint, PDF, and
