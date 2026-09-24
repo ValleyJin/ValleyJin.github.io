@@ -612,10 +612,23 @@ def _wd_inception(qid):
     return ""
 
 
-def wiki_meta(issn="", name=""):
-    """저널/학회의 창간연도·설명·대표이미지 — Wikipedia 요약(이름)으로 extract·썸네일·QID를 받고,
-    QID로 창간연도(P571)를 조회. SPARQL 미사용."""
-    about, wimg, qid = _wp_summary(name)
+def wiki_meta(issn="", name="", kind="journal"):
+    """저널/학회의 창간연도·설명·대표이미지 — Wikipedia 요약으로 extract·썸네일·QID를 받고 QID로 P571 조회.
+    'Management Science'(학문분과) 같은 오매칭을 피하려 '{name} ({kind})' 문서를 먼저 시도해 표지를 최대한 확보."""
+    if not name:
+        return {}
+    cands = [name + " (" + kind + ")", name] if kind else [name]
+    about, wimg, qid = "", "", ""
+    for t in cands:
+        a, w, q = _wp_summary(t)
+        if not (a or w or q):
+            continue
+        # 이미지가 있는 후보를 최우선(표지 확보). 없으면 설명·QID라도 확보.
+        if w:
+            about, wimg, qid = a, w, q
+            break
+        if not about:
+            about, qid = a, q
     founded = _wd_inception(qid) if qid else ""
     out = {}
     if founded:
@@ -757,7 +770,7 @@ def build_venues(topics, sci, core=None, cutoff=None):
             og = fetch_ogimage(link)
             if og:
                 v["ogimg"] = og
-            v.update(wiki_meta(name=v.get("name") or CONF_FULLNAME.get(label, "")))   # 설립연도·설명·대표이미지(학회는 이름 경로)
+            v.update(wiki_meta(name=v.get("name") or CONF_FULLNAME.get(label, ""), kind="conference"))   # 설립연도·설명·대표이미지(학회는 이름 경로)
             v.update(conf_rank(v.get("name"), core, label))   # CORE 등급(A*/A/B/C)
             out[label] = v
         if label in out:
