@@ -506,6 +506,13 @@ CONF_FULLNAME = {
     "ICML": "International Conference on Machine Learning",
     "ICLR": "International Conference on Learning Representations",
     "CVPR": "Computer Vision and Pattern Recognition",
+    "AAAI": "AAAI Conference on Artificial Intelligence",
+    "IJCAI": "International Joint Conference on Artificial Intelligence",
+    "ACL": "Annual Meeting of the Association for Computational Linguistics",
+    "EMNLP": "Conference on Empirical Methods in Natural Language Processing",
+    "ICCV": "IEEE International Conference on Computer Vision",
+    "ECCV": "European Conference on Computer Vision",
+    "KDD": "Knowledge Discovery and Data Mining",
 }
 
 
@@ -517,11 +524,11 @@ def _oa_source_by_id(sid):
         return None
 
 
-def _oa_source_by_name(full):
-    """학회 정식명으로 conference source 검색. 정식명 정확 일치 우선, 없으면 논문수 최다."""
+def _oa_source_by_name(full, kind="conference"):
+    """정식명으로 source 검색(kind=conference|journal). 정식명 정확 일치 우선, 없으면 논문수 최다."""
     try:
         url = _oa(API_SOURCES + "?search=" + urllib.parse.quote(full)
-               + "&filter=type:conference&sort=works_count:desc&per_page=5&mailto=" + MAILTO)
+               + "&filter=type:" + kind + "&sort=works_count:desc&per_page=5&mailto=" + MAILTO)
         with urllib.request.urlopen(url, timeout=30) as r:
             res = (json.load(r).get("results") or [])
     except Exception:
@@ -529,6 +536,24 @@ def _oa_source_by_name(full):
     exact = [s for s in res if (s.get("display_name") or "").strip().lower() == full.lower()]
     lst = exact or res
     return lst[0] if lst else None
+
+
+def resolve_journal_ids(topics):
+    """config의 'journal:정식명' 항목을 OpenAlex source ID로 해석해 'venue:S…'로 치환.
+    로컬에 OpenAlex 예산이 없어도 Actions(키 주입)에서 런타임 해석되게 하는 용도."""
+    out = []
+    for label, q, extra in topics:
+        if q.startswith("journal:"):
+            src = _oa_source_by_name(q[8:].strip(), kind="journal")
+            sid = (src or {}).get("id", "")
+            sid = sid.rsplit("/", 1)[-1] if sid else ""
+            if sid.startswith("S"):
+                sys.stderr.write(f"· journal '{label}' → {sid} ({src.get('display_name')})\n")
+                q = "venue:" + sid
+            else:
+                sys.stderr.write(f"· journal '{label}' UNRESOLVED — skipped\n")
+        out.append((label, q, extra))
+    return out
 
 
 def _field_of(src):
@@ -545,6 +570,8 @@ def _field_of(src):
 # (예: TFSC는 자동으로 'Strategy'지만 실제론 미래학 대표지).
 _VENUE_GROUP = {
     "NeurIPS": "AI", "ICML": "AI", "ICLR": "AI", "CVPR": "AI",
+    "AAAI": "AI", "IJCAI": "AI", "ACL": "AI", "EMNLP": "AI", "ICCV": "AI", "ECCV": "AI", "KDD": "AI",
+    "JMLR": "AI", "TPAMI": "AI", "AIJ": "AI", "JAIR": "AI",
     "Futures": "Futures Studies", "TFSC": "Futures Studies", "FFS": "Futures Studies", "JFS": "Futures Studies", "EJFR": "Futures Studies",
     "TASM": "Futures Studies", "SMJ": "Strategy", "LRP": "Strategy", "AMJ": "Strategy", "SO": "Strategy",
     "HumRel": "Strategy", "AMR": "Strategy", "JoM": "Strategy", "OrgSci": "Strategy", "MgmtSci": "Strategy",
@@ -621,6 +648,7 @@ def build_venues(topics, sci, core=None):
 def main():
     cfg = yaml.safe_load(CFG.read_text(encoding="utf-8")) or {}
     topics = parse_topics(cfg.get("topics", ""))
+    topics = resolve_journal_ids(topics)                       # 'journal:정식명' → 'venue:S…'
     concept = str(cfg.get("field_concept", "C41008148")).strip()
     years = int(cfg.get("years", 3))
     per_topic = int(cfg.get("per_topic", 4))

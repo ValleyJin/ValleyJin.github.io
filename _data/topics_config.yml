@@ -15,6 +15,17 @@ topics: |
   ICML | s2:ICML | https://icml.cc/
   ICLR | s2:ICLR | https://iclr.cc/
   CVPR | s2:CVPR | https://cvpr.thecvf.com/
+  AAAI | s2:AAAI | https://aaai.org/conference/aaai/
+  IJCAI | s2:IJCAI | https://www.ijcai.org/
+  ACL | s2:ACL | https://www.aclweb.org/
+  EMNLP | s2:EMNLP | https://aclanthology.org/venues/emnlp/
+  ICCV | s2:ICCV | https://iccv.thecvf.com/
+  ECCV | s2:ECCV | https://eccv.ecva.net/
+  KDD | s2:KDD | https://www.kdd.org/
+  JMLR | journal:Journal of Machine Learning Research | https://www.jmlr.org/
+  TPAMI | journal:IEEE Transactions on Pattern Analysis and Machine Intelligence | https://www.computer.org/csdl/journal/tp
+  AIJ | journal:Artificial Intelligence | https://www.sciencedirect.com/journal/artificial-intelligence
+  JAIR | journal:Journal of Artificial Intelligence Research | https://www.jair.org/
   Futures | venue:S130638383 | https://www.sciencedirect.com/journal/futures
   TFSC | venue:S39307421 | https://www.sciencedirect.com/journal/technological-forecasting-and-social-change
   TAR | venue:S160506855 | https://publications.aaahq.org/accounting-review
