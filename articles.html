@@ -407,6 +407,17 @@ permalink: /articles/
         btns.forEach(function(x){x.classList.toggle('is-on',x===b);});
         views.forEach(function(x){x.hidden=x.getAttribute('data-v')!==v;});
         if(cnote) cnote.hidden=(v!=='c'); }); });   // 학회 탭 옆 'AI conferences' 라벨
+      // 모바일(호버 불가): 탭으로 라벨 포커스 — 첫 탭은 포커스(이동X), 같은 점 재탭이면 이동
+      if(!window.matchMedia || !matchMedia('(hover:hover)').matches){
+        function _clearFoc(){ [].forEach.call(el.querySelectorAll('.qdot.is-foc'),function(x){x.classList.remove('is-foc');});
+          [].forEach.call(el.querySelectorAll('.qplot.has-foc'),function(p){p.classList.remove('has-foc');}); }
+        el.addEventListener('click',function(e){
+          var d=e.target.closest?e.target.closest('.qdot'):null;
+          if(d){ if(!d.classList.contains('is-foc')){ e.preventDefault(); _clearFoc();
+            d.classList.add('is-foc'); var pl=d.closest('.qplot'); if(pl) pl.classList.add('has-foc'); } }
+          else { _clearFoc(); }
+        });
+      }
       // '경영전략만' 토글: 저널 뷰를 필터해서 재렌더(이벤트 위임 — 재렌더돼도 유지)
       var jview=el.querySelector('.qview[data-v="j"]');
       if(jview){ jview.addEventListener('click',function(e){

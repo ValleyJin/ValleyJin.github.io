@@ -706,9 +706,16 @@ img{max-width:100%;display:block}
 .qsw.is-on .qsw-track{background:color-mix(in srgb,var(--accent) 55%,transparent)}
 .qsw.is-on .qsw-knob{transform:translateX(14px);background:var(--accent)}
 
-/* 라벨 겹침 해결: 플롯 호버 시 나머지 라벨은 흐려지고 호버한 점만 선명·전면 */
+/* 라벨 겹침 해결: (마우스) 호버한 점만 선명·전면, 나머지는 흐려짐 */
 .qdot-lab{transition:opacity .12s}
-.qplot:hover .qdot-lab{opacity:.1}
-.qplot .qdot:hover{z-index:8}
-.qplot .qdot:hover .qdot-lab{opacity:1}
-.qplot .qdot:hover .qdot-pt{box-shadow:0 0 0 3px var(--bg-elev),0 0 0 4px var(--accent)}
+@media (hover:hover){
+  .qplot:hover .qdot-lab{opacity:.1}
+  .qplot .qdot:hover{z-index:8}
+  .qplot .qdot:hover .qdot-lab{opacity:1}
+  .qplot .qdot:hover .qdot-pt{box-shadow:0 0 0 3px var(--bg-elev),0 0 0 4px var(--accent)}
+}
+/* (터치) 탭한 점만 포커스 — 첫 탭은 포커스, 재탭은 이동(JS) */
+.qplot.has-foc .qdot-lab{opacity:.1}
+.qplot .qdot.is-foc{z-index:8}
+.qplot .qdot.is-foc .qdot-lab{opacity:1}
+.qplot .qdot.is-foc .qdot-pt{box-shadow:0 0 0 3px var(--bg-elev),0 0 0 4px var(--accent)}
