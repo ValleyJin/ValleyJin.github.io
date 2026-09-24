@@ -29,26 +29,26 @@ topics: |
   LRP | venue:S9435936 | https://www.sciencedirect.com/journal/long-range-planning
   AMJ | venue:S117778295 | https://aom.org/research/journals/journal
   SO | venue:S11394615 | https://journals.sagepub.com/home/soq
-  ORM | venue:S133599136 | http://www.sagepub.com/journals/Journal200894/title
-  AMR | venue:S46763546 | http://aom.org/amr/
-  JoM | venue:S122767448 | http://www.sagepub.com/journals/Journal201724/title
-  OrgSci | venue:S206124708 | http://orgsci.pubs.informs.org/
+  HumRel | venue:S61446109 | https://journals.sagepub.com/home/hum
+  AMR | venue:S46763546 | https://aom.org/research/journals/academy-of-management-review
+  JoM | venue:S122767448 | https://journals.sagepub.com/home/jom
+  OrgSci | venue:S206124708 | https://pubsonline.informs.org/journal/orsc
   MgmtSci | venue:S33323087 | http://pubsonline.informs.org/journal/mnsc
   JMS | venue:S151705444 | https://onlinelibrary.wiley.com/journal/14676486
-  OrgStud | venue:S28882882 | http://www.sagepub.com/journals/Journal201657/title
+  OrgStud | venue:S28882882 | https://journals.sagepub.com/home/oss
   HRM | venue:S134094273 | https://onlinelibrary.wiley.com/journal/1099050X
-  ResPol | venue:S9731383 | https://www.journals.elsevier.com/research-policy
-  JIBS | venue:S38024979 | http://www.jibs.net/
-  AOS | venue:S198892436 | https://www.journals.elsevier.com/accounting-organizations-and-society
-  AJPT | venue:S75845752 | https://openalex.org/S75845752
+  ResPol | venue:S9731383 | https://www.sciencedirect.com/journal/research-policy
+  JIBS | venue:S38024979 | https://link.springer.com/journal/41267
+  AOS | venue:S198892436 | https://www.sciencedirect.com/journal/accounting-organizations-and-society
+  AJPT | venue:S75845752 | https://publications.aaahq.org/ajpt
   EAR | venue:S171424506 | https://www.tandfonline.com/toc/rear20/current
-  CPA | venue:S66510378 | https://www.journals.elsevier.com/critical-perspectives-on-accounting
+  CPA | venue:S66510378 | https://www.sciencedirect.com/journal/critical-perspectives-on-accounting
   AiE | venue:S31181851 | https://www.tandfonline.com/toc/raie20/current
-  SAMPJ | venue:S183939566 | http://www.emeraldinsight.com/products/journals/journals.htm?id=sampj
-  IJAIS | venue:S38901890 | https://www.journals.elsevier.com/international-journal-of-accounting-information-systems
-  BAR | venue:S197396629 | https://www.journals.elsevier.com/the-british-accounting-review
-  MAR | venue:S114140714 | https://www.journals.elsevier.com/management-accounting-research
-  AAAJ | venue:S4210224324 | https://openalex.org/S4210224324
+  SAMPJ | venue:S183939566 | https://www.emerald.com/insight/publication/issn/2040-8021
+  IJAIS | venue:S38901890 | https://www.sciencedirect.com/journal/international-journal-of-accounting-information-systems
+  BAR | venue:S197396629 | https://www.sciencedirect.com/journal/the-british-accounting-review
+  MAR | venue:S114140714 | https://www.sciencedirect.com/journal/management-accounting-research
+  AAAJ | venue:S4210224324 | https://www.emerald.com/insight/publication/issn/0951-3574
 per_topic: 4
 scholars: |
   Jae-Suk Yang · KAIST | gM0qYNUAAAAJ

@@ -731,3 +731,7 @@ img{max-width:100%;display:block}
 .ntsec.is-collapsed .ntsec-body,.stabs-wrap.is-collapsed .stabs{display:none}
 .stabs-wrap{border-top:1px solid var(--line);margin:14px 0 2px;padding-top:12px}
 .stabs-wrap .ntsec-h{display:flex}
+
+/* Launched 참여도: bar 우측에 % 작은 글씨 */
+.svc-part-m{display:inline-flex;align-items:center;gap:4px}
+.svc-part-v{font-size:8px;line-height:1;color:var(--muted)}

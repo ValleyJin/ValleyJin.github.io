@@ -455,39 +455,10 @@
       ],
       "group": "Strategy"
     },
-    "ORM": {
-      "name": "Organizational Research Methods",
-      "type": "journal",
-      "link": "http://www.sagepub.com/journals/Journal200894/title",
-      "h": 187,
-      "if2": 7.4,
-      "works": 963,
-      "issn": "1094-4281",
-      "domain": "Social Sciences",
-      "field": "Business, Management and Accounting",
-      "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 14.27,
-      "q": "Q1",
-      "cats": [
-        [
-          "Decision Sciences (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
-      "group": "Strategy"
-    },
     "AMR": {
       "name": "Academy of Management Review",
       "type": "journal",
-      "link": "http://aom.org/amr/",
+      "link": "https://aom.org/research/journals/academy-of-management-review",
       "h": 603,
       "if2": 8.7,
       "works": 5706,
@@ -516,7 +487,7 @@
     "JoM": {
       "name": "Journal of Management",
       "type": "journal",
-      "link": "http://www.sagepub.com/journals/Journal201724/title",
+      "link": "https://journals.sagepub.com/home/jom",
       "h": 401,
       "if2": 10.0,
       "works": 3407,
@@ -541,7 +512,7 @@
     "OrgSci": {
       "name": "Organization Science",
       "type": "journal",
-      "link": "http://orgsci.pubs.informs.org/",
+      "link": "https://pubsonline.informs.org/journal/orsc",
       "h": 390,
       "if2": 7.7,
       "works": 2799,
@@ -624,7 +595,7 @@
     "OrgStud": {
       "name": "Organization Studies",
       "type": "journal",
-      "link": "http://www.sagepub.com/journals/Journal201657/title",
+      "link": "https://journals.sagepub.com/home/oss",
       "h": 260,
       "if2": 3.8,
       "works": 4295,
@@ -686,7 +657,7 @@
     "ResPol": {
       "name": "Research Policy",
       "type": "journal",
-      "link": "https://www.journals.elsevier.com/research-policy",
+      "link": "https://www.sciencedirect.com/journal/research-policy",
       "h": 405,
       "if2": 8.3,
       "works": 5309,
@@ -719,7 +690,7 @@
     "JIBS": {
       "name": "Journal of International Business Studies",
       "type": "journal",
-      "link": "http://www.jibs.net/",
+      "link": "https://link.springer.com/journal/41267",
       "h": 346,
       "if2": 8.6,
       "works": 3334,
@@ -756,7 +727,7 @@
     "AOS": {
       "name": "Accounting Organizations and Society",
       "type": "journal",
-      "link": "https://www.journals.elsevier.com/accounting-organizations-and-society",
+      "link": "https://www.sciencedirect.com/journal/accounting-organizations-and-society",
       "h": 256,
       "if2": 7.5,
       "works": 2226,
@@ -793,7 +764,7 @@
     "AJPT": {
       "name": "Auditing A Journal of Practice & Theory",
       "type": "journal",
-      "link": "https://openalex.org/S75845752",
+      "link": "https://publications.aaahq.org/ajpt",
       "h": 139,
       "if2": 1.8,
       "works": 1524,
@@ -879,7 +850,7 @@
     "CPA": {
       "name": "Critical Perspectives on Accounting",
       "type": "journal",
-      "link": "https://www.journals.elsevier.com/critical-perspectives-on-accounting",
+      "link": "https://www.sciencedirect.com/journal/critical-perspectives-on-accounting",
       "h": 127,
       "if2": 5.9,
       "works": 2402,
@@ -941,7 +912,7 @@
     "SAMPJ": {
       "name": "Sustainability Accounting Management and Policy Journal",
       "type": "journal",
-      "link": "http://www.emeraldinsight.com/products/journals/journals.htm?id=sampj",
+      "link": "https://www.emerald.com/insight/publication/issn/2040-8021",
       "h": 80,
       "if2": 8.2,
       "works": 696,
@@ -970,7 +941,7 @@
     "IJAIS": {
       "name": "International Journal of Accounting Information Systems",
       "type": "journal",
-      "link": "https://www.journals.elsevier.com/international-journal-of-accounting-information-systems",
+      "link": "https://www.sciencedirect.com/journal/international-journal-of-accounting-information-systems",
       "h": 92,
       "if2": 12.1,
       "works": 776,
@@ -1003,7 +974,7 @@
     "BAR": {
       "name": "The British Accounting Review",
       "type": "journal",
-      "link": "https://www.journals.elsevier.com/the-british-accounting-review",
+      "link": "https://www.sciencedirect.com/journal/the-british-accounting-review",
       "h": 134,
       "if2": 5.6,
       "works": 2001,
@@ -1024,7 +995,7 @@
     "MAR": {
       "name": "Management Accounting Research",
       "type": "journal",
-      "link": "https://www.journals.elsevier.com/management-accounting-research",
+      "link": "https://www.sciencedirect.com/journal/management-accounting-research",
       "h": 144,
       "if2": 3.8,
       "works": 1021,
@@ -1053,7 +1024,7 @@
     "AAAJ": {
       "name": "Accounting Auditing & Accountability Journal",
       "type": "journal",
-      "link": "https://openalex.org/S4210224324",
+      "link": "https://www.emerald.com/insight/publication/issn/0951-3574",
       "h": 179,
       "if2": 2.9,
       "works": 2293,
@@ -1074,6 +1045,39 @@
         ]
       ],
       "group": "Accounting"
+    },
+    "HumRel": {
+      "name": "Human Relations",
+      "type": "journal",
+      "link": "https://journals.sagepub.com/home/hum",
+      "h": 259,
+      "if2": 4.1,
+      "works": 4961,
+      "issn": "0018-7267",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Organizational Behavior and Human Resource Management",
+      "sjr": 4.14,
+      "q": "Q1",
+      "cats": [
+        [
+          "Arts and Humanities (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Social Sciences (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
     }
   }
 }
