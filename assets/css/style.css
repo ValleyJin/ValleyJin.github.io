@@ -642,7 +642,7 @@ img{max-width:100%;display:block}
 @media(max-width:640px){.ax-grid{grid-template-columns:1fr}}
 
 /* 품질 지형도 2D 산점도 — X=SJR(Q밴드), Y=JIF */
-.qplot{position:relative;height:340px;margin:12px 4px 6px;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
+.qplot{position:relative;aspect-ratio:1/1;width:100%;max-width:560px;margin:12px auto 6px;border-radius:10px;overflow:hidden;border:1px solid var(--line)}
 .qbands{position:absolute;inset:0;display:flex}
 .qb{flex:1;position:relative;border-right:1px dashed var(--line)}
 .qb:last-child{border-right:0}
