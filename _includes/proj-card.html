@@ -3,7 +3,12 @@
     <h3>{{ include.p.name }}{% if include.p.parts %} <span class="svc-parts mono" title="개발 파트별 참여도 (100% = 전담)">{% for pt in include.p.parts %}<span class="svc-part"><span class="svc-part-k">{{ pt.k }}</span><span class="svc-part-m"><span class="svc-part-bar"><i style="width:{{ pt.v }}%"></i></span><span class="svc-part-v">{{ pt.v }}%</span></span></span>{% endfor %}</span>{% elsif include.p.role %} <span class="solo">{{ include.p.role }}</span>{% endif %}</h3>
     {% if include.p.tag %}<p class="svc-tag">{{ include.p.tag }}</p>{% endif %}
     {% if include.p.desc %}<p class="svc-desc">{{ include.p.desc }}</p>{% endif %}
-    {% if include.p.url %}<a class="svc-url" href="{{ include.p.url }}" target="_blank" rel="noopener">{{ include.p.url_label | default: include.p.url }}</a>{% endif %}
+    {% if include.p.langs %}
+    <div class="svc-langs">
+      <div class="svc-langbar">{% for l in include.p.langs %}<span style="width:{{ l.v }}%;background:{{ l.c }}" title="{{ l.k }} {{ l.v }}%"></span>{% endfor %}</div>
+      <ul class="svc-langleg mono">{% for l in include.p.langs %}<li><span class="sw" style="background:{{ l.c }}"></span>{{ l.k }} <b>{{ l.v }}%</b></li>{% endfor %}</ul>
+    </div>
+    {% elsif include.p.url %}<a class="svc-url" href="{{ include.p.url }}" target="_blank" rel="noopener">{{ include.p.url_label | default: include.p.url }}</a>{% endif %}
   </div>
   {% if include.p.thumb %}
   <a class="svc-thumb" href="{{ include.p.url | default: '#' }}" target="_blank" rel="noopener" aria-label="Open {{ include.p.name }}">
