@@ -436,6 +436,7 @@ permalink: /articles/
   <script type="application/json" id="venues-data">{{ site.data.venues | jsonify }}</script>
   <script type="application/json" id="scatter-data">{{ site.data.scatter_venues | jsonify }}</script>
   <script type="application/json" id="vnotes-data">{{ site.data.venue_notes.notes | jsonify }}</script>
+  <script type="application/json" id="covers-data">{{ site.data.covers | jsonify }}</script>
   <script>
     /* 공유 가능한 딥링크: 탭·토픽·날짜를 URL 해시에 인코딩(#tab=topics&topic=SMJ&date=…) */
     window.AState=(function(){
@@ -461,6 +462,7 @@ permalink: /articles/
         Object.keys(sv).forEach(function(k){ var v=sv[k]; if(v.type==='journal'&&v.q&&v.sjr!=null) journals.push(v); }); }catch(e){}
       if(!journals.length && !confs.length){ return; }
       var vnotes={}; try{ vnotes=JSON.parse((document.getElementById('vnotes-data')||{}).textContent||'{}')||{}; }catch(e){}   // 큐레이션 노트(직접 조사)
+      var vcovers={}; try{ (JSON.parse((document.getElementById('covers-data')||{}).textContent||'[]')||[]).forEach(function(l){ vcovers[l]=1; }); }catch(e){}   // 로컬 저장된 실제 표지
       var PX=9, PY=12;   // 축 여백(%)
       function median(a){ var s=a.slice().sort(function(x,y){return x-y;}),m=s.length>>1; return s.length?(s.length%2?s[m]:(s[m-1]+s[m])/2):0; }
       // t분포 양측검정 p값: p = I_{df/(df+t²)}(df/2, 1/2) (정규화 불완전베타, Numerical Recipes)
@@ -652,7 +654,8 @@ permalink: /articles/
         var _logo=(_host && _host.indexOf('scimagojr')<0)?('https://www.google.com/s2/favicons?sz=128&domain='+encodeURIComponent(_host)):'';
         var _issn8=String(v.issn||'').replace(/[^0-9Xx]/g,'').toUpperCase();
         var _cover=(_issn8.length===8 && /sciencedirect\.com|elsevier/.test(v.link||''))?('https://ars.els-cdn.com/content/image/X'+_issn8+'.jpg'):'';
-        var _covs=[]; if(_cover) _covs.push(_cover); if(v.wimg) _covs.push(v.wimg); if(v.ogimg) _covs.push(v.ogimg);   // 표지 → Wikipedia 대표이미지 → og:image → (로고/타일)
+        var _covs=[]; if(vcovers[v.label]) _covs.push('/assets/img/covers/'+v.label+'.jpg');   // 로컬 저장 실제 표지 최우선
+        if(_cover) _covs.push(_cover); if(v.wimg) _covs.push(v.wimg); if(v.ogimg) _covs.push(v.ogimg);   // → Elsevier ISSN 표지 → Wikipedia → og:image → (로고/타일)
         jdet.className='qdetail qd-open';
         jdet.innerHTML='<button type="button" class="qd-x" aria-label="닫기">×</button>'
           +'<div class="qd-cover '+qcl+'">'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">'+esc(v.group||'')+'</span></div>'
