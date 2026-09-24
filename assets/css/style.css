@@ -291,7 +291,10 @@ img{max-width:100%;display:block}
 .qconf:hover{border-color:var(--accent);color:var(--accent)}
 .qconf-h{color:var(--muted);font-size:10px}
 /* Following: first paper sits beside the author photo + Scholar link */
-.fw-lead{display:grid;grid-template-columns:168px 1fr;gap:22px;align-items:start;margin-bottom:2px}   /* 좌: Publications와 동일한 sc-photo 카드 */
+/* 좌: Publications와 동일한 sc-photo 카드. 컨테이너는 Launched의 .svc 프로젝트 카드 디자인 재활용 */
+.fw-lead{display:grid;grid-template-columns:168px 1fr;gap:22px;align-items:start;margin-bottom:2px;
+  background:var(--bg-elev);border:1px solid var(--line);border-radius:16px;padding:22px 24px;transition:border-color .2s}
+.fw-lead:hover{border-color:var(--accent-dim)}
 .fw-side{min-width:0}
 .fw-sub{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
 .fw-cited{max-height:118px;overflow-y:auto;margin:0;padding-right:10px}

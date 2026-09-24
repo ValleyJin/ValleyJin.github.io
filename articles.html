@@ -141,10 +141,10 @@ permalink: /articles/
               <ul class="pubs fw-cited">
                 {% for p in g.papers %}
                 <li class="pub-row">
-                  <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
-                    <span class="pt">{{ p.title }}</span>
+                  <div class="pub-main">
+                    <a class="pt" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
                     <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b>{% if p.qcat %}<span class="pqm-sep">·</span><span class="pqm-cat">{{ p.qcat }} <b>{{ p.q }}</b></span>{% endif %}</span>{% endif %}
-                  </a>
+                  </div>
                   <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% elsif p.nr == 'na' %}<span class="nabadge" title="등급 없는 매체 (누락 아님)">N/A</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
                 </li>
                 {% endfor %}
@@ -156,10 +156,10 @@ permalink: /articles/
           <ul class="pubs fw-recent">
             {% for p in g.recent %}
             <li class="pub-row">
-              <a class="pub-main" href="{{ p.url }}" target="_blank" rel="noopener">
-                <span class="pt">{{ p.title }}</span>
+              <div class="pub-main">
+                <a class="pt" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
                 <span class="pmeta">{{ p.authors }} ({{ p.year }}).{% if p.venue %} <i>{{ p.venue }}</i>.{% endif %}</span>{% if p.sjr %}<span class="pqm mono">SJR <b>{{ p.sjr }}</b>{% if p.qcat %}<span class="pqm-sep">·</span><span class="pqm-cat">{{ p.qcat }} <b>{{ p.q }}</b></span>{% endif %}</span>{% endif %}
-              </a>
+              </div>
               <span class="pcite" title="Cited by">{% if p.q %}<span class="qbadge {{ p.q | downcase }}">{{ p.q }}</span> {% elsif p.crank %}{% assign crc = p.crank | replace:'A*','as' | replace:'A','a' | replace:'B','b' | replace:'C','c' %}<span class="cbadge c-{{ crc }}">{{ p.crank }}</span> {% elsif p.nr == 'na' %}<span class="nabadge" title="등급 없는 매체 (누락 아님)">N/A</span> {% endif %}cited by <b>{{ p.cites | default: 0 }}</b></span>
             </li>
             {% endfor %}
@@ -754,10 +754,10 @@ permalink: /articles/
       function aFiltered(){ return sst.scholar==='All'?alerts:alerts.filter(function(a){return a.scholar===sst.scholar;}); }
       function aByDate(){ var m={}; aFiltered().forEach(function(a){ if(a.date) (m[a.date]=m[a.date]||[]).push(a); }); return m; }
       function alertLi(a){
-        return '<li class="pub-row"><a class="pub-main" href="'+esc(a.url)+'" target="_blank" rel="noopener">'+
-          '<span class="pt">'+esc(a.title)+'</span>'+
+        return '<li class="pub-row"><div class="pub-main">'+
+          '<a class="pt" href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.title)+'</a>'+
           '<span class="pmeta">'+(a.authors?esc(a.authors):'')+(a.snippet?' — '+esc(String(a.snippet).slice(0,140)):'')+'</span>'+
-          pqmLine(a)+'</a>'+
+          pqmLine(a)+'</div>'+
           '<span class="pcite">'+(vBadge(a)?vBadge(a)+' ':(naBadge(a)?naBadge(a)+' ':''))+esc(a.kind||'New')+'</span></li>';
       }
       function renderStabs(){
