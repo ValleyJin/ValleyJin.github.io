@@ -33,7 +33,8 @@ jobs:
 
       - name: Generate My Topics feed (OpenAlex) + Following (Google Scholar)
         env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}   # 팔로우 학자 = Google Scholar via SerpAPI
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}     # 팔로우 학자 = Google Scholar via SerpAPI
+          OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}   # OpenAlex 개인 예산(있으면 429 회피)
         run: python tools/gen_topics.py
 
       - name: Commit if changed

@@ -26,6 +26,16 @@ VENUES = ROOT / "_data" / "venues.json"        # 토픽 학회/저널의 영향�
 MAILTO = "jscho71@kaist.ac.kr"
 API = "https://api.openalex.org/works"
 API_SOURCES = "https://api.openalex.org/sources"
+# OpenAlex API 키(선택): 있으면 IP 공유 무료예산 대신 개인 예산 사용 → 429 회피.
+# GitHub Actions에서는 repo secret OPENALEX_KEY 로 주입(topics.yml env). 로컬은 export OPENALEX_KEY=...
+OPENALEX_KEY = os.environ.get("OPENALEX_KEY", "").strip()
+
+
+def _oa(url):
+    """OpenAlex URL에 api_key를 (있으면) 덧붙인다."""
+    if OPENALEX_KEY:
+        url += ("&" if "?" in url else "?") + "api_key=" + urllib.parse.quote(OPENALEX_KEY)
+    return url
 
 
 def parse_topics(raw):
@@ -88,7 +98,7 @@ def fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
     }
     if sort:
         q["sort"] = sort
-    url = API + "?" + urllib.parse.urlencode(q)
+    url = _oa(API + "?" + urllib.parse.urlencode(q))
     req = urllib.request.Request(url, headers={"User-Agent": f"valleyjin-topics ({MAILTO})"})
     for attempt in range(5):
         try:
@@ -501,7 +511,7 @@ CONF_FULLNAME = {
 
 def _oa_source_by_id(sid):
     try:
-        with urllib.request.urlopen(f"{API_SOURCES}/{sid.strip()}?mailto={MAILTO}", timeout=30) as r:
+        with urllib.request.urlopen(_oa(f"{API_SOURCES}/{sid.strip()}?mailto={MAILTO}"), timeout=30) as r:
             return json.load(r)
     except Exception:
         return None
@@ -510,7 +520,7 @@ def _oa_source_by_id(sid):
 def _oa_source_by_name(full):
     """학회 정식명으로 conference source 검색. 정식명 정확 일치 우선, 없으면 논문수 최다."""
     try:
-        url = (API_SOURCES + "?search=" + urllib.parse.quote(full)
+        url = _oa(API_SOURCES + "?search=" + urllib.parse.quote(full)
                + "&filter=type:conference&sort=works_count:desc&per_page=5&mailto=" + MAILTO)
         with urllib.request.urlopen(url, timeout=30) as r:
             res = (json.load(r).get("results") or [])
