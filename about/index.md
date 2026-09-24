@@ -164,9 +164,19 @@ permalink: /about/
 Also: **10+ Korean patents** (AI — bankruptcy forecasting with CNN & GANN; blockchain — contribution proof via smart contracts), bilingual in Korean and English, and a certified **TCB analyst** (Korea Technology Finance Corporation).
 </p>
 
-<h3>This site</h3>
-<p markdown="1">
+<h3>Contact</h3>
+<div class="contact">
+  <div class="contact-copy" markdown="1">
 A working journal. Posts are written in the open and the homepage stays in sync with my
 GitHub activity automatically. Find me on
 [GitHub](https://github.com/ValleyJin), [Medium](https://medium.com/@ValleyJin), and [X](https://x.com/ValleyJin).
-</p>
+
+Email: **[cho@kaist.ac.kr](mailto:cho@kaist.ac.kr)**
+  </div>
+  <div class="contact-robot" aria-hidden="true">
+    <div id="voxel" class="voxel"></div>
+    <span id="coincount" hidden></span>
+  </div>
+</div>
+<script src="{{ '/assets/js/three.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/hero-voxel.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

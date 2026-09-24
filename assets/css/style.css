@@ -552,3 +552,12 @@ img{max-width:100%;display:block}
 .repo-desc{color:var(--ink-soft);font-size:13px;line-height:1.5;margin:0 0 10px;flex:1}
 .repo-lang{font-size:11px;color:var(--muted)}
 @media(max-width:640px){.repo-grid{grid-template-columns:1fr}}
+
+/* About > Contact (이메일·소셜 + 3D KAIST 로봇) */
+.contact{display:grid;grid-template-columns:1fr 320px;gap:26px;align-items:center;margin-top:8px}
+.contact-copy{min-width:0}
+.contact-copy p{margin:0 0 12px}
+.contact-robot{position:relative}
+.contact-robot .voxel{height:280px;width:100%}
+.contact-robot .voxel canvas{display:block;width:100%;height:100%}
+@media(max-width:720px){.contact{grid-template-columns:1fr;gap:8px}.contact-robot{max-width:300px;margin:4px auto 0}.contact-robot .voxel{height:240px}}
