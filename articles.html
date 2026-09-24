@@ -575,7 +575,7 @@ permalink: /articles/
         return s+'</div>';
       }
       function legend(items,note){ return '<div class="qleg mono">'+items.map(function(z){return '<span class="qleg-i"><span class="qleg-d '+z[0]+'"></span>'+z[1]+'</span>';}).join('')+(note?'<span class="qleg-note">'+esc(note)+'</span>':'')+'</div>'; }
-      function bub(w,wm){ return Math.max(3, 72*Math.sqrt((w||0)/wm)).toFixed(1); }   // 점 '면적' ∝ 논문 수 (지름 ∝ √works). 2배 논문 = 2배 면적. 최대 지름 상한 크게(72px), 최소 3px
+      function bub(w,wm){ return Math.max(3, 0.5*Math.sqrt(w||0)).toFixed(1); }   // 점 '면적' ∝ 논문 수 (지름 = 0.5·√works, 절대값). 상한 없음 — 논문 많을수록 그대로 커짐. 최소 3px
       function niceticks(mx){ if(!(mx>0)) return [0]; var raw=mx/4, mag=Math.pow(10,Math.floor(Math.log10(raw))), n=raw/mag, step=(n<1.5?1:n<3?2:n<7?5:10)*mag, out=[]; for(var t=0;t<=mx+step*0.001;t+=step) out.push(Math.round(t*1000)/1000); return out; }
 
       /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외). 분야 복수선택으로 필터 ── */
