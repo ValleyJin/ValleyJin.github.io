@@ -641,7 +641,6 @@ img{max-width:100%;display:block}
 .qleg-d.q1{background:#e23b3b}.qleg-d.q2{background:#f2891e}.qleg-d.q3{background:#5eb3e4}.qleg-d.q4{background:#8b8d98}
 .qleg-d.c-as{background:#7728ff}.qleg-d.c-a{background:#8b5cf6}.qleg-d.c-b{background:#416faf}.qleg-d.c-c{background:#9aa0ac}
 .qdot.c-as .qdot-pt{background:#7728ff}.qdot.c-a .qdot-pt{background:#8b5cf6}.qdot.c-b .qdot-pt{background:#416faf}.qdot.c-c .qdot-pt{background:#9aa0ac}
-.qdot.is-out .qdot-pt{outline:2px dashed var(--ink-soft);outline-offset:2px}
 .qdot-ast{color:var(--muted);font-weight:400}
 
 /* 끝점 라벨 방향 전환(넘침 방지) */
