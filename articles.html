@@ -636,25 +636,17 @@ permalink: /articles/
       if(confs.length){
         var crc={'A*':'as','A':'a','B':'b','C':'c'};
         var cwMax=Math.max.apply(null,confs.map(function(v){return v.works||0;}).concat([1]));
-        var _hasIf2=confs.some(function(v){return v.if2!=null && v.if2>0;});
-        var hMax=Math.max.apply(null,confs.map(function(v){return v.h||0;}).concat([1]));
-        var cpts, cxMax, cyMax, cAxX, cAxY, cNote;
-        if(_hasIf2){   // X=논문당 최근 피인용(부피 무관 품질), Y=h-index(누적 규모) → AAAI 같은 대량학회는 좌상단(규모 큼·편당 보통)
-          cxMax=Math.max.apply(null,confs.map(function(v){return v.if2||0;}).concat([1]));
-          cyMax=hMax; cAxX='논문당 피인용(2yr) →'; cAxY='h-index ↑';
-          cNote='점 크기 = 논문 수 · 가로 = 논문당 최근 피인용(부피 무관, 편당 영향력) · 세로 = 누적 h-index — 대량 채택 학회(AAAI)는 세로만 높고 가로는 보통';
-          cpts=confs.map(function(v){ return {x:v.if2||0,y:v.h||0,label:v.label,link:v.link,
-            cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'IF '+(v.if2!=null?v.if2:'–')+' · h'+(v.h||'–'),
-            title:(v.name||'')+' · CORE '+(v.crank||'')+' · 논문당 IF '+(v.if2!=null?v.if2:'–')+' · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
-        } else {       // if2 채워지기 전 폴백: 기존 h × i10
-          cxMax=hMax; cyMax=Math.max.apply(null,confs.map(function(v){return v.i10||0;}).concat([1])); cAxX='h-index →'; cAxY='i10 ↑';
-          cNote='점 크기 = 논문 수';
-          cpts=confs.map(function(v){ return {x:v.h||0,y:v.i10||0,label:v.label,link:v.link,
-            cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'h'+(v.h||'–')+' · i10 '+(v.i10||'–'),
-            title:(v.name||'')+' · CORE '+(v.crank||'')+' · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
-        }
-        cHtml=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']],cNote);
-        cHtml+=plot({pts:cpts,xMax:cxMax,yMax:cyMax,axX:cAxX,axY:cAxY,aspect:1.7});
+        // 부피 비의존 축 — 둘 다 논문수로 정규화해 대량 채택 학회(AAAI)가 부풀지 않게:
+        //  X=인용 적중률=i10÷논문수(10회+ 인용 논문 비율), Y=규모보정 h=h÷√논문수
+        function _hit(v){ return v.works? (v.i10||0)/v.works : 0; }
+        function _hn(v){ return v.works? (v.h||0)/Math.sqrt(v.works) : 0; }
+        var cxMax=Math.max.apply(null,confs.map(_hit).concat([0.05]));
+        var cyMax=Math.max.apply(null,confs.map(_hn).concat([0.5]));
+        cHtml=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']],'점 크기 = 논문 수 · 가로 = 인용 적중률(i10÷논문수) · 세로 = 규모보정 h(h÷√논문수) — 둘 다 부피 무관해 편당 질이 낮은 대량 학회(AAAI)는 좌하단');
+        var cpts=confs.map(function(v){ return {x:_hit(v),y:_hn(v),label:v.label,link:v.link,
+          cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'적중 '+Math.round(_hit(v)*100)+'% · h/√n '+_hn(v).toFixed(1),
+          title:(v.name||'')+' · CORE '+(v.crank||'')+' · 적중률 '+Math.round(_hit(v)*100)+'% · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
+        cHtml+=plot({pts:cpts,xMax:cxMax,yMax:cyMax,axX:'인용 적중률(i10÷논문수) →',axY:'규모보정 h(h÷√논문수) ↑',aspect:1.7});
       }
 
       /* ── 서브탭 조립 ── */
