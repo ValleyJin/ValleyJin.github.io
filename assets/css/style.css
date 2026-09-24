@@ -533,3 +533,22 @@ img{max-width:100%;display:block}
 }
 :root[data-theme="light"]{--bg:#fbfbfa;--bg-elev:#fff;--ink:#16171b;--ink-soft:#3d3f47;--muted:#6b6d77;--line:#e6e6e4;--line-soft:#efefec;--accent:#0f8f79;--accent-dim:#bfe7de;--nav-bg:rgba(251,251,250,.82)}
 :root[data-theme="dark"]{--bg:#0c0d10;--bg-elev:#121319;--ink:#e9e9ee;--ink-soft:#b9bac4;--muted:#7f818d;--line:#20222b;--line-soft:#181a22;--accent:#6ad7c2;--accent-dim:#3a5f58;--nav-bg:rgba(12,13,16,.78)}
+
+/* Featured 캐러셀 (랜딩) — 한 개씩, 여러 개면 자동스크롤 무한반복 */
+.feat-carousel{overflow:hidden;position:relative}
+.feat-track{display:flex;transition:transform .55s ease}
+.feat-slide{flex:0 0 100%;min-width:0}
+.feat-dots{display:flex;justify-content:center;gap:8px;margin-top:16px}
+.feat-dot{width:8px;height:8px;border-radius:999px;border:0;background:var(--line);cursor:pointer;padding:0;transition:background .15s,width .15s}
+.feat-dot.on{background:var(--accent);width:22px}
+/* Portfolio > Contribution (내 오픈소스 repo) */
+.repo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.repo-card{display:flex;flex-direction:column;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--bg-elev);transition:border-color .15s}
+.repo-card:hover{border-color:var(--accent)}
+.repo-top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
+.repo-name{font-size:14px;font-weight:700;color:var(--ink)}
+.repo-card:hover .repo-name{color:var(--accent)}
+.repo-star{font-size:11px;color:var(--muted);white-space:nowrap}
+.repo-desc{color:var(--ink-soft);font-size:13px;line-height:1.5;margin:0 0 10px;flex:1}
+.repo-lang{font-size:11px;color:var(--muted)}
+@media(max-width:640px){.repo-grid{grid-template-columns:1fr}}

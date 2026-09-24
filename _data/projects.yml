@@ -1,0 +1,14 @@
+# Portfolio > Launched 카드 목록. featured: true 인 항목은 랜딩의 "Featured" 캐러셀에도 노출.
+# 카드 디자인은 랜딩/포트폴리오 공통(.svc). 여러 개 featured면 랜딩에서 자동스크롤 무한반복.
+launched:
+  - name: Kyopo AI
+    role: Solo · designed & built
+    tag: Multilingual batch document translation into 50+ languages.
+    desc: >-
+      Designed and built end-to-end — Excel, Word, HWPX, PowerPoint, PDF, and
+      Google Workspace files translated in one pass. Preserves tables and layout,
+      caching cuts cost up to 80%, with glossary control and TTS in 40+ languages.
+    url: https://kyopo.ai
+    url_label: kyopo.ai →
+    thumb: /assets/images/kyopo-thumb.jpg
+    featured: true

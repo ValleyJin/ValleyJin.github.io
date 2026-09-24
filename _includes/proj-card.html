@@ -1,0 +1,13 @@
+<div class="svc">
+  <div class="svc-copy">
+    <h3>{{ include.p.name }}{% if include.p.role %} <span class="solo">{{ include.p.role }}</span>{% endif %}</h3>
+    {% if include.p.tag %}<p class="svc-tag">{{ include.p.tag }}</p>{% endif %}
+    {% if include.p.desc %}<p class="svc-desc">{{ include.p.desc }}</p>{% endif %}
+    {% if include.p.url %}<a class="svc-url" href="{{ include.p.url }}" target="_blank" rel="noopener">{{ include.p.url_label | default: include.p.url }}</a>{% endif %}
+  </div>
+  {% if include.p.thumb %}
+  <a class="svc-thumb" href="{{ include.p.url | default: '#' }}" target="_blank" rel="noopener" aria-label="Open {{ include.p.name }}">
+    <img src="{{ include.p.thumb | relative_url }}" alt="{{ include.p.name }}" loading="lazy" width="1000" height="625">
+  </a>
+  {% endif %}
+</div>

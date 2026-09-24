@@ -44,24 +44,24 @@
     </div>
   </section>
 
+  {% assign feat = site.data.projects.launched | where: 'featured', true %}
+  {% if feat.size > 0 %}
   <section class="section">
     <div class="wrap">
-      <div class="section-head"><h2>Launched</h2></div>
-      <div class="services">
-        <div class="svc">
-          <div class="svc-copy">
-            <h3>Kyopo AI <span class="solo">Solo · designed &amp; built</span></h3>
-            <p class="svc-tag">Multilingual batch document translation into 50+ languages.</p>
-            <p class="svc-desc">Designed and built end-to-end — Excel, Word, HWPX, PowerPoint, PDF, and Google Workspace files translated in one pass. Preserves tables and layout, caching cuts cost up to 80%, with glossary control and TTS in 40+ languages.</p>
-            <a class="svc-url" href="https://kyopo.ai" target="_blank" rel="noopener">kyopo.ai →</a>
-          </div>
-          <a class="svc-thumb" href="https://kyopo.ai" target="_blank" rel="noopener" aria-label="Open Kyopo AI">
-            <img src="{{ '/assets/images/kyopo-thumb.jpg' | relative_url }}" alt="Kyopo AI — Let the world speak, multilingual batch translation" loading="lazy" width="1000" height="625">
-          </a>
+      <div class="section-head"><h2>Featured</h2>{% if feat.size > 1 %}<span class="more mono" style="text-transform:none">auto ↔</span>{% endif %}</div>
+      {% if feat.size > 1 %}
+      <div class="feat-carousel" data-count="{{ feat.size }}">
+        <div class="feat-track">
+          {% for p in feat %}<div class="feat-slide">{% include proj-card.html p=p %}</div>{% endfor %}
         </div>
+        <div class="feat-dots">{% for p in feat %}<button type="button" class="feat-dot{% if forloop.first %} on{% endif %}" data-i="{{ forloop.index0 }}" aria-label="Slide {{ forloop.index }}"></button>{% endfor %}</div>
       </div>
+      {% else %}
+      <div class="services">{% for p in feat %}{% include proj-card.html p=p %}{% endfor %}</div>
+      {% endif %}
     </div>
   </section>
+  {% endif %}
 
   <section class="section">
     <div class="wrap">
@@ -87,6 +87,21 @@
 
   {% include footer.html %}
 
+  <script>
+    /* Featured 캐러셀: 한 개씩 표시, 여러 개면 자동스크롤 무한반복 */
+    (function(){
+      var c=document.querySelector('.feat-carousel'); if(!c) return;
+      var track=c.querySelector('.feat-track'), dots=[].slice.call(c.querySelectorAll('.feat-dot'));
+      var n=+(c.dataset.count||dots.length||1); if(n<2) return;
+      var i=0, timer=null;
+      function go(k){ i=(k+n)%n; track.style.transform='translateX(-'+(i*100)+'%)'; dots.forEach(function(d,j){ d.classList.toggle('on', j===i); }); }
+      function start(){ stop(); timer=setInterval(function(){ go(i+1); }, 5000); }
+      function stop(){ if(timer){ clearInterval(timer); timer=null; } }
+      dots.forEach(function(d){ d.addEventListener('click', function(){ go(+d.dataset.i); start(); }); });
+      c.addEventListener('mouseenter', stop); c.addEventListener('mouseleave', start);
+      go(0); start();
+    })();
+  </script>
   <script src="{{ '/assets/js/three.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/hero-voxel.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>

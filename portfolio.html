@@ -3,13 +3,45 @@ layout: default
 title: Portfolio
 permalink: /portfolio/
 ---
-<div class="article" style="max-width:840px">
+<div class="article" style="max-width:900px">
   <header class="article-head" style="margin-bottom:26px">
     <span class="cat">Work</span>
     <h1 style="margin:0">Portfolio</h1>
   </header>
-  <div class="stat-card" style="text-align:center;padding:48px 24px">
-    <p style="color:var(--ink-soft);margin:0 0 8px;font-size:16px">준비 중입니다.</p>
-    <p class="mono" style="color:var(--muted);font-size:12px;margin:0">프로젝트·연구 포트폴리오가 곧 올라옵니다.</p>
+
+  <!-- 1 · Launched -->
+  <div class="section-head" style="margin:8px 0 12px"><h2>Launched</h2></div>
+  {% assign launched = site.data.projects.launched %}
+  {% if launched and launched.size > 0 %}
+  <div class="services">
+    {% for p in launched %}{% include proj-card.html p=p %}{% endfor %}
   </div>
+  {% else %}
+  <div class="stat-card" style="text-align:center;padding:28px"><p class="mono" style="color:var(--muted);margin:0">아직 없습니다.</p></div>
+  {% endif %}
+
+  <!-- 2 · Activity -->
+  <div class="section-head" style="margin:40px 0 12px"><h2>Activity</h2><span class="more mono" style="text-transform:none">조직의 AX 전환 활동</span></div>
+  <div class="stat-card" style="text-align:center;padding:40px 24px">
+    <p style="color:var(--ink-soft);margin:0 0 8px">준비 중입니다.</p>
+    <p class="mono" style="color:var(--muted);font-size:12px;margin:0">조직의 AX(AI 전환)를 위한 활동 사진과 소개글이 곧 올라옵니다.</p>
+  </div>
+
+  <!-- 3 · Contribution -->
+  <div class="section-head" style="margin:40px 0 12px"><h2>Contribution</h2><a class="more mono" href="https://github.com/{{ site.github_user }}?tab=repositories" target="_blank" rel="noopener" style="text-transform:none">all repos ↗</a></div>
+  <p class="mono" style="color:var(--muted);font-size:12.5px;margin:0 0 14px">내 GitHub에 공개한 오픈소스 프로젝트들.</p>
+  {% assign repos = site.data.github.opensource | default: site.data.github.recent %}
+  {% if repos and repos.size > 0 %}
+  <div class="repo-grid">
+    {% for r in repos %}
+    <a class="repo-card" href="{{ r.url }}" target="_blank" rel="noopener">
+      <div class="repo-top"><span class="repo-name mono">{{ r.name }}</span>{% if r.stars and r.stars > 0 %}<span class="repo-star mono">★ {{ r.stars }}</span>{% endif %}</div>
+      {% if r.desc %}<p class="repo-desc">{{ r.desc }}</p>{% endif %}
+      <span class="repo-lang mono">{{ r.lang }}</span>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="stat-card" style="text-align:center;padding:28px"><p class="mono" style="color:var(--muted);margin:0">저장소 정보를 불러오는 중입니다.</p></div>
+  {% endif %}
 </div>

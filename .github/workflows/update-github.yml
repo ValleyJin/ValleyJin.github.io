@@ -63,6 +63,17 @@ jobs:
                 pushed: (r.pushed_at || '').slice(0, 10)
               }));
 
+            // --- open-source repos (내가 만든 공개 오픈소스, 스타순) → Portfolio Contribution ---
+            const opensource = own
+              .filter(r => r.description)
+              .sort((a, b) => (b.stargazers_count - a.stargazers_count) || (new Date(b.pushed_at) - new Date(a.pushed_at)))
+              .slice(0, 9)
+              .map(r => ({
+                name: r.name, desc: r.description || '', lang: r.language || 'repo',
+                stars: r.stargazers_count || 0, url: r.html_url,
+                pushed: (r.pushed_at || '').slice(0, 10)
+              }));
+
             // --- contributions (GraphQL calendar) ---
             let contributions = null;
             try {
@@ -78,7 +89,8 @@ jobs:
               total_stars: totalStars,
               contributions,
               languages,
-              recent
+              recent,
+              opensource
             };
             fs.mkdirSync('_data', { recursive: true });
             fs.writeFileSync('_data/github.json', JSON.stringify(out, null, 2) + '\n');
