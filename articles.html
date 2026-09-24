@@ -284,19 +284,20 @@ permalink: /articles/
       var journals=[], confs=[];
       Object.keys(vs).forEach(function(k){ var v=vs[k]; v.label=k; if(v.type==='journal'&&v.q) journals.push(v); else if(v.type==='conference') confs.push(v); });
       if(!journals.length && !confs.length){ return; }
-      var zones=['Q4','Q3','Q2','Q1'], byz={Q1:[],Q2:[],Q3:[],Q4:[]};
-      journals.forEach(function(v){ (byz[v.q]||byz.Q1).push(v); });
-      zones.forEach(function(z){ byz[z].sort(function(a,b){return (a.sjr||0)-(b.sjr||0);}); });   // 아래(BASE)부터 쌓으므로 오름차순 → 위가 SJR 최고(내림차순 표시)
-      var maxStack=Math.max(1,byz.Q1.length,byz.Q2.length,byz.Q3.length,byz.Q4.length);
-      var STEP=30, BASE=34, trackH=BASE+maxStack*STEP+6;
-      var h='<div class="qmap-head mono">내 관심 학회·저널 품질 지형도 <span class="qmap-sub">SCImago 분위(Q4→Q1)에 SJR순 배치 · 괄호=2yr IF(보조) · 학회는 CORE 등급</span></div>';
-      h+='<div class="qmap-track" style="height:'+trackH+'px">';
-      zones.forEach(function(z){ h+='<div class="qz '+z.toLowerCase()+'"><span class="qz-lab mono">'+z+'</span></div>'; });
-      zones.forEach(function(z,zi){
-        var cx=(zi+0.5)*25;
-        byz[z].forEach(function(v,i){
-          h+='<a class="qpin '+z.toLowerCase()+'" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" style="left:'+cx+'%;bottom:'+(BASE+i*STEP)+'px" title="'+esc(v.name||'')+(v.sjr!=null?' · SJR '+esc(v.sjr):'')+(v.if2!=null?' · 2yr IF '+esc(v.if2):'')+'">'+esc(v.label)+(v.sjr!=null?'<span class="qpin-sjr">'+esc(v.sjr)+'</span>':'')+(v.if2!=null?'<span class="qpin-if">('+esc(v.if2)+')</span>':'')+'</a>';
-        });
+      // 저널을 SJR 값에 선형비례해 수평 직선 위 점으로 배치(낮음=좌, 높음=우). 라벨은 위/아래 교차.
+      journals = journals.filter(function(v){ return v.sjr!=null; }).sort(function(a,b){ return (a.sjr||0)-(b.sjr||0); });
+      var svals=journals.map(function(v){ return v.sjr; });
+      var mn=svals.length?Math.min.apply(null,svals):0, mx=svals.length?Math.max.apply(null,svals):1, PAD=8;
+      function xpos(s){ return mx>mn ? (PAD+(s-mn)/(mx-mn)*(100-2*PAD)) : 50; }
+      var h='<div class="qmap-head mono">내 관심 저널 품질 지형도 <span class="qmap-sub">SJR 낮음 ← → 높음(선형) · 괄호=2yr IF · 점 색=SCImago 분위</span></div>';
+      h+='<div class="qline">';
+      h+='<span class="qline-end lo mono">SJR '+esc(mn)+'</span><span class="qline-end hi mono">SJR '+esc(mx)+'</span>';
+      journals.forEach(function(v,i){
+        var side=(i%2===0)?'below':'above';
+        h+='<a class="qpt '+side+'" href="'+esc(v.link||'#')+'" target="_blank" rel="noopener" style="left:'+xpos(v.sjr).toFixed(2)+'%" title="'+esc(v.name||'')+' · SJR '+esc(v.sjr)+(v.if2!=null?' · 2yr IF '+esc(v.if2):'')+'">'+
+          '<span class="qpt-label"><b>'+esc(v.label)+'</b> '+esc(v.sjr)+(v.if2!=null?'<span class="qpt-if">('+esc(v.if2)+')</span>':'')+'</span>'+
+          '<span class="qpt-stem"></span>'+
+          '<span class="qpt-dot '+esc(String(v.q||'q1').toLowerCase())+'"></span></a>';
       });
       h+='</div>';
       if(confs.length){

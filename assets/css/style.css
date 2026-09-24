@@ -568,3 +568,22 @@ img{max-width:100%;display:block}
 .phead-gh .ghmark{width:14px;height:14px;opacity:.85}
 :root:not([data-theme="light"]) .phead-gh .ghmark{filter:invert(1)}
 :root[data-theme="dark"] .phead-gh .ghmark{filter:invert(1)}
+
+/* 품질 지형도 — 수평 직선 위 점(SJR 선형 위치, 라벨 위/아래 교차) */
+.qline{position:relative;height:160px;margin:8px 8px 2px}
+.qline::before{content:"";position:absolute;left:0;right:0;top:50%;height:2px;background:var(--line);transform:translateY(-50%)}
+.qline-end{position:absolute;top:50%;transform:translateY(-50%);font-size:10px;color:var(--muted);background:var(--bg-elev);padding:0 5px;z-index:1}
+.qline-end.lo{left:-4px}
+.qline-end.hi{right:-4px}
+.qpt{position:absolute;top:50%;width:0;height:0}
+.qpt-dot{position:absolute;left:0;top:0;transform:translate(-50%,-50%);width:12px;height:12px;border-radius:50%;box-shadow:0 0 0 3px var(--bg-elev);z-index:2}
+.qpt-dot.q1{background:#e23b3b}.qpt-dot.q2{background:#f2891e}.qpt-dot.q3{background:#5eb3e4}.qpt-dot.q4{background:#8b8d98}
+.qpt-stem{position:absolute;left:0;transform:translateX(-50%);width:1.5px;background:var(--line)}
+.qpt.above .qpt-stem{top:-30px;height:24px}
+.qpt.below .qpt-stem{top:6px;height:24px}
+.qpt-label{position:absolute;left:0;font-family:var(--mono);font-size:11px;white-space:nowrap;color:var(--ink-soft)}
+.qpt-label b{color:var(--ink)}
+.qpt.above .qpt-label{top:-34px;transform:translate(-50%,-100%)}
+.qpt.below .qpt-label{top:34px;transform:translate(-50%,0)}
+.qpt:hover .qpt-label b{color:var(--accent)}
+.qpt-if{color:var(--muted);font-size:9px;margin-left:2px}
