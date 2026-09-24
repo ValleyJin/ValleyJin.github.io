@@ -113,7 +113,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 117200
+      "count": 117208
     },
     {
       "topic": "Memory in Agentic AI",
@@ -164,15 +164,15 @@
           "year": 2025,
           "venue": "Information Fusion",
           "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-          "cites": 212,
-          "fwci": 200.33,
+          "cites": 214,
+          "fwci": 201.45,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.2,
           "qcat": "Hardware and Architecture"
         }
       ],
-      "count": 68530
+      "count": 68519
     },
     {
       "topic": "LLM inference serving",
@@ -226,7 +226,7 @@
           "nr": "na"
         }
       ],
-      "count": 5872
+      "count": 5871
     },
     {
       "topic": "Ethereum Layer-2",
@@ -341,7 +341,7 @@
           "qcat": "Analytical Chemistry"
         }
       ],
-      "count": 40621
+      "count": 40627
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -364,8 +364,8 @@
           "year": 2023,
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2023.3333824",
-          "cites": 533,
-          "fwci": 57.39,
+          "cites": 534,
+          "fwci": 57.35,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.02,
@@ -377,8 +377,8 @@
           "year": 2024,
           "venue": "Journal Of Big Data",
           "url": "https://doi.org/10.1186/s40537-023-00876-4",
-          "cites": 593,
-          "fwci": 130.21,
+          "cites": 595,
+          "fwci": 130.36,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.96,
@@ -398,7 +398,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 193528
+      "count": 193534
     },
     {
       "topic": "Ontology",
@@ -513,7 +513,7 @@
           "qcat": "E-learning"
         }
       ],
-      "count": 106364
+      "count": 106370
     },
     {
       "topic": "NeurIPS",
@@ -1052,8 +1052,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3435571",
-          "cites": 903,
-          "fwci": 218.79,
+          "cites": 907,
+          "fwci": 219.25,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -1065,8 +1065,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3369699",
-          "cites": 897,
-          "fwci": 131.0,
+          "cites": 898,
+          "fwci": 130.37,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -1079,14 +1079,14 @@
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3362475",
           "cites": 848,
-          "fwci": 135.96,
+          "fwci": 135.32,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 2598
+      "count": 2599
     },
     {
       "topic": "AIJ",
@@ -1158,7 +1158,7 @@
           "venue": "Journal of Artificial Intelligence Research",
           "url": "https://doi.org/10.1613/jair.1.15348",
           "cites": 156,
-          "fwci": 34.24,
+          "fwci": 34.18,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.11,
@@ -1314,8 +1314,8 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123097",
-          "cites": 257,
-          "fwci": 45.94,
+          "cites": 259,
+          "fwci": 46.12,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.48,
@@ -1971,8 +1971,8 @@
           "year": 2024,
           "venue": "Strategic Organization",
           "url": "https://doi.org/10.1177/14761270231223397",
-          "cites": 59,
-          "fwci": 28.52,
+          "cites": 60,
+          "fwci": 28.83,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.36,
@@ -2482,8 +2482,8 @@
           "year": 2024,
           "venue": "Human Resource Management",
           "url": "https://doi.org/10.1002/hrm.22211",
-          "cites": 75,
-          "fwci": 58.18,
+          "cites": 76,
+          "fwci": 58.64,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.6,
@@ -2634,7 +2634,7 @@
           "venue": "Accounting Organizations and Society",
           "url": "https://doi.org/10.1016/j.aos.2024.101567",
           "cites": 33,
-          "fwci": 11.92,
+          "fwci": 11.85,
           "pct": 10,
           "q": "Q1",
           "sjr": 3.1,
@@ -2647,7 +2647,7 @@
           "venue": "Accounting Organizations and Society",
           "url": "https://doi.org/10.1016/j.aos.2023.101514",
           "cites": 32,
-          "fwci": 7.66,
+          "fwci": 7.64,
           "pct": 10,
           "q": "Q1",
           "sjr": 3.1,
@@ -2765,7 +2765,7 @@
           "venue": "European Accounting Review",
           "url": "https://doi.org/10.1080/09638180.2024.2385709",
           "cites": 15,
-          "fwci": 10.12,
+          "fwci": 10.04,
           "pct": 10,
           "q": "Q1",
           "sjr": 2.27,
@@ -2894,8 +2894,8 @@
           "year": 2024,
           "venue": "Accounting in Europe",
           "url": "https://doi.org/10.1080/17449480.2024.2330976",
-          "cites": 32,
-          "fwci": 12.51,
+          "cites": 33,
+          "fwci": 12.82,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.96,
@@ -3071,8 +3071,8 @@
           "year": 2025,
           "venue": "The British Accounting Review",
           "url": "https://doi.org/10.1016/j.bar.2025.101551",
-          "cites": 55,
-          "fwci": 49.56,
+          "cites": 56,
+          "fwci": 49.52,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.71,
