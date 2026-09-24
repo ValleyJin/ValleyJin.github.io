@@ -622,6 +622,8 @@ img{max-width:100%;display:block}
 .qreg-cap{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 4px 2px;font-size:12px;color:var(--ink-soft)}
 .qreg-cap .qreg-line{display:inline-block;width:22px;height:0;border-top:1.6px dashed var(--accent);opacity:.9}
 .qreg-cap .qreg-note{color:var(--muted);font-size:11px}
+.qreg-cap b{font-weight:600}
+.qreg-cap .qsig{color:var(--accent);font-weight:700;font-size:.85em;margin-left:1px}
 
 /* X축 SJR 눈금 (Q밴드 대체) */
 .qgrid{position:absolute;inset:0;pointer-events:none}

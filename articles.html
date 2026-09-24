@@ -351,7 +351,13 @@ permalink: /articles/
       if(!journals.length && !confs.length){ return; }
       var PX=9, PY=12;   // 축 여백(%)
       function median(a){ var s=a.slice().sort(function(x,y){return x-y;}),m=s.length>>1; return s.length?(s.length%2?s[m]:(s[m-1]+s[m])/2):0; }
-      function linfit(p){ var n=p.length,sx=0,sy=0,sxy=0,sxx=0; p.forEach(function(o){sx+=o.x;sy+=o.y;sxy+=o.x*o.y;sxx+=o.x*o.x;}); var d=n*sxx-sx*sx; if(!d) return null; var a=(n*sxy-sx*sy)/d,b=(sy-a*sx)/n,my=sy/n,sT=0,sR=0; p.forEach(function(o){var yp=a*o.x+b; sR+=(o.y-yp)*(o.y-yp); sT+=(o.y-my)*(o.y-my);}); return {a:a,b:b,r2:sT>0?1-sR/sT:0}; }
+      // t분포 양측검정 p값: p = I_{df/(df+t²)}(df/2, 1/2) (정규화 불완전베타, Numerical Recipes)
+      function _gln(x){ var c=[76.18009172947146,-86.50532032941677,24.01409824083091,-1.231739572450155,0.1208650973866179e-2,-0.5395239384953e-5],y=x,t=x+5.5; t-=(x+0.5)*Math.log(t); var s=1.000000000190015; for(var j=0;j<6;j++){y++;s+=c[j]/y;} return -t+Math.log(2.5066282746310005*s/x); }
+      function _betacf(a,b,x){ var FPMIN=1e-300,qab=a+b,qap=a+1,qam=a-1,c=1,d=1-qab*x/qap; if(Math.abs(d)<FPMIN)d=FPMIN; d=1/d; var h=d; for(var m=1;m<=200;m++){ var m2=2*m,aa=m*(b-m)*x/((qam+m2)*(a+m2)); d=1+aa*d; if(Math.abs(d)<FPMIN)d=FPMIN; c=1+aa/c; if(Math.abs(c)<FPMIN)c=FPMIN; d=1/d; h*=d*c; aa=-(a+m)*(qab+m)*x/((a+m2)*(qap+m2)); d=1+aa*d; if(Math.abs(d)<FPMIN)d=FPMIN; c=1+aa/c; if(Math.abs(c)<FPMIN)c=FPMIN; d=1/d; var del=d*c; h*=del; if(Math.abs(del-1)<3e-12)break; } return h; }
+      function _betai(a,b,x){ if(x<=0)return 0; if(x>=1)return 1; var bt=Math.exp(_gln(a+b)-_gln(a)-_gln(b)+a*Math.log(x)+b*Math.log(1-x)); return x<(a+1)/(a+b+2)?bt*_betacf(a,b,x)/a:1-bt*_betacf(b,a,1-x)/b; }
+      function tpval(t,df){ if(!(df>0))return null; return _betai(df/2,0.5,df/(df+t*t)); }
+      function pstars(p){ return p==null?'':(p<0.001?'***':p<0.01?'**':p<0.05?'*':''); }
+      function linfit(p){ var n=p.length,sx=0,sy=0,sxy=0,sxx=0; p.forEach(function(o){sx+=o.x;sy+=o.y;sxy+=o.x*o.y;sxx+=o.x*o.x;}); var d=n*sxx-sx*sx; if(!d) return null; var a=(n*sxy-sx*sy)/d,b=(sy-a*sx)/n,my=sy/n,sT=0,sR=0; p.forEach(function(o){var yp=a*o.x+b; sR+=(o.y-yp)*(o.y-yp); sT+=(o.y-my)*(o.y-my);}); var df=n-2, sxxc=sxx-sx*sx/n, se=(df>0&&sxxc>0)?Math.sqrt((sR/df)/sxxc):null, tv=(se&&se>0)?a/se:null, pv=(tv!=null)?tpval(Math.abs(tv),df):null; return {a:a,b:b,r2:sT>0?1-sR/sT:0,n:n,se:se,t:tv,p:pv}; }
       // 보이는 데이터 범위 [a,b]에 대한 nice 눈금
       function niceticksR(a,b){ if(!(b>a)) return []; var span=b-a, raw=span/4, mag=Math.pow(10,Math.floor(Math.log10(raw))), n=raw/mag, step=(n<1.5?1:n<3?2:n<7?5:10)*mag, out=[], t=Math.ceil((a-1e-9)/step)*step; for(var i=0;i<60 && t<=b+step*0.001;i++,t+=step) out.push(Math.round(t*1000)/1000); return out; }
       // 공통 산점도 빌더. cfg: {pts, xMax,yMax, axX,axY, reg?, view?} — view={x0,x1,y0,y1}(데이터-줌: 축 고정, 점만 확산)
@@ -409,8 +415,9 @@ permalink: /articles/
           below:(reg && excl.indexOf(v.label)<0 && v.sjr < reg.a*ify+reg.b),   // 회귀선 아래(질 낮음) → 라벨 아래로
           title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')+' · 논문 '+(v.works||'')}; });
         h+=plot({pts:jpts,xMax:jMax,yMax:sMax,view:jVR,axX:'IF 2yr →',axY:'SJR ↑',reg:reg});   // X=IF, Y=SJR
-        if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b);
-          h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  SJR ≈ '+reg.a.toFixed(2)+' · IF '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+'  <span class="qreg-note">'+(excl.length?'* '+esc(excl.join(', '))+' 제외 · ':'')+'선 아래 = 인용 대비 질(SJR) 낮음</span></div>'; }
+        if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b), st=pstars(reg.p),
+            pstr=(reg.p==null)?'':(reg.p<0.001?'p < 0.001':'p = '+reg.p.toFixed(3)), nsig=(reg.p!=null&&!st);
+          h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  SJR ≈ <b>'+reg.a.toFixed(2)+'<sup class="qsig">'+st+'</sup></b> · IF '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(pstr?'  ·  '+pstr+(nsig?' (n.s.)':''):'')+'  <span class="qreg-note">'+(excl.length?esc(excl.join(', '))+' 제외 · ':'')+'* p&lt;.05 ** p&lt;.01 *** p&lt;.001 · 선 아래 = 인용 대비 질(SJR) 낮음</span></div>'; }
         return h;
       }
       var jHtml=buildJ();
