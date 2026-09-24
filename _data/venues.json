@@ -236,6 +236,190 @@
           "Q1"
         ]
       ]
+    },
+    "FFS": {
+      "name": "Futures & Foresight Science",
+      "type": "journal",
+      "link": "https://onlinelibrary.wiley.com/journal/25735152",
+      "h": 21,
+      "if2": 1.2,
+      "works": 288,
+      "issn": "2573-5152",
+      "domain": "Social Sciences",
+      "field": "Decision Sciences",
+      "sub": "Management Science and Operations Research",
+      "sjr": 0.74,
+      "q": "Q1",
+      "cats": [
+        [
+          "Management Science and Operations Research",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ]
+      ]
+    },
+    "JFS": {
+      "name": "Journal of futures studies",
+      "type": "journal",
+      "link": "https://jfsdigital.org/",
+      "h": 14,
+      "if2": 0,
+      "works": 155,
+      "issn": "1027-6084",
+      "domain": "Social Sciences",
+      "field": "Decision Sciences",
+      "sub": "Management Science and Operations Research",
+      "sjr": 0.38,
+      "q": "Q1",
+      "cats": [
+        [
+          "History and Philosophy of Science",
+          "Q1"
+        ],
+        [
+          "Development",
+          "Q2"
+        ]
+      ]
+    },
+    "TASM": {
+      "name": "Technology Analysis and Strategic Management",
+      "type": "journal",
+      "link": "https://www.tandfonline.com/journals/ctas20",
+      "h": 115,
+      "if2": 2.6,
+      "works": 3072,
+      "issn": "0953-7325",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 0.82,
+      "q": "Q2",
+      "cats": [
+        [
+          "Management Science and Operations Research",
+          "Q2"
+        ],
+        [
+          "Strategy and Management",
+          "Q2"
+        ]
+      ]
+    },
+    "SMJ": {
+      "name": "Strategic Management Journal",
+      "type": "journal",
+      "link": "https://onlinelibrary.wiley.com/journal/10970266",
+      "h": 514,
+      "if2": 8.6,
+      "works": 4536,
+      "issn": "0143-2095",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 10.15,
+      "q": "Q1",
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ]
+    },
+    "LRP": {
+      "name": "Long Range Planning",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/long-range-planning",
+      "h": 272,
+      "if2": 5.7,
+      "works": 7707,
+      "issn": "0024-6301",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 2.81,
+      "q": "Q1",
+      "cats": [
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "Geography, Planning and Development",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ]
+    },
+    "AMJ": {
+      "name": "Academy of Management Journal",
+      "type": "journal",
+      "link": "https://aom.org/research/journals/journal",
+      "h": 574,
+      "if2": 6.6,
+      "works": 6934,
+      "issn": "0001-4273",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Organizational Behavior and Human Resource Management",
+      "sjr": 10.78,
+      "q": "Q1",
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ]
+    },
+    "SO": {
+      "name": "Strategic Organization",
+      "type": "journal",
+      "link": "https://journals.sagepub.com/home/soq",
+      "h": 104,
+      "if2": 3.3,
+      "works": 685,
+      "issn": "1476-1270",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 4.36,
+      "q": "Q1",
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Education",
+          "Q1"
+        ],
+        [
+          "Industrial Relations",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ]
     }
   }
 }
