@@ -764,3 +764,8 @@ img{max-width:100%;display:block}
 .qplot--dense .qdot-lab{opacity:0}
 @media(hover:hover){.qplot--dense .qdot:hover .qdot-lab{opacity:1}}
 .qplot--dense .qdot.is-foc .qdot-lab{opacity:1}
+
+/* 산점도 확대/축소(커서 중심). .qzoom이 transform 대상 */
+.qzoom{position:absolute;inset:0;transform-origin:0 0;will-change:transform}
+.qplot{touch-action:pan-y}
+.qplot:hover{cursor:zoom-in}

@@ -341,7 +341,7 @@ permalink: /articles/
       function plot(cfg){
         function px(x){ return PX + (x/cfg.xMax)*(100-PX-6); }
         function py(y){ return PY + (y/cfg.yMax)*(100-PY-8); }
-        var s='<div class="qplot'+((cfg.pts||[]).length>18?' qplot--dense':'')+'">';   // 점 많으면 라벨 기본 숨김(호버/탭 시 표시)
+        var s='<div class="qplot'+((cfg.pts||[]).length>18?' qplot--dense':'')+'"><div class="qzoom">';   // 점 많으면 라벨 기본 숨김; .qzoom=확대 대상
         niceticks(cfg.xMax).forEach(function(t){ var x=px(t).toFixed(2); s+='<span class="qgl qgl-x" style="left:'+x+'%"></span><span class="qtk qtk-x mono" style="left:'+x+'%">'+t+'</span>'; });
         niceticks(cfg.yMax).forEach(function(t){ var y=py(t).toFixed(2); s+='<span class="qgl qgl-y" style="bottom:'+y+'%"></span><span class="qtk qtk-y mono" style="bottom:'+y+'%">'+t+'</span>'; });
         if(cfg.reg){ var r=cfg.reg, y0=r.b, yM=r.a*cfg.xMax+r.b;
@@ -353,7 +353,7 @@ permalink: /articles/
           var ptSty=p.r?' style="width:'+p.r+'px;height:'+p.r+'px"':'';
           s+='<a class="qdot '+p.cls+edge+(p.out?' is-out':'')+'" href="'+esc(p.link||'#')+'" target="_blank" rel="noopener" style="left:'+xp.toFixed(2)+'%;bottom:'+yp.toFixed(2)+'%" title="'+esc(p.title)+'"><span class="qdot-pt"'+ptSty+'></span><span class="qdot-lab mono"><b>'+esc(p.label)+(p.out?'<span class="qdot-ast">*</span>':'')+'</b> <span class="qdot-n">'+esc(p.num)+'</span></span></a>';
         });
-        return s+'</div>';
+        return s+'</div></div>';   // /qzoom /qplot
       }
       function legend(items,note){ return '<div class="qleg mono">'+items.map(function(z){return '<span class="qleg-i"><span class="qleg-d '+z[0]+'"></span>'+z[1]+'</span>';}).join('')+(note?'<span class="qleg-note">'+esc(note)+'</span>':'')+'</div>'; }
       function bub(w,wm){ return (7 + Math.sqrt((w||0)/wm)*11).toFixed(1); }   // 점 지름: 면적 ∝ 논문 수
@@ -433,6 +433,24 @@ permalink: /articles/
         var q=e.target.closest ? e.target.closest('.qleg-q') : null;
         if(f){ var g=f.getAttribute('data-grp'); jsel[g]=!jsel[g]; jview.innerHTML=buildJ(); }
         else if(q){ var Q=q.getAttribute('data-q'); qsel[Q]=!qsel[Q]; jview.innerHTML=buildJ(); } }); }
+
+      /* 커서 중심 확대/축소: 휠·트랙패드 핀치(ctrl+wheel)·모바일 두손가락. 더블클릭=리셋 */
+      var ZS=new WeakMap();
+      function _apply(z,st){ if(st.s<=1.001){st.s=1;st.tx=0;st.ty=0;} z.style.transform='translate('+st.tx+'px,'+st.ty+'px) scale('+st.s+')'; }
+      function _zoomAt(plot,cx,cy,factor){ var z=plot.querySelector('.qzoom'); if(!z) return;
+        var st=ZS.get(z)||{s:1,tx:0,ty:0}, ns=Math.min(8,Math.max(1,st.s*factor));
+        st.tx=cx-((cx-st.tx)/st.s)*ns; st.ty=cy-((cy-st.ty)/st.s)*ns; st.s=ns; _apply(z,st); ZS.set(z,st); }
+      el.addEventListener('wheel',function(e){ var plot=e.target.closest?e.target.closest('.qplot'):null; if(!plot) return;
+        e.preventDefault(); var r=plot.getBoundingClientRect(); _zoomAt(plot,e.clientX-r.left,e.clientY-r.top,Math.exp(-e.deltaY*0.0018)); },{passive:false});
+      el.addEventListener('dblclick',function(e){ var plot=e.target.closest?e.target.closest('.qplot'):null; if(!plot) return;
+        var z=plot.querySelector('.qzoom'); if(z){ var st={s:1,tx:0,ty:0}; ZS.set(z,st); _apply(z,st); } });
+      var _pn=null;
+      el.addEventListener('touchstart',function(e){ if(e.touches.length!==2) return; var plot=e.target.closest?e.target.closest('.qplot'):null; if(!plot) return;
+        var r=plot.getBoundingClientRect(),a=e.touches[0],b=e.touches[1];
+        _pn={plot:plot,d:Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY),cx:(a.clientX+b.clientX)/2-r.left,cy:(a.clientY+b.clientY)/2-r.top}; },{passive:false});
+      el.addEventListener('touchmove',function(e){ if(!_pn||e.touches.length!==2) return; e.preventDefault();
+        var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _zoomAt(_pn.plot,_pn.cx,_pn.cy,d/_pn.d); _pn.d=d; },{passive:false});
+      el.addEventListener('touchend',function(e){ if(e.touches.length<2) _pn=null; });
     })();
   </script>
   <script>
