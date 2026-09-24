@@ -452,6 +452,8 @@ permalink: /articles/
       var el=document.getElementById('qmap'); if(!el) return;
       var vs={}; try{ vs=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){ return; }
       function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+      // 큐레이션 노트 렌더: 안전 escape 후 **강조**·문단(빈 줄)·줄바꿈만 허용
+      function _note(s){return esc(s).replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').replace(/\n\n+/g,'</p><p>').replace(/\n/g,'<br>');}
       var journals=[], confs=[];
       Object.keys(vs).forEach(function(k){ var v=vs[k]; v.label=k; if(v.type==='journal'&&v.q) journals.push(v); else if(v.type==='conference') confs.push(v); });
       // scatter 전용 저널(Q1~Q4 분포용, Topics 칩엔 미포함) 병합
@@ -635,15 +637,15 @@ permalink: /articles/
         var note=vnotes[v.label]||{};
         var t3line=t3?' <span class="qd-mut">· 최근 3년 데이터상 활발 주제: '+esc(t3.join(' · '))+'.</span>':'';
         // 소개/저널 방향/공략 = 큐레이션 노트(직접 조사) 우선, 없으면 데이터 기반 자동생성
-        var intro = note.intro ? esc(note.intro) : (esc(v.name||v.label)+' — <b>'+esc(v.group||'')+'</b> 분야 학술지.'
+        var intro = note.intro ? _note(note.intro) : (esc(v.name||v.label)+' — <b>'+esc(v.group||'')+'</b> 분야 학술지.'
           +(v.founded?' <b>'+esc(v.founded)+'년 창간.</b>':'')+(v.about?' '+esc(v.about):'')+' <span class="qd-mut">카테고리: '+esc(cats)+'.</span>');
-        var dir = note.direction ? (esc(note.direction)+t3line)
+        var dir = note.direction ? (_note(note.direction)+t3line)
           : (t3 ? '<b>최근 3년 활발 주제</b>: '+esc(t3.join(' · '))+'. 가장 활발: <b>'+esc(t3[0])+'</b>.' : '주제 범위(SCImago 분류): <b>'+esc(cats)+'</b>. <span class="qd-mut">(최근 주제 데이터 없음)</span>');
         var qtxt=({q1:'상위 25%',q2:'상위 25~50%',q3:'상위 50~75%',q4:'하위 25%'}[qcl]||'');
         var posadv = (v.if2==null)? 'SJR 위상 <b>'+jTier(v.sjr)+'</b>('+esc(q)+') 기준으로 접근하세요.'
           : below ? '회귀선 <b>아래</b>(인용 대비 권위 낮은 편) — <b>최상위 저널의 인용</b>을 끌 만한 참신한 주제·정교함이 관건.'
                   : '회귀선 <b>위</b>(인용 대비 권위 높은 편) — 정통 저널. 파급력 큰 주제로 확장 여지.';
-        var pt = note.attack ? (esc(note.attack)+' <span class="qd-mut">분위 '+esc(q)+'('+qtxt+') · '+(below?'회귀선 아래':'회귀선 위')+'.</span>')
+        var pt = note.attack ? (_note(note.attack)+' <span class="qd-mut">분위 '+esc(q)+'('+qtxt+') · '+(below?'회귀선 아래':'회귀선 위')+'.</span>')
           : ((t3? '<b>노려볼 주제</b>: '+esc(t3.slice(0,3).join(', '))+' 계열에 맞닿은 기여가 유리. ' : '')+'<b>방법</b>: '+ma+' '+posadv+' 분위 <b>'+esc(q)+'</b>('+qtxt+').');
         // 썸네일: ①Elsevier/ScienceDirect는 ISSN으로 실제 표지(ars.els-cdn) ②그 외는 출판사 로고(파비콘) ③실패 시 약칭 타일
         var _host=''; try{ _host=new URL(v.link).hostname.replace(/^www\./,''); }catch(e){}
@@ -693,12 +695,12 @@ permalink: /articles/
         var note=vnotes[v.label]||{};
         var t3line=t3?' <span class="qd-mut">· 최근 3년 데이터상 활발 주제: '+esc(t3.join(' · '))+'.</span>':'';
         var strong=(crk==='A*'||crk==='A');
-        var intro = note.intro ? (esc(note.intro)+' <span class="qd-mut">CS에선 학회가 곧 최상위 저널 — CORE '+esc(crk||'—')+', h·i10으로 위상을 봅니다.</span>')
+        var intro = note.intro ? (_note(note.intro)+' <span class="qd-mut">CS에선 학회가 곧 최상위 저널 — CORE '+esc(crk||'—')+', h·i10으로 위상을 봅니다.</span>')
           : (esc(v.name||v.label)+' — <b>AI 학회</b>.'+(v.founded?' <b>'+esc(v.founded)+'년 시작.</b>':'')+(v.about?' '+esc(v.about):'')
           +' <span class="qd-mut">CS에선 학회가 곧 최상위 저널 — Q1~Q4 대신 CORE 등급·h·i10으로 봅니다. CORE '+esc(crk||'—')+' = '+(_CRW[crk]||'등급 정보 없음')+'.</span>');
-        var dir = note.direction ? (esc(note.direction)+t3line)
+        var dir = note.direction ? (_note(note.direction)+t3line)
           : (t3 ? '<b>최근 3년 활발 주제</b>: '+esc(t3.join(' · '))+'. 최근 채택(발표)이 활발한 흐름입니다.' : '최근 주제 데이터가 없어 CORE 등급·h/i10 기준으로 읽으세요.');
-        var pt = note.attack ? (esc(note.attack)+' <span class="qd-mut">(A* 학회 논문 ≈ 저널 Q1 이상)</span>')
+        var pt = note.attack ? (_note(note.attack)+' <span class="qd-mut">(A* 학회 논문 ≈ 저널 Q1 이상)</span>')
           : ((t3?'<b>노려볼 주제</b>: '+esc(t3.slice(0,3).join(', '))+' 계열. ':'')
           +'<b>방법</b>: '+(strong?'SOTA 대비 <b>명확한 성능 개선</b> + 철저한 <b>ablation</b> + <b>재현 가능한 공개(코드·데이터)</b>가 사실상 필수. 참신성과 벤치마크 설득력이 핵심.':'견고한 실험 설계·재현성을 갖추면 게재 가능성이 높습니다.')
           +' <span class="qd-mut">(A* 학회 논문 ≈ 저널 Q1 이상 수준)</span>');
