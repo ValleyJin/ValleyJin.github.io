@@ -11,6 +11,9 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Domain Adaptation and Few-Shot Learning"
+      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -24,6 +27,9 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Domain Adaptation and Few-Shot Learning"
+      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -37,6 +43,9 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
+      "topics3y": [
+        "3D Shape Modeling and Analysis"
+      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -63,6 +72,9 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Topic Modeling"
+      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -76,6 +88,9 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Logic, programming, and type systems"
+      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -175,6 +190,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Global trade and economics"
+      ],
       "group": "AI"
     },
     "TPAMI": {
@@ -212,6 +230,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Domain Adaptation and Few-Shot Learning"
+      ],
       "group": "AI"
     },
     "AIJ": {
@@ -237,6 +258,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Logic, Reasoning, and Knowledge"
+      ],
       "group": "AI"
     },
     "JAIR": {
@@ -257,6 +281,9 @@
           "Artificial Intelligence",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Explainable Artificial Intelligence (XAI)"
       ],
       "group": "AI"
     },
@@ -287,6 +314,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Sustainability and Climate Change Governance"
+      ],
       "group": "Futures Studies"
     },
     "TFSC": {
@@ -315,6 +345,9 @@
           "Management of Technology and Innovation",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Energy, Environment, Economic Growth"
       ],
       "group": "Futures Studies"
     },
@@ -345,6 +378,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
+      ],
       "group": "Accounting"
     },
     "JAE": {
@@ -373,6 +409,9 @@
           "Finance",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
       ],
       "group": "Accounting"
     },
@@ -403,6 +442,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
+      ],
       "group": "Accounting"
     },
     "CAR": {
@@ -432,6 +474,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
+      ],
       "group": "Accounting"
     },
     "RAST": {
@@ -456,6 +501,9 @@
           "Business, Management and Accounting (miscellaneous)",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
       ],
       "group": "Accounting"
     },
@@ -486,6 +534,9 @@
           "Q2"
         ]
       ],
+      "topics3y": [
+        "Sustainability and Climate Change Governance"
+      ],
       "group": "Futures Studies"
     },
     "JFS": {
@@ -515,6 +566,9 @@
           "Q2"
         ]
       ],
+      "topics3y": [
+        "Space Science and Extraterrestrial Life"
+      ],
       "group": "Futures Studies"
     },
     "TASM": {
@@ -540,6 +594,9 @@
           "Q2"
         ]
       ],
+      "topics3y": [
+        "Innovation and Knowledge Management"
+      ],
       "group": "Futures Studies"
     },
     "SMJ": {
@@ -564,6 +621,9 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management"
       ],
       "group": "Strategy"
     },
@@ -593,6 +653,9 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management"
       ],
       "group": "Strategy"
     },
@@ -627,6 +690,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies"
+      ],
       "group": "Strategy"
     },
     "SO": {
@@ -659,6 +725,9 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies"
       ],
       "group": "Strategy"
     },
@@ -693,6 +762,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies"
+      ],
       "group": "Strategy"
     },
     "AMR": {
@@ -722,6 +794,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies"
+      ],
       "group": "Strategy"
     },
     "JoM": {
@@ -746,6 +821,9 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Job Satisfaction and Organizational Behavior"
       ],
       "group": "Strategy"
     },
@@ -776,6 +854,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies"
+      ],
       "group": "Strategy"
     },
     "MgmtSci": {
@@ -800,6 +881,9 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Financial Markets and Investment Strategies"
       ],
       "group": "Strategy"
     },
@@ -830,6 +914,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies"
+      ],
       "group": "Strategy"
     },
     "OrgStud": {
@@ -858,6 +945,9 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies"
       ],
       "group": "Strategy"
     },
@@ -892,6 +982,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Job Satisfaction and Organizational Behavior"
+      ],
       "group": "Strategy"
     },
     "ResPol": {
@@ -924,6 +1017,9 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management"
       ],
       "group": "Strategy"
     },
@@ -962,6 +1058,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "International Business and FDI"
+      ],
       "group": "Strategy"
     },
     "AOS": {
@@ -999,6 +1098,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
+      ],
       "group": "Accounting"
     },
     "AJPT": {
@@ -1027,6 +1129,9 @@
           "Finance",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
       ],
       "group": "Accounting"
     },
@@ -1085,6 +1190,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
+      ],
       "group": "Accounting"
     },
     "CPA": {
@@ -1118,6 +1226,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Accounting and Organizational Management"
+      ],
       "group": "Accounting"
     },
     "AiE": {
@@ -1147,6 +1258,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
+      ],
       "group": "Accounting"
     },
     "SAMPJ": {
@@ -1175,6 +1289,9 @@
           "Renewable Energy, Sustainability and the Environment",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Corporate Social Responsibility Reporting"
       ],
       "group": "Accounting"
     },
@@ -1209,6 +1326,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance"
+      ],
       "group": "Accounting"
     },
     "BAR": {
@@ -1229,6 +1349,9 @@
           "Accounting",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Corporate Finance and Governance"
       ],
       "group": "Accounting"
     },
@@ -1259,6 +1382,9 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Accounting and Organizational Management"
+      ],
       "group": "Accounting"
     },
     "AAAJ": {
@@ -1283,6 +1409,9 @@
           "Economics, Econometrics and Finance (miscellaneous)",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Accounting and Organizational Management"
       ],
       "group": "Accounting"
     }
