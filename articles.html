@@ -311,6 +311,16 @@ permalink: /articles/
   <script type="application/json" id="scholars-data">{{ site.data.scholars.scholars | jsonify }}</script>
   <script type="application/json" id="venues-data">{{ site.data.venues | jsonify }}</script>
   <script>
+    /* 공유 가능한 딥링크: 탭·토픽·날짜를 URL 해시에 인코딩(#tab=topics&topic=SMJ&date=…) */
+    window.AState=(function(){
+      function P(){ try{ return new URLSearchParams((location.hash||'').replace(/^#/,'')); }catch(e){ return new URLSearchParams(); } }
+      return {
+        get:function(k){ return P().get(k); },
+        set:function(o){ try{ var p=P(); Object.keys(o).forEach(function(k){ var v=o[k]; if(v==null||v===''){ p.delete(k); } else { p.set(k,String(v)); } }); var s=p.toString(); history.replaceState(null,'', s?('#'+s):location.pathname); }catch(e){} }
+      };
+    })();
+  </script>
+  <script>
     /* Metrics 탭: 저널(SJR×IF) / 학회(h-index×i10, 크기=논문수) 2D 지형도 */
     (function(){
       var el=document.getElementById('qmap'); if(!el) return;
@@ -507,6 +517,7 @@ permalink: /articles/
           if(tp===st.topic && vinfo[tp]){ viOpen=!viOpen; renderVenueInfo(); return; }   // 같은 학회/저널 재클릭 → 드롭다운 토글
           setMode('topics');
           st.topic=tp; viOpen=true;
+          AState.set({topic: tp==='All'?null:tp});   // 선택 토픽을 URL에 반영(공유용)
           var fd=filtered().map(function(p){return p.date;}).sort();   // 새 토픽에 선택일 논문이 없으면 그 토픽 최신일로
           if(fd.length && filtered().every(function(p){return p.date!==st.sel;})){ st.sel=fd[fd.length-1]; cm=st.sel.split('-'); cur=new Date(+cm[0], +cm[1]-1, 1); }
           renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM(); renderVenueInfo();
@@ -543,7 +554,7 @@ permalink: /articles/
           var c=document.createElement(ps?'button':'span');
           c.className='tcal-cell'+(ps?' has':'')+(op>0?' newday':'')+(key===st.sel?' sel':'')+(key===todayKST?' today':'');
           c.innerHTML='<span class="d">'+day+'</span>'+(ps?'<span class="n">'+ps.length+'</span>':'')+(op>0?newFlag('newday-flag',op):'');
-          if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ st.sel=k; renderCal(); renderList(); };})(key)); }
+          if(ps){ c.type='button'; c.addEventListener('click',(function(k){return function(){ st.sel=k; AState.set({date:k}); renderCal(); renderList(); };})(key)); }
           grid.appendChild(c);
         }
       }
@@ -657,6 +668,9 @@ permalink: /articles/
       }
 
       renderStabs(); renderScal(); renderKinds(); renderSections();
+      // URL 해시에서 토픽·날짜 복원(공유 딥링크)
+      var _ut=AState.get('topic'); if(_ut && topicList.indexOf(_ut)>=0){ st.topic=_ut; }
+      var _ud=AState.get('date'); if(_ud && /^\d{4}-\d{2}-\d{2}$/.test(_ud)){ st.sel=_ud; var _uc=_ud.split('-'); cur=new Date(+_uc[0], +_uc[1]-1, 1); }
       renderTabs(); renderCal(); renderList(); renderMostCited(); renderEM(); renderVenueInfo();
       setMode('topics');
     })();
@@ -670,11 +684,12 @@ permalink: /articles/
         if(!panes[name]) name='pubs';
         Object.keys(panes).forEach(function(k){ if(panes[k]) panes[k].hidden=(k!==name); });
         tabs.forEach(function(b){var on=b.dataset.pane===name;b.classList.toggle('is-active',on);b.setAttribute('aria-selected',on);});
-        try{history.replaceState(null,'',name==='pubs'?location.pathname:'#'+name);}catch(e){}
+        window.AState.set({tab:name==='pubs'?null:name});
       }
       tabs.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.pane);});});
-      var h=(location.hash||'').replace('#','');
-      if(h==='topics'||h==='scholars'||h==='metrics') show(h);
+      var h=(location.hash||'').replace(/^#/,'');
+      var t=window.AState.get('tab') || (h.indexOf('=')<0?h:'');   // 신규 #tab=… + 레거시 #topics 둘 다 지원
+      if(t==='topics'||t==='scholars'||t==='metrics') show(t);
     })();
   </script>
 </div>
