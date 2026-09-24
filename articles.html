@@ -622,7 +622,7 @@ permalink: /articles/
           below:(reg && excl.indexOf(v.label)<0 && v.sjr < reg.a*ify+reg.b),   // 회귀선 아래(질 낮음) → 라벨 아래로
           title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')+' · 논문 '+(v.works||'')}; });
         // 등축(equal-unit): 두 축 눈금 단위를 동일하게 → 박스 가로세로비 = 데이터 범위비(IF범위/SJR범위, 축여백 보정). IF범위가 넓어 자연히 가로로 김.
-        var _asp=Math.max(1.15, Math.min(2.6, (jMax/(sMax||1))*(80/85)));
+        var _asp = jr.length ? Math.max(1.15, Math.min(2.6, (jMax/(sMax||1))*(80/85))) : 16/9;   // 선택 없음(데이터 0) → 16:9
         h+=plot({pts:jpts,xMax:jMax,yMax:sMax,view:jVR,axX:'IF 2yr →',axY:'SJR ↑',reg:reg,aspect:_asp});   // X=IF, Y=SJR
         if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b), st=pstars(reg.p),
             pstr=(reg.p==null)?'':(reg.p<0.001?'p < 0.001':'p = '+reg.p.toFixed(3)), nsig=(reg.p!=null&&!st);
