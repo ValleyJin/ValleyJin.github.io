@@ -296,9 +296,9 @@ permalink: /articles/
           s+='<svg class="qreg" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="'+px(0).toFixed(2)+'" y1="'+(100-py(y0)).toFixed(2)+'" x2="'+px(cfg.xMax).toFixed(2)+'" y2="'+(100-py(yM)).toFixed(2)+'"/></svg>'; }
         s+='<span class="qax-y mono">'+esc(cfg.axY)+'</span><span class="qax-x mono">'+esc(cfg.axX)+'</span>';
         cfg.pts.forEach(function(p){
-          var sz=p.r?' style="left:'+px(p.x).toFixed(2)+'%;bottom:'+py(p.y).toFixed(2)+'%"':' style="left:'+px(p.x).toFixed(2)+'%;bottom:'+py(p.y).toFixed(2)+'%"';
+          var xp=px(p.x), yp=py(p.y), edge=xp>70?' qd-r':(xp<13?' qd-l':'');   // 끝점 라벨 방향
           var ptSty=p.r?' style="width:'+p.r+'px;height:'+p.r+'px"':'';
-          s+='<a class="qdot '+p.cls+(p.out?' is-out':'')+'" href="'+esc(p.link||'#')+'" target="_blank" rel="noopener"'+sz+' title="'+esc(p.title)+'"><span class="qdot-pt"'+ptSty+'></span><span class="qdot-lab mono"><b>'+esc(p.label)+(p.out?'<span class="qdot-ast">*</span>':'')+'</b> <span class="qdot-n">'+esc(p.num)+'</span></span></a>';
+          s+='<a class="qdot '+p.cls+edge+(p.out?' is-out':'')+'" href="'+esc(p.link||'#')+'" target="_blank" rel="noopener" style="left:'+xp.toFixed(2)+'%;bottom:'+yp.toFixed(2)+'%" title="'+esc(p.title)+'"><span class="qdot-pt"'+ptSty+'></span><span class="qdot-lab mono"><b>'+esc(p.label)+(p.out?'<span class="qdot-ast">*</span>':'')+'</b> <span class="qdot-n">'+esc(p.num)+'</span></span></a>';
         });
         return s+'</div>';
       }
