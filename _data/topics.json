@@ -1044,6 +1044,383 @@
         }
       ],
       "count": 178
+    },
+    {
+      "topic": "FFS",
+      "query": "venue:S4210196554",
+      "papers": [
+        {
+          "title": "Quality indicators for Delphi studies",
+          "authors": "Rodríguez, J. L., & Lertxundi, A. L.",
+          "year": 2023,
+          "venue": "Futures & Foresight Science",
+          "url": "https://doi.org/10.1002/ffo2.172",
+          "cites": 61,
+          "fwci": 27.96,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 0.74
+        },
+        {
+          "title": "Integrating system dynamics and scenarios: A framework based on personal experience",
+          "authors": "Kunc, M. H.",
+          "year": 2023,
+          "venue": "Futures & Foresight Science",
+          "url": "https://doi.org/10.1002/ffo2.174",
+          "cites": 15,
+          "fwci": 2.8,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.74
+        },
+        {
+          "title": "Exploring Pathways for Change: A Practice‐Oriented Integration of Foresight and Sustainability Transitions",
+          "authors": "Persson, B. M., Andersson, J., & Forsberg, P.",
+          "year": 2025,
+          "venue": "Futures & Foresight Science",
+          "url": "https://doi.org/10.1002/ffo2.209",
+          "cites": 12,
+          "fwci": 5.62,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.74
+        },
+        {
+          "title": "Horizon Scanning Methods for Identification of New and Repurposed Medicines for Stakeholders in the United Kingdom",
+          "authors": "Khan, S. K., Fairbairn, R., Potter, R., Hussain, A., Inskip, A., & Norman, G.",
+          "year": 2025,
+          "venue": "Futures & Foresight Science",
+          "url": "https://doi.org/10.1002/ffo2.210",
+          "cites": 10,
+          "fwci": 13.1,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.74
+        }
+      ],
+      "count": 84
+    },
+    {
+      "topic": "JFS",
+      "query": "venue:S180232897",
+      "papers": [
+        {
+          "title": "The complex futures of emerging technologies: Challenges and opportunities for science foresight and governance in Australia",
+          "authors": "Alford, K., Keenihan, S. H., & McGrail, S.",
+          "year": 2024,
+          "venue": "Swinburne figshare (Swinburne University of Technology)",
+          "url": "https://doi.org/10.25916/sut.26222393",
+          "cites": 49,
+          "fwci": 0.22,
+          "nr": "na"
+        },
+        {
+          "title": "Macro-perspectives beyond the world system",
+          "authors": "Voros, J.",
+          "year": 2024,
+          "venue": "Swinburne figshare (Swinburne University of Technology)",
+          "url": "https://doi.org/10.25916/sut.26244803",
+          "cites": 9,
+          "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "An integral approach to scenarios",
+          "authors": "Hayward, P., & Morrow, R.",
+          "year": 2024,
+          "venue": "Swinburne figshare (Swinburne University of Technology)",
+          "url": "https://doi.org/10.25916/sut.26222543",
+          "cites": 3,
+          "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "Towards an 'integral' view of entrepreneurship",
+          "authors": "Voros, J.",
+          "year": 2024,
+          "venue": "Swinburne figshare (Swinburne University of Technology)",
+          "url": "https://doi.org/10.25916/sut.26244800",
+          "cites": 2,
+          "fwci": 0.0,
+          "nr": "na"
+        }
+      ],
+      "count": 7
+    },
+    {
+      "topic": "TASM",
+      "query": "venue:S130699561",
+      "papers": [
+        {
+          "title": "Unlocking the ESG value of sustainable investments in cryptocurrency: a bibliometric review of research trends",
+          "authors": "Qudah, H. A., Malahim, S. S., Airout, R. M., AlQudah, M. Z., Al-Zoubi, W. K., Huson, Y. A., et al.",
+          "year": 2024,
+          "venue": "Technology Analysis and Strategic Management",
+          "url": "https://doi.org/10.1080/09537325.2024.2308631",
+          "cites": 54,
+          "fwci": 34.66,
+          "pct": 1,
+          "q": "Q2",
+          "sjr": 0.82
+        },
+        {
+          "title": "Artificial intelligence and sustainable performance: role of organisational agility and environmental dynamism",
+          "authors": "Khan, A. N.",
+          "year": 2023,
+          "venue": "Technology Analysis and Strategic Management",
+          "url": "https://doi.org/10.1080/09537325.2023.2290171",
+          "cites": 51,
+          "fwci": 16.24,
+          "pct": 1,
+          "q": "Q2",
+          "sjr": 0.82
+        },
+        {
+          "title": "Does CEO information technology background promote substantive green innovation or strategic green innovation?",
+          "authors": "Su, Y., Liu, Z., & Liang, S.",
+          "year": 2023,
+          "venue": "Technology Analysis and Strategic Management",
+          "url": "https://doi.org/10.1080/09537325.2023.2289393",
+          "cites": 40,
+          "fwci": 7.15,
+          "pct": 10,
+          "q": "Q2",
+          "sjr": 0.82
+        },
+        {
+          "title": "The evolution of China’s wind power industry innovation network from the perspective of multidimensional proximity",
+          "authors": "Li, Y., Qian, K., Wang, Z., & Xu, A.",
+          "year": 2024,
+          "venue": "Technology Analysis and Strategic Management",
+          "url": "https://doi.org/10.1080/09537325.2024.2405145",
+          "cites": 39,
+          "fwci": 30.18,
+          "pct": 1,
+          "q": "Q2",
+          "sjr": 0.82
+        }
+      ],
+      "count": 694
+    },
+    {
+      "topic": "SMJ",
+      "query": "venue:S102949365",
+      "papers": [
+        {
+          "title": "Generative artificial intelligence and evaluating strategic decisions",
+          "authors": "Doshi, A. R., Bell, J. J., Mirzayev, E., & Vanneste, B. S.",
+          "year": 2024,
+          "venue": "Strategic Management Journal",
+          "url": "https://doi.org/10.1002/smj.3677",
+          "cites": 189,
+          "fwci": 73.52,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.15
+        },
+        {
+          "title": "Physical climate change exposure and firms' adaptation strategy",
+          "authors": "Li, X.",
+          "year": 2024,
+          "venue": "Strategic Management Journal",
+          "url": "https://doi.org/10.1002/smj.3674",
+          "cites": 97,
+          "fwci": 29.51,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.15
+        },
+        {
+          "title": "A scientific approach to entrepreneurial decision‐making: Large‐scale replication and extension",
+          "authors": "Camuffo, A., Gambardella, A., Messinese, D., Novelli, E., Paolucci, E., & Spina, C.",
+          "year": 2024,
+          "venue": "Strategic Management Journal",
+          "url": "https://doi.org/10.1002/smj.3580",
+          "cites": 81,
+          "fwci": 37.96,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.15
+        },
+        {
+          "title": "Geopolitical volatility and subsidiary investments",
+          "authors": "Adarkwah, G. K., Dorobantu, S., Sabel, C. A., & Zilja, F.",
+          "year": 2024,
+          "venue": "Strategic Management Journal",
+          "url": "https://doi.org/10.1002/smj.3631",
+          "cites": 68,
+          "fwci": 26.59,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.15
+        }
+      ],
+      "count": 286
+    },
+    {
+      "topic": "LRP",
+      "query": "venue:S9435936",
+      "papers": [
+        {
+          "title": "Strategic design of culture for digital transformation",
+          "authors": "Butt, A., Imran, F., Helo, P., & Kantola, J.",
+          "year": 2024,
+          "venue": "Long Range Planning",
+          "url": "https://doi.org/10.1016/j.lrp.2024.102415",
+          "cites": 120,
+          "fwci": 58.46,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 2.81
+        },
+        {
+          "title": "The impact of digitalization on internationalization from an internalization theory lens",
+          "authors": "Drori, N., Alessandri, T. M., Bart, Y., & Herstein, R.",
+          "year": 2023,
+          "venue": "Long Range Planning",
+          "url": "https://doi.org/10.1016/j.lrp.2023.102395",
+          "cites": 54,
+          "fwci": 11.89,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.81
+        },
+        {
+          "title": "Enhancing digital transformation in SMEs: The dynamic capabilities of innovation intermediaries within ecosystems",
+          "authors": "Hafeez, S., Shahzad, K., & Silva, M. D.",
+          "year": 2025,
+          "venue": "Long Range Planning",
+          "url": "https://doi.org/10.1016/j.lrp.2025.102525",
+          "cites": 51,
+          "fwci": 52.33,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 2.81
+        },
+        {
+          "title": "The micro-foundations of ambidexterity for corporate social performance: A study on sustainability managers’ response to conflicting goals",
+          "authors": "Annosi, M. C., Mattarelli, E., Dentoni, D., & Petruzzelli, A. M.",
+          "year": 2024,
+          "venue": "Long Range Planning",
+          "url": "https://doi.org/10.1016/j.lrp.2023.102412",
+          "cites": 48,
+          "fwci": 23.26,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 2.81
+        }
+      ],
+      "count": 140
+    },
+    {
+      "topic": "AMJ",
+      "query": "venue:S117778295",
+      "papers": [
+        {
+          "title": "From Scarcity to Abundance: Scholars and Scholarship in an Age of Generative Artificial Intelligence",
+          "authors": "Grimes, M. G., Krogh, G. V., Feuerriegel, S., Rink, F. A., & Gruber, M. B.",
+          "year": 2023,
+          "venue": "Academy of Management Journal",
+          "url": "https://doi.org/10.5465/amj.2023.4006",
+          "cites": 171,
+          "fwci": 4.73,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 10.78
+        },
+        {
+          "title": "Collaborating on the Edge of Failure: Frame Alignment across Multiple Interaction Arenas in Multi-Stakeholder Partnerships",
+          "authors": "Grimm, J., & Reinecke, J.",
+          "year": 2023,
+          "venue": "Academy of Management Journal",
+          "url": "https://doi.org/10.5465/amj.2021.0466",
+          "cites": 59,
+          "fwci": 15.72,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.78
+        },
+        {
+          "title": "Bricks without Straw: Overcoming Resource Limitations to Architect Ecosystem Leadership",
+          "authors": "Shi, X., Liang, X., & Ansari, S. S.",
+          "year": 2024,
+          "venue": "Academy of Management Journal",
+          "url": "https://doi.org/10.5465/amj.2021.1440",
+          "cites": 53,
+          "fwci": 20.62,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.78
+        },
+        {
+          "title": "Making a Theoretical Contribution with Qualitative Research",
+          "authors": "Rouse, E. D., Reinecke, J., Ravasi, D., Langley, A., Grimes, M. G., & Gruber, M. B.",
+          "year": 2025,
+          "venue": "Academy of Management Journal",
+          "url": "https://doi.org/10.5465/amj.2025.4002",
+          "cites": 44,
+          "fwci": 39.38,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.78
+        }
+      ],
+      "count": 170
+    },
+    {
+      "topic": "SO",
+      "query": "venue:S11394615",
+      "papers": [
+        {
+          "title": "Research frontiers on the attention-based view of the firm",
+          "authors": "Joseph, J., Martinez, D. L., Nigam, A., Ocasio, W. C., & Rerup, C.",
+          "year": 2024,
+          "venue": "Strategic Organization",
+          "url": "https://doi.org/10.1177/14761270231223397",
+          "cites": 59,
+          "fwci": 28.52,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.36
+        },
+        {
+          "title": "Institutional entrepreneurship and digital transformation: The role of outsider CEOs",
+          "authors": "Firk, S., Hennig, J. C., Meier, J., & Wolff, M. A.",
+          "year": 2024,
+          "venue": "Strategic Organization",
+          "url": "https://doi.org/10.1177/14761270241242905",
+          "cites": 32,
+          "fwci": 15.57,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.36
+        },
+        {
+          "title": "From impact to impacting: A pragmatist perspective on tackling grand challenges",
+          "authors": "Wegener, F. E., Lee, J. Y., Barbosa, A. M., Sharma, G., & Bansal, P.",
+          "year": 2024,
+          "venue": "Strategic Organization",
+          "url": "https://doi.org/10.1177/14761270241238915",
+          "cites": 20,
+          "fwci": 6.37,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 4.36
+        },
+        {
+          "title": "Generative AI and the social fabric of organizations",
+          "authors": "Baygi, R. M., & Huysman, M.",
+          "year": 2025,
+          "venue": "Strategic Organization",
+          "url": "https://doi.org/10.1177/14761270251385456",
+          "cites": 10,
+          "fwci": 12.89,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 4.36
+        }
+      ],
+      "count": 93
     }
   ]
 }
