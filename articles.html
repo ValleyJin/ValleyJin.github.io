@@ -389,7 +389,7 @@ permalink: /articles/
           var edge=xp>70?' qd-r':(xp<13?' qd-l':'');
           if(p.below) edge+=' qd-below';
           var ptSty=p.r?' style="width:'+p.r+'px;height:'+p.r+'px"':'';
-          s+='<a class="qdot '+p.cls+edge+(p.out?' is-out':'')+'" href="'+esc(p.link||'#')+'" target="_blank" rel="noopener" data-lab="'+esc(p.label)+'" style="left:'+xp.toFixed(2)+'%;bottom:'+yp.toFixed(2)+'%" title="'+esc(p.title)+'"><span class="qdot-pt"'+ptSty+'></span><span class="qdot-lab mono"><b>'+esc(p.label)+(p.out?'<span class="qdot-ast">*</span>':'')+'</b> <span class="qdot-n">'+esc(p.num)+'</span></span></a>';
+          s+='<a class="qdot '+p.cls+edge+(p.out?' is-out':'')+(p.hl?' is-hl':'')+(p.isnew?' is-new':'')+'" href="'+esc(p.link||'#')+'" target="_blank" rel="noopener" data-lab="'+esc(p.label)+'" style="left:'+xp.toFixed(2)+'%;bottom:'+yp.toFixed(2)+'%" title="'+esc(p.title)+'"><span class="qdot-pt"'+ptSty+'></span><span class="qdot-lab mono"><b>'+esc(p.label)+(p.out?'<span class="qdot-ast">*</span>':'')+'</b> <span class="qdot-n">'+esc(p.num)+'</span></span></a>';
         });
         return s+'</div>';
       }
@@ -403,8 +403,9 @@ permalink: /articles/
       var qsel={Q1:true,Q2:true,Q3:true,Q4:true};                  // 분위 필터(색 범례 클릭 토글)
       var jVR=null, jFullX=1, jFullY=1;                            // 확대 범위(데이터-줌); null=전체
       var jLastReg=null;                                           // 현재 회귀선(상세 패널 포지셔닝용)
+      var jHL=null;                                                // 검색 강조 대상 라벨
       function buildJ(keepView){
-        var jr=journals.filter(function(v){return v.sjr!=null && jsel[v.group] && qsel[String(v.q||'Q1').toUpperCase()];});
+        var jr=journals.filter(function(v){return v.sjr!=null && (v.__new || (jsel[v.group] && qsel[String(v.q||'Q1').toUpperCase()]));});
         var sMax=Math.max.apply(null,jr.map(function(v){return v.sjr;}).concat([0.1]));
         var jMax=Math.max.apply(null,jr.map(function(v){return v.if2!=null?v.if2:0;}).concat([0.1]));
         var rp=jr.filter(function(v){return v.if2!=null;}), reg=null, excl=[];
@@ -429,6 +430,7 @@ permalink: /articles/
         h+='<div class="qhint mono">점 크기 = 논문 수 · 점 클릭 = 상세 · 휠·핀치 확대, 확대 후 드래그로 이동, 더블클릭 리셋</div>';
         var jpts=jr.map(function(v){ var ify=(v.if2!=null?v.if2:0); return {x:ify,y:v.sjr,label:v.label,link:v.link,
           cls:String(v.q||'q1').toLowerCase(), r:bub(v.works,jwMax), num:(v.if2!=null?v.if2:'–')+'/'+v.sjr, out:excl.indexOf(v.label)>=0,   // IF/SJR(축 순서)
+          hl:(jHL!=null && v.label===jHL), isnew:!!v.__new,
           below:(reg && excl.indexOf(v.label)<0 && v.sjr < reg.a*ify+reg.b),   // 회귀선 아래(질 낮음) → 라벨 아래로
           title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')+' · 논문 '+(v.works||'')}; });
         h+=plot({pts:jpts,xMax:jMax,yMax:sMax,view:jVR,axX:'IF 2yr →',axY:'SJR ↑',reg:reg});   // X=IF, Y=SJR
@@ -454,7 +456,10 @@ permalink: /articles/
       }
 
       /* ── 서브탭 조립 ── */
-      var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">학회</button><span class="qtab-note mono" id="qcnote" hidden>AI conferences</span>':'')+'</div>';
+      var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">학회</button><span class="qtab-note mono" id="qcnote" hidden>AI conferences</span>':'')
+        +'<form class="qsearch" id="qsearch" role="search"><svg class="qsearch-ic" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>'
+        +'<input id="qsearch-in" type="search" autocomplete="off" placeholder="저널 검색 후 Enter"><span class="qsearch-msg mono" id="qsearch-msg"></span></form>'
+        +'</div>';
       el.innerHTML=tabs+'<div class="qview" data-v="j">'+jHtml+'</div>'+(confs.length?'<div class="qview" data-v="c" hidden>'+cHtml+'</div>':'')+'<div class="qdetail" id="jdetail" hidden></div>';
       el.hidden=false;
       var btns=[].slice.call(el.querySelectorAll('.qtab')), views=[].slice.call(el.querySelectorAll('.qview')), cnote=el.querySelector('#qcnote');
@@ -517,6 +522,45 @@ permalink: /articles/
           renderJDetail(jByLabel[dot.getAttribute('data-lab')]); } }); }
       if(jdet){ jdet.addEventListener('click',function(e){ if(e.target.closest('.qd-x')){ jdet.hidden=true; jdet.className='qdetail'; } }); }
 
+      /* 검색: Enter 시 저널을 찾아 강조. 현재 필터에 가려졌으면 그 분야·분위를 켜서 드러냄.
+         로드된 데이터에 없으면 외부 SCImago 인덱스(scimago_search.json)에서 찾아 새 점을 생성. */
+      var qsForm=el.querySelector('#qsearch'), qsIn=el.querySelector('#qsearch-in'), qsMsg=el.querySelector('#qsearch-msg');
+      function _nrm(s){ return String(s==null?'':s).toLowerCase().replace(/[^a-z0-9가-힣]/g,''); }
+      function _findLoaded(q){ var hit=null;
+        journals.forEach(function(v){ if(hit||v.sjr==null) return; if(_nrm(v.label)===q||_nrm(v.name)===q) hit=v; });
+        if(!hit) journals.forEach(function(v){ if(hit||v.sjr==null) return; if(_nrm(v.label).indexOf(q)>=0||_nrm(v.name).indexOf(q)>=0) hit=v; });
+        return hit; }
+      function _showJTab(){ var jt=el.querySelector('.qtab[data-v="j"]'); if(jt&&!jt.classList.contains('is-on')) jt.click(); }
+      function _setMsg(t,cls){ if(qsMsg){ qsMsg.textContent=t||''; qsMsg.className='qsearch-msg mono'+(cls?' '+cls:''); } }
+      function _highlight(v){ jsel[v.group]=true; qsel[String(v.q||'Q1').toUpperCase()]=true; jHL=v.label; jVR=null; _showJTab(); jview.innerHTML=buildJ(); }
+      var _scidx=null;
+      function _extSearch(q,qraw){
+        function go(){ var hit=null; (_scidx||[]).forEach(function(v){ if(hit) return; if(_nrm(v.label)===q||_nrm(v.name)===q) hit=v; });
+          if(!hit) (_scidx||[]).forEach(function(v){ if(hit) return; if(_nrm(v.name).indexOf(q)>=0) hit=v; });
+          if(!hit){ _setMsg('"'+qraw+'" 찾을 수 없음','no'); return; }
+          // 이미 로드된 것과 중복이면 그걸 강조
+          var dup=_findLoaded(_nrm(hit.label))||_findLoaded(_nrm(hit.name)); if(dup){ _highlight(dup); _setMsg(dup.label+' 강조','ok'); return; }
+          for(var i=journals.length-1;i>=0;i--){ if(journals[i].__new) journals.splice(i,1); }   // 이전 검색 점 제거
+          var nv={label:hit.label,name:hit.name,group:'검색 결과',q:hit.q,sjr:hit.sjr,if2:(hit.if2!=null?hit.if2:null),
+            works:hit.works||0,cats:hit.cat?[[hit.cat,hit.q]]:[],
+            link:'https://www.scimagojr.com/journalsearch.php?q='+encodeURIComponent(hit.name),type:'journal',__new:true};
+          journals.push(nv); jByLabel[nv.label]=nv;
+          jHL=nv.label; jVR=null; _showJTab(); jview.innerHTML=buildJ();   // 필터 우회(항상 표시)+강조
+          _setMsg(nv.label+' 새 점 추가','ok'); }
+        if(_scidx){ go(); return; }
+        _setMsg('SCImago 조회 중…','');
+        fetch('{{ "/assets/data/scimago_search.json" | relative_url }}').then(function(r){ return r.ok?r.json():[]; })
+          .then(function(j){ _scidx=(j&&j.venues)||j||[]; go(); }).catch(function(){ _scidx=[]; _setMsg('외부 조회 실패','no'); });
+      }
+      function doSearch(qraw){
+        var q=_nrm(qraw); if(!q){ jHL=null; jview.innerHTML=buildJ(true); _setMsg(''); return; }
+        var hit=_findLoaded(q);
+        if(hit){ _highlight(hit); _setMsg(hit.label+' 강조','ok'); }
+        else { _extSearch(q,qraw); }
+      }
+      if(qsForm){ qsForm.addEventListener('submit',function(e){ e.preventDefault(); doSearch(qsIn?qsIn.value:''); });
+        if(qsIn) qsIn.addEventListener('input',function(){ if(!qsIn.value){ jHL=null; _setMsg(''); jview.innerHTML=buildJ(true); } }); }
+
       /* 데이터-줌: 커서 지점의 데이터 좌표를 고정한 채 view 범위를 좁혀 재렌더 → 축 고정, 점만 확산(크기 유지). 더블클릭=리셋 */
       function _jplot(t){ return t.closest ? t.closest('.qview[data-v="j"] .qplot') : null; }
       function _dz(cxp, cyp, factor){   // cxp,cyp: 플롯 내 커서 위치(%) (x=왼쪽부터, y=아래부터)
@@ -538,7 +582,7 @@ permalink: /articles/
         jVR={x0:nx0,x1:nx0+w,y0:ny0,y1:ny0+h}; jview.innerHTML=buildJ(true);
       }
       el.addEventListener('wheel',function(e){ var plot=_jplot(e.target); if(!plot) return; e.preventDefault();
-        var r=plot.getBoundingClientRect(); _dz((e.clientX-r.left)/r.width*100, (1-(e.clientY-r.top)/r.height)*100, Math.exp(-e.deltaY*0.0064)); },{passive:false});
+        var r=plot.getBoundingClientRect(); _dz((e.clientX-r.left)/r.width*100, (1-(e.clientY-r.top)/r.height)*100, Math.exp(-e.deltaY*0.0128)); },{passive:false});
       el.addEventListener('dblclick',function(e){ if(!_jplot(e.target)) return; jVR=null; jview.innerHTML=buildJ(); });
       /* 마우스 드래그 팬(확대 상태에서만) */
       var _drag=null;
@@ -555,7 +599,7 @@ permalink: /articles/
           _pn={d:Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY),cx:((a.clientX+b.clientX)/2-r.left)/r.width*100,cy:(1-((a.clientY+b.clientY)/2-r.top)/r.height)*100}; _pan1=null; }
         else if(e.touches.length===1 && _zoomed()){ var t=e.touches[0]; _pan1={x:t.clientX,y:t.clientY,w:r.width,h:r.height}; } },{passive:false});
       el.addEventListener('touchmove',function(e){
-        if(_pn && e.touches.length===2){ e.preventDefault(); var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.cx,_pn.cy,Math.pow(d/_pn.d,4)); _pn.d=d; }
+        if(_pn && e.touches.length===2){ e.preventDefault(); var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.cx,_pn.cy,Math.pow(d/_pn.d,8)); _pn.d=d; }
         else if(_pan1 && e.touches.length===1){ e.preventDefault(); var t=e.touches[0];
           _panBy((t.clientX-_pan1.x)/_pan1.w*100, -(t.clientY-_pan1.y)/_pan1.h*100); _pan1.x=t.clientX; _pan1.y=t.clientY; } },{passive:false});
       el.addEventListener('touchend',function(e){ if(e.touches.length<2) _pn=null; if(e.touches.length<1) _pan1=null; });

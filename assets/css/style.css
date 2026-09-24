@@ -638,7 +638,24 @@ img{max-width:100%;display:block}
 .qgt{position:absolute;bottom:4px;left:3px;font-size:9px;color:var(--muted)}
 
 /* Metrics 서브탭(저널/학회) + 색 범례 + 학회 버블 + outlier 표시 */
-.qtabs{display:flex;gap:6px;margin:2px 0 12px}
+.qtabs{display:flex;gap:6px;margin:2px 0 12px;align-items:center}
+/* 저널 검색 박스(우측 정렬) */
+.qsearch{margin-left:auto;display:flex;align-items:center;gap:7px;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:5px 12px;max-width:300px}
+.qsearch:focus-within{border-color:var(--accent)}
+.qsearch-ic{color:var(--muted);flex:none}
+.qsearch input{border:0;background:none;outline:none;color:var(--ink);font-family:var(--mono);font-size:12.5px;width:150px;min-width:60px}
+.qsearch input::placeholder{color:var(--muted)}
+.qsearch-msg{font-size:10.5px;white-space:nowrap}
+.qsearch-msg.ok{color:var(--accent)}
+.qsearch-msg.no{color:#e2683b}
+@media(max-width:640px){.qtabs{flex-wrap:wrap}.qsearch{margin-left:0;width:100%;max-width:none}.qsearch input{width:100%}}
+/* 검색 강조 점: 펄스 링 + 라벨 항상 표시 */
+.qdot.is-hl{z-index:10!important}
+.qdot.is-hl .qdot-lab{opacity:1!important}
+.qdot.is-hl .qdot-pt{box-shadow:0 0 0 3px var(--bg-elev),0 0 0 5px var(--accent);animation:qhlpulse 1.1s ease-out infinite}
+@keyframes qhlpulse{0%{box-shadow:0 0 0 3px var(--bg-elev),0 0 0 5px var(--accent),0 0 0 5px color-mix(in srgb,var(--accent) 60%,transparent)}100%{box-shadow:0 0 0 3px var(--bg-elev),0 0 0 5px var(--accent),0 0 0 16px transparent}}
+/* 검색으로 새로 생성된 점(외부 SCImago): 점선 테두리로 '신규' 표시 */
+.qdot.is-new .qdot-pt{outline:2px dashed var(--accent);outline-offset:2px}
 .qtab{font-family:var(--mono);font-size:12.5px;padding:5px 15px;border:1px solid var(--line);border-radius:999px;background:var(--bg-elev);color:var(--muted);cursor:pointer;transition:.15s}
 .qtab:hover{color:var(--ink)}
 .qtab.is-on{color:var(--ink);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent)}
