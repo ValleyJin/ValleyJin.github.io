@@ -647,3 +647,6 @@ img{max-width:100%;display:block}
 /* 끝점 라벨 방향 전환(넘침 방지) */
 .qdot.qd-r .qdot-lab{left:auto;right:0;transform:none;text-align:right}
 .qdot.qd-l .qdot-lab{left:0;transform:none}
+
+/* 회귀선 아래 점: 라벨을 점 아래로 */
+.qdot.qd-below .qdot-lab{top:12px;bottom:auto}

@@ -297,6 +297,7 @@ permalink: /articles/
         s+='<span class="qax-y mono">'+esc(cfg.axY)+'</span><span class="qax-x mono">'+esc(cfg.axX)+'</span>';
         cfg.pts.forEach(function(p){
           var xp=px(p.x), yp=py(p.y), edge=xp>70?' qd-r':(xp<13?' qd-l':'');   // 끝점 라벨 방향
+          if(p.below) edge+=' qd-below';   // 회귀선 아래 점 → 라벨을 점 아래로
           var ptSty=p.r?' style="width:'+p.r+'px;height:'+p.r+'px"':'';
           s+='<a class="qdot '+p.cls+edge+(p.out?' is-out':'')+'" href="'+esc(p.link||'#')+'" target="_blank" rel="noopener" style="left:'+xp.toFixed(2)+'%;bottom:'+yp.toFixed(2)+'%" title="'+esc(p.title)+'"><span class="qdot-pt"'+ptSty+'></span><span class="qdot-lab mono"><b>'+esc(p.label)+(p.out?'<span class="qdot-ast">*</span>':'')+'</b> <span class="qdot-n">'+esc(p.num)+'</span></span></a>';
         });
@@ -321,8 +322,9 @@ permalink: /articles/
       }
       var jHtml='<div class="qmap-head mono">저널 · SJR × 2yr IF <span class="qmap-sub">가로=SJR · 세로=2yr 평균 피인용(IF) · 점 색=SCImago 분위</span></div>';
       jHtml+=legend([['q1','Q1'],['q2','Q2'],['q3','Q3'],['q4','Q4']]);
-      var jpts=jr.map(function(v){ return {x:v.sjr,y:(v.if2!=null?v.if2:0),label:v.label,link:v.link,
+      var jpts=jr.map(function(v){ var yy=(v.if2!=null?v.if2:0); return {x:v.sjr,y:yy,label:v.label,link:v.link,
         cls:String(v.q||'q1').toLowerCase(), num:v.sjr+'/'+(v.if2!=null?v.if2:'–'), out:excl.indexOf(v.label)>=0,
+        below:(reg && excl.indexOf(v.label)<0 && yy < reg.a*v.sjr+reg.b),
         title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')}; });
       jHtml+=plot({pts:jpts,xMax:sMax,yMax:jMax,axX:'SJR →',axY:'IF ↑',reg:reg});
       if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b);
