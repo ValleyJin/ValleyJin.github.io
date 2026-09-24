@@ -642,6 +642,7 @@ img{max-width:100%;display:block}
 .qreg-cap .qreg-note{color:var(--muted);font-size:11px}
 .qreg-cap b{font-weight:600}
 .qreg-cap .qsig{color:var(--accent);font-weight:700;font-size:.85em;margin-left:1px}
+.qreg-cap .qreg-w{margin:0 6px 0 4px;padding:1px 6px;border-radius:5px;font-size:10px;color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent)}
 
 /* X축 SJR 눈금 (Q밴드 대체) */
 .qgrid{position:absolute;inset:0;pointer-events:none}
