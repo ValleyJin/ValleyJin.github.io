@@ -338,7 +338,7 @@ img{max-width:100%;display:block}
 .ntab.is-active{color:var(--accent);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--bg-elev))}
 /* 팔로우 학자(구글 스칼라 알림) 필터 행 — 토픽/학회 아래 수평바로 구분 */
 .stabs-wrap{border-top:1px solid var(--line);margin:14px 0 2px;padding-top:14px}
-.stabs-wrap::before{content:"FOLLOWING · SCHOLAR ALERTS";display:block;font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--muted);margin:0 2px 8px}
+.stabs-wrap::before{content:"SCHOLAR ALERTS";display:block;font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--muted);margin:0 2px 8px}
 .stabs{display:flex;flex-wrap:wrap;gap:8px}
 /* 알림 종류별 집계 리포트(달력 우측) */
 .kind-report{display:flex;flex-direction:column;gap:8px;margin-top:6px}
@@ -696,3 +696,12 @@ img{max-width:100%;display:block}
 
 /* venue 그룹 상위 제목 (Following · Journal List) */
 .ntab-head{flex-basis:100%;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:2px 2px 4px}
+
+/* 토글 스위치 (Strategic Management Only) */
+.qsw{display:inline-flex;align-items:center;gap:9px;border:0;background:none;padding:2px;cursor:pointer;font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.qsw:hover{color:var(--ink)}
+.qsw.is-on{color:var(--ink)}
+.qsw-track{position:relative;width:32px;height:18px;border-radius:999px;background:var(--line);transition:background .18s;flex:0 0 auto}
+.qsw-knob{position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:var(--muted);transition:transform .18s,background .18s}
+.qsw.is-on .qsw-track{background:color-mix(in srgb,var(--accent) 55%,transparent)}
+.qsw.is-on .qsw-knob{transform:translateX(14px);background:var(--accent)}
