@@ -539,7 +539,7 @@ permalink: /articles/
         jVR={x0:nx0,x1:nx0+w,y0:ny0,y1:ny0+h}; jview.innerHTML=buildJ(true);
       }
       el.addEventListener('wheel',function(e){ var plot=_jplot(e.target); if(!plot) return; e.preventDefault();
-        var r=plot.getBoundingClientRect(); _dz((e.clientX-r.left)/r.width*100, (1-(e.clientY-r.top)/r.height)*100, Math.exp(-e.deltaY*0.0016)); },{passive:false});
+        var r=plot.getBoundingClientRect(); _dz((e.clientX-r.left)/r.width*100, (1-(e.clientY-r.top)/r.height)*100, Math.exp(-e.deltaY*0.0032)); },{passive:false});
       el.addEventListener('dblclick',function(e){ if(!_jplot(e.target)) return; jVR=null; jview.innerHTML=buildJ(); });
       /* 마우스 드래그 팬(확대 상태에서만) */
       var _drag=null;
@@ -556,7 +556,7 @@ permalink: /articles/
           _pn={d:Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY),cx:((a.clientX+b.clientX)/2-r.left)/r.width*100,cy:(1-((a.clientY+b.clientY)/2-r.top)/r.height)*100}; _pan1=null; }
         else if(e.touches.length===1 && _zoomed()){ var t=e.touches[0]; _pan1={x:t.clientX,y:t.clientY,w:r.width,h:r.height}; } },{passive:false});
       el.addEventListener('touchmove',function(e){
-        if(_pn && e.touches.length===2){ e.preventDefault(); var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.cx,_pn.cy,d/_pn.d); _pn.d=d; }
+        if(_pn && e.touches.length===2){ e.preventDefault(); var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.cx,_pn.cy,Math.pow(d/_pn.d,2)); _pn.d=d; }
         else if(_pan1 && e.touches.length===1){ e.preventDefault(); var t=e.touches[0];
           _panBy((t.clientX-_pan1.x)/_pan1.w*100, -(t.clientY-_pan1.y)/_pan1.h*100); _pan1.x=t.clientX; _pan1.y=t.clientY; } },{passive:false});
       el.addEventListener('touchend',function(e){ if(e.touches.length<2) _pn=null; if(e.touches.length<1) _pan1=null; });
