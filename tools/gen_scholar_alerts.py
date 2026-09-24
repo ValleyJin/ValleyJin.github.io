@@ -160,6 +160,25 @@ def main():
     M.logout()
 
     items = items[:MAX_ITEMS]
+
+    # 수준 배지(Q·SJR·qcat·N/A) 부여 — 다른 논문 리스트와 표현 통일. venue는 authors의 "… - Venue, Year"에서 추출.
+    try:
+        import importlib.util
+        _here = Path(__file__).resolve().parent
+        _spec = importlib.util.spec_from_file_location("gt", str(_here / "gen_topics.py"))
+        gt = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(gt)
+        _sci, _core = gt.load_scimago(), gt.load_core()
+        _vmeta = json.loads((_here.parent / "_data" / "venues.json").read_text(encoding="utf-8")).get("venues", {})
+        _vidx = gt.build_vidx(_vmeta)
+        def _venue(it):
+            au = (it.get("authors") or "").replace("\xa0", " ")
+            m = re.split(r"\s[-–—]\s", au)
+            return m[-1].strip() if len(m) > 1 else ""
+        for it in items:
+            it.update(gt.badge(_venue(it), _sci, _core, None, _vidx, w=None))
+    except Exception as e:
+        print("! alert badge skipped: %s" % e, file=sys.stderr)
+
     OUT.write_text(json.dumps({"generated": date.today().isoformat(),
                                "source": "Google Scholar alerts (email)",
                                "items": items}, ensure_ascii=False, indent=2), encoding="utf-8")

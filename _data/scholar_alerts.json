@@ -9,7 +9,10 @@
       "snippet": "The idea of computationally approximating human behavior is being reshaped by the emergence of large language models (LLMs). Although LLMs do not explain the mechanisms of human behavior, they can potentially stand in for humans—giving rise to new applied and scientific uses. Here we analyze research from multiple disciplines that explicitly or implicitly use LLMs as human proxies and organize them into four roles: believable agents, task agents, experimental subjects and silicon …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "q": "Q1",
+      "sjr": 4.25,
+      "qcat": "Computer Networks and Communications"
     },
     {
       "title": "From rules to reasoning: A systematic review of agent-based and LLM-empowered simulation of public collaboration",
@@ -18,7 +21,10 @@
       "snippet": "Agent-based simulation of public collaboration is consolidating into a distinct research pathway, with rule-based agent-based modeling (ABM) and large language model (LLM)-empowered simulation emerging as two technological lineages. Whether they are competitive, substitutive, or complementary has not been systematically examined. Drawing on 1,064 public collaboration simulation studies, we apply a “2× 4” framework to compare the two lineages across research agendas …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "q": "Q1",
+      "sjr": 1.84,
+      "qcat": "Computer Science Applications"
     },
     {
       "title": "Stereotypically Yours: Portrayal and Perception of Race-Coded AI Companions",
@@ -27,7 +33,8 @@
       "snippet": "AI companions can purportedly adopt racial personas, raising questions about how they represent identity and how users interpret these portrayals. We combined an algorithmic audit of race-coded AI personas with interviews with 12 companion users who interacted with a probe. Our audit revealed systematic differences, such as Asian-coded male personas receiving higher submissiveness scores than White counterparts, and Black, Hispanic, and Indigenous male personas receiving higher …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "nr": "na"
     },
     {
       "title": "What People Almost Did: Evaluating LLM Social Simulations Beyond Behavioral Fit",
@@ -36,7 +43,8 @@
       "snippet": "LLM-based social simulations are primarily evaluated for behavioral fit, testing whether agents reproduce the actions or response distributions of the people they are simulating. However, the promise of simulation extends beyond behavioral fit. Simulations can explain human behavior, diagnose barriers, and compare large-scale interventions. These use cases depend on understanding\\textit {why} people acted a certain way, not just\\textit {what} they did. As a result, behavioral fit is …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "nr": "na"
     },
     {
       "title": "Value Faces: Surfacing How Self-Presentation Shifts Across Relationships",
@@ -45,7 +53,8 @@
       "snippet": "People present different aspects of themselves across relationships. Computational work has captured such variation in communication style. But this variation also extends to which principles people foreground or background in a particular relationship--ie, in the values they express and how they balance them. We conceptualize these relationship-specific expressions of values as demonstrated values. To make demonstrated values visible, we introduce Value Faces, a system …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "nr": "na"
     },
     {
       "title": "Intuitions of compromise: Utilitarianism, egalitarianism, contractualism",
@@ -54,7 +63,10 @@
       "snippet": "What is the best compromise in a situation where different people value different things? The most common method for answering this question is to look at all the options, add up the utility per person associated with each, and pick the option with the largest sum. This approach seems like the obvious, theory-neutral solution, though, in fact, it relies on substantive utilitarian commitments. A second, quite common approach, involves integrating egalitarian concerns, and picking an option …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "q": "Q1",
+      "sjr": 1.61,
+      "qcat": "Cognitive Neuroscience"
     },
     {
       "title": "Memory Architecture for Managed Cloud Agents: A Memory-Plane Approach to Hydration, Persistence, and Forgetting",
@@ -63,7 +75,10 @@
       "snippet": "Memory\" has become a catch-all term in applied agent engineering: it covers saved user facts, retained conversation history, workspace knowledge, transient session state, and the retrieval indices used to search all of it. Production systems routinely collapse this variety into a single shorthand, treating memory as retrieval-augmented generation over a vector database. This article argues that the shorthand is an architectural error and proposes an alternative account of agent memory as a …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "q": "Q3",
+      "sjr": 0.26,
+      "qcat": "Political Science and International Relations"
     },
     {
       "title": "Digitalisation and digital twins in photovoltaic systems",
@@ -72,7 +87,8 @@
       "snippet": "Zusammenfassung The report\" Digitalisation and Digital Twins in Photovoltaic Systems\" provides a comprehensive overview of the transformative role of digitalisation within the photovoltaic (PV) sector, particularly through the integration of digital twins and advanced data models. We underscore the necessity of adopting digital technologies to enhance the operational efficiency, reliability, and overall performance of PV systems throughout their lifecycle. Digitalisation is increasingly …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "nr": "na"
     },
     {
       "title": "Design students' agency in human-AI co-design processes: distributed decision-making, ontological alignment, and creative autonomy",
@@ -81,7 +97,10 @@
       "snippet": "This study investigates how design students experience agency and distributed decision-making when engaging in co-design processes with generative artificial intelligence (genAI). Building upon post-phenomenological frameworks and sociocultural theories of mediated action, we conducted an empirical investigation with 78 undergraduate design students who participated in a structured co-design workshop using text-to-image generative models. The mixed-methods approach …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "q": "Q1",
+      "sjr": 1.21,
+      "qcat": "Education"
     },
     {
       "title": "From Parasocial Involvement to Community Identification: Explaining Monetized Support in VTuber Live Streaming",
@@ -90,7 +109,10 @@
       "snippet": "ABSTRACT Virtual YouTuber (VTuber) livestreaming raises a theoretical question about how audiences provide monetary support for virtual personae. Drawing on parasocial relationship, social presence, and social identity perspectives, this study examines how perceived authenticity, perceived interactivity, social anxiety, and affective empathy are associated with group identification and VTuber-related monetary support. Survey data from 316 VTuber viewers in Mainland China were …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "q": "Q1",
+      "sjr": 0.81,
+      "qcat": "Communication"
     },
     {
       "title": "Ideology by Alphabet: Option Order and the Measurement of Machine Political Preferences",
@@ -99,7 +121,8 @@
       "snippet": "Large language models are increasingly measured for political leanings and consulted on policy questions. Nearly all such measurement uses fixed-order forced-choice instruments, in which each substantive position occupies a fixed answer slot …",
       "kind": "Related",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "nr": "na"
     },
     {
       "title": "Language Models for Page-Level Layout Decisions in E-commerce Search",
@@ -108,7 +131,8 @@
       "snippet": "E-commerce search pages are critical touchpoints for millions of online shoppers. While traditional search engines return a ranked list of results, modern E-commerce search pages increasingly incorporate recommender system modules–for example …",
       "kind": "Related",
       "scholar": "Joon Sung Park",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "nr": "na"
     },
     {
       "title": "Efficient solar-driven interfacial steam-hydropower co-generation by high-quality carbon nanotube from discarded polyolefin separator",
@@ -117,7 +141,10 @@
       "snippet": "Converting discarded polyolefin separators into valuable carbon nanotubes (CNTs) not only contributes to the high-value utilization of discarded separators, but also offers a green approach to construct advanced CNT-based generators. However, the controlled carbonization of discarded polyolefin separators into high-quality CNTs remains challenging, and the mechanism of electricity generation in CNTs remains obscure. Herein, we report the “all-in-one” catalytic strategy using multi-component …",
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "q": "Q1",
+      "sjr": 2.85,
+      "qcat": "Electrical and Electronic Engineering"
     },
     {
       "title": "A Benchmark Dataset for Decision-Oriented Retrieval-Augmented Generation",
@@ -126,7 +153,8 @@
       "snippet": "Retrieval-augmented generation (RAG) for complex decision-making tasks must access multi-source, heterogeneous knowledge—including relational databases, graph databases, and rule texts—and must support long-chain reasoning and strict constraint following. Existing RAG benchmarks are mostly based on single-document repositories and cannot effectively evaluate planning-based retrieval in multi-source environments. To address this gap, this paper constructs a dataset for evaluating …",
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "nr": "na"
     },
     {
       "title": "Study on monitoring filter-type LAC devices with various flow rates during FOUP opened using particle image velocimetry",
@@ -135,7 +163,10 @@
       "snippet": "ABSTRACT The Laminar Air Curtain (LAC) device generates a uniform, vertically downward airflow to isolate airborne particles that have the potential to penetrate a FOUP. It is used to effectively prevent moisture from the Equipment Front-End Module (EFEM) from entering the FOUP. Under current usage conditions of the LAC device, the humidity remains stable, and contaminants are effectively isolated when the FOUP door is opened. However, prolonged use of high airflow rates can cause …",
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "q": "Q1",
+      "sjr": 1.09,
+      "qcat": "Education"
     }
   ]
 }

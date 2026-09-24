@@ -621,8 +621,9 @@ permalink: /articles/
       function alertLi(a){
         return '<li class="pub-row"><a class="pub-main" href="'+esc(a.url)+'" target="_blank" rel="noopener">'+
           '<span class="pt">'+esc(a.title)+'</span>'+
-          '<span class="pmeta">'+(a.authors?esc(a.authors):'')+(a.snippet?' — '+esc(String(a.snippet).slice(0,140)):'')+'</span></a>'+
-          '<span class="pcite">'+esc(a.kind||'New')+'</span></li>';
+          '<span class="pmeta">'+(a.authors?esc(a.authors):'')+(a.snippet?' — '+esc(String(a.snippet).slice(0,140)):'')+'</span>'+
+          pqmLine(a)+'</a>'+
+          '<span class="pcite">'+(vBadge(a)?vBadge(a)+' ':(naBadge(a)?naBadge(a)+' ':''))+esc(a.kind||'New')+'</span></li>';
       }
       function renderStabs(){
         function _tab(nm){ return '<button type="button" class="ntab'+(nm===sst.scholar?' is-active':'')+'" data-scholar="'+esc(nm)+'">'+esc(nm)+'</button>'; }

@@ -17,9 +17,10 @@ launched:
     url: https://kyopo.ai
     thumb: /assets/images/kyopo-thumb.jpg
     featured: true
-    # 개발 언어 비율(%) — GitHub 언어바 스타일. ⚠ 임시값: 실제 비율로 교체하세요.
+    # 개발 언어 비율(%). 색은 _data/lang_colors.yml에서 자동 조회(c로 개별 지정도 가능).
+    # ⚠ 임시값: 실제 비율로 교체하세요.
     langs:
-      - {k: Python, v: 42, c: '#ffd43b'}
-      - {k: TypeScript, v: 33, c: '#3178c6'}
-      - {k: CSS, v: 14, c: '#a074c4'}
-      - {k: Other, v: 11, c: '#8b8d98', sub: 'Shell, Dockerfile, HTML'}
+      - {k: Python, v: 42}
+      - {k: TypeScript, v: 33}
+      - {k: CSS, v: 14}
+      - {k: Other, v: 11, sub: 'Shell, Dockerfile, HTML'}

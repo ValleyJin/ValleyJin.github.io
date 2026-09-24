@@ -5,8 +5,8 @@
     {% if include.p.desc %}<p class="svc-desc">{{ include.p.desc }}</p>{% endif %}
     {% if include.p.langs %}
     <div class="svc-langs">
-      <div class="svc-langbar">{% for l in include.p.langs %}<span style="width:{{ l.v }}%;background:{{ l.c }}" title="{{ l.k }} {{ l.v }}%"></span>{% endfor %}</div>
-      <ul class="svc-langleg mono">{% for l in include.p.langs %}<li><span class="sw" style="background:{{ l.c }}"></span>{{ l.k }} <b>{{ l.v }}%</b>{% if l.sub %} <span class="svc-lang-sub">({{ l.sub }})</span>{% endif %}</li>{% endfor %}</ul>
+      <div class="svc-langbar">{% for l in include.p.langs %}{% assign lc = l.c | default: site.data.lang_colors[l.k] | default: '#8b8d98' %}<span style="width:{{ l.v }}%;background:{{ lc }}" title="{{ l.k }} {{ l.v }}%"></span>{% endfor %}</div>
+      <ul class="svc-langleg mono">{% for l in include.p.langs %}{% assign lc = l.c | default: site.data.lang_colors[l.k] | default: '#8b8d98' %}<li><span class="sw" style="background:{{ lc }}"></span>{{ l.k }} <b>{{ l.v }}%</b>{% if l.sub %} <span class="svc-lang-sub">({{ l.sub }})</span>{% endif %}</li>{% endfor %}</ul>
     </div>
     {% elsif include.p.url %}<a class="svc-url" href="{{ include.p.url }}" target="_blank" rel="noopener">{{ include.p.url_label | default: include.p.url }}</a>{% endif %}
   </div>
