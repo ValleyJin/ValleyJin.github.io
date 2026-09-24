@@ -310,6 +310,8 @@ permalink: /articles/
         function px(x){ return PX + (x/cfg.xMax)*(100-PX-6); }
         function py(y){ return PY + (y/cfg.yMax)*(100-PY-8); }
         var s='<div class="qplot">';
+        niceticks(cfg.xMax).forEach(function(t){ var x=px(t).toFixed(2); s+='<span class="qgl qgl-x" style="left:'+x+'%"></span><span class="qtk qtk-x mono" style="left:'+x+'%">'+t+'</span>'; });
+        niceticks(cfg.yMax).forEach(function(t){ var y=py(t).toFixed(2); s+='<span class="qgl qgl-y" style="bottom:'+y+'%"></span><span class="qtk qtk-y mono" style="bottom:'+y+'%">'+t+'</span>'; });
         if(cfg.reg){ var r=cfg.reg, y0=r.b, yM=r.a*cfg.xMax+r.b;
           s+='<svg class="qreg" width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="'+px(0).toFixed(2)+'" y1="'+(100-py(y0)).toFixed(2)+'" x2="'+px(cfg.xMax).toFixed(2)+'" y2="'+(100-py(yM)).toFixed(2)+'"/></svg>'; }
         s+='<span class="qax-y mono">'+esc(cfg.axY)+'</span><span class="qax-x mono">'+esc(cfg.axX)+'</span>';
@@ -323,6 +325,7 @@ permalink: /articles/
       }
       function legend(items,note){ return '<div class="qleg mono">'+items.map(function(z){return '<span class="qleg-i"><span class="qleg-d '+z[0]+'"></span>'+z[1]+'</span>';}).join('')+(note?'<span class="qleg-note">'+esc(note)+'</span>':'')+'</div>'; }
       function bub(w,wm){ return (7 + Math.sqrt((w||0)/wm)*11).toFixed(1); }   // 점 지름: 면적 ∝ 논문 수
+      function niceticks(mx){ if(!(mx>0)) return [0]; var raw=mx/4, mag=Math.pow(10,Math.floor(Math.log10(raw))), n=raw/mag, step=(n<1.5?1:n<3?2:n<7?5:10)*mag, out=[]; for(var t=0;t<=mx+step*0.001;t+=step) out.push(Math.round(t*1000)/1000); return out; }
 
       /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외) ── */
       var jr=journals.filter(function(v){return v.sjr!=null;});
@@ -389,6 +392,7 @@ permalink: /articles/
       if(!topicList.length){ papers.forEach(function(p){ if(p.topic&&topicList.indexOf(p.topic)<0) topicList.push(p.topic); }); }
       var mostData=data.mostcited||{};   // 키워드별 전기간 누적 피인용 상위
       var emMap=data.em||{};             // 토픽별 Emergent Mind URL
+      var VMETA={}; try{ VMETA=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){}   // venue별 분야(group)
       var oaMap=data.oa||{};             // 토픽별 OpenAlex 검색화면
       var emLink=document.getElementById('em-link');
       var oaLink=document.getElementById('oa-link');
@@ -469,7 +473,12 @@ permalink: /articles/
         var _ven=topicList.filter(function(t){return _vs[t];});                     // 학회/저널 토픽(config 순)
         function _tab(tp){ return '<button type="button" class="ntab'+(tp===st.topic?' is-active':'')+'" data-topic="'+esc(tp)+'">'+esc(tp)+'</button>'; }
         var _html=['All'].concat(_norm).map(_tab).join('');
-        if(_ven.length){ _html+='<span class="ntab-sep" aria-hidden="true"></span>'+_ven.map(_tab).join(''); }
+        if(_ven.length){   // 학회/저널 칩을 분야(group)별로 묶어서 표시
+          var ORDER=['미래학','경영전략','회계학','인공지능'];
+          var groups={}; _ven.forEach(function(t){ var g=(VMETA[t]&&VMETA[t].group)||'기타'; (groups[g]=groups[g]||[]).push(t); });
+          var gnames=Object.keys(groups).sort(function(a,b){ var ia=ORDER.indexOf(a), ib=ORDER.indexOf(b); return (ia<0?99:ia)-(ib<0?99:ib); });
+          gnames.forEach(function(g){ _html+='<span class="ntab-grp mono">'+esc(g)+'</span>'+groups[g].map(_tab).join(''); });
+        }
         tabsEl.innerHTML=_html;
         [].slice.call(tabsEl.querySelectorAll('.ntab')).forEach(function(b){ b.onclick=function(){
           setMode('topics');

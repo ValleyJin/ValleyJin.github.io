@@ -498,6 +498,31 @@ def _field_of(src):
             "sub": (t.get("subfield") or {}).get("display_name")}
 
 
+# 내 토픽 venue의 큐레이션 분야(칩 그루핑용). OpenAlex 자동분류는 의도와 어긋남
+# (예: TFSC는 자동으로 'Strategy'지만 실제론 미래학 대표지).
+_VENUE_GROUP = {
+    "NeurIPS": "인공지능", "ICML": "인공지능", "ICLR": "인공지능", "CVPR": "인공지능",
+    "Futures": "미래학", "TFSC": "미래학", "FFS": "미래학", "JFS": "미래학", "EJFR": "미래학",
+    "TASM": "경영전략", "SMJ": "경영전략", "LRP": "경영전략", "AMJ": "경영전략", "SO": "경영전략",
+    "TAR": "회계학", "JAE": "회계학", "JAR": "회계학", "CAR": "회계학", "RAST": "회계학",
+}
+
+
+def _venue_group(label, v):
+    """칩 그루핑 분야. 큐레이션 우선, 없으면 OpenAlex field로 추정."""
+    if label in _VENUE_GROUP:
+        return _VENUE_GROUP[label]
+    if v.get("type") == "conference" or v.get("field") == "Computer Science":
+        return "인공지능"
+    if v.get("sub") == "Accounting":
+        return "회계학"
+    if v.get("field") == "Decision Sciences":
+        return "미래학"
+    if v.get("field") == "Business, Management and Accounting":
+        return "경영전략"
+    return v.get("field") or "기타"
+
+
 def build_venues(topics, sci, core=None):
     """토픽의 학회/저널별 영향력지수·분야 → venues.json. 저널은 SJR·Q(분야별)·IF·h,
     학회는 h-index·논문수·분야(OpenAlex) + CORE 등급(A*/A/B/C)."""
@@ -541,7 +566,8 @@ def build_venues(topics, sci, core=None):
             v.update(conf_rank(v.get("name"), core, label))   # CORE 등급(A*/A/B/C)
             out[label] = v
         if label in out:
-            print(f"  venue {label}: {out[label].get('type')} q={out[label].get('q')} h={out[label].get('h')}", file=sys.stderr)
+            out[label]["group"] = _venue_group(label, out[label])   # 칩 그루핑 분야
+            print(f"  venue {label}: {out[label].get('type')} q={out[label].get('q')} grp={out[label].get('group')}", file=sys.stderr)
     return out
 
 

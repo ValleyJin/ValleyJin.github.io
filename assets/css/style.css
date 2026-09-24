@@ -652,3 +652,15 @@ img{max-width:100%;display:block}
 
 /* 범례 우측 크기 안내 */
 .qleg-note{color:var(--muted);font-size:11px;margin-left:auto}
+
+/* 토픽 칩 분야 그룹 라벨 */
+.ntab-grp{align-self:center;margin:0 4px 0 12px;padding-left:12px;border-left:1px solid var(--line);font-size:10.5px;letter-spacing:.04em;color:var(--muted);text-transform:none}
+.ntab-grp:first-of-type{border-left:0;padding-left:0;margin-left:6px}
+
+/* 산점도 축 눈금 + 격자선 */
+.qgl{position:absolute;background:var(--line);opacity:.4;z-index:0}
+.qgl-x{top:0;bottom:0;width:1px}
+.qgl-y{left:0;right:0;height:1px}
+.qtk{position:absolute;font-size:9px;color:var(--muted);z-index:1;pointer-events:none}
+.qtk-x{bottom:3px;transform:translateX(-50%)}
+.qtk-y{left:4px;transform:translateY(50%)}
