@@ -20,28 +20,28 @@ permalink: /portfolio/
     {% for p in launched %}{% include proj-card.html p=p %}{% endfor %}
   </div>
   {% else %}
-  <div class="stat-card" style="text-align:center;padding:28px"><p class="mono" style="color:var(--muted);margin:0">아직 없습니다.</p></div>
+  <div class="stat-card" style="text-align:center;padding:28px"><p class="mono" style="color:var(--muted);margin:0">Nothing here yet.</p></div>
   {% endif %}
 
   <!-- 2 · Activity -->
-  <div class="section-head" style="margin:40px 0 8px"><h2>AX Lead</h2><span class="more mono" style="text-transform:none">비개발 직군 → 개발 직군 전환</span></div>
-  <p class="mono" style="color:var(--muted);font-size:12.5px;margin:0 0 16px">AI를 활용해 조직의 비개발 직군을 개발 직군으로 전환(AX)합니다.</p>
+  <div class="section-head" style="margin:40px 0 8px"><h2>AX Lead</h2><span class="more mono" style="text-transform:none">Non-dev roles → dev roles</span></div>
+  <p class="mono" style="color:var(--muted);font-size:12.5px;margin:0 0 16px">Using AI to transform non-developer roles into developer roles (AX) across the organization.</p>
   <div class="ax-grid">
     <div class="ax-sub">
       <div class="ax-sub-h mono">Planner <span class="ax-arrow">→</span> Developer</div>
-      <p class="ax-sub-p">기획자가 스스로 만드는 개발자로.</p>
-      <p class="ax-sub-note mono">준비 중 — 사례·과정·성과가 곧 올라옵니다.</p>
+      <p class="ax-sub-p">Planners who build it themselves.</p>
+      <p class="ax-sub-note mono">In progress — cases, process, and outcomes coming soon.</p>
     </div>
     <div class="ax-sub">
       <div class="ax-sub-h mono">Designer <span class="ax-arrow">→</span> Developer</div>
-      <p class="ax-sub-p">디자이너가 스스로 만드는 개발자로.</p>
-      <p class="ax-sub-note mono">준비 중 — 사례·과정·성과가 곧 올라옵니다.</p>
+      <p class="ax-sub-p">Designers who build it themselves.</p>
+      <p class="ax-sub-note mono">In progress — cases, process, and outcomes coming soon.</p>
     </div>
   </div>
 
   <!-- 3 · Contribution -->
   <div class="section-head" style="margin:40px 0 12px"><h2>Contribution</h2><a class="more mono" href="https://github.com/{{ site.github_user }}?tab=repositories" target="_blank" rel="noopener" style="text-transform:none">all repos ↗</a></div>
-  <p class="mono" style="color:var(--muted);font-size:12.5px;margin:0 0 14px">내 GitHub에 공개한 오픈소스 프로젝트들.</p>
+  <p class="mono" style="color:var(--muted);font-size:12.5px;margin:0 0 14px">Open-source projects I've published on GitHub.</p>
   {% assign repos = site.data.github.opensource | default: site.data.github.recent %}
   {% if repos and repos.size > 0 %}
   <div class="repo-grid">
@@ -54,6 +54,6 @@ permalink: /portfolio/
     {% endfor %}
   </div>
   {% else %}
-  <div class="stat-card" style="text-align:center;padding:28px"><p class="mono" style="color:var(--muted);margin:0">저장소 정보를 불러오는 중입니다.</p></div>
+  <div class="stat-card" style="text-align:center;padding:28px"><p class="mono" style="color:var(--muted);margin:0">Loading repositories…</p></div>
   {% endif %}
 </div>
