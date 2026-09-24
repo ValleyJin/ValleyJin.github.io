@@ -379,6 +379,55 @@ permalink: /articles/
 
       <p class="mnote" style="margin-top:22px">이 사이트의 <b>My Topics</b> 논문 카드는 실제로 <b>OpenAlex</b>(FWCI·백분위)와 <b>SCImago</b>(Q1~Q4·SJR)에서 매 갱신마다 값을 받아 표시합니다 — 하드코딩이 아니라 원천이 바뀌면 자동 반영됩니다.</p>
     </div>
+    <script>
+    /* 그래프 아래 해설을 목차 + 접힘(details) ebook으로 재구성. 기본은 접힘, 클릭 시 펼침. */
+    (function(){
+      var guide=document.querySelector('#pane-metrics .mguide'); if(!guide) return;
+      var qmap=guide.querySelector('#qmap');
+      var nodes=[]; var n=qmap?qmap.nextElementSibling:guide.firstElementChild;
+      while(n){ nodes.push(n); n=n.nextElementSibling; }
+      if(!nodes.length) return;
+      function titleParts(h2){ if(!h2) return {main:'',sub:''};
+        var sub=h2.querySelector('.mh-sub'), subT=sub?sub.textContent.trim():'';
+        var cl=h2.cloneNode(true), cs=cl.querySelector('.mh-sub'); if(cs) cs.remove();
+        return {main:cl.textContent.trim(), sub:subT}; }
+      var items=[], lead=[], cur=null;
+      nodes.forEach(function(el){
+        if(el.tagName==='SECTION' && el.classList.contains('qread')){
+          var h2=el.querySelector('.section-head h2');
+          var body=[].slice.call(el.children).filter(function(c){ return !(c.classList&&c.classList.contains('section-head')); });
+          items.push({h2:h2, body:body, shell:el}); cur=null; return;
+        }
+        if(el.classList && el.classList.contains('section-head')){ cur={h2:el.querySelector('h2'), body:[], shell:el}; items.push(cur); return; }
+        if(cur){ cur.body.push(el); } else { lead.push(el); }
+      });
+      if(items.length<2) return;
+      var book=document.createElement('div'); book.className='qbook';
+      lead.forEach(function(el){ book.appendChild(el); });
+      var toc=document.createElement('nav'); toc.className='qbook-toc';
+      var th=document.createElement('div'); th.className='qbook-toc-h mono'; th.innerHTML='해설 <span class="qbook-toc-sub">— 궁금한 항목을 눌러 펼쳐 보세요</span>'; toc.appendChild(th);
+      var tl=document.createElement('ol'); tl.className='qbook-toc-list'; toc.appendChild(tl);
+      book.appendChild(toc);
+      items.forEach(function(it,i){
+        var id='qb-'+i, num=(i+1<10?'0':'')+(i+1), tp=titleParts(it.h2);
+        var d=document.createElement('details'); d.className='qbook-item'; d.id=id;
+        var s=document.createElement('summary'); s.className='qbook-sum';
+        s.innerHTML='<span class="qbook-idx mono">'+num+'</span><span class="qbook-tt">'+(tp.main||('섹션 '+(i+1)))+(tp.sub?' <span class="qbook-sub mono">'+tp.sub+'</span>':'')+'</span><span class="qbook-chev" aria-hidden="true">▸</span>';
+        d.appendChild(s);
+        var bd=document.createElement('div'); bd.className='qbook-body';
+        it.body.forEach(function(el){ bd.appendChild(el); }); d.appendChild(bd);
+        book.appendChild(d);
+        var li=document.createElement('li'); var a=document.createElement('a'); a.href='#'+id; a.className='qbook-toc-a';
+        a.innerHTML='<span class="qbook-idx mono">'+num+'</span><span>'+(tp.main||('섹션 '+(i+1)))+'</span>';
+        a.addEventListener('click',function(e){ e.preventDefault(); d.open=true; d.scrollIntoView({behavior:'smooth',block:'start'}); });
+        li.appendChild(a); tl.appendChild(li);
+      });
+      // 원본 껍데기 제거 후 book 삽입
+      nodes.forEach(function(el){ if(el.parentNode===guide) guide.removeChild(el); });
+      items.forEach(function(it){ if(it.shell && it.shell.parentNode===guide) guide.removeChild(it.shell); });
+      guide.appendChild(book);
+    })();
+    </script>
   </div><!-- /pane-metrics -->
 
   <script type="application/json" id="newest-data">{{ site.data.newest | jsonify }}</script>
