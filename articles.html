@@ -403,7 +403,7 @@ permalink: /articles/
         jFullX=jMax; jFullY=sMax;
         if(!keepView || !jVR) jVR={x0:0,x1:jMax,y0:0,y1:sMax};   // 필터 변경 시 전체로 리셋, 줌 시 유지
         var h='<div class="qjbar">'+JGROUPS.map(function(g){ return '<button type="button" class="qfld'+(jsel[g]?' is-on':'')+'" data-grp="'+esc(g)+'" aria-pressed="'+(jsel[g]?'true':'false')+'">'+esc(g)+'</button>'; }).join('')+'</div>';
-        h+='<div class="qleg mono">'+['q1','q2','q3','q4'].map(function(qq){ var Q=qq.toUpperCase(); return '<button type="button" class="qleg-q'+(qsel[Q]?'':' is-off')+'" data-q="'+Q+'" aria-pressed="'+(qsel[Q]?'true':'false')+'"><span class="qleg-d '+qq+'"></span>'+Q+'</button>'; }).join('')+'<span class="qleg-note">점 크기 = 논문 수 · 휠·핀치 확대, 확대 후 드래그로 이동, 더블클릭 리셋</span></div>';
+        h+='<div class="qleg mono"><span class="qleg-note">점 크기 = 논문 수 · 휠·핀치 확대, 확대 후 드래그로 이동, 더블클릭 리셋</span>'+['q1','q2','q3','q4'].map(function(qq){ var Q=qq.toUpperCase(); return '<button type="button" class="qleg-q'+(qsel[Q]?'':' is-off')+'" data-q="'+Q+'" aria-pressed="'+(qsel[Q]?'true':'false')+'"><span class="qleg-d '+qq+'"></span>'+Q+'</button>'; }).join('')+'</div>';
         var jpts=jr.map(function(v){ var ify=(v.if2!=null?v.if2:0); return {x:ify,y:v.sjr,label:v.label,link:v.link,
           cls:String(v.q||'q1').toLowerCase(), r:bub(v.works,jwMax), num:(v.if2!=null?v.if2:'–')+'/'+v.sjr, out:excl.indexOf(v.label)>=0,   // IF/SJR(축 순서)
           below:(reg && excl.indexOf(v.label)<0 && v.sjr < reg.a*ify+reg.b),   // 회귀선 아래(질 낮음) → 라벨 아래로

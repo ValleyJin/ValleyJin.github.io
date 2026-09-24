@@ -650,7 +650,7 @@ img{max-width:100%;display:block}
 .qdot.qd-below .qdot-lab{top:12px;bottom:auto}
 
 /* 범례 우측 크기 안내 */
-.qleg-note{color:var(--muted);font-size:11px;margin-left:auto}
+.qleg-note{color:var(--muted);font-size:11px;margin-right:auto}
 
 /* 토픽 칩 분야 그룹 라벨 */
 .ntab-grp{align-self:center;margin:0 8px 0 2px;min-width:52px;font-size:10.5px;letter-spacing:.04em;color:var(--muted);text-transform:none}
@@ -705,12 +705,13 @@ img{max-width:100%;display:block}
 .qsw.is-on .qsw-track{background:color-mix(in srgb,var(--accent) 55%,transparent)}
 .qsw.is-on .qsw-knob{transform:translateX(14px);background:var(--accent)}
 
-/* 라벨 겹침 해결: (마우스) 호버한 점만 선명·전면, 나머지는 흐려짐 */
+/* 라벨 표시(마우스): 그래프 밖=숨김 / 안=중간 명도 / 호버한 점=100% */
 .qdot-lab{transition:opacity .12s}
 @media (hover:hover){
-  .qplot:hover .qdot-lab{opacity:.1}
+  .qplot .qdot-lab{opacity:0}                 /* 마우스가 영역 밖: 숨김 */
+  .qplot:hover .qdot-lab{opacity:.42}         /* 영역 안: 중간 명도 */
   .qplot .qdot:hover{z-index:8}
-  .qplot .qdot:hover .qdot-lab{opacity:1}
+  .qplot:hover .qdot:hover .qdot-lab{opacity:1}   /* 호버된 점: 100% */
   .qplot .qdot:hover .qdot-pt{box-shadow:0 0 0 3px var(--bg-elev),0 0 0 4px var(--accent)}
 }
 /* (터치) 탭한 점만 포커스 — 첫 탭은 포커스, 재탭은 이동(JS) */
