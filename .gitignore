@@ -14,3 +14,4 @@ cms-worker/.env
 
 # 개발/운영 교재 — 로컬 전용, GitHub 공개에서 제외
 study/
+tools/__pycache__/
