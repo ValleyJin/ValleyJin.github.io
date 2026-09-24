@@ -578,17 +578,18 @@ permalink: /articles/
       }
 
       /* ── 서브탭 조립 ── */
-      var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">학회</button><span class="qtab-note mono" id="qcnote" hidden>AI conferences</span>':'')
+      var tabs='<div class="qtabs mono"><button class="qtab is-on" data-v="j">저널</button>'+(confs.length?'<button class="qtab" data-v="c">AI 학회</button>':'')
         +'<form class="qsearch" id="qsearch" role="search"><svg class="qsearch-ic" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>'
-        +'<input id="qsearch-in" type="search" autocomplete="off" placeholder="저널 이름·약칭 검색"><span class="qsearch-msg mono" id="qsearch-msg"></span><div class="qsug" id="qsug" hidden></div></form>'
+        +'<input id="qsearch-in" type="search" autocomplete="off" placeholder="저널·학회 검색"><span class="qsearch-msg mono" id="qsearch-msg"></span><div class="qsug" id="qsug" hidden></div></form>'
         +'</div>';
       el.innerHTML=tabs+'<div class="qview" data-v="j">'+jHtml+'</div>'+(confs.length?'<div class="qview" data-v="c" hidden>'+cHtml+'</div>':'')+'<div class="qdetail" id="jdetail" hidden></div>';
       el.hidden=false;
-      var btns=[].slice.call(el.querySelectorAll('.qtab')), views=[].slice.call(el.querySelectorAll('.qview')), cnote=el.querySelector('#qcnote');
+      var btns=[].slice.call(el.querySelectorAll('.qtab')), views=[].slice.call(el.querySelectorAll('.qview'));
       btns.forEach(function(b){ b.addEventListener('click',function(){ var v=b.getAttribute('data-v');
         btns.forEach(function(x){x.classList.toggle('is-on',x===b);});
         views.forEach(function(x){x.hidden=x.getAttribute('data-v')!==v;});
-        if(cnote) cnote.hidden=(v!=='c'); _syncMetricURL(); }); });   // 학회 탭 옆 'AI conferences' 라벨
+        var jd=el.querySelector('#jdetail'); if(jd){ jd.hidden=true; jd.className='qdetail'; }   // 탭 전환 시 상세 패널 닫기
+        _syncMetricURL(); }); });
       // 공유용: URL의 mv=c 면 학회 서브탭으로 시작
       try{ if(AState.get('mv')==='c' && confs.length){ var _ct=el.querySelector('.qtab[data-v="c"]'); if(_ct) _ct.click(); } }catch(e){}
       // 모바일(호버 불가): 탭으로 라벨 포커스 — 첫 탭은 포커스(이동X), 같은 점 재탭이면 이동
@@ -642,6 +643,7 @@ permalink: /articles/
         var _logo=(_host && _host.indexOf('scimagojr')<0)?('https://www.google.com/s2/favicons?sz=128&domain='+encodeURIComponent(_host)):'';
         var _issn8=String(v.issn||'').replace(/[^0-9Xx]/g,'').toUpperCase();
         var _cover=(_issn8.length===8 && /sciencedirect\.com|elsevier/.test(v.link||''))?('https://ars.els-cdn.com/content/image/X'+_issn8+'.jpg'):'';
+        var _covs=[]; if(_cover) _covs.push(_cover); if(v.ogimg) _covs.push(v.ogimg);   // 표지 → og:image(홈피 대표 이미지) → (로고/타일)
         jdet.className='qdetail qd-open';
         jdet.innerHTML='<button type="button" class="qd-x" aria-label="닫기">×</button>'
           +'<div class="qd-cover '+qcl+'">'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">'+esc(v.group||'')+'</span></div>'
@@ -653,8 +655,10 @@ permalink: /articles/
             +'<div class="qd-sec"><span class="qd-lbl mono">공략 포인트</span><p>'+pt+'</p></div>'
           +'</div>';
         jdet.hidden=false;
-        // 실제 표지가 로드되면 타일을 표지 이미지로 교체(비동기, 실패 시 로고/타일 유지)
-        if(_cover){ var _im=new Image(); _im.onload=function(){ var cov=jdet.querySelector('.qd-cover'); if(cov){ cov.classList.add('has-cover'); cov.innerHTML='<img class="qd-cover-img" src="'+esc(_cover)+'" alt="'+esc((v.name||'')+' 표지')+'">'; } }; _im.src=_cover; }
+        // 표지→og:image 순으로 로드 시도. 하나라도 뜨면 타일을 그 이미지로 교체(실패 시 로고/타일 유지)
+        (function tryCov(i){ if(i>=_covs.length) return; var im=new Image();
+          im.onload=function(){ var cov=jdet.querySelector('.qd-cover'); if(cov && !cov.classList.contains('has-cover')){ cov.classList.add('has-cover'); cov.innerHTML='<img class="qd-cover-img" src="'+esc(_covs[i])+'" alt="'+esc((v.name||'')+' 이미지')+'">'; } };
+          im.onerror=function(){ tryCov(i+1); }; im.src=_covs[i]; })(0);
       }
       if(jview){ jview.addEventListener('click',function(e){
         var f=e.target.closest ? e.target.closest('.qfld') : null;
@@ -665,6 +669,45 @@ permalink: /articles/
         else if(dot){ e.preventDefault(); if(_dragMoved){ _dragMoved=false; return; }
           renderJDetail(jByLabel[dot.getAttribute('data-lab')]); } }); }
       if(jdet){ jdet.addEventListener('click',function(e){ if(e.target.closest('.qd-x')){ jdet.hidden=true; jdet.className='qdetail'; } }); }
+
+      /* ── AI 학회 점 클릭 → 상세(소개/학회 방향/공략 포인트). 저널과 달리 CORE 등급·h/i10·최근 주제 기준 ── */
+      var cByLabel={}; confs.forEach(function(v){ cByLabel[v.label]=v; });
+      var cview=el.querySelector('.qview[data-v="c"]');
+      var _CRW={'A*':'세계 최상위 flagship 학회(해당 분야 톱, 대략 상위 7%)','A':'우수 학회(대략 상위 26%)','B':'견실한 중위권 학회','C':'등재 하위권 학회'};
+      function renderCDetail(v){
+        if(!jdet||!v){ if(jdet) jdet.hidden=true; return; }
+        var crk=v.crank||'', crc={'A*':'as','A':'a','B':'b','C':'c'}[crk]||'a';
+        var t3=(v.topics3y&&v.topics3y.length)?v.topics3y.slice(0,5):null;
+        var chips='<span class="qd-chip qd-cr-'+crc+'">CORE '+esc(crk||'—')+'</span>'
+          +(v.h!=null?'<span class="qd-chip">h '+esc(v.h)+'</span>':'')
+          +(v.i10!=null?'<span class="qd-chip">i10 '+esc(v.i10)+'</span>':'')
+          +(v.works?'<span class="qd-chip">논문 '+esc(v.works)+'</span>':'');
+        var intro=esc(v.name||v.label)+' — <b>AI 학회</b>. 컴퓨터과학에서는 <b>학회가 곧 최상위 저널</b> 역할이라, 저널의 Q1~Q4 대신 <b>CORE 등급</b>과 <b>h·i10</b>로 위상을 봅니다. CORE <b>'+esc(crk||'—')+'</b> = '+(_CRW[crk]||'등급 정보 없음')+'.';
+        var dir=t3 ? '<b>최근 3년 활발 주제</b>: '+esc(t3.join(' · '))+'. 최근 채택(발표)이 활발한 흐름입니다.'
+                   : '최근 주제 데이터가 없어 CORE 등급·h/i10 기준으로 읽으세요.';
+        var strong=(crk==='A*'||crk==='A');
+        var pt=(t3?'<b>노려볼 주제</b>: '+esc(t3.slice(0,3).join(', '))+' 계열. ':'')
+          +'<b>방법</b>: '+(strong?'SOTA 대비 <b>명확한 성능 개선</b> + 철저한 <b>ablation</b> + <b>재현 가능한 공개(코드·데이터)</b>가 사실상 필수. 참신성과 벤치마크 설득력이 핵심.':'견고한 실험 설계·재현성을 갖추면 게재 가능성이 높습니다.')
+          +' <span class="qd-mut">(A* 학회 논문 ≈ 저널 Q1 이상 수준)</span>';
+        var _host=''; try{_host=new URL(v.link).hostname.replace(/^www\./,'');}catch(e){}
+        var _logo=_host?('https://www.google.com/s2/favicons?sz=128&domain='+encodeURIComponent(_host)):'';
+        jdet.className='qdetail qd-open';
+        jdet.innerHTML='<button type="button" class="qd-x" aria-label="닫기">×</button>'
+          +'<div class="qd-cover cr-'+crc+'">'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">AI 학회</span></div>'
+          +'<div class="qd-body">'
+            +'<div class="qd-h">'+(v.link?'<a href="'+esc(v.link)+'" target="_blank" rel="noopener">'+esc(v.name||v.label)+' ↗</a>':esc(v.name||v.label))+'</div>'
+            +'<div class="qd-chips">'+chips+'</div>'
+            +'<div class="qd-sec"><span class="qd-lbl mono">소개</span><p>'+intro+'</p></div>'
+            +'<div class="qd-sec"><span class="qd-lbl mono">학회 방향</span><p>'+dir+'</p></div>'
+            +'<div class="qd-sec"><span class="qd-lbl mono">공략 포인트</span><p>'+pt+'</p></div>'
+          +'</div>';
+        jdet.hidden=false;
+      }
+      if(cview){ cview.addEventListener('click',function(e){ var dot=e.target.closest?e.target.closest('.qdot'):null;
+        if(dot){ e.preventDefault(); renderCDetail(cByLabel[dot.getAttribute('data-lab')]); } }); }
+      function _highlightC(v){ var ct=el.querySelector('.qtab[data-v="c"]'); if(ct&&!ct.classList.contains('is-on')) ct.click();
+        if(!cview) return; [].forEach.call(cview.querySelectorAll('.qdot.is-hl'),function(d){d.classList.remove('is-hl');});
+        var d=cview.querySelector('.qdot[data-lab="'+String(v.label).replace(/"/g,'')+'"]'); if(d) d.classList.add('is-hl'); }
 
       /* 검색: 이름·약칭의 일부만 입력해도 '로드된 저널'을 드롭다운으로 표시 → 클릭/Enter 시 해당 점 강조.
          (외부 신규 저널 점 추가 기능은 삭제 — 데이터에 있는 저널만 강조) */
@@ -678,19 +721,23 @@ permalink: /articles/
       function _matches(q){
         var res=[];
         journals.forEach(function(v){ if(v.sjr==null) return; var sc=_score(_nrm(v.label),_nrm(v.name),q); if(sc<0) return;
-          res.push({v:v,label:v.label,name:v.name,q:v.q,sjr:v.sjr,sc:sc}); });
-        res.sort(function(a,b){ return (a.sc-b.sc) || (b.sjr-a.sjr); });
+          res.push({v:v,type:'j',label:v.label,name:v.name,q:v.q,meta:'SJR '+v.sjr,rank:v.sjr||0,sc:sc}); });
+        confs.forEach(function(v){ var sc=_score(_nrm(v.label),_nrm(v.name),q); if(sc<0) return;
+          res.push({v:v,type:'c',label:v.label,name:v.name,crank:v.crank,meta:'CORE '+(v.crank||'—'),rank:(v.h||0)/10,sc:sc}); });
+        res.sort(function(a,b){ return (a.sc-b.sc) || (b.rank-a.rank); });
         return res.slice(0,12);
       }
       function _highlight(v){ jsel[v.group]=true; qsel[String(v.q||'Q1').toUpperCase()]=true; jHL=v.label; jVR=null; _showJTab(); jview.innerHTML=buildJ(); }
-      function _pick(item){ if(!item) return; _highlight(item.v); _setMsg(item.label+' 강조','ok'); _closeSug(); }
+      function _pick(item){ if(!item) return; if(item.type==='c'){ _highlightC(item.v); } else { _highlight(item.v); } _setMsg(item.label+' 강조','ok'); _closeSug(); }
       function _closeSug(){ if(qsug){ qsug.hidden=true; qsug.innerHTML=''; } _sugItems=[]; }
       function _renderSug(){
         var q=_nrm(qsIn?qsIn.value:''); if(!q){ _closeSug(); return; }
         _sugItems=_matches(q);
-        if(!_sugItems.length){ qsug.innerHTML='<div class="qsug-empty mono">결과 없음 (추적 중인 저널만 검색)</div>'; qsug.hidden=false; return; }
-        qsug.innerHTML=_sugItems.map(function(it,i){ var qc=String(it.q||'Q1').toLowerCase();
-          return '<button type="button" class="qsug-i" data-i="'+i+'"><span class="qsug-b '+qc+'">'+esc(it.q||'')+'</span><span class="qsug-nm">'+esc(it.name)+'</span><span class="qsug-meta mono">SJR '+esc(it.sjr)+'</span></button>';
+        if(!_sugItems.length){ qsug.innerHTML='<div class="qsug-empty mono">결과 없음 (추적 중인 저널·학회만 검색)</div>'; qsug.hidden=false; return; }
+        qsug.innerHTML=_sugItems.map(function(it,i){
+          var badge=(it.type==='c')?('<span class="qsug-b cr-'+({'A*':'as','A':'a','B':'b','C':'c'}[it.crank]||'a')+'">'+esc(it.crank||'—')+'</span>')
+                                   :('<span class="qsug-b '+String(it.q||'Q1').toLowerCase()+'">'+esc(it.q||'')+'</span>');
+          return '<button type="button" class="qsug-i" data-i="'+i+'">'+badge+'<span class="qsug-nm">'+esc(it.name)+'</span><span class="qsug-meta mono">'+esc(it.meta)+'</span></button>';
         }).join(''); qsug.hidden=false;
       }
       if(qsForm){

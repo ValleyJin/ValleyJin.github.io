@@ -574,6 +574,38 @@ def recent_topics(sid, cutoff, n=4):
         return []
 
 
+def fetch_ogimage(url):
+    """저널/학회 홈페이지의 대표 이미지(og:image·twitter:image) URL을 추출.
+    표지를 못 찾았을 때의 1차 폴백 배경으로 사용. 실패(차단·없음)해도 빈 문자열."""
+    if not url or not url.startswith("http"):
+        return ""
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,*/*",
+        })
+        with urllib.request.urlopen(req, timeout=20) as r:
+            html = r.read(400000).decode("utf-8", "ignore")   # 앞부분만(메타는 head에 있음)
+    except Exception:
+        return ""
+    for pat in (r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+                r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']'):
+        m = re.search(pat, html, re.I)
+        if m:
+            img = m.group(1).strip()
+            if img.startswith("//"):
+                img = "https:" + img
+            elif img.startswith("/"):
+                try:
+                    p = urllib.parse.urlsplit(url); img = p.scheme + "://" + p.netloc + img
+                except Exception:
+                    pass
+            if img.startswith("http"):
+                return img
+    return ""
+
+
 def _field_of(src):
     tp = (src.get("topics") or [])
     if not tp:
@@ -649,6 +681,9 @@ def build_venues(topics, sci, core=None, cutoff=None):
                 tp = recent_topics(sid, cutoff)
                 if tp:
                     v["topics3y"] = tp
+            og = fetch_ogimage(link)
+            if og:
+                v["ogimg"] = og
             out[label] = v
         elif query.startswith("s2:"):
             full = CONF_FULLNAME.get(label, query[3:].strip())
@@ -665,6 +700,9 @@ def build_venues(topics, sci, core=None, cutoff=None):
                     tp = recent_topics((src.get("id") or "").rsplit("/", 1)[-1], cutoff)
                     if tp:
                         v["topics3y"] = tp
+            og = fetch_ogimage(link)
+            if og:
+                v["ogimg"] = og
             v.update(conf_rank(v.get("name"), core, label))   # CORE 등급(A*/A/B/C)
             out[label] = v
         if label in out:
