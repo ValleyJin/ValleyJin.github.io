@@ -1508,6 +1508,1185 @@
         }
       ],
       "count": 93
+    },
+    {
+      "topic": "ORM",
+      "query": "venue:S133599136",
+      "papers": [
+        {
+          "title": "The VIF Score. What is it Good For? Absolutely Nothing",
+          "authors": "Kalnins, A. T., & Hill, K. P.",
+          "year": 2023,
+          "venue": "Organizational Research Methods",
+          "url": "https://doi.org/10.1177/10944281231216381",
+          "cites": 175,
+          "fwci": 80.32,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 14.27,
+          "qcat": "Decision Sciences (miscellaneous)"
+        },
+        {
+          "title": "On the Nuisance of Control Variables in Causal Regression Analysis",
+          "authors": "Hünermund, P., & Louw, B.",
+          "year": 2023,
+          "venue": "Organizational Research Methods",
+          "url": "https://doi.org/10.1177/10944281231219274",
+          "cites": 119,
+          "fwci": 28.1,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 14.27,
+          "qcat": "Decision Sciences (miscellaneous)"
+        },
+        {
+          "title": "Using Quotes to Present Claims: Practices for the Writing Stages of Qualitative Research",
+          "authors": "Rockmann, K. W., & Vough, H. C.",
+          "year": 2023,
+          "venue": "Organizational Research Methods",
+          "url": "https://doi.org/10.1177/10944281231210558",
+          "cites": 86,
+          "fwci": 68.85,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 14.27,
+          "qcat": "Decision Sciences (miscellaneous)"
+        },
+        {
+          "title": "Generative Artificial Intelligence in Qualitative Data Analysis: Analyzing—Or Just Chatting?",
+          "authors": "Nguyen, D. T., & Welch, C.",
+          "year": 2025,
+          "venue": "Organizational Research Methods",
+          "url": "https://doi.org/10.1177/10944281251377154",
+          "cites": 51,
+          "fwci": 48.87,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 14.27,
+          "qcat": "Decision Sciences (miscellaneous)"
+        }
+      ],
+      "count": 62
+    },
+    {
+      "topic": "AMR",
+      "query": "venue:S46763546",
+      "papers": [
+        {
+          "title": "Combining Human and Artificial Intelligence: Hybrid Problem-Solving in Organizations",
+          "authors": "Raisch, S., & Fomina, K.",
+          "year": 2024,
+          "venue": "Academy of Management Review",
+          "url": "https://doi.org/10.5465/amr.2021.0421",
+          "cites": 272,
+          "fwci": 105.42,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.0,
+          "qcat": "Business, Management and Accounting (miscellaneous)"
+        },
+        {
+          "title": "Artificial Intelligence, Trust, and Perceptions of Agency",
+          "authors": "Vanneste, B. S., & Puranam, P.",
+          "year": 2024,
+          "venue": "Academy of Management Review",
+          "url": "https://doi.org/10.5465/amr.2022.0041",
+          "cites": 145,
+          "fwci": 49.62,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.0,
+          "qcat": "Business, Management and Accounting (miscellaneous)"
+        },
+        {
+          "title": "Are the Futures Computable? Knightian Uncertainty and Artificial Intelligence",
+          "authors": "Townsend, D. M., Hunt, R. A., Rady, J., Manocha, P., & Jin, J. H.",
+          "year": 2024,
+          "venue": "Academy of Management Review",
+          "url": "https://doi.org/10.5465/amr.2022.0237",
+          "cites": 121,
+          "fwci": 81.43,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.0,
+          "qcat": "Business, Management and Accounting (miscellaneous)"
+        },
+        {
+          "title": "From Bouncing Back to Bouncing Forward: A Temporal Trajectory Model of Organizational Resilience",
+          "authors": "Hernès, T., Blagoev, B. V., Kunisch, S., & Schultz, M.",
+          "year": 2024,
+          "venue": "Academy of Management Review",
+          "url": "https://doi.org/10.5465/amr.2022.0406",
+          "cites": 70,
+          "fwci": 27.32,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 10.0,
+          "qcat": "Business, Management and Accounting (miscellaneous)"
+        }
+      ],
+      "count": 173
+    },
+    {
+      "topic": "JoM",
+      "query": "venue:S122767448",
+      "papers": [
+        {
+          "title": "Signaling Theory: State of the Theory and Its Future",
+          "authors": "Connelly, B. L., Certo, S. T., Reutzel, C. R., DesJardine, M. R., & Zhou, Y. S.",
+          "year": 2024,
+          "venue": "Journal of Management",
+          "url": "https://doi.org/10.1177/01492063241268459",
+          "cites": 420,
+          "fwci": 62.81,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 8.25,
+          "qcat": "Finance"
+        },
+        {
+          "title": "Human-AI Ensembles: When Can They Work?",
+          "authors": "Choudhary, V., Marchetti, A., Shrestha, Y. R., & Puranam, P.",
+          "year": 2023,
+          "venue": "Journal of Management",
+          "url": "https://doi.org/10.1177/01492063231194968",
+          "cites": 194,
+          "fwci": 47.12,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 8.25,
+          "qcat": "Finance"
+        },
+        {
+          "title": "Time as a Research Lens: A Conceptual Review and Research Agenda",
+          "authors": "Blagoev, B. V., Hernès, T., Kunisch, S., & Schultz, M.",
+          "year": 2023,
+          "venue": "Journal of Management",
+          "url": "https://doi.org/10.1177/01492063231215032",
+          "cites": 130,
+          "fwci": 33.74,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 8.25,
+          "qcat": "Finance"
+        },
+        {
+          "title": "Organization Design: Current Insights and Future Research Directions",
+          "authors": "Joseph, J., & Sengul, M.",
+          "year": 2024,
+          "venue": "Journal of Management",
+          "url": "https://doi.org/10.1177/01492063241271242",
+          "cites": 76,
+          "fwci": 29.71,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 8.25,
+          "qcat": "Finance"
+        }
+      ],
+      "count": 284
+    },
+    {
+      "topic": "OrgSci",
+      "query": "venue:S206124708",
+      "papers": [
+        {
+          "title": "The Crowdless Future? Generative AI and Creative Problem-Solving",
+          "authors": "Boussioux, L., Lane, J. N., Zhang, M., Jaćimović, V., & Lakhani, K. R.",
+          "year": 2024,
+          "venue": "Organization Science",
+          "url": "https://doi.org/10.1287/orsc.2023.18430",
+          "cites": 289,
+          "fwci": 76.69,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 7.93,
+          "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "The Short-Term Effects of Generative Artificial Intelligence on Employment: Evidence from an Online Labor Market",
+          "authors": "Hui, X., Reshef, O., & Zhou, L.",
+          "year": 2024,
+          "venue": "Organization Science",
+          "url": "https://doi.org/10.1287/orsc.2023.18441",
+          "cites": 180,
+          "fwci": 133.25,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 7.93,
+          "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality",
+          "authors": "Dell’Acqua, F., McFowland, E., Mollick, E., Lifshitz, H., Kellogg, K. C., Rajendran, S., et al.",
+          "year": 2026,
+          "venue": "Organization Science",
+          "url": "https://doi.org/10.1287/orsc.2025.21838",
+          "cites": 153,
+          "fwci": 1602.09,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 7.93,
+          "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "Why Do Some Conservative CEOs Publicly Support Liberal Causes? Organizational Ideology, Managerial Discretion, and CEO Sociopolitical Activism",
+          "authors": "Wowak, A. J., & Busenbark, J. R.",
+          "year": 2024,
+          "venue": "Organization Science",
+          "url": "https://doi.org/10.1287/orsc.2022.17160",
+          "cites": 43,
+          "fwci": 26.99,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 7.93,
+          "qcat": "Management of Technology and Innovation"
+        }
+      ],
+      "count": 276
+    },
+    {
+      "topic": "MgmtSci",
+      "query": "venue:S33323087",
+      "papers": [
+        {
+          "title": "Climate Risk and Capital Structure",
+          "authors": "Ginglinger, É., & Moreau, Q.",
+          "year": 2023,
+          "venue": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.4952",
+          "cites": 607,
+          "fwci": 178.86,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 6.43,
+          "qcat": "Management Science and Operations Research"
+        },
+        {
+          "title": "Supply Chain Transparency and Blockchain Design",
+          "authors": "Cui, Y., Gaur, V., & Liu, J.",
+          "year": 2023,
+          "venue": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.4851",
+          "cites": 197,
+          "fwci": 47.39,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 6.43,
+          "qcat": "Management Science and Operations Research"
+        },
+        {
+          "title": "Large Language Model in Creative Work: The Role of Collaboration Modality and User Expertise",
+          "authors": "Chen, Z., & Chan, J.",
+          "year": 2024,
+          "venue": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03014",
+          "cites": 161,
+          "fwci": 52.36,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 6.43,
+          "qcat": "Management Science and Operations Research"
+        },
+        {
+          "title": "ChatGPT for Textual Analysis? How to Use Generative LLMs in Accounting Research",
+          "authors": "Kok, T. D.",
+          "year": 2025,
+          "venue": "Management Science",
+          "url": "https://doi.org/10.1287/mnsc.2023.03253",
+          "cites": 131,
+          "fwci": 107.4,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 6.43,
+          "qcat": "Management Science and Operations Research"
+        }
+      ],
+      "count": 1389
+    },
+    {
+      "topic": "JMS",
+      "query": "venue:S151705444",
+      "papers": [
+        {
+          "title": "Strategy Can No Longer Ignore Planetary Boundaries: A Call for Tackling Strategy's Ecological Fallacy",
+          "authors": "Bansal, P., Durand, R., Kreutzer, M., Kunisch, S., & McGahan, A. M.",
+          "year": 2024,
+          "venue": "Journal of Management Studies",
+          "url": "https://doi.org/10.1111/joms.13088",
+          "cites": 109,
+          "fwci": 84.34,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 5.18,
+          "qcat": "Business and International Management"
+        },
+        {
+          "title": "Embracing non‐Western Contexts in Management Scholarship",
+          "authors": "Wickert, C. M. J., Potočnik, K., Prashantham, S., Shi, W., & Snihur, Y.",
+          "year": 2024,
+          "venue": "Journal of Management Studies",
+          "url": "https://doi.org/10.1111/joms.13048",
+          "cites": 106,
+          "fwci": 51.24,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 5.18,
+          "qcat": "Business and International Management"
+        },
+        {
+          "title": "Critical Management Studies: A Critical Review",
+          "authors": "Spicer, A., & Alvesson, M. G.",
+          "year": 2024,
+          "venue": "Journal of Management Studies",
+          "url": "https://doi.org/10.1111/joms.13047",
+          "cites": 72,
+          "fwci": 34.67,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 5.18,
+          "qcat": "Business and International Management"
+        },
+        {
+          "title": "Boundary Conditions for Organizations in the Anthropocene: A Review of the Planetary Boundaries Framework 10 Years On",
+          "authors": "Williams, A. N., Perego, P., & Whiteman, G.",
+          "year": 2024,
+          "venue": "Journal of Management Studies",
+          "url": "https://doi.org/10.1111/joms.13150",
+          "cites": 60,
+          "fwci": 10.64,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 5.18,
+          "qcat": "Business and International Management"
+        }
+      ],
+      "count": 378
+    },
+    {
+      "topic": "OrgStud",
+      "query": "venue:S28882882",
+      "papers": [
+        {
+          "title": "Feminist Theories and Activist Practices in Organization Studies",
+          "authors": "Fotaki, M., & Pullen, A.",
+          "year": 2023,
+          "venue": "Organization Studies",
+          "url": "https://doi.org/10.1177/01708406231209861",
+          "cites": 91,
+          "fwci": 31.3,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.36,
+          "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "Maintaining the Meritocracy Myth: A critical discourse analytic study of leaders’ talk about merit and gender in academia",
+          "authors": "Clarke, J. S., Hurst, C., & Tomlinson, J.",
+          "year": 2024,
+          "venue": "Organization Studies",
+          "url": "https://doi.org/10.1177/01708406241236610",
+          "cites": 44,
+          "fwci": 26.44,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.36,
+          "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "What is ‘Neo-Craft’ Work, and Why it Matters",
+          "authors": "Gandini, A., & Gerosa, A.",
+          "year": 2023,
+          "venue": "Organization Studies",
+          "url": "https://doi.org/10.1177/01708406231213963",
+          "cites": 39,
+          "fwci": 83.86,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.36,
+          "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "Navigating Place: Extending perspectives on place in organization studies",
+          "authors": "Dacin, M. T., Zilber, T. B., Cartel, M. A., & Kibler, E.",
+          "year": 2024,
+          "venue": "Organization Studies",
+          "url": "https://doi.org/10.1177/01708406241252944",
+          "cites": 39,
+          "fwci": 18.85,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.36,
+          "qcat": "Management of Technology and Innovation"
+        }
+      ],
+      "count": 223
+    },
+    {
+      "topic": "HRM",
+      "query": "venue:S134094273",
+      "papers": [
+        {
+          "title": "The SMART model of work design: A higher order structure to help see the wood from the trees",
+          "authors": "Parker, S. K., & Knight, C.",
+          "year": 2023,
+          "venue": "Human Resource Management",
+          "url": "https://doi.org/10.1002/hrm.22200",
+          "cites": 100,
+          "fwci": 26.64,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.6,
+          "qcat": "Applied Psychology"
+        },
+        {
+          "title": "Saving face: Leveraging artificial intelligence‐based negative feedback to enhance employee job performance",
+          "authors": "Pei, J., Wang, H., Peng, Q., & Liu, S.",
+          "year": 2024,
+          "venue": "Human Resource Management",
+          "url": "https://doi.org/10.1002/hrm.22226",
+          "cites": 89,
+          "fwci": 42.86,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.6,
+          "qcat": "Applied Psychology"
+        },
+        {
+          "title": "Strategic Human Resource Management in the Era of Algorithmic Technologies: Key Insights and Future Research Agenda",
+          "authors": "Kim, S., Khoreva, V., & Vaiman, V.",
+          "year": 2024,
+          "venue": "Human Resource Management",
+          "url": "https://doi.org/10.1002/hrm.22268",
+          "cites": 78,
+          "fwci": 37.71,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.6,
+          "qcat": "Applied Psychology"
+        },
+        {
+          "title": "Dark side of algorithmic management on platform worker behaviors: A mixed‐method study",
+          "authors": "Lu, Y., Yang, M. M., Zhu, J., & Wang, Y.",
+          "year": 2024,
+          "venue": "Human Resource Management",
+          "url": "https://doi.org/10.1002/hrm.22211",
+          "cites": 75,
+          "fwci": 58.18,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.6,
+          "qcat": "Applied Psychology"
+        }
+      ],
+      "count": 213
+    },
+    {
+      "topic": "ResPol",
+      "query": "venue:S9731383",
+      "papers": [
+        {
+          "title": "Externalities and complementarities in platforms and ecosystems: From structural solutions to endogenous failures",
+          "authors": "Jacobides, M. G., Cennamo, C., & Gawer, A.",
+          "year": 2023,
+          "venue": "Research Policy",
+          "url": "https://doi.org/10.1016/j.respol.2023.104906",
+          "cites": 211,
+          "fwci": 46.37,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.47,
+          "qcat": "Engineering (miscellaneous)"
+        },
+        {
+          "title": "What is the price of a skill? The value of complementarity",
+          "authors": "Stephany, F., & Teutloff, O.",
+          "year": 2023,
+          "venue": "Research Policy",
+          "url": "https://doi.org/10.1016/j.respol.2023.104898",
+          "cites": 172,
+          "fwci": 52.46,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.47,
+          "qcat": "Engineering (miscellaneous)"
+        },
+        {
+          "title": "Focusing the ecosystem lens on innovation studies",
+          "authors": "Baldwin, C. Y., Bogers, M. L. A. M., Kapoor, R., & West, J.",
+          "year": 2024,
+          "venue": "Research Policy",
+          "url": "https://doi.org/10.1016/j.respol.2023.104949",
+          "cites": 158,
+          "fwci": 50.02,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.47,
+          "qcat": "Engineering (miscellaneous)"
+        },
+        {
+          "title": "Epidemic effects in the diffusion of emerging digital technologies: evidence from artificial intelligence adoption",
+          "authors": "Dahlke, J., Beck, M., Kinne, J., Lenz, D., Dehghan, R., Wörter, M., et al.",
+          "year": 2023,
+          "venue": "Research Policy",
+          "url": "https://doi.org/10.1016/j.respol.2023.104917",
+          "cites": 123,
+          "fwci": 22.99,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.47,
+          "qcat": "Engineering (miscellaneous)"
+        }
+      ],
+      "count": 492
+    },
+    {
+      "topic": "JIBS",
+      "query": "venue:S38024979",
+      "papers": [
+        {
+          "title": "Paradigm shift and theoretical implications for the era of global disorder",
+          "authors": "Luo, Y.",
+          "year": 2023,
+          "venue": "Journal of International Business Studies",
+          "url": "https://doi.org/10.1057/s41267-023-00659-2",
+          "cites": 137,
+          "fwci": 87.63,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.45,
+          "qcat": "Business and International Management"
+        },
+        {
+          "title": "The multinational enterprise, capabilities, and digitalization: governance and growth with world disorder",
+          "authors": "Teece, D. J.",
+          "year": 2025,
+          "venue": "Journal of International Business Studies",
+          "url": "https://doi.org/10.1057/s41267-024-00767-7",
+          "cites": 89,
+          "fwci": 90.52,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.45,
+          "qcat": "Business and International Management"
+        },
+        {
+          "title": "Sustainable international business model innovations for a globalizing circular economy: a review and synthesis, integrative framework, and opportunities for future research",
+          "authors": "Chabowski, B. R., Gabrielsson, P., Hult, G. T. M., & Morgeson, F. V.",
+          "year": 2023,
+          "venue": "Journal of International Business Studies",
+          "url": "https://doi.org/10.1057/s41267-023-00652-9",
+          "cites": 86,
+          "fwci": 18.9,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.45,
+          "qcat": "Business and International Management"
+        },
+        {
+          "title": "Dynamic capabilities framework and its transformative contributions",
+          "authors": "Cavusgil, S. T., & Deligonul, S. Z.",
+          "year": 2024,
+          "venue": "Journal of International Business Studies",
+          "url": "https://doi.org/10.1057/s41267-024-00758-8",
+          "cites": 85,
+          "fwci": 33.14,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.45,
+          "qcat": "Business and International Management"
+        }
+      ],
+      "count": 238
+    },
+    {
+      "topic": "AOS",
+      "query": "venue:S198892436",
+      "papers": [
+        {
+          "title": "Firm-specific climate risk and market valuation",
+          "authors": "Berkman, H., Jona, J., & Soderstrom, N. S.",
+          "year": 2024,
+          "venue": "Accounting Organizations and Society",
+          "url": "https://doi.org/10.1016/j.aos.2024.101547",
+          "cites": 220,
+          "fwci": 70.08,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 3.1,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Algorithmic self-referentiality: How machine learning pushes calculative practices to assess themselves",
+          "authors": "Millo, Y., Spence, C., & Xu, R.",
+          "year": 2024,
+          "venue": "Accounting Organizations and Society",
+          "url": "https://doi.org/10.1016/j.aos.2024.101567",
+          "cites": 33,
+          "fwci": 11.92,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 3.1,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Memories lost: A history of accounting records as forms of projection",
+          "authors": "Matringe, N., & Power, M.",
+          "year": 2023,
+          "venue": "Accounting Organizations and Society",
+          "url": "https://doi.org/10.1016/j.aos.2023.101514",
+          "cites": 32,
+          "fwci": 7.66,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 3.1,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Technological mediation, mediating morality and moral imaginaries of design: Performance measurement systems in the pharmaceutical industry",
+          "authors": "Bottausci, C., Robson, K., & Dambrin, C.",
+          "year": 2024,
+          "venue": "Accounting Organizations and Society",
+          "url": "https://doi.org/10.1016/j.aos.2023.101535",
+          "cites": 31,
+          "fwci": 15.02,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 3.1,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 89
+    },
+    {
+      "topic": "AJPT",
+      "query": "venue:S75845752",
+      "papers": [
+        {
+          "title": "Informativeness of Key Audit Matters: Evidence from China",
+          "authors": "Goh, B. W., Lee, J., Li, D., & Wang, M.",
+          "year": 2023,
+          "venue": "Auditing A Journal of Practice & Theory",
+          "url": "https://doi.org/10.2308/ajpt-2020-099",
+          "cites": 37,
+          "fwci": 13.79,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.32,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Audit Committee Research: Where Do We Stand, and Where Do We Go from Here?",
+          "authors": "Hermanson, D. R., Hurley, P. J., & Obermire, K. M.",
+          "year": 2023,
+          "venue": "Auditing A Journal of Practice & Theory",
+          "url": "https://doi.org/10.2308/ajpt-2023-057",
+          "cites": 22,
+          "fwci": 7.88,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.32,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Does Goodwill-Related Critical Audit Matters Disclosure Influence Firms’ Financial Reporting Decisions? Evidence from Goodwill Impairment",
+          "authors": "Jahan, N., & Karim, M. S.",
+          "year": 2023,
+          "venue": "Auditing A Journal of Practice & Theory",
+          "url": "https://doi.org/10.2308/ajpt-2022-129",
+          "cites": 20,
+          "fwci": 7.49,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.32,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Technology and Evidence in Non-Big 4 Assurance Engagements: Insights from the COVID-19 Pandemic",
+          "authors": "Altiero, E. C., Baudot, L., & Hazgui, M.",
+          "year": 2023,
+          "venue": "Auditing A Journal of Practice & Theory",
+          "url": "https://doi.org/10.2308/ajpt-2022-068",
+          "cites": 17,
+          "fwci": 5.18,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.32,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 105
+    },
+    {
+      "topic": "EAR",
+      "query": "venue:S171424506",
+      "papers": [
+        {
+          "title": "Explainability Versus Accuracy of Machine Learning Models: The Role of Task Uncertainty and Need for Interaction with the Machine Learning Model",
+          "authors": "Hammann, D., & Wouters, M. J. F.",
+          "year": 2025,
+          "venue": "European Accounting Review",
+          "url": "https://doi.org/10.1080/09638180.2025.2463961",
+          "cites": 14,
+          "fwci": 13.33,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.27,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Dissemination of Accounting Research",
+          "authors": "Osma, B. G., Enguídanos, A. M., & Pierk, J.",
+          "year": 2023,
+          "venue": "European Accounting Review",
+          "url": "https://doi.org/10.1080/09638180.2023.2276215",
+          "cites": 15,
+          "fwci": 5.92,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.27,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Local Government Fiscal Stress and Earnings Management: Evidence from China",
+          "authors": "Kong, D., Sharma, S. S., & Zhu, L.",
+          "year": 2024,
+          "venue": "European Accounting Review",
+          "url": "https://doi.org/10.1080/09638180.2024.2385709",
+          "cites": 15,
+          "fwci": 10.12,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.27,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "The Effect of Audit Partner Digitalization Expertise on Audit Fees",
+          "authors": "Maghakyan, A., Jarva, H., Niemi, L., & Sihvonen, J.",
+          "year": 2024,
+          "venue": "European Accounting Review",
+          "url": "https://doi.org/10.1080/09638180.2023.2298433",
+          "cites": 13,
+          "fwci": 8.77,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.27,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 128
+    },
+    {
+      "topic": "CPA",
+      "query": "venue:S66510378",
+      "papers": [
+        {
+          "title": "A critical review of AI in accounting education: Threat and opportunity",
+          "authors": "Ballantine, J. A., Boyce, G., & Stoner, G.",
+          "year": 2024,
+          "venue": "Critical Perspectives on Accounting",
+          "url": "https://doi.org/10.1016/j.cpa.2024.102711",
+          "cites": 128,
+          "fwci": 86.14,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 2.1,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "True transparency or mere decoupling? The study of selective disclosure in sustainability reporting",
+          "authors": "Roszkowska‐Menkes, M., Aluchna, M., & Kamiński, B.",
+          "year": 2023,
+          "venue": "Critical Perspectives on Accounting",
+          "url": "https://doi.org/10.1016/j.cpa.2023.102700",
+          "cites": 120,
+          "fwci": 26.43,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 2.1,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Artificial intelligence and qualitative research: The promise and perils of large language model (LLM) ‘assistance’",
+          "authors": "Roberts, J. D., Baker, M., & Andrew, J.",
+          "year": 2024,
+          "venue": "Critical Perspectives on Accounting",
+          "url": "https://doi.org/10.1016/j.cpa.2024.102722",
+          "cites": 96,
+          "fwci": 32.95,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 2.1,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Democratizing academic research with Artificial Intelligence: The misleading case of language",
+          "authors": "Ghio, A.",
+          "year": 2023,
+          "venue": "Critical Perspectives on Accounting",
+          "url": "https://doi.org/10.1016/j.cpa.2023.102687",
+          "cites": 30,
+          "fwci": 0.83,
+          "q": "Q1",
+          "sjr": 2.1,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 138
+    },
+    {
+      "topic": "AiE",
+      "query": "venue:S31181851",
+      "papers": [
+        {
+          "title": "An Overview of Corporate Sustainability Reporting Legislation in the European Union",
+          "authors": "Hummel, K. V., & Jobst, D.",
+          "year": 2024,
+          "venue": "Accounting in Europe",
+          "url": "https://doi.org/10.1080/17449480.2024.2312145",
+          "cites": 271,
+          "fwci": 104.65,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.96,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Double Materiality Disclosure as an Emerging Practice: The Assessment Process, Impacts, Risks, and Opportunities",
+          "authors": "Dragomir, V. D., Dumitru, M., Chersan, I., Gorgan, C., & Păunescu, M.",
+          "year": 2024,
+          "venue": "Accounting in Europe",
+          "url": "https://doi.org/10.1080/17449480.2024.2339264",
+          "cites": 71,
+          "fwci": 27.68,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.96,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Value Relevance Research in Accounting and Reporting Domains: A Bibliometric Analysis",
+          "authors": "Nicolò, G., Santis, S., Incollingo, A., & Polcini, P. T.",
+          "year": 2023,
+          "venue": "Accounting in Europe",
+          "url": "https://doi.org/10.1080/17449480.2023.2292654",
+          "cites": 51,
+          "fwci": 20.09,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.96,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Regulating Sustainability Reporting in Europe: De Jure Harmonisation or De Facto Standardisation?",
+          "authors": "Pizzi, S., Venturelli, A., & Caputo, F.",
+          "year": 2024,
+          "venue": "Accounting in Europe",
+          "url": "https://doi.org/10.1080/17449480.2024.2330976",
+          "cites": 32,
+          "fwci": 12.51,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.96,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 54
+    },
+    {
+      "topic": "SAMPJ",
+      "query": "venue:S183939566",
+      "papers": [
+        {
+          "title": "How will AI text generation and processing impact sustainability reporting? Critical analysis, a conceptual framework and avenues for future research",
+          "authors": "Villiers, C. D., Dimes, R., & Molinari, M.",
+          "year": 2023,
+          "venue": "Sustainability Accounting Management and Policy Journal",
+          "url": "https://doi.org/10.1108/sampj-02-2023-0097",
+          "cites": 152,
+          "fwci": 33.5,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.81,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Navigating the green maze: insights for businesses on consumer decision-making and the mediating role of their environmental concerns",
+          "authors": "Lopes, J. M., Gomes, S., & Trancoso, T.",
+          "year": 2024,
+          "venue": "Sustainability Accounting Management and Policy Journal",
+          "url": "https://doi.org/10.1108/sampj-07-2023-0492",
+          "cites": 66,
+          "fwci": 19.76,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.81,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "The impact of a firm’s ESG score on its cost of capital: can a high ESG score serve as a substitute for a weaker legal environment",
+          "authors": "Priem, R., & Gabellone, A.",
+          "year": 2024,
+          "venue": "Sustainability Accounting Management and Policy Journal",
+          "url": "https://doi.org/10.1108/sampj-05-2023-0254",
+          "cites": 59,
+          "fwci": 23.07,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.81,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Digital technologies and corporate green innovation: opening the “black box” of resource orchestration mechanisms",
+          "authors": "Zhou, Q., Wang, S., Ma, X., & Xu, W.",
+          "year": 2024,
+          "venue": "Sustainability Accounting Management and Policy Journal",
+          "url": "https://doi.org/10.1108/sampj-09-2023-0639",
+          "cites": 58,
+          "fwci": 22.67,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.81,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 200
+    },
+    {
+      "topic": "IJAIS",
+      "query": "venue:S38901890",
+      "papers": [
+        {
+          "title": "Challenges and opportunities for artificial intelligence in auditing: Evidence from the field",
+          "authors": "Kokina, J., Blanchette, S., Davenport, T. H., & Pachamanova, D. A.",
+          "year": 2025,
+          "venue": "International Journal of Accounting Information Systems",
+          "url": "https://doi.org/10.1016/j.accinf.2025.100734",
+          "cites": 169,
+          "fwci": 174.58,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.75,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "A scoping review of ChatGPT research in accounting and finance",
+          "authors": "Dong, M., Stratopoulos, T. C., & Wang, V. X.",
+          "year": 2024,
+          "venue": "International Journal of Accounting Information Systems",
+          "url": "https://doi.org/10.1016/j.accinf.2024.100715",
+          "cites": 94,
+          "fwci": 63.42,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.75,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Emerging digital technologies and auditing firms: Opportunities and challenges",
+          "authors": "Vitali, S., & Giuliani, M.",
+          "year": 2024,
+          "venue": "International Journal of Accounting Information Systems",
+          "url": "https://doi.org/10.1016/j.accinf.2024.100676",
+          "cites": 80,
+          "fwci": 29.79,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.75,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Enablers, barriers and strategies for adopting new technology in accounting",
+          "authors": "Jackson, D. A., & Allen, C. R.",
+          "year": 2023,
+          "venue": "International Journal of Accounting Information Systems",
+          "url": "https://doi.org/10.1016/j.accinf.2023.100666",
+          "cites": 78,
+          "fwci": 34.15,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.75,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 92
+    },
+    {
+      "topic": "BAR",
+      "query": "venue:S197396629",
+      "papers": [
+        {
+          "title": "Institutional investor ESG activism and exploratory green innovation: Unpacking the heterogeneous responses of family firms across intergenerational contexts",
+          "authors": "Wu, B., Chen, F., Li, L., Xu, L., Liu, Z., & Wu, Y.",
+          "year": 2024,
+          "venue": "The British Accounting Review",
+          "url": "https://doi.org/10.1016/j.bar.2024.101324",
+          "cites": 81,
+          "fwci": 39.25,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.71,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "The collapse of the FTX exchange: The end of cryptocurrency's age of innocence",
+          "authors": "Conlon, T., Corbet, S., & Hu, Y.",
+          "year": 2023,
+          "venue": "The British Accounting Review",
+          "url": "https://doi.org/10.1016/j.bar.2023.101277",
+          "cites": 64,
+          "fwci": 15.52,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.71,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Understanding corporate governance in China",
+          "authors": "Jiang, F., & Kim, K. A.",
+          "year": 2024,
+          "venue": "The British Accounting Review",
+          "url": "https://doi.org/10.1016/j.bar.2024.101459",
+          "cites": 61,
+          "fwci": 41.05,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.71,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Management accounting and artificial intelligence: A comprehensive literature review and recommendations for future research",
+          "authors": "Abbas, K.",
+          "year": 2025,
+          "venue": "The British Accounting Review",
+          "url": "https://doi.org/10.1016/j.bar.2025.101551",
+          "cites": 55,
+          "fwci": 49.56,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.71,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 344
+    },
+    {
+      "topic": "MAR",
+      "query": "venue:S114140714",
+      "papers": [
+        {
+          "title": "Employee benefits and company performance: Evidence from a high-dimensional machine learning model",
+          "authors": "Ranta, M., & Ylinen, M.",
+          "year": 2023,
+          "venue": "Management Accounting Research",
+          "url": "https://doi.org/10.1016/j.mar.2023.100876",
+          "cites": 42,
+          "fwci": 16.55,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.62,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Controllership effectiveness and digitalization: Shedding light on the importance of business analytics capabilities and the business partner role",
+          "authors": "Boerner, X., Wiener, M. J., & Guenther, T. W.",
+          "year": 2024,
+          "venue": "Management Accounting Research",
+          "url": "https://doi.org/10.1016/j.mar.2024.100904",
+          "cites": 24,
+          "fwci": 8.92,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.62,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Environmental management control systems and environmental innovation: Unintended consequences of the EU non-financial reporting directive",
+          "authors": "Antonini, C., & Gomez‐Conde, J.",
+          "year": 2024,
+          "venue": "Management Accounting Research",
+          "url": "https://doi.org/10.1016/j.mar.2024.100903",
+          "cites": 21,
+          "fwci": 13.48,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.62,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Digitalization of the finance function: Automation, analytics, and finance function effectiveness",
+          "authors": "Bedford, D. S., Derichs, D., Hoozée, S., Malmi, T., Messner, M., Sinha, V. K., et al.",
+          "year": 2025,
+          "venue": "Management Accounting Research",
+          "url": "https://doi.org/10.1016/j.mar.2025.100942",
+          "cites": 20,
+          "fwci": 25.79,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.62,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 50
+    },
+    {
+      "topic": "AAAJ",
+      "query": "venue:S4210224324",
+      "papers": [
+        {
+          "title": "Management accounting for a circular economy: current limits and avenue for a dialogic approach",
+          "authors": "Aureli, S., Foschi, E., & Paletta, A.",
+          "year": 2023,
+          "venue": "Accounting Auditing & Accountability Journal",
+          "url": "https://doi.org/10.1108/aaaj-04-2022-5766",
+          "cites": 36,
+          "fwci": 7.93,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.57,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Corporate sustainability reporting and information infrastructure",
+          "authors": "Troshani, I., & Rowbottom, N.",
+          "year": 2023,
+          "venue": "Accounting Auditing & Accountability Journal",
+          "url": "https://doi.org/10.1108/aaaj-01-2023-6244",
+          "cites": 35,
+          "fwci": 16.16,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.57,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Climate apartheid: the failures of accountability and climate justice",
+          "authors": "Perkiss, S.",
+          "year": 2024,
+          "venue": "Accounting Auditing & Accountability Journal",
+          "url": "https://doi.org/10.1108/aaaj-02-2024-6903",
+          "cites": 22,
+          "fwci": 3.91,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.57,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "The failure of the United Kingdom’s accounting and fiscal governance",
+          "authors": "Heald, D. A., & Hodges, R.",
+          "year": 2024,
+          "venue": "Accounting Auditing & Accountability Journal",
+          "url": "https://doi.org/10.1108/aaaj-06-2023-6513",
+          "cites": 21,
+          "fwci": 13.45,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.57,
+          "qcat": "Accounting"
+        }
+      ],
+      "count": 255
     }
   ]
 }
