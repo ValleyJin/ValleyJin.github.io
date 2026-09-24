@@ -289,9 +289,9 @@ permalink: /articles/
         <div class="mcallout"><div class="mco-title mono" style="color:var(--accent)">왜 SCImago(SJR)?</div><p style="margin:0;color:var(--ink-soft);font-size:13.5px;line-height:1.7">JCR의 JIF·분위는 <b>구독 전용(유료)</b>이라 무료 자동 수집이 불가합니다. SCImago는 전체 랭크를 무료 CSV로 공개해 <b>하드코딩 없이 매 갱신 자동 반영</b>이 가능한 유일한 선택이었습니다. 그래서 이 사이트의 모든 Q 배지 = <b>SCImago SJR 분위</b>입니다.</p></div>
       </section>
 
-      <p class="mlead">저와 비슷한 분야를 연구하는 분들을 위해 만들었습니다. 자세한 내용은 해설을 봐주세요 !</p>
+      <p class="mlead mlead-c">해설지</p>
 
-      <div class="section-head" style="margin:26px 0 8px"><h2>1 · 저널·학회 수준 <span class="mh-sub mono">어디에 실렸나</span></h2></div>
+      <div class="section-head" style="margin:26px 0 8px"><h2>Level 1) 저널/학회 수준 <span class="mh-sub mono">어디에 실렸나</span></h2></div>
       <p class="mnote"><b>Q1~Q4(사분위)</b>: 한 <b>주제 카테고리</b> 안에서 저널을 특정 지표로 순위 매겨 4등분 — 상위 25%가 <span class="qbadge q1">Q1</span>, 이어 <span class="qbadge q2">Q2</span> <span class="qbadge q3">Q3</span> <span class="qbadge q4">Q4</span>. 같은 저널도 <b>카테고리마다 분위가 다릅니다.</b> 두 생태계(Clarivate JCR = JIF 기준 / Scopus·SCImago = SJR·CiteScore 기준)의 분위가 조금씩 다릅니다.</p>
       <div class="mtable-wrap"><table class="mtable">
         <thead><tr><th>지표</th><th>무엇을 보나</th><th>확인</th></tr></thead>
@@ -332,7 +332,7 @@ permalink: /articles/
       </table></div>
       <p class="mnote" style="margin-top:12px"><b>A*</b>("A-star")는 그 분야 최고 학회 — NeurIPS·ICML·ICLR·CVPR이 전부 A*입니다. CS에선 학회가 저널보다 권위 있어 <b>A* 학회 논문 ≈ 저널 Q1(또는 그 이상)</b> 수준으로 봅니다. 출처: <a href="https://portal.core.edu.au/conf-ranks/" target="_blank" rel="noopener">CORE Portal ↗</a>(무료) — 매 갱신마다 받아 자동 매칭(하드코딩 아님).</p>
 
-      <div class="section-head" style="margin:30px 0 8px"><h2>2 · 논문 수준 <span class="mh-sub mono">그 논문이 얼마나 인정받나</span></h2></div>
+      <div class="section-head" style="margin:30px 0 8px"><h2>Level 2) 논문 수준 <span class="mh-sub mono">그 논문이 얼마나 인정받나</span></h2></div>
       <p class="mnote">저널이 좋아도 개별 논문은 다를 수 있어 <b>논문 단위</b>가 더 정확합니다. 이 사이트 논문 카드의 <b>FWCI · Top 1%/10%</b>가 여기에 해당합니다.</p>
       <div class="mtable-wrap"><table class="mtable">
         <thead><tr><th>지표</th><th>의미</th><th>확인</th></tr></thead>
@@ -345,7 +345,7 @@ permalink: /articles/
         </tbody>
       </table></div>
 
-      <div class="section-head" style="margin:30px 0 8px"><h2>3 · 저자 수준 <span class="mh-sub mono">누적 실적</span></h2></div>
+      <div class="section-head" style="margin:30px 0 8px"><h2>Level 3) 저자 수준 <span class="mh-sub mono">누적 실적</span></h2></div>
       <div class="mtable-wrap"><table class="mtable">
         <thead><tr><th>지표</th><th>의미</th></tr></thead>
         <tbody>
@@ -435,6 +435,7 @@ permalink: /articles/
   <script type="application/json" id="scholars-data">{{ site.data.scholars.scholars | jsonify }}</script>
   <script type="application/json" id="venues-data">{{ site.data.venues | jsonify }}</script>
   <script type="application/json" id="scatter-data">{{ site.data.scatter_venues | jsonify }}</script>
+  <script type="application/json" id="vnotes-data">{{ site.data.venue_notes.notes | jsonify }}</script>
   <script>
     /* 공유 가능한 딥링크: 탭·토픽·날짜를 URL 해시에 인코딩(#tab=topics&topic=SMJ&date=…) */
     window.AState=(function(){
@@ -457,6 +458,7 @@ permalink: /articles/
       try{ var sv=(JSON.parse((document.getElementById('scatter-data')||{}).textContent||'{}')||{}).venues||{};
         Object.keys(sv).forEach(function(k){ var v=sv[k]; if(v.type==='journal'&&v.q&&v.sjr!=null) journals.push(v); }); }catch(e){}
       if(!journals.length && !confs.length){ return; }
+      var vnotes={}; try{ vnotes=JSON.parse((document.getElementById('vnotes-data')||{}).textContent||'{}')||{}; }catch(e){}   // 큐레이션 노트(직접 조사)
       var PX=9, PY=12;   // 축 여백(%)
       function median(a){ var s=a.slice().sort(function(x,y){return x-y;}),m=s.length>>1; return s.length?(s.length%2?s[m]:(s[m-1]+s[m])/2):0; }
       // t분포 양측검정 p값: p = I_{df/(df+t²)}(df/2, 1/2) (정규화 불완전베타, Numerical Recipes)
@@ -629,28 +631,33 @@ permalink: /articles/
           'Futures Studies':'예측·시나리오 방법에 <b>실증 데이터(특허·텍스트·패널)</b>를 더해 정책적 함의를 제시하라.',
           'Research Methods':'기존 방법의 한계를 정량적으로 보이고 <b>개선된 측정·추정·설계</b>를 시뮬레이션·재분석으로 검증하라.',
           'AI':'<b>SOTA 대비 명확한 개선 + ablation + 공개 재현(코드·데이터)</b>로 기여를 입증하라.'};
-        var mh=_MH[v.group]||'', ma=_MA[v.group]||'주제 흐름에 맞는 견고한 실증·이론 기여를 결합하라.';
-        var dir = (t3 ? '<b>최근 3년 활발 주제</b>: '+esc(t3.join(' · '))+'. ' : '주제 범위(SCImago 분류): <b>'+esc(cats)+'</b>. ')
-          + mh + (t3?'':' <span class="qd-mut">(최근 주제 데이터가 없어 분류 기준으로 표시)</span>');
+        var ma=_MA[v.group]||'주제 흐름에 맞는 견고한 실증·이론 기여를 결합하라.';
+        var note=vnotes[v.label]||{};
+        var t3line=t3?' <span class="qd-mut">· 최근 3년 데이터상 활발 주제: '+esc(t3.join(' · '))+'.</span>':'';
+        // 소개/저널 방향/공략 = 큐레이션 노트(직접 조사) 우선, 없으면 데이터 기반 자동생성
+        var intro = note.intro ? esc(note.intro) : (esc(v.name||v.label)+' — <b>'+esc(v.group||'')+'</b> 분야 학술지.'
+          +(v.founded?' <b>'+esc(v.founded)+'년 창간.</b>':'')+(v.about?' '+esc(v.about):'')+' <span class="qd-mut">카테고리: '+esc(cats)+'.</span>');
+        var dir = note.direction ? (esc(note.direction)+t3line)
+          : (t3 ? '<b>최근 3년 활발 주제</b>: '+esc(t3.join(' · '))+'. 가장 활발: <b>'+esc(t3[0])+'</b>.' : '주제 범위(SCImago 분류): <b>'+esc(cats)+'</b>. <span class="qd-mut">(최근 주제 데이터 없음)</span>');
         var qtxt=({q1:'상위 25%',q2:'상위 25~50%',q3:'상위 50~75%',q4:'하위 25%'}[qcl]||'');
         var posadv = (v.if2==null)? 'SJR 위상 <b>'+jTier(v.sjr)+'</b>('+esc(q)+') 기준으로 접근하세요.'
           : below ? '회귀선 <b>아래</b>(인용 대비 권위 낮은 편) — <b>최상위 저널의 인용</b>을 끌 만한 참신한 주제·정교함이 관건.'
                   : '회귀선 <b>위</b>(인용 대비 권위 높은 편) — 정통 저널. 파급력 큰 주제로 확장 여지.';
-        var pt = (t3? '<b>노려볼 주제</b>: '+esc(t3.slice(0,3).join(', '))+' 계열에 맞닿은 기여가 유리. ' : '')
-          + '<b>방법</b>: '+ma+' '+posadv+' 분위 <b>'+esc(q)+'</b>('+qtxt+').';
+        var pt = note.attack ? (esc(note.attack)+' <span class="qd-mut">분위 '+esc(q)+'('+qtxt+') · '+(below?'회귀선 아래':'회귀선 위')+'.</span>')
+          : ((t3? '<b>노려볼 주제</b>: '+esc(t3.slice(0,3).join(', '))+' 계열에 맞닿은 기여가 유리. ' : '')+'<b>방법</b>: '+ma+' '+posadv+' 분위 <b>'+esc(q)+'</b>('+qtxt+').');
         // 썸네일: ①Elsevier/ScienceDirect는 ISSN으로 실제 표지(ars.els-cdn) ②그 외는 출판사 로고(파비콘) ③실패 시 약칭 타일
         var _host=''; try{ _host=new URL(v.link).hostname.replace(/^www\./,''); }catch(e){}
         var _logo=(_host && _host.indexOf('scimagojr')<0)?('https://www.google.com/s2/favicons?sz=128&domain='+encodeURIComponent(_host)):'';
         var _issn8=String(v.issn||'').replace(/[^0-9Xx]/g,'').toUpperCase();
         var _cover=(_issn8.length===8 && /sciencedirect\.com|elsevier/.test(v.link||''))?('https://ars.els-cdn.com/content/image/X'+_issn8+'.jpg'):'';
-        var _covs=[]; if(_cover) _covs.push(_cover); if(v.ogimg) _covs.push(v.ogimg);   // 표지 → og:image(홈피 대표 이미지) → (로고/타일)
+        var _covs=[]; if(_cover) _covs.push(_cover); if(v.wimg) _covs.push(v.wimg); if(v.ogimg) _covs.push(v.ogimg);   // 표지 → Wikipedia 대표이미지 → og:image → (로고/타일)
         jdet.className='qdetail qd-open';
         jdet.innerHTML='<button type="button" class="qd-x" aria-label="닫기">×</button>'
           +'<div class="qd-cover '+qcl+'">'+(_logo?'<img class="qd-logo" src="'+esc(_logo)+'" alt="" loading="lazy" onerror="this.remove()">':'')+'<span class="qd-ac mono">'+esc(v.label)+'</span><span class="qd-grp mono">'+esc(v.group||'')+'</span></div>'
           +'<div class="qd-body">'
             +'<div class="qd-h">'+(v.link?'<a href="'+esc(v.link)+'" target="_blank" rel="noopener">'+esc(v.name||v.label)+' ↗</a>':esc(v.name||v.label))+'</div>'
             +'<div class="qd-chips">'+chips+'</div>'
-            +'<div class="qd-sec"><span class="qd-lbl mono">소개</span><p>'+esc(v.name||v.label)+' — <b>'+esc(v.group||'')+'</b> 분야 학술지. 카테고리: '+esc(cats)+'.</p></div>'
+            +'<div class="qd-sec"><span class="qd-lbl mono">소개</span><p>'+intro+'</p></div>'
             +'<div class="qd-sec"><span class="qd-lbl mono">저널 방향</span><p>'+dir+'</p></div>'
             +'<div class="qd-sec"><span class="qd-lbl mono">공략 포인트</span><p>'+pt+'</p></div>'
           +'</div>';
@@ -682,13 +689,18 @@ permalink: /articles/
           +(v.h!=null?'<span class="qd-chip">h '+esc(v.h)+'</span>':'')
           +(v.i10!=null?'<span class="qd-chip">i10 '+esc(v.i10)+'</span>':'')
           +(v.works?'<span class="qd-chip">논문 '+esc(v.works)+'</span>':'');
-        var intro=esc(v.name||v.label)+' — <b>AI 학회</b>. 컴퓨터과학에서는 <b>학회가 곧 최상위 저널</b> 역할이라, 저널의 Q1~Q4 대신 <b>CORE 등급</b>과 <b>h·i10</b>로 위상을 봅니다. CORE <b>'+esc(crk||'—')+'</b> = '+(_CRW[crk]||'등급 정보 없음')+'.';
-        var dir=t3 ? '<b>최근 3년 활발 주제</b>: '+esc(t3.join(' · '))+'. 최근 채택(발표)이 활발한 흐름입니다.'
-                   : '최근 주제 데이터가 없어 CORE 등급·h/i10 기준으로 읽으세요.';
+        var note=vnotes[v.label]||{};
+        var t3line=t3?' <span class="qd-mut">· 최근 3년 데이터상 활발 주제: '+esc(t3.join(' · '))+'.</span>':'';
         var strong=(crk==='A*'||crk==='A');
-        var pt=(t3?'<b>노려볼 주제</b>: '+esc(t3.slice(0,3).join(', '))+' 계열. ':'')
+        var intro = note.intro ? (esc(note.intro)+' <span class="qd-mut">CS에선 학회가 곧 최상위 저널 — CORE '+esc(crk||'—')+', h·i10으로 위상을 봅니다.</span>')
+          : (esc(v.name||v.label)+' — <b>AI 학회</b>.'+(v.founded?' <b>'+esc(v.founded)+'년 시작.</b>':'')+(v.about?' '+esc(v.about):'')
+          +' <span class="qd-mut">CS에선 학회가 곧 최상위 저널 — Q1~Q4 대신 CORE 등급·h·i10으로 봅니다. CORE '+esc(crk||'—')+' = '+(_CRW[crk]||'등급 정보 없음')+'.</span>');
+        var dir = note.direction ? (esc(note.direction)+t3line)
+          : (t3 ? '<b>최근 3년 활발 주제</b>: '+esc(t3.join(' · '))+'. 최근 채택(발표)이 활발한 흐름입니다.' : '최근 주제 데이터가 없어 CORE 등급·h/i10 기준으로 읽으세요.');
+        var pt = note.attack ? (esc(note.attack)+' <span class="qd-mut">(A* 학회 논문 ≈ 저널 Q1 이상)</span>')
+          : ((t3?'<b>노려볼 주제</b>: '+esc(t3.slice(0,3).join(', '))+' 계열. ':'')
           +'<b>방법</b>: '+(strong?'SOTA 대비 <b>명확한 성능 개선</b> + 철저한 <b>ablation</b> + <b>재현 가능한 공개(코드·데이터)</b>가 사실상 필수. 참신성과 벤치마크 설득력이 핵심.':'견고한 실험 설계·재현성을 갖추면 게재 가능성이 높습니다.')
-          +' <span class="qd-mut">(A* 학회 논문 ≈ 저널 Q1 이상 수준)</span>';
+          +' <span class="qd-mut">(A* 학회 논문 ≈ 저널 Q1 이상 수준)</span>');
         var _host=''; try{_host=new URL(v.link).hostname.replace(/^www\./,'');}catch(e){}
         var _logo=_host?('https://www.google.com/s2/favicons?sz=128&domain='+encodeURIComponent(_host)):'';
         jdet.className='qdetail qd-open';
@@ -702,6 +714,7 @@ permalink: /articles/
             +'<div class="qd-sec"><span class="qd-lbl mono">공략 포인트</span><p>'+pt+'</p></div>'
           +'</div>';
         jdet.hidden=false;
+        if(v.wimg){ var _im=new Image(); _im.onload=function(){ var cov=jdet.querySelector('.qd-cover'); if(cov && !cov.classList.contains('has-cover')){ cov.classList.add('has-cover'); cov.innerHTML='<img class="qd-cover-img" src="'+esc(v.wimg)+'" alt="'+esc((v.name||'')+' 이미지')+'">'; } }; _im.src=v.wimg; }
       }
       if(cview){ cview.addEventListener('click',function(e){ var dot=e.target.closest?e.target.closest('.qdot'):null;
         if(dot){ e.preventDefault(); renderCDetail(cByLabel[dot.getAttribute('data-lab')]); } }); }

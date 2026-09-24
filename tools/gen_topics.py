@@ -574,6 +574,59 @@ def recent_topics(sid, cutoff, n=4):
         return []
 
 
+_WP_UA = {"User-Agent": f"valleyjin-web ({MAILTO})", "Accept": "application/json"}
+
+
+def _wp_summary(title):
+    """Wikipedia 요약 REST → (설명 extract, 대표 썸네일, Wikidata QID). SPARQL 없이 빠름·차단 없음."""
+    if not title:
+        return "", "", ""
+    url = "https://en.wikipedia.org/api/rest_v1/page/summary/" + urllib.parse.quote(title.replace(" ", "_"), safe="")
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=_WP_UA), timeout=20) as r:
+            d = json.load(r)
+    except Exception:
+        return "", "", ""
+    if d.get("type") == "disambiguation":
+        return "", "", ""
+    ext = (d.get("extract") or "").strip()
+    thumb = (d.get("originalimage") or d.get("thumbnail") or {}).get("source", "")
+    return ext, thumb, (d.get("wikibase_item") or "")
+
+
+def _wd_inception(qid):
+    """Wikidata EntityData REST(CDN 캐시, 빠름)에서 창간연도 P571만 읽는다."""
+    if not qid:
+        return ""
+    try:
+        url = "https://www.wikidata.org/wiki/Special:EntityData/" + qid + ".json"
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": _WP_UA["User-Agent"]}), timeout=20) as r:
+            claims = ((((json.load(r).get("entities") or {}).get(qid) or {}).get("claims")) or {})
+    except Exception:
+        return ""
+    for c in (claims.get("P571") or []):
+        t = (((c.get("mainsnak") or {}).get("datavalue") or {}).get("value") or {}).get("time", "")
+        m = re.match(r"\+?(\d{4})", t)
+        if m:
+            return m.group(1)
+    return ""
+
+
+def wiki_meta(issn="", name=""):
+    """저널/학회의 창간연도·설명·대표이미지 — Wikipedia 요약(이름)으로 extract·썸네일·QID를 받고,
+    QID로 창간연도(P571)를 조회. SPARQL 미사용."""
+    about, wimg, qid = _wp_summary(name)
+    founded = _wd_inception(qid) if qid else ""
+    out = {}
+    if founded:
+        out["founded"] = int(founded)
+    if about:
+        out["about"] = about[:220]
+    if wimg:
+        out["wimg"] = wimg
+    return out
+
+
 def fetch_ogimage(url):
     """저널/학회 홈페이지의 대표 이미지(og:image·twitter:image) URL을 추출.
     표지를 못 찾았을 때의 1차 폴백 배경으로 사용. 실패(차단·없음)해도 빈 문자열."""
@@ -684,6 +737,7 @@ def build_venues(topics, sci, core=None, cutoff=None):
             og = fetch_ogimage(link)
             if og:
                 v["ogimg"] = og
+            v.update(wiki_meta(issn=(v.get("issn") or ""), name=v.get("name") or ""))   # 창간연도·설명·대표이미지
             out[label] = v
         elif query.startswith("s2:"):
             full = CONF_FULLNAME.get(label, query[3:].strip())
@@ -703,6 +757,7 @@ def build_venues(topics, sci, core=None, cutoff=None):
             og = fetch_ogimage(link)
             if og:
                 v["ogimg"] = og
+            v.update(wiki_meta(name=v.get("name") or CONF_FULLNAME.get(label, "")))   # 설립연도·설명·대표이미지(학회는 이름 경로)
             v.update(conf_rank(v.get("name"), core, label))   # CORE 등급(A*/A/B/C)
             out[label] = v
         if label in out:
