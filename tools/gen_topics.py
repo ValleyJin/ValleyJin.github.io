@@ -556,6 +556,23 @@ def resolve_journal_ids(topics):
     return out
 
 
+def recent_topics(sid, cutoff, n=5):
+    """OpenAlex works를 source+최근기간으로 topics.id 그룹집계 → 최근 활발 주제 상위 n개(이름).
+    저널/학회의 '최근 3년 주로 다뤄진 주제' 요약에 사용."""
+    if not sid:
+        return []
+    try:
+        url = _oa(API + "?filter=locations.source.id:" + sid + ",from_publication_date:" + cutoff
+                  + "&group_by=topics.id&per_page=1&mailto=" + MAILTO)
+        req = urllib.request.Request(url, headers={"User-Agent": f"valleyjin-topics ({MAILTO})"})
+        with urllib.request.urlopen(req, timeout=40) as r:
+            g = json.load(r).get("group_by") or []
+        return [x.get("key_display_name") for x in g[:n] if x.get("key_display_name") and x.get("key_display_name") != "Unknown"]
+    except Exception as e:
+        sys.stderr.write(f"  ! recent_topics {sid}: {e}\n")
+        return []
+
+
 def _field_of(src):
     tp = (src.get("topics") or [])
     if not tp:
@@ -597,13 +614,15 @@ def _venue_group(label, v):
     return v.get("field") or "Other"
 
 
-def build_venues(topics, sci, core=None):
+def build_venues(topics, sci, core=None, cutoff=None):
     """토픽의 학회/저널별 영향력지수·분야 → venues.json. 저널은 SJR·Q(분야별)·IF·h,
-    학회는 h-index·논문수·분야(OpenAlex) + CORE 등급(A*/A/B/C)."""
+    학회는 h-index·논문수·분야(OpenAlex) + CORE 등급(A*/A/B/C).
+    cutoff(최근 N년) 주면 그 기간 활발 주제 상위 topics3y도 부착."""
     out = {}
     for label, query, link in topics:
         if query.startswith("venue:"):
-            src = _oa_source_by_id(query[6:])
+            sid = query[6:].strip()
+            src = _oa_source_by_id(sid)
             if not src:
                 continue
             ss = src.get("summary_stats") or {}
@@ -625,6 +644,10 @@ def build_venues(topics, sci, core=None):
                  "domain": f.get("domain"), "field": f.get("field"), "sub": f.get("sub")}
             if sc:
                 v["sjr"] = sc.get("sjr"); v["q"] = sc.get("q"); v["cats"] = sc.get("cats")
+            if cutoff:
+                tp = recent_topics(sid, cutoff)
+                if tp:
+                    v["topics3y"] = tp
             out[label] = v
         elif query.startswith("s2:"):
             full = CONF_FULLNAME.get(label, query[3:].strip())
@@ -637,6 +660,10 @@ def build_venues(topics, sci, core=None):
                           "i10": ss.get("i10_index"),
                           "works": src.get("works_count"), "domain": f.get("domain"),
                           "field": f.get("field"), "sub": f.get("sub")})
+                if cutoff:
+                    tp = recent_topics((src.get("id") or "").rsplit("/", 1)[-1], cutoff)
+                    if tp:
+                        v["topics3y"] = tp
             v.update(conf_rank(v.get("name"), core, label))   # CORE 등급(A*/A/B/C)
             out[label] = v
         if label in out:
@@ -663,7 +690,7 @@ def main():
     core = load_core()                                         # 학회 A*/A/B/C (CORE)
 
     # 토픽 학회/저널의 영향력지수·분야 → venues.json (칩 선택 시 표시)
-    venues_meta = build_venues(topics, scimago, core)
+    venues_meta = build_venues(topics, scimago, core, cutoff=cutoff)
     if venues_meta:
         VENUES.write_text(json.dumps({"generated": date.today().isoformat(), "venues": venues_meta},
                                      ensure_ascii=False, indent=2), encoding="utf-8")

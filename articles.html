@@ -568,13 +568,26 @@ permalink: /articles/
           +'<span class="qd-chip">SJR '+esc(v.sjr)+'</span>'
           +(v.if2!=null?'<span class="qd-chip">2yr IF '+esc(v.if2)+'</span>':'')
           +(v.works?'<span class="qd-chip">논문 '+esc(v.works)+'</span>':'');
-        var dir='<b>SJR '+esc(v.sjr)+'</b>는 인용을 <b>출처 저널의 권위로 가중</b>한 값 → 이 저널의 위상은 <b>'+jTier(v.sjr)+'</b>. '
-          +(v.if2!=null?'<b>2yr IF '+esc(v.if2)+'</b>(논문당 평균 피인용)는 <b>'+ifTierT(v.if2)+'</b>. ':'')
-          +'주제 범위: '+esc(cats)+'.';
-        var pt;
-        if(v.if2==null){ pt='IF 값이 없어 인용량 비교는 생략. SCImago <b>'+esc(q)+'</b> · SJR 위상 <b>'+jTier(v.sjr)+'</b> 기준으로 읽으세요.'; }
-        else if(below){ pt='회귀선 <b>아래</b> — 인용량(IF) 대비 <b>권위(SJR)가 낮은 편</b>. 인용은 받지만 <b>최상위 저널로부터의 인용 비중</b>을 높이면 위상이 오릅니다. 분위 <b>'+esc(q)+'</b>('+({q1:'상위 25%',q2:'상위 25~50%',q3:'상위 50~75%',q4:'하위 25%'}[qcl]||'')+').'; }
-        else { pt='회귀선 <b>위</b> — 인용량 대비 <b>권위(SJR)가 높은 편</b>. 소수라도 <b>권위 저널의 인용</b>을 받는 정통 저널. 분위 <b>'+esc(q)+'</b>('+({q1:'상위 25%',q2:'상위 25~50%',q3:'상위 50~75%',q4:'하위 25%'}[qcl]||'')+').'; }
+        var t3=(v.topics3y&&v.topics3y.length)?v.topics3y.slice(0,5):null;
+        var _MH={'Strategy':'방법 경향은 <b>이론 기여가 뚜렷한 설계</b> — 대규모 패널·종단 데이터, 인과 식별(자연실험·도구변수), 정량+정성 다방법.',
+          'Accounting':'방법 경향은 <b>아카이벌 실증 중심</b> — 회귀·인과 식별(DiD·PSM), 공시/시장 데이터, 일부 실험·설문.',
+          'Futures Studies':'방법 경향은 <b>예측·시나리오·시스템 접근</b> — 계량 예측, 델파이, 텍스트/특허 분석 등 혼합방법에 개방적.',
+          'Research Methods':'방법 경향은 <b>방법 자체가 기여</b> — 측정·추정·설계(구조방정식, 다층모형, 메타분석, 시뮬레이션).',
+          'AI':'방법 경향은 <b>재현 가능한 실험</b> — 벤치마크 성능, ablation, 이론적 보증, 공개 코드/데이터.'};
+        var _MA={'Strategy':'강한 이론적 앵글에 <b>인과 식별(자연실험·IV)</b> 또는 정교한 정성 사례를 결합하라.',
+          'Accounting':'<b>명확한 식별 전략(DiD·PSM)</b>과 견고성 검증을 갖춘 아카이벌 실증이 안전하다.',
+          'Futures Studies':'예측·시나리오 방법에 <b>실증 데이터(특허·텍스트·패널)</b>를 더해 정책적 함의를 제시하라.',
+          'Research Methods':'기존 방법의 한계를 정량적으로 보이고 <b>개선된 측정·추정·설계</b>를 시뮬레이션·재분석으로 검증하라.',
+          'AI':'<b>SOTA 대비 명확한 개선 + ablation + 공개 재현(코드·데이터)</b>로 기여를 입증하라.'};
+        var mh=_MH[v.group]||'', ma=_MA[v.group]||'주제 흐름에 맞는 견고한 실증·이론 기여를 결합하라.';
+        var dir = (t3 ? '<b>최근 3년 활발 주제</b>: '+esc(t3.join(' · '))+'. ' : '주제 범위(SCImago 분류): <b>'+esc(cats)+'</b>. ')
+          + mh + (t3?'':' <span class="qd-mut">(최근 주제 데이터가 없어 분류 기준으로 표시)</span>');
+        var qtxt=({q1:'상위 25%',q2:'상위 25~50%',q3:'상위 50~75%',q4:'하위 25%'}[qcl]||'');
+        var posadv = (v.if2==null)? 'SJR 위상 <b>'+jTier(v.sjr)+'</b>('+esc(q)+') 기준으로 접근하세요.'
+          : below ? '회귀선 <b>아래</b>(인용 대비 권위 낮은 편) — <b>최상위 저널의 인용</b>을 끌 만한 참신한 주제·정교함이 관건.'
+                  : '회귀선 <b>위</b>(인용 대비 권위 높은 편) — 정통 저널. 파급력 큰 주제로 확장 여지.';
+        var pt = (t3? '<b>노려볼 주제</b>: '+esc(t3.slice(0,3).join(', '))+' 계열에 맞닿은 기여가 유리. ' : '')
+          + '<b>방법</b>: '+ma+' '+posadv+' 분위 <b>'+esc(q)+'</b>('+qtxt+').';
         // 썸네일: 저널지 표지는 무료·핫링크 공개 출처가 없어, 홈페이지 출판사 로고(파비콘)를 얹고 실패 시 약칭 타일 폴백
         var _host=''; try{ _host=new URL(v.link).hostname.replace(/^www\./,''); }catch(e){}
         var _logo=(_host && _host.indexOf('scimagojr')<0)?('https://www.google.com/s2/favicons?sz=128&domain='+encodeURIComponent(_host)):'';

@@ -846,6 +846,7 @@ img{max-width:100%;display:block}
 .qd-lbl{display:inline-block;font-size:10px;letter-spacing:.6px;text-transform:uppercase;color:var(--accent);margin-bottom:2px}
 .qd-sec p{margin:0;font-size:13px;line-height:1.6;color:var(--ink-soft)}
 .qd-sec p b{color:var(--ink);font-weight:600}
+.qd-mut{color:var(--muted);font-size:11.5px}
 @media(max-width:560px){.qdetail{grid-template-columns:1fr;gap:12px}.qd-cover{height:78px;flex-direction:row;gap:12px}.qd-ac{font-size:20px}}
 
 /* 학력 전공 특화 표기 (tangerine) */
