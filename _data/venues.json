@@ -454,6 +454,626 @@
         ]
       ],
       "group": "Strategy"
+    },
+    "ORM": {
+      "name": "Organizational Research Methods",
+      "type": "journal",
+      "link": "http://www.sagepub.com/journals/Journal200894/title",
+      "h": 187,
+      "if2": 7.4,
+      "works": 963,
+      "issn": "1094-4281",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Organizational Behavior and Human Resource Management",
+      "sjr": 14.27,
+      "q": "Q1",
+      "cats": [
+        [
+          "Decision Sciences (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "AMR": {
+      "name": "Academy of Management Review",
+      "type": "journal",
+      "link": "http://aom.org/amr/",
+      "h": 603,
+      "if2": 8.7,
+      "works": 5706,
+      "issn": "0363-7425",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Organizational Behavior and Human Resource Management",
+      "sjr": 10.0,
+      "q": "Q1",
+      "cats": [
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "JoM": {
+      "name": "Journal of Management",
+      "type": "journal",
+      "link": "http://www.sagepub.com/journals/Journal201724/title",
+      "h": 401,
+      "if2": 10.0,
+      "works": 3407,
+      "issn": "0149-2063",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Organizational Behavior and Human Resource Management",
+      "sjr": 8.25,
+      "q": "Q1",
+      "cats": [
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "OrgSci": {
+      "name": "Organization Science",
+      "type": "journal",
+      "link": "http://orgsci.pubs.informs.org/",
+      "h": 390,
+      "if2": 7.7,
+      "works": 2799,
+      "issn": "1047-7039",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 7.93,
+      "q": "Q1",
+      "cats": [
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "MgmtSci": {
+      "name": "Management Science",
+      "type": "journal",
+      "link": "http://pubsonline.informs.org/journal/mnsc",
+      "h": 480,
+      "if2": 6.3,
+      "works": 13830,
+      "issn": "0025-1909",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Management Information Systems",
+      "sjr": 6.43,
+      "q": "Q1",
+      "cats": [
+        [
+          "Management Science and Operations Research",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "JMS": {
+      "name": "Journal of Management Studies",
+      "type": "journal",
+      "link": "https://onlinelibrary.wiley.com/journal/14676486",
+      "h": 300,
+      "if2": 7.1,
+      "works": 3766,
+      "issn": "0022-2380",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Organizational Behavior and Human Resource Management",
+      "sjr": 5.18,
+      "q": "Q1",
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "OrgStud": {
+      "name": "Organization Studies",
+      "type": "journal",
+      "link": "http://www.sagepub.com/journals/Journal201657/title",
+      "h": 260,
+      "if2": 3.8,
+      "works": 4295,
+      "issn": "0170-8406",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Organizational Behavior and Human Resource Management",
+      "sjr": 4.36,
+      "q": "Q1",
+      "cats": [
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "HRM": {
+      "name": "Human Resource Management",
+      "type": "journal",
+      "link": "https://onlinelibrary.wiley.com/journal/1099050X",
+      "h": 175,
+      "if2": 6.7,
+      "works": 3747,
+      "issn": "0090-4848",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Organizational Behavior and Human Resource Management",
+      "sjr": 4.6,
+      "q": "Q1",
+      "cats": [
+        [
+          "Applied Psychology",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "ResPol": {
+      "name": "Research Policy",
+      "type": "journal",
+      "link": "https://www.journals.elsevier.com/research-policy",
+      "h": 405,
+      "if2": 8.3,
+      "works": 5309,
+      "issn": "0048-7333",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 4.47,
+      "q": "Q1",
+      "cats": [
+        [
+          "Engineering (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Management Science and Operations Research",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "JIBS": {
+      "name": "Journal of International Business Studies",
+      "type": "journal",
+      "link": "http://www.jibs.net/",
+      "h": 346,
+      "if2": 8.6,
+      "works": 3334,
+      "issn": "0047-2506",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 4.45,
+      "q": "Q1",
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q1"
+        ],
+        [
+          "Management of Technology and Innovation",
+          "Q1"
+        ],
+        [
+          "Strategy and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Strategy"
+    },
+    "AOS": {
+      "name": "Accounting Organizations and Society",
+      "type": "journal",
+      "link": "https://www.journals.elsevier.com/accounting-organizations-and-society",
+      "h": 256,
+      "if2": 7.5,
+      "works": 2226,
+      "issn": "0361-3682",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Management Information Systems",
+      "sjr": 3.1,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Applied Psychology",
+          "Q1"
+        ],
+        [
+          "Information Systems and Management",
+          "Q1"
+        ],
+        [
+          "Organizational Behavior and Human Resource Management",
+          "Q1"
+        ],
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "AJPT": {
+      "name": "Auditing A Journal of Practice & Theory",
+      "type": "journal",
+      "link": "https://openalex.org/S75845752",
+      "h": 139,
+      "if2": 1.8,
+      "works": 1524,
+      "issn": "0278-0380",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 2.32,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "EAR": {
+      "name": "European Accounting Review",
+      "type": "journal",
+      "link": "https://www.tandfonline.com/toc/rear20/current",
+      "h": 132,
+      "if2": 2.8,
+      "works": 1680,
+      "issn": "0963-8180",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 2.27,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Aerospace Engineering",
+          "Q1"
+        ],
+        [
+          "Arts and Humanities (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Automotive Engineering",
+          "Q1"
+        ],
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Economics and Econometrics",
+          "Q1"
+        ],
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "History",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "CPA": {
+      "name": "Critical Perspectives on Accounting",
+      "type": "journal",
+      "link": "https://www.journals.elsevier.com/critical-perspectives-on-accounting",
+      "h": 127,
+      "if2": 5.9,
+      "works": 2402,
+      "issn": "1045-2354",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Management Information Systems",
+      "sjr": 2.1,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "Information Systems and Management",
+          "Q1"
+        ],
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "AiE": {
+      "name": "Accounting in Europe",
+      "type": "journal",
+      "link": "https://www.tandfonline.com/toc/raie20/current",
+      "h": 58,
+      "if2": 9.7,
+      "works": 372,
+      "issn": "1744-9480",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 1.96,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "SAMPJ": {
+      "name": "Sustainability Accounting Management and Policy Journal",
+      "type": "journal",
+      "link": "http://www.emeraldinsight.com/products/journals/journals.htm?id=sampj",
+      "h": 80,
+      "if2": 8.2,
+      "works": 696,
+      "issn": "2040-8021",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Strategy and Management",
+      "sjr": 1.81,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Business, Management and Accounting (miscellaneous)",
+          "Q1"
+        ],
+        [
+          "Renewable Energy, Sustainability and the Environment",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "IJAIS": {
+      "name": "International Journal of Accounting Information Systems",
+      "type": "journal",
+      "link": "https://www.journals.elsevier.com/international-journal-of-accounting-information-systems",
+      "h": 92,
+      "if2": 12.1,
+      "works": 776,
+      "issn": "1467-0895",
+      "domain": "Physical Sciences",
+      "field": "Engineering",
+      "sub": "Aerospace Engineering",
+      "sjr": 1.75,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "Information Systems and Management",
+          "Q1"
+        ],
+        [
+          "Management Information Systems",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "BAR": {
+      "name": "The British Accounting Review",
+      "type": "journal",
+      "link": "https://www.journals.elsevier.com/the-british-accounting-review",
+      "h": 134,
+      "if2": 5.6,
+      "works": 2001,
+      "issn": "0890-8389",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Accounting",
+      "sjr": 1.71,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "MAR": {
+      "name": "Management Accounting Research",
+      "type": "journal",
+      "link": "https://www.journals.elsevier.com/management-accounting-research",
+      "h": 144,
+      "if2": 3.8,
+      "works": 1021,
+      "issn": "1044-5005",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Management Information Systems",
+      "sjr": 1.62,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Finance",
+          "Q1"
+        ],
+        [
+          "Information Systems and Management",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
+    },
+    "AAAJ": {
+      "name": "Accounting Auditing & Accountability Journal",
+      "type": "journal",
+      "link": "https://openalex.org/S4210224324",
+      "h": 179,
+      "if2": 2.9,
+      "works": 2293,
+      "issn": "0951-3574",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Management Information Systems",
+      "sjr": 1.57,
+      "q": "Q1",
+      "cats": [
+        [
+          "Accounting",
+          "Q1"
+        ],
+        [
+          "Economics, Econometrics and Finance (miscellaneous)",
+          "Q1"
+        ]
+      ],
+      "group": "Accounting"
     }
   }
 }
