@@ -22,4 +22,4 @@ launched:
       - {k: Python, v: 42, c: '#ffd43b'}
       - {k: TypeScript, v: 33, c: '#3178c6'}
       - {k: CSS, v: 14, c: '#a074c4'}
-      - {k: Other, v: 11, c: '#8b8d98'}
+      - {k: Other, v: 11, c: '#8b8d98', sub: 'Shell, Dockerfile, HTML'}
