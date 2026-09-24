@@ -322,7 +322,7 @@ permalink: /articles/
         return s+'</div>';
       }
       function legend(items,note){ return '<div class="qleg mono">'+items.map(function(z){return '<span class="qleg-i"><span class="qleg-d '+z[0]+'"></span>'+z[1]+'</span>';}).join('')+(note?'<span class="qleg-note">'+esc(note)+'</span>':'')+'</div>'; }
-      function bub(w,wm){ return (12 + Math.sqrt((w||0)/wm)*22).toFixed(1); }   // 점 지름: 면적 ∝ 논문 수
+      function bub(w,wm){ return (7 + Math.sqrt((w||0)/wm)*11).toFixed(1); }   // 점 지름: 면적 ∝ 논문 수
 
       /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외) ── */
       var jr=journals.filter(function(v){return v.sjr!=null;});
