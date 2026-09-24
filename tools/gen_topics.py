@@ -536,7 +536,7 @@ def _field_of(src):
 _VENUE_GROUP = {
     "NeurIPS": "AI", "ICML": "AI", "ICLR": "AI", "CVPR": "AI",
     "Futures": "Futures Studies", "TFSC": "Futures Studies", "FFS": "Futures Studies", "JFS": "Futures Studies", "EJFR": "Futures Studies",
-    "TASM": "Strategy", "SMJ": "Strategy", "LRP": "Strategy", "AMJ": "Strategy", "SO": "Strategy",
+    "TASM": "Futures Studies", "SMJ": "Strategy", "LRP": "Strategy", "AMJ": "Strategy", "SO": "Strategy",
     "HumRel": "Strategy", "AMR": "Strategy", "JoM": "Strategy", "OrgSci": "Strategy", "MgmtSci": "Strategy",
     "JMS": "Strategy", "OrgStud": "Strategy", "HRM": "Strategy", "ResPol": "Strategy", "JIBS": "Strategy",
     "TAR": "Accounting", "JAE": "Accounting", "JAR": "Accounting", "CAR": "Accounting", "RAST": "Accounting",

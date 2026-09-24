@@ -341,7 +341,7 @@ permalink: /articles/
       function plot(cfg){
         function px(x){ return PX + (x/cfg.xMax)*(100-PX-6); }
         function py(y){ return PY + (y/cfg.yMax)*(100-PY-8); }
-        var s='<div class="qplot">';
+        var s='<div class="qplot'+((cfg.pts||[]).length>18?' qplot--dense':'')+'">';   // 점 많으면 라벨 기본 숨김(호버/탭 시 표시)
         niceticks(cfg.xMax).forEach(function(t){ var x=px(t).toFixed(2); s+='<span class="qgl qgl-x" style="left:'+x+'%"></span><span class="qtk qtk-x mono" style="left:'+x+'%">'+t+'</span>'; });
         niceticks(cfg.yMax).forEach(function(t){ var y=py(t).toFixed(2); s+='<span class="qgl qgl-y" style="bottom:'+y+'%"></span><span class="qtk qtk-y mono" style="bottom:'+y+'%">'+t+'</span>'; });
         if(cfg.reg){ var r=cfg.reg, y0=r.b, yM=r.a*cfg.xMax+r.b;
@@ -387,7 +387,7 @@ permalink: /articles/
           title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')+' · 논문 '+(v.works||'')}; });
         h+=plot({pts:jpts,xMax:jMax,yMax:sMax,axX:'IF 2yr →',axY:'SJR ↑',reg:reg});   // X=IF, Y=SJR
         if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b);
-          h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  SJR ≈ '+reg.a.toFixed(2)+' · IF '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(excl.length?'  <span class="qreg-note">* '+esc(excl.join(', '))+' 아래 = 인용↑ 대비 질↓</span>':'  <span class="qreg-note">(IF 1↑ → SJR '+(reg.a>=0?'+':'')+reg.a.toFixed(2)+')</span>')+'</div>'; }
+          h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선  SJR ≈ '+reg.a.toFixed(2)+' · IF '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+'  <span class="qreg-note">'+(excl.length?'* '+esc(excl.join(', '))+' 제외 · ':'')+'선 아래 = 인용 대비 질(SJR) 낮음</span></div>'; }
         return h;
       }
       var jHtml=buildJ();

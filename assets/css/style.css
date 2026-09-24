@@ -759,3 +759,8 @@ img{max-width:100%;display:block}
 .qleg-q.is-off{opacity:.32}
 .qleg-q.is-off .qleg-d{filter:grayscale(1)}
 @media(max-width:640px){.qjbar{justify-content:flex-start}.qfld,.qleg-q{font-size:12px;padding:6px 12px}}
+
+/* 점이 많은 산점도: 라벨 기본 숨김, 호버/탭 시만 표시 */
+.qplot--dense .qdot-lab{opacity:0}
+@media(hover:hover){.qplot--dense .qdot:hover .qdot-lab{opacity:1}}
+.qplot--dense .qdot.is-foc .qdot-lab{opacity:1}
