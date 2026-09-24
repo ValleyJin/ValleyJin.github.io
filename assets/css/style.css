@@ -239,7 +239,7 @@ img{max-width:100%;display:block}
 .mtable td:first-child{font-weight:600;color:var(--ink);white-space:nowrap}
 .mtable td b{color:var(--accent)}
 .mtable a{color:var(--accent);white-space:nowrap}
-.mcallout{margin:26px 0 4px;padding:14px 16px;border:1px solid var(--line);border-left:3px solid #d99a1e;border-radius:10px;background:var(--bg-elev)}
+.mcallout{margin:26px 0 4px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--bg-elev)}
 .mco-title{color:#d99a1e;font-size:12px;letter-spacing:.04em;margin-bottom:8px}
 .mcallout ul{margin:0;padding-left:18px;color:var(--ink-soft);font-size:13.5px;line-height:1.7}
 .mcallout a{color:var(--accent)}
@@ -250,7 +250,7 @@ img{max-width:100%;display:block}
 .mlinks a span{display:block;color:var(--muted);font-size:12px;margin-top:2px}
 @media(max-width:640px){.mlinks{grid-template-columns:1fr}}
 /* 학회/저널 칩 선택 시 나타나는 영향력지수·분야 패널 */
-.venue-info{margin:-2px 0 10px;padding:14px 16px;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:12px;background:var(--bg-elev)}
+.venue-info{margin:-2px 0 10px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--bg-elev)}
 .vi-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}
 .vi-head a{font-size:14.5px;color:var(--ink)}
 .vi-head a b{color:var(--accent)}
