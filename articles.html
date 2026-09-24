@@ -707,7 +707,10 @@ permalink: /articles/
         if(!jdet||!v){ if(jdet){jdet.hidden=true;} return; }
         var q=String(v.q||'Q1').toUpperCase(), qcl=q.toLowerCase();
         var below=(jLastReg && v.if2!=null && v.sjr < jLastReg.a*v.if2+jLastReg.b);
-        var cats=(v.cats&&v.cats.length)?v.cats.slice(0,3).join(' · '):(v.group||'');
+        var _catPairs=(v.cats&&v.cats.length&&Array.isArray(v.cats[0]))?v.cats:null;   // [[카테고리, 분위], …]
+        var cats=_catPairs?_catPairs.map(function(c){return c[0];}).slice(0,3).join(' · '):(v.group||'');
+        // 분위는 카테고리별로 다를 수 있음 → 각 카테고리와 그 분위를 밝힌다(SCImago는 그중 최고를 대표 Q로 표시)
+        var qcats=_catPairs?_catPairs.map(function(c){ var cq=String(c[1]||'').toLowerCase(); return '<span class="qd-cat"><span class="qleg-d '+cq+'"></span>'+esc(c[0])+' <b>'+esc(c[1])+'</b></span>'; }).join(''):'';
         var chips='<span class="qd-chip qd-'+qcl+'">'+esc(q)+'</span>'
           +'<span class="qd-chip">SJR '+esc(v.sjr)+'</span>'
           +(v.if2!=null?'<span class="qd-chip">2yr IF '+esc(v.if2)+'</span>':'')
@@ -750,6 +753,7 @@ permalink: /articles/
           +'<div class="qd-body">'
             +'<div class="qd-h">'+esc(v.name||v.label)+'</div>'
             +'<div class="qd-chips">'+chips+'</div>'
+            +(qcats?'<div class="qd-cats mono"><span class="qd-cats-lbl">SJR 분위 (카테고리별)</span>'+qcats+'</div>':'')
             +'<div class="qd-sec"><span class="qd-lbl mono">소개</span><p>'+intro+'</p></div>'
             +'<div class="qd-sec"><span class="qd-lbl mono">저널 방향</span><p>'+dir+'</p></div>'
             +'<div class="qd-sec"><span class="qd-lbl mono">공략 포인트</span><p>'+pt+'</p></div>'
