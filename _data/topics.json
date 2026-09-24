@@ -61,59 +61,7 @@
     {
       "topic": "Graph database",
       "query": "Graph database",
-      "papers": [
-        {
-          "title": "Testing Graph Database Systems via Graph-Aware Metamorphic Relations",
-          "authors": "Zhuang, Z., Li, P., Ma, P., Meng, W., & Wang, S.",
-          "year": 2023,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3636218.3636236",
-          "cites": 22,
-          "fwci": 2.04,
-          "q": "Q1",
-          "sjr": 1.77,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
-          "authors": "Hornsteiner, M., Kreussel, M., Steindl, C., Ebner, F. F., Empl, P., & Schönig, S.",
-          "year": 2024,
-          "venue": "Future Internet",
-          "url": "https://doi.org/10.3390/fi16120438",
-          "cites": 28,
-          "fwci": 4.13,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.84,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
-          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K. V.",
-          "year": 2024,
-          "venue": "MethodsX",
-          "url": "https://doi.org/10.1016/j.mex.2024.102683",
-          "cites": 18,
-          "fwci": 3.96,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.55,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
-          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
-          "year": 2024,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3685800.3685814",
-          "cites": 15,
-          "fwci": 2.2,
-          "q": "Q1",
-          "sjr": 1.77,
-          "qcat": "Computer Science (miscellaneous)"
-        }
-      ],
-      "count": 117199
+      "papers": []
     },
     {
       "topic": "Memory in Agentic AI",
@@ -231,58 +179,7 @@
     {
       "topic": "Ethereum Layer-2",
       "query": "Ethereum layer-2 rollup",
-      "papers": [
-        {
-          "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
-          "authors": "Melo, C., Miqueias, J., Messias, J., Gonçalves, G., Silva, F. A., Soares, A., et al.",
-          "year": 2025,
-          "venue": "Future Generation Computer Systems",
-          "url": "https://doi.org/10.1016/j.future.2025.108316",
-          "cites": 3,
-          "fwci": 4.56,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 1.48,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Decentralized IoT Data Authentication with Signature Aggregation",
-          "authors": "Burgos, J. B., & Pustišek, M.",
-          "year": 2024,
-          "venue": "Sensors",
-          "url": "https://doi.org/10.3390/s24031037",
-          "cites": 18,
-          "fwci": 10.8,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.8,
-          "qcat": "Analytical Chemistry"
-        },
-        {
-          "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
-          "authors": "Saif, M. B., Migliorini, S., & Spoto, F.",
-          "year": 2024,
-          "venue": "Future Internet",
-          "url": "https://doi.org/10.3390/fi16090315",
-          "cites": 34,
-          "fwci": 19.79,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 0.84,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Future Monitors in Optimistic Rollups",
-          "authors": "Margarita, C., Martín, C., & César, S.",
-          "year": 2025,
-          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
-          "url": "https://doi.org/10.4230/oasics.fmbc.2025.5",
-          "cites": 36,
-          "fwci": 0.0,
-          "nr": "na"
-        }
-      ],
-      "count": 548
+      "papers": []
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -1510,63 +1407,63 @@
       "count": 93
     },
     {
-      "topic": "ORM",
-      "query": "venue:S133599136",
+      "topic": "HumRel",
+      "query": "venue:S61446109",
       "papers": [
         {
-          "title": "The VIF Score. What is it Good For? Absolutely Nothing",
-          "authors": "Kalnins, A. T., & Hill, K. P.",
+          "title": "A colleague named Max: A critical inquiry into affects when an anthropomorphised AI (ro)bot enters the workplace",
+          "authors": "Einola, K., Khoreva, V., & Tienari, J.",
           "year": 2023,
-          "venue": "Organizational Research Methods",
-          "url": "https://doi.org/10.1177/10944281231216381",
-          "cites": 175,
-          "fwci": 80.32,
-          "pct": 1,
+          "venue": "Human Relations",
+          "url": "https://doi.org/10.1177/00187267231206328",
+          "cites": 31,
+          "fwci": 3.98,
+          "pct": 10,
           "q": "Q1",
-          "sjr": 14.27,
-          "qcat": "Decision Sciences (miscellaneous)"
+          "sjr": 4.14,
+          "qcat": "Arts and Humanities (miscellaneous)"
         },
         {
-          "title": "On the Nuisance of Control Variables in Causal Regression Analysis",
-          "authors": "Hünermund, P., & Louw, B.",
-          "year": 2023,
-          "venue": "Organizational Research Methods",
-          "url": "https://doi.org/10.1177/10944281231219274",
-          "cites": 119,
-          "fwci": 28.1,
-          "pct": 1,
+          "title": "Experiencing meaningful work through worthwhile contributions: A critical discourse analysis",
+          "authors": "Bailey, C. J., Madden, A., & Lips‐Wiersma, M.",
+          "year": 2024,
+          "venue": "Human Relations",
+          "url": "https://doi.org/10.1177/00187267241255581",
+          "cites": 26,
+          "fwci": 12.57,
+          "pct": 10,
           "q": "Q1",
-          "sjr": 14.27,
-          "qcat": "Decision Sciences (miscellaneous)"
+          "sjr": 4.14,
+          "qcat": "Arts and Humanities (miscellaneous)"
         },
         {
-          "title": "Using Quotes to Present Claims: Practices for the Writing Stages of Qualitative Research",
-          "authors": "Rockmann, K. W., & Vough, H. C.",
+          "title": "Navigating the twisted path of gaslighting: A manifestation of epistemic injustice for Palestinian women entrepreneurs",
+          "authors": "Omran, W., & Yousafzai, S.",
           "year": 2023,
-          "venue": "Organizational Research Methods",
-          "url": "https://doi.org/10.1177/10944281231210558",
-          "cites": 86,
-          "fwci": 68.85,
+          "venue": "Human Relations",
+          "url": "https://doi.org/10.1177/00187267231203531",
+          "cites": 22,
+          "fwci": 15.74,
           "pct": 1,
           "q": "Q1",
-          "sjr": 14.27,
-          "qcat": "Decision Sciences (miscellaneous)"
+          "sjr": 4.14,
+          "qcat": "Arts and Humanities (miscellaneous)"
         },
         {
-          "title": "Generative Artificial Intelligence in Qualitative Data Analysis: Analyzing—Or Just Chatting?",
-          "authors": "Nguyen, D. T., & Welch, C.",
-          "year": 2025,
-          "venue": "Organizational Research Methods",
-          "url": "https://doi.org/10.1177/10944281251377154",
-          "cites": 51,
-          "fwci": 48.87,
+          "title": "#Knowyourworth: How influencers commercialise meaningful work",
+          "authors": "Trittin‐Ulbrich, H., & Glozer, S.",
+          "year": 2024,
+          "venue": "Human Relations",
+          "url": "https://doi.org/10.1177/00187267231220260",
+          "cites": 22,
+          "fwci": 17.01,
           "pct": 1,
           "q": "Q1",
-          "sjr": 14.27,
-          "qcat": "Decision Sciences (miscellaneous)"
+          "sjr": 4.14,
+          "qcat": "Arts and Humanities (miscellaneous)"
         }
       ],
-      "count": 62
+      "count": 155
     },
     {
       "topic": "AMR",
