@@ -12,7 +12,10 @@
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
       "topics3y": [
-        "Domain Adaptation and Few-Shot Learning"
+        "Domain Adaptation and Few-Shot Learning",
+        "Topic Modeling",
+        "Reinforcement Learning in Robotics",
+        "Advanced Image and Video Retrieval Techniques"
       ],
       "crank": "A*",
       "group": "AI"
@@ -28,7 +31,10 @@
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
       "topics3y": [
-        "Domain Adaptation and Few-Shot Learning"
+        "Domain Adaptation and Few-Shot Learning",
+        "Multimodal Machine Learning Applications",
+        "Advanced Bandit Algorithms Research",
+        "Climate variability and models"
       ],
       "crank": "A*",
       "group": "AI"
@@ -44,7 +50,10 @@
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
       "topics3y": [
-        "3D Shape Modeling and Analysis"
+        "3D Shape Modeling and Analysis",
+        "Adversarial Robustness in Machine Learning",
+        "Explainable Artificial Intelligence (XAI)",
+        "Human Motion and Animation"
       ],
       "crank": "A*",
       "group": "AI"
@@ -73,7 +82,10 @@
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
       "topics3y": [
-        "Topic Modeling"
+        "Topic Modeling",
+        "Multimodal Machine Learning Applications",
+        "Domain Adaptation and Few-Shot Learning",
+        "Generative Adversarial Networks and Image Synthesis"
       ],
       "crank": "A*",
       "group": "AI"
@@ -89,7 +101,10 @@
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
       "topics3y": [
-        "Logic, programming, and type systems"
+        "Logic, programming, and type systems",
+        "Multi-Agent Systems and Negotiation",
+        "Reinforcement Learning in Robotics",
+        "Robot Manipulation and Learning"
       ],
       "crank": "A*",
       "group": "AI"
@@ -191,7 +206,10 @@
         ]
       ],
       "topics3y": [
-        "Global trade and economics"
+        "Global trade and economics",
+        "Text and Document Classification Technologies",
+        "Spam and Phishing Detection",
+        "Machine Learning in Bioinformatics"
       ],
       "group": "AI"
     },
@@ -231,7 +249,10 @@
         ]
       ],
       "topics3y": [
-        "Domain Adaptation and Few-Shot Learning"
+        "Domain Adaptation and Few-Shot Learning",
+        "Multimodal Machine Learning Applications",
+        "Advanced Neural Network Applications",
+        "Advanced Vision and Imaging"
       ],
       "group": "AI"
     },
@@ -259,7 +280,10 @@
         ]
       ],
       "topics3y": [
-        "Logic, Reasoning, and Knowledge"
+        "Logic, Reasoning, and Knowledge",
+        "Reinforcement Learning in Robotics",
+        "Diverse Scientific and Economic Studies",
+        "Human auditory perception and evaluation"
       ],
       "group": "AI"
     },
@@ -283,7 +307,10 @@
         ]
       ],
       "topics3y": [
-        "Explainable Artificial Intelligence (XAI)"
+        "Explainable Artificial Intelligence (XAI)",
+        "Logic, Reasoning, and Knowledge",
+        "Topic Modeling",
+        "Constraint Satisfaction and Optimization"
       ],
       "group": "AI"
     },
@@ -315,7 +342,10 @@
         ]
       ],
       "topics3y": [
-        "Sustainability and Climate Change Governance"
+        "Sustainability and Climate Change Governance",
+        "Climate Change Communication and Perception",
+        "Diverse Scientific and Economic Studies",
+        "Human auditory perception and evaluation"
       ],
       "group": "Futures Studies"
     },
@@ -347,7 +377,10 @@
         ]
       ],
       "topics3y": [
-        "Energy, Environment, Economic Growth"
+        "Energy, Environment, Economic Growth",
+        "Innovation and Knowledge Management",
+        "Innovation Diffusion and Forecasting",
+        "Technology Adoption and User Behaviour"
       ],
       "group": "Futures Studies"
     },
@@ -379,7 +412,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Accounting Education and Careers"
       ],
       "group": "Accounting"
     },
@@ -411,7 +447,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Corporate Taxation and Avoidance"
       ],
       "group": "Accounting"
     },
@@ -443,7 +482,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Diverse Scientific and Economic Studies",
+        "Human auditory perception and evaluation"
       ],
       "group": "Accounting"
     },
@@ -475,7 +517,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Financial Reporting and Valuation Research"
       ],
       "group": "Accounting"
     },
@@ -503,7 +548,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Financial Reporting and Valuation Research"
       ],
       "group": "Accounting"
     },
@@ -535,7 +583,10 @@
         ]
       ],
       "topics3y": [
-        "Sustainability and Climate Change Governance"
+        "Sustainability and Climate Change Governance",
+        "Complex Systems and Decision Making",
+        "Diverse Scientific and Economic Studies",
+        "Human auditory perception and evaluation"
       ],
       "group": "Futures Studies"
     },
@@ -567,7 +618,10 @@
         ]
       ],
       "topics3y": [
-        "Space Science and Extraterrestrial Life"
+        "Space Science and Extraterrestrial Life",
+        "Sustainability and Climate Change Governance",
+        "Complex Systems and Decision Making",
+        "Youth Education and Societal Dynamics"
       ],
       "group": "Futures Studies"
     },
@@ -595,7 +649,10 @@
         ]
       ],
       "topics3y": [
-        "Innovation and Knowledge Management"
+        "Innovation and Knowledge Management",
+        "Energy, Environment, Economic Growth",
+        "Innovation Policy and R&D",
+        "Firm Innovation and Growth"
       ],
       "group": "Futures Studies"
     },
@@ -623,7 +680,10 @@
         ]
       ],
       "topics3y": [
-        "Innovation and Knowledge Management"
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "Entrepreneurship Studies and Influences",
+        "Private Equity and Venture Capital"
       ],
       "group": "Strategy"
     },
@@ -655,7 +715,10 @@
         ]
       ],
       "topics3y": [
-        "Innovation and Knowledge Management"
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "International Business and FDI",
+        "Digital Platforms and Economics"
       ],
       "group": "Strategy"
     },
@@ -691,7 +754,10 @@
         ]
       ],
       "topics3y": [
-        "Management and Organizational Studies"
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Entrepreneurship Studies and Influences",
+        "Corporate Finance and Governance"
       ],
       "group": "Strategy"
     },
@@ -727,7 +793,10 @@
         ]
       ],
       "topics3y": [
-        "Management and Organizational Studies"
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "Entrepreneurship Studies and Influences"
       ],
       "group": "Strategy"
     },
@@ -763,7 +832,10 @@
         ]
       ],
       "topics3y": [
-        "Management and Organizational Studies"
+        "Management and Organizational Studies",
+        "Job Satisfaction and Organizational Behavior",
+        "Gender Diversity and Inequality",
+        "Employment and Welfare Studies"
       ],
       "group": "Strategy"
     },
@@ -795,7 +867,10 @@
         ]
       ],
       "topics3y": [
-        "Management and Organizational Studies"
+        "Management and Organizational Studies",
+        "Entrepreneurship Studies and Influences",
+        "Job Satisfaction and Organizational Behavior",
+        "Ethics in Business and Education"
       ],
       "group": "Strategy"
     },
@@ -823,7 +898,10 @@
         ]
       ],
       "topics3y": [
-        "Job Satisfaction and Organizational Behavior"
+        "Job Satisfaction and Organizational Behavior",
+        "Innovation and Knowledge Management",
+        "Entrepreneurship Studies and Influences",
+        "Management and Organizational Studies"
       ],
       "group": "Strategy"
     },
@@ -855,7 +933,10 @@
         ]
       ],
       "topics3y": [
-        "Management and Organizational Studies"
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "Entrepreneurship Studies and Influences"
       ],
       "group": "Strategy"
     },
@@ -883,7 +964,10 @@
         ]
       ],
       "topics3y": [
-        "Financial Markets and Investment Strategies"
+        "Financial Markets and Investment Strategies",
+        "Consumer Market Behavior and Pricing",
+        "Corporate Finance and Governance",
+        "Auditing, Earnings Management, Governance"
       ],
       "group": "Strategy"
     },
@@ -915,7 +999,10 @@
         ]
       ],
       "topics3y": [
-        "Management and Organizational Studies"
+        "Management and Organizational Studies",
+        "Educational Robotics and Engineering",
+        "Human auditory perception and evaluation",
+        "Corporate Finance and Governance"
       ],
       "group": "Strategy"
     },
@@ -947,7 +1034,10 @@
         ]
       ],
       "topics3y": [
-        "Management and Organizational Studies"
+        "Management and Organizational Studies",
+        "Management Theory and Practice",
+        "Gender Diversity and Inequality",
+        "Cultural Industries and Urban Development"
       ],
       "group": "Strategy"
     },
@@ -983,7 +1073,10 @@
         ]
       ],
       "topics3y": [
-        "Job Satisfaction and Organizational Behavior"
+        "Job Satisfaction and Organizational Behavior",
+        "Work-Family Balance Challenges",
+        "Gender Diversity and Inequality",
+        "Employer Branding and e-HRM"
       ],
       "group": "Strategy"
     },
@@ -1019,7 +1112,10 @@
         ]
       ],
       "topics3y": [
-        "Innovation and Knowledge Management"
+        "Innovation and Knowledge Management",
+        "Innovation Policy and R&D",
+        "Entrepreneurship Studies and Influences",
+        "Intellectual Property and Patents"
       ],
       "group": "Strategy"
     },
@@ -1059,7 +1155,10 @@
         ]
       ],
       "topics3y": [
-        "International Business and FDI"
+        "International Business and FDI",
+        "Corporate Finance and Governance",
+        "Innovation and Knowledge Management",
+        "International Student and Expatriate Challenges"
       ],
       "group": "Strategy"
     },
@@ -1099,7 +1198,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Accounting and Organizational Management",
+        "Management and Organizational Studies",
+        "Corporate Social Responsibility Reporting"
       ],
       "group": "Accounting"
     },
@@ -1131,7 +1233,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Accounting and Organizational Management",
+        "Accounting Education and Careers"
       ],
       "group": "Accounting"
     },
@@ -1191,7 +1296,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Financial Reporting and Valuation Research"
       ],
       "group": "Accounting"
     },
@@ -1227,7 +1335,10 @@
         ]
       ],
       "topics3y": [
-        "Accounting and Organizational Management"
+        "Accounting and Organizational Management",
+        "Management and Organizational Studies",
+        "Auditing, Earnings Management, Governance",
+        "Accounting Education and Careers"
       ],
       "group": "Accounting"
     },
@@ -1259,7 +1370,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Corporate Social Responsibility Reporting",
+        "Corporate Finance and Governance",
+        "Accounting and Organizational Management"
       ],
       "group": "Accounting"
     },
@@ -1291,7 +1405,10 @@
         ]
       ],
       "topics3y": [
-        "Corporate Social Responsibility Reporting"
+        "Corporate Social Responsibility Reporting",
+        "Environmental Sustainability in Business",
+        "Sustainable Supply Chain Management",
+        "Energy, Environment, Economic Growth"
       ],
       "group": "Accounting"
     },
@@ -1327,7 +1444,10 @@
         ]
       ],
       "topics3y": [
-        "Auditing, Earnings Management, Governance"
+        "Auditing, Earnings Management, Governance",
+        "Big Data and Business Intelligence",
+        "Financial Reporting and XBRL",
+        "Information and Cyber Security"
       ],
       "group": "Accounting"
     },
@@ -1351,7 +1471,10 @@
         ]
       ],
       "topics3y": [
-        "Corporate Finance and Governance"
+        "Corporate Finance and Governance",
+        "Auditing, Earnings Management, Governance",
+        "Corporate Social Responsibility Reporting",
+        "Financial Markets and Investment Strategies"
       ],
       "group": "Accounting"
     },
@@ -1383,7 +1506,10 @@
         ]
       ],
       "topics3y": [
-        "Accounting and Organizational Management"
+        "Accounting and Organizational Management",
+        "Diverse Scientific and Economic Studies",
+        "Corporate Finance and Governance",
+        "Human auditory perception and evaluation"
       ],
       "group": "Accounting"
     },
@@ -1411,7 +1537,10 @@
         ]
       ],
       "topics3y": [
-        "Accounting and Organizational Management"
+        "Accounting and Organizational Management",
+        "Management and Organizational Studies",
+        "Corporate Social Responsibility Reporting",
+        "Auditing, Earnings Management, Governance"
       ],
       "group": "Accounting"
     }

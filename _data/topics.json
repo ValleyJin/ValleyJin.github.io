@@ -113,7 +113,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 117199
+      "count": 117200
     },
     {
       "topic": "Memory in Agentic AI",
@@ -172,7 +172,7 @@
           "qcat": "Hardware and Architecture"
         }
       ],
-      "count": 68531
+      "count": 68530
     },
     {
       "topic": "LLM inference serving",
@@ -341,7 +341,7 @@
           "qcat": "Analytical Chemistry"
         }
       ],
-      "count": 40623
+      "count": 40621
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -2089,8 +2089,8 @@
           "year": 2024,
           "venue": "Academy of Management Review",
           "url": "https://doi.org/10.5465/amr.2021.0421",
-          "cites": 272,
-          "fwci": 105.42,
+          "cites": 274,
+          "fwci": 106.07,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.0,
@@ -2785,7 +2785,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 128
+      "count": 127
     },
     {
       "topic": "CPA",
