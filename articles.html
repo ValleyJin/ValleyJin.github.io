@@ -492,7 +492,7 @@ permalink: /articles/
         var v=cfg.view||{x0:0,x1:cfg.xMax,y0:0,y1:cfg.yMax}, sxr=(v.x1-v.x0)||1, syr=(v.y1-v.y0)||1;
         function px(x){ return PX + ((x-v.x0)/sxr)*(100-PX-6); }
         function py(y){ return PY + ((y-v.y0)/syr)*(100-PY-8); }
-        var s='<div class="qplot'+((cfg.pts||[]).length>18?' qplot--dense':'')+'">';
+        var s='<div class="qplot'+((cfg.pts||[]).length>18?' qplot--dense':'')+'"'+(cfg.aspect?' style="aspect-ratio:'+cfg.aspect.toFixed(3)+'"':'')+'>';
         niceticksR(v.x0,v.x1).forEach(function(t){ var x=px(t); if(x<8||x>99) return; x=x.toFixed(2); s+='<span class="qgl qgl-x" style="left:'+x+'%"></span><span class="qtk qtk-x mono" style="left:'+x+'%">'+t+'</span>'; });
         niceticksR(v.y0,v.y1).forEach(function(t){ var y=py(t); if(y<11||y>99) return; y=y.toFixed(2); s+='<span class="qgl qgl-y" style="bottom:'+y+'%"></span><span class="qtk qtk-y mono" style="bottom:'+y+'%">'+t+'</span>'; });
         if(cfg.reg){ var r=cfg.reg;
@@ -555,7 +555,9 @@ permalink: /articles/
           hl:(jHL!=null && v.label===jHL),
           below:(reg && excl.indexOf(v.label)<0 && v.sjr < reg.a*ify+reg.b),   // 회귀선 아래(질 낮음) → 라벨 아래로
           title:(v.name||'')+' · SJR '+v.sjr+(v.if2!=null?' · 2yr IF '+v.if2:'')+' · 논문 '+(v.works||'')}; });
-        h+=plot({pts:jpts,xMax:jMax,yMax:sMax,view:jVR,axX:'IF 2yr →',axY:'SJR ↑',reg:reg});   // X=IF, Y=SJR
+        // 등축(equal-unit): 두 축 눈금 단위를 동일하게 → 박스 가로세로비 = 데이터 범위비(IF범위/SJR범위, 축여백 보정). IF범위가 넓어 자연히 가로로 김.
+        var _asp=Math.max(1.15, Math.min(4.6, (jMax/(sMax||1))*(80/85)));
+        h+=plot({pts:jpts,xMax:jMax,yMax:sMax,view:jVR,axX:'IF 2yr →',axY:'SJR ↑',reg:reg,aspect:_asp});   // X=IF, Y=SJR
         if(reg){ var sgn=reg.b>=0?'+':'−', bAbs=Math.abs(reg.b), st=pstars(reg.p),
             pstr=(reg.p==null)?'':(reg.p<0.001?'p < 0.001':'p = '+reg.p.toFixed(3)), nsig=(reg.p!=null&&!st);
           h+='<div class="qreg-cap mono"><span class="qreg-line"></span>회귀선<span class="qreg-w" title="논문 수를 가중치로 둔 가중최소제곱(WLS) · 기울기 t-검정">논문 수 가중</span> SJR ≈ <b>'+reg.a.toFixed(2)+'<sup class="qsig">'+st+'</sup></b> · IF '+sgn+' '+bAbs.toFixed(2)+'  ·  R² = '+reg.r2.toFixed(2)+(pstr?'  ·  '+pstr+(nsig?' (n.s.)':''):'')+'  <span class="qreg-note">'+(excl.length?esc(excl.join(', '))+' 제외 · ':'')+'* p&lt;.05 ** p&lt;.01 *** p&lt;.001 · 선 아래 = 인용 대비 질(SJR) 낮음</span></div>'; }
@@ -574,7 +576,7 @@ permalink: /articles/
         var cpts=confs.map(function(v){ return {x:v.h||0,y:v.i10||0,label:v.label,link:v.link,
           cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'h'+(v.h||'–')+' · i10 '+(v.i10||'–'),
           title:(v.name||'')+' · CORE '+(v.crank||'')+' · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
-        cHtml+=plot({pts:cpts,xMax:hMax,yMax:iMax,axX:'h-index →',axY:'i10 ↑'});
+        cHtml+=plot({pts:cpts,xMax:hMax,yMax:iMax,axX:'h-index →',axY:'i10 ↑',aspect:1.7});
       }
 
       /* ── 서브탭 조립 ── */
