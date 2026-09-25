@@ -2,7 +2,10 @@
   "_comment": "키페이퍼 등록 → 유관 논문 자동 크롤 + 인용 알림. 토픽별로 key(대표 arXiv id, 생략 시 em 첫 논문)와 em(Emergent Mind 토픽 URL, 문자열 또는 배열)을 넣으면 tools/gen_keypapers.py가 (1) em 페이지의 큐레이션 논문을 '유관 논문'(Most cited)으로 긁고 (2) key를 인용한 새 논문을 추적해 알림(_data/keypapers.json)한다. 새 토픽/키페이퍼는 여기 한 줄만 추가.",
   "topics": {
     "Deep persona": {
-      "key": ["2511.10215"],
+      "key": [
+        "2511.10215",
+        "2608.09507"
+      ],
       "em": "https://www.emergentmind.com/topics/deep-persona-alignment-dpa"
     },
     "gABM": {
