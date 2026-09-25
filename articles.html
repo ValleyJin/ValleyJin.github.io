@@ -351,6 +351,20 @@ permalink: /articles/
         <div class="mf-eq mono">최근 <b>5년</b> 논문 중 <b>h번 이상 인용된 논문이 h편</b>이 되는 최대 h</div>
         <p class="mf-x">저자용 h-index를 <b>저널·학회에 적용하고 최근 5년으로 제한</b>한 것. 소수의 초대박 논문이나 대량 발행에 덜 휘둘려, <b>학회(conference) 비교</b>에 특히 많이 쓰입니다.</p>
       </div>
+      <div class="mformula">
+        <div class="mf-name">h5-median <span class="mf-sub mono">Google Scholar</span></div>
+        <div class="mf-eq mono">h5-index를 이루는 그 <b>h5개 핵심 논문</b>들의 피인용 수의 <b>중앙값</b></div>
+        <p class="mf-x">h5-index가 "핵심 논문이 <b>몇 편</b>이나 되나"(폭)라면, h5-median은 그 핵심 논문들이 "<b>얼마나 무겁게</b> 인용되나"(깊이)를 봅니다. 같은 h5라도 median이 크면 상위 논문의 영향력이 더 큰 것.</p>
+      </div>
+
+      <div class="section-head" style="margin:26px 0 8px"><h2>AI 학회 2D 축 <span class="mh-sub mono">h5-index × h5-median</span></h2></div>
+      <p class="mnote">Articles의 <b>AI 학회</b> 2D 그래프는 <b>가로 = h5-index</b>(최근 5년 영향력 <b>규모</b>), <b>세로 = h5-median</b>(핵심 논문 피인용 <b>깊이</b>)로 학회를 배치합니다. <b>출처: Google Scholar Metrics(2024)</b>. 왜 이 축인가:</p>
+      <ul class="mlist">
+        <li><b>둘 다 높은 = flagship이 우상단.</b> 핵심 논문이 많고(가로) 그것들이 무겁게 인용되는(세로) 학회 — <b>NeurIPS·CVPR·ICML·ICLR·ACL</b> 같은 최상위가 우상단에 모입니다. 이미지의 "명성 순위"를 그대로 재현.</li>
+        <li><b>h5는 학회 순위의 사실상 표준.</b> Google Scholar의 Top publications가 h5-index로 매체를 줄세우며, 이 학회들이 전 과학 분야 <b>1~10위</b>를 차지합니다.</li>
+        <li><b>왜 편당(per-paper) 지표를 안 쓰나.</b> "인용 적중률·규모보정 h" 같은 편당 지표는 대량 채택 학회(AAAI)의 물량을 눌러 좌하단으로 보내지만, 동시에 논문을 많이 내는 flagship(NeurIPS)도 끌어내리고 인용이 조밀한 CV(CVPR)만 띄웁니다 — 명성 순위와 어긋납니다.</li>
+        <li><b>트레이드오프.</b> h5는 <b>규모를 어느 정도 보상</b>하므로 큰 우수 학회가 위로 옵니다(그래서 명성=우상단). 이게 "대형 학회가 유리하다"는 표준 비판이기도 합니다. 편당-효율 관점을 보려면 원자료(h·i10·논문수)를 상세 패널에서 확인하세요.</li>
+      </ul>
 
       <div class="section-head" style="margin:26px 0 8px"><h2>학회지 vs 저널지 <span class="mh-sub mono">왜 NeurIPS가 저널들과 나란히?</span></h2></div>
       <p class="mnote">CS에선 <b>학회가 곧 최상위 저널</b>이라 Q1~Q4가 안 맞습니다. 그래서 논문 카드·venue 패널에서 저널엔 <span class="qbadge q1">Q1</span>~<span class="qbadge q4">Q4</span>를, 학회엔 <b>CORE 등급</b> <span class="cbadge c-as">A*</span> <span class="cbadge c-a">A</span> <span class="cbadge c-b">B</span> <span class="cbadge c-c">C</span>를 <b>같은 자리</b>에 표시합니다.</p>
@@ -533,6 +547,7 @@ permalink: /articles/
   <script type="application/json" id="scatter-data">{{ site.data.scatter_venues | jsonify }}</script>
   <script type="application/json" id="vnotes-data">{{ site.data.venue_notes.notes | jsonify }}</script>
   <script type="application/json" id="covers-data">{{ site.data.covers | jsonify }}</script>
+  <script type="application/json" id="confh5-data">{{ site.data.conf_h5.venues | jsonify }}</script>
   <script>
     /* 공유 가능한 딥링크: 탭·토픽·날짜를 URL 해시에 인코딩(#tab=topics&topic=SMJ&date=…) */
     window.AState=(function(){
@@ -559,6 +574,7 @@ permalink: /articles/
       if(!journals.length && !confs.length){ return; }
       var vnotes={}; try{ vnotes=JSON.parse((document.getElementById('vnotes-data')||{}).textContent||'{}')||{}; }catch(e){}   // 큐레이션 노트(직접 조사)
       var vcovers={}; try{ (JSON.parse((document.getElementById('covers-data')||{}).textContent||'[]')||[]).forEach(function(l){ vcovers[l]=1; }); }catch(e){}   // 로컬 저장된 실제 표지
+      var confh5={}; try{ confh5=JSON.parse((document.getElementById('confh5-data')||{}).textContent||'{}')||{}; }catch(e){}   // 학회 h5-index·h5-median(큐레이션)
       var PX=9, PY=12;   // 축 여백(%)
       var FR=16/9;       // 플롯 프레임 가로세로비(항상 16:9 고정)
       // 등축(단위당 정방형)을 지키며 16:9 프레임을 채운다: 데이터가 짧은 축을 늘려 여백을 만든다.
@@ -670,28 +686,28 @@ permalink: /articles/
       }
       var jHtml=buildJ();
 
-      /* ── 학회: X=h-index, Y=i10-index, 점 크기=논문수, 색=CORE 등급 ── */
+      /* ── 학회: X=h5-index, Y=h5-median (Google Scholar Metrics) · 점 크기=논문수 · 색=CORE ── */
       var cVR=null, cFullX=1, cFullY=1;                           // 학회 플롯 확대 범위(줌/팬)
+      function _cH5(v){ return (confh5[v.label]||{}).h5||0; }
+      function _cMd(v){ return (confh5[v.label]||{}).median||0; }
       function buildC(keepView){ var cHtml='';
-      if(confs.length){
+      var cf=confs.filter(function(v){ return confh5[v.label]; });   // h5 데이터 있는 학회만
+      if(cf.length){
         var crc={'A*':'as','A':'a','B':'b','C':'c'};
-        var cwMax=Math.max.apply(null,confs.map(function(v){return v.works||0;}).concat([1]));
-        // 부피 비의존 축 — 둘 다 논문수로 정규화해 대량 채택 학회(AAAI)가 부풀지 않게:
-        //  X=인용 적중률=i10÷논문수(10회+ 인용 논문 비율), Y=규모보정 h=h÷√논문수
-        function _hit(v){ return v.works? (v.i10||0)/v.works : 0; }
-        function _hn(v){ return v.works? (v.h||0)/Math.sqrt(v.works) : 0; }
-        var cxMax=Math.max.apply(null,confs.map(_hit).concat([0.05]));
-        var cyMax=Math.max.apply(null,confs.map(_hn).concat([0.5]));
-        cHtml=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']],'점 크기 = 논문 수 · 가로 = 인용 적중률(i10÷논문수) · 세로 = 규모보정 h(h÷√논문수) — 둘 다 부피 무관해 편당 질이 낮은 대량 학회(AAAI)는 좌하단');
-        cHtml+='<div class="qhint mono">점 크기 = 논문 수 · 점 클릭 = 상세 · 휠·핀치 확대, 확대 후 드래그로 이동, 더블클릭 리셋</div>';
-        var cpts=confs.map(function(v){ return {x:_hit(v),y:_hn(v),label:v.label,link:v.link,
-          cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'적중 '+Math.round(_hit(v)*100)+'% · h/√n '+_hn(v).toFixed(1),
+        var cwMax=Math.max.apply(null,cf.map(function(v){return v.works||0;}).concat([1]));
+        // 명성 축 — Google Scholar Metrics의 h5. 둘 다 높은 flagship 학회가 우상단.
+        //  X=h5-index(최근5년 h-index=영향력 규모), Y=h5-median(h5-core 논문 피인용 중앙값=영향력 깊이)
+        var cxMax=Math.max.apply(null,cf.map(_cH5).concat([1]));
+        var cyMax=Math.max.apply(null,cf.map(_cMd).concat([1]));
+        cHtml=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']],'점 크기 = 논문 수 · 가로 = h5-index(최근 5년 영향력 규모) · 세로 = h5-median(핵심 논문 피인용 깊이) — 둘 다 높은 flagship(NeurIPS·CVPR·ICML·ICLR)이 우상단');
+        cHtml+='<div class="qhint mono">점 크기 = 논문 수 · 점 클릭 = 상세 · 휠·핀치 확대, 드래그 이동, 더블클릭 리셋 · h5 출처: Google Scholar Metrics 2024</div>';
+        var cpts=cf.map(function(v){ var h5=_cH5(v), md=_cMd(v); return {x:h5,y:md,label:v.label,link:v.link,
+          cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'h5 '+h5+' · median '+md,
           hl:(cHL!=null && v.label===cHL),
-          title:(v.name||'')+' · CORE '+(v.crank||'')+' · 적중률 '+Math.round(_hit(v)*100)+'% · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
-        // 학회 두 축은 단위가 무관한 정규화 비율 → 등축 무의미. 16:9 프레임에 데이터를 여백만 주고 채운다.
-        cFullX=cxMax*1.06; cFullY=cyMax*1.1;
+          title:(v.name||'')+' · CORE '+(v.crank||'')+' · h5-index '+h5+' · h5-median '+md+' · 논문 '+(v.works||'')}; });
+        cFullX=cxMax*1.08; cFullY=cyMax*1.08;
         if(!keepView || !cVR) cVR={x0:0,x1:cFullX,y0:0,y1:cFullY};   // 필터/탭 변경 시 전체, 줌 시 유지
-        cHtml+=plot({pts:cpts,xMax:cFullX,yMax:cFullY,view:cVR,axX:'인용 적중률(i10÷논문수) →',axY:'규모보정 h(h÷√논문수) ↑',aspect:FR});
+        cHtml+=plot({pts:cpts,xMax:cFullX,yMax:cFullY,view:cVR,axX:'h5-index (최근 5년 영향력 규모) →',axY:'h5-median (핵심 논문 피인용 깊이) ↑',aspect:FR});
       }
       return cHtml; }
       var cHtml=buildC();
@@ -814,7 +830,10 @@ permalink: /articles/
         if(!jdet||!v){ if(jdet) jdet.hidden=true; return; }
         var crk=v.crank||'', crc={'A*':'as','A':'a','B':'b','C':'c'}[crk]||'a';
         var t3=(v.topics3y&&v.topics3y.length)?v.topics3y.slice(0,5):null;
+        var _h5o=confh5[v.label]||{};
         var chips='<span class="qd-chip qd-cr-'+crc+'">CORE '+esc(crk||'—')+'</span>'
+          +(_h5o.h5?'<span class="qd-chip" title="Google Scholar Metrics 2024 · 최근 5년 h-index">h5-index '+esc(_h5o.h5)+'</span>':'')
+          +(_h5o.median?'<span class="qd-chip" title="h5-core 논문의 피인용 중앙값">h5-median '+esc(_h5o.median)+'</span>':'')
           +(v.if2!=null&&v.if2>0?'<span class="qd-chip">논문당 IF '+esc(v.if2)+'</span>':'')
           +(v.h!=null?'<span class="qd-chip">h '+esc(v.h)+'</span>':'')
           +(v.i10!=null?'<span class="qd-chip">i10 '+esc(v.i10)+'</span>':'')

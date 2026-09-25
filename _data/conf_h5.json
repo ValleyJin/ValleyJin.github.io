@@ -1,0 +1,17 @@
+{
+  "_comment": "AI 학회 2D 그래프의 h5-index × h5-median 축용 큐레이션 값. 출처: Google Scholar Metrics(top venues, 2024, 최근 5년 2019~2023 기준). Google Scholar는 API가 없고 헤드리스 접근을 CAPTCHA로 막아 수동 기입한다. 매년 갱신되므로 값이 바뀌면 여기서 직접 수정. h5=h5-index(최근5년 h-index), median=h5-median(h5-core 논문들의 피인용 중앙값).",
+  "source": "Google Scholar Metrics 2024",
+  "venues": {
+    "CVPR":    {"h5": 440, "median": 689},
+    "NeurIPS": {"h5": 337, "median": 570},
+    "ICLR":    {"h5": 304, "median": 584},
+    "ICML":    {"h5": 268, "median": 468},
+    "ICCV":    {"h5": 239, "median": 402},
+    "EMNLP":   {"h5": 180, "median": 290},
+    "ACL":     {"h5": 179, "median": 278},
+    "ECCV":    {"h5": 176, "median": 291},
+    "AAAI":    {"h5": 168, "median": 244},
+    "KDD":     {"h5": 138, "median": 232},
+    "IJCAI":   {"h5": 96,  "median": 143}
+  }
+}
