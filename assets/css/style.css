@@ -151,8 +151,18 @@ img{max-width:100%;display:block}
 .pin-badge{font-size:12px;vertical-align:1px;margin-right:1px}
 /* 섹션 제목 + 전체화면 아이콘 */
 .sh-l{display:flex;align-items:center;gap:9px;min-width:0}
-.list-fs-btn{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:6px;border:1px solid var(--line);background:var(--bg-elev);color:var(--muted);cursor:pointer;flex:none;padding:0}
-.list-fs-btn:hover{color:var(--accent);border-color:var(--accent)}
+.list-fs-btn,.sc-fs-btn{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:6px;border:1px solid var(--line);background:var(--bg-elev);color:var(--muted);cursor:pointer;flex:none;padding:0}
+.list-fs-btn:hover,.sc-fs-btn:hover{color:var(--accent);border-color:var(--accent)}
+/* 저자 전체화면: 정렬바·더보기 */
+.scfs-sort{list-style:none;display:flex;align-items:center;gap:10px;padding:10px 0 12px;margin-bottom:4px;border-bottom:1px solid var(--line);font-size:12px}
+.scfs-sort .scfs-lbl{color:var(--muted)}
+.scfs-s{font-family:var(--mono);font-size:11px;padding:3px 10px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink-soft);cursor:pointer}
+.scfs-s:hover{border-color:var(--accent);color:var(--accent)}
+.scfs-s.is-on{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
+.scfs-count{margin-left:auto;color:var(--muted);font-family:var(--mono);font-size:11px}
+.scfs-more{list-style:none;text-align:center;padding:18px 0 8px}
+.scfs-more-btn{font-family:var(--mono);font-size:12px;padding:8px 20px;border-radius:999px;border:1px solid var(--line);background:var(--bg-elev);color:var(--ink-soft);cursor:pointer}
+.scfs-more-btn:hover{border-color:var(--accent);color:var(--accent)}
 /* 리스트 전체화면 모달 */
 .list-fs{position:fixed;inset:0;z-index:2100;background:var(--bg);overflow-y:auto;overscroll-behavior:contain}
 .list-fs-inner{max-width:920px;margin:0 auto;padding:20px 24px 60px}

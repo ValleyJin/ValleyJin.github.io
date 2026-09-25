@@ -150,7 +150,7 @@ permalink: /articles/
         {% if g.papers and g.papers.size > 0 %}
         {% assign shown = shown | plus: 1 %}
         <div class="topic-group">
-          <div class="section-head" style="margin:26px 0 10px"><h2>{{ g.name }}</h2></div>
+          <div class="section-head" style="margin:26px 0 10px"><span class="sh-l"><h2>{{ g.name }}</h2><button type="button" class="sc-fs-btn" data-scholar="{{ g.name }}" data-scid="{{ g.id }}" title="전체 논문 보기" aria-label="전체화면"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></span></div>
           <div class="fw-lead">
             <a class="sc-metric sc-photo fw-photo" href="https://scholar.google.com/citations?user={{ g.id }}" target="_blank" rel="noopener">
               <img class="sc-avatar" src="{% if g.photo and g.photo != '' %}{{ g.photo }}{% else %}https://scholar.googleusercontent.com/citations?view_op=medium_photo&user={{ g.id }}{% endif %}" alt="{{ g.name }} — Google Scholar" loading="lazy" referrerpolicy="no-referrer">
@@ -1433,6 +1433,56 @@ permalink: /articles/
       var h=(location.hash||'').replace(/^#/,'');
       var t=window.AState.get('tab') || (h.indexOf('=')<0?h:'');   // 신규 #tab=… + 레거시 #topics 둘 다 지원
       if(t==='topics'||t==='scholars'||t==='metrics') show(t);
+    })();
+  </script>
+
+  <!-- Following 저자별 전체 논문 모달(정렬·20개 페이징) — #list-fs 재사용 -->
+  <script>
+    (function(){
+      var listFs=document.getElementById('list-fs'); if(!listFs) return;
+      function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+      var SC={}; try{ (JSON.parse((document.getElementById('scholars-data')||{}).textContent||'[]')||[]).forEach(function(g){
+        var nm=String(g.name||'').split(' · ')[0].trim();
+        // top-cited(papers) + recent 병합, url/title 기준 중복 제거
+        var all=[], seen={}; (g.papers||[]).concat(g.recent||[]).forEach(function(p){ var k=(p.url||p.title||'').trim(); if(k&&!seen[k]){ seen[k]=1; all.push(p); } });
+        SC[nm]={name:nm, id:g.id, papers:all};
+      }); }catch(e){}
+      function _row(p){
+        var q=p.q?'<span class="qbadge '+esc(String(p.q).toLowerCase())+'">'+esc(p.q)+'</span> ':(p.nr==='na'?'<span class="nabadge" title="등급 없는 매체 (누락 아님)">N/A</span> ':'');
+        var m=[]; if(p.sjr!=null) m.push('SJR <b>'+esc(p.sjr)+'</b>'); if(p.qcat) m.push('<span class="pqm-cat">'+esc(p.qcat)+(p.q?' <b>'+esc(p.q)+'</b>':'')+'</span>');
+        var pqm=m.length?'<span class="pqm mono">'+m.join('<span class="pqm-sep">·</span>')+'</span>':'';
+        return '<li class="pub-row"><div class="pub-main"><a class="pt" href="'+esc(p.url||'#')+'" target="_blank" rel="noopener">'+esc(p.title)+'</a>'+
+          '<span class="pmeta">'+esc(p.authors||'')+' ('+esc(p.year||'')+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span>'+pqm+'</div>'+
+          '<span class="pcite"><span class="pcite-n">'+q+'cited by <b>'+(p.cites||0)+'</b></span></span></li>';
+      }
+      var _st=null;   // {name, papers, sort, shown}
+      function _render(){
+        var s=_st; if(!s) return;
+        var ps=s.papers.slice();
+        if(s.sort==='year') ps.sort(function(a,b){ return (parseInt(b.year)||0)-(parseInt(a.year)||0) || (b.cites||0)-(a.cites||0); });
+        else ps.sort(function(a,b){ return (b.cites||0)-(a.cites||0) || (parseInt(b.year)||0)-(parseInt(a.year)||0); });
+        var shown=ps.slice(0,s.shown);
+        var bar='<li class="scfs-sort mono"><span class="scfs-lbl">정렬</span>'+
+          '<button type="button" class="scfs-s'+(s.sort==='cites'?' is-on':'')+'" data-sc-sort="cites">인용 ↓</button>'+
+          '<button type="button" class="scfs-s'+(s.sort==='year'?' is-on':'')+'" data-sc-sort="year">연도 ↓</button>'+
+          '<span class="scfs-count">'+shown.length+' / '+ps.length+'편</span></li>';
+        var more=ps.length>s.shown?'<li class="scfs-more"><button type="button" class="scfs-more-btn" data-sc-more="1">＋ 20개 더보기</button></li>':'';
+        listFs.querySelector('#list-fs-h').textContent=s.name+' · '+ps.length+'편';
+        listFs.querySelector('#list-fs-ul').innerHTML=bar+shown.map(_row).join('')+more;
+      }
+      function _open(name){
+        var s=SC[name]; if(!s || !s.papers.length){ return; }
+        _st={name:s.name, papers:s.papers, sort:'cites', shown:20};
+        _render(); listFs.scrollTop=0; listFs.hidden=false; document.body.classList.add('qmap-fs-open');
+      }
+      document.addEventListener('click',function(e){
+        var b=e.target.closest?e.target.closest('.sc-fs-btn'):null;
+        if(b){ e.preventDefault(); _open(String(b.getAttribute('data-scholar')||'').trim()); return; }
+        var ss=e.target.closest?e.target.closest('[data-sc-sort]'):null;
+        if(ss && _st && !listFs.hidden){ _st.sort=ss.getAttribute('data-sc-sort'); _st.shown=20; _render(); return; }
+        var mm=e.target.closest?e.target.closest('[data-sc-more]'):null;
+        if(mm && _st && !listFs.hidden){ _st.shown+=20; _render(); return; }
+      });
     })();
   </script>
 </div>
