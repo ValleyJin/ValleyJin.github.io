@@ -23,6 +23,15 @@ import urllib.request, urllib.error, urllib.parse
 from datetime import date
 from pathlib import Path
 
+# 배지/품질 로직은 gen_topics의 함수를 그대로 재사용(복제 금지) — 논문 1편의
+# 분위(Q)·SJR·FWCI·백분위·CORE·N/A 배지를 Most cited와 동일 규칙으로 붙인다.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    import gen_topics as gt
+except Exception as _e:            # 실패해도 파이프라인은 메타/인용만으로 동작
+    gt = None
+    print(f"! gen_topics import 실패(배지 생략): {_e}", file=sys.stderr)
+
 ROOT = Path(__file__).resolve().parent.parent
 CFG = ROOT / "_data" / "pinned_papers.json"
 OUT = ROOT / "_data" / "keypapers.json"
@@ -179,8 +188,66 @@ def s2_citations(arxiv):
             "year": cp.get("year"), "venue": (cp.get("venue") or "arXiv").strip() or "arXiv",
             "url": url, "cites": cp.get("citationCount") or 0,
             "pubdate": cp.get("publicationDate") or "",
+            "arxiv": arx, "doi": (doi or "").lower() or None,   # 품질 보강용
         })
     return out
+
+
+# ── 배지/품질 보강 (gen_topics.badge 재사용) ────────────────────────
+def _paper_doi(p):
+    """논문 obj → OpenAlex 조회용 DOI. arXiv는 datacite DOI로 변환."""
+    if p.get("arxiv"):
+        return "10.48550/arxiv." + p["arxiv"]
+    if p.get("doi"):
+        return p["doi"]
+    m = re.search(r"doi\.org/(10\.\S+)", p.get("url", ""))
+    return m.group(1).lower() if m else None
+
+
+def oa_records(dois):
+    """DOI 리스트 → {정규화 DOI: OpenAlex work}. 품질 필드(fwci·백분위·venue) 포함."""
+    out = {}
+    dois = [d for d in dict.fromkeys(dois) if d]
+    for k in range(0, len(dois), 40):
+        chunk = dois[k:k + 40]
+        url = _oa("https://api.openalex.org/works?filter=doi:" + "|".join(chunk) +
+                  "&per-page=50&select=doi,cited_by_count,fwci,"
+                  "citation_normalized_percentile,primary_location")
+        txt = _fetch(url)
+        if not txt:
+            continue
+        try:
+            data = json.loads(txt)
+        except Exception:
+            continue
+        for w in data.get("results", []):
+            doi = (w.get("doi") or "").lower().replace("https://doi.org/", "")
+            if doi:
+                out[doi] = w
+        time.sleep(0.4)
+    return out
+
+
+def enrich_badges(papers, sci, core):
+    """각 논문에 gen_topics.badge()로 분위·SJR·FWCI·백분위·CORE·N/A 배지를 붙인다.
+    Most cited와 동일 규칙 — 배지/품질 로직을 복제하지 않고 그대로 재사용."""
+    if gt is None or sci is None:
+        return
+    oa = oa_records([_paper_doi(p) for p in papers])
+    for p in papers:
+        d = _paper_doi(p)
+        w = oa.get(d) if d else None
+        venue = p.get("venue") or "arXiv"
+        src = (w or {}).get("primary_location", {}) or {}
+        vname = ((src.get("source") or {}).get("display_name") or "").strip()
+        if vname:
+            venue = vname; p["venue"] = vname
+        try:
+            p.update(gt.badge(venue, sci, core, w=w))     # fwci·pct·q·sjr·qcat·crank·nr
+        except Exception:
+            pass
+        if w and w.get("cited_by_count") is not None:
+            p["cites"] = w["cited_by_count"]
 
 
 # ── 검색어 자동 도출 ────────────────────────────────────────────────
@@ -288,6 +355,14 @@ def main():
     result = {"generated": TODAY, "source": "arXiv + OpenAlex + Semantic Scholar", "topics": {}}
     any_ok = False
 
+    # 배지/품질(SCImago·CORE)은 gen_topics의 로더를 재사용. 실패해도 배지만 생략.
+    sci = core = None
+    if gt is not None:
+        try:
+            sci = gt.load_scimago(); core = gt.load_core()
+        except Exception as e:
+            print(f"! scimago/core 로드 실패(배지 생략): {e}", file=sys.stderr)
+
     for topic, spec in topics.items():
         keys = spec.get("key") or []
         if isinstance(keys, str):
@@ -314,6 +389,7 @@ def main():
         if meta:
             any_ok = True
         key_objs = [_obj(i, meta, cites, topic, key=True) for i in key_ids]
+        enrich_badges(key_objs, sci, core)                 # 분위·SJR·FWCI·N/A 배지(Most cited 동일)
         key_urls = {k["url"] for k in key_objs}
 
         # 인용 알림: 모든 키페이퍼를 인용한 논문(cited-by) 집계. 이전 first_seen 보존.
@@ -331,6 +407,8 @@ def main():
 
         cite_list = sorted(citing.values(),
                            key=lambda p: (p.get("pubdate") or "", p.get("cites") or 0), reverse=True)
+        cite_top = cite_list[:CITING_MAX]
+        enrich_badges(cite_top, sci, core)                 # 인용 논문도 동일 배지(상위 40편만)
 
         # Most cited 검색어를 키페이퍼 제목에서 역으로 도출(gen_topics가 이 값을 우선 사용)
         try:
@@ -340,7 +418,7 @@ def main():
 
         result["topics"][topic] = {
             "key": key_objs,
-            "citing": cite_list[:CITING_MAX],
+            "citing": cite_top,
             "n_citing": len(cite_list),
             "query": q,                                   # Most cited용 자동 도출 검색어
         }
