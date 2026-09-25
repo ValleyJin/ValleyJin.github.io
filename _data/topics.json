@@ -160,16 +160,17 @@
           "qcat": "Multidisciplinary"
         },
         {
-          "title": "Galaxybase: A High Performance Native Distributed Graph Database for HTAP",
-          "authors": "Tong, B., Zhou, Y., Zhang, C., Tang, J., Tang, J., Yang, L., et al.",
-          "year": 2024,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3685800.3685814",
-          "cites": 15,
-          "fwci": 2.19,
+          "title": "SRplot: A free online platform for data visualization and graphing",
+          "authors": "Tang, D., Chen, M., Huang, X., Zhang, G., Zeng, L., Zhang, G., et al.",
+          "year": 2023,
+          "venue": "PLoS ONE",
+          "url": "https://doi.org/10.1371/journal.pone.0294236",
+          "cites": 2588,
+          "fwci": 234.47,
+          "pct": 1,
           "q": "Q1",
-          "sjr": 1.77,
-          "qcat": "Computer Science (miscellaneous)"
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         }
       ],
       "count": 117494
@@ -290,7 +291,58 @@
     {
       "topic": "Ethereum Layer-2",
       "query": "Ethereum layer-2 rollup",
-      "papers": []
+      "papers": [
+        {
+          "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
+          "authors": "Melo, C., Miqueias, J., Messias, J., Gonçalves, G., Silva, F. A., Soares, A., et al.",
+          "year": 2025,
+          "venue": "Future Generation Computer Systems",
+          "url": "https://doi.org/10.1016/j.future.2025.108316",
+          "cites": 3,
+          "fwci": 4.52,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.48,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "Decentralized IoT Data Authentication with Signature Aggregation",
+          "authors": "Burgos, J. B., & Pustišek, M.",
+          "year": 2024,
+          "venue": "Sensors",
+          "url": "https://doi.org/10.3390/s24031037",
+          "cites": 18,
+          "fwci": 10.8,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.8,
+          "qcat": "Analytical Chemistry"
+        },
+        {
+          "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
+          "authors": "Saif, M. B., Migliorini, S., & Spoto, F.",
+          "year": 2024,
+          "venue": "Future Internet",
+          "url": "https://doi.org/10.3390/fi16090315",
+          "cites": 34,
+          "fwci": 19.79,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 0.84,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "Future Monitors in Optimistic Rollups",
+          "authors": "Margarita, C., Martín, C., & César, S.",
+          "year": 2025,
+          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+          "url": "https://doi.org/10.4230/oasics.fmbc.2025.5",
+          "cites": 36,
+          "fwci": 0.0,
+          "nr": "na"
+        }
+      ],
+      "count": 547
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -354,7 +406,59 @@
     {
       "topic": "Graph neural networks (GNN)",
       "query": "graph neural network",
-      "papers": []
+      "papers": [
+        {
+          "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
+          "authors": "Gabriel, S., Mário, R., António, T., & Marlene, A.",
+          "year": 2024,
+          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+          "url": "https://doi.org/10.4230/lipics.sea.2024.20",
+          "cites": 5417,
+          "fwci": 249.52,
+          "pct": 1,
+          "nr": "na"
+        },
+        {
+          "title": "Spatio-Temporal Graph Neural Networks for Predictive Learning in Urban Computing: A Survey",
+          "authors": "Jin, G., Liang, Y., Fang, Y., Shao, Z., Huang, J., Zhang, J., et al.",
+          "year": 2023,
+          "venue": "IEEE Transactions on Knowledge and Data Engineering",
+          "url": "https://doi.org/10.1109/tkde.2023.3333824",
+          "cites": 536,
+          "fwci": 57.36,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 3.02,
+          "qcat": "Computational Theory and Mathematics"
+        },
+        {
+          "title": "A review of graph neural networks: concepts, architectures, techniques, challenges, datasets, applications, and future directions",
+          "authors": "Khemani, B., Patil, S., Kotecha, K. V., & Tanwar, S.",
+          "year": 2024,
+          "venue": "Journal Of Big Data",
+          "url": "https://doi.org/10.1186/s40537-023-00876-4",
+          "cites": 598,
+          "fwci": 130.0,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.96,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
+          "authors": "Jin, M., Koh, H. Y., Wen, Q., Zambon, D., Alippi, C., Webb, G. I., et al.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3443141",
+          "cites": 497,
+          "fwci": 93.79,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        }
+      ],
+      "count": 194147
     },
     {
       "topic": "Ontology",
