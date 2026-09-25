@@ -149,6 +149,20 @@ img{max-width:100%;display:block}
 .post-row .t .sub{display:block;color:var(--muted);font-size:13.5px;font-weight:400;margin-top:3px}
 .new-flag{display:inline-block;font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.08em;color:#f2444e;vertical-align:2px;margin-right:4px}
 .pin-badge{font-size:12px;vertical-align:1px;margin-right:1px}
+/* 섹션 제목 + 전체화면 아이콘 */
+.sh-l{display:flex;align-items:center;gap:9px;min-width:0}
+.list-fs-btn{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:6px;border:1px solid var(--line);background:var(--bg-elev);color:var(--muted);cursor:pointer;flex:none;padding:0}
+.list-fs-btn:hover{color:var(--accent);border-color:var(--accent)}
+/* 리스트 전체화면 모달 */
+.list-fs{position:fixed;inset:0;z-index:2100;background:var(--bg);overflow-y:auto;overscroll-behavior:contain}
+.list-fs-inner{max-width:920px;margin:0 auto;padding:20px 24px 60px}
+.list-fs-bar{position:sticky;top:0;background:var(--bg);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0 10px;border-bottom:1px solid var(--line);z-index:1}
+.list-fs-bar h2{font-family:var(--mono);font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0;display:flex;align-items:center;gap:10px}
+.list-fs-bar h2::before{content:"";width:6px;height:6px;border-radius:1px;background:var(--accent);flex:none}
+.list-fs-x{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--bg-elev);color:var(--ink-soft);font-size:23px;line-height:1;cursor:pointer;flex:none}
+.list-fs-x:hover{color:var(--ink);border-color:var(--accent)}
+.list-fs-ul{max-height:none!important;overflow:visible!important;margin-top:6px}
+@media(max-width:560px){.list-fs-inner{padding:12px 14px 48px}}
 /* 키페이퍼 편집: 토글·행 버튼·토스트 */
 .sh-right{display:flex;align-items:center;gap:12px}
 .kp-edit-btn{font-family:var(--mono);font-size:11px;padding:3px 10px;border-radius:999px;border:1px solid var(--line);background:var(--bg-elev);color:var(--ink-soft);cursor:pointer;white-space:nowrap}

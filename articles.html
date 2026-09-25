@@ -87,7 +87,7 @@ permalink: /articles/
 
     <!-- ▼ topic mode: Newest + Most cited -->
     <div class="newest" id="newest" style="margin-top:24px" hidden>
-      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2>Newest</h2><span class="sh-right"><button type="button" id="kp-edit-btn" class="kp-edit-btn mono" title="논문을 키페이퍼로 등록/제거 (GitHub 로그인)">✎ 키페이퍼 편집</button><span class="more mono" style="text-transform:none">by publication date · indexed ~2–3d later</span></span></div>
+      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><span class="sh-l"><h2>Newest</h2><button type="button" class="list-fs-btn" data-fs="newest" title="전체화면으로 보기" aria-label="전체화면"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></span><span class="sh-right"><button type="button" id="kp-edit-btn" class="kp-edit-btn mono" title="논문을 키페이퍼로 등록/제거 (GitHub 로그인)">✎ 키페이퍼 편집</button><span class="more mono" style="text-transform:none">by publication date · indexed ~2–3d later</span></span></div>
       <div class="tcal" id="tcal">
         <div class="tcal-bar">
           <button type="button" class="tcal-nav" id="tcal-prev" aria-label="Previous month">‹</button>
@@ -101,20 +101,28 @@ permalink: /articles/
     </div>
 
     <div class="mostcited" id="mostcited" hidden>
-      <div class="section-head" style="margin:34px 0 6px"><h2>Most cited</h2><span id="more-links" class="more mono" hidden>More : <a id="oa-link" target="_blank" rel="noopener">OpenAlex</a><span id="more-sep"> · </span><a id="em-link" target="_blank" rel="noopener">Emergentmind</a></span></div>
+      <div class="section-head" style="margin:34px 0 6px"><span class="sh-l"><h2>Most cited</h2><button type="button" class="list-fs-btn" data-fs="mostcited" title="전체화면으로 보기" aria-label="전체화면"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></span><span id="more-links" class="more mono" hidden>More : <a id="oa-link" target="_blank" rel="noopener">OpenAlex</a><span id="more-sep"> · </span><a id="em-link" target="_blank" rel="noopener">Emergentmind</a></span></div>
       <ul class="pubs" id="mostcited-list"></ul>
     </div>
 
     <!-- ▼ Key papers: 수동 등록/EM 큐레이션 대표 논문(📌). Most cited와 별개 -->
     <div class="keypapers" id="keypapers" hidden>
-      <div class="section-head" style="margin:34px 0 6px"><h2>Key papers</h2><span class="more mono" id="keypapers-sub" style="text-transform:none">등록·큐레이션한 대표 논문</span></div>
+      <div class="section-head" style="margin:34px 0 6px"><span class="sh-l"><h2>Key papers</h2><button type="button" class="list-fs-btn" data-fs="keypapers" title="전체화면으로 보기" aria-label="전체화면"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></span><span class="more mono" id="keypapers-sub" style="text-transform:none">등록·큐레이션한 대표 논문</span></div>
       <ul class="pubs" id="keypapers-list"></ul>
     </div>
 
     <!-- ▼ 키페이퍼 인용 알림: 등록한 키페이퍼를 인용한 새 논문 (Semantic Scholar 크롤) -->
     <div class="keyciting" id="keyciting" hidden>
-      <div class="section-head" style="margin:30px 0 6px"><h2 id="keyciting-h">Cites these key papers</h2><span class="more mono" id="keyciting-sub" style="text-transform:none">이 키페이퍼를 인용한 논문 · Semantic Scholar</span></div>
+      <div class="section-head" style="margin:30px 0 6px"><span class="sh-l"><h2 id="keyciting-h">Cites these key papers</h2><button type="button" class="list-fs-btn" data-fs="citing" title="전체화면으로 보기" aria-label="전체화면"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></span><span class="more mono" id="keyciting-sub" style="text-transform:none">이 키페이퍼를 인용한 논문 · Semantic Scholar</span></div>
       <ul class="pubs" id="keyciting-list"></ul>
+    </div>
+
+    <!-- ▼ 리스트 전체화면 모달: 섹션 리스트 전체를 한 화면에 -->
+    <div class="list-fs" id="list-fs" hidden>
+      <div class="list-fs-inner">
+        <div class="list-fs-bar"><h2 class="list-fs-h"></h2><button type="button" class="list-fs-x" id="list-fs-x" aria-label="닫기">×</button></div>
+        <ul class="pubs list-fs-ul" id="list-fs-ul"></ul>
+      </div>
     </div>
 
     <!-- ▼ scholar mode: Google Scholar alerts calendar + kind report -->
@@ -611,8 +619,8 @@ permalink: /articles/
 
       /* ── 저널: X=SJR, Y=2yr IF, 색=분위, 회귀(outlier 자동 제외). 분야 복수선택으로 필터 ── */
       var JGROUPS=['Futures Studies','Strategy','Accounting','Research Methods'];   // 저널 분야(AI=학회는 축이 달라 별도 탭)
-      var jsel={}; JGROUPS.forEach(function(g){ jsel[g]=true; });   // 기본: 전부 선택
-      var qsel={Q1:true,Q2:true,Q3:true,Q4:true};                  // 분위 필터(색 범례 클릭 토글)
+      var jsel={}; JGROUPS.forEach(function(g){ jsel[g]=(g==='Accounting'); });   // 기본: Accounting 분야
+      var qsel={Q1:true,Q2:false,Q3:false,Q4:false};                              // 기본: Q1 분위 (색 범례 클릭 토글)
       var _FCODE={'Futures Studies':'FS','Strategy':'ST','Accounting':'AC','Research Methods':'RM'};
       // 공유용: URL(#mf=,mq=,mv=)에서 필터/서브탭 복원
       try{ var _amf=AState.get('mf'); if(_amf!=null){ var _rev={}; Object.keys(_FCODE).forEach(function(g){_rev[_FCODE[g]]=g;});
@@ -890,10 +898,11 @@ permalink: /articles/
       function _dz(cxp, cyp, factor){   // cxp,cyp: 플롯 내 커서 위치(%) (x=왼쪽부터, y=아래부터)
         if(!jVR) return; var v=jVR;
         var dx=v.x0+((cxp-PX)/(100-PX-6))*(v.x1-v.x0), dy=v.y0+((cyp-PY)/(100-PY-8))*(v.y1-v.y0);
+        // 최대 확대 제한을 '거부'가 아니라 '클램프'로 — 세게 핀치해도 무시되지 않고 최대까지 확대.
+        if(factor>1){ var mf=Math.min((v.x1-v.x0)/(jFullX*0.03), (v.y1-v.y0)/(jFullY*0.03)); if(factor>mf) factor=Math.max(1,mf); }
         var nx0=dx-(dx-v.x0)/factor, nx1=dx+(v.x1-dx)/factor, ny0=dy-(dy-v.y0)/factor, ny1=dy+(v.y1-dy)/factor;
         if(nx1-nx0>=jFullX && ny1-ny0>=jFullY){ jVR=null; jview.innerHTML=buildJ(); return; }   // 전체보다 넓어지면 리셋
         nx0=Math.max(0,nx0); nx1=Math.min(jFullX*1.03,nx1); ny0=Math.max(0,ny0); ny1=Math.min(jFullY*1.05,ny1);
-        if(nx1-nx0<jFullX*0.03 || ny1-ny0<jFullY*0.03) return;   // 최대 확대 제한
         jVR={x0:nx0,x1:nx1,y0:ny0,y1:ny1}; jview.innerHTML=buildJ(true);
       }
       var _zoomed=function(){ return !!jVR && (jVR.x1-jVR.x0 < jFullX*0.985 || jVR.y1-jVR.y0 < jFullY*0.985); };
@@ -923,7 +932,7 @@ permalink: /articles/
           _pn={d:Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY),cx:((a.clientX+b.clientX)/2-r.left)/r.width*100,cy:(1-((a.clientY+b.clientY)/2-r.top)/r.height)*100}; _pan1=null; }
         else if(e.touches.length===1 && _zoomed()){ var t=e.touches[0]; _pan1={x:t.clientX,y:t.clientY,w:r.width,h:r.height}; } },{passive:false});
       el.addEventListener('touchmove',function(e){
-        if(_pn && e.touches.length===2){ e.preventDefault(); var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.cx,_pn.cy,Math.pow(d/_pn.d,8)); _pn.d=d; }
+        if(_pn && e.touches.length===2){ e.preventDefault(); var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.cx,_pn.cy,Math.pow(d/_pn.d,5)); _pn.d=d; }
         else if(_pan1 && e.touches.length===1){ e.preventDefault(); var t=e.touches[0];
           _panBy((t.clientX-_pan1.x)/_pan1.w*100, -(t.clientY-_pan1.y)/_pan1.h*100); _pan1.x=t.clientX; _pan1.y=t.clientY; } },{passive:false});
       el.addEventListener('touchend',function(e){ if(e.touches.length<2) _pn=null; if(e.touches.length<1) _pan1=null; });
@@ -1223,6 +1232,31 @@ permalink: /articles/
         var li=b.closest('.pub-row'), ttl=li?(li.querySelector('.pt')||{}).textContent:'';
         _kpAct(b.classList.contains('kp-add'), id, {title:(ttl||'').replace(/^📌\s*/,'').replace(/^NEW\s*/,'').trim(), arxiv:(/^\d{4}\.\d{4,5}$/.test(id)?id:null), doi:(/^10\./.test(id)?id:null), url:(/^\d{4}\.\d{4,5}$/.test(id)?'https://arxiv.org/abs/'+id:'https://doi.org/'+id), venue:'', cites:0, key:true});
       });
+
+      /* ── 리스트 전체화면 모달: 섹션 리스트 전체를 한 화면에 ── */
+      var listFs=document.getElementById('list-fs');
+      function _listFsPapers(sec){
+        if(sec==='newest') return filtered().slice().sort(function(a,b){return (b.date||'').localeCompare(a.date||'')||((b.cites||0)-(a.cites||0));});
+        if(sec==='mostcited') return mostCited();
+        var kt=(st.topic!=='All')&&keyTopics[st.topic];
+        if(sec==='keypapers') return (kt&&kt.key)?kt.key.slice():[];
+        if(sec==='citing'){ var cs=(kt&&kt.citing)?kt.citing.slice():[]; cs.forEach(function(p){ if(!p.added) p.added=p.first_seen; }); return cs; }
+        return [];
+      }
+      function _openListFs(sec){
+        if(!listFs) return;
+        var titles={newest:'Newest',mostcited:'Most cited',keypapers:'Key papers',citing:'Cites these key papers'};
+        var ps=_listFsPapers(sec);
+        listFs.querySelector('#list-fs-h').textContent=(titles[sec]||'')+' · '+ps.length+'편';
+        listFs.querySelector('#list-fs-ul').innerHTML=ps.length?ps.map(function(p){return paperLi(p);}).join(''):'<li class="pub-row"><span class="pmeta" style="color:var(--muted)">없음</span></li>';
+        listFs.hidden=false; document.body.classList.add('qmap-fs-open');
+      }
+      function _closeListFs(){ if(listFs){ listFs.hidden=true; } document.body.classList.remove('qmap-fs-open'); }
+      document.addEventListener('click',function(e){ var b=e.target.closest?e.target.closest('.list-fs-btn'):null; if(!b) return; e.preventDefault(); _openListFs(b.getAttribute('data-fs')); });
+      var listFsX=document.getElementById('list-fs-x'); if(listFsX) listFsX.addEventListener('click',_closeListFs);
+      if(listFs) listFs.addEventListener('click',function(e){ if(e.target===listFs) _closeListFs(); });   // 배경 클릭 닫기
+      document.addEventListener('keydown',function(e){ if(e.key==='Escape' && listFs && !listFs.hidden) _closeListFs(); });
+
       function renderCal(){
         var m=byDate(), y=cur.getFullYear(), mo=cur.getMonth();
         title.textContent=cur.toLocaleString('en-US',{month:'long',year:'numeric'});
