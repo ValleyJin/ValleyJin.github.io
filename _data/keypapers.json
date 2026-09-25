@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -14,9 +14,7 @@
           "arxiv": "2511.10215",
           "cites": 0,
           "key": true
-        }
-      ],
-      "related": [
+        },
         {
           "title": "DPRF: A Generalizable Dynamic Persona Refinement Framework for Optimizing Behavior Alignment Between Personalized LLM Role-Playing Agents and Humans",
           "authors": "B Yao, B Sun, Y Dong, et al.",
@@ -25,7 +23,8 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2510.14205",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "From 1,000,000 Users to Every User: Scaling Up Personalized Preference for User-level Alignment",
@@ -35,7 +34,8 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2503.15463",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Living the Novel: A System for Generating Self-Training Timeline-Aware Conversational Agents from Novels",
@@ -45,7 +45,8 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2512.07474",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory",
@@ -55,7 +56,8 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2512.06688",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Persona Features Control Emergent Misalignment",
@@ -65,7 +67,8 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2506.19823",
-          "cites": 2
+          "cites": 2,
+          "key": true
         },
         {
           "title": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
@@ -75,7 +78,8 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2407.17387",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Population-Aligned Persona Generation for LLM-based Social Simulation",
@@ -85,7 +89,8 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2509.10127",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Exploring Persona-dependent LLM Alignment for the Moral Machine Experiment",
@@ -95,7 +100,8 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2504.10886",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Enhancing Persona Consistency for LLMs' Role-Playing using Persona-Aware Contrastive Learning",
@@ -105,23 +111,454 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2503.17662",
-          "cites": 0
+          "cites": 0,
+          "key": true
         }
       ],
       "citing": [
         {
-          "title": "Toward Privileged Foundation Models:LUPI for Accelerated and Improved Learning",
-          "authors": "X Ding, L Akoglu",
+          "title": "RPMem: Learning Long-Term Recurrent Parametric Memory Across Sessions for LLM Agents",
+          "authors": "F Zhao, R Cao, L Dong, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.23466",
+          "cites": 0,
+          "pubdate": "2026-09-20",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Do Personality-Tuned LLMs Make Better Social Agents?",
+          "authors": "T Krabbe, X Shi",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.21857",
+          "cites": 0,
+          "pubdate": "2026-09-18",
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning",
+          "authors": "C Ke, X Chen, X Shen, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.18461",
+          "cites": 0,
+          "pubdate": "2026-09-16",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents",
+          "authors": "C Ke, X Liu, H Zhang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.17010",
+          "cites": 1,
+          "pubdate": "2026-09-15",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "TAME: Token Attribution and Masking for Emergent misalignment",
+          "authors": "M Masud, M Parvez",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.16754",
+          "cites": 0,
+          "pubdate": "2026-09-15",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
+          "authors": "Z Wang, Y Zhou, J Tang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.15972",
+          "cites": 1,
+          "pubdate": "2026-09-14",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "To Memories and Beyond: From Remembering to Knowing You across Long-Term Multimodal Personal Archives",
+          "authors": "W Zhou, Z Yu, K Wen, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.19167",
+          "cites": 0,
+          "pubdate": "2026-09-11",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization",
+          "authors": "J Shen, K Mao, M Shao, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.09835",
+          "cites": 0,
+          "pubdate": "2026-09-09",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations",
+          "authors": "J Zheng, P Lai, S Cheng, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.09778",
+          "cites": 0,
+          "pubdate": "2026-09-09",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Total Simulated Survey Error: Designing and Diagnosing Survey Responses from Large Language Models",
+          "authors": "I Sen, G Ahnert, L Heyde, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.10280",
+          "cites": 0,
+          "pubdate": "2026-09-09",
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Personalizing LLM Agent Memory Using Biometrics",
+          "authors": "Y Qian, Q Meng, S Ding, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.08558",
+          "cites": 0,
+          "pubdate": "2026-09-08",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation",
+          "authors": "D Nguyen, Z Qiu, S Chen, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.08599",
+          "cites": 0,
+          "pubdate": "2026-09-08",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "SchemeArena: Factorized Stress Testing of Scheming in LLM Agents",
+          "authors": "J Ruan, I Nair, A Liu, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.08126",
+          "cites": 0,
+          "pubdate": "2026-09-08",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents",
+          "authors": "W Chang, Y Chen",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.03467",
+          "cites": 0,
+          "pubdate": "2026-09-03",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Inferring Hidden User Models from the Behavior of Personalized LLM Agents",
+          "authors": "H Li, Y Xiao, Q Ye, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.03815",
+          "cites": 0,
+          "pubdate": "2026-09-03",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "VoiceLongMemEval: Do Assistants Remember How You Sounded?",
+          "authors": "R Pahwa, P Priye, A Beedu",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.00570",
+          "cites": 0,
+          "pubdate": "2026-09-01",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "VIBE-Bench: Evaluating Personalized Large Language Models When Profiles Don't Mean Preferences",
+          "authors": "Y Jiang, Y Deng, S Fong, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.00921",
+          "cites": 0,
+          "pubdate": "2026-09-01",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Subliminal Learning as Trait-Direction Drift: A Mechanism and Targeted Control under SFT Distillation",
+          "authors": "Z Liu, Z Dong, Y Fan,, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.01091",
+          "cites": 0,
+          "pubdate": "2026-09-01",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Investigating Assistant Bias in LLM User Simulators Using a Role Vector",
+          "authors": "D Jeong, Y Lee, E Choi, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.00608",
+          "cites": 0,
+          "pubdate": "2026-09-01",
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "FocusGen: Expanding Visual Design Exploration with a Simulated Focus Group of Persona Agents",
+          "authors": "J Choi, H Vasconcelos, H Lee, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.28001",
+          "cites": 1,
+          "pubdate": "2026-08-28",
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Do LLMs Understand Personality? Rethinking Persona Fidelity Evaluation through Structured Behavioral Inference",
+          "authors": "M Li, Z Wei, X Shi, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.26674",
+          "cites": 1,
+          "pubdate": "2026-08-27",
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Diff Mining: Logit Differences Reveal Finetuning Objectives",
+          "authors": "G Kocher, R West, C Dumas, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.26462",
+          "cites": 0,
+          "pubdate": "2026-08-26",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Reinforcement Learning on Benign Facts Amplifies Leakage of Memorized Private Data",
+          "authors": "R Zhang, N Mireshghallah",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.21727",
+          "cites": 0,
+          "pubdate": "2026-08-22",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories",
+          "authors": "H Wang, Y Zhou, B Du, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.19621",
+          "cites": 0,
+          "pubdate": "2026-08-20",
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Total Recall at What Cost? Benchmarking the Serving Cost of Agentic Memory Systems",
+          "authors": "N Pollertlam, W Kornsuwannawit",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.11879",
+          "cites": 0,
+          "pubdate": "2026-08-12",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Making Your LLMs More Objective: Stabilizing LLM Safety Behavior Across Traits with Trait-Invariant Safety Tuning",
+          "authors": "C Lang",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.11705",
+          "cites": 0,
+          "pubdate": "2026-08-12",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Data Attribution of Emergent Misalignment with Persona Features",
+          "authors": "C Vetter, D Kaczér, L Flek, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.11025",
+          "cites": 0,
+          "pubdate": "2026-08-11",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning",
+          "authors": "Y Liu, W Wu, J Zhao, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.09507",
+          "cites": 0,
+          "pubdate": "2026-08-10",
+          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "ColdChat: benchmarking large language model personalization using limited real-user interaction history",
+          "authors": "W Zhang, Z Zeng, Z Liu, et al.",
+          "year": 2026,
+          "venue": "Frontiers of Computer Science",
+          "url": "https://doi.org/10.1007/s11704-026-51716-6",
+          "cites": 0,
+          "pubdate": "2026-08-08",
+          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Harmful Content Is Not Enough: Continuation Framing Moderates In-Context Emergent Misalignment",
+          "authors": "P Liu, X Wang, Z Cui, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.08212",
+          "cites": 0,
+          "pubdate": "2026-08-08",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Mind the Gaps: Mixture-of-Minds for Human Simulation",
+          "authors": "P Dahiya",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.06115",
+          "cites": 0,
+          "pubdate": "2026-08-06",
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
+          "authors": "Y Sun, Y Zhang, R Sheng",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.04570",
+          "cites": 0,
+          "pubdate": "2026-08-05",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
+          "authors": "X Li, Y Hao, J Hou, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.04205",
+          "cites": 5,
+          "pubdate": "2026-08-04",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
+          "authors": "Z Feng, J Ma, E Chersoni",
           "year": 2026,
           "venue": "arXiv.org",
-          "url": "https://arxiv.org/abs/2605.07799",
+          "url": "https://arxiv.org/abs/2607.29433",
           "cites": 0,
-          "pubdate": "2026-05-08",
-          "cited_key": "Persona-Aware Alignment Framework for Personalized Dialogue ",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-07-31",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Best Friends, Not Forever: Evaluating Long-Horizon Persona Collapse and Behavioral Drift in AI Companions",
+          "authors": "P Venkit, A Prabhakar, Y Li, et al.",
+          "year": 2026,
+          "venue": "arXiv.org",
+          "url": "https://arxiv.org/abs/2607.28818",
+          "cites": 1,
+          "pubdate": "2026-07-30",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data",
+          "authors": "L Zeng, G Chen, K Yu, et al.",
+          "year": 2026,
+          "venue": "arXiv.org",
+          "url": "https://arxiv.org/abs/2607.27056",
+          "cites": 0,
+          "pubdate": "2026-07-29",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Language Shapes Instruction Hierarchy Compliance in Multilingual LLMs",
+          "authors": "J Moon, Y Hwang, K Jung",
+          "year": 2026,
+          "venue": "arXiv.org",
+          "url": "https://arxiv.org/abs/2607.23545",
+          "cites": 0,
+          "pubdate": "2026-07-26",
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "A Roadmap to Impactful Pluralistic Alignment Research",
+          "authors": "E Poole-Dayan, J Fisher, A Kasirzadeh, et al.",
+          "year": 2026,
+          "venue": "arXiv.org",
+          "url": "https://arxiv.org/abs/2607.22305",
+          "cites": 0,
+          "pubdate": "2026-07-24",
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Co-design of LLM-based preference agents: participation may drive overtrust",
+          "authors": "M Fell",
+          "year": 2026,
+          "venue": "arXiv.org",
+          "url": "https://arxiv.org/abs/2607.21757",
+          "cites": 0,
+          "pubdate": "2026-07-23",
+          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Rushes: A Human Preference Dataset for Pluralistic Alignment",
+          "authors": "M Xu, J Leandro, S Rao, et al.",
+          "year": 2026,
+          "venue": "arXiv.org",
+          "url": "https://arxiv.org/abs/2607.20767",
+          "cites": 0,
+          "pubdate": "2026-07-22",
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "first_seen": "2026-09-25"
         }
       ],
-      "n_citing": 1
+      "n_citing": 346,
+      "query": "persona generation"
     },
     "gABM": {
       "key": [
@@ -135,9 +572,7 @@
           "arxiv": "1808.06910",
           "cites": 1,
           "key": true
-        }
-      ],
-      "related": [
+        },
         {
           "title": "Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia",
           "authors": "A Vezhnevets, J Agapiou, A Aharon, et al.",
@@ -146,7 +581,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2312.03664",
-          "cites": 13
+          "cites": 13,
+          "key": true
         },
         {
           "title": "Generative Agent-Based Modeling: Unveiling Social System Dynamics through Coupling Mechanistic Models with Generative Artificial Intelligence",
@@ -156,7 +592,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2309.11456",
-          "cites": 5
+          "cites": 5,
+          "key": true
         },
         {
           "title": "Simulating Public Administration Crisis: A Novel Generative Agent-Based Simulation System to Lower Technology Barriers in Social Science Research",
@@ -166,7 +603,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2311.06957",
-          "cites": 4
+          "cites": 4,
+          "key": true
         },
         {
           "title": "Empowering Economic Simulation for Massively Multiplayer Online Games through Generative Agent-Based Modeling",
@@ -176,7 +614,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2506.04699",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Agent-Based Modelling Meets Generative AI in Social Network Simulations",
@@ -186,7 +625,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2411.16031",
-          "cites": 1
+          "cites": 1,
+          "key": true
         },
         {
           "title": "Epidemic Modeling with Generative Agents",
@@ -196,7 +636,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2307.04986",
-          "cites": 16
+          "cites": 16,
+          "key": true
         },
         {
           "title": "Infected Smallville: How Disease Threat Shapes Sociality in LLM Agents",
@@ -206,7 +647,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2506.13783",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Can Generative Agent-Based Modeling Replicate the Friendship Paradox in Social Media Simulations?",
@@ -216,7 +658,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2502.05919",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Incentives to Build Houses, Trade Houses, or Trade House Building Skills in Simulated Worlds under Various Governing Systems or Institutions: Comparing Multi-agent Reinforcement Learning to Generative Agent-based Model",
@@ -226,7 +669,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2411.17724",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Design and Evaluation of Generative Agent-based Platform for Human-Assistant Interaction Research: A Tale of 10 User Studies",
@@ -236,7 +680,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2505.09938",
-          "cites": 0
+          "cites": 0,
+          "key": true
         },
         {
           "title": "Do Large Language Models Solve the Problems of Agent-Based Modeling? A Critical Review of Generative Social Simulations",
@@ -246,7 +691,8 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2504.03274",
-          "cites": 5
+          "cites": 5,
+          "key": true
         },
         {
           "title": "Designing Reliable Experiments with Generative Agent-Based Modeling: A Comprehensive Guide Using Concordia by Google DeepMind",
@@ -256,452 +702,531 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2411.07038",
-          "cites": 0
+          "cites": 0,
+          "key": true
+        },
+        {
+          "title": "Generative Agent-Based Models for Complex Systems Research: a review",
+          "authors": "Y Lu, A Aleta, C Du, et al.",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2408.09175",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2408.09175",
+          "cites": 1,
+          "key": true
+        },
+        {
+          "title": "Generative Models: An Interdisciplinary Perspective",
+          "authors": "K Sankaran, S Holmes",
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2208.06011",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2208.06011",
+          "cites": 1,
+          "key": true
+        },
+        {
+          "title": "Predicting the Impact of Generative AI Using an Agent-Based Model",
+          "authors": "J Aparicio, M Aparicio, S Aparicio, et al.",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2408.17268",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2408.17268",
+          "cites": 2,
+          "key": true
+        },
+        {
+          "title": "GenAI-based Multi-Agent Reinforcement Learning towards Distributed Agent Intelligence: A Generative-RL Agent Perspective",
+          "authors": "H Wang, J Zhang",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2507.09495",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2507.09495",
+          "cites": 0,
+          "key": true
+        },
+        {
+          "title": "From Who They Are to How They Act: Behavioral Traits in Generative Agent-Based Models of Social Media",
+          "authors": "V Gatta, G Orlando, M Perillo, et al.",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2601.15114",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2601.15114",
+          "cites": 0,
+          "key": true
+        },
+        {
+          "title": "Mechanism Plausibility in Generative Agent-Based Modeling",
+          "authors": "P Zhao, D Pham, N Vincent",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2605.12824",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2605.12824",
+          "cites": 0,
+          "key": true
+        },
+        {
+          "title": "Validating Generative Agent-Based Models for Logistics and Supply Chain Management Research",
+          "authors": "V Castillo",
+          "year": 2025,
+          "url": "https://arxiv.org/abs/2508.20234",
+          "venue": "arXiv",
+          "topic": "gABM",
+          "arxiv": "2508.20234",
+          "cites": 0,
+          "key": true
         }
       ],
       "citing": [
         {
-          "title": "A large language model framework for sample-free population synthesis",
-          "authors": "M Jones, R Dawson, J Mills",
+          "title": "KITE: Scaling Jev Population Experiments with Sparse Flagship Calibration",
+          "authors": "",
           "year": 2026,
-          "venue": "PLoS ONE",
-          "url": "https://doi.org/10.1371/journal.pone.0341704",
-          "cites": 1,
-          "pubdate": "2026-06-02",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Mobility Behavior Segmentation for Personalized AMoD Service Design: Evidence from Israel",
-          "authors": "G Dadashev, A Zukin, F Pereira, et al.",
-          "year": 2026,
-          "venue": "Urban Science",
-          "url": "https://doi.org/10.3390/urbansci10060306",
-          "cites": 1,
-          "pubdate": "2026-06-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Spatio-temporal graph neural networks for dairy farm sustainability forecasting and strategic scenario analysis",
-          "authors": "S Jayakumar, K Sullivan, J McLaughlin, et al.",
-          "year": 2026,
-          "venue": "Discover Artificial Intelligence",
-          "url": "https://doi.org/10.1007/s44163-026-01489-5",
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.27535",
           "cites": 0,
-          "pubdate": "2026-05-31",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-09-23",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "A Joint Synthetic Housing-Household Inventory",
-          "authors": "X Qian, S Dong, R Davidson",
+          "title": "SocioVerse2: A Longitudinal Dynamic Social Simulation Framework under a Human-AI Co-evolutionary Paradigm",
+          "authors": "X Zhang, J Lin, J Wang, et al.",
           "year": 2026,
-          "venue": "Cities",
-          "url": "https://arxiv.org/abs/2605.17031",
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.24911",
           "cites": 0,
-          "pubdate": "2026-05-16",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-09-21",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Robust and reproducible evaluation framework for population synthesis models—Application to probabilistic and deep generative models",
-          "authors": "V Darsel, É Côme, L Oukhellou",
+          "title": "From Certain Doom to Survival: Agent-Driven Self-Governance in LLM Agent Societies",
+          "authors": "G Rehm",
           "year": 2026,
-          "venue": "Transportation Research Part C: Emerging Technologies",
-          "url": "https://doi.org/10.1016/j.trc.2026.105627",
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.22600",
           "cites": 0,
-          "pubdate": "2026-05-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-09-18",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "A large language model for feasible and diverse population synthesis",
-          "authors": "S Lim, H Yun, P Bansal, et al.",
+          "title": "ANIMASK: What the Model Contributes to Role Play in Simulated Story Worlds",
+          "authors": "X Zhang, Z Xu, H Luo, et al.",
           "year": 2026,
-          "venue": "Transportation Research Part C: Emerging Technologies",
-          "url": "https://doi.org/10.1016/j.trc.2026.105581",
-          "cites": 3,
-          "pubdate": "2026-04-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Generate individual spatiotemporal activity sequences from population synthesis via deep learning approaches",
-          "authors": "Y Lu, G Liu, X Li, et al.",
-          "year": 2026,
-          "venue": "Engineering applications of artificial intelligence",
-          "url": "https://doi.org/10.1016/j.engappai.2026.113759",
-          "cites": 1,
-          "pubdate": "2026-03-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "A Study on Demand-Responsive Transport for the Elderly Using Deep Generative and Activity-Based Models",
-          "authors": "J Jung, C Kim, J Lee, et al.",
-          "year": 2025,
-          "venue": "The Journal of The Korea Institute of Intelligent Transport Systems",
-          "url": "https://doi.org/10.12815/kits.2025.24.6.17",
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.16667",
           "cites": 0,
-          "pubdate": "2025-12-31",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-09-15",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "On the Use of Generative AI in Simulation Studies: A Review of Techniques, Applications and Opportunities",
-          "authors": "N Feldkamp",
-          "year": 2025,
-          "venue": "Online World Conference on Soft Computing in Industrial Applications",
-          "url": "https://doi.org/10.1109/WSC68292.2025.11338955",
+          "title": "Verifiable Social Reasoning for LLM Assistants",
+          "authors": "A Taubenfeld, Z Gekhman, A Grinstein-Dabush, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.17496",
+          "cites": 0,
+          "pubdate": "2026-09-15",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "But How Would AI Agents Run a Town's Economy?",
+          "authors": "S Regmi, S Pudasaini, C Pun",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.11108",
+          "cites": 0,
+          "pubdate": "2026-09-10",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Total Simulated Survey Error: Designing and Diagnosing Survey Responses from Large Language Models",
+          "authors": "I Sen, G Ahnert, L Heyde, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.10280",
+          "cites": 0,
+          "pubdate": "2026-09-09",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "LLMs for Social Network Modeling: From Network Generation to Dynamic Processes",
+          "authors": "S Mallick, A Thomo, A Saxena",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.08049",
+          "cites": 0,
+          "pubdate": "2026-09-07",
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Who Changes Their Mind? Exploring Stance Shifts in LLM-Based Social Media Simulations",
+          "authors": "V Gatta, G Orlando, M Perillo, et al.",
+          "year": 2026,
+          "venue": "Proceedings of the 37th ACM Conference on Hypertext",
+          "url": "https://doi.org/10.1145/3800935.3830836",
+          "cites": 0,
+          "pubdate": "2026-09-05",
+          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Where Reliability Lives: Experimental Localisation of Behavioural Properties in an Agent System",
+          "authors": "T Marsden, M Collecutt, J Marsden",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.03192",
+          "cites": 0,
+          "pubdate": "2026-09-02",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "A survey of social network simulation in the LLM era: From classical models to Generative Agents",
+          "authors": "T Nguyen, T Pham, V Huynh, et al.",
+          "year": 2026,
+          "venue": "Knowledge-Based Systems",
+          "url": "https://doi.org/10.1016/j.knosys.2026.116947",
           "cites": 2,
-          "pubdate": "2025-12-07",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-09-01",
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Hierarchical Population Synthesis Using a Neural-Differentiable Programming Approach",
-          "authors": "I Mahmood, A Calinescu, M Wooldridge",
-          "year": 2025,
-          "venue": "Online World Conference on Soft Computing in Industrial Applications",
-          "url": "https://doi.org/10.1109/WSC68292.2025.11338863",
-          "cites": 1,
-          "pubdate": "2025-12-07",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "A deep generative framework for joint households and individuals population synthesis",
-          "authors": "X Qian, U Gangwal, S Dong, et al.",
-          "year": 2025,
-          "venue": "Applied Soft Computing",
-          "url": "https://doi.org/10.1016/j.asoc.2025.114375",
-          "cites": 1,
-          "pubdate": "2025-12-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Population Synthesis using Incomplete Information",
-          "authors": "T Rastogi, D Jonsson, A Karlström",
-          "year": 2025,
-          "venue": "Transportation Research Procedia",
-          "url": "https://arxiv.org/abs/2510.00859",
+          "title": "Classic AI Scaffolding for LLM Social Agents",
+          "authors": "A Gershman",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.01167",
           "cites": 0,
-          "pubdate": "2025-10-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-09-01",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Development of a Synthetic Population and its Baseline Mobility Tool Ownership for the Province of Nova Scotia",
-          "authors": "V Arunakirinathan, M Habib",
-          "year": 2025,
-          "venue": "Transportation Research Record",
-          "url": "https://doi.org/10.1177/03611981251353721",
-          "cites": 1,
-          "pubdate": "2025-09-08",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Needs assessment in crisis contexts: Generating a synthetic population from limited demographic data",
-          "authors": "P Wetterwald, M Saarela, B Vozel",
-          "year": 2025,
-          "venue": "2025 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)",
-          "url": "https://doi.org/10.1109/ACDSA65407.2025.11166439",
+          "title": "Pseudocode as a Stored Strategy Representation for LLM-Based Artificial Market Simulation",
+          "authors": "R Itakura, M Hirano, K Imajo, et al.",
+          "year": 2026,
+          "venue": "IEEE Conference on Computational Intelligence for Financial Engineering & Economics",
+          "url": "https://doi.org/10.1109/CIFEr67845.2026.11692404",
           "cites": 0,
-          "pubdate": "2025-08-07",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-09-01",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Population synthesis with deep generative model: a joint household-individual approach",
-          "authors": "A Sané, R Belaroussi, P Hankach, et al.",
-          "year": 2025,
-          "venue": "Computational Urban Science",
-          "url": "https://doi.org/10.1007/s43762-025-00195-9",
-          "cites": 6,
-          "pubdate": "2025-07-08",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "title": "Benchmarking large language model agent societies against human behavioural distributions",
+          "authors": "R Tareaf",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.28182",
+          "cites": 0,
+          "pubdate": "2026-08-28",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Collaborative generative adversarial networks for fusing household travel survey and smart card data to generate heterogeneous activity schedules in urban digital twins",
-          "authors": "H Lee, P Bansal, K Vo, et al.",
-          "year": 2025,
-          "venue": "Transportation Research Part C: Emerging Technologies",
-          "url": "https://doi.org/10.1016/j.trc.2025.105125",
-          "cites": 14,
-          "pubdate": "2025-07-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "title": "Probing Perceptual Priors of MLLMs via Gibbs Sampling with Interpretable Generative Controls",
+          "authors": "M Cherep, P Maes, N Singh",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.27727",
+          "cites": 1,
+          "pubdate": "2026-08-27",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Large-scale activity-based demand generation modelling: A literature review and exploration of potential approaches",
-          "authors": "N Nguyen, J Schweizer, F Rupi",
-          "year": 2025,
-          "venue": "Transport Engineer",
-          "url": "https://doi.org/10.1016/j.treng.2025.100329",
+          "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
+          "authors": "X Zeng, Z Xu, B Zhang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.27260",
+          "cites": 0,
+          "pubdate": "2026-08-27",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "BAND: A Probabilistic Framework for Modeling Non-Stationary Heart Rate Variability in Rest–Stress–Rest Dynamics",
+          "authors": "M Castillo-Aguilar, D Medina-Ortiz, R Muñoz, et al.",
+          "year": 2026,
+          "venue": "Technologies",
+          "url": "https://doi.org/10.3390/technologies14090528",
+          "cites": 0,
+          "pubdate": "2026-08-27",
+          "cited_key": "Generative Models: An Interdisciplinary Perspective",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Prompt Sensitivity of Generative Agents: Evidence from an Epidemic Model",
+          "authors": "R Williams, N Hosseinichimeh",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.26221",
+          "cites": 0,
+          "pubdate": "2026-08-26",
+          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Simulating team dynamics with generative agents: a case study on data science teams from digital platforms",
+          "authors": "L Li, H Yu, M Kunc",
+          "year": 2026,
+          "venue": "Annals of Operations Research",
+          "url": "https://doi.org/10.1007/s10479-026-07398-1",
+          "cites": 0,
+          "pubdate": "2026-08-25",
+          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Predicting the scale limits of social mechanisms in agent societies",
+          "authors": "Z Wu, C Xiao",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.22884",
+          "cites": 0,
+          "pubdate": "2026-08-24",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Minimal Local Simulation Foundations for LLM- and VLM-Driven Agents in 2D and 3D Environments",
+          "authors": "R Hyodo",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.22833",
+          "cites": 0,
+          "pubdate": "2026-08-24",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "MicroVerse: An Instrument for Measuring Self-Authored Identity Drift in Long-Horizon Multi-Agent Language-Model Simulations",
+          "authors": "S Ng, B Joshi, I Gupta, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.15844",
+          "cites": 2,
+          "pubdate": "2026-08-16",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "PersonaEval: Persona-Based User Simulation for Evaluating Interactive Applications",
+          "authors": "Y Liu, Q Wen, Y Fan, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.15838",
+          "cites": 1,
+          "pubdate": "2026-08-16",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Toward Agent-Based Educational Science: Rethinking Educational Research in the Age of AI",
+          "authors": "Y Zhang, J Jiang, X Tang",
+          "year": 2026,
+          "venue": "Educational Psychology Review",
+          "url": "https://doi.org/10.1007/s10648-026-10209-5",
+          "cites": 0,
+          "pubdate": "2026-08-13",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Evaluating Rational Contracting in Natural Language",
+          "authors": "B Sajja, M Kleiman-Weiner, R Zimmermann, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.10475",
+          "cites": 0,
+          "pubdate": "2026-08-11",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Measuring human behavior through controlled perturbations: a framework for reconstructing behavioral systems",
+          "authors": "P Cipresso",
+          "year": 2026,
+          "venue": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1833113",
+          "cites": 0,
+          "pubdate": "2026-08-10",
+          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Generative AI in Healthcare: Temporal Data Analysis and Sequential Decision-Making",
+          "authors": "K Wang, A Rodríguez, A Joshi, et al.",
+          "year": 2026,
+          "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+          "url": "https://doi.org/10.1145/3770855.3816465",
+          "cites": 0,
+          "pubdate": "2026-08-08",
+          "cited_key": "Epidemic Modeling with Generative Agents",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "Is Language Social Action? A Commentary on Language Agents",
+          "authors": "M Castelle",
+          "year": 2026,
+          "venue": "Sociologica",
+          "url": "https://doi.org/10.60923/issn.1971-8853/24687",
+          "cites": 1,
+          "pubdate": "2026-08-06",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models",
+          "authors": "J Han, X Li, J Qian, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.06020",
+          "cites": 0,
+          "pubdate": "2026-08-06",
+          "cited_key": "Incentives to Build Houses, Trade Houses, or Trade House Bui",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
+          "authors": "X Li, Y Hao, J Hou, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.04205",
           "cites": 5,
-          "pubdate": "2025-05-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-08-04",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Applying Spectral Clustering to Decode Mobility Patterns in Athens, Greece",
-          "authors": "E Andrinopoulou, P Tzouras",
-          "year": 2025,
-          "venue": "Applied Sciences",
-          "url": "https://doi.org/10.3390/app15073419",
-          "cites": 6,
-          "pubdate": "2025-03-21",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Population synthesis: a problem-based review",
-          "authors": "D La, H Vu, L Kamruzzaman, et al.",
-          "year": 2025,
-          "venue": "Transport reviews",
-          "url": "https://doi.org/10.1080/01441647.2025.2469069",
-          "cites": 6,
-          "pubdate": "2025-03-03",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Deep Contrastive Learning for Feature Alignment: Insights from Housing-Household Relationship Inference",
-          "authors": "X Qian, S Dong, R Davidson",
-          "year": 2025,
-          "venue": "Computers, Environment and Urban Systems",
-          "url": "https://arxiv.org/abs/2502.11205",
-          "cites": 1,
-          "pubdate": "2025-02-16",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Synthesising activity participations and scheduling with deep generative machine learning",
-          "authors": "F Shone, T Hillel",
-          "year": 2025,
-          "venue": "Transportation Research Part C: Emerging Technologies",
-          "url": "https://arxiv.org/abs/2501.10221",
-          "cites": 3,
-          "pubdate": "2025-01-17",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "A novel data fusion method to leverage passively-collected mobility data in generating spatially-heterogeneous synthetic population",
-          "authors": "K Vo, E Kim, P Bansal",
-          "year": 2025,
-          "venue": "Transportation Research Part B: Methodological",
-          "url": "https://doi.org/10.1016/j.trb.2024.103128",
-          "cites": 11,
-          "pubdate": "2025-01-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "A comprehensive investigation of variational auto-encoders for population synthesis",
-          "authors": "A Sané, P Vandanjon, R Belaroussi, et al.",
-          "year": 2024,
-          "venue": "Journal of Computational Social Science",
-          "url": "https://doi.org/10.1007/s42001-024-00332-0",
-          "cites": 5,
-          "pubdate": "2024-12-11",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Automated vehicles and the urban parking paradigm: Environmental implications and Citizen preference",
-          "authors": "A Garus, A Rodríguez, A Mourtzouchou, et al.",
-          "year": 2024,
-          "venue": "Transportation Research Part D: Transport and Environment",
-          "url": "https://doi.org/10.1016/j.trd.2024.104437",
-          "cites": 9,
-          "pubdate": "2024-11-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "A Gentle Introduction and Tutorial on Deep Generative Models in Transportation Research",
-          "authors": "S Choi, Z Jin, S Ham, et al.",
-          "year": 2024,
-          "venue": "Transportation Research Part C: Emerging Technologies",
-          "url": "https://arxiv.org/abs/2410.07066",
-          "cites": 16,
-          "pubdate": "2024-10-09",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Using Small Area Estimation to Produce Reliable Transportation Statistics: The Case of Household Trips Estimation at the Census Tract Level",
-          "authors": "M Al-Khasawneh, C Cirillo",
-          "year": 2024,
-          "venue": "Data Science for Transportation",
-          "url": "https://doi.org/10.1007/s42421-024-00105-1",
-          "cites": 2,
-          "pubdate": "2024-09-11",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "A novel machine learning-based spatialized population synthesis framework",
-          "authors": "M Khachman, C Morency, F Ciari",
-          "year": 2024,
-          "venue": "Transportation",
-          "url": "https://doi.org/10.1007/s11116-024-10534-0",
-          "cites": 2,
-          "pubdate": "2024-08-27",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Nationwide synthetic human mobility dataset construction from limited travel surveys and open data",
-          "authors": "T Kashiyama, Y Pang, Y Shibuya, et al.",
-          "year": 2024,
-          "venue": "Comput. Aided Civ. Infrastructure Eng.",
-          "url": "https://doi.org/10.1111/mice.13285",
-          "cites": 12,
-          "pubdate": "2024-06-10",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "A MATSim model methodology to generate cycling-focused transport scenarios in England",
-          "authors": "D Castro, A Ford, P James, et al.",
-          "year": 2024,
-          "venue": "Journal of Urban Mobility",
-          "url": "https://doi.org/10.1016/j.urbmob.2024.100078",
-          "cites": 9,
-          "pubdate": "2024-06-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "A data-driven framework for agent-based modeling of vehicular travel using publicly available data",
-          "authors": "Y Zhou, X Liu, B Chen, et al.",
-          "year": 2024,
-          "venue": "Computers, Environment and Urban Systems",
-          "url": "https://doi.org/10.1016/j.compenvurbsys.2024.102095",
-          "cites": 8,
-          "pubdate": "2024-06-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Detecting synthetic population bias using a spatially-oriented framework and independent validation data",
-          "authors": "J Embury, A Nara, S Rey, et al.",
-          "year": 2024,
-          "venue": "International Journal of Geographical Information Science",
-          "url": "https://doi.org/10.1080/13658816.2024.2358399",
-          "cites": 3,
-          "pubdate": "2024-05-24",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
-        },
-        {
-          "title": "Forecasting Daily Activity Plans of a Synthetic Population in an Upcoming District",
-          "authors": "R Belaroussi, Y Delhoum",
-          "year": 2024,
-          "venue": "Forecasting",
-          "url": "https://doi.org/10.3390/forecast6020021",
+          "title": "Emulate or Estimate? The Divergent Strengths of Base and Post-Trained Language Models for Opinion Simulation",
+          "authors": "S Grief-Albert, J Bo, D Jiao, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.03044",
           "cites": 0,
-          "pubdate": "2024-05-22",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-08-04",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Population Synthesis as Scenario Generation for Simulation-based Planning under Uncertainty",
-          "authors": "J Dyer, A Quera-Bofarull, N Bishop, et al.",
-          "year": 2024,
-          "venue": "Adaptive Agents and Multi-Agent Systems",
-          "url": "https://doi.org/10.5555/3635637.3662899",
+          "title": "Agentic Commerce World: An Auditable and Verifiable Environment for Vibe Commerce",
+          "authors": "S Fan, M Yang, D Wang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.02441",
           "cites": 2,
-          "pubdate": "2024-05-06",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-08-03",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Review of the Mathematical Model, Properties, Classes and other Features of Software Agent Development",
-          "authors": "E Zelenko",
-          "year": 2024,
-          "venue": "Èlektronnoe modelirovanie",
-          "url": "https://doi.org/10.15407/emodel.46.02.003",
+          "title": "No One Wins in Nuclear War: A Social Simulation of Military Decision-making",
+          "authors": "G Matlin, I Song, A Zang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.01868",
           "cites": 0,
-          "pubdate": "2024-04-10",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "pubdate": "2026-08-03",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "OLYMPUS-POPGEN: A synthetic population generation model to represent urban populations for assessing exposure to air quality",
-          "authors": "A Etuman, T Benoussaïd, H Charreire, et al.",
-          "year": 2024,
-          "venue": "PLoS ONE",
-          "url": "https://doi.org/10.1371/journal.pone.0299383",
-          "cites": 5,
-          "pubdate": "2024-03-08",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "title": "Modeling Social Dynamics with an LLM-Enabled Agent Based Network-Dynamic (LAND) Model",
+          "authors": "L Ng, K Carley",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.00929",
+          "cites": 0,
+          "pubdate": "2026-08-02",
+          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "An Agent-Based Model for Disease Epidemics in Greece",
-          "authors": "V Thomopoulos, K Tsichlas",
-          "year": 2024,
-          "venue": "Inf.",
-          "url": "https://doi.org/10.3390/info15030150",
-          "cites": 6,
-          "pubdate": "2024-03-07",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "title": "Digital Life Models and Transformative Choices: Could AI Simulations of Individual Minds (AI SIMs) Help us Make Important Life Decisions More Rationally and Authentically?",
+          "authors": "C Register, S Mann, C Voinea, et al.",
+          "year": 2026,
+          "venue": "Neuroethics",
+          "url": "https://doi.org/10.1007/s12152-026-09662-4",
+          "cites": 2,
+          "pubdate": "2026-08-01",
+          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Individual-level activity-based modeling and indicators for assessing construction sites noise exposure in urban areas",
-          "authors": "P Hankach, V Bescond, P Gastineau, et al.",
-          "year": 2024,
-          "venue": "Sustainable cities and society",
-          "url": "https://doi.org/10.1016/j.scs.2024.105188",
-          "cites": 21,
-          "pubdate": "2024-02-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "title": "Artificial Intelligence and Modeling&Simulation: An Overview",
+          "authors": "N Feldkamp, P Giabbanelli, I David",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.00366",
+          "cites": 0,
+          "pubdate": "2026-08-01",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Generating synthetic population for simulating the spatiotemporal dynamics of epidemics",
-          "authors": "K Zhu, K Liu, J Liu, et al.",
-          "year": 2024,
-          "venue": "PLoS Comput. Biol.",
-          "url": "https://doi.org/10.1371/journal.pcbi.1011810",
-          "cites": 16,
-          "pubdate": "2024-02-01",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "title": "Conundrums and paradoxes in the pre-death grief experiences of dementia caregivers: A causal loop analysis.",
+          "authors": "Y Ng, J Wang, A Chow",
+          "year": 2026,
+          "venue": "Social Science & Medicine (1967)",
+          "url": "https://doi.org/10.1016/j.socscimed.2026.119676",
+          "cites": 0,
+          "pubdate": "2026-08-01",
+          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Estimation of Environmental Rebound Effect Induced by Shared Automated Passenger Transport Service in a Mid-Size European City via Microsimulation",
-          "authors": "A Garus, B Oreña, M Raposo, et al.",
-          "year": 2024,
-          "venue": "Transportation Research Record",
-          "url": "https://doi.org/10.1177/03611981231223752",
-          "cites": 10,
-          "pubdate": "2024-01-31",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "title": "How Affect Propagates among LLM Agents: Emergent Emotional Contagion in Crowd Simulation",
+          "authors": "F Durupinar",
+          "year": 2026,
+          "venue": "arXiv.org",
+          "url": "https://arxiv.org/abs/2607.25140",
+          "cites": 0,
+          "pubdate": "2026-07-27",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
         },
         {
-          "title": "Integrating future trends and uncertainties in urban mobility design via data-driven personas and scenarios",
-          "authors": "T Gall, S Hörl, F Vallet, et al.",
-          "year": 2023,
-          "venue": "European Transport Research Review",
-          "url": "https://doi.org/10.1186/s12544-023-00622-0",
-          "cites": 8,
-          "pubdate": "2023-11-28",
-          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
-          "first_seen": "2026-09-24"
+          "title": "Role differentiation as ignition of a collective information engine: Structuration in Agent Populations",
+          "authors": "M Touzel",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05442",
+          "cites": 0,
+          "pubdate": "2026-07-26",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-25"
+        },
+        {
+          "title": "pyRMV: Reusable, Cross-model Validation for Computational Science",
+          "authors": "H Dictus, E Subert, A Romani, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.09956",
+          "cites": 0,
+          "pubdate": "2026-07-21",
+          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
+          "first_seen": "2026-09-25"
         }
       ],
-      "n_citing": 75
+      "n_citing": 453,
+      "query": "social simulations"
     }
   }
 }

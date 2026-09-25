@@ -32,7 +32,7 @@ S2 = "https://api.semanticscholar.org/graph/v1"
 S2_KEY = os.environ.get("S2_API_KEY", "").strip()
 OPENALEX_KEY = os.environ.get("OPENALEX_KEY", "").strip()
 
-RELATED_MAX = 12     # 유관 논문 최대
+KEY_MAX = 20         # 토픽당 키페이퍼 최대(EM references 전부 담되 상한)
 CITING_MAX = 40      # 인용 알림 목록 최대
 ATOM = "{http://www.w3.org/2005/Atom}"
 
@@ -183,6 +183,84 @@ def s2_citations(arxiv):
     return out
 
 
+# ── 검색어 자동 도출 ────────────────────────────────────────────────
+# 정책: 토픽의 Most cited(검색 기반) 검색어를, 그 토픽 키페이퍼 '제목'에서 역으로
+# 도출한다. 토픽명(예: "Deep persona")은 실제 논문 제목에 없는 약어일 수 있어
+# 검색이 엉뚱한 논문을 부른다. 대신 키페이퍼 제목의 주제어 조합을 후보로 만들고,
+# 각 후보를 OpenAlex에 넣어 결과가 키페이퍼와 '주제적으로 겹치는지'로 고른다.
+# (인용수로 고르면 generic 초고인용어가 이겨 무관 논문을 부르므로 겹침으로 채점.)
+_QSTOP = set(("a an the of for and or to in on via with from between using based approach "
+    "framework method methods model models toward towards novel into as at by is are be we our "
+    "this that new study empirical survey up down user users level every human humans experiment "
+    "testbed reproducible enhancing exploring improving optimizing learning intelligence system "
+    "systems data scalable generalizable dynamic efficient effective real time self implicit "
+    "emergent pluralistic can more not what how why their your").split())
+
+
+def _qpfx(w):
+    return w.lower().strip('-')[:5]
+
+
+def _qwords(t):
+    return [w for w in re.findall(r"[a-z][a-z0-9\-]{2,}", (t or "").lower()) if w not in _QSTOP]
+
+
+def _qgroups(t):
+    return set(_qpfx(w) for w in _qwords(t))
+
+
+def _probe_mostcited(query, n=15):
+    """OpenAlex에서 mostcited 생성기와 같은 방식(제목·초록 검색 + 제목 단어 AND)으로 상위 결과."""
+    filt = (f"title_and_abstract.search:{query},type:article,"
+            f"concepts.id:C41008148,has_doi:true")
+    url = _oa("https://api.openalex.org/works?filter=" + urllib.parse.quote(filt) +
+              "&per_page=60&select=title,cited_by_count")
+    txt = _fetch(url)
+    if not txt:
+        return []
+    try:
+        rows = json.loads(txt).get("results", [])
+    except Exception:
+        return []
+    qw = re.findall(r"[a-z0-9]{3,}", query.lower())
+    strict = [w for w in rows if all(q in (w.get("title") or "").lower() for q in qw)]
+    strict.sort(key=lambda w: -(w.get("cited_by_count") or 0))
+    return strict[:n]
+
+
+def derive_query(titles, K=5):
+    """키페이퍼 제목들 → Most cited용 검색어. 없으면 None(호출측이 토픽명으로 폴백)."""
+    titles = [t for t in titles if t]
+    if not titles:
+        return None
+    kv = set().union(*[_qgroups(t) for t in titles])       # 키페이퍼 어휘(prefix 그룹)
+    rep, gf = {}, {}
+    for t in titles:
+        for w in set(_qwords(t)):
+            g = _qpfx(w); gf[g] = gf.get(g, 0) + 1
+            rep.setdefault(g, {}); rep[g][w] = rep[g].get(w, 0) + 1
+    top = sorted(gf, key=lambda g: -gf[g])[:K]
+    if not top:
+        return None
+    surf = lambda g: max(rep[g], key=rep[g].get)
+    import itertools
+    cands = [surf(g) for g in top] + [surf(a) + " " + surf(b)
+                                      for a, b in itertools.combinations(top, 2)]
+    scored = []
+    for q in dict.fromkeys(cands):
+        res = _probe_mostcited(q)
+        if len(res) < 3:                                   # 매칭이 너무 적으면 약한 검색어
+            continue
+        ov = sum(len(_qgroups(r["title"]) & kv) / max(len(_qgroups(r["title"])), 1)
+                 for r in res) / len(res)                  # 결과가 키페이퍼와 주제적으로 겹치는 정도
+        scored.append((round(ov * 10 + min(len(res), 8) * 0.25, 3), q))
+        time.sleep(0.2)
+    if not scored:
+        return surf(top[0]) if top else None               # 폴백: 최빈 주제어 단독
+    scored.sort(reverse=True)
+    return scored[0][1]
+
+
 def _obj(aid, meta, cites_map, topic, key=False):
     m = meta.get(aid) or {"title": "", "authors": "", "year": None,
                           "url": "https://arxiv.org/abs/" + aid, "venue": "arXiv"}
@@ -225,49 +303,48 @@ def main():
             if u:
                 em_all += em_arxiv_ids(u)
         em_all = list(dict.fromkeys(em_all))
-        if not keys and em_all:
-            keys = [em_all[0]]                        # 키 미지정 → em 첫 논문을 대표로
-        key_set = set(keys)
-        em_ids = [i for i in em_all if i not in key_set][:RELATED_MAX]
-        if not keys:
+        # 정책: 명시 key + EM 페이지 references의 논문 전부를 '키페이퍼'로 삼는다(related 구분 없음).
+        key_ids = list(dict.fromkeys(keys + em_all))[:KEY_MAX]
+        if not key_ids:
             continue
-        print(f"· {topic}: key {len(keys)} · em 유관 {len(em_ids)}")
+        print(f"· {topic}: 키페이퍼 {len(key_ids)}편")
 
-        all_ids = keys + em_ids
-        meta = arxiv_meta(all_ids)
-        cites = oa_cites(all_ids)
+        meta = arxiv_meta(key_ids)
+        cites = oa_cites(key_ids)
         if meta:
             any_ok = True
+        key_objs = [_obj(i, meta, cites, topic, key=True) for i in key_ids]
+        key_urls = {k["url"] for k in key_objs}
 
-        key_objs = [_obj(k, meta, cites, topic, key=True) for k in keys]
-        related = [_obj(i, meta, cites, topic) for i in em_ids]     # em 순서(큐레이션 흐름) 유지
-
-        # em 유관이 없으면 참고문헌으로 폴백은 생략(키페이퍼만이라도 정확히 뜨게) — em URL 권장
-
-        # 인용 알림: 이전 first_seen 보존
+        # 인용 알림: 모든 키페이퍼를 인용한 논문(cited-by) 집계. 이전 first_seen 보존.
         prev_seen = {c["url"]: (c.get("first_seen") or TODAY)
                      for c in (prev.get(topic, {}) or {}).get("citing", []) if c.get("url")}
         citing = {}
-        for arx in keys:
+        for arx in key_ids:
             for c in s2_citations(arx):
-                if c["url"] in citing:
+                if c["url"] in citing or c["url"] in key_urls:
                     continue
                 c["cited_key"] = (meta.get(arx, {}).get("title") or arx)[:60]
                 c["first_seen"] = prev_seen.get(c["url"], TODAY)
                 citing[c["url"]] = c
-            time.sleep(1)
+            time.sleep(0.3 if S2_KEY else 1)
 
-        key_urls = {k["url"] for k in key_objs}
-        cite_list = [c for c in citing.values() if c["url"] not in key_urls]
-        cite_list.sort(key=lambda p: (p.get("pubdate") or "", p.get("cites") or 0), reverse=True)
+        cite_list = sorted(citing.values(),
+                           key=lambda p: (p.get("pubdate") or "", p.get("cites") or 0), reverse=True)
+
+        # Most cited 검색어를 키페이퍼 제목에서 역으로 도출(gen_topics가 이 값을 우선 사용)
+        try:
+            q = derive_query([k.get("title") for k in key_objs])
+        except Exception as e:
+            print(f"  ! derive_query {topic}: {e}", file=sys.stderr); q = None
 
         result["topics"][topic] = {
             "key": key_objs,
-            "related": related[:RELATED_MAX],
             "citing": cite_list[:CITING_MAX],
             "n_citing": len(cite_list),
+            "query": q,                                   # Most cited용 자동 도출 검색어
         }
-        print(f"  → related {len(related)} · citing {len(cite_list)}")
+        print(f"  → 키페이퍼 {len(key_objs)} · citing {len(cite_list)} · 검색어 '{q}'")
 
     if not any_ok and prev:
         print("! 모든 키페이퍼 조회 실패 — 기존 keypapers.json 유지", file=sys.stderr)

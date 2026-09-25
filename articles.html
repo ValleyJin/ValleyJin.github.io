@@ -100,6 +100,12 @@ permalink: /articles/
       <div class="newest-list" id="newest-list"></div>
     </div>
 
+    <!-- ▼ Key papers: 수동 등록/EM 큐레이션 대표 논문(📌). Most cited와 별개 -->
+    <div class="keypapers" id="keypapers" hidden>
+      <div class="section-head" style="margin:34px 0 6px"><h2>Key papers</h2><span class="more mono" id="keypapers-sub" style="text-transform:none">등록·큐레이션한 대표 논문</span></div>
+      <ul class="pubs" id="keypapers-list"></ul>
+    </div>
+
     <div class="mostcited" id="mostcited" hidden>
       <div class="section-head" style="margin:34px 0 6px"><h2>Most cited</h2><span id="more-links" class="more mono" hidden>More : <a id="oa-link" target="_blank" rel="noopener">OpenAlex</a><span id="more-sep"> · </span><a id="em-link" target="_blank" rel="noopener">Emergentmind</a></span></div>
       <ul class="pubs" id="mostcited-list"></ul>
@@ -107,7 +113,7 @@ permalink: /articles/
 
     <!-- ▼ 키페이퍼 인용 알림: 등록한 키페이퍼를 인용한 새 논문 (Semantic Scholar 크롤) -->
     <div class="keyciting" id="keyciting" hidden>
-      <div class="section-head" style="margin:30px 0 6px"><h2 id="keyciting-h">🔔 Cites this key paper</h2><span class="more mono" id="keyciting-sub" style="text-transform:none">이 키페이퍼를 인용한 논문 · Semantic Scholar</span></div>
+      <div class="section-head" style="margin:30px 0 6px"><h2 id="keyciting-h">🔔 Cites these key papers</h2><span class="more mono" id="keyciting-sub" style="text-transform:none">이 키페이퍼를 인용한 논문 · Semantic Scholar</span></div>
       <ul class="pubs" id="keyciting-list"></ul>
     </div>
 
@@ -970,6 +976,7 @@ permalink: /articles/
       var kdata={}; try{ kdata=JSON.parse((document.getElementById('keypapers-data')||{}).textContent||'{}'); }catch(e){}
       var keyTopics=(kdata.topics||{});
       Object.keys(keyTopics).forEach(function(t){ if(topicList.indexOf(t)<0) topicList.push(t); });   // 키페이퍼 토픽은 newest 갱신 전에도 탭 노출
+      var keyPapersWrap=document.getElementById('keypapers'), keyPapersList=document.getElementById('keypapers-list'), keyPapersSub=document.getElementById('keypapers-sub');
       var keyCitingWrap=document.getElementById('keyciting'), keyCitingList=document.getElementById('keyciting-list'), keyCitingSub=document.getElementById('keyciting-sub');
       var emMap=data.em||{};             // 토픽별 Emergent Mind URL
       var VMETA={}; try{ VMETA=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){}   // venue별 분야(group)
@@ -1086,12 +1093,8 @@ permalink: /articles/
         var head='<div class="nl-head mono">'+esc(st.sel)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div>';
         listEl.innerHTML=head+(ps.length?'<ul class="pubs">'+ps.map(paperLi).join('')+'</ul>':'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">No paper</p>');
       }
+      // Most cited = 검색식으로 들어온 것 중 인용 최다(자동). 키페이퍼와 무관하게 유지.
       function mostCited(){
-        // 키페이퍼 등록 토픽 → '키페이퍼(📌) + 유관 논문(참고문헌 인용순)'으로 대체
-        if(st.topic!=='All' && keyTopics[st.topic]){
-          var kt=keyTopics[st.topic], kk=(kt.key||[]).slice(), kr=(kt.related||[]).slice();
-          if(kk.length||kr.length) return kk.concat(kr).slice(0,16);
-        }
         var out;
         if(st.topic!=='All'){ out=(mostData[st.topic]||[]).slice(); }
         else { out=[]; Object.keys(mostData).forEach(function(k){ out=out.concat(mostData[k]||[]); }); }
@@ -1104,7 +1107,17 @@ permalink: /articles/
         if(!mcList) return;
         var cp=mostCited();
         mcList.innerHTML=cp.length?cp.map(paperLi).join(''):'<li class="pub-row"><span class="pmeta" style="color:var(--muted)">No results.</span></li>';
-        renderKeyCiting();
+        renderKeyPapers(); renderKeyCiting();
+      }
+      // Key papers = 수동 등록/EM 큐레이션 키페이퍼(📌). Most cited와 별개 섹션.
+      function renderKeyPapers(){
+        if(!keyPapersWrap||!keyPapersList) return;
+        var kt=(st.topic!=='All')&&keyTopics[st.topic];
+        var ks=(kt&&kt.key)?kt.key.slice():[];
+        if(!ks.length){ keyPapersWrap.hidden=true; keyPapersList.innerHTML=''; return; }
+        if(keyPapersSub) keyPapersSub.textContent='등록·큐레이션한 대표 논문 '+ks.length+'편 · Emergent Mind';
+        keyPapersWrap.hidden=false;
+        keyPapersList.innerHTML=ks.map(paperLi).join('');
       }
       // 키페이퍼를 인용한 새 논문(알림). first_seen 기준으로 며칠간 NEW 표시.
       function renderKeyCiting(){
@@ -1113,7 +1126,7 @@ permalink: /articles/
         var cs=(kt&&kt.citing)?kt.citing.slice():[];
         if(!cs.length){ keyCitingWrap.hidden=true; keyCitingList.innerHTML=''; return; }
         cs.forEach(function(p){ if(!p.added) p.added=p.first_seen; });   // NEW 배지용
-        if(keyCitingSub){ var kn=(kt.key&&kt.key[0])?String(kt.key[0].title||''):''; keyCitingSub.textContent='“'+kn.slice(0,46)+(kn.length>46?'…':'')+'”를 인용한 논문 '+(kt.n_citing||cs.length)+'편 · Semantic Scholar'; }
+        if(keyCitingSub){ keyCitingSub.textContent='키페이퍼 '+((kt.key&&kt.key.length)||0)+'편을 인용한 논문 '+(kt.n_citing||cs.length)+'편 · Semantic Scholar'; }
         keyCitingWrap.hidden=false;
         keyCitingList.innerHTML=cs.map(paperLi).join('');
       }
@@ -1236,7 +1249,7 @@ permalink: /articles/
         var scholars=(m==='scholars');
         if(wrap) wrap.hidden=scholars;
         if(mcWrap) mcWrap.hidden=scholars;
-        if(keyCitingWrap && scholars) keyCitingWrap.hidden=true;   // 학자 모드에선 인용 알림 숨김(topic 모드에서 renderKeyCiting이 다시 판단)
+        if(scholars){ if(keyPapersWrap) keyPapersWrap.hidden=true; if(keyCitingWrap) keyCitingWrap.hidden=true; }   // 학자 모드: Key papers·인용 알림 숨김
         if(svWrap) svWrap.hidden=!scholars;
         if(sectEl) sectEl.hidden=!scholars;
         if(viEl){ if(scholars){ viEl.hidden=true; } else { renderVenueInfo(); } }   // 학자 모드에선 venue 정보 숨김

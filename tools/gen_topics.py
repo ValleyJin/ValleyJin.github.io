@@ -929,8 +929,19 @@ def main():
     fresh = newest   # 이번 실행에서 새로 받은 최근 N개월치 (누적 병합 전)
 
     # ── Most cited: 토픽(키워드)별 '전기간' 누적 피인용 상위 (날짜 무관) ──
+    # 키페이퍼 토픽은 검색어를 키페이퍼 제목에서 자동 도출한 값(keypapers.json의 query)을
+    # 우선 사용한다 — 토픽명(약어)이 실제 논문 제목에 없어 엉뚱한 논문을 부르는 걸 막는다.
+    keyq = {}
+    try:
+        _kp = json.loads((ROOT / "_data" / "keypapers.json").read_text(encoding="utf-8"))
+        for _t, _v in (_kp.get("topics") or {}).items():
+            if _v.get("query"):
+                keyq[_t] = _v["query"]
+    except Exception:
+        pass
     mostcited = {}
     for label, query, _em in topics:
+        query = keyq.get(label, query)                    # 도출 검색어 우선, 없으면 토픽 설정값
         arr, seen_m = [], set()
         try:
             # 관련도(정렬X)로 주제 논문을 넓게 → 그중 인용수 상위. (cited_by_count 정렬은
