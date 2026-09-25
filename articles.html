@@ -634,7 +634,7 @@ permalink: /articles/
       }catch(e){} }
       var jVR=null, jFullX=1, jFullY=1;                            // 확대 범위(데이터-줌); null=전체
       var jLastReg=null;                                           // 현재 회귀선(상세 패널 포지셔닝용)
-      var jHL=null;                                                // 검색 강조 대상 라벨
+      var jHL=null, cHL=null;                                      // 검색·클릭 강조 대상 라벨(저널·학회)
       function buildJ(keepView){
         var jr=journals.filter(function(v){return v.sjr!=null && jsel[v.group] && qsel[String(v.q||'Q1').toUpperCase()];});
         var sMax=Math.max.apply(null,jr.map(function(v){return v.sjr;}).concat([0.1]));
@@ -671,7 +671,8 @@ permalink: /articles/
       var jHtml=buildJ();
 
       /* ── 학회: X=h-index, Y=i10-index, 점 크기=논문수, 색=CORE 등급 ── */
-      function buildC(){ var cHtml='';
+      var cVR=null, cFullX=1, cFullY=1;                           // 학회 플롯 확대 범위(줌/팬)
+      function buildC(keepView){ var cHtml='';
       if(confs.length){
         var crc={'A*':'as','A':'a','B':'b','C':'c'};
         var cwMax=Math.max.apply(null,confs.map(function(v){return v.works||0;}).concat([1]));
@@ -682,12 +683,15 @@ permalink: /articles/
         var cxMax=Math.max.apply(null,confs.map(_hit).concat([0.05]));
         var cyMax=Math.max.apply(null,confs.map(_hn).concat([0.5]));
         cHtml=legend([['c-as','A*'],['c-a','A'],['c-b','B'],['c-c','C']],'점 크기 = 논문 수 · 가로 = 인용 적중률(i10÷논문수) · 세로 = 규모보정 h(h÷√논문수) — 둘 다 부피 무관해 편당 질이 낮은 대량 학회(AAAI)는 좌하단');
+        cHtml+='<div class="qhint mono">점 크기 = 논문 수 · 점 클릭 = 상세 · 휠·핀치 확대, 확대 후 드래그로 이동, 더블클릭 리셋</div>';
         var cpts=confs.map(function(v){ return {x:_hit(v),y:_hn(v),label:v.label,link:v.link,
           cls:'c-'+(crc[v.crank]||'a'), r:bub(v.works,cwMax), num:'적중 '+Math.round(_hit(v)*100)+'% · h/√n '+_hn(v).toFixed(1),
+          hl:(cHL!=null && v.label===cHL),
           title:(v.name||'')+' · CORE '+(v.crank||'')+' · 적중률 '+Math.round(_hit(v)*100)+'% · h'+(v.h||'')+' · i10 '+(v.i10||'')+' · 논문 '+(v.works||'')}; });
         // 학회 두 축은 단위가 무관한 정규화 비율 → 등축 무의미. 16:9 프레임에 데이터를 여백만 주고 채운다.
-        var _cv={x0:0,x1:cxMax*1.06,y0:0,y1:cyMax*1.1};
-        cHtml+=plot({pts:cpts,xMax:_cv.x1,yMax:_cv.y1,view:_cv,axX:'인용 적중률(i10÷논문수) →',axY:'규모보정 h(h÷√논문수) ↑',aspect:FR});
+        cFullX=cxMax*1.06; cFullY=cyMax*1.1;
+        if(!keepView || !cVR) cVR={x0:0,x1:cFullX,y0:0,y1:cFullY};   // 필터/탭 변경 시 전체, 줌 시 유지
+        cHtml+=plot({pts:cpts,xMax:cFullX,yMax:cFullY,view:cVR,axX:'인용 적중률(i10÷논문수) →',axY:'규모보정 h(h÷√논문수) ↑',aspect:FR});
       }
       return cHtml; }
       var cHtml=buildC();
@@ -799,7 +803,7 @@ permalink: /articles/
           jHL=lab; jview.innerHTML=buildJ(true);   // 클릭한 점을 하이라이트(이전 하이라이트 해제)
           renderJDetail(jByLabel[lab],_sd); } }); }
       if(jdet){ jdet.addEventListener('click',function(e){ if(e.target.closest('.qd-x')){ jdet.hidden=true; jdet.className='qdetail';
-        jHL=null; if(jview) jview.innerHTML=buildJ(true); if(cview){ [].forEach.call(cview.querySelectorAll('.qdot.is-hl'),function(d){d.classList.remove('is-hl');}); }   // 하이라이트 해제
+        jHL=null; cHL=null; if(jview) jview.innerHTML=buildJ(true); if(cview) cview.innerHTML=buildC(true);   // 하이라이트 해제
         try{AState.set({mp:null});}catch(_){} } }); }
 
       /* ── AI 학회 점 클릭 → 상세(소개/학회 방향/공략 포인트). 저널과 달리 CORE 등급·h/i10·최근 주제 기준 ── */
@@ -844,12 +848,13 @@ permalink: /articles/
         if(v.wimg){ var _im=new Image(); _im.onload=function(){ var cov=jdet.querySelector('.qd-cover'); if(cov && !cov.classList.contains('has-cover')){ cov.classList.add('has-cover'); cov.innerHTML='<img class="qd-cover-img" src="'+esc(v.wimg)+'" alt="'+esc((v.name||'')+' 이미지')+'">'; } }; _im.src=v.wimg; }
       }
       if(cview){ cview.addEventListener('click',function(e){ var dot=e.target.closest?e.target.closest('.qdot'):null;
-        if(dot){ e.preventDefault(); var lab=dot.getAttribute('data-lab');
+        if(dot){ e.preventDefault(); if(_dragMoved){ _dragMoved=false; return; }   // 드래그 후 클릭 무시
+          var lab=dot.getAttribute('data-lab');
           var _sd=null; if(_fs){ var _r=dot.getBoundingClientRect(); _sd=(_r.left+_r.width/2 < window.innerWidth/2)?'right':'left'; }
-          _highlightC(cByLabel[lab]); renderCDetail(cByLabel[lab],_sd); } }); }
+          cHL=lab; cview.innerHTML=buildC(true);   // 클릭한 점 하이라이트(뷰 유지)
+          renderCDetail(cByLabel[lab],_sd); } }); }
       function _highlightC(v){ var ct=el.querySelector('.qtab[data-v="c"]'); if(ct&&!ct.classList.contains('is-on')) ct.click();
-        if(!cview) return; [].forEach.call(cview.querySelectorAll('.qdot.is-hl'),function(d){d.classList.remove('is-hl');});
-        var d=cview.querySelector('.qdot[data-lab="'+String(v.label).replace(/"/g,'')+'"]'); if(d) d.classList.add('is-hl'); }
+        cHL=v.label; if(cview) cview.innerHTML=buildC(true); }
 
       /* 검색: 이름·약칭의 일부만 입력해도 '로드된 저널'을 드롭다운으로 표시 → 클릭/Enter 시 해당 점 강조.
          (외부 신규 저널 점 추가 기능은 삭제 — 데이터에 있는 저널만 강조) */
@@ -893,48 +898,52 @@ permalink: /articles/
         }
       }
 
-      /* 데이터-줌: 커서 지점의 데이터 좌표를 고정한 채 view 범위를 좁혀 재렌더 → 축 고정, 점만 확산(크기 유지). 더블클릭=리셋 */
-      function _jplot(t){ return t.closest ? t.closest('.qview[data-v="j"] .qplot') : null; }
-      function _dz(cxp, cyp, factor){   // cxp,cyp: 플롯 내 커서 위치(%) (x=왼쪽부터, y=아래부터)
-        if(!jVR) return; var v=jVR;
+      /* 데이터-줌/팬: 저널(j)·학회(c) 두 플롯 공통. 커서 지점 데이터 좌표 고정한 채 view 좁혀 재렌더. 더블클릭=리셋 */
+      function _plotK(t){ if(!t.closest) return null; if(t.closest('.qview[data-v="j"] .qplot')) return 'j'; if(t.closest('.qview[data-v="c"] .qplot')) return 'c'; return null; }
+      function _plotEl(t){ return t.closest ? (t.closest('.qview[data-v="j"] .qplot')||t.closest('.qview[data-v="c"] .qplot')) : null; }
+      function _getVR(k){ return k==='c'?cVR:jVR; }
+      function _fx(k){ return k==='c'?cFullX:jFullX; }
+      function _fy(k){ return k==='c'?cFullY:jFullY; }
+      function _applyVR(k,vr){ if(k==='c'){ cVR=vr; cview.innerHTML=buildC(true); } else { jVR=vr; jview.innerHTML=buildJ(true); } }
+      function _resetK(k){ if(k==='c'){ cVR=null; cview.innerHTML=buildC(); } else { jVR=null; jview.innerHTML=buildJ(); } }
+      function _dz(k, cxp, cyp, factor){
+        var v=_getVR(k); if(!v) return; var FX=_fx(k), FY=_fy(k);
         var dx=v.x0+((cxp-PX)/(100-PX-6))*(v.x1-v.x0), dy=v.y0+((cyp-PY)/(100-PY-8))*(v.y1-v.y0);
-        // 최대 확대 제한을 '거부'가 아니라 '클램프'로 — 세게 핀치해도 무시되지 않고 최대까지 확대.
-        if(factor>1){ var mf=Math.min((v.x1-v.x0)/(jFullX*0.03), (v.y1-v.y0)/(jFullY*0.03)); if(factor>mf) factor=Math.max(1,mf); }
+        if(factor>1){ var mf=Math.min((v.x1-v.x0)/(FX*0.03), (v.y1-v.y0)/(FY*0.03)); if(factor>mf) factor=Math.max(1,mf); }   // 최대확대 클램프
         var nx0=dx-(dx-v.x0)/factor, nx1=dx+(v.x1-dx)/factor, ny0=dy-(dy-v.y0)/factor, ny1=dy+(v.y1-dy)/factor;
-        if(nx1-nx0>=jFullX && ny1-ny0>=jFullY){ jVR=null; jview.innerHTML=buildJ(); return; }   // 전체보다 넓어지면 리셋
-        nx0=Math.max(0,nx0); nx1=Math.min(jFullX*1.03,nx1); ny0=Math.max(0,ny0); ny1=Math.min(jFullY*1.05,ny1);
-        jVR={x0:nx0,x1:nx1,y0:ny0,y1:ny1}; jview.innerHTML=buildJ(true);
+        if(nx1-nx0>=FX && ny1-ny0>=FY){ _resetK(k); return; }   // 전체보다 넓어지면 리셋
+        nx0=Math.max(0,nx0); nx1=Math.min(FX*1.03,nx1); ny0=Math.max(0,ny0); ny1=Math.min(FY*1.05,ny1);
+        _applyVR(k,{x0:nx0,x1:nx1,y0:ny0,y1:ny1});
       }
-      var _zoomed=function(){ return !!jVR && (jVR.x1-jVR.x0 < jFullX*0.985 || jVR.y1-jVR.y0 < jFullY*0.985); };
-      /* 팬: 화면 %-이동을 데이터 좌표로 환산해 view를 통째로 평행이동(폭 유지). 커서를 따라 내용이 움직임 */
-      function _panBy(mdxp, mdyp){   // mdxp,mdyp: 커서의 %-이동량 (x=오른쪽+, y=위쪽+)
-        if(!jVR) return; var v=jVR, w=v.x1-v.x0, h=v.y1-v.y0;
-        var ddx=mdxp/(100-PX-6)*w, ddy=mdyp/(100-PY-8)*h;   // 데이터 이동량
-        var nx0=v.x0-ddx, ny0=v.y0-ddy;                     // 내용이 커서를 따라가려면 view는 반대로
-        nx0=Math.max(0,Math.min(jFullX*1.03-w,nx0)); ny0=Math.max(0,Math.min(jFullY*1.05-h,ny0));
-        jVR={x0:nx0,x1:nx0+w,y0:ny0,y1:ny0+h}; jview.innerHTML=buildJ(true);
+      function _zoomed(k){ var v=_getVR(k); return !!v && (v.x1-v.x0 < _fx(k)*0.985 || v.y1-v.y0 < _fy(k)*0.985); }
+      function _panBy(k, mdxp, mdyp){
+        var v=_getVR(k); if(!v) return; var w=v.x1-v.x0, h=v.y1-v.y0, FX=_fx(k), FY=_fy(k);
+        var ddx=mdxp/(100-PX-6)*w, ddy=mdyp/(100-PY-8)*h;
+        var nx0=v.x0-ddx, ny0=v.y0-ddy;
+        nx0=Math.max(0,Math.min(FX*1.03-w,nx0)); ny0=Math.max(0,Math.min(FY*1.05-h,ny0));
+        _applyVR(k,{x0:nx0,x1:nx0+w,y0:ny0,y1:ny0+h});
       }
-      el.addEventListener('wheel',function(e){ var plot=_jplot(e.target); if(!plot) return; e.preventDefault();
-        var r=plot.getBoundingClientRect(); _dz((e.clientX-r.left)/r.width*100, (1-(e.clientY-r.top)/r.height)*100, Math.exp(-e.deltaY*0.0128)); },{passive:false});
-      el.addEventListener('dblclick',function(e){ if(!_jplot(e.target)) return; jVR=null; jview.innerHTML=buildJ(); });
+      el.addEventListener('wheel',function(e){ var k=_plotK(e.target); if(!k) return; var plot=_plotEl(e.target); e.preventDefault();
+        var r=plot.getBoundingClientRect(); _dz(k,(e.clientX-r.left)/r.width*100, (1-(e.clientY-r.top)/r.height)*100, Math.exp(-e.deltaY*0.0128)); },{passive:false});
+      el.addEventListener('dblclick',function(e){ var k=_plotK(e.target); if(!k) return; _resetK(k); });
       /* 마우스 드래그 팬(확대 상태에서만) */
       var _drag=null;
-      el.addEventListener('mousedown',function(e){ if(e.button!==0) return; var plot=_jplot(e.target); if(!plot||!_zoomed()) return;
-        e.preventDefault(); var r=plot.getBoundingClientRect(); _drag={x:e.clientX,y:e.clientY,w:r.width,h:r.height,moved:0}; plot.classList.add('is-pan'); });
+      el.addEventListener('mousedown',function(e){ if(e.button!==0) return; var k=_plotK(e.target), plot=_plotEl(e.target); if(!k||!_zoomed(k)) return;
+        e.preventDefault(); var r=plot.getBoundingClientRect(); _drag={k:k,x:e.clientX,y:e.clientY,w:r.width,h:r.height,moved:0}; plot.classList.add('is-pan'); });
       window.addEventListener('mousemove',function(e){ if(!_drag) return;
-        var mdxp=(e.clientX-_drag.x)/_drag.w*100, mdyp=-(e.clientY-_drag.y)/_drag.h*100;   // 화면 y는 아래로+ → 부호 반전
-        _drag.moved+=Math.abs(e.clientX-_drag.x)+Math.abs(e.clientY-_drag.y); _drag.x=e.clientX; _drag.y=e.clientY; _panBy(mdxp,mdyp); });
-      window.addEventListener('mouseup',function(){ if(!_drag) return; if(_drag.moved>4) _dragMoved=true; var p=jview.querySelector('.qplot.is-pan'); if(p) p.classList.remove('is-pan'); _drag=null; });
+        var mdxp=(e.clientX-_drag.x)/_drag.w*100, mdyp=-(e.clientY-_drag.y)/_drag.h*100;
+        _drag.moved+=Math.abs(e.clientX-_drag.x)+Math.abs(e.clientY-_drag.y); _drag.x=e.clientX; _drag.y=e.clientY; _panBy(_drag.k,mdxp,mdyp); });
+      window.addEventListener('mouseup',function(){ if(!_drag) return; if(_drag.moved>4) _dragMoved=true; var p=el.querySelector('.qplot.is-pan'); if(p) p.classList.remove('is-pan'); _drag=null; });
       var _pn=null, _pan1=null;
-      el.addEventListener('touchstart',function(e){ var plot=_jplot(e.target); if(!plot) return;
+      el.addEventListener('touchstart',function(e){ var k=_plotK(e.target), plot=_plotEl(e.target); if(!k) return;
         var r=plot.getBoundingClientRect();
         if(e.touches.length===2){ var a=e.touches[0],b=e.touches[1];
-          _pn={d:Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY),cx:((a.clientX+b.clientX)/2-r.left)/r.width*100,cy:(1-((a.clientY+b.clientY)/2-r.top)/r.height)*100}; _pan1=null; }
-        else if(e.touches.length===1 && _zoomed()){ var t=e.touches[0]; _pan1={x:t.clientX,y:t.clientY,w:r.width,h:r.height}; } },{passive:false});
+          _pn={k:k,d:Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY),cx:((a.clientX+b.clientX)/2-r.left)/r.width*100,cy:(1-((a.clientY+b.clientY)/2-r.top)/r.height)*100}; _pan1=null; }
+        else if(e.touches.length===1 && _zoomed(k)){ var t=e.touches[0]; _pan1={k:k,x:t.clientX,y:t.clientY,w:r.width,h:r.height}; } },{passive:false});
       el.addEventListener('touchmove',function(e){
-        if(_pn && e.touches.length===2){ e.preventDefault(); var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.cx,_pn.cy,Math.pow(d/_pn.d,5)); _pn.d=d; }
+        if(_pn && e.touches.length===2){ e.preventDefault(); var a=e.touches[0],b=e.touches[1],d=Math.hypot(b.clientX-a.clientX,b.clientY-a.clientY); _dz(_pn.k,_pn.cx,_pn.cy,Math.pow(d/_pn.d,5)); _pn.d=d; }
         else if(_pan1 && e.touches.length===1){ e.preventDefault(); var t=e.touches[0];
-          _panBy((t.clientX-_pan1.x)/_pan1.w*100, -(t.clientY-_pan1.y)/_pan1.h*100); _pan1.x=t.clientX; _pan1.y=t.clientY; } },{passive:false});
+          _panBy(_pan1.k,(t.clientX-_pan1.x)/_pan1.w*100, -(t.clientY-_pan1.y)/_pan1.h*100); _pan1.x=t.clientX; _pan1.y=t.clientY; } },{passive:false});
       el.addEventListener('touchend',function(e){ if(e.touches.length<2) _pn=null; if(e.touches.length<1) _pan1=null; });
       // 공유용: URL의 mp=라벨 이면 그 점의 상세를 열고 강조(로드 시 복원)
       try{ var _mp=AState.get('mp'); if(_mp){
@@ -948,7 +957,7 @@ permalink: /articles/
       function _fsToggle(on){
         var want=(on==null)? !el.classList.contains('is-fs') : on;
         el.classList.toggle('is-fs',want); document.body.classList.toggle('qmap-fs-open',want);
-        _fs=want; if(jview) jview.innerHTML=buildJ(true); if(cview) cview.innerHTML=buildC();   // 점 크기 범위 재적용(상한 2배·하한 절반)
+        _fs=want; if(jview) jview.innerHTML=buildJ(true); if(cview) cview.innerHTML=buildC(true);   // 점 크기 범위 재적용 · 뷰(확대상태) 유지
         if(want && !el.querySelector('.qmap-fs-x')){ var b=document.createElement('button'); b.className='qmap-fs-x'; b.type='button'; b.setAttribute('aria-label','전체화면 닫기'); b.textContent='×';
           b.addEventListener('click',function(){ _fsToggle(false); }); el.appendChild(b); }
       }
