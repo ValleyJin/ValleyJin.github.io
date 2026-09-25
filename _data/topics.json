@@ -63,19 +63,6 @@
       "query": "generative agent-based modeling",
       "papers": [
         {
-          "title": "LLMs and generative agent-based models for complex systems research",
-          "authors": "Lu, Y., Aleta, A., Du, C., Shi, L., & Moreno, Y.",
-          "year": 2024,
-          "venue": "Physics of Life Reviews",
-          "url": "https://doi.org/10.1016/j.plrev.2024.10.013",
-          "cites": 80,
-          "fwci": 25.16,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 2.06,
-          "qcat": "Agricultural and Biological Sciences (miscellaneous)"
-        },
-        {
           "title": "Generative agent‐based modeling: an introduction and tutorial",
           "authors": "Ghaffarzadegan, N., Majumdar, A., Williams, R. A., & Hosseinichimeh, N.",
           "year": 2024,
@@ -87,6 +74,19 @@
           "q": "Q1",
           "sjr": 1.1,
           "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "LLMs and generative agent-based models for complex systems research",
+          "authors": "Lu, Y., Aleta, A., Du, C., Shi, L., & Moreno, Y.",
+          "year": 2024,
+          "venue": "Physics of Life Reviews",
+          "url": "https://doi.org/10.1016/j.plrev.2024.10.013",
+          "cites": 80,
+          "fwci": 25.16,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 2.06,
+          "qcat": "Agricultural and Biological Sciences (miscellaneous)"
         },
         {
           "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
@@ -980,7 +980,7 @@
           "year": 2024,
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 97,
+          "cites": 100,
           "q": "Q4",
           "sjr": 0.1,
           "qcat": "Literature and Literary Theory"
