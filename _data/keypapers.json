@@ -433,6 +433,24 @@
           "nr": "na"
         },
         {
+          "title": "Who fights best? Discovering winning personality pairings for LLM debate agents",
+          "authors": "J Wang, K Liu, L Xiang, et al.",
+          "year": 2026,
+          "venue": "Pattern Recognition",
+          "url": "https://doi.org/10.1016/j.patcog.2026.114990",
+          "cites": 0,
+          "pubdate": "2026-09-01",
+          "arxiv": null,
+          "doi": "10.1016/j.patcog.2026.114990",
+          "cited_key": "2503.17662",
+          "first_seen": "2026-09-25",
+          "fwci": 0.0,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.15,
+          "qcat": "Artificial Intelligence"
+        },
+        {
           "title": "FocusGen: Expanding Visual Design Exploration with a Simulated Focus Group of Persona Agents",
           "authors": "J Choi, H Vasconcelos, H Lee, et al.",
           "year": 2026,
@@ -686,23 +704,9 @@
           "cited_key": "2407.17387",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "Co-design of LLM-based preference agents: participation may drive overtrust",
-          "authors": "M Fell",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.21757",
-          "cites": 0,
-          "pubdate": "2026-07-23",
-          "arxiv": "2607.21757",
-          "doi": "10.48550/arxiv.2607.21757",
-          "cited_key": "2503.15463",
-          "first_seen": "2026-09-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 347,
+      "n_citing": 348,
       "query": "persona generation"
     },
     "gABM": {
@@ -1221,26 +1225,9 @@
           "pubdate": "2026-08-26",
           "arxiv": "2608.26221",
           "doi": null,
-          "cited_key": "2309.11456",
+          "cited_key": "2307.04986",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "Simulating team dynamics with generative agents: a case study on data science teams from digital platforms",
-          "authors": "L Li, H Yu, M Kunc",
-          "year": 2026,
-          "venue": "Annals of Operations Research",
-          "url": "https://doi.org/10.1007/s10479-026-07398-1",
-          "cites": 0,
-          "pubdate": "2026-08-25",
-          "arxiv": null,
-          "doi": "10.1007/s10479-026-07398-1",
-          "cited_key": "2309.11456",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.17,
-          "qcat": "Decision Sciences (miscellaneous)"
         },
         {
           "title": "Predicting the scale limits of social mechanisms in agent societies",
@@ -1328,23 +1315,6 @@
           "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "Measuring human behavior through controlled perturbations: a framework for reconstructing behavioral systems",
-          "authors": "P Cipresso",
-          "year": 2026,
-          "venue": "Frontiers in Psychology",
-          "url": "https://doi.org/10.3389/fpsyg.2026.1833113",
-          "cites": 0,
-          "pubdate": "2026-08-10",
-          "arxiv": null,
-          "doi": "10.3389/fpsyg.2026.1833113",
-          "cited_key": "2309.11456",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.94,
-          "qcat": "Psychology (miscellaneous)"
         },
         {
           "title": "Generative AI in Healthcare: Temporal Data Analysis and Sequential Decision-Making",
@@ -1493,23 +1463,6 @@
           "nr": "na"
         },
         {
-          "title": "Conundrums and paradoxes in the pre-death grief experiences of dementia caregivers: A causal loop analysis.",
-          "authors": "Y Ng, J Wang, A Chow",
-          "year": 2026,
-          "venue": "Social Science & Medicine",
-          "url": "https://doi.org/10.1016/j.socscimed.2026.119676",
-          "cites": 0,
-          "pubdate": "2026-08-01",
-          "arxiv": null,
-          "doi": "10.1016/j.socscimed.2026.119676",
-          "cited_key": "2309.11456",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.85,
-          "qcat": "Health (social science)"
-        },
-        {
           "title": "How Affect Propagates among LLM Agents: Emergent Emotional Contagion in Crowd Simulation",
           "authors": "F Durupinar",
           "year": 2026,
@@ -1536,9 +1489,51 @@
           "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
+        },
+        {
+          "title": "pyRMV: Reusable, Cross-model Validation for Computational Science",
+          "authors": "H Dictus, E Subert, A Romani, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2608.09956",
+          "cites": 0,
+          "pubdate": "2026-07-21",
+          "arxiv": "2608.09956",
+          "doi": null,
+          "cited_key": "2504.03274",
+          "first_seen": "2026-09-25",
+          "nr": "na"
+        },
+        {
+          "title": "AI Value Alignment for Evolving Social Norms",
+          "authors": "N Tomasev, M Franklin, S Osindero",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2607.18506",
+          "cites": 0,
+          "pubdate": "2026-07-20",
+          "arxiv": "2607.18506",
+          "doi": "10.48550/arxiv.2607.18506",
+          "cited_key": "2312.03664",
+          "first_seen": "2026-09-25",
+          "nr": "na"
+        },
+        {
+          "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+          "authors": "I Itkin",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2608.11215",
+          "cites": 0,
+          "pubdate": "2026-07-19",
+          "arxiv": "2608.11215",
+          "doi": null,
+          "cited_key": "2307.04986",
+          "first_seen": "2026-09-25",
+          "nr": "na"
         }
       ],
-      "n_citing": 470,
+      "n_citing": 419,
       "query": "social simulations"
     }
   }
