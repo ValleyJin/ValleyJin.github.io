@@ -155,8 +155,7 @@ img{max-width:100%;display:block}
 #mostcited-list::-webkit-scrollbar,#keypapers-list::-webkit-scrollbar,#keyciting-list::-webkit-scrollbar{width:8px}
 #mostcited-list::-webkit-scrollbar-thumb,#keypapers-list::-webkit-scrollbar-thumb,#keyciting-list::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
 #mostcited-list::-webkit-scrollbar-thumb:hover,#keypapers-list::-webkit-scrollbar-thumb:hover,#keyciting-list::-webkit-scrollbar-thumb:hover{background:var(--muted)}
-.keyciting .section-head h2{font-size:15px}
-.keyciting #keyciting-sub{color:var(--muted)}
+.keyciting #keyciting-sub,.keypapers #keypapers-sub{color:var(--muted)}
 /* 달력 날짜칸: 최근 추가된 논문이 있는 날 → 우상단 빨간 NEW 플래그 */
 .tcal-cell.newday{position:relative}
 .newday-flag{position:absolute;top:2px;right:2px;font-family:var(--mono);font-size:7px;font-weight:700;letter-spacing:.02em;line-height:1;color:#fff;background:#f2444e;border-radius:3px;padding:1px 2px}
@@ -386,8 +385,8 @@ body.qmap-fs-open{overflow:hidden}
 .sc-tab.is-active{color:var(--ink);border-bottom-color:var(--accent)}
 .topic-group{padding-top:28px;border-top:1px solid var(--line);margin-top:34px}
 .topic-group:first-of-type{border-top:0;padding-top:4px;margin-top:10px}
-.topic-group .section-head h2,.newest .section-head h2,.mostcited .section-head h2{display:flex;align-items:center;gap:10px;color:var(--accent)}
-.topic-group .section-head h2::before,.newest .section-head h2::before,.mostcited .section-head h2::before{content:"";width:6px;height:6px;border-radius:1px;background:var(--accent);flex:none}
+.topic-group .section-head h2,.newest .section-head h2,.mostcited .section-head h2,.keypapers .section-head h2,.keyciting .section-head h2{display:flex;align-items:center;gap:10px;color:var(--accent)}
+.topic-group .section-head h2::before,.newest .section-head h2::before,.mostcited .section-head h2::before,.keypapers .section-head h2::before,.keyciting .section-head h2::before{content:"";width:6px;height:6px;border-radius:1px;background:var(--accent);flex:none}
 
 /* My Topics — calendar of newly-found papers */
 .tcal{border:1px solid var(--line);border-radius:14px;padding:16px 16px 8px;margin:2px 0 26px;background:var(--bg-elev)}
