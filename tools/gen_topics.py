@@ -1034,7 +1034,7 @@ def main():
         print("· SERPAPI_KEY 없음 — scholars.json 유지(키 있는 Action에서 채워짐).", file=sys.stderr)
     else:
         per_scholar = int(cfg.get("per_scholar", 5))
-        scholar_full = int(cfg.get("scholar_full", 60))   # 저자 전체화면용 저장 수(인라인은 템플릿에서 제한)
+        scholar_full = int(cfg.get("scholar_full", 100))   # 저자 전체화면용 저장 수(인라인은 템플릿에서 제한)
         sresult = {"generated": today, "source": "Google Scholar", "scholars": []}
         def _mk(a):
             cb = a.get("cited_by") or {}
