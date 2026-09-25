@@ -1248,7 +1248,17 @@ permalink: /articles/
         var titles={newest:'Newest',mostcited:'Most cited',keypapers:'Key papers',citing:'Cites these key papers'};
         var ps=_listFsPapers(sec);
         listFs.querySelector('#list-fs-h').textContent=(titles[sec]||'')+' · '+ps.length+'편';
-        listFs.querySelector('#list-fs-ul').innerHTML=ps.length?ps.map(function(p){return paperLi(p);}).join(''):'<li class="pub-row"><span class="pmeta" style="color:var(--muted)">없음</span></li>';
+        var html;
+        if(sec==='newest' && ps.length){                 // 날짜별 그룹 구분
+          var byd={}; ps.forEach(function(p){ var d=p.date||'날짜 없음'; (byd[d]=byd[d]||[]).push(p); });
+          html=Object.keys(byd).sort().reverse().map(function(d){
+            return '<li class="list-fs-date mono">'+esc(d)+'<span class="lfd-n">'+byd[d].length+'편</span></li>'+byd[d].map(function(p){return paperLi(p);}).join('');
+          }).join('');
+        } else {
+          html=ps.length?ps.map(function(p){return paperLi(p);}).join(''):'<li class="pub-row"><span class="pmeta" style="color:var(--muted)">없음</span></li>';
+        }
+        listFs.querySelector('#list-fs-ul').innerHTML=html;
+        listFs.querySelector('#list-fs-ul').scrollTop=0; listFs.scrollTop=0;
         listFs.hidden=false; document.body.classList.add('qmap-fs-open');
       }
       function _closeListFs(){ if(listFs){ listFs.hidden=true; } document.body.classList.remove('qmap-fs-open'); }

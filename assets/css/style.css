@@ -162,6 +162,9 @@ img{max-width:100%;display:block}
 .list-fs-x{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--bg-elev);color:var(--ink-soft);font-size:23px;line-height:1;cursor:pointer;flex:none}
 .list-fs-x:hover{color:var(--ink);border-color:var(--accent)}
 .list-fs-ul{max-height:none!important;overflow:visible!important;margin-top:6px}
+.list-fs-date{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:20px 0 8px;margin-top:8px;font-size:12px;letter-spacing:.1em;color:var(--accent);border-bottom:1px solid var(--accent-dim)}
+.list-fs-date:first-child{margin-top:0;padding-top:6px}
+.list-fs-date .lfd-n{color:var(--muted);font-size:11px;letter-spacing:.04em}
 @media(max-width:560px){.list-fs-inner{padding:12px 14px 48px}}
 /* 키페이퍼 편집: 토글·행 버튼·토스트 */
 .sh-right{display:flex;align-items:center;gap:12px}
