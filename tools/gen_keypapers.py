@@ -491,6 +491,10 @@ def main():
                     for f in ("title", "authors", "year", "venue"):
                         if not o.get(f) and pk.get(f):
                             o[f] = pk[f]
+        # 제목을 하나라도 얻었으면 성공으로 본다(arxiv_meta가 통째로 실패해도 OpenAlex·
+        # 이전값으로 채워졌으면 파일을 갱신해야 등록/제거가 반영된다).
+        if any(o.get("title") for o in key_objs):
+            any_ok = True
         key_urls = {k["url"] for k in key_objs}
 
         # 인용 알림: 모든 키페이퍼를 인용한 논문(cited-by) 집계. 이전 first_seen 보존.
