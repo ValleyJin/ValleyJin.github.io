@@ -54,7 +54,7 @@
         },
         {
           "title": "Living the Novel: A System for Generating Self-Training Timeline-Aware Conversational Agents from Novels",
-          "authors": "Y Huang, T Yan, S Gong, et al.",
+          "authors": "H Yifei, Y Tianyu, G Sitong, et al.",
           "year": 2025,
           "url": "https://arxiv.org/abs/2512.07474",
           "venue": "arXiv (Cornell University)",
@@ -66,7 +66,7 @@
         },
         {
           "title": "PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory",
-          "authors": "B Jiang, Y Yuan, M Shen, et al.",
+          "authors": "J Bowen, Y Yuan, S Maohao, et al.",
           "year": 2025,
           "url": "https://arxiv.org/abs/2512.06688",
           "venue": "arXiv (Cornell University)",
@@ -102,7 +102,7 @@
         },
         {
           "title": "Population-Aligned Persona Generation for LLM-based Social Simulation",
-          "authors": "Z Hu, J Lian, Z Xiao, et al.",
+          "authors": "Z Hu, L Jianxun, Z Xiao, et al.",
           "year": 2025,
           "url": "https://arxiv.org/abs/2509.10127",
           "venue": "arXiv (Cornell University)",
@@ -139,6 +139,34 @@
       ],
       "citing": [
         {
+          "title": "From Static Personal Values to Contextualized Personalization: Bayesian Personalized Value Alignment for LLMs",
+          "authors": "",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.28942",
+          "cites": 0,
+          "pubdate": "2026-09-24",
+          "arxiv": "2609.28942",
+          "doi": null,
+          "cited_key": "2503.15463",
+          "first_seen": "2026-09-25",
+          "nr": "na"
+        },
+        {
+          "title": "Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents",
+          "authors": "",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.28609",
+          "cites": 0,
+          "pubdate": "2026-09-23",
+          "arxiv": "2609.28609",
+          "doi": null,
+          "cited_key": "2503.17662",
+          "first_seen": "2026-09-25",
+          "nr": "na"
+        },
+        {
           "title": "RPMem: Learning Long-Term Recurrent Parametric Memory Across Sessions for LLM Agents",
           "authors": "F Zhao, R Cao, L Dong, et al.",
           "year": 2026,
@@ -148,7 +176,7 @@
           "pubdate": "2026-09-20",
           "arxiv": "2609.23466",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -162,7 +190,7 @@
           "pubdate": "2026-09-18",
           "arxiv": "2609.21857",
           "doi": null,
-          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "cited_key": "2509.10127",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -176,7 +204,7 @@
           "pubdate": "2026-09-16",
           "arxiv": "2609.18461",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -190,7 +218,7 @@
           "pubdate": "2026-09-15",
           "arxiv": "2609.17010",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -204,7 +232,7 @@
           "pubdate": "2026-09-15",
           "arxiv": "2609.16754",
           "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
+          "cited_key": "2506.19823",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -218,7 +246,7 @@
           "pubdate": "2026-09-14",
           "arxiv": "2609.15972",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -232,7 +260,7 @@
           "pubdate": "2026-09-11",
           "arxiv": "2609.19167",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -246,7 +274,7 @@
           "pubdate": "2026-09-09",
           "arxiv": "2609.09835",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -260,7 +288,7 @@
           "pubdate": "2026-09-09",
           "arxiv": "2609.09778",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -274,7 +302,7 @@
           "pubdate": "2026-09-09",
           "arxiv": "2609.10280",
           "doi": null,
-          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "cited_key": "2407.17387",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -288,7 +316,7 @@
           "pubdate": "2026-09-08",
           "arxiv": "2609.08558",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -302,7 +330,7 @@
           "pubdate": "2026-09-08",
           "arxiv": "2609.08599",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -316,7 +344,7 @@
           "pubdate": "2026-09-08",
           "arxiv": "2609.08126",
           "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
+          "cited_key": "2506.19823",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -330,7 +358,7 @@
           "pubdate": "2026-09-03",
           "arxiv": "2609.03467",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -344,7 +372,7 @@
           "pubdate": "2026-09-03",
           "arxiv": "2609.03815",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -358,7 +386,7 @@
           "pubdate": "2026-09-01",
           "arxiv": "2609.00570",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -372,7 +400,7 @@
           "pubdate": "2026-09-01",
           "arxiv": "2609.00921",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -386,7 +414,7 @@
           "pubdate": "2026-09-01",
           "arxiv": "2609.01091",
           "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
+          "cited_key": "2506.19823",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -400,7 +428,7 @@
           "pubdate": "2026-09-01",
           "arxiv": "2609.00608",
           "doi": null,
-          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "cited_key": "2503.17662",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -414,7 +442,7 @@
           "pubdate": "2026-08-28",
           "arxiv": "2608.28001",
           "doi": null,
-          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "cited_key": "2407.17387",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -428,7 +456,7 @@
           "pubdate": "2026-08-27",
           "arxiv": "2608.26674",
           "doi": null,
-          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "cited_key": "2503.17662",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -442,7 +470,7 @@
           "pubdate": "2026-08-26",
           "arxiv": "2608.26462",
           "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
+          "cited_key": "2506.19823",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -456,7 +484,7 @@
           "pubdate": "2026-08-22",
           "arxiv": "2608.21727",
           "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
+          "cited_key": "2506.19823",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -470,7 +498,7 @@
           "pubdate": "2026-08-20",
           "arxiv": "2608.19621",
           "doi": null,
-          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "cited_key": "2509.10127",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -484,7 +512,7 @@
           "pubdate": "2026-08-12",
           "arxiv": "2608.11879",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -498,7 +526,7 @@
           "pubdate": "2026-08-12",
           "arxiv": "2608.11705",
           "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
+          "cited_key": "2506.19823",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -512,7 +540,7 @@
           "pubdate": "2026-08-11",
           "arxiv": "2608.11025",
           "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
+          "cited_key": "2506.19823",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -526,7 +554,7 @@
           "pubdate": "2026-08-08",
           "arxiv": null,
           "doi": "10.1007/s11704-026-51716-6",
-          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
+          "cited_key": "2503.15463",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -543,7 +571,7 @@
           "pubdate": "2026-08-08",
           "arxiv": "2608.08212",
           "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
+          "cited_key": "2506.19823",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -557,7 +585,7 @@
           "pubdate": "2026-08-06",
           "arxiv": "2608.06115",
           "doi": null,
-          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "cited_key": "2509.10127",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -571,7 +599,7 @@
           "pubdate": "2026-08-05",
           "arxiv": "2608.04570",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -585,7 +613,7 @@
           "pubdate": "2026-08-04",
           "arxiv": "2608.04205",
           "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -599,7 +627,7 @@
           "pubdate": "2026-07-31",
           "arxiv": "2607.29433",
           "doi": "10.48550/arxiv.2607.29433",
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -613,7 +641,7 @@
           "pubdate": "2026-07-30",
           "arxiv": "2607.28818",
           "doi": "10.48550/arxiv.2607.28818",
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -627,7 +655,7 @@
           "pubdate": "2026-07-29",
           "arxiv": "2607.27056",
           "doi": "10.48550/arxiv.2607.27056",
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "cited_key": "2512.06688",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -641,7 +669,7 @@
           "pubdate": "2026-07-26",
           "arxiv": "2607.23545",
           "doi": "10.48550/arxiv.2607.23545",
-          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "cited_key": "2503.17662",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -655,7 +683,7 @@
           "pubdate": "2026-07-24",
           "arxiv": "2607.22305",
           "doi": "10.48550/arxiv.2607.22305",
-          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "cited_key": "2407.17387",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -669,40 +697,12 @@
           "pubdate": "2026-07-23",
           "arxiv": "2607.21757",
           "doi": "10.48550/arxiv.2607.21757",
-          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Rushes: A Human Preference Dataset for Pluralistic Alignment",
-          "authors": "M Xu, J Leandro, S Rao, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.20767",
-          "cites": 0,
-          "pubdate": "2026-07-22",
-          "arxiv": "2607.20767",
-          "doi": "10.48550/arxiv.2607.20767",
-          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Elicitation without Backpropagation: Steering Model Behavior by Optimizing the Latent Posterior",
-          "authors": "G Baker, V Pathak, D Murfet, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.18804",
-          "cites": 0,
-          "pubdate": "2026-07-21",
-          "arxiv": "2607.18804",
-          "doi": "10.48550/arxiv.2607.18804",
-          "cited_key": "Persona Features Control Emergent Misalignment",
+          "cited_key": "2503.15463",
           "first_seen": "2026-09-25",
           "nr": "na"
         }
       ],
-      "n_citing": 345,
+      "n_citing": 347,
       "query": "persona generation"
     },
     "gABM": {
@@ -805,7 +805,7 @@
         },
         {
           "title": "Can Generative Agent-Based Modeling Replicate the Friendship Paradox in Social Media Simulations?",
-          "authors": "G Orlando, V Gatta, D Russo, et al.",
+          "authors": "O Marco, V Gatta, D Russo, et al.",
           "year": 2025,
           "url": "https://arxiv.org/abs/2502.05919",
           "venue": "arXiv (Cornell University)",
@@ -853,7 +853,7 @@
         },
         {
           "title": "Designing Reliable Experiments with Generative Agent-Based Modeling: A Comprehensive Guide Using Concordia by Google DeepMind",
-          "authors": "A Navarro, N Koneva, A Sánchez-Macián, et al.",
+          "authors": "A Navarro, N Koneva, A Sánchez‐Macián, et al.",
           "year": 2024,
           "url": "https://arxiv.org/abs/2411.07038",
           "venue": "arXiv (Cornell University)",
@@ -889,7 +889,7 @@
         },
         {
           "title": "Predicting the Impact of Generative AI Using an Agent-Based Model",
-          "authors": "J Aparicio, M Aparicio, S Aparicio, et al.",
+          "authors": "J Aparício, M Aparício, S Aparicio, et al.",
           "year": 2024,
           "url": "https://arxiv.org/abs/2408.17268",
           "venue": "arXiv (Cornell University)",
@@ -951,15 +951,15 @@
       "citing": [
         {
           "title": "KITE: Scaling Jev Population Experiments with Sparse Flagship Calibration",
-          "authors": "",
+          "authors": "H Li",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.27535",
           "cites": 0,
           "pubdate": "2026-09-23",
           "arxiv": "2609.27535",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -973,7 +973,7 @@
           "pubdate": "2026-09-21",
           "arxiv": "2609.24911",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -987,7 +987,7 @@
           "pubdate": "2026-09-20",
           "arxiv": null,
           "doi": "10.1111/psj.70165",
-          "cited_key": "Simulating Public Administration Crisis: A Novel Generative ",
+          "cited_key": "2311.06957",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "pct": 10,
@@ -1005,7 +1005,7 @@
           "pubdate": "2026-09-18",
           "arxiv": "2609.22600",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1019,7 +1019,7 @@
           "pubdate": "2026-09-15",
           "arxiv": "2609.16667",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1033,7 +1033,7 @@
           "pubdate": "2026-09-15",
           "arxiv": "2609.17496",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1047,7 +1047,7 @@
           "pubdate": "2026-09-10",
           "arxiv": "2609.11108",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1061,7 +1061,7 @@
           "pubdate": "2026-09-09",
           "arxiv": "2609.10280",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1075,7 +1075,7 @@
           "pubdate": "2026-09-07",
           "arxiv": "2609.08049",
           "doi": null,
-          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "cited_key": "2411.16031",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1089,7 +1089,7 @@
           "pubdate": "2026-09-05",
           "arxiv": null,
           "doi": "10.1145/3800935.3830836",
-          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
+          "cited_key": "2502.05919",
           "first_seen": "2026-09-25",
           "crank": "A"
         },
@@ -1103,7 +1103,7 @@
           "pubdate": "2026-09-02",
           "arxiv": "2609.03192",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1117,7 +1117,7 @@
           "pubdate": "2026-09-01",
           "arxiv": null,
           "doi": "10.1016/j.knosys.2026.116947",
-          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "cited_key": "2411.16031",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -1134,7 +1134,7 @@
           "pubdate": "2026-09-01",
           "arxiv": "2609.01167",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1148,7 +1148,7 @@
           "pubdate": "2026-09-01",
           "arxiv": null,
           "doi": "10.1109/cifer67845.2026.11692404",
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1162,7 +1162,7 @@
           "pubdate": "2026-08-28",
           "arxiv": "2608.28182",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1176,7 +1176,7 @@
           "pubdate": "2026-08-27",
           "arxiv": "2608.27727",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1190,7 +1190,7 @@
           "pubdate": "2026-08-27",
           "arxiv": "2608.27260",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1204,7 +1204,7 @@
           "pubdate": "2026-08-27",
           "arxiv": null,
           "doi": "10.3390/technologies14090528",
-          "cited_key": "Generative Models: An Interdisciplinary Perspective",
+          "cited_key": "2208.06011",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -1221,7 +1221,7 @@
           "pubdate": "2026-08-26",
           "arxiv": "2608.26221",
           "doi": null,
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
+          "cited_key": "2309.11456",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1235,7 +1235,7 @@
           "pubdate": "2026-08-25",
           "arxiv": null,
           "doi": "10.1007/s10479-026-07398-1",
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
+          "cited_key": "2309.11456",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -1252,7 +1252,7 @@
           "pubdate": "2026-08-24",
           "arxiv": "2608.22884",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1266,7 +1266,7 @@
           "pubdate": "2026-08-24",
           "arxiv": "2608.22833",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1280,7 +1280,7 @@
           "pubdate": "2026-08-16",
           "arxiv": "2608.15844",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1294,7 +1294,7 @@
           "pubdate": "2026-08-16",
           "arxiv": "2608.15838",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1308,7 +1308,7 @@
           "pubdate": "2026-08-13",
           "arxiv": null,
           "doi": "10.1007/s10648-026-10209-5",
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -1325,7 +1325,7 @@
           "pubdate": "2026-08-11",
           "arxiv": "2608.10475",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1339,7 +1339,7 @@
           "pubdate": "2026-08-10",
           "arxiv": null,
           "doi": "10.3389/fpsyg.2026.1833113",
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
+          "cited_key": "2309.11456",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -1356,7 +1356,7 @@
           "pubdate": "2026-08-08",
           "arxiv": null,
           "doi": "10.1145/3770855.3816465",
-          "cited_key": "Epidemic Modeling with Generative Agents",
+          "cited_key": "2307.04986",
           "first_seen": "2026-09-25",
           "crank": "A*"
         },
@@ -1370,7 +1370,7 @@
           "pubdate": "2026-08-06",
           "arxiv": null,
           "doi": "10.60923/issn.1971-8853/24687",
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q2",
@@ -1387,7 +1387,7 @@
           "pubdate": "2026-08-06",
           "arxiv": "2608.06020",
           "doi": null,
-          "cited_key": "Incentives to Build Houses, Trade Houses, or Trade House Bui",
+          "cited_key": "2411.17724",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1401,7 +1401,7 @@
           "pubdate": "2026-08-04",
           "arxiv": "2608.04205",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1415,7 +1415,7 @@
           "pubdate": "2026-08-04",
           "arxiv": "2608.03044",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1429,7 +1429,7 @@
           "pubdate": "2026-08-03",
           "arxiv": "2608.02441",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1443,7 +1443,7 @@
           "pubdate": "2026-08-03",
           "arxiv": "2608.01868",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1457,7 +1457,7 @@
           "pubdate": "2026-08-02",
           "arxiv": "2608.00929",
           "doi": null,
-          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
+          "cited_key": "2504.03274",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1471,7 +1471,7 @@
           "pubdate": "2026-08-01",
           "arxiv": null,
           "doi": "10.1007/s12152-026-09662-4",
-          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
+          "cited_key": "2504.03274",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -1488,7 +1488,7 @@
           "pubdate": "2026-08-01",
           "arxiv": "2608.00366",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1502,7 +1502,7 @@
           "pubdate": "2026-08-01",
           "arxiv": null,
           "doi": "10.1016/j.socscimed.2026.119676",
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
+          "cited_key": "2309.11456",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -1519,7 +1519,7 @@
           "pubdate": "2026-07-27",
           "arxiv": "2607.25140",
           "doi": "10.48550/arxiv.2607.25140",
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -1533,7 +1533,7 @@
           "pubdate": "2026-07-26",
           "arxiv": "2609.05442",
           "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
         }
