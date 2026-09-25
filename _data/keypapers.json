@@ -807,6 +807,17 @@
           "first_seen": "2026-09-25"
         },
         {
+          "title": "Epistemic Capabilities of Artificial Intelligence for Public Administration and Policy Research: A Framework for Scholarship in the Age of Intelligent Machines",
+          "authors": "Y Chandra, J Tan",
+          "year": 2026,
+          "venue": "Policy Studies Journal",
+          "url": "https://doi.org/10.1111/psj.70165",
+          "cites": 0,
+          "pubdate": "2026-09-20",
+          "cited_key": "Simulating Public Administration Crisis: A Novel Generative ",
+          "first_seen": "2026-09-25"
+        },
+        {
           "title": "From Certain Doom to Survival: Agent-Driven Self-Governance in LLM Agent Societies",
           "authors": "G Rehm",
           "year": 2026,
@@ -1212,20 +1223,9 @@
           "pubdate": "2026-07-26",
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-25"
-        },
-        {
-          "title": "pyRMV: Reusable, Cross-model Validation for Computational Science",
-          "authors": "H Dictus, E Subert, A Romani, et al.",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2608.09956",
-          "cites": 0,
-          "pubdate": "2026-07-21",
-          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
-          "first_seen": "2026-09-25"
         }
       ],
-      "n_citing": 453,
+      "n_citing": 470,
       "query": "social simulations"
     }
   }
