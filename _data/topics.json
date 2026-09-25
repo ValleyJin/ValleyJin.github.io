@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -56,25 +56,12 @@
           "qcat": "Communication"
         }
       ],
-      "count": 10277
+      "count": 10270
     },
     {
       "topic": "gABM",
       "query": "generative agent-based modeling",
       "papers": [
-        {
-          "title": "LLMs and generative agent-based models for complex systems research",
-          "authors": "Lu, Y., Aleta, A., Du, C., Shi, L., & Moreno, Y.",
-          "year": 2024,
-          "venue": "Physics of Life Reviews",
-          "url": "https://doi.org/10.1016/j.plrev.2024.10.013",
-          "cites": 80,
-          "fwci": 25.45,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 2.06,
-          "qcat": "Agricultural and Biological Sciences (miscellaneous)"
-        },
         {
           "title": "Generative agent‐based modeling: an introduction and tutorial",
           "authors": "Ghaffarzadegan, N., Majumdar, A., Williams, R. A., & Hosseinichimeh, N.",
@@ -87,6 +74,19 @@
           "q": "Q1",
           "sjr": 1.1,
           "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "LLMs and generative agent-based models for complex systems research",
+          "authors": "Lu, Y., Aleta, A., Du, C., Shi, L., & Moreno, Y.",
+          "year": 2024,
+          "venue": "Physics of Life Reviews",
+          "url": "https://doi.org/10.1016/j.plrev.2024.10.013",
+          "cites": 80,
+          "fwci": 25.45,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 2.06,
+          "qcat": "Agricultural and Biological Sciences (miscellaneous)"
         },
         {
           "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
@@ -115,7 +115,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 50887
+      "count": 50864
     },
     {
       "topic": "Graph database",
@@ -172,7 +172,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 117242
+      "count": 117111
     },
     {
       "topic": "Memory in Agentic AI",
@@ -231,7 +231,7 @@
           "qcat": "Hardware and Architecture"
         }
       ],
-      "count": 68559
+      "count": 68494
     },
     {
       "topic": "LLM inference serving",
@@ -341,7 +341,7 @@
           "nr": "na"
         }
       ],
-      "count": 548
+      "count": 547
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -400,7 +400,7 @@
           "qcat": "Analytical Chemistry"
         }
       ],
-      "count": 40642
+      "count": 40602
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -457,7 +457,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 193621
+      "count": 193446
     },
     {
       "topic": "Ontology",
@@ -513,7 +513,7 @@
           "qcat": "Genetics"
         }
       ],
-      "count": 25009
+      "count": 24986
     },
     {
       "topic": "AI governance",
@@ -572,7 +572,7 @@
           "qcat": "E-learning"
         }
       ],
-      "count": 106479
+      "count": 106440
     },
     {
       "topic": "NeurIPS",
@@ -1145,7 +1145,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 2607
+      "count": 2604
     },
     {
       "topic": "AIJ",
@@ -1322,7 +1322,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 430
+      "count": 429
     },
     {
       "topic": "TFSC",
@@ -1381,7 +1381,7 @@
           "qcat": "Applied Psychology"
         }
       ],
-      "count": 1598
+      "count": 1594
     },
     {
       "topic": "TAR",
@@ -1414,19 +1414,6 @@
           "qcat": "Accounting"
         },
         {
-          "title": "The Economics of Audit Production: What Matters for Audit Quality? An Empirical Analysis of the Role of Midlevel Managers within the Audit Firm",
-          "authors": "Aobdia, D., Choudhary, P., & Newberger, N.",
-          "year": 2023,
-          "venue": "The Accounting Review",
-          "url": "https://doi.org/10.2308/tar-2019-0453",
-          "cites": 58,
-          "fwci": 16.95,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 4.4,
-          "qcat": "Accounting"
-        },
-        {
           "title": "CEO Risk Taking Equity Incentives and Workplace Misconduct",
           "authors": "Chircop, J., Tarsalewska, M., & Trzeciakiewicz, A.",
           "year": 2024,
@@ -1438,9 +1425,22 @@
           "q": "Q1",
           "sjr": 4.4,
           "qcat": "Accounting"
+        },
+        {
+          "title": "Material ESG Alpha: A Fundamentals-Based Perspective",
+          "authors": "Ahn, B. H., Patatoukas, P. N., & Skiadopoulos, G. S.",
+          "year": 2024,
+          "venue": "The Accounting Review",
+          "url": "https://doi.org/10.2308/tar-2022-0256",
+          "cites": 39,
+          "fwci": 13.27,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 4.4,
+          "qcat": "Accounting"
         }
       ],
-      "count": 299
+      "count": 297
     },
     {
       "topic": "JAE",
@@ -1735,7 +1735,7 @@
           "qcat": "Business, Management and Accounting (miscellaneous)"
         }
       ],
-      "count": 84
+      "count": 83
     },
     {
       "topic": "JFS",
@@ -1841,7 +1841,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 695
+      "count": 694
     },
     {
       "topic": "SMJ",
@@ -2372,7 +2372,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 1390
+      "count": 1388
     },
     {
       "topic": "JMS",
@@ -2785,7 +2785,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 107
+      "count": 106
     },
     {
       "topic": "EAR",
