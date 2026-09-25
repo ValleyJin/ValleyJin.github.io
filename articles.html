@@ -117,14 +117,6 @@ permalink: /articles/
       <ul class="pubs" id="keyciting-list"></ul>
     </div>
 
-    <!-- ▼ 리스트 전체화면 모달: 섹션 리스트 전체를 한 화면에 -->
-    <div class="list-fs" id="list-fs" hidden>
-      <div class="list-fs-inner">
-        <div class="list-fs-bar"><h2 class="list-fs-h" id="list-fs-h"></h2><button type="button" class="list-fs-x" id="list-fs-x" aria-label="닫기">×</button></div>
-        <ul class="pubs list-fs-ul" id="list-fs-ul"></ul>
-      </div>
-    </div>
-
     <!-- ▼ scholar mode: Google Scholar alerts calendar + kind report -->
     <div class="newest" id="scholarview" hidden>
       <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2 id="scal-h">Scholar alerts</h2><span class="more mono" style="text-transform:none">by alert email date · Google Scholar</span></div>
@@ -524,6 +516,14 @@ permalink: /articles/
     })();
     </script>
   </div><!-- /pane-metrics -->
+
+  <!-- ▼ 리스트/저자 전체화면 모달: pane 밖(fixed) — 어느 탭에서든 표시 -->
+  <div class="list-fs" id="list-fs" hidden>
+    <div class="list-fs-inner">
+      <div class="list-fs-bar"><h2 class="list-fs-h" id="list-fs-h"></h2><button type="button" class="list-fs-x" id="list-fs-x" aria-label="닫기">×</button></div>
+      <ul class="pubs list-fs-ul" id="list-fs-ul"></ul>
+    </div>
+  </div>
 
   <script type="application/json" id="newest-data">{{ site.data.newest | jsonify }}</script>
   <script type="application/json" id="keypapers-data">{{ site.data.keypapers | jsonify }}</script>
@@ -1455,33 +1455,30 @@ permalink: /articles/
           '<span class="pmeta">'+esc(p.authors||'')+' ('+esc(p.year||'')+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span>'+pqm+'</div>'+
           '<span class="pcite"><span class="pcite-n">'+q+'cited by <b>'+(p.cites||0)+'</b></span></span></li>';
       }
-      var _st=null;   // {name, papers, sort, shown}
+      var _st=null;   // {name, papers, sort}
       function _render(){
         var s=_st; if(!s) return;
         var ps=s.papers.slice();
         if(s.sort==='year') ps.sort(function(a,b){ return (parseInt(b.year)||0)-(parseInt(a.year)||0) || (b.cites||0)-(a.cites||0); });
         else ps.sort(function(a,b){ return (b.cites||0)-(a.cites||0) || (parseInt(b.year)||0)-(parseInt(a.year)||0); });
-        var shown=ps.slice(0,s.shown);
         var bar='<li class="scfs-sort mono"><span class="scfs-lbl">정렬</span>'+
           '<button type="button" class="scfs-s'+(s.sort==='cites'?' is-on':'')+'" data-sc-sort="cites">인용 ↓</button>'+
           '<button type="button" class="scfs-s'+(s.sort==='year'?' is-on':'')+'" data-sc-sort="year">연도 ↓</button>'+
-          '<span class="scfs-count">'+shown.length+' / '+ps.length+'편</span></li>';
-        var more=ps.length>s.shown?'<li class="scfs-more"><button type="button" class="scfs-more-btn" data-sc-more="1">＋ 20개 더보기</button></li>':'';
+          '<span class="scfs-count">'+ps.length+'편 전체</span></li>';
         listFs.querySelector('#list-fs-h').textContent=s.name+' · '+ps.length+'편';
-        listFs.querySelector('#list-fs-ul').innerHTML=bar+shown.map(_row).join('')+more;
+        listFs.querySelector('#list-fs-ul').innerHTML=bar+ps.map(_row).join('');   // 제한 없이 전부
       }
       function _open(name){
+        name=String(name||'').split(' · ')[0].trim();   // "Jae-Suk Yang · KAIST" → "Jae-Suk Yang"
         var s=SC[name]; if(!s || !s.papers.length){ return; }
-        _st={name:s.name, papers:s.papers, sort:'cites', shown:20};
+        _st={name:s.name, papers:s.papers, sort:'cites'};
         _render(); listFs.scrollTop=0; listFs.hidden=false; document.body.classList.add('qmap-fs-open');
       }
       document.addEventListener('click',function(e){
         var b=e.target.closest?e.target.closest('.sc-fs-btn'):null;
-        if(b){ e.preventDefault(); _open(String(b.getAttribute('data-scholar')||'').trim()); return; }
+        if(b){ e.preventDefault(); _open(b.getAttribute('data-scholar')); return; }
         var ss=e.target.closest?e.target.closest('[data-sc-sort]'):null;
-        if(ss && _st && !listFs.hidden){ _st.sort=ss.getAttribute('data-sc-sort'); _st.shown=20; _render(); return; }
-        var mm=e.target.closest?e.target.closest('[data-sc-more]'):null;
-        if(mm && _st && !listFs.hidden){ _st.shown+=20; _render(); return; }
+        if(ss && _st && !listFs.hidden){ _st.sort=ss.getAttribute('data-sc-sort'); _render(); listFs.scrollTop=0; return; }
       });
     })();
   </script>
