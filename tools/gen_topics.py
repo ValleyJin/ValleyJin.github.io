@@ -1034,6 +1034,7 @@ def main():
         print("· SERPAPI_KEY 없음 — scholars.json 유지(키 있는 Action에서 채워짐).", file=sys.stderr)
     else:
         per_scholar = int(cfg.get("per_scholar", 5))
+        scholar_full = int(cfg.get("scholar_full", 60))   # 저자 전체화면용 저장 수(인라인은 템플릿에서 제한)
         sresult = {"generated": today, "source": "Google Scholar", "scholars": []}
         def _mk(a):
             cb = a.get("cited_by") or {}
@@ -1056,16 +1057,16 @@ def main():
         for name, uid, _ in scholars_list:
             blk = {"name": name, "id": uid, "papers": [], "recent": []}
             try:
-                data = fetch_scholar(uid, serp_key, per_scholar)                   # cited by(인용순)
-                data_r = fetch_scholar(uid, serp_key, per_scholar, sort="pubdate") # 최근순
+                data = fetch_scholar(uid, serp_key, scholar_full)                   # cited by(인용순)
+                data_r = fetch_scholar(uid, serp_key, scholar_full, sort="pubdate") # 최근순
             except Exception as e:
                 print(f"! scholar {name}: {e}", file=sys.stderr)
                 sresult["scholars"].append(blk)
                 continue
             blk["photo"] = ((data.get("author") or {}).get("thumbnail") or "")     # SerpAPI 저자 사진(안정적 URL)
-            blk["papers"] = [_mk(a) for a in (data.get("articles") or [])[:per_scholar]]
+            blk["papers"] = [_mk(a) for a in (data.get("articles") or [])[:scholar_full]]
             blk["papers"].sort(key=lambda p: p.get("cites") or 0, reverse=True)     # 인용 많은 순 (Most cited)
-            blk["recent"] = [_mk(a) for a in (data_r.get("articles") or [])[:per_scholar]]
+            blk["recent"] = [_mk(a) for a in (data_r.get("articles") or [])[:scholar_full]]
             blk["recent"].sort(key=lambda p: _yr(p.get("year")), reverse=True)      # 최근 발간 순 (Recent)
             sresult["scholars"].append(blk)
             print(f"  scholar {name}: {len(blk['papers'])} cited, {len(blk['recent'])} recent")

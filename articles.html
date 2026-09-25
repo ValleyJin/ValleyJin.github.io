@@ -159,7 +159,7 @@ permalink: /articles/
             <div class="fw-side">
               <div class="fw-sub">Most cited</div>
               <ul class="pubs fw-cited">
-                {% for p in g.papers %}
+                {% for p in g.papers limit: 6 %}
                 <li class="pub-row">
                   <div class="pub-main">
                     <a class="pt" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
@@ -174,7 +174,7 @@ permalink: /articles/
           {% if g.recent and g.recent.size > 0 %}
           <div class="fw-sub" style="margin:16px 0 2px">Recent</div>
           <ul class="pubs fw-recent">
-            {% for p in g.recent %}
+            {% for p in g.recent limit: 6 %}
             <li class="pub-row">
               <div class="pub-main">
                 <a class="pt" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
