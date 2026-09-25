@@ -458,11 +458,14 @@ def main():
         cite_top = cite_list[:CITING_MAX]
         enrich_badges(cite_top, sci, core)                 # 인용 논문도 동일 배지(상위 40편만)
 
-        # Most cited 검색어를 키페이퍼 제목에서 역으로 도출(gen_topics가 이 값을 우선 사용)
+        # Most cited 검색어를 키페이퍼 제목에서 역으로 도출(gen_topics가 이 값을 우선 사용).
+        # 일시 실패로 None이 나오면 이전 검색어를 보존(나쁜 토픽명 폴백으로 회귀 방지).
         try:
             q = derive_query([k.get("title") for k in key_objs])
         except Exception as e:
             print(f"  ! derive_query {topic}: {e}", file=sys.stderr); q = None
+        if not q:
+            q = (prev.get(topic, {}) or {}).get("query")
 
         result["topics"][topic] = {
             "key": key_objs,
