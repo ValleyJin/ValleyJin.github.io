@@ -149,6 +149,12 @@ img{max-width:100%;display:block}
 .post-row .t .sub{display:block;color:var(--muted);font-size:13.5px;font-weight:400;margin-top:3px}
 .new-flag{display:inline-block;font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.08em;color:#f2444e;vertical-align:2px;margin-right:4px}
 .pin-badge{font-size:12px;vertical-align:1px;margin-right:1px}
+/* Most cited·Key papers·인용 알림: 약 5개만 보이고 나머지는 스크롤 */
+#mostcited-list,#keypapers-list,#keyciting-list{max-height:440px;overflow-y:auto;overscroll-behavior:contain}
+#mostcited-list>.pub-row:last-child,#keypapers-list>.pub-row:last-child,#keyciting-list>.pub-row:last-child{border-bottom:0}
+#mostcited-list::-webkit-scrollbar,#keypapers-list::-webkit-scrollbar,#keyciting-list::-webkit-scrollbar{width:8px}
+#mostcited-list::-webkit-scrollbar-thumb,#keypapers-list::-webkit-scrollbar-thumb,#keyciting-list::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+#mostcited-list::-webkit-scrollbar-thumb:hover,#keypapers-list::-webkit-scrollbar-thumb:hover,#keyciting-list::-webkit-scrollbar-thumb:hover{background:var(--muted)}
 .keyciting .section-head h2{font-size:15px}
 .keyciting #keyciting-sub{color:var(--muted)}
 /* 달력 날짜칸: 최근 추가된 논문이 있는 날 → 우상단 빨간 NEW 플래그 */
