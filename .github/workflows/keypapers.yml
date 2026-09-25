@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: write        # 갱신 후 topics.yml(Most cited) 연쇄 실행용
 
 concurrency:
   group: sync-keypapers
@@ -28,9 +29,13 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install deps
+        run: pip install --quiet pyyaml    # gen_topics(배지/품질 재사용) import에 필요
+
       - name: Crawl related papers + cited-by (Semantic Scholar)
         env:
           S2_API_KEY: ${{ secrets.S2_API_KEY }}   # 있으면 429 회피(없어도 동작, 백오프)
+          OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
         run: python tools/gen_keypapers.py
 
       - name: Commit if changed
@@ -45,3 +50,10 @@ jobs:
             git pull --rebase origin main || true   # 동시 푸시와의 경합 방지
             git push
           fi
+
+      - name: Trigger Most cited refresh (topics.yml)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 도출 검색어(keypapers.json)를 반영해 Most cited·newest를 다시 만든다
+          gh workflow run topics.yml --repo "${{ github.repository }}" || true

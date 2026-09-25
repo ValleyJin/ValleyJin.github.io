@@ -154,15 +154,54 @@ def oa_cites(ids):
     return out
 
 
+def oa_meta(dois):
+    """DOI 리스트 → {doi: {title,authors,year,venue,url}} (arXiv가 아닌 저널 키페이퍼용)."""
+    out = {}
+    dois = [d for d in dict.fromkeys(dois) if d]
+    for k in range(0, len(dois), 40):
+        chunk = dois[k:k + 40]
+        url = _oa("https://api.openalex.org/works?filter=doi:" + "|".join(chunk) +
+                  "&per-page=50&select=doi,title,publication_year,authorships,primary_location")
+        txt = _fetch(url)
+        if not txt:
+            continue
+        try:
+            data = json.loads(txt)
+        except Exception:
+            continue
+        for w in data.get("results", []):
+            doi = (w.get("doi") or "").lower().replace("https://doi.org/", "")
+            if not doi:
+                continue
+            names = [ (a.get("author") or {}).get("display_name", "") for a in (w.get("authorships") or []) ]
+            src = ((w.get("primary_location") or {}).get("source") or {}).get("display_name") or ""
+            out[doi] = {"title": (w.get("title") or "").strip(),
+                        "authors": _apa([n for n in names if n]),
+                        "year": w.get("publication_year"),
+                        "venue": src.strip() or "",
+                        "url": "https://doi.org/" + doi}
+        time.sleep(0.4)
+    return out
+
+
 # ── 4) Semantic Scholar → 이 논문을 인용한 논문(cited-by 알림) ────────
 def _s2(url):
     hdr = {"x-api-key": S2_KEY} if S2_KEY else None
     return _fetch(url, headers=hdr)
 
 
-def s2_citations(arxiv):
+def _is_arxiv(idv):
+    return bool(re.match(r"^\d{4}\.\d{4,5}$", str(idv or "")))
+
+
+def _s2_pid(idv):
+    """S2 paper id: arXiv id면 arXiv:, 아니면 DOI:."""
+    return ("arXiv:" + idv) if _is_arxiv(idv) else ("DOI:" + idv)
+
+
+def s2_citations(idv):
     f = "title,authors,year,externalIds,citationCount,venue,publicationDate"
-    txt = _s2(f"{S2}/paper/arXiv:{arxiv}/citations?fields={f}&limit=200")
+    txt = _s2(f"{S2}/paper/{_s2_pid(idv)}/citations?fields={f}&limit=200")
     if not txt:
         return []
     try:
@@ -328,11 +367,17 @@ def derive_query(titles, K=5):
     return scored[0][1]
 
 
-def _obj(aid, meta, cites_map, topic, key=False):
-    m = meta.get(aid) or {"title": "", "authors": "", "year": None,
-                          "url": "https://arxiv.org/abs/" + aid, "venue": "arXiv"}
-    o = dict(m); o["topic"] = topic; o["arxiv"] = aid
-    o["cites"] = (cites_map.get(aid) or (0,))[0]
+def _obj(idv, meta, cites_map, topic, key=False):
+    arx = _is_arxiv(idv)
+    dflt = {"title": "", "authors": "", "year": None,
+            "url": ("https://arxiv.org/abs/" + idv) if arx else ("https://doi.org/" + idv),
+            "venue": "arXiv" if arx else ""}
+    o = dict(meta.get(idv) or dflt); o["topic"] = topic
+    if arx:
+        o["arxiv"] = idv
+    else:
+        o["doi"] = idv
+    o["cites"] = (cites_map.get(idv) or (0,))[0]
     if key:
         o["key"] = True
     return o
@@ -378,14 +423,17 @@ def main():
             if u:
                 em_all += em_arxiv_ids(u)
         em_all = list(dict.fromkeys(em_all))
-        # 정책: 명시 key + EM 페이지 references의 논문 전부를 '키페이퍼'로 삼는다(related 구분 없음).
-        key_ids = list(dict.fromkeys(keys + em_all))[:KEY_MAX]
+        # 정책: 명시 key + EM 페이지 references의 논문 전부를 '키페이퍼'로. UI에서 제거한
+        # 논문(em 유래 포함)은 exclude 목록으로 걸러낸다.
+        excl = set(str(x).strip() for x in (spec.get("exclude") or []))
+        key_ids = [i for i in dict.fromkeys(keys + em_all) if i not in excl][:KEY_MAX]
         if not key_ids:
             continue
         print(f"· {topic}: 키페이퍼 {len(key_ids)}편")
 
-        meta = arxiv_meta(key_ids)
-        cites = oa_cites(key_ids)
+        meta = arxiv_meta([i for i in key_ids if _is_arxiv(i)])   # arXiv 키페이퍼
+        meta.update(oa_meta([i for i in key_ids if not _is_arxiv(i)]))   # DOI(저널) 키페이퍼
+        cites = oa_cites([i for i in key_ids if _is_arxiv(i)])
         if meta:
             any_ok = True
         key_objs = [_obj(i, meta, cites, topic, key=True) for i in key_ids]

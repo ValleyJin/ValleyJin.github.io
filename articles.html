@@ -87,7 +87,7 @@ permalink: /articles/
 
     <!-- ▼ topic mode: Newest + Most cited -->
     <div class="newest" id="newest" style="margin-top:24px" hidden>
-      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2>Newest</h2><span class="more mono" style="text-transform:none">by publication date · indexed ~2–3d later</span></div>
+      <div class="section-head" style="grid-column:1/-1;margin:2px 0 4px"><h2>Newest</h2><span class="sh-right"><button type="button" id="kp-edit-btn" class="kp-edit-btn mono" title="논문을 키페이퍼로 등록/제거 (GitHub 로그인)">✎ 키페이퍼 편집</button><span class="more mono" style="text-transform:none">by publication date · indexed ~2–3d later</span></span></div>
       <div class="tcal" id="tcal">
         <div class="tcal-bar">
           <button type="button" class="tcal-nav" id="tcal-prev" aria-label="Previous month">‹</button>
@@ -978,6 +978,7 @@ permalink: /articles/
       Object.keys(keyTopics).forEach(function(t){ if(topicList.indexOf(t)<0) topicList.push(t); });   // 키페이퍼 토픽은 newest 갱신 전에도 탭 노출
       var keyPapersWrap=document.getElementById('keypapers'), keyPapersList=document.getElementById('keypapers-list'), keyPapersSub=document.getElementById('keypapers-sub');
       var keyCitingWrap=document.getElementById('keyciting'), keyCitingList=document.getElementById('keyciting-list'), keyCitingSub=document.getElementById('keyciting-sub');
+      var _kpEdit=false, _ghToken=null;   // 키페이퍼 편집 모드 · GitHub 토큰(로그인 시)
       var emMap=data.em||{};             // 토픽별 Emergent Mind URL
       var VMETA={}; try{ VMETA=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){}   // venue별 분야(group)
       var oaMap=data.oa||{};             // 토픽별 OpenAlex 검색화면
@@ -1023,14 +1024,30 @@ permalink: /articles/
         if(p.pct) m.push('<span class="pqm-top">Top '+esc(p.pct)+'%</span>');
         return m.length ? '<span class="pqm mono">'+m.join('<span class="pqm-sep">·</span>')+'</span>' : '';
       }
-      function paperLi(p){
+      // 논문 → 키페이퍼 식별자(arXiv id 우선, 없으면 DOI). 없으면 null(등록 불가).
+      function _pid(p){
+        if(p.arxiv) return p.arxiv; if(p.doi) return p.doi;
+        var u=p.url||'', m=u.match(/arxiv\.org\/abs\/(\d{4}\.\d{4,5})/); if(m) return m[1];
+        m=u.match(/doi\.org\/(10\.[^?#\s]+)/); if(m){ try{return decodeURIComponent(m[1]);}catch(e){return m[1];} }
+        return null;
+      }
+      function _isRegistered(id){ var kt=keyTopics[st.topic]; if(!kt||!kt.key||!id) return false;
+        return kt.key.some(function(p){ return p.arxiv===id||p.doi===id||_pid(p)===id; }); }
+      function _kpBtn(p,opt){
+        if(!opt||!(opt.reg||opt.rm)) return '';
+        if(opt.rm) return '<button type="button" class="kp-btn kp-rm" data-kp="'+esc(_pid(p)||p.url||'')+'" title="키페이퍼에서 제거">－ 키페이퍼</button>';
+        var id=_pid(p); if(!id) return '';   // 식별자 없으면 등록 버튼 생략
+        if(p.key||_isRegistered(id)) return '<span class="kp-btn kp-on" title="이미 키페이퍼">📌 등록됨</span>';
+        return '<button type="button" class="kp-btn kp-add" data-kp="'+esc(id)+'" title="이 논문을 키페이퍼로 등록">＋ 키페이퍼</button>';
+      }
+      function paperLi(p,opt){
         return '<li class="pub-row">'+
           '<div class="pub-main">'+
             '<a class="pt" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+(p.key?'<span class="pin-badge" title="등록한 키페이퍼">📌</span> ':'')+(isNew(p)?newFlag('new-flag',newOpacity(p.added))+' ':'')+esc(p.title)+'</a>'+
             '<span class="pmeta">'+(st.topic==='All'?'<b style="color:var(--accent)">'+esc(p.topic)+'</b> · ':'')+esc(p.authors)+' ('+esc(p.year)+').'+(p.venue?' <i>'+esc(p.venue)+'</i>.':'')+'</span>'+
             pqmLine(p)+
           '</div>'+
-          '<span class="pcite">'+(vBadge(p)?vBadge(p)+' ':(naBadge(p)?naBadge(p)+' ':''))+'cited by <b>'+(p.cites||0)+'</b></span></li>';
+          '<span class="pcite"><span class="pcite-n">'+(vBadge(p)?vBadge(p)+' ':(naBadge(p)?naBadge(p)+' ':''))+'cited by <b>'+(p.cites||0)+'</b></span>'+_kpBtn(p,opt)+'</span></li>';
       }
       var vinfo={}; try{ vinfo=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){}
       var viEl=document.getElementById('venue-info');
@@ -1091,7 +1108,7 @@ permalink: /articles/
       function renderList(){
         var ps=(byDate()[st.sel]||[]).slice().sort(function(a,b){return (b.cites||0)-(a.cites||0);});
         var head='<div class="nl-head mono">'+esc(st.sel)+' · '+ps.length+' paper'+(ps.length!==1?'s':'')+'</div>';
-        listEl.innerHTML=head+(ps.length?'<ul class="pubs">'+ps.map(paperLi).join('')+'</ul>':'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">No paper</p>');
+        listEl.innerHTML=head+(ps.length?'<ul class="pubs">'+ps.map(function(p){return paperLi(p,{reg:_kpEdit});}).join('')+'</ul>':'<p class="mono" style="color:var(--muted);font-size:13px;margin:6px 0 0">No paper</p>');
       }
       // Most cited = 검색식으로 들어온 것 중 인용 최다(자동). 키페이퍼와 무관하게 유지.
       function mostCited(){
@@ -1106,7 +1123,7 @@ permalink: /articles/
       function renderMostCited(){
         if(!mcList) return;
         var cp=mostCited();
-        mcList.innerHTML=cp.length?cp.map(paperLi).join(''):'<li class="pub-row"><span class="pmeta" style="color:var(--muted)">No results.</span></li>';
+        mcList.innerHTML=cp.length?cp.map(function(p){return paperLi(p,{reg:_kpEdit});}).join(''):'<li class="pub-row"><span class="pmeta" style="color:var(--muted)">No results.</span></li>';
         renderKeyPapers(); renderKeyCiting();
       }
       // Key papers = 수동 등록/EM 큐레이션 키페이퍼(📌). Most cited와 별개 섹션.
@@ -1117,7 +1134,7 @@ permalink: /articles/
         if(!ks.length){ keyPapersWrap.hidden=true; keyPapersList.innerHTML=''; return; }
         if(keyPapersSub) keyPapersSub.textContent='등록·큐레이션한 대표 논문 '+ks.length+'편 · Emergent Mind';
         keyPapersWrap.hidden=false;
-        keyPapersList.innerHTML=ks.map(paperLi).join('');
+        keyPapersList.innerHTML=ks.map(function(p){return paperLi(p,{rm:_kpEdit});}).join('');
       }
       // 키페이퍼를 인용한 새 논문(알림). first_seen 기준으로 며칠간 NEW 표시.
       function renderKeyCiting(){
@@ -1128,8 +1145,84 @@ permalink: /articles/
         cs.forEach(function(p){ if(!p.added) p.added=p.first_seen; });   // NEW 배지용
         if(keyCitingSub){ keyCitingSub.textContent='키페이퍼 '+((kt.key&&kt.key.length)||0)+'편을 인용한 논문 '+(kt.n_citing||cs.length)+'편 · Semantic Scholar'; }
         keyCitingWrap.hidden=false;
-        keyCitingList.innerHTML=cs.map(paperLi).join('');
+        keyCitingList.innerHTML=cs.map(function(p){return paperLi(p,{reg:_kpEdit});}).join('');
       }
+
+      /* ── 키페이퍼 편집: GitHub 로그인 → pinned_papers.json 커밋 → CI 재생성 ── */
+      var GH_REPO='ValleyJin/ValleyJin.github.io', GH_OAUTH='https://valleyjin-cms-auth.jscho71.workers.dev';
+      function _kpToast(msg,kind){ var t=document.getElementById('kp-toast'); if(!t){ t=document.createElement('div'); t.id='kp-toast'; t.className='kp-toast'; document.body.appendChild(t); }
+        t.textContent=msg; t.className='kp-toast is-on'+(kind?' '+kind:''); clearTimeout(t._t); t._t=setTimeout(function(){ t.className='kp-toast'; }, kind==='err'?6000:5000); }
+      function _ghLogin(cb){   // Decap OAuth 프록시 재사용(팝업 postMessage 핸드셰이크)
+        if(_ghToken) return cb(_ghToken);
+        var w=window.open(GH_OAUTH+'/auth?scope=repo&provider=github','gh_kp','width=640,height=720');
+        if(!w){ _kpToast('팝업이 차단되었습니다. 허용 후 다시 시도하세요.','err'); return; }
+        function onMsg(e){ if(typeof e.data!=='string') return;
+          if(e.data==='authorizing:github'){ try{ w.postMessage('authorizing:github', e.origin); }catch(_){} return; }
+          if(e.data.indexOf('authorization:github:success:')===0){ window.removeEventListener('message',onMsg);
+            try{ var d=JSON.parse(e.data.slice('authorization:github:success:'.length)); _ghToken=d.token; }catch(_){ _ghToken=null; }
+            try{ w.close(); }catch(_){}
+            if(_ghToken) cb(_ghToken); else _kpToast('로그인 실패','err'); } }
+        window.addEventListener('message',onMsg,false);
+      }
+      function _ghApi(path,opt){ opt=opt||{}; opt.headers=Object.assign({'Authorization':'token '+_ghToken,'Accept':'application/vnd.github+json'},opt.headers||{});
+        return fetch('https://api.github.com/repos/'+GH_REPO+path,opt); }
+      function _b64enc(s){ return btoa(unescape(encodeURIComponent(s))); }
+      function _b64dec(s){ return decodeURIComponent(escape(atob(s.replace(/\n/g,'')))); }
+      // pinned_papers.json에서 topic의 key 목록에 ident 추가/제거 후 커밋
+      function _ghCommitPin(topic, ident, add, done){
+        _ghApi('/contents/_data/pinned_papers.json?ref=main').then(function(r){ return r.json(); }).then(function(j){
+          if(!j.content){ throw new Error(j.message||'파일 읽기 실패'); }
+          var cfg=JSON.parse(_b64dec(j.content)); cfg.topics=cfg.topics||{};
+          var t=cfg.topics[topic]=cfg.topics[topic]||{};
+          var keys=isArr(t.key)?t.key.slice():(t.key?[t.key]:[]);
+          var excl=isArr(t.exclude)?t.exclude.slice():[];
+          function drop(a,v){ var i=a.indexOf(v); if(i>=0) a.splice(i,1); }
+          if(add){ if(keys.indexOf(ident)<0) keys.push(ident); drop(excl,ident); }   // 등록: key 추가, exclude 해제
+          else{ if(excl.indexOf(ident)<0) excl.push(ident); drop(keys,ident); }      // 제거: exclude 추가(em 유래도 걸러짐), key에서도 제거
+          t.key=keys; if(excl.length) t.exclude=excl; else delete t.exclude;
+          if(!keys.length && !t.em && !(t.exclude&&t.exclude.length)){ delete cfg.topics[topic]; }
+          var body={message:(add?'keypaper: add ':'keypaper: remove ')+ident+' ('+topic+')',
+            content:_b64enc(JSON.stringify(cfg,null,2)+'\n'), sha:j.sha, branch:'main'};
+          return _ghApi('/contents/_data/pinned_papers.json',{method:'PUT',body:JSON.stringify(body)});
+        }).then(function(r){ return r.json(); }).then(function(j){
+          if(j.commit){ done(true); } else { throw new Error(j.message||'커밋 실패'); }
+        }).catch(function(e){ _kpToast('실패: '+(e.message||e),'err'); done(false); });
+      }
+      function isArr(x){ return Object.prototype.toString.call(x)==='[object Array]'; }
+      // 로컬 즉시 반영(낙관적): keyTopics를 갱신해 UI를 바로 바꾸고, 서버는 CI가 재생성
+      function _localKey(topic, ident, add, paperObj){
+        var kt=keyTopics[topic]=keyTopics[topic]||{key:[],citing:[],n_citing:0};
+        kt.key=(kt.key||[]).slice();
+        var found=-1; kt.key.forEach(function(p,idx){ if((p.arxiv===ident)||(p.doi===ident)||(_pid(p)===ident)) found=idx; });
+        if(add){ if(found<0) kt.key.push(paperObj||{title:ident,arxiv:(/^\d{4}\.\d{4,5}$/.test(ident)?ident:null),doi:(/^10\./.test(ident)?ident:null),url:(/^\d{4}\.\d{4,5}$/.test(ident)?'https://arxiv.org/abs/'+ident:'https://doi.org/'+ident),venue:'',cites:0,key:true}); }
+        else if(found>=0){ kt.key.splice(found,1); }
+        if(topicList.indexOf(topic)<0) topicList.push(topic);
+      }
+      function _kpAct(add, ident, rowPaper){
+        if(st.topic==='All'){ _kpToast('토픽을 먼저 선택하세요','err'); return; }
+        var topic=st.topic;
+        _ghLogin(function(){
+          _kpToast((add?'등록 중… ':'제거 중… ')+ident);
+          _ghCommitPin(topic, ident, add, function(ok){
+            if(!ok) return;
+            _localKey(topic, ident, add, rowPaper);
+            renderTabs(); renderMostCited(); renderList();   // 즉시 UI 반영(📌·목록)
+            _kpToast((add?'키페이퍼 등록됨':'키페이퍼 제거됨')+' · CI가 검색·인용을 수 분 내 갱신','ok');
+          });
+        });
+      }
+      // 편집 토글 + 행 버튼 위임
+      var kpEditBtn=document.getElementById('kp-edit-btn');
+      function _kpSyncEditBtn(){ if(kpEditBtn){ kpEditBtn.textContent=_kpEdit?'✓ 편집 종료':'✎ 키페이퍼 편집'; kpEditBtn.classList.toggle('is-on',_kpEdit); } }
+      if(kpEditBtn){ kpEditBtn.addEventListener('click',function(){
+        if(!_kpEdit && !_ghToken){ _ghLogin(function(){ _kpEdit=true; _kpSyncEditBtn(); renderMostCited(); renderList(); _kpToast('편집 모드: 논문의 ＋키페이퍼 / 키페이퍼의 －키페이퍼','ok'); }); return; }
+        _kpEdit=!_kpEdit; _kpSyncEditBtn(); renderMostCited(); renderList();
+      }); }
+      document.addEventListener('click',function(e){ var b=e.target.closest?e.target.closest('.kp-add,.kp-rm'):null; if(!b) return;
+        e.preventDefault(); var id=b.getAttribute('data-kp'); if(!id) return;
+        var li=b.closest('.pub-row'), ttl=li?(li.querySelector('.pt')||{}).textContent:'';
+        _kpAct(b.classList.contains('kp-add'), id, {title:(ttl||'').replace(/^📌\s*/,'').replace(/^NEW\s*/,'').trim(), arxiv:(/^\d{4}\.\d{4,5}$/.test(id)?id:null), doi:(/^10\./.test(id)?id:null), url:(/^\d{4}\.\d{4,5}$/.test(id)?'https://arxiv.org/abs/'+id:'https://doi.org/'+id), venue:'', cites:0, key:true});
+      });
       function renderCal(){
         var m=byDate(), y=cur.getFullYear(), mo=cur.getMonth();
         title.textContent=cur.toLocaleString('en-US',{month:'long',year:'numeric'});
