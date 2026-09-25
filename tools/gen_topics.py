@@ -157,15 +157,32 @@ def _fetch(query, concept, cutoff, n, sort=None, field="default", until=None):
     return fetch(query, concept, cutoff, n, sort=sort, field=field, until=until)
 
 
-def fetch_scholar(user_id, key, n, sort=None):
-    """Google Scholar 프로필의 최신 논문(SerpAPI). 저자 본인이 큐레이션 → 동명이인 없음."""
+def fetch_scholar(user_id, key, n, sort=None, start=0):
+    """Google Scholar 프로필 논문 1페이지(SerpAPI, 최대 100). 저자 본인 큐레이션 → 동명이인 없음."""
     params = {"engine": "google_scholar_author", "author_id": user_id.strip(),
-              "api_key": key, "hl": "en", "num": min(max(n, 1), 100)}
+              "api_key": key, "hl": "en", "num": min(max(n, 1), 100), "start": start}
     if sort:
         params["sort"] = sort   # "pubdate" = 최근순 (생략 시 cited by 인용순)
     url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
     with urllib.request.urlopen(url, timeout=60) as r:
         return json.load(r)
+
+
+def fetch_scholar_all(user_id, key, sort=None, cap=300):
+    """논문이 100편을 넘으면 start 오프셋으로 페이지네이션해 전부(최대 cap) 가져온다.
+    SerpAPI는 호출당 최대 100편 → 300편 저자면 3번 호출(쿼터 그만큼 소모)."""
+    arts, author, start = [], None, 0
+    while len(arts) < cap:
+        d = fetch_scholar(user_id, key, 100, sort=sort, start=start)
+        if author is None:
+            author = d.get("author") or {}
+        page = d.get("articles") or []
+        arts += page
+        if len(page) < 100:          # 마지막 페이지
+            break
+        start += 100
+        time.sleep(1)                # SerpAPI 예의
+    return {"author": author, "articles": arts[:cap]}
 
 
 def clean_title(t):
@@ -1034,7 +1051,7 @@ def main():
         print("· SERPAPI_KEY 없음 — scholars.json 유지(키 있는 Action에서 채워짐).", file=sys.stderr)
     else:
         per_scholar = int(cfg.get("per_scholar", 5))
-        scholar_full = int(cfg.get("scholar_full", 100))   # 저자 전체화면용 저장 수(인라인은 템플릿에서 제한)
+        scholar_full = int(cfg.get("scholar_full", 300))   # 저자 전체화면용 저장 수(인라인은 템플릿에서 제한)
         sresult = {"generated": today, "source": "Google Scholar", "scholars": []}
         def _mk(a):
             cb = a.get("cited_by") or {}
@@ -1057,8 +1074,8 @@ def main():
         for name, uid, _ in scholars_list:
             blk = {"name": name, "id": uid, "papers": [], "recent": []}
             try:
-                data = fetch_scholar(uid, serp_key, scholar_full)                   # cited by(인용순)
-                data_r = fetch_scholar(uid, serp_key, scholar_full, sort="pubdate") # 최근순
+                data = fetch_scholar_all(uid, serp_key, cap=scholar_full)           # 인용순 전부(페이지네이션)
+                data_r = fetch_scholar(uid, serp_key, 40, sort="pubdate")           # 최근순 한 페이지(인라인 Recent용)
             except Exception as e:
                 print(f"! scholar {name}: {e}", file=sys.stderr)
                 sresult["scholars"].append(blk)
