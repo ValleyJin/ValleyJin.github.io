@@ -31,6 +31,22 @@ API_SOURCES = "https://api.openalex.org/sources"
 OPENALEX_KEY = os.environ.get("OPENALEX_KEY", "").strip()
 
 
+def _dump(payload, **kw):
+    """json.dumps + YAML(Psych) 안전화.
+    JSON은 허용하지만 Jekyll의 SafeYAML(Psych)이 거부하는 제어문자를 제거한다.
+    일부 서지 메타데이터(예: OpenAlex venue 이름)에는 정렬용 C1 제어문자
+    (U+0080–U+009F, 예 SOS 0x98·ST 0x9c)가 박혀 있어, 그대로 두면 데이터 파일이
+    'control characters are not allowed at line 1 column 1'로 Pages 빌드를 통째로 막는다.
+    JSON 구조 문자는 전부 ASCII 인쇄가능이라 이 스크럽은 문자열 내용만 건드린다."""
+    s = json.dumps(payload, **kw)
+    return "".join(
+        c for c in s
+        if c in "\t\n\r"
+        or (0x20 <= ord(c) < 0x7f)
+        or (ord(c) >= 0xa0 and ord(c) not in (0x2028, 0x2029))
+    ) if s else s
+
+
 def _oa(url):
     """OpenAlex URL에 api_key를 (있으면) 덧붙인다."""
     if OPENALEX_KEY:
@@ -816,7 +832,7 @@ def main():
     # 토픽 학회/저널의 영향력지수·분야 → venues.json (칩 선택 시 표시)
     venues_meta = build_venues(topics, scimago, core, cutoff=cutoff)
     if venues_meta:
-        VENUES.write_text(json.dumps({"generated": date.today().isoformat(), "venues": venues_meta},
+        VENUES.write_text(_dump({"generated": date.today().isoformat(), "venues": venues_meta},
                                      ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"✓ venues: {len(venues_meta)} venues", file=sys.stderr)
     vidx = build_vidx(venues_meta)    # 내 토픽 venues → 배지 폴백 인덱스
@@ -864,7 +880,7 @@ def main():
     if not any(b["papers"] for b in result["topics"]) and OUT.exists():
         print("! 모든 토픽 fetch 실패(OpenAlex 오류 추정) — 기존 topics.json 유지", file=sys.stderr)
     else:
-        OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        OUT.write_text(_dump(result, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"✓ wrote {OUT.relative_to(ROOT)} — {len(result['topics'])} topics")
 
     # ── Newest: 팔로우 토픽에서 '최근 발간'된 논문(발간일순) → 달력용 ──
@@ -1031,7 +1047,7 @@ def main():
     if not fresh and not any(mostcited.values()) and NEWEST.exists():
         print("! fetch 비어있음(OpenAlex 오류 추정) — 기존 newest.json 유지", file=sys.stderr)
     else:
-        NEWEST.write_text(json.dumps({
+        NEWEST.write_text(_dump({
             "generated": today,
             "last_full": today if is_full else last_full,     # 마지막 전체 재fetch일(반기 판정용)
             "topics": [label for label, _q, _e in topics],   # 탭 순서(config 순)
@@ -1087,7 +1103,7 @@ def main():
             blk["recent"].sort(key=lambda p: _yr(p.get("year")), reverse=True)      # 최근 발간 순 (Recent)
             sresult["scholars"].append(blk)
             print(f"  scholar {name}: {len(blk['papers'])} cited, {len(blk['recent'])} recent")
-        SCHOLARS.write_text(json.dumps(sresult, ensure_ascii=False, indent=2), encoding="utf-8")
+        SCHOLARS.write_text(_dump(sresult, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"✓ wrote {SCHOLARS.relative_to(ROOT)} — {len(sresult['scholars'])} scholars (Google Scholar)")
 
 

@@ -35,6 +35,19 @@ except Exception as _e:            # 실패해도 파이프라인은 메타/인�
 ROOT = Path(__file__).resolve().parent.parent
 CFG = ROOT / "_data" / "pinned_papers.json"
 OUT = ROOT / "_data" / "keypapers.json"
+
+
+def _dump(payload, **kw):
+    """json.dumps + YAML(Psych) 안전화 — 서지 메타데이터의 C1 제어문자
+    (U+0080–U+009F 등, arXiv/OpenAlex venue·title에 종종 박힘)를 제거한다.
+    이걸 남기면 Jekyll SafeYAML이 데이터 파일을 거부해 Pages 빌드가 통째로 막힌다."""
+    s = json.dumps(payload, **kw)
+    return "".join(
+        c for c in s
+        if c in "\t\n\r"
+        or (0x20 <= ord(c) < 0x7f)
+        or (ord(c) >= 0xa0 and ord(c) not in (0x2028, 0x2029))
+    ) if s else s
 TODAY = date.today().isoformat()
 MAILTO = "jscho71@kaist.ac.kr"
 S2 = "https://api.semanticscholar.org/graph/v1"
@@ -537,7 +550,7 @@ def main():
     if not any_ok and prev:
         print("! 모든 키페이퍼 조회 실패 — 기존 keypapers.json 유지", file=sys.stderr)
         return
-    OUT.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+    OUT.write_text(_dump(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"✓ wrote {OUT.relative_to(ROOT)} — {len(result['topics'])} topic(s)")
 
 

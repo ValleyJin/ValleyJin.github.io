@@ -19,6 +19,21 @@ from pathlib import Path
 KST = timezone(timedelta(hours=9))
 
 OUT = Path(__file__).resolve().parent.parent / "_data" / "scholar_alerts.json"
+
+
+def _dump(payload, **kw):
+    """json.dumps + YAML(Psych) 안전화 — 알림 메일에서 파싱한 제목/venue에 섞여
+    들어오는 C1 제어문자(U+0080–U+009F 등)를 제거한다. 남기면 Jekyll SafeYAML이
+    데이터 파일을 거부해 Pages 빌드가 통째로 막힌다."""
+    s = json.dumps(payload, **kw)
+    return "".join(
+        c for c in s
+        if c in "\t\n\r"
+        or (0x20 <= ord(c) < 0x7f)
+        or (ord(c) >= 0xa0 and ord(c) not in (0x2028, 0x2029))
+    ) if s else s
+
+
 SENDER = "scholaralerts-noreply@google.com"
 MAX_MSGS = 25       # 최근 알림 메일 수
 MAX_ITEMS = 40      # 표시 논문 상한
@@ -179,7 +194,7 @@ def main():
     except Exception as e:
         print("! alert badge skipped: %s" % e, file=sys.stderr)
 
-    OUT.write_text(json.dumps({"generated": date.today().isoformat(),
+    OUT.write_text(_dump({"generated": date.today().isoformat(),
                                "source": "Google Scholar alerts (email)",
                                "items": items}, ensure_ascii=False, indent=2), encoding="utf-8")
     print("✓ wrote %s — %d alert items" % (OUT.name, len(items)))
