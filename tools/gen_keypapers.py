@@ -90,34 +90,48 @@ def _apa(authors):
     return s
 
 
+def _arxiv_fetch_batch(chunk, meta):
+    url = "https://export.arxiv.org/api/query?id_list=" + ",".join(chunk) + "&max_results=" + str(len(chunk))
+    xml = _fetch(url)
+    if not xml:
+        return
+    try:
+        root = ET.fromstring(xml)
+    except Exception:
+        return
+    for e in root.findall(ATOM + "entry"):
+        idu = (e.findtext(ATOM + "id") or "")
+        m = re.search(r"/abs/(\d{4}\.\d{4,5})", idu)
+        if not m:
+            continue
+        aid = m.group(1)
+        title = " ".join((e.findtext(ATOM + "title") or "").split())
+        if not title:
+            continue                                 # 제목 없으면 담지 않음(재시도 대상)
+        auth = [ (a.findtext(ATOM + "name") or "").strip() for a in e.findall(ATOM + "author") ]
+        auth = [a for a in auth if a]
+        pub = (e.findtext(ATOM + "published") or "")
+        year = int(pub[:4]) if pub[:4].isdigit() else None
+        meta[aid] = {"title": title, "authors": _apa(auth), "year": year,
+                     "url": "https://arxiv.org/abs/" + aid, "venue": "arXiv"}
+
+
 def arxiv_meta(ids):
-    """arXiv id 리스트 → {id: {title, authors, year, url}} (배치)."""
+    """arXiv id 리스트 → {id: {title, authors, year, url}}. arXiv API가 불안정해
+    누락분을 소배치로 재시도(연속 호출 시 빈 응답이 잦음)."""
     meta = {}
     ids = list(dict.fromkeys(ids))
-    for k in range(0, len(ids), 40):                 # 배치 40개씩
-        chunk = ids[k:k + 40]
-        url = "https://export.arxiv.org/api/query?id_list=" + ",".join(chunk) + "&max_results=" + str(len(chunk))
-        xml = _fetch(url)
-        if not xml:
-            continue
-        try:
-            root = ET.fromstring(xml)
-        except Exception:
-            continue
-        for e in root.findall(ATOM + "entry"):
-            idu = (e.findtext(ATOM + "id") or "")
-            m = re.search(r"/abs/(\d{4}\.\d{4,5})", idu)
-            if not m:
-                continue
-            aid = m.group(1)
-            title = " ".join((e.findtext(ATOM + "title") or "").split())
-            auth = [ (a.findtext(ATOM + "name") or "").strip() for a in e.findall(ATOM + "author") ]
-            auth = [a for a in auth if a]
-            pub = (e.findtext(ATOM + "published") or "")
-            year = int(pub[:4]) if pub[:4].isdigit() else None
-            meta[aid] = {"title": title, "authors": _apa(auth), "year": year,
-                         "url": "https://arxiv.org/abs/" + aid, "venue": "arXiv"}
+    for k in range(0, len(ids), 20):                 # 배치 20개씩(대량 시 빈 응답 완화)
+        _arxiv_fetch_batch(ids[k:k + 20], meta)
         time.sleep(1)
+    for attempt in range(3):                          # 누락분 재시도(개별에 가깝게)
+        missing = [i for i in ids if i not in meta]
+        if not missing:
+            break
+        time.sleep(3 + attempt * 3)
+        for k in range(0, len(missing), 5):
+            _arxiv_fetch_batch(missing[k:k + 5], meta)
+            time.sleep(1.5)
     return meta
 
 
@@ -250,7 +264,7 @@ def oa_records(dois):
     for k in range(0, len(dois), 40):
         chunk = dois[k:k + 40]
         url = _oa("https://api.openalex.org/works?filter=doi:" + "|".join(chunk) +
-                  "&per-page=50&select=doi,cited_by_count,fwci,"
+                  "&per-page=50&select=doi,title,publication_year,authorships,cited_by_count,fwci,"
                   "citation_normalized_percentile,primary_location")
         txt = _fetch(url)
         if not txt:
@@ -276,6 +290,16 @@ def enrich_badges(papers, sci, core):
     for p in papers:
         d = _paper_doi(p)
         w = oa.get(d) if d else None
+        # arXiv API가 실패해 메타가 비면 OpenAlex 레코드로 채운다(제목/저자/연도)
+        if w:
+            if not p.get("title") and w.get("title"):
+                p["title"] = (w.get("title") or "").strip()
+            if not p.get("authors"):
+                nm = [ (a.get("author") or {}).get("display_name", "") for a in (w.get("authorships") or []) ]
+                if any(nm):
+                    p["authors"] = _apa([n for n in nm if n])
+            if not p.get("year") and w.get("publication_year"):
+                p["year"] = w.get("publication_year")
         venue = p.get("venue") or "arXiv"
         src = (w or {}).get("primary_location", {}) or {}
         vname = ((src.get("source") or {}).get("display_name") or "").strip()
@@ -367,6 +391,22 @@ def derive_query(titles, K=5):
     return scored[0][1]
 
 
+def _fallback_query(titles):
+    """네트워크 없이 제목 최빈 주제어 1개(최후 폴백)."""
+    titles = [t for t in titles if t]
+    if not titles:
+        return None
+    rep, gf = {}, {}
+    for t in titles:
+        for w in set(_qwords(t)):
+            g = _qpfx(w); gf[g] = gf.get(g, 0) + 1
+            rep.setdefault(g, {}); rep[g][w] = rep[g].get(w, 0) + 1
+    if not gf:
+        return None
+    g = max(gf, key=gf.get)
+    return max(rep[g], key=rep[g].get)
+
+
 def _obj(idv, meta, cites_map, topic, key=False):
     arx = _is_arxiv(idv)
     dflt = {"title": "", "authors": "", "year": None,
@@ -437,7 +477,20 @@ def main():
         if meta:
             any_ok = True
         key_objs = [_obj(i, meta, cites, topic, key=True) for i in key_ids]
-        enrich_badges(key_objs, sci, core)                 # 분위·SJR·FWCI·N/A 배지(Most cited 동일)
+        enrich_badges(key_objs, sci, core)                 # 분위·SJR·FWCI·N/A 배지 + 빈 메타 OpenAlex 보강
+        # 그래도 제목이 비면 이전 keypapers.json의 메타를 물려받는다(arXiv·OpenAlex 동시 실패 대비)
+        prev_key = {}
+        for pk in (prev.get(topic, {}) or {}).get("key", []):
+            kid = pk.get("arxiv") or pk.get("doi")
+            if kid:
+                prev_key[kid] = pk
+        for o in key_objs:
+            if not o.get("title"):
+                pk = prev_key.get(o.get("arxiv") or o.get("doi"))
+                if pk:
+                    for f in ("title", "authors", "year", "venue"):
+                        if not o.get(f) and pk.get(f):
+                            o[f] = pk[f]
         key_urls = {k["url"] for k in key_objs}
 
         # 인용 알림: 모든 키페이퍼를 인용한 논문(cited-by) 집계. 이전 first_seen 보존.
@@ -466,6 +519,8 @@ def main():
             print(f"  ! derive_query {topic}: {e}", file=sys.stderr); q = None
         if not q:
             q = (prev.get(topic, {}) or {}).get("query")
+        if not q:
+            q = _fallback_query([k.get("title") for k in key_objs])   # 최후: 네트워크 없이 제목 최빈어
 
         result["topics"][topic] = {
             "key": key_objs,

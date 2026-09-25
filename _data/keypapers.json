@@ -5,9 +5,9 @@
     "Deep persona": {
       "key": [
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "Persona-Aware Alignment Framework for Personalized Dialogue Generation",
+          "authors": "G Li, X Liu, Z Wu, et al.",
+          "year": 2025,
           "url": "https://arxiv.org/abs/2511.10215",
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
@@ -17,9 +17,9 @@
           "nr": "na"
         },
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "DPRF: A Generalizable Dynamic Persona Refinement Framework for Optimizing Behavior Alignment Between Personalized LLM Role-Playing Agents and Humans",
+          "authors": "B Yao, B Sun, Y Dong, et al.",
+          "year": 2025,
           "url": "https://arxiv.org/abs/2510.14205",
           "venue": "arXiv",
           "topic": "Deep persona",
@@ -29,9 +29,9 @@
           "nr": "na"
         },
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "From 1,000,000 Users to Every User: Scaling Up Personalized Preference for User-level Alignment",
+          "authors": "J Li, J Guan, S Wu, et al.",
+          "year": 2025,
           "url": "https://arxiv.org/abs/2503.15463",
           "venue": "arXiv",
           "topic": "Deep persona",
@@ -41,9 +41,9 @@
           "nr": "na"
         },
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "Living the Novel: A System for Generating Self-Training Timeline-Aware Conversational Agents from Novels",
+          "authors": "Y Huang, T Yan, S Gong, et al.",
+          "year": 2025,
           "url": "https://arxiv.org/abs/2512.07474",
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
@@ -53,9 +53,9 @@
           "nr": "na"
         },
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory",
+          "authors": "B Jiang, Y Yuan, M Shen, et al.",
+          "year": 2025,
           "url": "https://arxiv.org/abs/2512.06688",
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
@@ -65,9 +65,9 @@
           "nr": "na"
         },
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "Persona Features Control Emergent Misalignment",
+          "authors": "M Wang, T Tour, O Watkins, et al.",
+          "year": 2025,
           "url": "https://arxiv.org/abs/2506.19823",
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
@@ -77,9 +77,9 @@
           "nr": "na"
         },
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "authors": "L Castricato, N Lile, R Rafailov, et al.",
+          "year": 2024,
           "url": "https://arxiv.org/abs/2407.17387",
           "venue": "arXiv",
           "topic": "Deep persona",
@@ -89,9 +89,9 @@
           "nr": "na"
         },
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "Population-Aligned Persona Generation for LLM-based Social Simulation",
+          "authors": "Z Hu, J Lian, Z Xiao, et al.",
+          "year": 2025,
           "url": "https://arxiv.org/abs/2509.10127",
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
@@ -101,9 +101,9 @@
           "nr": "na"
         },
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "Exploring Persona-dependent LLM Alignment for the Moral Machine Experiment",
+          "authors": "J Kim, J Kwon, L Vecchietti, et al.",
+          "year": 2025,
           "url": "https://arxiv.org/abs/2504.10886",
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
@@ -113,9 +113,9 @@
           "nr": "na"
         },
         {
-          "title": "",
-          "authors": "",
-          "year": null,
+          "title": "Enhancing Persona Consistency for LLMs' Role-Playing using Persona-Aware Contrastive Learning",
+          "authors": "K Ji, Y Lian, L Li, et al.",
+          "year": 2025,
           "url": "https://arxiv.org/abs/2503.17662",
           "venue": "arXiv",
           "topic": "Deep persona",
@@ -136,7 +136,7 @@
           "pubdate": "2026-09-20",
           "arxiv": "2609.23466",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -150,7 +150,7 @@
           "pubdate": "2026-09-18",
           "arxiv": "2609.21857",
           "doi": null,
-          "cited_key": "2509.10127",
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -164,7 +164,7 @@
           "pubdate": "2026-09-16",
           "arxiv": "2609.18461",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -178,7 +178,7 @@
           "pubdate": "2026-09-15",
           "arxiv": "2609.17010",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -192,7 +192,7 @@
           "pubdate": "2026-09-15",
           "arxiv": "2609.16754",
           "doi": null,
-          "cited_key": "2506.19823",
+          "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -206,7 +206,7 @@
           "pubdate": "2026-09-14",
           "arxiv": "2609.15972",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -220,7 +220,7 @@
           "pubdate": "2026-09-11",
           "arxiv": "2609.19167",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -234,7 +234,7 @@
           "pubdate": "2026-09-09",
           "arxiv": "2609.09835",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -248,7 +248,7 @@
           "pubdate": "2026-09-09",
           "arxiv": "2609.09778",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -262,7 +262,7 @@
           "pubdate": "2026-09-09",
           "arxiv": "2609.10280",
           "doi": null,
-          "cited_key": "2407.17387",
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -276,7 +276,7 @@
           "pubdate": "2026-09-08",
           "arxiv": "2609.08558",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -290,7 +290,7 @@
           "pubdate": "2026-09-08",
           "arxiv": "2609.08599",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -304,7 +304,7 @@
           "pubdate": "2026-09-08",
           "arxiv": "2609.08126",
           "doi": null,
-          "cited_key": "2506.19823",
+          "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -318,7 +318,7 @@
           "pubdate": "2026-09-03",
           "arxiv": "2609.03467",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -332,7 +332,7 @@
           "pubdate": "2026-09-03",
           "arxiv": "2609.03815",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -346,7 +346,7 @@
           "pubdate": "2026-09-01",
           "arxiv": "2609.00570",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -360,7 +360,7 @@
           "pubdate": "2026-09-01",
           "arxiv": "2609.00921",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -374,7 +374,7 @@
           "pubdate": "2026-09-01",
           "arxiv": "2609.01091",
           "doi": null,
-          "cited_key": "2506.19823",
+          "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -388,7 +388,7 @@
           "pubdate": "2026-09-01",
           "arxiv": "2609.00608",
           "doi": null,
-          "cited_key": "2503.17662",
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -402,7 +402,7 @@
           "pubdate": "2026-08-28",
           "arxiv": "2608.28001",
           "doi": null,
-          "cited_key": "2407.17387",
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -416,7 +416,7 @@
           "pubdate": "2026-08-27",
           "arxiv": "2608.26674",
           "doi": null,
-          "cited_key": "2503.17662",
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -430,7 +430,7 @@
           "pubdate": "2026-08-26",
           "arxiv": "2608.26462",
           "doi": null,
-          "cited_key": "2506.19823",
+          "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -444,7 +444,7 @@
           "pubdate": "2026-08-22",
           "arxiv": "2608.21727",
           "doi": null,
-          "cited_key": "2506.19823",
+          "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -458,7 +458,7 @@
           "pubdate": "2026-08-20",
           "arxiv": "2608.19621",
           "doi": null,
-          "cited_key": "2509.10127",
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -472,7 +472,7 @@
           "pubdate": "2026-08-12",
           "arxiv": "2608.11879",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -486,7 +486,7 @@
           "pubdate": "2026-08-12",
           "arxiv": "2608.11705",
           "doi": null,
-          "cited_key": "2506.19823",
+          "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -500,7 +500,7 @@
           "pubdate": "2026-08-11",
           "arxiv": "2608.11025",
           "doi": null,
-          "cited_key": "2506.19823",
+          "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -514,26 +514,9 @@
           "pubdate": "2026-08-10",
           "arxiv": "2608.09507",
           "doi": null,
-          "cited_key": "2503.15463",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "ColdChat: benchmarking large language model personalization using limited real-user interaction history",
-          "authors": "W Zhang, Z Zeng, Z Liu, et al.",
-          "year": 2026,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-026-51716-6",
-          "cites": 0,
-          "pubdate": "2026-08-08",
-          "arxiv": null,
-          "doi": "10.1007/s11704-026-51716-6",
-          "cited_key": "2503.15463",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.2,
-          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Harmful Content Is Not Enough: Continuation Framing Moderates In-Context Emergent Misalignment",
@@ -545,7 +528,7 @@
           "pubdate": "2026-08-08",
           "arxiv": "2608.08212",
           "doi": null,
-          "cited_key": "2506.19823",
+          "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -559,7 +542,7 @@
           "pubdate": "2026-08-06",
           "arxiv": "2608.06115",
           "doi": null,
-          "cited_key": "2509.10127",
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -573,7 +556,7 @@
           "pubdate": "2026-08-05",
           "arxiv": "2608.04570",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -587,7 +570,7 @@
           "pubdate": "2026-08-04",
           "arxiv": "2608.04205",
           "doi": null,
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -601,7 +584,7 @@
           "pubdate": "2026-07-31",
           "arxiv": "2607.29433",
           "doi": "10.48550/arxiv.2607.29433",
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -615,7 +598,7 @@
           "pubdate": "2026-07-30",
           "arxiv": "2607.28818",
           "doi": "10.48550/arxiv.2607.28818",
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -629,7 +612,7 @@
           "pubdate": "2026-07-29",
           "arxiv": "2607.27056",
           "doi": "10.48550/arxiv.2607.27056",
-          "cited_key": "2512.06688",
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -643,7 +626,7 @@
           "pubdate": "2026-07-26",
           "arxiv": "2607.23545",
           "doi": "10.48550/arxiv.2607.23545",
-          "cited_key": "2503.17662",
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -657,21 +640,7 @@
           "pubdate": "2026-07-24",
           "arxiv": "2607.22305",
           "doi": "10.48550/arxiv.2607.22305",
-          "cited_key": "2407.17387",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Co-design of LLM-based preference agents: participation may drive overtrust",
-          "authors": "M Fell",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.21757",
-          "cites": 0,
-          "pubdate": "2026-07-23",
-          "arxiv": "2607.21757",
-          "doi": "10.48550/arxiv.2607.21757",
-          "cited_key": "2503.15463",
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -685,13 +654,43 @@
           "pubdate": "2026-07-22",
           "arxiv": "2607.20767",
           "doi": "10.48550/arxiv.2607.20767",
-          "cited_key": "2407.17387",
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
           "first_seen": "2026-09-25",
+          "nr": "na"
+        },
+        {
+          "title": "Elicitation without Backpropagation: Steering Model Behavior by Optimizing the Latent Posterior",
+          "authors": "G Baker, V Pathak, D Murfet, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2607.18804",
+          "cites": 0,
+          "pubdate": "2026-07-21",
+          "arxiv": "2607.18804",
+          "doi": "10.48550/arxiv.2607.18804",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-25",
+          "nr": "na"
+        },
+        {
+          "title": "SocialDropout: Dynamic Agent Dropout for Social Simulation",
+          "authors": "H Wang, G Tu, X Zeng, et al.",
+          "year": 2026,
+          "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "url": "https://doi.org/10.1145/3805712.3809974",
+          "cites": 0,
+          "pubdate": "2026-07-19",
+          "arxiv": null,
+          "doi": "10.1145/3805712.3809974",
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "first_seen": "2026-09-25",
+          "fwci": 0.0,
+          "pct": 10,
           "nr": "na"
         }
       ],
-      "n_citing": 346,
-      "query": null
+      "n_citing": 321,
+      "query": "persona generation"
     },
     "gABM": {
       "key": [
@@ -1054,6 +1053,20 @@
           "nr": "na"
         },
         {
+          "title": "LLMs for Social Network Modeling: From Network Generation to Dynamic Processes",
+          "authors": "S Mallick, A Thomo, A Saxena",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.08049",
+          "cites": 0,
+          "pubdate": "2026-09-07",
+          "arxiv": "2609.08049",
+          "doi": null,
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "first_seen": "2026-09-25",
+          "nr": "na"
+        },
+        {
           "title": "Who Changes Their Mind? Exploring Stance Shifts in LLM-Based Social Media Simulations",
           "authors": "V Gatta, G Orlando, M Perillo, et al.",
           "year": 2026,
@@ -1091,7 +1104,7 @@
           "pubdate": "2026-09-01",
           "arxiv": null,
           "doi": "10.1016/j.knosys.2026.116947",
-          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -1510,23 +1523,9 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "pyRMV: Reusable, Cross-model Validation for Computational Science",
-          "authors": "H Dictus, E Subert, A Romani, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.09956",
-          "cites": 0,
-          "pubdate": "2026-07-21",
-          "arxiv": "2608.09956",
-          "doi": null,
-          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
-          "first_seen": "2026-09-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 440,
+      "n_citing": 470,
       "query": "social simulations"
     }
   }
