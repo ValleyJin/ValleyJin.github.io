@@ -353,8 +353,16 @@ permalink: /articles/
       </div>
       <div class="mformula">
         <div class="mf-name">h5-median <span class="mf-sub mono">Google Scholar</span></div>
-        <div class="mf-eq mono">h5-index를 이루는 그 <b>h5개 핵심 논문</b>들의 피인용 수의 <b>중앙값</b></div>
+        <div class="mf-eq mono">h5-index를 이루는 그 <b>h5개 핵심 논문(h5-core)</b>들의 피인용 수의 <b>중앙값</b></div>
         <p class="mf-x">h5-index가 "핵심 논문이 <b>몇 편</b>이나 되나"(폭)라면, h5-median은 그 핵심 논문들이 "<b>얼마나 무겁게</b> 인용되나"(깊이)를 봅니다. 같은 h5라도 median이 크면 상위 논문의 영향력이 더 큰 것.</p>
+        <p class="mf-x"><b>왜 median이 "핵심 논문 피인용 깊이"로 해석되나</b> — 정의를 그대로 풀면 나옵니다.</p>
+        <ul class="mlist">
+          <li><b>① h5-index = h</b>: 최근 5년 논문 중 "h회 이상 인용된 논문이 h편"인 최대 h. <span class="mono">예: NeurIPS h5=337 → 337회 이상 인용된 논문이 337편.</span></li>
+          <li><b>② h5-core = 그 상위 h편</b> = 그 학회의 <b>핵심 논문</b> 집합. median은 <b>이 집합만</b> 대상으로 하고, 적게 인용된 꼬리 논문은 계산에서 빠집니다.</li>
+          <li><b>③ h5-median = 그 핵심 논문들의 피인용 <b>중앙값</b></b>. <span class="mono">예: NeurIPS median=570 → 핵심 337편을 인용순으로 줄 세웠을 때 가운데 논문이 570회.</span> 즉 "핵심 논문의 전형적 인용 강도" = <b>깊이</b>.</li>
+          <li><b>중앙값이라 견고함.</b> 평균이 아니라 median이므로 "Attention is all you need" 같은 <b>소수 초대박 논문에 휘둘리지 않습니다</b>. 그래서 "깊이"라는 표현이 평균보다 오해가 적습니다.</li>
+          <li><b>같은 폭이라도 깊이로 갈림.</b> <span class="mono">ICLR(h5=304·median=584)</span>은 <span class="mono">ICML(h5=268·median=468)</span>보다 핵심 논문 <b>수도 조금 많고</b> 핵심 논문당 <b>인용 깊이도 더 깊어</b> 우상단에 놓입니다.</li>
+        </ul>
       </div>
 
       <div class="section-head" style="margin:26px 0 8px"><h2>AI 학회 2D 축 <span class="mh-sub mono">h5-index × h5-median</span></h2></div>
