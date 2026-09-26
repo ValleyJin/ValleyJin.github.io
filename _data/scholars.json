@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25",
+  "generated": "2026-09-26",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -56,7 +56,7 @@
           "year": "2022",
           "venue": "Knowledge-Based Systems 248 (19), 108907, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Vztgr1qGG8IC",
-          "cites": 128,
+          "cites": 126,
           "q": "Q1",
           "sjr": 1.75,
           "qcat": "Artificial Intelligence"
@@ -345,7 +345,7 @@
           "year": "2025",
           "venue": "Technological Forecasting and Social Change 213, 124022, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:j2GSQqY3pL0C",
-          "cites": 18,
+          "cites": 19,
           "q": "Q1",
           "sjr": 3.48,
           "qcat": "Applied Psychology"
@@ -503,6 +503,17 @@
           "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
+          "title": "Why skewed distributions of pay for executives is the cause of much grief: Puzzles and few answers (so far)",
+          "authors": "B Kogut, JS Yang",
+          "year": "2012",
+          "venue": "Networks in Social Policy Problems, 124-142, 2012",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:L_l9e5I586QC",
+          "cites": 12,
+          "q": "Q1",
+          "sjr": 0.78,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
           "title": "Finding the right balance: The impact of individual autonomy on balancing exploration and exploitation",
           "authors": "M Choi, J Kim, JS Yang",
           "year": "2025",
@@ -512,17 +523,6 @@
           "q": "Q1",
           "sjr": 3.5,
           "qcat": "Business and International Management"
-        },
-        {
-          "title": "Why skewed distributions of pay for executives is the cause of much grief: Puzzles and few answers (so far)",
-          "authors": "B Kogut, JS Yang",
-          "year": "2012",
-          "venue": "Networks in Social Policy Problems, 124-142, 2012",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:L_l9e5I586QC",
-          "cites": 11,
-          "q": "Q1",
-          "sjr": 0.78,
-          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Machine learning modeling to forecast uncertainty between capital sudden stop and boom",
@@ -1277,7 +1277,7 @@
           "year": "2025",
           "venue": "Technological Forecasting and Social Change 213, 124022, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:j2GSQqY3pL0C",
-          "cites": 18,
+          "cites": 19,
           "q": "Q1",
           "sjr": 3.48,
           "qcat": "Applied Psychology"
@@ -1535,7 +1535,7 @@
           "year": "2022",
           "venue": "Knowledge-Based Systems 248 (19), 108907, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:Vztgr1qGG8IC",
-          "cites": 128,
+          "cites": 126,
           "q": "Q1",
           "sjr": 1.75,
           "qcat": "Artificial Intelligence"
@@ -2320,6 +2320,17 @@
           "qcat": "Computer Networks and Communications"
         },
         {
+          "title": "Preparation of CoMo/Al2O3, CoMo/CeO2, CoMo/TiO2 catalysts using ultrasonic spray pyrolysis for the hydro-desulfurization of 4, 6-dimethyldibenzothiophene for fuel cell applications",
+          "authors": "HK Kim, CW Lee, M Kim, JH Oh, SA Song, SC Jang, CW Yoon, J Han, ...",
+          "year": "2016",
+          "venue": "International Journal of Hydrogen Energy 41 (41), 18846-18857, 2016",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QsaTk4IG4EwC",
+          "cites": 24,
+          "q": "Q1",
+          "sjr": 1.66,
+          "qcat": "Condensed Matter Physics"
+        },
+        {
           "title": "MRPrimerW: a tool for rapid design of valid high-quality primers for multiple target qPCR experiments",
           "authors": "H Kim, NN Kang, KH An, JH Koo, MS Kim",
           "year": "2016",
@@ -2338,17 +2349,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
           "cites": 23,
           "nr": "na"
-        },
-        {
-          "title": "Preparation of CoMo/Al2O3, CoMo/CeO2, CoMo/TiO2 catalysts using ultrasonic spray pyrolysis for the hydro-desulfurization of 4, 6-dimethyldibenzothiophene for fuel cell applications",
-          "authors": "HK Kim, CW Lee, M Kim, JH Oh, SA Song, SC Jang, CW Yoon, J Han, ...",
-          "year": "2016",
-          "venue": "International Journal of Hydrogen Energy 41 (41), 18846-18857, 2016",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QsaTk4IG4EwC",
-          "cites": 23,
-          "q": "Q1",
-          "sjr": 1.66,
-          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Multiplication-based method for stitching results of predicate evaluation in column stores",
@@ -2451,6 +2451,15 @@
           "nr": "na"
         },
         {
+          "title": "Improving discrete diffusion unmasking policies beyond explicit reference policies",
+          "authors": "C Hong, S An, MS Kim, JC Ye",
+          "year": "2026",
+          "venue": "International Conference on Learning Representations 2026, 108226-108260, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:tz746QTLzJkC",
+          "cites": 19,
+          "crank": "A*"
+        },
+        {
           "title": "Comparative analyses of influenza virus receptor distribution in the human and mouse brains",
           "authors": "M Kim, JE Yu, JH Lee, BJ Chang, CS Song, B Lee, DJ Paik, SS Nahm",
           "year": "2013",
@@ -2480,15 +2489,6 @@
           "q": "Q4",
           "sjr": 0.18,
           "qcat": "Automotive Engineering"
-        },
-        {
-          "title": "Improving discrete diffusion unmasking policies beyond explicit reference policies",
-          "authors": "C Hong, S An, MS Kim, JC Ye",
-          "year": "2026",
-          "venue": "International Conference on Learning Representations 2026, 108226-108260, 2026",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:tz746QTLzJkC",
-          "cites": 18,
-          "crank": "A*"
         },
         {
           "title": "Evaluation of temperature effects on brake wear particles using clustered heatmaps",
@@ -4616,7 +4616,7 @@
           "year": "2026",
           "venue": "International Conference on Learning Representations 2026, 108226-108260, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:tz746QTLzJkC",
-          "cites": 18,
+          "cites": 19,
           "crank": "A*"
         },
         {
@@ -4940,7 +4940,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13186,
+          "cites": 13266,
           "nr": "na"
         },
         {
@@ -4949,7 +4949,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8323,
+          "cites": 8369,
           "crank": "A*"
         },
         {
@@ -4958,7 +4958,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 753,
+          "cites": 762,
           "nr": "na"
         },
         {
@@ -4967,7 +4967,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 662,
+          "cites": 663,
           "crank": "A*"
         },
         {
@@ -5005,7 +5005,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 306,
+          "cites": 308,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5051,6 +5051,15 @@
           "crank": "A*"
         },
         {
+          "title": "Creating General User Models from Computer Use",
+          "authors": "O Shaikh, S Sapkota, S Rizvi, E Horvitz, JS Park, D Yang, MS Bernstein",
+          "year": "2025",
+          "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
+          "cites": 89,
+          "crank": "A*"
+        },
+        {
           "title": "Mixed Abilities and Varied Experiences: A Group Autoethnography of a Virtual Summer Internship",
           "authors": "K Mack, M Das, D Jain, D Bragg, J Tang, A Begel, E Beneteau, JU Davis, ...",
           "year": "2023",
@@ -5060,15 +5069,6 @@
           "q": "Q1",
           "sjr": 1.54,
           "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Creating General User Models from Computer Use",
-          "authors": "O Shaikh, S Sapkota, S Rizvi, E Horvitz, JS Park, D Yang, MS Bernstein",
-          "year": "2025",
-          "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 88,
-          "crank": "A*"
         },
         {
           "title": "Emotional Amplification During Live-Streaming: Evidence from Comments During and After News Events",
@@ -5122,6 +5122,15 @@
           "qcat": "Computer Networks and Communications"
         },
         {
+          "title": "Finetuning LLMs for Human Behavior Prediction in Social Science Experiments",
+          "authors": "A Kolluri, S Wu, JS Park, MS Bernstein",
+          "year": "2025",
+          "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
+          "cites": 48,
+          "crank": "A*"
+        },
+        {
           "title": "Shaping the Emerging Norms of Using Large Language Models in Social Computing Research",
           "authors": "H Shen, T Li, TJJ Li, JS Park, D Yang",
           "year": "2023",
@@ -5129,15 +5138,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
           "cites": 48,
           "nr": "na"
-        },
-        {
-          "title": "Finetuning LLMs for Human Behavior Prediction in Social Science Experiments",
-          "authors": "A Kolluri, S Wu, JS Park, MS Bernstein",
-          "year": "2025",
-          "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 46,
-          "crank": "A*"
         },
         {
           "title": "Human Subjects Research in the Age of Generative AI: Opportunities and Challenges of Applying LLM-Simulated Data to HCI Studies",
@@ -5230,7 +5230,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 46,
+          "cites": 48,
           "crank": "A*"
         },
         {
@@ -5239,7 +5239,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 88,
+          "cites": 89,
           "crank": "A*"
         },
         {
@@ -5275,7 +5275,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 753,
+          "cites": 762,
           "nr": "na"
         },
         {
@@ -5311,7 +5311,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8323,
+          "cites": 8369,
           "crank": "A*"
         },
         {
@@ -5373,7 +5373,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 662,
+          "cites": 663,
           "crank": "A*"
         },
         {
@@ -5411,7 +5411,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 306,
+          "cites": 308,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5422,7 +5422,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13186,
+          "cites": 13266,
           "nr": "na"
         },
         {
