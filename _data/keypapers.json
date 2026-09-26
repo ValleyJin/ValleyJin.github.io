@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25",
+  "generated": "2026-09-26",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -140,9 +140,9 @@
       "citing": [
         {
           "title": "From Static Personal Values to Contextualized Personalization: Bayesian Personalized Value Alignment for LLMs",
-          "authors": "",
+          "authors": "H Guo, A Song, J Yao, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.28942",
           "cites": 0,
           "pubdate": "2026-09-24",
@@ -154,7 +154,7 @@
         },
         {
           "title": "Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents",
-          "authors": "",
+          "authors": "Z Zhang, L Liu, Q Chai, et al.",
           "year": 2026,
           "venue": "arXiv",
           "url": "https://arxiv.org/abs/2609.28609",
@@ -177,20 +177,6 @@
           "arxiv": "2609.23466",
           "doi": null,
           "cited_key": "2512.06688",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Do Personality-Tuned LLMs Make Better Social Agents?",
-          "authors": "T Krabbe, X Shi",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.21857",
-          "cites": 0,
-          "pubdate": "2026-09-18",
-          "arxiv": "2609.21857",
-          "doi": null,
-          "cited_key": "2509.10127",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -507,20 +493,6 @@
           "nr": "na"
         },
         {
-          "title": "Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories",
-          "authors": "H Wang, Y Zhou, B Du, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.19621",
-          "cites": 0,
-          "pubdate": "2026-08-20",
-          "arxiv": "2608.19621",
-          "doi": null,
-          "cited_key": "2509.10127",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
           "title": "Total Recall at What Cost? Benchmarking the Serving Cost of Agentic Memory Systems",
           "authors": "N Pollertlam, W Kornsuwannawit",
           "year": 2026,
@@ -590,20 +562,6 @@
           "arxiv": "2608.08212",
           "doi": null,
           "cited_key": "2506.19823",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Mind the Gaps: Mixture-of-Minds for Human Simulation",
-          "authors": "P Dahiya",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2608.06115",
-          "cites": 0,
-          "pubdate": "2026-08-06",
-          "arxiv": "2608.06115",
-          "doi": null,
-          "cited_key": "2509.10127",
           "first_seen": "2026-09-25",
           "nr": "na"
         },
@@ -704,9 +662,51 @@
           "cited_key": "2407.17387",
           "first_seen": "2026-09-25",
           "nr": "na"
+        },
+        {
+          "title": "Co-design of LLM-based preference agents: participation may drive overtrust",
+          "authors": "M Fell",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2607.21757",
+          "cites": 0,
+          "pubdate": "2026-07-23",
+          "arxiv": "2607.21757",
+          "doi": "10.48550/arxiv.2607.21757",
+          "cited_key": "2503.15463",
+          "first_seen": "2026-09-26",
+          "nr": "na"
+        },
+        {
+          "title": "Rushes: A Human Preference Dataset for Pluralistic Alignment",
+          "authors": "M Xu, J Leandro, S Rao, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2607.20767",
+          "cites": 0,
+          "pubdate": "2026-07-22",
+          "arxiv": "2607.20767",
+          "doi": "10.48550/arxiv.2607.20767",
+          "cited_key": "2407.17387",
+          "first_seen": "2026-09-26",
+          "nr": "na"
+        },
+        {
+          "title": "Elicitation without Backpropagation: Steering Model Behavior by Optimizing the Latent Posterior",
+          "authors": "G Baker, V Pathak, D Murfet, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2607.18804",
+          "cites": 0,
+          "pubdate": "2026-07-21",
+          "arxiv": "2607.18804",
+          "doi": "10.48550/arxiv.2607.18804",
+          "cited_key": "2506.19823",
+          "first_seen": "2026-09-26",
+          "nr": "na"
         }
       ],
-      "n_citing": 348,
+      "n_citing": 323,
       "query": "persona generation"
     },
     "gABM": {
@@ -1225,9 +1225,26 @@
           "pubdate": "2026-08-26",
           "arxiv": "2608.26221",
           "doi": null,
-          "cited_key": "2307.04986",
+          "cited_key": "2309.11456",
           "first_seen": "2026-09-25",
           "nr": "na"
+        },
+        {
+          "title": "Simulating team dynamics with generative agents: a case study on data science teams from digital platforms",
+          "authors": "L Li, H Yu, M Kunc",
+          "year": 2026,
+          "venue": "Annals of Operations Research",
+          "url": "https://doi.org/10.1007/s10479-026-07398-1",
+          "cites": 0,
+          "pubdate": "2026-08-25",
+          "arxiv": null,
+          "doi": "10.1007/s10479-026-07398-1",
+          "cited_key": "2309.11456",
+          "first_seen": "2026-09-26",
+          "fwci": 0.0,
+          "q": "Q1",
+          "sjr": 1.17,
+          "qcat": "Decision Sciences (miscellaneous)"
         },
         {
           "title": "Predicting the scale limits of social mechanisms in agent societies",
@@ -1315,6 +1332,23 @@
           "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
+        },
+        {
+          "title": "Measuring human behavior through controlled perturbations: a framework for reconstructing behavioral systems",
+          "authors": "P Cipresso",
+          "year": 2026,
+          "venue": "Frontiers in Psychology",
+          "url": "https://doi.org/10.3389/fpsyg.2026.1833113",
+          "cites": 0,
+          "pubdate": "2026-08-10",
+          "arxiv": null,
+          "doi": "10.3389/fpsyg.2026.1833113",
+          "cited_key": "2309.11456",
+          "first_seen": "2026-09-26",
+          "fwci": 0.0,
+          "q": "Q1",
+          "sjr": 0.94,
+          "qcat": "Psychology (miscellaneous)"
         },
         {
           "title": "Generative AI in Healthcare: Temporal Data Analysis and Sequential Decision-Making",
@@ -1463,6 +1497,23 @@
           "nr": "na"
         },
         {
+          "title": "Conundrums and paradoxes in the pre-death grief experiences of dementia caregivers: A causal loop analysis.",
+          "authors": "Y Ng, J Wang, A Chow",
+          "year": 2026,
+          "venue": "Social Science & Medicine",
+          "url": "https://doi.org/10.1016/j.socscimed.2026.119676",
+          "cites": 0,
+          "pubdate": "2026-08-01",
+          "arxiv": null,
+          "doi": "10.1016/j.socscimed.2026.119676",
+          "cited_key": "2309.11456",
+          "first_seen": "2026-09-26",
+          "fwci": 0.0,
+          "q": "Q1",
+          "sjr": 1.85,
+          "qcat": "Health (social science)"
+        },
+        {
           "title": "How Affect Propagates among LLM Agents: Emergent Emotional Contagion in Crowd Simulation",
           "authors": "F Durupinar",
           "year": 2026,
@@ -1489,51 +1540,9 @@
           "cited_key": "2312.03664",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "pyRMV: Reusable, Cross-model Validation for Computational Science",
-          "authors": "H Dictus, E Subert, A Romani, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.09956",
-          "cites": 0,
-          "pubdate": "2026-07-21",
-          "arxiv": "2608.09956",
-          "doi": null,
-          "cited_key": "2504.03274",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "AI Value Alignment for Evolving Social Norms",
-          "authors": "N Tomasev, M Franklin, S Osindero",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.18506",
-          "cites": 0,
-          "pubdate": "2026-07-20",
-          "arxiv": "2607.18506",
-          "doi": "10.48550/arxiv.2607.18506",
-          "cited_key": "2312.03664",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
-          "authors": "I Itkin",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2608.11215",
-          "cites": 0,
-          "pubdate": "2026-07-19",
-          "arxiv": "2608.11215",
-          "doi": null,
-          "cited_key": "2307.04986",
-          "first_seen": "2026-09-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 419,
+      "n_citing": 470,
       "query": "social simulations"
     }
   }
