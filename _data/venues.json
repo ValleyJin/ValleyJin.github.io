@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-26",
+  "generated": "2026-09-27",
   "venues": {
     "NeurIPS": {
       "name": "Neural Information Processing Systems",
@@ -158,8 +158,8 @@
       "name": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
       "type": "conference",
       "link": "https://iccv.thecvf.com/",
-      "h": 195,
-      "i10": 1437,
+      "h": 197,
+      "i10": 1445,
       "if2": 0,
       "works": 1618,
       "domain": "Physical Sciences",
@@ -229,6 +229,7 @@
         ]
       ],
       "topics3y": [
+        "Global trade and economics",
         "Text and Document Classification Technologies",
         "Spam and Phishing Detection",
         "Machine Learning in Bioinformatics"
@@ -288,7 +289,7 @@
       "link": "https://www.sciencedirect.com/journal/artificial-intelligence",
       "h": 307,
       "if2": 3.8,
-      "works": 4852,
+      "works": 4853,
       "issn": "0004-3702",
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -352,7 +353,7 @@
       "link": "https://www.sciencedirect.com/journal/futures",
       "h": 173,
       "if2": 4.7,
-      "works": 6758,
+      "works": 6759,
       "issn": "0016-3287",
       "domain": "Physical Sciences",
       "field": "Environmental Science",
@@ -424,7 +425,7 @@
       "type": "journal",
       "link": "https://publications.aaahq.org/accounting-review",
       "h": 296,
-      "if2": 5.5,
+      "if2": 5.6,
       "works": 11778,
       "issn": "0001-4826",
       "domain": "Social Sciences",
@@ -1202,7 +1203,7 @@
       "type": "journal",
       "link": "https://link.springer.com/journal/41267",
       "h": 349,
-      "if2": 8.6,
+      "if2": 8.7,
       "works": 3335,
       "issn": "0047-2506",
       "domain": "Social Sciences",
@@ -1390,7 +1391,7 @@
       "name": "Critical Perspectives on Accounting",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/critical-perspectives-on-accounting",
-      "h": 128,
+      "h": 129,
       "if2": 5.9,
       "works": 2402,
       "issn": "1045-2354",
