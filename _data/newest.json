@@ -18824,6 +18824,26 @@
         "crank": "A*"
       },
       {
+        "title": "Reasoning with Latent Structure Refinement for Document-Level Relation Extraction",
+        "authors": "Nan, G., Guo, Z., Sekulic, I., & Lu, W.",
+        "year": 2020,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "url": "https://doi.org/10.18653/v1/2020.acl-main.141",
+        "cites": 330,
+        "topic": "ACL",
+        "crank": "A*"
+      },
+      {
+        "title": "SuperAgent: A Customer Service Chatbot for E-commerce Websites",
+        "authors": "Cui, L., Huang, S., Wei, F., Tan, C., Duan, C., & Zhou, M.",
+        "year": 2017,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "url": "https://doi.org/10.18653/v1/P17-4017",
+        "cites": 323,
+        "topic": "ACL",
+        "crank": "A*"
+      },
+      {
         "title": "LLM in a flash: Efficient Large Language Model Inference with Limited Memory",
         "authors": "Alizadeh-Vahid, K., Mirzadeh, I., Belenko, D., Khatamifard, K., Cho, M., Mundo, C. C. D., et al.",
         "year": 2023,
@@ -18834,42 +18854,22 @@
         "crank": "A*"
       },
       {
+        "title": "Learning Non-Isomorphic Tree Mappings for Machine Translation",
+        "authors": "Eisner, J.",
+        "year": 2003,
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "url": "https://doi.org/10.3115/1075178.1075217",
+        "cites": 288,
+        "topic": "ACL",
+        "crank": "A*"
+      },
+      {
         "title": "Embeddings for Word Sense Disambiguation: An Evaluation Study",
         "authors": "Iacobacci, I., Pilehvar, M. T., & Navigli, R.",
         "year": 2016,
         "venue": "Annual Meeting of the Association for Computational Linguistics",
         "url": "https://doi.org/10.18653/v1/P16-1085",
         "cites": 274,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "SciMON: Scientific Inspiration Machines Optimized for Novelty",
-        "authors": "Wang, Q., Downey, D., Ji, H., & Hope, T.",
-        "year": 2023,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/2024.acl-long.18",
-        "cites": 226,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "Retrieval of the Best Counterargument without Prior Topic Knowledge",
-        "authors": "Wachsmuth, H., Syed, S., & Stein, B.",
-        "year": 2018,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/P18-1023",
-        "cites": 217,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "GLUECoS: An Evaluation Benchmark for Code-Switched NLP",
-        "authors": "Khanuja, S., Dandapat, S., Srinivasan, A., Sitaram, S., & Choudhury, M.",
-        "year": 2020,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/2020.acl-main.329",
-        "cites": 214,
         "topic": "ACL",
         "crank": "A*"
       }
