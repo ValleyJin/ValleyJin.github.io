@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -356,7 +356,7 @@
           "year": "2024",
           "venue": "Structural Change and Economic Dynamics 68, 425-432, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:BCdnXsLIVDwC",
-          "cites": 17,
+          "cites": 18,
           "q": "Q1",
           "sjr": 1.42,
           "qcat": "Economics and Econometrics"
@@ -547,6 +547,15 @@
           "qcat": "Computer Science (miscellaneous)"
         },
         {
+          "title": "An agent-based model of deliberative democracy and polarization",
+          "authors": "B Lee, Y Kim, KM Lee, JS Yang",
+          "year": "2022",
+          "venue": "The Journal of Mathematical Sociology 46 (2), 173-194, 2022",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:ojlX30-wUrgC",
+          "cites": 10,
+          "nr": "na"
+        },
+        {
           "title": "Temporal evolution of the return distribution in the Korean stock market",
           "authors": "S Chae, W Jung, J Yang, H Moon",
           "year": "2006",
@@ -556,15 +565,6 @@
           "q": "Q4",
           "sjr": 0.23,
           "qcat": "Physics and Astronomy (miscellaneous)"
-        },
-        {
-          "title": "An agent-based model of deliberative democracy and polarization",
-          "authors": "B Lee, Y Kim, KM Lee, JS Yang",
-          "year": "2022",
-          "venue": "The Journal of Mathematical Sociology 46 (2), 173-194, 2022",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:ojlX30-wUrgC",
-          "cites": 9,
-          "nr": "na"
         },
         {
           "title": "Two kinds of gravitational forces in transport: An analysis using the gravity model",
@@ -1350,7 +1350,7 @@
           "year": "2024",
           "venue": "Structural Change and Economic Dynamics 68, 425-432, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:BCdnXsLIVDwC",
-          "cites": 17,
+          "cites": 18,
           "q": "Q1",
           "sjr": 1.42,
           "qcat": "Economics and Econometrics"
@@ -1654,6 +1654,17 @@
           "nr": "na"
         },
         {
+          "title": "Generation of nanoparticles from friction between railway brake disks and pads",
+          "authors": "HG Namgung, JB Kim, SH Woo, S Park, M Kim, MS Kim, GN Bae, D Park, ...",
+          "year": "2016",
+          "venue": "Environmental science & technology 50 (7), 3453-3461, 2016",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:43bX7VzcjpAC",
+          "cites": 118,
+          "q": "Q1",
+          "sjr": 3.78,
+          "qcat": "Chemistry (miscellaneous)"
+        },
+        {
           "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
           "authors": "H Lim, MS Kim, Y Cho, J Ahn, S Ahn, JS Nam, J Bae, TG Yun, ID Kim",
           "year": "2024",
@@ -1665,17 +1676,6 @@
           "qcat": "Materials Science (miscellaneous)"
         },
         {
-          "title": "Generation of nanoparticles from friction between railway brake disks and pads",
-          "authors": "HG Namgung, JB Kim, SH Woo, S Park, M Kim, MS Kim, GN Bae, D Park, ...",
-          "year": "2016",
-          "venue": "Environmental science & technology 50 (7), 3453-3461, 2016",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:43bX7VzcjpAC",
-          "cites": 117,
-          "q": "Q1",
-          "sjr": 3.78,
-          "qcat": "Chemistry (miscellaneous)"
-        },
-        {
           "title": "Hydrothermal synthesis of metal nanoparticles using glycerol as a reducing agent",
           "authors": "M Kim, WS Son, KH Ahn, DS Kim, H Lee, YW Lee",
           "year": "2014",
@@ -1683,6 +1683,17 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:NDuN12AVoxsC",
           "cites": 98,
           "nr": "na"
+        },
+        {
+          "title": "Biofilm matrix and artificial mediator for efficient electron transport in CO2 microbial electrosynthesis",
+          "authors": "YE Song, A Mohamed, C Kim, M Kim, S Li, E Sundstrom, H Beyenal, ...",
+          "year": "2022",
+          "venue": "Chemical Engineering Journal 427, 131885, 2022",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ghEM2AJqZyQC",
+          "cites": 95,
+          "q": "Q1",
+          "sjr": 2.26,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Fluorine‐Rich Covalent Organic Framework to Boost Electrochemical Kinetics and Storages of K+ Ions for Potassium‐Ion Battery",
@@ -1694,17 +1705,6 @@
           "q": "Q1",
           "sjr": 7.68,
           "qcat": "Materials Science (miscellaneous)"
-        },
-        {
-          "title": "Biofilm matrix and artificial mediator for efficient electron transport in CO2 microbial electrosynthesis",
-          "authors": "YE Song, A Mohamed, C Kim, M Kim, S Li, E Sundstrom, H Beyenal, ...",
-          "year": "2022",
-          "venue": "Chemical Engineering Journal 427, 131885, 2022",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ghEM2AJqZyQC",
-          "cites": 94,
-          "q": "Q1",
-          "sjr": 2.26,
-          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Development and optimization of a novel oral controlled delivery system for tamsulosin hydrochloride using response surface methodology",
@@ -1873,6 +1873,17 @@
           "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
+          "title": "Bioelectrosynthetic Conversion of CO2 Using Different Redox Mediators: Electron and Carbon Balances in a Bioelectrochemical System",
+          "authors": "S Li, YE Song, J Baek, HS Im, M Sakuntala, M Kim, C Park, B Min, JR Kim",
+          "year": "2020",
+          "venue": "Energies 13 (10), 2572, 2020",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:eAlLMO4JVmQC",
+          "cites": 52,
+          "q": "Q1",
+          "sjr": 0.75,
+          "qcat": "Control and Optimization"
+        },
+        {
           "title": "Elastic wave energy entrapment for reflectionless metasurface",
           "authors": "MS Kim, W Lee, CI Park, JH Oh",
           "year": "2020",
@@ -1893,17 +1904,6 @@
           "q": "Q1",
           "sjr": 1.01,
           "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Bioelectrosynthetic Conversion of CO2 Using Different Redox Mediators: Electron and Carbon Balances in a Bioelectrochemical System",
-          "authors": "S Li, YE Song, J Baek, HS Im, M Sakuntala, M Kim, C Park, B Min, JR Kim",
-          "year": "2020",
-          "venue": "Energies 13 (10), 2572, 2020",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:eAlLMO4JVmQC",
-          "cites": 50,
-          "q": "Q1",
-          "sjr": 0.75,
-          "qcat": "Control and Optimization"
         },
         {
           "title": "Size distribution analysis of airborne wear particles released by subway brake system",
@@ -1977,6 +1977,17 @@
           "qcat": "Information Systems and Management"
         },
         {
+          "title": "The thermo-mechanical behavior of brake discs for high-speed railway vehicles",
+          "authors": "H Hong, M Kim, H Lee, N Jeong, H Moon, E Lee, H Kim, M Suh, J Chung, ...",
+          "year": "2019",
+          "venue": "Journal of Mechanical Science and Technology 33 (4), 1711-1721, 2019",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:7Hz3ACDFbsoC",
+          "cites": 42,
+          "q": "Q2",
+          "sjr": 0.41,
+          "qcat": "Mechanical Engineering"
+        },
+        {
           "title": "Extracapsular spread and FDG PET/CT correlations in oral squamous cell carcinoma",
           "authors": "YH Joo, IR Yoo, KJ Cho, JO Park, IC Nam, MS Kim",
           "year": "2013",
@@ -2006,17 +2017,6 @@
           "q": "Q1",
           "sjr": 0.73,
           "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "The thermo-mechanical behavior of brake discs for high-speed railway vehicles",
-          "authors": "H Hong, M Kim, H Lee, N Jeong, H Moon, E Lee, H Kim, M Suh, J Chung, ...",
-          "year": "2019",
-          "venue": "Journal of Mechanical Science and Technology 33 (4), 1711-1721, 2019",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:7Hz3ACDFbsoC",
-          "cites": 41,
-          "q": "Q2",
-          "sjr": 0.41,
-          "qcat": "Mechanical Engineering"
         },
         {
           "title": "Simultaneous synthesis of biodiesel and zinc oxide nanoparticles using supercritical methanol",
@@ -2287,6 +2287,17 @@
           "qcat": "Health Informatics"
         },
         {
+          "title": "Facing to latency of hyperledger fabric for blockchain-enabled IoT: Modeling and analysis",
+          "authors": "S Lee, M Kim, J Lee, RH Hsu, MS Kim, TQS Quek",
+          "year": "2023",
+          "venue": "IEEE Network 37 (6), 232-239, 2023",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:37UQlXuwjP4C",
+          "cites": 25,
+          "q": "Q1",
+          "sjr": 2.58,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
           "title": "Synthesis of strontium titanate nanoparticles using supercritical water",
           "authors": "M Kim, SA Hong, N Shin, YH Lee, Y Shin",
           "year": "2016",
@@ -2307,17 +2318,6 @@
           "q": "Q2",
           "sjr": 0.64,
           "qcat": "Electrical and Electronic Engineering"
-        },
-        {
-          "title": "Facing to latency of hyperledger fabric for blockchain-enabled IoT: Modeling and analysis",
-          "authors": "S Lee, M Kim, J Lee, RH Hsu, MS Kim, TQS Quek",
-          "year": "2023",
-          "venue": "IEEE Network 37 (6), 232-239, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:37UQlXuwjP4C",
-          "cites": 24,
-          "q": "Q1",
-          "sjr": 2.58,
-          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Preparation of CoMo/Al2O3, CoMo/CeO2, CoMo/TiO2 catalysts using ultrasonic spray pyrolysis for the hydro-desulfurization of 4, 6-dimethyldibenzothiophene for fuel cell applications",
@@ -3870,6 +3870,15 @@
           "crank": "C"
         },
         {
+          "title": "Design of a Heat Release System for Fuel Cell Vehicles",
+          "authors": "SC Kim, MS Park, SH Jung, SH Yoon, MS Kim",
+          "year": "2005",
+          "venue": "한국신재생에너지학회: 학술대회논문집, 545-548, 2005",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:-jrNzM816MMC",
+          "cites": 3,
+          "nr": "na"
+        },
+        {
           "title": "Text summarization using PCA and SVD",
           "authors": "CB Lee, MSOO Kim, JS Baek, HR Park",
           "year": "2003",
@@ -4063,15 +4072,6 @@
           "q": "Q3",
           "sjr": 0.24,
           "qcat": "Artificial Intelligence"
-        },
-        {
-          "title": "Design of a Heat Release System for Fuel Cell Vehicles",
-          "authors": "SC Kim, MS Park, SH Jung, SH Yoon, MS Kim",
-          "year": "2005",
-          "venue": "한국신재생에너지학회: 학술대회논문집, 545-548, 2005",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:-jrNzM816MMC",
-          "cites": 2,
-          "nr": "na"
         },
         {
           "title": "Spatial Clearinghouse Servers for Distributed Environment Using OpenGIS Catalog Interface",
@@ -4940,7 +4940,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13266,
+          "cites": 13284,
           "nr": "na"
         },
         {
@@ -4949,7 +4949,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8369,
+          "cites": 8416,
           "crank": "A*"
         },
         {
@@ -4958,7 +4958,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 762,
+          "cites": 763,
           "nr": "na"
         },
         {
@@ -4967,7 +4967,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 663,
+          "cites": 665,
           "crank": "A*"
         },
         {
@@ -4985,7 +4985,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 354,
+          "cites": 357,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -4996,7 +4996,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 322,
+          "cites": 323,
           "crank": "A*"
         },
         {
@@ -5005,7 +5005,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 308,
+          "cites": 309,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5027,7 +5027,7 @@
           "year": "2019",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 3 (CSCW), 1-15, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:u5HHmVD_uO8C",
-          "cites": 143,
+          "cites": 144,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5038,7 +5038,7 @@
           "year": "2020",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:d1gkVwhDpl0C",
-          "cites": 106,
+          "cites": 108,
           "crank": "A*"
         },
         {
@@ -5076,7 +5076,7 @@
           "year": "2020",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 4 (CSCW1), 1-19, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:qjMakFHDy7sC",
-          "cites": 86,
+          "cites": 87,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5154,7 +5154,7 @@
           "year": "2022",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 6 (CSCW), 1-21, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:hqOjcs7Dif8C",
-          "cites": 21,
+          "cites": 22,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5275,7 +5275,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 762,
+          "cites": 763,
           "nr": "na"
         },
         {
@@ -5293,7 +5293,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 322,
+          "cites": 323,
           "crank": "A*"
         },
         {
@@ -5311,7 +5311,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8369,
+          "cites": 8416,
           "crank": "A*"
         },
         {
@@ -5340,7 +5340,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 354,
+          "cites": 357,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5373,7 +5373,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 663,
+          "cites": 665,
           "crank": "A*"
         },
         {
@@ -5391,7 +5391,7 @@
           "year": "2022",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 6 (CSCW), 1-21, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:hqOjcs7Dif8C",
-          "cites": 21,
+          "cites": 22,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5411,7 +5411,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 308,
+          "cites": 309,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5422,7 +5422,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13266,
+          "cites": 13284,
           "nr": "na"
         },
         {
@@ -5458,7 +5458,7 @@
           "year": "2020",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 4 (CSCW1), 1-19, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:qjMakFHDy7sC",
-          "cites": 86,
+          "cites": 87,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5478,7 +5478,7 @@
           "year": "2020",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:d1gkVwhDpl0C",
-          "cites": 106,
+          "cites": 108,
           "crank": "A*"
         },
         {
@@ -5498,7 +5498,7 @@
           "year": "2019",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 3 (CSCW), 1-15, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:u5HHmVD_uO8C",
-          "cites": 143,
+          "cites": 144,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
