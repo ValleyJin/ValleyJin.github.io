@@ -1,29 +1,29 @@
 {
   "updated": "2026-09-29",
-  "public_repos": 54,
+  "public_repos": 55,
   "followers": 25,
   "total_stars": 12,
-  "contributions": 1705,
+  "contributions": 1714,
   "languages": [
     {
+      "name": "Python",
+      "pct": 22
+    },
+    {
       "name": "TypeScript",
-      "pct": 26
+      "pct": 22
     },
     {
       "name": "CSS",
-      "pct": 23
+      "pct": 20
     },
     {
       "name": "JavaScript",
-      "pct": 17
+      "pct": 15
     },
     {
       "name": "HTML",
-      "pct": 17
-    },
-    {
-      "name": "Python",
-      "pct": 8
+      "pct": 14
     }
   ],
   "recent": [
@@ -33,6 +33,14 @@
       "lang": "HTML",
       "stars": 1,
       "url": "https://github.com/ValleyJin/ValleyJin.github.io",
+      "pushed": "2026-09-29"
+    },
+    {
+      "name": "api-protocol",
+      "desc": "통신 프로토콜 스택 계층별 실습과 API 실습(강의용)",
+      "lang": "Python",
+      "stars": 0,
+      "url": "https://github.com/ValleyJin/api-protocol",
       "pushed": "2026-09-29"
     },
     {
@@ -66,14 +74,6 @@
       "stars": 0,
       "url": "https://github.com/ValleyJin/react_homework",
       "pushed": "2026-04-13"
-    },
-    {
-      "name": "tailwind_shadcn",
-      "desc": "강의용",
-      "lang": "CSS",
-      "stars": 0,
-      "url": "https://github.com/ValleyJin/tailwind_shadcn",
-      "pushed": "2026-04-12"
     }
   ],
   "opensource": [
@@ -126,6 +126,14 @@
       "pushed": "2024-05-03"
     },
     {
+      "name": "api-protocol",
+      "desc": "통신 프로토콜 스택 계층별 실습과 API 실습(강의용)",
+      "lang": "Python",
+      "stars": 0,
+      "url": "https://github.com/ValleyJin/api-protocol",
+      "pushed": "2026-09-29"
+    },
+    {
       "name": "future_of_platform",
       "desc": "Korean study guide on 'Algorithmic systems, human agency and the future of platform research' (Hosseinmardi et al., 2026)",
       "lang": "repo",
@@ -140,14 +148,6 @@
       "stars": 0,
       "url": "https://github.com/ValleyJin/react_homework",
       "pushed": "2026-04-13"
-    },
-    {
-      "name": "tailwind_shadcn",
-      "desc": "강의용",
-      "lang": "CSS",
-      "stars": 0,
-      "url": "https://github.com/ValleyJin/tailwind_shadcn",
-      "pushed": "2026-04-12"
     }
   ]
 }
