@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -108,7 +108,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2509.10127",
-          "cites": 0,
+          "cites": 1,
           "key": true,
           "nr": "na"
         },
@@ -138,6 +138,34 @@
         }
       ],
       "citing": [
+        {
+          "title": "OSPD: On-Policy Self-Distillation for Persona-Consistent Dialogue",
+          "authors": "R Xu, Y Zhang, A Chen, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.34418",
+          "cites": 0,
+          "pubdate": "2026-09-28",
+          "arxiv": "2609.34418",
+          "doi": null,
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "first_seen": "2026-09-29",
+          "nr": "na"
+        },
+        {
+          "title": "How Far Do Persona Effects Generalize in Language Models?",
+          "authors": "Y Zhou, Y Liu, E Ma, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.32758",
+          "cites": 0,
+          "pubdate": "2026-09-26",
+          "arxiv": "2609.32758",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-29",
+          "nr": "na"
+        },
         {
           "title": "From Static Personal Values to Contextualized Personalization: Bayesian Personalized Value Alignment for LLMs",
           "authors": "H Guo, A Song, J Yao, et al.",
@@ -676,37 +704,9 @@
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "Language Shapes Instruction Hierarchy Compliance in Multilingual LLMs",
-          "authors": "J Moon, Y Hwang, K Jung",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.23545",
-          "cites": 0,
-          "pubdate": "2026-07-26",
-          "arxiv": "2607.23545",
-          "doi": "10.48550/arxiv.2607.23545",
-          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
-          "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
-          "title": "A Roadmap to Impactful Pluralistic Alignment Research",
-          "authors": "E Poole-Dayan, J Fisher, A Kasirzadeh, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.22305",
-          "cites": 0,
-          "pubdate": "2026-07-24",
-          "arxiv": "2607.22305",
-          "doi": "10.48550/arxiv.2607.22305",
-          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
-          "first_seen": "2026-09-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 348,
+      "n_citing": 349,
       "query": "persona generation"
     },
     "gABM": {
@@ -836,7 +836,7 @@
           "authors": "Z Xuan, Y Wu, X Xu, et al.",
           "year": 2025,
           "url": "https://arxiv.org/abs/2505.09938",
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2505.09938",
           "cites": 0,
@@ -932,7 +932,7 @@
           "authors": "P Zhao, D Pham, N Vincent",
           "year": 2026,
           "url": "https://arxiv.org/abs/2605.12824",
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2605.12824",
           "cites": 0,
@@ -953,6 +953,20 @@
         }
       ],
       "citing": [
+        {
+          "title": "SCBO: Semantically Coherent Batching and Ordering for LLM-Based Social Surveys",
+          "authors": "Y Li, L Wang, Z Tian, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.35250",
+          "cites": 0,
+          "pubdate": "2026-09-28",
+          "arxiv": "2609.35250",
+          "doi": null,
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "first_seen": "2026-09-29",
+          "nr": "na"
+        },
         {
           "title": "KITE: Scaling Jev Population Experiments with Sparse Flagship Calibration",
           "authors": "H Li",
@@ -1171,20 +1185,6 @@
           "nr": "na"
         },
         {
-          "title": "Probing Perceptual Priors of MLLMs via Gibbs Sampling with Interpretable Generative Controls",
-          "authors": "M Cherep, P Maes, N Singh",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.27727",
-          "cites": 0,
-          "pubdate": "2026-08-27",
-          "arxiv": "2608.27727",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
           "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
           "authors": "X Zeng, Z Xu, B Zhang, et al.",
           "year": 2026,
@@ -1193,6 +1193,20 @@
           "cites": 0,
           "pubdate": "2026-08-27",
           "arxiv": "2608.27260",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-28",
+          "nr": "na"
+        },
+        {
+          "title": "Probing Perceptual Priors of MLLMs via Gibbs Sampling with Interpretable Generative Controls",
+          "authors": "M Cherep, P Maes, N Singh",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2608.27727",
+          "cites": 0,
+          "pubdate": "2026-08-27",
+          "arxiv": "2608.27727",
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
@@ -1526,23 +1540,9 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "Role differentiation as ignition of a collective information engine: Structuration in Agent Populations",
-          "authors": "M Touzel",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2609.05442",
-          "cites": 0,
-          "pubdate": "2026-07-26",
-          "arxiv": "2609.05442",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 470,
+      "n_citing": 471,
       "query": "social simulations"
     }
   }
