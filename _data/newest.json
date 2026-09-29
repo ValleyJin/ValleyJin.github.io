@@ -20366,7 +20366,7 @@
         "year": 2017,
         "venue": "International Conference on Machine Learning",
         "url": "https://arxiv.org/abs/1703.00443",
-        "cites": 1364,
+        "cites": 1365,
         "topic": "ICML",
         "crank": "A*"
       },
@@ -20376,7 +20376,7 @@
         "year": 2009,
         "venue": "International Conference on Machine Learning",
         "url": "https://doi.org/10.1145/1553374.1553516",
-        "cites": 1126,
+        "cites": 1127,
         "topic": "ICML",
         "crank": "A*"
       },
@@ -20418,7 +20418,7 @@
         "year": 2020,
         "venue": "International Conference on Learning Representations",
         "url": "https://arxiv.org/abs/2010.02502",
-        "cites": 13590,
+        "cites": 13599,
         "topic": "ICLR",
         "crank": "A*"
       },
@@ -20654,7 +20654,7 @@
         "year": 2020,
         "venue": "IEEE International Conference on Computer Vision",
         "url": "https://doi.org/10.1109/ICCV48922.2021.00823",
-        "cites": 2538,
+        "cites": 2540,
         "topic": "ICCV",
         "crank": "A*"
       },

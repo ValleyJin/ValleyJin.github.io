@@ -615,7 +615,7 @@
           "crank": "A*"
         }
       ],
-      "count": 13698
+      "count": 13699
     },
     {
       "topic": "ICML",
@@ -746,7 +746,7 @@
           "year": 2024,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
-          "cites": 307,
+          "cites": 308,
           "q": "Q2",
           "sjr": 0.54,
           "qcat": "Computer Science (miscellaneous)"
@@ -859,7 +859,7 @@
           "year": 2025,
           "venue": "Annual Meeting of the Association for Computational Linguistics",
           "url": "https://doi.org/10.48550/arXiv.2503.20290",
-          "cites": 32,
+          "cites": 33,
           "crank": "A*"
         },
         {
@@ -924,7 +924,7 @@
           "crank": "A*"
         }
       ],
-      "count": 8136
+      "count": 8137
     },
     {
       "topic": "ICCV",
@@ -979,7 +979,7 @@
           "year": 2024,
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 101,
+          "cites": 102,
           "q": "Q4",
           "sjr": 0.1,
           "qcat": "Literature and Literary Theory"
