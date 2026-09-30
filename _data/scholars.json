@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -12,7 +12,7 @@
           "year": "2011",
           "venue": "Proceedings of the National Academy of Sciences 108 (1), 18-23, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
-          "cites": 307,
+          "cites": 308,
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
@@ -345,7 +345,7 @@
           "year": "2025",
           "venue": "Technological Forecasting and Social Change 213, 124022, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:j2GSQqY3pL0C",
-          "cites": 19,
+          "cites": 20,
           "q": "Q1",
           "sjr": 3.48,
           "qcat": "Applied Psychology"
@@ -1277,7 +1277,7 @@
           "year": "2025",
           "venue": "Technological Forecasting and Social Change 213, 124022, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:j2GSQqY3pL0C",
-          "cites": 19,
+          "cites": 20,
           "q": "Q1",
           "sjr": 3.48,
           "qcat": "Applied Psychology"
@@ -1937,6 +1937,17 @@
           "crank": "A*"
         },
         {
+          "title": "The cortisol awakening response in amyotrophic lateral sclerosis is blunted and correlates with clinical status and depressive mood",
+          "authors": "B Roozendaal, S Kim, OT Wolf, MS Kim, KK Sung, S Lee",
+          "year": "2012",
+          "venue": "Psychoneuroendocrinology 37 (1), 20-26, 2012",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:EPG8bYD4jVwC",
+          "cites": 46,
+          "q": "Q1",
+          "sjr": 1.33,
+          "qcat": "Endocrine and Autonomic Systems"
+        },
+        {
           "title": "Odysseus: a high-performance ORDBMS tightly-coupled with IR features",
           "authors": "KY Whang, MJ Lee, JG Lee, MS Kim, WS Han",
           "year": "2005",
@@ -1953,17 +1964,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:BrmTIyaxlBUC",
           "cites": 45,
           "nr": "na"
-        },
-        {
-          "title": "The cortisol awakening response in amyotrophic lateral sclerosis is blunted and correlates with clinical status and depressive mood",
-          "authors": "B Roozendaal, S Kim, OT Wolf, MS Kim, KK Sung, S Lee",
-          "year": "2012",
-          "venue": "Psychoneuroendocrinology 37 (1), 20-26, 2012",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:EPG8bYD4jVwC",
-          "cites": 45,
-          "q": "Q1",
-          "sjr": 1.33,
-          "qcat": "Endocrine and Autonomic Systems"
         },
         {
           "title": "Scaling-invariant boundary image matching using time-series matching techniques",
@@ -2276,6 +2276,17 @@
           "nr": "na"
         },
         {
+          "title": "Facing to latency of hyperledger fabric for blockchain-enabled IoT: Modeling and analysis",
+          "authors": "S Lee, M Kim, J Lee, RH Hsu, MS Kim, TQS Quek",
+          "year": "2023",
+          "venue": "IEEE Network 37 (6), 232-239, 2023",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:37UQlXuwjP4C",
+          "cites": 26,
+          "q": "Q1",
+          "sjr": 2.58,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
           "title": "Development and validation of an arterial pressure-based cardiac output algorithm using a convolutional neural network: retrospective study based on prospective registry data",
           "authors": "HL Yang, CW Jung, SM Yang, MS Kim, S Shim, KH Lee, HC Lee",
           "year": "2021",
@@ -2285,17 +2296,6 @@
           "q": "Q1",
           "sjr": 1.21,
           "qcat": "Health Informatics"
-        },
-        {
-          "title": "Facing to latency of hyperledger fabric for blockchain-enabled IoT: Modeling and analysis",
-          "authors": "S Lee, M Kim, J Lee, RH Hsu, MS Kim, TQS Quek",
-          "year": "2023",
-          "venue": "IEEE Network 37 (6), 232-239, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:37UQlXuwjP4C",
-          "cites": 25,
-          "q": "Q1",
-          "sjr": 2.58,
-          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Synthesis of strontium titanate nanoparticles using supercritical water",
@@ -2580,21 +2580,21 @@
           "crank": "A*"
         },
         {
+          "title": "The kinematic factors of physical motions during air pistol shooting",
+          "authors": "MS Kim",
+          "year": "2016",
+          "venue": "Korean Journal of Sport Biomechanics 26 (2), 197-204, 2016",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wLxue7F8ec0C",
+          "cites": 16,
+          "nr": "na"
+        },
+        {
           "title": "Blink: Not Your Father’s Database!",
           "authors": "R Barber, P Bendel, M Czech, O Draese, F Ho, N Hrle, S Idreos, MS Kim, ...",
           "year": "2011",
           "venue": "International Workshop on Business Intelligence for the Real-Time Enterprise …, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:_FxGoFyzp5QC",
           "cites": 16,
-          "nr": "na"
-        },
-        {
-          "title": "The kinematic factors of physical motions during air pistol shooting",
-          "authors": "MS Kim",
-          "year": "2016",
-          "venue": "Korean Journal of Sport Biomechanics 26 (2), 197-204, 2016",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wLxue7F8ec0C",
-          "cites": 15,
           "nr": "na"
         },
         {
@@ -3014,6 +3014,17 @@
           "qcat": "Control and Systems Engineering"
         },
         {
+          "title": "Chimera: A system design of dual storage and traversal-join unified query processing for SQL/PGQ",
+          "authors": "G Lee, J Park, MS Kim",
+          "year": "2024",
+          "venue": "Proceedings of the VLDB Endowment 18 (2), 279-292, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:m4fbC6XIj1kC",
+          "cites": 9,
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
           "title": "GPUTucker: Large-scale GPU-based tucker decomposition using tensor partitioning",
           "authors": "J Lee, D Han, OK Kwon, KW Chon, MS Kim",
           "year": "2024",
@@ -3099,17 +3110,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:7wO8s98CvbsC",
           "cites": 9,
           "nr": "na"
-        },
-        {
-          "title": "Chimera: A system design of dual storage and traversal-join unified query processing for SQL/PGQ",
-          "authors": "G Lee, J Park, MS Kim",
-          "year": "2024",
-          "venue": "Proceedings of the VLDB Endowment 18 (2), 279-292, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:m4fbC6XIj1kC",
-          "cites": 8,
-          "q": "Q1",
-          "sjr": 1.77,
-          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Vision‐Based Branch Road Detection for Intersection Navigation in Unstructured Environment Using Multi‐Task Network",
@@ -4083,6 +4083,15 @@
           "nr": "na"
         },
         {
+          "title": "AkasicDB: Demonstrating Omni RAG with a Unified Vector-Graph-Relational DBMS",
+          "authors": "G Lee, J Park, D Han, MS Kim",
+          "year": "2026",
+          "venue": "Companion of the International Conference on Management of Data, 70-73, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:H7nrzBkawXsC",
+          "cites": 1,
+          "crank": "A*"
+        },
+        {
           "title": "Development and internal validation of a deep learning algorithm for intraoperative arterial pressure-based stroke volume index estimation in children: a single-center …",
           "authors": "HL Yang, YE Jang, CW Jung, HS Kim, EH Kim, SH Ji, MS Kim, HC Lee",
           "year": "2026",
@@ -4358,15 +4367,6 @@
           "nr": "na"
         },
         {
-          "title": "AkasicDB: Demonstrating Omni RAG with a Unified Vector-Graph-Relational DBMS",
-          "authors": "G Lee, J Park, D Han, MS Kim",
-          "year": "2026",
-          "venue": "Companion of the International Conference on Management of Data, 70-73, 2026",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:H7nrzBkawXsC",
-          "cites": 0,
-          "crank": "A*"
-        },
-        {
           "title": "Graph data calculation method and apparatus",
           "authors": "MS Kim, S Oh",
           "year": "2026",
@@ -4598,7 +4598,7 @@
           "year": "2026",
           "venue": "Companion of the International Conference on Management of Data, 70-73, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:H7nrzBkawXsC",
-          "cites": 0,
+          "cites": 1,
           "crank": "A*"
         },
         {
@@ -4904,7 +4904,7 @@
           "year": "2024",
           "venue": "Proceedings of the VLDB Endowment 18 (2), 279-292, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:m4fbC6XIj1kC",
-          "cites": 8,
+          "cites": 9,
           "q": "Q1",
           "sjr": 1.77,
           "qcat": "Computer Science (miscellaneous)"
@@ -4940,7 +4940,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13284,
+          "cites": 13370,
           "nr": "na"
         },
         {
@@ -4949,7 +4949,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8416,
+          "cites": 8450,
           "crank": "A*"
         },
         {
@@ -4958,7 +4958,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 763,
+          "cites": 767,
           "nr": "na"
         },
         {
@@ -4967,7 +4967,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 665,
+          "cites": 667,
           "crank": "A*"
         },
         {
@@ -4985,7 +4985,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 357,
+          "cites": 359,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -4996,7 +4996,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 323,
+          "cites": 325,
           "crank": "A*"
         },
         {
@@ -5005,7 +5005,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 309,
+          "cites": 310,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5047,7 +5047,7 @@
           "year": "2021",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:IjCSPb-OGe4C",
-          "cites": 104,
+          "cites": 105,
           "crank": "A*"
         },
         {
@@ -5056,7 +5056,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 89,
+          "cites": 90,
           "crank": "A*"
         },
         {
@@ -5098,7 +5098,7 @@
           "year": "2021",
           "venue": "Proceedings of the ACM on Fairness, Accountability, and Transparency (FAccT), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:UeHWp8X0CEIC",
-          "cites": 75,
+          "cites": 76,
           "nr": "na"
         },
         {
@@ -5127,7 +5127,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 48,
+          "cites": 49,
           "crank": "A*"
         },
         {
@@ -5230,7 +5230,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 48,
+          "cites": 49,
           "crank": "A*"
         },
         {
@@ -5239,7 +5239,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 89,
+          "cites": 90,
           "crank": "A*"
         },
         {
@@ -5275,7 +5275,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 763,
+          "cites": 767,
           "nr": "na"
         },
         {
@@ -5293,7 +5293,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 323,
+          "cites": 325,
           "crank": "A*"
         },
         {
@@ -5311,7 +5311,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8416,
+          "cites": 8450,
           "crank": "A*"
         },
         {
@@ -5340,7 +5340,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 357,
+          "cites": 359,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5373,7 +5373,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 665,
+          "cites": 667,
           "crank": "A*"
         },
         {
@@ -5411,7 +5411,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 309,
+          "cites": 310,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5422,7 +5422,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13284,
+          "cites": 13370,
           "nr": "na"
         },
         {
@@ -5440,7 +5440,7 @@
           "year": "2021",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:IjCSPb-OGe4C",
-          "cites": 104,
+          "cites": 105,
           "crank": "A*"
         },
         {
@@ -5449,7 +5449,7 @@
           "year": "2021",
           "venue": "Proceedings of the ACM on Fairness, Accountability, and Transparency (FAccT), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:UeHWp8X0CEIC",
-          "cites": 75,
+          "cites": 76,
           "nr": "na"
         },
         {
