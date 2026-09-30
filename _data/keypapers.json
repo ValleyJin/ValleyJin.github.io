@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -139,10 +139,52 @@
       ],
       "citing": [
         {
+          "title": "ATTUNER: Recomputation-Free KV Cache Reuse via Query-Side Adaptation",
+          "authors": "X Chen, J Dong, C Ke, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.36722",
+          "cites": 0,
+          "pubdate": "2026-09-29",
+          "arxiv": "2609.36722",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-30",
+          "nr": "na"
+        },
+        {
+          "title": "The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment",
+          "authors": "G Paulo, L Jaburi, N Belrose, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.37914",
+          "cites": 0,
+          "pubdate": "2026-09-29",
+          "arxiv": "2609.37914",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-30",
+          "nr": "na"
+        },
+        {
+          "title": "Correct, Don't Delete: Mitigating Emergent Misalignment with Corrective Supervision",
+          "authors": "J Epifano",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.37624",
+          "cites": 0,
+          "pubdate": "2026-09-29",
+          "arxiv": "2609.37624",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-09-30",
+          "nr": "na"
+        },
+        {
           "title": "OSPD: On-Policy Self-Distillation for Persona-Consistent Dialogue",
           "authors": "R Xu, Y Zhang, A Chen, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.34418",
           "cites": 0,
           "pubdate": "2026-09-28",
@@ -153,10 +195,24 @@
           "nr": "na"
         },
         {
+          "title": "Unlocking Latent Personalization in LLMs",
+          "authors": "W Chen, G Zhu, Z Cai, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.33182",
+          "cites": 0,
+          "pubdate": "2026-09-27",
+          "arxiv": "2609.33182",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-30",
+          "nr": "na"
+        },
+        {
           "title": "How Far Do Persona Effects Generalize in Language Models?",
           "authors": "Y Zhou, Y Liu, E Ma, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.32758",
           "cites": 0,
           "pubdate": "2026-09-26",
@@ -648,65 +704,9 @@
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
-          "authors": "X Li, Y Hao, J Hou, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.04205",
-          "cites": 0,
-          "pubdate": "2026-08-04",
-          "arxiv": "2608.04205",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
-          "authors": "Z Feng, J Ma, E Chersoni",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.29433",
-          "cites": 0,
-          "pubdate": "2026-07-31",
-          "arxiv": "2607.29433",
-          "doi": "10.48550/arxiv.2607.29433",
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Best Friends, Not Forever: Evaluating Long-Horizon Persona Collapse and Behavioral Drift in AI Companions",
-          "authors": "P Venkit, A Prabhakar, Y Li, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.28818",
-          "cites": 0,
-          "pubdate": "2026-07-30",
-          "arxiv": "2607.28818",
-          "doi": "10.48550/arxiv.2607.28818",
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data",
-          "authors": "L Zeng, G Chen, K Yu, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2607.27056",
-          "cites": 0,
-          "pubdate": "2026-07-29",
-          "arxiv": "2607.27056",
-          "doi": "10.48550/arxiv.2607.27056",
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 349,
+      "n_citing": 354,
       "query": "persona generation"
     },
     "gABM": {
@@ -954,17 +954,31 @@
       ],
       "citing": [
         {
-          "title": "SCBO: Semantically Coherent Batching and Ordering for LLM-Based Social Surveys",
-          "authors": "Y Li, L Wang, Z Tian, et al.",
+          "title": "IMPACT: Modeling Socially Interdependent Movement in a Generative Multi-Agent Simulation of a Pompeian Household",
+          "authors": "T Liu, N Kim, J Sebastien, et al.",
           "year": 2026,
           "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2609.35250",
+          "url": "https://arxiv.org/abs/2609.38113",
+          "cites": 0,
+          "pubdate": "2026-09-29",
+          "arxiv": "2609.38113",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-30",
+          "nr": "na"
+        },
+        {
+          "title": "Illusory Truth or Mere Exposure? Model-Dependent Repetition Effects in LLM-Based Social Media Simulations",
+          "authors": "A Bouleimen, N Pagan, A Hannák",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.36278",
           "cites": 0,
           "pubdate": "2026-09-28",
-          "arxiv": "2609.35250",
+          "arxiv": "2609.36278",
           "doi": null,
-          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
-          "first_seen": "2026-09-29",
+          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
+          "first_seen": "2026-09-30",
           "nr": "na"
         },
         {
@@ -993,6 +1007,20 @@
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
+          "nr": "na"
+        },
+        {
+          "title": "Exploring Causal Mechanisms with Generative Agent-Based Models",
+          "authors": "X Liu, H Shang, T Bhat, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.35819",
+          "cites": 0,
+          "pubdate": "2026-09-21",
+          "arxiv": "2609.35819",
+          "doi": null,
+          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
+          "first_seen": "2026-09-30",
           "nr": "na"
         },
         {
@@ -1028,20 +1056,6 @@
           "nr": "na"
         },
         {
-          "title": "ANIMASK: What the Model Contributes to Role Play in Simulated Story Worlds",
-          "authors": "X Zhang, Z Xu, H Luo, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.16667",
-          "cites": 0,
-          "pubdate": "2026-09-15",
-          "arxiv": "2609.16667",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
           "title": "Verifiable Social Reasoning for LLM Assistants",
           "authors": "A Taubenfeld, Z Gekhman, A Grinstein-Dabush, et al.",
           "year": 2026,
@@ -1050,6 +1064,20 @@
           "cites": 0,
           "pubdate": "2026-09-15",
           "arxiv": "2609.17496",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-28",
+          "nr": "na"
+        },
+        {
+          "title": "ANIMASK: What the Model Contributes to Role Play in Simulated Story Worlds",
+          "authors": "X Zhang, Z Xu, H Luo, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.16667",
+          "cites": 0,
+          "pubdate": "2026-09-15",
+          "arxiv": "2609.16667",
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
@@ -1081,20 +1109,6 @@
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
-          "title": "LLMs for Social Network Modeling: From Network Generation to Dynamic Processes",
-          "authors": "S Mallick, A Thomo, A Saxena",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.08049",
-          "cites": 0,
-          "pubdate": "2026-09-07",
-          "arxiv": "2609.08049",
-          "doi": null,
-          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
-          "first_seen": "2026-09-25",
           "nr": "na"
         },
         {
@@ -1135,7 +1149,7 @@
           "pubdate": "2026-09-01",
           "arxiv": null,
           "doi": "10.1016/j.knosys.2026.116947",
-          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "q": "Q1",
@@ -1239,26 +1253,9 @@
           "pubdate": "2026-08-26",
           "arxiv": "2608.26221",
           "doi": null,
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
+          "cited_key": "Epidemic Modeling with Generative Agents",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "Simulating team dynamics with generative agents: a case study on data science teams from digital platforms",
-          "authors": "L Li, H Yu, M Kunc",
-          "year": 2026,
-          "venue": "Annals of Operations Research",
-          "url": "https://doi.org/10.1007/s10479-026-07398-1",
-          "cites": 0,
-          "pubdate": "2026-08-25",
-          "arxiv": null,
-          "doi": "10.1007/s10479-026-07398-1",
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
-          "first_seen": "2026-09-26",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.17,
-          "qcat": "Decision Sciences (miscellaneous)"
         },
         {
           "title": "Predicting the scale limits of social mechanisms in agent societies",
@@ -1346,23 +1343,6 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "Measuring human behavior through controlled perturbations: a framework for reconstructing behavioral systems",
-          "authors": "P Cipresso",
-          "year": 2026,
-          "venue": "Frontiers in Psychology",
-          "url": "https://doi.org/10.3389/fpsyg.2026.1833113",
-          "cites": 0,
-          "pubdate": "2026-08-10",
-          "arxiv": null,
-          "doi": "10.3389/fpsyg.2026.1833113",
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
-          "first_seen": "2026-09-26",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.94,
-          "qcat": "Psychology (miscellaneous)"
         },
         {
           "title": "Generative AI in Healthcare: Temporal Data Analysis and Sequential Decision-Making",
@@ -1511,23 +1491,6 @@
           "nr": "na"
         },
         {
-          "title": "Conundrums and paradoxes in the pre-death grief experiences of dementia caregivers: A causal loop analysis.",
-          "authors": "Y Ng, J Wang, A Chow",
-          "year": 2026,
-          "venue": "Social Science & Medicine",
-          "url": "https://doi.org/10.1016/j.socscimed.2026.119676",
-          "cites": 0,
-          "pubdate": "2026-08-01",
-          "arxiv": null,
-          "doi": "10.1016/j.socscimed.2026.119676",
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
-          "first_seen": "2026-09-26",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.85,
-          "qcat": "Health (social science)"
-        },
-        {
           "title": "How Affect Propagates among LLM Agents: Emergent Emotional Contagion in Crowd Simulation",
           "authors": "F Durupinar",
           "year": 2026,
@@ -1540,9 +1503,37 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-25",
           "nr": "na"
+        },
+        {
+          "title": "Role differentiation as ignition of a collective information engine: Structuration in Agent Populations",
+          "authors": "M Touzel",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.05442",
+          "cites": 0,
+          "pubdate": "2026-07-26",
+          "arxiv": "2609.05442",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-09-30",
+          "nr": "na"
+        },
+        {
+          "title": "pyRMV: Reusable, Cross-model Validation for Computational Science",
+          "authors": "H Dictus, E Subert, A Romani, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2608.09956",
+          "cites": 0,
+          "pubdate": "2026-07-21",
+          "arxiv": "2608.09956",
+          "doi": null,
+          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
+          "first_seen": "2026-09-30",
+          "nr": "na"
         }
       ],
-      "n_citing": 471,
+      "n_citing": 391,
       "query": "social simulations"
     }
   }
