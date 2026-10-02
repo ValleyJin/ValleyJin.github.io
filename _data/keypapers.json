@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -142,7 +142,7 @@
           "title": "LLM Persona Unlearning",
           "authors": "K Li, Z Shi, Q Wang, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.39882",
           "cites": 0,
           "pubdate": "2026-09-30",
@@ -198,7 +198,7 @@
           "title": "Demographic Pluralism: Inference-Time Modeling of Pluralistic Human Preference Distributions",
           "authors": "M Wu, Q Chen, A Jain, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.38555",
           "cites": 0,
           "pubdate": "2026-09-29",
@@ -290,6 +290,20 @@
           "doi": null,
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
+          "nr": "na"
+        },
+        {
+          "title": "Do Personality-Tuned LLMs Make Better Social Agents?",
+          "authors": "T Krabbe, X Shi",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.21857",
+          "cites": 0,
+          "pubdate": "2026-09-18",
+          "arxiv": "2609.21857",
+          "doi": null,
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "first_seen": "2026-10-02",
           "nr": "na"
         },
         {
@@ -543,7 +557,6 @@
           "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
           "first_seen": "2026-09-28",
           "fwci": 0.0,
-          "pct": 10,
           "q": "Q1",
           "sjr": 2.15,
           "qcat": "Artificial Intelligence"
@@ -602,6 +615,20 @@
           "doi": null,
           "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-28",
+          "nr": "na"
+        },
+        {
+          "title": "Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories",
+          "authors": "H Wang, Y Zhou, B Du, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2608.19621",
+          "cites": 0,
+          "pubdate": "2026-08-20",
+          "arxiv": "2608.19621",
+          "doi": null,
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "first_seen": "2026-10-02",
           "nr": "na"
         },
         {
@@ -676,37 +703,9 @@
           "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
-          "authors": "Y Sun, Y Zhang, R Sheng",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.04570",
-          "cites": 0,
-          "pubdate": "2026-08-05",
-          "arxiv": "2608.04570",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
-          "authors": "X Li, Y Hao, J Hou, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.04205",
-          "cites": 0,
-          "pubdate": "2026-08-04",
-          "arxiv": "2608.04205",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-10-01",
-          "nr": "na"
         }
       ],
-      "n_citing": 331,
+      "n_citing": 356,
       "query": "persona generation"
     },
     "gABM": {
@@ -953,6 +952,34 @@
         }
       ],
       "citing": [
+        {
+          "title": "Auditing Action Settlement in LLM Agent Environments: Order, Progress, and Replay",
+          "authors": "H Chen, B Ye, Y Zhang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01138",
+          "cites": 0,
+          "pubdate": "2026-10-01",
+          "arxiv": "2610.01138",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-02",
+          "nr": "na"
+        },
+        {
+          "title": "NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video",
+          "authors": "Z Meng, Y Sun, M Gao, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01461",
+          "cites": 0,
+          "pubdate": "2026-10-01",
+          "arxiv": "2610.01461",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-02",
+          "nr": "na"
+        },
         {
           "title": "IMPACT: Modeling Socially Interdependent Movement in a Generative Multi-Agent Simulation of a Pompeian Household",
           "authors": "T Liu, N Kim, J Sebastien, et al.",
@@ -1505,40 +1532,9 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "Modeling Social Dynamics with an LLM-Enabled Agent Based Network-Dynamic (LAND) Model",
-          "authors": "L Ng, K Carley",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.00929",
-          "cites": 0,
-          "pubdate": "2026-08-02",
-          "arxiv": "2608.00929",
-          "doi": null,
-          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Digital Life Models and Transformative Choices: Could AI Simulations of Individual Minds (AI SIMs) Help us Make Important Life Decisions More Rationally and Authentically?",
-          "authors": "C Register, S Mann, C Voinea, et al.",
-          "year": 2026,
-          "venue": "Neuroethics",
-          "url": "https://doi.org/10.1007/s12152-026-09662-4",
-          "cites": 0,
-          "pubdate": "2026-08-01",
-          "arxiv": null,
-          "doi": "10.1007/s12152-026-09662-4",
-          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.07,
-          "qcat": "Health Policy"
         }
       ],
-      "n_citing": 475,
+      "n_citing": 477,
       "query": "social simulations"
     }
   }
