@@ -887,7 +887,45 @@
     {
       "topic": "EMNLP",
       "query": "s2:EMNLP",
-      "papers": []
+      "papers": [
+        {
+          "title": "Solving Hard Analogy Questions with Relation Embedding Chains",
+          "authors": "Kumar, N., & Schockaert, S.",
+          "year": 2023,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2310.12379",
+          "cites": 1,
+          "crank": "A*"
+        },
+        {
+          "title": "FaST: Feature-aware Sampling and Tuning for Personalized Preference Alignment with Limited Data",
+          "authors": "Thonet, T., Kruszewski, G., Rozen, J., Erbacher, P., & Dymetman, M.",
+          "year": 2025,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2508.04698",
+          "cites": 6,
+          "crank": "A*"
+        },
+        {
+          "title": "Can LLM be a Personalized Judge?",
+          "authors": "Dong, Y. R., Hu, T., & Collier, N.",
+          "year": 2024,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2406.11657",
+          "cites": 138,
+          "crank": "A*"
+        },
+        {
+          "title": "CRAB: Assessing the Strength of Causal Relationships Between Real-world Events",
+          "authors": "Romanou, A., Montariol, S., Paul, D., Laugier, L., Aberer, K., & Bosselut, A.",
+          "year": 2023,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2311.04284",
+          "cites": 48,
+          "crank": "A*"
+        }
+      ],
+      "count": 8137
     },
     {
       "topic": "ICCV",
@@ -935,7 +973,53 @@
     {
       "topic": "ECCV",
       "query": "s2:ECCV",
-      "papers": []
+      "papers": [
+        {
+          "title": "End-to-End Rate-Distortion Optimized 3D Gaussian Representation",
+          "authors": "Wang, H., Zhu, H., He, T., Feng, R., Deng, J., Bian, J., et al.",
+          "year": 2024,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2406.01597",
+          "cites": 102,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        },
+        {
+          "title": "Asynchronous Large Language Model Enhanced Planner for Autonomous Driving",
+          "authors": "Chen, Y., Ding, Z., Wang, Z., Wang, Y., Zhang, L., & Liu, S.",
+          "year": 2024,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2406.14556",
+          "cites": 61,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        },
+        {
+          "title": "Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation",
+          "authors": "Lai, B., Ryan, F., Jia, W., Liu, M., & Rehg, J. M.",
+          "year": 2023,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2305.03907",
+          "cites": 26,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        },
+        {
+          "title": "Event-Based Motion Magnification",
+          "authors": "Chen, Y., Guo, S., Yu, F., Zhang, F., Gu, J., & Xue, T.",
+          "year": 2024,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2402.11957",
+          "cites": 9,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        }
+      ],
+      "count": 2468
     },
     {
       "topic": "KDD",
