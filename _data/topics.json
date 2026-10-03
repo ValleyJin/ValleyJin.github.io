@@ -1,23 +1,11 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
       "topic": "Deep persona",
       "query": "Deep persona",
       "papers": [
-        {
-          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
-          "authors": "Lee, H., Kim, Y., & Kim, S.",
-          "year": 2024,
-          "venue": "Applied Sciences",
-          "url": "https://doi.org/10.3390/app14031014",
-          "cites": 8,
-          "fwci": 1.82,
-          "q": "Q2",
-          "sjr": 0.56,
-          "qcat": "Computer Science Applications"
-        },
         {
           "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
           "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
@@ -31,32 +19,41 @@
           "qcat": "Computer Networks and Communications"
         },
         {
-          "title": "Personas-based Student Grouping using reinforcement learning and linear programming",
-          "authors": "Ma, S., Luo, Y., & Yang, Y. P.",
-          "year": 2023,
-          "venue": "Knowledge-Based Systems",
-          "url": "https://doi.org/10.1016/j.knosys.2023.111071",
-          "cites": 15,
-          "fwci": 1.8,
-          "q": "Q1",
-          "sjr": 1.75,
-          "qcat": "Artificial Intelligence"
+          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
+          "authors": "Lee, H., Kim, Y., & Kim, S.",
+          "year": 2024,
+          "venue": "Applied Sciences",
+          "url": "https://doi.org/10.3390/app14031014",
+          "cites": 8,
+          "fwci": 1.82,
+          "q": "Q2",
+          "sjr": 0.56,
+          "qcat": "Computer Science Applications"
         },
         {
-          "title": "Chatbot Technology Use and Acceptance Using Educational Personas",
-          "authors": "Almahri, F. A. A. J., Bell, D., & Gulzar, Z.",
-          "year": 2024,
-          "venue": "Informatics",
-          "url": "https://doi.org/10.3390/informatics11020038",
-          "cites": 25,
-          "fwci": 5.33,
-          "pct": 10,
+          "title": "Multi-persona adaptive student group formation via fuzzy clustering and double deep Q-network-assisted integer linear programming",
+          "authors": "Yuan, M., Cui, Y., & Chen, J.",
+          "year": 2026,
+          "venue": "Journal of the Franklin Institute",
+          "url": "https://doi.org/10.1016/j.jfranklin.2026.109037",
+          "cites": 0,
+          "fwci": 0.0,
           "q": "Q1",
-          "sjr": 0.88,
-          "qcat": "Communication"
+          "sjr": 0.81,
+          "qcat": "Applied Mathematics"
+        },
+        {
+          "title": "User Persona Technology: In-Depth Analysis and Development Trends",
+          "authors": "Zhu, Z.",
+          "year": 2026,
+          "venue": "Advances in Engineering Technology Research",
+          "url": "https://doi.org/10.56028/aetr.16.1.670.2026",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
         }
       ],
-      "count": 10489
+      "count": 10650
     },
     {
       "topic": "gABM",
@@ -89,150 +86,86 @@
           "qcat": "Agricultural and Biological Sciences (miscellaneous)"
         },
         {
-          "title": "A survey on large language model based autonomous agents",
-          "authors": "Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., et al.",
+          "title": "Generative Agent-Based Models Powered by Large Language Models",
+          "authors": "Lee, B.",
           "year": 2024,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1680,
-          "fwci": 357.64,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 1.2,
-          "qcat": "Computer Science (miscellaneous)"
+          "venue": "Korean Journal of Sociology",
+          "url": "https://doi.org/10.21562/kjs.2024.11.58.4.151",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
         },
         {
-          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
-          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
+          "title": "Simulating conversations on social media with generative agent-based models",
+          "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
           "year": 2025,
-          "venue": "Engineering Applications of Artificial Intelligence",
-          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
-          "cites": 15,
-          "fwci": 8.1,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 1.78,
-          "qcat": "Artificial Intelligence"
+          "venue": "EPJ Data Science",
+          "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
+          "cites": 3,
+          "fwci": 1.62,
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Computational Mathematics"
         }
       ],
-      "count": 52726
+      "count": 53474
     },
     {
       "topic": "Graph database",
       "query": "Graph database",
       "papers": [
         {
-          "title": "Testing Graph Database Systems via Graph-Aware Metamorphic Relations",
-          "authors": "Zhuang, Z., Li, P., Ma, P., Meng, W., & Wang, S.",
-          "year": 2023,
+          "title": "A logical approach to graph databases",
+          "authors": "Pino, E., Orejas, F., Mylonakis, N., & Pasarella, E.",
+          "year": 2024,
+          "venue": "Journal of Logical and Algebraic Methods in Programming",
+          "url": "https://doi.org/10.1016/j.jlamp.2024.100997",
+          "cites": 0,
+          "fwci": 0.0,
+          "q": "Q3",
+          "sjr": 0.31,
+          "qcat": "Computational Theory and Mathematics"
+        },
+        {
+          "title": "What If: Causal Analysis with Graph Databases",
+          "authors": "Pachera, A., Palmiotto, M., Bonifati, A., & Mauri, A.",
+          "year": 2025,
           "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3636218.3636236",
-          "cites": 22,
-          "fwci": 2.01,
+          "url": "https://doi.org/10.14778/3749646.3749671",
+          "cites": 2,
+          "fwci": 1.81,
           "q": "Q1",
           "sjr": 1.77,
           "qcat": "Computer Science (miscellaneous)"
         },
         {
-          "title": "Real-Time Text-to-Cypher Query Generation with Large Language Models for Graph Databases",
-          "authors": "Hornsteiner, M., Kreussel, M., Steindl, C., Ebner, F., Empl, P., & Schönig, S.",
+          "title": "Graph Databases: Revolutionizing Database Design and Data Analysis",
+          "authors": "Baqal, H. M. A., & Sidiq, M. A.",
           "year": 2024,
-          "venue": "Future Internet",
-          "url": "https://doi.org/10.3390/fi16120438",
-          "cites": 28,
-          "fwci": 4.02,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.84,
-          "qcat": "Computer Networks and Communications"
+          "venue": "Current Journal of Applied Science and Technology",
+          "url": "https://doi.org/10.9734/cjast/2024/v43i114443",
+          "cites": 4,
+          "fwci": 0.58,
+          "nr": "na"
         },
         {
-          "title": "Enhancing fraud detection in banking by integration of graph databases with machine learning",
-          "authors": "Patil, A., Mahajan, S., Menpara, J., Wagle, S. A., Pareek, P., & Kotecha, K. V.",
-          "year": 2024,
-          "venue": "MethodsX",
-          "url": "https://doi.org/10.1016/j.mex.2024.102683",
-          "cites": 19,
-          "fwci": 4.04,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.55,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "SRplot: A free online platform for data visualization and graphing",
-          "authors": "Tang, D., Chen, M., Huang, X., Zhang, G., Zeng, L., Zhang, G., et al.",
-          "year": 2023,
-          "venue": "PLoS ONE",
-          "url": "https://doi.org/10.1371/journal.pone.0294236",
-          "cites": 2604,
-          "fwci": 233.67,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 0.73,
-          "qcat": "Multidisciplinary"
+          "title": "Testing Graph Databases with Synthesized Queries",
+          "authors": "Yin, Z., Liu, S., & Basin, D.",
+          "year": 2025,
+          "venue": "Proceedings of the ACM on Management of Data",
+          "url": "https://doi.org/10.1145/3749186",
+          "cites": 2,
+          "fwci": 0.78,
+          "nr": "na"
         }
       ],
-      "count": 119098
+      "count": 120013
     },
     {
       "topic": "Memory in Agentic AI",
       "query": "Agentic memory systems",
-      "papers": [
-        {
-          "title": "A survey on large language model based autonomous agents",
-          "authors": "Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., et al.",
-          "year": 2024,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-024-40231-1",
-          "cites": 1680,
-          "fwci": 357.64,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 1.2,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Memory-Based Event-Triggered Fault-Tolerant Consensus Control of Nonlinear Multi-Agent Systems and Its Applications",
-          "authors": "Wang, J., Zheng, Y., Ding, J., Zhang, H., & Sun, J.",
-          "year": 2024,
-          "venue": "IEEE Transactions on Automation Science and Engineering",
-          "url": "https://doi.org/10.1109/tase.2024.3474968",
-          "cites": 31,
-          "fwci": 5.83,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 2.12,
-          "qcat": "Control and Systems Engineering"
-        },
-        {
-          "title": "AI Agents vs. Agentic AI: A Conceptual taxonomy, applications and challenges",
-          "authors": "Sapkota, R., Roumeliotis, K. I., & Karkee, M.",
-          "year": 2025,
-          "venue": "Information Fusion",
-          "url": "https://doi.org/10.1016/j.inffus.2025.103599",
-          "cites": 242,
-          "fwci": 219.47,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 4.2,
-          "qcat": "Hardware and Architecture"
-        },
-        {
-          "title": "Empowering biomedical discovery with AI agents",
-          "authors": "Gao, S., Fang, A., Huang, Y., Giunchiglia, V., Noori, A., Schwarz, J. R., et al.",
-          "year": 2024,
-          "venue": "Cell",
-          "url": "https://doi.org/10.1016/j.cell.2024.09.022",
-          "cites": 300,
-          "fwci": 43.64,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 24.59,
-          "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
-        }
-      ],
-      "count": 70255
+      "papers": [],
+      "count": 70955
     },
     {
       "topic": "LLM inference serving",
@@ -244,8 +177,8 @@
           "year": 2024,
           "venue": "IEEE Computer Architecture Letters",
           "url": "https://doi.org/10.1109/lca.2024.3406038",
-          "cites": 41,
-          "fwci": 6.25,
+          "cites": 42,
+          "fwci": 6.49,
           "pct": 10,
           "q": "Q2",
           "sjr": 0.54,
@@ -262,31 +195,32 @@
           "nr": "na"
         },
         {
-          "title": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
-          "authors": "Guo, D., Yang, D., Zhang, H., Song, J., Wang, P., Zhu, Q., et al.",
-          "year": 2025,
-          "venue": "Nature",
-          "url": "https://doi.org/10.1038/s41586-025-09422-z",
-          "cites": 1053,
-          "fwci": 951.88,
-          "pct": 1,
+          "title": "DOPD: A Dynamic PD-Disaggregation Architecture for Maximizing Goodput in LLM Inference Serving",
+          "authors": "Liao, J., Xu, M., Zheng, W., Wang, Y., Ye, K., Buyya, R., et al.",
+          "year": 2026,
+          "venue": "IEEE Transactions on Services Computing",
+          "url": "https://doi.org/10.1109/tsc.2026.3670011",
+          "cites": 1,
+          "fwci": 9.7,
+          "pct": 10,
           "q": "Q1",
-          "sjr": 19.71,
-          "qcat": "Multidisciplinary"
+          "sjr": 1.6,
+          "qcat": "Computer Networks and Communications"
         },
         {
-          "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
-          "authors": "Wilkins, G., Keshav, S., & Mortier, R.",
-          "year": 2024,
-          "venue": "ACM SIGEnergy Energy Informatics Review",
-          "url": "https://doi.org/10.1145/3727200.3727217",
-          "cites": 28,
-          "fwci": 8.24,
-          "pct": 10,
-          "nr": "na"
+          "title": "GoodServe: A SLO-Aware Scheduling Framework for Improving Goodput in LLM Inference Serving",
+          "authors": "Zhao, D., Xian, C., Zong, Z., Jin, Y., Zeng, H., Zhou, J., et al.",
+          "year": 2026,
+          "venue": "IEEE Transactions on Services Computing",
+          "url": "https://doi.org/10.1109/tsc.2026.3732701",
+          "cites": 0,
+          "fwci": 0.0,
+          "q": "Q1",
+          "sjr": 1.6,
+          "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 6224
+      "count": 6328
     },
     {
       "topic": "Ethereum Layer-2",
@@ -306,190 +240,154 @@
           "qcat": "Computer Networks and Communications"
         },
         {
-          "title": "Decentralized IoT Data Authentication with Signature Aggregation",
-          "authors": "Burgos, J. B., & Pustišek, M.",
-          "year": 2024,
-          "venue": "Sensors",
-          "url": "https://doi.org/10.3390/s24031037",
-          "cites": 18,
-          "fwci": 10.79,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.8,
-          "qcat": "Analytical Chemistry"
-        },
-        {
-          "title": "A Survey on Data Availability in Layer 2 Blockchain Rollups: Open Challenges and Future Improvements",
-          "authors": "Saif, M. B., Migliorini, S., & Spoto, F.",
-          "year": 2024,
-          "venue": "Future Internet",
-          "url": "https://doi.org/10.3390/fi16090315",
-          "cites": 34,
-          "fwci": 19.48,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 0.84,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Future Monitors in Optimistic Rollups",
-          "authors": "Margarita, C., Martín, C., & César, S.",
-          "year": 2025,
-          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
-          "url": "https://doi.org/10.4230/oasics.fmbc.2025.5",
-          "cites": 36,
+          "title": "Kajian Literatur: Rollups Sebagai Solusi Skalabilitas Ethereum dari Layer 1 ke Layer 2",
+          "authors": "Kumala, Y. N., Parlika, R., & Maulana, H.",
+          "year": 2026,
+          "venue": "Prosiding Seminar Nasional Informatika Bela Negara",
+          "url": "https://doi.org/10.33005/santika.v6i1.912",
+          "cites": 0,
           "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "A Scalable Layer 2 Off-Chain Protocol for Blockchain Using Ethereum Rollups",
+          "authors": "Unnikrishnan, K. N., & Paul, P. V.",
+          "year": 2026,
+          "venue": "Computing and Informatics",
+          "url": "https://doi.org/10.31577/cai_2026_4_902",
+          "cites": 0,
+          "fwci": 0.0,
+          "q": "Q3",
+          "sjr": 0.29,
+          "qcat": "Computational Theory and Mathematics"
+        },
+        {
+          "title": "Layer 2 Ecosystem of the Ethereum Blockchain",
+          "authors": "Belz, O.",
+          "year": 2024,
+          "venue": "ЕКОНОМІКА І РЕГІОН Науковий вісник",
+          "url": "https://doi.org/10.26906/eir.2024.2(93).3396",
+          "cites": 1,
+          "fwci": 0.59,
           "nr": "na"
         }
       ],
-      "count": 559
+      "count": 565
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
       "query": "zero-knowledge proof",
       "papers": [
         {
-          "title": "Leveraging zero knowledge proofs for blockchain-based identity sharing: A survey of advancements, challenges and opportunities",
-          "authors": "Zhou, L., Diro, A. A., Saini, A., Kaisar, S., & Hiep, P. C.",
-          "year": 2024,
-          "venue": "Journal of Information Security and Applications",
-          "url": "https://doi.org/10.1016/j.jisa.2023.103678",
-          "cites": 183,
-          "fwci": 109.7,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 0.91,
-          "qcat": "Computer Networks and Communications"
+          "title": "Zero-Knowledge Proofs",
+          "authors": "Sedlmeir, J., & Schwalm, S.",
+          "year": 2026,
+          "venue": "Datenschutz und Datensicherheit - DuD",
+          "url": "https://doi.org/10.1007/s11623-026-2201-0",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
         },
         {
-          "title": "zkFL: Zero-Knowledge Proof-Based Gradient Aggregation for Federated Learning",
-          "authors": "Wang, Z., Dong, N., Sun, J., Knottenbelt, W. J., & Guo, Y.",
-          "year": 2024,
-          "venue": "IEEE Transactions on Big Data",
-          "url": "https://doi.org/10.1109/tbdata.2024.3403370",
-          "cites": 52,
-          "fwci": 11.06,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 1.53,
-          "qcat": "Information Systems"
+          "title": "Zero-Knowledge Proofs of Quantumness",
+          "authors": "Phan, D. H., Wen, W., Yan, X., & Zheng, J.",
+          "year": 2025,
+          "venue": "IACR Communications in Cryptology",
+          "url": "https://doi.org/10.62056/ayiv4fe-3",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
         },
         {
-          "title": "Securing Smart Manufacturing by Integrating Anomaly Detection With Zero-Knowledge Proofs",
-          "authors": "Salam, A., Abrar, M., Amin, F., Ullah, F., Khan, I. A., Alkhamees, B. F., et al.",
-          "year": 2024,
-          "venue": "IEEE Access",
-          "url": "https://doi.org/10.1109/access.2024.3373697",
-          "cites": 48,
-          "fwci": 10.22,
-          "pct": 10,
+          "title": "The Power and Potential of Zero-Knowledge Proofs",
+          "authors": "Underwood, S.",
+          "year": 2025,
+          "venue": "Communications of the ACM",
+          "url": "https://doi.org/10.1145/3735505",
+          "cites": 2,
+          "fwci": 1.81,
           "q": "Q1",
-          "sjr": 0.88,
+          "sjr": 1.54,
           "qcat": "Computer Science (miscellaneous)"
         },
         {
-          "title": "A Zero-Knowledge Proof-Enabled Blockchain-Based Academic Record Verification System",
-          "authors": "Moya, J. A. B., Ayoade, J., & Uddin, M. A.",
-          "year": 2025,
-          "venue": "Sensors",
-          "url": "https://doi.org/10.3390/s25113450",
-          "cites": 43,
-          "fwci": 64.52,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 0.8,
-          "qcat": "Analytical Chemistry"
+          "title": "Physical Zero-Knowledge Proof for Sukoro",
+          "authors": "Sasaki, S., & Shinagawa, K.",
+          "year": 2024,
+          "venue": "New Generation Computing",
+          "url": "https://doi.org/10.1007/s00354-024-00271-4",
+          "cites": 6,
+          "fwci": 0.65,
+          "q": "Q2",
+          "sjr": 0.6,
+          "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 42573
+      "count": 43020
     },
     {
       "topic": "Graph neural networks (GNN)",
       "query": "graph neural network",
       "papers": [
         {
-          "title": "Targeted Branching for the Maximum Independent Set Problem Using Graph Neural Networks",
-          "authors": "Gabriel, S., Mário, R., António, T., & Marlene, A.",
-          "year": 2024,
-          "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
-          "url": "https://doi.org/10.4230/lipics.sea.2024.20",
-          "cites": 5353,
-          "fwci": 245.95,
-          "pct": 1,
-          "nr": "na"
-        },
-        {
-          "title": "Spatio-Temporal Graph Neural Networks for Predictive Learning in Urban Computing: A Survey",
-          "authors": "Jin, G., Liang, Y., Fang, Y., Shao, Z., Huang, J., Zhang, J., et al.",
-          "year": 2023,
+          "title": "Graph Neural Networks for Graphs With Heterophily: A Survey",
+          "authors": "Zheng, X., Wang, Y., Liu, Y., Li, M., Zhang, M., Jin, D., et al.",
+          "year": 2026,
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
-          "url": "https://doi.org/10.1109/tkde.2023.3333824",
-          "cites": 545,
-          "fwci": 58.2,
+          "url": "https://doi.org/10.1109/tkde.2026.3680353",
+          "cites": 106,
+          "fwci": 102.32,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.02,
           "qcat": "Computational Theory and Mathematics"
         },
         {
-          "title": "A review of graph neural networks: concepts, architectures, techniques, challenges, datasets, applications, and future directions",
-          "authors": "Khemani, B., Patil, S., Kotecha, K. V., & Tanwar, S.",
+          "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
+          "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
           "year": 2024,
-          "venue": "Journal Of Big Data",
-          "url": "https://doi.org/10.1186/s40537-023-00876-4",
-          "cites": 610,
-          "fwci": 129.93,
+          "venue": "ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3661821",
+          "cites": 262,
+          "fwci": 151.72,
           "pct": 1,
           "q": "Q1",
-          "sjr": 1.96,
-          "qcat": "Computer Networks and Communications"
+          "sjr": 5.99,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
-          "title": "A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection",
-          "authors": "Jin, M., Koh, H. Y., Wen, Q., Zambon, D., Alippi, C., Webb, G. I., et al.",
+          "title": "Survey on Graph Neural Networks",
+          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
           "year": 2024,
-          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-          "url": "https://doi.org/10.1109/tpami.2024.3443141",
-          "cites": 505,
-          "fwci": 93.63,
+          "venue": "IEEE Access",
+          "url": "https://doi.org/10.1109/access.2024.3456913",
+          "cites": 35,
+          "fwci": 7.44,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "A survey of dynamic graph neural networks",
+          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
+          "year": 2024,
+          "venue": "Frontiers of Computer Science",
+          "url": "https://doi.org/10.1007/s11704-024-3853-2",
+          "cites": 139,
+          "fwci": 29.61,
           "pct": 1,
           "q": "Q1",
-          "sjr": 4.83,
-          "qcat": "Applied Mathematics"
+          "sjr": 1.2,
+          "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 197687
+      "count": 201179
     },
     {
       "topic": "Ontology",
       "query": "ontology knowledge representation",
       "papers": [
-        {
-          "title": "Enhancing Learning Personalization in Educational Environments through Ontology-Based Knowledge Representation",
-          "authors": "Villegas-Ch, W. E., & Garcí­a-Ortiz, J.",
-          "year": 2023,
-          "venue": "Computers",
-          "url": "https://doi.org/10.3390/computers12100199",
-          "cites": 36,
-          "fwci": 7.5,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.94,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Recent Trends and Insights in Semantic Web and Ontology-Driven Knowledge Representation Across Disciplines Using Topic Modeling",
-          "authors": "(Nicolaie), G. S., & Oprea, S.",
-          "year": 2025,
-          "venue": "Electronics",
-          "url": "https://doi.org/10.3390/electronics14071313",
-          "cites": 18,
-          "fwci": 15.45,
-          "pct": 1,
-          "q": "Q2",
-          "sjr": 0.62,
-          "qcat": "Computer Networks and Communications"
-        },
         {
           "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
           "authors": "Gribova, V. V., Шалфеева, Е. А., Okun, D. B., & Shevchenko, O. N.",
@@ -501,79 +399,85 @@
           "nr": "na"
         },
         {
-          "title": "The Human Phenotype Ontology in 2024: phenotypes around the world",
-          "authors": "Gargano, M. A., Matentzoglu, N., Coleman, B. D., Addo-Lartey, E. B., Anagnostopoulos, A. V., Anderton, J., et al.",
-          "year": 2023,
-          "venue": "Nucleic Acids Research",
-          "url": "https://doi.org/10.1093/nar/gkad1005",
-          "cites": 423,
-          "fwci": 82.19,
-          "pct": 1,
+          "title": "Ontology and knowledge representation in GIS",
+          "authors": "Amador, B. O., Berardi, R. C. G., & Kozievitch, N. P.",
+          "year": 2025,
+          "venue": "Revista Latinoamericana y del Caribe de la Asociación de Sistemas de Información/Revista Latinoamericana y del Caribe de la Asociación de Sistemas de Información",
+          "url": "https://doi.org/10.17705/1relc.00101",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "An Ontology of Exceptions for Knowledge Representation",
+          "authors": "Sacco, G., Bozzato, L., & Kutz, O.",
+          "year": 2025,
+          "venue": "Applied Ontology",
+          "url": "https://doi.org/10.1177/15705838251389371",
+          "cites": 0,
+          "fwci": 0.0,
           "q": "Q1",
-          "sjr": 8.11,
-          "qcat": "Genetics"
+          "sjr": 0.67,
+          "qcat": "Linguistics and Language"
+        },
+        {
+          "title": "KNOWLEDGE REPRESENTATION USING ONTOLOGY MODELING SYSTEMS",
+          "authors": "Shamsutdinova, T. M.",
+          "year": 2025,
+          "venue": "RUSSIAN ELECTRONIC SCIENTIFIC JOURNAL",
+          "url": "https://doi.org/10.31563/2308-9644-2025-58-4-386-393",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
         }
       ],
-      "count": 25434
+      "count": 25642
     },
     {
       "topic": "AI governance",
       "query": "AI governance",
       "papers": [
         {
-          "title": "AI Governance in a Complex and Rapidly Changing Regulatory Landscape: A Global Perspective",
-          "authors": "Zaidan, E., & Ibrahim, I. A.",
-          "year": 2024,
-          "venue": "Humanities and Social Sciences Communications",
-          "url": "https://doi.org/10.1057/s41599-024-03560-x",
-          "cites": 183,
-          "fwci": 61.59,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 0.9,
-          "qcat": "Arts and Humanities (miscellaneous)"
-        },
-        {
-          "title": "Responsible AI Pattern Catalogue: A Collection of Best Practices for AI Governance and Engineering",
-          "authors": "Lu, Q., Zhu, L., Xu, X., Whittle, J., Zowghi, D., & Jacquet, A.",
-          "year": 2023,
-          "venue": "ACM Computing Surveys",
-          "url": "https://doi.org/10.1145/3626234",
-          "cites": 115,
-          "fwci": 23.05,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 5.99,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
           "title": "Trust, trustworthiness and AI governance",
           "authors": "Lahusen, C., Maggetti, M., & Slavkovik, M.",
           "year": 2024,
           "venue": "Scientific Reports",
           "url": "https://doi.org/10.1038/s41598-024-71761-0",
-          "cites": 61,
-          "fwci": 20.35,
+          "cites": 62,
+          "fwci": 21.47,
           "pct": 1,
           "q": "Q1",
           "sjr": 0.89,
           "qcat": "Multidisciplinary"
         },
         {
-          "title": "The governance of artificial intelligence in Canada: Findings and opportunities from a review of 84 AI governance initiatives",
-          "authors": "Attard-Frost, B., Brandusescu, A., & Lyons, K. A.",
-          "year": 2024,
-          "venue": "Government Information Quarterly",
-          "url": "https://doi.org/10.1016/j.giq.2024.101929",
-          "cites": 86,
-          "fwci": 28.69,
+          "title": "AI Governance in the Context of the EU AI Act",
+          "authors": "Kim, B., Jeong, S., Cho, B., & Chung, J.",
+          "year": 2025,
+          "venue": "IEEE Access",
+          "url": "https://doi.org/10.1109/access.2025.3598023",
+          "cites": 28,
+          "fwci": 202.27,
           "pct": 1,
           "q": "Q1",
-          "sjr": 3.58,
-          "qcat": "E-learning"
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "Engaging patients in AI governance",
+          "authors": "Mello, M. M., Nag, S., Tuttle, C. T., & Char, D. S.",
+          "year": 2026,
+          "venue": "BMJ Digital Health & AI",
+          "url": "https://doi.org/10.1136/bmjdh-2026-000099",
+          "cites": 2,
+          "fwci": 4.88,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.99,
+          "qcat": "Medicine (miscellaneous)"
         }
       ],
-      "count": 109644
+      "count": 114103
     },
     {
       "topic": "NeurIPS",
@@ -747,7 +651,7 @@
           "year": 2024,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
-          "cites": 312,
+          "cites": 313,
           "q": "Q2",
           "sjr": 0.54,
           "qcat": "Computer Science (miscellaneous)"
@@ -882,7 +786,7 @@
           "crank": "A*"
         }
       ],
-      "count": 11921
+      "count": 11920
     },
     {
       "topic": "EMNLP",
@@ -1099,8 +1003,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3367329",
-          "cites": 1009,
-          "fwci": 209.81,
+          "cites": 1010,
+          "fwci": 213.96,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -1112,8 +1016,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3362475",
-          "cites": 921,
-          "fwci": 144.69,
+          "cites": 922,
+          "fwci": 146.63,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -1125,8 +1029,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3435571",
-          "cites": 919,
-          "fwci": 217.85,
+          "cites": 920,
+          "fwci": 219.96,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -1138,15 +1042,15 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3369699",
-          "cites": 909,
-          "fwci": 129.73,
+          "cites": 911,
+          "fwci": 132.11,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 2587
+      "count": 2590
     },
     {
       "topic": "AIJ",
@@ -1205,7 +1109,7 @@
           "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 304
+      "count": 305
     },
     {
       "topic": "JAIR",
@@ -1230,8 +1134,8 @@
           "year": 2024,
           "venue": "Journal of Artificial Intelligence Research",
           "url": "https://doi.org/10.1613/jair.1.15320",
-          "cites": 129,
-          "fwci": 39.37,
+          "cites": 130,
+          "fwci": 41.38,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.11,
@@ -1335,8 +1239,8 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.122903",
-          "cites": 407,
-          "fwci": 73.58,
+          "cites": 408,
+          "fwci": 79.35,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.48,
@@ -1361,8 +1265,8 @@
           "year": 2024,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2024.123428",
-          "cites": 303,
-          "fwci": 160.54,
+          "cites": 304,
+          "fwci": 164.52,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.48,
@@ -1382,7 +1286,7 @@
           "qcat": "Applied Psychology"
         }
       ],
-      "count": 1588
+      "count": 1592
     },
     {
       "topic": "TAR",
@@ -1407,8 +1311,8 @@
           "year": 2025,
           "venue": "The Accounting Review",
           "url": "https://doi.org/10.2308/tar-2022-0703",
-          "cites": 74,
-          "fwci": 104.77,
+          "cites": 75,
+          "fwci": 107.02,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.4,
@@ -1453,8 +1357,8 @@
           "year": 2024,
           "venue": "Journal of Accounting and Economics",
           "url": "https://doi.org/10.1016/j.jacceco.2024.101706",
-          "cites": 174,
-          "fwci": 52.63,
+          "cites": 175,
+          "fwci": 58.06,
           "pct": 1,
           "q": "Q1",
           "sjr": 8.75,
@@ -1512,8 +1416,8 @@
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12548",
-          "cites": 561,
-          "fwci": 348.47,
+          "cites": 562,
+          "fwci": 381.28,
           "pct": 1,
           "q": "Q1",
           "sjr": 9.77,
@@ -1525,8 +1429,8 @@
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12559",
-          "cites": 394,
-          "fwci": 148.92,
+          "cites": 395,
+          "fwci": 150.68,
           "pct": 1,
           "q": "Q1",
           "sjr": 9.77,
@@ -1559,7 +1463,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 153
+      "count": 152
     },
     {
       "topic": "CAR",
@@ -1677,7 +1581,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 174
+      "count": 181
     },
     {
       "topic": "FFS",
@@ -1689,8 +1593,8 @@
           "year": 2023,
           "venue": "Futures & Foresight Science",
           "url": "https://doi.org/10.1002/ffo2.172",
-          "cites": 61,
-          "fwci": 27.68,
+          "cites": 62,
+          "fwci": 29.65,
           "pct": 1,
           "q": "Q1",
           "sjr": 0.74,
@@ -1842,7 +1746,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 697
+      "count": 699
     },
     {
       "topic": "SMJ",
@@ -1881,7 +1785,7 @@
           "venue": "Strategic Management Journal",
           "url": "https://doi.org/10.1002/smj.3580",
           "cites": 81,
-          "fwci": 37.1,
+          "fwci": 40.1,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.15,
@@ -1901,7 +1805,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 287
+      "count": 288
     },
     {
       "topic": "LRP",
@@ -1913,8 +1817,8 @@
           "year": 2024,
           "venue": "Long Range Planning",
           "url": "https://doi.org/10.1016/j.lrp.2024.102415",
-          "cites": 120,
-          "fwci": 57.08,
+          "cites": 121,
+          "fwci": 62.2,
           "pct": 1,
           "q": "Q1",
           "sjr": 2.81,
@@ -1939,8 +1843,8 @@
           "year": 2025,
           "venue": "Long Range Planning",
           "url": "https://doi.org/10.1016/j.lrp.2025.102525",
-          "cites": 51,
-          "fwci": 49.96,
+          "cites": 52,
+          "fwci": 53.52,
           "pct": 1,
           "q": "Q1",
           "sjr": 2.81,
@@ -2078,7 +1982,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 97
+      "count": 99
     },
     {
       "topic": "HumRel",
@@ -2149,8 +2053,8 @@
           "year": 2024,
           "venue": "Academy of Management Review",
           "url": "https://doi.org/10.5465/amr.2021.0421",
-          "cites": 276,
-          "fwci": 104.97,
+          "cites": 277,
+          "fwci": 110.11,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.0,
@@ -2208,21 +2112,8 @@
           "year": 2024,
           "venue": "Journal of Management",
           "url": "https://doi.org/10.1177/01492063241268459",
-          "cites": 433,
-          "fwci": 62.84,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 8.25,
-          "qcat": "Finance"
-        },
-        {
-          "title": "Human-AI Ensembles: When Can They Work?",
-          "authors": "Choudhary, V., Marchetti, A., Shrestha, Y. R., & Puranam, P.",
-          "year": 2023,
-          "venue": "Journal of Management",
-          "url": "https://doi.org/10.1177/01492063231194968",
-          "cites": 197,
-          "fwci": 47.99,
+          "cites": 434,
+          "fwci": 63.11,
           "pct": 1,
           "q": "Q1",
           "sjr": 8.25,
@@ -2249,6 +2140,19 @@
           "url": "https://doi.org/10.1177/01492063241271242",
           "cites": 77,
           "fwci": 29.39,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 8.25,
+          "qcat": "Finance"
+        },
+        {
+          "title": "Discursive Legitimation: An Integrative Theoretical Framework and Agenda for Future Research",
+          "authors": "Vaara, E., Aranda, A. M., & Etchanchu, H.",
+          "year": 2024,
+          "venue": "Journal of Management",
+          "url": "https://doi.org/10.1177/01492063241230511",
+          "cites": 71,
+          "fwci": 44.37,
           "pct": 1,
           "q": "Q1",
           "sjr": 8.25,
@@ -2280,8 +2184,8 @@
           "year": 2024,
           "venue": "Organization Science",
           "url": "https://doi.org/10.1287/orsc.2023.18441",
-          "cites": 182,
-          "fwci": 131.36,
+          "cites": 183,
+          "fwci": 139.95,
           "pct": 1,
           "q": "Q1",
           "sjr": 7.93,
@@ -2293,8 +2197,8 @@
           "year": 2026,
           "venue": "Organization Science",
           "url": "https://doi.org/10.1287/orsc.2025.21838",
-          "cites": 162,
-          "fwci": 1639.46,
+          "cites": 164,
+          "fwci": 1687.9,
           "pct": 1,
           "q": "Q1",
           "sjr": 7.93,
@@ -2314,7 +2218,7 @@
           "qcat": "Management of Technology and Innovation"
         }
       ],
-      "count": 277
+      "count": 275
     },
     {
       "topic": "MgmtSci",
@@ -2326,8 +2230,8 @@
           "year": 2023,
           "venue": "Management Science",
           "url": "https://doi.org/10.1287/mnsc.2023.4952",
-          "cites": 615,
-          "fwci": 178.21,
+          "cites": 616,
+          "fwci": 181.66,
           "pct": 1,
           "q": "Q1",
           "sjr": 6.43,
@@ -2352,8 +2256,8 @@
           "year": 2024,
           "venue": "Management Science",
           "url": "https://doi.org/10.1287/mnsc.2023.03014",
-          "cites": 163,
-          "fwci": 51.86,
+          "cites": 164,
+          "fwci": 53.84,
           "pct": 1,
           "q": "Q1",
           "sjr": 6.43,
@@ -2373,7 +2277,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 1387
+      "count": 1382
     },
     {
       "topic": "JMS",
@@ -2385,8 +2289,8 @@
           "year": 2024,
           "venue": "Journal of Management Studies",
           "url": "https://doi.org/10.1111/joms.13088",
-          "cites": 111,
-          "fwci": 83.8,
+          "cites": 112,
+          "fwci": 89.57,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.18,
@@ -2491,7 +2395,7 @@
           "qcat": "Management of Technology and Innovation"
         }
       ],
-      "count": 225
+      "count": 232
     },
     {
       "topic": "HRM",
@@ -2529,8 +2433,8 @@
           "year": 2024,
           "venue": "Human Resource Management",
           "url": "https://doi.org/10.1002/hrm.22268",
-          "cites": 81,
-          "fwci": 38.15,
+          "cites": 83,
+          "fwci": 42.25,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.6,
@@ -2634,8 +2538,8 @@
           "year": 2025,
           "venue": "Journal of International Business Studies",
           "url": "https://doi.org/10.1057/s41267-024-00767-7",
-          "cites": 91,
-          "fwci": 89.15,
+          "cites": 92,
+          "fwci": 94.68,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.45,
@@ -2647,8 +2551,8 @@
           "year": 2024,
           "venue": "Journal of International Business Studies",
           "url": "https://doi.org/10.1057/s41267-024-00758-8",
-          "cites": 89,
-          "fwci": 34.32,
+          "cites": 90,
+          "fwci": 35.91,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.45,
@@ -2727,7 +2631,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 89
+      "count": 88
     },
     {
       "topic": "AJPT",
@@ -2903,7 +2807,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 139
+      "count": 138
     },
     {
       "topic": "AiE",
@@ -2915,8 +2819,8 @@
           "year": 2024,
           "venue": "Accounting in Europe",
           "url": "https://doi.org/10.1080/17449480.2024.2312145",
-          "cites": 276,
-          "fwci": 105.65,
+          "cites": 277,
+          "fwci": 109.72,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.96,
@@ -2942,7 +2846,7 @@
           "venue": "Accounting in Europe",
           "url": "https://doi.org/10.1080/17449480.2023.2292654",
           "cites": 51,
-          "fwci": 19.83,
+          "fwci": 21.52,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.96,
@@ -2955,7 +2859,7 @@
           "venue": "Accounting in Europe",
           "url": "https://doi.org/10.1080/17449480.2024.2330976",
           "cites": 34,
-          "fwci": 12.98,
+          "fwci": 13.56,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.96,
@@ -3113,6 +3017,19 @@
           "qcat": "Accounting"
         },
         {
+          "title": "Management accounting and artificial intelligence: A comprehensive literature review and recommendations for future research",
+          "authors": "Abbas, K.",
+          "year": 2025,
+          "venue": "The British Accounting Review",
+          "url": "https://doi.org/10.1016/j.bar.2025.101551",
+          "cites": 63,
+          "fwci": 55.93,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.71,
+          "qcat": "Accounting"
+        },
+        {
           "title": "Understanding corporate governance in China",
           "authors": "Jiang, F., & Kim, K. A.",
           "year": 2024,
@@ -3124,22 +3041,9 @@
           "q": "Q1",
           "sjr": 1.71,
           "qcat": "Accounting"
-        },
-        {
-          "title": "Management accounting and artificial intelligence: A comprehensive literature review and recommendations for future research",
-          "authors": "Abbas, K.",
-          "year": 2025,
-          "venue": "The British Accounting Review",
-          "url": "https://doi.org/10.1016/j.bar.2025.101551",
-          "cites": 61,
-          "fwci": 52.72,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 1.71,
-          "qcat": "Accounting"
         }
       ],
-      "count": 349
+      "count": 351
     },
     {
       "topic": "MAR",

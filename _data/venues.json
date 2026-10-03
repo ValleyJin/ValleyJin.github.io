@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "venues": {
     "NeurIPS": {
       "name": "Neural Information Processing Systems",
@@ -229,6 +229,7 @@
         ]
       ],
       "topics3y": [
+        "Global trade and economics",
         "Text and Document Classification Technologies",
         "Spam and Phishing Detection",
         "Machine Learning in Bioinformatics"
@@ -999,8 +1000,8 @@
       "topics3y": [
         "Management and Organizational Studies",
         "Innovation and Knowledge Management",
-        "Corporate Finance and Governance",
-        "Entrepreneurship Studies and Influences"
+        "Entrepreneurship Studies and Influences",
+        "Corporate Finance and Governance"
       ],
       "founded": 1990,
       "about": "Organization Science is a bimonthly peer-reviewed academic journal published by the Institute for Operations Research and the Management Sciences. It covers research on the dynamics of organizations. In 2012, it was one ",
