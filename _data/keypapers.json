@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -956,7 +956,7 @@
           "title": "Auditing Action Settlement in LLM Agent Environments: Order, Progress, and Replay",
           "authors": "H Chen, B Ye, Y Zhang, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.01138",
           "cites": 0,
           "pubdate": "2026-10-01",
@@ -970,7 +970,7 @@
           "title": "NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video",
           "authors": "Z Meng, Y Sun, M Gao, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.01461",
           "cites": 0,
           "pubdate": "2026-10-01",
@@ -1534,8 +1534,8 @@
           "nr": "na"
         }
       ],
-      "n_citing": 477,
-      "query": "social simulations"
+      "n_citing": 475,
+      "query": "agent-based modeling"
     }
   }
 }
