@@ -1,11 +1,59 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
       "topic": "Deep persona",
       "query": "Deep persona",
-      "papers": []
+      "papers": [
+        {
+          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
+          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
+          "year": 2025,
+          "venue": "Computer Networks",
+          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
+          "cites": 2,
+          "fwci": 0.99,
+          "q": "Q1",
+          "sjr": 1.14,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
+          "authors": "Lee, H., Kim, Y., & Kim, S.",
+          "year": 2024,
+          "venue": "Applied Sciences",
+          "url": "https://doi.org/10.3390/app14031014",
+          "cites": 8,
+          "fwci": 1.87,
+          "q": "Q2",
+          "sjr": 0.56,
+          "qcat": "Computer Science Applications"
+        },
+        {
+          "title": "Multi-persona adaptive student group formation via fuzzy clustering and double deep Q-network-assisted integer linear programming",
+          "authors": "Yuan, M., Cui, Y., & Chen, J.",
+          "year": 2026,
+          "venue": "Journal of the Franklin Institute",
+          "url": "https://doi.org/10.1016/j.jfranklin.2026.109037",
+          "cites": 0,
+          "fwci": 0.0,
+          "q": "Q1",
+          "sjr": 0.81,
+          "qcat": "Applied Mathematics"
+        },
+        {
+          "title": "User Persona Technology: In-Depth Analysis and Development Trends",
+          "authors": "Zhu, Z.",
+          "year": 2026,
+          "venue": "Advances in Engineering Technology Research",
+          "url": "https://doi.org/10.56028/aetr.16.1.670.2026",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
+        }
+      ],
+      "count": 10702
     },
     {
       "topic": "gABM",
@@ -60,7 +108,7 @@
           "qcat": "Computational Mathematics"
         }
       ],
-      "count": 53945
+      "count": 53925
     },
     {
       "topic": "Graph database",
@@ -111,13 +159,13 @@
           "nr": "na"
         }
       ],
-      "count": 120507
+      "count": 120428
     },
     {
       "topic": "Memory in Agentic AI",
       "query": "Agentic memory systems",
       "papers": [],
-      "count": 71357
+      "count": 71319
     },
     {
       "topic": "LLM inference serving",
@@ -275,7 +323,7 @@
           "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 43304
+      "count": 43276
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -334,7 +382,7 @@
           "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 201969
+      "count": 201863
     },
     {
       "topic": "Ontology",
@@ -383,12 +431,53 @@
           "nr": "na"
         }
       ],
-      "count": 25771
+      "count": 25752
     },
     {
       "topic": "AI governance",
       "query": "AI governance",
-      "papers": []
+      "papers": [
+        {
+          "title": "Trust, trustworthiness and AI governance",
+          "authors": "Lahusen, C., Maggetti, M., & Slavkovik, M.",
+          "year": 2024,
+          "venue": "Scientific Reports",
+          "url": "https://doi.org/10.1038/s41598-024-71761-0",
+          "cites": 62,
+          "fwci": 21.47,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 0.89,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "AI Governance in the Context of the EU AI Act",
+          "authors": "Kim, B., Jeong, S., Cho, B., & Chung, J.",
+          "year": 2025,
+          "venue": "IEEE Access",
+          "url": "https://doi.org/10.1109/access.2025.3598023",
+          "cites": 30,
+          "fwci": 243.31,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "Engaging patients in AI governance",
+          "authors": "Mello, M. M., Nag, S., Tuttle, C. T., & Char, D. S.",
+          "year": 2026,
+          "venue": "BMJ Digital Health & AI",
+          "url": "https://doi.org/10.1136/bmjdh-2026-000099",
+          "cites": 2,
+          "fwci": 4.88,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.99,
+          "qcat": "Medicine (miscellaneous)"
+        }
+      ],
+      "count": 115236
     },
     {
       "topic": "NeurIPS",
@@ -889,88 +978,197 @@
     },
     {
       "topic": "JMLR",
-      "query": "journal:Journal of Machine Learning Research",
-      "papers": []
-    },
-    {
-      "topic": "TPAMI",
-      "query": "journal:IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "query": "venue:S118988714",
       "papers": [
         {
-          "title": "The Role of AI in Sentiment Analysis for Restaurant Quality Prediction: A Methodological Approach",
-          "authors": "Tiwari, S., Sharma, S., & Singh, A.",
-          "year": 2023,
-          "venue": "International Journal of Innovative Research in Computer and Communication Engineering",
-          "url": "https://doi.org/10.15680/ijircce.2024.1204370",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q3",
-          "sjr": 0.26,
-          "qcat": "Political Science and International Relations"
+          "title": "MEKA: A multi-label/multi-target extension to Weka",
+          "authors": "Read, J.",
+          "year": 2025,
+          "venue": "Aaltodoc (Aalto University)",
+          "url": "https://doi.org/10.57702/tmdwazw3",
+          "cites": 215,
+          "fwci": 0.91,
+          "nr": "na"
         }
       ],
       "count": 1
     },
     {
+      "topic": "TPAMI",
+      "query": "venue:S199944782",
+      "papers": [
+        {
+          "title": "A Comprehensive Survey of Continual Learning: Theory, Method and Application",
+          "authors": "Wang, L., Zhang, X., Su, H., & Zhu, J.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3367329",
+          "cites": 1011,
+          "fwci": 213.93,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        },
+        {
+          "title": "SpectralGPT: Spectral Remote Sensing Foundation Model",
+          "authors": "Hong, D., Zhang, B., Li, X., Li, Y., Li, C., Yao, J. T., et al.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3362475",
+          "cites": 923,
+          "fwci": 146.98,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        },
+        {
+          "title": "Medical Image Segmentation Review: The Success of U-Net",
+          "authors": "Azad, R., Aghdam, E. K., Rauland, A., Jia, Y., Avval, A. H., Bozorgpour, A., et al.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3435571",
+          "cites": 922,
+          "fwci": 220.26,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        },
+        {
+          "title": "Vision-Language Models for Vision Tasks: A Survey",
+          "authors": "Zhang, J., Huang, J., Jin, S., & Lu, S.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "url": "https://doi.org/10.1109/tpami.2024.3369699",
+          "cites": 911,
+          "fwci": 132.11,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
+        }
+      ],
+      "count": 2584
+    },
+    {
       "topic": "AIJ",
-      "query": "journal:Artificial Intelligence",
-      "papers": []
+      "query": "venue:S196139623",
+      "papers": [
+        {
+          "title": "Polarized message-passing in graph neural networks",
+          "authors": "He, T., Liu, Y., Ong, Y., Wu, X., & Luo, X.",
+          "year": 2024,
+          "venue": "Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.artint.2024.104129",
+          "cites": 79,
+          "fwci": 17.12,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.29,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Human-AI coevolution",
+          "authors": "Pedreschi, D., Pappalardo, L., Ferragina, E., Baeza-Yates, R. A., Barabási, A., Dignum, F. P. M., et al.",
+          "year": 2024,
+          "venue": "Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.artint.2024.104244",
+          "cites": 79,
+          "fwci": 63.37,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.29,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Temporal inductive path neural network for temporal knowledge graph reasoning",
+          "authors": "Dong, H., Wang, P., Xiao, M., Ning, Z., Wang, P., & Zhou, Y.",
+          "year": 2024,
+          "venue": "Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.artint.2024.104085",
+          "cites": 72,
+          "fwci": 15.61,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.29,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Exploring the psychology of LLMs’ moral and legal reasoning",
+          "authors": "Almeida, G., Nunes, J. L., Engelmann, N., Wiegmann, A., & Araújo, M. D.",
+          "year": 2024,
+          "venue": "Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.artint.2024.104145",
+          "cites": 71,
+          "fwci": 221.39,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.29,
+          "qcat": "Artificial Intelligence"
+        }
+      ],
+      "count": 304
     },
     {
       "topic": "JAIR",
-      "query": "journal:Journal of Artificial Intelligence Research",
+      "query": "venue:S139930977",
       "papers": [
         {
-          "title": "Artificial intelligence for the analysis of head-upright tilt test data in syncope testing: a scoping review",
-          "authors": "Geest, F. N. V. D., Tannemaat, M. R., Ye, F., Kononova, A. V., & Rossum, I. A. V.",
-          "year": 2025,
-          "venue": "Clinical Neurophysiology",
-          "url": "https://doi.org/10.1016/j.clinph.2025.2110933",
-          "cites": 2,
-          "fwci": 1.8,
+          "title": "Human-in-the-Loop Reinforcement Learning: A Survey and Position on Requirements, Challenges, and Opportunities",
+          "authors": "Retzlaff, C. O., Das, S., Wayllace, C., Mousavi, P., Afshari, M., Yang, T., et al.",
+          "year": 2024,
+          "venue": "Journal of Artificial Intelligence Research",
+          "url": "https://doi.org/10.1613/jair.1.15348",
+          "cites": 157,
+          "fwci": 34.07,
+          "pct": 1,
           "q": "Q1",
-          "sjr": 1.07,
-          "qcat": "Neurology"
+          "sjr": 1.11,
+          "qcat": "Artificial Intelligence"
         },
         {
-          "title": "Artificial intelligence for predicting and preventing adverse pregnancy outcomes addressing bias and clinical translation",
-          "authors": "Bashir, S., Salad, H. A., Abdullahi, Y. B., Abdi, Y. H., Abdi, M. S., Ahmed, N., et al.",
-          "year": 2026,
-          "venue": "Frontiers in Digital Health",
-          "url": "https://doi.org/10.3389/fdgth.2026.1841706",
-          "cites": 2,
-          "fwci": 9.76,
-          "pct": 10,
+          "title": "Decision-Focused Learning: Foundations, State of the Art, Benchmark and Future Opportunities",
+          "authors": "Mandi, J., Kotary, J., Berden, S., Mulamba, M., L., V. B., Guns, T., et al.",
+          "year": 2024,
+          "venue": "Journal of Artificial Intelligence Research",
+          "url": "https://doi.org/10.1613/jair.1.15320",
+          "cites": 131,
+          "fwci": 41.7,
+          "pct": 1,
           "q": "Q1",
-          "sjr": 1.25,
-          "qcat": "Biomedical Engineering"
+          "sjr": 1.11,
+          "qcat": "Artificial Intelligence"
         },
         {
-          "title": "Understanding the Role Of Emotional Intelligence in Agile Teams in Context of Requirement Change Management",
-          "authors": "Ali, R. M., Nazir, S., & Fatima, N.",
+          "title": "Thousands of AI Authors on the Future of AI",
+          "authors": "Grace, K., Sandkühler, J. F., Stewart, H., Weinstein-Raun, B., Thomas, S., Stein-Perlman, Z., et al.",
           "year": 2025,
-          "venue": "International Journal of Innovations in Science and Technology",
-          "url": "https://doi.org/10.33411/ijist/1648",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q3",
-          "sjr": 0.26,
-          "qcat": "Political Science and International Relations"
+          "venue": "Journal of Artificial Intelligence Research",
+          "url": "https://doi.org/10.1613/jair.1.19087",
+          "cites": 77,
+          "fwci": 56.39,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.11,
+          "qcat": "Artificial Intelligence"
         },
         {
-          "title": "The Role of AI in Sentiment Analysis for Restaurant Quality Prediction: A Methodological Approach",
-          "authors": "Tiwari, S., Sharma, S., & Singh, A.",
-          "year": 2023,
-          "venue": "International Journal of Innovative Research in Computer and Communication Engineering",
-          "url": "https://doi.org/10.15680/ijircce.2024.1204370",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q3",
-          "sjr": 0.26,
-          "qcat": "Political Science and International Relations"
+          "title": "Cultural Bias in Explainable AI Research: A Systematic Analysis",
+          "authors": "Peters, U., & Carman, M.",
+          "year": 2024,
+          "venue": "Journal of Artificial Intelligence Research",
+          "url": "https://doi.org/10.1613/jair.1.14888",
+          "cites": 69,
+          "fwci": 14.97,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.11,
+          "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 44
+      "count": 365
     },
     {
       "topic": "Futures",
@@ -1029,7 +1227,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 427
+      "count": 426
     },
     {
       "topic": "TFSC",
@@ -1088,7 +1286,7 @@
           "qcat": "Applied Psychology"
         }
       ],
-      "count": 1592
+      "count": 1589
     },
     {
       "topic": "TAR",
@@ -1548,7 +1746,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 697
+      "count": 696
     },
     {
       "topic": "SMJ",
@@ -1961,7 +2159,7 @@
           "qcat": "Finance"
         }
       ],
-      "count": 285
+      "count": 284
     },
     {
       "topic": "OrgSci",
@@ -2079,7 +2277,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 1376
+      "count": 1375
     },
     {
       "topic": "JMS",
@@ -2727,7 +2925,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 200
+      "count": 199
     },
     {
       "topic": "IJAIS",
@@ -2845,7 +3043,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 351
+      "count": 349
     },
     {
       "topic": "MAR",

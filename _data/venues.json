@@ -1,10 +1,23 @@
 {
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "venues": {
     "NeurIPS": {
       "name": "Neural Information Processing Systems",
       "type": "conference",
       "link": "https://neurips.cc/",
+      "h": 161,
+      "i10": 1642,
+      "if2": 0,
+      "works": 3124,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Domain Adaptation and Few-Shot Learning",
+        "Topic Modeling",
+        "Reinforcement Learning in Robotics",
+        "Advanced Image and Video Retrieval Techniques"
+      ],
       "founded": 1987,
       "about": "The Conference on Neural Information Processing Systems is a machine learning and computational neuroscience conference held annually in December. Along with ICLR and ICML, it is one of the three primary conferences of h",
       "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/500px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -15,6 +28,19 @@
       "name": "International Conference on Machine Learning",
       "type": "conference",
       "link": "https://icml.cc/",
+      "h": 151,
+      "i10": 873,
+      "if2": 0,
+      "works": 1569,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Domain Adaptation and Few-Shot Learning",
+        "Multimodal Machine Learning Applications",
+        "Advanced Bandit Algorithms Research",
+        "Climate variability and models"
+      ],
       "founded": 1980,
       "about": "The International Conference on Machine Learning (ICML) is an international academic conference in machine learning held annually since 1980. It is the oldest and, along with NeurIPS and ICLR, one of the three primary co",
       "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8e/ICML_logo_2026.svg/330px-ICML_logo_2026.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -25,6 +51,19 @@
       "name": "International Conference on Learning Representations",
       "type": "conference",
       "link": "https://iclr.cc/",
+      "h": 79,
+      "i10": 315,
+      "if2": 0,
+      "works": 609,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "topics3y": [
+        "3D Shape Modeling and Analysis",
+        "Adversarial Robustness in Machine Learning",
+        "Explainable Artificial Intelligence (XAI)",
+        "Human Motion and Animation"
+      ],
       "founded": 2013,
       "about": "The International Conference on Learning Representations (ICLR) is a machine learning conference typically held in late April or early May each year. Along with NeurIPS and ICML, it is one of the three primary conference",
       "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5a/International_Conference_on_Learning_Representations.svg/960px-International_Conference_on_Learning_Representations.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -32,18 +71,42 @@
       "group": "AI"
     },
     "CVPR": {
-      "name": "Computer Vision and Pattern Recognition",
+      "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "type": "conference",
       "link": "https://cvpr.thecvf.com/",
+      "h": 561,
+      "i10": 11732,
+      "if2": 21.8,
+      "works": 15488,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
+      "topics3y": [
+        "Advanced Neural Network Applications",
+        "Generative Adversarial Networks and Image Synthesis",
+        "3D Shape Modeling and Analysis",
+        "Multimodal Machine Learning Applications"
+      ],
       "crank": "A*",
       "group": "AI"
     },
     "AAAI": {
-      "name": "AAAI Conference on Artificial Intelligence",
+      "name": "Proceedings of the AAAI Conference on Artificial Intelligence",
       "type": "conference",
       "link": "https://aaai.org/conference/aaai/",
-      "founded": 1980,
-      "about": "The AAAI Conference on Artificial Intelligence is a leading international academic conference in artificial intelligence held annually. It ranks 4th in terms of H5 Index in Google Scholar's list of top AI publications, a",
+      "h": 298,
+      "i10": 9650,
+      "if2": 5.4,
+      "works": 25116,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
+      "topics3y": [
+        "Topic Modeling",
+        "Multimodal Machine Learning Applications",
+        "Domain Adaptation and Few-Shot Learning",
+        "Generative Adversarial Networks and Image Synthesis"
+      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -51,34 +114,81 @@
       "name": "International Joint Conference on Artificial Intelligence",
       "type": "conference",
       "link": "https://www.ijcai.org/",
+      "h": 121,
+      "i10": 1883,
+      "if2": 0.8,
+      "works": 6755,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Domain Adaptation and Few-Shot Learning",
+        "Advanced Neural Network Applications",
+        "Multimodal Machine Learning Applications",
+        "Topic Modeling"
+      ],
       "founded": 1969,
       "about": "The International Joint Conference on Artificial Intelligence (IJCAI) is a conference in the field of artificial intelligence. The conference series has been organized by the nonprofit IJCAI Organization since 1969. It w",
       "crank": "A*",
       "group": "AI"
     },
     "ACL": {
-      "name": "Annual Meeting of the Association for Computational Linguistics",
+      "name": "Annual Meeting of the Association for Computational Linguistics (ACL)",
       "type": "conference",
       "link": "https://www.aclweb.org/",
-      "founded": 1962,
-      "about": "The Association for Computational Linguistics (ACL) is a scientific and professional organization for people working on natural language processing. Its namesake conference is one of the primary high impact conferences f",
-      "wimg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Association_for_Computational_Linguistics_logo.svg/500px-Association_for_Computational_Linguistics_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "h": 299,
+      "i10": 4894,
+      "if2": 3.3,
+      "works": 11994,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Topic Modeling",
+        "Natural Language Processing Techniques",
+        "Multimodal Machine Learning Applications",
+        "Domain Adaptation and Few-Shot Learning"
+      ],
       "crank": "A*",
       "group": "AI"
     },
     "EMNLP": {
-      "name": "Conference on Empirical Methods in Natural Language Processing",
+      "name": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
       "type": "conference",
       "link": "https://aclanthology.org/venues/emnlp/",
+      "h": 250,
+      "i10": 4086,
+      "if2": 4.0,
+      "works": 8812,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Topic Modeling",
+        "Natural Language Processing Techniques",
+        "Multimodal Machine Learning Applications",
+        "Domain Adaptation and Few-Shot Learning"
+      ],
       "crank": "A*",
       "group": "AI"
     },
     "ICCV": {
-      "name": "IEEE International Conference on Computer Vision",
+      "name": "IEEE/CVF International Conference on Computer Vision (ICCV)",
       "type": "conference",
       "link": "https://iccv.thecvf.com/",
-      "founded": 1987,
-      "about": "The International Conference on Computer Vision (ICCV) is a research conference sponsored by the Institute of Electrical and Electronics Engineers (IEEE) held every other year. It is considered to be one of the top confe",
+      "h": 316,
+      "i10": 4216,
+      "if2": 2.6,
+      "works": 7573,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
+      "topics3y": [
+        "Advanced Neural Network Applications",
+        "Generative Adversarial Networks and Image Synthesis",
+        "Multimodal Machine Learning Applications",
+        "3D Shape Modeling and Analysis"
+      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -86,6 +196,13 @@
       "name": "European Conference on Computer Vision",
       "type": "conference",
       "link": "https://eccv.ecva.net/",
+      "h": 6,
+      "i10": 5,
+      "if2": 0,
+      "works": 27,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
       "about": "The European Conference on Computer Vision (ECCV) is a biennial research conference with the proceedings published by Springer Science+Business Media. Similar to ICCV in scope and quality, it is held those years which IC",
       "crank": "A*",
       "group": "AI"
@@ -94,7 +211,164 @@
       "name": "Knowledge Discovery and Data Mining",
       "type": "conference",
       "link": "https://www.kdd.org/",
+      "h": 35,
+      "i10": 88,
+      "if2": 0,
+      "works": 332,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Information Systems",
       "crank": "A*",
+      "group": "AI"
+    },
+    "JMLR": {
+      "name": "Journal of Machine Learning Research",
+      "type": "journal",
+      "link": "https://www.jmlr.org/",
+      "h": 126,
+      "if2": 0,
+      "works": 1297,
+      "issn": "1532-4435",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "sjr": 2.0,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ],
+        [
+          "Control and Systems Engineering",
+          "Q1"
+        ],
+        [
+          "Software",
+          "Q1"
+        ],
+        [
+          "Statistics and Probability",
+          "Q1"
+        ]
+      ],
+      "topics3y": [
+        "Auction Theory and Applications",
+        "Text and Document Classification Technologies",
+        "Spam and Phishing Detection",
+        "Advanced Bandit Algorithms Research"
+      ],
+      "founded": 2000,
+      "about": "The Journal of Machine Learning Research is a peer-reviewed open access scientific journal covering machine learning. It was established in 2000 and the first editor-in-chief was Leslie Kaelbling. The current editors-in-",
+      "group": "AI"
+    },
+    "TPAMI": {
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "type": "journal",
+      "link": "https://www.computer.org/csdl/journal/tp",
+      "h": 564,
+      "if2": 15.0,
+      "works": 12572,
+      "issn": "0162-8828",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
+      "sjr": 4.83,
+      "q": "Q1",
+      "cats": [
+        [
+          "Applied Mathematics",
+          "Q1"
+        ],
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ],
+        [
+          "Computational Theory and Mathematics",
+          "Q1"
+        ],
+        [
+          "Computer Vision and Pattern Recognition",
+          "Q1"
+        ],
+        [
+          "Software",
+          "Q1"
+        ]
+      ],
+      "topics3y": [
+        "Domain Adaptation and Few-Shot Learning",
+        "Advanced Neural Network Applications",
+        "Multimodal Machine Learning Applications",
+        "Advanced Vision and Imaging"
+      ],
+      "founded": 1979,
+      "about": "IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society.",
+      "group": "AI"
+    },
+    "AIJ": {
+      "name": "Artificial Intelligence",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/artificial-intelligence",
+      "h": 307,
+      "if2": 3.8,
+      "works": 4856,
+      "issn": "0004-3702",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "sjr": 1.29,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ],
+        [
+          "Linguistics and Language",
+          "Q1"
+        ]
+      ],
+      "topics3y": [
+        "Logic, Reasoning, and Knowledge",
+        "Reinforcement Learning in Robotics",
+        "Diverse Scientific and Economic Studies",
+        "Human auditory perception and evaluation"
+      ],
+      "founded": 1970,
+      "about": "Artificial Intelligence is a scientific journal covering research in artificial intelligence. It was established in 1970 and is published by Elsevier. The journal is abstracted and indexed in Scopus and the Science Citat",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/c/cb/Artificial_Intelligence_%28journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "AI"
+    },
+    "JAIR": {
+      "name": "Journal of Artificial Intelligence Research",
+      "type": "journal",
+      "link": "https://www.jair.org/",
+      "h": 161,
+      "if2": 4.9,
+      "works": 1879,
+      "issn": "1076-9757",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "sjr": 1.11,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ]
+      ],
+      "topics3y": [
+        "Logic, Reasoning, and Knowledge",
+        "Explainable Artificial Intelligence (XAI)",
+        "Constraint Satisfaction and Optimization",
+        "Topic Modeling"
+      ],
+      "founded": 1993,
+      "about": "The Journal of Artificial Intelligence Research (JAIR) is an open access peer-reviewed scientific journal covering research in all areas of artificial intelligence.",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/6/64/JAIRcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "AI"
     },
     "Futures": {
@@ -123,6 +397,12 @@
           "Sociology and Political Science",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Sustainability and Climate Change Governance",
+        "Climate Change Communication and Perception",
+        "Diverse Scientific and Economic Studies",
+        "Human auditory perception and evaluation"
       ],
       "about": "Futures is a peer-reviewed academic journal covering futures studies. It is published by Elsevier. The editors-in-chief are Patrick van der Duin and Chris Groves.",
       "group": "Futures Studies"
@@ -154,6 +434,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Energy, Environment, Economic Growth",
+        "Innovation and Knowledge Management",
+        "Innovation Diffusion and Forecasting",
+        "Technology Adoption and User Behaviour"
+      ],
       "founded": 1969,
       "about": "Technological Forecasting and Social Change is a peer-reviewed academic journal published by Elsevier covering futures studies, technology assessment, and technology forecasting. Articles focus on methodology and actual ",
       "group": "Futures Studies"
@@ -184,6 +470,12 @@
           "Finance",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Accounting Education and Careers"
       ],
       "founded": 1926,
       "about": "The Accounting Review is a bimonthly peer-reviewed academic journal published by the American Accounting Association (AAA) that covers accounting with a scope encompassing any accounting-related subject and any research ",
@@ -217,6 +509,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Corporate Taxation and Avoidance"
+      ],
       "founded": 1979,
       "about": "The Journal of Accounting and Economics is a peer-reviewed academic journal focusing on the fields of accounting and economics. The editors-in-chief are J. Core, E. deHaan, and W. R. Guay.",
       "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f3/Journal_of_Accounting_and_Economics_%28cover%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -249,6 +547,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Diverse Scientific and Economic Studies",
+        "Human auditory perception and evaluation"
+      ],
       "founded": 1963,
       "about": "The Journal of Accounting Research (JAR) is a leading peer-reviewed academic journal associated with the University of Chicago. It was established in 1963 and is published by Wiley-Blackwell on behalf of the Chookaszian ",
       "group": "Accounting"
@@ -280,6 +584,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Financial Reporting and Valuation Research"
+      ],
       "founded": 1984,
       "about": "Contemporary Accounting Research is a peer-reviewed academic journal covering research on all aspects of accounting's role within organizations, markets, or society. The journal publishes articles in all areas of account",
       "group": "Accounting"
@@ -306,6 +616,12 @@
           "Business, Management and Accounting (miscellaneous)",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Corporate Social Responsibility Reporting"
       ],
       "founded": 1996,
       "about": "The Review of Accounting Studies (RAST) is a quarterly peer-reviewed academic journal covering topics in the field of accounting that includes theoretical, empirical, and experimental research. RAST prioritizes processin",
@@ -339,6 +655,12 @@
           "Q2"
         ]
       ],
+      "topics3y": [
+        "Sustainability and Climate Change Governance",
+        "Complex Systems and Decision Making",
+        "Diverse Scientific and Economic Studies",
+        "Human auditory perception and evaluation"
+      ],
       "about": "Futures & Foresight Science is a quarterly peer-reviewed academic journal published by Wiley. It covers research on advancing methods that aid anticipating the future. The journal was established in 2019 by founding edit",
       "group": "Futures Studies"
     },
@@ -369,6 +691,12 @@
           "Q2"
         ]
       ],
+      "topics3y": [
+        "Space Science and Extraterrestrial Life",
+        "Sustainability and Climate Change Governance",
+        "Complex Systems and Decision Making",
+        "Youth Education and Societal Dynamics"
+      ],
       "group": "Futures Studies"
     },
     "TASM": {
@@ -394,6 +722,12 @@
           "Q2"
         ]
       ],
+      "topics3y": [
+        "Innovation and Knowledge Management",
+        "Energy, Environment, Economic Growth",
+        "Innovation Policy and R&D",
+        "Firm Innovation and Growth"
+      ],
       "group": "Futures Studies"
     },
     "SMJ": {
@@ -418,6 +752,12 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "Entrepreneurship Studies and Influences",
+        "Private Equity and Venture Capital"
       ],
       "about": "The Strategic Management Society (SMS) is a professional organization for the advancement of strategic management. The society consists of more than 3,000 members representing various backgrounds and perspectives from mo",
       "group": "Strategy"
@@ -448,6 +788,12 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "International Business and FDI",
+        "Digital Platforms and Economics"
       ],
       "group": "Strategy"
     },
@@ -481,6 +827,12 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Entrepreneurship Studies and Influences",
+        "Corporate Finance and Governance"
       ],
       "ogimg": "https://www.aom.org/wp-content/uploads/2025/09/amj_featured_image.png",
       "founded": 1958,
@@ -519,6 +871,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "Business Strategy and Innovation"
+      ],
       "founded": 2003,
       "about": "Strategic Organization is a quarterly peer-reviewed academic journal that covers the fields of strategic management and organization studies. Its editors-in-chief are Oliver Alexy, Hans Berends,, Charlotte Cloutier, Davi",
       "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f6/Strategic_Organization.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -555,6 +913,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Job Satisfaction and Organizational Behavior",
+        "Employment and Welfare Studies",
+        "Gender Diversity and Inequality"
+      ],
       "founded": 1947,
       "about": "Human Relations is a monthly peer-reviewed academic journal covering research on social relationships in work-related settings. The journal is published by SAGE Publications on behalf of the Tavistock Institute of Human ",
       "wimg": "https://upload.wikimedia.org/wikipedia/en/1/12/Human_Relations_front_cover_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -587,6 +951,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Job Satisfaction and Organizational Behavior",
+        "Entrepreneurship Studies and Influences",
+        "Gender Diversity and Inequality"
+      ],
       "founded": 1976,
       "about": "The Academy of Management Review (AMR) is a peer-reviewed academic journal on management. According to the Journal Citation Reports, the journal's 2022 impact factor is 16.400, ranking it 3rd out of 227 journals in the c",
       "group": "Strategy"
@@ -613,6 +983,12 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Job Satisfaction and Organizational Behavior",
+        "Innovation and Knowledge Management",
+        "Management and Organizational Studies",
+        "Entrepreneurship Studies and Influences"
       ],
       "founded": 1975,
       "about": "The Journal of Management is a peer-reviewed academic journal published by SAGE Publications for the Southern Management Association and covering research on all aspects of management as well as the related field of indu",
@@ -645,6 +1021,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Entrepreneurship Studies and Influences",
+        "Corporate Finance and Governance"
+      ],
       "founded": 1990,
       "about": "Organization Science is a bimonthly peer-reviewed academic journal published by the Institute for Operations Research and the Management Sciences. It covers research on the dynamics of organizations. In 2012, it was one ",
       "group": "Strategy"
@@ -671,6 +1053,12 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Financial Markets and Investment Strategies",
+        "Consumer Market Behavior and Pricing",
+        "Corporate Finance and Governance",
+        "Auditing, Earnings Management, Governance"
       ],
       "founded": 1954,
       "about": "Management Science is a peer-reviewed academic journal that covers research on all aspects of management related to strategy, entrepreneurship, innovation, information technology, and organizations as well as all functio",
@@ -704,6 +1092,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Educational Robotics and Engineering",
+        "Human auditory perception and evaluation",
+        "Corporate Finance and Governance"
+      ],
       "founded": 1963,
       "about": "The Journal of Management Studies is a peer-reviewed academic journal that was established in 1963 and is published by Wiley-Blackwell on behalf of the Society for the Advancement of Management Studies. The journal publi",
       "wimg": "https://upload.wikimedia.org/wikipedia/commons/4/47/JMS_Full_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -735,6 +1129,12 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Management Theory and Practice",
+        "Gender Diversity and Inequality",
+        "Cultural Industries and Urban Development"
       ],
       "founded": 1980,
       "about": "Organization Studies is a monthly peer-reviewed academic journal that covers the field of organization studies. The journal's editors-in-chief are Renate Meyer and Paolo Quattrone. It was established in 1980 and is publi",
@@ -772,6 +1172,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Job Satisfaction and Organizational Behavior",
+        "Employer Branding and e-HRM",
+        "Work-Family Balance Challenges",
+        "Gender Diversity and Inequality"
+      ],
       "about": "Human resource management (HRM) is the strategic and coherent approach to the effective and efficient management of people in a company or organization. Human resource management is primarily concerned with the managemen",
       "group": "Strategy"
     },
@@ -805,6 +1211,12 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management",
+        "Innovation Policy and R&D",
+        "Entrepreneurship Studies and Influences",
+        "Intellectual Property and Patents"
       ],
       "about": "Research Policy is a monthly peer-reviewed academic journal published by Elsevier on behalf of the Science Policy Research Unit at the University of Sussex. It was established by British economist Christopher Freeman in ",
       "wimg": "https://upload.wikimedia.org/wikipedia/en/a/a4/Research_Policy_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -844,6 +1256,12 @@
           "Strategy and Management",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "International Business and FDI",
+        "Corporate Finance and Governance",
+        "Innovation and Knowledge Management",
+        "International Student and Expatriate Challenges"
       ],
       "founded": 1970,
       "about": "The Journal of International Business Studies is a double blind peer-reviewed academic journal published by Palgrave Macmillan on behalf of the Academy of International Business covering research on international busines",
@@ -885,6 +1303,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Accounting and Organizational Management",
+        "Management and Organizational Studies",
+        "Corporate Social Responsibility Reporting"
+      ],
       "group": "Accounting"
     },
     "AJPT": {
@@ -913,6 +1337,12 @@
           "Finance",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Accounting Education and Careers",
+        "Accounting and Organizational Management"
       ],
       "group": "Accounting"
     },
@@ -971,6 +1401,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Accounting and Organizational Management"
+      ],
       "founded": 1992,
       "about": "The European Accounting Review is the peer-refereed journal of the European Accounting Association, published by Taylor & Francis.",
       "group": "Accounting"
@@ -1006,6 +1442,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Accounting and Organizational Management",
+        "Management and Organizational Studies",
+        "Auditing, Earnings Management, Governance",
+        "Corporate Social Responsibility Reporting"
+      ],
       "founded": 1990,
       "about": "Critical Perspectives on Accounting is a peer-reviewed academic journal published by Elsevier. The aim of the journal is to study how accounting works within society and to promote forms of accounting that are in the pub",
       "wimg": "https://upload.wikimedia.org/wikipedia/en/1/15/Cover_of_Critical_Perspectives_on_Accounting_%28academic_journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1038,6 +1480,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Social Responsibility Reporting",
+        "Corporate Finance and Governance",
+        "Accounting and Organizational Management"
+      ],
       "group": "Accounting"
     },
     "SAMPJ": {
@@ -1066,6 +1514,12 @@
           "Renewable Energy, Sustainability and the Environment",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Corporate Social Responsibility Reporting",
+        "Environmental Sustainability in Business",
+        "Sustainable Supply Chain Management",
+        "Energy, Environment, Economic Growth"
       ],
       "group": "Accounting"
     },
@@ -1100,6 +1554,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Big Data and Business Intelligence",
+        "Financial Reporting and XBRL",
+        "Information and Cyber Security"
+      ],
       "group": "Accounting"
     },
     "BAR": {
@@ -1120,6 +1580,12 @@
           "Accounting",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Corporate Finance and Governance",
+        "Auditing, Earnings Management, Governance",
+        "Corporate Social Responsibility Reporting",
+        "Financial Markets and Investment Strategies"
       ],
       "founded": 1969,
       "about": "The British Accounting Review is an academic journal of the British Accounting and Finance Association that was established in 1969. Serving its purpose to educate and connect users, the British Accounting Review helps u",
@@ -1152,6 +1618,12 @@
           "Q1"
         ]
       ],
+      "topics3y": [
+        "Accounting and Organizational Management",
+        "Diverse Scientific and Economic Studies",
+        "Corporate Finance and Governance",
+        "Human auditory perception and evaluation"
+      ],
       "group": "Accounting"
     },
     "AAAJ": {
@@ -1176,6 +1648,12 @@
           "Economics, Econometrics and Finance (miscellaneous)",
           "Q1"
         ]
+      ],
+      "topics3y": [
+        "Accounting and Organizational Management",
+        "Management and Organizational Studies",
+        "Corporate Social Responsibility Reporting",
+        "Auditing, Earnings Management, Governance"
       ],
       "group": "Accounting"
     }
