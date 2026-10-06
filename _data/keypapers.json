@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04",
+  "generated": "2026-10-06",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -705,7 +705,7 @@
           "nr": "na"
         }
       ],
-      "n_citing": 356,
+      "n_citing": 357,
       "query": "persona generation"
     },
     "gABM": {
@@ -952,6 +952,38 @@
         }
       ],
       "citing": [
+        {
+          "title": "Peer Influence across Heterogeneous AI Models",
+          "authors": "F Laustsen, M Petersen, V Popa, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.03095",
+          "cites": 0,
+          "pubdate": "2026-10-02",
+          "arxiv": "2610.03095",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-06",
+          "nr": "na"
+        },
+        {
+          "title": "Capturing detailed human dependencies on the built environment for enriched natural-hazard risk assessments",
+          "authors": "C Wang, T Logan, G Cremen",
+          "year": 2026,
+          "venue": "Sustainable Cities and Society",
+          "url": "https://doi.org/10.1016/j.scs.2026.107937",
+          "cites": 0,
+          "pubdate": "2026-10-01",
+          "arxiv": null,
+          "doi": "10.1016/j.scs.2026.107937",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-10-06",
+          "fwci": 0.0,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 2.98,
+          "qcat": "Civil and Structural Engineering"
+        },
         {
           "title": "Auditing Action Settlement in LLM Agent Environments: Order, Progress, and Replay",
           "authors": "H Chen, B Ye, Y Zhang, et al.",
@@ -1228,7 +1260,7 @@
           "title": "Pseudocode as a Stored Strategy Representation for LLM-Based Artificial Market Simulation",
           "authors": "R Itakura, M Hirano, K Imajo, et al.",
           "year": 2026,
-          "venue": "IEEE Conference on Computational Intelligence for Financial Engineering & Economics",
+          "venue": "IEEE Symposium on Computational Intelligence for Financial Engineering and Economics (CIFEr)",
           "url": "https://doi.org/10.1109/CIFEr67845.2026.11692404",
           "cites": 0,
           "pubdate": "2026-09-01",
@@ -1236,7 +1268,8 @@
           "doi": "10.1109/cifer67845.2026.11692404",
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-25",
-          "nr": "na"
+          "fwci": 0.0,
+          "crank": "C"
         },
         {
           "title": "Benchmarking large language model agent societies against human behavioural distributions",
@@ -1436,7 +1469,7 @@
           "title": "Generative AI in Healthcare: Temporal Data Analysis and Sequential Decision-Making",
           "authors": "K Wang, A Rodríguez, A Joshi, et al.",
           "year": 2026,
-          "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+          "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
           "url": "https://doi.org/10.1145/3770855.3816465",
           "cites": 0,
           "pubdate": "2026-08-08",
@@ -1444,6 +1477,7 @@
           "doi": "10.1145/3770855.3816465",
           "cited_key": "Epidemic Modeling with Generative Agents",
           "first_seen": "2026-09-25",
+          "fwci": 0.0,
           "crank": "A*"
         },
         {
@@ -1504,37 +1538,9 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "Agentic Commerce World: An Auditable and Verifiable Environment for Vibe Commerce",
-          "authors": "S Fan, M Yang, D Wang, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.02441",
-          "cites": 0,
-          "pubdate": "2026-08-03",
-          "arxiv": "2608.02441",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
-          "title": "No One Wins in Nuclear War: A Social Simulation of Military Decision-making",
-          "authors": "G Matlin, I Song, A Zang, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.01868",
-          "cites": 0,
-          "pubdate": "2026-08-03",
-          "arxiv": "2608.01868",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 477,
+      "n_citing": 479,
       "query": "agent-based modeling"
     }
   }
