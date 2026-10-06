@@ -139,6 +139,20 @@
       ],
       "citing": [
         {
+          "title": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
+          "authors": "A Malik, M Elsherief",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.04676",
+          "cites": 0,
+          "pubdate": "2026-10-03",
+          "arxiv": "2610.04676",
+          "doi": null,
+          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
+          "first_seen": "2026-10-06",
+          "nr": "na"
+        },
+        {
           "title": "LLM Persona Unlearning",
           "authors": "K Li, Z Shi, Q Wang, et al.",
           "year": 2026,
@@ -503,20 +517,6 @@
           "nr": "na"
         },
         {
-          "title": "VIBE-Bench: Evaluating Personalized Large Language Models When Profiles Don't Mean Preferences",
-          "authors": "Y Jiang, Y Deng, S Fong, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.00921",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": "2609.00921",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
           "title": "Subliminal Learning as Trait-Direction Drift: A Mechanism and Targeted Control under SFT Distillation",
           "authors": "Z Liu, Z Dong, Y Fan,, et al.",
           "year": 2026,
@@ -528,6 +528,20 @@
           "doi": null,
           "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-28",
+          "nr": "na"
+        },
+        {
+          "title": "VIBE-Bench: Evaluating Personalized Large Language Models When Profiles Don't Mean Preferences",
+          "authors": "Y Jiang, Y Deng, S Fong, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.00921",
+          "cites": 0,
+          "pubdate": "2026-09-01",
+          "arxiv": "2609.00921",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-09-25",
           "nr": "na"
         },
         {
@@ -689,23 +703,9 @@
           "q": "Q1",
           "sjr": 1.2,
           "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Harmful Content Is Not Enough: Continuation Framing Moderates In-Context Emergent Misalignment",
-          "authors": "P Liu, X Wang, Z Cui, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.08212",
-          "cites": 0,
-          "pubdate": "2026-08-08",
-          "arxiv": "2608.08212",
-          "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 357,
+      "n_citing": 358,
       "query": "persona generation"
     },
     "gABM": {
@@ -953,10 +953,24 @@
       ],
       "citing": [
         {
+          "title": "From Token-Max to Outcome-Max: How You Use AI Determines Its Productivity",
+          "authors": "C Xu, M Liu, B Li, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.05697",
+          "cites": 0,
+          "pubdate": "2026-10-05",
+          "arxiv": "2610.05697",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-06",
+          "nr": "na"
+        },
+        {
           "title": "Peer Influence across Heterogeneous AI Models",
           "authors": "F Laustsen, M Petersen, V Popa, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.03095",
           "cites": 0,
           "pubdate": "2026-10-02",
@@ -1209,6 +1223,7 @@
           "doi": "10.1145/3800935.3830836",
           "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
           "first_seen": "2026-09-25",
+          "fwci": 0.0,
           "crank": "A"
         },
         {
@@ -1524,23 +1539,9 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "Emulate or Estimate? The Divergent Strengths of Base and Post-Trained Language Models for Opinion Simulation",
-          "authors": "S Grief-Albert, J Bo, D Jiao, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.03044",
-          "cites": 0,
-          "pubdate": "2026-08-04",
-          "arxiv": "2608.03044",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 479,
+      "n_citing": 480,
       "query": "agent-based modeling"
     }
   }
