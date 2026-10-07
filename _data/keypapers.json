@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -139,10 +139,24 @@
       ],
       "citing": [
         {
+          "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+          "authors": "S Peng, K Jiang, J Zheng, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.08250",
+          "cites": 0,
+          "pubdate": "2026-10-06",
+          "arxiv": "2610.08250",
+          "doi": null,
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "first_seen": "2026-10-07",
+          "nr": "na"
+        },
+        {
           "title": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
           "authors": "A Malik, M Elsherief",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.04676",
           "cites": 0,
           "pubdate": "2026-10-03",
@@ -686,26 +700,9 @@
           "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "ColdChat: benchmarking large language model personalization using limited real-user interaction history",
-          "authors": "W Zhang, Z Zeng, Z Liu, et al.",
-          "year": 2026,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-026-51716-6",
-          "cites": 0,
-          "pubdate": "2026-08-08",
-          "arxiv": null,
-          "doi": "10.1007/s11704-026-51716-6",
-          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.2,
-          "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "n_citing": 358,
+      "n_citing": 360,
       "query": "persona generation"
     },
     "gABM": {
@@ -953,10 +950,38 @@
       ],
       "citing": [
         {
+          "title": "Disentangling Models from Personas in Heterogeneous LLM Simulations",
+          "authors": "D Roytburg, D Ippolito",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.07535",
+          "cites": 0,
+          "pubdate": "2026-10-06",
+          "arxiv": "2610.07535",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-07",
+          "nr": "na"
+        },
+        {
+          "title": "Large Language Model Orchestration under Heterogeneous Preferences via Explicit Persona Inference",
+          "authors": "S Shi, Z Wang, M Tambe, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.07587",
+          "cites": 0,
+          "pubdate": "2026-10-06",
+          "arxiv": "2610.07587",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-07",
+          "nr": "na"
+        },
+        {
           "title": "From Token-Max to Outcome-Max: How You Use AI Determines Its Productivity",
           "authors": "C Xu, M Liu, B Li, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.05697",
           "cites": 0,
           "pubdate": "2026-10-05",
@@ -1511,37 +1536,9 @@
           "q": "Q2",
           "sjr": 0.38,
           "qcat": "Sociology and Political Science"
-        },
-        {
-          "title": "From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models",
-          "authors": "J Han, X Li, J Qian, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.06020",
-          "cites": 0,
-          "pubdate": "2026-08-06",
-          "arxiv": "2608.06020",
-          "doi": null,
-          "cited_key": "Incentives to Build Houses, Trade Houses, or Trade House Bui",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
-          "authors": "X Li, Y Hao, J Hou, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.04205",
-          "cites": 0,
-          "pubdate": "2026-08-04",
-          "arxiv": "2608.04205",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 480,
+      "n_citing": 482,
       "query": "agent-based modeling"
     }
   }
