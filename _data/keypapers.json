@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -138,6 +138,34 @@
         }
       ],
       "citing": [
+        {
+          "title": "The Persona Hierarchy Model: Understanding Contextual Generalization in Fine-Tuning LLMs",
+          "authors": "J Zhao, Z Wu, D Bau, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.09384",
+          "cites": 0,
+          "pubdate": "2026-10-07",
+          "arxiv": "2610.09384",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-08",
+          "nr": "na"
+        },
+        {
+          "title": "Socio-Foundation: A Model for Generalizable Individual Behavior Simulation via Hierarchical Capability Distillation",
+          "authors": "L Wang, W Xie, X Mou, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.08967",
+          "cites": 0,
+          "pubdate": "2026-10-06",
+          "arxiv": "2610.08967",
+          "doi": null,
+          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
+          "first_seen": "2026-10-08",
+          "nr": "na"
+        },
         {
           "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
           "authors": "S Peng, K Jiang, J Zheng, et al.",
@@ -672,37 +700,9 @@
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "Making Your LLMs More Objective: Stabilizing LLM Safety Behavior Across Traits with Trait-Invariant Safety Tuning",
-          "authors": "C Lang",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.11705",
-          "cites": 0,
-          "pubdate": "2026-08-12",
-          "arxiv": "2608.11705",
-          "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
-          "title": "Data Attribution of Emergent Misalignment with Persona Features",
-          "authors": "C Vetter, D Kaczér, L Flek, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.11025",
-          "cites": 0,
-          "pubdate": "2026-08-11",
-          "arxiv": "2608.11025",
-          "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 360,
+      "n_citing": 362,
       "query": "persona generation"
     },
     "gABM": {
