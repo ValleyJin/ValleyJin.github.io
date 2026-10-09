@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -139,10 +139,52 @@
       ],
       "citing": [
         {
+          "title": "DPPM: Dual-Path Parametric Memory for Personalized Language Models",
+          "authors": "Y Chen, S Liu, J Shi, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.11776",
+          "cites": 0,
+          "pubdate": "2026-10-08",
+          "arxiv": "2610.11776",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-10-09",
+          "nr": "na"
+        },
+        {
+          "title": "Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies",
+          "authors": "Y Wen, D Xu, P Jia, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.11573",
+          "cites": 0,
+          "pubdate": "2026-10-08",
+          "arxiv": "2610.11573",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-10-09",
+          "nr": "na"
+        },
+        {
+          "title": "An Investigation of Model Coherence: Narrow Finetunes Contradict Themselves Under Resampling",
+          "authors": "R Graham, Y Barsheshat, P Blandfort, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.12129",
+          "cites": 0,
+          "pubdate": "2026-10-08",
+          "arxiv": "2610.12129",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-09",
+          "nr": "na"
+        },
+        {
           "title": "The Persona Hierarchy Model: Understanding Contextual Generalization in Fine-Tuning LLMs",
           "authors": "J Zhao, Z Wu, D Bau, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.09384",
           "cites": 0,
           "pubdate": "2026-10-07",
@@ -156,7 +198,7 @@
           "title": "Socio-Foundation: A Model for Generalizable Individual Behavior Simulation via Hierarchical Capability Distillation",
           "authors": "L Wang, W Xie, X Mou, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.08967",
           "cites": 0,
           "pubdate": "2026-10-06",
@@ -170,7 +212,7 @@
           "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
           "authors": "S Peng, K Jiang, J Zheng, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.08250",
           "cites": 0,
           "pubdate": "2026-10-06",
@@ -658,51 +700,9 @@
           "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "Reinforcement Learning on Benign Facts Amplifies Leakage of Memorized Private Data",
-          "authors": "R Zhang, N Mireshghallah",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.21727",
-          "cites": 0,
-          "pubdate": "2026-08-22",
-          "arxiv": "2608.21727",
-          "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
-          "title": "Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories",
-          "authors": "H Wang, Y Zhou, B Du, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.19621",
-          "cites": 0,
-          "pubdate": "2026-08-20",
-          "arxiv": "2608.19621",
-          "doi": null,
-          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
-          "first_seen": "2026-10-02",
-          "nr": "na"
-        },
-        {
-          "title": "Total Recall at What Cost? Benchmarking the Serving Cost of Agentic Memory Systems",
-          "authors": "N Pollertlam, W Kornsuwannawit",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.11879",
-          "cites": 0,
-          "pubdate": "2026-08-12",
-          "arxiv": "2608.11879",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 362,
+      "n_citing": 365,
       "query": "persona generation"
     },
     "gABM": {
@@ -950,10 +950,38 @@
       ],
       "citing": [
         {
+          "title": "\"Hot-Blooded\"vs\"Cold-Blooded\": Simulating the Behavioral Phenotypes of Childhood Aggression via Generative Agents",
+          "authors": "L Fu",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.11951",
+          "cites": 0,
+          "pubdate": "2026-10-08",
+          "arxiv": "2610.11951",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-09",
+          "nr": "na"
+        },
+        {
+          "title": "Workerville: Towards an Organizational Behavior Account of Agent Safety",
+          "authors": "H Luo, J Mao, Y Lu, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.11561",
+          "cites": 0,
+          "pubdate": "2026-10-08",
+          "arxiv": "2610.11561",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-09",
+          "nr": "na"
+        },
+        {
           "title": "Disentangling Models from Personas in Heterogeneous LLM Simulations",
           "authors": "D Roytburg, D Ippolito",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.07535",
           "cites": 0,
           "pubdate": "2026-10-06",
@@ -967,7 +995,7 @@
           "title": "Large Language Model Orchestration under Heterogeneous Preferences via Explicit Persona Inference",
           "authors": "S Shi, Z Wang, M Tambe, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.07587",
           "cites": 0,
           "pubdate": "2026-10-06",
@@ -1018,7 +1046,6 @@
           "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
           "first_seen": "2026-10-06",
           "fwci": 0.0,
-          "pct": 10,
           "q": "Q1",
           "sjr": 2.98,
           "qcat": "Civil and Structural Engineering"
@@ -1153,7 +1180,7 @@
           "qcat": "Management, Monitoring, Policy and Law"
         },
         {
-          "title": "From Certain Doom to Survival: Agent-Driven Self-Governance in LLM Agent Societies",
+          "title": "Can Agents Adapt Their Institutions And Sacrifice Themselves During Collapse? Executable Self-Governance in a GovSim Commons",
           "authors": "G Rehm",
           "year": 2026,
           "venue": "arXiv (Cornell University)",
@@ -1504,41 +1531,9 @@
           "q": "Q1",
           "sjr": 0.94,
           "qcat": "Psychology (miscellaneous)"
-        },
-        {
-          "title": "Generative AI in Healthcare: Temporal Data Analysis and Sequential Decision-Making",
-          "authors": "K Wang, A Rodríguez, A Joshi, et al.",
-          "year": 2026,
-          "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
-          "url": "https://doi.org/10.1145/3770855.3816465",
-          "cites": 0,
-          "pubdate": "2026-08-08",
-          "arxiv": null,
-          "doi": "10.1145/3770855.3816465",
-          "cited_key": "Epidemic Modeling with Generative Agents",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "crank": "A*"
-        },
-        {
-          "title": "Is Language Social Action? A Commentary on Language Agents",
-          "authors": "M Castelle",
-          "year": 2026,
-          "venue": "Sociologica",
-          "url": "https://doi.org/10.60923/issn.1971-8853/24687",
-          "cites": 0,
-          "pubdate": "2026-08-06",
-          "arxiv": null,
-          "doi": "10.60923/issn.1971-8853/24687",
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "fwci": 0.0,
-          "q": "Q2",
-          "sjr": 0.38,
-          "qcat": "Sociology and Political Science"
         }
       ],
-      "n_citing": 482,
+      "n_citing": 484,
       "query": "agent-based modeling"
     }
   }
