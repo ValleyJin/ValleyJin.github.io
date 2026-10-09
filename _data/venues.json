@@ -150,22 +150,9 @@
       "group": "AI"
     },
     "EMNLP": {
-      "name": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "name": "Conference on Empirical Methods in Natural Language Processing",
       "type": "conference",
       "link": "https://aclanthology.org/venues/emnlp/",
-      "h": 249,
-      "i10": 4084,
-      "if2": 4.0,
-      "works": 8812,
-      "domain": "Physical Sciences",
-      "field": "Computer Science",
-      "sub": "Artificial Intelligence",
-      "topics3y": [
-        "Topic Modeling",
-        "Natural Language Processing Techniques",
-        "Multimodal Machine Learning Applications",
-        "Domain Adaptation and Few-Shot Learning"
-      ],
       "crank": "A*",
       "group": "AI"
     },
