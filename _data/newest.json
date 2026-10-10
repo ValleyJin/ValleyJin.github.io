@@ -31102,68 +31102,7 @@
         "crank": "A*"
       }
     ],
-    "ACL": [
-      {
-        "title": "Multimodal Language Analysis in the Wild: CMU-MOSEI Dataset and Interpretable Dynamic Fusion Graph",
-        "authors": "Zadeh, A. B., Liang, P., Poria, S., Cambria, E., & Morency, L.",
-        "year": 2018,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/P18-1208",
-        "cites": 1816,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "LLM in a flash: Efficient Large Language Model Inference with Limited Memory",
-        "authors": "Alizadeh-Vahid, K., Mirzadeh, I., Belenko, D., Khatamifard, K., Cho, M., Mundo, C. C. D., et al.",
-        "year": 2023,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.48550/arXiv.2312.11514",
-        "cites": 323,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "Embeddings for Word Sense Disambiguation: An Evaluation Study",
-        "authors": "Iacobacci, I., Pilehvar, M. T., & Navigli, R.",
-        "year": 2016,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/P16-1085",
-        "cites": 275,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "SciMON: Scientific Inspiration Machines Optimized for Novelty",
-        "authors": "Wang, Q., Downey, D., Ji, H., & Hope, T.",
-        "year": 2023,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/2024.acl-long.18",
-        "cites": 239,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "Retrieval of the Best Counterargument without Prior Topic Knowledge",
-        "authors": "Wachsmuth, H., Syed, S., & Stein, B.",
-        "year": 2018,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/P18-1023",
-        "cites": 219,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "GLUECoS: An Evaluation Benchmark for Code-Switched NLP",
-        "authors": "Khanuja, S., Dandapat, S., Srinivasan, A., Sitaram, S., & Choudhury, M.",
-        "year": 2020,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/2020.acl-main.329",
-        "cites": 216,
-        "topic": "ACL",
-        "crank": "A*"
-      }
-    ],
+    "ACL": [],
     "EMNLP": [
       {
         "title": "EMNLP versus ACL: Analyzing NLP research over time",
@@ -31238,80 +31177,7 @@
         "crank": "A*"
       }
     ],
-    "ECCV": [
-      {
-        "title": "Exploring Visual Relationship for Image Captioning",
-        "authors": "Yao, T., Pan, Y., Li, Y., & Mei, T.",
-        "year": 2018,
-        "venue": "European Conference on Computer Vision",
-        "url": "https://doi.org/10.1007/978-3-030-01264-9_42",
-        "cites": 933,
-        "topic": "ECCV",
-        "q": "Q4",
-        "sjr": 0.1,
-        "qcat": "Literature and Literary Theory"
-      },
-      {
-        "title": "XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model",
-        "authors": "Cheng, H. K., & Schwing, A.",
-        "year": 2022,
-        "venue": "European Conference on Computer Vision",
-        "url": "https://doi.org/10.48550/arXiv.2207.07115",
-        "cites": 727,
-        "topic": "ECCV",
-        "q": "Q4",
-        "sjr": 0.1,
-        "qcat": "Literature and Literary Theory"
-      },
-      {
-        "title": "CenSurE: Center Surround Extremas for Realtime Feature Detection and Matching",
-        "authors": "Agrawal, M., & Konolige, K.",
-        "year": 2008,
-        "venue": "European Conference on Computer Vision",
-        "url": "https://doi.org/10.1007/978-3-540-88693-8_8",
-        "cites": 562,
-        "topic": "ECCV",
-        "q": "Q4",
-        "sjr": 0.1,
-        "qcat": "Literature and Literary Theory"
-      },
-      {
-        "title": "Two-branch Recurrent Network for Isolating Deepfakes in Videos",
-        "authors": "Masi, I., Killekar, A., Mascarenhas, R., Gurudatt, S. P., & Abdalmageed, W.",
-        "year": 2020,
-        "venue": "European Conference on Computer Vision",
-        "url": "https://doi.org/10.1007/978-3-030-58571-6_39",
-        "cites": 501,
-        "topic": "ECCV",
-        "q": "Q4",
-        "sjr": 0.1,
-        "qcat": "Literature and Literary Theory"
-      },
-      {
-        "title": "Semantic Flow for Fast and Accurate Scene Parsing",
-        "authors": "Li, X., You, A., Zhu, Z., Zhao, H., Yang, M., Yang, K., et al.",
-        "year": 2020,
-        "venue": "European Conference on Computer Vision",
-        "url": "https://doi.org/10.1007/978-3-030-58452-8_45",
-        "cites": 456,
-        "topic": "ECCV",
-        "q": "Q4",
-        "sjr": 0.1,
-        "qcat": "Literature and Literary Theory"
-      },
-      {
-        "title": "Graph Cut Based Inference with Co-occurrence Statistics",
-        "authors": "Ladicky, L., Russell, C., Kohli, P., & Torr, P.",
-        "year": 2010,
-        "venue": "European Conference on Computer Vision",
-        "url": "https://doi.org/10.1007/978-3-642-15555-0_18",
-        "cites": 366,
-        "topic": "ECCV",
-        "q": "Q4",
-        "sjr": 0.1,
-        "qcat": "Literature and Literary Theory"
-      }
-    ],
+    "ECCV": [],
     "KDD": [
       {
         "title": "Constructing and mining web-scale knowledge graphs: KDD 2014 tutorial",
