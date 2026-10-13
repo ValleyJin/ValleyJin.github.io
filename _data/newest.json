@@ -31044,68 +31044,7 @@
         "crank": "A*"
       }
     ],
-    "IJCAI": [
-      {
-        "title": "Attributed Graph Clustering via Adaptive Graph Convolution",
-        "authors": "Zhang, X., 刘晗, Li, Q., & Wu, X.",
-        "year": 2019,
-        "venue": "International Joint Conference on Artificial Intelligence",
-        "url": "https://doi.org/10.24963/ijcai.2019/601",
-        "cites": 358,
-        "topic": "IJCAI",
-        "crank": "A*"
-      },
-      {
-        "title": "Generalizing plans to new environments in relational MDPs",
-        "authors": "Guestrin, C., Koller, D., Gearhart, C., & Kanodia, N.",
-        "year": 2003,
-        "venue": "International Joint Conference on Artificial Intelligence",
-        "url": "https://www.semanticscholar.org/paper/00a23f41628c0989cee332521ec415ae63778b31",
-        "cites": 220,
-        "topic": "IJCAI",
-        "crank": "A*"
-      },
-      {
-        "title": "Two-Level Model for Morphological Analysis",
-        "authors": "Koskenniemi, K.",
-        "year": 1983,
-        "venue": "International Joint Conference on Artificial Intelligence",
-        "url": "https://www.semanticscholar.org/paper/008da127af8fbdfdd9a3f7d36b23d7c3946e491b",
-        "cites": 197,
-        "topic": "IJCAI",
-        "crank": "A*"
-      },
-      {
-        "title": "Triformer: Triangular, Variable-Specific Attentions for Long Sequence Multivariate Time Series Forecasting-Full Version",
-        "authors": "Cirstea, R., Guo, C., Yang, B., Kieu, T., Dong, X., & Pan, S.",
-        "year": 2022,
-        "venue": "International Joint Conference on Artificial Intelligence",
-        "url": "https://doi.org/10.48550/arXiv.2204.13767",
-        "cites": 174,
-        "topic": "IJCAI",
-        "crank": "A*"
-      },
-      {
-        "title": "The Avoidance of (Relative) Catastrophe, Heuristic Competence, Genuine Dynamic Weighting and Computational Issues in Heuristic Problem Solving",
-        "authors": "Pohl, I.",
-        "year": 1973,
-        "venue": "International Joint Conference on Artificial Intelligence",
-        "url": "https://www.semanticscholar.org/paper/006c6dff9d0e6396ec4951a14f92cae06ac5fea7",
-        "cites": 163,
-        "topic": "IJCAI",
-        "crank": "A*"
-      },
-      {
-        "title": "A Survey on Spoken Language Understanding: Recent Advances and New Frontiers",
-        "authors": "Qin, L., Xie, T., Che, W., & Liu, T.",
-        "year": 2021,
-        "venue": "International Joint Conference on Artificial Intelligence",
-        "url": "https://doi.org/10.24963/ijcai.2021/622",
-        "cites": 126,
-        "topic": "IJCAI",
-        "crank": "A*"
-      }
-    ],
+    "IJCAI": [],
     "ACL": [
       {
         "title": "Multimodal Language Analysis in the Wild: CMU-MOSEI Dataset and Interpretable Dynamic Fusion Graph",

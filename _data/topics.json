@@ -396,19 +396,6 @@
           "qcat": "Computer Science (miscellaneous)"
         },
         {
-          "title": "Survey on Graph Neural Networks",
-          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
-          "year": 2024,
-          "venue": "IEEE Access",
-          "url": "https://doi.org/10.1109/access.2024.3456913",
-          "cites": 35,
-          "fwci": 5.23,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.88,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
           "title": "Graph neural networks for text classification: a survey",
           "authors": "Wang, K., Ding, Y., & Han, S. C.",
           "year": 2024,
@@ -420,6 +407,19 @@
           "q": "Q1",
           "sjr": 3.64,
           "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Survey on Graph Neural Networks",
+          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
+          "year": 2024,
+          "venue": "IEEE Access",
+          "url": "https://doi.org/10.1109/access.2024.3456913",
+          "cites": 35,
+          "fwci": 5.23,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
         }
       ],
       "count": 209284
