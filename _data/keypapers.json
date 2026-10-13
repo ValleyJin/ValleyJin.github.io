@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11",
+  "generated": "2026-10-13",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -9,7 +9,7 @@
           "authors": "G Li, X Liu, Z Wu, et al.",
           "year": 2025,
           "url": "https://arxiv.org/abs/2511.10215",
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2511.10215",
           "cites": 0,
@@ -138,6 +138,20 @@
         }
       ],
       "citing": [
+        {
+          "title": "Don't Guess, Just Ask: Evaluating Interactive Requirement Clarification for Repository-Level Software Development",
+          "authors": "M Chen, Z Zhong, M Wang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.13022",
+          "cites": 0,
+          "pubdate": "2026-10-09",
+          "arxiv": "2610.13022",
+          "doi": null,
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "first_seen": "2026-10-13",
+          "nr": "na"
+        },
         {
           "title": "DPPM: Dual-Path Parametric Memory for Personalized Language Models",
           "authors": "Y Chen, S Liu, J Shi, et al.",
@@ -686,23 +700,9 @@
           "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "Diff Mining: Logit Differences Reveal Finetuning Objectives",
-          "authors": "G Kocher, R West, C Dumas, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.26462",
-          "cites": 0,
-          "pubdate": "2026-08-26",
-          "arxiv": "2608.26462",
-          "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 365,
+      "n_citing": 366,
       "query": "persona generation"
     },
     "gABM": {
@@ -760,7 +760,7 @@
           "authors": "B Xu, S Zhao, R Wu, et al.",
           "year": 2025,
           "url": "https://arxiv.org/abs/2506.04699",
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2506.04699",
           "cites": 0,
@@ -772,10 +772,10 @@
           "authors": "A Ferraro, A Galli, V Gatta, et al.",
           "year": 2024,
           "url": "https://arxiv.org/abs/2411.16031",
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2411.16031",
-          "cites": 1,
+          "cites": 0,
           "key": true,
           "nr": "na"
         },
@@ -808,7 +808,7 @@
           "authors": "G Orlando, V Gatta, D Russo, et al.",
           "year": 2025,
           "url": "https://arxiv.org/abs/2502.05919",
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2502.05919",
           "cites": 0,
@@ -949,6 +949,20 @@
         }
       ],
       "citing": [
+        {
+          "title": "OpenSocialJax: Evaluating Social Adaptation in Sequential Social Dilemmas with Open-Ended Environmental Dynamics",
+          "authors": "Z Guo, M Fang, J Leibo, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.13710",
+          "cites": 0,
+          "pubdate": "2026-10-09",
+          "arxiv": "2610.13710",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-13",
+          "nr": "na"
+        },
         {
           "title": "\"Hot-Blooded\"vs\"Cold-Blooded\": Simulating the Behavioral Phenotypes of Childhood Aggression via Generative Agents",
           "authors": "L Fu",
@@ -1514,26 +1528,9 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "Measuring human behavior through controlled perturbations: a framework for reconstructing behavioral systems",
-          "authors": "P Cipresso",
-          "year": 2026,
-          "venue": "Frontiers in Psychology",
-          "url": "https://doi.org/10.3389/fpsyg.2026.1833113",
-          "cites": 0,
-          "pubdate": "2026-08-10",
-          "arxiv": null,
-          "doi": "10.3389/fpsyg.2026.1833113",
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
-          "first_seen": "2026-10-01",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.94,
-          "qcat": "Psychology (miscellaneous)"
         }
       ],
-      "n_citing": 484,
+      "n_citing": 485,
       "query": "agent-based modeling"
     }
   }
