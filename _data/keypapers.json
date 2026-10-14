@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-10-14",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -950,6 +950,23 @@
       ],
       "citing": [
         {
+          "title": "AI-generated language remains systematically distinguishable from human communication.",
+          "authors": "N Pagan, P Törnberg, C Bail, et al.",
+          "year": 2026,
+          "venue": "Proceedings of the National Academy of Sciences",
+          "url": "https://doi.org/10.1073/pnas.2531748123",
+          "cites": 0,
+          "pubdate": "2026-10-12",
+          "arxiv": null,
+          "doi": "10.1073/pnas.2531748123",
+          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
+          "first_seen": "2026-10-14",
+          "fwci": 0.0,
+          "q": "Q1",
+          "sjr": 3.28,
+          "qcat": "Multidisciplinary"
+        },
+        {
           "title": "OpenSocialJax: Evaluating Social Adaptation in Sequential Social Dilemmas with Open-Ended Environmental Dynamics",
           "authors": "Z Guo, M Fang, J Leibo, et al.",
           "year": 2026,
@@ -1514,20 +1531,6 @@
           "q": "Q1",
           "sjr": 4.84,
           "qcat": "Developmental and Educational Psychology"
-        },
-        {
-          "title": "Evaluating Rational Contracting in Natural Language",
-          "authors": "B Sajja, M Kleiman-Weiner, R Zimmermann, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.10475",
-          "cites": 0,
-          "pubdate": "2026-08-11",
-          "arxiv": "2608.10475",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
       "n_citing": 485,
