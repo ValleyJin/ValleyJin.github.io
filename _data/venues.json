@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-10-14",
   "venues": {
     "NeurIPS": {
       "name": "neural information processing systems",
@@ -250,10 +250,9 @@
         ]
       ],
       "topics3y": [
-        "Auction Theory and Applications",
         "Text and Document Classification Technologies",
         "Machine Learning and Algorithms",
-        "Advanced Bandit Algorithms Research"
+        "Machine Learning and Data Classification"
       ],
       "founded": 2000,
       "about": "The Journal of Machine Learning Research is a peer-reviewed open access scientific journal covering machine learning. It was established in 2000 and the first editor-in-chief was Leslie Kaelbling. The current editors-in-",
@@ -1130,8 +1129,8 @@
       "topics3y": [
         "Management and Organizational Studies",
         "Management Theory and Practice",
-        "Corporate Social Responsibility Reporting",
-        "Posthumanist Ethics and Activism"
+        "Posthumanist Ethics and Activism",
+        "Appreciative Inquiry and Organizational Change"
       ],
       "founded": 1980,
       "about": "Organization Studies is a monthly peer-reviewed academic journal that covers the field of organization studies. The journal's editors-in-chief are Renate Meyer and Paolo Quattrone. It was established in 1980 and is publi",
