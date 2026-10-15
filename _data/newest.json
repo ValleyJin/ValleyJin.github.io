@@ -30909,7 +30909,32 @@
         "crank": "A*"
       }
     ],
-    "CVPR": [],
+    "CVPR": [
+      {
+        "title": "2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017, Honolulu, HI, USA, July 21-26, 2017",
+        "authors": "Anon.",
+        "year": 2017,
+        "venue": "Computer Vision and Pattern Recognition",
+        "url": "https://doi.org/10.1109/cvpr35066.2017",
+        "cites": 44,
+        "topic": "CVPR",
+        "q": "Q2",
+        "sjr": 0.54,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "1998 Conference on Computer Vision and Pattern Recognition (CVPR '98), June 23-25, 1998, Santa Barbara, CA, USA",
+        "authors": "Anon.",
+        "year": 1998,
+        "venue": "Computer Vision and Pattern Recognition",
+        "url": "https://www.semanticscholar.org/paper/0073595eae6b195af3951afbd62050e9a70df48f",
+        "cites": 0,
+        "topic": "CVPR",
+        "q": "Q2",
+        "sjr": 0.54,
+        "qcat": "Computer Science (miscellaneous)"
+      }
+    ],
     "AAAI": [
       {
         "title": "Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence, July 27 -31, 2014, Québec City, Québec, Canada.",
@@ -31151,7 +31176,7 @@
         "year": 2008,
         "venue": "European Conference on Computer Vision",
         "url": "https://doi.org/10.1007/978-3-540-88693-8_8",
-        "cites": 562,
+        "cites": 563,
         "topic": "ECCV",
         "q": "Q4",
         "sjr": 0.1,
@@ -31194,7 +31219,20 @@
         "qcat": "Literature and Literary Theory"
       }
     ],
-    "KDD": [],
+    "KDD": [
+      {
+        "title": "Constructing and mining web-scale knowledge graphs: KDD 2014 tutorial",
+        "authors": "Bordes, A., & Gabrilovich, E.",
+        "year": 2014,
+        "venue": "Knowledge Discovery and Data Mining",
+        "url": "https://doi.org/10.1145/2623330.2630803",
+        "cites": 50,
+        "topic": "KDD",
+        "q": "Q4",
+        "sjr": 0.1,
+        "qcat": "Multidisciplinary"
+      }
+    ],
     "JMLR": [
       {
         "title": "Visualizing Data using t-SNE",
