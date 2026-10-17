@@ -22,6 +22,7 @@ CFG = ROOT / "_data" / "topics_config.yml"
 OUT = ROOT / "_data" / "topics.json"
 NEWEST = ROOT / "_data" / "newest.json"        # 최근 '발간'된 논문(발간일순, 달력용)
 SCHOLARS = ROOT / "_data" / "scholars.json"    # 팔로우 학자별 최신 논문
+ALERTS = ROOT / "_data" / "scholar_alerts.json"  # Scholar 알림(메일) — 자동 학자 발견용
 VENUES = ROOT / "_data" / "venues.json"        # 토픽 학회/저널의 영향력지수·분야
 MAILTO = "jscho71@kaist.ac.kr"
 API = "https://api.openalex.org/works"
@@ -199,6 +200,59 @@ def fetch_scholar_all(user_id, key, sort=None, cap=300):
         start += 100
         time.sleep(1)                # SerpAPI 예의
     return {"author": author, "articles": arts[:cap]}
+
+
+def fetch_scholar_profile_id(name, key):
+    """이름으로 Google Scholar 저자 프로필을 검색해 가장 상위 후보의 author_id·소속을 돌려준다.
+    SerpAPI google_scholar_profiles 1콜. 동명이인이면 Google 상위 매치를 택한다(대개 가장 저명).
+    알림 메일엔 이름만 있어 author_id가 없으므로, 자동 학자 추가 때 한 번만 쓴다(결과는 캐시)."""
+    params = {"engine": "google_scholar_profiles", "mauthors": (name or "").strip(),
+              "api_key": key, "hl": "en"}
+    url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
+    with urllib.request.urlopen(url, timeout=60) as r:
+        d = json.load(r)
+    profs = d.get("profiles") or []
+    if not profs:
+        return None
+    p = profs[0]
+    return {"id": (p.get("author_id") or "").strip(),
+            "name": (p.get("name") or name).strip(),
+            "affiliation": (p.get("affiliations") or "").strip()}
+
+
+def _discover_alert_scholars(alert_names, skip_bases, prev_by_name, resolve, cap, log=lambda *a: None):
+    """알림에서 발견된 이름 중 config/이미처리에 없는 학자를 골라 (표시명, author_id, 알림이름)
+    목록을 돌려준다. 순수 함수(네트워크 없음) — 정책만 담아 테스트 가능하게 분리했다.
+      · prev_by_name에 id가 있으면 그대로 재사용(프로필 검색 0콜).
+      · 없으면 resolve(name)로 한 번 해석하되, 신규 해석은 cap회까지만(SerpAPI 예산 보호).
+      · resolve는 {'id','name','affiliation'} 또는 None을 돌려주거나 예외를 던질 수 있다.
+    실제 논문 fetch는 호출부가 한다(여기선 '누구를 추가할지'만 정한다)."""
+    picked, seen, new_resolved = [], set(skip_bases), 0
+    for nm in alert_names:
+        if nm in seen:
+            continue
+        prev = prev_by_name.get(nm) or {}
+        uid, disp = prev.get("id") or "", prev.get("name") or nm
+        if not uid:                                      # 처음 보는 이름 → author_id 해석
+            if new_resolved >= cap:
+                log(f"· 자동학자 해석 상한({cap}) 도달 — '{nm}'는 다음 주로 미룸")
+                continue
+            try:
+                prof = resolve(nm)
+                new_resolved += 1
+            except Exception as e:
+                log(f"! 프로필 검색 실패 '{nm}': {e}")
+                continue
+            if not prof or not prof.get("id"):
+                log(f"· 프로필 못 찾음 '{nm}' — 건너뜀")
+                continue
+            uid = prof["id"]
+            disp = prof["name"] + (" · " + prof["affiliation"] if prof.get("affiliation") else "")
+            log(f"· 자동학자 해석: '{nm}' → {disp} ({uid})")
+        seen.add(nm)
+        seen.add(disp.split(" · ")[0].strip())
+        picked.append((disp, uid, nm))
+    return picked
 
 
 def clean_title(t):
@@ -1100,12 +1154,16 @@ def main():
         # SerpAPI 무료예산은 월 한도가 있어 자주 429(Too Many Requests)가 난다. 그때 빈 블록을
         # 그대로 저장하면 Following의 학자별 논문 리스트가 통째로 사라진다(실제로 그렇게 비었다).
         # 그래서 이전 scholars.json을 읽어 두고, 조회가 실패하거나 빈 결과면 지난 데이터를 유지한다.
-        prev_sch = {}
+        prev_sch, prev_by_name = {}, {}
         if SCHOLARS.exists():
             try:
                 for b in json.loads(SCHOLARS.read_text(encoding="utf-8")).get("scholars", []):
                     if b.get("papers"):
                         prev_sch[b.get("id") or b.get("name")] = b
+                    # 이름→블록: 알림 자동학자의 author_id를 재사용(다음 주부터 프로필 검색 0콜).
+                    for k in (b.get("alert_name"), str(b.get("name") or "").split(" · ")[0].strip()):
+                        if k:
+                            prev_by_name[k] = b
             except Exception:
                 pass
 
@@ -1116,25 +1174,69 @@ def main():
                 return pv
             return blk
 
-        for name, uid, _ in scholars_list:
-            blk = {"name": name, "id": uid, "papers": [], "recent": []}
+        def _build(disp, uid, auto=False, alert_name=None):
+            """author_id로 논문(인용순 전부 + 최근순)을 가져와 블록을 만든다. 실패/빈 결과면 기존 유지."""
+            blk = {"name": disp, "id": uid, "papers": [], "recent": []}
+            if auto:
+                blk["auto"] = True              # 알림에서 자동 발견된 학자 표식(config 수동 학자와 구분)
+            if alert_name:
+                blk["alert_name"] = alert_name  # 알림 제목의 원래 이름(재실행 때 id 재사용 키)
             try:
-                data = fetch_scholar_all(uid, serp_key, cap=scholar_full)           # 인용순 전부(페이지네이션)
-                data_r = fetch_scholar(uid, serp_key, 40, sort="pubdate")           # 최근순 한 페이지(인라인 Recent용)
+                data = fetch_scholar_all(uid, serp_key, cap=scholar_full)            # 인용순 전부(페이지네이션)
+                data_r = fetch_scholar(uid, serp_key, 40, sort="pubdate")            # 최근순 한 페이지
             except Exception as e:
-                print(f"! scholar {name}: {e}", file=sys.stderr)
-                sresult["scholars"].append(_prev_or_empty(name, uid, blk))
-                continue
-            blk["photo"] = ((data.get("author") or {}).get("thumbnail") or "")     # SerpAPI 저자 사진(안정적 URL)
-            blk["papers"] = [_mk(a) for a in (data.get("articles") or [])[:scholar_full]]
-            blk["papers"].sort(key=lambda p: p.get("cites") or 0, reverse=True)     # 인용 많은 순 (Most cited)
-            blk["recent"] = [_mk(a) for a in (data_r.get("articles") or [])[:scholar_full]]
-            blk["recent"].sort(key=lambda p: _yr(p.get("year")), reverse=True)      # 최근 발간 순 (Recent)
-            if not blk["papers"]:                                                   # 예외는 아니지만 빈 응답(소프트 스로틀)도 유지
-                sresult["scholars"].append(_prev_or_empty(name, uid, blk))
-                continue
-            sresult["scholars"].append(blk)
-            print(f"  scholar {name}: {len(blk['papers'])} cited, {len(blk['recent'])} recent")
+                print(f"! scholar {disp}: {e}", file=sys.stderr)
+                pv = _prev_or_empty(disp, uid, blk)
+                if auto and pv is not blk:
+                    pv["auto"] = True
+                return pv
+            blk["photo"] = ((data.get("author") or {}).get("thumbnail") or "")      # SerpAPI 저자 사진
+            blk["papers"] = sorted([_mk(a) for a in (data.get("articles") or [])[:scholar_full]],
+                                   key=lambda p: p.get("cites") or 0, reverse=True)  # 인용 많은 순 (Most cited)
+            blk["recent"] = sorted([_mk(a) for a in (data_r.get("articles") or [])[:scholar_full]],
+                                   key=lambda p: _yr(p.get("year")), reverse=True)   # 최근 발간 순 (Recent)
+            if not blk["papers"]:                                                    # 빈 응답(소프트 스로틀)도 유지
+                pv = _prev_or_empty(disp, uid, blk)
+                if auto and pv is not blk:
+                    pv["auto"] = True
+                return pv
+            print(f"  scholar {disp}: {len(blk['papers'])} cited, {len(blk['recent'])} recent")
+            return blk
+
+        # ① config(topics_config.yml scholars)에 손으로 적은 학자
+        for name, uid, _ in scholars_list:
+            sresult["scholars"].append(_build(name, uid))
+
+        # ② Scholar alert에서 발견됐지만 config엔 없는 학자 → Following에 같은 기준으로 자동 생성.
+        #    알림엔 이름만 있고 author_id가 없으므로 SerpAPI 프로필 검색으로 한 번 해석한다.
+        #    해석한 id는 scholars.json(alert_name)에 남아 다음 주부터 재검색하지 않는다.
+        #    신규 해석은 회당 상한(scholars_auto_cap)으로 묶어 SerpAPI 예산을 지킨다.
+        seen_base = set()
+        for name, _u, _ in scholars_list:
+            seen_base.add(str(name).split(" · ")[0].strip())
+        for s in sresult["scholars"]:
+            seen_base.add(str(s.get("name") or "").split(" · ")[0].strip())
+            if s.get("alert_name"):
+                seen_base.add(s["alert_name"])
+
+        alert_names = []
+        if ALERTS.exists():
+            try:
+                for it in json.loads(ALERTS.read_text(encoding="utf-8")).get("items", []):
+                    nm = (it.get("scholar") or "").strip()
+                    if nm and nm not in alert_names:
+                        alert_names.append(nm)
+            except Exception:
+                pass
+
+        auto_cap = int(cfg.get("scholars_auto_cap", 8))     # 신규 자동학자 해석 상한(SerpAPI 보호)
+        picked = _discover_alert_scholars(
+            alert_names, seen_base, prev_by_name,
+            lambda n: fetch_scholar_profile_id(n, serp_key), auto_cap,
+            log=lambda m: print(m, file=sys.stderr))
+        for disp, uid, nm in picked:
+            sresult["scholars"].append(_build(disp, uid, auto=True, alert_name=nm))
+
         SCHOLARS.write_text(_dump(sresult, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"✓ wrote {SCHOLARS.relative_to(ROOT)} — {len(sresult['scholars'])} scholars (Google Scholar)")
 
