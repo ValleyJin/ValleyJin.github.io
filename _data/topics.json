@@ -536,7 +536,45 @@
     {
       "topic": "NeurIPS",
       "query": "s2:NeurIPS",
-      "papers": []
+      "papers": [
+        {
+          "title": "Computational Complexity of Learning Neural Networks: Smoothness and Degeneracy",
+          "authors": "Daniely, A., Srebro, N., & Vardi, G.",
+          "year": 2023,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.52202/075280-3334",
+          "cites": 11,
+          "crank": "A*"
+        },
+        {
+          "title": "Inferring stochastic dynamics with growth from cross-sectional data",
+          "authors": "Zhang, S., Maddu, S., Qiu, X., & Chardès, V.",
+          "year": 2025,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2505.13197",
+          "cites": 5,
+          "crank": "A*"
+        },
+        {
+          "title": "Information-theoretic Generalization Analysis for Expected Calibration Error",
+          "authors": "Futami, F., & Fujisawa, M.",
+          "year": 2024,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2405.15709",
+          "cites": 23,
+          "crank": "A*"
+        },
+        {
+          "title": "GREAT Score: Global Robustness Evaluation of Adversarial Perturbation using Generative Models",
+          "authors": "Li, Z., Chen, P., & Ho, T.",
+          "year": 2023,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2304.09875",
+          "cites": 8,
+          "crank": "A*"
+        }
+      ],
+      "count": 13699
     },
     {
       "topic": "ICML",
@@ -584,7 +622,45 @@
     {
       "topic": "ICLR",
       "query": "s2:ICLR",
-      "papers": []
+      "papers": [
+        {
+          "title": "DiffusER: Diffusion via Edit-based Reconstruction",
+          "authors": "Reid, M., Hellendoorn, V. J., & Neubig, G.",
+          "year": 2023,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/0004c4e27e54f13577951416d8ed476e93f00ef9",
+          "cites": 40,
+          "crank": "A*"
+        },
+        {
+          "title": "Exploiting Hidden Symmetry to Improve Objective Perturbation for DP Linear Learners with a Nonsmooth L1-Norm",
+          "authors": "Chen, D., & Chua, G. A.",
+          "year": 2025,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/00094e8c9e3cff020fcc75ced74a751b1104fe8b",
+          "cites": 0,
+          "crank": "A*"
+        },
+        {
+          "title": "Generative Learning for Financial Time Series with Irregular and Scale-Invariant Patterns",
+          "authors": "Huang, H., Chen, M., & Qiao, X.",
+          "year": 2024,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/001d5eac903cee1be4b04b5fd6011034f18be3d1",
+          "cites": 69,
+          "crank": "A*"
+        },
+        {
+          "title": "Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs",
+          "authors": "Fu, H., Yao, J., Gottesman, O., Doshi-Velez, F., & Konidaris, G.",
+          "year": 2023,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/003b229489d88890674f0c6bffa41fed8df93cec",
+          "cites": 2,
+          "crank": "A*"
+        }
+      ],
+      "count": 6730
     },
     {
       "topic": "CVPR",
@@ -812,45 +888,7 @@
     {
       "topic": "ICCV",
       "query": "s2:ICCV",
-      "papers": [
-        {
-          "title": "On the Complexity-Faithfulness Trade-Off of Gradient-Based Explanations",
-          "authors": "Mehrpanah, A., Gamba, M., Smith, K. A., & Azizpour, H.",
-          "year": 2025,
-          "venue": "IEEE International Conference on Computer Vision",
-          "url": "https://doi.org/10.1109/ICCV51701.2025.00337",
-          "cites": 2,
-          "crank": "A*"
-        },
-        {
-          "title": "Computationally-Efficient Neural Image Compression with Shallow Decoders",
-          "authors": "Yang, Y., & Mandt, S.",
-          "year": 2023,
-          "venue": "IEEE International Conference on Computer Vision",
-          "url": "https://doi.org/10.1109/ICCV51070.2023.00055",
-          "cites": 52,
-          "crank": "A*"
-        },
-        {
-          "title": "Generalized Few-Shot Point Cloud Segmentation Via Geometric Words",
-          "authors": "Xu, Y., Hu, C., Zhao, N., & Lee, G. H.",
-          "year": 2023,
-          "venue": "IEEE International Conference on Computer Vision",
-          "url": "https://doi.org/10.1109/ICCV51070.2023.01966",
-          "cites": 20,
-          "crank": "A*"
-        },
-        {
-          "title": "OVA-Fields: Weakly Supervised Open-Vocabulary Affordance Fields for Robot Operational Part Detection",
-          "authors": "Su, H., Xie, M., Cao, N., Ding, Y., Shao, B., Long, X., et al.",
-          "year": 2025,
-          "venue": "IEEE International Conference on Computer Vision",
-          "url": "https://doi.org/10.1109/ICCV51701.2025.00602",
-          "cites": 7,
-          "crank": "A*"
-        }
-      ],
-      "count": 4626
+      "papers": []
     },
     {
       "topic": "ECCV",
