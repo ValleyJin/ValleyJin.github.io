@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-17",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -142,7 +142,7 @@
           "title": "Memorilla: Latent Semantic Memory for LLMs",
           "authors": "A Fallahpour, P Idehpour, V Kothapalli, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.21375",
           "cites": 0,
           "pubdate": "2026-10-15",
@@ -156,7 +156,7 @@
           "title": "ContextLift: Breaking the Spurious Correlation Behind Conditional Emergent Misalignment",
           "authors": "F Mai, D Kaczér",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.21633",
           "cites": 0,
           "pubdate": "2026-10-15",
