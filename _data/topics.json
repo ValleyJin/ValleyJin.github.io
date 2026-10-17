@@ -129,6 +129,16 @@
           "qcat": "Computer Science (miscellaneous)"
         },
         {
+          "title": "Graph Databases: Revolutionizing Database Design and Data Analysis",
+          "authors": "Baqal, H. M. A., & Sidiq, M. A.",
+          "year": 2024,
+          "venue": "Current Journal of Applied Science and Technology",
+          "url": "https://doi.org/10.9734/cjast/2024/v43i114443",
+          "cites": 4,
+          "fwci": 0.56,
+          "nr": "na"
+        },
+        {
           "title": "Testing Graph Databases with Synthesized Queries",
           "authors": "Yin, Z., Liu, S., & Basin, D.",
           "year": 2025,
@@ -137,16 +147,6 @@
           "cites": 2,
           "fwci": 4.74,
           "pct": 10,
-          "nr": "na"
-        },
-        {
-          "title": "Graph Databases: Revolutionizing Database Design and Data Analysis",
-          "authors": "Baqal, H. M. A., & Sidiq, M. A.",
-          "year": 2024,
-          "venue": "Current Journal of Applied Science and Technology",
-          "url": "https://doi.org/10.9734/cjast/2024/v43i114443",
-          "cites": 4,
-          "fwci": 0.56,
           "nr": "na"
         },
         {
@@ -845,7 +845,45 @@
     {
       "topic": "EMNLP",
       "query": "s2:EMNLP",
-      "papers": []
+      "papers": [
+        {
+          "title": "Solving Hard Analogy Questions with Relation Embedding Chains",
+          "authors": "Kumar, N., & Schockaert, S.",
+          "year": 2023,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2310.12379",
+          "cites": 1,
+          "crank": "A*"
+        },
+        {
+          "title": "FaST: Feature-aware Sampling and Tuning for Personalized Preference Alignment with Limited Data",
+          "authors": "Thonet, T., Kruszewski, G., Rozen, J., Erbacher, P., & Dymetman, M.",
+          "year": 2025,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2508.04698",
+          "cites": 7,
+          "crank": "A*"
+        },
+        {
+          "title": "Can LLM be a Personalized Judge?",
+          "authors": "Dong, Y. R., Hu, T., & Collier, N.",
+          "year": 2024,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2406.11657",
+          "cites": 141,
+          "crank": "A*"
+        },
+        {
+          "title": "CRAB: Assessing the Strength of Causal Relationships Between Real-world Events",
+          "authors": "Romanou, A., Montariol, S., Paul, D., Laugier, L., Aberer, K., & Bosselut, A.",
+          "year": 2023,
+          "venue": "Conference on Empirical Methods in Natural Language Processing",
+          "url": "https://doi.org/10.48550/arXiv.2311.04284",
+          "cites": 49,
+          "crank": "A*"
+        }
+      ],
+      "count": 8136
     },
     {
       "topic": "ICCV",
