@@ -191,7 +191,10 @@ def main():
             return m[-1].strip() if len(m) > 1 else ""
         for it in items:
             it.update(gt.badge(_venue(it), _sci, _core, None, _vidx, w=None))
-    except Exception as e:
+    except BaseException as e:
+        # 배지는 선택적 꾸밈이다. gen_topics import가 의존성(pyyaml) 없이 sys.exit(SystemExit)
+        # 하더라도 alert 본문은 그대로 쓰고 넘어간다. except Exception만 두면 SystemExit이
+        # 빠져나가 워크플로 전체가 죽는다(2026-09-23 이후 alert 갱신이 멈춘 원인).
         print("! alert badge skipped: %s" % e, file=sys.stderr)
 
     OUT.write_text(_dump({"generated": date.today().isoformat(),

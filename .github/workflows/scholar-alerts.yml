@@ -19,6 +19,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - name: Install deps
+        run: pip install --quiet pyyaml    # gen_topics(배지/품질 재사용) import에 필요
       - name: Fetch Google Scholar alert emails (Gmail IMAP)
         env:
           GMAIL_USER: scholararticleforwarding@gmail.com

@@ -1087,6 +1087,25 @@ def main():
             except Exception:
                 return 0
 
+        # SerpAPI 무료예산은 월 한도가 있어 자주 429(Too Many Requests)가 난다. 그때 빈 블록을
+        # 그대로 저장하면 Following의 학자별 논문 리스트가 통째로 사라진다(실제로 그렇게 비었다).
+        # 그래서 이전 scholars.json을 읽어 두고, 조회가 실패하거나 빈 결과면 지난 데이터를 유지한다.
+        prev_sch = {}
+        if SCHOLARS.exists():
+            try:
+                for b in json.loads(SCHOLARS.read_text(encoding="utf-8")).get("scholars", []):
+                    if b.get("papers"):
+                        prev_sch[b.get("id") or b.get("name")] = b
+            except Exception:
+                pass
+
+        def _prev_or_empty(name, uid, blk):
+            pv = prev_sch.get(uid) or prev_sch.get(name)
+            if pv and pv.get("papers"):
+                print(f"  scholar {name}: 조회 실패/빈 결과 — 기존 {len(pv['papers'])}편 유지", file=sys.stderr)
+                return pv
+            return blk
+
         for name, uid, _ in scholars_list:
             blk = {"name": name, "id": uid, "papers": [], "recent": []}
             try:
@@ -1094,13 +1113,16 @@ def main():
                 data_r = fetch_scholar(uid, serp_key, 40, sort="pubdate")           # 최근순 한 페이지(인라인 Recent용)
             except Exception as e:
                 print(f"! scholar {name}: {e}", file=sys.stderr)
-                sresult["scholars"].append(blk)
+                sresult["scholars"].append(_prev_or_empty(name, uid, blk))
                 continue
             blk["photo"] = ((data.get("author") or {}).get("thumbnail") or "")     # SerpAPI 저자 사진(안정적 URL)
             blk["papers"] = [_mk(a) for a in (data.get("articles") or [])[:scholar_full]]
             blk["papers"].sort(key=lambda p: p.get("cites") or 0, reverse=True)     # 인용 많은 순 (Most cited)
             blk["recent"] = [_mk(a) for a in (data_r.get("articles") or [])[:scholar_full]]
             blk["recent"].sort(key=lambda p: _yr(p.get("year")), reverse=True)      # 최근 발간 순 (Recent)
+            if not blk["papers"]:                                                   # 예외는 아니지만 빈 응답(소프트 스로틀)도 유지
+                sresult["scholars"].append(_prev_or_empty(name, uid, blk))
+                continue
             sresult["scholars"].append(blk)
             print(f"  scholar {name}: {len(blk['papers'])} cited, {len(blk['recent'])} recent")
         SCHOLARS.write_text(_dump(sresult, ensure_ascii=False, indent=2), encoding="utf-8")
