@@ -2,7 +2,7 @@ name: Sync Google Scholar
 
 on:
   schedule:
-    - cron: "30 20 * * *"      # daily 20:30 UTC = 05:30 KST
+    - cron: "0 0 * * 5"        # weekly Fri 00:00 UTC = Fri 09:00 KST (SerpAPI 무료예산 보호: 주 1회)
   workflow_dispatch: {}
   push:
     branches: [ main ]

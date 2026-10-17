@@ -9,7 +9,7 @@ Google Scholar has no API; OpenAlex is free, keyless, and structured — see
 study/13 (and study/08 for the Scholar author feed).
 """
 import json, os, re, sys, time, urllib.request, urllib.parse, urllib.error
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime, timezone
 from pathlib import Path
 
 try:
@@ -1063,8 +1063,18 @@ def main():
     # ── 팔로우 학자들의 최신 논문 → scholars.json (Google Scholar via SerpAPI) ──
     scholars_list = parse_topics(cfg.get("scholars", ""))   # "표시명 | scholar user id"
     serp_key = os.environ.get("SERPAPI_KEY")
+    # 저자 동기화는 SerpAPI를 쓴다. 무료예산(월 100검색)을 지키려 주 1회(금요일 KST)만 돈다.
+    # topics.yml 자체는 매일 돌며 newest(OpenAlex, 무료)를 갱신하고, 이 scholar 블록만 금요일에
+    # 탄다. 그 외 요일엔 기존 scholars.json을 그대로 둔다(보존 로직이 리스트를 계속 보여줌).
+    # 팔로우 인원이 늘어도 주 1회면 한도 안이다(현재 9콜/회 × 4.3회 ≈ 39/월, 본인 프로필 포함 ~44/월).
+    # 수동 실행은 SCHOLARS_FORCE=1 로 요일과 무관하게 돌릴 수 있다(topics.yml이 dispatch 때 설정).
+    _kst = datetime.now(timezone(timedelta(hours=9)))
+    _force = os.environ.get("SCHOLARS_FORCE", "").strip().lower() in ("1", "true", "yes")
+    _run_scholars = (_kst.weekday() == 4) or _force          # 4 = 금요일(KST)
     if not serp_key:
         print("· SERPAPI_KEY 없음 — scholars.json 유지(키 있는 Action에서 채워짐).", file=sys.stderr)
+    elif not _run_scholars:
+        print(f"· 저자 동기화는 주 1회(금 KST)만 — 오늘은 {_kst:%a}({_kst:%Y-%m-%d}) 건너뜀, scholars.json 유지(SerpAPI 예산 보호).", file=sys.stderr)
     else:
         per_scholar = int(cfg.get("per_scholar", 5))
         scholar_full = int(cfg.get("scholar_full", 300))   # 저자 전체화면용 저장 수(인라인은 템플릿에서 제한)

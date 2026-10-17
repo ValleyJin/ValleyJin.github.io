@@ -35,6 +35,8 @@ jobs:
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}     # 팔로우 학자 = Google Scholar via SerpAPI
           OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}   # OpenAlex 개인 예산(있으면 429 회피)
+          # 저자 동기화는 평소 금요일(KST)만 — 수동 실행 때는 요일과 무관하게 강제로 돌린다.
+          SCHOLARS_FORCE: ${{ github.event_name == 'workflow_dispatch' }}
         run: python tools/gen_topics.py
 
       - name: Commit if changed
