@@ -579,7 +579,45 @@
     {
       "topic": "ICML",
       "query": "s2:ICML",
-      "papers": []
+      "papers": [
+        {
+          "title": "Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality",
+          "authors": "Southern, J., Eitan, Y., Bar-Shalom, G., Bronstein, M. M., Maron, H., & Frasca, F.",
+          "year": 2025,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://doi.org/10.48550/arXiv.2501.03113",
+          "cites": 7,
+          "crank": "A*"
+        },
+        {
+          "title": "High-dimensional Clustering onto Hamiltonian Cycle",
+          "authors": "Huang, T., Cheng, S., Li, S., & Zhang, Z.",
+          "year": 2023,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://doi.org/10.48550/arXiv.2304.14531",
+          "cites": 12,
+          "crank": "A*"
+        },
+        {
+          "title": "High-Dimensional Tensor Regression With Oracle Properties",
+          "authors": "Wang, W., Shi, Y., & Zhao, Z.",
+          "year": 2025,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://www.semanticscholar.org/paper/000e9fb2207f1e40b2195a4d376d8ff46eb54bb7",
+          "cites": 0,
+          "crank": "A*"
+        },
+        {
+          "title": "The Number of Trials Matters in Infinite-Horizon General-Utility Markov Decision Processes",
+          "authors": "Santos, P. P., Sardinha, A., & Melo, F. S.",
+          "year": 2024,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://doi.org/10.48550/arXiv.2409.15128",
+          "cites": 3,
+          "crank": "A*"
+        }
+      ],
+      "count": 7323
     },
     {
       "topic": "ICLR",
@@ -764,7 +802,45 @@
     {
       "topic": "ACL",
       "query": "s2:ACL",
-      "papers": []
+      "papers": [
+        {
+          "title": "From Information to Insight: Leveraging LLMs for Open Aspect-Based Educational Summarization",
+          "authors": "Zhong, Y., & Litman, D. J.",
+          "year": 2025,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.95",
+          "cites": 3,
+          "crank": "A*"
+        },
+        {
+          "title": "QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning and Descriptions",
+          "authors": "Wang, S., Yu, W., Chen, X., Tian, X., Zhang, J., Lu, L., et al.",
+          "year": 2025,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.48550/arXiv.2503.20290",
+          "cites": 34,
+          "crank": "A*"
+        },
+        {
+          "title": "AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models",
+          "authors": "Wu, Y., Yu, W., Cheng, Y., Wang, Y., Zhang, X., Xu, J., et al.",
+          "year": 2024,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.48550/arXiv.2406.09295",
+          "cites": 10,
+          "crank": "A*"
+        },
+        {
+          "title": "MedScore: Generalizable Factuality Evaluation of Open-ended Long-form Medical Answers by Domain-adapted Claim Decomposition and Verification",
+          "authors": "Huang, H., DeLucia, A., Tiyyala, V., & Dredze, M.",
+          "year": 2025,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.18653/v1/2026.findings-acl.693",
+          "cites": 6,
+          "crank": "A*"
+        }
+      ],
+      "count": 11921
     },
     {
       "topic": "EMNLP",
