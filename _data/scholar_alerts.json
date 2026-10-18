@@ -1,7 +1,213 @@
 {
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "A RAG-enhanced multi-agent LLM/VLM framework for auditable and region-aware structural health monitoring of a historic masonry structure",
+      "url": "https://www.nature.com/articles/s41598-026-57424-2",
+      "authors": "K Hacıefendioğlu, V Kahya, T Aslan - Scientific Reports, 2026",
+      "snippet": "Historic masonry structures require monitoring workflows that are non-destructive, interpretable, and robust to field variability. This paper presents a proof-of-concept, RAG-enhanced structural health monitoring (SHM) workflow demonstrated on a single historic masonry minaret case study, in which a manager–orchestrator coordinates signal analysis, visual analysis, and cross-modal fusion. Vibration data from four sensors installed on this minaret are processed through a reproducible …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary"
+    },
+    {
+      "title": "Agentic Presence Architecture and Deployment Audit for Proactive Embodied Agents in Extended Reality",
+      "url": "https://www.mdpi.com/2079-9292/15/20/4736",
+      "authors": "S Ban - Electronics, 2026",
+      "snippet": "Proactive embodied agents in extended reality (XR) require an explicit interface between inferred user need and embodied intervention. We present Agentic Presence, a six-layer reference architecture integrating multimodal context, intent inference, local initiative arbitration, anticipatory scheduling, and embodied actuation. Its audit separates theoretical decision regions, sensor reachability, and decisions issued under runtime constraints. A Unity implementation on tethered Meta …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "q": "Q4",
+      "sjr": 0.14,
+      "qcat": "Electrical and Electronic Engineering"
+    },
+    {
+      "title": "Do Androids Dream of Unseen Puppeteers? Probing for Conspiratorial Tendencies in Large Language Models",
+      "url": "https://re.public.polimi.it/bitstream/11311/1329298/1/2511.03699v2.pdf",
+      "authors": "F Corso, F Pierri - Proceedings of the 2026 Conference on Empirical …, 2026",
+      "snippet": "Abstract We investigate whether Large Language Models (LLMs) exhibit conspiratorial tendencies, whether they display socio-demographic biases in this domain, and how easily they can be conditioned into adopting conspiratorial perspectives. Conspiracy beliefs play a central role in the spread of misinformation and in shaping distrust toward institutions, making them an important testbed for assessing the social and psychological fidelity of LLMs and their potential to …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "From Equations to Prompts: Integrating LLMs into a Hybrid Macroeconomic ABM",
+      "url": "https://www.bankofgreece.gr/Publications/Paper2026371.pdf",
+      "authors": "G Papadopoulos - 2026",
+      "snippet": "Agent-based models (ABMs) typically rely on equations to incorporate agents' decision-making, ranging from ad-hoc rules or simple heuristics to complex, theory-or data-driven approaches. Recent advances in large language models (LLMs) make it possible to represent economic decisionmaking through prompts to LLM-driven agents instead of explicitly specified behavioural equations. However, whether such agents can feasibly replace individual components in an ABM and the …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "A Modular Review of the Evidence for Harmful Manipulation by Large Language Models",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352250X26002174",
+      "authors": "JF Bonnefon, C Prunkl - Current Opinion in Psychology, 2026",
+      "snippet": "Harmful manipulation by large language models (LLMs) is now a regulatory concern, yet the empirical evidence remains difficult to assess. Harmful manipulation involves multiple features: an influence goal, tactics that bypass reasons or exploit vulnerabilities, limited target awareness, successful influence, and harmful outcomes, which existing studies rarely capture together. This review organizes the literature by progressively stronger constellations of these features. Some studies …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "q": "Q1",
+      "sjr": 3.43,
+      "qcat": "Psychology (miscellaneous)"
+    },
+    {
+      "title": "DSGA: Domain-Specific Generative Augmentation for Cross-Domain Few-Shot Chest X-ray Disease Recognition",
+      "url": "https://www.sciencedirect.com/science/article/pii/S156625352600758X",
+      "authors": "H Wu, Z Zheng, W Wang, L Lv, D Bardou, G Yu - Information Fusion, 2026",
+      "snippet": "Few-shot learning for chest X-ray disease recognition is challenging due to the significant domain shift between natural images and medical radiographs, compounded by the limited availability of labeled target domain data. To address this issue, we propose Domain-Specific Generative Augmentation (DSGA), a novel cross-domain few-shot learning framework that integrates transformation-based augmentation during meta-training and model-driven generative augmentation …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "q": "Q1",
+      "sjr": 4.2,
+      "qcat": "Hardware and Architecture"
+    },
+    {
+      "title": "RT-J: Large-Scale Pretraining of Relational Transformers for Context-Efficient Predictions",
+      "url": "https://arxiv.org/pdf/2610.17867",
+      "authors": "R Ranjan, V Kothapalli, H Agarwal, C Kanatsoulis… - arXiv preprint arXiv …, 2026",
+      "snippet": "Foundation models for tables and relational databases are increasingly used for predictive tasks across various scientific and industrial domains. However, adapting existing models to unseen datasets requires tens of thousands of examples. Here we introduce RT-J, an 85M-parameter relational foundation model (RFM) that makes accurate predictions even with hundreds of in-context examples or fewer. To achieve this, we first assemble the Join, a large collection of 639 web-crawled databases with …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "AI-enabled phenomics of combined abiotic stress: Linking field signatures to plant multi-omics",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0981942826008065",
+      "authors": "SIU Haq, SN Khan, M Ibrahim, G Wang, C Song… - Plant Physiology and …, 2026",
+      "snippet": "Climate change is driving a rise in the frequency of simultaneous abiotic stresses in cropping systems, yet combined stresses elicit physiological and molecular responses that cannot be reliably inferred from single-stress studies. AI-enabled high-throughput phenomics offers a scalable means of detecting these responses in the field, but the biological meaning of AI-derived phenomic signatures and their relationship to underlying molecular processes remain insufficiently resolved. This …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "q": "Q1",
+      "sjr": 2.22,
+      "qcat": "Genetics"
+    },
+    {
+      "title": "Sustainable and Synergistic Energy Management for Large Model Computing",
+      "url": "https://www.sciltp.com/journals/aieng/articles/2609005234",
+      "authors": "J Hao, Y Tao - AI Engineering, 2026",
+      "snippet": "The rapid growth of foundation models, most prominently large language models (LLMs), is turning the electricity consumption of computing infrastructure into a first-order constraint on the artificial intelligence (AI) industry. This review synthesizes recent literature on three levers for reconciling large-model computing with power-system limits: green energy supply, green computing, and computing-energy synergy (CES), ie, the coordinated operation of computing infrastructure and power systems …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "IA GENERATIVA Y SU ROL EN LA EVALUACIÓN COGNITIVA",
+      "url": "https://books.google.com/books?hl=ko&lr=&id=6twaEgAAQBAJ&oi=fnd&pg=PA49&ots=1-CwFXPm1V&sig=O9E5jXoj1pgbfo7ECfYoNgkzF_s",
+      "authors": "J García - Tecnologías disruptivas en la evaluación cognitiva: IA y …",
+      "snippet": "En las últimas décadas, la evaluación cognitiva ha sido una de las piedras angulares de disciplinas como la psicología, la educación y la neurociencia (Lezak et al., 2012). La evaluación cognitiva se entiende como el conjunto de procedimientos sistemáticos diseñados para medir, analizar y describir diversas funciones cognitivas, incluyendo la memoria, la atención, el razonamiento y otras habilidades superiores (Goldstein & McNeil, 2012). Tradicionalmente, esta …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "Batch-Paced: Fixed-Budget Batch Decoding in Discrete Diffusion Language Models",
+      "url": "https://arxiv.org/pdf/2610.17917",
+      "authors": "S Zhang, Z Zhou, H Qiu, A Li, Z Lan - arXiv preprint arXiv:2610.17917, 2026",
+      "snippet": "As generative language models become more capable and widely used, inference demand grows, making efficient serving increasingly important. Discrete diffusion language models (dLLMs) offer a promising path to more efficient inference through parallel token generation. Prior dLLM decoding methods, however, focus on improving inference efficiency for individual sequences. We formulate fixed-budget dLLM batch decoding and introduce Batch-Paced, a training-free method that jointly …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "RCER: Reconstructing Cross-Evidence Relations for Iterative Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/pdf/2610.19398",
+      "authors": "L Zheng, X Shi, Z Mao, X Hou, S Zhou - arXiv preprint arXiv:2610.19398, 2026",
+      "snippet": "Iterative retrieval-augmented generation (RAG) accumulates knowledge from retrieved evidence to answer complex questions, but existing methods struggle to reconstruct entity correspondences and inferential dependencies across retrieved passages as new information emerges. We propose RCER, an iterative RAG method that reconstructs these cross-evidence relations directly from accumulated source passages. Inter-round relational evidence acquisition identifies entity …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "Hydrovoltaic-Driven Self-Powered Sensors for IoT and Healthcare Applications: A Review",
+      "url": "https://jsstec.org/_PR/view/?aidx=50923&bidx=4559",
+      "authors": "M Lee, S Park, SY Kim, JG Son, JS Jang, S Hur - JOURNAL OF SENSOR SCIENCE AND …",
+      "snippet": "Self-powered sensors capable of operating without external batteries are essential for realizing autonomous, sustainable sensing platforms required by the Internet of Things (IoT) and healthcare technologies. Among various ambient energy harvesting strategies, hydrovoltaic technology converts solid-water interactions into electricity through interfacial charge redistribution, electrical double layer formation, and ion transport. Harnessing the ubiquitous moisture across natural, biological, and human …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-18",
+      "q": "Q4",
+      "sjr": 0.18,
+      "qcat": "Chemical Engineering (miscellaneous)"
+    },
+    {
+      "title": "Engineering the microbial architects: a genetic revolution in bio-electrochemical hydrogen production",
+      "url": "https://www.sciencedirect.com/science/article/pii/S073497502600282X",
+      "authors": "P Kumar, S Sharma, A Rana, M Vaidya, AKL Singh - Biotechnology Advances, 2026",
+      "snippet": "Microorganisms, endowed with extraordinary metabolic versatility and environmental adaptability, represent a transformative frontier for addressing global sustainability imperatives. Engineering microbial systems through regulatory network rewiring and synthetic biology-driven functional augmentation substantially amplifies their biotechnological utility. Herein, we review the convergence of synthetic biology, bio-electrocatalysis, and reactor engineering as an integrated framework for sustainable …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-18",
+      "q": "Q1",
+      "sjr": 2.76,
+      "qcat": "Applied Microbiology and Biotechnology"
+    },
+    {
+      "title": "Recent advances in supercritical CO2-assisted spray particle formation technologies",
+      "url": "https://link.springer.com/article/10.1007/s40005-026-00836-z",
+      "authors": "JS Kim, ES Ha, MS Kim, H Park, SJ Hwang - Journal of Pharmaceutical Investigation, 2026",
+      "snippet": "Background Particle engineering critically affects the physicochemical properties, dissolution rate, and bioavailability of pharmaceutical products. Conventional supercritical fluid (SCF)-based particle formation processes offer distinct advantages but have limited industrial application, particularly because they require large-volume and high-pressure vessels. Supercritical CO₂ (scCO₂)-assisted spray particle formation technologies—including supercritical-assisted atomization (SAA) …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-18",
+      "q": "Q1",
+      "sjr": 0.95,
+      "qcat": "Pharmaceutical Science"
+    },
+    {
+      "title": "Machine Learning Models Trained on a Longitudinal Survey Dataset Poorly Predict Hundreds of Life Outcomes",
+      "url": "https://arxiv.org/pdf/2610.17115",
+      "authors": "EM Cantrell, P Anchuri, H Ren, MJ Salganik - arXiv preprint arXiv:2610.17115, 2026",
+      "snippet": "Understanding the predictability of life outcomes is important for public policy and science, but existing studies focus on a limited number of outcomes and therefore struggle to describe the broad patterns of predictability. We developed a high …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "Probable but Not Valid: A Psychometric Audit of Decision Models as Synthetic Survey Respondents",
+      "url": "https://arxiv.org/pdf/2610.14912",
+      "authors": "M Lukauskas, V Šarkauskaitė - arXiv preprint arXiv:2610.14912, 2026",
+      "snippet": "Language models are increasingly used to create synthetic survey samples, also called silicon samples. Decision models are a new class of language models that return a probability for each point of a rating scale instead of text. We ask whether …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams",
+      "url": "https://arxiv.org/pdf/2610.15788",
+      "authors": "Y Qi, X Zhang, J Yoon - arXiv preprint arXiv:2610.15788, 2026",
+      "snippet": "Large language model (LLM) agents are increasingly deployed as teams, yet they fail in characteristically social ways: information holders stay silent, dominant speakers anchor groups on wrong answers, and norm violations go unsanctioned …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
+    {
+      "title": "Social Priors: Descriptions of AI Users Shape How Language Models Trust and Cooperate",
+      "url": "https://arxiv.org/pdf/2610.16946",
+      "authors": "H Kumar, G Eilender, A Anderson - arXiv preprint arXiv:2610.16946, 2026",
+      "snippet": "Descriptions of how people use AI are becoming training data for the next generation of models. We ask whether what a model reads about its users changes how it treats people. Using contrastive synthetic-document finetuning, we train Qwen3-32B on …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-18",
+      "nr": "na"
+    },
     {
       "title": "Vora: A Vector-Based Engine for Scalable GPU-Accelerated Subgraph Query Processing",
       "url": "https://gh8li.github.io/assets/pdf/vora.pdf",
@@ -220,208 +426,6 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-10-16",
-      "nr": "na"
-    },
-    {
-      "title": "Evaluating SAM2 Automatic Mask Generation for Petrographic Thin Sections: Effects of Parameter Tuning",
-      "url": "https://www.mdpi.com/2075-163X/16/10/1033/pdf",
-      "authors": "M Boukadida, K Bouchard, J Maitre, LP Bedard - Minerals, 2026",
-      "snippet": "Optical thin-section segmentation remains difficult because petrographic images combine fine textures, strong local variability, and often ambiguous phase boundaries. This study evaluates the effect of automatic mask-generator parameter tuning for a fixed pretrained SAM2 model in a fully automatic zero-shot setting. The experiments were conducted on six petrographic thin sections, with five slides used for cross-slide parameter evaluation and one additional slide reserved for a final hold …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
-      "q": "Q2",
-      "sjr": 0.58,
-      "qcat": "Geology"
-    },
-    {
-      "title": "Scale-up strategies for microbial electrosynthesis of methane from CO2: Reactor enlargement versus parallel stacking",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1385894726104215",
-      "authors": "TH Chung, A Mou, R Elsersawy, SK Dhillon… - Chemical Engineering …, 2026",
-      "snippet": "Microbial electrosynthesis (MES) offers a sustainable approach for converting CO 2 into biomethane, providing the dual benefits of renewable energy generation and greenhouse gas mitigation. However, scaling MES from laboratory systems to practical applications remains a major challenge, as performance is often hindered by increased internal resistance, mass transfer limitations, and uneven current distribution in larger or multi-reactor configurations. In this study, we systematically …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-16",
-      "q": "Q1",
-      "sjr": 6.51,
-      "qcat": "Biochemistry"
-    },
-    {
-      "title": "System and method for automated path discovery of joinable tables in database backups",
-      "url": "https://patents.google.com/patent/US20260228086A1/en",
-      "authors": "O Amir, A Natanzon, I Surdin, R KIMCHI, Y Ptashnik… - US Patent App. 19/076,589, 2026",
-      "snippet": "A method and system for constructing a join graph from normalized data are provided. The method includes receiving normalized data derived from a plurality of database tables, wherein the normalized data corresponds to columns that have been standardized to a format across the plurality of database tables; identifying one or more unique identifier columns among the plurality of database tables in the normalized data, wherein each unique identifier column includes values that enable …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-16",
-      "nr": "na"
-    },
-    {
-      "title": "When humans and agents form a collective: a framework for collective intelligence in persistent organizational human-AI teams",
-      "url": "https://www.frontiersin.org/journals/organizational-psychology/articles/10.3389/forgp.2026.1941058/pdf",
-      "authors": "A Rovetta, A Bortolotti, C Di Berardino - Frontiers in Organizational Psychology, 2026",
-      "snippet": "Artificial systems increasingly participate in organizational work as recurrent contributors to interdependent activity, yet research remains fragmented across system capabilities, individual responses, episodic interactions, and constructs derived from human-only teams. This article develops Organismic Human-Artificial Intelligence (OHAI) as a bounded integrative theoretical framework for studying collective intelligence in persistent organizational human-AI teams. Its focal unit is a …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "Simworld: An open-ended simulator for agents in physical and social worlds",
-      "url": "https://dl.acm.org/doi/abs/10.52202/085713-5519",
-      "authors": "X Ye, J Ren, Y Zhuang, X He, Y Liang, Y Yang… - Proceedings of the 39th …, 2025",
-      "snippet": "While LLM/VLM-powered AI agents have advanced rapidly in math, coding, and computer use, their applications in complex physical and social environments remain challenging. Building agents that can survive and thrive in the real world (eg, by autonomously earning income) requires massive-scale interaction, rea soning, training, and evaluation across diverse scenarios. However, existing world simulators for such development fall short: they often rely on limited hand-crafted …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "From Retrieval to Evidence: A Task-Adaptive Two-Layer Knowledge Architecture for LLM Agents",
-      "url": "https://www.mdpi.com/2504-4990/8/10/322",
-      "authors": "A Volkov, T Pustovoy, D Istomin, T Otbetkina - Machine Learning and Knowledge …, 2026",
-      "snippet": "Retrieval-augmented generation and structured agent memory are commonly treated as competing ways to ground large language models. Our results show that their relative value changes with the task and that neither retrieved similarity nor graph association is sufficient evidence for an answer. We present a task-adaptive two-layer methodology combining a compact, reviewed knowledge layer for orientation and cross-source synthesis with a versioned evidence layer for exact lookup and …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "q": "Q1",
-      "sjr": 1.55,
-      "qcat": "Artificial Intelligence"
-    },
-    {
-      "title": "A two-way assessment of agentic AI in supply chains: the technical–managerial divide",
-      "url": "https://link.springer.com/article/10.1007/s13198-026-03451-1",
-      "authors": "R Sindhwani, N Hasteer, PK Kapur - … Journal of System Assurance Engineering and …, 2026",
-      "snippet": "As industrial ecosystems evolve toward autonomous operations, traditional rule-based AI proves insufficient for handling dynamic uncertainties. Unlike static models that execute pre-defined instructions, Agentic AI introduces goal-directed autonomy, enabling systems to actively reason and adapt to disruption. However, deploying these agents in complex engineering environments creates significant challenges where operational speed often conflicts with sustainability mandates. This study …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "A Personal Social Robot for Structured Narrative Interaction in Narrative-Based Medicine",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11714547/",
-      "authors": "MG Miccoli, B De Carolis, G Palestra, S Massaro… - 2026 IEEE 35th …, 2026",
-      "snippet": "Narrative-Based Medicine (NBM) integrates traditional care with conversational approaches that address the psychosocial and emotional dimensions of illness. In assisted living and long-term care, social robots represent a promising medium for operationalizing the principles of NBM through continuous monitoring and interaction. However, purely generative Large Language Model (LLM)-based systems lack the structured dialogue strategies required for effective narrative …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "The Potential for Sustained Productivity Impetus from GenAI",
-      "url": "https://search.proquest.com/openview/be55edba9708f89dbbcfc59f7858eb3a/1?pq-origsite=gscholar&cbl=54904",
-      "authors": "MN Baily, DM Byrne, AT Kane, PE Soto - International Productivity Monitor, 2026",
-      "snippet": "With the advent of generative artificial intelligence (GenAI), the scope of AI has increased dramatically, but its effect on labour productivity remains uncertain. Some innovations raise labour productivity growth as adoption spreads but the effect fades when the market is saturated. In contrast, two types of innovation-general purpose technologies (GPTs) and inventions in the method of invention (IMIs)-have long-lasting effects on productivity growth. GPTs (1) are widely adopted,(2) spur knock-on …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "Privacy-Driven Adaptation of Augmented Reality Interfaces",
-      "url": "https://deepblue.lib.umich.edu/bitstreams/e0ace256-f04b-490d-a935-a98773b794a3/download",
-      "authors": "S Rajaram - 2026",
-      "snippet": "As augmented reality (AR) glasses become increasingly lightweight and intelligent, they are emerging as powerful tools to enhance everyday workflows. Equipped with environmental and biometric sensing capabilities, AR glasses analyze users' activities and superimpose digital content on top of their physical surroundings, providing in-situ assistance for learning, collaboration, accessibility, and beyond. However, these capabilities raise significant privacy concerns: AR interaction data …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "VMDT: Decoding the Trustworthiness of Video Foundation Models",
-      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/eb3a9313405e2d4175a5a3cfcd49999b-Abstract-Datasets_and_Benchmarks_Track.html",
-      "authors": "Y Potter, Z Wang, N Crispino, K Montgomery, A Xiong… - Advances in Neural …, 2026",
-      "snippet": "As foundation models become more sophisticated, ensuring their trustworthiness becomes increasingly critical; yet, unlike text and image, the video modality still lacks comprehensive trustworthiness benchmarks. We introduce VMDT (Video-Modal DecodingTrust), the first unified platform for evaluating text-to-video (T2V) and video-to-text (V2T) models across five key trustworthiness dimensions: safety, hallucination, fairness, privacy, and adversarial robustness. Through our extensive evaluation of 7 …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "The Missing Science of AI Evaluation",
-      "url": "https://search.proquest.com/openview/2e140c550a7e91b600709bafc9cb37a1/1?pq-origsite=gscholar&cbl=18750&diss=y",
-      "authors": "S Kapoor - 2026",
-      "snippet": "AI evaluations inform critical decisions, from the valuations of trillion-dollar companies to policies on regulating AI. Yet, evaluation methods have failed to keep pace with deployment, creating an evaluation crisis where performance in the lab fails to predict real-world utility. In this dissertation, I discuss the evaluation crisis in a number of domains. I start with one high-stakes domain: AI-based science. Across dozens of fields, from medicine to political science, I find that flawed evaluation …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "A Scalable Cloud–Edge Collaborative Channel Knowledge Map Construction Framework Enabled by a Foundation Prior Model",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11724591/",
-      "authors": "S Xiao, Y Zeng, H Rong, Y Tang - IEEE Transactions on Cognitive Communications …, 2026",
-      "snippet": "Channel knowledge maps (CKMs) provide a site-specific, location-indexed knowledge base that supports environment-aware communications and sensing in 6G networks. In practical deployments, CKM observations are often noisy and irregular due to coverage-induced sparsity and hardware-induced linear/nonlinear degradations. Conventional end-to-end algorithms couple CKM prior information with task-and device-specific observations, and require labeled data and separate …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-14",
-      "q": "Q1",
-      "sjr": 2.36,
-      "qcat": "Artificial Intelligence"
-    },
-    {
-      "title": "An Autonomous Data Analyst Framework Using Agent-Based Data Analysis",
-      "url": "https://www.computer.org/csdl/proceedings-article/assic/2026/11717346/2kryoCrsqDm",
-      "authors": "D Shah, L Kumari, S Routray - 2026 International Conference on Advancements in …, 2026",
-      "snippet": "The growing demand for data-driven decisionmaking has created a need to have new systems that can automate data analysis with very less of human intervention. Traditional analytics consist of various manual processes such as pre-processing of data, selection of analytical methods, selection of models and interpretation of results which are very time consuming and reliant on expertise. Current machine learning methods using automation ease the burden involved in the models but tend to be …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "A trajectory-tracking framework for autonomous vehicles with roll dynamics evaluation in constrained parking scenarios",
-      "url": "https://ieeexplore.ieee.org/iel8/6287639/6514899/11726801.pdf",
-      "authors": "V Van Tan, TN Thuan, DD Thien, PT Thang, DT Tu - IEEE Access, 2026",
-      "snippet": "This paper presents a trajectory-tracking framework with roll-dynamics evaluation for autonomous vehicles operating in constrained parking environments, in which tracking accuracy and roll-related responses are assessed under the same prescribed operating speed conditions. First, a reference trajectory is generated using the Hybrid A* algorithm to ensure geometric feasibility under parking constraints. An augmented error-state formulation based on the bicycle model is then …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-14",
-      "q": "Q1",
-      "sjr": 0.88,
-      "qcat": "Computer Science (miscellaneous)"
-    },
-    {
-      "title": "Role of olfactory receptor Olfr544 in neuronal cells: Insights into neurite outgrowth and CREB signaling",
-      "url": "https://www.cell.com/iscience/fulltext/S2589-0042(26)03138-X",
-      "authors": "S Lv, J Liu, Y Zhou, R Yang, T Zhang, Y Deng, Y Chen… - iScience, 2026",
-      "snippet": "Olfactory receptors (ORs) are expressed beyond the nasal epithelium and implicated in brain function, yet their roles remain unclear. This study investigated the function of the OR Olfr544, which has been reported to be highly expressed near amyloid plaques in Alzheimer's disease model mice, using the mouse neuroblastoma N2a cell line. We found that its agonist azelaic acid (AZA) promotes neurite outgrowth and activates the cAMP-PKA-CREB signaling cascade in an Olfr544-dependent manner …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-14",
-      "q": "Q1",
-      "sjr": 1.36,
-      "qcat": "Multidisciplinary"
-    },
-    {
-      "title": "ASurvey ON EXTERNAL MEMORY GRAPH ANALYTICS IN HETEROGENEOUS COMPUTING ENVIRONMENTS",
-      "url": "https://www.researchgate.net/profile/Prajjwal-Nijhara/publication/415338984_A_SURVEY_ON_EXTERNAL_MEMORY_GRAPH_ANALYTICS_IN_HETEROGENEOUS_COMPUTING_ENVIRONMENTS/links/6ac60ecf4b53e25e4220baa9/A-SURVEY-ON-EXTERNAL-MEMORY-GRAPH-ANALYTICS-IN-HETEROGENEOUS-COMPUTING-ENVIRONMENTS.pdf",
-      "authors": "P Nijhara, DS Banerjee",
-      "snippet": "The rapid growth of graph-structured data increasingly exceeds the fast-memory capacity of modern computing systems. When a graph exceeds DRAM, CPU-based systems process it from disk or SSD (out-of-core, OOC), when it exceeds GPU memory, host DRAM becomes the external tier, and the dominant bottleneck shifts from storage latency to host-device transfer bandwidth (out-of-GPU-memory, OOM). Existing surveys address these regimes separately, as multi-core CPU-disk …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "A Systematic Survey on Synthetic Knowledge Graph",
-      "url": "https://papers.dice-research.org/2026/TGDK_SKGG_Survey/public.pdf",
-      "authors": "AAM da Silva, M Röder, ACN Ngomo",
-      "snippet": "Abstract Knowledge graphs are the backbone of an increasing number of data-driven software solutions, where performance, ie, runtime and accuracy, depends critically on the data they process. Consequently, synthetic knowledge graph generators become essential tools for reliable evaluation and future performance prediction of knowledge graph-driven solutions. These generators address critical challenges, including the exponential growth of knowledge graphs, the difficulty in …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-14",
-      "nr": "na"
-    },
-    {
-      "title": "Pharmacokinetic Interaction Between Eperisone and Ojeok-San in Healthy Subjects",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42850974/",
-      "authors": "DH Keum, M Choi, KH Mo, S Yoon, MS Park, YW Kim… - 2026",
-      "snippet": "Ojeok-san is a traditional multiherbal formulation commonly prescribed for musculoskeletal symptoms in East Asian medicine. The concomitant use of herbal medicines and conventional pharmacotherapy is common in patients with musculoskeletal disorders; however, the pharmacokinetic (PK) interactions between eperisone and ojeok-san have not been evaluated. This was an open-label, randomized, single-dose, three-treatment, six-sequence, three-period crossover …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-14",
       "nr": "na"
     }
   ]
