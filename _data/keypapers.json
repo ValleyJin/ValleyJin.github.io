@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -139,6 +139,20 @@
       ],
       "citing": [
         {
+          "title": "Compression Precedes, Content Decides: Emergent Misalignment in Reward Models",
+          "authors": "D Puri, N Prakash",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.22805",
+          "cites": 0,
+          "pubdate": "2026-10-16",
+          "arxiv": "2610.22805",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-19",
+          "nr": "na"
+        },
+        {
           "title": "Memorilla: Latent Semantic Memory for LLMs",
           "authors": "A Fallahpour, P Idehpour, V Kothapalli, et al.",
           "year": 2026,
@@ -164,6 +178,20 @@
           "doi": null,
           "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-10-16",
+          "nr": "na"
+        },
+        {
+          "title": "Who Do Perspectivist Models Predict Well? Annotator Agreement, Sparsity, and Performance",
+          "authors": "L Lowmanstone, V Sivakumar, A Samaddar, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.22567",
+          "cites": 0,
+          "pubdate": "2026-10-15",
+          "arxiv": "2610.22567",
+          "doi": null,
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "first_seen": "2026-10-19",
           "nr": "na"
         },
         {
@@ -669,37 +697,9 @@
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "Subliminal Learning as Trait-Direction Drift: A Mechanism and Targeted Control under SFT Distillation",
-          "authors": "Z Liu, Z Dong, Y Fan,, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.01091",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": "2609.01091",
-          "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
-          "title": "VIBE-Bench: Evaluating Personalized Large Language Models When Profiles Don't Mean Preferences",
-          "authors": "Y Jiang, Y Deng, S Fong, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.00921",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": "2609.00921",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 370,
+      "n_citing": 372,
       "query": "persona generation"
     },
     "gABM": {
@@ -1527,7 +1527,7 @@
           "nr": "na"
         }
       ],
-      "n_citing": 489,
+      "n_citing": 490,
       "query": "agent-based modeling"
     }
   }
