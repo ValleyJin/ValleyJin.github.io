@@ -1,7 +1,239 @@
 {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+      "url": "https://arxiv.org/pdf/2609.31473",
+      "authors": "B Doerschuk-Tiberi, Y Yan, J Chiu, H Wang, T Chung… - arXiv preprint arXiv …, 2026",
+      "snippet": "We introduce Kaggle Game Arena, an open and ever-expanding platform to evaluate large language models (LLMs) through competitive games. Different from static benchmarks, game arena enables models to play head-to-head matchups in …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies",
+      "url": "https://arxiv.org/pdf/2609.26481",
+      "authors": "R Muralidharan, H Kwak, J An - arXiv preprint arXiv:2609.26481, 2026",
+      "snippet": "Social norms cannot be identified from behavior alone: the same cooperative equilibrium may reflect shared expectations, strategic incentives, or simple imitation. Yet in multi-agent large language model systems, prior work largely treats behavioral …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "How to Run Statistics over LLM Judges and Trust the Results: Calibrated Inference for Small-Sample AI Evaluation with evalstats",
+      "url": "https://arxiv.org/pdf/2609.35815",
+      "authors": "I Arawjo - arXiv preprint arXiv:2609.35815, 2026",
+      "snippet": "Researchers across academia increasingly base significance claims on LLM judge scores and small-sample AI evaluations. Yet without well-calibrated confidence intervals (CIs), hypothesis tests, and judge-bias corrections, such claims are …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
+      "url": "https://arxiv.org/pdf/2609.26926",
+      "authors": "Z He, Z Zhou, K Vanacore, RF Kizilcec, THK Huang - arXiv preprint arXiv:2609.26926, 2026",
+      "snippet": "Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could speed this process by …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Can LLMs identify and repair ruptures? Comparison between clinician practices and LLM behaviors",
+      "url": "https://arxiv.org/pdf/2609.25287",
+      "authors": "J Lee, JQ Zhong, D Goel, VJ Rodriguez, DW Yoo… - arXiv preprint arXiv …, 2026",
+      "snippet": "Ruptures represent common albeit critical moments in interaction where relational alignment breaks down, making them essential for evaluating AI where trust and engagement matter most. In a scenario-driven empirical study, we examined the …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Dataset Signatures in Human-LLM Interactions and User Modeling",
+      "url": "https://arxiv.org/pdf/2610.05534",
+      "authors": "J Suh, S Chang - arXiv preprint arXiv:2610.05534, 2026",
+      "snippet": "Human--LLM interaction datasets shape our understanding of AI use and provide a foundation for downstream research, including training and evaluation of user models. In recent years, a growing number of datasets have sought to capture a …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "DimSteer: Steering LLM Authoring with Automatically Discovered Stylistic Controls",
+      "url": "https://arxiv.org/pdf/2610.04174",
+      "authors": "A Mallavarapu, Z Gu - arXiv preprint arXiv:2610.04174, 2026",
+      "snippet": "Large language model writing interfaces often make users steer outputs by repeatedly articulating desired changes in natural language. Yet writers may recognize useful stylistic directions only after seeing alternatives, making revision …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Learning to GUIDE the Group: Self-Learning LLM Facilitation Across Multi-Party Tasks",
+      "url": "https://arxiv.org/pdf/2610.16231",
+      "authors": "Z Liu, TS Kuo, J Liu, D Fu, N Thain, C Qian - arXiv preprint arXiv:2610.16231, 2026",
+      "snippet": "As large language models are increasingly adopted as multi-party communication facilitators, there is a growing demand for agents capable of balancing diverse group dynamics across contexts. However, existing LLM facilitators are often fine-tuned for …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "How Strongly Should Task State Influence an LLM Agent?",
+      "url": "https://arxiv.org/pdf/2609.25686",
+      "authors": "C Zhang, W Kweon, J Han - arXiv preprint arXiv:2609.25686, 2026",
+      "snippet": "Long-horizon assigned work requires an LLM agent to track the state of a task: which steps are done, blocked, cancelled, or open to repetition. Agent systems either keep this state as text in the prompt and rely on the model to read that text, or move the …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "The five concentric rings of large-language-model systems engineering: A harness-centered tutorial from prompts to topologies",
+      "url": "https://www.researchgate.net/profile/Yu-Kai-Huang-12/publication/415738993_The_Five_Concentric_Rings_of_Large-Language-Model_Systems_Engineering_A_Harness-Centered_Tutorial_from_Prompts_to_Topologies/links/6acee3df73b393100aec056d/The-Five-Concentric-Rings-of-Large-Language-Model-Systems-Engineering-A-Harness-Centered-Tutorial-from-Prompts-to-Topologies.pdf",
+      "authors": "YK Huang - ResearchGate preprint, 2026",
+      "snippet": "A language-model call is stateless, bounded, and stochastic, so the engineering that makes an application reliable lies outside the model. Practitioners name five such concerns—prompt, context, harness, loop, and graph engineering—and describe each as wrapping the previous one. This tutorial organizes them around the harness: the one pass of gather, act, and verify in which a model first takes actions and first receives an independent verdict. The two inner rings are what a harness gathers; the …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "q": "Q1",
+      "sjr": 2.18,
+      "qcat": "Multidisciplinary"
+    },
+    {
+      "title": "Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11737546/",
+      "authors": "S Hirashima, S Hu, KH Cheong - IEEE Transactions on Network Science and …, 2026",
+      "snippet": "Large language models (LLMs) are increasingly integrated into agent-based models (ABMs) and multi-agent systems, giving rise to generative agent networks for social simulation and collective behavior modeling. While these agents exhibit strong capabilities in language generation, memory, and strategic planning, recent studies report decision convergence and behavioral variance compression, suggesting a form of hyper-rationality that may suppress micro-level heterogeneity and reshape …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "q": "Q1",
+      "sjr": 1.88,
+      "qcat": "Computer Networks and Communications"
+    },
+    {
+      "title": "From digital interaction to social connection: AI virtual humans as interactive learning partners for older adults",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/10494820.2026.2748835",
+      "authors": "WC Pan, WQ Zhang, H Chen, Q Guo, SY Wang, HS Li - Interactive Learning …, 2026",
+      "snippet": "As artificial intelligence (AI) becomes increasingly embedded in educational and social interaction systems, its potential to alleviate digital exclusion and digital loneliness among older adults has attracted growing attention. Across two independent experiments, this study examined the association between AI-assisted interaction and digital loneliness among older adults, as well as the underlying psychological mechanisms. In Experiment 1, 90 older adults participated in a four …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "q": "Q1",
+      "sjr": 2.24,
+      "qcat": "Computer Science Applications"
+    },
+    {
+      "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
+      "url": "https://arxiv.org/pdf/2610.21453",
+      "authors": "Z Wang, Y Liu, Y Chen, S Yang, J Ye, P Chen, C Lu… - arXiv preprint arXiv …, 2026",
+      "snippet": "While generalist vision-language-action (VLA) models have enabled diverse open-world manipulation, real-world robotic assistance requires two critical capabilities they currently lack: personalization and reliable execution. First, executing an instruction like\" make me a sandwich\" requires grounding subtask decomposition in persistent user preferences rather than relying on a single generic solution. Second, reliable deployment demands explainable safety assurance that proactively prevents …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Who Does the Machine Read? Auditing Source Concentration, Link Fidelity, and Local News Visibility in LLM Answer Engines",
+      "url": "https://cj2026.northwestern.edu/files/2026/09/7839-obada-kraishan.pdf",
+      "authors": "O Kraishan, K Kee, K Jitkajornwanich - 2026",
+      "snippet": "Large language model (LLM) answer engines now sit between many readers and the news. Instead of a list of links, they return a short written answer with a few citations, which makes them a new kind of news gatekeeper. We audit three commercial engines, Perplexity (Sonar), OpenAI (GPT-4o with web search), and Google Gemini (2.5 Flash with Search grounding), on the same 100 US news events sampled from GDELT, covering 300 answers and 1,830 citations. We measure how …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Dendritic computation bridges neuroscience and foundation models",
+      "url": "https://www.nature.com/articles/s41467-026-77929-8_reference.pdf",
+      "authors": "M Yao, Y Pan, Y Zhong, S Mei, Z Qin, K Wang, J Hu… - Nature Communications, 2026",
+      "snippet": "A prevailing view holds that although neuroscience historically inspired AI, its role in the recent evolution of AI, driven by the scaling of foundation models, is minor. We challenge this perspective by establishing a biological analogy between simplified dendritic neuron models and the attention mechanisms central to AI foundation models. We show that AI attention mechanisms bear direct mappings to internal neuronal complexities arising from dendritic organization, rather than to the mere …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "q": "Q1",
+      "sjr": 4.9,
+      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
+    },
+    {
+      "title": "Contribution of artificial intelligence research to the development of inclusive applications for people with disabilities: A scoping review (2015–2025)",
+      "url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0001749",
+      "authors": "SS Kaboré, A Bayani, LPE Ewane, DSO Dos Anjos… - PLOS Digital Health, 2026",
+      "snippet": "Artificial intelligence (AI) is rapidly transforming healthcare. Yet people with disabilities (PWD), representing 16% of the global population, remain disproportionately excluded from these advances. This exclusion is driven by algorithmic bias, non-representative datasets, and limited involvement of PWD in the design, development, and evaluation of AI applications. This scoping review examines the extent to which AI research in health contributes to the development of …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "q": "Q1",
+      "sjr": 1.79,
+      "qcat": "Health Informatics"
+    },
+    {
+      "title": "AI still has a vocabulary problem: toward terminological accountability in artificial intelligence",
+      "url": "https://link.springer.com/article/10.1007/s43681-026-01447-y",
+      "authors": "A Hussain, W Jin, N Vincent - AI and Ethics, 2026",
+      "snippet": "The artificial intelligence (AI) industry's vocabulary–including “hallucination”,“frontier AI”,“the cloud”,“responsible AI”,“benefiting humanity”--has been examined through individual terms in prior research. This work examines these terms as an interlocking vocabulary and investigates how they help insulate the organizations with greatest control over AI from accountability for what that control costs others, which we call “accountability insulation”. We synthesize thirty terms, grouping them by the …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "How Learning Reshapes Aesthetic Evaluation of AI-generated and Traditional Xilankapu Patterns: Evidence from a Longitudinal Intervention Study",
+      "url": "https://www.researchsquare.com/article/rs-10520041/latest.pdf",
+      "authors": "S Zhu, J Hu, Z Cheng, Y Hu, J Sun - 2026",
+      "snippet": "Background Cultural knowledge may alter how viewers evaluate traditional and AI-generated cultural artifacts, yet most studies of AI-generated art use cross-sectional designs. This study examined whether structured learning changes aesthetic evaluation and creator attribution for traditional Xilankapu patterns and AI-generated patterns. Methods A 30-day single-cohort pre–post intervention study was conducted with 118 recruited participants who had no prior experience with Xilankapu; after …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Multimodal Uncertainty-Aware RAG for Autonomous Driving Perception and Safety-Critical Decision-Making",
+      "url": "https://www.jaair.org/index.php/home/article/view/290",
+      "authors": "K Rocha, W Varma - Journal of Advanced Artificial Intelligence Research, 2026",
+      "snippet": "Autonomous driving systems increasingly depend on multimodal perception, language-capable reasoning, and retrieval-augmented generation to interpret complex environments and support safety-critical decisions. Yet the integration of retrieval mechanisms into vehicular perception and planning introduces new forms of epistemic, aleatoric, and infrastructure-mediated uncertainty that are not fully addressed by conventional sensor fusion or end-to-end learning pipelines. This …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "TIPS: A Tiny Inference-time Policy for Scaling in Diffusion Language Models",
+      "url": "https://arxiv.org/pdf/2610.22099",
+      "authors": "YS Zhang, J Tang, PA Noël, O Ostapenko - arXiv preprint arXiv:2610.22099, 2026",
+      "snippet": "Masked diffusion language models expose an inference-time choice: which positions become visible after each denoising pass. Many existing decoding methods use hand-designed rules or require visibility to grow monotonically. We present a $\\textbf {T} $ iny $\\textbf {I} $ nference-time $\\textbf {P} $ olicy for $\\textbf {S} $ caling ($\\textbf {TIPS} $), an approximately $600 $ K-parameter controller that learns both unmasking and remasking while keeping the underlying language model frozen …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Report on the International Workshop on Transforming Graph Data (TGD@ EDBT/ICDT 2025-2026)",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3858364.3858371",
+      "authors": "A Bernasconi, S Dumbrava, R Tommasini - ACM SIGMOD Record, 2026",
+      "snippet": "The International Workshop on Transforming Graph Data (TGD) ran for two editions, co-located with EDBT/ICDT in Barcelona in March 2025 and in Tampere in March 2026. It was motivated by an asymmetry in the graph data management ecosystem. Storage, indexing, and querying have matured considerably, while the mechanisms needed to evolve, integrate and reason over graph data remain comparatively ad hoc. The program comprised 12 papers, four keynotes and one panel, spanning …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-20",
+      "nr": "na"
+    },
+    {
+      "title": "Sex-Dependent Habenular Dysregulation Across the Continuum of Stress Exposure and Depression Severity: A Systematic Review of Preclinical and Clinical …",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0166432826005073",
+      "authors": "C Ferreira-Vorkapic, RR Coelho, M Wiech, F Tocco… - Behavioural Brain Research, 2026",
+      "snippet": "Background Major depressive disorder (MDD) is diagnosed at roughly twice the rate in women as in men, yet sex is still routinely treated as a covariate rather than a biological variable of primary interest in depression research. The habenula (Hb), particularly the lateral habenula (LHb), is an increasingly implicated substrate of depression, but two recent systematic reviews found sex-stratified habenula data sparse and reported sex effects inconsistent in direction. Objective To determine …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-20",
+      "q": "Q2",
+      "sjr": 0.86,
+      "qcat": "Behavioral Neuroscience"
+    },
     {
       "title": "A RAG-enhanced multi-agent LLM/VLM framework for auditable and region-aware structural health monitoring of a historic masonry structure",
       "url": "https://www.nature.com/articles/s41598-026-57424-2",
@@ -196,236 +428,6 @@
       "kind": "Related",
       "scholar": "Joon Sung Park",
       "date": "2026-10-18",
-      "nr": "na"
-    },
-    {
-      "title": "Social Priors: Descriptions of AI Users Shape How Language Models Trust and Cooperate",
-      "url": "https://arxiv.org/pdf/2610.16946",
-      "authors": "H Kumar, G Eilender, A Anderson - arXiv preprint arXiv:2610.16946, 2026",
-      "snippet": "Descriptions of how people use AI are becoming training data for the next generation of models. We ask whether what a model reads about its users changes how it treats people. Using contrastive synthetic-document finetuning, we train Qwen3-32B on …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-18",
-      "nr": "na"
-    },
-    {
-      "title": "Vora: A Vector-Based Engine for Scalable GPU-Accelerated Subgraph Query Processing",
-      "url": "https://gh8li.github.io/assets/pdf/vora.pdf",
-      "authors": "G Li, H Zhang, Q Luo",
-      "snippet": "Subgraph matching is a core primitive in graph analytics and graph DBMSs, but remains expensive on large graphs due to its large search space and irregular memory accesses. GPUs provide massive parallelism and high memory bandwidth, yet existing GPU-based approaches still face limitations in performance, system integration, and scalability. Warp/blockcentric approaches implement irregular control flow in handwritten CUDA kernels and are often specialized for count-only …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-17",
-      "nr": "na"
-    },
-    {
-      "title": "Memory-Augmented LLM Agents at the Edge: A Survey of Memory Operations, Placement, and Resource Trade-offs",
-      "url": "https://www.researchgate.net/profile/Harsh-Nagoriya/publication/415470514_Memory-Augmented_LLM_Agents_at_the_Edge_A_Survey_of_Memory_Operations_Placement_and_Resource_Trade-offs_Harsh_Sanjaykumar_Nagoriya/links/6ac87a96d7a7293a4f6e92a7/Memory-Augmented-LLM-Agents-at-the-Edge-A-Survey-of-Memory-Operations-Placement-and-Resource-Trade-offs-Harsh-Sanjaykumar-Nagoriya.pdf",
-      "authors": "HS Nagoriya",
-      "snippet": "Persistent language-model agents must retain useful experience while sharing device resources with inference, retrieval, and other applications. Agent memory introduces costs beyond the storage of conversation history: writing summaries, maintaining indexes, reading evidence, extending attention state, and synchronizing replicas can each change latency, energy use, and correctness. This survey conducts a structured review of 46 works on agent memory, edge inference, retrieval …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-17",
-      "nr": "na"
-    },
-    {
-      "title": "Designing for doubt: The case for informed abstention in autonomous agents",
-      "url": "https://ojs.aaai.org/index.php/AIES/article/download/43281/50841",
-      "authors": "V Ojewale, S Venkatasubramanian - Proceedings of the AAAI/ACM Conference on AI …, 2026",
-      "snippet": "As large language models gain tool access and are deployed as autonomous agents capable of editing records, executing transactions, and modifying infrastructure, we still evaluate them based on the sole metric of task completion. We argue that this evaluation focus constitutes a systematic design failure. Benchmark scoring, product metrics, and default deployment configurations all reward agents for proceeding even when they lack the inputs, evidence, or authorization required to do so safely …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "crank": "C"
-    },
-    {
-      "title": "AI-generated language remains systematically distinguishable from human communication",
-      "url": "https://www.pnas.org/doi/full/10.1073/pnas.2531748123",
-      "authors": "N Pagan, P Törnberg, CA Bail, C Barrie - Proceedings of the National Academy of …, 2026",
-      "snippet": "Large language models (LLMs) are increasingly used in the social sciences to simulate human behavior and communication, yet validation methods for these applications remain limited. Existing evaluations often rely on human judgments of plausibility, a coarse, difficult-to-scale, and often unreliable benchmark for distinguishing AI-generated from human text. As a result, researchers lack robust tools for assessing the realism of LLM-generated language and for calibrating …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "q": "Q1",
-      "sjr": 3.28,
-      "qcat": "Multidisciplinary"
-    },
-    {
-      "title": "Agentic Large Language Models",
-      "url": "https://arxiv.org/pdf/2610.13455",
-      "authors": "M van Duijn, M van der Meer, A Plaat, N van Stein - arXiv preprint arXiv:2610.13455, 2026",
-      "snippet": "Large language models (LLMs) have taken the world by storm. Their ability to communicate with us in our own language, and to reason about our world, has made them a favorite tool for writing, answering questions, and much more. Their answers already influence our decisions and our actions. What would happen if LLMs themselves could act in the world directly? What would happen if LLMs could interact with each other? Agentic LLMs combine the power of large language models with …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "nr": "na"
-    },
-    {
-      "title": "AI-Simulated User Agents for Design Research: A Human–AI Collaborative Framework Leveraging Large Language Models",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/10447318.2026.2741021",
-      "authors": "L Fan, Y Pei - International Journal of Human–Computer Interaction, 2026",
-      "snippet": "Traditional user research in design involves persistent tensions among scale, depth, and resource demands. We propose a three-tier conceptual framework for using large language models as simulated-user aids in design research. The evidence is separated by status: Studies 1 and 2 are company-confirmed aggregate commercial summaries and are reported descriptively, whereas Study 3 is an exploratory same-model prompt-format pilot. Study 3 compared a generic prompt with a framework …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "q": "Q1",
-      "sjr": 1.38,
-      "qcat": "Computer Science Applications"
-    },
-    {
-      "title": "Training User Simulators with Latent Intrinsic Feedback",
-      "url": "https://arxiv.org/pdf/2610.13617",
-      "authors": "T Naous, C Boutilier, W Xu, O Meshi - arXiv preprint arXiv:2610.13617, 2026",
-      "snippet": "User simulators are gaining attention as environments to train LLM assistants that can better cope with the nuances of multi-turn conversations with real users. Prior work on user simulation has emphasized generating realistic user utterances, leaving unexplored their potential as a source of direct feedback on the assistant's responses. Such evaluation signals may not be explicitly communicated in language, but can instead reside in the latent reasoning of users. In this work, we introduce user …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "nr": "na"
-    },
-    {
-      "title": "From Digital Library Records to Trust-Grounded Virtual Experts for Knowledge Retention",
-      "url": "https://dl.acm.org/doi/pdf/10.1145/3805696.3846036",
-      "authors": "J Ecker, J Wu, BD Allen, ML Nelson - Proceedings of the 26th ACM/IEEE Joint …, 2026",
-      "snippet": "Long-lived technical organizations depend on senior subject matter experts whose knowledge is only partially preserved in reports, publications, and archival metadata. Digital libraries preserve those records, but they rarely provide centralized, expert-scoped, question-answering access to the knowledge of people who leave or change roles. We present an implemented knowledge-retention prototype, built on ALICE, an architecture for large language model (LLM)–knowledge-graph interaction …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "nr": "na"
-    },
-    {
-      "title": "No More Plaudits for Algorithm Audits: A Provocation",
-      "url": "https://ojs.aaai.org/index.php/AIES/article/download/43185/50745",
-      "authors": "A DeVrio, DG Widder - Proceedings of the AAAI/ACM Conference on AI, Ethics …, 2026",
-      "snippet": "Algorithm audits have been increasingly proposed, pursued, and prioritized as a way to improve problematic algorithmic systems. And yet, the same issues continue to plague algorithmic systems, with algorithm audits making little headway toward remediation of algorithmic harm. In this provocation, we argue that algorithm audits are fundamentally insufficient mechanisms by which to ameliorate the violent impacts of algorithmic systems because they give the appearance of addressing algorithmic …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "crank": "C"
-    },
-    {
-      "title": "Activating the Annotator: Operationalising Lived Experience in Data Annotation",
-      "url": "https://arxiv.org/pdf/2610.12701",
-      "authors": "S Munir, RK Mothilal, SI Ahmed - arXiv preprint arXiv:2610.12701, 2026",
-      "snippet": "Perspectivist NLP has established that annotator positionality shapes labels for subjective tasks, but the field still lacks methods for operationalising it. Positionality is typically operationalised as a demographic form completed at recruitment: a static attribute recorded once and treated as a covariate, on the assumption that the knowledge it indexes is active when the annotator reads an item. This paper treats that assumption as a design problem and asks whether lived experience can instead …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "nr": "na"
-    },
-    {
-      "title": "KGR-MAS: Knowledge Graph-Enhanced Multi-Agent LLM Framework for Evidence-Based Medical Diagnosis and Clinical Decision Support",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11723039/",
-      "authors": "L Yin, XF Du, Y Cheng, N Tong, F Li - IEEE Journal of Biomedical and Health …, 2026",
-      "snippet": "Large Language Models (LLMs) demonstrate significant potential in healthcare applications, yet they exhibit reasoning bias, information bottlenecks, and limited adaptability in complex clinical settings. To address these limitations, we propose KGR-MAS, which introduces an integrated control loop that couples (1) KG-derived diagnostic paths for executable subtask decomposition and dynamic agent allocation, while using these KG reasoning paths to initialize shared short-term …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "q": "Q1",
-      "sjr": 1.62,
-      "qcat": "Biotechnology"
-    },
-    {
-      "title": "Value creation and capture in artificial intelligence‐enabled ecosystems",
-      "url": "https://sms.onlinelibrary.wiley.com/doi/pdf/10.1002/sej.70057",
-      "authors": "R Kapoor, M Raj - Strategic Entrepreneurship Journal, 2026",
-      "snippet": "Abstract Research Summary We develop an ecosystem perspective on AI‐enabled value creation, grounded in AI's characteristics as a general‐purpose technology. We consider that AI can support multiple value propositions realized through distinct but interconnected ecosystems. Within this structure, AI innovators face choices concerning which value propositions to support, whether to pursue them through general‐purpose or specialized offers, and whether to make those offers open or …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-17",
-      "nr": "na"
-    },
-    {
-      "title": "Logic or Emotion? The Impact of Persuasion Strategies on Human-AI Trust",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/10447318.2026.2740322",
-      "authors": "T Li, Y Qi - International Journal of Human–Computer Interaction, 2026",
-      "snippet": "As artificial intelligence (AI) systems increasingly engage in persuasive and socially interactive roles, understanding how users calibrate trust toward AI versus human persuaders, and how persuasion strategy shapes this process, has become critical for human-AI interaction research. Prior work has examined preferences for human-versus AI-produced content, yet little is known about how persuasion strategy and persuader identity jointly influence trust during interactive communication. This study …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
-      "q": "Q1",
-      "sjr": 1.38,
-      "qcat": "Computer Science Applications"
-    },
-    {
-      "title": "AI-Augmented Cyber-Social Dynamics and Collective Decision-Making: A Survey",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11728247/",
-      "authors": "M Feng, Z Zeng, Q Li, A Szolnoki, M Perc - IEEE Transactions on Systems, Man, and …, 2026",
-      "snippet": "Artificial intelligence (AI) is increasingly participating in cyber-social systems rather than serving only as an external tool for prediction, optimization, or automation. This review develops an integrative framework for understanding how AI enters collective processes as a surrogate, teammate, competitor, delegate, influencer, or autonomous population. We connect theoretical and computational research on AI-augmented agent-based models, large-language-model-driven social simulation …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
-      "q": "Q1",
-      "sjr": 2.81,
-      "qcat": "Computer Science Applications"
-    },
-    {
-      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
-      "url": "https://arxiv.org/pdf/2610.12596",
-      "authors": "SC Lowe, SW Keemink - arXiv preprint arXiv:2610.12596, 2026",
-      "snippet": "Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
-      "nr": "na"
-    },
-    {
-      "title": "Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation",
-      "url": "https://arxiv.org/pdf/2610.12793",
-      "authors": "Y Liu, Y Lin, Z Tang, Y Zheng, Y Li, S Zhang, Y Li… - arXiv preprint arXiv …, 2026",
-      "snippet": "Pretrained vision-language-action (VLA) policies fail on memory tasks, behaviour that depends on events observed long before the current frame, because their training data is overwhelmingly Markov and mapping episodic memory directly to action chunks is hard. Yet the same policy, finetuned once to follow a privileged oracle's grounded-subgoal text, nearly solves these tasks: the difficulty lies entirely in mapping memory to a grounded symbolic subgoal. Existing work entrusts this stage …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
-      "nr": "na"
-    },
-    {
-      "title": "VALIDATED BEHAVIORAL HYPOTHESES AS A LENS FOR EVALUATING PARTICIPANT SIMULATION",
-      "url": "https://openreview.net/pdf?id=eOsq3T5o60",
-      "authors": "S Sure",
-      "snippet": "We propose using validated behavioral hypotheses as a lens for evaluating LLM agents as simulated human participants. This approach makes behavioral agreement in participant simulation measurable and decomposable, revealing which human effects agents reproduce, where they diverge, and how agent design changes that agreement. To operationalize this idea, we build HumanStudy-Bench, an open benchmarking platform that reconstructs experimental protocols from …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
-      "nr": "na"
-    },
-    {
-      "title": "Internet Appendix to “Measuring Monetary Policy Uncertainty Through an Agentic AI Framework: The Virtual Federal Reserve”",
-      "url": "https://www.chiwangfinance.com/asset/paper/essay1_internet_appendix.pdf",
-      "authors": "C Wang - 2026",
-      "snippet": "Tables IA. 1–IA. 4 document the M0–M4 information ladder behind the objection probabilities: model performance across the rungs, the persona rung by persona source, the dissent-class PR-AUC deltas along the ladder, and the frontier-versus-local comparison discussed in Section 8.3 of the paper.",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
-      "nr": "na"
-    },
-    {
-      "title": "Simulating Perception: Exploring an AI-Assisted Approach to Kansei Engineering in Emotional Product Design",
-      "url": "https://scholarsbank.uoregon.edu/bitstreams/c5fdfab9-0023-4a70-a951-7b7c06915e84/download",
-      "authors": "S Åkerskog, L Frostell, N Valverde, S Schütte… - 2026",
-      "snippet": "Kansei Engineering translates emotional user responses into product design decisions, normally using self-reported questionnaires where users rate products on different perceptions (Kansei words). This paper investigates whether a large language model can support this data collection step by approximating users' emotional ratings of product images. A browser-based tool called KansAI has been developed, in different versions, to assess to what extent human ratings can be …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
-      "nr": "na"
-    },
-    {
-      "title": "Large language model powered social integrity system",
-      "url": "https://patents.google.com/patent/US12706952B1/en",
-      "authors": "V Acharya - US Patent 12,706,952, 2026",
-      "snippet": "A pseudo account is set up to mimic a potential victim's demographic messaging behavior while seeming completely legitimate to an anti-social (AS) user. This can entail mimicking the messaging behavior of minors and presenting that behavior where AS users look for it. The AS account establishes communication with the pseudo account. The AS account may be flagged as suspicious, and the system can wait for the AS user to make an initial move on a legitimate account and report it …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
-      "nr": "na"
-    },
-    {
-      "title": "Medical Vision Foundation Models: A comprehensive review from technical evolution to clinical translation",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0895611126001357",
-      "authors": "N Lin, Y Ding, Z Qin, M Cao, J Zhang, Y Xia, Y Zhong… - … Medical Imaging and …, 2026",
-      "snippet": "Abstract Medical Vision Foundation Models (MVFMs) mark a shift from task-specific artificial intelligence (AI) toward general-purpose visual intelligence in medical imaging. However, clinical deployment remains constrained by tensions among data availability, technological development, and integration into clinical workflows. To address these issues, this review provides a systematic analysis of the field's evolution from 2019 to 2025. We introduce the Data–Technology–Translation Triad …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-16",
       "nr": "na"
     }
   ]
