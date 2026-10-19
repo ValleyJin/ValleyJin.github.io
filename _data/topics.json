@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -54,7 +54,7 @@
           "nr": "na"
         }
       ],
-      "count": 11015
+      "count": 11028
     },
     {
       "topic": "gABM",
@@ -110,7 +110,7 @@
           "qcat": "Computational Mathematics"
         }
       ],
-      "count": 57247
+      "count": 57341
     },
     {
       "topic": "Graph database",
@@ -162,7 +162,7 @@
           "qcat": "Electrical and Electronic Engineering"
         }
       ],
-      "count": 124700
+      "count": 124746
     },
     {
       "topic": "Memory in Agentic AI",
@@ -206,7 +206,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 73803
+      "count": 73871
     },
     {
       "topic": "LLM inference serving",
@@ -260,7 +260,7 @@
           "nr": "na"
         }
       ],
-      "count": 7106
+      "count": 7120
     },
     {
       "topic": "Ethereum Layer-2",
@@ -312,7 +312,7 @@
           "nr": "na"
         }
       ],
-      "count": 600
+      "count": 601
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -364,7 +364,7 @@
           "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 47742
+      "count": 47773
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -423,7 +423,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 210463
+      "count": 210556
     },
     {
       "topic": "Ontology",
@@ -472,7 +472,7 @@
           "nr": "na"
         }
       ],
-      "count": 26519
+      "count": 26539
     },
     {
       "topic": "AI governance",
@@ -531,7 +531,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 112210
+      "count": 112391
     },
     {
       "topic": "NeurIPS",
@@ -574,7 +574,7 @@
           "crank": "A*"
         }
       ],
-      "count": 13698
+      "count": 13699
     },
     {
       "topic": "ICML",
@@ -660,7 +660,7 @@
           "crank": "A*"
         }
       ],
-      "count": 6729
+      "count": 6730
     },
     {
       "topic": "CVPR",
@@ -705,13 +705,13 @@
           "year": 2024,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
-          "cites": 329,
+          "cites": 330,
           "q": "Q2",
           "sjr": 0.54,
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 7363
+      "count": 7362
     },
     {
       "topic": "AAAI",
@@ -883,7 +883,7 @@
           "crank": "A*"
         }
       ],
-      "count": 8136
+      "count": 8137
     },
     {
       "topic": "ICCV",
@@ -904,7 +904,7 @@
           "year": 2023,
           "venue": "IEEE International Conference on Computer Vision",
           "url": "https://doi.org/10.1109/ICCV51070.2023.00055",
-          "cites": 52,
+          "cites": 53,
           "crank": "A*"
         },
         {
@@ -926,7 +926,7 @@
           "crank": "A*"
         }
       ],
-      "count": 4626
+      "count": 4627
     },
     {
       "topic": "ECCV",
@@ -1104,7 +1104,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 2602
+      "count": 2599
     },
     {
       "topic": "AIJ",
@@ -1281,7 +1281,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 428
+      "count": 429
     },
     {
       "topic": "TFSC",
@@ -1340,7 +1340,7 @@
           "qcat": "Applied Psychology"
         }
       ],
-      "count": 1574
+      "count": 1573
     },
     {
       "topic": "TAR",
@@ -1399,7 +1399,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 297
+      "count": 296
     },
     {
       "topic": "JAE",
@@ -1470,8 +1470,8 @@
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12548",
-          "cites": 571,
-          "fwci": 186.12,
+          "cites": 572,
+          "fwci": 186.38,
           "pct": 1,
           "q": "Q1",
           "sjr": 9.77,
@@ -1529,8 +1529,8 @@
           "year": 2023,
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12915",
-          "cites": 102,
-          "fwci": 59.31,
+          "cites": 103,
+          "fwci": 59.62,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.69,
@@ -1542,8 +1542,8 @@
           "year": 2023,
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12919",
-          "cites": 53,
-          "fwci": 31.23,
+          "cites": 54,
+          "fwci": 31.56,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.69,
@@ -1589,7 +1589,7 @@
           "venue": "Review of Accounting Studies",
           "url": "https://doi.org/10.1007/s11142-024-09833-9",
           "cites": 160,
-          "fwci": 23.68,
+          "fwci": 23.62,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.56,
@@ -1753,8 +1753,8 @@
           "year": 2024,
           "venue": "Technology Analysis and Strategic Management",
           "url": "https://doi.org/10.1080/09537325.2024.2308631",
-          "cites": 54,
-          "fwci": 19.54,
+          "cites": 55,
+          "fwci": 19.66,
           "pct": 1,
           "q": "Q2",
           "sjr": 0.82,
@@ -1800,7 +1800,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 695
+      "count": 696
     },
     {
       "topic": "SMJ",
@@ -2107,8 +2107,8 @@
           "year": 2024,
           "venue": "Academy of Management Review",
           "url": "https://doi.org/10.5465/amr.2021.0421",
-          "cites": 284,
-          "fwci": 41.92,
+          "cites": 285,
+          "fwci": 41.98,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.0,
@@ -2213,7 +2213,7 @@
           "qcat": "Finance"
         }
       ],
-      "count": 283
+      "count": 281
     },
     {
       "topic": "OrgSci",
@@ -2272,7 +2272,7 @@
           "qcat": "Management of Technology and Innovation"
         }
       ],
-      "count": 279
+      "count": 278
     },
     {
       "topic": "MgmtSci",
@@ -2331,7 +2331,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 1297
+      "count": 1291
     },
     {
       "topic": "JMS",
@@ -2343,8 +2343,8 @@
           "year": 2024,
           "venue": "Journal of Management Studies",
           "url": "https://doi.org/10.1111/joms.13048",
-          "cites": 111,
-          "fwci": 197.35,
+          "cites": 112,
+          "fwci": 199.0,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.18,
@@ -2508,7 +2508,7 @@
           "qcat": "Applied Psychology"
         }
       ],
-      "count": 214
+      "count": 215
     },
     {
       "topic": "ResPol",
@@ -2731,20 +2731,20 @@
           "qcat": "Accounting"
         },
         {
-          "title": "Does Goodwill-Related Critical Audit Matters Disclosure Influence Firms’ Financial Reporting Decisions? Evidence from Goodwill Impairment",
-          "authors": "Jahan, N., & Karim, M. S.",
-          "year": 2023,
+          "title": "Superstition, Risk Aversion, and Audit Quality: Evidence from China",
+          "authors": "Dou, H., Khoo, E. S., Tan, W., & Zhang, J. J.",
+          "year": 2024,
           "venue": "Auditing A Journal of Practice & Theory",
-          "url": "https://doi.org/10.2308/ajpt-2022-129",
-          "cites": 19,
-          "fwci": 10.61,
+          "url": "https://doi.org/10.2308/ajpt-2022-140",
+          "cites": 17,
+          "fwci": 17.18,
           "pct": 10,
           "q": "Q1",
           "sjr": 2.32,
           "qcat": "Accounting"
         }
       ],
-      "count": 109
+      "count": 106
     },
     {
       "topic": "EAR",
@@ -3098,7 +3098,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 349
+      "count": 347
     },
     {
       "topic": "MAR",
