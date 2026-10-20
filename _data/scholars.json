@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19",
+  "generated": "2026-10-20",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -111,7 +111,7 @@
           "year": "2016",
           "venue": "Strategic Management Journal 37 (8), 1632-1648, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:G1UMdFYMoxkC",
-          "cites": 64,
+          "cites": 63,
           "q": "Q1",
           "sjr": 10.15,
           "qcat": "Business and International Management"
@@ -345,7 +345,7 @@
           "year": "2025",
           "venue": "Technological Forecasting and Social Change 213, 124022, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:j2GSQqY3pL0C",
-          "cites": 20,
+          "cites": 21,
           "q": "Q1",
           "sjr": 3.48,
           "qcat": "Applied Psychology"
@@ -437,6 +437,17 @@
           "qcat": "Condensed Matter Physics"
         },
         {
+          "title": "Finding the right balance: The impact of individual autonomy on balancing exploration and exploitation",
+          "authors": "M Choi, J Kim, JS Yang",
+          "year": "2025",
+          "venue": "Journal of Business Research 198, 115483, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:-38epGy1wY0C",
+          "cites": 13,
+          "q": "Q1",
+          "sjr": 3.5,
+          "qcat": "Business and International Management"
+        },
+        {
           "title": "Strategic R&D budget allocation to achieve national energy policy targets: the case of Korea",
           "authors": "J Lee, JS Yang",
           "year": "2022",
@@ -501,17 +512,6 @@
           "q": "Q4",
           "sjr": 0.23,
           "qcat": "Physics and Astronomy (miscellaneous)"
-        },
-        {
-          "title": "Finding the right balance: The impact of individual autonomy on balancing exploration and exploitation",
-          "authors": "M Choi, J Kim, JS Yang",
-          "year": "2025",
-          "venue": "Journal of Business Research 198, 115483, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:-38epGy1wY0C",
-          "cites": 12,
-          "q": "Q1",
-          "sjr": 3.5,
-          "qcat": "Business and International Management"
         },
         {
           "title": "Why skewed distributions of pay for executives is the cause of much grief: Puzzles and few answers (so far)",
@@ -1266,7 +1266,7 @@
           "year": "2025",
           "venue": "Journal of Business Research 198, 115483, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:-38epGy1wY0C",
-          "cites": 12,
+          "cites": 13,
           "q": "Q1",
           "sjr": 3.5,
           "qcat": "Business and International Management"
@@ -1277,7 +1277,7 @@
           "year": "2025",
           "venue": "Technological Forecasting and Social Change 213, 124022, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:j2GSQqY3pL0C",
-          "cites": 20,
+          "cites": 21,
           "q": "Q1",
           "sjr": 3.48,
           "qcat": "Applied Psychology"
@@ -1575,7 +1575,7 @@
           "year": "2009",
           "venue": "Proceedings of the VLDB Endowment 2 (1), 622-633, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Y0pCki6q_DkC",
-          "cites": 346,
+          "cites": 347,
           "q": "Q1",
           "sjr": 1.77,
           "qcat": "Computer Science (miscellaneous)"
@@ -1617,7 +1617,7 @@
           "year": "2022",
           "venue": "Energy & Environmental Science 15 (1), 123-135, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ZqE1mSdD_DYC",
-          "cites": 181,
+          "cites": 182,
           "q": "Q1",
           "sjr": 9.24,
           "qcat": "Environmental Chemistry"
@@ -1639,7 +1639,7 @@
           "year": "2004",
           "venue": "Transactions of the ASAE 47 (5), 1785-1792, 2004",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kF1pexMAQbMC",
-          "cites": 130,
+          "cites": 131,
           "q": "Q2",
           "sjr": 0.17,
           "qcat": "Linguistics and Language"
@@ -1685,6 +1685,17 @@
           "nr": "na"
         },
         {
+          "title": "Fluorine‐Rich Covalent Organic Framework to Boost Electrochemical Kinetics and Storages of K+ Ions for Potassium‐Ion Battery",
+          "authors": "J Lee, H Lim, J Park, MS Kim, JW Jung, J Kim, ID Kim",
+          "year": "2023",
+          "venue": "Advanced Energy Materials 13 (26), 2300442, 2023",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:R-LXmdHK_14C",
+          "cites": 96,
+          "q": "Q1",
+          "sjr": 7.68,
+          "qcat": "Materials Science (miscellaneous)"
+        },
+        {
           "title": "Biofilm matrix and artificial mediator for efficient electron transport in CO2 microbial electrosynthesis",
           "authors": "YE Song, A Mohamed, C Kim, M Kim, S Li, E Sundstrom, H Beyenal, ...",
           "year": "2022",
@@ -1694,17 +1705,6 @@
           "q": "Q1",
           "sjr": 2.26,
           "qcat": "Chemical Engineering (miscellaneous)"
-        },
-        {
-          "title": "Fluorine‐Rich Covalent Organic Framework to Boost Electrochemical Kinetics and Storages of K+ Ions for Potassium‐Ion Battery",
-          "authors": "J Lee, H Lim, J Park, MS Kim, JW Jung, J Kim, ID Kim",
-          "year": "2023",
-          "venue": "Advanced Energy Materials 13 (26), 2300442, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:R-LXmdHK_14C",
-          "cites": 95,
-          "q": "Q1",
-          "sjr": 7.68,
-          "qcat": "Materials Science (miscellaneous)"
         },
         {
           "title": "Development and optimization of a novel oral controlled delivery system for tamsulosin hydrochloride using response surface methodology",
@@ -2351,6 +2351,17 @@
           "qcat": "Genetics"
         },
         {
+          "title": "Cortisol awakening response and nighttime salivary cortisol levels in healthy working Korean subjects",
+          "authors": "I Shin, R Ahn, S Chun, Y Lee, M Kim, C Lee, S Sung",
+          "year": "2011",
+          "venue": "Yonsei medical journal 52 (3), 435, 2011",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:SGW5VrABaM0C",
+          "cites": 24,
+          "q": "Q2",
+          "sjr": 0.72,
+          "qcat": "Medicine (miscellaneous)"
+        },
+        {
           "title": "Multiplication-based method for stitching results of predicate evaluation in column stores",
           "authors": "RJ Barber, MS Kim, JG Lee, SS Lightstone, GM Lohman, L Qiao, ...",
           "year": "2015",
@@ -2358,17 +2369,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:qxL8FJ1GzNcC",
           "cites": 23,
           "nr": "na"
-        },
-        {
-          "title": "Cortisol awakening response and nighttime salivary cortisol levels in healthy working Korean subjects",
-          "authors": "I Shin, R Ahn, S Chun, Y Lee, M Kim, C Lee, S Sung",
-          "year": "2011",
-          "venue": "Yonsei medical journal 52 (3), 435, 2011",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:SGW5VrABaM0C",
-          "cites": 23,
-          "q": "Q2",
-          "sjr": 0.72,
-          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "The influence of Surelease and sodium alginate on the in‐vitro release of tamsulosin hydrochloride in pellet dosage form",
@@ -2609,6 +2609,17 @@
           "qcat": "Animal Science and Zoology"
         },
         {
+          "title": "Analysis of causal relationships for nutrient removal of activated sludge process based on structural equation modeling approaches",
+          "authors": "Y Kim, S Lee, Y Cho, M Kim",
+          "year": "2019",
+          "venue": "Applied Sciences 9 (7), 1398, 2019",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:KaMxkj08jr0C",
+          "cites": 15,
+          "q": "Q4",
+          "sjr": 0.15,
+          "qcat": "Applied Mathematics"
+        },
+        {
           "title": "Horizontal reduction: instance-level dimensionality reduction for similarity search in large document databases",
           "authors": "MS Kim, KY Whang, YS Moon",
           "year": "2012",
@@ -2669,17 +2680,6 @@
           "q": "Q1",
           "sjr": 1.72,
           "qcat": "Medicine (miscellaneous)"
-        },
-        {
-          "title": "Analysis of causal relationships for nutrient removal of activated sludge process based on structural equation modeling approaches",
-          "authors": "Y Kim, S Lee, Y Cho, M Kim",
-          "year": "2019",
-          "venue": "Applied Sciences 9 (7), 1398, 2019",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:KaMxkj08jr0C",
-          "cites": 14,
-          "q": "Q4",
-          "sjr": 0.15,
-          "qcat": "Applied Mathematics"
         },
         {
           "title": "Effect of Harderian adenectomy on the statistical analyses of mouse brain imaging using positron emission tomography",
@@ -4940,7 +4940,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13863,
+          "cites": 13887,
           "nr": "na"
         },
         {
@@ -4949,7 +4949,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8993,
+          "cites": 9005,
           "crank": "A*"
         },
         {
@@ -4958,7 +4958,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 831,
+          "cites": 833,
           "nr": "na"
         },
         {
@@ -4967,7 +4967,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 682,
+          "cites": 681,
           "crank": "A*"
         },
         {
@@ -4976,7 +4976,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 380,
+          "cites": 381,
           "crank": "A*"
         },
         {
@@ -4985,7 +4985,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 371,
+          "cites": 367,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5275,7 +5275,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 831,
+          "cites": 833,
           "nr": "na"
         },
         {
@@ -5311,7 +5311,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 8993,
+          "cites": 9005,
           "crank": "A*"
         },
         {
@@ -5340,7 +5340,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 371,
+          "cites": 367,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5373,7 +5373,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 682,
+          "cites": 681,
           "crank": "A*"
         },
         {
@@ -5382,7 +5382,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 380,
+          "cites": 381,
           "crank": "A*"
         },
         {
@@ -5422,7 +5422,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13863,
+          "cites": 13887,
           "nr": "na"
         },
         {
