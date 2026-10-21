@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -142,7 +142,7 @@
           "title": "Honeyed Words, Hidden Daggers: Benchmarking and Training LLMs to See Through Mock Politeness",
           "authors": "C Kang, S Gong, T Yan, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.26059",
           "cites": 0,
           "pubdate": "2026-10-19",
@@ -156,7 +156,7 @@
           "title": "Pluralistic Alignment in Language Models: Objectives, Human References, and Preference Representations",
           "authors": "M Wu, U Bodhwani",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.24471",
           "cites": 0,
           "pubdate": "2026-10-17",
@@ -170,7 +170,7 @@
           "title": "Muse Glimmer 30B: An On-Device Agentic Model",
           "authors": "A Abtahizadeh, M Aghamelu, A Ahmed, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.24628",
           "cites": 0,
           "pubdate": "2026-10-17",
@@ -349,6 +349,20 @@
           "nr": "na"
         },
         {
+          "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+          "authors": "S Peng, K Jiang, J Zheng, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.08250",
+          "cites": 0,
+          "pubdate": "2026-10-06",
+          "arxiv": "2610.08250",
+          "doi": null,
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "first_seen": "2026-10-21",
+          "nr": "na"
+        },
+        {
           "title": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
           "authors": "A Malik, M Elsherief",
           "year": 2026,
@@ -433,6 +447,20 @@
           "nr": "na"
         },
         {
+          "title": "OSPD: On-Policy Self-Distillation for Persona-Consistent Dialogue",
+          "authors": "R Xu, Y Zhang, A Chen, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.34418",
+          "cites": 0,
+          "pubdate": "2026-09-28",
+          "arxiv": "2609.34418",
+          "doi": null,
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "first_seen": "2026-10-21",
+          "nr": "na"
+        },
+        {
           "title": "Unlocking Latent Personalization in LLMs",
           "authors": "W Chen, G Zhu, Z Cai, et al.",
           "year": 2026,
@@ -472,6 +500,20 @@
           "doi": null,
           "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
           "first_seen": "2026-09-25",
+          "nr": "na"
+        },
+        {
+          "title": "Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents",
+          "authors": "Z Zhang, L Liu, Q Chai, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2609.28609",
+          "cites": 0,
+          "pubdate": "2026-09-23",
+          "arxiv": "2609.28609",
+          "doi": null,
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "first_seen": "2026-10-21",
           "nr": "na"
         },
         {
@@ -655,51 +697,9 @@
           "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents",
-          "authors": "W Chang, Y Chen",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.03467",
-          "cites": 0,
-          "pubdate": "2026-09-03",
-          "arxiv": "2609.03467",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Inferring Hidden User Models from the Behavior of Personalized LLM Agents",
-          "authors": "H Li, Y Xiao, Q Ye, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.03815",
-          "cites": 0,
-          "pubdate": "2026-09-03",
-          "arxiv": "2609.03815",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "VoiceLongMemEval: Do Assistants Remember How You Sounded?",
-          "authors": "R Pahwa, P Priye, A Beedu",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.00570",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": "2609.00570",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 341,
+      "n_citing": 377,
       "query": "persona generation"
     },
     "gABM": {
@@ -947,10 +947,24 @@
       ],
       "citing": [
         {
+          "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
+          "authors": "H Zhang, Q Hu, Z Zhang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.27333",
+          "cites": 0,
+          "pubdate": "2026-10-19",
+          "arxiv": "2610.27333",
+          "doi": null,
+          "cited_key": "Design and Evaluation of Generative Agent-based Platform for",
+          "first_seen": "2026-10-21",
+          "nr": "na"
+        },
+        {
           "title": "LLM Evolution in a Simple Simulated Market",
           "authors": "C Pilgrim, C Krupenye, D Biro, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.24033",
           "cites": 0,
           "pubdate": "2026-10-16",
@@ -1511,23 +1525,9 @@
           "q": "Q1",
           "sjr": 1.17,
           "qcat": "Decision Sciences (miscellaneous)"
-        },
-        {
-          "title": "Predicting the scale limits of social mechanisms in agent societies",
-          "authors": "Z Wu, C Xiao",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.22884",
-          "cites": 0,
-          "pubdate": "2026-08-24",
-          "arxiv": "2608.22884",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 492,
+      "n_citing": 493,
       "query": "agent-based modeling"
     }
   }
