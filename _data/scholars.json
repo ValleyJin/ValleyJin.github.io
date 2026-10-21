@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -1966,6 +1966,17 @@
           "nr": "na"
         },
         {
+          "title": "Extracapsular spread and FDG PET/CT correlations in oral squamous cell carcinoma",
+          "authors": "YH Joo, IR Yoo, KJ Cho, JO Park, IC Nam, MS Kim",
+          "year": "2013",
+          "venue": "International journal of oral and maxillofacial surgery 42 (2), 158-163, 2013",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:_AeoHAGD03cC",
+          "cites": 43,
+          "q": "Q1",
+          "sjr": 0.79,
+          "qcat": "Oral Surgery"
+        },
+        {
           "title": "Scaling-invariant boundary image matching using time-series matching techniques",
           "authors": "YS Moon, BS Kim, MS Kim, KY Whang",
           "year": "2010",
@@ -1986,17 +1997,6 @@
           "q": "Q2",
           "sjr": 0.41,
           "qcat": "Mechanical Engineering"
-        },
-        {
-          "title": "Extracapsular spread and FDG PET/CT correlations in oral squamous cell carcinoma",
-          "authors": "YH Joo, IR Yoo, KJ Cho, JO Park, IC Nam, MS Kim",
-          "year": "2013",
-          "venue": "International journal of oral and maxillofacial surgery 42 (2), 158-163, 2013",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:_AeoHAGD03cC",
-          "cites": 42,
-          "q": "Q1",
-          "sjr": 0.79,
-          "qcat": "Oral Surgery"
         },
         {
           "title": "Dissolution rate improvement of valsartan by low temperature recrystallization in compressed CO2: Prevention of excessive agglomeration",
@@ -2081,6 +2081,15 @@
           "qcat": "Analytical Chemistry"
         },
         {
+          "title": "Joins on encoded and partitioned data",
+          "authors": "JG Lee, G Lohman, K Morfonios, K Murthy, I Pandis, L Qiao, V Raman, ...",
+          "year": "2014",
+          "venue": "Association for Computing Machinery (ACM), 2014",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:roLk4NBRz8UC",
+          "cites": 37,
+          "nr": "na"
+        },
+        {
           "title": "Model predictive control method for autonomous vehicles using time-varying and non-uniformly spaced horizon",
           "authors": "M Kim, D Lee, J Ahn, M Kim, J Park",
           "year": "2021",
@@ -2090,15 +2099,6 @@
           "q": "Q1",
           "sjr": 0.88,
           "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Joins on encoded and partitioned data",
-          "authors": "JG Lee, G Lohman, K Morfonios, K Murthy, I Pandis, L Qiao, V Raman, ...",
-          "year": "2014",
-          "venue": "Association for Computing Machinery (ACM), 2014",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:roLk4NBRz8UC",
-          "cites": 36,
-          "nr": "na"
         },
         {
           "title": "Enhanced solubility and oral absorption of sirolimus using D-α-tocopheryl polyethylene glycol succinate micelles",
@@ -2132,6 +2132,15 @@
           "qcat": "Linguistics and Language"
         },
         {
+          "title": "Facile one-pot synthesis of tungsten oxide (WO3− x) nanoparticles using sub and supercritical fluids",
+          "authors": "M Kim, BY Lee, HC Ham, J Han, SW Nam, H Lee, JH Park, S Choi, Y Shin",
+          "year": "2016",
+          "venue": "The Journal of Supercritical Fluids 111, 8-13, 2016",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:jE2MZjpN3IcC",
+          "cites": 35,
+          "nr": "na"
+        },
+        {
           "title": "A study on an analysis model for the thermo-mechanical behavior of a solid disc brake for rapid transit railway vehicles",
           "authors": "H Hong, M Kim, H Lee, I Jo, N Jeong, H Moon, M Suh, J Lee",
           "year": "2018",
@@ -2141,15 +2150,6 @@
           "q": "Q2",
           "sjr": 0.41,
           "qcat": "Mechanical Engineering"
-        },
-        {
-          "title": "Facile one-pot synthesis of tungsten oxide (WO3− x) nanoparticles using sub and supercritical fluids",
-          "authors": "M Kim, BY Lee, HC Ham, J Han, SW Nam, H Lee, JH Park, S Choi, Y Shin",
-          "year": "2016",
-          "venue": "The Journal of Supercritical Fluids 111, 8-13, 2016",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:jE2MZjpN3IcC",
-          "cites": 34,
-          "nr": "na"
         },
         {
           "title": "Design and analysis of an active steering bogie for urban trains",
@@ -2839,6 +2839,17 @@
           "qcat": "Environmental Chemistry"
         },
         {
+          "title": "Development of a protocol to optimize electric power consumption and life cycle environmental impacts for operation of wastewater treatment plant",
+          "authors": "W Piao, C Kim, S Cho, H Kim, M Kim, Y Kim",
+          "year": "2016",
+          "venue": "Environmental Science and Pollution Research 23 (24), 25451-25466, 2016",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:lg2tdxc6qMwC",
+          "cites": 12,
+          "q": "Q1",
+          "sjr": 0.91,
+          "qcat": "Medicine (miscellaneous)"
+        },
+        {
           "title": "Potential use of adult bovine serum obtained during the slaughtering process as a biological reagent",
           "authors": "JE Yu, M Kim, S Pokharel, J Kim, I Choi, NH Choe, SS Nahm",
           "year": "2013",
@@ -2888,17 +2899,6 @@
           "q": "Q1",
           "sjr": 1.2,
           "qcat": "Pharmaceutical Science"
-        },
-        {
-          "title": "Development of a protocol to optimize electric power consumption and life cycle environmental impacts for operation of wastewater treatment plant",
-          "authors": "W Piao, C Kim, S Cho, H Kim, M Kim, Y Kim",
-          "year": "2016",
-          "venue": "Environmental Science and Pollution Research 23 (24), 25451-25466, 2016",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:lg2tdxc6qMwC",
-          "cites": 11,
-          "q": "Q1",
-          "sjr": 0.91,
-          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "Synthesis of manganese oxide microparticles using supercritical water",
@@ -4940,7 +4940,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13887,
+          "cites": 13900,
           "nr": "na"
         },
         {
@@ -4949,7 +4949,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9005,
+          "cites": 9025,
           "crank": "A*"
         },
         {
@@ -4958,7 +4958,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 833,
+          "cites": 835,
           "nr": "na"
         },
         {
@@ -4967,7 +4967,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 681,
+          "cites": 682,
           "crank": "A*"
         },
         {
@@ -4976,7 +4976,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 381,
+          "cites": 382,
           "crank": "A*"
         },
         {
@@ -4985,7 +4985,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 367,
+          "cites": 368,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -4996,7 +4996,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 331,
+          "cites": 333,
           "crank": "A*"
         },
         {
@@ -5005,7 +5005,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 323,
+          "cites": 325,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5076,7 +5076,7 @@
           "year": "2020",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 4 (CSCW1), 1-19, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:qjMakFHDy7sC",
-          "cites": 87,
+          "cites": 88,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5116,7 +5116,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 53,
+          "cites": 54,
           "crank": "A*"
         },
         {
@@ -5230,7 +5230,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 53,
+          "cites": 54,
           "crank": "A*"
         },
         {
@@ -5275,7 +5275,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 833,
+          "cites": 835,
           "nr": "na"
         },
         {
@@ -5293,7 +5293,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 331,
+          "cites": 333,
           "crank": "A*"
         },
         {
@@ -5311,7 +5311,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9005,
+          "cites": 9025,
           "crank": "A*"
         },
         {
@@ -5340,7 +5340,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 367,
+          "cites": 368,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5373,7 +5373,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 681,
+          "cites": 682,
           "crank": "A*"
         },
         {
@@ -5382,7 +5382,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 381,
+          "cites": 382,
           "crank": "A*"
         },
         {
@@ -5411,7 +5411,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 323,
+          "cites": 325,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5422,7 +5422,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13887,
+          "cites": 13900,
           "nr": "na"
         },
         {
@@ -5458,7 +5458,7 @@
           "year": "2020",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 4 (CSCW1), 1-19, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:qjMakFHDy7sC",
-          "cites": 87,
+          "cites": 88,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
