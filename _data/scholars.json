@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21",
+  "generated": "2026-10-22",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -393,6 +393,17 @@
           "nr": "na"
         },
         {
+          "title": "Minimum entropy density method for the time series analysis",
+          "authors": "JW Lee, JB Park, HH Jo, JS Yang, HT Moon",
+          "year": "2009",
+          "venue": "Physica A: Statistical Mechanics and its Applications 388 (2-3), 137-144, 2009",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:WF5omc3nYNoC",
+          "cites": 15,
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
+        },
+        {
           "title": "The Dynamics of the Global Arms Trade Network: States’ Stability and Instability",
           "authors": "Y Jang, JS Yang",
           "year": "2023",
@@ -424,17 +435,6 @@
           "q": "Q1",
           "sjr": 1.89,
           "qcat": "Renewable Energy, Sustainability and the Environment"
-        },
-        {
-          "title": "Minimum entropy density method for the time series analysis",
-          "authors": "JW Lee, JB Park, HH Jo, JS Yang, HT Moon",
-          "year": "2009",
-          "venue": "Physica A: Statistical Mechanics and its Applications 388 (2-3), 137-144, 2009",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:WF5omc3nYNoC",
-          "cites": 14,
-          "q": "Q2",
-          "sjr": 0.65,
-          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Finding the right balance: The impact of individual autonomy on balancing exploration and exploitation",
