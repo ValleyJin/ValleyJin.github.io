@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21",
+  "generated": "2026-10-22",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -139,6 +139,34 @@
       ],
       "citing": [
         {
+          "title": "Where Do LLMs Learn to Recommend AI?",
+          "authors": "B Trabelsi, J Shaki, S Kraus",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.29785",
+          "cites": 1,
+          "pubdate": "2026-10-21",
+          "arxiv": "2610.29785",
+          "doi": null,
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "first_seen": "2026-10-22",
+          "nr": "na"
+        },
+        {
+          "title": "PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents",
+          "authors": "J Zhong, Z Liu, P Cao, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.29467",
+          "cites": 0,
+          "pubdate": "2026-10-21",
+          "arxiv": "2610.29467",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-10-22",
+          "nr": "na"
+        },
+        {
           "title": "Honeyed Words, Hidden Daggers: Benchmarking and Training LLMs to See Through Mock Politeness",
           "authors": "C Kang, S Gong, T Yan, et al.",
           "year": 2026,
@@ -153,20 +181,6 @@
           "nr": "na"
         },
         {
-          "title": "Pluralistic Alignment in Language Models: Objectives, Human References, and Preference Representations",
-          "authors": "M Wu, U Bodhwani",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2610.24471",
-          "cites": 0,
-          "pubdate": "2026-10-17",
-          "arxiv": "2610.24471",
-          "doi": null,
-          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
-          "first_seen": "2026-10-20",
-          "nr": "na"
-        },
-        {
           "title": "Muse Glimmer 30B: An On-Device Agentic Model",
           "authors": "A Abtahizadeh, M Aghamelu, A Ahmed, et al.",
           "year": 2026,
@@ -177,6 +191,20 @@
           "arxiv": "2610.24628",
           "doi": null,
           "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "first_seen": "2026-10-20",
+          "nr": "na"
+        },
+        {
+          "title": "Pluralistic Alignment in Language Models: Objectives, Human References, and Preference Representations",
+          "authors": "M Wu, U Bodhwani",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.24471",
+          "cites": 0,
+          "pubdate": "2026-10-17",
+          "arxiv": "2610.24471",
+          "doi": null,
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
           "first_seen": "2026-10-20",
           "nr": "na"
         },
@@ -669,37 +697,9 @@
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation",
-          "authors": "D Nguyen, Z Qiu, S Chen, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.08599",
-          "cites": 0,
-          "pubdate": "2026-09-08",
-          "arxiv": "2609.08599",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "SchemeArena: Factorized Stress Testing of Scheming in LLM Agents",
-          "authors": "J Ruan, I Nair, A Liu, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.08126",
-          "cites": 0,
-          "pubdate": "2026-09-08",
-          "arxiv": "2609.08126",
-          "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 377,
+      "n_citing": 379,
       "query": "persona generation"
     },
     "gABM": {
@@ -947,10 +947,55 @@
       ],
       "citing": [
         {
+          "title": "AgentMonopoly: Behavioral Patterns and Persona Control in LLM Agents",
+          "authors": "C Wu, M Li, M Marsault, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.29330",
+          "cites": 0,
+          "pubdate": "2026-10-21",
+          "arxiv": "2610.29330",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-22",
+          "nr": "na"
+        },
+        {
+          "title": "Synthetic Transit Trip-Record Generation Using Deep Generative Models for Travel Demand Modeling",
+          "authors": "P Jha, R Jaiswal, R Yadav, et al.",
+          "year": 2026,
+          "venue": "Big Data and Cognitive Computing",
+          "url": "https://doi.org/10.3390/bdcc10100354",
+          "cites": 0,
+          "pubdate": "2026-10-20",
+          "arxiv": null,
+          "doi": "10.3390/bdcc10100354",
+          "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
+          "first_seen": "2026-10-22",
+          "fwci": 0.0,
+          "q": "Q1",
+          "sjr": 1.03,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "The Butterfly Effect in LLM Social Simulations: From Architecture Sensitivity to Robustness Audits",
+          "authors": "J Ye, L Cao, D Chen, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.28981",
+          "cites": 0,
+          "pubdate": "2026-10-20",
+          "arxiv": "2610.28981",
+          "doi": null,
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "first_seen": "2026-10-22",
+          "nr": "na"
+        },
+        {
           "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
           "authors": "H Zhang, Q Hu, Z Zhang, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.27333",
           "cites": 0,
           "pubdate": "2026-10-19",
@@ -1477,57 +1522,9 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "BAND: A Probabilistic Framework for Modeling Non-Stationary Heart Rate Variability in Rest–Stress–Rest Dynamics",
-          "authors": "M Castillo-Aguilar, D Medina-Ortiz, R Muñoz, et al.",
-          "year": 2026,
-          "venue": "Technologies",
-          "url": "https://doi.org/10.3390/technologies14090528",
-          "cites": 0,
-          "pubdate": "2026-08-27",
-          "arxiv": null,
-          "doi": "10.3390/technologies14090528",
-          "cited_key": "Generative Models: An Interdisciplinary Perspective",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.79,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Prompt Sensitivity of Generative Agents: Evidence from an Epidemic Model",
-          "authors": "R Williams, N Hosseinichimeh",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.26221",
-          "cites": 0,
-          "pubdate": "2026-08-26",
-          "arxiv": "2608.26221",
-          "doi": null,
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Simulating team dynamics with generative agents: a case study on data science teams from digital platforms",
-          "authors": "L Li, H Yu, M Kunc",
-          "year": 2026,
-          "venue": "Annals of Operations Research",
-          "url": "https://doi.org/10.1007/s10479-026-07398-1",
-          "cites": 0,
-          "pubdate": "2026-08-25",
-          "arxiv": null,
-          "doi": "10.1007/s10479-026-07398-1",
-          "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
-          "first_seen": "2026-10-01",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.17,
-          "qcat": "Decision Sciences (miscellaneous)"
         }
       ],
-      "n_citing": 493,
+      "n_citing": 496,
       "query": "agent-based modeling"
     }
   }
