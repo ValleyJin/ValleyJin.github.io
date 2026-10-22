@@ -1,7 +1,157 @@
 {
-  "generated": "2026-10-21",
+  "generated": "2026-10-22",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Multi-agent-driven blue finance governance for China-ASEAN ocean sustainability under climate change",
+      "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1987642/pdf",
+      "authors": "J Chen, Q Li - Frontiers in Marine Science, 2026",
+      "snippet": "Introduction This study examines policy coordination and implementation pathways for China-ASEAN blue finance governance under climate change. It defines blue finance not merely as financing for marine projects, but as a governance-oriented financial mechanism that shapes ocean sustainability through activity classification, risk pricing, use-of-proceeds constraints, disclosure, monitoring, reporting and verification (MRV), and cross-border coordination. Methods Using a design-science …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Cross-Centaur: Modeling Individual Decision-Making Across Psychological Tasks with Language Models",
+      "url": "https://arxiv.org/pdf/2610.23157",
+      "authors": "H Asano, H Suganuma, R Mori, Y Baba - arXiv preprint arXiv:2610.23157, 2026",
+      "snippet": "Large language models (LLMs) are increasingly used as computational models of human behavior. Recent models such as Centaur have advanced this goal by fine-tuning LLMs on trial-by-trial decisions from psychological experiments. However, existing large-scale behavioral datasets do not link the same participants across different tasks, so these models learn population-level regularities but are not trained to model individual-level regularities across tasks. We introduce Cross-Psych-101, a …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "A comparison of classifier robustness on the PCAM dataset",
+      "url": "https://link.springer.com/article/10.1007/s10710-026-09547-8",
+      "authors": "S Treillard, C De La Torre, C Franchet, H Luga… - Genetic Programming and …, 2026",
+      "snippet": "Deep Learning (DL) models, despite high accuracy, often degrade under domain shifts and image perturbations. This has frequently been observed in histopathology, where differences in slide preparation protocols may result in dramatically different tissue aspects, independently from any underlying biological phenomena. Some solutions, such as Lipschitz-constrained networks, offer formal robustness guarantees at the cost of added complexity. Others, such as foundation models, rely …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Who Do Perspectivist Models Predict Well? Annotator Agreement, Sparsity, and Performance",
+      "url": "https://arxiv.org/pdf/2610.22567",
+      "authors": "L Lowmanstone IV, V Sivakumar, A Samaddar… - arXiv preprint arXiv …, 2026",
+      "snippet": "Successful completion of perspectivist natural language processing (NLP) annotation tasks requires algorithms to be aligned across diverse perspectives in order to predict how different humans will rate text. This work studies how the performance of such algorithms varies for annotators who behave differently than others, either by providing annotations that diverge from others' responses or by providing fewer annotations altogether. To aid with characterizing model …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Same Person, Different Advice: Auditing LLM Financial Advice with Repeated Risk-Tolerance Responses",
+      "url": "https://arxiv.org/pdf/2610.23060",
+      "authors": "S Bakshi, A Bose, A Bose, S Nandi - arXiv preprint arXiv:2610.23060, 2026",
+      "snippet": "AI financial advisers set a client's stock allocation largely from one stated-risk question, yet people do not answer it the same way twice: in a national US panel, 41% of households chose a different answer two years later, and in a laboratory retest a third of people moved two or more points on a 0-10 scale after six months. Seven large language models from five providers gave one-turn allocation advice for 800 real household profiles in which only the risk answer changed. The …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Promoción y prevención mediante afiches generados por Inteligencia Artificial:¿ Aliada de Una Sola Salud?",
+      "url": "https://revinformatica.sld.cu/index.php/rcim/article/view/874",
+      "authors": "CJP Pérez, AMB Medina, DMR Veloz, FP Moya - Revista Cubana de Informática …, 2026",
+      "snippet": "Introducción: Las evidencias indican que pocos estudios han explorado las capacidades del uso de la inteligencia artificial generativa en función de la promoción de salud y prevención de enfermedades en el contexto del enfoque Una Sola Salud. Objetivo: Evaluar las capacidades y viabilidad económica de los modelos de generación de texto e imágenes disponibles en Microsoft Copilot, para crear afiches de promoción y prevención para el enfoque una sola Salud. Método …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Can multimodal large language models evaluate AI-generated industrial design images? an empirical comparison with human expert assessment",
+      "url": "https://www.spiedigitallibrary.org/proceedings/Download?urlId=10.1117%2F12.3132247",
+      "authors": "Z Liu, J Xie, P Li, X Pang, S Jiang - Proc. of SPIE Vol, 2026",
+      "snippet": "ABSTRACT Text-to-image (T2I) generation models are increasingly used in industrial design, but assessing the quality of their outputs still depends on slow, small-scale human expert review, which constrains the automation advantage of generative AI and hinders its adoption in this domain. This paper empirically examines whether multimodal large language models (MLLMs) can substitute for design experts in evaluating AI-generated product design images. We construct a …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "\" To Boldly Go Where No One Has Gone Before\" What Has AI Let Developers Unlock?",
+      "url": "https://arxiv.org/pdf/2610.23708",
+      "authors": "R Choudhuri, JL Butler, C Bird, C Badea, B Houck… - arXiv preprint arXiv …, 2026",
+      "snippet": "Measuring AI by how much faster developers work is like judging electricity by how much faster it spun a steam-era factory. A fuller measure asks what new work becomes possible. We surveyed 331 software developers at Microsoft about what AI lets them do that they could not do before and analyzed their answers using reflexive thematic analysis with a human-in-the-loop, multi-model AI council. Developers described doing familiar work faster (Faster, 45%), undertaking work previously …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "MS-Eval: Benchmarking Sub-Agent Delegation and Orchestration in MCP-Intensive Working Scenarios",
+      "url": "https://arxiv.org/pdf/2610.22869",
+      "authors": "B Ding, Q Wang, L Ruan, W Lu, Q Ge, R Fang, T Lin - arXiv preprint arXiv:2610.22869, 2026",
+      "snippet": "LLM agents are increasingly integrated into real-world works, yet they must handle diverse domain-specific tools and complex multi-sub-task problems that sequential tool invocation resolves inefficiently and with severe context bloat. The Main-Agent Delegation and Sub-Agent Execution (MAD-SAE) paradigm addresses these issues by delegating sub-tasks to specialized sub-agents for parallel execution in isolated contexts, but its delegation and orchestration quality remains unquantified. We …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Characterizing Collective Attention in YouTube Live Chats of Brazilian Football Rivalries",
+      "url": "https://sol.sbc.org.br/index.php/webmedia/article/view/46089",
+      "authors": "LEC Carneiro, JA Caetano - Brazilian Symposium on Multimedia and the Web …, 2026",
+      "snippet": "Online live chats have become an important space for collective participation during live sports broadcasts, enabling large audiences to react synchronously to unfolding events. Despite growing interest in collective attention in online systems, relatively little is known about how attention evolves during live sports discussions and how different attention levels are reflected in audience language. In this paper, we investigate collective attention dynamics in YouTube live chats associated with three …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Green and smart technologies for a sustainable, resilient and competitive EU waterborne transport sector: deliverable for onboard and after-treatment systems (D10)",
+      "url": "https://repository.uantwerpen.be/docstore/d:irua:37782",
+      "authors": "M Cryns, E O'Neill, MC Rodrigues de Jesus… - 2026",
+      "snippet": "This report assesses onboard and after-treatment systems in Europe as essential technologies for improving the environmental performance of the EU waterborne transport sector. It covers systems installed on vessels to capture, treat, reduce, separate, monitor, and manage emissions and operational discharges, including onboard carbon capture, exhaust-gas cleaning, noise and vibration mitigation, wastewater treatment, ballast-water management, and oily-water separation. The …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "剪切相铌酸钛多功能材料的改性调控与应用拓展.",
+      "url": "https://openurl.ebsco.com/contentitem/gcd:197796586?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:197796586&crl=c&jrnl=20975384",
+      "authors": "张博皓， 杨浩然， 邵宗普， 刘亚飞， 张学全 - Nonferrous Metals, 2026",
+      "snippet": "铌酸钛(TNO) 作为典型Wadsley-Roth 剪切相负极材料, 兼具高嵌锂电位, 近400 mAh· g− 1 理论容量与低晶格形变等优势, 具有重要的研究价值与应用潜力. 本文系统剖析了TNO 晶体结构与嵌锂机制, 对比了不同合成方法对材料微观形貌及电化学动力学行为的调控规律, 针对TNO 本征电子电导率较低, 锂离子扩散动力学迟缓等关键短板, 系统归纳了元素掺杂, 晶格氧空位构筑, 碳基包覆, 非碳基异质复合四类改性策略. 得益于优秀的电化学特性, TNO 材料具备多样化应用场景, 既可作为锂 …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Compressed Execution in Hash Joins via Dictionary Vectors in DuckDB",
+      "url": "https://homepages.cwi.nl/~boncz/msc/2026-AhmetKarapinar.pdf",
+      "authors": "A Karapinar - 2026",
+      "snippet": "An analytical database system holds a query's working data in memory. That memory is expensive. A query that runs out of it fails or spills to disk. A hash join copies its whole build side into a hash table, which often sets a query's peak memory. This thesis asks how a hash join can build its hash table in compressed form. Dictionary encoding can compress it, but only if one dictionary covers the whole column. A storage dictionary usually describes one row group rather than the whole column, so …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Gestures for Blind People to Specify Spatial Focus of Vision Language Models on Head-Worn Devices",
+      "url": "https://www.masakikuribayashi.com/data/project/shoya_higuchi_vrst_poster_2026/paper.pdf",
+      "authors": "S Higuchi, M Kuribayashi, A Ito, S Morishima - Recall, 2026",
+      "snippet": "Head-worn visual assistance can make it difficult for blind users to obtain descriptions focused on the part of a scene they want to examine. Thus, we propose two interactions for head-worn devices that enable blind users to direct vision …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
+    {
+      "title": "Exploring Blind People's Information Needs for Sightseeing Narration Generated by Vision-Language Models",
+      "url": "https://www.masakikuribayashi.com/data/project/arata_ito_assets_2026/paper.pdf",
+      "authors": "A Ito, S Kayukawa, M Kuribayashi, D Sato, C Asakawa… - 2026",
+      "snippet": "Blind people often enjoy sightseeing with sighted companions, but they may not always describe the surrounding environment aligned to blind people's interests. We therefore explore Vision-Language Model (VLM)-generated narration as a …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-23",
+      "nr": "na"
+    },
     {
       "title": "Process, Not Trace: A Theoretical Framework for Agentic AI and Process-Preserving Human–AI Cognition",
       "url": "https://link.springer.com/chapter/10.1007/978-3-032-41794-7_23",
@@ -10,9 +160,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-10-21",
-      "q": "Q4",
-      "sjr": 0.17,
-      "qcat": "Atomic and Molecular Physics, and Optics"
+      "crank": "B"
     },
     {
       "title": "Generative AI Decision Support in B2C E-Commerce: A Consumer Buying Behaviour Framework",
@@ -22,9 +170,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-10-21",
-      "q": "Q4",
-      "sjr": 0.14,
-      "qcat": "Electrical and Electronic Engineering"
+      "nr": "na"
     },
     {
       "title": "A Lightweight Dispersion Metric Suite for Real-Time Convergence Monitoring in Synthetic Populations",
@@ -84,9 +230,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-10-21",
-      "q": "Q1",
-      "sjr": 4.9,
-      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
+      "nr": "na"
     },
     {
       "title": "Simplificación y reelaboración asistida con LLM: un enfoque modular basado en prompting para la comprensión de textos expositivos",
@@ -116,9 +260,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-10-21",
-      "q": "Q1",
-      "sjr": 4.9,
-      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
+      "nr": "na"
     },
     {
       "title": "Bioinspired Self-Floating Hydrogel-Coated Foam for Synergistic Solar Power Generation and Desalination",
@@ -128,9 +270,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-10-21",
-      "q": "Q1",
-      "sjr": 0.89,
-      "qcat": "Organic Chemistry"
+      "nr": "na"
     },
     {
       "title": "Association among social support, self-identity, depression, and anxiety in college student men who have sex with men in Guiyang, China",
@@ -140,9 +280,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-10-21",
-      "q": "Q1",
-      "sjr": 0.94,
-      "qcat": "Psychology (miscellaneous)"
+      "nr": "na"
     },
     {
       "title": "An Enhanced Dynamic Network Community Identification by Utilizing Deep Learning",
@@ -252,9 +390,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-10-20",
-      "q": "Q1",
-      "sjr": 2.18,
-      "qcat": "Multidisciplinary"
+      "nr": "na"
     },
     {
       "title": "Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems",
@@ -264,170 +400,6 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-10-20",
-      "q": "Q1",
-      "sjr": 1.88,
-      "qcat": "Computer Networks and Communications"
-    },
-    {
-      "title": "From digital interaction to social connection: AI virtual humans as interactive learning partners for older adults",
-      "url": "https://www.tandfonline.com/doi/abs/10.1080/10494820.2026.2748835",
-      "authors": "WC Pan, WQ Zhang, H Chen, Q Guo, SY Wang, HS Li - Interactive Learning …, 2026",
-      "snippet": "As artificial intelligence (AI) becomes increasingly embedded in educational and social interaction systems, its potential to alleviate digital exclusion and digital loneliness among older adults has attracted growing attention. Across two independent experiments, this study examined the association between AI-assisted interaction and digital loneliness among older adults, as well as the underlying psychological mechanisms. In Experiment 1, 90 older adults participated in a four …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "q": "Q1",
-      "sjr": 2.24,
-      "qcat": "Computer Science Applications"
-    },
-    {
-      "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
-      "url": "https://arxiv.org/pdf/2610.21453",
-      "authors": "Z Wang, Y Liu, Y Chen, S Yang, J Ye, P Chen, C Lu… - arXiv preprint arXiv …, 2026",
-      "snippet": "While generalist vision-language-action (VLA) models have enabled diverse open-world manipulation, real-world robotic assistance requires two critical capabilities they currently lack: personalization and reliable execution. First, executing an instruction like\" make me a sandwich\" requires grounding subtask decomposition in persistent user preferences rather than relying on a single generic solution. Second, reliable deployment demands explainable safety assurance that proactively prevents …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Who Does the Machine Read? Auditing Source Concentration, Link Fidelity, and Local News Visibility in LLM Answer Engines",
-      "url": "https://cj2026.northwestern.edu/files/2026/09/7839-obada-kraishan.pdf",
-      "authors": "O Kraishan, K Kee, K Jitkajornwanich - 2026",
-      "snippet": "Large language model (LLM) answer engines now sit between many readers and the news. Instead of a list of links, they return a short written answer with a few citations, which makes them a new kind of news gatekeeper. We audit three commercial engines, Perplexity (Sonar), OpenAI (GPT-4o with web search), and Google Gemini (2.5 Flash with Search grounding), on the same 100 US news events sampled from GDELT, covering 300 answers and 1,830 citations. We measure how …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Dendritic computation bridges neuroscience and foundation models",
-      "url": "https://www.nature.com/articles/s41467-026-77929-8_reference.pdf",
-      "authors": "M Yao, Y Pan, Y Zhong, S Mei, Z Qin, K Wang, J Hu… - Nature Communications, 2026",
-      "snippet": "A prevailing view holds that although neuroscience historically inspired AI, its role in the recent evolution of AI, driven by the scaling of foundation models, is minor. We challenge this perspective by establishing a biological analogy between simplified dendritic neuron models and the attention mechanisms central to AI foundation models. We show that AI attention mechanisms bear direct mappings to internal neuronal complexities arising from dendritic organization, rather than to the mere …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "q": "Q1",
-      "sjr": 4.9,
-      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
-    },
-    {
-      "title": "Contribution of artificial intelligence research to the development of inclusive applications for people with disabilities: A scoping review (2015–2025)",
-      "url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0001749",
-      "authors": "SS Kaboré, A Bayani, LPE Ewane, DSO Dos Anjos… - PLOS Digital Health, 2026",
-      "snippet": "Artificial intelligence (AI) is rapidly transforming healthcare. Yet people with disabilities (PWD), representing 16% of the global population, remain disproportionately excluded from these advances. This exclusion is driven by algorithmic bias, non-representative datasets, and limited involvement of PWD in the design, development, and evaluation of AI applications. This scoping review examines the extent to which AI research in health contributes to the development of …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "q": "Q1",
-      "sjr": 1.79,
-      "qcat": "Health Informatics"
-    },
-    {
-      "title": "AI still has a vocabulary problem: toward terminological accountability in artificial intelligence",
-      "url": "https://link.springer.com/article/10.1007/s43681-026-01447-y",
-      "authors": "A Hussain, W Jin, N Vincent - AI and Ethics, 2026",
-      "snippet": "The artificial intelligence (AI) industry's vocabulary–including “hallucination”,“frontier AI”,“the cloud”,“responsible AI”,“benefiting humanity”--has been examined through individual terms in prior research. This work examines these terms as an interlocking vocabulary and investigates how they help insulate the organizations with greatest control over AI from accountability for what that control costs others, which we call “accountability insulation”. We synthesize thirty terms, grouping them by the …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "How Learning Reshapes Aesthetic Evaluation of AI-generated and Traditional Xilankapu Patterns: Evidence from a Longitudinal Intervention Study",
-      "url": "https://www.researchsquare.com/article/rs-10520041/latest.pdf",
-      "authors": "S Zhu, J Hu, Z Cheng, Y Hu, J Sun - 2026",
-      "snippet": "Background Cultural knowledge may alter how viewers evaluate traditional and AI-generated cultural artifacts, yet most studies of AI-generated art use cross-sectional designs. This study examined whether structured learning changes aesthetic evaluation and creator attribution for traditional Xilankapu patterns and AI-generated patterns. Methods A 30-day single-cohort pre–post intervention study was conducted with 118 recruited participants who had no prior experience with Xilankapu; after …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Multimodal Uncertainty-Aware RAG for Autonomous Driving Perception and Safety-Critical Decision-Making",
-      "url": "https://www.jaair.org/index.php/home/article/view/290",
-      "authors": "K Rocha, W Varma - Journal of Advanced Artificial Intelligence Research, 2026",
-      "snippet": "Autonomous driving systems increasingly depend on multimodal perception, language-capable reasoning, and retrieval-augmented generation to interpret complex environments and support safety-critical decisions. Yet the integration of retrieval mechanisms into vehicular perception and planning introduces new forms of epistemic, aleatoric, and infrastructure-mediated uncertainty that are not fully addressed by conventional sensor fusion or end-to-end learning pipelines. This …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "TIPS: A Tiny Inference-time Policy for Scaling in Diffusion Language Models",
-      "url": "https://arxiv.org/pdf/2610.22099",
-      "authors": "YS Zhang, J Tang, PA Noël, O Ostapenko - arXiv preprint arXiv:2610.22099, 2026",
-      "snippet": "Masked diffusion language models expose an inference-time choice: which positions become visible after each denoising pass. Many existing decoding methods use hand-designed rules or require visibility to grow monotonically. We present a $\\textbf {T} $ iny $\\textbf {I} $ nference-time $\\textbf {P} $ olicy for $\\textbf {S} $ caling ($\\textbf {TIPS} $), an approximately $600 $ K-parameter controller that learns both unmasking and remasking while keeping the underlying language model frozen …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Report on the International Workshop on Transforming Graph Data (TGD@ EDBT/ICDT 2025-2026)",
-      "url": "https://dl.acm.org/doi/pdf/10.1145/3858364.3858371",
-      "authors": "A Bernasconi, S Dumbrava, R Tommasini - ACM SIGMOD Record, 2026",
-      "snippet": "The International Workshop on Transforming Graph Data (TGD) ran for two editions, co-located with EDBT/ICDT in Barcelona in March 2025 and in Tampere in March 2026. It was motivated by an asymmetry in the graph data management ecosystem. Storage, indexing, and querying have matured considerably, while the mechanisms needed to evolve, integrate and reason over graph data remain comparatively ad hoc. The program comprised 12 papers, four keynotes and one panel, spanning …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Sex-Dependent Habenular Dysregulation Across the Continuum of Stress Exposure and Depression Severity: A Systematic Review of Preclinical and Clinical …",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0166432826005073",
-      "authors": "C Ferreira-Vorkapic, RR Coelho, M Wiech, F Tocco… - Behavioural Brain Research, 2026",
-      "snippet": "Background Major depressive disorder (MDD) is diagnosed at roughly twice the rate in women as in men, yet sex is still routinely treated as a covariate rather than a biological variable of primary interest in depression research. The habenula (Hb), particularly the lateral habenula (LHb), is an increasingly implicated substrate of depression, but two recent systematic reviews found sex-stratified habenula data sparse and reported sex effects inconsistent in direction. Objective To determine …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-20",
-      "q": "Q2",
-      "sjr": 0.86,
-      "qcat": "Behavioral Neuroscience"
-    },
-    {
-      "title": "A RAG-enhanced multi-agent LLM/VLM framework for auditable and region-aware structural health monitoring of a historic masonry structure",
-      "url": "https://www.nature.com/articles/s41598-026-57424-2",
-      "authors": "K Hacıefendioğlu, V Kahya, T Aslan - Scientific Reports, 2026",
-      "snippet": "Historic masonry structures require monitoring workflows that are non-destructive, interpretable, and robust to field variability. This paper presents a proof-of-concept, RAG-enhanced structural health monitoring (SHM) workflow demonstrated on a single historic masonry minaret case study, in which a manager–orchestrator coordinates signal analysis, visual analysis, and cross-modal fusion. Vibration data from four sensors installed on this minaret are processed through a reproducible …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-18",
-      "q": "Q1",
-      "sjr": 0.89,
-      "qcat": "Multidisciplinary"
-    },
-    {
-      "title": "Agentic Presence Architecture and Deployment Audit for Proactive Embodied Agents in Extended Reality",
-      "url": "https://www.mdpi.com/2079-9292/15/20/4736",
-      "authors": "S Ban - Electronics, 2026",
-      "snippet": "Proactive embodied agents in extended reality (XR) require an explicit interface between inferred user need and embodied intervention. We present Agentic Presence, a six-layer reference architecture integrating multimodal context, intent inference, local initiative arbitration, anticipatory scheduling, and embodied actuation. Its audit separates theoretical decision regions, sensor reachability, and decisions issued under runtime constraints. A Unity implementation on tethered Meta …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-18",
-      "q": "Q4",
-      "sjr": 0.14,
-      "qcat": "Electrical and Electronic Engineering"
-    },
-    {
-      "title": "Do Androids Dream of Unseen Puppeteers? Probing for Conspiratorial Tendencies in Large Language Models",
-      "url": "https://re.public.polimi.it/bitstream/11311/1329298/1/2511.03699v2.pdf",
-      "authors": "F Corso, F Pierri - Proceedings of the 2026 Conference on Empirical …, 2026",
-      "snippet": "Abstract We investigate whether Large Language Models (LLMs) exhibit conspiratorial tendencies, whether they display socio-demographic biases in this domain, and how easily they can be conditioned into adopting conspiratorial perspectives. Conspiracy beliefs play a central role in the spread of misinformation and in shaping distrust toward institutions, making them an important testbed for assessing the social and psychological fidelity of LLMs and their potential to …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-18",
-      "nr": "na"
-    },
-    {
-      "title": "From Equations to Prompts: Integrating LLMs into a Hybrid Macroeconomic ABM",
-      "url": "https://www.bankofgreece.gr/Publications/Paper2026371.pdf",
-      "authors": "G Papadopoulos - 2026",
-      "snippet": "Agent-based models (ABMs) typically rely on equations to incorporate agents' decision-making, ranging from ad-hoc rules or simple heuristics to complex, theory-or data-driven approaches. Recent advances in large language models (LLMs) make it possible to represent economic decisionmaking through prompts to LLM-driven agents instead of explicitly specified behavioural equations. However, whether such agents can feasibly replace individual components in an ABM and the …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-18",
       "nr": "na"
     }
   ]
