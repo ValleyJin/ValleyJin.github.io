@@ -397,19 +397,6 @@
           "qcat": "Computer Science (miscellaneous)"
         },
         {
-          "title": "Survey on Graph Neural Networks",
-          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
-          "year": 2024,
-          "venue": "IEEE Access",
-          "url": "https://doi.org/10.1109/access.2024.3456913",
-          "cites": 37,
-          "fwci": 5.43,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.88,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
           "title": "Graph neural networks for text classification: a survey",
           "authors": "Wang, K., Ding, Y., & Han, S. C.",
           "year": 2024,
@@ -421,6 +408,19 @@
           "q": "Q1",
           "sjr": 3.64,
           "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Survey on Graph Neural Networks",
+          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
+          "year": 2024,
+          "venue": "IEEE Access",
+          "url": "https://doi.org/10.1109/access.2024.3456913",
+          "cites": 37,
+          "fwci": 5.43,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
         }
       ],
       "count": 211260
@@ -665,53 +665,7 @@
     {
       "topic": "CVPR",
       "query": "s2:CVPR",
-      "papers": [
-        {
-          "title": "Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding",
-          "authors": "Wang, S., Lin, Y., & Wu, Y.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
-          "cites": 8,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "ReSpec: Relevance and Specificity Grounded Online Filtering for Learning on Video-Text Data Streams",
-          "authors": "Kim, C. D., Moon, J., Moon, S., Yun, H., Lee, S., Kembhavi, A., et al.",
-          "year": 2025,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52734.2025.02704",
-          "cites": 3,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Learning Correlation Structures for Vision Transformers",
-          "authors": "Kim, M., Seo, P. H., Schmid, C., & Cho, M.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
-          "cites": 38,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
-          "authors": "Murai, R., Dexheimer, E., & Davison, A. J.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
-          "cites": 330,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        }
-      ],
-      "count": 7362
+      "papers": []
     },
     {
       "topic": "AAAI",
@@ -759,45 +713,7 @@
     {
       "topic": "IJCAI",
       "query": "s2:IJCAI",
-      "papers": [
-        {
-          "title": "Bayesian Optimization with Switching Cost: Regret Analysis and Lookahead Variants",
-          "authors": "Liu, P., Wang, H., & Wei, Q.",
-          "year": 2023,
-          "venue": "International Joint Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.24963/ijcai.2023/446",
-          "cites": 9,
-          "crank": "A*"
-        },
-        {
-          "title": "Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models",
-          "authors": "He, X., Wei, L., Xie, L., & Tian, Q.",
-          "year": 2024,
-          "venue": "International Joint Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.48550/arXiv.2401.03105",
-          "cites": 14,
-          "crank": "A*"
-        },
-        {
-          "title": "Polynomial-Time Relational Probabilistic Inference in Open Universes",
-          "authors": "Ge, L., Juba, B., & Nilsson, K.",
-          "year": 2025,
-          "venue": "International Joint Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.48550/arXiv.2505.04115",
-          "cites": 1,
-          "crank": "A*"
-        },
-        {
-          "title": "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond",
-          "authors": "Guo, K., Shen, Y., González‐Montiel, G., Huang, Y., Zhou, Y., Surve, M., et al.",
-          "year": 2024,
-          "venue": "International Joint Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.48550/arXiv.2502.09897",
-          "cites": 24,
-          "crank": "A*"
-        }
-      ],
-      "count": 2993
+      "papers": []
     },
     {
       "topic": "ACL",
@@ -931,104 +847,12 @@
     {
       "topic": "ECCV",
       "query": "s2:ECCV",
-      "papers": [
-        {
-          "title": "End-to-End Rate-Distortion Optimized 3D Gaussian Representation",
-          "authors": "Wang, H., Zhu, H., He, T., Feng, R., Deng, J., Bian, J., et al.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 110,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Asynchronous Large Language Model Enhanced Planner for Autonomous Driving",
-          "authors": "Chen, Y., Ding, Z., Wang, Z., Wang, Y., Zhang, L., & Liu, S.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.14556",
-          "cites": 64,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation",
-          "authors": "Lai, B., Ryan, F., Jia, W., Liu, M., & Rehg, J. M.",
-          "year": 2023,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2305.03907",
-          "cites": 29,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Event-Based Motion Magnification",
-          "authors": "Chen, Y., Guo, S., Yu, F., Zhang, F., Gu, J., & Xue, T.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2402.11957",
-          "cites": 10,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        }
-      ],
-      "count": 2469
+      "papers": []
     },
     {
       "topic": "KDD",
       "query": "s2:KDD",
-      "papers": [
-        {
-          "title": "Hyper-USS: Answering Subset Query Over Multi-Attribute Data Stream",
-          "authors": "Miao, R., Zhang, Y., Qu, G., Yang, K., Yang, T., & Cui, B.",
-          "year": 2023,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3580305.3599383",
-          "cites": 12,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Mitigating Pooling Bias in E-commerce Search via False Negative Estimation",
-          "authors": "Wang, X., Xiao, X., Zhang, R., Zhang, X., Na, T., Tenneti, T., et al.",
-          "year": 2023,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3637528.3671630",
-          "cites": 5,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Graph Neural Bandits",
-          "authors": "Qi, Y., Ban, Y., & He, J.",
-          "year": 2023,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3580305.3599371",
-          "cites": 32,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "CREAM: Continual Retrieval on Dynamic Streaming Corpora with Adaptive Soft Memory",
-          "authors": "Son, H., Kang, H., Kim, S., Ho, S., Kang, S., Lee, D., et al.",
-          "year": 2026,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3770854.3780281",
-          "cites": 3,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
-        }
-      ],
-      "count": 2254
+      "papers": []
     },
     {
       "topic": "JMLR",
