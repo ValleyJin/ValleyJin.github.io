@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -12,7 +12,7 @@
           "year": "2011",
           "venue": "Proceedings of the National Academy of Sciences 108 (1), 18-23, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
-          "cites": 307,
+          "cites": 308,
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
@@ -34,7 +34,7 @@
           "year": "2011",
           "venue": "PloS one 6 (3), e18443, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:3vbIHxFL9FgC",
-          "cites": 175,
+          "cites": 176,
           "q": "Q1",
           "sjr": 0.73,
           "qcat": "Multidisciplinary"
@@ -164,7 +164,7 @@
           "year": "2024",
           "venue": "Futures 155, 103291, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Ul_CLA4dPeMC",
-          "cites": 48,
+          "cites": 49,
           "q": "Q1",
           "sjr": 1.43,
           "qcat": "Business and International Management"
@@ -1383,7 +1383,7 @@
           "year": "2024",
           "venue": "Futures 155, 103291, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:Ul_CLA4dPeMC",
-          "cites": 48,
+          "cites": 49,
           "q": "Q1",
           "sjr": 1.43,
           "qcat": "Business and International Management"
@@ -1654,6 +1654,17 @@
           "nr": "na"
         },
         {
+          "title": "Generation of nanoparticles from friction between railway brake disks and pads",
+          "authors": "HG Namgung, JB Kim, SH Woo, S Park, M Kim, MS Kim, GN Bae, D Park, ...",
+          "year": "2016",
+          "venue": "Environmental science & technology 50 (7), 3453-3461, 2016",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:43bX7VzcjpAC",
+          "cites": 119,
+          "q": "Q1",
+          "sjr": 3.78,
+          "qcat": "Chemistry (miscellaneous)"
+        },
+        {
           "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
           "authors": "H Lim, MS Kim, Y Cho, J Ahn, S Ahn, JS Nam, J Bae, TG Yun, ID Kim",
           "year": "2024",
@@ -1665,17 +1676,6 @@
           "qcat": "Materials Science (miscellaneous)"
         },
         {
-          "title": "Generation of nanoparticles from friction between railway brake disks and pads",
-          "authors": "HG Namgung, JB Kim, SH Woo, S Park, M Kim, MS Kim, GN Bae, D Park, ...",
-          "year": "2016",
-          "venue": "Environmental science & technology 50 (7), 3453-3461, 2016",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:43bX7VzcjpAC",
-          "cites": 118,
-          "q": "Q1",
-          "sjr": 3.78,
-          "qcat": "Chemistry (miscellaneous)"
-        },
-        {
           "title": "Hydrothermal synthesis of metal nanoparticles using glycerol as a reducing agent",
           "authors": "M Kim, WS Son, KH Ahn, DS Kim, H Lee, YW Lee",
           "year": "2014",
@@ -1683,6 +1683,17 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:NDuN12AVoxsC",
           "cites": 98,
           "nr": "na"
+        },
+        {
+          "title": "Biofilm matrix and artificial mediator for efficient electron transport in CO2 microbial electrosynthesis",
+          "authors": "YE Song, A Mohamed, C Kim, M Kim, S Li, E Sundstrom, H Beyenal, ...",
+          "year": "2022",
+          "venue": "Chemical Engineering Journal 427, 131885, 2022",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ghEM2AJqZyQC",
+          "cites": 97,
+          "q": "Q1",
+          "sjr": 2.26,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Fluorine‐Rich Covalent Organic Framework to Boost Electrochemical Kinetics and Storages of K+ Ions for Potassium‐Ion Battery",
@@ -1696,23 +1707,12 @@
           "qcat": "Materials Science (miscellaneous)"
         },
         {
-          "title": "Biofilm matrix and artificial mediator for efficient electron transport in CO2 microbial electrosynthesis",
-          "authors": "YE Song, A Mohamed, C Kim, M Kim, S Li, E Sundstrom, H Beyenal, ...",
-          "year": "2022",
-          "venue": "Chemical Engineering Journal 427, 131885, 2022",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ghEM2AJqZyQC",
-          "cites": 96,
-          "q": "Q1",
-          "sjr": 2.26,
-          "qcat": "Chemical Engineering (miscellaneous)"
-        },
-        {
           "title": "Development and optimization of a novel oral controlled delivery system for tamsulosin hydrochloride using response surface methodology",
           "authors": "MS Kim, JS Kim, YH You, HJ Park, S Lee, JS Park, JS Woo, SJ Hwang",
           "year": "2007",
           "venue": "International journal of pharmaceutics 341 (1-2), 97-104, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:7H_jS4BsgvYC",
-          "cites": 91,
+          "cites": 92,
           "q": "Q1",
           "sjr": 0.98,
           "qcat": "Pharmaceutical Science"
@@ -1754,7 +1754,7 @@
           "year": "2024",
           "venue": "Proceedings of the 2024 Conference of the North American Chapter of the …, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4Yq6kJLCcecC",
-          "cites": 81,
+          "cites": 82,
           "nr": "na"
         },
         {
@@ -1851,6 +1851,17 @@
           "nr": "na"
         },
         {
+          "title": "Electrode-attached cell-driven biogas upgrading of anaerobic digestion effluent CO2 to CH4 using a microbial electrosynthesis cell",
+          "authors": "M Kim, S Li, YE Song, DY Lee, JR Kim",
+          "year": "2022",
+          "venue": "Chemical Engineering Journal 446, 137079, 2022",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:G1UMdFYMoxkC",
+          "cites": 55,
+          "q": "Q1",
+          "sjr": 2.26,
+          "qcat": "Chemical Engineering (miscellaneous)"
+        },
+        {
           "title": "Photoautotrophic hydrogen production of Rhodobacter sphaeroides in a microbial electrosynthesis cell",
           "authors": "S Li, M Sakuntala, YE Song, J Heo, M Kim, SY Lee, MS Kim, YK Oh, ...",
           "year": "2021",
@@ -1860,17 +1871,6 @@
           "q": "Q1",
           "sjr": 1.98,
           "qcat": "Bioengineering"
-        },
-        {
-          "title": "Electrode-attached cell-driven biogas upgrading of anaerobic digestion effluent CO2 to CH4 using a microbial electrosynthesis cell",
-          "authors": "M Kim, S Li, YE Song, DY Lee, JR Kim",
-          "year": "2022",
-          "venue": "Chemical Engineering Journal 446, 137079, 2022",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:G1UMdFYMoxkC",
-          "cites": 54,
-          "q": "Q1",
-          "sjr": 2.26,
-          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Bioelectrosynthetic Conversion of CO2 Using Different Redox Mediators: Electron and Carbon Balances in a Bioelectrochemical System",
@@ -2041,6 +2041,15 @@
           "qcat": "Automotive Engineering"
         },
         {
+          "title": "Cross-linked microchannels for VLSI hotspot cooling",
+          "authors": "L Jiang, JM Koo, E Wang, A Bari, ES Cho, W Ong, RS Prasher, J Maveety, ...",
+          "year": "2002",
+          "venue": "ASME International Mechanical Engineering Congress and Exposition 36428, 13-17, 2002",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:AHdEip9mkN0C",
+          "cites": 40,
+          "nr": "na"
+        },
+        {
           "title": "Gstream: A graph streaming processing method for large-scale graphs on gpus",
           "authors": "HS Seo",
           "year": "2015",
@@ -2050,13 +2059,15 @@
           "nr": "na"
         },
         {
-          "title": "Cross-linked microchannels for VLSI hotspot cooling",
-          "authors": "L Jiang, JM Koo, E Wang, A Bari, ES Cho, W Ong, RS Prasher, J Maveety, ...",
-          "year": "2002",
-          "venue": "ASME International Mechanical Engineering Congress and Exposition 36428, 13-17, 2002",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:AHdEip9mkN0C",
-          "cites": 39,
-          "nr": "na"
+          "title": "Galla rhois water extract inhibits enzymatic browning in apple juice partly by binding to and inactivating polyphenol oxidase",
+          "authors": "MK Lee, YH Hwang, H Ryu, A Lee, HH Jeong, J Baek, MJ Kim, JY Lee, ...",
+          "year": "2022",
+          "venue": "Food Chemistry 383, 132277, 2022",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:1tZ8xJnm2c8C",
+          "cites": 38,
+          "q": "Q1",
+          "sjr": 1.86,
+          "qcat": "Analytical Chemistry"
         },
         {
           "title": "Effects of surface area of titanium dioxide precursors on the hydrothermal synthesis of barium titanate by dissolution–precipitation",
@@ -2068,17 +2079,6 @@
           "q": "Q1",
           "sjr": 0.76,
           "qcat": "Chemical Engineering (miscellaneous)"
-        },
-        {
-          "title": "Galla rhois water extract inhibits enzymatic browning in apple juice partly by binding to and inactivating polyphenol oxidase",
-          "authors": "MK Lee, YH Hwang, H Ryu, A Lee, HH Jeong, J Baek, MJ Kim, JY Lee, ...",
-          "year": "2022",
-          "venue": "Food Chemistry 383, 132277, 2022",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:1tZ8xJnm2c8C",
-          "cites": 37,
-          "q": "Q1",
-          "sjr": 1.86,
-          "qcat": "Analytical Chemistry"
         },
         {
           "title": "Joins on encoded and partitioned data",
@@ -2247,6 +2247,15 @@
           "qcat": "Automotive Engineering"
         },
         {
+          "title": "Mobilerag: A fast, memory-efficient, and energy-efficient method for on-device rag",
+          "authors": "T Park, G Lee, MS Kim",
+          "year": "2025",
+          "venue": "arXiv preprint arXiv:2507.01079, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
+          "cites": 27,
+          "nr": "na"
+        },
+        {
           "title": "Chronicle: A two-stage density-based clustering algorithm for dynamic networks",
           "authors": "MS Kim, J Han",
           "year": "2009",
@@ -2273,15 +2282,6 @@
           "venue": "First International Workshop on Document Image Analysis for Libraries, 2004 …, 2004",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kJDgFkosVoMC",
           "cites": 27,
-          "nr": "na"
-        },
-        {
-          "title": "Mobilerag: A fast, memory-efficient, and energy-efficient method for on-device rag",
-          "authors": "T Park, G Lee, MS Kim",
-          "year": "2025",
-          "venue": "arXiv preprint arXiv:2507.01079, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
-          "cites": 26,
           "nr": "na"
         },
         {
@@ -3392,6 +3392,17 @@
           "qcat": "Artificial Intelligence"
         },
         {
+          "title": "Applicability evaluation of surface and sub-surface defects for railway wheel material using induced alternating current potential drops",
+          "authors": "SJ Kwon, JW Seo, MS Kim, YS Ham",
+          "year": "2022",
+          "venue": "Sensors 22 (24), 9981, 2022",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:T_ojBgVMvoEC",
+          "cites": 5,
+          "q": "Q1",
+          "sjr": 0.8,
+          "qcat": "Analytical Chemistry"
+        },
+        {
           "title": "FuseME: Distributed Matrix Computation Engine based on Cuboid-based Fused Operator and Plan Generation",
           "authors": "D Han, J Lee, MS Kim",
           "year": "2022",
@@ -3589,17 +3600,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:zwpXiJ37cpgC",
           "cites": 4,
           "crank": "B"
-        },
-        {
-          "title": "Applicability evaluation of surface and sub-surface defects for railway wheel material using induced alternating current potential drops",
-          "authors": "SJ Kwon, JW Seo, MS Kim, YS Ham",
-          "year": "2022",
-          "venue": "Sensors 22 (24), 9981, 2022",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:T_ojBgVMvoEC",
-          "cites": 4,
-          "q": "Q1",
-          "sjr": 0.8,
-          "qcat": "Analytical Chemistry"
         },
         {
           "title": "Population pharmacokinetic method to predict within-subject variability using single-period clinical data",
@@ -4143,6 +4143,17 @@
           "nr": "na"
         },
         {
+          "title": "Reprint of “A newly isolated Klebsiella variicola JYP01 strain with iron-interaction capability for energy-efficient production of 1, 3-propanediol”",
+          "authors": "J Park, CH Lee, H Khandelwal, M Kim, M Sakuntala, TH Kim, BH Jeon, ...",
+          "year": "2025",
+          "venue": "Journal of the Taiwan Institute of Chemical Engineers, 106443, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:h168fVGZblEC",
+          "cites": 1,
+          "q": "Q1",
+          "sjr": 0.95,
+          "qcat": "Chemical Engineering (miscellaneous)"
+        },
+        {
           "title": "ScaDANN: A Scalable Disk-based Graph Indexing Method for ANN.",
           "authors": "H Gu, M Kim",
           "year": "2025",
@@ -4531,15 +4542,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:LGlY6t8CeOMC",
           "cites": 0,
           "nr": "na"
-        },
-        {
-          "title": "Graph data compression method and apparatus",
-          "authors": "I Na, DH HAN, SY OH, SW Park, MS Kim",
-          "year": "2023",
-          "venue": "US, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:3_LpOwP6eMYC",
-          "cites": 0,
-          "nr": "na"
         }
       ],
       "recent": [
@@ -4729,6 +4731,17 @@
           "qcat": "Computer Networks and Communications"
         },
         {
+          "title": "Reprint of “A newly isolated Klebsiella variicola JYP01 strain with iron-interaction capability for energy-efficient production of 1, 3-propanediol”",
+          "authors": "J Park, CH Lee, H Khandelwal, M Kim, M Sakuntala, TH Kim, BH Jeon, ...",
+          "year": "2025",
+          "venue": "Journal of the Taiwan Institute of Chemical Engineers, 106443, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:h168fVGZblEC",
+          "cites": 1,
+          "q": "Q1",
+          "sjr": 0.95,
+          "qcat": "Chemical Engineering (miscellaneous)"
+        },
+        {
           "title": "ExtGraph: A Fast Extraction Method of User-intended Graphs from a Relational Database",
           "authors": "J Park, G Lee, MS Kim",
           "year": "2025",
@@ -4783,7 +4796,7 @@
           "year": "2025",
           "venue": "arXiv preprint arXiv:2507.01079, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
-          "cites": 26,
+          "cites": 27,
           "nr": "na"
         },
         {
@@ -4917,15 +4930,6 @@
           "q": "Q1",
           "sjr": 1.77,
           "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "PlanRAG: A plan-then-retrieval augmented generation for generative large language models as decision makers",
-          "authors": "M Lee, S An, MS Kim",
-          "year": "2024",
-          "venue": "Proceedings of the 2024 Conference of the North American Chapter of the …, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:4Yq6kJLCcecC",
-          "cites": 81,
-          "nr": "na"
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=1wZVw8QAAAAJ&citpid=6"
@@ -4940,7 +4944,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13900,
+          "cites": 13935,
           "nr": "na"
         },
         {
@@ -4949,7 +4953,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9025,
+          "cites": 9076,
           "crank": "A*"
         },
         {
@@ -4958,7 +4962,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 835,
+          "cites": 839,
           "nr": "na"
         },
         {
@@ -4967,7 +4971,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 682,
+          "cites": 685,
           "crank": "A*"
         },
         {
@@ -4976,7 +4980,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 382,
+          "cites": 383,
           "crank": "A*"
         },
         {
@@ -4996,7 +5000,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 333,
+          "cites": 334,
           "crank": "A*"
         },
         {
@@ -5005,7 +5009,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 325,
+          "cites": 326,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5056,7 +5060,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 96,
+          "cites": 98,
           "crank": "A*"
         },
         {
@@ -5116,7 +5120,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 54,
+          "cites": 55,
           "crank": "A*"
         },
         {
@@ -5145,7 +5149,7 @@
           "year": "2025",
           "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:M05iB0D1s5AC",
-          "cites": 30,
+          "cites": 31,
           "nr": "na"
         },
         {
@@ -5230,7 +5234,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 54,
+          "cites": 55,
           "crank": "A*"
         },
         {
@@ -5239,7 +5243,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 96,
+          "cites": 98,
           "crank": "A*"
         },
         {
@@ -5257,7 +5261,7 @@
           "year": "2025",
           "venue": "Proceedings of the Extended Abstracts of the CHI Conference on Human Factors …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:M05iB0D1s5AC",
-          "cites": 30,
+          "cites": 31,
           "nr": "na"
         },
         {
@@ -5275,7 +5279,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 835,
+          "cites": 839,
           "nr": "na"
         },
         {
@@ -5293,7 +5297,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 333,
+          "cites": 334,
           "crank": "A*"
         },
         {
@@ -5311,7 +5315,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9025,
+          "cites": 9076,
           "crank": "A*"
         },
         {
@@ -5373,7 +5377,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 682,
+          "cites": 685,
           "crank": "A*"
         },
         {
@@ -5382,7 +5386,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 382,
+          "cites": 383,
           "crank": "A*"
         },
         {
@@ -5411,7 +5415,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 325,
+          "cites": 326,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5422,7 +5426,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13900,
+          "cites": 13935,
           "nr": "na"
         },
         {

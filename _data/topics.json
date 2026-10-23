@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -54,7 +54,7 @@
           "nr": "na"
         }
       ],
-      "count": 11069
+      "count": 11077
     },
     {
       "topic": "gABM",
@@ -110,7 +110,7 @@
           "qcat": "Computational Mathematics"
         }
       ],
-      "count": 57726
+      "count": 57841
     },
     {
       "topic": "Graph database",
@@ -162,7 +162,7 @@
           "qcat": "Electrical and Electronic Engineering"
         }
       ],
-      "count": 125058
+      "count": 125087
     },
     {
       "topic": "Memory in Agentic AI",
@@ -206,7 +206,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 74169
+      "count": 74250
     },
     {
       "topic": "LLM inference serving",
@@ -260,7 +260,7 @@
           "nr": "na"
         }
       ],
-      "count": 7193
+      "count": 7209
     },
     {
       "topic": "Ethereum Layer-2",
@@ -364,7 +364,7 @@
           "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 47944
+      "count": 47998
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -389,11 +389,24 @@
           "year": 2024,
           "venue": "ACM Computing Surveys",
           "url": "https://doi.org/10.1145/3661821",
-          "cites": 273,
-          "fwci": 101.21,
+          "cites": 275,
+          "fwci": 101.66,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.99,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "Survey on Graph Neural Networks",
+          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
+          "year": 2024,
+          "venue": "IEEE Access",
+          "url": "https://doi.org/10.1109/access.2024.3456913",
+          "cites": 37,
+          "fwci": 5.43,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.88,
           "qcat": "Computer Science (miscellaneous)"
         },
         {
@@ -408,22 +421,9 @@
           "q": "Q1",
           "sjr": 3.64,
           "qcat": "Artificial Intelligence"
-        },
-        {
-          "title": "Survey on Graph Neural Networks",
-          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
-          "year": 2024,
-          "venue": "IEEE Access",
-          "url": "https://doi.org/10.1109/access.2024.3456913",
-          "cites": 37,
-          "fwci": 5.43,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 0.88,
-          "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 211260
+      "count": 211301
     },
     {
       "topic": "Ontology",
@@ -472,7 +472,7 @@
           "nr": "na"
         }
       ],
-      "count": 26592
+      "count": 26603
     },
     {
       "topic": "AI governance",
@@ -497,8 +497,8 @@
           "year": 2025,
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2025.3598023",
-          "cites": 33,
-          "fwci": 34.14,
+          "cites": 34,
+          "fwci": 34.77,
           "pct": 1,
           "q": "Q1",
           "sjr": 0.88,
@@ -531,7 +531,7 @@
           "qcat": "Communication"
         }
       ],
-      "count": 113208
+      "count": 113444
     },
     {
       "topic": "NeurIPS",
@@ -665,7 +665,53 @@
     {
       "topic": "CVPR",
       "query": "s2:CVPR",
-      "papers": []
+      "papers": [
+        {
+          "title": "Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding",
+          "authors": "Wang, S., Lin, Y., & Wu, Y.",
+          "year": 2024,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
+          "cites": 8,
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "ReSpec: Relevance and Specificity Grounded Online Filtering for Learning on Video-Text Data Streams",
+          "authors": "Kim, C. D., Moon, J., Moon, S., Yun, H., Lee, S., Kembhavi, A., et al.",
+          "year": 2025,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52734.2025.02704",
+          "cites": 3,
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "Learning Correlation Structures for Vision Transformers",
+          "authors": "Kim, M., Seo, P. H., Schmid, C., & Cho, M.",
+          "year": 2024,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
+          "cites": 38,
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
+          "authors": "Murai, R., Dexheimer, E., & Davison, A. J.",
+          "year": 2024,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
+          "cites": 330,
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Computer Science (miscellaneous)"
+        }
+      ],
+      "count": 7362
     },
     {
       "topic": "AAAI",
@@ -713,7 +759,45 @@
     {
       "topic": "IJCAI",
       "query": "s2:IJCAI",
-      "papers": []
+      "papers": [
+        {
+          "title": "Bayesian Optimization with Switching Cost: Regret Analysis and Lookahead Variants",
+          "authors": "Liu, P., Wang, H., & Wei, Q.",
+          "year": 2023,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.24963/ijcai.2023/446",
+          "cites": 9,
+          "crank": "A*"
+        },
+        {
+          "title": "Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models",
+          "authors": "He, X., Wei, L., Xie, L., & Tian, Q.",
+          "year": 2024,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2401.03105",
+          "cites": 14,
+          "crank": "A*"
+        },
+        {
+          "title": "Polynomial-Time Relational Probabilistic Inference in Open Universes",
+          "authors": "Ge, L., Juba, B., & Nilsson, K.",
+          "year": 2025,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2505.04115",
+          "cites": 1,
+          "crank": "A*"
+        },
+        {
+          "title": "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond",
+          "authors": "Guo, K., Shen, Y., González‐Montiel, G., Huang, Y., Zhou, Y., Surve, M., et al.",
+          "year": 2024,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2502.09897",
+          "cites": 25,
+          "crank": "A*"
+        }
+      ],
+      "count": 2993
     },
     {
       "topic": "ACL",
@@ -786,7 +870,7 @@
           "year": 2024,
           "venue": "Conference on Empirical Methods in Natural Language Processing",
           "url": "https://doi.org/10.48550/arXiv.2406.11657",
-          "cites": 142,
+          "cites": 143,
           "crank": "A*"
         },
         {
@@ -795,7 +879,7 @@
           "year": 2023,
           "venue": "Conference on Empirical Methods in Natural Language Processing",
           "url": "https://doi.org/10.48550/arXiv.2311.04284",
-          "cites": 49,
+          "cites": 50,
           "crank": "A*"
         }
       ],
@@ -847,12 +931,104 @@
     {
       "topic": "ECCV",
       "query": "s2:ECCV",
-      "papers": []
+      "papers": [
+        {
+          "title": "End-to-End Rate-Distortion Optimized 3D Gaussian Representation",
+          "authors": "Wang, H., Zhu, H., He, T., Feng, R., Deng, J., Bian, J., et al.",
+          "year": 2024,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2406.01597",
+          "cites": 110,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        },
+        {
+          "title": "Asynchronous Large Language Model Enhanced Planner for Autonomous Driving",
+          "authors": "Chen, Y., Ding, Z., Wang, Z., Wang, Y., Zhang, L., & Liu, S.",
+          "year": 2024,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2406.14556",
+          "cites": 64,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        },
+        {
+          "title": "Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation",
+          "authors": "Lai, B., Ryan, F., Jia, W., Liu, M., & Rehg, J. M.",
+          "year": 2023,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2305.03907",
+          "cites": 29,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        },
+        {
+          "title": "Event-Based Motion Magnification",
+          "authors": "Chen, Y., Guo, S., Yu, F., Zhang, F., Gu, J., & Xue, T.",
+          "year": 2024,
+          "venue": "European Conference on Computer Vision",
+          "url": "https://doi.org/10.48550/arXiv.2402.11957",
+          "cites": 10,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
+        }
+      ],
+      "count": 2469
     },
     {
       "topic": "KDD",
       "query": "s2:KDD",
-      "papers": []
+      "papers": [
+        {
+          "title": "Hyper-USS: Answering Subset Query Over Multi-Attribute Data Stream",
+          "authors": "Miao, R., Zhang, Y., Qu, G., Yang, K., Yang, T., & Cui, B.",
+          "year": 2023,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3580305.3599383",
+          "cites": 12,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "Mitigating Pooling Bias in E-commerce Search via False Negative Estimation",
+          "authors": "Wang, X., Xiao, X., Zhang, R., Zhang, X., Na, T., Tenneti, T., et al.",
+          "year": 2023,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3637528.3671630",
+          "cites": 5,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "Graph Neural Bandits",
+          "authors": "Qi, Y., Ban, Y., & He, J.",
+          "year": 2023,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3580305.3599371",
+          "cites": 32,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "CREAM: Continual Retrieval on Dynamic Streaming Corpora with Adaptive Soft Memory",
+          "authors": "Son, H., Kang, H., Kim, S., Ho, S., Kang, S., Lee, D., et al.",
+          "year": 2026,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3770854.3780281",
+          "cites": 3,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        }
+      ],
+      "count": 2254
     },
     {
       "topic": "JMLR",
@@ -881,8 +1057,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3367329",
-          "cites": 1102,
-          "fwci": 156.24,
+          "cites": 1103,
+          "fwci": 156.27,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -894,8 +1070,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3435571",
-          "cites": 1050,
-          "fwci": 141.63,
+          "cites": 1051,
+          "fwci": 141.67,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -907,8 +1083,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3369699",
-          "cites": 983,
-          "fwci": 135.65,
+          "cites": 986,
+          "fwci": 135.97,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -928,7 +1104,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 2607
+      "count": 2604
     },
     {
       "topic": "AIJ",
@@ -966,8 +1142,8 @@
           "year": 2024,
           "venue": "Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.artint.2024.104085",
-          "cites": 76,
-          "fwci": 11.16,
+          "cites": 77,
+          "fwci": 11.27,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.29,
@@ -979,15 +1155,15 @@
           "year": 2024,
           "venue": "Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.artint.2024.104145",
-          "cites": 68,
-          "fwci": 27.06,
+          "cites": 69,
+          "fwci": 27.08,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.29,
           "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 308
+      "count": 307
     },
     {
       "topic": "JAIR",
@@ -1012,8 +1188,8 @@
           "year": 2024,
           "venue": "Journal of Artificial Intelligence Research",
           "url": "https://doi.org/10.1613/jair.1.15320",
-          "cites": 141,
-          "fwci": 42.52,
+          "cites": 144,
+          "fwci": 43.39,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.11,
@@ -1046,7 +1222,7 @@
           "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 370
+      "count": 369
     },
     {
       "topic": "Futures",
@@ -1105,7 +1281,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 429
+      "count": 430
     },
     {
       "topic": "TFSC",
@@ -1164,7 +1340,7 @@
           "qcat": "Applied Psychology"
         }
       ],
-      "count": 1575
+      "count": 1571
     },
     {
       "topic": "TAR",
@@ -1223,7 +1399,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 301
+      "count": 302
     },
     {
       "topic": "JAE",
@@ -1433,33 +1609,33 @@
           "qcat": "Accounting"
         },
         {
-          "title": "Decentralized Finance (DeFi) assurance: early evidence",
-          "authors": "Bourveau, T., Brendel, J., & Schoenfeld, J.",
+          "title": "Actions speak louder than words: environmental law enforcement and audit fees",
+          "authors": "Wu, X., Luo, L., & You, J.",
           "year": 2024,
           "venue": "Review of Accounting Studies",
-          "url": "https://doi.org/10.1007/s11142-024-09834-8",
-          "cites": 45,
-          "fwci": 15.2,
-          "pct": 10,
+          "url": "https://doi.org/10.1007/s11142-024-09823-x",
+          "cites": 50,
+          "fwci": 49.95,
+          "pct": 1,
           "q": "Q1",
           "sjr": 5.56,
           "qcat": "Accounting"
         },
         {
-          "title": "Disclosure standards and communication norms: evidence of voluntary sustainability standards as a coordinating device for capital markets",
-          "authors": "Bochkay, K., Hales, J., & Serafeim, G.",
-          "year": 2025,
+          "title": "Decentralized Finance (DeFi) assurance: early evidence",
+          "authors": "Bourveau, T., Brendel, J., & Schoenfeld, J.",
+          "year": 2024,
           "venue": "Review of Accounting Studies",
-          "url": "https://doi.org/10.1007/s11142-025-09882-8",
-          "cites": 44,
-          "fwci": 20.14,
-          "pct": 1,
+          "url": "https://doi.org/10.1007/s11142-024-09834-8",
+          "cites": 46,
+          "fwci": 15.44,
+          "pct": 10,
           "q": "Q1",
           "sjr": 5.56,
           "qcat": "Accounting"
         }
       ],
-      "count": 166
+      "count": 163
     },
     {
       "topic": "FFS",
@@ -1484,8 +1660,8 @@
           "year": 2023,
           "venue": "Futures & Foresight Science",
           "url": "https://doi.org/10.1002/ffo2.174",
-          "cites": 15,
-          "fwci": 2.79,
+          "cites": 16,
+          "fwci": 2.94,
           "pct": 10,
           "q": "Q1",
           "sjr": 0.74,
@@ -1663,7 +1839,7 @@
           "venue": "Strategic Management Journal",
           "url": "https://doi.org/10.1002/smj.3580",
           "cites": 85,
-          "fwci": 36.57,
+          "fwci": 36.52,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.15,
@@ -1767,8 +1943,8 @@
           "year": 2023,
           "venue": "Academy of Management Journal",
           "url": "https://doi.org/10.5465/amj.2021.0466",
-          "cites": 62,
-          "fwci": 17.76,
+          "cites": 63,
+          "fwci": 18.03,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.78,
@@ -1801,7 +1977,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 171
+      "count": 172
     },
     {
       "topic": "SO",
@@ -1978,7 +2154,7 @@
           "qcat": "Business, Management and Accounting (miscellaneous)"
         }
       ],
-      "count": 175
+      "count": 176
     },
     {
       "topic": "JoM",
@@ -2037,7 +2213,7 @@
           "qcat": "Finance"
         }
       ],
-      "count": 282
+      "count": 281
     },
     {
       "topic": "OrgSci",
@@ -2155,7 +2331,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 1293
+      "count": 1295
     },
     {
       "topic": "JMS",
@@ -2344,7 +2520,7 @@
           "year": 2023,
           "venue": "Research Policy",
           "url": "https://doi.org/10.1016/j.respol.2023.104906",
-          "cites": 216,
+          "cites": 217,
           "fwci": 46.43,
           "pct": 1,
           "q": "Q1",
@@ -2357,8 +2533,8 @@
           "year": 2024,
           "venue": "Research Policy",
           "url": "https://doi.org/10.1016/j.respol.2023.104949",
-          "cites": 170,
-          "fwci": 58.39,
+          "cites": 171,
+          "fwci": 57.98,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.47,
@@ -2383,8 +2559,8 @@
           "year": 2024,
           "venue": "Research Policy",
           "url": "https://doi.org/10.1016/j.respol.2024.105138",
-          "cites": 94,
-          "fwci": 43.65,
+          "cites": 96,
+          "fwci": 44.37,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.47,
@@ -2627,7 +2803,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 129
+      "count": 128
     },
     {
       "topic": "CPA",
@@ -2804,7 +2980,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 200
+      "count": 198
     },
     {
       "topic": "IJAIS",
@@ -2973,8 +3149,8 @@
           "year": 2025,
           "venue": "Management Accounting Research",
           "url": "https://doi.org/10.1016/j.mar.2025.100942",
-          "cites": 24,
-          "fwci": 12.06,
+          "cites": 25,
+          "fwci": 12.41,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.62,
@@ -3040,7 +3216,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 259
+      "count": 258
     }
   ]
 }
