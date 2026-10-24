@@ -1,7 +1,199 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-24",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Psychological and Behavioral Modeling: A Structured Review of Methods, Datasets, Applications, and Open Challenges",
+      "url": "https://www.mdpi.com/2079-8954/14/10/1327/pdf",
+      "authors": "X Chen, X Li, L Yin, H Zhu, Z Xiao, Y Peng - Systems, 2026",
+      "snippet": "Psychological and behavioral modeling turns cognition, emotion, and motivation into computable quantities that can be related to observable behavior. The field has moved from theory-driven rules to statistical machine learning, deep learning, large language models (LLMs), and foundation models of cognition, but methods are fragmented, results are seldom comparable, and the link between opaque predictors and psychological theory is unsettled. This structured narrative review, reported with …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "q": "Q2",
+      "sjr": 0.64,
+      "qcat": "Computer Networks and Communications"
+    },
+    {
+      "title": "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
+      "url": "https://arxiv.org/pdf/2610.24061",
+      "authors": "SZ Shen, Y Chang, Q Liang, B Newman, J Liang… - arXiv preprint arXiv …, 2026",
+      "snippet": "As teams of AI agents take on larger projects and long-standing open problems, agent collaboration offers another dimension for scaling inference-time compute. To understand what makes such collaboration effective and scalable, we develop Software World, a framework for simulating multi-agent coworking in realistic software ecosystems. It comes with a pipeline to create environments of real, interdependent Python packages of different topics, sizes, and dependency …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "Ask Less, Ask Better: Allocating User Attention in Proactive LLM Agents with Interruption Budgets",
+      "url": "https://arxiv.org/pdf/2610.24411",
+      "authors": "X Zhang, AH Rezaeian, M Ballesteros, W Sun, W Geyer… - arXiv preprint arXiv …, 2026",
+      "snippet": "LLM agents can ask clarifying questions to complete tasks, but answering each question demands users' time and effort. Existing evaluations typically measure this burden by counting questions, treating necessary and avoidable questions equally. We propose an evaluation protocol that distinguishes how often agents ask from how well they ask. An interruption budget limits the number of questions, while a user-attention cost charges extra for questions that are hard to read or not worth asking, as …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "Latent Multimodal Memory Reasoning",
+      "url": "https://arxiv.org/pdf/2610.23890",
+      "authors": "C Ke, X Chen, Y Bei, Y Lai, K Chen, R Qiao, S An… - arXiv preprint arXiv …, 2026",
+      "snippet": "Long-term personalized agents are required to reason over distributed history across modalities and evolving dialogue states. While existing flat cross-modal methods compress visual evidence prematurely and struggle with temporally stale observations, they neglect the necessity to unify multimodal and cross-session evidence. Crucially, raw multimodal memories are inherently entangled and heterogeneous, making fine-grained visual grounding and cross-modal reasoning …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "Cling: Supporting Cross-Page Coordination with Human-Directed, In-Situ, and Small-Step Automation",
+      "url": "https://arxiv.org/pdf/2610.25879",
+      "authors": "Z Huang, Y Cao, H Xia - arXiv preprint arXiv:2610.25879, 2026",
+      "snippet": "Web-based information work spans independently developed pages, with goals and coordination needs often emerging through browsing. Manual coordination requires repeated low-level actions, yet explicitly specifying operations for automation can interrupt engagement with information that shapes users' next steps. Our approach constructs reusable, schema-based page representations and identifies coordination actions through correspondences across schemas. We instantiate this approach in …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "PACE-Mem: Prefix-Aware Complementary Evidence for Multimodal Agents",
+      "url": "https://arxiv.org/pdf/2610.24378",
+      "authors": "S Ren, R Tu, H Zhou, X Luo - arXiv preprint arXiv:2610.24378, 2026",
+      "snippet": "As multimodal agents accumulate experience, their long-term memories contain many similar observations of recurring scenes, actions, and entities. Answer quality depends on the evidence retrieved from these memories into the model's context. However, query-relevant memories may contain overlapping information, and a fixed retrieval depth may return too little or too much evidence for a given question. To address these challenges, we propose PACE-Mem, Prefix-Aware Complementary …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "UnexpectedParrots: Iterating Behavioral Experiment Design with In-Silico Simulations",
+      "url": "https://arxiv.org/pdf/2610.25343",
+      "authors": "S Hazra, BP Majumder, P Siangliulue, P Clark… - arXiv preprint arXiv …, 2026",
+      "snippet": "Running behavioral experiments is expensive, slow, and prone to design flaws, often detectable after collecting data. We introduce UnexpectedParrots to iteratively refine behavioral study designs before a researcher recruits costly human participants. UnexpectedParrots relies on reasoning traces in addition to responses from LLM participants to uncover diagnostic critiques of structural errors and missed opportunities in existing study designs. When evaluated against a human-pilot or a …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "Learning to deconstruct AI/ML systems: Scaffolds to support learners in critically evaluating AI/ML systems",
+      "url": "https://repository.isls.org/bitstream/1/12939/1/ICLS2026_2204-2214.pdf",
+      "authors": "L Morales-Navarro, YB Kafai, O Hilke, N Pope, M Tedre… - Proceedings of the 20th …, 2026",
+      "snippet": "Historically, the learning sciences have emphasized how computing construction activities can support learners in building relationships between old and new knowledge in interactions with others while creating artifacts of social relevance. With the ubiquity of social media and AI/ML, researchers have turned their attention to the social and ethical implications of computing, proposing that deconstruction—the process of critically examining and understanding how meaning and intentionality …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "An effective scheduling method for SNN–LM collaborative inference in resource-constrained edge environment",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1383762126003772",
+      "authors": "Z Zhang, D Yu, X Du, G Pan - Journal of Systems Architecture, 2026",
+      "snippet": "Abstract Spiking Neural Networks (SNNs) offer an energy-efficient computing paradigm for intelligent edge devices, but their task performance still lags behind that of conventional artificial neural networks. A practical solution is to let edge-side SNNs collaborate with cloud-hosted large models (LMs), such as large language models (LLMs), vision-language models (VLMs), and vision foundation models (VFMs), to handle difficult requests. However, when many SNN-enabled devices …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "q": "Q1",
+      "sjr": 1.07,
+      "qcat": "Hardware and Architecture"
+    },
+    {
+      "title": "Adapting Vision Foundation Models with Synthetic Data for Open-Pit Mining Crack Segmentation",
+      "url": "https://www.preprints.org/frontend/manuscript/de89eb3c4600f491c5acbeb41c56b56f/download_pub",
+      "authors": "R Le Roux, S Khaksar, M Sepehri, I Murray - 2026",
+      "snippet": "Automatic crack segmentation in open-pit mining is constrained by the scarcity of representative, labeled datasets. Vision foundation models (VFMs) offer transferable visual representations, but their training-free performance on mining imagery and the benefits of synthetic-only adaptation remain insufficiently established. This study evaluates training-free VFM pipelines and investigates whether synthetic supervision improves their transfer to real-world crack imagery. SynthMineCrack is introduced as …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "Toward Agentic Retrieval-Augmented Generation for Enterprise Retail Workflows over Heterogeneous Data Sources",
+      "url": "https://arxiv.org/pdf/2610.25096",
+      "authors": "J Choi, J Hwang, H Park, H Cheon, H Song - arXiv preprint arXiv:2610.25096, 2026",
+      "snippet": "Enterprise retail workflows require agents to chain evidence across heterogeneous sources, from structured product and order records to unstructured inquiries and reviews, yet existing agentic RAG benchmarks rarely capture this challenge. To enable controlled evaluation of such workflows, we introduce RetailBridge, a compositional retail benchmark built from persona-driven simulations. Its questions are constructed by linking entities and intermediate answers across heterogeneous …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "Enabling In-Browser RAG Through Progressive Ingestion and CPU-GPU Co-Processing",
+      "url": "https://www.computer.org/csdl/proceedings-article/cluster/2026/309300a520/2kI8VOszj4k",
+      "authors": "J Lu, S Kumar - 2026 IEEE International Conference on Cluster …, 2026",
+      "snippet": "Retrieval-augmented generation (RAG) answers questions by retrieving relevant passages from a document collection and conditioning an LLM on them [4]. As AI assistants increasingly process user-provided content [5],[7], including local files, notes, and application state, browser-local RAG is attractive because these data already enter through the browser, require no separate installation, and can remain on the user's device. Recent WebGPU inference systems and JavaScript ML …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-24",
+      "crank": "C"
+    },
+    {
+      "title": "Enzymatic browning in fresh-cut fruits and vegetables: a comprehensive review of biochemical etiologies, detection techniques, and control strategies",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1948342/pdf",
+      "authors": "A Hassan, K Ali, W Mujahid, HR Sharif, FU Haq… - Frontiers in Nutrition, 2026",
+      "snippet": "Enzymatic browning causes substantial postharvest losses in fresh fruits and vegetables, yet the literature remains fragmented across polyphenol oxidase (PPO) biochemistry, detection technologies, and control strategies. This review synthesizes current knowledge across the browning continuum, emphasizing the emerging perspective that membrane degradation via the phospholipase D (PLD) and lipoxygenase (LOX) cascade may represent an important early event preceding PPO …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-24",
+      "q": "Q1",
+      "sjr": 1.18,
+      "qcat": "Food Science"
+    },
+    {
+      "title": "Intermittent electrical stimulation as a selective enrichment strategy for electrotrophic methanogens in CO2-to-CH4 microbial electrosynthesis",
+      "url": "https://pubs.rsc.org/gc/article/doi/10.1039/d6gc02785g/1372046",
+      "authors": "M Kim, S Li, E Kim, DS Kong, C Im, YE Song, G Kyazze… - Green Chemistry",
+      "snippet": "Biogas derived from anaerobic digestion (AD) has emerged as a compelling renewable energy carrier with carbon-neutral characteristics, but the high CO 2 content and low calorific value in raw biogas lower the energy density of the fuel and limit its direct connection to natural gas pipelines. Microbial electrosynthesis (MES) offers an electrochemically driven pathway for recycling endogenous CO 2 into CH 4, thereby enhancing the energetic value and the economic viability of AD systems. The …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-24",
+      "q": "Q1",
+      "sjr": 1.81,
+      "qcat": "Environmental Chemistry"
+    },
+    {
+      "title": "Vibration-Based Estimation of Wheel-Rail Contact Forces Using an Extended Kalman Filter for Wheel Condition Monitoring",
+      "url": "https://link.springer.com/article/10.1007/s42417-026-02829-6",
+      "authors": "RA Saheed, J Clementson, UH Diala, P Wood - Journal of Vibration Engineering & …, 2026",
+      "snippet": "Purpose This study aims to develop a vibration-based inverse approach for estimating wheel-rail contact forces from axle acceleration measurements, addressing challenges associated with nonlinear contact behaviour, variable operating speeds, and stochastic track irregularities. Methods A reduced-order vertical vehicle-track interaction model is developed to represent the dynamics of the wheelset, rail, and supporting track structure. An Extended Kalman Filter (EKF) …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-24",
+      "q": "Q1",
+      "sjr": 0.56,
+      "qcat": "Acoustics and Ultrasonics"
+    },
+    {
+      "title": "Development and validation of an on-road sampling system for brake wear particles using a wheelhouse enclosure and clean-air supply",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0043164826006095",
+      "authors": "SJ Hwang, YJ Kim, KR Lee, GB Sung, IH An, SS Chung… - Wear, 2026",
+      "snippet": "Exhaust emissions from road vehicles have been reduced through advanced engine and after-treatment technologies and stricter emission regulations. However, non-exhaust emissions from brake wear, tire wear, and resuspended road dust have become increasingly important. With Euro 7 expected to introduce limits on non-exhaust particles, technologies for monitoring and reducing brake wear particles (BWPs) during on-road driving are needed. Although BWPs have been investigated …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-24",
+      "q": "Q1",
+      "sjr": 1.3,
+      "qcat": "Condensed Matter Physics"
+    },
+    {
+      "title": "Enhanced Flow Boiling Performance in Interconnected Microchannels",
+      "url": "https://www.avestia.com/ICEHT2026_Proceedings/files/paper/ICEHT_128.pdf",
+      "authors": "L Xu, G Xia",
+      "snippet": "With the explosive growth in the demand for computer power in Big Data Era, traditional thermal management technologies can't satisfy the heat dissipation need of high-power consumption chip, which has restricted the full release of the chip's computing power [1]. The data centers are under tremendous pressure from energy consumption meanwhile, which all both promote the development of liquid cooling technologies [2]. Microchannel heat sink (MCHS) is in line with the trend of the …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
+    {
+      "title": "Neither Over-nor Under-Constrained: Evaluating LLM Personalization under a Constraint Qualification Audit",
+      "url": "https://arxiv.org/pdf/2610.25676",
+      "authors": "X Li, G Zhang, I Razzak, H Hacid, E Kafeza, H Xue… - arXiv preprint arXiv …, 2026",
+      "snippet": "Accurate evaluation of LLM personalization is hindered by current evaluation paradigms that over-or under-constrain the response space, yielding frequent false rejections and false acceptances. To reduce these false rates, we introduce ConQual …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-24",
+      "nr": "na"
+    },
     {
       "title": "Multi-agent-driven blue finance governance for China-ASEAN ocean sustainability under climate change",
       "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1987642/pdf",
@@ -231,198 +423,6 @@
       "scholar": "Joon Sung Park",
       "date": "2026-10-21",
       "nr": "na"
-    },
-    {
-      "title": "LitGene: an interpretable transformer model integrating text and ontology for gene representation learning",
-      "url": "https://www.nature.com/articles/s41467-026-78454-4_reference.pdf",
-      "authors": "O Macaulay, A Jararweh, D Arredondo, LE Tafoya… - Nature Communications, 2026",
-      "snippet": "Abstract Representation learning in genomics often relies on sequence, expression, and network data, thereby overlooking a wealth of insights in the scientific literature. Here, we present LitGene, an interpretable transformer-based model that refines gene representations by integrating unstructured textual information with Gene Ontology annotations through contrastive learning. In evaluations across eight benchmark tasks for protein properties, LitGene achieves competitive accuracy and …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
-      "q": "Q1",
-      "sjr": 4.9,
-      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
-    },
-    {
-      "title": "Simplificación y reelaboración asistida con LLM: un enfoque modular basado en prompting para la comprensión de textos expositivos",
-      "url": "https://raia.revistasuai.ar/index.php/raia/article/download/236/127",
-      "authors": "V D'Angelo - Revista Abierta de Informática Aplicada, 2026",
-      "snippet": "La comprensión de textos expositivos académicos constituye un desafío persistente en el ámbito universitario, en parte debido a rasgos como la alta densidad informacional, la complejidad sintáctica y estructuras lingüísticas abstractas—nominalizaciones, construcciones impersonales—. A partir de aportes de la psicología cognitiva y la psicolingüística, este trabajo sostiene que la dificultad de los textos no reside únicamente en su complejidad conceptual, sino en la forma en …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
-      "nr": "na"
-    },
-    {
-      "title": "Defense-in-Depth Security for Large Language Models Integrated into Enterprise Event-Driven Systems",
-      "url": "https://www.researchgate.net/profile/Bridget-Ayeh/publication/415916666_Defense-in-Depth_Security_for_Large_Language_Models_Integrated_into_Enterprise_Event-Driven_Systems/links/6ad135f31a3906441f5fe493/Defense-in-Depth-Security-for-Large-Language-Models-Integrated-into-Enterprise-Event-Driven-Systems.pdf",
-      "authors": "B JOSHUA, G DOWNTON",
-      "snippet": "This study develops a defense-in-depth security architecture for large language models (LLMs) embedded in enterprise event-driven systems. The problem is not simply whether an LLM can resist a malicious prompt; it is whether an attacker can move from untrusted event data to an unauthorized enterprise action through a chain of model, application, tool, and workflow dependencies. The study uses a structured synthesis of the supplied literature and additional authoritative security research to …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
-      "nr": "na"
-    },
-    {
-      "title": "Polymer Brush-Mediated Surface-Initiated Polycondensation Enables sp2C-COF Thin Films with Controlled Crystallinity and High Photocatalytic Performance",
-      "url": "https://www.nature.com/articles/s41467-026-78510-z_reference.pdf",
-      "authors": "L He, W Zhang, Y Zhao, G Fu, L Yin, W Zhao, M Chen… - Nature Communications, 2026",
-      "snippet": "Sp2-carbon-conjugated covalent organic frameworks (sp2C-COFs) hold exceptional potential as π-conjugated semiconductors for optoelectronics and photocatalysis, yet their thin-film fabrication suffers from irreversible C= C linkages that impede crystallinity and morphology control. Herein, we report a polymer brush-mediated surface-initiated polycondensation (PB-SIP) strategy to synthesize the sp2C-COF films with controlled crystallinity and morphology. The polymer brush layer acts as …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-21",
-      "q": "Q1",
-      "sjr": 4.9,
-      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
-    },
-    {
-      "title": "Bioinspired Self-Floating Hydrogel-Coated Foam for Synergistic Solar Power Generation and Desalination",
-      "url": "https://pubs.acs.org/aapmcd/article/doi/10.1021/acsapm.6c03362/5450544",
-      "authors": "X Zhang, L Chen, Y Xia, Z Wan, C Liu, H Huang, X Yu… - ACS Applied Polymer Materials",
-      "snippet": "Interfacial solar-driven evaporation provides a sustainable route for freshwater generation, but practical implementation remains limited by salt accumulation, insufficient understanding of water/ion transport, and inefficient utilization of the evaporated vapor. Herein, we report an interfacially engineered self-floating hydrogel-coated foam evaporator constructed by anchoring Ketjen black/sodium alginate/tannic acid/Fe 3+ networks onto a melamine foam skeleton. The Fe 3+ ions …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-21",
-      "q": "Q1",
-      "sjr": 0.89,
-      "qcat": "Organic Chemistry"
-    },
-    {
-      "title": "Association among social support, self-identity, depression, and anxiety in college student men who have sex with men in Guiyang, China",
-      "url": "https://search.proquest.com/openview/8b2eed7159f43bf9bbd55633e6add5f9/1?pq-origsite=gscholar&cbl=7666863",
-      "authors": "Y Lu, K Qin, J Chen, M Lu, B Wang, B Yan, D Liu - Frontiers in Psychology, 2026",
-      "snippet": "Background This study aimed to investigate depression and anxiety among college student men who have sex with men (MSM) and to explore their associations with social support and self-identity, with a particular focus on the mediating role of self-identity. Methods A cross-sectional study was conducted among college student MSM in Guiyang, China, from September 2022 to October 2023. We used a self-administered questionnaire to collect information about demographic characteristics …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-21",
-      "q": "Q1",
-      "sjr": 0.94,
-      "qcat": "Psychology (miscellaneous)"
-    },
-    {
-      "title": "An Enhanced Dynamic Network Community Identification by Utilizing Deep Learning",
-      "url": "https://search.proquest.com/openview/9544caf15bab2a3c95f88d0638c32605/1?pq-origsite=gscholar&cbl=18750&diss=y",
-      "authors": "K Shahmiri - 2026",
-      "snippet": "Deep evolutionary community-detection models combine representation learning with temporal regularization, but the DLEC reconstruction target is both continuous and sparse. This thesis examines two reconstruction choices within a documented from-scratch DLEC implementation because no official code or complete DBN-pretraining configuration is available. First, the final sigmoid output is replaced with a linear activation. The change is motivated by the target range: on SYN-VAR, 63.7 …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-21",
-      "nr": "na"
-    },
-    {
-      "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
-      "url": "https://arxiv.org/pdf/2609.31473",
-      "authors": "B Doerschuk-Tiberi, Y Yan, J Chiu, H Wang, T Chung… - arXiv preprint arXiv …, 2026",
-      "snippet": "We introduce Kaggle Game Arena, an open and ever-expanding platform to evaluate large language models (LLMs) through competitive games. Different from static benchmarks, game arena enables models to play head-to-head matchups in …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies",
-      "url": "https://arxiv.org/pdf/2609.26481",
-      "authors": "R Muralidharan, H Kwak, J An - arXiv preprint arXiv:2609.26481, 2026",
-      "snippet": "Social norms cannot be identified from behavior alone: the same cooperative equilibrium may reflect shared expectations, strategic incentives, or simple imitation. Yet in multi-agent large language model systems, prior work largely treats behavioral …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "How to Run Statistics over LLM Judges and Trust the Results: Calibrated Inference for Small-Sample AI Evaluation with evalstats",
-      "url": "https://arxiv.org/pdf/2609.35815",
-      "authors": "I Arawjo - arXiv preprint arXiv:2609.35815, 2026",
-      "snippet": "Researchers across academia increasingly base significance claims on LLM judge scores and small-sample AI evaluations. Yet without well-calibrated confidence intervals (CIs), hypothesis tests, and judge-bias corrections, such claims are …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
-      "url": "https://arxiv.org/pdf/2609.26926",
-      "authors": "Z He, Z Zhou, K Vanacore, RF Kizilcec, THK Huang - arXiv preprint arXiv:2609.26926, 2026",
-      "snippet": "Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could speed this process by …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Can LLMs identify and repair ruptures? Comparison between clinician practices and LLM behaviors",
-      "url": "https://arxiv.org/pdf/2609.25287",
-      "authors": "J Lee, JQ Zhong, D Goel, VJ Rodriguez, DW Yoo… - arXiv preprint arXiv …, 2026",
-      "snippet": "Ruptures represent common albeit critical moments in interaction where relational alignment breaks down, making them essential for evaluating AI where trust and engagement matter most. In a scenario-driven empirical study, we examined the …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Dataset Signatures in Human-LLM Interactions and User Modeling",
-      "url": "https://arxiv.org/pdf/2610.05534",
-      "authors": "J Suh, S Chang - arXiv preprint arXiv:2610.05534, 2026",
-      "snippet": "Human--LLM interaction datasets shape our understanding of AI use and provide a foundation for downstream research, including training and evaluation of user models. In recent years, a growing number of datasets have sought to capture a …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "DimSteer: Steering LLM Authoring with Automatically Discovered Stylistic Controls",
-      "url": "https://arxiv.org/pdf/2610.04174",
-      "authors": "A Mallavarapu, Z Gu - arXiv preprint arXiv:2610.04174, 2026",
-      "snippet": "Large language model writing interfaces often make users steer outputs by repeatedly articulating desired changes in natural language. Yet writers may recognize useful stylistic directions only after seeing alternatives, making revision …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "Learning to GUIDE the Group: Self-Learning LLM Facilitation Across Multi-Party Tasks",
-      "url": "https://arxiv.org/pdf/2610.16231",
-      "authors": "Z Liu, TS Kuo, J Liu, D Fu, N Thain, C Qian - arXiv preprint arXiv:2610.16231, 2026",
-      "snippet": "As large language models are increasingly adopted as multi-party communication facilitators, there is a growing demand for agents capable of balancing diverse group dynamics across contexts. However, existing LLM facilitators are often fine-tuned for …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "How Strongly Should Task State Influence an LLM Agent?",
-      "url": "https://arxiv.org/pdf/2609.25686",
-      "authors": "C Zhang, W Kweon, J Han - arXiv preprint arXiv:2609.25686, 2026",
-      "snippet": "Long-horizon assigned work requires an LLM agent to track the state of a task: which steps are done, blocked, cancelled, or open to repetition. Agent systems either keep this state as text in the prompt and rely on the model to read that text, or move the …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "nr": "na"
-    },
-    {
-      "title": "The five concentric rings of large-language-model systems engineering: A harness-centered tutorial from prompts to topologies",
-      "url": "https://www.researchgate.net/profile/Yu-Kai-Huang-12/publication/415738993_The_Five_Concentric_Rings_of_Large-Language-Model_Systems_Engineering_A_Harness-Centered_Tutorial_from_Prompts_to_Topologies/links/6acee3df73b393100aec056d/The-Five-Concentric-Rings-of-Large-Language-Model-Systems-Engineering-A-Harness-Centered-Tutorial-from-Prompts-to-Topologies.pdf",
-      "authors": "YK Huang - ResearchGate preprint, 2026",
-      "snippet": "A language-model call is stateless, bounded, and stochastic, so the engineering that makes an application reliable lies outside the model. Practitioners name five such concerns—prompt, context, harness, loop, and graph engineering—and describe each as wrapping the previous one. This tutorial organizes them around the harness: the one pass of gather, act, and verify in which a model first takes actions and first receives an independent verdict. The two inner rings are what a harness gathers; the …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "q": "Q1",
-      "sjr": 2.18,
-      "qcat": "Multidisciplinary"
-    },
-    {
-      "title": "Beyond Hyper-Rationality: Persona-Driven Heterogeneity in Networked Agent-Based Systems",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11737546/",
-      "authors": "S Hirashima, S Hu, KH Cheong - IEEE Transactions on Network Science and …, 2026",
-      "snippet": "Large language models (LLMs) are increasingly integrated into agent-based models (ABMs) and multi-agent systems, giving rise to generative agent networks for social simulation and collective behavior modeling. While these agents exhibit strong capabilities in language generation, memory, and strategic planning, recent studies report decision convergence and behavioral variance compression, suggesting a form of hyper-rationality that may suppress micro-level heterogeneity and reshape …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-20",
-      "q": "Q1",
-      "sjr": 1.88,
-      "qcat": "Computer Networks and Communications"
     }
   ]
 }
