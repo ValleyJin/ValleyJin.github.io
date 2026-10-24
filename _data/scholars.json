@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-24",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -12,7 +12,7 @@
           "year": "2011",
           "venue": "Proceedings of the National Academy of Sciences 108 (1), 18-23, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
-          "cites": 308,
+          "cites": 309,
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
@@ -307,6 +307,17 @@
           "qcat": "Multidisciplinary"
         },
         {
+          "title": "Relationships between capital flow and economic growth: A network analysis",
+          "authors": "S Park, JS Yang",
+          "year": "2021",
+          "venue": "Journal of International Financial Markets, Institutions and Money 72, 101345, 2021",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:a2necdfpwlEC",
+          "cites": 25,
+          "q": "Q1",
+          "sjr": 1.39,
+          "qcat": "Economics and Econometrics"
+        },
+        {
           "title": "Government roles in evaluation and arrangement of R&D consortia",
           "authors": "J Kim, SJ Bae, JS Yang",
           "year": "2014",
@@ -316,17 +327,6 @@
           "q": "Q1",
           "sjr": 3.48,
           "qcat": "Applied Psychology"
-        },
-        {
-          "title": "Relationships between capital flow and economic growth: A network analysis",
-          "authors": "S Park, JS Yang",
-          "year": "2021",
-          "venue": "Journal of International Financial Markets, Institutions and Money 72, 101345, 2021",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:a2necdfpwlEC",
-          "cites": 24,
-          "q": "Q1",
-          "sjr": 1.39,
-          "qcat": "Economics and Econometrics"
         },
         {
           "title": "Agent-based approach for revitalization strategy of knowledge ecosystem",
@@ -1654,6 +1654,17 @@
           "nr": "na"
         },
         {
+          "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
+          "authors": "H Lim, MS Kim, Y Cho, J Ahn, S Ahn, JS Nam, J Bae, TG Yun, ID Kim",
+          "year": "2024",
+          "venue": "Advanced Materials 36 (12), 2301080, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QoJ_w57xiyAC",
+          "cites": 119,
+          "q": "Q1",
+          "sjr": 8.27,
+          "qcat": "Materials Science (miscellaneous)"
+        },
+        {
           "title": "Generation of nanoparticles from friction between railway brake disks and pads",
           "authors": "HG Namgung, JB Kim, SH Woo, S Park, M Kim, MS Kim, GN Bae, D Park, ...",
           "year": "2016",
@@ -1663,17 +1674,6 @@
           "q": "Q1",
           "sjr": 3.78,
           "qcat": "Chemistry (miscellaneous)"
-        },
-        {
-          "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
-          "authors": "H Lim, MS Kim, Y Cho, J Ahn, S Ahn, JS Nam, J Bae, TG Yun, ID Kim",
-          "year": "2024",
-          "venue": "Advanced Materials 36 (12), 2301080, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QoJ_w57xiyAC",
-          "cites": 118,
-          "q": "Q1",
-          "sjr": 8.27,
-          "qcat": "Materials Science (miscellaneous)"
         },
         {
           "title": "Hydrothermal synthesis of metal nanoparticles using glycerol as a reducing agent",
@@ -2609,6 +2609,17 @@
           "qcat": "Animal Science and Zoology"
         },
         {
+          "title": "Automatic prediction of left cardiac chamber enlargement from chest radiographs using convolutional neural network",
+          "authors": "JG Nam, J Kim, K Noh, H Choi, DS Kim, SJ Yoo, HL Yang, EJ Hwang, ...",
+          "year": "2021",
+          "venue": "European Radiology 31 (11), 8130-8140, 2021",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:N4u4nq0IxgcC",
+          "cites": 15,
+          "q": "Q1",
+          "sjr": 1.72,
+          "qcat": "Medicine (miscellaneous)"
+        },
+        {
           "title": "Analysis of causal relationships for nutrient removal of activated sludge process based on structural equation modeling approaches",
           "authors": "Y Kim, S Lee, Y Cho, M Kim",
           "year": "2019",
@@ -2669,17 +2680,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:vDZJ-YLwNdEC",
           "cites": 15,
           "nr": "na"
-        },
-        {
-          "title": "Automatic prediction of left cardiac chamber enlargement from chest radiographs using convolutional neural network",
-          "authors": "JG Nam, J Kim, K Noh, H Choi, DS Kim, SJ Yoo, HL Yang, EJ Hwang, ...",
-          "year": "2021",
-          "venue": "European Radiology 31 (11), 8130-8140, 2021",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:N4u4nq0IxgcC",
-          "cites": 14,
-          "q": "Q1",
-          "sjr": 1.72,
-          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "Effect of Harderian adenectomy on the statistical analyses of mouse brain imaging using positron emission tomography",
@@ -4154,6 +4154,17 @@
           "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
+          "title": "SearchLight: Neural Architecture Search for Lightweight Spatio-Temporal Graph Neural Networks",
+          "authors": "H Yoon, J Jung, KW Chon, MS Kim",
+          "year": "2025",
+          "venue": "IEEE Access, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:6VlyvFCUEfcC",
+          "cites": 1,
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
           "title": "ScaDANN: A Scalable Disk-based Graph Indexing Method for ANN.",
           "authors": "H Gu, M Kim",
           "year": "2025",
@@ -4452,17 +4463,6 @@
           "nr": "na"
         },
         {
-          "title": "SearchLight: Neural Architecture Search for Lightweight Spatio-Temporal Graph Neural Networks",
-          "authors": "H Yoon, J Jung, KW Chon, MS Kim",
-          "year": "2025",
-          "venue": "IEEE Access, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:6VlyvFCUEfcC",
-          "cites": 0,
-          "q": "Q1",
-          "sjr": 0.88,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
           "title": "A MetaFQ method to Enhance Decision Making in Large Language Models",
           "authors": "C Hyun, S An, MS Kim",
           "year": "2025",
@@ -4756,7 +4756,7 @@
           "year": "2025",
           "venue": "IEEE Access, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:6VlyvFCUEfcC",
-          "cites": 0,
+          "cites": 1,
           "q": "Q1",
           "sjr": 0.88,
           "qcat": "Computer Science (miscellaneous)"
@@ -4944,7 +4944,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13935,
+          "cites": 13966,
           "nr": "na"
         },
         {
@@ -4953,7 +4953,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9076,
+          "cites": 9113,
           "crank": "A*"
         },
         {
@@ -4962,7 +4962,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 839,
+          "cites": 843,
           "nr": "na"
         },
         {
@@ -4971,7 +4971,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 685,
+          "cites": 686,
           "crank": "A*"
         },
         {
@@ -5000,7 +5000,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 334,
+          "cites": 335,
           "crank": "A*"
         },
         {
@@ -5279,7 +5279,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 839,
+          "cites": 843,
           "nr": "na"
         },
         {
@@ -5297,7 +5297,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 334,
+          "cites": 335,
           "crank": "A*"
         },
         {
@@ -5315,7 +5315,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9076,
+          "cites": 9113,
           "crank": "A*"
         },
         {
@@ -5377,7 +5377,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 685,
+          "cites": 686,
           "crank": "A*"
         },
         {
@@ -5426,7 +5426,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 13935,
+          "cites": 13966,
           "nr": "na"
         },
         {
