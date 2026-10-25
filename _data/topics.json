@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24",
+  "generated": "2026-10-25",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -54,7 +54,7 @@
           "nr": "na"
         }
       ],
-      "count": 11084
+      "count": 11096
     },
     {
       "topic": "gABM",
@@ -110,7 +110,7 @@
           "qcat": "Computational Mathematics"
         }
       ],
-      "count": 57949
+      "count": 58100
     },
     {
       "topic": "Graph database",
@@ -123,7 +123,7 @@
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3749646.3749671",
           "cites": 3,
-          "fwci": 1.25,
+          "fwci": 1.2,
           "q": "Q1",
           "sjr": 1.77,
           "qcat": "Computer Science (miscellaneous)"
@@ -135,7 +135,7 @@
           "venue": "Current Journal of Applied Science and Technology",
           "url": "https://doi.org/10.9734/cjast/2024/v43i114443",
           "cites": 4,
-          "fwci": 0.56,
+          "fwci": 0.55,
           "nr": "na"
         },
         {
@@ -162,7 +162,7 @@
           "qcat": "Electrical and Electronic Engineering"
         }
       ],
-      "count": 125151
+      "count": 125205
     },
     {
       "topic": "Memory in Agentic AI",
@@ -206,7 +206,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 74344
+      "count": 74433
     },
     {
       "topic": "LLM inference serving",
@@ -260,7 +260,7 @@
           "nr": "na"
         }
       ],
-      "count": 7214
+      "count": 7237
     },
     {
       "topic": "Ethereum Layer-2",
@@ -312,7 +312,7 @@
           "nr": "na"
         }
       ],
-      "count": 601
+      "count": 603
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -364,7 +364,7 @@
           "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 48053
+      "count": 48129
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -389,8 +389,8 @@
           "year": 2024,
           "venue": "ACM Computing Surveys",
           "url": "https://doi.org/10.1145/3661821",
-          "cites": 275,
-          "fwci": 101.66,
+          "cites": 276,
+          "fwci": 101.62,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.99,
@@ -402,8 +402,8 @@
           "year": 2024,
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-024-10808-0",
-          "cites": 87,
-          "fwci": 12.56,
+          "cites": 88,
+          "fwci": 12.7,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.64,
@@ -423,7 +423,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 211448
+      "count": 211645
     },
     {
       "topic": "Ontology",
@@ -472,7 +472,7 @@
           "nr": "na"
         }
       ],
-      "count": 26614
+      "count": 26641
     },
     {
       "topic": "AI governance",
@@ -505,6 +505,19 @@
           "qcat": "Computer Science (miscellaneous)"
         },
         {
+          "title": "AI governance in Asia: policies, praxis and approaches",
+          "authors": "Xu, J. L., Lee, T., & Goggin, G. M.",
+          "year": 2024,
+          "venue": "Communication Research and Practice",
+          "url": "https://doi.org/10.1080/22041451.2024.2391204",
+          "cites": 39,
+          "fwci": 99.87,
+          "pct": 1,
+          "q": "Q2",
+          "sjr": 0.55,
+          "qcat": "Communication"
+        },
+        {
           "title": "Revolutionizing AI Governance: Addressing Bias and Ensuring Accountability Through the Holistic AI Governance Framework",
           "authors": "Atoum, I. A.",
           "year": 2025,
@@ -516,22 +529,9 @@
           "q": "Q3",
           "sjr": 0.33,
           "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "AI governance in Asia: policies, praxis and approaches",
-          "authors": "Xu, J. L., Lee, T., & Goggin, G. M.",
-          "year": 2024,
-          "venue": "Communication Research and Practice",
-          "url": "https://doi.org/10.1080/22041451.2024.2391204",
-          "cites": 38,
-          "fwci": 97.67,
-          "pct": 1,
-          "q": "Q2",
-          "sjr": 0.55,
-          "qcat": "Communication"
         }
       ],
-      "count": 113687
+      "count": 113951
     },
     {
       "topic": "NeurIPS",
@@ -754,7 +754,7 @@
           "crank": "A*"
         }
       ],
-      "count": 12324
+      "count": 12323
     },
     {
       "topic": "IJCAI",
@@ -845,45 +845,7 @@
     {
       "topic": "EMNLP",
       "query": "s2:EMNLP",
-      "papers": [
-        {
-          "title": "Solving Hard Analogy Questions with Relation Embedding Chains",
-          "authors": "Kumar, N., & Schockaert, S.",
-          "year": 2023,
-          "venue": "Conference on Empirical Methods in Natural Language Processing",
-          "url": "https://doi.org/10.48550/arXiv.2310.12379",
-          "cites": 1,
-          "crank": "A*"
-        },
-        {
-          "title": "FaST: Feature-aware Sampling and Tuning for Personalized Preference Alignment with Limited Data",
-          "authors": "Thonet, T., Kruszewski, G., Rozen, J., Erbacher, P., & Dymetman, M.",
-          "year": 2025,
-          "venue": "Conference on Empirical Methods in Natural Language Processing",
-          "url": "https://doi.org/10.48550/arXiv.2508.04698",
-          "cites": 7,
-          "crank": "A*"
-        },
-        {
-          "title": "Can LLM be a Personalized Judge?",
-          "authors": "Dong, Y. R., Hu, T., & Collier, N.",
-          "year": 2024,
-          "venue": "Conference on Empirical Methods in Natural Language Processing",
-          "url": "https://doi.org/10.48550/arXiv.2406.11657",
-          "cites": 143,
-          "crank": "A*"
-        },
-        {
-          "title": "CRAB: Assessing the Strength of Causal Relationships Between Real-world Events",
-          "authors": "Romanou, A., Montariol, S., Paul, D., Laugier, L., Aberer, K., & Bosselut, A.",
-          "year": 2023,
-          "venue": "Conference on Empirical Methods in Natural Language Processing",
-          "url": "https://doi.org/10.48550/arXiv.2311.04284",
-          "cites": 50,
-          "crank": "A*"
-        }
-      ],
-      "count": 8136
+      "papers": []
     },
     {
       "topic": "ICCV",
@@ -913,7 +875,7 @@
           "year": 2023,
           "venue": "IEEE International Conference on Computer Vision",
           "url": "https://doi.org/10.1109/ICCV51070.2023.01966",
-          "cites": 21,
+          "cites": 22,
           "crank": "A*"
         },
         {
@@ -931,53 +893,7 @@
     {
       "topic": "ECCV",
       "query": "s2:ECCV",
-      "papers": [
-        {
-          "title": "End-to-End Rate-Distortion Optimized 3D Gaussian Representation",
-          "authors": "Wang, H., Zhu, H., He, T., Feng, R., Deng, J., Bian, J., et al.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 110,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Asynchronous Large Language Model Enhanced Planner for Autonomous Driving",
-          "authors": "Chen, Y., Ding, Z., Wang, Z., Wang, Y., Zhang, L., & Liu, S.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.14556",
-          "cites": 64,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation",
-          "authors": "Lai, B., Ryan, F., Jia, W., Liu, M., & Rehg, J. M.",
-          "year": 2023,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2305.03907",
-          "cites": 29,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Event-Based Motion Magnification",
-          "authors": "Chen, Y., Guo, S., Yu, F., Zhang, F., Gu, J., & Xue, T.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2402.11957",
-          "cites": 10,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        }
-      ],
-      "count": 2469
+      "papers": []
     },
     {
       "topic": "KDD",
@@ -1070,8 +986,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3435571",
-          "cites": 1052,
-          "fwci": 141.5,
+          "cites": 1053,
+          "fwci": 141.43,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -1096,15 +1012,15 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3362475",
-          "cites": 955,
-          "fwci": 157.32,
+          "cites": 956,
+          "fwci": 157.35,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 2601
+      "count": 2594
     },
     {
       "topic": "AIJ",
@@ -1117,7 +1033,7 @@
           "venue": "Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.artint.2024.104244",
           "cites": 100,
-          "fwci": 39.55,
+          "fwci": 39.53,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.29,
@@ -1155,8 +1071,8 @@
           "year": 2024,
           "venue": "Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.artint.2024.104145",
-          "cites": 69,
-          "fwci": 27.08,
+          "cites": 70,
+          "fwci": 27.43,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.29,
@@ -1188,8 +1104,8 @@
           "year": 2024,
           "venue": "Journal of Artificial Intelligence Research",
           "url": "https://doi.org/10.1613/jair.1.15320",
-          "cites": 147,
-          "fwci": 44.2,
+          "cites": 149,
+          "fwci": 44.81,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.11,
@@ -1222,7 +1138,7 @@
           "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 372
+      "count": 369
     },
     {
       "topic": "Futures",
@@ -1273,15 +1189,15 @@
           "year": 2025,
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2025.103607",
-          "cites": 52,
-          "fwci": 93.4,
+          "cites": 53,
+          "fwci": 92.13,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.43,
           "qcat": "Business and International Management"
         }
       ],
-      "count": 429
+      "count": 432
     },
     {
       "topic": "TFSC",
@@ -1504,20 +1420,20 @@
           "qcat": "Accounting"
         },
         {
-          "title": "Cultural Origin and Minority Shareholder Expropriation: Historical Evidence",
-          "authors": "Gu, Z., Sun, W., & Zhou, F. S.",
-          "year": 2023,
+          "title": "Government Subsidies and Corporate Misconduct",
+          "authors": "Raghunandan, A.",
+          "year": 2024,
           "venue": "Journal of Accounting Research",
-          "url": "https://doi.org/10.1111/1475-679x.12517",
-          "cites": 95,
-          "fwci": 55.27,
+          "url": "https://doi.org/10.1111/1475-679x.12553",
+          "cites": 71,
+          "fwci": 18.21,
           "pct": 1,
           "q": "Q1",
           "sjr": 9.77,
           "qcat": "Accounting"
         }
       ],
-      "count": 141
+      "count": 140
     },
     {
       "topic": "CAR",
@@ -1542,8 +1458,8 @@
           "year": 2023,
           "venue": "Contemporary Accounting Research",
           "url": "https://doi.org/10.1111/1911-3846.12919",
-          "cites": 54,
-          "fwci": 31.56,
+          "cites": 55,
+          "fwci": 31.99,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.69,
@@ -1576,7 +1492,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 241
+      "count": 242
     },
     {
       "topic": "RAST",
@@ -1635,7 +1551,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 168
+      "count": 171
     },
     {
       "topic": "FFS",
@@ -1647,8 +1563,8 @@
           "year": 2023,
           "venue": "Futures & Foresight Science",
           "url": "https://doi.org/10.1002/ffo2.172",
-          "cites": 62,
-          "fwci": 26.64,
+          "cites": 63,
+          "fwci": 26.97,
           "pct": 1,
           "q": "Q1",
           "sjr": 0.74,
@@ -1800,7 +1716,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 693
+      "count": 695
     },
     {
       "topic": "SMJ",
@@ -1859,7 +1775,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 290
+      "count": 288
     },
     {
       "topic": "LRP",
@@ -2166,8 +2082,8 @@
           "year": 2024,
           "venue": "Journal of Management",
           "url": "https://doi.org/10.1177/01492063241268459",
-          "cites": 457,
-          "fwci": 227.71,
+          "cites": 458,
+          "fwci": 227.97,
           "pct": 1,
           "q": "Q1",
           "sjr": 8.25,
@@ -2192,8 +2108,8 @@
           "year": 2025,
           "venue": "Journal of Management",
           "url": "https://doi.org/10.1177/01492063251322429",
-          "cites": 79,
-          "fwci": 98.96,
+          "cites": 80,
+          "fwci": 99.46,
           "pct": 1,
           "q": "Q1",
           "sjr": 8.25,
@@ -2213,7 +2129,7 @@
           "qcat": "Finance"
         }
       ],
-      "count": 278
+      "count": 279
     },
     {
       "topic": "OrgSci",
@@ -2331,7 +2247,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 1296
+      "count": 1293
     },
     {
       "topic": "JMS",
@@ -2403,7 +2319,7 @@
           "venue": "Organization Studies",
           "url": "https://doi.org/10.1177/01708406241236610",
           "cites": 46,
-          "fwci": 34.37,
+          "fwci": 33.72,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.36,
@@ -2449,7 +2365,7 @@
           "qcat": "Management of Technology and Innovation"
         }
       ],
-      "count": 234
+      "count": 231
     },
     {
       "topic": "HRM",
@@ -2508,7 +2424,7 @@
           "qcat": "Applied Psychology"
         }
       ],
-      "count": 215
+      "count": 214
     },
     {
       "topic": "ResPol",
@@ -2520,8 +2436,8 @@
           "year": 2023,
           "venue": "Research Policy",
           "url": "https://doi.org/10.1016/j.respol.2023.104906",
-          "cites": 217,
-          "fwci": 46.43,
+          "cites": 218,
+          "fwci": 46.57,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.47,
@@ -2567,7 +2483,7 @@
           "qcat": "Engineering (miscellaneous)"
         }
       ],
-      "count": 495
+      "count": 496
     },
     {
       "topic": "JIBS",
@@ -2626,7 +2542,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 240
+      "count": 239
     },
     {
       "topic": "AOS",
@@ -2665,7 +2581,7 @@
           "venue": "Accounting Organizations and Society",
           "url": "https://doi.org/10.1016/j.aos.2023.101535",
           "cites": 32,
-          "fwci": 15.05,
+          "fwci": 15.03,
           "pct": 10,
           "q": "Q1",
           "sjr": 3.1,
@@ -2803,7 +2719,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 129
+      "count": 130
     },
     {
       "topic": "CPA",
@@ -2980,7 +2896,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 198
+      "count": 199
     },
     {
       "topic": "IJAIS",
@@ -2992,8 +2908,8 @@
           "year": 2025,
           "venue": "International Journal of Accounting Information Systems",
           "url": "https://doi.org/10.1016/j.accinf.2025.100734",
-          "cites": 191,
-          "fwci": 94.4,
+          "cites": 192,
+          "fwci": 93.64,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.75,
@@ -3131,6 +3047,19 @@
           "qcat": "Accounting"
         },
         {
+          "title": "Digitalization of the finance function: Automation, analytics, and finance function effectiveness",
+          "authors": "Bedford, D. S., Derichs, D., Hoozée, S., Malmi, T., Messner, M., Sinha, V. K., et al.",
+          "year": 2025,
+          "venue": "Management Accounting Research",
+          "url": "https://doi.org/10.1016/j.mar.2025.100942",
+          "cites": 26,
+          "fwci": 12.81,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.62,
+          "qcat": "Accounting"
+        },
+        {
           "title": "Environmental management control systems and environmental innovation: Unintended consequences of the EU non-financial reporting directive",
           "authors": "Antonini, C., & Gomez‐Conde, J.",
           "year": 2024,
@@ -3138,19 +3067,6 @@
           "url": "https://doi.org/10.1016/j.mar.2024.100903",
           "cites": 25,
           "fwci": 10.76,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 1.62,
-          "qcat": "Accounting"
-        },
-        {
-          "title": "Digitalization of the finance function: Automation, analytics, and finance function effectiveness",
-          "authors": "Bedford, D. S., Derichs, D., Hoozée, S., Malmi, T., Messner, M., Sinha, V. K., et al.",
-          "year": 2025,
-          "venue": "Management Accounting Research",
-          "url": "https://doi.org/10.1016/j.mar.2025.100942",
-          "cites": 25,
-          "fwci": 12.41,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.62,
