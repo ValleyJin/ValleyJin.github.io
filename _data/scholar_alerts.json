@@ -1,7 +1,169 @@
 {
-  "generated": "2026-10-24",
+  "generated": "2026-10-25",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Coherent Generative Agentic AI Enabled 6G/7G Networking",
+      "url": "https://www.mdpi.com/1999-5903/18/10/576/pdf",
+      "authors": "A Galis - Future Internet, 2026",
+      "snippet": "Generative Artificial Intelligence (Generative Agentic AI) models, such as Large Language Models (LLMs), and agentic AI have recently gained widespread attention in both research and industry. They have rapidly emerged as a concept that elevates Generative Agentic AI from passive text generators to the next generation of agentic AI as autonomous, goal-driven agents capable of perception, planning, and dynamic action execution—Coherent Generative Agentic AI (CGA). In addition, CGA provides …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "q": "Q1",
+      "sjr": 0.84,
+      "qcat": "Computer Networks and Communications"
+    },
+    {
+      "title": "Cogent-Adversary: Cognitive-State Assessment and Adaptive Control for Dual-Agent Tutoring in Education",
+      "url": "https://www.mdpi.com/2076-3417/16/20/10433/pdf",
+      "authors": "Z Sun, S Chen, M Bie - Applied Sciences, 2026",
+      "snippet": "Large language models (LLMs) have expanded the capabilities of intelligent tutoring systems, but adaptive regulation of instructional challenge and control of domain-specific factual drift remain difficult. We propose Cogent-Adversary, a dual-agent tutoring framework that combines cognitive-state-informed adaptive control (CODA) with Knowledge-Graph-Grounded Adversarial Reasoning and an adversarial consistency check (KGAR–ACCL). The framework was evaluated in a two-week …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "q": "Q4",
+      "sjr": 0.15,
+      "qcat": "Applied Mathematics"
+    },
+    {
+      "title": "Would You Buy on Impulse During E-Commerce Digital Human Avatar Live Shopping? DHA Characteristics and Consumer Experience",
+      "url": "https://www.mdpi.com/2076-328X/16/10/1961/pdf",
+      "authors": "S Mao, E Jung - Behavioral Sciences, 2026",
+      "snippet": "Digital human avatars (DHAs) are emerging as a new type of intelligent shopping agent in livestream e-commerce; however, existing research has not fully explained how their characteristics influence impulse buying through consumer experience mechanisms. Drawing on the Stimulus–Organism–Response (SOR) framework, this study conceptualizes the interactivity, empathy, immersion, and vividness of e-commerce digital human avatars (EC-DHAs) as external stimuli and visual appeal …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "q": "Q1",
+      "sjr": 0.83,
+      "qcat": "Development"
+    },
+    {
+      "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
+      "url": "https://arxiv.org/pdf/2610.27333",
+      "authors": "H Zhang, Q Hu, Z Zhang, H Park, Y Huang - arXiv preprint arXiv:2610.27333, 2026",
+      "snippet": "LLMs are increasingly used across research workflows, including research ideation, qualitative analysis, and participant simulation. Within work on participant simulation, prior studies have largely evaluated simulated participants by how realistic or human-like their responses appear, leaving less known about how researchers use and critique these materials when revising interview protocols before fieldwork. We present Rehearsim, an inspectable research probe that treats LLM-simulated …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "nr": "na"
+    },
+    {
+      "title": "Polling Without People: Can Silicon Samples of CASM-Inspired LLM Personae Mimic Human Respondents in Pre-Election Polling?",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/6FCB4E198E9DB211D3847665FA700B5A/S1049096526103084a.pdf/polling_without_people_can_silicon_samples_of_casminspired_llm_personae_mimic_human_respondents_in_preelection_polling.pdf",
+      "authors": "D Jonaitis, B Corcoran, B Poudyal, A Roskam, AA Ali…",
+      "snippet": "We introduce a framework for simulating pre-election survey responses with large language model (LLM) synthetic personae. Drawing on the Cognitive Aspects of Survey Methodology (CASM) literature, our approach combines synthetic biographies, salient-event memories and conditional news exposure with a staged cognitive process for answering turnout and candidate-choice questions. We apply the framework to a single weekly wave for the 2026 US House elections and produce …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "nr": "na"
+    },
+    {
+      "title": "HealBench: A Fine-Grained Benchmark for Evaluating Psychological Comfort in Text-to-Image Generation",
+      "url": "https://arxiv.org/pdf/2610.27516",
+      "authors": "J Xu, Y Yang, R Yang, L Xiao, W Wu, X Wu, L He - arXiv preprint arXiv:2610.27516, 2026",
+      "snippet": "Despite advances in photorealism, semantic fidelity, and aesthetics, text-to-image generation and image editing remain understudied in a human-centered dimension: whether their outputs feel psychologically comforting. Grounded in cognitive evaluation theory, we define psychological comfort as an affective response shaped by viewers' appraisal of restorative and emotionally supportive visual cues. We introduce HealBench, a fine-grained benchmark of 30,000 high-quality image-text …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "nr": "na"
+    },
+    {
+      "title": "When LLMs Manipulate: Measuring Behavioral, Social, and Temporal Effects",
+      "url": "https://arxiv.org/pdf/2610.27573",
+      "authors": "S Asif, IAR Laguan, S Asif, H Khan, M Asif, MZ Karamat - arXiv preprint arXiv …, 2026",
+      "snippet": "Large language models (LLMs) can influence user trust and decision-making through subtle linguistic cues, yet the behavioral effects of manipulative outputs remain poorly quantified. We introduce a behavioral computing framework for measuring\\textit {behavioral vulnerability}, defined as users' susceptibility to manipulative AI responses. Building on DarkPatterns-LLM benchmark, we generate controlled manipulative stimuli using Manipulation Gradient Descent (MGD) …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "nr": "na"
+    },
+    {
+      "title": "Massive AI Model Orchestration for 6G Networks: Architecture, Optimization, and Energy-Efficient Deployment",
+      "url": "https://www.mdpi.com/1999-5903/18/10/572/pdf",
+      "authors": "E Astaiza Hoyos, HF Bermúdez-Orozco… - Future Internet, 2026",
+      "snippet": "Sixth-generation (6G) networks will serve large pre-trained artificial intelligence (AI) foundation models from cloud, edge and device tiers, but placing, compressing and scheduling them under latency, energy and accuracy constraints remains open. This paper proposes Massive AI Model Orchestration (MAIMO), a three-tier framework that manages model residency and request routing inside the radio access and core networks. The orchestration problem is formulated as a mixed-integer multi-objective …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "q": "Q1",
+      "sjr": 0.84,
+      "qcat": "Computer Networks and Communications"
+    },
+    {
+      "title": "Automated Materials Data and Knowledge Extraction using Machine Learning and Large Language Models",
+      "url": "https://arxiv.org/pdf/2610.29895",
+      "authors": "AK Sundaram, BP Prusty, R Batra - arXiv preprint arXiv:2610.29895, 2026",
+      "snippet": "Over the past decade, substantial efforts have been devoted to developing machine learning (ML) methods for extracting materials data and, where possible, materials knowledge directly from the scientific literature. This review traces the evolution of these methods from heuristic, rule-based pipelines through natural language processing (NLP) models and transformer-based encoders to, lastly, large language models (LLMs) and agentic systems capable of extracting materials information …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "nr": "na"
+    },
+    {
+      "title": "An Internet Search--Augmented Soft Prompt Tuning Framework for Explainable Resume Screening in Healthcare Recruitment",
+      "url": "https://www.researchsquare.com/article/rs-11034303/latest.pdf",
+      "authors": "Y Wu, T Hu, S Gu, Y Mao, X Cen - 2026",
+      "snippet": "Background: Large-scale hospital recruitment requires accurate and auditable matching between heterogeneous resume evidence and job-specific requirements. Methods: This study developed an internet search--augmented, soft-prompt-tuned large language model (LLM) framework integrating structured resume extraction, targeted retrieval of publication evidence, continuous task-specific prompt embeddings attached to a frozen Qwen backbone, deterministic expert rules, and …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "nr": "na"
+    },
+    {
+      "title": "Photothermal-enhanced hydrovoltaic electricity generation in a homogeneous fibrous architecture with asymmetric carbon-cloth electrodes",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1385894726108031",
+      "authors": "N Zhao, Y Wang, R Lv, X Yu, Y Wang, L Wang, J Shen… - Chemical Engineering …, 2026",
+      "snippet": "Hydrovoltaic electricity generators (HEGs) offer a sustainable route toward self-powered wearable electronics, but their output is often limited by rapid relaxation of the water-content gradient and inefficient charge collection at the device terminals. Here, we report a flexible photothermal-enhanced HEG comprising homogeneous polypyrrole-functionalized cotton fabric (CF@ PPy) and asymmetric carbon-cloth (CC/CC@ PPy) electrodes. Spectroscopic results are consistent with interfacial …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-25",
+      "q": "Q1",
+      "sjr": 6.51,
+      "qcat": "Biochemistry"
+    },
+    {
+      "title": "Interpretable Deep Learning for Opportunistic Screening of Left Ventricular Dysfunction Screening Using Chest Radiographs",
+      "url": "https://pubs.rsna.org/doi/abs/10.1148/ryai.260161",
+      "authors": "S Jang, DH Lee, HS Cho, S Byeon, BY Hur, CM Park… - Radiology: Artificial …, 2026",
+      "snippet": "Purpose To develop and evaluate a deep learning model (DLLV) for identifying reduced left ventricular ejection fraction (LVEF) on chest radiographs (CXRs) and assess its potential as a prescreening tool for selective transthoracic echocardiography (TTE) in health checkup populations. Materials and Methods Same-day CXR-TTE pairs obtained between January 2016 and September 2021 were retrospectively collected for model development. Counterfactual learning was …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-25",
+      "q": "Q1",
+      "sjr": 4.61,
+      "qcat": "Artificial Intelligence"
+    },
+    {
+      "title": "CollabSciReM: Aligning Language Models for Scientific Conversations via Science-Aware Reward Decomposition",
+      "url": "https://arxiv.org/pdf/2610.27901",
+      "authors": "SK Gaddipati, G Rabby, S Auer - arXiv preprint arXiv:2610.27901, 2026",
+      "snippet": "Large Language Models (LLMs) are increasingly used as research collaborators for hypothesis refinement, methodological planning, and technical analysis across multi-turn interactions. In this setting, a useful assistant must be accurate, methodologically …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "nr": "na"
+    },
+    {
+      "title": "Steering Vision-Language Models for Visual-Contextual Privacy in Location Disclosure",
+      "url": "https://arxiv.org/pdf/2610.27323",
+      "authors": "W Chen, Y Cheng, R Yang, E Mendes, A Ritter, J Sun… - arXiv preprint arXiv …, 2026",
+      "snippet": "Vision-language models (VLMs) can infer sensitive information such as geolocation from subtle visual cues, creating privacy risks when responses disclose more detail than the visual context warrants. We study visual-contextual privacy in geolocation …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "nr": "na"
+    },
+    {
+      "title": "How Personality Parameterization Shapes Performed Traits in Language Models",
+      "url": "https://dl.acm.org/doi/full/10.1145/3785651.3831547",
+      "authors": "HT Kao, S Volkova - Proceedings of the 2026 Companion of the Computer …, 2026",
+      "snippet": "As language models are increasingly configured as collaborators, seemingly minor choices in personality specification may shape how they participate in collective work. We study whether matched Big Five targets written as binary labels, categorical …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-25",
+      "nr": "na"
+    },
     {
       "title": "Psychological and Behavioral Modeling: A Structured Review of Methods, Datasets, Applications, and Open Challenges",
       "url": "https://www.mdpi.com/2079-8954/14/10/1327/pdf",
@@ -266,162 +428,6 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "\" To Boldly Go Where No One Has Gone Before\" What Has AI Let Developers Unlock?",
-      "url": "https://arxiv.org/pdf/2610.23708",
-      "authors": "R Choudhuri, JL Butler, C Bird, C Badea, B Houck… - arXiv preprint arXiv …, 2026",
-      "snippet": "Measuring AI by how much faster developers work is like judging electricity by how much faster it spun a steam-era factory. A fuller measure asks what new work becomes possible. We surveyed 331 software developers at Microsoft about what AI lets them do that they could not do before and analyzed their answers using reflexive thematic analysis with a human-in-the-loop, multi-model AI council. Developers described doing familiar work faster (Faster, 45%), undertaking work previously …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "MS-Eval: Benchmarking Sub-Agent Delegation and Orchestration in MCP-Intensive Working Scenarios",
-      "url": "https://arxiv.org/pdf/2610.22869",
-      "authors": "B Ding, Q Wang, L Ruan, W Lu, Q Ge, R Fang, T Lin - arXiv preprint arXiv:2610.22869, 2026",
-      "snippet": "LLM agents are increasingly integrated into real-world works, yet they must handle diverse domain-specific tools and complex multi-sub-task problems that sequential tool invocation resolves inefficiently and with severe context bloat. The Main-Agent Delegation and Sub-Agent Execution (MAD-SAE) paradigm addresses these issues by delegating sub-tasks to specialized sub-agents for parallel execution in isolated contexts, but its delegation and orchestration quality remains unquantified. We …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "Characterizing Collective Attention in YouTube Live Chats of Brazilian Football Rivalries",
-      "url": "https://sol.sbc.org.br/index.php/webmedia/article/view/46089",
-      "authors": "LEC Carneiro, JA Caetano - Brazilian Symposium on Multimedia and the Web …, 2026",
-      "snippet": "Online live chats have become an important space for collective participation during live sports broadcasts, enabling large audiences to react synchronously to unfolding events. Despite growing interest in collective attention in online systems, relatively little is known about how attention evolves during live sports discussions and how different attention levels are reflected in audience language. In this paper, we investigate collective attention dynamics in YouTube live chats associated with three …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "Green and smart technologies for a sustainable, resilient and competitive EU waterborne transport sector: deliverable for onboard and after-treatment systems (D10)",
-      "url": "https://repository.uantwerpen.be/docstore/d:irua:37782",
-      "authors": "M Cryns, E O'Neill, MC Rodrigues de Jesus… - 2026",
-      "snippet": "This report assesses onboard and after-treatment systems in Europe as essential technologies for improving the environmental performance of the EU waterborne transport sector. It covers systems installed on vessels to capture, treat, reduce, separate, monitor, and manage emissions and operational discharges, including onboard carbon capture, exhaust-gas cleaning, noise and vibration mitigation, wastewater treatment, ballast-water management, and oily-water separation. The …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "剪切相铌酸钛多功能材料的改性调控与应用拓展.",
-      "url": "https://openurl.ebsco.com/contentitem/gcd:197796586?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:197796586&crl=c&jrnl=20975384",
-      "authors": "张博皓， 杨浩然， 邵宗普， 刘亚飞， 张学全 - Nonferrous Metals, 2026",
-      "snippet": "铌酸钛(TNO) 作为典型Wadsley-Roth 剪切相负极材料, 兼具高嵌锂电位, 近400 mAh· g− 1 理论容量与低晶格形变等优势, 具有重要的研究价值与应用潜力. 本文系统剖析了TNO 晶体结构与嵌锂机制, 对比了不同合成方法对材料微观形貌及电化学动力学行为的调控规律, 针对TNO 本征电子电导率较低, 锂离子扩散动力学迟缓等关键短板, 系统归纳了元素掺杂, 晶格氧空位构筑, 碳基包覆, 非碳基异质复合四类改性策略. 得益于优秀的电化学特性, TNO 材料具备多样化应用场景, 既可作为锂 …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "Compressed Execution in Hash Joins via Dictionary Vectors in DuckDB",
-      "url": "https://homepages.cwi.nl/~boncz/msc/2026-AhmetKarapinar.pdf",
-      "authors": "A Karapinar - 2026",
-      "snippet": "An analytical database system holds a query's working data in memory. That memory is expensive. A query that runs out of it fails or spills to disk. A hash join copies its whole build side into a hash table, which often sets a query's peak memory. This thesis asks how a hash join can build its hash table in compressed form. Dictionary encoding can compress it, but only if one dictionary covers the whole column. A storage dictionary usually describes one row group rather than the whole column, so …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "Gestures for Blind People to Specify Spatial Focus of Vision Language Models on Head-Worn Devices",
-      "url": "https://www.masakikuribayashi.com/data/project/shoya_higuchi_vrst_poster_2026/paper.pdf",
-      "authors": "S Higuchi, M Kuribayashi, A Ito, S Morishima - Recall, 2026",
-      "snippet": "Head-worn visual assistance can make it difficult for blind users to obtain descriptions focused on the part of a scene they want to examine. Thus, we propose two interactions for head-worn devices that enable blind users to direct vision …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "q": "Q1",
-      "sjr": 2.62,
-      "qcat": "Computer Science Applications"
-    },
-    {
-      "title": "Exploring Blind People's Information Needs for Sightseeing Narration Generated by Vision-Language Models",
-      "url": "https://www.masakikuribayashi.com/data/project/arata_ito_assets_2026/paper.pdf",
-      "authors": "A Ito, S Kayukawa, M Kuribayashi, D Sato, C Asakawa… - 2026",
-      "snippet": "Blind people often enjoy sightseeing with sighted companions, but they may not always describe the surrounding environment aligned to blind people's interests. We therefore explore Vision-Language Model (VLM)-generated narration as a …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "Process, Not Trace: A Theoretical Framework for Agentic AI and Process-Preserving Human–AI Cognition",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-032-41794-7_23",
-      "authors": "MJ Richardson, MPD Monfort, A Alhasan, C Crone… - International Conference on …, 2026",
-      "snippet": "Agentic AI is moving the field from single-shot output toward extended, multi-step deliberation. We argue that this trajectory needs a substantive theory of what process actually is, and that current scaffolds (chain-of-thought, ReAct, Tree-of-Thoughts, multi-agent debate, reasoning models) are partial steps toward but do not yet instantiate process-constituted cognition. Drawing on the philosophy of science and the cognitive psychology of skilled practice, creativity, and learning, we characterize …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
-      "q": "Q4",
-      "sjr": 0.17,
-      "qcat": "Atomic and Molecular Physics, and Optics"
-    },
-    {
-      "title": "Generative AI Decision Support in B2C E-Commerce: A Consumer Buying Behaviour Framework",
-      "url": "https://www.mdpi.com/2079-9292/15/20/4781/pdf",
-      "authors": "G Ilieva - Electronics, 2026",
-      "snippet": "Decision making in business-to-consumer (B2C) e-commerce connects company and consumer activities before, during and after purchase, whereas many existing generative artificial intelligence (GAI) applications focus on specific tasks or functions. This article develops a conceptual framework linking employee responsibilities, consumer choices, GAI support, information sources, permissions and two-sided evaluation through the five-stage Consumer Buying Behaviour (CBB) …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
-      "q": "Q4",
-      "sjr": 0.14,
-      "qcat": "Electrical and Electronic Engineering"
-    },
-    {
-      "title": "A Lightweight Dispersion Metric Suite for Real-Time Convergence Monitoring in Synthetic Populations",
-      "url": "https://link.springer.com/chapter/10.1007/978-3-032-41794-7_1",
-      "authors": "R Alvarez, M Soroberto, M Carton - … Conference on Practical Applications of Agents …, 2026",
-      "snippet": "Large language model (LLM)-based synthetic agent populations are increasingly used to simulate human respondents in market research, offering speed and cost advantages over traditional panels. However, larger-scale application settings reveal an important validity threat: agents with distinct demographic profiles tend to generate excessively homogeneous responses, undermining the representational premise of synthetic research. We term this phenomenon response convergence and …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
-      "nr": "na"
-    },
-    {
-      "title": "Designing Human-Centred Agentic Software: Methods Guidance from Context-Aware, Agentic and Swarm Systems",
-      "url": "https://www.researchgate.net/profile/Ahmad-Hassan-Afridi/publication/416020665_Designing_Human-Centred_Agentic_Software_Methods_Guidance_from_Context-Aware_Agentic_and_Swarm_Systems/links/6ad22af9e8a90924a35341bc/Designing-Human-Centred-Agentic-Software-Methods-Guidance-from-Context-Aware-Agentic-and-Swarm-Systems.pdf",
-      "authors": "AH Afridi",
-      "snippet": "Software is increasingly built and run by collectives of AI agents that sense context, plan, call tools and coordinate. Context-aware computing, agentic AI and swarm intelligence each describe part of this shift, yet none tells a designer where the human belongs. This paper offers methods guidance for designing human-centred agentic software. We reviewed 68 sources (1983–2025; 72% from 2020 onwards) across five strands: context-aware and self-adaptive systems, agentic AI for software …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
-      "nr": "na"
-    },
-    {
-      "title": "Beyond Traditional Research: Evaluating AI and Large Language Models as Collaborative Agents in Early-Stage Product Discovery",
-      "url": "https://www.researchgate.net/profile/Nadhif-Rifat-Rasendriya/publication/415837992_Beyond_Traditional_Research_Evaluating_AI_and_Large_Language_Models_as_Collaborative_Agents_in_Early-Stage_Product_Discovery/links/6ad033c2fabfd003a035d32e/Beyond-Traditional-Research-Evaluating-AI-and-Large-Language-Models-as-Collaborative-Agents-in-Early-Stage-Product-Discovery.pdf",
-      "authors": "NR Rasendriya",
-      "snippet": "Product teams increasingly use large language models (LLMs) and grounded document workspaces to validate ideas, map users, and draft product requirement documents (PRDs), business model canvases, and pitch decks. The promise is speed. The risk is that fluent output hides false claims, flatters weak ideas, narrows the range of users considered, and passes shallow specifications to engineers. This paper asks how effort and reliability change when LLMs enter early-stage discovery …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
-      "nr": "na"
-    },
-    {
-      "title": "Governable agentic intelligence: a lifecycle framework linking capability, assurance, and oversight in large language model agents",
-      "url": "https://www.researchsquare.com/article/rs-11168127/latest.pdf",
-      "authors": "H Udoh - 2026",
-      "snippet": "Agentic artificial intelligence (AI) embeds large language models (LLMs) in action loops in which they plan, retrieve evidence, invoke tools, maintain memory, coordinate with other agents, and change external state. Reviews of this field have proliferated, yet they remain fragmented: architecture surveys catalogue components, evaluation surveys catalogue benchmarks, and safety surveys catalogue risks, while deployed agents couple all three. Scholars have yet to …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
-      "nr": "na"
-    },
-    {
-      "title": "Inferring Latent Structures in Social Systems: From Network Patterns to Subjective Judgments",
-      "url": "https://aaltodoc.aalto.fi/bitstreams/2d6c54e7-fb84-4366-8040-6da8d2674017/download",
-      "authors": "H Narimanzadeh - 2026",
-      "snippet": "Digital traces of social life provide rich evidence of social behavior, but they rarely reveal the structures of interest directly. These footprints are observable outcomes of underlying social mechanisms. Recovering the hidden structures and variables governing these traces therefore requires computational methods that treat digital data as indirect evidence of the systems and structures that produce them. This creates a central measurement problem for computational social science: how can …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-21",
       "nr": "na"
     }
   ]
