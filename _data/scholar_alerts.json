@@ -1,7 +1,137 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "From Avatar to Self: Embodiment, Identity, and the Proteus Effect in LLM-Based Multi-Agent AI Simulation",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949882126001611",
+      "authors": "W Hurst, T Abbas, B Tekinerdogan, C Krampe - Computers in Human Behavior …, 2026",
+      "snippet": "This article presents Café Proteus, a browser-based multi-agent simulation platform designed to investigate whether identity framing was associated with consistent behavioural differentiation in large language model (LLM) agents, extending the Proteus Effect beyond its traditional application to human-controlled virtual environments. Five LLM-driven agents, each assigned a distinct visual avatar, spatial role, and behavioural persona, interact in a shared pixel-art café environment across …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "q": "Q1",
+      "sjr": 3.07,
+      "qcat": "Arts and Humanities (miscellaneous)"
+    },
+    {
+      "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+      "url": "https://arxiv.org/pdf/2610.30755",
+      "authors": "Z Bao, S Zhang, H Zhang, S Lou, M Wen, M Luo - arXiv preprint arXiv:2610.30755, 2026",
+      "snippet": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always necessary? We study Raw-RAG, a naive RAG baseline using dense retrieval and reranking over raw history to supply evidence to a reader LLM. Across LoCoMo, LongMemEval, MEME, and MemoryAgentBench, Raw-RAG ranks first among the compared memory …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "nr": "na"
+    },
+    {
+      "title": "Silicon Samples Match the Answers but Not the Respondents",
+      "url": "https://arxiv.org/pdf/2610.30900",
+      "authors": "Y Kumagae, M Kaneko - arXiv preprint arXiv:2610.30900, 2026",
+      "snippet": "Silicon sampling generates survey respondents by having a large language model (LLM) answer a survey as a person with given demographic attributes, and the resulting synthetic populations are increasingly used in place of human ones. Existing evaluations focus on individual-answer accuracy, per-question answer distributions, and correlations across questions. None of these compares the respondents themselves, so a generator whose respondents have combinations of …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "nr": "na"
+    },
+    {
+      "title": "TwinStore: A Synthetic Consumer Platform Using Vision--Language Models",
+      "url": "https://arxiv.org/pdf/2610.30909",
+      "authors": "M Lee - arXiv preprint arXiv:2610.30909, 2026",
+      "snippet": "We present TwinStore, a source-available synthetic consumer platform for physical retail built on vision--language models. TwinStore turns a store into a digital twin---from 82 ready-made formats, a floor-plan image or phone photos of its shelves---and fills it with synthetic shoppers who plan a trip, walk the aisles and decide what to buy by looking at rendered shelves with packs, price tags and promotion signs. Every trip ends in a receipt, so a layout, price, pack or promotion can be tried on the same …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "nr": "na"
+    },
+    {
+      "title": "From foundation models to construction robotics: A dual stream review, capability matching, and deployment frameworks",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1474034626010840",
+      "authors": "W Li, Y Wang, C Mao, MF Antwi-Afari, X Tao - Advanced Engineering Informatics, 2027",
+      "snippet": "Construction robotics (CR) plays a critical role in improving productivity, safety, and quality in the construction industry, yet it remains limited in its capability to adapt to evolving, unstructured job-site conditions. Foundation models (FMs) provide general, integrative, and adaptive capabilities that support open-world perception, semantic reasoning, and cross-modal grounding, offering a promising pathway to enhance CR. However, a key gap remains in matching FMs' capabilities to CR's demands for …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "q": "Q1",
+      "sjr": 2.02,
+      "qcat": "Artificial Intelligence"
+    },
+    {
+      "title": "Whose hotel does the AI recommend? An algorithm audit of reputation signals in LLM-assisted hotel selection",
+      "url": "https://link.springer.com/article/10.1007/s40558-026-00417-8",
+      "authors": "MS Ahmed Baig, SA Gillani, A Ali IkramUllah - Information Technology & Tourism, 2026",
+      "snippet": "Travelers increasingly ask large language model (LLM) assistants which hotel to book, making these systems gatekeepers of property visibility, yet what moves their recommendations is undocumented. This study reports a pre-specified algorithm audit using a randomized choice-based conjoint: across personas, prompt templates, and twelve open-weight and proprietary models, assistants choose among five hotels whose guest rating, review volume and recency, management response …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "q": "Q1",
+      "sjr": 1.88,
+      "qcat": "Computer Science Applications"
+    },
+    {
+      "title": "Interpretive Variation and Discourse Structure in Detecting Enthymemes in Controversial Political Discourse",
+      "url": "https://arxiv.org/pdf/2610.30987",
+      "authors": "M Pastor, N Oostdijk - arXiv preprint arXiv:2610.30987, 2026",
+      "snippet": "Enthymemes are arguments that leave a premise or conclusion unstated, and they are a common persuasion device on social media. Because readers must fill in the missing part themselves, they often disagree on whether a text contains one. This paper asks how to detect and evaluate enthymemes when such disagreement is part of the task. On tweets about vaccination and immigration, each labeled by five annotators, F1 stalls around 0.67 for every fine-tuned model we train, regardless of …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "nr": "na"
+    },
+    {
+      "title": "From AI Ethics to Ethical Misalignment: Understanding Emerging Risks in Agentic AI Systems",
+      "url": "https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1519&context=bispapers",
+      "authors": "D Tech, A Sekar - Issues in Information Systems, 2026",
+      "snippet": "The emergence of Agentic AI systems is reshaping organizational processes through continuous adaptation, autonomous coordination, and real-time operational execution. Unlike traditional artificial intelligence applications focused on discrete decision-making tasks, Agentic AI systems operate continuously and interact dynamically with organizational environments. Existing AI ethics literature has primarily emphasized issues such as fairness, bias, transparency, and accountability …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "q": "Q4",
+      "sjr": 0.21,
+      "qcat": "Business, Management and Accounting (miscellaneous)"
+    },
+    {
+      "title": "Making Generative AI Workable at Work: Accountability, Localization, and Representation in Kenyan and Nigerian Small Businesses",
+      "url": "https://arxiv.org/pdf/2610.31344",
+      "authors": "NG Abdulhamid, S Nyairo, L Ankrah, J O'Neill - arXiv preprint arXiv:2610.31344, 2026",
+      "snippet": "Generative AI is widely framed as democratizing skilled work by lowering the barrier to producing professional output. Drawing on 21 semi-structured interviews with 27 workers across 21 small and medium-sized businesses (SMBs) in Kenya and Nigeria (July to October 2023), we find that availability alone did not make participation workable. In participants' accounts, drafting was rarely the hard part. The consequential work was making AI-assisted drafts defensible enough to …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "nr": "na"
+    },
+    {
+      "title": "Exploring spatial configuration and group familiarity when co-watching 360-degree stories in social virtual reality",
+      "url": "https://arxiv.org/pdf/2610.30353",
+      "authors": "P Wang, M Santoso, Y Tao, J Bailenson - arXiv preprint arXiv:2610.30353, 2026",
+      "snippet": "While traditional cinematic viewing is often characterized as a social experience, engaging with immersive stories is predominantly researched as an individual activity. This mismatch becomes increasingly problematic in social virtual reality (VR), where features designed for typical social activities (eg, virtual locomotion, spatial and social context) can become meaningful levers for shaping the user experience. To address our limited understanding of these effects, we conducted …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-27",
+      "nr": "na"
+    },
+    {
+      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+      "url": "https://arxiv.org/pdf/2610.31576",
+      "authors": "J Sakurai, X Xu, J Yoon - arXiv preprint arXiv:2610.31576, 2026",
+      "snippet": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised policies as distilling a decoding procedure through a teacher and examine independently what the teacher labels as committable, on which states the policy imitates it, what the policy observes, and how …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-27",
+      "nr": "na"
+    },
+    {
+      "title": "Genetic Biosensors for High-Throughput Biomedical Applications: Challenges and Advances",
+      "url": "https://pubs.acs.org/ascefj/article-abstract/doi/10.1021/acssensors.6c00720/5455730",
+      "authors": "A Ahvaraki, M Teimouri, Z Shirvani-Farsani, K Omidfar - ACS sensors, 2026",
+      "snippet": "Genetic biosensors represent a particularly promising class of bioengineered instruments designed to enable accurate, real-time monitoring of cellular and molecular processes, with especially strong relevance to high-throughput biomedical workflows. In this review, we provide a systematic, clearly structured overview of the field, covering the fundamental design principles that form the basis of today's platforms. We focus in particular on DNA-based, RNA-based, and CRISPR-based …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-27",
+      "q": "Q1",
+      "sjr": 1.73,
+      "qcat": "Bioengineering"
+    },
     {
       "title": "Coherent Generative Agentic AI Enabled 6G/7G Networking",
       "url": "https://www.mdpi.com/1999-5903/18/10/576/pdf",
@@ -299,136 +429,6 @@
       "q": "Q1",
       "sjr": 1.18,
       "qcat": "Food Science"
-    },
-    {
-      "title": "Intermittent electrical stimulation as a selective enrichment strategy for electrotrophic methanogens in CO2-to-CH4 microbial electrosynthesis",
-      "url": "https://pubs.rsc.org/gc/article/doi/10.1039/d6gc02785g/1372046",
-      "authors": "M Kim, S Li, E Kim, DS Kong, C Im, YE Song, G Kyazze… - Green Chemistry",
-      "snippet": "Biogas derived from anaerobic digestion (AD) has emerged as a compelling renewable energy carrier with carbon-neutral characteristics, but the high CO 2 content and low calorific value in raw biogas lower the energy density of the fuel and limit its direct connection to natural gas pipelines. Microbial electrosynthesis (MES) offers an electrochemically driven pathway for recycling endogenous CO 2 into CH 4, thereby enhancing the energetic value and the economic viability of AD systems. The …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-24",
-      "q": "Q1",
-      "sjr": 1.81,
-      "qcat": "Environmental Chemistry"
-    },
-    {
-      "title": "Vibration-Based Estimation of Wheel-Rail Contact Forces Using an Extended Kalman Filter for Wheel Condition Monitoring",
-      "url": "https://link.springer.com/article/10.1007/s42417-026-02829-6",
-      "authors": "RA Saheed, J Clementson, UH Diala, P Wood - Journal of Vibration Engineering & …, 2026",
-      "snippet": "Purpose This study aims to develop a vibration-based inverse approach for estimating wheel-rail contact forces from axle acceleration measurements, addressing challenges associated with nonlinear contact behaviour, variable operating speeds, and stochastic track irregularities. Methods A reduced-order vertical vehicle-track interaction model is developed to represent the dynamics of the wheelset, rail, and supporting track structure. An Extended Kalman Filter (EKF) …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-24",
-      "q": "Q1",
-      "sjr": 0.56,
-      "qcat": "Acoustics and Ultrasonics"
-    },
-    {
-      "title": "Development and validation of an on-road sampling system for brake wear particles using a wheelhouse enclosure and clean-air supply",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0043164826006095",
-      "authors": "SJ Hwang, YJ Kim, KR Lee, GB Sung, IH An, SS Chung… - Wear, 2026",
-      "snippet": "Exhaust emissions from road vehicles have been reduced through advanced engine and after-treatment technologies and stricter emission regulations. However, non-exhaust emissions from brake wear, tire wear, and resuspended road dust have become increasingly important. With Euro 7 expected to introduce limits on non-exhaust particles, technologies for monitoring and reducing brake wear particles (BWPs) during on-road driving are needed. Although BWPs have been investigated …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-24",
-      "q": "Q1",
-      "sjr": 1.3,
-      "qcat": "Condensed Matter Physics"
-    },
-    {
-      "title": "Enhanced Flow Boiling Performance in Interconnected Microchannels",
-      "url": "https://www.avestia.com/ICEHT2026_Proceedings/files/paper/ICEHT_128.pdf",
-      "authors": "L Xu, G Xia",
-      "snippet": "With the explosive growth in the demand for computer power in Big Data Era, traditional thermal management technologies can't satisfy the heat dissipation need of high-power consumption chip, which has restricted the full release of the chip's computing power [1]. The data centers are under tremendous pressure from energy consumption meanwhile, which all both promote the development of liquid cooling technologies [2]. Microchannel heat sink (MCHS) is in line with the trend of the …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-24",
-      "nr": "na"
-    },
-    {
-      "title": "Neither Over-nor Under-Constrained: Evaluating LLM Personalization under a Constraint Qualification Audit",
-      "url": "https://arxiv.org/pdf/2610.25676",
-      "authors": "X Li, G Zhang, I Razzak, H Hacid, E Kafeza, H Xue… - arXiv preprint arXiv …, 2026",
-      "snippet": "Accurate evaluation of LLM personalization is hindered by current evaluation paradigms that over-or under-constrain the response space, yielding frequent false rejections and false acceptances. To reduce these false rates, we introduce ConQual …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-24",
-      "nr": "na"
-    },
-    {
-      "title": "Multi-agent-driven blue finance governance for China-ASEAN ocean sustainability under climate change",
-      "url": "https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2026.1987642/pdf",
-      "authors": "J Chen, Q Li - Frontiers in Marine Science, 2026",
-      "snippet": "Introduction This study examines policy coordination and implementation pathways for China-ASEAN blue finance governance under climate change. It defines blue finance not merely as financing for marine projects, but as a governance-oriented financial mechanism that shapes ocean sustainability through activity classification, risk pricing, use-of-proceeds constraints, disclosure, monitoring, reporting and verification (MRV), and cross-border coordination. Methods Using a design-science …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "q": "Q1",
-      "sjr": 0.96,
-      "qcat": "Aquatic Science"
-    },
-    {
-      "title": "Cross-Centaur: Modeling Individual Decision-Making Across Psychological Tasks with Language Models",
-      "url": "https://arxiv.org/pdf/2610.23157",
-      "authors": "H Asano, H Suganuma, R Mori, Y Baba - arXiv preprint arXiv:2610.23157, 2026",
-      "snippet": "Large language models (LLMs) are increasingly used as computational models of human behavior. Recent models such as Centaur have advanced this goal by fine-tuning LLMs on trial-by-trial decisions from psychological experiments. However, existing large-scale behavioral datasets do not link the same participants across different tasks, so these models learn population-level regularities but are not trained to model individual-level regularities across tasks. We introduce Cross-Psych-101, a …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "A comparison of classifier robustness on the PCAM dataset",
-      "url": "https://link.springer.com/article/10.1007/s10710-026-09547-8",
-      "authors": "S Treillard, C De La Torre, C Franchet, H Luga… - Genetic Programming and …, 2026",
-      "snippet": "Deep Learning (DL) models, despite high accuracy, often degrade under domain shifts and image perturbations. This has frequently been observed in histopathology, where differences in slide preparation protocols may result in dramatically different tissue aspects, independently from any underlying biological phenomena. Some solutions, such as Lipschitz-constrained networks, offer formal robustness guarantees at the cost of added complexity. Others, such as foundation models, rely …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "q": "Q2",
-      "sjr": 0.7,
-      "qcat": "Medicine (miscellaneous)"
-    },
-    {
-      "title": "Who Do Perspectivist Models Predict Well? Annotator Agreement, Sparsity, and Performance",
-      "url": "https://arxiv.org/pdf/2610.22567",
-      "authors": "L Lowmanstone IV, V Sivakumar, A Samaddar… - arXiv preprint arXiv …, 2026",
-      "snippet": "Successful completion of perspectivist natural language processing (NLP) annotation tasks requires algorithms to be aligned across diverse perspectives in order to predict how different humans will rate text. This work studies how the performance of such algorithms varies for annotators who behave differently than others, either by providing annotations that diverge from others' responses or by providing fewer annotations altogether. To aid with characterizing model …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "Same Person, Different Advice: Auditing LLM Financial Advice with Repeated Risk-Tolerance Responses",
-      "url": "https://arxiv.org/pdf/2610.23060",
-      "authors": "S Bakshi, A Bose, A Bose, S Nandi - arXiv preprint arXiv:2610.23060, 2026",
-      "snippet": "AI financial advisers set a client's stock allocation largely from one stated-risk question, yet people do not answer it the same way twice: in a national US panel, 41% of households chose a different answer two years later, and in a laboratory retest a third of people moved two or more points on a 0-10 scale after six months. Seven large language models from five providers gave one-turn allocation advice for 800 real household profiles in which only the risk answer changed. The …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "Promoción y prevención mediante afiches generados por Inteligencia Artificial:¿ Aliada de Una Sola Salud?",
-      "url": "https://revinformatica.sld.cu/index.php/rcim/article/view/874",
-      "authors": "CJP Pérez, AMB Medina, DMR Veloz, FP Moya - Revista Cubana de Informática …, 2026",
-      "snippet": "Introducción: Las evidencias indican que pocos estudios han explorado las capacidades del uso de la inteligencia artificial generativa en función de la promoción de salud y prevención de enfermedades en el contexto del enfoque Una Sola Salud. Objetivo: Evaluar las capacidades y viabilidad económica de los modelos de generación de texto e imágenes disponibles en Microsoft Copilot, para crear afiches de promoción y prevención para el enfoque una sola Salud. Método …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "nr": "na"
-    },
-    {
-      "title": "Can multimodal large language models evaluate AI-generated industrial design images? an empirical comparison with human expert assessment",
-      "url": "https://www.spiedigitallibrary.org/proceedings/Download?urlId=10.1117%2F12.3132247",
-      "authors": "Z Liu, J Xie, P Li, X Pang, S Jiang - Proc. of SPIE Vol, 2026",
-      "snippet": "ABSTRACT Text-to-image (T2I) generation models are increasingly used in industrial design, but assessing the quality of their outputs still depends on slow, small-scale human expert review, which constrains the automation advantage of generative AI and hinders its adoption in this domain. This paper empirically examines whether multimodal large language models (MLLMs) can substitute for design experts in evaluating AI-generated product design images. We construct a …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-23",
-      "nr": "na"
     }
   ]
 }
