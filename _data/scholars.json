@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -12,7 +12,7 @@
           "year": "2011",
           "venue": "Proceedings of the National Academy of Sciences 108 (1), 18-23, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
-          "cites": 309,
+          "cites": 310,
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
@@ -117,6 +117,17 @@
           "qcat": "Business and International Management"
         },
         {
+          "title": "Stakeholders' resistance to telemedicine with focus on physicians: utilizing the Delphi technique",
+          "authors": "WS Choi, J Park, JYB Choi, JS Yang",
+          "year": "2019",
+          "venue": "Journal of Telemedicine and Telecare 25 (6), 378-385, 2019",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:wBLCggQE-ToC",
+          "cites": 61,
+          "q": "Q1",
+          "sjr": 1.38,
+          "qcat": "Health Informatics"
+        },
+        {
           "title": "Increasing market efficiency in the stock markets",
           "authors": "JS Yang, W Kwak, T Kaizoji, I Kim",
           "year": "2008",
@@ -124,17 +135,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:wGzT3bKASkAC",
           "cites": 61,
           "nr": "na"
-        },
-        {
-          "title": "Stakeholders' resistance to telemedicine with focus on physicians: utilizing the Delphi technique",
-          "authors": "WS Choi, J Park, JYB Choi, JS Yang",
-          "year": "2019",
-          "venue": "Journal of Telemedicine and Telecare 25 (6), 378-385, 2019",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:wBLCggQE-ToC",
-          "cites": 60,
-          "q": "Q1",
-          "sjr": 1.38,
-          "qcat": "Health Informatics"
         },
         {
           "title": "Existence of an upper critical dimension in the majority voter model",

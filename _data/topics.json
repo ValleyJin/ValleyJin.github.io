@@ -538,45 +538,7 @@
     {
       "topic": "NeurIPS",
       "query": "s2:NeurIPS",
-      "papers": [
-        {
-          "title": "Computational Complexity of Learning Neural Networks: Smoothness and Degeneracy",
-          "authors": "Daniely, A., Srebro, N., & Vardi, G.",
-          "year": 2023,
-          "venue": "Neural Information Processing Systems",
-          "url": "https://doi.org/10.52202/075280-3334",
-          "cites": 11,
-          "crank": "A*"
-        },
-        {
-          "title": "Inferring stochastic dynamics with growth from cross-sectional data",
-          "authors": "Zhang, S., Maddu, S., Qiu, X., & Chardès, V.",
-          "year": 2025,
-          "venue": "Neural Information Processing Systems",
-          "url": "https://doi.org/10.48550/arXiv.2505.13197",
-          "cites": 5,
-          "crank": "A*"
-        },
-        {
-          "title": "Information-theoretic Generalization Analysis for Expected Calibration Error",
-          "authors": "Futami, F., & Fujisawa, M.",
-          "year": 2024,
-          "venue": "Neural Information Processing Systems",
-          "url": "https://doi.org/10.48550/arXiv.2405.15709",
-          "cites": 23,
-          "crank": "A*"
-        },
-        {
-          "title": "GREAT Score: Global Robustness Evaluation of Adversarial Perturbation using Generative Models",
-          "authors": "Li, Z., Chen, P., & Ho, T.",
-          "year": 2023,
-          "venue": "Neural Information Processing Systems",
-          "url": "https://doi.org/10.48550/arXiv.2304.09875",
-          "cites": 9,
-          "crank": "A*"
-        }
-      ],
-      "count": 13700
+      "papers": []
     },
     {
       "topic": "ICML",
