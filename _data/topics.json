@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -54,7 +54,7 @@
           "nr": "na"
         }
       ],
-      "count": 11096
+      "count": 11178
     },
     {
       "topic": "gABM",
@@ -110,7 +110,7 @@
           "qcat": "Computational Mathematics"
         }
       ],
-      "count": 58100
+      "count": 58496
     },
     {
       "topic": "Graph database",
@@ -162,7 +162,7 @@
           "qcat": "Electrical and Electronic Engineering"
         }
       ],
-      "count": 125205
+      "count": 125750
     },
     {
       "topic": "Memory in Agentic AI",
@@ -206,7 +206,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 74433
+      "count": 74781
     },
     {
       "topic": "LLM inference serving",
@@ -250,17 +250,19 @@
           "qcat": "Computer Networks and Communications"
         },
         {
-          "title": "Fine-grained token scheduling for efficient pipeline parallel LLM inference serving",
-          "authors": "Kavallaris, C.",
+          "title": "GoodServe: A SLO-Aware Scheduling Framework for Improving Goodput in LLM Inference Serving",
+          "authors": "Zhao, D., Xian, C., Zong, Z., Jin, Y., Zeng, H., Zhou, J., et al.",
           "year": 2026,
-          "venue": "DSpace - NTUA (National Technical University of Athens)",
-          "url": "https://doi.org/10.26240/heal.ntua.32889",
+          "venue": "IEEE Transactions on Services Computing",
+          "url": "https://doi.org/10.1109/tsc.2026.3732701",
           "cites": 0,
           "fwci": 0.0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.6,
+          "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 7237
+      "count": 7272
     },
     {
       "topic": "Ethereum Layer-2",
@@ -312,7 +314,7 @@
           "nr": "na"
         }
       ],
-      "count": 603
+      "count": 609
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -364,7 +366,7 @@
           "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 48129
+      "count": 48299
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -423,7 +425,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 211645
+      "count": 212442
     },
     {
       "topic": "Ontology",
@@ -472,7 +474,7 @@
           "nr": "na"
         }
       ],
-      "count": 26641
+      "count": 26745
     },
     {
       "topic": "AI governance",
@@ -531,7 +533,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 113951
+      "count": 114794
     },
     {
       "topic": "NeurIPS",
@@ -711,7 +713,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 7362
+      "count": 7363
     },
     {
       "topic": "AAAI",
@@ -754,7 +756,7 @@
           "crank": "A*"
         }
       ],
-      "count": 12323
+      "count": 12321
     },
     {
       "topic": "IJCAI",
@@ -888,7 +890,45 @@
     {
       "topic": "ICCV",
       "query": "s2:ICCV",
-      "papers": []
+      "papers": [
+        {
+          "title": "On the Complexity-Faithfulness Trade-Off of Gradient-Based Explanations",
+          "authors": "Mehrpanah, A., Gamba, M., Smith, K. A., & Azizpour, H.",
+          "year": 2025,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51701.2025.00337",
+          "cites": 2,
+          "crank": "A*"
+        },
+        {
+          "title": "Computationally-Efficient Neural Image Compression with Shallow Decoders",
+          "authors": "Yang, Y., & Mandt, S.",
+          "year": 2023,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51070.2023.00055",
+          "cites": 54,
+          "crank": "A*"
+        },
+        {
+          "title": "Generalized Few-Shot Point Cloud Segmentation Via Geometric Words",
+          "authors": "Xu, Y., Hu, C., Zhao, N., & Lee, G. H.",
+          "year": 2023,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51070.2023.01966",
+          "cites": 22,
+          "crank": "A*"
+        },
+        {
+          "title": "OVA-Fields: Weakly Supervised Open-Vocabulary Affordance Fields for Robot Operational Part Detection",
+          "authors": "Su, H., Xie, M., Cao, N., Ding, Y., Shao, B., Long, X., et al.",
+          "year": 2025,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51701.2025.00602",
+          "cites": 7,
+          "crank": "A*"
+        }
+      ],
+      "count": 4627
     },
     {
       "topic": "ECCV",
@@ -1078,8 +1118,8 @@
           "year": 2024,
           "venue": "Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.artint.2024.104244",
-          "cites": 100,
-          "fwci": 39.53,
+          "cites": 101,
+          "fwci": 39.92,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.29,
@@ -1092,7 +1132,7 @@
           "venue": "Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.artint.2024.104129",
           "cites": 79,
-          "fwci": 11.68,
+          "fwci": 11.5,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.29,
@@ -1137,8 +1177,8 @@
           "year": 2024,
           "venue": "Journal of Artificial Intelligence Research",
           "url": "https://doi.org/10.1613/jair.1.15348",
-          "cites": 159,
-          "fwci": 23.34,
+          "cites": 160,
+          "fwci": 23.3,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.11,
@@ -1236,14 +1276,14 @@
           "venue": "Futures",
           "url": "https://doi.org/10.1016/j.futures.2025.103607",
           "cites": 53,
-          "fwci": 92.13,
+          "fwci": 92.04,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.43,
           "qcat": "Business and International Management"
         }
       ],
-      "count": 432
+      "count": 431
     },
     {
       "topic": "TFSC",
@@ -1432,8 +1472,8 @@
           "year": 2024,
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12548",
-          "cites": 580,
-          "fwci": 187.42,
+          "cites": 581,
+          "fwci": 187.64,
           "pct": 1,
           "q": "Q1",
           "sjr": 9.77,
@@ -1472,7 +1512,7 @@
           "venue": "Journal of Accounting Research",
           "url": "https://doi.org/10.1111/1475-679x.12553",
           "cites": 71,
-          "fwci": 18.21,
+          "fwci": 17.92,
           "pct": 1,
           "q": "Q1",
           "sjr": 9.77,
@@ -1762,7 +1802,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 695
+      "count": 694
     },
     {
       "topic": "SMJ",
@@ -1774,8 +1814,8 @@
           "year": 2024,
           "venue": "Strategic Management Journal",
           "url": "https://doi.org/10.1002/smj.3677",
-          "cites": 225,
-          "fwci": 32.95,
+          "cites": 227,
+          "fwci": 33.05,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.15,
@@ -1892,8 +1932,8 @@
           "year": 2023,
           "venue": "Academy of Management Journal",
           "url": "https://doi.org/10.5465/amj.2023.4006",
-          "cites": 178,
-          "fwci": 42.87,
+          "cites": 179,
+          "fwci": 43.01,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.78,
@@ -1998,7 +2038,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 97
+      "count": 98
     },
     {
       "topic": "HumRel",
@@ -2175,7 +2215,7 @@
           "qcat": "Finance"
         }
       ],
-      "count": 279
+      "count": 276
     },
     {
       "topic": "OrgSci",
@@ -2187,8 +2227,8 @@
           "year": 2024,
           "venue": "Organization Science",
           "url": "https://doi.org/10.1287/orsc.2023.18430",
-          "cites": 338,
-          "fwci": 44.35,
+          "cites": 341,
+          "fwci": 44.54,
           "pct": 1,
           "q": "Q1",
           "sjr": 7.93,
@@ -2259,8 +2299,8 @@
           "year": 2024,
           "venue": "Management Science",
           "url": "https://doi.org/10.1287/mnsc.2023.03014",
-          "cites": 199,
-          "fwci": 28.33,
+          "cites": 200,
+          "fwci": 28.25,
           "pct": 1,
           "q": "Q1",
           "sjr": 6.43,
@@ -2293,7 +2333,7 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 1293
+      "count": 1290
     },
     {
       "topic": "JMS",
@@ -2352,7 +2392,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 378
+      "count": 379
     },
     {
       "topic": "OrgStud",
@@ -2411,7 +2451,7 @@
           "qcat": "Management of Technology and Innovation"
         }
       ],
-      "count": 231
+      "count": 228
     },
     {
       "topic": "HRM",
@@ -2450,7 +2490,7 @@
           "venue": "Human Resource Management",
           "url": "https://doi.org/10.1002/hrm.22268",
           "cites": 86,
-          "fwci": 43.08,
+          "fwci": 42.87,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.6,
@@ -2745,7 +2785,7 @@
           "venue": "European Accounting Review",
           "url": "https://doi.org/10.1080/09638180.2023.2298433",
           "cites": 19,
-          "fwci": 14.21,
+          "fwci": 13.94,
           "pct": 10,
           "q": "Q1",
           "sjr": 2.27,
@@ -2922,7 +2962,7 @@
           "venue": "Sustainability Accounting Management and Policy Journal",
           "url": "https://doi.org/10.1108/sampj-09-2023-0639",
           "cites": 58,
-          "fwci": 27.24,
+          "fwci": 26.73,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.81,
@@ -3026,8 +3066,8 @@
           "year": 2025,
           "venue": "The British Accounting Review",
           "url": "https://doi.org/10.1016/j.bar.2025.101551",
-          "cites": 67,
-          "fwci": 33.13,
+          "cites": 69,
+          "fwci": 33.95,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.71,
@@ -3178,7 +3218,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 257
+      "count": 258
     }
   ]
 }
