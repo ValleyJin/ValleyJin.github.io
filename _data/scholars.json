@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26",
+  "generated": "2026-10-27",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -12,7 +12,7 @@
           "year": "2011",
           "venue": "Proceedings of the National Academy of Sciences 108 (1), 18-23, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
-          "cites": 310,
+          "cites": 311,
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
@@ -245,6 +245,15 @@
           "nr": "na"
         },
         {
+          "title": "Do older workers really reduce firm productivity?",
+          "authors": "B Lee, J Park, JS Yang",
+          "year": "2018",
+          "venue": "The Economic and Labour Relations Review 29 (4), 521-542, 2018",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:8RAEygVn5_EC",
+          "cites": 31,
+          "nr": "na"
+        },
+        {
           "title": "Network Structure Reveals Patterns of Legal Complexity in Human Society: The Case of the Constitutional Legal Network",
           "authors": "B Lee, KM Lee, JS Yang",
           "year": "2019",
@@ -254,15 +263,6 @@
           "q": "Q1",
           "sjr": 0.73,
           "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Do older workers really reduce firm productivity?",
-          "authors": "B Lee, J Park, JS Yang",
-          "year": "2018",
-          "venue": "The Economic and Labour Relations Review 29 (4), 521-542, 2018",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:8RAEygVn5_EC",
-          "cites": 30,
-          "nr": "na"
         },
         {
           "title": "Machine learning models based on bubble analysis for Bitcoin market crash prediction",
@@ -1712,7 +1712,7 @@
           "year": "2007",
           "venue": "International journal of pharmaceutics 341 (1-2), 97-104, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:7H_jS4BsgvYC",
-          "cites": 92,
+          "cites": 91,
           "q": "Q1",
           "sjr": 0.98,
           "qcat": "Pharmaceutical Science"
@@ -1740,6 +1740,15 @@
           "qcat": "Multidisciplinary"
         },
         {
+          "title": "PlanRAG: A plan-then-retrieval augmented generation for generative large language models as decision makers",
+          "authors": "M Lee, S An, MS Kim",
+          "year": "2024",
+          "venue": "Proceedings of the 2024 Conference of the North American Chapter of the …, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4Yq6kJLCcecC",
+          "cites": 83,
+          "nr": "na"
+        },
+        {
           "title": "GTS: A fast and scalable graph processing method based on streaming topology to GPUs",
           "authors": "MS Kim, K An, H Park, H Seo, J Kim",
           "year": "2016",
@@ -1747,15 +1756,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:IjCSPb-OGe4C",
           "cites": 83,
           "crank": "A*"
-        },
-        {
-          "title": "PlanRAG: A plan-then-retrieval augmented generation for generative large language models as decision makers",
-          "authors": "M Lee, S An, MS Kim",
-          "year": "2024",
-          "venue": "Proceedings of the 2024 Conference of the North American Chapter of the …, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4Yq6kJLCcecC",
-          "cites": 82,
-          "nr": "na"
         },
         {
           "title": "Olfactory receptor Olfr544 responding to azelaic acid regulates glucagon secretion in α-cells of mouse pancreatic islets",
@@ -1831,6 +1831,17 @@
           "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
+          "title": "Electrode-attached cell-driven biogas upgrading of anaerobic digestion effluent CO2 to CH4 using a microbial electrosynthesis cell",
+          "authors": "M Kim, S Li, YE Song, DY Lee, JR Kim",
+          "year": "2022",
+          "venue": "Chemical Engineering Journal 446, 137079, 2022",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:G1UMdFYMoxkC",
+          "cites": 56,
+          "q": "Q1",
+          "sjr": 2.26,
+          "qcat": "Chemical Engineering (miscellaneous)"
+        },
+        {
           "title": "Hippocampus-dependent cognitive enhancement induced by systemic gintonin administration",
           "authors": "S Kim, MS Kim, K Park, HJ Kim, SW Jung, SY Nah, JS Han, CH Chung",
           "year": "2016",
@@ -1849,17 +1860,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:eQOLeE2rZwMC",
           "cites": 56,
           "nr": "na"
-        },
-        {
-          "title": "Electrode-attached cell-driven biogas upgrading of anaerobic digestion effluent CO2 to CH4 using a microbial electrosynthesis cell",
-          "authors": "M Kim, S Li, YE Song, DY Lee, JR Kim",
-          "year": "2022",
-          "venue": "Chemical Engineering Journal 446, 137079, 2022",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:G1UMdFYMoxkC",
-          "cites": 55,
-          "q": "Q1",
-          "sjr": 2.26,
-          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Photoautotrophic hydrogen production of Rhodobacter sphaeroides in a microbial electrosynthesis cell",
@@ -2236,6 +2236,15 @@
           "nr": "na"
         },
         {
+          "title": "Mobilerag: A fast, memory-efficient, and energy-efficient method for on-device rag",
+          "authors": "T Park, G Lee, MS Kim",
+          "year": "2025",
+          "venue": "arXiv preprint arXiv:2507.01079, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
+          "cites": 28,
+          "nr": "na"
+        },
+        {
           "title": "Aluminum space frame BIW optimization considering multidisciplinary design constraints",
           "authors": "BJ Kim, MS Kim, SJ Heo",
           "year": "2005",
@@ -2245,15 +2254,6 @@
           "q": "Q2",
           "sjr": 0.43,
           "qcat": "Automotive Engineering"
-        },
-        {
-          "title": "Mobilerag: A fast, memory-efficient, and energy-efficient method for on-device rag",
-          "authors": "T Park, G Lee, MS Kim",
-          "year": "2025",
-          "venue": "arXiv preprint arXiv:2507.01079, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
-          "cites": 27,
-          "nr": "na"
         },
         {
           "title": "Chronicle: A two-stage density-based clustering algorithm for dynamic networks",
@@ -2704,6 +2704,17 @@
           "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
+          "title": "Potential use of adult bovine serum obtained during the slaughtering process as a biological reagent",
+          "authors": "JE Yu, M Kim, S Pokharel, J Kim, I Choi, NH Choe, SS Nahm",
+          "year": "2013",
+          "venue": "Animal Cells and Systems 17 (2), 106-112, 2013",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wvYxNZNCP7wC",
+          "cites": 14,
+          "q": "Q1",
+          "sjr": 0.81,
+          "qcat": "Animal Science and Zoology"
+        },
+        {
           "title": "Tightly-coupled spatial database features in the Odysseus/OpenGIS DBMS for high-performance",
           "authors": "KY Whang, JG Lee, MS Kim, MJ Lee, KH Lee, WS Han, JS Kim",
           "year": "2010",
@@ -2848,17 +2859,6 @@
           "q": "Q1",
           "sjr": 0.91,
           "qcat": "Medicine (miscellaneous)"
-        },
-        {
-          "title": "Potential use of adult bovine serum obtained during the slaughtering process as a biological reagent",
-          "authors": "JE Yu, M Kim, S Pokharel, J Kim, I Choi, NH Choe, SS Nahm",
-          "year": "2013",
-          "venue": "Animal Cells and Systems 17 (2), 106-112, 2013",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wvYxNZNCP7wC",
-          "cites": 12,
-          "q": "Q1",
-          "sjr": 0.81,
-          "qcat": "Animal Science and Zoology"
         },
         {
           "title": "Linear-time top-k sort method",
@@ -3477,6 +3477,15 @@
           "nr": "na"
         },
         {
+          "title": "Train control simulator design for korean radio-based train control system",
+          "authors": "S Oh, M Kim, K Lee, Y Kim",
+          "year": "2013",
+          "venue": "2013 International Conference on Electrical Machines and Systems (ICEMS …, 2013",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:zdjWy_NXXwUC",
+          "cites": 5,
+          "nr": "na"
+        },
+        {
           "title": "Vegetable oil aided hydrothermal synthesis of cerium oxide nanocrystals",
           "authors": "M Kim, H Lee, YH Shin, KH Ahn, YS Youn, J Kim, YW Lee",
           "year": "2012",
@@ -3597,7 +3606,7 @@
           "authors": "Y Lee, M Kim, J Ahn, J Park",
           "year": "2023",
           "venue": "Sensors 23 (18), 7947, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kUhpeDhEZMUC",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kUhpeDhEZMUC",
           "cites": 4,
           "q": "Q1",
           "sjr": 0.8,
@@ -3660,15 +3669,6 @@
           "q": "Q1",
           "sjr": 1.01,
           "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Train control simulator design for korean radio-based train control system",
-          "authors": "S Oh, M Kim, K Lee, Y Kim",
-          "year": "2013",
-          "venue": "2013 International Conference on Electrical Machines and Systems (ICEMS …, 2013",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:zdjWy_NXXwUC",
-          "cites": 4,
-          "nr": "na"
         },
         {
           "title": "Towards exploiting gpus for fast pagerank computation of large-scale networks",
@@ -3863,6 +3863,15 @@
           "nr": "na"
         },
         {
+          "title": "System configuration of communication network for Korean radio-based train control system",
+          "authors": "S Oh, Y Yoon, M Kim, Y Kim",
+          "year": "2012",
+          "venue": "Proceedings of the Korean Society of Precision Engineering Conference, 989-990, 2012",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:TlpoogIpr_IC",
+          "cites": 3,
+          "nr": "na"
+        },
+        {
           "title": "Design of the Scaled Adhesion Tester for Analyzing the Adhesion Characteristic of Railway Vehicles",
           "authors": "M Kim, N Kim",
           "year": "2012",
@@ -3942,6 +3951,17 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:In6cVmBjs0IC",
           "cites": 2,
           "nr": "na"
+        },
+        {
+          "title": "TAGDN: type-aligning graph diffusion network for capturing long-range dependencies in heterogeneous graphs without over-squashing and over-smoothing",
+          "authors": "SJ Ahn, MS Kim, MH Kim",
+          "year": "2025",
+          "venue": "Neural Computing and Applications 37 (34), 28747-28777, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:EaFouW7jFu4C",
+          "cites": 2,
+          "q": "Q1",
+          "sjr": 1.07,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "SPATS: a practical system for comparative analysis of spatio-temporal graph neural networks",
@@ -4085,15 +4105,6 @@
           "nr": "na"
         },
         {
-          "title": "System configuration of communication network for Korean radio-based train control system",
-          "authors": "S Oh, Y Yoon, M Kim, Y Kim",
-          "year": "2012",
-          "venue": "Proceedings of the Korean Society of Precision Engineering Conference, 989-990, 2012",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:TlpoogIpr_IC",
-          "cites": 2,
-          "nr": "na"
-        },
-        {
           "title": "Analysis on the Test Results of Disc Brakes using the Brake Dynamometer for High-speed Trains",
           "authors": "MS Kim, JG Kim, BC Koo, NP Kim",
           "year": "2011",
@@ -4141,17 +4152,6 @@
           "q": "Q1",
           "sjr": 1.22,
           "qcat": "Computer Science Applications"
-        },
-        {
-          "title": "TAGDN: type-aligning graph diffusion network for capturing long-range dependencies in heterogeneous graphs without over-squashing and over-smoothing",
-          "authors": "SJ Ahn, MS Kim, MH Kim",
-          "year": "2025",
-          "venue": "Neural Computing and Applications 37 (34), 28747-28777, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:EaFouW7jFu4C",
-          "cites": 1,
-          "q": "Q1",
-          "sjr": 1.07,
-          "qcat": "Artificial Intelligence"
         },
         {
           "title": "GReX: A Graph Neural Network-Based Rerank-then-Expand Method for Detecting Conflicts Among Legal Articles in Korean Criminal Law",
@@ -4378,6 +4378,15 @@
           "nr": "na"
         },
         {
+          "title": "Study on the Door Control of the Korean Radio-based Train Control System",
+          "authors": "M KIM, YKI YOON, SEHC OH, YKYU KIM",
+          "year": "",
+          "venue": "",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:FiytvqdAVhgC",
+          "cites": 1,
+          "nr": "na"
+        },
+        {
           "title": "SafeQL: Search-based Refinement for Safe and Efficient LLM-based Text-to-SQL",
           "authors": "G Lee, MS Kim",
           "year": "2026",
@@ -4533,15 +4542,6 @@
           "year": "2024",
           "venue": "한국자동차공학회 추계학술대회 및 전시회, 2173-2182, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:rCNdntzdTkkC",
-          "cites": 0,
-          "nr": "na"
-        },
-        {
-          "title": "Distributed matrix computation control method and apparatus supporting matrix fused operation",
-          "authors": "MS Kim, HAN Donghyoung",
-          "year": "2024",
-          "venue": "US Patent App. 18/479,290, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:c_xDhezhKKUC",
           "cites": 0,
           "nr": "na"
         }
@@ -4718,7 +4718,7 @@
           "year": "2025",
           "venue": "Neural Computing and Applications 37 (34), 28747-28777, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:EaFouW7jFu4C",
-          "cites": 1,
+          "cites": 2,
           "q": "Q1",
           "sjr": 1.07,
           "qcat": "Artificial Intelligence"
@@ -4809,7 +4809,7 @@
           "year": "2025",
           "venue": "arXiv preprint arXiv:2507.01079, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
-          "cites": 27,
+          "cites": 28,
           "nr": "na"
         },
         {
@@ -4946,7 +4946,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14066,
+          "cites": 14081,
           "nr": "na"
         },
         {
@@ -4955,7 +4955,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9148,
+          "cites": 9233,
           "crank": "A*"
         },
         {
@@ -4964,7 +4964,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 849,
+          "cites": 852,
           "nr": "na"
         },
         {
@@ -4973,7 +4973,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 688,
+          "cites": 689,
           "crank": "A*"
         },
         {
@@ -4982,7 +4982,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 384,
+          "cites": 385,
           "crank": "A*"
         },
         {
@@ -5002,7 +5002,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 335,
+          "cites": 336,
           "crank": "A*"
         },
         {
@@ -5011,7 +5011,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 327,
+          "cites": 329,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5022,7 +5022,7 @@
           "year": "2023",
           "venue": "Transactions on Machine Learning Research (TMLR), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:M3ejUd6NZC8C",
-          "cites": 254,
+          "cites": 255,
           "q": "Q2",
           "sjr": 0.74,
           "qcat": "Artificial Intelligence"
@@ -5044,7 +5044,7 @@
           "year": "2020",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:d1gkVwhDpl0C",
-          "cites": 109,
+          "cites": 110,
           "crank": "A*"
         },
         {
@@ -5122,7 +5122,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 55,
+          "cites": 56,
           "crank": "A*"
         },
         {
@@ -5236,7 +5236,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 55,
+          "cites": 56,
           "crank": "A*"
         },
         {
@@ -5281,7 +5281,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 849,
+          "cites": 852,
           "nr": "na"
         },
         {
@@ -5299,7 +5299,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 335,
+          "cites": 336,
           "crank": "A*"
         },
         {
@@ -5317,7 +5317,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9148,
+          "cites": 9233,
           "crank": "A*"
         },
         {
@@ -5357,7 +5357,7 @@
           "year": "2023",
           "venue": "Transactions on Machine Learning Research (TMLR), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:M3ejUd6NZC8C",
-          "cites": 254,
+          "cites": 255,
           "q": "Q2",
           "sjr": 0.74,
           "qcat": "Artificial Intelligence"
@@ -5379,7 +5379,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 688,
+          "cites": 689,
           "crank": "A*"
         },
         {
@@ -5388,7 +5388,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 384,
+          "cites": 385,
           "crank": "A*"
         },
         {
@@ -5417,7 +5417,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 327,
+          "cites": 329,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5428,7 +5428,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14066,
+          "cites": 14081,
           "nr": "na"
         },
         {
@@ -5484,7 +5484,7 @@
           "year": "2020",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:d1gkVwhDpl0C",
-          "cites": 109,
+          "cites": 110,
           "crank": "A*"
         },
         {
