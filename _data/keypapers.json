@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26",
+  "generated": "2026-10-27",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -139,6 +139,34 @@
       ],
       "citing": [
         {
+          "title": "A Contextual Measure of Ambiguity in Prescriptive Text",
+          "authors": "S Dong, L Thorburn, A Konya, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.35461",
+          "cites": 0,
+          "pubdate": "2026-10-26",
+          "arxiv": "2610.35461",
+          "doi": null,
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
+          "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+          "authors": "X He, S Zhoubian, R Yang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.34073",
+          "cites": 0,
+          "pubdate": "2026-10-25",
+          "arxiv": "2610.34073",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
           "title": "Memory-Aware Reward Modeling: Learning Human Preferences for LLM Memory Use",
           "authors": "Y Dong, Z He, C Yu, et al.",
           "year": 2026,
@@ -150,6 +178,20 @@
           "doi": null,
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-10-23",
+          "nr": "na"
+        },
+        {
+          "title": "Model Organisms of Collusion: Corrective Transfer in Untrusted Monitors",
+          "authors": "J Rivera, A Spiesberger, J Vazquez, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.30582",
+          "cites": 0,
+          "pubdate": "2026-10-22",
+          "arxiv": "2610.30582",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
           "nr": "na"
         },
         {
@@ -223,6 +265,20 @@
           "nr": "na"
         },
         {
+          "title": "Compression Precedes, Content Decides: Emergent Misalignment in Reward Models",
+          "authors": "D Puri, N Prakash",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.22805",
+          "cites": 0,
+          "pubdate": "2026-10-16",
+          "arxiv": "2610.22805",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
           "title": "Memorilla: Latent Semantic Memory for LLMs",
           "authors": "A Fallahpour, P Idehpour, V Kothapalli, et al.",
           "year": 2026,
@@ -234,6 +290,20 @@
           "doi": null,
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-10-16",
+          "nr": "na"
+        },
+        {
+          "title": "ContextLift: Breaking the Spurious Correlation Behind Conditional Emergent Misalignment",
+          "authors": "F Mai, D Kaczér",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.21633",
+          "cites": 0,
+          "pubdate": "2026-10-15",
+          "arxiv": "2610.21633",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
           "nr": "na"
         },
         {
@@ -321,6 +391,34 @@
           "nr": "na"
         },
         {
+          "title": "An Investigation of Model Coherence: Narrow Finetunes Contradict Themselves Under Resampling",
+          "authors": "R Graham, Y Barsheshat, P Blandfort, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.12129",
+          "cites": 0,
+          "pubdate": "2026-10-08",
+          "arxiv": "2610.12129",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
+          "title": "The Persona Hierarchy Model: Understanding Contextual Generalization in Fine-Tuning LLMs",
+          "authors": "J Zhao, Z Wu, D Bau, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.09384",
+          "cites": 0,
+          "pubdate": "2026-10-07",
+          "arxiv": "2610.09384",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
           "title": "Socio-Foundation: A Model for Generalizable Individual Behavior Simulation via Hierarchical Capability Distillation",
           "authors": "L Wang, W Xie, X Mou, et al.",
           "year": 2026,
@@ -360,6 +458,48 @@
           "doi": null,
           "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
           "first_seen": "2026-10-06",
+          "nr": "na"
+        },
+        {
+          "title": "LLM Persona Unlearning",
+          "authors": "K Li, Z Shi, Q Wang, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.39882",
+          "cites": 0,
+          "pubdate": "2026-09-30",
+          "arxiv": "2609.39882",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
+          "title": "The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment",
+          "authors": "G Paulo, L Jaburi, N Belrose, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.37914",
+          "cites": 0,
+          "pubdate": "2026-09-29",
+          "arxiv": "2609.37914",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
+          "title": "Correct, Don't Delete: Mitigating Emergent Misalignment with Corrective Supervision",
+          "authors": "J Epifano",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.37624",
+          "cites": 0,
+          "pubdate": "2026-09-29",
+          "arxiv": "2609.37624",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
           "nr": "na"
         },
         {
@@ -416,6 +556,20 @@
           "doi": null,
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-30",
+          "nr": "na"
+        },
+        {
+          "title": "How Far Do Persona Effects Generalize in Language Models?",
+          "authors": "Y Zhou, Y Liu, E Ma, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.32758",
+          "cites": 0,
+          "pubdate": "2026-09-26",
+          "arxiv": "2609.32758",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
           "nr": "na"
         },
         {
@@ -503,6 +657,20 @@
           "nr": "na"
         },
         {
+          "title": "TAME: Token Attribution and Masking for Emergent misalignment",
+          "authors": "M Masud, M Parvez",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.16754",
+          "cites": 0,
+          "pubdate": "2026-09-15",
+          "arxiv": "2609.16754",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
           "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
           "authors": "Z Wang, Y Zhou, J Tang, et al.",
           "year": 2026,
@@ -529,180 +697,9 @@
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-25",
           "nr": "na"
-        },
-        {
-          "title": "HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization",
-          "authors": "J Shen, K Mao, M Shao, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.09835",
-          "cites": 0,
-          "pubdate": "2026-09-09",
-          "arxiv": "2609.09835",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations",
-          "authors": "J Zheng, P Lai, S Cheng, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.09778",
-          "cites": 0,
-          "pubdate": "2026-09-09",
-          "arxiv": "2609.09778",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "Total Simulated Survey Error: Designing and Diagnosing Survey Responses from Large Language Models",
-          "authors": "I Sen, G Ahnert, L Heyde, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.10280",
-          "cites": 0,
-          "pubdate": "2026-09-09",
-          "arxiv": "2609.10280",
-          "doi": null,
-          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "Personalizing LLM Agent Memory Using Biometrics",
-          "authors": "Y Qian, Q Meng, S Ding, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.08558",
-          "cites": 0,
-          "pubdate": "2026-09-08",
-          "arxiv": "2609.08558",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation",
-          "authors": "D Nguyen, Z Qiu, S Chen, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.08599",
-          "cites": 0,
-          "pubdate": "2026-09-08",
-          "arxiv": "2609.08599",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "When Users Don't Ask: Benchmarking Context-Driven Memory Retrieval in Conversational Agents",
-          "authors": "W Chang, Y Chen",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.03467",
-          "cites": 0,
-          "pubdate": "2026-09-03",
-          "arxiv": "2609.03467",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "Inferring Hidden User Models from the Behavior of Personalized LLM Agents",
-          "authors": "H Li, Y Xiao, Q Ye, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.03815",
-          "cites": 0,
-          "pubdate": "2026-09-03",
-          "arxiv": "2609.03815",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "VoiceLongMemEval: Do Assistants Remember How You Sounded?",
-          "authors": "R Pahwa, P Priye, A Beedu",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.00570",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": "2609.00570",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "VIBE-Bench: Evaluating Personalized Large Language Models When Profiles Don't Mean Preferences",
-          "authors": "Y Jiang, Y Deng, S Fong, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.00921",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": "2609.00921",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "Investigating Assistant Bias in LLM User Simulators Using a Role Vector",
-          "authors": "D Jeong, Y Lee, E Choi, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.00608",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": "2609.00608",
-          "doi": null,
-          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "Who fights best? Discovering winning personality pairings for LLM debate agents",
-          "authors": "J Wang, K Liu, L Xiang, et al.",
-          "year": 2026,
-          "venue": "Pattern Recognition",
-          "url": "https://doi.org/10.1016/j.patcog.2026.114990",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": null,
-          "doi": "10.1016/j.patcog.2026.114990",
-          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
-          "first_seen": "2026-10-26",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 2.15,
-          "qcat": "Artificial Intelligence"
-        },
-        {
-          "title": "FocusGen: Expanding Visual Design Exploration with a Simulated Focus Group of Persona Agents",
-          "authors": "J Choi, H Vasconcelos, H Lee, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.28001",
-          "cites": 0,
-          "pubdate": "2026-08-28",
-          "arxiv": "2608.28001",
-          "doi": null,
-          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
-          "first_seen": "2026-10-26",
-          "nr": "na"
         }
       ],
-      "n_citing": 298,
+      "n_citing": 384,
       "query": "persona generation"
     },
     "gABM": {
@@ -727,7 +724,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2312.03664",
-          "cites": 14,
+          "cites": 15,
           "key": true,
           "nr": "na"
         },
@@ -992,6 +989,20 @@
           "nr": "na"
         },
         {
+          "title": "The Butterfly Effect in LLM Social Simulations: From Architecture Sensitivity to Robustness Audits",
+          "authors": "J Ye, L Cao, D Chen, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.28981",
+          "cites": 0,
+          "pubdate": "2026-10-20",
+          "arxiv": "2610.28981",
+          "doi": null,
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
           "title": "Synthetic Transit Trip-Record Generation Using Deep Generative Models for Travel Demand Modeling",
           "authors": "P Jha, R Jaiswal, R Yadav, et al.",
           "year": 2026,
@@ -1051,6 +1062,20 @@
           "nr": "na"
         },
         {
+          "title": "From Caricature to Collective Artifact: How Persona Construction Drives Polarization in Generative Social Simulations",
+          "authors": "D Michailidis, P Törnberg, F Santos",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.16498",
+          "cites": 0,
+          "pubdate": "2026-10-12",
+          "arxiv": "2610.16498",
+          "doi": null,
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "first_seen": "2026-10-24",
+          "nr": "na"
+        },
+        {
           "title": "AI-generated language remains systematically distinguishable from human communication",
           "authors": "N Pagan, P Törnberg, C Bail, et al.",
           "year": 2026,
@@ -1066,20 +1091,6 @@
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "From Caricature to Collective Artifact: How Persona Construction Drives Polarization in Generative Social Simulations",
-          "authors": "D Michailidis, P Törnberg, F Santos",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2610.16498",
-          "cites": 0,
-          "pubdate": "2026-10-12",
-          "arxiv": "2610.16498",
-          "doi": null,
-          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
-          "first_seen": "2026-10-24",
-          "nr": "na"
         },
         {
           "title": "Vision:\"What Don't I Know About User's Preferences?\"How Uncertainty Estimation Improves Proactive Assistant Alignment",
@@ -1107,6 +1118,20 @@
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-10-13",
+          "nr": "na"
+        },
+        {
+          "title": "Physiology as Topology: Intervenable Organ Graphs for Longitudinal Patient Forecasting",
+          "authors": "X Liang, Y Chen",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.33022",
+          "cites": 0,
+          "pubdate": "2026-10-09",
+          "arxiv": "2610.33022",
+          "doi": null,
+          "cited_key": "Epidemic Modeling with Generative Agents",
+          "first_seen": "2026-10-27",
           "nr": "na"
         },
         {
@@ -1262,8 +1287,22 @@
           "pubdate": "2026-09-28",
           "arxiv": "2609.36278",
           "doi": null,
-          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
           "first_seen": "2026-09-30",
+          "nr": "na"
+        },
+        {
+          "title": "SCBO: Semantically Coherent Batching and Ordering for LLM-Based Social Surveys",
+          "authors": "Y Li, L Wang, Z Tian, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.35250",
+          "cites": 0,
+          "pubdate": "2026-09-28",
+          "arxiv": "2609.35250",
+          "doi": null,
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "first_seen": "2026-10-27",
           "nr": "na"
         },
         {
@@ -1396,10 +1435,24 @@
           "nr": "na"
         },
         {
+          "title": "LLMs for Social Network Modeling: From Network Generation to Dynamic Processes",
+          "authors": "S Mallick, A Thomo, A Saxena",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.08049",
+          "cites": 0,
+          "pubdate": "2026-09-07",
+          "arxiv": "2609.08049",
+          "doi": null,
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
+          "first_seen": "2026-10-27",
+          "nr": "na"
+        },
+        {
           "title": "Who Changes Their Mind? Exploring Stance Shifts in LLM-Based Social Media Simulations",
           "authors": "V Gatta, G Orlando, M Perillo, et al.",
           "year": 2026,
-          "venue": "Proceedings of the 37th ACM Conference on Hypertext",
+          "venue": "ACM Conference on Hypertext and Social Media (HT)",
           "url": "https://doi.org/10.1145/3800935.3830836",
           "cites": 0,
           "pubdate": "2026-09-05",
@@ -1434,7 +1487,7 @@
           "pubdate": "2026-09-01",
           "arxiv": null,
           "doi": "10.1016/j.knosys.2026.116947",
-          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
+          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
           "first_seen": "2026-10-24",
           "fwci": 0.0,
           "q": "Q1",
@@ -1469,68 +1522,9 @@
           "first_seen": "2026-09-25",
           "fwci": 0.0,
           "crank": "C"
-        },
-        {
-          "title": "Benchmarking large language model agent societies against human behavioural distributions",
-          "authors": "R Tareaf",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.28182",
-          "cites": 0,
-          "pubdate": "2026-08-28",
-          "arxiv": "2608.28182",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
-          "title": "What Makes Good Agentic Data? An ACE Lens on Data Generation for LLM Agents",
-          "authors": "X Zeng, Z Xu, B Zhang, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.27260",
-          "cites": 0,
-          "pubdate": "2026-08-27",
-          "arxiv": "2608.27260",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "Probing Perceptual Priors of MLLMs via Gibbs Sampling with Interpretable Generative Controls",
-          "authors": "M Cherep, P Maes, N Singh",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2608.27727",
-          "cites": 0,
-          "pubdate": "2026-08-27",
-          "arxiv": "2608.27727",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-10-26",
-          "nr": "na"
-        },
-        {
-          "title": "BAND: A Probabilistic Framework for Modeling Non-Stationary Heart Rate Variability in Rest–Stress–Rest Dynamics",
-          "authors": "M Castillo-Aguilar, D Medina-Ortiz, R Muñoz, et al.",
-          "year": 2026,
-          "venue": "Technologies",
-          "url": "https://doi.org/10.3390/technologies14090528",
-          "cites": 0,
-          "pubdate": "2026-08-27",
-          "arxiv": null,
-          "doi": "10.3390/technologies14090528",
-          "cited_key": "Generative Models: An Interdisciplinary Perspective",
-          "first_seen": "2026-10-26",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.79,
-          "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "n_citing": 465,
+      "n_citing": 502,
       "query": "agent-based modeling"
     }
   }
