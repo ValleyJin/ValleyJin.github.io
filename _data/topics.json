@@ -625,7 +625,45 @@
     {
       "topic": "ICLR",
       "query": "s2:ICLR",
-      "papers": []
+      "papers": [
+        {
+          "title": "DiffusER: Diffusion via Edit-based Reconstruction",
+          "authors": "Reid, M., Hellendoorn, V. J., & Neubig, G.",
+          "year": 2023,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/0004c4e27e54f13577951416d8ed476e93f00ef9",
+          "cites": 40,
+          "crank": "A*"
+        },
+        {
+          "title": "Exploiting Hidden Symmetry to Improve Objective Perturbation for DP Linear Learners with a Nonsmooth L1-Norm",
+          "authors": "Chen, D., & Chua, G. A.",
+          "year": 2025,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/00094e8c9e3cff020fcc75ced74a751b1104fe8b",
+          "cites": 0,
+          "crank": "A*"
+        },
+        {
+          "title": "Generative Learning for Financial Time Series with Irregular and Scale-Invariant Patterns",
+          "authors": "Huang, H., Chen, M., & Qiao, X.",
+          "year": 2024,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/001d5eac903cee1be4b04b5fd6011034f18be3d1",
+          "cites": 69,
+          "crank": "A*"
+        },
+        {
+          "title": "Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs",
+          "authors": "Fu, H., Yao, J., Gottesman, O., Doshi-Velez, F., & Konidaris, G.",
+          "year": 2023,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/003b229489d88890674f0c6bffa41fed8df93cec",
+          "cites": 2,
+          "crank": "A*"
+        }
+      ],
+      "count": 6729
     },
     {
       "topic": "CVPR",
@@ -896,53 +934,7 @@
     {
       "topic": "ECCV",
       "query": "s2:ECCV",
-      "papers": [
-        {
-          "title": "End-to-End Rate-Distortion Optimized 3D Gaussian Representation",
-          "authors": "Wang, H., Zhu, H., He, T., Feng, R., Deng, J., Bian, J., et al.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 112,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Asynchronous Large Language Model Enhanced Planner for Autonomous Driving",
-          "authors": "Chen, Y., Ding, Z., Wang, Z., Wang, Y., Zhang, L., & Liu, S.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.14556",
-          "cites": 64,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation",
-          "authors": "Lai, B., Ryan, F., Jia, W., Liu, M., & Rehg, J. M.",
-          "year": 2023,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2305.03907",
-          "cites": 30,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Event-Based Motion Magnification",
-          "authors": "Chen, Y., Guo, S., Yu, F., Zhang, F., Gu, J., & Xue, T.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2402.11957",
-          "cites": 10,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        }
-      ],
-      "count": 2468
+      "papers": []
     },
     {
       "topic": "KDD",
