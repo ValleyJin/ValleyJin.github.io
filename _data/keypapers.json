@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27",
+  "generated": "2026-10-28",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -139,10 +139,38 @@
       ],
       "citing": [
         {
+          "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+          "authors": "S Reddy, A Abbas, A Suri, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.37481",
+          "cites": 0,
+          "pubdate": "2026-10-27",
+          "arxiv": "2610.37481",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-28",
+          "nr": "na"
+        },
+        {
+          "title": "Base Models Can Detect Hidden Intentions that Prompted Classifiers Miss",
+          "authors": "O Amram",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36202",
+          "cites": 0,
+          "pubdate": "2026-10-26",
+          "arxiv": "2610.36202",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-10-28",
+          "nr": "na"
+        },
+        {
           "title": "A Contextual Measure of Ambiguity in Prescriptive Text",
           "authors": "S Dong, L Thorburn, A Konya, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.35461",
           "cites": 0,
           "pubdate": "2026-10-26",
@@ -156,7 +184,7 @@
           "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
           "authors": "X He, S Zhoubian, R Yang, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.34073",
           "cites": 0,
           "pubdate": "2026-10-25",
@@ -363,20 +391,6 @@
           "nr": "na"
         },
         {
-          "title": "DPPM: Dual-Path Parametric Memory for Personalized Language Models",
-          "authors": "Y Chen, S Liu, J Shi, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2610.11776",
-          "cites": 0,
-          "pubdate": "2026-10-08",
-          "arxiv": "2610.11776",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-10-09",
-          "nr": "na"
-        },
-        {
           "title": "Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies",
           "authors": "Y Wen, D Xu, P Jia, et al.",
           "year": 2026,
@@ -385,6 +399,20 @@
           "cites": 0,
           "pubdate": "2026-10-08",
           "arxiv": "2610.11573",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-10-09",
+          "nr": "na"
+        },
+        {
+          "title": "DPPM: Dual-Path Parametric Memory for Personalized Language Models",
+          "authors": "Y Chen, S Liu, J Shi, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.11776",
+          "cites": 0,
+          "pubdate": "2026-10-08",
+          "arxiv": "2610.11776",
           "doi": null,
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-10-09",
@@ -669,37 +697,9 @@
           "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-10-27",
           "nr": "na"
-        },
-        {
-          "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
-          "authors": "Z Wang, Y Zhou, J Tang, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.15972",
-          "cites": 0,
-          "pubdate": "2026-09-14",
-          "arxiv": "2609.15972",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "To Memories and Beyond: From Remembering to Knowing You across Long-Term Multimodal Personal Archives",
-          "authors": "W Zhou, Z Yu, K Wen, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.19167",
-          "cites": 0,
-          "pubdate": "2026-09-11",
-          "arxiv": "2609.19167",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 384,
+      "n_citing": 387,
       "query": "persona generation"
     },
     "gABM": {
@@ -947,6 +947,20 @@
       ],
       "citing": [
         {
+          "title": "A Serious-Game Testbed for Self-Governing Human-Machine Institutions",
+          "authors": "C Berger, J Pitt, S Sarkadi",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.36989",
+          "cites": 0,
+          "pubdate": "2026-10-27",
+          "arxiv": "2610.36989",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-28",
+          "nr": "na"
+        },
+        {
           "title": "Who Is the Influencer? Consensus Dynamics in Multi-Agent Systems",
           "authors": "G Minegishi, J Feng, H Furuta, et al.",
           "year": 2026,
@@ -1118,20 +1132,6 @@
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-10-13",
-          "nr": "na"
-        },
-        {
-          "title": "Physiology as Topology: Intervenable Organ Graphs for Longitudinal Patient Forecasting",
-          "authors": "X Liang, Y Chen",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.33022",
-          "cites": 0,
-          "pubdate": "2026-10-09",
-          "arxiv": "2610.33022",
-          "doi": null,
-          "cited_key": "Epidemic Modeling with Generative Agents",
-          "first_seen": "2026-10-27",
           "nr": "na"
         },
         {
@@ -1524,7 +1524,7 @@
           "crank": "C"
         }
       ],
-      "n_citing": 502,
+      "n_citing": 456,
       "query": "agent-based modeling"
     }
   }
