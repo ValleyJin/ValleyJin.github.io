@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28",
+  "generated": "2026-10-29",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -142,7 +142,7 @@
           "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
           "authors": "S Reddy, A Abbas, A Suri, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.37481",
           "cites": 0,
           "pubdate": "2026-10-27",
@@ -156,7 +156,7 @@
           "title": "Base Models Can Detect Hidden Intentions that Prompted Classifiers Miss",
           "authors": "O Amram",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.36202",
           "cites": 0,
           "pubdate": "2026-10-26",
@@ -699,7 +699,7 @@
           "nr": "na"
         }
       ],
-      "n_citing": 387,
+      "n_citing": 392,
       "query": "persona generation"
     },
     "gABM": {
@@ -950,7 +950,7 @@
           "title": "A Serious-Game Testbed for Self-Governing Human-Machine Institutions",
           "authors": "C Berger, J Pitt, S Sarkadi",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.36989",
           "cites": 0,
           "pubdate": "2026-10-27",
@@ -1048,6 +1048,20 @@
           "nr": "na"
         },
         {
+          "title": "Scam Town: Can Scam Education Spread Like a Vaccine?",
+          "authors": "S Ren, T Duong, X Shen, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.25040",
+          "cites": 0,
+          "pubdate": "2026-10-18",
+          "arxiv": "2610.25040",
+          "doi": null,
+          "cited_key": "Epidemic Modeling with Generative Agents",
+          "first_seen": "2026-10-29",
+          "nr": "na"
+        },
+        {
           "title": "LLM Evolution in a Simple Simulated Market",
           "authors": "C Pilgrim, C Krupenye, D Biro, et al.",
           "year": 2026,
@@ -1132,6 +1146,20 @@
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-10-13",
+          "nr": "na"
+        },
+        {
+          "title": "Physiology as Topology: Intervenable Organ Graphs for Longitudinal Patient Forecasting",
+          "authors": "X Liang, Y Chen",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.33022",
+          "cites": 0,
+          "pubdate": "2026-10-09",
+          "arxiv": "2610.33022",
+          "doi": null,
+          "cited_key": "Epidemic Modeling with Generative Agents",
+          "first_seen": "2026-10-29",
           "nr": "na"
         },
         {
@@ -1493,38 +1521,9 @@
           "q": "Q1",
           "sjr": 1.75,
           "qcat": "Artificial Intelligence"
-        },
-        {
-          "title": "Classic AI Scaffolding for LLM Social Agents",
-          "authors": "A Gershman",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.01167",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": "2609.01167",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
-        },
-        {
-          "title": "Pseudocode as a Stored Strategy Representation for LLM-Based Artificial Market Simulation",
-          "authors": "R Itakura, M Hirano, K Imajo, et al.",
-          "year": 2026,
-          "venue": "IEEE Symposium on Computational Intelligence for Financial Engineering and Economics (CIFEr)",
-          "url": "https://doi.org/10.1109/CIFEr67845.2026.11692404",
-          "cites": 0,
-          "pubdate": "2026-09-01",
-          "arxiv": null,
-          "doi": "10.1109/cifer67845.2026.11692404",
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "crank": "C"
         }
       ],
-      "n_citing": 456,
+      "n_citing": 506,
       "query": "agent-based modeling"
     }
   }
