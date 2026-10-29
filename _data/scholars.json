@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28",
+  "generated": "2026-10-29",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -963,6 +963,17 @@
           "qcat": "Applied Mathematics"
         },
         {
+          "title": "Asymmetries in safety outcomes and learning from failure in subcontracting hierarchies",
+          "authors": "K Jung, JS Yang",
+          "year": "2026",
+          "venue": "European Management Review, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:BFa5h04uPMwC",
+          "cites": 0,
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Business and International Management"
+        },
+        {
           "title": "Central Bank Digital Currency Design, Systemic Risk, and Financial Stability:, A Complex Systems Simulation Approach",
           "authors": "C Park, JS Yang",
           "year": "2026",
@@ -1052,7 +1063,7 @@
           "authors": "이석준， 양재석， 김중현",
           "year": "2019",
           "venue": "한국기술혁신학회 학술대회, 1368-1386, 2019",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:4Yq6kJLCcecC",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&cstart=100&pagesize=100&citation_for_view=gM0qYNUAAAAJ:4Yq6kJLCcecC",
           "cites": 0,
           "nr": "na"
         },
@@ -1186,6 +1197,17 @@
           "q": "Q1",
           "sjr": 1.1,
           "qcat": "Applied Mathematics"
+        },
+        {
+          "title": "Asymmetries in safety outcomes and learning from failure in subcontracting hierarchies",
+          "authors": "K Jung, JS Yang",
+          "year": "2026",
+          "venue": "European Management Review, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:BFa5h04uPMwC",
+          "cites": 0,
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Central Bank Digital Currency Design, Systemic Risk, and Financial Stability:, A Complex Systems Simulation Approach",
@@ -1550,17 +1572,6 @@
           "q": "Q1",
           "sjr": 2.35,
           "qcat": "Business, Management and Accounting (miscellaneous)"
-        },
-        {
-          "title": "National offshore wind strategy for late-mover countries",
-          "authors": "C Chung, J Lee, JS Yang",
-          "year": "2022",
-          "venue": "Renewable Energy 192, 472-484, 2022",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:cRMvf6lLvU8C",
-          "cites": 14,
-          "q": "Q1",
-          "sjr": 1.89,
-          "qcat": "Renewable Energy, Sustainability and the Environment"
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=gM0qYNUAAAAJ&citpid=12"
@@ -4946,7 +4957,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14081,
+          "cites": 14041,
           "nr": "na"
         },
         {
@@ -4955,7 +4966,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9233,
+          "cites": 9238,
           "crank": "A*"
         },
         {
@@ -4964,7 +4975,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 852,
+          "cites": 853,
           "nr": "na"
         },
         {
@@ -4973,7 +4984,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 689,
+          "cites": 688,
           "crank": "A*"
         },
         {
@@ -4991,7 +5002,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 369,
+          "cites": 370,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5011,7 +5022,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 329,
+          "cites": 328,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5053,7 +5064,7 @@
           "year": "2021",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:IjCSPb-OGe4C",
-          "cites": 106,
+          "cites": 107,
           "crank": "A*"
         },
         {
@@ -5071,7 +5082,7 @@
           "year": "2023",
           "venue": "Communications of the ACM 66 (8), 105-113, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:TQgYirikUcIC",
-          "cites": 90,
+          "cites": 94,
           "q": "Q1",
           "sjr": 1.54,
           "qcat": "Computer Science (miscellaneous)"
@@ -5281,7 +5292,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 852,
+          "cites": 853,
           "nr": "na"
         },
         {
@@ -5317,7 +5328,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9233,
+          "cites": 9238,
           "crank": "A*"
         },
         {
@@ -5335,7 +5346,7 @@
           "year": "2023",
           "venue": "Communications of the ACM 66 (8), 105-113, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:TQgYirikUcIC",
-          "cites": 90,
+          "cites": 94,
           "q": "Q1",
           "sjr": 1.54,
           "qcat": "Computer Science (miscellaneous)"
@@ -5346,7 +5357,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 369,
+          "cites": 370,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5379,7 +5390,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 689,
+          "cites": 688,
           "crank": "A*"
         },
         {
@@ -5417,7 +5428,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 329,
+          "cites": 328,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5428,7 +5439,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14081,
+          "cites": 14041,
           "nr": "na"
         },
         {
@@ -5446,7 +5457,7 @@
           "year": "2021",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:IjCSPb-OGe4C",
-          "cites": 106,
+          "cites": 107,
           "crank": "A*"
         },
         {
