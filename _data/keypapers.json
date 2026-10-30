@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29",
+  "generated": "2026-10-30",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -534,9 +534,9 @@
           "title": "Demographic Pluralism: Inference-Time Modeling of Pluralistic Human Preference Distributions",
           "authors": "M Wu, Q Chen, A Jain, et al.",
           "year": 2026,
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "url": "https://arxiv.org/abs/2609.38555",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-29",
           "arxiv": "2609.38555",
           "doi": null,
@@ -562,7 +562,7 @@
           "title": "OSPD: On-Policy Self-Distillation for Persona-Consistent Dialogue",
           "authors": "R Xu, Y Zhang, A Chen, et al.",
           "year": 2026,
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "url": "https://arxiv.org/abs/2609.34418",
           "cites": 0,
           "pubdate": "2026-09-28",
@@ -604,7 +604,7 @@
           "title": "From Static Personal Values to Contextualized Personalization: Bayesian Personalized Value Alignment for LLMs",
           "authors": "H Guo, A Song, J Yao, et al.",
           "year": 2026,
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "url": "https://arxiv.org/abs/2609.28942",
           "cites": 0,
           "pubdate": "2026-09-24",
@@ -674,9 +674,9 @@
           "title": "ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents",
           "authors": "C Ke, X Liu, H Zhang, et al.",
           "year": 2026,
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "url": "https://arxiv.org/abs/2609.17010",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-15",
           "arxiv": "2609.17010",
           "doi": null,
@@ -688,9 +688,9 @@
           "title": "TAME: Token Attribution and Masking for Emergent misalignment",
           "authors": "M Masud, M Parvez",
           "year": 2026,
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "url": "https://arxiv.org/abs/2609.16754",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-15",
           "arxiv": "2609.16754",
           "doi": null,
@@ -947,7 +947,7 @@
       ],
       "citing": [
         {
-          "title": "A Serious-Game Testbed for Self-Governing Human-Machine Institutions",
+          "title": "A Simulation Testbed for Self-Governing Human-Machine Institutions",
           "authors": "C Berger, J Pitt, S Sarkadi",
           "year": 2026,
           "venue": "arXiv (Cornell University)",
@@ -1523,7 +1523,7 @@
           "qcat": "Artificial Intelligence"
         }
       ],
-      "n_citing": 506,
+      "n_citing": 502,
       "query": "agent-based modeling"
     }
   }
