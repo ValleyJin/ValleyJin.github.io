@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29",
+  "generated": "2026-10-30",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -285,6 +285,17 @@
           "nr": "na"
         },
         {
+          "title": "The potential for cascading failures in the international trade network",
+          "authors": "H Kang, KM Lee, JS Yang",
+          "year": "2024",
+          "venue": "Plos one 19 (3), e0299833, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:za7pDTvVV8kC",
+          "cites": 26,
+          "q": "Q1",
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
+        },
+        {
           "title": "Intelligent cryptocurrency trading system using integrated AdaBoost-LSTM with market turbulence knowledge",
           "authors": "S Park, JS Yang",
           "year": "2023",
@@ -294,17 +305,6 @@
           "q": "Q1",
           "sjr": 1.46,
           "qcat": "Software"
-        },
-        {
-          "title": "The potential for cascading failures in the international trade network",
-          "authors": "H Kang, KM Lee, JS Yang",
-          "year": "2024",
-          "venue": "Plos one 19 (3), e0299833, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:za7pDTvVV8kC",
-          "cites": 25,
-          "q": "Q1",
-          "sjr": 0.73,
-          "qcat": "Multidisciplinary"
         },
         {
           "title": "Relationships between capital flow and economic growth: A network analysis",
@@ -393,6 +393,17 @@
           "nr": "na"
         },
         {
+          "title": "Why do some firms stop exporting?",
+          "authors": "J Jeong, JS Yang",
+          "year": "2023",
+          "venue": "International Business Review 32, 102141, 2023",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:GHsHDPAyICYC",
+          "cites": 15,
+          "q": "Q1",
+          "sjr": 2.14,
+          "qcat": "Business and International Management"
+        },
+        {
           "title": "Minimum entropy density method for the time series analysis",
           "authors": "JW Lee, JB Park, HH Jo, JS Yang, HT Moon",
           "year": "2009",
@@ -415,17 +426,6 @@
           "qcat": "Social Sciences (miscellaneous)"
         },
         {
-          "title": "Why do some firms stop exporting?",
-          "authors": "J Jeong, JS Yang",
-          "year": "2023",
-          "venue": "International Business Review 32, 102141, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:GHsHDPAyICYC",
-          "cites": 14,
-          "q": "Q1",
-          "sjr": 2.14,
-          "qcat": "Business and International Management"
-        },
-        {
           "title": "National offshore wind strategy for late-mover countries",
           "authors": "C Chung, J Lee, JS Yang",
           "year": "2022",
@@ -435,6 +435,17 @@
           "q": "Q1",
           "sjr": 1.89,
           "qcat": "Renewable Energy, Sustainability and the Environment"
+        },
+        {
+          "title": "Can expensive research equipment boost research and development performances?",
+          "authors": "K Lee, S Choi, JS Yang",
+          "year": "2021",
+          "venue": "Scientometrics 126, 7715-7742, 2021",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:n3vGvpFsckwC",
+          "cites": 14,
+          "q": "Q1",
+          "sjr": 1.08,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Finding the right balance: The impact of individual autonomy on balancing exploration and exploitation",
@@ -468,17 +479,6 @@
           "q": "Q1",
           "sjr": 0.73,
           "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Can expensive research equipment boost research and development performances?",
-          "authors": "K Lee, S Choi, JS Yang",
-          "year": "2021",
-          "venue": "Scientometrics 126, 7715-7742, 2021",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:n3vGvpFsckwC",
-          "cites": 13,
-          "q": "Q1",
-          "sjr": 1.08,
-          "qcat": "Computer Science Applications"
         },
         {
           "title": "Agent-based approach for generation of a money-centered star network",
@@ -1361,7 +1361,7 @@
           "year": "2024",
           "venue": "Plos one 19 (3), e0299833, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:za7pDTvVV8kC",
-          "cites": 25,
+          "cites": 26,
           "q": "Q1",
           "sjr": 0.73,
           "qcat": "Multidisciplinary"
@@ -1471,7 +1471,7 @@
           "year": "2023",
           "venue": "International Business Review 32, 102141, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:GHsHDPAyICYC",
-          "cites": 14,
+          "cites": 15,
           "q": "Q1",
           "sjr": 2.14,
           "qcat": "Business and International Management"
@@ -1670,7 +1670,7 @@
           "year": "2024",
           "venue": "Advanced Materials 36 (12), 2301080, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QoJ_w57xiyAC",
-          "cites": 119,
+          "cites": 121,
           "q": "Q1",
           "sjr": 8.27,
           "qcat": "Materials Science (miscellaneous)"
@@ -1756,7 +1756,7 @@
           "year": "2024",
           "venue": "Proceedings of the 2024 Conference of the North American Chapter of the …, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4Yq6kJLCcecC",
-          "cites": 83,
+          "cites": 84,
           "nr": "na"
         },
         {
@@ -1765,7 +1765,7 @@
           "year": "2016",
           "venue": "Proceedings of the 2016 International Conference on Management of Data, 447-461, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:IjCSPb-OGe4C",
-          "cites": 83,
+          "cites": 84,
           "crank": "A*"
         },
         {
@@ -2362,17 +2362,6 @@
           "qcat": "Genetics"
         },
         {
-          "title": "Cortisol awakening response and nighttime salivary cortisol levels in healthy working Korean subjects",
-          "authors": "I Shin, R Ahn, S Chun, Y Lee, M Kim, C Lee, S Sung",
-          "year": "2011",
-          "venue": "Yonsei medical journal 52 (3), 435, 2011",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:SGW5VrABaM0C",
-          "cites": 24,
-          "q": "Q2",
-          "sjr": 0.72,
-          "qcat": "Medicine (miscellaneous)"
-        },
-        {
           "title": "Improving discrete diffusion unmasking policies beyond explicit reference policies",
           "authors": "C Hong, S An, MS Kim, JC Ye",
           "year": "2026",
@@ -2389,6 +2378,17 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:qxL8FJ1GzNcC",
           "cites": 23,
           "nr": "na"
+        },
+        {
+          "title": "Cortisol awakening response and nighttime salivary cortisol levels in healthy working Korean subjects",
+          "authors": "I Shin, R Ahn, S Chun, Y Lee, M Kim, C Lee, S Sung",
+          "year": "2011",
+          "venue": "Yonsei medical journal 52 (3), 435, 2011",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:SGW5VrABaM0C",
+          "cites": 23,
+          "q": "Q2",
+          "sjr": 0.72,
+          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "The influence of Surelease and sodium alginate on the in‐vitro release of tamsulosin hydrochloride in pellet dosage form",
@@ -3323,6 +3323,15 @@
           "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
+          "title": "A novel sample preparation method on CeO2 nanoparticles with TEM grid embedded liquid CO2 displacement and supercritical CO2 drying for microscopic analysis",
+          "authors": "WS Son, TJ Yoon, HJ Park, M Kim, T Adschiri, YW Lee",
+          "year": "2019",
+          "venue": "The Journal of Supercritical Fluids 152, 104559, 2019",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:mUJArPsKIAAC",
+          "cites": 6,
+          "nr": "na"
+        },
+        {
           "title": "Performance evaluation of a full-scale advanced phase isolation ditch process by using real-time control strategies",
           "authors": "H Kim, Y Kim, M Kim, W Piao, J Gee, C Kim",
           "year": "2014",
@@ -3448,15 +3457,6 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2102.09166, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Ic1VZgkJnDsC",
-          "cites": 5,
-          "nr": "na"
-        },
-        {
-          "title": "A novel sample preparation method on CeO2 nanoparticles with TEM grid embedded liquid CO2 displacement and supercritical CO2 drying for microscopic analysis",
-          "authors": "WS Son, TJ Yoon, HJ Park, M Kim, T Adschiri, YW Lee",
-          "year": "2019",
-          "venue": "The Journal of Supercritical Fluids 152, 104559, 2019",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:mUJArPsKIAAC",
           "cites": 5,
           "nr": "na"
         },
@@ -4957,7 +4957,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14041,
+          "cites": 14083,
           "nr": "na"
         },
         {
@@ -4966,7 +4966,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9238,
+          "cites": 9290,
           "crank": "A*"
         },
         {
@@ -4975,7 +4975,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 853,
+          "cites": 860,
           "nr": "na"
         },
         {
@@ -4984,7 +4984,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 688,
+          "cites": 692,
           "crank": "A*"
         },
         {
@@ -4993,7 +4993,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 385,
+          "cites": 386,
           "crank": "A*"
         },
         {
@@ -5133,7 +5133,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 56,
+          "cites": 57,
           "crank": "A*"
         },
         {
@@ -5153,7 +5153,7 @@
           "year": "2023",
           "venue": "Companion Publication of the 2023 Conference on Computer Supported …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
-          "cites": 49,
+          "cites": 50,
           "nr": "na"
         },
         {
@@ -5247,7 +5247,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 56,
+          "cites": 57,
           "crank": "A*"
         },
         {
@@ -5292,7 +5292,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 853,
+          "cites": 860,
           "nr": "na"
         },
         {
@@ -5328,7 +5328,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9238,
+          "cites": 9290,
           "crank": "A*"
         },
         {
@@ -5337,7 +5337,7 @@
           "year": "2023",
           "venue": "Companion Publication of the 2023 Conference on Computer Supported …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
-          "cites": 49,
+          "cites": 50,
           "nr": "na"
         },
         {
@@ -5390,7 +5390,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 688,
+          "cites": 692,
           "crank": "A*"
         },
         {
@@ -5399,7 +5399,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 385,
+          "cites": 386,
           "crank": "A*"
         },
         {
@@ -5439,7 +5439,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14041,
+          "cites": 14083,
           "nr": "na"
         },
         {

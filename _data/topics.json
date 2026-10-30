@@ -413,16 +413,16 @@
           "qcat": "Artificial Intelligence"
         },
         {
-          "title": "Survey on Graph Neural Networks",
-          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
+          "title": "A survey of dynamic graph neural networks",
+          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
           "year": 2024,
-          "venue": "IEEE Access",
-          "url": "https://doi.org/10.1109/access.2024.3456913",
-          "cites": 37,
-          "fwci": 5.47,
-          "pct": 10,
+          "venue": "Frontiers of Computer Science",
+          "url": "https://doi.org/10.1007/s11704-024-3853-2",
+          "cites": 150,
+          "fwci": 22.18,
+          "pct": 1,
           "q": "Q1",
-          "sjr": 0.88,
+          "sjr": 1.2,
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
@@ -508,19 +508,6 @@
           "qcat": "Computer Science (miscellaneous)"
         },
         {
-          "title": "Revolutionizing AI Governance: Addressing Bias and Ensuring Accountability Through the Holistic AI Governance Framework",
-          "authors": "Atoum, I. A.",
-          "year": 2025,
-          "venue": "International Journal of Advanced Computer Science and Applications",
-          "url": "https://doi.org/10.14569/ijacsa.2025.0160283",
-          "cites": 14,
-          "fwci": 14.64,
-          "pct": 10,
-          "q": "Q3",
-          "sjr": 0.33,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
           "title": "AI governance in Asia: policies, praxis and approaches",
           "authors": "Xu, J. L., Lee, T., & Goggin, G. M.",
           "year": 2024,
@@ -532,6 +519,19 @@
           "q": "Q2",
           "sjr": 0.55,
           "qcat": "Communication"
+        },
+        {
+          "title": "Revolutionizing AI Governance: Addressing Bias and Ensuring Accountability Through the Holistic AI Governance Framework",
+          "authors": "Atoum, I. A.",
+          "year": 2025,
+          "venue": "International Journal of Advanced Computer Science and Applications",
+          "url": "https://doi.org/10.14569/ijacsa.2025.0160283",
+          "cites": 14,
+          "fwci": 14.64,
+          "pct": 10,
+          "q": "Q3",
+          "sjr": 0.33,
+          "qcat": "Computer Science (miscellaneous)"
         }
       ],
       "count": 115107
