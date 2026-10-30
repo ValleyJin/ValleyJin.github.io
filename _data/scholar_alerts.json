@@ -1,7 +1,129 @@
 {
-  "generated": "2026-10-29",
+  "generated": "2026-10-30",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Public Opinion in the Age of AI",
+      "url": "https://joshclinton.com/assets/papers/Cetal_APSAPublicOpinion2026.docx.pdf",
+      "authors": "S Barari, E Busby, TD Buskirk, R Duch, AC Haensch…",
+      "snippet": "The study of public opinion in political science has always occupied an uneasy space between theory and measurement, referring simultaneously to a latent set of beliefs held by members of a political community and to the responses elicited through imperfect, context-sensitive instruments. The integration of artificial intelligence (AI) into public opinion research makes this tension impossible to ignore. AI offers genuine methodological promise: tools that are faster, cheaper, and more …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "Fluctuating Access: How Parents and Teachers Support Learning for Children with Cerebral Visual Impairment",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3797867.3829053",
+      "authors": "M Das, A Saha - Proceedings of the 28th International ACM …, 2026",
+      "snippet": "Cerebral Visual Impairment (CVI) is the leading cause of childhood visual impairment, affecting approximately one in thirty children. Yet, CVI remains critically understudied, with limited accessibility research on understanding and designing technologies for CVI individuals. Given its prevalence among young children, investigating its impact on how children develop fundamental literacy and practical skills in increasingly technology-mediated educational settings is critical. Through …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "Political psychology in an era of personalization: Misinformation research, generative AI, and the promise of tailored experiments",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/pops.70206",
+      "authors": "YR Velez - Political Psychology, 2026",
+      "snippet": "Voters increasingly inhabit personalized information environments, where content, algorithms, and social cues vary across people. Yet popular approaches to studying and addressing features of information environments such as misinformation exposure often flatten this heterogeneity: Measures and interventions are developed for populations rather than individuals. Using misinformation as an illustrative case, I argue that population‐based methods for measuring and intervening on beliefs can …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "q": "Q1",
+      "sjr": 1.94,
+      "qcat": "Clinical Psychology"
+    },
+    {
+      "title": "Practices of Inclusion as a Bridge Toward Access Equity: The Privileged and Empowered Role of Computing Faculty Who Advise Disabled Doctoral Students",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3797867.3829065",
+      "authors": "K Shinohara, MJ McQuaid - Proceedings of the 28th International ACM …, 2026",
+      "snippet": "Students with disabilities are vastly underrepresented in computing fields, especially at the doctoral level. Doctoral advisors play a key role in ensuring graduate students are supported, yet there is little known about how they might support disabled students, specifically. To learn more about how faculty work with doctoral students with disabilities, we interviewed 14 faculty in computing disciplines who have advised at least one doctoral student with a disability. We found that as faculty …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "“Mindful, but Not Special”: Mutual Accommodation Between Blind, Low Vision, and Sighted Workers in the Workplace",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3797867.3829039",
+      "authors": "S Yokoi, M Kobayashi, CL Yang, T Narumi, H Kuzuoka - Proceedings of the 28th …, 2026",
+      "snippet": "Blind and low vision (BLV) and sighted workers increasingly collaborate in shared workplaces, yet how they mutually adjust their communication in mixed-visual-ability workplaces remains underexplored. We conducted semi-structured interviews with 11 BLV workers and 4 sighted workers in Japan and analyzed transcripts using thematic analysis. We then drew on communication accommodation theory (CAT) to interpret the findings. We found that communication in these workplaces is sustained …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "From Grasping to Speaking: Generative AI-Based Environment-Grounded VR Communication Training for Autistic Individuals",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3797867.3829054",
+      "authors": "Z Li, RL Peiris - Proceedings of the 28th International ACM …, 2026",
+      "snippet": "Autistic individuals often face barriers in workplace communication, where soft skills are embedded within ongoing tasks and surrounding environment context, not in isolated verbal exchange. Recent work has introduced LLM-driven agents into VR-based communication training and proposed prompting schemas that let agents generate dialogue grounded in the VR environment and the user's hand-based interactions. Building on this work, we explore how different levels of environmental …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "Bridging Tojisha-Kenkyu and Accessibility Research: The Inheritance of Knowledge",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3797867.3832770",
+      "authors": "T Matsumura, R Iijima - Proceedings of the 28th International ACM …, 2026",
+      "snippet": "Tojisha-kenkyu is a practice of knowledge creation born in Japan, in which disabled people research the difficulties in their own lived experience through narrative, self-reflection, and dialogue. Despite its substantial presence in Japanese disability research, it has rarely been addressed in the international context of accessibility research. This experience report looks back on the author's decade from blindness to becoming a researcher: encounters with two disabled researcher role models, the …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "Desire in Artificial Intelligence",
+      "url": "https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.4324/9781003471806-41&type=chapterpdf",
+      "authors": "P Butlin - The Routledge Handbook of Philosophy of Desire, 2026",
+      "snippet": "Chatbots seem to express desires and many AI systems arguably pursue goals, such as winning games or helping users. Furthermore, many AI systems are trained by reinforcement learning and similar forms of learning are associated with human and animal desires. This chapter considers arguments for and against the attribution of desires to various AI systems and discusses some implications. Cases from AI can also help us to evaluate possible sets of conditions for desire.",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "Negotiated Adoption of Health Sensing Systems: A Co-Design Study with Older Adults and Family Members",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3797867.3829012",
+      "authors": "R Niu, F Lin, Z Liu, K Wu, RL Franz - Proceedings of the 28th International ACM …, 2026",
+      "snippet": "As people age and their health changes, health sensing systems offer opportunities to support independence at home by monitoring well-being and facilitating timely communication. Because these technologies occupy shared spaces and health is a collective concern, their design often involves family members. This paper reports on 14 card-based co-design workshops with 14 families, in which older adults and family members jointly explored a personalized sensing system configuration. Our …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "101 Formas de Ganhar Dinheiro com IA: Ideias Simples e Práticas e Um Segredo que Poucos Revelam",
+      "url": "https://books.google.com/books?hl=ko&lr=&id=ClUhEgAAQBAJ&oi=fnd&pg=PA8&ots=0bYJHMgjei&sig=8_AYGDwshD28Hd8q_L-8xmcpmj0",
+      "authors": "E Newton",
+      "snippet": "Você sente que a Inteligência Artificial está mudando o mercado de trabalho, mas ainda não sabe como transformar essa tecnologia em renda? Este livro apresenta 101 formas práticas de usar ferramentas de IA para oferecer serviços, criar produtos digitais e automatizar tarefas, com linguagem simples, exemplos de prompts prontos para adaptar e orientações realistas sobre clientes, qualidade e responsabilidade. Neste livro, você vai descobrir:• 101 ideias de trabalho e renda com IA: textos …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "Prompt and Circumstance: Evaluating Accessibility in LLM-Generated HTML Form Components",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3797867.3828975",
+      "authors": "Y Ma, JO Wobbrock, J Devon, A Gustafson, M Fairchild… - Proceedings of the 28th …, 2026",
+      "snippet": "Large language models (LLMs) are used to generate user interface (UI) code, yet the accessibility of this code is difficult to evaluate in a controlled way. Existing evaluations typically examine full-generated webpages or loosely specified tasks …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
+    {
+      "title": "Trust in LLM-Supported Engineering Work: The Role of Downstream Dependency",
+      "url": "https://www.researchsquare.com/article/rs-11038705/latest.pdf",
+      "authors": "M Herath, A Palmquist - 2026",
+      "snippet": "Large language models (LLMs) are increasingly embedded in professional engineering work, but less is known about how engineers judge LLM-generated outputs once those outputs become part of connected multi-stage workflows. This …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-30",
+      "nr": "na"
+    },
     {
       "title": "SocialMaze: A Benchmark for Evaluating and Enhancing Social Reasoning in Large Language Models in Complex Social Environments",
       "url": "https://aclanthology.org/2026.findings-emnlp.1213.pdf",
@@ -297,140 +419,6 @@
       "scholar": "Joon Sung Park",
       "date": "2026-10-27",
       "nr": "na"
-    },
-    {
-      "title": "TwinStore: A Synthetic Consumer Platform Using Vision--Language Models",
-      "url": "https://arxiv.org/pdf/2610.30909",
-      "authors": "M Lee - arXiv preprint arXiv:2610.30909, 2026",
-      "snippet": "We present TwinStore, a source-available synthetic consumer platform for physical retail built on vision--language models. TwinStore turns a store into a digital twin---from 82 ready-made formats, a floor-plan image or phone photos of its shelves---and fills it with synthetic shoppers who plan a trip, walk the aisles and decide what to buy by looking at rendered shelves with packs, price tags and promotion signs. Every trip ends in a receipt, so a layout, price, pack or promotion can be tried on the same …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
-      "nr": "na"
-    },
-    {
-      "title": "From foundation models to construction robotics: A dual stream review, capability matching, and deployment frameworks",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1474034626010840",
-      "authors": "W Li, Y Wang, C Mao, MF Antwi-Afari, X Tao - Advanced Engineering Informatics, 2027",
-      "snippet": "Construction robotics (CR) plays a critical role in improving productivity, safety, and quality in the construction industry, yet it remains limited in its capability to adapt to evolving, unstructured job-site conditions. Foundation models (FMs) provide general, integrative, and adaptive capabilities that support open-world perception, semantic reasoning, and cross-modal grounding, offering a promising pathway to enhance CR. However, a key gap remains in matching FMs' capabilities to CR's demands for …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
-      "q": "Q1",
-      "sjr": 2.02,
-      "qcat": "Artificial Intelligence"
-    },
-    {
-      "title": "Whose hotel does the AI recommend? An algorithm audit of reputation signals in LLM-assisted hotel selection",
-      "url": "https://link.springer.com/article/10.1007/s40558-026-00417-8",
-      "authors": "MS Ahmed Baig, SA Gillani, A Ali IkramUllah - Information Technology & Tourism, 2026",
-      "snippet": "Travelers increasingly ask large language model (LLM) assistants which hotel to book, making these systems gatekeepers of property visibility, yet what moves their recommendations is undocumented. This study reports a pre-specified algorithm audit using a randomized choice-based conjoint: across personas, prompt templates, and twelve open-weight and proprietary models, assistants choose among five hotels whose guest rating, review volume and recency, management response …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
-      "q": "Q1",
-      "sjr": 1.88,
-      "qcat": "Computer Science Applications"
-    },
-    {
-      "title": "Interpretive Variation and Discourse Structure in Detecting Enthymemes in Controversial Political Discourse",
-      "url": "https://arxiv.org/pdf/2610.30987",
-      "authors": "M Pastor, N Oostdijk - arXiv preprint arXiv:2610.30987, 2026",
-      "snippet": "Enthymemes are arguments that leave a premise or conclusion unstated, and they are a common persuasion device on social media. Because readers must fill in the missing part themselves, they often disagree on whether a text contains one. This paper asks how to detect and evaluate enthymemes when such disagreement is part of the task. On tweets about vaccination and immigration, each labeled by five annotators, F1 stalls around 0.67 for every fine-tuned model we train, regardless of …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
-      "nr": "na"
-    },
-    {
-      "title": "From AI Ethics to Ethical Misalignment: Understanding Emerging Risks in Agentic AI Systems",
-      "url": "https://scholar.dsu.edu/cgi/viewcontent.cgi?article=1519&context=bispapers",
-      "authors": "D Tech, A Sekar - Issues in Information Systems, 2026",
-      "snippet": "The emergence of Agentic AI systems is reshaping organizational processes through continuous adaptation, autonomous coordination, and real-time operational execution. Unlike traditional artificial intelligence applications focused on discrete decision-making tasks, Agentic AI systems operate continuously and interact dynamically with organizational environments. Existing AI ethics literature has primarily emphasized issues such as fairness, bias, transparency, and accountability …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
-      "q": "Q4",
-      "sjr": 0.21,
-      "qcat": "Business, Management and Accounting (miscellaneous)"
-    },
-    {
-      "title": "Making Generative AI Workable at Work: Accountability, Localization, and Representation in Kenyan and Nigerian Small Businesses",
-      "url": "https://arxiv.org/pdf/2610.31344",
-      "authors": "NG Abdulhamid, S Nyairo, L Ankrah, J O'Neill - arXiv preprint arXiv:2610.31344, 2026",
-      "snippet": "Generative AI is widely framed as democratizing skilled work by lowering the barrier to producing professional output. Drawing on 21 semi-structured interviews with 27 workers across 21 small and medium-sized businesses (SMBs) in Kenya and Nigeria (July to October 2023), we find that availability alone did not make participation workable. In participants' accounts, drafting was rarely the hard part. The consequential work was making AI-assisted drafts defensible enough to …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
-      "nr": "na"
-    },
-    {
-      "title": "Exploring spatial configuration and group familiarity when co-watching 360-degree stories in social virtual reality",
-      "url": "https://arxiv.org/pdf/2610.30353",
-      "authors": "P Wang, M Santoso, Y Tao, J Bailenson - arXiv preprint arXiv:2610.30353, 2026",
-      "snippet": "While traditional cinematic viewing is often characterized as a social experience, engaging with immersive stories is predominantly researched as an individual activity. This mismatch becomes increasingly problematic in social virtual reality (VR), where features designed for typical social activities (eg, virtual locomotion, spatial and social context) can become meaningful levers for shaping the user experience. To address our limited understanding of these effects, we conducted …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
-      "nr": "na"
-    },
-    {
-      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
-      "url": "https://arxiv.org/pdf/2610.31576",
-      "authors": "J Sakurai, X Xu, J Yoon - arXiv preprint arXiv:2610.31576, 2026",
-      "snippet": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised policies as distilling a decoding procedure through a teacher and examine independently what the teacher labels as committable, on which states the policy imitates it, what the policy observes, and how …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-27",
-      "nr": "na"
-    },
-    {
-      "title": "Genetic Biosensors for High-Throughput Biomedical Applications: Challenges and Advances",
-      "url": "https://pubs.acs.org/ascefj/article-abstract/doi/10.1021/acssensors.6c00720/5455730",
-      "authors": "A Ahvaraki, M Teimouri, Z Shirvani-Farsani, K Omidfar - ACS sensors, 2026",
-      "snippet": "Genetic biosensors represent a particularly promising class of bioengineered instruments designed to enable accurate, real-time monitoring of cellular and molecular processes, with especially strong relevance to high-throughput biomedical workflows. In this review, we provide a systematic, clearly structured overview of the field, covering the fundamental design principles that form the basis of today's platforms. We focus in particular on DNA-based, RNA-based, and CRISPR-based …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-27",
-      "q": "Q1",
-      "sjr": 1.73,
-      "qcat": "Bioengineering"
-    },
-    {
-      "title": "Coherent Generative Agentic AI Enabled 6G/7G Networking",
-      "url": "https://www.mdpi.com/1999-5903/18/10/576/pdf",
-      "authors": "A Galis - Future Internet, 2026",
-      "snippet": "Generative Artificial Intelligence (Generative Agentic AI) models, such as Large Language Models (LLMs), and agentic AI have recently gained widespread attention in both research and industry. They have rapidly emerged as a concept that elevates Generative Agentic AI from passive text generators to the next generation of agentic AI as autonomous, goal-driven agents capable of perception, planning, and dynamic action execution—Coherent Generative Agentic AI (CGA). In addition, CGA provides …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-25",
-      "q": "Q1",
-      "sjr": 0.84,
-      "qcat": "Computer Networks and Communications"
-    },
-    {
-      "title": "Cogent-Adversary: Cognitive-State Assessment and Adaptive Control for Dual-Agent Tutoring in Education",
-      "url": "https://www.mdpi.com/2076-3417/16/20/10433/pdf",
-      "authors": "Z Sun, S Chen, M Bie - Applied Sciences, 2026",
-      "snippet": "Large language models (LLMs) have expanded the capabilities of intelligent tutoring systems, but adaptive regulation of instructional challenge and control of domain-specific factual drift remain difficult. We propose Cogent-Adversary, a dual-agent tutoring framework that combines cognitive-state-informed adaptive control (CODA) with Knowledge-Graph-Grounded Adversarial Reasoning and an adversarial consistency check (KGAR–ACCL). The framework was evaluated in a two-week …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-25",
-      "q": "Q4",
-      "sjr": 0.15,
-      "qcat": "Applied Mathematics"
-    },
-    {
-      "title": "Would You Buy on Impulse During E-Commerce Digital Human Avatar Live Shopping? DHA Characteristics and Consumer Experience",
-      "url": "https://www.mdpi.com/2076-328X/16/10/1961/pdf",
-      "authors": "S Mao, E Jung - Behavioral Sciences, 2026",
-      "snippet": "Digital human avatars (DHAs) are emerging as a new type of intelligent shopping agent in livestream e-commerce; however, existing research has not fully explained how their characteristics influence impulse buying through consumer experience mechanisms. Drawing on the Stimulus–Organism–Response (SOR) framework, this study conceptualizes the interactivity, empathy, immersion, and vividness of e-commerce digital human avatars (EC-DHAs) as external stimuli and visual appeal …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-25",
-      "q": "Q1",
-      "sjr": 0.83,
-      "qcat": "Development"
     }
   ]
 }
