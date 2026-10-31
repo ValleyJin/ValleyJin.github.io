@@ -1,7 +1,169 @@
 {
-  "generated": "2026-10-30",
+  "generated": "2026-10-31",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Large language models for computational social science",
+      "url": "https://www.nature.com/articles/s41562-026-02539-9",
+      "authors": "F Xu, C Shao, L Chen, Q Zeng, Z Chen, N Sukiennik… - Nature Human Behaviour, 2026",
+      "snippet": "Large language models (LLMs) are transforming computational social science. This Review examines how LLMs now serve four distinct research roles: subjects that simulate human behaviour, assistants that automate analysis, collaborators that generate hypotheses and evaluators that audit and improve research quality. We analyse recent advances across sociology, political science, psychology, anthropology, economics and related fields, revealing how LLMs accelerate …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "q": "Q1",
+      "sjr": 4.9,
+      "qcat": "Behavioral Neuroscience"
+    },
+    {
+      "title": "WhatIf: Interactive Exploration of Large-Scale LLM Agent Simulations for Policy Reasoning",
+      "url": "https://arxiv.org/pdf/2604.17615",
+      "authors": "Y Li, K Monteiro, H Shirado, S Das - arXiv preprint arXiv:2604.17615, 2026",
+      "snippet": "Policymakers in domains such as emergency management, public health, and urban planning must make decisions under deep uncertainty, where outcomes depend on how large populations interpret information, coordinate, and adopt over time. Existing tools only partially support this process: tabletop exercises enable collaborative discussion but lack dynamic feedback, while computational simulations capture population dynamics but are designed for offline analysis. We present WhatIf, an …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "nr": "na"
+    },
+    {
+      "title": "Work Agents: Systems, Capabilities, and Optimization",
+      "url": "https://arxiv.org/pdf/2610.35845",
+      "authors": "Z Xu, E Du, M Gao, C Yang, J Shen, Z Chen, Z Yao… - arXiv preprint arXiv …, 2026",
+      "snippet": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "nr": "na"
+    },
+    {
+      "title": "Agentic Memory Management Is the Next Frontier of Information Retrieval",
+      "url": "https://arxiv.org/pdf/2610.32464",
+      "authors": "Q Ai - arXiv preprint arXiv:2610.32464, 2026",
+      "snippet": "Information retrieval has long been focusing on connecting people with information they need to complete their tasks. Recently, the meaning of this has changed dramatically as more and more AI agents now consume, retain, and act on information on a user's behalf. Consequently, information management now also takes place\\emph {inside} the agent in the form of memory management. In this perspective paper, we argue that\\emph {agentic memory management}(AMM), which …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "nr": "na"
+    },
+    {
+      "title": "Lost in Translation: Investigating Systematic Discrepancies between Parallel English and Chinese Names of American Chinese Restaurants",
+      "url": "https://arxiv.org/pdf/2610.35191",
+      "authors": "H Jiang, N Liu, T Wang, C Overney, R Zhang, A Luk… - arXiv preprint arXiv …, 2026",
+      "snippet": "Given that the Chinese are one of the oldest ethnic groups to immigrate to the US, their cuisine have become central to the US dining scene and an interesting avenue to study how Chinese immigrants have culturally adapted into American life. In that regard, previous research has focused on analyzing the English names that Chinese restaurants adopt, eg, finding the use of familiar and typical words. To investigate how Chinese immigrants have culturally integrated in the US depending on social …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "nr": "na"
+    },
+    {
+      "title": "Evaluating with Disagreement: Metrics for Soft and Perspectivist Evaluation of Categorical and Ordinal Judgments",
+      "url": "https://aclanthology.org/2026.pandora-1.14.pdf",
+      "authors": "G Rizzi, S Casola, E Fersini, E Leonardelli, B Plank… - Proceedings of the First …, 2026",
+      "snippet": "Disagreement-aware NLP challenges the assumption that each instance has a single gold label and raises new questions about evaluation. We examine the evaluation framework introduced in the third edition of the Learning With Disagreement (LeWiDi) shared task, which combines soft evaluation of label distributions with perspectivist evaluation of annotator-specific judgments. We describe the metrics adopted and motivate their adaptation to categorical, ordinal …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "nr": "na"
+    },
+    {
+      "title": "FRAMEWORK INTEGRADO PARA AVALIAÇÃO DA SUSTENTABILIDADE AMBIENTAL DA INTELIGÊNCIA ARTIFICIAL",
+      "url": "https://mail.revistageo.com.br/revgeo/article/download/3823/2988",
+      "authors": "DA Alcântara, TGC da Silva, AS de Oliveira… - Revista de Geopolítica, 2026",
+      "snippet": "A expansão da Inteligência Artificial (IA), especialmente dos modelos fundacionais e dos Grandes Modelos de Linguagem, tem ampliado a demanda por infraestrutura computacional, energia elétrica e recursos associados aos data centers. Este estudo tem como objetivo desenvolver um framework integrado para avaliação da sustentabilidade ambiental de sistemas de IA, articulando infraestrutura computacional, indicadores energéticos, indicadores ambientais e Objetivos de …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "nr": "na"
+    },
+    {
+      "title": "Do Small Language Models Add Value to Churn Classifiers? An Ablation and Faithfulness Audit of Zero-Shot Explanations for Business Intelligence",
+      "url": "https://www.mdpi.com/2078-2489/17/11/1073",
+      "authors": "KI Roumeliotis, D Margaris, D Spiliotopoulos… - Information, 2026",
+      "snippet": "Tree-ensemble classifiers predict customer churn accurately but explain little, and small language models (SLMs) are increasingly proposed as a zero-shot narration layer on top of them. We test whether such SLMs add decision value or trustworthy explanations, combining a nine-condition prompt-ablation grid with XGBoost, Random Forest, and two 4-billion-parameter SLMs (Qwen3. 5-4B, Gemma3-4B) on 7501 test customers, non-LLM baselines, and blinded human audits. Gemma3-4B's …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "nr": "na"
+    },
+    {
+      "title": "Evaluating Arithmetic Reasoning Skills Beyond Benchmark Accuracy: A Session-Based Experimental Design for LLMs",
+      "url": "https://www.mdpi.com/2076-3417/16/21/10560/pdf",
+      "authors": "F Albayrak, E Turan, U Orhan - Applied Sciences, 2026",
+      "snippet": "Although LLMs demonstrate high success in logical tasks, it remains debated whether this stems from genuine reasoning or statistical memorization. This study presents a novel, multi-dimensional, perturbation-and session-based behavioral testing framework to assess LLMs' arithmetic reasoning. To reduce the potential effect of data contamination, texts from the DROP, GSM8k, and MATH datasets were structurally manipulated. A comprehensive analysis was conducted on seven …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "q": "Q4",
+      "sjr": 0.15,
+      "qcat": "Applied Mathematics"
+    },
+    {
+      "title": "Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents",
+      "url": "https://arxiv.org/pdf/2610.32578",
+      "authors": "HH Aliabadi - arXiv preprint arXiv:2610.32578, 2026",
+      "snippet": "AI coding agents increasingly work inside a harness: rule files such as AGENTS. md, on-demand skills, runtime hooks and automated checks. Most studies of harnesses look at a single point in time or at short benchmark runs. I report a six-week case study of my personal system of record, a plain-markdown repository that three AI agent tools edited daily under one shared rule set. I built a ledger of 118 agent failures, their fixes and whether they came back. I also tested the system's monthly …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "nr": "na"
+    },
+    {
+      "title": "Gradient‐Oxidized Bacterial Cellulose for Self‐Sustained Soil Moisture Sensing",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/advs.78511",
+      "authors": "N Zhou, J Li, X Xu, S Ye, B Chen, S Wu, D Xu, K Liu… - Advanced Science, 2026",
+      "snippet": "Soil moisture monitoring is pivotal to precision agricultural irrigation. Conventional soil moisture sensors rely on external power supplies and suffer from poor environmental compatibility. The facile fabrication of hydrovoltaic devices with asymmetric film structures remains challenging, and related designs tailored for soil scenarios are still insufficient. Here, we report an in situ‐grown planar asymmetric encapsulated bacterial cellulose (AEBC) device for self‐powered soil moisture …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-31",
+      "q": "Q1",
+      "sjr": 3.29,
+      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
+    },
+    {
+      "title": "Priority-driven multi-intent question answering via intent sequence decision and coordinated multi-agent generation",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2590005626006685",
+      "authors": "J Lyu, S Sun, N Lu, B Zhang - Array, 2026",
+      "snippet": "In vertical-domain question answering, users routinely embed multiple business intents within a single query, and those intents are not equally important. Yet existing frameworks treat multi-intent queries with either single-pass pipelines or unordered multi-label classifiers, discarding priority information entirely. This creates a two-pronged structural failure: downstream retrieval receives no priority signal and cannot schedule knowledge resources accordingly, while the final answer …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-31",
+      "q": "Q1",
+      "sjr": 1.26,
+      "qcat": "Computer Science (miscellaneous)"
+    },
+    {
+      "title": "Separation and purification of decanoic acid modified CeO2 hybrid nanoparticles using high pressure CO2-cyclohexane mixtures",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1383586626039511",
+      "authors": "N Yang, M Ota, RL Smith Jr, T Tomai, A Yoko… - Separation and Purification …, 2026",
+      "snippet": "Conventional purification methods for hybrid nanoparticles rely on precipitation and redispersion, but they consume large volumes of organic solvents and require long, multi-step processing. This study develops a high-pressure CO 2–cyclohexane mixed-solvent process that selectively recovers highly dispersible decanoic acid modified CeO 2 nanoparticles through a single-step extraction process with a short (< 1 h) purification time. Extraction behavior and purification performance were …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-31",
+      "q": "Q1",
+      "sjr": 1.56,
+      "qcat": "Analytical Chemistry"
+    },
+    {
+      "title": "Edgeway: Lightweight and efficient edge-centric graph processing on GPU",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167739X26005212",
+      "authors": "A eddine Yakhlef, S Yahiaoui, A Bendjoudi - Future Generation Computer Systems, 2026",
+      "snippet": "The explosive growth of graph-structured data has made GPU acceleration essential for high-performance graph processing. However, fully exploiting GPU parallelism is challenging, especially when graphs exceed the GPU's memory capacity, a common scenario with today's large graphs. Efficiently leveraging GPU power requires a combination of high parallelism, coalesced memory access, and minimal host-GPU data transfer. Achieving this is challenging due to the irregular and data-dependent …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-10-31",
+      "q": "Q1",
+      "sjr": 1.48,
+      "qcat": "Computer Networks and Communications"
+    },
+    {
+      "title": "ConMem: Counterfactual Multi-Scenario Probing for Resolving LLM Memory Misalignment",
+      "url": "https://arxiv.org/pdf/2610.33432",
+      "authors": "S Zhang, T Ji, J Chen, E Xu, B Chu, X Yi - arXiv preprint arXiv:2610.33432, 2026",
+      "snippet": "Long-term memory is critical for autonomous Large Language Model (LLM) agents executing multi-session, long-horizon tasks. However, existing memories often inappropriately store, retain, or retrieve over-generalized, misattributed, or privacy …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-10-31",
+      "nr": "na"
+    },
     {
       "title": "Public Opinion in the Age of AI",
       "url": "https://joshclinton.com/assets/papers/Cetal_APSAPublicOpinion2026.docx.pdf",
@@ -256,168 +418,6 @@
       "kind": "Related",
       "scholar": "Joon Sung Park",
       "date": "2026-10-28",
-      "nr": "na"
-    },
-    {
-      "title": "MRPilot: Supervising and Intervening LLM-Based Multi-Robot Teams through Mixed Reality",
-      "url": "https://arxiv.org/pdf/2610.07477",
-      "authors": "X Yang, X Qian, Y Zhan, N Tran, Z Liu, Q Jin - arXiv preprint arXiv:2610.07477, 2026",
-      "snippet": "Large language models (LLMs) let users direct heterogeneous multi-robot systems (MRS) through natural language, but make task interpretation, robot assignment, and coordination difficult to inspect and change. Based on a formative study with 12 non …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-28",
-      "nr": "na"
-    },
-    {
-      "title": "PersonaManifold: Revealing and Exploiting Curved Geometry in LLM Persona Representations",
-      "url": "https://arxiv.org/pdf/2609.34571",
-      "authors": "R Xu, Y Xu, L Wu - arXiv preprint arXiv:2609.34571, 2026",
-      "snippet": "Controlling persona in large language models (LLMs) at inference time is important for role-playing, personalized dialogue, and social simulation. Recent methods extract persona vectors from the model's activation space and apply Euclidean …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-28",
-      "nr": "na"
-    },
-    {
-      "title": "Dataset Signatures in Human-LLM Interactions and User Modeling",
-      "url": "https://arxiv.org/pdf/2610.05534",
-      "authors": "J Suh, S Chang - arXiv preprint arXiv:2610.05534, 2026",
-      "snippet": "Human--LLM interaction datasets shape our understanding of AI use and provide a foundation for downstream research, including training and evaluation of user models. In recent years, a growing number of datasets have sought to capture a …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-28",
-      "nr": "na"
-    },
-    {
-      "title": "DimSteer: Steering LLM Authoring with Automatically Discovered Stylistic Controls",
-      "url": "https://arxiv.org/pdf/2610.04174",
-      "authors": "A Mallavarapu, Z Gu - arXiv preprint arXiv:2610.04174, 2026",
-      "snippet": "Large language model writing interfaces often make users steer outputs by repeatedly articulating desired changes in natural language. Yet writers may recognize useful stylistic directions only after seeing alternatives, making revision …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-28",
-      "nr": "na"
-    },
-    {
-      "title": "Learning to GUIDE the Group: Self-Learning LLM Facilitation Across Multi-Party Tasks",
-      "url": "https://arxiv.org/pdf/2610.16231",
-      "authors": "Z Liu, TS Kuo, J Liu, D Fu, N Thain, C Qian - arXiv preprint arXiv:2610.16231, 2026",
-      "snippet": "As large language models are increasingly adopted as multi-party communication facilitators, there is a growing demand for agents capable of balancing diverse group dynamics across contexts. However, existing LLM facilitators are often fine-tuned for …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-28",
-      "nr": "na"
-    },
-    {
-      "title": "To Manipulate or Not: Opinion Dynamics in LLM Interactions",
-      "url": "https://arxiv.org/pdf/2610.28875",
-      "authors": "M Siahkamari, PD Nguyen, S MacNeil - arXiv preprint arXiv:2610.28875, 2026",
-      "snippet": "Large language models increasingly take part in extended conversations where they can both shape and be shaped by another party's views, yet most persuasion research measures only one side of that exchange. We introduce a controlled LLM …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-28",
-      "nr": "na"
-    },
-    {
-      "title": "CDGNAS: Continuous Decoupled Graph Neural Architecture Search for Scalable Node Classification in Deep Graph Neural Networks",
-      "url": "https://www.mdpi.com/2073-8994/18/11/1767/pdf",
-      "authors": "K Mani, S Narayanappa, P Falkowski-Gilski… - Symmetry, 2026",
-      "snippet": "Recently, Graph Neural Networks (GNNs) have demonstrated remarkable success in graph-based learning tasks. However, existing deep GNN (DGNN) architectures and Neural Architecture Search (NAS) frameworks remain limited due to tightly coupled propagation–transformation operations. This leads to exponentially increasing search spaces, computational inefficiency, and depth-induced over-smoothing. To address these challenges, a Continuous Decoupled Graph Neural Architecture …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-28",
-      "q": "Q2",
-      "sjr": 0.42,
-      "qcat": "Chemistry (miscellaneous)"
-    },
-    {
-      "title": "GraP-Mem: Granularity-Aware Planning for Adaptive Memory Access in Long-Horizon LLM Agents",
-      "url": "https://aclanthology.org/2026.findings-emnlp.2375.pdf",
-      "authors": "Q Zeng, J Dong, X Du - Findings of the Association for Computational …, 2026",
-      "snippet": "LLM agents increasingly operate in long-horizon tasks and extended dialogues, where they must retrieve useful past experiences beyond limited context windows. A central challenge is to balance efficient recall with faithful evidence recovery. Existing memory methods often rely on static access strategies: compact memories reduce context cost but may omit fine-grained evidence, whereas full histories preserve details but introduce redundant and noisy context. We propose GraP-Mem, a multi …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-28",
-      "nr": "na"
-    },
-    {
-      "title": "Microbial electromethanogenesis: a novel approach for biomethane enrichment",
-      "url": "https://scijournals.onlinelibrary.wiley.com/doi/abs/10.1002/bbb.70236",
-      "authors": "N Yadav, MK Jha, S Kumar - Biofuels, Bioproducts and Biorefining",
-      "snippet": "Owing to the limited availability of conventional energy resources and their adverse environmental impacts, there is a need for sustainable, environmentally sound alternative energy sources. Biofuel production through biological processes has gained attention as an environmentally benign alternative fuel. Among various biological processes, anaerobic digestion is one of the oldest and most popularized for producing biogas as a promising future energy source. However, raw biogas …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-28",
-      "q": "Q3",
-      "sjr": 0.49,
-      "qcat": "Renewable Energy, Sustainability and the Environment"
-    },
-    {
-      "title": "Promoting astrocytic activity genetically and pharmacologically increases locomotor function after spinal cord injury in mice",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006291X26015731",
-      "authors": "A Sefiani, TC Sutherland, D Horvat, CG Geoffroy - Biochemical and Biophysical …, 2026",
-      "snippet": "After spinal cord injury (SCI), astrocytes become activated and through a cascade of events, lead to the formation of a glial scar. The glial scar has long been thought to be detrimental to recovery, via reduction of plasticity and axon growth, and the release of pro-inflammatory cytokines into the local environment. However, it has a beneficial role as well; astrocytes in the glial scar can provide a scaffold for growing axons, and the astroglial border functions to sequester the inflammatory lesion …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-28",
-      "q": "Q2",
-      "sjr": 0.72,
-      "qcat": "Biochemistry"
-    },
-    {
-      "title": "Design of an Indonesian Train Control System",
-      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/appl.70220",
-      "authors": "A Sugiana, KB Adam, R Nurmayni, MS Hardjono - Applied Research, 2026",
-      "snippet": "This research presents a conceptual and comparative design study of an Indonesian Train Control System (IdTCS) to improve operational safety and interoperability. This is achieved by designing a multi‐level train control system tailored to the Indonesian railway network. The proposed concept was developed by adopting and adapting train control technologies from established systems such as the European Train Control System (ETCS), Korean Train Control System (KTCS), and Chinese Train …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-28",
-      "q": "Q2",
-      "sjr": 0.34,
-      "qcat": "Multidisciplinary"
-    },
-    {
-      "title": "The Response of Panc-1 Cells to Adult Bovine Serum and a Chemical Fragment Alternative Supplement in FBS-Free Culture",
-      "url": "https://www.mdpi.com/2673-4583/23/1/2",
-      "authors": "H Meng, PJR Day - Chemistry Proceedings, 2026",
-      "snippet": "Fetal bovine serum (FBS) is the most widely used supplement in cell culture; however, ethical and environmental concerns have driven the search for alternatives. Adult bovine serum (ABS) is one of the promising substitutes. Here, we evaluated complete and gradual replacement of FBS with ABS together with the small molecule MBF 3 from the Maybridge fragment library, which was previously shown to enhance the viability of pancreatic carcinoma cell line Panc-1. Complete substitution with 10 …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-28",
-      "q": "Q1",
-      "sjr": 6.51,
-      "qcat": "Biochemistry"
-    },
-    {
-      "title": "From Avatar to Self: Embodiment, Identity, and the Proteus Effect in LLM-Based Multi-Agent AI Simulation",
-      "url": "https://www.sciencedirect.com/science/article/pii/S2949882126001611",
-      "authors": "W Hurst, T Abbas, B Tekinerdogan, C Krampe - Computers in Human Behavior …, 2026",
-      "snippet": "This article presents Café Proteus, a browser-based multi-agent simulation platform designed to investigate whether identity framing was associated with consistent behavioural differentiation in large language model (LLM) agents, extending the Proteus Effect beyond its traditional application to human-controlled virtual environments. Five LLM-driven agents, each assigned a distinct visual avatar, spatial role, and behavioural persona, interact in a shared pixel-art café environment across …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
-      "q": "Q1",
-      "sjr": 3.07,
-      "qcat": "Arts and Humanities (miscellaneous)"
-    },
-    {
-      "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
-      "url": "https://arxiv.org/pdf/2610.30755",
-      "authors": "Z Bao, S Zhang, H Zhang, S Lou, M Wen, M Luo - arXiv preprint arXiv:2610.30755, 2026",
-      "snippet": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always necessary? We study Raw-RAG, a naive RAG baseline using dense retrieval and reranking over raw history to supply evidence to a reader LLM. Across LoCoMo, LongMemEval, MEME, and MemoryAgentBench, Raw-RAG ranks first among the compared memory …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
-      "nr": "na"
-    },
-    {
-      "title": "Silicon Samples Match the Answers but Not the Respondents",
-      "url": "https://arxiv.org/pdf/2610.30900",
-      "authors": "Y Kumagae, M Kaneko - arXiv preprint arXiv:2610.30900, 2026",
-      "snippet": "Silicon sampling generates survey respondents by having a large language model (LLM) answer a survey as a person with given demographic attributes, and the resulting synthetic populations are increasingly used in place of human ones. Existing evaluations focus on individual-answer accuracy, per-question answer distributions, and correlations across questions. None of these compares the respondents themselves, so a generator whose respondents have combinations of …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-27",
       "nr": "na"
     }
   ]
