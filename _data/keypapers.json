@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30",
+  "generated": "2026-10-31",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -699,7 +699,7 @@
           "nr": "na"
         }
       ],
-      "n_citing": 392,
+      "n_citing": 389,
       "query": "persona generation"
     },
     "gABM": {
@@ -1104,23 +1104,6 @@
           "nr": "na"
         },
         {
-          "title": "AI-generated language remains systematically distinguishable from human communication",
-          "authors": "N Pagan, P Törnberg, C Bail, et al.",
-          "year": 2026,
-          "venue": "Proceedings of the National Academy of Sciences",
-          "url": "https://doi.org/10.1073/pnas.2531748123",
-          "cites": 0,
-          "pubdate": "2026-10-12",
-          "arxiv": null,
-          "doi": "10.1073/pnas.2531748123",
-          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
-          "first_seen": "2026-10-24",
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 3.28,
-          "qcat": "Multidisciplinary"
-        },
-        {
           "title": "Vision:\"What Don't I Know About User's Preferences?\"How Uncertainty Estimation Improves Proactive Assistant Alignment",
           "authors": "Z An, Z Xuan, Y Yang, et al.",
           "year": 2026,
@@ -1365,7 +1348,7 @@
           "title": "Exploring Causal Mechanisms with Generative Agent-Based Models",
           "authors": "X Liu, H Shang, T Bhat, et al.",
           "year": 2026,
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "url": "https://arxiv.org/abs/2609.35819",
           "cites": 0,
           "pubdate": "2026-09-21",
@@ -1477,21 +1460,6 @@
           "nr": "na"
         },
         {
-          "title": "Who Changes Their Mind? Exploring Stance Shifts in LLM-Based Social Media Simulations",
-          "authors": "V Gatta, G Orlando, M Perillo, et al.",
-          "year": 2026,
-          "venue": "ACM Conference on Hypertext and Social Media (HT)",
-          "url": "https://doi.org/10.1145/3800935.3830836",
-          "cites": 0,
-          "pubdate": "2026-09-05",
-          "arxiv": null,
-          "doi": "10.1145/3800935.3830836",
-          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
-          "first_seen": "2026-10-24",
-          "fwci": 0.0,
-          "crank": "A"
-        },
-        {
           "title": "Where Reliability Lives: Experimental Localisation of Behavioural Properties in an Agent System",
           "authors": "T Marsden, M Collecutt, J Marsden",
           "year": 2026,
@@ -1521,9 +1489,38 @@
           "q": "Q1",
           "sjr": 1.75,
           "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Classic AI Scaffolding for LLM Social Agents",
+          "authors": "A Gershman",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.01167",
+          "cites": 0,
+          "pubdate": "2026-09-01",
+          "arxiv": "2609.01167",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-31",
+          "nr": "na"
+        },
+        {
+          "title": "Pseudocode as a Stored Strategy Representation for LLM-Based Artificial Market Simulation",
+          "authors": "R Itakura, M Hirano, K Imajo, et al.",
+          "year": 2026,
+          "venue": "IEEE Conference on Computational Intelligence for Financial Engineering & Economics",
+          "url": "https://doi.org/10.1109/CIFEr67845.2026.11692404",
+          "cites": 0,
+          "pubdate": "2026-09-01",
+          "arxiv": null,
+          "doi": "10.1109/cifer67845.2026.11692404",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-10-31",
+          "fwci": 0.0,
+          "nr": "na"
         }
       ],
-      "n_citing": 502,
+      "n_citing": 499,
       "query": "agent-based modeling"
     }
   }
