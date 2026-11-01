@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31",
+  "generated": "2026-11-01",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -777,17 +777,6 @@
           "nr": "na"
         },
         {
-          "title": "Analyzing Developmental Strategies and the Role of ICT in Underdeveloped Economies: Implications for North Korea",
-          "authors": "B Lee, JS Yang",
-          "year": "2026",
-          "venue": "Journal of the Asia Pacific Economy 31 (1), 301-324, 2026",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:WM2K3OHRCGMC",
-          "cites": 2,
-          "q": "Q2",
-          "sjr": 0.48,
-          "qcat": "Development"
-        },
-        {
           "title": "From Weak to Strong Signals: Exploring R&D Projects with Research Equipment",
           "authors": "K Lee, KR Jugn, JS Yang",
           "year": "2025",
@@ -859,6 +848,17 @@
           "q": "Q1",
           "sjr": 1.08,
           "qcat": "Computer Science Applications"
+        },
+        {
+          "title": "Analyzing Developmental Strategies and the Role of ICT in Underdeveloped Economies: Implications for North Korea",
+          "authors": "B Lee, JS Yang",
+          "year": "2026",
+          "venue": "Journal of the Asia Pacific Economy 31 (1), 301-324, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:WM2K3OHRCGMC",
+          "cites": 1,
+          "q": "Q2",
+          "sjr": 0.48,
+          "qcat": "Development"
         },
         {
           "title": "What makes contact tracing successful? An empirical analysis of COVID-19 data from 38 OECD countries",
@@ -1255,7 +1255,7 @@
           "year": "2026",
           "venue": "Journal of the Asia Pacific Economy 31 (1), 301-324, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:WM2K3OHRCGMC",
-          "cites": 2,
+          "cites": 1,
           "q": "Q2",
           "sjr": 0.48,
           "qcat": "Development"
@@ -1692,7 +1692,7 @@
           "year": "2023",
           "venue": "Advanced Energy Materials 13 (26), 2300442, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:R-LXmdHK_14C",
-          "cites": 98,
+          "cites": 99,
           "q": "Q1",
           "sjr": 7.68,
           "qcat": "Materials Science (miscellaneous)"
@@ -1953,7 +1953,7 @@
           "year": "2012",
           "venue": "Psychoneuroendocrinology 37 (1), 20-26, 2012",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:EPG8bYD4jVwC",
-          "cites": 46,
+          "cites": 47,
           "q": "Q1",
           "sjr": 1.33,
           "qcat": "Endocrine and Autonomic Systems"
@@ -2092,6 +2092,17 @@
           "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
+          "title": "Model predictive control method for autonomous vehicles using time-varying and non-uniformly spaced horizon",
+          "authors": "M Kim, D Lee, J Ahn, M Kim, J Park",
+          "year": "2021",
+          "venue": "IEEE Access 9, 86475-86487, 2021",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Vno172sVVMwC",
+          "cites": 37,
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
           "title": "Joins on encoded and partitioned data",
           "authors": "JG Lee, G Lohman, K Morfonios, K Murthy, I Pandis, L Qiao, V Raman, ...",
           "year": "2014",
@@ -2099,17 +2110,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:roLk4NBRz8UC",
           "cites": 37,
           "nr": "na"
-        },
-        {
-          "title": "Model predictive control method for autonomous vehicles using time-varying and non-uniformly spaced horizon",
-          "authors": "M Kim, D Lee, J Ahn, M Kim, J Park",
-          "year": "2021",
-          "venue": "IEEE Access 9, 86475-86487, 2021",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Vno172sVVMwC",
-          "cites": 36,
-          "q": "Q1",
-          "sjr": 0.88,
-          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Enhanced solubility and oral absorption of sirolimus using D-α-tocopheryl polyethylene glycol succinate micelles",
@@ -2362,6 +2362,17 @@
           "qcat": "Genetics"
         },
         {
+          "title": "Cortisol awakening response and nighttime salivary cortisol levels in healthy working Korean subjects",
+          "authors": "I Shin, R Ahn, S Chun, Y Lee, M Kim, C Lee, S Sung",
+          "year": "2011",
+          "venue": "Yonsei medical journal 52 (3), 435, 2011",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:SGW5VrABaM0C",
+          "cites": 24,
+          "q": "Q2",
+          "sjr": 0.72,
+          "qcat": "Medicine (miscellaneous)"
+        },
+        {
           "title": "Improving discrete diffusion unmasking policies beyond explicit reference policies",
           "authors": "C Hong, S An, MS Kim, JC Ye",
           "year": "2026",
@@ -2378,17 +2389,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:qxL8FJ1GzNcC",
           "cites": 23,
           "nr": "na"
-        },
-        {
-          "title": "Cortisol awakening response and nighttime salivary cortisol levels in healthy working Korean subjects",
-          "authors": "I Shin, R Ahn, S Chun, Y Lee, M Kim, C Lee, S Sung",
-          "year": "2011",
-          "venue": "Yonsei medical journal 52 (3), 435, 2011",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:SGW5VrABaM0C",
-          "cites": 23,
-          "q": "Q2",
-          "sjr": 0.72,
-          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "The influence of Surelease and sodium alginate on the in‐vitro release of tamsulosin hydrochloride in pellet dosage form",
@@ -2912,6 +2912,15 @@
           "qcat": "Pharmaceutical Science"
         },
         {
+          "title": "LineageBA: A fast, exact and scalable graph generation for the Barabási-Albert model",
+          "authors": "H Park, MS Kim",
+          "year": "2021",
+          "venue": "2021 IEEE 37th International Conference on Data Engineering (ICDE), 540-551, 2021",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4X0JR2_MtJMC",
+          "cites": 11,
+          "nr": "na"
+        },
+        {
           "title": "Synthesis of manganese oxide microparticles using supercritical water",
           "authors": "M Kim, SA Hong, N Shin, KH Chae, H Lee, S Choi, Y Shin",
           "year": "2016",
@@ -2979,15 +2988,6 @@
           "year": "2022",
           "venue": "arXiv preprint arXiv:2202.10002, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:I858iXPj1OkC",
-          "cites": 10,
-          "nr": "na"
-        },
-        {
-          "title": "LineageBA: A fast, exact and scalable graph generation for the Barabási-Albert model",
-          "authors": "H Park, MS Kim",
-          "year": "2021",
-          "venue": "2021 IEEE 37th International Conference on Data Engineering (ICDE), 540-551, 2021",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4X0JR2_MtJMC",
           "cites": 10,
           "nr": "na"
         },
@@ -4957,7 +4957,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14083,
+          "cites": 14101,
           "nr": "na"
         },
         {
@@ -4966,7 +4966,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9290,
+          "cites": 9314,
           "crank": "A*"
         },
         {
@@ -4975,7 +4975,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 860,
+          "cites": 863,
           "nr": "na"
         },
         {
@@ -5022,7 +5022,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 328,
+          "cites": 331,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5292,7 +5292,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 860,
+          "cites": 863,
           "nr": "na"
         },
         {
@@ -5328,7 +5328,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9290,
+          "cites": 9314,
           "crank": "A*"
         },
         {
@@ -5428,7 +5428,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 328,
+          "cites": 331,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5439,7 +5439,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14083,
+          "cites": 14101,
           "nr": "na"
         },
         {
