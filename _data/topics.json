@@ -584,96 +584,12 @@
     {
       "topic": "ICLR",
       "query": "s2:ICLR",
-      "papers": [
-        {
-          "title": "DiffusER: Diffusion via Edit-based Reconstruction",
-          "authors": "Reid, M., Hellendoorn, V. J., & Neubig, G.",
-          "year": 2023,
-          "venue": "International Conference on Learning Representations",
-          "url": "https://www.semanticscholar.org/paper/0004c4e27e54f13577951416d8ed476e93f00ef9",
-          "cites": 40,
-          "crank": "A*"
-        },
-        {
-          "title": "Anatomy-aware Representation Learning for Medical Ultrasound",
-          "authors": "Oh, S., Kim, M., Jung, G., Lee, H., Kim, Y., Kim, S., et al.",
-          "year": 2026,
-          "venue": "International Conference on Learning Representations",
-          "url": "https://www.semanticscholar.org/paper/0005f86b2ed044280db1e93c8eaa0431a32a9070",
-          "cites": 1,
-          "crank": "A*"
-        },
-        {
-          "title": "Exploiting Hidden Symmetry to Improve Objective Perturbation for DP Linear Learners with a Nonsmooth L1-Norm",
-          "authors": "Chen, D., & Chua, G. A.",
-          "year": 2025,
-          "venue": "International Conference on Learning Representations",
-          "url": "https://www.semanticscholar.org/paper/00094e8c9e3cff020fcc75ced74a751b1104fe8b",
-          "cites": 0,
-          "crank": "A*"
-        },
-        {
-          "title": "NGS-Marker: Robust Native Watermarking for 3D Gaussian Splatting",
-          "authors": "Qin, H., Sun, Y., Chen, L., Lu, M., Zhang, F., Kong, M., et al.",
-          "year": 2026,
-          "venue": "International Conference on Learning Representations",
-          "url": "https://doi.org/10.48550/arXiv.2608.17447",
-          "cites": 2,
-          "crank": "A*"
-        }
-      ],
-      "count": 9769
+      "papers": []
     },
     {
       "topic": "CVPR",
       "query": "s2:CVPR",
-      "papers": [
-        {
-          "title": "Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding",
-          "authors": "Wang, S., Lin, Y., & Wu, Y.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
-          "cites": 8,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "ReSpec: Relevance and Specificity Grounded Online Filtering for Learning on Video-Text Data Streams",
-          "authors": "Kim, C. D., Moon, J., Moon, S., Yun, H., Lee, S., Kembhavi, A., et al.",
-          "year": 2025,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52734.2025.02704",
-          "cites": 3,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Learning Correlation Structures for Vision Transformers",
-          "authors": "Kim, M., Seo, P. H., Schmid, C., & Cho, M.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
-          "cites": 38,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
-          "authors": "Murai, R., Dexheimer, E., & Davison, A. J.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
-          "cites": 334,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        }
-      ],
-      "count": 10102
+      "papers": []
     },
     {
       "topic": "AAAI",
@@ -721,7 +637,45 @@
     {
       "topic": "IJCAI",
       "query": "s2:IJCAI",
-      "papers": []
+      "papers": [
+        {
+          "title": "Bayesian Optimization with Switching Cost: Regret Analysis and Lookahead Variants",
+          "authors": "Liu, P., Wang, H., & Wei, Q.",
+          "year": 2023,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.24963/ijcai.2023/446",
+          "cites": 9,
+          "crank": "A*"
+        },
+        {
+          "title": "Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models",
+          "authors": "He, X., Wei, L., Xie, L., & Tian, Q.",
+          "year": 2024,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2401.03105",
+          "cites": 14,
+          "crank": "A*"
+        },
+        {
+          "title": "Polynomial-Time Relational Probabilistic Inference in Open Universes",
+          "authors": "Ge, L., Juba, B., & Nilsson, K.",
+          "year": 2025,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2505.04115",
+          "cites": 2,
+          "crank": "A*"
+        },
+        {
+          "title": "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond",
+          "authors": "Guo, K., Shen, Y., Gonzalez-Montiel, G., Huang, Y., Zhou, Y., Surve, M., et al.",
+          "year": 2024,
+          "venue": "International Joint Conference on Artificial Intelligence",
+          "url": "https://doi.org/10.48550/arXiv.2502.09897",
+          "cites": 25,
+          "crank": "A*"
+        }
+      ],
+      "count": 2994
     },
     {
       "topic": "ACL",
@@ -731,45 +685,7 @@
     {
       "topic": "EMNLP",
       "query": "s2:EMNLP",
-      "papers": [
-        {
-          "title": "Solving Hard Analogy Questions with Relation Embedding Chains",
-          "authors": "Kumar, N., & Schockaert, S.",
-          "year": 2023,
-          "venue": "Conference on Empirical Methods in Natural Language Processing",
-          "url": "https://doi.org/10.48550/arXiv.2310.12379",
-          "cites": 1,
-          "crank": "A*"
-        },
-        {
-          "title": "FaST: Feature-aware Sampling and Tuning for Personalized Preference Alignment with Limited Data",
-          "authors": "Thonet, T., Kruszewski, G., Rozen, J., Erbacher, P., & Dymetman, M.",
-          "year": 2025,
-          "venue": "Conference on Empirical Methods in Natural Language Processing",
-          "url": "https://doi.org/10.48550/arXiv.2508.04698",
-          "cites": 7,
-          "crank": "A*"
-        },
-        {
-          "title": "Can LLM be a Personalized Judge?",
-          "authors": "Dong, Y. R., Hu, T., & Collier, N.",
-          "year": 2024,
-          "venue": "Conference on Empirical Methods in Natural Language Processing",
-          "url": "https://doi.org/10.48550/arXiv.2406.11657",
-          "cites": 143,
-          "crank": "A*"
-        },
-        {
-          "title": "CRAB: Assessing the Strength of Causal Relationships Between Real-world Events",
-          "authors": "Romanou, A., Montariol, S., Paul, D., Laugier, L., Aberer, K., & Bosselut, A.",
-          "year": 2023,
-          "venue": "Conference on Empirical Methods in Natural Language Processing",
-          "url": "https://doi.org/10.48550/arXiv.2311.04284",
-          "cites": 51,
-          "crank": "A*"
-        }
-      ],
-      "count": 8160
+      "papers": []
     },
     {
       "topic": "ICCV",
@@ -822,53 +738,7 @@
     {
       "topic": "KDD",
       "query": "s2:KDD",
-      "papers": [
-        {
-          "title": "GRIP: In-Parameter Graph Reasoning through Fine-Tuning Large Language Models",
-          "authors": "Feng, J., Cai, D., Chen, Y., & Zhang, M.",
-          "year": 2025,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3770855.3817895",
-          "cites": 2,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Hyper-USS: Answering Subset Query Over Multi-Attribute Data Stream",
-          "authors": "Miao, R., Zhang, Y., Qu, G., Yang, K., Yang, T., & Cui, B.",
-          "year": 2023,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3580305.3599383",
-          "cites": 12,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Continuous Causal Component and Structure Discovery from Time Series",
-          "authors": "Yang, D., Wang, J., Domeniconi, C., Wu, D., Zhang, D., Zhang, J., et al.",
-          "year": 2026,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3770855.3818046",
-          "cites": 0,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Mitigating Pooling Bias in E-commerce Search via False Negative Estimation",
-          "authors": "Wang, X., Xiao, X., Zhang, R., Zhang, X., Na, T., Tenneti, T., et al.",
-          "year": 2023,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3637528.3671630",
-          "cites": 5,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
-        }
-      ],
-      "count": 3470
+      "papers": []
     },
     {
       "topic": "JMLR",

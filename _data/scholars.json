@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-03",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -23,7 +23,7 @@
           "year": "2008",
           "venue": "EPL (Europhysics Letters) 82 (6), 68003, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:d1gkVwhDpl0C",
-          "cites": 212,
+          "cites": 211,
           "q": "Q2",
           "sjr": 0.42,
           "qcat": "Physics and Astronomy (miscellaneous)"
@@ -393,17 +393,6 @@
           "nr": "na"
         },
         {
-          "title": "Why do some firms stop exporting?",
-          "authors": "J Jeong, JS Yang",
-          "year": "2023",
-          "venue": "International Business Review 32, 102141, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:GHsHDPAyICYC",
-          "cites": 15,
-          "q": "Q1",
-          "sjr": 2.14,
-          "qcat": "Business and International Management"
-        },
-        {
           "title": "Minimum entropy density method for the time series analysis",
           "authors": "JW Lee, JB Park, HH Jo, JS Yang, HT Moon",
           "year": "2009",
@@ -424,6 +413,17 @@
           "q": "Q1",
           "sjr": 0.6,
           "qcat": "Social Sciences (miscellaneous)"
+        },
+        {
+          "title": "Why do some firms stop exporting?",
+          "authors": "J Jeong, JS Yang",
+          "year": "2023",
+          "venue": "International Business Review 32, 102141, 2023",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:GHsHDPAyICYC",
+          "cites": 14,
+          "q": "Q1",
+          "sjr": 2.14,
+          "qcat": "Business and International Management"
         },
         {
           "title": "National offshore wind strategy for late-mover countries",
@@ -1471,7 +1471,7 @@
           "year": "2023",
           "venue": "International Business Review 32, 102141, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:GHsHDPAyICYC",
-          "cites": 15,
+          "cites": 14,
           "q": "Q1",
           "sjr": 2.14,
           "qcat": "Business and International Management"
@@ -1650,7 +1650,7 @@
           "year": "2004",
           "venue": "Transactions of the ASAE 47 (5), 1785-1792, 2004",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kF1pexMAQbMC",
-          "cites": 130,
+          "cites": 131,
           "q": "Q2",
           "sjr": 0.17,
           "qcat": "Linguistics and Language"
@@ -1681,7 +1681,7 @@
           "year": "2016",
           "venue": "Environmental science & technology 50 (7), 3453-3461, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:43bX7VzcjpAC",
-          "cites": 119,
+          "cites": 120,
           "q": "Q1",
           "sjr": 3.78,
           "qcat": "Chemistry (miscellaneous)"
@@ -2238,21 +2238,21 @@
           "qcat": "Genetics"
         },
         {
+          "title": "Mobilerag: A fast, memory-efficient, and energy-efficient method for on-device rag",
+          "authors": "T Park, G Lee, MS Kim",
+          "year": "2025",
+          "venue": "arXiv preprint arXiv:2507.01079, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
+          "cites": 29,
+          "nr": "na"
+        },
+        {
           "title": "Systems, methods and computer program products for reducing hash table working-set size for improved latency and scalability in a processing system",
           "authors": "MS Kim, L Qiao, V Raman, EJ Shekita",
           "year": "2015",
           "venue": "US Patent 9,069,810, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:L8Ckcad2t8MC",
           "cites": 29,
-          "nr": "na"
-        },
-        {
-          "title": "Mobilerag: A fast, memory-efficient, and energy-efficient method for on-device rag",
-          "authors": "T Park, G Lee, MS Kim",
-          "year": "2025",
-          "venue": "arXiv preprint arXiv:2507.01079, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
-          "cites": 28,
           "nr": "na"
         },
         {
@@ -2573,6 +2573,17 @@
           "nr": "na"
         },
         {
+          "title": "Automatic prediction of left cardiac chamber enlargement from chest radiographs using convolutional neural network",
+          "authors": "JG Nam, J Kim, K Noh, H Choi, DS Kim, SJ Yoo, HL Yang, EJ Hwang, ...",
+          "year": "2021",
+          "venue": "European Radiology 31 (11), 8130-8140, 2021",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:N4u4nq0IxgcC",
+          "cites": 16,
+          "q": "Q1",
+          "sjr": 1.72,
+          "qcat": "Medicine (miscellaneous)"
+        },
+        {
           "title": "Antireflection film and display device having hard coating layer with specified surface roughness and internal haze",
           "authors": "YR Chang, JH Shim, JH Seo, JY Park, SK LEE, JP Koo, TS Kim, MS Kim, ...",
           "year": "2020",
@@ -2604,7 +2615,7 @@
           "authors": "R Barber, P Bendel, M Czech, O Draese, F Ho, N Hrle, S Idreos, MS Kim, ...",
           "year": "2011",
           "venue": "International Workshop on Business Intelligence for the Real-Time Enterprise …, 2011",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:_FxGoFyzp5QC",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:_FxGoFyzp5QC",
           "cites": 16,
           "nr": "na"
         },
@@ -2618,17 +2629,6 @@
           "q": "Q1",
           "sjr": 0.81,
           "qcat": "Animal Science and Zoology"
-        },
-        {
-          "title": "Automatic prediction of left cardiac chamber enlargement from chest radiographs using convolutional neural network",
-          "authors": "JG Nam, J Kim, K Noh, H Choi, DS Kim, SJ Yoo, HL Yang, EJ Hwang, ...",
-          "year": "2021",
-          "venue": "European Radiology 31 (11), 8130-8140, 2021",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:N4u4nq0IxgcC",
-          "cites": 15,
-          "q": "Q1",
-          "sjr": 1.72,
-          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "Analysis of causal relationships for nutrient removal of activated sludge process based on structural equation modeling approaches",
@@ -4820,7 +4820,7 @@
           "year": "2025",
           "venue": "arXiv preprint arXiv:2507.01079, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
-          "cites": 28,
+          "cites": 29,
           "nr": "na"
         },
         {
@@ -4957,7 +4957,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14101,
+          "cites": 14130,
           "nr": "na"
         },
         {
@@ -4966,7 +4966,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9314,
+          "cites": 9384,
           "crank": "A*"
         },
         {
@@ -4975,7 +4975,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 863,
+          "cites": 870,
           "nr": "na"
         },
         {
@@ -4984,7 +4984,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 692,
+          "cites": 696,
           "crank": "A*"
         },
         {
@@ -4993,7 +4993,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 386,
+          "cites": 389,
           "crank": "A*"
         },
         {
@@ -5013,7 +5013,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 336,
+          "cites": 338,
           "crank": "A*"
         },
         {
@@ -5022,7 +5022,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 331,
+          "cites": 333,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5064,7 +5064,7 @@
           "year": "2021",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:IjCSPb-OGe4C",
-          "cites": 107,
+          "cites": 108,
           "crank": "A*"
         },
         {
@@ -5292,7 +5292,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 863,
+          "cites": 870,
           "nr": "na"
         },
         {
@@ -5310,7 +5310,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 336,
+          "cites": 338,
           "crank": "A*"
         },
         {
@@ -5328,7 +5328,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9314,
+          "cites": 9384,
           "crank": "A*"
         },
         {
@@ -5390,7 +5390,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 692,
+          "cites": 696,
           "crank": "A*"
         },
         {
@@ -5399,7 +5399,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 386,
+          "cites": 389,
           "crank": "A*"
         },
         {
@@ -5428,7 +5428,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 331,
+          "cites": 333,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5439,7 +5439,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14101,
+          "cites": 14130,
           "nr": "na"
         },
         {
@@ -5457,7 +5457,7 @@
           "year": "2021",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:IjCSPb-OGe4C",
-          "cites": 107,
+          "cites": 108,
           "crank": "A*"
         },
         {
