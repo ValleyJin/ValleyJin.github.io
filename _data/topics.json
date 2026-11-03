@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-03",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -54,7 +54,7 @@
           "nr": "na"
         }
       ],
-      "count": 11310
+      "count": 11306
     },
     {
       "topic": "gABM",
@@ -110,7 +110,7 @@
           "qcat": "Computational Mathematics"
         }
       ],
-      "count": 57553
+      "count": 57657
     },
     {
       "topic": "Graph database",
@@ -162,7 +162,7 @@
           "qcat": "Electrical and Electronic Engineering"
         }
       ],
-      "count": 124179
+      "count": 124121
     },
     {
       "topic": "Memory in Agentic AI",
@@ -206,7 +206,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 72953
+      "count": 72976
     },
     {
       "topic": "LLM inference serving",
@@ -260,7 +260,7 @@
           "nr": "na"
         }
       ],
-      "count": 7317
+      "count": 7338
     },
     {
       "topic": "Ethereum Layer-2",
@@ -312,7 +312,7 @@
           "nr": "na"
         }
       ],
-      "count": 642
+      "count": 644
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -364,7 +364,7 @@
           "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 48951
+      "count": 49034
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -423,7 +423,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 212764
+      "count": 212723
     },
     {
       "topic": "Ontology",
@@ -472,7 +472,7 @@
           "nr": "na"
         }
       ],
-      "count": 26437
+      "count": 26440
     },
     {
       "topic": "AI governance",
@@ -531,7 +531,7 @@
           "qcat": "Communication"
         }
       ],
-      "count": 115743
+      "count": 115948
     },
     {
       "topic": "NeurIPS",
@@ -570,7 +570,7 @@
           "year": 2023,
           "venue": "Neural Information Processing Systems",
           "url": "https://doi.org/10.48550/arXiv.2304.09875",
-          "cites": 9,
+          "cites": 10,
           "crank": "A*"
         }
       ],
@@ -579,45 +579,7 @@
     {
       "topic": "ICML",
       "query": "s2:ICML",
-      "papers": [
-        {
-          "title": "Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality",
-          "authors": "Southern, J., Eitan, Y., Bar-Shalom, G., Bronstein, M. M., Maron, H., & Frasca, F.",
-          "year": 2025,
-          "venue": "International Conference on Machine Learning",
-          "url": "https://doi.org/10.48550/arXiv.2501.03113",
-          "cites": 8,
-          "crank": "A*"
-        },
-        {
-          "title": "High-dimensional Clustering onto Hamiltonian Cycle",
-          "authors": "Huang, T., Cheng, S., Li, S., & Zhang, Z.",
-          "year": 2023,
-          "venue": "International Conference on Machine Learning",
-          "url": "https://doi.org/10.48550/arXiv.2304.14531",
-          "cites": 12,
-          "crank": "A*"
-        },
-        {
-          "title": "High-Dimensional Tensor Regression With Oracle Properties",
-          "authors": "Wang, W., Shi, Y., & Zhao, Z.",
-          "year": 2025,
-          "venue": "International Conference on Machine Learning",
-          "url": "https://www.semanticscholar.org/paper/000e9fb2207f1e40b2195a4d376d8ff46eb54bb7",
-          "cites": 0,
-          "crank": "A*"
-        },
-        {
-          "title": "The Number of Trials Matters in Infinite-Horizon General-Utility Markov Decision Processes",
-          "authors": "Santos, P. P., Sardinha, A., & Melo, F. S.",
-          "year": 2024,
-          "venue": "International Conference on Machine Learning",
-          "url": "https://doi.org/10.48550/arXiv.2409.15128",
-          "cites": 3,
-          "crank": "A*"
-        }
-      ],
-      "count": 7323
+      "papers": []
     },
     {
       "topic": "ICLR",
@@ -633,6 +595,15 @@
           "crank": "A*"
         },
         {
+          "title": "Anatomy-aware Representation Learning for Medical Ultrasound",
+          "authors": "Oh, S., Kim, M., Jung, G., Lee, H., Kim, Y., Kim, S., et al.",
+          "year": 2026,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/0005f86b2ed044280db1e93c8eaa0431a32a9070",
+          "cites": 1,
+          "crank": "A*"
+        },
+        {
           "title": "Exploiting Hidden Symmetry to Improve Objective Perturbation for DP Linear Learners with a Nonsmooth L1-Norm",
           "authors": "Chen, D., & Chua, G. A.",
           "year": 2025,
@@ -642,25 +613,16 @@
           "crank": "A*"
         },
         {
-          "title": "Generative Learning for Financial Time Series with Irregular and Scale-Invariant Patterns",
-          "authors": "Huang, H., Chen, M., & Qiao, X.",
-          "year": 2024,
+          "title": "NGS-Marker: Robust Native Watermarking for 3D Gaussian Splatting",
+          "authors": "Qin, H., Sun, Y., Chen, L., Lu, M., Zhang, F., Kong, M., et al.",
+          "year": 2026,
           "venue": "International Conference on Learning Representations",
-          "url": "https://www.semanticscholar.org/paper/001d5eac903cee1be4b04b5fd6011034f18be3d1",
-          "cites": 69,
-          "crank": "A*"
-        },
-        {
-          "title": "Performance Bounds for Model and Policy Transfer in Hidden-parameter MDPs",
-          "authors": "Fu, H., Yao, J., Gottesman, O., Doshi-Velez, F., & Konidaris, G.",
-          "year": 2023,
-          "venue": "International Conference on Learning Representations",
-          "url": "https://www.semanticscholar.org/paper/003b229489d88890674f0c6bffa41fed8df93cec",
+          "url": "https://doi.org/10.48550/arXiv.2608.17447",
           "cites": 2,
           "crank": "A*"
         }
       ],
-      "count": 6731
+      "count": 9769
     },
     {
       "topic": "CVPR",
@@ -711,7 +673,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 7384
+      "count": 10102
     },
     {
       "topic": "AAAI",
@@ -754,93 +716,17 @@
           "crank": "A*"
         }
       ],
-      "count": 12338
+      "count": 12339
     },
     {
       "topic": "IJCAI",
       "query": "s2:IJCAI",
-      "papers": [
-        {
-          "title": "Bayesian Optimization with Switching Cost: Regret Analysis and Lookahead Variants",
-          "authors": "Liu, P., Wang, H., & Wei, Q.",
-          "year": 2023,
-          "venue": "International Joint Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.24963/ijcai.2023/446",
-          "cites": 9,
-          "crank": "A*"
-        },
-        {
-          "title": "Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models",
-          "authors": "He, X., Wei, L., Xie, L., & Tian, Q.",
-          "year": 2024,
-          "venue": "International Joint Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.48550/arXiv.2401.03105",
-          "cites": 14,
-          "crank": "A*"
-        },
-        {
-          "title": "Polynomial-Time Relational Probabilistic Inference in Open Universes",
-          "authors": "Ge, L., Juba, B., & Nilsson, K.",
-          "year": 2025,
-          "venue": "International Joint Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.48550/arXiv.2505.04115",
-          "cites": 2,
-          "crank": "A*"
-        },
-        {
-          "title": "Artificial Intelligence in Spectroscopy: Advancing Chemistry from Prediction to Generation and Beyond",
-          "authors": "Guo, K., Shen, Y., González‐Montiel, G., Huang, Y., Zhou, Y., Surve, M., et al.",
-          "year": 2024,
-          "venue": "International Joint Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.48550/arXiv.2502.09897",
-          "cites": 25,
-          "crank": "A*"
-        }
-      ],
-      "count": 2994
+      "papers": []
     },
     {
       "topic": "ACL",
       "query": "s2:ACL",
-      "papers": [
-        {
-          "title": "From Information to Insight: Leveraging LLMs for Open Aspect-Based Educational Summarization",
-          "authors": "Zhong, Y., & Litman, D. J.",
-          "year": 2025,
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.18653/v1/2025.acl-long.95",
-          "cites": 3,
-          "crank": "A*"
-        },
-        {
-          "title": "QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning and Descriptions",
-          "authors": "Wang, S., Yu, W., Chen, X., Tian, X., Zhang, J., Lu, L., et al.",
-          "year": 2025,
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.48550/arXiv.2503.20290",
-          "cites": 34,
-          "crank": "A*"
-        },
-        {
-          "title": "AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models",
-          "authors": "Wu, Y., Yu, W., Cheng, Y., Wang, Y., Zhang, X., Xu, J., et al.",
-          "year": 2024,
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.48550/arXiv.2406.09295",
-          "cites": 10,
-          "crank": "A*"
-        },
-        {
-          "title": "MedScore: Generalizable Factuality Evaluation of Open-ended Long-form Medical Answers by Domain-adapted Claim Decomposition and Verification",
-          "authors": "Huang, H., DeLucia, A., Tiyyala, V. M., & Dredze, M.",
-          "year": 2025,
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.18653/v1/2026.findings-acl.693",
-          "cites": 6,
-          "crank": "A*"
-        }
-      ],
-      "count": 11933
+      "papers": []
     },
     {
       "topic": "EMNLP",
@@ -931,58 +817,23 @@
     {
       "topic": "ECCV",
       "query": "s2:ECCV",
-      "papers": [
-        {
-          "title": "End-to-End Rate-Distortion Optimized 3D Gaussian Representation",
-          "authors": "Wang, H., Zhu, H., He, T., Feng, R., Deng, J., Bian, J., et al.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 113,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Asynchronous Large Language Model Enhanced Planner for Autonomous Driving",
-          "authors": "Chen, Y., Ding, Z., Wang, Z., Wang, Y., Zhang, L., & Liu, S.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.14556",
-          "cites": 64,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation",
-          "authors": "Lai, B., Ryan, F., Jia, W., Liu, M., & Rehg, J. M.",
-          "year": 2023,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2305.03907",
-          "cites": 30,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Event-Based Motion Magnification",
-          "authors": "Chen, Y., Guo, S., Yu, F., Zhang, F., Gu, J., & Xue, T.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2402.11957",
-          "cites": 10,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        }
-      ],
-      "count": 2472
+      "papers": []
     },
     {
       "topic": "KDD",
       "query": "s2:KDD",
       "papers": [
+        {
+          "title": "GRIP: In-Parameter Graph Reasoning through Fine-Tuning Large Language Models",
+          "authors": "Feng, J., Cai, D., Chen, Y., & Zhang, M.",
+          "year": 2025,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3770855.3817895",
+          "cites": 2,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
         {
           "title": "Hyper-USS: Answering Subset Query Over Multi-Attribute Data Stream",
           "authors": "Miao, R., Zhang, Y., Qu, G., Yang, K., Yang, T., & Cui, B.",
@@ -990,6 +841,17 @@
           "venue": "Knowledge Discovery and Data Mining",
           "url": "https://doi.org/10.1145/3580305.3599383",
           "cites": 12,
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Multidisciplinary"
+        },
+        {
+          "title": "Continuous Causal Component and Structure Discovery from Time Series",
+          "authors": "Yang, D., Wang, J., Domeniconi, C., Wu, D., Zhang, D., Zhang, J., et al.",
+          "year": 2026,
+          "venue": "Knowledge Discovery and Data Mining",
+          "url": "https://doi.org/10.1145/3770855.3818046",
+          "cites": 0,
           "q": "Q4",
           "sjr": 0.1,
           "qcat": "Multidisciplinary"
@@ -1004,31 +866,9 @@
           "q": "Q4",
           "sjr": 0.1,
           "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Graph Neural Bandits",
-          "authors": "Qi, Y., Ban, Y., & He, J.",
-          "year": 2023,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3580305.3599371",
-          "cites": 32,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "CREAM: Continual Retrieval on Dynamic Streaming Corpora with Adaptive Soft Memory",
-          "authors": "Son, H., Kang, H., Kim, S., Ho, S., Kang, S., Lee, D., et al.",
-          "year": 2026,
-          "venue": "Knowledge Discovery and Data Mining",
-          "url": "https://doi.org/10.1145/3770854.3780281",
-          "cites": 3,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
         }
       ],
-      "count": 2256
+      "count": 3470
     },
     {
       "topic": "JMLR",
@@ -1070,8 +910,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
           "url": "https://doi.org/10.1109/tpami.2024.3369699",
-          "cites": 998,
-          "fwci": 138.25,
+          "cites": 997,
+          "fwci": 137.76,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.83,
@@ -1104,7 +944,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 2579
+      "count": 2572
     },
     {
       "topic": "AIJ",
@@ -1293,8 +1133,8 @@
           "year": 2023,
           "venue": "Technological Forecasting and Social Change",
           "url": "https://doi.org/10.1016/j.techfore.2023.123076",
-          "cites": 318,
-          "fwci": 74.26,
+          "cites": 319,
+          "fwci": 74.45,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.48,
@@ -1340,7 +1180,7 @@
           "qcat": "Applied Psychology"
         }
       ],
-      "count": 1570
+      "count": 1566
     },
     {
       "topic": "TAR",
@@ -1399,7 +1239,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 303
+      "count": 302
     },
     {
       "topic": "JAE",
@@ -1576,7 +1416,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 244
+      "count": 243
     },
     {
       "topic": "RAST",
@@ -1635,7 +1475,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 170
+      "count": 169
     },
     {
       "topic": "FFS",
@@ -1779,8 +1619,8 @@
           "year": 2023,
           "venue": "Technology Analysis and Strategic Management",
           "url": "https://doi.org/10.1080/09537325.2023.2289393",
-          "cites": 42,
-          "fwci": 11.09,
+          "cites": 41,
+          "fwci": 10.79,
           "pct": 10,
           "q": "Q2",
           "sjr": 0.82,
@@ -1812,8 +1652,8 @@
           "year": 2024,
           "venue": "Strategic Management Journal",
           "url": "https://doi.org/10.1002/smj.3677",
-          "cites": 230,
-          "fwci": 33.8,
+          "cites": 229,
+          "fwci": 33.65,
           "pct": 1,
           "q": "Q1",
           "sjr": 10.15,
@@ -1918,7 +1758,7 @@
           "qcat": "Finance"
         }
       ],
-      "count": 144
+      "count": 143
     },
     {
       "topic": "AMJ",
@@ -2213,7 +2053,7 @@
           "qcat": "Finance"
         }
       ],
-      "count": 276
+      "count": 277
     },
     {
       "topic": "OrgSci",
@@ -2225,8 +2065,8 @@
           "year": 2024,
           "venue": "Organization Science",
           "url": "https://doi.org/10.1287/orsc.2023.18430",
-          "cites": 348,
-          "fwci": 45.66,
+          "cites": 347,
+          "fwci": 45.52,
           "pct": 1,
           "q": "Q1",
           "sjr": 7.93,
@@ -2238,8 +2078,8 @@
           "year": 2026,
           "venue": "Organization Science",
           "url": "https://doi.org/10.1287/orsc.2025.21838",
-          "cites": 220,
-          "fwci": 729.72,
+          "cites": 218,
+          "fwci": 723.65,
           "pct": 1,
           "q": "Q1",
           "sjr": 7.93,
@@ -2272,7 +2112,7 @@
           "qcat": "Management of Technology and Innovation"
         }
       ],
-      "count": 278
+      "count": 277
     },
     {
       "topic": "MgmtSci",
@@ -2310,8 +2150,8 @@
           "year": 2025,
           "venue": "Management Science",
           "url": "https://doi.org/10.1287/mnsc.2023.03253",
-          "cites": 166,
-          "fwci": 199.14,
+          "cites": 165,
+          "fwci": 197.51,
           "pct": 1,
           "q": "Q1",
           "sjr": 6.43,
@@ -2331,25 +2171,12 @@
           "qcat": "Management Science and Operations Research"
         }
       ],
-      "count": 1296
+      "count": 1292
     },
     {
       "topic": "JMS",
       "query": "venue:S151705444",
       "papers": [
-        {
-          "title": "Strategy Can No Longer Ignore Planetary Boundaries: A Call for Tackling Strategy's Ecological Fallacy",
-          "authors": "Bansal, P., Durand, R., Kreutzer, M., Kunisch, S., & McGahan, A. M.",
-          "year": 2024,
-          "venue": "Journal of Management Studies",
-          "url": "https://doi.org/10.1111/joms.13088",
-          "cites": 113,
-          "fwci": 38.0,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 5.18,
-          "qcat": "Business and International Management"
-        },
         {
           "title": "Embracing non‐Western Contexts in Management Scholarship",
           "authors": "Wickert, C. M. J., Potočnik, K., Prashantham, S., Shi, W., & Snihur, Y.",
@@ -2358,6 +2185,19 @@
           "url": "https://doi.org/10.1111/joms.13048",
           "cites": 112,
           "fwci": 195.75,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 5.18,
+          "qcat": "Business and International Management"
+        },
+        {
+          "title": "Strategy Can No Longer Ignore Planetary Boundaries: A Call for Tackling Strategy's Ecological Fallacy",
+          "authors": "Bansal, P., Durand, R., Kreutzer, M., Kunisch, S., & McGahan, A. M.",
+          "year": 2024,
+          "venue": "Journal of Management Studies",
+          "url": "https://doi.org/10.1111/joms.13088",
+          "cites": 112,
+          "fwci": 37.6,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.18,
@@ -2382,15 +2222,15 @@
           "year": 2024,
           "venue": "Journal of Management Studies",
           "url": "https://doi.org/10.1111/joms.13150",
-          "cites": 66,
-          "fwci": 30.31,
+          "cites": 65,
+          "fwci": 29.78,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.18,
           "qcat": "Business and International Management"
         }
       ],
-      "count": 379
+      "count": 378
     },
     {
       "topic": "OrgStud",
@@ -2404,19 +2244,6 @@
           "url": "https://doi.org/10.1177/01708406241236610",
           "cites": 46,
           "fwci": 34.05,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 4.36,
-          "qcat": "Management of Technology and Innovation"
-        },
-        {
-          "title": "What is ‘Neo-Craft’ Work, and Why it Matters",
-          "authors": "Gandini, A., & Gerosa, A.",
-          "year": 2023,
-          "venue": "Organization Studies",
-          "url": "https://doi.org/10.1177/01708406231213963",
-          "cites": 42,
-          "fwci": 24.48,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.36,
@@ -2447,9 +2274,22 @@
           "q": "Q1",
           "sjr": 4.36,
           "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "Wage Theft, Secrecy, and Derealization of ‘Ideal Workers’ in the Bangladesh Garment Industry",
+          "authors": "Ahmed, M. S.",
+          "year": 2024,
+          "venue": "Organization Studies",
+          "url": "https://doi.org/10.1177/01708406241236608",
+          "cites": 32,
+          "fwci": 33.23,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 4.36,
+          "qcat": "Management of Technology and Innovation"
         }
       ],
-      "count": 205
+      "count": 203
     },
     {
       "topic": "HRM",
@@ -2559,15 +2399,15 @@
           "year": 2024,
           "venue": "Research Policy",
           "url": "https://doi.org/10.1016/j.respol.2024.105138",
-          "cites": 98,
-          "fwci": 44.97,
+          "cites": 97,
+          "fwci": 44.44,
           "pct": 1,
           "q": "Q1",
           "sjr": 4.47,
           "qcat": "Engineering (miscellaneous)"
         }
       ],
-      "count": 498
+      "count": 496
     },
     {
       "topic": "JIBS",
@@ -2626,7 +2466,7 @@
           "qcat": "Business and International Management"
         }
       ],
-      "count": 212
+      "count": 211
     },
     {
       "topic": "AOS",
@@ -2659,19 +2499,6 @@
           "qcat": "Accounting"
         },
         {
-          "title": "Accounting, reporting and verification of impact: Implications for sustainability: A commentary on Adams et al. (2024) “Styles of verification and the pursuit of organisational repair: The case of social impact”",
-          "authors": "Laine, M.",
-          "year": 2024,
-          "venue": "Accounting Organizations and Society",
-          "url": "https://doi.org/10.1016/j.aos.2023.101540",
-          "cites": 32,
-          "fwci": 10.81,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 3.1,
-          "qcat": "Accounting"
-        },
-        {
           "title": "Technological mediation, mediating morality and moral imaginaries of design: Performance measurement systems in the pharmaceutical industry",
           "authors": "Bottausci, C., Robson, K., & Dambrin, C.",
           "year": 2024,
@@ -2679,6 +2506,19 @@
           "url": "https://doi.org/10.1016/j.aos.2023.101535",
           "cites": 32,
           "fwci": 15.03,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 3.1,
+          "qcat": "Accounting"
+        },
+        {
+          "title": "Accounting, reporting and verification of impact: Implications for sustainability: A commentary on Adams et al. (2024) “Styles of verification and the pursuit of organisational repair: The case of social impact”",
+          "authors": "Laine, M.",
+          "year": 2024,
+          "venue": "Accounting Organizations and Society",
+          "url": "https://doi.org/10.1016/j.aos.2023.101540",
+          "cites": 31,
+          "fwci": 10.41,
           "pct": 10,
           "q": "Q1",
           "sjr": 3.1,
@@ -2744,7 +2584,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 104
+      "count": 102
     },
     {
       "topic": "EAR",
@@ -2803,7 +2643,7 @@
           "qcat": "Accounting"
         }
       ],
-      "count": 127
+      "count": 126
     },
     {
       "topic": "CPA",
@@ -2874,8 +2714,8 @@
           "year": 2024,
           "venue": "Accounting in Europe",
           "url": "https://doi.org/10.1080/17449480.2024.2312145",
-          "cites": 314,
-          "fwci": 103.51,
+          "cites": 315,
+          "fwci": 103.4,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.96,
@@ -2887,8 +2727,8 @@
           "year": 2024,
           "venue": "Accounting in Europe",
           "url": "https://doi.org/10.1080/17449480.2024.2339264",
-          "cites": 76,
-          "fwci": 25.7,
+          "cites": 77,
+          "fwci": 25.85,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.96,
@@ -2934,7 +2774,7 @@
           "venue": "Sustainability Accounting Management and Policy Journal",
           "url": "https://doi.org/10.1108/sampj-07-2023-0492",
           "cites": 73,
-          "fwci": 33.13,
+          "fwci": 32.99,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.81,
@@ -3064,8 +2904,8 @@
           "year": 2025,
           "venue": "The British Accounting Review",
           "url": "https://doi.org/10.1016/j.bar.2025.101551",
-          "cites": 71,
-          "fwci": 34.56,
+          "cites": 73,
+          "fwci": 35.37,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.71,
@@ -3123,8 +2963,8 @@
           "year": 2025,
           "venue": "Management Accounting Research",
           "url": "https://doi.org/10.1016/j.mar.2025.100942",
-          "cites": 27,
-          "fwci": 13.19,
+          "cites": 29,
+          "fwci": 14.05,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.62,
