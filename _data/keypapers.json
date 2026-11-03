@@ -142,7 +142,7 @@
           "title": "KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise",
           "authors": "J Loos, O Eberle",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.41480",
           "cites": 0,
           "pubdate": "2026-10-30",
@@ -156,7 +156,7 @@
           "title": "P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior",
           "authors": "G Brown, A Bari, A Tadikonda, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.40959",
           "cites": 0,
           "pubdate": "2026-10-29",
@@ -170,7 +170,7 @@
           "title": "Adaptive Personalization Under Preference Epistemic Uncertainty",
           "authors": "P Dey, R Das, V Bahirwani, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.40930",
           "cites": 0,
           "pubdate": "2026-10-29",
@@ -699,7 +699,7 @@
           "nr": "na"
         }
       ],
-      "n_citing": 395,
+      "n_citing": 396,
       "query": "persona generation"
     },
     "gABM": {
@@ -1523,7 +1523,7 @@
           "qcat": "Artificial Intelligence"
         }
       ],
-      "n_citing": 506,
+      "n_citing": 512,
       "query": "agent-based modeling"
     }
   }
