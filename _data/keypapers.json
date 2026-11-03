@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01",
+  "generated": "2026-11-03",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -139,6 +139,48 @@
       ],
       "citing": [
         {
+          "title": "KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise",
+          "authors": "J Loos, O Eberle",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.41480",
+          "cites": 0,
+          "pubdate": "2026-10-30",
+          "arxiv": "2610.41480",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-11-03",
+          "nr": "na"
+        },
+        {
+          "title": "P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior",
+          "authors": "G Brown, A Bari, A Tadikonda, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40959",
+          "cites": 0,
+          "pubdate": "2026-10-29",
+          "arxiv": "2610.40959",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-11-03",
+          "nr": "na"
+        },
+        {
+          "title": "Adaptive Personalization Under Preference Epistemic Uncertainty",
+          "authors": "P Dey, R Das, V Bahirwani, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.40930",
+          "cites": 0,
+          "pubdate": "2026-10-29",
+          "arxiv": "2610.40930",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-11-03",
+          "nr": "na"
+        },
+        {
           "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
           "authors": "S Reddy, A Abbas, A Suri, et al.",
           "year": 2026,
@@ -170,7 +212,7 @@
           "title": "A Contextual Measure of Ambiguity in Prescriptive Text",
           "authors": "S Dong, L Thorburn, A Konya, et al.",
           "year": 2026,
-          "venue": "arXiv (Cornell University)",
+          "venue": "arXiv",
           "url": "https://arxiv.org/abs/2610.35461",
           "cites": 0,
           "pubdate": "2026-10-26",
@@ -655,51 +697,9 @@
           "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
           "first_seen": "2026-10-24",
           "nr": "na"
-        },
-        {
-          "title": "Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning",
-          "authors": "C Ke, X Chen, X Shen, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.18461",
-          "cites": 0,
-          "pubdate": "2026-09-16",
-          "arxiv": "2609.18461",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents",
-          "authors": "C Ke, X Liu, H Zhang, et al.",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2609.17010",
-          "cites": 1,
-          "pubdate": "2026-09-15",
-          "arxiv": "2609.17010",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-25",
-          "nr": "na"
-        },
-        {
-          "title": "TAME: Token Attribution and Masking for Emergent misalignment",
-          "authors": "M Masud, M Parvez",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2609.16754",
-          "cites": 1,
-          "pubdate": "2026-09-15",
-          "arxiv": "2609.16754",
-          "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-10-27",
-          "nr": "na"
         }
       ],
-      "n_citing": 392,
+      "n_citing": 395,
       "query": "persona generation"
     },
     "gABM": {
