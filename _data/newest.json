@@ -30921,18 +30921,7 @@
         "qcat": "Computer Networks and Communications"
       }
     ],
-    "NeurIPS": [
-      {
-        "title": "The Machine Reconnaissance Blind Chess Tournament of NeurIPS 2022",
-        "authors": "Gardner, R. W., Perrotta, G., Shah, A., Kalyanakrishnan, S., Wang, K. A., Clark, G., et al.",
-        "year": 2021,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://www.semanticscholar.org/paper/0050e1c2005479bdad9ce5c21d555b05b7027914",
-        "cites": 4,
-        "topic": "NeurIPS",
-        "crank": "A*"
-      }
-    ],
+    "NeurIPS": [],
     "ICML": [
       {
         "title": "Improving language models by retrieving from trillions of tokens",
@@ -31083,7 +31072,18 @@
         "qcat": "Computer Science (miscellaneous)"
       }
     ],
-    "AAAI": [],
+    "AAAI": [
+      {
+        "title": "Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence, July 27 -31, 2014, Québec City, Québec, Canada.",
+        "authors": "Muise, C., Belle, V., & McIlraith, S. A.",
+        "year": 2014,
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "url": "https://www.semanticscholar.org/paper/00a885b63bbf98db8ccb5226928b91c23415c7cd",
+        "cites": 1,
+        "topic": "AAAI",
+        "crank": "A*"
+      }
+    ],
     "IJCAI": [
       {
         "title": "Attributed Graph Clustering via Adaptive Graph Convolution",
@@ -31146,68 +31146,7 @@
         "crank": "A*"
       }
     ],
-    "ACL": [
-      {
-        "title": "Multimodal Language Analysis in the Wild: CMU-MOSEI Dataset and Interpretable Dynamic Fusion Graph",
-        "authors": "Bagherzadeh, A. A., Liang, P., Poria, S., Cambria, E., & Morency, L.",
-        "year": 2018,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/P18-1208",
-        "cites": 1874,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "LLM in a flash: Efficient Large Language Model Inference with Limited Memory",
-        "authors": "Alizadeh-Vahid, K., Mirzadeh, I., Belenko, D., Khatamifard, K., Cho, M., Mundo, C. C. D., et al.",
-        "year": 2023,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.48550/arXiv.2312.11514",
-        "cites": 348,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "Embeddings for Word Sense Disambiguation: An Evaluation Study",
-        "authors": "Iacobacci, I., Pilehvar, M. T., & Navigli, R.",
-        "year": 2016,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/P16-1085",
-        "cites": 276,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "SciMON: Scientific Inspiration Machines Optimized for Novelty",
-        "authors": "Wang, Q., Downey, D., Ji, H., & Hope, T.",
-        "year": 2023,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/2024.acl-long.18",
-        "cites": 259,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "Retrieval of the Best Counterargument without Prior Topic Knowledge",
-        "authors": "Wachsmuth, H., Syed, S., & Stein, B.",
-        "year": 2018,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.18653/v1/P18-1023",
-        "cites": 226,
-        "topic": "ACL",
-        "crank": "A*"
-      },
-      {
-        "title": "GLUECoS: An Evaluation Benchmark for Code-Switched NLP",
-        "authors": "Khanuja, S., Dandapat, S., Srinivasan, A., Sitaram, S., & Choudhury, M.",
-        "year": 2020,
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "url": "https://doi.org/10.48550/arXiv.2004.12376",
-        "cites": 221,
-        "topic": "ACL",
-        "crank": "A*"
-      }
-    ],
+    "ACL": [],
     "EMNLP": [
       {
         "title": "EMNLP versus ACL: Analyzing NLP research over time",
@@ -31220,68 +31159,7 @@
         "crank": "A*"
       }
     ],
-    "ICCV": [
-      {
-        "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
-        "authors": "Hendrycks, D., Basart, S., Mu, N., Kadavath, S., Wang, F., Dorundo, E., et al.",
-        "year": 2020,
-        "venue": "IEEE International Conference on Computer Vision",
-        "url": "https://doi.org/10.1109/ICCV48922.2021.00823",
-        "cites": 2621,
-        "topic": "ICCV",
-        "crank": "A*"
-      },
-      {
-        "title": "Learning Background-Aware Correlation Filters for Visual Tracking",
-        "authors": "Galoogahi, H. K., Fagg, A., & Lucey, S.",
-        "year": 2017,
-        "venue": "IEEE International Conference on Computer Vision",
-        "url": "https://doi.org/10.1109/ICCV.2017.129",
-        "cites": 1156,
-        "topic": "ICCV",
-        "crank": "A*"
-      },
-      {
-        "title": "AI Choreographer: Music Conditioned 3D Dance Generation with AIST++",
-        "authors": "Li, R., Yang, S., Ross, D. A., & Kanazawa, A.",
-        "year": 2021,
-        "venue": "IEEE International Conference on Computer Vision",
-        "url": "https://doi.org/10.1109/ICCV48922.2021.01315",
-        "cites": 821,
-        "topic": "ICCV",
-        "crank": "A*"
-      },
-      {
-        "title": "Object Detection via a Multi-region and Semantic Segmentation-Aware CNN Model",
-        "authors": "Gidaris, S., & Komodakis, N.",
-        "year": 2015,
-        "venue": "IEEE International Conference on Computer Vision",
-        "url": "https://doi.org/10.1109/ICCV.2015.135",
-        "cites": 777,
-        "topic": "ICCV",
-        "crank": "A*"
-      },
-      {
-        "title": "Flow-Guided Feature Aggregation for Video Object Detection",
-        "authors": "Zhu, X., Wang, Y., Dai, J., Yuan, L., & Wei, Y.",
-        "year": 2017,
-        "venue": "IEEE International Conference on Computer Vision",
-        "url": "https://doi.org/10.1109/ICCV.2017.52",
-        "cites": 738,
-        "topic": "ICCV",
-        "crank": "A*"
-      },
-      {
-        "title": "Generating High-Quality Crowd Density Maps Using Contextual Pyramid CNNs",
-        "authors": "Sindagi, V. A., & Patel, V. M.",
-        "year": 2017,
-        "venue": "IEEE International Conference on Computer Vision",
-        "url": "https://doi.org/10.1109/ICCV.2017.206",
-        "cites": 682,
-        "topic": "ICCV",
-        "crank": "A*"
-      }
-    ],
+    "ICCV": [],
     "ECCV": [
       {
         "title": "Computer Vision – ECCV 2026: 19th European Conference, Malmö, Sweden, September 8–12, 2026, Proceedings, Part XXXVIII",

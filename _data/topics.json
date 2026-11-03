@@ -538,65 +538,187 @@
     {
       "topic": "NeurIPS",
       "query": "s2:NeurIPS",
-      "papers": []
-    },
-    {
-      "topic": "ICML",
-      "query": "s2:ICML",
-      "papers": []
-    },
-    {
-      "topic": "ICLR",
-      "query": "s2:ICLR",
-      "papers": []
-    },
-    {
-      "topic": "CVPR",
-      "query": "s2:CVPR",
-      "papers": []
-    },
-    {
-      "topic": "AAAI",
-      "query": "s2:AAAI",
       "papers": [
         {
-          "title": "Designing Ambiguity Sets for Distributionally Robust Optimization Using Structural Causal Optimal Transport",
-          "authors": "Ehyaei, A., Farnadi, G., & Samadi, S.",
-          "year": 2025,
-          "venue": "AAAI Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.1609/aaai.v39i16.33808",
-          "cites": 2,
-          "crank": "A*"
-        },
-        {
-          "title": "When Are Two Lists Better than One?: Benefits and Harms in Joint Decision-making",
-          "authors": "Donahue, K., Kollias, K., & Gollapudi, S.",
+          "title": "Computational Complexity of Learning Neural Networks: Smoothness and Degeneracy",
+          "authors": "Daniely, A., Srebro, N., & Vardi, G.",
           "year": 2023,
-          "venue": "AAAI Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.48550/arXiv.2308.11721",
-          "cites": 9,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.52202/075280-3334",
+          "cites": 11,
           "crank": "A*"
         },
         {
-          "title": "Automating the Expansion of Instrument Typicals in Piping and Instrumentation Diagrams (P&IDs)",
-          "authors": "Shteriyanov, V., Dzhusupova, R., Bosch, J., & Olsson, H.",
+          "title": "Inferring stochastic dynamics with growth from cross-sectional data",
+          "authors": "Zhang, S., Maddu, S., Qiu, X., & Chardès, V.",
           "year": 2025,
-          "venue": "AAAI Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.1609/aaai.v39i28.35155",
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2505.13197",
           "cites": 5,
           "crank": "A*"
         },
         {
-          "title": "Object Attribute Matters in Visual Question Answering",
-          "authors": "Li, P., Si, Q., Fu, P., Lin, Z., & Wang, Y.",
+          "title": "Information-theoretic Generalization Analysis for Expected Calibration Error",
+          "authors": "Futami, F., & Fujisawa, M.",
+          "year": 2024,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2405.15709",
+          "cites": 23,
+          "crank": "A*"
+        },
+        {
+          "title": "GREAT Score: Global Robustness Evaluation of Adversarial Perturbation using Generative Models",
+          "authors": "Li, Z., Chen, P., & Ho, T.",
           "year": 2023,
-          "venue": "AAAI Conference on Artificial Intelligence",
-          "url": "https://doi.org/10.48550/arXiv.2401.09442",
-          "cites": 7,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2304.09875",
+          "cites": 10,
           "crank": "A*"
         }
       ],
-      "count": 12339
+      "count": 13700
+    },
+    {
+      "topic": "ICML",
+      "query": "s2:ICML",
+      "papers": [
+        {
+          "title": "Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality",
+          "authors": "Southern, J., Eitan, Y., Bar-Shalom, G., Bronstein, M. M., Maron, H., & Frasca, F.",
+          "year": 2025,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://doi.org/10.48550/arXiv.2501.03113",
+          "cites": 8,
+          "crank": "A*"
+        },
+        {
+          "title": "High-dimensional Clustering onto Hamiltonian Cycle",
+          "authors": "Huang, T., Cheng, S., Li, S., & Zhang, Z.",
+          "year": 2023,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://doi.org/10.48550/arXiv.2304.14531",
+          "cites": 12,
+          "crank": "A*"
+        },
+        {
+          "title": "High-Dimensional Tensor Regression With Oracle Properties",
+          "authors": "Wang, W., Shi, Y., & Zhao, Z.",
+          "year": 2025,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://www.semanticscholar.org/paper/000e9fb2207f1e40b2195a4d376d8ff46eb54bb7",
+          "cites": 0,
+          "crank": "A*"
+        },
+        {
+          "title": "The Number of Trials Matters in Infinite-Horizon General-Utility Markov Decision Processes",
+          "authors": "Santos, P. P., Sardinha, A., & Melo, F. S.",
+          "year": 2024,
+          "venue": "International Conference on Machine Learning",
+          "url": "https://doi.org/10.48550/arXiv.2409.15128",
+          "cites": 3,
+          "crank": "A*"
+        }
+      ],
+      "count": 7323
+    },
+    {
+      "topic": "ICLR",
+      "query": "s2:ICLR",
+      "papers": [
+        {
+          "title": "DiffusER: Diffusion via Edit-based Reconstruction",
+          "authors": "Reid, M., Hellendoorn, V. J., & Neubig, G.",
+          "year": 2023,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/0004c4e27e54f13577951416d8ed476e93f00ef9",
+          "cites": 40,
+          "crank": "A*"
+        },
+        {
+          "title": "Anatomy-aware Representation Learning for Medical Ultrasound",
+          "authors": "Oh, S., Kim, M., Jung, G., Lee, H., Kim, Y., Kim, S., et al.",
+          "year": 2026,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/0005f86b2ed044280db1e93c8eaa0431a32a9070",
+          "cites": 1,
+          "crank": "A*"
+        },
+        {
+          "title": "Exploiting Hidden Symmetry to Improve Objective Perturbation for DP Linear Learners with a Nonsmooth L1-Norm",
+          "authors": "Chen, D., & Chua, G. A.",
+          "year": 2025,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://www.semanticscholar.org/paper/00094e8c9e3cff020fcc75ced74a751b1104fe8b",
+          "cites": 0,
+          "crank": "A*"
+        },
+        {
+          "title": "NGS-Marker: Robust Native Watermarking for 3D Gaussian Splatting",
+          "authors": "Qin, H., Sun, Y., Chen, L., Lu, M., Zhang, F., Kong, M., et al.",
+          "year": 2026,
+          "venue": "International Conference on Learning Representations",
+          "url": "https://doi.org/10.48550/arXiv.2608.17447",
+          "cites": 3,
+          "crank": "A*"
+        }
+      ],
+      "count": 9769
+    },
+    {
+      "topic": "CVPR",
+      "query": "s2:CVPR",
+      "papers": [
+        {
+          "title": "Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding",
+          "authors": "Wang, S., Lin, Y., & Wu, Y.",
+          "year": 2024,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
+          "cites": 8,
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "ReSpec: Relevance and Specificity Grounded Online Filtering for Learning on Video-Text Data Streams",
+          "authors": "Kim, C. D., Moon, J., Moon, S., Yun, H., Lee, S., Kembhavi, A., et al.",
+          "year": 2025,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52734.2025.02704",
+          "cites": 3,
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "Learning Correlation Structures for Vision Transformers",
+          "authors": "Kim, M., Seo, P. H., Schmid, C., & Cho, M.",
+          "year": 2024,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
+          "cites": 38,
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
+          "authors": "Murai, R., Dexheimer, E., & Davison, A. J.",
+          "year": 2024,
+          "venue": "Computer Vision and Pattern Recognition",
+          "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
+          "cites": 334,
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Computer Science (miscellaneous)"
+        }
+      ],
+      "count": 10103
+    },
+    {
+      "topic": "AAAI",
+      "query": "s2:AAAI",
+      "papers": []
     },
     {
       "topic": "IJCAI",
@@ -730,45 +852,7 @@
     {
       "topic": "ICCV",
       "query": "s2:ICCV",
-      "papers": [
-        {
-          "title": "On the Complexity-Faithfulness Trade-Off of Gradient-Based Explanations",
-          "authors": "Mehrpanah, A., Gamba, M., Smith, K. A., & Azizpour, H.",
-          "year": 2025,
-          "venue": "IEEE International Conference on Computer Vision",
-          "url": "https://doi.org/10.1109/ICCV51701.2025.00337",
-          "cites": 2,
-          "crank": "A*"
-        },
-        {
-          "title": "Computationally-Efficient Neural Image Compression with Shallow Decoders",
-          "authors": "Yang, Y., & Mandt, S.",
-          "year": 2023,
-          "venue": "IEEE International Conference on Computer Vision",
-          "url": "https://doi.org/10.1109/ICCV51070.2023.00055",
-          "cites": 54,
-          "crank": "A*"
-        },
-        {
-          "title": "Generalized Few-Shot Point Cloud Segmentation Via Geometric Words",
-          "authors": "Xu, Y., Hu, C., Zhao, N., & Lee, G. H.",
-          "year": 2023,
-          "venue": "IEEE International Conference on Computer Vision",
-          "url": "https://doi.org/10.1109/ICCV51070.2023.01966",
-          "cites": 22,
-          "crank": "A*"
-        },
-        {
-          "title": "OVA-Fields: Weakly Supervised Open-Vocabulary Affordance Fields for Robot Operational Part Detection",
-          "authors": "Su, H., Xie, M., Cao, N., Ding, Y., Shao, B., Long, X., et al.",
-          "year": 2025,
-          "venue": "IEEE International Conference on Computer Vision",
-          "url": "https://doi.org/10.1109/ICCV51701.2025.00602",
-          "cites": 7,
-          "crank": "A*"
-        }
-      ],
-      "count": 4640
+      "papers": []
     },
     {
       "topic": "ECCV",
