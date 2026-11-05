@@ -1,7 +1,123 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Personal Brain Models",
+      "url": "https://sanketbhandarii.github.io/personal-brain-models/Sanket_Personal_Brain_Models_2026.pdf",
+      "authors": "SP Bhandari",
+      "snippet": "AI chatbots such as ChatGPT and Claude are now widely used to brainstorm ideas. Their ideas often feel generic and similar, because they are trained on huge amounts of general text and tend to repeat the most common patterns in it. Human brains work differently. Each brain holds a lifetime of personal experiences, including joyful moments, past traumas, embarrassing moments and lessons learned while growing up, and many original ideas come from this personal depth. However, people cannot …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "nr": "na"
+    },
+    {
+      "title": "Short: Plan as the Unit of Accounting in Agentic AI",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3843967.3844679",
+      "authors": "H B. Pasandi, N Arabzadeh, M Pan - Proceedings of the 5th Workshop on Practical …, 2026",
+      "snippet": "Operators meter agentic AI one model call at a time, because the call is what the serving stack and the invoice expose. The unit of work is the plan: one request expands into generator, verifier, retry, and judge calls, so the dashboard's numbers are decided one layer above the layer that records them. We present PlanLayer, a thin runtime layer that stamps three fields on every call: a plan identifier, a stage role, and a commit flag set at plan close. Four plan-level accounts follow by aggregation …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "nr": "na"
+    },
+    {
+      "title": "Cross-Domain Transfer of the Procedural Skill Cache",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11744954/",
+      "authors": "J Gokulraj, L Karthikeyan - 2026 5th International Conference on Innovative …, 2026",
+      "snippet": "Procedural memory in multi-agent large language model (LLM) systems typically caches reusable multi-step action sequences, or skills, indexed by surface task features within a single task domain. This domain-siloed indexing leaves structurally transferable skills invisible to retrieval whenever a new task falls outside the domain in which the skill was originally cached, forcing redundant skill re-discovery, while naive cross-domain retrieval that ignores this structure risks negative transfer by …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "nr": "na"
+    },
+    {
+      "title": "Beyond Automation: Intrinsically Human Aspects of Creativity in the Age of Generative Artificial Intelligence",
+      "url": "https://academic.oup.com/edited-volume/63609/chapter/583704677",
+      "authors": "M DeSchryver, D Henriksen, S Gedutis Lindsay - 2026",
+      "snippet": "This chapter identifies six aspects of creativity that reflect intrinsically human capacities and examines the human affordances that make them difficult for generative artificial intelligence (GenAI) to authentically replicate. Although GenAI may appear to demonstrate these traits, it often reflects a sense of mimicry rather than genuine experience or intention. By drawing these distinctions, the chapter points to the limits of GenAI while also showing how it can support collaborative …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "nr": "na"
+    },
+    {
+      "title": "Polyphonic Creativity: Navigating the Opportunities and Challenges of Artificial Intelligence in Education",
+      "url": "https://academic.oup.com/edited-volume/63609/chapter/583704908",
+      "authors": "IJ Ness, G Smith-Nunes - 2026",
+      "snippet": "Polyphonic Creativity: Navigating the Opportunities and Challenges of Artificial \r\nIntelligence in Education | The Oxford Handbook of Human Creativity and Generative \r\nArtificial Intelligence in Education | Oxford Academic Skip to Main Content Oxford \r\nAcademic Search Menu AI Discovery Assistant Information Account Menu Information \r\nAccount Sign in through your institution Remember my institution Navbar Search Filter \r\nMobile Enter search term Search Subject Arts and Humanities Browse content in Arts …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "nr": "na"
+    },
+    {
+      "title": "SCIMEM: Memory-Augmented Agentic Architectures for Long-Horizon Scientific Reasoning",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11744862/",
+      "authors": "J Gokulraj, L Karthikeyan - 2026 5th International Conference on Innovative …, 2026",
+      "snippet": "Scientific reasoning that unfolds over many sessions-piecing together evidence gathered days or weeks apart, revising earlier hypotheses, and carrying forward accumulated domain knowledge-remains one of the hardest unsolved problems for today's LLM-based agents. The difficulty is structural: context windows, however large, eventually fill up, and once they do, agents lose earlier findings, cannot reconcile new data against old conclusions, and must rediscover procedural …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "nr": "na"
+    },
+    {
+      "title": "MONETIZATION MECHANISMS IN AGENTIC MULTICHANNEL ECOSYSTEMS",
+      "url": "https://actainnovations.com/index.php/pub/article/download/2863/1547",
+      "authors": "H Agarwal, Y Agarwal - ACTA INNOVATIONS, 2026",
+      "snippet": "Software agents can compare providers, invoke tools, and initiate transactions before a user reaches a conventional checkout. The payment rule can therefore influence both settlement and the route selected on the user's behalf. This paper represents each executed task as a provenance-bearing transaction graph and evaluates a two-part rule that combines verified base reimbursement with a confidence-and risk-weighted share of realized surplus. The evaluation Uses a Monte Carlo simulation …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "q": "Q2",
+      "sjr": 0.35,
+      "qcat": "Engineering (miscellaneous)"
+    },
+    {
+      "title": "Understanding & Supporting Bottom-Up Resistance To Harmful AI Systems",
+      "url": "http://reports-archive.adm.cs.cmu.edu/anon/anon/usr/ftp/hcii/CMU-HCII-26-105.pdf",
+      "authors": "A DeVrio - 2026",
+      "snippet": "AI systems often behave in ways that harm people, such as by perpetuating racial stereotypes, violating privacy, damaging health, and causing economic losses. There have been many efforts to address AI harms that are led top-down by researchers, industry practitioners, government officials, or other technologists. These top-down, more centrally-led approaches to AI harm remediation tend to view AI systems as inevitable and thus conceive of reformist solutions to harm. At the same time, people …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "nr": "na"
+    },
+    {
+      "title": "Understanding and supporting young adults' mental health care-seeking and emotional coping",
+      "url": "https://repositories.lib.utexas.edu/bitstreams/bc75c601-edf2-4371-b54d-c636c37605d2/download",
+      "authors": "J Liu - 2026",
+      "snippet": "Young adults face persistent challenges in accessing mental health care, yet prior research has seldom examined the full trajectories of care-seeking they navigate—from initial recognition of mental health concerns through repeated attempts to access formal and informal support. Emotional coping demands arise throughout these journeys, frequently in everyday contexts where professional support is unavailable, requiring individuals to regulate distress daily. Scholarship on how …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "nr": "na"
+    },
+    {
+      "title": "Fatigue Crack Growth in Additively Manufactured and Advanced Alloys: From Synchrotron Imaging to Physics-Informed Digital Twins",
+      "url": "https://www.mdpi.com/2076-3417/16/21/10813",
+      "authors": "AM Alshoaibi, OY Bakather - Applied Sciences, 2026",
+      "snippet": "Predicting fatigue crack growth in structural alloys requires linking processes that span enormous differences in scale, from crystallographic slip at the nanoscale to failure of an entire component. Engineering assessments still rely heavily on phenomenological models such as Paris, Walker and NASGRO. These models are practically useful, but their limitations become apparent under multiaxial loading, in microstructures with pronounced local variation, and in harsh environments where …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-05",
+      "q": "Q4",
+      "sjr": 0.15,
+      "qcat": "Applied Mathematics"
+    },
+    {
+      "title": "Nationwide Trends in the Incidence and Fatality of Acute Myocardial Infarction and Stroke in Korea, 2011–2023",
+      "url": "https://www.e-kcj.org/DOIx.php?id=10.4070/kcj.2026.0060",
+      "authors": "J Khil, S Shin, S Shin, J Lee, M Cho, NY Ahn, SG Lee… - Korean Circulation Journal, 2026",
+      "snippet": "Methods We analyzed National Health Insurance Service (NHIS) claims data covering the entire Korean population from 2002 to 2023. The period from 2002-2010 served as a washout period, and annual incidence and case-fatality rates were estimated for 2011-2023. AMI (ICD-10: I21-I23) and stroke (ICD-10: I60-I61, I63-I64) events were identified from hospitalization episodes using diagnostic, procedure, imaging, and mortality codes. Crude and age-standardized rates were calculated …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-05",
+      "q": "Q2",
+      "sjr": 0.79,
+      "qcat": "Cardiology and Cardiovascular Medicine"
+    },
     {
       "title": "The Inbox as a Coordination Primitive for LLM Agent Societies",
       "url": "https://arxiv.org/pdf/2610.36264",
@@ -321,124 +437,6 @@
       "scholar": "Joon Sung Park",
       "date": "2026-10-31",
       "nr": "na"
-    },
-    {
-      "title": "Work Agents: Systems, Capabilities, and Optimization",
-      "url": "https://arxiv.org/pdf/2610.35845",
-      "authors": "Z Xu, E Du, M Gao, C Yang, J Shen, Z Chen, Z Yao… - arXiv preprint arXiv …, 2026",
-      "snippet": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation models and runtime harnesses to execute tasks in stateful …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-31",
-      "nr": "na"
-    },
-    {
-      "title": "Agentic Memory Management Is the Next Frontier of Information Retrieval",
-      "url": "https://arxiv.org/pdf/2610.32464",
-      "authors": "Q Ai - arXiv preprint arXiv:2610.32464, 2026",
-      "snippet": "Information retrieval has long been focusing on connecting people with information they need to complete their tasks. Recently, the meaning of this has changed dramatically as more and more AI agents now consume, retain, and act on information on a user's behalf. Consequently, information management now also takes place\\emph {inside} the agent in the form of memory management. In this perspective paper, we argue that\\emph {agentic memory management}(AMM), which …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-31",
-      "nr": "na"
-    },
-    {
-      "title": "Lost in Translation: Investigating Systematic Discrepancies between Parallel English and Chinese Names of American Chinese Restaurants",
-      "url": "https://arxiv.org/pdf/2610.35191",
-      "authors": "H Jiang, N Liu, T Wang, C Overney, R Zhang, A Luk… - arXiv preprint arXiv …, 2026",
-      "snippet": "Given that the Chinese are one of the oldest ethnic groups to immigrate to the US, their cuisine have become central to the US dining scene and an interesting avenue to study how Chinese immigrants have culturally adapted into American life. In that regard, previous research has focused on analyzing the English names that Chinese restaurants adopt, eg, finding the use of familiar and typical words. To investigate how Chinese immigrants have culturally integrated in the US depending on social …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-31",
-      "nr": "na"
-    },
-    {
-      "title": "Evaluating with Disagreement: Metrics for Soft and Perspectivist Evaluation of Categorical and Ordinal Judgments",
-      "url": "https://aclanthology.org/2026.pandora-1.14.pdf",
-      "authors": "G Rizzi, S Casola, E Fersini, E Leonardelli, B Plank… - Proceedings of the First …, 2026",
-      "snippet": "Disagreement-aware NLP challenges the assumption that each instance has a single gold label and raises new questions about evaluation. We examine the evaluation framework introduced in the third edition of the Learning With Disagreement (LeWiDi) shared task, which combines soft evaluation of label distributions with perspectivist evaluation of annotator-specific judgments. We describe the metrics adopted and motivate their adaptation to categorical, ordinal …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-31",
-      "nr": "na"
-    },
-    {
-      "title": "FRAMEWORK INTEGRADO PARA AVALIAÇÃO DA SUSTENTABILIDADE AMBIENTAL DA INTELIGÊNCIA ARTIFICIAL",
-      "url": "https://mail.revistageo.com.br/revgeo/article/download/3823/2988",
-      "authors": "DA Alcântara, TGC da Silva, AS de Oliveira… - Revista de Geopolítica, 2026",
-      "snippet": "A expansão da Inteligência Artificial (IA), especialmente dos modelos fundacionais e dos Grandes Modelos de Linguagem, tem ampliado a demanda por infraestrutura computacional, energia elétrica e recursos associados aos data centers. Este estudo tem como objetivo desenvolver um framework integrado para avaliação da sustentabilidade ambiental de sistemas de IA, articulando infraestrutura computacional, indicadores energéticos, indicadores ambientais e Objetivos de …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-31",
-      "nr": "na"
-    },
-    {
-      "title": "Do Small Language Models Add Value to Churn Classifiers? An Ablation and Faithfulness Audit of Zero-Shot Explanations for Business Intelligence",
-      "url": "https://www.mdpi.com/2078-2489/17/11/1073",
-      "authors": "KI Roumeliotis, D Margaris, D Spiliotopoulos… - Information, 2026",
-      "snippet": "Tree-ensemble classifiers predict customer churn accurately but explain little, and small language models (SLMs) are increasingly proposed as a zero-shot narration layer on top of them. We test whether such SLMs add decision value or trustworthy explanations, combining a nine-condition prompt-ablation grid with XGBoost, Random Forest, and two 4-billion-parameter SLMs (Qwen3. 5-4B, Gemma3-4B) on 7501 test customers, non-LLM baselines, and blinded human audits. Gemma3-4B's …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-31",
-      "nr": "na"
-    },
-    {
-      "title": "Evaluating Arithmetic Reasoning Skills Beyond Benchmark Accuracy: A Session-Based Experimental Design for LLMs",
-      "url": "https://www.mdpi.com/2076-3417/16/21/10560/pdf",
-      "authors": "F Albayrak, E Turan, U Orhan - Applied Sciences, 2026",
-      "snippet": "Although LLMs demonstrate high success in logical tasks, it remains debated whether this stems from genuine reasoning or statistical memorization. This study presents a novel, multi-dimensional, perturbation-and session-based behavioral testing framework to assess LLMs' arithmetic reasoning. To reduce the potential effect of data contamination, texts from the DROP, GSM8k, and MATH datasets were structurally manipulated. A comprehensive analysis was conducted on seven …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-31",
-      "q": "Q4",
-      "sjr": 0.15,
-      "qcat": "Applied Mathematics"
-    },
-    {
-      "title": "Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents",
-      "url": "https://arxiv.org/pdf/2610.32578",
-      "authors": "HH Aliabadi - arXiv preprint arXiv:2610.32578, 2026",
-      "snippet": "AI coding agents increasingly work inside a harness: rule files such as AGENTS. md, on-demand skills, runtime hooks and automated checks. Most studies of harnesses look at a single point in time or at short benchmark runs. I report a six-week case study of my personal system of record, a plain-markdown repository that three AI agent tools edited daily under one shared rule set. I built a ledger of 118 agent failures, their fixes and whether they came back. I also tested the system's monthly …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-10-31",
-      "nr": "na"
-    },
-    {
-      "title": "Gradient‐Oxidized Bacterial Cellulose for Self‐Sustained Soil Moisture Sensing",
-      "url": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/advs.78511",
-      "authors": "N Zhou, J Li, X Xu, S Ye, B Chen, S Wu, D Xu, K Liu… - Advanced Science, 2026",
-      "snippet": "Soil moisture monitoring is pivotal to precision agricultural irrigation. Conventional soil moisture sensors rely on external power supplies and suffer from poor environmental compatibility. The facile fabrication of hydrovoltaic devices with asymmetric film structures remains challenging, and related designs tailored for soil scenarios are still insufficient. Here, we report an in situ‐grown planar asymmetric encapsulated bacterial cellulose (AEBC) device for self‐powered soil moisture …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-31",
-      "q": "Q1",
-      "sjr": 3.29,
-      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
-    },
-    {
-      "title": "Priority-driven multi-intent question answering via intent sequence decision and coordinated multi-agent generation",
-      "url": "https://www.sciencedirect.com/science/article/pii/S2590005626006685",
-      "authors": "J Lyu, S Sun, N Lu, B Zhang - Array, 2026",
-      "snippet": "In vertical-domain question answering, users routinely embed multiple business intents within a single query, and those intents are not equally important. Yet existing frameworks treat multi-intent queries with either single-pass pipelines or unordered multi-label classifiers, discarding priority information entirely. This creates a two-pronged structural failure: downstream retrieval receives no priority signal and cannot schedule knowledge resources accordingly, while the final answer …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-31",
-      "q": "Q1",
-      "sjr": 1.26,
-      "qcat": "Computer Science (miscellaneous)"
-    },
-    {
-      "title": "Separation and purification of decanoic acid modified CeO2 hybrid nanoparticles using high pressure CO2-cyclohexane mixtures",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1383586626039511",
-      "authors": "N Yang, M Ota, RL Smith Jr, T Tomai, A Yoko… - Separation and Purification …, 2026",
-      "snippet": "Conventional purification methods for hybrid nanoparticles rely on precipitation and redispersion, but they consume large volumes of organic solvents and require long, multi-step processing. This study develops a high-pressure CO 2–cyclohexane mixed-solvent process that selectively recovers highly dispersible decanoic acid modified CeO 2 nanoparticles through a single-step extraction process with a short (< 1 h) purification time. Extraction behavior and purification performance were …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-10-31",
-      "q": "Q1",
-      "sjr": 1.56,
-      "qcat": "Analytical Chemistry"
     }
   ]
 }
