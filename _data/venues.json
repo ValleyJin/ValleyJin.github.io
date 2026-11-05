@@ -6,9 +6,9 @@
       "type": "conference",
       "link": "https://neurips.cc/",
       "h": 200,
-      "i10": 4754,
-      "if2": 6.3,
-      "works": 19267,
+      "i10": 4759,
+      "if2": 6.4,
+      "works": 19260,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
@@ -25,6 +25,19 @@
       "name": "International Conference on Machine Learning",
       "type": "conference",
       "link": "https://icml.cc/",
+      "h": 216,
+      "i10": 1387,
+      "if2": 0,
+      "works": 2041,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Domain Adaptation and Few-Shot Learning",
+        "Reinforcement Learning in Robotics",
+        "Stochastic Gradient Optimization Techniques",
+        "Advanced Bandit Algorithms Research"
+      ],
       "founded": 1980,
       "about": "The International Conference on Machine Learning (ICML) is an international academic conference in machine learning held annually since 1980. It is the oldest and, along with NeurIPS and ICLR, one of the three primary co",
       "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8e/ICML_logo_2026.svg/330px-ICML_logo_2026.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -35,6 +48,19 @@
       "name": "International Conference on Learning Representations",
       "type": "conference",
       "link": "https://iclr.cc/",
+      "h": 86,
+      "i10": 330,
+      "if2": 0,
+      "works": 601,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "topics3y": [
+        "Adversarial Robustness in Machine Learning",
+        "Digital Media Forensic Detection",
+        "Topic Modeling",
+        "Advanced Neural Network Applications"
+      ],
       "founded": 2013,
       "about": "The International Conference on Learning Representations (ICLR) is a machine learning conference typically held in late April or early May each year. Along with NeurIPS and ICML, it is one of the three primary conference",
       "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5a/International_Conference_on_Learning_Representations.svg/960px-International_Conference_on_Learning_Representations.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -42,9 +68,22 @@
       "group": "AI"
     },
     "CVPR": {
-      "name": "Computer Vision and Pattern Recognition",
+      "name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
       "type": "conference",
       "link": "https://cvpr.thecvf.com/",
+      "h": 778,
+      "i10": 20060,
+      "if2": 26.2,
+      "works": 25301,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
+      "topics3y": [
+        "Advanced Neural Network Applications",
+        "Generative Adversarial Networks and Image Synthesis",
+        "3D Shape Modeling and Analysis",
+        "Multimodal Machine Learning Applications"
+      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -53,8 +92,8 @@
       "type": "conference",
       "link": "https://aaai.org/conference/aaai/",
       "h": 309,
-      "i10": 10250,
-      "if2": 6.8,
+      "i10": 10257,
+      "if2": 6.9,
       "works": 25116,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -73,9 +112,9 @@
       "type": "conference",
       "link": "https://www.ijcai.org/",
       "h": 202,
-      "i10": 4756,
+      "i10": 4755,
       "if2": 2.8,
-      "works": 12035,
+      "works": 12034,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
@@ -95,8 +134,8 @@
       "type": "conference",
       "link": "https://www.aclweb.org/",
       "h": 313,
-      "i10": 5582,
-      "if2": 6.8,
+      "i10": 5585,
+      "if2": 6.9,
       "works": 12134,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -115,7 +154,7 @@
       "type": "conference",
       "link": "https://aclanthology.org/venues/emnlp/",
       "h": 284,
-      "i10": 5289,
+      "i10": 5292,
       "if2": 3.9,
       "works": 13122,
       "domain": "Physical Sciences",
@@ -131,11 +170,22 @@
       "group": "AI"
     },
     "ICCV": {
-      "name": "IEEE International Conference on Computer Vision",
+      "name": "IEEE/CVF International Conference on Computer Vision (ICCV)",
       "type": "conference",
       "link": "https://iccv.thecvf.com/",
-      "founded": 1987,
-      "about": "The International Conference on Computer Vision (ICCV) is a research conference sponsored by the Institute of Electrical and Electronics Engineers (IEEE) held every other year. It is considered to be one of the top confe",
+      "h": 489,
+      "i10": 8087,
+      "if2": 4.4,
+      "works": 11850,
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
+      "topics3y": [
+        "Advanced Neural Network Applications",
+        "Generative Adversarial Networks and Image Synthesis",
+        "Multimodal Machine Learning Applications",
+        "3D Shape Modeling and Analysis"
+      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -166,6 +216,156 @@
       "field": "Computer Science",
       "sub": "Information Systems",
       "crank": "A*",
+      "group": "AI"
+    },
+    "JMLR": {
+      "name": "Journal of Machine Learning Research",
+      "type": "journal",
+      "link": "https://www.jmlr.org/",
+      "h": 76,
+      "if2": 0,
+      "works": 532,
+      "issn": "1532-4435",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "sjr": 2.0,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ],
+        [
+          "Control and Systems Engineering",
+          "Q1"
+        ],
+        [
+          "Software",
+          "Q1"
+        ],
+        [
+          "Statistics and Probability",
+          "Q1"
+        ]
+      ],
+      "topics3y": [
+        "Auction Theory and Applications",
+        "Text and Document Classification Technologies",
+        "Machine Learning and Algorithms",
+        "Advanced Bandit Algorithms Research"
+      ],
+      "founded": 2000,
+      "about": "The Journal of Machine Learning Research is a peer-reviewed open access scientific journal covering machine learning. It was established in 2000 and the first editor-in-chief was Leslie Kaelbling. The current editors-in-",
+      "group": "AI"
+    },
+    "TPAMI": {
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "type": "journal",
+      "link": "https://www.computer.org/csdl/journal/tp",
+      "h": 564,
+      "if2": 18.9,
+      "works": 12614,
+      "issn": "0162-8828",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Computer Vision and Pattern Recognition",
+      "sjr": 4.83,
+      "q": "Q1",
+      "cats": [
+        [
+          "Applied Mathematics",
+          "Q1"
+        ],
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ],
+        [
+          "Computational Theory and Mathematics",
+          "Q1"
+        ],
+        [
+          "Computer Vision and Pattern Recognition",
+          "Q1"
+        ],
+        [
+          "Software",
+          "Q1"
+        ]
+      ],
+      "topics3y": [
+        "Advanced Neural Network Applications",
+        "Domain Adaptation and Few-Shot Learning",
+        "Multimodal Machine Learning Applications",
+        "3D Shape Modeling and Analysis"
+      ],
+      "founded": 1979,
+      "about": "IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society.",
+      "group": "AI"
+    },
+    "AIJ": {
+      "name": "Artificial Intelligence",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/artificial-intelligence",
+      "h": 307,
+      "if2": 4.8,
+      "works": 4865,
+      "issn": "0004-3702",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "sjr": 1.29,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ],
+        [
+          "Linguistics and Language",
+          "Q1"
+        ]
+      ],
+      "topics3y": [
+        "Logic, Reasoning, and Knowledge",
+        "AI-based Problem Solving and Planning",
+        "Constraint Satisfaction and Optimization",
+        "Reinforcement Learning in Robotics"
+      ],
+      "founded": 1970,
+      "about": "Artificial Intelligence is a scientific journal covering research in artificial intelligence. It was established in 1970 and is published by Elsevier. The journal is abstracted and indexed in Scopus and the Science Citat",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/c/cb/Artificial_Intelligence_%28journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "AI"
+    },
+    "JAIR": {
+      "name": "Journal of Artificial Intelligence Research",
+      "type": "journal",
+      "link": "https://www.jair.org/",
+      "h": 170,
+      "if2": 7.1,
+      "works": 1885,
+      "issn": "1076-9757",
+      "domain": "Physical Sciences",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
+      "sjr": 1.11,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ]
+      ],
+      "topics3y": [
+        "Logic, Reasoning, and Knowledge",
+        "Constraint Satisfaction and Optimization",
+        "Reinforcement Learning in Robotics",
+        "AI-based Problem Solving and Planning"
+      ],
+      "founded": 1993,
+      "about": "The Journal of Artificial Intelligence Research (JAIR) is an open access peer-reviewed scientific journal covering research in all areas of artificial intelligence.",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/6/64/JAIRcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "AI"
     },
     "Futures": {
@@ -209,8 +409,8 @@
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
       "h": 300,
-      "if2": 20.1,
-      "works": 10270,
+      "if2": 20.2,
+      "works": 10271,
       "issn": "0040-1625",
       "domain": "Social Sciences",
       "field": "Decision Sciences",
@@ -359,7 +559,7 @@
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/19113846",
       "h": 194,
-      "if2": 5.2,
+      "if2": 5.3,
       "works": 2426,
       "issn": "0823-9150",
       "domain": "Social Sciences",
@@ -502,7 +702,7 @@
       "link": "https://www.tandfonline.com/journals/ctas20",
       "h": 116,
       "if2": 3.1,
-      "works": 3079,
+      "works": 3081,
       "issn": "0953-7325",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
@@ -726,7 +926,7 @@
       "type": "journal",
       "link": "https://aom.org/research/journals/academy-of-management-review",
       "h": 558,
-      "if2": 9.2,
+      "if2": 9.3,
       "works": 3661,
       "issn": "0363-7425",
       "domain": "Social Sciences",
@@ -868,7 +1068,7 @@
       "link": "https://onlinelibrary.wiley.com/journal/14676486",
       "h": 318,
       "if2": 8.1,
-      "works": 3777,
+      "works": 3779,
       "issn": "0022-2380",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
@@ -942,7 +1142,7 @@
       "name": "Human Resource Management",
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/1099050X",
-      "h": 176,
+      "h": 177,
       "if2": 11.2,
       "works": 3264,
       "issn": "0090-4848",
@@ -983,7 +1183,7 @@
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/research-policy",
       "h": 411,
-      "if2": 9.9,
+      "if2": 10.0,
       "works": 5300,
       "issn": "0048-7333",
       "domain": "Social Sciences",
@@ -1213,7 +1413,7 @@
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/critical-perspectives-on-accounting",
       "h": 130,
-      "if2": 7.8,
+      "if2": 7.9,
       "works": 2385,
       "issn": "1045-2354",
       "domain": "Social Sciences",
@@ -1255,7 +1455,7 @@
       "type": "journal",
       "link": "https://www.tandfonline.com/toc/raie20/current",
       "h": 59,
-      "if2": 12.3,
+      "if2": 12.4,
       "works": 375,
       "issn": "1744-9480",
       "domain": "Social Sciences",
@@ -1325,7 +1525,7 @@
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/international-journal-of-accounting-information-systems",
       "h": 99,
-      "if2": 19.7,
+      "if2": 19.9,
       "works": 776,
       "issn": "1467-0895",
       "domain": "Social Sciences",
@@ -1429,7 +1629,7 @@
       "link": "https://www.emerald.com/insight/publication/issn/0951-3574",
       "h": 185,
       "if2": 3.6,
-      "works": 2305,
+      "works": 2306,
       "issn": "0951-3574",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
