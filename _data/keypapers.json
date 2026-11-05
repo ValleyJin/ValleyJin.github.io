@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -142,7 +142,7 @@
           "title": "One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough",
           "authors": "Z Hu, L Zhang, Q Zhao, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2611.04867",
           "cites": 0,
           "pubdate": "2026-11-03",
@@ -156,7 +156,7 @@
           "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
           "authors": "L He, P Jiang, J Zhang, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2611.05358",
           "cites": 0,
           "pubdate": "2026-11-03",
@@ -170,7 +170,7 @@
           "title": "Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment",
           "authors": "A Villegas-Suarez, G Freire, S Venkatesh, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2611.05287",
           "cites": 0,
           "pubdate": "2026-11-03",
@@ -699,7 +699,7 @@
           "nr": "na"
         }
       ],
-      "n_citing": 397,
+      "n_citing": 401,
       "query": "persona generation"
     },
     "gABM": {
@@ -950,7 +950,7 @@
           "title": "Personas Are Not People: Identity as State, Not Attribute",
           "authors": "T Harry, Y Feng",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2611.05292",
           "cites": 0,
           "pubdate": "2026-11-03",
@@ -1521,8 +1521,8 @@
           "nr": "na"
         }
       ],
-      "n_citing": 497,
-      "query": "generative"
+      "n_citing": 517,
+      "query": "agent-based modeling"
     }
   }
 }
