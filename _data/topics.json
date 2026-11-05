@@ -1,537 +1,56 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
       "topic": "Deep persona",
       "query": "Deep persona",
-      "papers": [
-        {
-          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
-          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
-          "year": 2025,
-          "venue": "Computer Networks",
-          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 2,
-          "fwci": 0.7,
-          "q": "Q1",
-          "sjr": 1.14,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
-          "authors": "Lee, H., Kim, Y., & Kim, S.",
-          "year": 2024,
-          "venue": "Applied Sciences",
-          "url": "https://doi.org/10.3390/app14031014",
-          "cites": 9,
-          "fwci": 2.38,
-          "pct": 10,
-          "q": "Q2",
-          "sjr": 0.56,
-          "qcat": "Computer Science Applications"
-        },
-        {
-          "title": "Multi-persona adaptive student group formation via fuzzy clustering and double deep Q-network-assisted integer linear programming",
-          "authors": "Yuan, M., Cui, Y., & Chen, J.",
-          "year": 2026,
-          "venue": "Journal of the Franklin Institute",
-          "url": "https://doi.org/10.1016/j.jfranklin.2026.109037",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.81,
-          "qcat": "Applied Mathematics"
-        },
-        {
-          "title": "User Persona Technology: In-Depth Analysis and Development Trends",
-          "authors": "Zhu, Z.",
-          "year": 2026,
-          "venue": "Advances in Engineering Technology Research",
-          "url": "https://doi.org/10.56028/aetr.16.1.670.2026",
-          "cites": 0,
-          "fwci": 0.0,
-          "nr": "na"
-        }
-      ],
-      "count": 11520
+      "papers": []
     },
     {
       "topic": "gABM",
       "query": "generative agent-based modeling",
-      "papers": [
-        {
-          "title": "Generative agent‐based modeling: an introduction and tutorial",
-          "authors": "Ghaffarzadegan, N., Majumdar, A., Williams, R., & Hosseinichimeh, N.",
-          "year": 2024,
-          "venue": "System Dynamics Review",
-          "url": "https://doi.org/10.1002/sdr.1761",
-          "cites": 88,
-          "fwci": 11.16,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 1.1,
-          "qcat": "Management of Technology and Innovation"
-        },
-        {
-          "title": "Generative Agent-Based Models Powered by Large Language Models",
-          "authors": "Lee, B.",
-          "year": 2024,
-          "venue": "Korean Journal of Sociology",
-          "url": "https://doi.org/10.21562/kjs.2024.11.58.4.151",
-          "cites": 0,
-          "fwci": 0.0,
-          "nr": "na"
-        },
-        {
-          "title": "Simulating conversations on social media with generative agent-based models",
-          "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
-          "year": 2025,
-          "venue": "EPJ Data Science",
-          "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
-          "cites": 3,
-          "fwci": 3.44,
-          "pct": 10,
-          "q": "Q2",
-          "sjr": 0.65,
-          "qcat": "Computational Mathematics"
-        },
-        {
-          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
-          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
-          "year": 2025,
-          "venue": "Engineering Applications of Artificial Intelligence",
-          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
-          "cites": 17,
-          "fwci": 5.97,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 1.78,
-          "qcat": "Artificial Intelligence"
-        }
-      ],
-      "count": 60171
+      "papers": []
     },
     {
       "topic": "Graph database",
       "query": "Graph database",
-      "papers": [
-        {
-          "title": "What If: Causal Analysis with Graph Databases",
-          "authors": "Pachera, A., Palmiotto, M., Bonifati, A., & Mauri, A.",
-          "year": 2025,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3749646.3749671",
-          "cites": 4,
-          "fwci": 1.3,
-          "q": "Q1",
-          "sjr": 1.77,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Graph Databases: Revolutionizing Database Design and Data Analysis",
-          "authors": "Baqal, H. M. A., & Sidiq, M. A.",
-          "year": 2024,
-          "venue": "Current Journal of Applied Science and Technology",
-          "url": "https://doi.org/10.9734/cjast/2024/v43i114443",
-          "cites": 6,
-          "fwci": 0.77,
-          "nr": "na"
-        },
-        {
-          "title": "Testing Graph Databases with Synthesized Queries",
-          "authors": "Yin, Z., Liu, S., & Basin, D.",
-          "year": 2025,
-          "venue": "Proceedings of the ACM on Management of Data",
-          "url": "https://doi.org/10.1145/3749186",
-          "cites": 2,
-          "fwci": 2.49,
-          "nr": "na"
-        },
-        {
-          "title": "Connecting Asset Stores with Graph Databases",
-          "authors": "Sacilotto, R., Mathur, S., & Gonsalves, R.",
-          "year": 2024,
-          "venue": "SMPTE Motion Imaging Journal",
-          "url": "https://doi.org/10.5594/jmi.2024/xbzc2345",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q4",
-          "sjr": 0.11,
-          "qcat": "Electrical and Electronic Engineering"
-        }
-      ],
-      "count": 128063
+      "papers": []
     },
     {
       "topic": "Memory in Agentic AI",
       "query": "Agentic memory systems",
-      "papers": [
-        {
-          "title": "Data Management for Agentic Memory: Foundations, Systems, and Challenges",
-          "authors": "Li, G., Tian, J., & Zhou, X.",
-          "year": 2026,
-          "venue": "Proceedings of the VLDB Endowment",
-          "url": "https://doi.org/10.14778/3827998.3828145",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.77,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "The Systems Architecture of LLM Multi-Agent Systems: Routing, Memory, and Resource Optimisation",
-          "authors": "Nagoriya, H., & Raithatha, H.",
-          "year": 2026,
-          "venue": "International Journal of Knowledge Based Computer Systems",
-          "url": "https://doi.org/10.21863/ijkbcs/2026.14.1.004",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q3",
-          "sjr": 0.26,
-          "qcat": "Political Science and International Relations"
-        },
-        {
-          "title": "MemIndex: Agentic Event-based Distributed Memory Management for Multi-agent Systems",
-          "authors": "Saleh, A., Tarkoma, S., Lindgren, A., Donta, P. K., Dustdar, S., Pirttikangas, S., et al.",
-          "year": 2025,
-          "venue": "ACM Transactions on Autonomous and Adaptive Systems",
-          "url": "https://doi.org/10.1145/3774946",
-          "cites": 6,
-          "fwci": 2.11,
-          "q": "Q2",
-          "sjr": 0.72,
-          "qcat": "Computer Science (miscellaneous)"
-        }
-      ],
-      "count": 75858
+      "papers": []
     },
     {
       "topic": "LLM inference serving",
       "query": "LLM inference serving",
-      "papers": [
-        {
-          "title": "SLO-Aware GPU DVFS for Energy-Efficient LLM Inference Serving",
-          "authors": "Kakolyris, A. K., Masouros, D., Xydis, S., & Soudris, D.",
-          "year": 2024,
-          "venue": "IEEE Computer Architecture Letters",
-          "url": "https://doi.org/10.1109/lca.2024.3406038",
-          "cites": 43,
-          "fwci": 13.29,
-          "pct": 1,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Hardware and Architecture"
-        },
-        {
-          "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
-          "authors": "Gao, S., Zhang, X., Shen, Y., & Chen, L.",
-          "year": 2025,
-          "venue": "Proceedings of the ACM on Management of Data",
-          "url": "https://doi.org/10.1145/3725394",
-          "cites": 12,
-          "fwci": 7.11,
-          "pct": 10,
-          "nr": "na"
-        },
-        {
-          "title": "Uncertainty-aware offline reinforcement learning for LLM inference serving with heterogeneous SLOs",
-          "authors": "Feng, E., Wang, G., Li, P., Wang, Y., & Huang, S.",
-          "year": 2026,
-          "venue": "Scientific Reports",
-          "url": "https://doi.org/10.1038/s41598-026-76614-6",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.89,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "GoodServe: A SLO-Aware Scheduling Framework for Improving Goodput in LLM Inference Serving",
-          "authors": "Zhao, D., Xian, C., Zong, Z., Jin, Y., Zeng, H., Zhou, J., et al.",
-          "year": 2026,
-          "venue": "IEEE Transactions on Services Computing",
-          "url": "https://doi.org/10.1109/tsc.2026.3732701",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.6,
-          "qcat": "Computer Networks and Communications"
-        }
-      ],
-      "count": 8198
+      "papers": []
     },
     {
       "topic": "Ethereum Layer-2",
       "query": "Ethereum layer-2 rollup",
-      "papers": [
-        {
-          "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
-          "authors": "Melo, C., Miqueias, J., Messias, J., Gonçalves, G., Silva, F. A., Soares, A., et al.",
-          "year": 2025,
-          "venue": "Future Generation Computer Systems",
-          "url": "https://doi.org/10.1016/j.future.2025.108316",
-          "cites": 5,
-          "fwci": 3.21,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 1.48,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "Kajian Literatur: Rollups Sebagai Solusi Skalabilitas Ethereum dari Layer 1 ke Layer 2",
-          "authors": "Kumala, Y. N., Parlika, R., & Maulana, H.",
-          "year": 2026,
-          "venue": "Prosiding Seminar Nasional Informatika Bela Negara",
-          "url": "https://doi.org/10.33005/santika.v6i1.912",
-          "cites": 0,
-          "fwci": 0.0,
-          "nr": "na"
-        },
-        {
-          "title": "A Scalable Layer 2 Off-Chain Protocol for Blockchain Using Ethereum Rollups",
-          "authors": "Unnikrishnan, K. N., & Paul, P. V.",
-          "year": 2026,
-          "venue": "Computing and Informatics",
-          "url": "https://doi.org/10.31577/cai_2026_4_902",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q3",
-          "sjr": 0.29,
-          "qcat": "Computational Theory and Mathematics"
-        },
-        {
-          "title": "Layer 2 Ecosystem of the Ethereum Blockchain",
-          "authors": "Belz, O.",
-          "year": 2024,
-          "venue": "ЕКОНОМІКА І РЕГІОН Науковий вісник",
-          "url": "https://doi.org/10.26906/eir.2024.2(93).3396",
-          "cites": 3,
-          "fwci": 0.79,
-          "nr": "na"
-        }
-      ],
-      "count": 657
+      "papers": []
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
       "query": "zero-knowledge proof",
-      "papers": [
-        {
-          "title": "Zero-Knowledge Proofs",
-          "authors": "Sedlmeir, J., & Schwalm, S.",
-          "year": 2026,
-          "venue": "Datenschutz und Datensicherheit - DuD",
-          "url": "https://doi.org/10.1007/s11623-026-2201-0",
-          "cites": 0,
-          "fwci": 0.0,
-          "nr": "na"
-        },
-        {
-          "title": "Zero-Knowledge Proofs of Quantumness",
-          "authors": "Phan, D. H., Wen, W., Yan, X., & Zheng, J.",
-          "year": 2025,
-          "venue": "IACR Communications in Cryptology",
-          "url": "https://doi.org/10.62056/ayiv4fe-3",
-          "cites": 0,
-          "fwci": 0.0,
-          "nr": "na"
-        },
-        {
-          "title": "zkDL: Efficient Zero-Knowledge Proofs of Deep Learning Training",
-          "authors": "Sun, H., Bai, T., Li, J., & Waterloo, C. I. T. U. O.",
-          "year": 2024,
-          "venue": "IEEE Transactions on Information Forensics and Security",
-          "url": "https://doi.org/10.1109/tifs.2024.3520863",
-          "cites": 36,
-          "fwci": 4.67,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 2.19,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
-          "title": "zkFL: Zero-Knowledge Proof-Based Gradient Aggregation for Federated Learning",
-          "authors": "Wang, Z., Dong, N., Sun, J., Knottenbelt, W. J., & Guo, Y.",
-          "year": 2024,
-          "venue": "IEEE Transactions on Big Data",
-          "url": "https://doi.org/10.1109/tbdata.2024.3403370",
-          "cites": 61,
-          "fwci": 7.92,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 1.53,
-          "qcat": "Information Systems"
-        }
-      ],
-      "count": 53595
+      "papers": []
     },
     {
       "topic": "Graph neural networks (GNN)",
       "query": "graph neural network",
-      "papers": [
-        {
-          "title": "Graph Neural Networks for Graphs With Heterophily: A Survey",
-          "authors": "Zheng, X., Wang, Y., Liu, Y., Li, M., Zhang, M., Jin, D., et al.",
-          "year": 2026,
-          "venue": "IEEE Transactions on Knowledge and Data Engineering",
-          "url": "https://doi.org/10.1109/tkde.2026.3680353",
-          "cites": 207,
-          "fwci": 125.3,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 3.02,
-          "qcat": "Computational Theory and Mathematics"
-        },
-        {
-          "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
-          "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
-          "year": 2024,
-          "venue": "ACM Computing Surveys",
-          "url": "https://doi.org/10.1145/3661821",
-          "cites": 291,
-          "fwci": 75.25,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 5.99,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Graph neural networks for text classification: a survey",
-          "authors": "Wang, K., Ding, Y., & Han, S. C.",
-          "year": 2024,
-          "venue": "Artificial Intelligence Review",
-          "url": "https://doi.org/10.1007/s10462-024-10808-0",
-          "cites": 99,
-          "fwci": 12.72,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 3.64,
-          "qcat": "Artificial Intelligence"
-        },
-        {
-          "title": "A survey of dynamic graph neural networks",
-          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
-          "year": 2024,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 173,
-          "fwci": 22.46,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 1.2,
-          "qcat": "Computer Science (miscellaneous)"
-        }
-      ],
-      "count": 221895
+      "papers": []
     },
     {
       "topic": "Ontology",
       "query": "ontology knowledge representation",
-      "papers": [
-        {
-          "title": "Ontological knowledge representation framework for rehabilitation of traumatology and orthopedic patients",
-          "authors": "Gribova, V. V., Шалфеева, Е. А., Okun, D. B., & Shevchenko, O. N.",
-          "year": 2025,
-          "venue": "Ontology of Designing",
-          "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
-          "cites": 3,
-          "fwci": 0.98,
-          "nr": "na"
-        },
-        {
-          "title": "Ontology and knowledge representation in GIS",
-          "authors": "Amador, B. O., Berardi, R. C. G., & Kozievitch, N. P.",
-          "year": 2025,
-          "venue": "Revista Latinoamericana y del Caribe de la Asociación de Sistemas de Información/Revista Latinoamericana y del Caribe de la Asociación de Sistemas de Información",
-          "url": "https://doi.org/10.17705/1relc.00101",
-          "cites": 0,
-          "fwci": 0.0,
-          "nr": "na"
-        },
-        {
-          "title": "An Ontology of Exceptions for Knowledge Representation",
-          "authors": "Sacco, G., Bozzato, L., & Kutz, O.",
-          "year": 2025,
-          "venue": "Applied Ontology",
-          "url": "https://doi.org/10.1177/15705838251389371",
-          "cites": 0,
-          "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.67,
-          "qcat": "Linguistics and Language"
-        },
-        {
-          "title": "KNOWLEDGE REPRESENTATION USING ONTOLOGY MODELING SYSTEMS",
-          "authors": "Shamsutdinova, T. M.",
-          "year": 2025,
-          "venue": "RUSSIAN ELECTRONIC SCIENTIFIC JOURNAL",
-          "url": "https://doi.org/10.31563/2308-9644-2025-58-4-386-393",
-          "cites": 1,
-          "fwci": 0.33,
-          "nr": "na"
-        }
-      ],
-      "count": 26919
+      "papers": []
     },
     {
       "topic": "AI governance",
       "query": "AI governance",
-      "papers": [
-        {
-          "title": "Trust, trustworthiness and AI governance",
-          "authors": "Lahusen, C., Maggetti, M., & Slavkovik, M.",
-          "year": 2024,
-          "venue": "Scientific Reports",
-          "url": "https://doi.org/10.1038/s41598-024-71761-0",
-          "cites": 89,
-          "fwci": 28.67,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 0.89,
-          "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "AI Governance in the Context of the EU AI Act",
-          "authors": "Kim, B., Jeong, S., Cho, B., & Chung, J.",
-          "year": 2025,
-          "venue": "IEEE Access",
-          "url": "https://doi.org/10.1109/access.2025.3598023",
-          "cites": 43,
-          "fwci": 30.46,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 0.88,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "AI governance in Asia: policies, praxis and approaches",
-          "authors": "Xu, J. L., Lee, T., & Goggin, G. M.",
-          "year": 2024,
-          "venue": "Communication Research and Practice",
-          "url": "https://doi.org/10.1080/22041451.2024.2391204",
-          "cites": 50,
-          "fwci": 71.44,
-          "pct": 1,
-          "q": "Q2",
-          "sjr": 0.55,
-          "qcat": "Communication"
-        },
-        {
-          "title": "Revolutionizing AI Governance: Addressing Bias and Ensuring Accountability Through the Holistic AI Governance Framework",
-          "authors": "Atoum, I. A.",
-          "year": 2025,
-          "venue": "International Journal of Advanced Computer Science and Applications",
-          "url": "https://doi.org/10.14569/ijacsa.2025.0160283",
-          "cites": 15,
-          "fwci": 10.88,
-          "pct": 10,
-          "q": "Q3",
-          "sjr": 0.33,
-          "qcat": "Computer Science (miscellaneous)"
-        }
-      ],
-      "count": 116554
+      "papers": []
     },
     {
       "topic": "NeurIPS",
@@ -1032,23 +551,153 @@
     },
     {
       "topic": "JMLR",
-      "query": "venue:S118988714",
-      "papers": []
+      "query": "journal:Journal of Machine Learning Research",
+      "papers": [
+        {
+          "title": "Machine Learning-Based Web System for Predicting and Classifying Financial Incentives in the Automotive Sector",
+          "authors": "Rivas, A. J. R., & Flores-Castañeda, R. O.",
+          "year": 2026,
+          "venue": "International Journal of Advanced Computer Science and Applications",
+          "url": "https://doi.org/10.14569/ijacsa.2026.0170330",
+          "cites": 0,
+          "fwci": 0.0,
+          "q": "Q3",
+          "sjr": 0.33,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "Machine learning in membrane-based desalination and wastewater treatment: An AI-assisted bibliometric analysis",
+          "authors": "Abuhabib, A., Yuan, C., Din, M. F. B. M., Albahnasawi, A. M., Moideen, S. N. F., Hong, C., et al.",
+          "year": 2026,
+          "venue": "Results in Engineering",
+          "url": "https://doi.org/10.1016/j.rineng.2026.111919",
+          "cites": 0,
+          "fwci": 0.0,
+          "q": "Q1",
+          "sjr": 1.24,
+          "qcat": "Engineering (miscellaneous)"
+        },
+        {
+          "title": "Field-scale potato yield prediction from sentinel-2 time series using lightweight deep learning models",
+          "authors": "Tufail, R., Tassinari, P., & Torreggiani, D.",
+          "year": 2026,
+          "venue": "Smart Agricultural Technology",
+          "url": "https://doi.org/10.1016/j.atech.2026.102030",
+          "cites": 1,
+          "fwci": 2.82,
+          "q": "Q1",
+          "sjr": 1.17,
+          "qcat": "Agricultural and Biological Sciences (miscellaneous)"
+        },
+        {
+          "title": "Dynamic Data Harmonization Through Supervised Learning Techniques in Technology-Rich Educational Spaces",
+          "authors": "baker, A. R. A.",
+          "year": 2025,
+          "venue": "Al-Noor Journal for Information Technology and Cybersecurity",
+          "url": "https://doi.org/10.69513/jncs.v2.i2.a6",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
+        }
+      ],
+      "count": 44
     },
     {
       "topic": "TPAMI",
-      "query": "venue:S199944782",
-      "papers": []
+      "query": "journal:IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "papers": [
+        {
+          "title": "The Role of AI in Sentiment Analysis for Restaurant Quality Prediction: A Methodological Approach",
+          "authors": "Tiwari, S., Sharma, S., & Singh, A.",
+          "year": 2023,
+          "venue": "International Journal of Innovative Research in Computer and Communication Engineering",
+          "url": "https://doi.org/10.15680/ijircce.2024.1204370",
+          "cites": 0,
+          "fwci": 0.0,
+          "q": "Q3",
+          "sjr": 0.26,
+          "qcat": "Political Science and International Relations"
+        }
+      ],
+      "count": 1
     },
     {
       "topic": "AIJ",
-      "query": "venue:S196139623",
-      "papers": []
+      "query": "journal:Artificial Intelligence",
+      "papers": [
+        {
+          "title": "AR-Driven Intelligent Food Ordering System",
+          "authors": "Shanmugam, D. M., Celestina, E. J., Sara, S., & Sairanjani, S.",
+          "year": 2026,
+          "venue": "International Research Journal on Advanced Engineering Hub (IRJAEH)",
+          "url": "https://doi.org/10.47392/irjaeh.2026.0183",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "The Role of AI in Sentiment Analysis for Restaurant Quality Prediction: A Methodological Approach",
+          "authors": "Tiwari, S., Sharma, S., & Singh, A.",
+          "year": 2023,
+          "venue": "International Journal of Innovative Research in Computer and Communication Engineering",
+          "url": "https://doi.org/10.15680/ijircce.2024.1204370",
+          "cites": 0,
+          "fwci": 0.0,
+          "q": "Q3",
+          "sjr": 0.26,
+          "qcat": "Political Science and International Relations"
+        }
+      ],
+      "count": 2
     },
     {
       "topic": "JAIR",
-      "query": "venue:S139930977",
-      "papers": []
+      "query": "journal:Journal of Artificial Intelligence Research",
+      "papers": [
+        {
+          "title": "MAPPING RESEARCH TRENDS OF GENERATIVE ARTIFICIAL INTELLIGENCE IN EDUCATION AFTER CHATGPT: CONCEPTUAL STRUCTURE, EMERGING THEMES, AND FUTURE RESEARCH DIRECTIONS",
+          "authors": "Wafi, A. Y., Apriliani, J. L., & Prakoso, A. F.",
+          "year": 2026,
+          "venue": "JURNAL EDUSCIENCE",
+          "url": "https://doi.org/10.36987/jes.v13i5.9789",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "Mapping University Students Risk of Dependence on Generative Artificial Intelligence Using K-Means Clustering",
+          "authors": "Fadhillah, H., & Taufiq, T.",
+          "year": 2026,
+          "venue": "Global Advances in Science Engineering & Technology (GASET)",
+          "url": "https://doi.org/10.62671/gaset.v2i1.351",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "InSIGHT: Interview Skills and Intelligence Grading with holistic tracking",
+          "authors": "Singh, J. S. J.",
+          "year": 2026,
+          "venue": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+          "url": "https://doi.org/10.55041/ijsrem62185",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "Understanding the Role Of Emotional Intelligence in Agile Teams in Context of Requirement Change Management",
+          "authors": "Ali, R. M., Nazir, S., & Fatima, N.",
+          "year": 2025,
+          "venue": "International Journal of Innovations in Science and Technology",
+          "url": "https://doi.org/10.33411/ijist/1648",
+          "cites": 0,
+          "fwci": 0.0,
+          "q": "Q3",
+          "sjr": 0.26,
+          "qcat": "Political Science and International Relations"
+        }
+      ],
+      "count": 56
     },
     {
       "topic": "Futures",

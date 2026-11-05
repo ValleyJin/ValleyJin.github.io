@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-05",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -254,6 +254,17 @@
           "nr": "na"
         },
         {
+          "title": "Machine learning models based on bubble analysis for Bitcoin market crash prediction",
+          "authors": "S Park, JS Yang",
+          "year": "2024",
+          "venue": "Engineering Applications of Artificial Intelligence 135, 108857, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:RJNGbXJAtMsC",
+          "cites": 30,
+          "q": "Q1",
+          "sjr": 1.78,
+          "qcat": "Artificial Intelligence"
+        },
+        {
           "title": "Network Structure Reveals Patterns of Legal Complexity in Human Society: The Case of the Constitutional Legal Network",
           "authors": "B Lee, KM Lee, JS Yang",
           "year": "2019",
@@ -265,15 +276,15 @@
           "qcat": "Multidisciplinary"
         },
         {
-          "title": "Machine learning models based on bubble analysis for Bitcoin market crash prediction",
-          "authors": "S Park, JS Yang",
+          "title": "The potential for cascading failures in the international trade network",
+          "authors": "H Kang, KM Lee, JS Yang",
           "year": "2024",
-          "venue": "Engineering Applications of Artificial Intelligence 135, 108857, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:RJNGbXJAtMsC",
-          "cites": 29,
+          "venue": "Plos one 19 (3), e0299833, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:za7pDTvVV8kC",
+          "cites": 27,
           "q": "Q1",
-          "sjr": 1.78,
-          "qcat": "Artificial Intelligence"
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Moderating effects of the timing of reward determination and performance standards between rewards and self-efficacy for sustainable intrinsic motivation",
@@ -283,17 +294,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:gmHTDCtJMcoC",
           "cites": 27,
           "nr": "na"
-        },
-        {
-          "title": "The potential for cascading failures in the international trade network",
-          "authors": "H Kang, KM Lee, JS Yang",
-          "year": "2024",
-          "venue": "Plos one 19 (3), e0299833, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:za7pDTvVV8kC",
-          "cites": 26,
-          "q": "Q1",
-          "sjr": 0.73,
-          "qcat": "Multidisciplinary"
         },
         {
           "title": "Intelligent cryptocurrency trading system using integrated AdaBoost-LSTM with market turbulence knowledge",
@@ -1341,7 +1341,7 @@
           "year": "2024",
           "venue": "Engineering Applications of Artificial Intelligence 135, 108857, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:RJNGbXJAtMsC",
-          "cites": 29,
+          "cites": 30,
           "q": "Q1",
           "sjr": 1.78,
           "qcat": "Artificial Intelligence"
@@ -1361,7 +1361,7 @@
           "year": "2024",
           "venue": "Plos one 19 (3), e0299833, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:za7pDTvVV8kC",
-          "cites": 26,
+          "cites": 27,
           "q": "Q1",
           "sjr": 0.73,
           "qcat": "Multidisciplinary"
@@ -1606,7 +1606,7 @@
           "year": "2018",
           "venue": "Journal of stroke 21 (1), 42, 2018",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wSy_KLzO7YEC",
-          "cites": 308,
+          "cites": 310,
           "q": "Q1",
           "sjr": 2.71,
           "qcat": "Cardiology and Cardiovascular Medicine"
@@ -4957,7 +4957,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14130,
+          "cites": 14147,
           "nr": "na"
         },
         {
@@ -4966,7 +4966,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9384,
+          "cites": 9404,
           "crank": "A*"
         },
         {
@@ -4975,7 +4975,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 870,
+          "cites": 871,
           "nr": "na"
         },
         {
@@ -4993,7 +4993,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 389,
+          "cites": 390,
           "crank": "A*"
         },
         {
@@ -5013,7 +5013,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 338,
+          "cites": 340,
           "crank": "A*"
         },
         {
@@ -5022,7 +5022,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 333,
+          "cites": 334,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5055,7 +5055,7 @@
           "year": "2020",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:d1gkVwhDpl0C",
-          "cites": 110,
+          "cites": 111,
           "crank": "A*"
         },
         {
@@ -5153,7 +5153,7 @@
           "year": "2023",
           "venue": "Companion Publication of the 2023 Conference on Computer Supported …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
-          "cites": 50,
+          "cites": 51,
           "nr": "na"
         },
         {
@@ -5292,7 +5292,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 870,
+          "cites": 871,
           "nr": "na"
         },
         {
@@ -5310,7 +5310,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 338,
+          "cites": 340,
           "crank": "A*"
         },
         {
@@ -5328,7 +5328,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9384,
+          "cites": 9404,
           "crank": "A*"
         },
         {
@@ -5337,7 +5337,7 @@
           "year": "2023",
           "venue": "Companion Publication of the 2023 Conference on Computer Supported …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
-          "cites": 50,
+          "cites": 51,
           "nr": "na"
         },
         {
@@ -5399,7 +5399,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 389,
+          "cites": 390,
           "crank": "A*"
         },
         {
@@ -5428,7 +5428,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 333,
+          "cites": 334,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5439,7 +5439,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14130,
+          "cites": 14147,
           "nr": "na"
         },
         {
@@ -5495,7 +5495,7 @@
           "year": "2020",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:d1gkVwhDpl0C",
-          "cites": 110,
+          "cites": 111,
           "crank": "A*"
         },
         {

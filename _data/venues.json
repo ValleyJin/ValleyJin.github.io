@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "venues": {
     "NeurIPS": {
       "name": "neural information processing systems",
@@ -25,19 +25,6 @@
       "name": "International Conference on Machine Learning",
       "type": "conference",
       "link": "https://icml.cc/",
-      "h": 216,
-      "i10": 1387,
-      "if2": 0,
-      "works": 2041,
-      "domain": "Physical Sciences",
-      "field": "Computer Science",
-      "sub": "Artificial Intelligence",
-      "topics3y": [
-        "Domain Adaptation and Few-Shot Learning",
-        "Reinforcement Learning in Robotics",
-        "Stochastic Gradient Optimization Techniques",
-        "Advanced Bandit Algorithms Research"
-      ],
       "founded": 1980,
       "about": "The International Conference on Machine Learning (ICML) is an international academic conference in machine learning held annually since 1980. It is the oldest and, along with NeurIPS and ICLR, one of the three primary co",
       "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8e/ICML_logo_2026.svg/330px-ICML_logo_2026.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -48,19 +35,6 @@
       "name": "International Conference on Learning Representations",
       "type": "conference",
       "link": "https://iclr.cc/",
-      "h": 86,
-      "i10": 330,
-      "if2": 0,
-      "works": 601,
-      "domain": "Physical Sciences",
-      "field": "Computer Science",
-      "sub": "Artificial Intelligence",
-      "topics3y": [
-        "Adversarial Robustness in Machine Learning",
-        "Digital Media Forensic Detection",
-        "Topic Modeling",
-        "Advanced Neural Network Applications"
-      ],
       "founded": 2013,
       "about": "The International Conference on Learning Representations (ICLR) is a machine learning conference typically held in late April or early May each year. Along with NeurIPS and ICML, it is one of the three primary conference",
       "wimg": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5a/International_Conference_on_Learning_Representations.svg/960px-International_Conference_on_Learning_Representations.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -68,22 +42,9 @@
       "group": "AI"
     },
     "CVPR": {
-      "name": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+      "name": "Computer Vision and Pattern Recognition",
       "type": "conference",
       "link": "https://cvpr.thecvf.com/",
-      "h": 778,
-      "i10": 20056,
-      "if2": 26.1,
-      "works": 25301,
-      "domain": "Physical Sciences",
-      "field": "Computer Science",
-      "sub": "Computer Vision and Pattern Recognition",
-      "topics3y": [
-        "Advanced Neural Network Applications",
-        "Generative Adversarial Networks and Image Synthesis",
-        "3D Shape Modeling and Analysis",
-        "Multimodal Machine Learning Applications"
-      ],
       "crank": "A*",
       "group": "AI"
     },
@@ -170,22 +131,11 @@
       "group": "AI"
     },
     "ICCV": {
-      "name": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "name": "IEEE International Conference on Computer Vision",
       "type": "conference",
       "link": "https://iccv.thecvf.com/",
-      "h": 488,
-      "i10": 8082,
-      "if2": 4.4,
-      "works": 11850,
-      "domain": "Physical Sciences",
-      "field": "Computer Science",
-      "sub": "Computer Vision and Pattern Recognition",
-      "topics3y": [
-        "Advanced Neural Network Applications",
-        "Generative Adversarial Networks and Image Synthesis",
-        "Multimodal Machine Learning Applications",
-        "3D Shape Modeling and Analysis"
-      ],
+      "founded": 1987,
+      "about": "The International Conference on Computer Vision (ICCV) is a research conference sponsored by the Institute of Electrical and Electronics Engineers (IEEE) held every other year. It is considered to be one of the top confe",
       "crank": "A*",
       "group": "AI"
     },
@@ -218,155 +168,41 @@
       "crank": "A*",
       "group": "AI"
     },
-    "JMLR": {
-      "name": "Journal of Machine Learning Research",
+    "Futures": {
+      "name": "Futures",
       "type": "journal",
-      "link": "https://www.jmlr.org/",
-      "h": 76,
-      "if2": 0,
-      "works": 532,
-      "issn": "1532-4435",
+      "link": "https://www.sciencedirect.com/journal/futures",
+      "h": 174,
+      "if2": 5.5,
+      "works": 6710,
+      "issn": "0016-3287",
       "domain": "Physical Sciences",
       "field": "Computer Science",
-      "sub": "Artificial Intelligence",
-      "sjr": 2.0,
+      "sub": "Information Systems",
+      "sjr": 1.43,
       "q": "Q1",
       "cats": [
         [
-          "Artificial Intelligence",
+          "Business and International Management",
           "Q1"
         ],
         [
-          "Control and Systems Engineering",
+          "Development",
           "Q1"
         ],
         [
-          "Software",
-          "Q1"
-        ],
-        [
-          "Statistics and Probability",
+          "Sociology and Political Science",
           "Q1"
         ]
       ],
       "topics3y": [
-        "Auction Theory and Applications",
-        "Text and Document Classification Technologies",
-        "Machine Learning and Algorithms",
-        "Advanced Bandit Algorithms Research"
+        "Sustainability and Climate Change Governance",
+        "Scientific Research and Philosophical Inquiry",
+        "Ethics and Social Impacts of AI",
+        "Utopian, Dystopian, and Speculative Fiction"
       ],
-      "founded": 2000,
-      "about": "The Journal of Machine Learning Research is a peer-reviewed open access scientific journal covering machine learning. It was established in 2000 and the first editor-in-chief was Leslie Kaelbling. The current editors-in-",
-      "group": "AI"
-    },
-    "TPAMI": {
-      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
-      "type": "journal",
-      "link": "https://www.computer.org/csdl/journal/tp",
-      "h": 564,
-      "if2": 18.9,
-      "works": 12605,
-      "issn": "0162-8828",
-      "domain": "Physical Sciences",
-      "field": "Computer Science",
-      "sub": "Computer Vision and Pattern Recognition",
-      "sjr": 4.83,
-      "q": "Q1",
-      "cats": [
-        [
-          "Applied Mathematics",
-          "Q1"
-        ],
-        [
-          "Artificial Intelligence",
-          "Q1"
-        ],
-        [
-          "Computational Theory and Mathematics",
-          "Q1"
-        ],
-        [
-          "Computer Vision and Pattern Recognition",
-          "Q1"
-        ],
-        [
-          "Software",
-          "Q1"
-        ]
-      ],
-      "topics3y": [
-        "Advanced Neural Network Applications",
-        "Domain Adaptation and Few-Shot Learning",
-        "Multimodal Machine Learning Applications",
-        "3D Shape Modeling and Analysis"
-      ],
-      "founded": 1979,
-      "about": "IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society.",
-      "group": "AI"
-    },
-    "AIJ": {
-      "name": "Artificial Intelligence",
-      "type": "journal",
-      "link": "https://www.sciencedirect.com/journal/artificial-intelligence",
-      "h": 307,
-      "if2": 4.8,
-      "works": 4865,
-      "issn": "0004-3702",
-      "domain": "Physical Sciences",
-      "field": "Computer Science",
-      "sub": "Artificial Intelligence",
-      "sjr": 1.29,
-      "q": "Q1",
-      "cats": [
-        [
-          "Artificial Intelligence",
-          "Q1"
-        ],
-        [
-          "Linguistics and Language",
-          "Q1"
-        ]
-      ],
-      "topics3y": [
-        "Logic, Reasoning, and Knowledge",
-        "AI-based Problem Solving and Planning",
-        "Constraint Satisfaction and Optimization",
-        "Reinforcement Learning in Robotics"
-      ],
-      "founded": 1970,
-      "about": "Artificial Intelligence is a scientific journal covering research in artificial intelligence. It was established in 1970 and is published by Elsevier. The journal is abstracted and indexed in Scopus and the Science Citat",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/c/cb/Artificial_Intelligence_%28journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "AI"
-    },
-    "JAIR": {
-      "name": "Journal of Artificial Intelligence Research",
-      "type": "journal",
-      "link": "https://www.jair.org/",
-      "h": 170,
-      "if2": 7.0,
-      "works": 1885,
-      "issn": "1076-9757",
-      "domain": "Physical Sciences",
-      "field": "Computer Science",
-      "sub": "Artificial Intelligence",
-      "sjr": 1.11,
-      "q": "Q1",
-      "cats": [
-        [
-          "Artificial Intelligence",
-          "Q1"
-        ]
-      ],
-      "topics3y": [
-        "Logic, Reasoning, and Knowledge",
-        "Constraint Satisfaction and Optimization",
-        "Reinforcement Learning in Robotics",
-        "AI-based Problem Solving and Planning"
-      ],
-      "founded": 1993,
-      "about": "The Journal of Artificial Intelligence Research (JAIR) is an open access peer-reviewed scientific journal covering research in all areas of artificial intelligence.",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/6/64/JAIRcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "AI"
+      "about": "Futures is a peer-reviewed academic journal covering futures studies. It is published by Elsevier. The editors-in-chief are Patrick van der Duin and Chris Groves.",
+      "group": "Futures Studies"
     },
     "TFSC": {
       "name": "Technological Forecasting and Social Change",
