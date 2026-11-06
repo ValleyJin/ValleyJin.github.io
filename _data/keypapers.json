@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05",
+  "generated": "2026-11-06",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -138,6 +138,34 @@
         }
       ],
       "citing": [
+        {
+          "title": "The Geometry of Simulated Perspectives: Dissociating Representation and Behaviour in a Multimodal Language Model",
+          "authors": "M Immertreu, F Abdullahu, T Kinfe, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08262",
+          "cites": 0,
+          "pubdate": "2026-11-05",
+          "arxiv": "2611.08262",
+          "doi": null,
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "first_seen": "2026-11-06",
+          "nr": "na"
+        },
+        {
+          "title": "Persona Perspectives: Adopting Viewpoints Reorganizes Representations in LLMs",
+          "authors": "A Kozlowski, A Mintz, M Lee",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2611.06848",
+          "cites": 0,
+          "pubdate": "2026-11-04",
+          "arxiv": "2611.06848",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-11-06",
+          "nr": "na"
+        },
         {
           "title": "One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough",
           "authors": "Z Hu, L Zhang, Q Zhao, et al.",
@@ -669,37 +697,9 @@
           "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
           "first_seen": "2026-10-21",
           "crank": "A*"
-        },
-        {
-          "title": "Unlocking Latent Personalization in LLMs",
-          "authors": "W Chen, G Zhu, Z Cai, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.33182",
-          "cites": 0,
-          "pubdate": "2026-09-27",
-          "arxiv": "2609.33182",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-09-30",
-          "nr": "na"
-        },
-        {
-          "title": "How Far Do Persona Effects Generalize in Language Models?",
-          "authors": "Y Zhou, Y Liu, E Ma, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.32758",
-          "cites": 0,
-          "pubdate": "2026-09-26",
-          "arxiv": "2609.32758",
-          "doi": null,
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-10-27",
-          "nr": "na"
         }
       ],
-      "n_citing": 401,
+      "n_citing": 405,
       "query": "persona generation"
     },
     "gABM": {
@@ -947,6 +947,34 @@
       ],
       "citing": [
         {
+          "title": "Cultural Adaptation within Repeated Social Interactions",
+          "authors": "C Liu, R Reichart, A Korhonen",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.08334",
+          "cites": 0,
+          "pubdate": "2026-11-05",
+          "arxiv": "2611.08334",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-06",
+          "nr": "na"
+        },
+        {
+          "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+          "authors": "M Greiche, R Rabbany, M Touzel",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2611.06914",
+          "cites": 0,
+          "pubdate": "2026-11-04",
+          "arxiv": "2611.06914",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-06",
+          "nr": "na"
+        },
+        {
           "title": "Personas Are Not People: Identity as State, Not Attribute",
           "authors": "T Harry, Y Feng",
           "year": 2026,
@@ -958,6 +986,20 @@
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-11-04",
+          "nr": "na"
+        },
+        {
+          "title": "Decision Models as Scalable Economic Surrogates that Capture Human Variation",
+          "authors": "M Saxena, F Caccioli, R Rio-Chanona",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2611.05553",
+          "cites": 0,
+          "pubdate": "2026-11-03",
+          "arxiv": "2611.05553",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-06",
           "nr": "na"
         },
         {
@@ -1129,7 +1171,7 @@
           "doi": "10.1073/pnas.2531748123",
           "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
           "first_seen": "2026-11-01",
-          "fwci": 6.96,
+          "fwci": 6.56,
           "pct": 10,
           "q": "Q1",
           "sjr": 3.28,
@@ -1476,52 +1518,9 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-09-28",
           "nr": "na"
-        },
-        {
-          "title": "LLMs for Social Network Modeling: From Network Generation to Dynamic Processes",
-          "authors": "S Mallick, A Thomo, A Saxena",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.08049",
-          "cites": 0,
-          "pubdate": "2026-09-07",
-          "arxiv": "2609.08049",
-          "doi": null,
-          "cited_key": "Agent-Based Modelling Meets Generative AI in Social Network ",
-          "first_seen": "2026-10-27",
-          "nr": "na"
-        },
-        {
-          "title": "Who Changes Their Mind? Exploring Stance Shifts in LLM-Based Social Media Simulations",
-          "authors": "V Gatta, G Orlando, M Perillo, et al.",
-          "year": 2026,
-          "venue": "ACM Conference on Hypertext and Social Media (HT)",
-          "url": "https://doi.org/10.1145/3800935.3830836",
-          "cites": 0,
-          "pubdate": "2026-09-05",
-          "arxiv": null,
-          "doi": "10.1145/3800935.3830836",
-          "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
-          "first_seen": "2026-11-01",
-          "fwci": 0.0,
-          "crank": "A"
-        },
-        {
-          "title": "Where Reliability Lives: Experimental Localisation of Behavioural Properties in an Agent System",
-          "authors": "T Marsden, M Collecutt, J Marsden",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.03192",
-          "cites": 0,
-          "pubdate": "2026-09-02",
-          "arxiv": "2609.03192",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-09-28",
-          "nr": "na"
         }
       ],
-      "n_citing": 517,
+      "n_citing": 520,
       "query": "agent-based modeling"
     }
   }
