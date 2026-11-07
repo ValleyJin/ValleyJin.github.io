@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06",
+  "generated": "2026-11-07",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -60,7 +60,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2512.07474",
-          "cites": 1,
+          "cites": 2,
           "key": true,
           "nr": "na"
         },
@@ -72,7 +72,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2512.06688",
-          "cites": 9,
+          "cites": 101,
           "key": true,
           "nr": "na"
         },
@@ -84,7 +84,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2506.19823",
-          "cites": 23,
+          "cites": 145,
           "key": true,
           "nr": "na"
         },
@@ -108,7 +108,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2509.10127",
-          "cites": 14,
+          "cites": 34,
           "key": true,
           "nr": "na"
         },
@@ -120,7 +120,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2504.10886",
-          "cites": 5,
+          "cites": 10,
           "key": true,
           "nr": "na"
         },
@@ -139,10 +139,25 @@
       ],
       "citing": [
         {
+          "title": "The 2nd Workshop on LLM Agents for Social Simulation",
+          "authors": "Y Yuan, H Gao, B Xu, et al.",
+          "year": 2026,
+          "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+          "url": "https://doi.org/10.1145/3799682.3839292",
+          "cites": 0,
+          "pubdate": "2026-11-06",
+          "arxiv": null,
+          "doi": "10.1145/3799682.3839292",
+          "cited_key": "Population-Aligned Persona Generation for LLM-based Social S",
+          "first_seen": "2026-11-07",
+          "fwci": 0.0,
+          "crank": "A"
+        },
+        {
           "title": "The Geometry of Simulated Perspectives: Dissociating Representation and Behaviour in a Multimodal Language Model",
           "authors": "M Immertreu, F Abdullahu, T Kinfe, et al.",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2611.08262",
           "cites": 0,
           "pubdate": "2026-11-05",
@@ -382,7 +397,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.24628",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-10-17",
           "arxiv": "2610.24628",
           "doi": null,
@@ -508,7 +523,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.11573",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-10-08",
           "arxiv": "2610.11573",
           "doi": null,
@@ -550,26 +565,12 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.09384",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-10-07",
           "arxiv": "2610.09384",
           "doi": null,
           "cited_key": "Persona Features Control Emergent Misalignment",
           "first_seen": "2026-10-27",
-          "nr": "na"
-        },
-        {
-          "title": "Socio-Foundation: A Model for Generalizable Individual Behavior Simulation via Hierarchical Capability Distillation",
-          "authors": "L Wang, W Xie, X Mou, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2610.08967",
-          "cites": 0,
-          "pubdate": "2026-10-06",
-          "arxiv": "2610.08967",
-          "doi": null,
-          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
-          "first_seen": "2026-10-08",
           "nr": "na"
         },
         {
@@ -584,20 +585,6 @@
           "doi": null,
           "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
           "first_seen": "2026-10-21",
-          "nr": "na"
-        },
-        {
-          "title": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
-          "authors": "A Malik, M Elsherief",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2610.04676",
-          "cites": 0,
-          "pubdate": "2026-10-03",
-          "arxiv": "2610.04676",
-          "doi": null,
-          "cited_key": "From 1,000,000 Users to Every User: Scaling Up Personalized ",
-          "first_seen": "2026-10-06",
           "nr": "na"
         },
         {
@@ -620,7 +607,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.36722",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-29",
           "arxiv": "2609.36722",
           "doi": null,
@@ -634,7 +621,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.37914",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-29",
           "arxiv": "2609.37914",
           "doi": null,
@@ -648,7 +635,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.37624",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-29",
           "arxiv": "2609.37624",
           "doi": null,
@@ -662,7 +649,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.38379",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-29",
           "arxiv": "2609.38379",
           "doi": null,
@@ -697,9 +684,23 @@
           "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
           "first_seen": "2026-10-21",
           "crank": "A*"
+        },
+        {
+          "title": "Unlocking Latent Personalization in LLMs",
+          "authors": "W Chen, G Zhu, Z Cai, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.33182",
+          "cites": 0,
+          "pubdate": "2026-09-27",
+          "arxiv": "2609.33182",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-11-07",
+          "nr": "na"
         }
       ],
-      "n_citing": 405,
+      "n_citing": 377,
       "query": "persona generation"
     },
     "gABM": {
@@ -724,7 +725,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2312.03664",
-          "cites": 44,
+          "cites": 176,
           "key": true,
           "nr": "na"
         },
@@ -748,7 +749,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2311.06957",
-          "cites": 18,
+          "cites": 45,
           "key": true,
           "nr": "na"
         },
@@ -784,7 +785,7 @@
           "venue": "RePEc: Research Papers in Economics",
           "topic": "gABM",
           "arxiv": "2307.04986",
-          "cites": 46,
+          "cites": 105,
           "key": true,
           "nr": "na"
         },
@@ -796,7 +797,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2506.13783",
-          "cites": 0,
+          "cites": 2,
           "key": true,
           "nr": "na"
         },
@@ -820,7 +821,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2411.17724",
-          "cites": 1,
+          "cites": 3,
           "key": true,
           "nr": "na"
         },
@@ -844,7 +845,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2504.03274",
-          "cites": 19,
+          "cites": 53,
           "key": true,
           "nr": "na"
         },
@@ -856,7 +857,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2411.07038",
-          "cites": 0,
+          "cites": 2,
           "key": true,
           "nr": "na"
         },
@@ -892,7 +893,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2408.17268",
-          "cites": 6,
+          "cites": 8,
           "key": true,
           "nr": "na"
         },
@@ -904,7 +905,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2507.09495",
-          "cites": 1,
+          "cites": 2,
           "key": true,
           "nr": "na"
         },
@@ -950,7 +951,7 @@
           "title": "Cultural Adaptation within Repeated Social Interactions",
           "authors": "C Liu, R Reichart, A Korhonen",
           "year": 2026,
-          "venue": "arXiv",
+          "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2611.08334",
           "cites": 0,
           "pubdate": "2026-11-05",
@@ -1165,14 +1166,14 @@
           "year": 2026,
           "venue": "Proceedings of the National Academy of Sciences",
           "url": "https://doi.org/10.1073/pnas.2531748123",
-          "cites": 3,
+          "cites": 10,
           "pubdate": "2026-10-12",
           "arxiv": null,
           "doi": "10.1073/pnas.2531748123",
           "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
           "first_seen": "2026-11-01",
-          "fwci": 6.56,
-          "pct": 10,
+          "fwci": 14.85,
+          "pct": 1,
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
@@ -1396,7 +1397,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.27535",
-          "cites": 0,
+          "cites": 4,
           "pubdate": "2026-09-23",
           "arxiv": "2609.27535",
           "doi": null,
@@ -1469,7 +1470,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.17496",
-          "cites": 0,
+          "cites": 2,
           "pubdate": "2026-09-15",
           "arxiv": "2609.17496",
           "doi": null,
@@ -1497,7 +1498,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.11108",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-10",
           "arxiv": "2609.11108",
           "doi": null,
@@ -1520,7 +1521,7 @@
           "nr": "na"
         }
       ],
-      "n_citing": 520,
+      "n_citing": 519,
       "query": "agent-based modeling"
     }
   }
