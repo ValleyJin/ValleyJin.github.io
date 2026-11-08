@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07",
+  "generated": "2026-11-08",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -53,7 +53,7 @@
           "nr": "na"
         }
       ],
-      "count": 11579
+      "count": 11599
     },
     {
       "topic": "gABM",
@@ -109,7 +109,7 @@
           "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 61139
+      "count": 61344
     },
     {
       "topic": "Graph database",
@@ -160,7 +160,7 @@
           "qcat": "Electrical and Electronic Engineering"
         }
       ],
-      "count": 129029
+      "count": 129352
     },
     {
       "topic": "Memory in Agentic AI",
@@ -204,7 +204,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 76800
+      "count": 77038
     },
     {
       "topic": "LLM inference serving",
@@ -259,7 +259,7 @@
           "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 8412
+      "count": 8441
     },
     {
       "topic": "Ethereum Layer-2",
@@ -311,7 +311,7 @@
           "nr": "na"
         }
       ],
-      "count": 664
+      "count": 665
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -364,7 +364,7 @@
           "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 54493
+      "count": 54583
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -402,8 +402,8 @@
           "year": 2024,
           "venue": "ACM Computing Surveys",
           "url": "https://doi.org/10.1145/3661821",
-          "cites": 311,
-          "fwci": 79.36,
+          "cites": 313,
+          "fwci": 79.83,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.99,
@@ -415,15 +415,15 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 185,
-          "fwci": 20.0,
+          "cites": 187,
+          "fwci": 20.16,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.2,
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 224001
+      "count": 224550
     },
     {
       "topic": "Ontology",
@@ -472,7 +472,7 @@
           "nr": "na"
         }
       ],
-      "count": 27134
+      "count": 27270
     },
     {
       "topic": "AI governance",
@@ -531,7 +531,7 @@
           "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 117781
+      "count": 118132
     },
     {
       "topic": "NeurIPS",
@@ -561,7 +561,7 @@
           "year": 2024,
           "venue": "Neural Information Processing Systems",
           "url": "https://doi.org/10.48550/arXiv.2405.15709",
-          "cites": 23,
+          "cites": 24,
           "crank": "A*"
         },
         {
@@ -651,16 +651,16 @@
           "crank": "A*"
         },
         {
-          "title": "NGS-Marker: Robust Native Watermarking for 3D Gaussian Splatting",
-          "authors": "Qin, H., Sun, Y., Chen, L., Lu, M., Zhang, F., Kong, M., et al.",
-          "year": 2026,
+          "title": "FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization",
+          "authors": "Feng, S., Sun, W., Li, S., Talwalkar, A., & Yang, Y.",
+          "year": 2025,
           "venue": "International Conference on Learning Representations",
-          "url": "https://doi.org/10.48550/arXiv.2608.17447",
-          "cites": 3,
+          "url": "https://arxiv.org/abs/2505.16952",
+          "cites": 12,
           "crank": "A*"
         }
       ],
-      "count": 9769
+      "count": 12035
     },
     {
       "topic": "CVPR",
@@ -700,18 +700,18 @@
           "qcat": "Computer Science (miscellaneous)"
         },
         {
-          "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
-          "authors": "Murai, R., Dexheimer, E., & Davison, A. J.",
-          "year": 2024,
+          "title": "RE-VLM: Event-Augmented Vision-Language Model for Scene Understanding",
+          "authors": "Liu, H., Liu, M., Cui, L., Lin, E., Jiang, D., & Zhu, C.",
+          "year": 2026,
           "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52734.2025.01556",
-          "cites": 345,
+          "url": "https://doi.org/10.48550/arXiv.2605.19329",
+          "cites": 0,
           "q": "Q2",
           "sjr": 0.54,
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 10103
+      "count": 11415
     },
     {
       "topic": "AAAI",
@@ -754,7 +754,7 @@
           "crank": "A*"
         }
       ],
-      "count": 12339
+      "count": 12340
     },
     {
       "topic": "IJCAI",
@@ -870,7 +870,7 @@
           "year": 2024,
           "venue": "Conference on Empirical Methods in Natural Language Processing",
           "url": "https://doi.org/10.48550/arXiv.2406.11657",
-          "cites": 147,
+          "cites": 148,
           "crank": "A*"
         },
         {
@@ -977,7 +977,7 @@
           "qcat": "Literature and Literary Theory"
         }
       ],
-      "count": 4780
+      "count": 4846
     },
     {
       "topic": "KDD",
