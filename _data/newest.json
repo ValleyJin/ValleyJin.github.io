@@ -31090,7 +31090,68 @@
         "crank": "A*"
       }
     ],
-    "ICCV": [],
+    "ICCV": [
+      {
+        "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
+        "authors": "Hendrycks, D., Basart, S., Mu, N., Kadavath, S., Wang, F., Dorundo, E., et al.",
+        "year": 2020,
+        "venue": "IEEE International Conference on Computer Vision",
+        "url": "https://doi.org/10.1109/ICCV48922.2021.00823",
+        "cites": 2635,
+        "topic": "ICCV",
+        "crank": "A*"
+      },
+      {
+        "title": "Learning Background-Aware Correlation Filters for Visual Tracking",
+        "authors": "Galoogahi, H. K., Fagg, A., & Lucey, S.",
+        "year": 2017,
+        "venue": "IEEE International Conference on Computer Vision",
+        "url": "https://doi.org/10.1109/ICCV.2017.129",
+        "cites": 1158,
+        "topic": "ICCV",
+        "crank": "A*"
+      },
+      {
+        "title": "AI Choreographer: Music Conditioned 3D Dance Generation with AIST++",
+        "authors": "Li, R., Yang, S., Ross, D. A., & Kanazawa, A.",
+        "year": 2021,
+        "venue": "IEEE International Conference on Computer Vision",
+        "url": "https://doi.org/10.1109/ICCV48922.2021.01315",
+        "cites": 826,
+        "topic": "ICCV",
+        "crank": "A*"
+      },
+      {
+        "title": "Object Detection via a Multi-region and Semantic Segmentation-Aware CNN Model",
+        "authors": "Gidaris, S., & Komodakis, N.",
+        "year": 2015,
+        "venue": "IEEE International Conference on Computer Vision",
+        "url": "https://doi.org/10.1109/ICCV.2015.135",
+        "cites": 778,
+        "topic": "ICCV",
+        "crank": "A*"
+      },
+      {
+        "title": "Flow-Guided Feature Aggregation for Video Object Detection",
+        "authors": "Zhu, X., Wang, Y., Dai, J., Yuan, L., & Wei, Y.",
+        "year": 2017,
+        "venue": "IEEE International Conference on Computer Vision",
+        "url": "https://doi.org/10.1109/ICCV.2017.52",
+        "cites": 740,
+        "topic": "ICCV",
+        "crank": "A*"
+      },
+      {
+        "title": "Generating High-Quality Crowd Density Maps Using Contextual Pyramid CNNs",
+        "authors": "Sindagi, V. A., & Patel, V. M.",
+        "year": 2017,
+        "venue": "IEEE International Conference on Computer Vision",
+        "url": "https://doi.org/10.1109/ICCV.2017.206",
+        "cites": 682,
+        "topic": "ICCV",
+        "crank": "A*"
+      }
+    ],
     "ECCV": [
       {
         "title": "Computer Vision – ECCV 2026: 19th European Conference, Malmö, Sweden, September 8–12, 2026, Proceedings, Part XXXVIII",

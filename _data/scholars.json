@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07",
+  "generated": "2026-11-08",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -111,7 +111,7 @@
           "year": "2016",
           "venue": "Strategic Management Journal 37 (8), 1632-1648, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:G1UMdFYMoxkC",
-          "cites": 63,
+          "cites": 64,
           "q": "Q1",
           "sjr": 10.15,
           "qcat": "Business and International Management"
@@ -1606,7 +1606,7 @@
           "year": "2018",
           "venue": "Journal of stroke 21 (1), 42, 2018",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wSy_KLzO7YEC",
-          "cites": 311,
+          "cites": 310,
           "q": "Q1",
           "sjr": 2.71,
           "qcat": "Cardiology and Cardiovascular Medicine"
@@ -2323,7 +2323,7 @@
           "year": "2016",
           "venue": "Ceramics International 42 (15), 17853-17857, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QyXJ3EUuO1IC",
-          "cites": 25,
+          "cites": 26,
           "q": "Q1",
           "sjr": 0.96,
           "qcat": "Ceramics and Composites"
@@ -3718,6 +3718,15 @@
           "nr": "na"
         },
         {
+          "title": "Design of a Heat Release System for Fuel Cell Vehicles",
+          "authors": "SC Kim, MS Park, SH Jung, SH Yoon, MS Kim",
+          "year": "2005",
+          "venue": "한국신재생에너지학회: 학술대회논문집, 545-548, 2005",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:-jrNzM816MMC",
+          "cites": 4,
+          "nr": "na"
+        },
+        {
           "title": "Chaotic time series prediction using PSFS2",
           "authors": "MS Kim, HS Lee, CH You, CS Chung",
           "year": "2002",
@@ -3926,15 +3935,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:PaBasH6fAo0C",
           "cites": 3,
           "crank": "C"
-        },
-        {
-          "title": "Design of a Heat Release System for Fuel Cell Vehicles",
-          "authors": "SC Kim, MS Park, SH Jung, SH Yoon, MS Kim",
-          "year": "2005",
-          "venue": "한국신재생에너지학회: 학술대회논문집, 545-548, 2005",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:-jrNzM816MMC",
-          "cites": 3,
-          "nr": "na"
         },
         {
           "title": "Text summarization using PCA and SVD",
@@ -4416,6 +4416,15 @@
           "crank": "A"
         },
         {
+          "title": "TRACK: Multiple Instance Learning for Anti-Money Laundering in Transaction Networks",
+          "authors": "S Lim, I Tae, G Hong, J Lee, J Choi, T Kim, MS Kim, Y Lee",
+          "year": "2026",
+          "venue": "arXiv preprint arXiv:2611.06035, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:M_lZXyI38BkC",
+          "cites": 0,
+          "nr": "na"
+        },
+        {
           "title": "SafeQL: Search-based Refinement for Safe and Efficient LLM-based Text-to-SQL",
           "authors": "G Lee, MS Kim",
           "year": "2026",
@@ -4546,15 +4555,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:M0leSnx2MbUC",
           "cites": 0,
           "nr": "na"
-        },
-        {
-          "title": "Enhancement of Acetate Assimilation and PHA Production by Overexpression of SCACT (Succinyl-CoA: Acetate CoA Transferase) in Pseudomonas putida KT2440",
-          "authors": "CH Lee, H Khandelwal, M Kim, JR Kim",
-          "year": "2024",
-          "venue": "한국에너지기후변화학회 학술대회, 127-127, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:0sTkTiv_uMkC",
-          "cites": 0,
-          "nr": "na"
         }
       ],
       "recent": [
@@ -4575,6 +4575,15 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:uUvzmPk0f8oC",
           "cites": 0,
           "crank": "A"
+        },
+        {
+          "title": "TRACK: Multiple Instance Learning for Anti-Money Laundering in Transaction Networks",
+          "authors": "S Lim, I Tae, G Hong, J Lee, J Choi, T Kim, MS Kim, Y Lee",
+          "year": "2026",
+          "venue": "arXiv preprint arXiv:2611.06035, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:M_lZXyI38BkC",
+          "cites": 0,
+          "nr": "na"
         },
         {
           "title": "SafeQL: Search-based Refinement for Safe and Efficient LLM-based Text-to-SQL",
@@ -4934,15 +4943,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:xyvS_IvSCKsC",
           "cites": 0,
           "nr": "na"
-        },
-        {
-          "title": "MOBSEE-MandO Brake System Effort Estimation",
-          "authors": "J Lee, M Kim, J Koo",
-          "year": "2024",
-          "venue": "한국자동차공학회 추계학술대회 및 전시회, 2173-2182, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:rCNdntzdTkkC",
-          "cites": 0,
-          "nr": "na"
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=1wZVw8QAAAAJ&citpid=6"
@@ -4957,7 +4957,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14319,
+          "cites": 14341,
           "nr": "na"
         },
         {
@@ -4966,7 +4966,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9548,
+          "cites": 9586,
           "crank": "A*"
         },
         {
@@ -4975,7 +4975,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 887,
+          "cites": 889,
           "nr": "na"
         },
         {
@@ -4984,7 +4984,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 699,
+          "cites": 701,
           "crank": "A*"
         },
         {
@@ -4993,7 +4993,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 391,
+          "cites": 392,
           "crank": "A*"
         },
         {
@@ -5002,7 +5002,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 372,
+          "cites": 373,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5013,7 +5013,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 344,
+          "cites": 345,
           "crank": "A*"
         },
         {
@@ -5022,7 +5022,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 339,
+          "cites": 342,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5033,7 +5033,7 @@
           "year": "2023",
           "venue": "Transactions on Machine Learning Research (TMLR), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:M3ejUd6NZC8C",
-          "cites": 255,
+          "cites": 256,
           "q": "Q2",
           "sjr": 0.74,
           "qcat": "Artificial Intelligence"
@@ -5133,7 +5133,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 59,
+          "cites": 60,
           "crank": "A*"
         },
         {
@@ -5247,7 +5247,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 59,
+          "cites": 60,
           "crank": "A*"
         },
         {
@@ -5292,7 +5292,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 887,
+          "cites": 889,
           "nr": "na"
         },
         {
@@ -5310,7 +5310,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 344,
+          "cites": 345,
           "crank": "A*"
         },
         {
@@ -5328,7 +5328,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9548,
+          "cites": 9586,
           "crank": "A*"
         },
         {
@@ -5357,7 +5357,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 372,
+          "cites": 373,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5368,7 +5368,7 @@
           "year": "2023",
           "venue": "Transactions on Machine Learning Research (TMLR), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:M3ejUd6NZC8C",
-          "cites": 255,
+          "cites": 256,
           "q": "Q2",
           "sjr": 0.74,
           "qcat": "Artificial Intelligence"
@@ -5390,7 +5390,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 699,
+          "cites": 701,
           "crank": "A*"
         },
         {
@@ -5399,7 +5399,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 391,
+          "cites": 392,
           "crank": "A*"
         },
         {
@@ -5428,7 +5428,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 339,
+          "cites": 342,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Science Applications"
@@ -5439,7 +5439,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14319,
+          "cites": 14341,
           "nr": "na"
         },
         {
