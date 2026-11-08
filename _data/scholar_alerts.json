@@ -1,7 +1,177 @@
 {
-  "generated": "2026-11-07",
+  "generated": "2026-11-08",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Personas Are Not People: Identity as State, Not Attribute",
+      "url": "https://arxiv.org/pdf/2611.05292",
+      "authors": "T Harry, Y Feng - arXiv preprint arXiv:2611.05292, 2026",
+      "snippet": "Synthetic populations, large sets of simulated people, are increasingly used in place of real people to pretest surveys, simulate users and communities, and evaluate AI systems. Each simulated person is defined by a persona, a written profile of fixed traits, demographics, and attitudes that a language model is instructed to act out. Every such system assumes that a person's identity is a stable attribute that behaves the same way in every situation the simulation presents. We show that this …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "nr": "na"
+    },
+    {
+      "title": "Learning Latent Process Knowledge via Variational Distillation for Low-Resource Social Experiment Prediction",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3799682.3841061",
+      "authors": "Y Wu, Z Zhang, X Pang, X Zheng - Proceedings of the 35th ACM International …, 2026",
+      "snippet": "Large language models (LLMs) have become a promising tool for scaling social experiments with silicon samples. However, fine-tuning LLMs for real randomized controlled trials faces a dual low-resource challenge: structurally balanced experimental data are often small, and the process knowledge that explains how respondent profiles and treatments jointly shape outcomes is unobserved. Without reliable process-level supervision, existing fine-tuning methods may struggle to learn …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "nr": "na"
+    },
+    {
+      "title": "Personality expression and perception in large language models and humans",
+      "url": "https://www.nature.com/articles/s41598-026-75546-5",
+      "authors": "ST Koerner, B Egloff, S Osterholz - Scientific Reports, 2026",
+      "snippet": "Growing numbers of people frequently turn to Large Language Models (LLMs) for concerns from various areas of life. Because its content has become ubiquitous, examining user perceptions of LLM-produced text and its distinguishability from human writing is crucial. This study investigated how seven LLMs (ChatGPT-4o, ChatGPT-3.5, Llama 3, Gemma, Gemini, Phi-3, Orca-2) describe themselves when compared to humans. LLM-generated outputs and human responses were collected …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary"
+    },
+    {
+      "title": "PromptTweak: Assessing the Trustworthiness of Text-to-Video Models in Autonomous Edge Intelligence",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11773257/",
+      "authors": "Y Mu, H Li, R Zhang, W Jiang, W Fan - IEEE Transactions on Network Science and …, 2026",
+      "snippet": "Recent advances in Agentic AI are enabling Text-to-Video (T2V) models to serve as generative visual modules for autonomous agents in resource-constrained edge environments. These models can provide visual information for environmental perception, context understanding, and downstream decision-making. However, their integration into decentralized edge networks introduces a new security concern. A compromised T2V module may generate unsafe or misleading visual content, which …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "q": "Q1",
+      "sjr": 1.88,
+      "qcat": "Computer Networks and Communications"
+    },
+    {
+      "title": "Computational models of complex systems meet AI agents",
+      "url": "https://www.nature.com/articles/s44260-026-00102-1_reference.pdf",
+      "authors": "C Cattuto, A Vespignani - npj Complexity, 2026",
+      "snippet": "Complex systems have structural properties that make them a promising domain for scientific workflows driven by AI agents—systems that combine large language models with tool use and iterative execution. However, most complex systems simulators and libraries do not expose their control points and outputs in a form that text-based AI agents can readily use. Realizing the potential of agent-driven workflows requires equipping complex systems models with agent-friendly …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "nr": "na"
+    },
+    {
+      "title": "AgentAM: An AI Agent for Spatter-and Defect-Aware Process Optimization in Laser Powder Bed Fusion",
+      "url": "https://arxiv.org/pdf/2611.05171",
+      "authors": "OT Ajenifujah, AB Farimani - arXiv preprint arXiv:2611.05171, 2026",
+      "snippet": "Predictive models for laser powder bed fusion (LPBF) are rarely used on the shop floor because querying them requires programming and model-specific knowledge. We present AgentAM, a large language model (LLM) agent that gives process engineers natural-language access to CFD-trained surrogates of spatter and melt pool geometry for SS316L through the Model Context Protocol (MCP). Polynomial surrogates trained on 279 single-track simulations predict melt pool dimensions …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "nr": "na"
+    },
+    {
+      "title": "Artificial Intelligence Agents: A Structural Review of Frameworks, Core Components, and Open Challenges",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11760832/",
+      "authors": "J Li, NA Golilarz, S Rahimi - 2026 25th International Conference on Machine …, 2026",
+      "snippet": "Artificial intelligence (AI) agents have emerged as a major application paradigm built on large language models (LLMs). These systems can perceive inputs, reason about goals, plan actions, use tools, access memory, and interact with external environments with varying degrees of autonomy. Although AI agent systems are rapidly expanding, the literature still lacks a concise structural review that explains how these systems are organized into recurring framework patterns and which …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "crank": "C"
+    },
+    {
+      "title": "A Digital Stakeholder Communication Framework for Accelerating MSME Halal Certification",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11748985/",
+      "authors": "S Nahidloh, F Fajar, R Kurniawan, T Pujiati, A Avandi - 2026 5th International …, 2026",
+      "snippet": "Halal certification is essential for MSMEs to ensure regulatory compliance and improve competitiveness, yet its implementation is often hindered by weak stakeholder coordination and ineffective communication. This study proposes a digital stakeholder communication framework, designed as a pseudo-system model, to enhance coordination and accelerate certification processes. The framework integrates MSME and stakeholder data, processes it through a communication …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "nr": "na"
+    },
+    {
+      "title": "The generative AI duality trap: a knowledge governance perspective on knowledge diversity and epistemic convergence in AI-augmented organisations",
+      "url": "https://www.emerald.com/jkm/article-abstract/doi/10.1108/JKM-05-2026-1037/1407067",
+      "authors": "HC Chan, KM Chu - Journal of Knowledge Management, 2026",
+      "snippet": "Purpose This study aims to examine a knowledge management (KM) puzzle: why generative artificial intelligence (GenAI) use relates to knowledge diversity expansion in some organisations and epistemic convergence in others. The authors develop the GenAI duality trap, a cross-level knowledge governance framework in which artificial intelligence (AI)-mediated knowledge outcomes track governance design, not technological capability alone. Design/methodology/approach A multi …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "q": "Q1",
+      "sjr": 2.38,
+      "qcat": "Management of Technology and Innovation"
+    },
+    {
+      "title": "From Hashed Records to Graduation Risk: Evaluating Foundation Models and Tabular Baselines on Longitudinal Higher-Education Data",
+      "url": "https://www.mdpi.com/2076-3417/16/21/10898/pdf",
+      "authors": "Y Alshammari, D Runfola - Applied Sciences, 2026",
+      "snippet": "In this paper, we explore the ability of generative models to integrate deterministically hashed representations of information in the context of higher education. We compare BERT, RoBERTa, and GPT-2 base configurations for predicting undergraduate graduation within the next four academic years using de-identified institutional records with values supplied as SHA-256 hashes and represented as token sequences. We construct a sample of 155,933 student-terms for 17,605 …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-08",
+      "q": "Q4",
+      "sjr": 0.15,
+      "qcat": "Applied Mathematics"
+    },
+    {
+      "title": "Role-Specific Agentic RAG: Asymmetric Hybrid-Path Reasoning over Semi-structured Knowledge Bases",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3799682.3840710",
+      "authors": "Y Shi, D Shen, M Wang, B Wang - Proceedings of the 35th ACM International …, 2026",
+      "snippet": "Hybrid Question Answering (HQA) over semi-structured knowledge bases (SKBs) is vital for high-stakes domains like clinical precision medicine. However, HQA over SKBs is challenging because evidence is split across documents and relations, while answers must satisfy both semantic and structural constraints. Standard RAG pipelines retrieve evidence from textual or relational sources separately, failing to jointly capture the semantic conditions and relational constraints required by HQA …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-08",
+      "nr": "na"
+    },
+    {
+      "title": "Cimos: Cost-Effective Multi-Query Oriented Continuous Subgraph Matching",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3799682.3841138",
+      "authors": "Z Zou, K Zhao, Q Li, Z Zhang, L Ding, X Zhao, P Wu - Proceedings of the 35th ACM …, 2026",
+      "snippet": "Continuous subgraph matching over dynamic graphs is a fundamental problem in graph databases, with broad applications in real-time pattern monitoring and risk control. In practice, applications often require monitoring multiple graph patterns simultaneously, making multi-query oriented continuous subgraph matching (MCSM) an increasingly important research topic. Although existing methods have achieved performance gains, their indexes offer limited filtering power and they lack high …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-08",
+      "nr": "na"
+    },
+    {
+      "title": "A Trusted Multi-Hazard Early Warning Framework Integrating IoT, Ensemble Machine Learning, and Hyperledger Fabric",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11754524/",
+      "authors": "MS Muneshwara, T Shivakumara, S Ajith, C MJ… - 2026 Forth International …, 2026",
+      "snippet": "Floods and landslides are serious natural hazards demanding effective, secure, and reliable means of early warning. Traditional early-warning systems can be subject to noisy sensor measurement readings, limited robustness of predictive algorithms, and inadequate protection of generated alerts. This paper proposes an advanced multi-hazard early-warning system architecture leveraging the Internet of Things (IoT), ensemble learning, and Hyperledger Fabric to monitor floods and landslides in real …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-08",
+      "nr": "na"
+    },
+    {
+      "title": "A Dynamic Model of Amygdala Circuits in Threat and Reward: Implications for Affective Disorders",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006322326016604",
+      "authors": "Y Zhu, SZ Xie, CY Li, JX Hu, XM Li - Biological Psychiatry, 2026",
+      "snippet": "Animals must continuously evaluate their surroundings and select adaptive responses to survive in ever-changing environments. Central to this capacity is the assignment of importance to environmental cues, which guides motivated behavior toward rewarding opportunities and away from potential threats. Here we propose a theoretical framework, a dynamic motivational model based on threat and reward imminence, in which motivational states evolve continuously as a function of …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-08",
+      "q": "Q1",
+      "sjr": 3.61,
+      "qcat": "Biological Psychiatry"
+    },
+    {
+      "title": "GraFine: Retrieval-Time Refinement for Efficient Graph RAG over Corpus Graphs",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3799682.3840565",
+      "authors": "S An, C Hyun, MS Kim - Proceedings of the 35th ACM International Conference …, 2026",
+      "snippet": "Graph RAG on corpus graphs enhances retrieval by leveraging intermediate node content as contextual clues to uncover unretrieved oracle nodes. However, existing methods suffer from two critical blind spots, namely semantically blind graph expansion and topology blind pruning, or else rely on prohibitively slow retrieval and generation interleaving. To address this, we formalize these limitations through an operational taxonomy and propose a retriever design that couples semantics-aware …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-08",
+      "crank": "A*"
+    },
+    {
+      "title": "GSPARC: A Mode-Aware GPU-Based Method for Large-Scale Sparse Tensor Contraction",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3799682.3840585",
+      "authors": "S Kim, J Lee, S Park, MS Kim - Proceedings of the 35th ACM International …, 2026",
+      "snippet": "Sparse tensor contraction (SpTC) is a core operation for high-order sparse data analytics in recommendation, knowledge graph analytics, large-scale tensor mining, and scientific computing. Existing methods are limited by SpTC-misaligned representations, overlapping outputs across partitions, and memory-inefficient accumulation over large output spaces. We propose GSPARC, a GPU-based SpTC method that combines a new mode-aware bit-wise representation with mode …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-08",
+      "nr": "na"
+    },
     {
       "title": "ArtScape: Detecting, Characterizing, and Interactively Exploring Urban Art at Scale Using Vision Language Models",
       "url": "https://dl.acm.org/doi/pdf/10.1145/3830398.3830557",
@@ -248,178 +418,6 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-05",
-      "nr": "na"
-    },
-    {
-      "title": "Understanding and supporting young adults' mental health care-seeking and emotional coping",
-      "url": "https://repositories.lib.utexas.edu/bitstreams/bc75c601-edf2-4371-b54d-c636c37605d2/download",
-      "authors": "J Liu - 2026",
-      "snippet": "Young adults face persistent challenges in accessing mental health care, yet prior research has seldom examined the full trajectories of care-seeking they navigate—from initial recognition of mental health concerns through repeated attempts to access formal and informal support. Emotional coping demands arise throughout these journeys, frequently in everyday contexts where professional support is unavailable, requiring individuals to regulate distress daily. Scholarship on how …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
-      "nr": "na"
-    },
-    {
-      "title": "Fatigue Crack Growth in Additively Manufactured and Advanced Alloys: From Synchrotron Imaging to Physics-Informed Digital Twins",
-      "url": "https://www.mdpi.com/2076-3417/16/21/10813",
-      "authors": "AM Alshoaibi, OY Bakather - Applied Sciences, 2026",
-      "snippet": "Predicting fatigue crack growth in structural alloys requires linking processes that span enormous differences in scale, from crystallographic slip at the nanoscale to failure of an entire component. Engineering assessments still rely heavily on phenomenological models such as Paris, Walker and NASGRO. These models are practically useful, but their limitations become apparent under multiaxial loading, in microstructures with pronounced local variation, and in harsh environments where …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
-      "q": "Q4",
-      "sjr": 0.15,
-      "qcat": "Applied Mathematics"
-    },
-    {
-      "title": "Nationwide Trends in the Incidence and Fatality of Acute Myocardial Infarction and Stroke in Korea, 2011–2023",
-      "url": "https://www.e-kcj.org/DOIx.php?id=10.4070/kcj.2026.0060",
-      "authors": "J Khil, S Shin, S Shin, J Lee, M Cho, NY Ahn, SG Lee… - Korean Circulation Journal, 2026",
-      "snippet": "Methods We analyzed National Health Insurance Service (NHIS) claims data covering the entire Korean population from 2002 to 2023. The period from 2002-2010 served as a washout period, and annual incidence and case-fatality rates were estimated for 2011-2023. AMI (ICD-10: I21-I23) and stroke (ICD-10: I60-I61, I63-I64) events were identified from hospitalization episodes using diagnostic, procedure, imaging, and mortality codes. Crude and age-standardized rates were calculated …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-05",
-      "q": "Q2",
-      "sjr": 0.79,
-      "qcat": "Cardiology and Cardiovascular Medicine"
-    },
-    {
-      "title": "The Inbox as a Coordination Primitive for LLM Agent Societies",
-      "url": "https://arxiv.org/pdf/2610.36264",
-      "authors": "K Sreedhar, L Yuan, P Chari, R Raskar - arXiv preprint arXiv:2610.36264, 2026",
-      "snippet": "Language-model agents increasingly coordinate in large groups, and current agent protocols focus on delivering messages. For these agents, however, the scarce resource is not delivery but reading: every message costs tokens, and the context is finite. Current infrastructure works by push: the sender decides when a message enters the recipient's context, so the recipient reads in arrival order and drops the oldest messages once its context is full. We study the alternative, pull, in which …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "nr": "na"
-    },
-    {
-      "title": "AI Alignment for Digital Democracy: Fairer Voters Representation against LLM Biases",
-      "url": "https://arxiv.org/pdf/2610.32780",
-      "authors": "Y Qi, S Majumdar, E Pournaras - arXiv preprint arXiv:2610.32780, 2026",
-      "snippet": "AI representation is emerging in digital democracy, assisting in voter emulation and decision-making. Large language models (LLMs) behave differently depending on the model, the prompt context, and the voter information they receive, representing some groups more accurately than others and potentially making the emulation unfair to certain groups. We investigate demographic biases in LLM-emulated electorates: how accurately LLMs represent individual votes, whether some voter …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "nr": "na"
-    },
-    {
-      "title": "Satellite Intelligence: Distributed Training, Collaborative Inference, and LLM Adaptation in LEO Constellation",
-      "url": "https://arxiv.org/pdf/2610.35282",
-      "authors": "Z Lin, Z Wang, Y Zhang, Y Wang, O Aouedi, Z Fang… - arXiv preprint arXiv …, 2026",
-      "snippet": "The proliferation of orbital sensing data and the real-time demands of emerging global services are pushing low Earth orbit (LEO) satellite networks from bent-pipe relays toward intelligent onboard processing. This shift confronts a fundamental tension, where modern artificial intelligence (AI) training paradigms require intensive computation, abundant memory, and stable connectivity, all of which are scarce under the dynamic topologies, intermittent links, and severe size, weight, and power …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "nr": "na"
-    },
-    {
-      "title": "Detecting and Understanding Ambiguity in Visualizations with Role-Playing Vision Language Model Interpretations",
-      "url": "https://arxiv.org/pdf/2610.33997",
-      "authors": "G Chan, YH Kuo, SYT Lee, Y Tang, KL Ma - arXiv preprint arXiv:2610.33997, 2026",
-      "snippet": "Communicative visualizations can support multiple chart-grounded takeaways, including divergent or conflicting ones; we refer to this variation as interpretive ambiguity. Such ambiguity can undermine a visualization's communicative goal when the supported takeaways diverge from its intended message. Evaluating visualizations with target audiences can surface this variation, but such evaluations can be costly and difficult to scale. In this work, we explore persona-conditioned …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "nr": "na"
-    },
-    {
-      "title": "Evaluating Visual Realism of AI-Generated Videos with Eye Tracking",
-      "url": "https://arxiv.org/pdf/2610.38825",
-      "authors": "D Shi, L Jiang, J Lyons, M Zilka - arXiv preprint arXiv:2610.38825, 2026",
-      "snippet": "Human evaluation of AI-generated videos has so far relied on explicit human feedback, such as judgments or ratings. While these signals capture the conclusions viewers reach, they fail to offer insights into the perception that leads to them. This paper investigates eye tracking as a complementary human evaluation signal for AI-generated videos. We conducted two Visual Turing Test (VTT) experiments with a total of 90 participants on videos generated by latest generative models, in which …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "nr": "na"
-    },
-    {
-      "title": "The Anatomy of Socio-Demographics in Pluralistic Offensiveness Modeling: When and Where It Helps, and the Role of Reasoning",
-      "url": "https://arxiv.org/pdf/2610.37896",
-      "authors": "Y Wang, L Zhang, J Mu, Y Wang, M Jobanputra… - arXiv preprint arXiv …, 2026",
-      "snippet": "Subjective judgments such as offensiveness often vary substantially across individuals, motivating pluralistic modeling approaches that incorporate annotators' socio-demographic information to capture this variation. However, prior findings on the benefits of socio-demographic information for pluralistic modeling are mixed, calling for a systematic analysis of both its effectiveness and the mechanisms through which it improves prediction. In this work, we study $\\textbf {when} $ and …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "nr": "na"
-    },
-    {
-      "title": "LLM knowledge for improved Out-of-Distribution Tabular Prediction-A Cross-Validated Regularisation Approach",
-      "url": "https://arxiv.org/pdf/2610.36806",
-      "authors": "S Langseth, KH Hellton, HL Hammer - arXiv preprint arXiv:2610.36806, 2026",
-      "snippet": "Prediction models degrade when the deployment population differs from the one used to train them, and training data cannot say which feature-response relationships will transfer. Expert elicitation is slow and unscalable. We ask whether coefficient priors elicited from large language models (LLMs) improve out-of-distribution (OOD) prediction as the shrinkage target of a regularised regression instead of zero, across five tabular datasets split on real covariates, selecting …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "nr": "na"
-    },
-    {
-      "title": "Algorithmic Editoriality in TikTok Search: Visibility and Query Suggestions",
-      "url": "https://avesis.gelisim.edu.tr/yayin/1f7e6ab5-be00-4df2-90c1-ffae4a412a8d/algorithmic-editoriality-in-tiktok-search-visibility-and-query-suggestions/document.pdf",
-      "authors": "E Efe - International Journal of Social and Humanities …, 2026",
-      "snippet": "TikTok'un kısa video ve algoritmik öneri platformu olmanın ötesinde bilgi arama amacıyla kullanılması, kullanıcıya hangi içeriklerin ve sorgu seçeneklerinin görünür hâle geldiği sorusunu gündeme getirmektedir. Bu çalışma, TikTok aramasındaki algoritmik aracılığı algoritmik editoryallik kavramı çerçevesinde, arama sonucu görünürlüğü ve otomatik tamamlama önerileri üzerinden betimsel olarak incelemektedir. Türkiye'de Türkçe sorgular kullanılarak ekonomi, sağlık, eğitim ve …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "q": "Q3",
-      "sjr": 0.26,
-      "qcat": "Political Science and International Relations"
-    },
-    {
-      "title": "Knowing about GenAI is not enough: How knowledge type in learning shapes prompt completeness and AI response quality",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0747563226003249",
-      "authors": "DA Jeong, SW Lee - Computers in Human Behavior, 2026",
-      "snippet": "As generative AI becomes more widespread, designing prompts that elicit high-quality responses remains challenging for general users, and empirical evidence on effective approaches to developing prompt competency is scarce. This study applies the knowledge type classification from learning psychology—declarative, procedural, and conditional knowledge—to prompt learning and examines how learning emphasizing each type relates to prompt completeness and AI response quality. A 4 …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "q": "Q1",
-      "sjr": 3.07,
-      "qcat": "Arts and Humanities (miscellaneous)"
-    },
-    {
-      "title": "A Scoping Review of Agentic AI: Applications, Emerging Trends, Risks & Future Directions",
-      "url": "https://www.mdpi.com/2079-9292/15/21/5024/pdf",
-      "authors": "A Yadav, LC Nnadi, CP Isiwu, IS Okechukwu… - Electronics, 2026",
-      "snippet": "Agentic AI describes systems based on foundation models that extend generative AI from passive response generation toward executing tasks to achieve specific goals through planning, tool use, memory, reflection, multi-agent coordination, and environmental interaction. This scoping review maps recent peer-reviewed research on Agentic AI to clarify its conceptual foundations, application domains, technical patterns, risks, and future directions. Following PRISMA-ScR guidance, searches …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-03",
-      "q": "Q4",
-      "sjr": 0.14,
-      "qcat": "Electrical and Electronic Engineering"
-    },
-    {
-      "title": "EB-RAG: Evidence-Budget-Aware Retrieval-Augmented Generation for AIoT Systems",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11755959/",
-      "authors": "Y Luo, S Ji, C Liu, K Li, K Li - IEEE Internet of Things Journal, 2026",
-      "snippet": "Retrieval-augmented generation (RAG) improves the factuality and adaptability of large language models, but its common fixed top-k interface hides a critical systems problem in Artificial Intelligence of Things (AIoT) deployments: retrieved evidence consumes token and communication budgets while being constrained by deadline and privacy requirements. In such environments, evidence is distributed across device, gateway, edge, and cloud tiers, and blindly adding farther evidence can …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-03",
-      "q": "Q1",
-      "sjr": 2.14,
-      "qcat": "Computer Networks and Communications"
-    },
-    {
-      "title": "Insights into brake wear particle emissions from a pure electric light-duty vehicle",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1361920926004888",
-      "authors": "B Gong, Z Zeng, Y Lyu, Y Xu, Y Gu, Y Ma, J Li, J Tan… - … Research Part D: Transport …, 2027",
-      "snippet": "In this study, an inertia dynamometer test bench system fully compliant with united nations global technical regulation No. 24 (UN GTR-24) and Euro 7 regulations was employed to systematically evaluate brake wear particle (BWP) emissions from a pure electric light-duty passenger vehicle. A critical temperature window was identified for brake emissions, beyond which PN 10 emissions increase sharply, ranging from 107.8 to 131.8℃ for the low-metallic (LM) material and from 106.4 to …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-03",
-      "nr": "na"
-    },
-    {
-      "title": "Double Density Sign: Left Atrial Enlargement on Chest X-ray",
-      "url": "https://radiogyan.com/articles/double-density-sign-radiology-sign/",
-      "authors": "A Udare",
-      "snippet": "An enlarged left atrium. As the left atrium dilates it extends posteriorly and to the right, so its right margin is projected through the right cardiac silhouette on the frontal chest radiograph as a second curved opacity. Mitral valve disease is the classic cause, but anything that raises left atrial pressure or volume will produce it.",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-03",
       "nr": "na"
     }
   ]
