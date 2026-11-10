@@ -1,7 +1,127 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-10",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "“Hollow Pursuits” and the Right Not to Be Simulated: privacy, autonomy, and the holodeck",
+      "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1984132/full",
+      "authors": "GW Young - Frontiers in Genetics, 2026",
+      "snippet": "Emerging artificial intelligence and extended reality technologies increasingly enable the construction of interactive digital representations of identifiable people from their faces, voices, behavioral traits, personal data, and other records. Such systems raise a problem that extends beyond conventional questions of informational privacy or synthetic likeness. Drawing on the Holodeck in Star Trek: The Next Generation, particularly “Hollow Pursuits,”“Booby Trap,” and “Galaxy's …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "PSI-Bench: Interpretable and clinically meaningful evaluation of depression patient simulators",
+      "url": "https://aclanthology.org/2026.multipsyche-1.10.pdf",
+      "authors": "NK Hoang, S Mehri, TA Hsu, YJ Sun, QXN Truong… - Proceedings of the 1st …, 2026",
+      "snippet": "Patient simulators are gaining traction in mental health training by providing scalable exposure to complex and sensitive patient interactions. Simulating depressed patients is challenging, as safety constraints and high patient variability complicate simulations and underscore the need for simulators that capture diverse and realistic patient behaviors. However, existing evaluations heavily rely on LLM-judges with poorly specified prompts and do not assess behavioral diversity. We introduce PSI …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "No Convo! The Illusion of Reliability in Online Toxicity Detection",
+      "url": "https://aclanthology.org/2026.findings-aacl.204.pdf",
+      "authors": "R Rajesh, CA Chance, A Suvarna, KW Chang… - Findings of the Association …, 2026",
+      "snippet": "While AI toxicity detection models are widely used, their (un) reliability under realistic linguistic variation remains poorly understood. We provide a comprehensive study of how contextual change affects prediction reliability. We evaluate eight state-of-the-art toxicity detection models across three dimensions of linguistic variation: conversational context, conversational depth, and surface form transformations. Our results on three toxicity benchmarks show that conversational context often …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "The Memory Trap: Language Agents Overgeneralize from Benign Interactions",
+      "url": "https://arxiv.org/pdf/2611.07554",
+      "authors": "K Liang, JF Fisac, TL Griffiths, A Lampinen - arXiv preprint arXiv:2611.07554, 2026",
+      "snippet": "Language agents increasingly use persistent memory to record user preferences and procedures across sessions. We show that memory from benign interactions can cause unsafe or unreliable behavior on later tasks. We call this failure the memory trap. To study this issue, we compare behavior in sessions with and without memory across six frontier models (including Claude Sonnet, Opus, and Fable models and GPT-5.6). We evaluate these models in a range of settings. First, in autonomy …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "ProgMem: Programmatic Belief-State Memory for Long-Horizon Conversational Agents",
+      "url": "https://aclanthology.org/2026.findings-aacl.120.pdf",
+      "authors": "P Zheng, X Wang, Z Wei, H Liu, L Wei, J Niu, B Guo… - Findings of the Association …, 2026",
+      "snippet": "Long-horizon conversational agents require memory that can evolve with dialogue, retrieve information on demand, and remain uncertainty-aware when evidence is insufficient, rather than merely larger storage or context windows. Existing methods store interaction histories as retrievable text, summaries, or vector indices, and retrieve relevant content at query time. Although effective for simple factual queries, this paradigm does not explicitly model how memory writes change state, leaving …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "Do LLMs Have Social Sense? Evaluating Alignment of Conversation Understanding and Reasoning",
+      "url": "https://aclanthology.org/2026.aacl-long.261.pdf",
+      "authors": "Z Wu, D Goldwasser - Proceedings of the 15th International Joint Conference …, 2026",
+      "snippet": "Large language models (LLMs) demonstrate strong instruction-following and reasoning abilities, yet struggle with the socially nuanced understanding humans handle naturally. Humans rely on social sense to interpret intentions, emotions, and relationships in context. We investigate whether and to what extent LLMs exhibit similar abilities when reasoning about social interactions. We propose a structured approach that decomposes social interactions into three aspects and prompts LLMs …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "crank": "C"
+    },
+    {
+      "title": "AI-generated advertising in agricultural livestreaming and the auditability of disclosure regulation: a three-layer audit of public Douyin data from China",
+      "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1938100/pdf",
+      "authors": "T Tang, Z Hu - Frontiers in Sustainable Food Systems, 2026",
+      "snippet": "Agricultural products are credence goods, and in livestreaming, the grower's visible presence signals the price. China has required labeling of deep-synthesis content since January 2023 and, since 1 September 2025, of AI-generated synthetic content. Whether public platform data can verify compliance in a market where the authenticity premium is especially salient remains unclear, given that growers themselves sell produce. We audited three layers of public Chinese platform data …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "Evaluating and Improving Generative Models with Feedback",
+      "url": "https://uwspace.uwaterloo.ca/bitstreams/5c0c7306-1bd8-4d3b-97e2-35177c32720e/download",
+      "authors": "D Jiang - 2026",
+      "snippet": "Generative models can produce many candidate outputs for a request, but deciding which output is good, and what a model should learn next, requires feedback, a judgment of how well an output serves its task. This thesis studies how to obtain such feedback and how to use it, for evaluating generated outputs and for improving the models that produce them. The two uses place different demands on feedback. For evaluation, feedback has to agree with human judgment and explain its judgment …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "Trustworthy and Explainable Transformer-Based Malware Detection for Drone Security",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-23522-0_18",
+      "authors": "M Abdur Rahman, G Francia III, H Shahriar… - Innovations in Data Science …, 2026",
+      "snippet": "Drones are becoming more pervasive. Their uses have expanded far beyond military and smart city applications. One of their biggest advantages is the ability to take on dangerous missions without risking a human pilot. However, their reliance on a suite of onboard sensors to collect data and operate, they can be vulnerable to cyberattacks. The adversary could potentially steal sensitive data, feed false information, clone the remote controller to gain control, or inject malicious information …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "Collaborative generalist-specialist AI for safe worklist deprioritization of non-contrast brain computed tomography",
+      "url": "https://www.nature.com/articles/s41746-026-03447-y_reference.pdf",
+      "authors": "S Lee, W Paik, G Kim, WJ Chung, GS Hong, N Kim - npj Digital Medicine, 2026",
+      "snippet": "Safe deprioritization of non-contrast brain computed tomography (NCCT) demands high sensitivity and negative predictive value (NPV) across common and uncommon findings requiring clinical attention. Here, we present a collaborative safety net integrating BrainCT-CLIP, a generalist foundation model via contrastive language-image pre-training (CLIP), with commercial detectors. Every examination remained in the reporting workflow, deprioritized only when no model returned a positive result. In …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "Molecular dynamics simulation and experimental analysis of solubility characteristics of lanthanum salts in supercritical water",
+      "url": "https://link.springer.com/article/10.1007/s10967-026-11254-8",
+      "authors": "X Xu, S Liu, L He, Y Tan, S Hu, X Ouyang, Q zhou - Journal of Radioanalytical and …, 2026",
+      "snippet": "The solubility of lanthanum salts (La (NO3) 3, LaCl3, La2 (SO4) 3) in supercritical water (300–420° C, 24–26.4 MPa) was investigated using experiments and molecular dynamics simulations. Solubility increases with decreasing temperature and increasing pressure, following the order: La (NO3) 3> LaCl3> La2 (SO4) 3. Notably, LaCl3 significantly enhances La2 (SO4) 3 solubility in ternary systems. These findings provide a basis for managing salt deposition and recovering …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
+    {
+      "title": "공기 가습에 따른 PEMFC 출력 변화",
+      "url": "https://db.koreascholar.com/Article/Detail/453595",
+      "authors": "박다인， 이상호， 김경빈， 김영렬 - 한국기계기술학회 학술대회논문집, 2026",
+      "snippet": "PEMFC is increasingly used as power sources for eco-friendly transportation systems. In this study, the effects of air inlet temperature and relative humidity on PEMFC stack power were analyzed using AMESim. The stack power increased with relative humidity and then decreased under high-humidity conditions. The maximum stack power of approximately 32,340 W was obtained at 80° C and 60% RH. These results can provide fundamental data for determining operating conditions and …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-09",
+      "nr": "na"
+    },
     {
       "title": "Personas Are Not People: Identity as State, Not Attribute",
       "url": "https://arxiv.org/pdf/2611.05292",
@@ -30,9 +150,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-08",
-      "q": "Q1",
-      "sjr": 0.89,
-      "qcat": "Multidisciplinary"
+      "nr": "na"
     },
     {
       "title": "PromptTweak: Assessing the Trustworthiness of Text-to-Video Models in Autonomous Edge Intelligence",
@@ -42,9 +160,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-08",
-      "q": "Q1",
-      "sjr": 1.88,
-      "qcat": "Computer Networks and Communications"
+      "nr": "na"
     },
     {
       "title": "Computational models of complex systems meet AI agents",
@@ -94,9 +210,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-08",
-      "q": "Q1",
-      "sjr": 2.38,
-      "qcat": "Management of Technology and Innovation"
+      "nr": "na"
     },
     {
       "title": "From Hashed Records to Graduation Risk: Evaluating Foundation Models and Tabular Baselines on Longitudinal Higher-Education Data",
@@ -106,9 +220,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-08",
-      "q": "Q4",
-      "sjr": 0.15,
-      "qcat": "Applied Mathematics"
+      "nr": "na"
     },
     {
       "title": "Role-Specific Agentic RAG: Asymmetric Hybrid-Path Reasoning over Semi-structured Knowledge Bases",
@@ -148,9 +260,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-08",
-      "q": "Q1",
-      "sjr": 3.61,
-      "qcat": "Biological Psychiatry"
+      "nr": "na"
     },
     {
       "title": "GraFine: Retrieval-Time Refinement for Efficient Graph RAG over Corpus Graphs",
@@ -260,9 +370,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-07",
-      "q": "Q1",
-      "sjr": 1.84,
-      "qcat": "Computer Science Applications"
+      "nr": "na"
     },
     {
       "title": "Cross-Modal Emergent Misalignment Through Narrow-Domain Fine-Tuning",
@@ -292,132 +400,6 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-07",
-      "nr": "na"
-    },
-    {
-      "title": "Large language models underrepresent malice and overreport virtue",
-      "url": "https://arxiv.org/pdf/2611.01332",
-      "authors": "X Wu, F Shi - arXiv preprint arXiv:2611.01332, 2026",
-      "snippet": "People increasingly use large language models (LLMs) to interpret others' behaviour, often assuming that LLMs infer motives as humans do. Aligned LLMs attribute more benevolent and less malevolent motives to a whistleblower than humans do, but ratings alone cannot reveal whether these differences arise in internal representations or at report. Here we compare linear-probe readouts of LLMs' internal states with their own ratings at the same prompt position for four …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-07",
-      "nr": "na"
-    },
-    {
-      "title": "A GPU Engine for Sparse Matrix-Vector Products on $ k^ 2$-Tree-Compressed Graphs",
-      "url": "https://arxiv.org/pdf/2611.03610",
-      "authors": "F Tosoni, G Mencagli - arXiv preprint arXiv:2611.03610, 2026",
-      "snippet": "The $ k^ 2$-tree is a compact representation of Boolean matrices: it stores the recursive hierarchy of their non-empty submatrices, with neither values nor coordinates, and serves rows and columns alike. Its traversal, however, locates the children of each node by rank queries, a chain of dependent irregular loads that leaves a GPU waiting on memory. We implement sparse matrix-vector multiplication (SpMV) on $ k^ 2$-trees for the GPU. Since the traversal does not depend on the …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-07",
-      "nr": "na"
-    },
-    {
-      "title": "Potential-dependent coupling of hydrogen evolution, cathodic microenvironment, and acetogenesis on a NiFe-LDO/CNTs biocathode",
-      "url": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=7292907",
-      "authors": "G Chen, R Wang, J Jiang, W Zhu, Y Cai, Y Zhang - Chemical Engineering Journal, 2026",
-      "snippet": "Microbial electrosynthesis (MES) offers a sustainable route for converting carbon dioxide and renewable electricity into acetate, but its efficiency depends on matching cathodic electron delivery with the metabolic capacity of the biocathode. Here, we investigated how cathodic potential regulates the coupling of hydrogen evolution, cathodic microenvironment, biofilm activity, and CO 2 reduction on a NiFe-LDO/CNTs biocathode. Cathode potentials from− 0.80 to− 1.00 V vs. Ag/AgCl were …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-07",
-      "q": "Q1",
-      "sjr": 2.26,
-      "qcat": "Chemical Engineering (miscellaneous)"
-    },
-    {
-      "title": "Evidence-Gated Security and Performance Evaluation of Hash-Chain-Audited Biometric Verification for Smart Parking.",
-      "url": "https://openurl.ebsco.com/contentitem/gcd:198161271?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:198161271&crl=c&jrnl=20419031",
-      "authors": "AA Nababan, M Jannah, JJ Pangaribuan - International Journal of Safety & Security …, 2026",
-      "snippet": "Smart parking services must verify authorized field officers and preserve auditable records, yet small biometric samples and isolated ledger tests can be overstated. This study presents an evidence-gated evaluation of a MobileFaceNet-AdaFace cascade (quality-aware calibrated open-set face-identification workload (QAC-OSFI)) and permissioned hash-chain logging. Recognition evaluation comprised 1,675 repeated placements from 554 unique images (516 known and 38 unknown) …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-07",
-      "q": "Q3",
-      "sjr": 0.28,
-      "qcat": "Environmental Science (miscellaneous)"
-    },
-    {
-      "title": "Personal Brain Models",
-      "url": "https://sanketbhandarii.github.io/personal-brain-models/Sanket_Personal_Brain_Models_2026.pdf",
-      "authors": "SP Bhandari",
-      "snippet": "AI chatbots such as ChatGPT and Claude are now widely used to brainstorm ideas. Their ideas often feel generic and similar, because they are trained on huge amounts of general text and tend to repeat the most common patterns in it. Human brains work differently. Each brain holds a lifetime of personal experiences, including joyful moments, past traumas, embarrassing moments and lessons learned while growing up, and many original ideas come from this personal depth. However, people cannot …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
-      "nr": "na"
-    },
-    {
-      "title": "Short: Plan as the Unit of Accounting in Agentic AI",
-      "url": "https://dl.acm.org/doi/pdf/10.1145/3843967.3844679",
-      "authors": "H B. Pasandi, N Arabzadeh, M Pan - Proceedings of the 5th Workshop on Practical …, 2026",
-      "snippet": "Operators meter agentic AI one model call at a time, because the call is what the serving stack and the invoice expose. The unit of work is the plan: one request expands into generator, verifier, retry, and judge calls, so the dashboard's numbers are decided one layer above the layer that records them. We present PlanLayer, a thin runtime layer that stamps three fields on every call: a plan identifier, a stage role, and a commit flag set at plan close. Four plan-level accounts follow by aggregation …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
-      "nr": "na"
-    },
-    {
-      "title": "Cross-Domain Transfer of the Procedural Skill Cache",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11744954/",
-      "authors": "J Gokulraj, L Karthikeyan - 2026 5th International Conference on Innovative …, 2026",
-      "snippet": "Procedural memory in multi-agent large language model (LLM) systems typically caches reusable multi-step action sequences, or skills, indexed by surface task features within a single task domain. This domain-siloed indexing leaves structurally transferable skills invisible to retrieval whenever a new task falls outside the domain in which the skill was originally cached, forcing redundant skill re-discovery, while naive cross-domain retrieval that ignores this structure risks negative transfer by …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
-      "nr": "na"
-    },
-    {
-      "title": "Beyond Automation: Intrinsically Human Aspects of Creativity in the Age of Generative Artificial Intelligence",
-      "url": "https://academic.oup.com/edited-volume/63609/chapter/583704677",
-      "authors": "M DeSchryver, D Henriksen, S Gedutis Lindsay - 2026",
-      "snippet": "This chapter identifies six aspects of creativity that reflect intrinsically human capacities and examines the human affordances that make them difficult for generative artificial intelligence (GenAI) to authentically replicate. Although GenAI may appear to demonstrate these traits, it often reflects a sense of mimicry rather than genuine experience or intention. By drawing these distinctions, the chapter points to the limits of GenAI while also showing how it can support collaborative …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
-      "nr": "na"
-    },
-    {
-      "title": "Polyphonic Creativity: Navigating the Opportunities and Challenges of Artificial Intelligence in Education",
-      "url": "https://academic.oup.com/edited-volume/63609/chapter/583704908",
-      "authors": "IJ Ness, G Smith-Nunes - 2026",
-      "snippet": "Polyphonic Creativity: Navigating the Opportunities and Challenges of Artificial \r\nIntelligence in Education | The Oxford Handbook of Human Creativity and Generative \r\nArtificial Intelligence in Education | Oxford Academic Skip to Main Content Oxford \r\nAcademic Search Menu AI Discovery Assistant Information Account Menu Information \r\nAccount Sign in through your institution Remember my institution Navbar Search Filter \r\nMobile Enter search term Search Subject Arts and Humanities Browse content in Arts …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
-      "nr": "na"
-    },
-    {
-      "title": "SCIMEM: Memory-Augmented Agentic Architectures for Long-Horizon Scientific Reasoning",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11744862/",
-      "authors": "J Gokulraj, L Karthikeyan - 2026 5th International Conference on Innovative …, 2026",
-      "snippet": "Scientific reasoning that unfolds over many sessions-piecing together evidence gathered days or weeks apart, revising earlier hypotheses, and carrying forward accumulated domain knowledge-remains one of the hardest unsolved problems for today's LLM-based agents. The difficulty is structural: context windows, however large, eventually fill up, and once they do, agents lose earlier findings, cannot reconcile new data against old conclusions, and must rediscover procedural …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
-      "nr": "na"
-    },
-    {
-      "title": "MONETIZATION MECHANISMS IN AGENTIC MULTICHANNEL ECOSYSTEMS",
-      "url": "https://actainnovations.com/index.php/pub/article/download/2863/1547",
-      "authors": "H Agarwal, Y Agarwal - ACTA INNOVATIONS, 2026",
-      "snippet": "Software agents can compare providers, invoke tools, and initiate transactions before a user reaches a conventional checkout. The payment rule can therefore influence both settlement and the route selected on the user's behalf. This paper represents each executed task as a provenance-bearing transaction graph and evaluates a two-part rule that combines verified base reimbursement with a confidence-and risk-weighted share of realized surplus. The evaluation Uses a Monte Carlo simulation …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
-      "q": "Q2",
-      "sjr": 0.35,
-      "qcat": "Engineering (miscellaneous)"
-    },
-    {
-      "title": "Understanding & Supporting Bottom-Up Resistance To Harmful AI Systems",
-      "url": "http://reports-archive.adm.cs.cmu.edu/anon/anon/usr/ftp/hcii/CMU-HCII-26-105.pdf",
-      "authors": "A DeVrio - 2026",
-      "snippet": "AI systems often behave in ways that harm people, such as by perpetuating racial stereotypes, violating privacy, damaging health, and causing economic losses. There have been many efforts to address AI harms that are led top-down by researchers, industry practitioners, government officials, or other technologists. These top-down, more centrally-led approaches to AI harm remediation tend to view AI systems as inevitable and thus conceive of reformist solutions to harm. At the same time, people …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-05",
       "nr": "na"
     }
   ]
