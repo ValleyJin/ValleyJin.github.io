@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-10",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -14,9 +14,7 @@
           "url": "https://doi.org/10.1016/j.comnet.2025.111784",
           "cites": 2,
           "fwci": 0.63,
-          "q": "Q1",
-          "sjr": 1.14,
-          "qcat": "Computer Networks and Communications"
+          "nr": "na"
         },
         {
           "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
@@ -26,9 +24,7 @@
           "url": "https://doi.org/10.3390/app14031014",
           "cites": 10,
           "fwci": 2.62,
-          "q": "Q2",
-          "sjr": 0.56,
-          "qcat": "Computer Science Applications"
+          "nr": "na"
         },
         {
           "title": "Multi-persona adaptive student group formation via fuzzy clustering and double deep Q-network-assisted integer linear programming",
@@ -38,9 +34,7 @@
           "url": "https://doi.org/10.1016/j.jfranklin.2026.109037",
           "cites": 0,
           "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.81,
-          "qcat": "Applied Mathematics"
+          "nr": "na"
         },
         {
           "title": "User Persona Technology: In-Depth Analysis and Development Trends",
@@ -53,7 +47,7 @@
           "nr": "na"
         }
       ],
-      "count": 11599
+      "count": 11597
     },
     {
       "topic": "gABM",
@@ -68,9 +62,7 @@
           "cites": 111,
           "fwci": 11.68,
           "pct": 1,
-          "q": "Q1",
-          "sjr": 1.1,
-          "qcat": "Management of Technology and Innovation"
+          "nr": "na"
         },
         {
           "title": "Generative Agent-Based Models Powered by Large Language Models",
@@ -89,11 +81,9 @@
           "venue": "EPJ Data Science",
           "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
           "cites": 5,
-          "fwci": 4.86,
+          "fwci": 4.95,
           "pct": 10,
-          "q": "Q2",
-          "sjr": 0.65,
-          "qcat": "Computational Mathematics"
+          "nr": "na"
         },
         {
           "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
@@ -104,12 +94,10 @@
           "cites": 17,
           "fwci": 5.32,
           "pct": 10,
-          "q": "Q1",
-          "sjr": 1.78,
-          "qcat": "Artificial Intelligence"
+          "nr": "na"
         }
       ],
-      "count": 61344
+      "count": 61393
     },
     {
       "topic": "Graph database",
@@ -123,9 +111,7 @@
           "url": "https://doi.org/10.14778/3749646.3749671",
           "cites": 5,
           "fwci": 1.29,
-          "q": "Q1",
-          "sjr": 1.77,
-          "qcat": "Computer Science (miscellaneous)"
+          "nr": "na"
         },
         {
           "title": "Graph Databases: Revolutionizing Database Design and Data Analysis",
@@ -155,12 +141,10 @@
           "url": "https://doi.org/10.5594/jmi.2024/xbzc2345",
           "cites": 0,
           "fwci": 0.0,
-          "q": "Q4",
-          "sjr": 0.11,
-          "qcat": "Electrical and Electronic Engineering"
+          "nr": "na"
         }
       ],
-      "count": 129352
+      "count": 129265
     },
     {
       "topic": "Memory in Agentic AI",
@@ -174,9 +158,7 @@
           "url": "https://doi.org/10.14778/3827998.3828145",
           "cites": 0,
           "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.77,
-          "qcat": "Computer Science (miscellaneous)"
+          "nr": "na"
         },
         {
           "title": "The Systems Architecture of LLM Multi-Agent Systems: Routing, Memory, and Resource Optimisation",
@@ -186,9 +168,7 @@
           "url": "https://doi.org/10.21863/ijkbcs/2026.14.1.004",
           "cites": 0,
           "fwci": 0.0,
-          "q": "Q3",
-          "sjr": 0.26,
-          "qcat": "Political Science and International Relations"
+          "nr": "na"
         },
         {
           "title": "MemIndex: Agentic Event-based Distributed Memory Management for Multi-agent Systems",
@@ -199,9 +179,7 @@
           "cites": 11,
           "fwci": 6.63,
           "pct": 10,
-          "q": "Q2",
-          "sjr": 0.72,
-          "qcat": "Computer Science (miscellaneous)"
+          "nr": "na"
         }
       ],
       "count": 77038
@@ -219,9 +197,7 @@
           "cites": 49,
           "fwci": 12.08,
           "pct": 1,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Hardware and Architecture"
+          "nr": "na"
         },
         {
           "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
@@ -242,9 +218,7 @@
           "url": "https://doi.org/10.1038/s41598-026-76614-6",
           "cites": 0,
           "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.89,
-          "qcat": "Multidisciplinary"
+          "nr": "na"
         },
         {
           "title": "GoodServe: A SLO-Aware Scheduling Framework for Improving Goodput in LLM Inference Serving",
@@ -254,12 +228,10 @@
           "url": "https://doi.org/10.1109/tsc.2026.3732701",
           "cites": 0,
           "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 1.6,
-          "qcat": "Computer Networks and Communications"
+          "nr": "na"
         }
       ],
-      "count": 8441
+      "count": 8450
     },
     {
       "topic": "Ethereum Layer-2",
@@ -274,9 +246,7 @@
           "cites": 5,
           "fwci": 3.01,
           "pct": 10,
-          "q": "Q1",
-          "sjr": 1.48,
-          "qcat": "Computer Networks and Communications"
+          "nr": "na"
         },
         {
           "title": "Kajian Literatur: Rollups Sebagai Solusi Skalabilitas Ethereum dari Layer 1 ke Layer 2",
@@ -296,9 +266,7 @@
           "url": "https://doi.org/10.31577/cai_2026_4_902",
           "cites": 0,
           "fwci": 0.0,
-          "q": "Q3",
-          "sjr": 0.29,
-          "qcat": "Computational Theory and Mathematics"
+          "nr": "na"
         },
         {
           "title": "Layer 2 Ecosystem of the Ethereum Blockchain",
@@ -311,7 +279,7 @@
           "nr": "na"
         }
       ],
-      "count": 665
+      "count": 664
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -346,9 +314,7 @@
           "cites": 49,
           "fwci": 6.33,
           "pct": 10,
-          "q": "Q1",
-          "sjr": 2.19,
-          "qcat": "Computer Networks and Communications"
+          "nr": "na"
         },
         {
           "title": "A survey of zero-knowledge proof based verifiable machine learning",
@@ -357,14 +323,12 @@
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-026-11557-y",
           "cites": 65,
-          "fwci": 118.07,
+          "fwci": 116.2,
           "pct": 1,
-          "q": "Q1",
-          "sjr": 3.64,
-          "qcat": "Artificial Intelligence"
+          "nr": "na"
         }
       ],
-      "count": 54583
+      "count": 54545
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -379,9 +343,7 @@
           "cites": 313,
           "fwci": 118.77,
           "pct": 1,
-          "q": "Q1",
-          "sjr": 3.02,
-          "qcat": "Computational Theory and Mathematics"
+          "crank": "A"
         },
         {
           "title": "Graph neural networks for text classification: a survey",
@@ -390,11 +352,9 @@
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-024-10808-0",
           "cites": 106,
-          "fwci": 11.24,
+          "fwci": 11.21,
           "pct": 1,
-          "q": "Q1",
-          "sjr": 3.64,
-          "qcat": "Artificial Intelligence"
+          "nr": "na"
         },
         {
           "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
@@ -405,9 +365,7 @@
           "cites": 313,
           "fwci": 79.83,
           "pct": 1,
-          "q": "Q1",
-          "sjr": 5.99,
-          "qcat": "Computer Science (miscellaneous)"
+          "nr": "na"
         },
         {
           "title": "A survey of dynamic graph neural networks",
@@ -418,12 +376,10 @@
           "cites": 187,
           "fwci": 20.16,
           "pct": 1,
-          "q": "Q1",
-          "sjr": 1.2,
-          "qcat": "Computer Science (miscellaneous)"
+          "nr": "na"
         }
       ],
-      "count": 224550
+      "count": 224419
     },
     {
       "topic": "Ontology",
@@ -457,9 +413,7 @@
           "url": "https://doi.org/10.1177/15705838251389371",
           "cites": 0,
           "fwci": 0.0,
-          "q": "Q1",
-          "sjr": 0.67,
-          "qcat": "Linguistics and Language"
+          "nr": "na"
         },
         {
           "title": "KNOWLEDGE REPRESENTATION USING ONTOLOGY MODELING SYSTEMS",
@@ -472,7 +426,7 @@
           "nr": "na"
         }
       ],
-      "count": 27270
+      "count": 27248
     },
     {
       "topic": "AI governance",
@@ -487,9 +441,7 @@
           "cites": 102,
           "fwci": 11.03,
           "pct": 1,
-          "q": "Q1",
-          "sjr": 0.89,
-          "qcat": "Multidisciplinary"
+          "nr": "na"
         },
         {
           "title": "AI Governance in the Context of the EU AI Act",
@@ -500,9 +452,7 @@
           "cites": 57,
           "fwci": 14.42,
           "pct": 1,
-          "q": "Q1",
-          "sjr": 0.88,
-          "qcat": "Computer Science (miscellaneous)"
+          "nr": "na"
         },
         {
           "title": "AI governance in Asia: policies, praxis and approaches",
@@ -513,9 +463,7 @@
           "cites": 56,
           "fwci": 68.11,
           "pct": 1,
-          "q": "Q2",
-          "sjr": 0.55,
-          "qcat": "Communication"
+          "nr": "na"
         },
         {
           "title": "AI Governance in Higher Education: Case Studies of Guidance at Big Ten Universities",
@@ -526,12 +474,10 @@
           "cites": 168,
           "fwci": 67.99,
           "pct": 1,
-          "q": "Q1",
-          "sjr": 0.84,
-          "qcat": "Computer Networks and Communications"
+          "nr": "na"
         }
       ],
-      "count": 118132
+      "count": 118228
     },
     {
       "topic": "NeurIPS",
@@ -574,7 +520,7 @@
           "crank": "A*"
         }
       ],
-      "count": 13700
+      "count": 13699
     },
     {
       "topic": "ICML",
@@ -660,7 +606,7 @@
           "crank": "A*"
         }
       ],
-      "count": 12035
+      "count": 12036
     },
     {
       "topic": "CVPR",
@@ -673,9 +619,7 @@
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
           "cites": 8,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
+          "crank": "A*"
         },
         {
           "title": "ReSpec: Relevance and Specificity Grounded Online Filtering for Learning on Video-Text Data Streams",
@@ -684,9 +628,7 @@
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52734.2025.02704",
           "cites": 3,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
+          "crank": "A*"
         },
         {
           "title": "Learning Correlation Structures for Vision Transformers",
@@ -695,9 +637,7 @@
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
           "cites": 39,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
+          "crank": "A*"
         },
         {
           "title": "RE-VLM: Event-Augmented Vision-Language Model for Scene Understanding",
@@ -706,9 +646,7 @@
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.48550/arXiv.2605.19329",
           "cites": 0,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
+          "crank": "A*"
         }
       ],
       "count": 11415
@@ -775,7 +713,7 @@
           "year": 2024,
           "venue": "International Joint Conference on Artificial Intelligence",
           "url": "https://doi.org/10.48550/arXiv.2401.03105",
-          "cites": 14,
+          "cites": 15,
           "crank": "A*"
         },
         {
@@ -939,9 +877,7 @@
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2406.01597",
           "cites": 113,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
+          "crank": "A*"
         },
         {
           "title": "High-Throughput Event-Based Feature Detection and Tracking on an Embedded CPU",
@@ -950,9 +886,7 @@
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.1007/978-3-032-36969-7_26",
           "cites": 0,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
+          "crank": "A*"
         },
         {
           "title": "Rethinking Detection Calibration: A Coordinate and Direction Perspective",
@@ -961,9 +895,7 @@
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2607.29040",
           "cites": 0,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
+          "crank": "A*"
         },
         {
           "title": "Asynchronous Large Language Model Enhanced Planner for Autonomous Driving",
@@ -972,9 +904,7 @@
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2406.14556",
           "cites": 65,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
+          "crank": "A*"
         }
       ],
       "count": 4846
@@ -990,9 +920,7 @@
           "venue": "Knowledge Discovery and Data Mining",
           "url": "https://doi.org/10.1145/3770855.3817895",
           "cites": 2,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
+          "crank": "A*"
         },
         {
           "title": "Hyper-USS: Answering Subset Query Over Multi-Attribute Data Stream",
@@ -1001,9 +929,7 @@
           "venue": "Knowledge Discovery and Data Mining",
           "url": "https://doi.org/10.1145/3580305.3599383",
           "cites": 12,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
+          "crank": "A*"
         },
         {
           "title": "Continuous Causal Component and Structure Discovery from Time Series",
@@ -1012,9 +938,7 @@
           "venue": "Knowledge Discovery and Data Mining",
           "url": "https://doi.org/10.1145/3770855.3818046",
           "cites": 0,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
+          "crank": "A*"
         },
         {
           "title": "Mitigating Pooling Bias in E-commerce Search via False Negative Estimation",
@@ -1023,9 +947,7 @@
           "venue": "Knowledge Discovery and Data Mining",
           "url": "https://doi.org/10.1145/3637528.3671630",
           "cites": 5,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Multidisciplinary"
+          "crank": "A*"
         }
       ],
       "count": 3471

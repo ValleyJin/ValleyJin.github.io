@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-10",
   "venues": {
     "NeurIPS": {
       "name": "neural information processing systems",
       "type": "conference",
       "link": "https://neurips.cc/",
-      "h": 251,
-      "i10": 6949,
-      "if2": 16.2,
+      "h": 252,
+      "i10": 6961,
+      "if2": 16.3,
       "works": 19262,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -92,7 +92,7 @@
       "type": "conference",
       "link": "https://aaai.org/conference/aaai/",
       "h": 317,
-      "i10": 11143,
+      "i10": 11148,
       "if2": 9.2,
       "works": 25109,
       "domain": "Physical Sciences",
@@ -112,7 +112,7 @@
       "type": "conference",
       "link": "https://www.ijcai.org/",
       "h": 211,
-      "i10": 5101,
+      "i10": 5102,
       "if2": 4.7,
       "works": 12021,
       "domain": "Physical Sciences",
@@ -134,8 +134,8 @@
       "type": "conference",
       "link": "https://www.aclweb.org/",
       "h": 339,
-      "i10": 6564,
-      "if2": 15.9,
+      "i10": 6575,
+      "if2": 16.0,
       "works": 12136,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -154,8 +154,8 @@
       "type": "conference",
       "link": "https://aclanthology.org/venues/emnlp/",
       "h": 309,
-      "i10": 6244,
-      "if2": 9.0,
+      "i10": 6252,
+      "if2": 9.1,
       "works": 13122,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -174,8 +174,8 @@
       "type": "conference",
       "link": "https://iccv.thecvf.com/",
       "h": 498,
-      "i10": 8608,
-      "if2": 10.6,
+      "i10": 8609,
+      "if2": 10.7,
       "works": 11849,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -229,26 +229,6 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
-      "sjr": 2.0,
-      "q": "Q1",
-      "cats": [
-        [
-          "Artificial Intelligence",
-          "Q1"
-        ],
-        [
-          "Control and Systems Engineering",
-          "Q1"
-        ],
-        [
-          "Software",
-          "Q1"
-        ],
-        [
-          "Statistics and Probability",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auction Theory and Applications",
         "Text and Document Classification Technologies",
@@ -270,30 +250,6 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Computer Vision and Pattern Recognition",
-      "sjr": 4.83,
-      "q": "Q1",
-      "cats": [
-        [
-          "Applied Mathematics",
-          "Q1"
-        ],
-        [
-          "Artificial Intelligence",
-          "Q1"
-        ],
-        [
-          "Computational Theory and Mathematics",
-          "Q1"
-        ],
-        [
-          "Computer Vision and Pattern Recognition",
-          "Q1"
-        ],
-        [
-          "Software",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Advanced Neural Network Applications",
         "Domain Adaptation and Few-Shot Learning",
@@ -315,18 +271,6 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
-      "sjr": 1.29,
-      "q": "Q1",
-      "cats": [
-        [
-          "Artificial Intelligence",
-          "Q1"
-        ],
-        [
-          "Linguistics and Language",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Logic, Reasoning, and Knowledge",
         "AI-based Problem Solving and Planning",
@@ -349,14 +293,6 @@
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
-      "sjr": 1.11,
-      "q": "Q1",
-      "cats": [
-        [
-          "Artificial Intelligence",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Logic, Reasoning, and Knowledge",
         "Constraint Satisfaction and Optimization",
@@ -379,22 +315,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Management of Technology and Innovation",
-      "sjr": 1.43,
-      "q": "Q1",
-      "cats": [
-        [
-          "Business and International Management",
-          "Q1"
-        ],
-        [
-          "Development",
-          "Q1"
-        ],
-        [
-          "Sociology and Political Science",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Sustainability and Climate Change Governance",
         "Scientific Research and Philosophical Inquiry",
@@ -415,22 +335,6 @@
       "domain": "Social Sciences",
       "field": "Decision Sciences",
       "sub": "Management Science and Operations Research",
-      "sjr": 3.48,
-      "q": "Q1",
-      "cats": [
-        [
-          "Applied Psychology",
-          "Q1"
-        ],
-        [
-          "Business and International Management",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Innovation and Knowledge Management",
         "Environmental Sustainability in Business",
@@ -452,22 +356,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 4.4,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Economics and Econometrics",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Corporate Finance and Governance",
@@ -490,22 +378,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 8.75,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Economics and Econometrics",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Corporate Finance and Governance",
@@ -522,28 +394,12 @@
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/1475679x",
       "h": 307,
-      "if2": 10.0,
+      "if2": 10.1,
       "works": 2813,
       "issn": "0021-8456",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 9.77,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Economics and Econometrics",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Corporate Finance and Governance",
@@ -565,22 +421,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 3.69,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Economics and Econometrics",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Corporate Finance and Governance",
@@ -602,18 +442,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 5.56,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Business, Management and Accounting (miscellaneous)",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Corporate Finance and Governance",
@@ -636,22 +464,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Management of Technology and Innovation",
-      "sjr": 0.74,
-      "q": "Q1",
-      "cats": [
-        [
-          "Business, Management and Accounting (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Management Science and Operations Research",
-          "Q2"
-        ],
-        [
-          "Strategy and Management",
-          "Q2"
-        ]
-      ],
       "topics3y": [
         "Scientific Research and Philosophical Inquiry",
         "Competitive and Knowledge Intelligence",
@@ -672,22 +484,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Management of Technology and Innovation",
-      "sjr": 0.38,
-      "q": "Q1",
-      "cats": [
-        [
-          "History and Philosophy of Science",
-          "Q1"
-        ],
-        [
-          "Decision Sciences (miscellaneous)",
-          "Q2"
-        ],
-        [
-          "Development",
-          "Q2"
-        ]
-      ],
       "topics3y": [
         "Scientific Research and Philosophical Inquiry",
         "Innovation and Knowledge Management",
@@ -707,18 +503,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "sjr": 0.82,
-      "q": "Q2",
-      "cats": [
-        [
-          "Management Science and Operations Research",
-          "Q2"
-        ],
-        [
-          "Strategy and Management",
-          "Q2"
-        ]
-      ],
       "topics3y": [
         "Innovation and Knowledge Management",
         "Digital Economy and Transformation",
@@ -738,18 +522,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "sjr": 10.15,
-      "q": "Q1",
-      "cats": [
-        [
-          "Business and International Management",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Innovation and Knowledge Management",
         "Corporate Finance and Governance",
@@ -770,22 +542,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "sjr": 2.81,
-      "q": "Q1",
-      "cats": [
-        [
-          "Finance",
-          "Q1"
-        ],
-        [
-          "Geography, Planning and Development",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Innovation and Knowledge Management",
         "International Business and FDI",
@@ -805,26 +561,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 10.78,
-      "q": "Q1",
-      "cats": [
-        [
-          "Business and International Management",
-          "Q1"
-        ],
-        [
-          "Business, Management and Accounting (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Management and Organizational Studies",
         "Job Satisfaction and Organizational Behavior",
@@ -848,26 +584,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 4.36,
-      "q": "Q1",
-      "cats": [
-        [
-          "Business and International Management",
-          "Q1"
-        ],
-        [
-          "Education",
-          "Q1"
-        ],
-        [
-          "Industrial Relations",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Management and Organizational Studies",
         "Innovation and Knowledge Management",
@@ -890,26 +606,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 4.14,
-      "q": "Q1",
-      "cats": [
-        [
-          "Arts and Humanities (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Social Sciences (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Management and Organizational Studies",
         "Job Satisfaction and Organizational Behavior",
@@ -932,22 +628,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 10.0,
-      "q": "Q1",
-      "cats": [
-        [
-          "Business, Management and Accounting (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Management and Organizational Studies",
         "Job Satisfaction and Organizational Behavior",
@@ -963,24 +643,12 @@
       "type": "journal",
       "link": "https://journals.sagepub.com/home/jom",
       "h": 416,
-      "if2": 14.2,
+      "if2": 14.3,
       "works": 3009,
       "issn": "0149-2063",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 8.25,
-      "q": "Q1",
-      "cats": [
-        [
-          "Finance",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Job Satisfaction and Organizational Behavior",
         "Management and Organizational Studies",
@@ -1002,22 +670,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 7.93,
-      "q": "Q1",
-      "cats": [
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Organizational Behavior and Human Resource Management",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Management and Organizational Studies",
         "Innovation and Knowledge Management",
@@ -1039,18 +691,6 @@
       "domain": "Social Sciences",
       "field": "Decision Sciences",
       "sub": "Management Science and Operations Research",
-      "sjr": 6.43,
-      "q": "Q1",
-      "cats": [
-        [
-          "Management Science and Operations Research",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Financial Markets and Investment Strategies",
         "Supply Chain and Inventory Management",
@@ -1073,22 +713,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 5.18,
-      "q": "Q1",
-      "cats": [
-        [
-          "Business and International Management",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Management and Organizational Studies",
         "Innovation and Knowledge Management",
@@ -1111,22 +735,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 4.36,
-      "q": "Q1",
-      "cats": [
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Organizational Behavior and Human Resource Management",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Management and Organizational Studies",
         "Management Theory and Practice",
@@ -1143,32 +751,12 @@
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/1099050X",
       "h": 184,
-      "if2": 12.3,
+      "if2": 12.4,
       "works": 3265,
       "issn": "0090-4848",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "sjr": 4.6,
-      "q": "Q1",
-      "cats": [
-        [
-          "Applied Psychology",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Organizational Behavior and Human Resource Management",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Job Satisfaction and Organizational Behavior",
         "Human Resource and Talent Management",
@@ -1189,26 +777,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "sjr": 4.47,
-      "q": "Q1",
-      "cats": [
-        [
-          "Engineering (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Management Science and Operations Research",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Innovation and Knowledge Management",
         "Firm Innovation and Growth",
@@ -1230,30 +798,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "sjr": 4.45,
-      "q": "Q1",
-      "cats": [
-        [
-          "Business and International Management",
-          "Q1"
-        ],
-        [
-          "Business, Management and Accounting (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Economics and Econometrics",
-          "Q1"
-        ],
-        [
-          "Management of Technology and Innovation",
-          "Q1"
-        ],
-        [
-          "Strategy and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "International Business and FDI",
         "International Student and Expatriate Challenges",
@@ -1276,30 +820,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 3.1,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Applied Psychology",
-          "Q1"
-        ],
-        [
-          "Information Systems and Management",
-          "Q1"
-        ],
-        [
-          "Organizational Behavior and Human Resource Management",
-          "Q1"
-        ],
-        [
-          "Sociology and Political Science",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Accounting and Organizational Management",
         "Auditing, Earnings Management, Governance",
@@ -1319,22 +839,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 2.32,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Economics and Econometrics",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Corporate Governance and Financial Management",
@@ -1354,50 +858,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 2.27,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Aerospace Engineering",
-          "Q1"
-        ],
-        [
-          "Arts and Humanities (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Automotive Engineering",
-          "Q1"
-        ],
-        [
-          "Business and International Management",
-          "Q1"
-        ],
-        [
-          "Business, Management and Accounting (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Economics and Econometrics",
-          "Q1"
-        ],
-        [
-          "Economics, Econometrics and Finance (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ],
-        [
-          "History",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Corporate Finance and Governance",
@@ -1419,26 +879,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 2.1,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ],
-        [
-          "Information Systems and Management",
-          "Q1"
-        ],
-        [
-          "Sociology and Political Science",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Accounting and Organizational Management",
         "Accounting Theory and Financial Reporting",
@@ -1461,22 +901,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 1.96,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Business and International Management",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Corporate Social Responsibility Reporting",
@@ -1496,22 +920,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "sjr": 1.81,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Business, Management and Accounting (miscellaneous)",
-          "Q1"
-        ],
-        [
-          "Renewable Energy, Sustainability and the Environment",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Corporate Social Responsibility Reporting",
         "Sustainable Finance and Green Bonds",
@@ -1531,26 +939,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 1.75,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ],
-        [
-          "Information Systems and Management",
-          "Q1"
-        ],
-        [
-          "Management Information Systems",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Robotic Process Automation Applications",
@@ -1570,14 +958,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 1.71,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Auditing, Earnings Management, Governance",
         "Corporate Finance and Governance",
@@ -1599,22 +979,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 1.62,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Finance",
-          "Q1"
-        ],
-        [
-          "Information Systems and Management",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Accounting and Organizational Management",
         "Management and Organizational Studies",
@@ -1634,18 +998,6 @@
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "sjr": 1.57,
-      "q": "Q1",
-      "cats": [
-        [
-          "Accounting",
-          "Q1"
-        ],
-        [
-          "Economics, Econometrics and Finance (miscellaneous)",
-          "Q1"
-        ]
-      ],
       "topics3y": [
         "Accounting and Organizational Management",
         "Accounting and Financial Management",
