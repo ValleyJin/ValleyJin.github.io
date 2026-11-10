@@ -7,16 +7,6 @@
       "query": "Deep persona",
       "papers": [
         {
-          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
-          "authors": "Lee, H., Kim, Y., & Kim, S.",
-          "year": 2024,
-          "venue": "Applied Sciences",
-          "url": "https://doi.org/10.3390/app14031014",
-          "cites": 10,
-          "fwci": 2.58,
-          "nr": "na"
-        },
-        {
           "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
           "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
           "year": 2025,
@@ -24,6 +14,16 @@
           "url": "https://doi.org/10.1016/j.comnet.2025.111784",
           "cites": 2,
           "fwci": 0.61,
+          "nr": "na"
+        },
+        {
+          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
+          "authors": "Lee, H., Kim, Y., & Kim, S.",
+          "year": 2024,
+          "venue": "Applied Sciences",
+          "url": "https://doi.org/10.3390/app14031014",
+          "cites": 10,
+          "fwci": 2.58,
           "nr": "na"
         },
         {
@@ -75,17 +75,6 @@
           "nr": "na"
         },
         {
-          "title": "Simulating conversations on social media with generative agent-based models",
-          "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
-          "year": 2025,
-          "venue": "EPJ Data Science",
-          "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
-          "cites": 5,
-          "fwci": 4.85,
-          "pct": 10,
-          "nr": "na"
-        },
-        {
           "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
           "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
           "year": 2025,
@@ -93,6 +82,17 @@
           "url": "https://doi.org/10.1016/j.engappai.2025.111343",
           "cites": 18,
           "fwci": 5.46,
+          "pct": 10,
+          "nr": "na"
+        },
+        {
+          "title": "Simulating conversations on social media with generative agent-based models",
+          "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
+          "year": 2025,
+          "venue": "EPJ Data Science",
+          "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
+          "cites": 5,
+          "fwci": 4.85,
           "pct": 10,
           "nr": "na"
         }
@@ -114,16 +114,6 @@
           "nr": "na"
         },
         {
-          "title": "Graph Databases: Revolutionizing Database Design and Data Analysis",
-          "authors": "Baqal, H. M. A., & Sidiq, M. A.",
-          "year": 2024,
-          "venue": "Current Journal of Applied Science and Technology",
-          "url": "https://doi.org/10.9734/cjast/2024/v43i114443",
-          "cites": 6,
-          "fwci": 1.58,
-          "nr": "na"
-        },
-        {
           "title": "Testing Graph Databases with Synthesized Queries",
           "authors": "Yin, Z., Liu, S., & Basin, D.",
           "year": 2025,
@@ -134,13 +124,23 @@
           "nr": "na"
         },
         {
-          "title": "Connecting Asset Stores with Graph Databases",
-          "authors": "Sacilotto, R., Mathur, S., & Gonsalves, R.",
+          "title": "Graph Databases: Revolutionizing Database Design and Data Analysis",
+          "authors": "Baqal, H. M. A., & Sidiq, M. A.",
           "year": 2024,
-          "venue": "SMPTE Motion Imaging Journal",
-          "url": "https://doi.org/10.5594/jmi.2024/xbzc2345",
-          "cites": 0,
-          "fwci": 0.0,
+          "venue": "Current Journal of Applied Science and Technology",
+          "url": "https://doi.org/10.9734/cjast/2024/v43i114443",
+          "cites": 6,
+          "fwci": 1.58,
+          "nr": "na"
+        },
+        {
+          "title": "A Systematic Approach for Converting Relational to Graph Databases",
+          "authors": "Đukić, M., Pantelić, O., Pajić, A., Krstović, S., & Jejić, O.",
+          "year": 2024,
+          "venue": "IPSI Transactions on Internet Research",
+          "url": "https://doi.org/10.58245/ipsi.tir.2401.03",
+          "cites": 5,
+          "fwci": 1.29,
           "nr": "na"
         }
       ],
@@ -368,14 +368,14 @@
           "nr": "na"
         },
         {
-          "title": "Survey on Graph Neural Networks",
-          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
+          "title": "A survey of dynamic graph neural networks",
+          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
           "year": 2024,
-          "venue": "IEEE Access",
-          "url": "https://doi.org/10.1109/access.2024.3456913",
-          "cites": 43,
-          "fwci": 4.54,
-          "pct": 10,
+          "venue": "Frontiers of Computer Science",
+          "url": "https://doi.org/10.1007/s11704-024-3853-2",
+          "cites": 195,
+          "fwci": 20.57,
+          "pct": 1,
           "nr": "na"
         }
       ],
@@ -466,14 +466,14 @@
           "nr": "na"
         },
         {
-          "title": "Revolutionizing AI Governance: Addressing Bias and Ensuring Accountability Through the Holistic AI Governance Framework",
-          "authors": "Atoum, I. A.",
-          "year": 2025,
-          "venue": "International Journal of Advanced Computer Science and Applications",
-          "url": "https://doi.org/10.14569/ijacsa.2025.0160283",
-          "cites": 16,
-          "fwci": 3.98,
-          "pct": 10,
+          "title": "AI Governance in Higher Education: Case Studies of Guidance at Big Ten Universities",
+          "authors": "Wu, C., Zhang, H., & Carroll, J. M.",
+          "year": 2024,
+          "venue": "Future Internet",
+          "url": "https://doi.org/10.3390/fi16100354",
+          "cites": 171,
+          "fwci": 68.18,
+          "pct": 1,
           "nr": "na"
         }
       ],

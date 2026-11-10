@@ -48,7 +48,7 @@
           "year": "2022",
           "venue": "Knowledge-Based Systems 248 (19), 108907, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Vztgr1qGG8IC",
-          "cites": 128,
+          "cites": 129,
           "nr": "na"
         },
         {
@@ -138,7 +138,7 @@
           "year": "2024",
           "venue": "Futures 155, 103291, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Ul_CLA4dPeMC",
-          "cites": 51,
+          "cites": 50,
           "nr": "na"
         },
         {
@@ -1211,7 +1211,7 @@
           "year": "2024",
           "venue": "Futures 155, 103291, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:Ul_CLA4dPeMC",
-          "cites": 51,
+          "cites": 50,
           "nr": "na"
         },
         {
@@ -1337,7 +1337,7 @@
           "year": "2022",
           "venue": "Knowledge-Based Systems 248 (19), 108907, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:Vztgr1qGG8IC",
-          "cites": 128,
+          "cites": 129,
           "nr": "na"
         },
         {
@@ -1452,7 +1452,7 @@
           "year": "2023",
           "venue": "Advanced Energy Materials 13 (26), 2300442, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:R-LXmdHK_14C",
-          "cites": 99,
+          "cites": 100,
           "nr": "na"
         },
         {
@@ -1915,21 +1915,21 @@
           "nr": "na"
         },
         {
+          "title": "Mobilerag: A fast, memory-efficient, and energy-efficient method for on-device rag",
+          "authors": "T Park, G Lee, MS Kim",
+          "year": "2025",
+          "venue": "arXiv preprint arXiv:2507.01079, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
+          "cites": 30,
+          "nr": "na"
+        },
+        {
           "title": "MRPrimerV: a database of PCR primers for RNA virus detection",
           "authors": "H Kim, NN Kang, KH An, D Kim, JH Koo, MS Kim",
           "year": "2017",
           "venue": "Nucleic acids research 45 (D1), D475-D481, 2017",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:mB3voiENLucC",
           "cites": 30,
-          "nr": "na"
-        },
-        {
-          "title": "Mobilerag: A fast, memory-efficient, and energy-efficient method for on-device rag",
-          "authors": "T Park, G Lee, MS Kim",
-          "year": "2025",
-          "venue": "arXiv preprint arXiv:2507.01079, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
-          "cites": 29,
           "nr": "na"
         },
         {
@@ -2797,6 +2797,15 @@
           "nr": "na"
         },
         {
+          "title": "A cerebellar disinhibitory circuit supports synaptic plasticity",
+          "authors": "C Park, J Gim, S Bahn, GH Kim, Y Im, SH Lee, K Lee, MS Kim, KJ Lee, ...",
+          "year": "2023",
+          "venue": "BioRxiv, 2023.09. 15.557147, 2023",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:XAp-VaTZjjwC",
+          "cites": 7,
+          "nr": "na"
+        },
+        {
           "title": "Biased Target-tree * Algorithm with RRT * for Reducing Parking Path Planning Time",
           "authors": "J Ahn, M Kim, J Park",
           "year": "2023",
@@ -2856,15 +2865,6 @@
           "year": "2023",
           "venue": "Expert Systems with Applications 227, 120193, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:-uzm3Y7AvW0C",
-          "cites": 6,
-          "nr": "na"
-        },
-        {
-          "title": "A cerebellar disinhibitory circuit supports synaptic plasticity",
-          "authors": "C Park, J Gim, S Bahn, GH Kim, Y Im, SH Lee, K Lee, MS Kim, KJ Lee, ...",
-          "year": "2023",
-          "venue": "BioRxiv, 2023.09. 15.557147, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:XAp-VaTZjjwC",
           "cites": 6,
           "nr": "na"
         },
@@ -3688,6 +3688,15 @@
           "nr": "na"
         },
         {
+          "title": "Scalable metallic-electron donation systems for optimized glycerol-to-1, 3-propanediol bioconversion",
+          "authors": "S Mutyala, H Khandelwal, M Kim, S Li, C Dou, JR Kim, C Kim",
+          "year": "2026",
+          "venue": "Chemical Engineering Journal 528, 172338, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:60iIaj97TE0C",
+          "cites": 1,
+          "nr": "na"
+        },
+        {
           "title": "Reprint of “A newly isolated Klebsiella variicola JYP01 strain with iron-interaction capability for energy-efficient production of 1, 3-propanediol”",
           "authors": "J Park, CH Lee, H Khandelwal, M Kim, M Sakuntala, TH Kim, BH Jeon, ...",
           "year": "2025",
@@ -4012,15 +4021,6 @@
           "nr": "na"
         },
         {
-          "title": "Scalable metallic-electron donation systems for optimized glycerol-to-1, 3-propanediol bioconversion",
-          "authors": "S Mutyala, H Khandelwal, M Kim, S Li, C Dou, JR Kim, C Kim",
-          "year": "2026",
-          "venue": "Chemical Engineering Journal 528, 172338, 2026",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:60iIaj97TE0C",
-          "cites": 0,
-          "nr": "na"
-        },
-        {
           "title": "ExtGraph: A Fast Extraction Method of User-intended Graphs from a Relational Database",
           "authors": "J Park, G Lee, MS Kim",
           "year": "2025",
@@ -4226,7 +4226,7 @@
           "year": "2026",
           "venue": "Chemical Engineering Journal 528, 172338, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:60iIaj97TE0C",
-          "cites": 0,
+          "cites": 1,
           "nr": "na"
         },
         {
@@ -4325,7 +4325,7 @@
           "year": "2025",
           "venue": "arXiv preprint arXiv:2507.01079, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:nPTYJWkExTIC",
-          "cites": 29,
+          "cites": 30,
           "nr": "na"
         },
         {
@@ -4431,7 +4431,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14341,
+          "cites": 14296,
           "nr": "na"
         },
         {
@@ -4440,7 +4440,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9586,
+          "cites": 9630,
           "crank": "A*"
         },
         {
@@ -4449,7 +4449,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 889,
+          "cites": 896,
           "nr": "na"
         },
         {
@@ -4467,7 +4467,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 392,
+          "cites": 393,
           "crank": "A*"
         },
         {
@@ -4476,7 +4476,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 373,
+          "cites": 374,
           "nr": "na"
         },
         {
@@ -4494,7 +4494,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 342,
+          "cites": 344,
           "nr": "na"
         },
         {
@@ -4593,7 +4593,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 60,
+          "cites": 63,
           "crank": "A*"
         },
         {
@@ -4703,7 +4703,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 60,
+          "cites": 63,
           "crank": "A*"
         },
         {
@@ -4748,7 +4748,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 889,
+          "cites": 896,
           "nr": "na"
         },
         {
@@ -4784,7 +4784,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9586,
+          "cites": 9630,
           "crank": "A*"
         },
         {
@@ -4811,7 +4811,7 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 373,
+          "cites": 374,
           "nr": "na"
         },
         {
@@ -4847,7 +4847,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 392,
+          "cites": 393,
           "crank": "A*"
         },
         {
@@ -4874,7 +4874,7 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 342,
+          "cites": 344,
           "nr": "na"
         },
         {
@@ -4883,7 +4883,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14341,
+          "cites": 14296,
           "nr": "na"
         },
         {
