@@ -1,11 +1,22 @@
 {
-  "generated": "2026-11-10",
+  "generated": "2026-11-12",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
       "topic": "Deep persona",
       "query": "Deep persona",
       "papers": [
+        {
+          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
+          "authors": "Lee, H., Kim, Y., & Kim, S.",
+          "year": 2024,
+          "venue": "Applied Sciences",
+          "url": "https://doi.org/10.3390/app14031014",
+          "cites": 11,
+          "fwci": 2.82,
+          "pct": 10,
+          "nr": "na"
+        },
         {
           "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
           "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
@@ -14,16 +25,6 @@
           "url": "https://doi.org/10.1016/j.comnet.2025.111784",
           "cites": 2,
           "fwci": 0.61,
-          "nr": "na"
-        },
-        {
-          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
-          "authors": "Lee, H., Kim, Y., & Kim, S.",
-          "year": 2024,
-          "venue": "Applied Sciences",
-          "url": "https://doi.org/10.3390/app14031014",
-          "cites": 10,
-          "fwci": 2.58,
           "nr": "na"
         },
         {
@@ -47,7 +48,7 @@
           "nr": "na"
         }
       ],
-      "count": 11604
+      "count": 11734
     },
     {
       "topic": "gABM",
@@ -97,7 +98,7 @@
           "nr": "na"
         }
       ],
-      "count": 61495
+      "count": 63100
     },
     {
       "topic": "Graph database",
@@ -114,16 +115,6 @@
           "nr": "na"
         },
         {
-          "title": "Testing Graph Databases with Synthesized Queries",
-          "authors": "Yin, Z., Liu, S., & Basin, D.",
-          "year": 2025,
-          "venue": "Proceedings of the ACM on Management of Data",
-          "url": "https://doi.org/10.1145/3749186",
-          "cites": 3,
-          "fwci": 2.11,
-          "nr": "na"
-        },
-        {
           "title": "Graph Databases: Revolutionizing Database Design and Data Analysis",
           "authors": "Baqal, H. M. A., & Sidiq, M. A.",
           "year": 2024,
@@ -134,17 +125,27 @@
           "nr": "na"
         },
         {
-          "title": "A Systematic Approach for Converting Relational to Graph Databases",
-          "authors": "Đukić, M., Pantelić, O., Pajić, A., Krstović, S., & Jejić, O.",
+          "title": "Testing Graph Databases with Synthesized Queries",
+          "authors": "Yin, Z., Liu, S., & Basin, D.",
+          "year": 2025,
+          "venue": "Proceedings of the ACM on Management of Data",
+          "url": "https://doi.org/10.1145/3749186",
+          "cites": 3,
+          "fwci": 2.11,
+          "nr": "na"
+        },
+        {
+          "title": "Connecting Asset Stores with Graph Databases",
+          "authors": "Sacilotto, R., Mathur, S., & Gonsalves, R.",
           "year": 2024,
-          "venue": "IPSI Transactions on Internet Research",
-          "url": "https://doi.org/10.58245/ipsi.tir.2401.03",
-          "cites": 5,
-          "fwci": 1.29,
+          "venue": "SMPTE Motion Imaging Journal",
+          "url": "https://doi.org/10.5594/jmi.2024/xbzc2345",
+          "cites": 0,
+          "fwci": 0.0,
           "nr": "na"
         }
       ],
-      "count": 129360
+      "count": 134288
     },
     {
       "topic": "Memory in Agentic AI",
@@ -182,7 +183,7 @@
           "nr": "na"
         }
       ],
-      "count": 77106
+      "count": 79244
     },
     {
       "topic": "LLM inference serving",
@@ -195,7 +196,7 @@
           "venue": "IEEE Computer Architecture Letters",
           "url": "https://doi.org/10.1109/lca.2024.3406038",
           "cites": 50,
-          "fwci": 11.97,
+          "fwci": 11.82,
           "pct": 1,
           "nr": "na"
         },
@@ -206,7 +207,7 @@
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
           "cites": 17,
-          "fwci": 7.2,
+          "fwci": 7.09,
           "pct": 10,
           "nr": "na"
         },
@@ -231,7 +232,7 @@
           "nr": "na"
         }
       ],
-      "count": 8458
+      "count": 8646
     },
     {
       "topic": "Ethereum Layer-2",
@@ -279,7 +280,7 @@
           "nr": "na"
         }
       ],
-      "count": 664
+      "count": 667
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -312,7 +313,7 @@
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-026-11557-y",
           "cites": 70,
-          "fwci": 117.34,
+          "fwci": 116.12,
           "pct": 1,
           "nr": "na"
         },
@@ -328,7 +329,7 @@
           "nr": "na"
         }
       ],
-      "count": 54593
+      "count": 55535
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -340,21 +341,10 @@
           "year": 2026,
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2026.3680353",
-          "cites": 341,
-          "fwci": 117.89,
+          "cites": 342,
+          "fwci": 118.54,
           "pct": 1,
           "crank": "A"
-        },
-        {
-          "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
-          "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
-          "year": 2024,
-          "venue": "ACM Computing Surveys",
-          "url": "https://doi.org/10.1145/3661821",
-          "cites": 316,
-          "fwci": 79.31,
-          "pct": 1,
-          "nr": "na"
         },
         {
           "title": "Graph neural networks for text classification: a survey",
@@ -362,8 +352,8 @@
           "year": 2024,
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-024-10808-0",
-          "cites": 108,
-          "fwci": 11.18,
+          "cites": 110,
+          "fwci": 11.33,
           "pct": 1,
           "nr": "na"
         },
@@ -373,13 +363,24 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 195,
-          "fwci": 20.57,
+          "cites": 196,
+          "fwci": 20.56,
+          "pct": 1,
+          "nr": "na"
+        },
+        {
+          "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
+          "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
+          "year": 2024,
+          "venue": "ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3661821",
+          "cites": 318,
+          "fwci": 79.36,
           "pct": 1,
           "nr": "na"
         }
       ],
-      "count": 224616
+      "count": 231848
     },
     {
       "topic": "Ontology",
@@ -426,7 +427,7 @@
           "nr": "na"
         }
       ],
-      "count": 27274
+      "count": 28011
     },
     {
       "topic": "AI governance",
@@ -438,8 +439,8 @@
           "year": 2024,
           "venue": "Scientific Reports",
           "url": "https://doi.org/10.1038/s41598-024-71761-0",
-          "cites": 104,
-          "fwci": 10.97,
+          "cites": 105,
+          "fwci": 11.01,
           "pct": 1,
           "nr": "na"
         },
@@ -477,7 +478,7 @@
           "nr": "na"
         }
       ],
-      "count": 118393
+      "count": 119731
     },
     {
       "topic": "NeurIPS",
@@ -774,7 +775,7 @@
           "year": 2025,
           "venue": "Annual Meeting of the Association for Computational Linguistics",
           "url": "https://doi.org/10.18653/v1/2026.findings-acl.693",
-          "cites": 7,
+          "cites": 8,
           "crank": "A*"
         }
       ],
@@ -808,7 +809,7 @@
           "year": 2024,
           "venue": "Conference on Empirical Methods in Natural Language Processing",
           "url": "https://doi.org/10.48550/arXiv.2406.11657",
-          "cites": 149,
+          "cites": 150,
           "crank": "A*"
         },
         {
@@ -876,7 +877,7 @@
           "year": 2024,
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 114,
+          "cites": 115,
           "crank": "A*"
         },
         {
@@ -903,11 +904,11 @@
           "year": 2024,
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2406.14556",
-          "cites": 65,
+          "cites": 66,
           "crank": "A*"
         }
       ],
-      "count": 4846
+      "count": 4847
     },
     {
       "topic": "KDD",
