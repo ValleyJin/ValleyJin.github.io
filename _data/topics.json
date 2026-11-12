@@ -48,7 +48,7 @@
           "nr": "na"
         }
       ],
-      "count": 11734
+      "count": 11753
     },
     {
       "topic": "gABM",
@@ -76,17 +76,6 @@
           "nr": "na"
         },
         {
-          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
-          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
-          "year": 2025,
-          "venue": "Engineering Applications of Artificial Intelligence",
-          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
-          "cites": 18,
-          "fwci": 5.46,
-          "pct": 10,
-          "nr": "na"
-        },
-        {
           "title": "Simulating conversations on social media with generative agent-based models",
           "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
           "year": 2025,
@@ -96,9 +85,20 @@
           "fwci": 4.85,
           "pct": 10,
           "nr": "na"
+        },
+        {
+          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
+          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
+          "year": 2025,
+          "venue": "Engineering Applications of Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
+          "cites": 18,
+          "fwci": 5.46,
+          "pct": 10,
+          "nr": "na"
         }
       ],
-      "count": 63100
+      "count": 63227
     },
     {
       "topic": "Graph database",
@@ -145,7 +145,7 @@
           "nr": "na"
         }
       ],
-      "count": 134288
+      "count": 134396
     },
     {
       "topic": "Memory in Agentic AI",
@@ -183,7 +183,7 @@
           "nr": "na"
         }
       ],
-      "count": 79244
+      "count": 79365
     },
     {
       "topic": "LLM inference serving",
@@ -232,7 +232,7 @@
           "nr": "na"
         }
       ],
-      "count": 8646
+      "count": 8661
     },
     {
       "topic": "Ethereum Layer-2",
@@ -280,22 +280,12 @@
           "nr": "na"
         }
       ],
-      "count": 667
+      "count": 668
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
       "query": "zero-knowledge proof",
       "papers": [
-        {
-          "title": "Zero-Knowledge Proofs",
-          "authors": "Sedlmeir, J., & Schwalm, S.",
-          "year": 2026,
-          "venue": "Datenschutz und Datensicherheit - DuD",
-          "url": "https://doi.org/10.1007/s11623-026-2201-0",
-          "cites": 0,
-          "fwci": 0.0,
-          "nr": "na"
-        },
         {
           "title": "Zero-Knowledge Proofs of Quantumness",
           "authors": "Phan, D. H., Wen, W., Yan, X., & Zheng, J.",
@@ -327,9 +317,20 @@
           "fwci": 6.21,
           "pct": 10,
           "nr": "na"
+        },
+        {
+          "title": "zkFL: Zero-Knowledge Proof-Based Gradient Aggregation for Federated Learning",
+          "authors": "Wang, Z., Dong, N., Sun, J., Knottenbelt, W. J., & Guo, Y.",
+          "year": 2024,
+          "venue": "IEEE Transactions on Big Data",
+          "url": "https://doi.org/10.1109/tbdata.2024.3403370",
+          "cites": 72,
+          "fwci": 7.6,
+          "pct": 10,
+          "nr": "na"
         }
       ],
-      "count": 55535
+      "count": 55589
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -341,8 +342,8 @@
           "year": 2026,
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2026.3680353",
-          "cites": 342,
-          "fwci": 118.54,
+          "cites": 343,
+          "fwci": 117.78,
           "pct": 1,
           "crank": "A"
         },
@@ -374,13 +375,13 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 196,
-          "fwci": 20.56,
+          "cites": 197,
+          "fwci": 20.54,
           "pct": 1,
           "nr": "na"
         }
       ],
-      "count": 231848
+      "count": 232085
     },
     {
       "topic": "Ontology",
@@ -427,7 +428,7 @@
           "nr": "na"
         }
       ],
-      "count": 28011
+      "count": 28080
     },
     {
       "topic": "AI governance",
@@ -462,7 +463,7 @@
           "venue": "Communication Research and Practice",
           "url": "https://doi.org/10.1080/22041451.2024.2391204",
           "cites": 57,
-          "fwci": 68.4,
+          "fwci": 67.89,
           "pct": 1,
           "nr": "na"
         },
@@ -472,13 +473,13 @@
           "year": 2024,
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16100354",
-          "cites": 171,
-          "fwci": 68.18,
+          "cites": 172,
+          "fwci": 68.07,
           "pct": 1,
           "nr": "na"
         }
       ],
-      "count": 119731
+      "count": 119986
     },
     {
       "topic": "NeurIPS",
@@ -576,7 +577,7 @@
           "year": 2023,
           "venue": "International Conference on Learning Representations",
           "url": "https://www.semanticscholar.org/paper/0004c4e27e54f13577951416d8ed476e93f00ef9",
-          "cites": 40,
+          "cites": 41,
           "crank": "A*"
         },
         {
@@ -637,7 +638,7 @@
           "year": 2024,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
-          "cites": 39,
+          "cites": 40,
           "crank": "A*"
         },
         {
@@ -650,7 +651,7 @@
           "crank": "A*"
         }
       ],
-      "count": 11415
+      "count": 11416
     },
     {
       "topic": "AAAI",
@@ -736,7 +737,7 @@
           "crank": "A*"
         }
       ],
-      "count": 2994
+      "count": 2993
     },
     {
       "topic": "ACL",
@@ -779,7 +780,7 @@
           "crank": "A*"
         }
       ],
-      "count": 11934
+      "count": 11933
     },
     {
       "topic": "EMNLP",
@@ -877,7 +878,7 @@
           "year": 2024,
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 115,
+          "cites": 117,
           "crank": "A*"
         },
         {
@@ -904,7 +905,7 @@
           "year": 2024,
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2406.14556",
-          "cites": 66,
+          "cites": 67,
           "crank": "A*"
         }
       ],
