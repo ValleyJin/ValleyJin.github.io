@@ -358,17 +358,6 @@
           "nr": "na"
         },
         {
-          "title": "A survey of dynamic graph neural networks",
-          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
-          "year": 2024,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 196,
-          "fwci": 20.56,
-          "pct": 1,
-          "nr": "na"
-        },
-        {
           "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
           "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
           "year": 2024,
@@ -376,6 +365,17 @@
           "url": "https://doi.org/10.1145/3661821",
           "cites": 318,
           "fwci": 79.36,
+          "pct": 1,
+          "nr": "na"
+        },
+        {
+          "title": "A survey of dynamic graph neural networks",
+          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
+          "year": 2024,
+          "venue": "Frontiers of Computer Science",
+          "url": "https://doi.org/10.1007/s11704-024-3853-2",
+          "cites": 196,
+          "fwci": 20.56,
           "pct": 1,
           "nr": "na"
         }
