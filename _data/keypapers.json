@@ -420,26 +420,12 @@
           "nr": "na"
         },
         {
-          "title": "Honeyed Words, Hidden Daggers: Benchmarking and Training LLMs to See Through Mock Politeness",
-          "authors": "C Kang, S Gong, T Yan, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2610.26059",
-          "cites": 0,
-          "pubdate": "2026-10-19",
-          "arxiv": "2610.26059",
-          "doi": null,
-          "cited_key": "Living the Novel: A System for Generating Self-Training Time",
-          "first_seen": "2026-10-20",
-          "nr": "na"
-        },
-        {
           "title": "Muse Glimmer 30B: An On-Device Agentic Model",
           "authors": "A Abtahizadeh, M Aghamelu, A Ahmed, et al.",
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.24628",
-          "cites": 2,
+          "cites": 4,
           "pubdate": "2026-10-17",
           "arxiv": "2610.24628",
           "doi": null,
@@ -630,20 +616,6 @@
           "nr": "na"
         },
         {
-          "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
-          "authors": "S Peng, K Jiang, J Zheng, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2610.08250",
-          "cites": 0,
-          "pubdate": "2026-10-06",
-          "arxiv": "2610.08250",
-          "doi": null,
-          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
-          "first_seen": "2026-10-21",
-          "nr": "na"
-        },
-        {
           "title": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
           "authors": "A Malik, M Elsherief",
           "year": 2026,
@@ -699,9 +671,37 @@
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-30",
           "nr": "na"
+        },
+        {
+          "title": "The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment",
+          "authors": "G Paulo, L Jaburi, N Belrose, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.37914",
+          "cites": 1,
+          "pubdate": "2026-09-29",
+          "arxiv": "2609.37914",
+          "doi": "10.48550/arxiv.2609.37914",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-11-12",
+          "nr": "na"
+        },
+        {
+          "title": "Correct, Don't Delete: Mitigating Emergent Misalignment with Corrective Supervision",
+          "authors": "J Epifano",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.37624",
+          "cites": 1,
+          "pubdate": "2026-09-29",
+          "arxiv": "2609.37624",
+          "doi": "10.48550/arxiv.2609.37624",
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-11-12",
+          "nr": "na"
         }
       ],
-      "n_citing": 412,
+      "n_citing": 373,
       "query": "persona generation"
     },
     "gABM": {
@@ -726,7 +726,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2312.03664",
-          "cites": 186,
+          "cites": 187,
           "key": true,
           "nr": "na"
         },
@@ -948,6 +948,20 @@
         }
       ],
       "citing": [
+        {
+          "title": "From Vision to Interaction: Evaluating Dynamic Social Intelligence of VLM Agents in ALIVE-World",
+          "authors": "Y Xu, X Qin, S Zhao, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://doi.org/10.1145/3767308.3836378",
+          "cites": 0,
+          "pubdate": "2026-11-10",
+          "arxiv": null,
+          "doi": "10.1145/3767308.3836378",
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-12",
+          "nr": "na"
+        },
         {
           "title": "Generation and Validation of Driver Personas Using Local Language Models for Multi-Agent Traffic Microsimulation Supporting Sustainable Transport Planning",
           "authors": "M Rychlicki, Z Kasprzyk",
@@ -1204,6 +1218,20 @@
           "nr": "na"
         },
         {
+          "title": "Structural Dependence, Imitation or Herding? A Multi-Agent Simulation of Global Intermedia Agenda Setting",
+          "authors": "M Yousuf, A Habib",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.20144",
+          "cites": 0,
+          "pubdate": "2026-10-14",
+          "arxiv": "2610.20144",
+          "doi": null,
+          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
+          "first_seen": "2026-11-12",
+          "nr": "na"
+        },
+        {
           "title": "From Caricature to Collective Artifact: How Persona Construction Drives Polarization in Generative Social Simulations",
           "authors": "D Michailidis, P Törnberg, F Santos",
           "year": 2026,
@@ -1229,7 +1257,7 @@
           "doi": "10.1073/pnas.2531748123",
           "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
           "first_seen": "2026-11-01",
-          "fwci": 14.11,
+          "fwci": 14.02,
           "pct": 10,
           "nr": "na"
         },
@@ -1482,41 +1510,12 @@
           "pubdate": "2026-09-21",
           "arxiv": "2609.35819",
           "doi": "10.48550/arxiv.2609.35819",
-          "cited_key": "Mechanism Plausibility in Generative Agent-Based Modeling",
+          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
           "first_seen": "2026-09-30",
-          "nr": "na"
-        },
-        {
-          "title": "Epistemic Capabilities of Artificial Intelligence for Public Administration and Policy Research: A Framework for Scholarship in the Age of Intelligent Machines",
-          "authors": "Y Chandra, J Tan",
-          "year": 2026,
-          "venue": "Policy Studies Journal",
-          "url": "https://doi.org/10.1111/psj.70165",
-          "cites": 0,
-          "pubdate": "2026-09-20",
-          "arxiv": null,
-          "doi": "10.1111/psj.70165",
-          "cited_key": "Simulating Public Administration Crisis: A Novel Generative ",
-          "first_seen": "2026-09-25",
-          "fwci": 0.0,
-          "nr": "na"
-        },
-        {
-          "title": "Can Agents Adapt Their Institutions And Sacrifice Themselves During Collapse? Executable Self-Governance in a GovSim Commons",
-          "authors": "G Rehm",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.22600",
-          "cites": 0,
-          "pubdate": "2026-09-18",
-          "arxiv": "2609.22600",
-          "doi": null,
-          "cited_key": "Generative agent-based modeling with actions grounded in phy",
-          "first_seen": "2026-11-12",
           "nr": "na"
         }
       ],
-      "n_citing": 499,
+      "n_citing": 528,
       "query": "agent-based modeling"
     }
   }
