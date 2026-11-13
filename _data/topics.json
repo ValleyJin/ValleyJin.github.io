@@ -7,16 +7,6 @@
       "query": "Deep persona",
       "papers": [
         {
-          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
-          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
-          "year": 2025,
-          "venue": "Computer Networks",
-          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 2,
-          "fwci": 0.6,
-          "nr": "na"
-        },
-        {
           "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
           "authors": "Lee, H., Kim, Y., & Kim, S.",
           "year": 2024,
@@ -25,6 +15,16 @@
           "cites": 11,
           "fwci": 2.82,
           "pct": 10,
+          "nr": "na"
+        },
+        {
+          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
+          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
+          "year": 2025,
+          "venue": "Computer Networks",
+          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
+          "cites": 2,
+          "fwci": 0.6,
           "nr": "na"
         },
         {
@@ -76,17 +76,6 @@
           "nr": "na"
         },
         {
-          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
-          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
-          "year": 2025,
-          "venue": "Engineering Applications of Artificial Intelligence",
-          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
-          "cites": 18,
-          "fwci": 5.37,
-          "pct": 10,
-          "nr": "na"
-        },
-        {
           "title": "Simulating conversations on social media with generative agent-based models",
           "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
           "year": 2025,
@@ -94,6 +83,17 @@
           "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
           "cites": 5,
           "fwci": 4.74,
+          "pct": 10,
+          "nr": "na"
+        },
+        {
+          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
+          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
+          "year": 2025,
+          "venue": "Engineering Applications of Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
+          "cites": 18,
+          "fwci": 5.37,
           "pct": 10,
           "nr": "na"
         }
@@ -348,17 +348,6 @@
           "crank": "A"
         },
         {
-          "title": "A survey of dynamic graph neural networks",
-          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
-          "year": 2024,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 197,
-          "fwci": 20.5,
-          "pct": 1,
-          "nr": "na"
-        },
-        {
           "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
           "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
           "year": 2024,
@@ -377,6 +366,17 @@
           "url": "https://doi.org/10.1007/s10462-024-10808-0",
           "cites": 110,
           "fwci": 11.33,
+          "pct": 1,
+          "nr": "na"
+        },
+        {
+          "title": "A survey of dynamic graph neural networks",
+          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
+          "year": 2024,
+          "venue": "Frontiers of Computer Science",
+          "url": "https://doi.org/10.1007/s11704-024-3853-2",
+          "cites": 197,
+          "fwci": 20.5,
           "pct": 1,
           "nr": "na"
         }

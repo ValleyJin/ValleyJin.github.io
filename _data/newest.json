@@ -29011,6 +29011,17 @@
         "topic": "Memory in Agentic AI",
         "fwci": 0.0,
         "nr": "na"
+      },
+      {
+        "title": "Memory Mechanisms for Agentic Systems in Adaptive Automation: A Comparative Evaluation of Recent Advances (2021–2026)",
+        "authors": "Bhanushali, D., Ngan, C., & Meftah, S.",
+        "year": 2026,
+        "venue": "AI",
+        "url": "https://doi.org/10.3390/ai7110476",
+        "cites": 0,
+        "topic": "Memory in Agentic AI",
+        "fwci": 0.0,
+        "crank": "C"
       }
     ],
     "LLM inference serving": [
@@ -29799,7 +29810,18 @@
         "crank": "A*"
       }
     ],
-    "KDD": [],
+    "KDD": [
+      {
+        "title": "Constructing and mining web-scale knowledge graphs: KDD 2014 tutorial",
+        "authors": "Bordes, A., & Gabrilovich, E.",
+        "year": 2014,
+        "venue": "Knowledge Discovery and Data Mining",
+        "url": "https://doi.org/10.1145/2623330.2630803",
+        "cites": 58,
+        "topic": "KDD",
+        "crank": "A*"
+      }
+    ],
     "JMLR": [],
     "TPAMI": [],
     "AIJ": [],
