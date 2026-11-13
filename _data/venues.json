@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "venues": {
     "NeurIPS": {
       "name": "neural information processing systems",
@@ -113,7 +113,7 @@
       "link": "https://www.ijcai.org/",
       "h": 213,
       "i10": 5142,
-      "if2": 4.9,
+      "if2": 5.0,
       "works": 12021,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -708,7 +708,7 @@
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/14676486",
       "h": 326,
-      "if2": 9.0,
+      "if2": 9.1,
       "works": 3786,
       "issn": "0022-2380",
       "domain": "Social Sciences",
@@ -739,8 +739,8 @@
       "topics3y": [
         "Management and Organizational Studies",
         "Management Theory and Practice",
-        "Posthumanist Ethics and Activism",
-        "Information Systems Theories and Implementation"
+        "Information Systems Theories and Implementation",
+        "Posthumanist Ethics and Activism"
       ],
       "founded": 1980,
       "about": "Organization Studies is a monthly peer-reviewed academic journal that covers the field of organization studies. The journal's editors-in-chief are Renate Meyer and Paolo Quattrone. It was established in 1980 and is publi",
@@ -816,7 +816,7 @@
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/accounting-organizations-and-society",
       "h": 264,
-      "if2": 9.9,
+      "if2": 9.8,
       "works": 2228,
       "issn": "0361-3682",
       "domain": "Social Sciences",
@@ -954,7 +954,7 @@
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/the-british-accounting-review",
       "h": 140,
-      "if2": 8.5,
+      "if2": 8.6,
       "works": 2016,
       "issn": "0890-8389",
       "domain": "Social Sciences",

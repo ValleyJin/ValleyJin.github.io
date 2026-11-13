@@ -1,11 +1,21 @@
 {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
       "topic": "Deep persona",
       "query": "Deep persona",
       "papers": [
+        {
+          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
+          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
+          "year": 2025,
+          "venue": "Computer Networks",
+          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
+          "cites": 2,
+          "fwci": 0.6,
+          "nr": "na"
+        },
         {
           "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
           "authors": "Lee, H., Kim, Y., & Kim, S.",
@@ -15,16 +25,6 @@
           "cites": 11,
           "fwci": 2.82,
           "pct": 10,
-          "nr": "na"
-        },
-        {
-          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
-          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
-          "year": 2025,
-          "venue": "Computer Networks",
-          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 2,
-          "fwci": 0.61,
           "nr": "na"
         },
         {
@@ -48,7 +48,7 @@
           "nr": "na"
         }
       ],
-      "count": 11753
+      "count": 11773
     },
     {
       "topic": "gABM",
@@ -61,7 +61,7 @@
           "venue": "System Dynamics Review",
           "url": "https://doi.org/10.1002/sdr.1761",
           "cites": 114,
-          "fwci": 11.71,
+          "fwci": 11.55,
           "pct": 1,
           "nr": "na"
         },
@@ -76,29 +76,29 @@
           "nr": "na"
         },
         {
-          "title": "Simulating conversations on social media with generative agent-based models",
-          "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
-          "year": 2025,
-          "venue": "EPJ Data Science",
-          "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
-          "cites": 5,
-          "fwci": 4.85,
-          "pct": 10,
-          "nr": "na"
-        },
-        {
           "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
           "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
           "year": 2025,
           "venue": "Engineering Applications of Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.engappai.2025.111343",
           "cites": 18,
-          "fwci": 5.46,
+          "fwci": 5.37,
+          "pct": 10,
+          "nr": "na"
+        },
+        {
+          "title": "Simulating conversations on social media with generative agent-based models",
+          "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
+          "year": 2025,
+          "venue": "EPJ Data Science",
+          "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
+          "cites": 5,
+          "fwci": 4.74,
           "pct": 10,
           "nr": "na"
         }
       ],
-      "count": 63227
+      "count": 63386
     },
     {
       "topic": "Graph database",
@@ -111,7 +111,7 @@
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3749646.3749671",
           "cites": 5,
-          "fwci": 1.24,
+          "fwci": 1.22,
           "nr": "na"
         },
         {
@@ -121,7 +121,7 @@
           "venue": "Current Journal of Applied Science and Technology",
           "url": "https://doi.org/10.9734/cjast/2024/v43i114443",
           "cites": 6,
-          "fwci": 1.58,
+          "fwci": 1.56,
           "nr": "na"
         },
         {
@@ -131,7 +131,7 @@
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3749186",
           "cites": 3,
-          "fwci": 2.11,
+          "fwci": 2.06,
           "nr": "na"
         },
         {
@@ -145,7 +145,7 @@
           "nr": "na"
         }
       ],
-      "count": 134396
+      "count": 134468
     },
     {
       "topic": "Memory in Agentic AI",
@@ -178,12 +178,12 @@
           "venue": "ACM Transactions on Autonomous and Adaptive Systems",
           "url": "https://doi.org/10.1145/3774946",
           "cites": 13,
-          "fwci": 7.62,
+          "fwci": 7.5,
           "pct": 10,
           "nr": "na"
         }
       ],
-      "count": 79365
+      "count": 79483
     },
     {
       "topic": "LLM inference serving",
@@ -207,7 +207,7 @@
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
           "cites": 17,
-          "fwci": 7.09,
+          "fwci": 7.0,
           "pct": 10,
           "nr": "na"
         },
@@ -232,7 +232,7 @@
           "nr": "na"
         }
       ],
-      "count": 8661
+      "count": 8683
     },
     {
       "topic": "Ethereum Layer-2",
@@ -245,7 +245,7 @@
           "venue": "Future Generation Computer Systems",
           "url": "https://doi.org/10.1016/j.future.2025.108316",
           "cites": 5,
-          "fwci": 2.93,
+          "fwci": 2.88,
           "pct": 10,
           "nr": "na"
         },
@@ -280,7 +280,7 @@
           "nr": "na"
         }
       ],
-      "count": 668
+      "count": 671
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -302,8 +302,8 @@
           "year": 2026,
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-026-11557-y",
-          "cites": 70,
-          "fwci": 116.12,
+          "cites": 71,
+          "fwci": 117.66,
           "pct": 1,
           "nr": "na"
         },
@@ -325,12 +325,12 @@
           "venue": "IEEE Transactions on Big Data",
           "url": "https://doi.org/10.1109/tbdata.2024.3403370",
           "cites": 72,
-          "fwci": 7.6,
+          "fwci": 7.49,
           "pct": 10,
           "nr": "na"
         }
       ],
-      "count": 55589
+      "count": 55656
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -342,10 +342,32 @@
           "year": 2026,
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2026.3680353",
-          "cites": 343,
-          "fwci": 117.78,
+          "cites": 344,
+          "fwci": 117.19,
           "pct": 1,
           "crank": "A"
+        },
+        {
+          "title": "A survey of dynamic graph neural networks",
+          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
+          "year": 2024,
+          "venue": "Frontiers of Computer Science",
+          "url": "https://doi.org/10.1007/s11704-024-3853-2",
+          "cites": 197,
+          "fwci": 20.5,
+          "pct": 1,
+          "nr": "na"
+        },
+        {
+          "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
+          "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
+          "year": 2024,
+          "venue": "ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3661821",
+          "cites": 320,
+          "fwci": 79.23,
+          "pct": 1,
+          "nr": "na"
         },
         {
           "title": "Graph neural networks for text classification: a survey",
@@ -357,31 +379,9 @@
           "fwci": 11.33,
           "pct": 1,
           "nr": "na"
-        },
-        {
-          "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
-          "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
-          "year": 2024,
-          "venue": "ACM Computing Surveys",
-          "url": "https://doi.org/10.1145/3661821",
-          "cites": 318,
-          "fwci": 79.36,
-          "pct": 1,
-          "nr": "na"
-        },
-        {
-          "title": "A survey of dynamic graph neural networks",
-          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
-          "year": 2024,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 197,
-          "fwci": 20.54,
-          "pct": 1,
-          "nr": "na"
         }
       ],
-      "count": 232085
+      "count": 232253
     },
     {
       "topic": "Ontology",
@@ -394,7 +394,7 @@
           "venue": "Ontology of Designing",
           "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
           "cites": 5,
-          "fwci": 1.24,
+          "fwci": 1.22,
           "nr": "na"
         },
         {
@@ -424,11 +424,11 @@
           "venue": "RUSSIAN ELECTRONIC SCIENTIFIC JOURNAL",
           "url": "https://doi.org/10.31563/2308-9644-2025-58-4-386-393",
           "cites": 1,
-          "fwci": 0.25,
+          "fwci": 0.24,
           "nr": "na"
         }
       ],
-      "count": 28080
+      "count": 28115
     },
     {
       "topic": "AI governance",
@@ -440,8 +440,8 @@
           "year": 2024,
           "venue": "Scientific Reports",
           "url": "https://doi.org/10.1038/s41598-024-71761-0",
-          "cites": 105,
-          "fwci": 11.01,
+          "cites": 107,
+          "fwci": 11.13,
           "pct": 1,
           "nr": "na"
         },
@@ -452,7 +452,7 @@
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2025.3598023",
           "cites": 58,
-          "fwci": 14.17,
+          "fwci": 13.94,
           "pct": 1,
           "nr": "na"
         },
@@ -473,13 +473,13 @@
           "year": 2024,
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16100354",
-          "cites": 172,
-          "fwci": 68.07,
+          "cites": 174,
+          "fwci": 68.62,
           "pct": 1,
           "nr": "na"
         }
       ],
-      "count": 119986
+      "count": 120256
     },
     {
       "topic": "NeurIPS",
@@ -608,7 +608,7 @@
           "crank": "A*"
         }
       ],
-      "count": 12036
+      "count": 12035
     },
     {
       "topic": "CVPR",
@@ -780,7 +780,7 @@
           "crank": "A*"
         }
       ],
-      "count": 11933
+      "count": 11932
     },
     {
       "topic": "EMNLP",
