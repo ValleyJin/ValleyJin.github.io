@@ -1,7 +1,117 @@
 {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "LARGE LANGUAGE MODELS AS SOCIAL SURVEY SIMULATORS: A BENCHMARK ANALYSIS OF DEMOGRAPHIC REPRESENTATION IN AI-GENERATED …",
+      "url": "https://www.researchgate.net/profile/Tohid-Yousefi/publication/417586914_LARGE_LANGUAGE_MODELS_AS_SOCIAL_SURVEY_SIMULATORS_A_BENCHMARK_ANALYSIS_OF_DEMOGRAPHIC_REPRESENTATION_IN_AI-GENERATED_RESPONSES/links/6aee3681932f6e4d6a18f7e1/LARGE-LANGUAGE-MODELS-AS-SOCIAL-SURVEY-SIMULATORS-A-BENCHMARK-ANALYSIS-OF-DEMOGRAPHIC-REPRESENTATION-IN-AI-GENERATED-RESPONSES.pdf",
+      "authors": "APT YOUSEFI",
+      "snippet": "Survey research is a principal instrument for observing attitudes, values, and self-reported behaviour at population scale. However, it is costly, timeconsuming, and increasingly challenged by declining response rates and rising fieldwork costs. Recent advances in generative language models (LLMs) have therefore motivated a novel proposal: using LLMs as substitutes for human respondents to generate attitudinal data at low marginal cost [1, 2]. This proposal has received empirical …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "The oracle in the Mirror-City: Digital-Twin policing, simulated suspicion, and the Citizen's right to a past",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1756061626000911",
+      "authors": "L Zihang - International Journal of Law, Crime and Justice, 2026",
+      "snippet": "Urban digital twins are being developed for public-safety applications that model disorder, crowd movement, patrol routes, and possible crime. This article examines how predictive simulation enters the reasons for coercive policing. Through a purposive synthesis of digital-twin and Human-Computer Interaction research and a comparative reconstruction of legal standards, it connects sociotechnical critiques of representation to the temporal structure of suspicion. Suspicion is a legal relation to …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "AgentMesh-MCP: A Secure and Governed Framework for Agentic AI Systems Using LLM Agents and Model Context Protocol Servers",
+      "url": "https://ijsrem.com/uploads/production/IJSREM62689_1778045706876.pdf",
+      "authors": "PS PONDURU - management, 2026",
+      "snippet": "This paper proposes AgentMesh-MCP, a secure and governed framework for agentic artificial intelligence systems that combine large language model agents with Model Context Protocol servers. Agentic AI systems increasingly reason over goals, decompose tasks, call tools, query private data, invoke APIs, and coordinate with other agents. The Model Context Protocol provides a standardized client-server mechanism for exposing tools, resources, and prompts to AI applications, but …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "Subjective Annotation Studies: Valid Inference and Annotation Design",
+      "url": "https://ziyu-jiang.com/papers/jmp.pdf",
+      "authors": "Z Jiang - 2026",
+      "snippet": "We develop a statistical framework for annotation studies of inherently subjective features of unstructured data. In the absence of a conventional ground-truth measurement, we define document-level measurements relative to a reference population of annotators whose responses are relevant to the underlying economic question. Our goal is valid inference for economic parameters which can be written as weighted averages of these measurements and smooth functions of such …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "Designing AI-Agent-Enabled Entrepreneurship Training Programs: An Experiential Learning Approach to Business Automation, Opportunity Recognition, and …",
+      "url": "https://aijcst.org/index.php/aijcst/article/download/350/329",
+      "authors": "D Hayoshi - American International Journal of Computer Science …, 2026",
+      "snippet": "Entrepreneurship education increasingly employs generative artificial intelligence, yet proficiency in prompting a chatbot does not necessarily prepare learners to design accountable AI-agent workflows or make defensible business decisions. This article develops an experiential training framework that integrates opportunity recognition, business process automation, and entrepreneurial decision-making within a human-governed AI-agent environment. Using a theory-informed conceptual …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "An Agentic Artificial Intelligence Framework for Context-Aware Sarcasm Detection",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11766991/",
+      "authors": "A Kar, Y Nikam - 2026 IEEE World Skills Conference on Universal Data …, 2026",
+      "snippet": "The high rate of development of online communication systems in the social media has made the process of natural language understanding, especially the correct recognition of sarcasm, rather problematic. Sarcasm is thought to have a meaning that differs from that of literal expression and more often than not relies on user behaviour, context and pragmatic intent which renders conventional natural language processing (NLP) a formidable obstacle. Current machine learning and …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "A Memory-Curating Agent for Surgical Video Segmentation with Promptable Foundation Models",
+      "url": "https://www.researchgate.net/profile/Sunyoo-Kim/publication/417571327_A_Memory-Curating_Agent_for_Surgical_Video_Segmentation_with_Promptable_Foundation_Models/links/6aeded983e7df118bc6a279c/A-Memory-Curating-Agent-for-Surgical-Video-Segmentation-with-Promptable-Foundation-Models.pdf",
+      "authors": "S Kim",
+      "snippet": "Segmentation of instruments and tissue in surgical video underlies skill assessment, workflow analysis and robotic assistance, and promptable video foundation models such as Segment Anything Model 2 (SAM 2) now track almost any object once it is prompted in one frame. However, existing pipelines often fill the memory bank of these models with the most recent frames and re-prompt them by fixed rules, so a single wrong mask after smoke, bleeding or occlusion is written into memory and …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "Scenario-driven control of real-time LLM agents",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11761839/",
+      "authors": "L Borozan, D Matijević - 2026 MIPRO Robotics Technologies and Applications …, 2026",
+      "snippet": "Large language models (LLMs) have enabled increasingly capable conversational agents, but reliably controlling their behavior in real-time interactive environments remains a significant challenge. Existing approaches often rely on model fine-tuning or alignment procedures that are difficult to adapt to changing interaction requirements. This paper introduces layered scenario-driven LLM control, a framework that enables runtime behavior control through structured prompting. By …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "A Modular Review of the Evidence for Harmful",
+      "url": "https://jfbonnefon.github.io/publication/cop26/cop26.pdf",
+      "authors": "JF ois Bonnefon, C Prunkl",
+      "snippet": "Harmful manipulation by AI systems has moved rapidly from speculative concern to 28 regulatory target. The 2026 International AI Safety Report [1] treats' influence and 29 manipulation'as a distinct risk area, noting that AI systems may generate content 30 that causes harm by influencing people's beliefs and behavior. The European Com-31 mission's guidance on Article 5 of the AI Act [2] similarly presents harmful manipu-32 lation as a prohibited AI practice, especially when AI systems exploit …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "Research on Decoupled and Lightweight Cross-Modal Alignment for BLIP-2 in Medical Digital Humans.",
+      "url": "https://openurl.ebsco.com/contentitem/gcd:198400433?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:198400433&crl=c&jrnl=1816093X",
+      "authors": "H Xie, H Yin, N Ding - Engineering Letters, 2026",
+      "snippet": "Medical digital humans require vision-language systems capable of interpreting medical images and generating controllable natural-language responses with limited computational resources. BLIP-2 provides a parameter-efficient solution through a decoupled architecture in which the visual encoder and large language model remain frozen while an intermediate cross-modal bridging module is trained. However, when adapted to dermatological image captioning, BLIP-2 does not …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
+    {
+      "title": "Advancing Moisture-Enabled Electric Generators: Ion Synergy, Technical Roadmap and Battery Hybridization Toward Real-World Self-Powered Systems",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2211285526009055",
+      "authors": "F Arshad, A Kaleem, N Manurkar, Y Chen, H Zhang… - Nano Energy, 2026",
+      "snippet": "Moisture-enabled electric generators (MEGs) harvest ubiquitous atmospheric water vapor to generate power, offering distributed micro-energy without artificial light, heat or mechanical actuation under sustained humidity conditions. This advantage enables broad implementation in wearable electronics, biomedical sensors and off-grid IoT devices. Three intertwined obstacles restrict real-world adoption: insufficient power density, humidity-dependent unstable output, and a lack of matched energy …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-13",
+      "nr": "na"
+    },
     {
       "title": "The Geometry of Simulated Perspectives: Dissociating Representation and Behaviour in a Multimodal Language Model",
       "url": "https://arxiv.org/pdf/2611.08262",
@@ -289,116 +399,6 @@
       "snippet": "Synthetic populations, large sets of simulated people, are increasingly used in place of real people to pretest surveys, simulate users and communities, and evaluate AI systems. Each simulated person is defined by a persona, a written profile of fixed traits, demographics, and attitudes that a language model is instructed to act out. Every such system assumes that a person's identity is a stable attribute that behaves the same way in every situation the simulation presents. We show that this …",
       "kind": "Citation",
       "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "Learning Latent Process Knowledge via Variational Distillation for Low-Resource Social Experiment Prediction",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3799682.3841061",
-      "authors": "Y Wu, Z Zhang, X Pang, X Zheng - Proceedings of the 35th ACM International …, 2026",
-      "snippet": "Large language models (LLMs) have become a promising tool for scaling social experiments with silicon samples. However, fine-tuning LLMs for real randomized controlled trials faces a dual low-resource challenge: structurally balanced experimental data are often small, and the process knowledge that explains how respondent profiles and treatments jointly shape outcomes is unobserved. Without reliable process-level supervision, existing fine-tuning methods may struggle to learn …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "Personality expression and perception in large language models and humans",
-      "url": "https://www.nature.com/articles/s41598-026-75546-5",
-      "authors": "ST Koerner, B Egloff, S Osterholz - Scientific Reports, 2026",
-      "snippet": "Growing numbers of people frequently turn to Large Language Models (LLMs) for concerns from various areas of life. Because its content has become ubiquitous, examining user perceptions of LLM-produced text and its distinguishability from human writing is crucial. This study investigated how seven LLMs (ChatGPT-4o, ChatGPT-3.5, Llama 3, Gemma, Gemini, Phi-3, Orca-2) describe themselves when compared to humans. LLM-generated outputs and human responses were collected …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "PromptTweak: Assessing the Trustworthiness of Text-to-Video Models in Autonomous Edge Intelligence",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11773257/",
-      "authors": "Y Mu, H Li, R Zhang, W Jiang, W Fan - IEEE Transactions on Network Science and …, 2026",
-      "snippet": "Recent advances in Agentic AI are enabling Text-to-Video (T2V) models to serve as generative visual modules for autonomous agents in resource-constrained edge environments. These models can provide visual information for environmental perception, context understanding, and downstream decision-making. However, their integration into decentralized edge networks introduces a new security concern. A compromised T2V module may generate unsafe or misleading visual content, which …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "Computational models of complex systems meet AI agents",
-      "url": "https://www.nature.com/articles/s44260-026-00102-1_reference.pdf",
-      "authors": "C Cattuto, A Vespignani - npj Complexity, 2026",
-      "snippet": "Complex systems have structural properties that make them a promising domain for scientific workflows driven by AI agents—systems that combine large language models with tool use and iterative execution. However, most complex systems simulators and libraries do not expose their control points and outputs in a form that text-based AI agents can readily use. Realizing the potential of agent-driven workflows requires equipping complex systems models with agent-friendly …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "AgentAM: An AI Agent for Spatter-and Defect-Aware Process Optimization in Laser Powder Bed Fusion",
-      "url": "https://arxiv.org/pdf/2611.05171",
-      "authors": "OT Ajenifujah, AB Farimani - arXiv preprint arXiv:2611.05171, 2026",
-      "snippet": "Predictive models for laser powder bed fusion (LPBF) are rarely used on the shop floor because querying them requires programming and model-specific knowledge. We present AgentAM, a large language model (LLM) agent that gives process engineers natural-language access to CFD-trained surrogates of spatter and melt pool geometry for SS316L through the Model Context Protocol (MCP). Polynomial surrogates trained on 279 single-track simulations predict melt pool dimensions …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "Artificial Intelligence Agents: A Structural Review of Frameworks, Core Components, and Open Challenges",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11760832/",
-      "authors": "J Li, NA Golilarz, S Rahimi - 2026 25th International Conference on Machine …, 2026",
-      "snippet": "Artificial intelligence (AI) agents have emerged as a major application paradigm built on large language models (LLMs). These systems can perceive inputs, reason about goals, plan actions, use tools, access memory, and interact with external environments with varying degrees of autonomy. Although AI agent systems are rapidly expanding, the literature still lacks a concise structural review that explains how these systems are organized into recurring framework patterns and which …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "crank": "C"
-    },
-    {
-      "title": "A Digital Stakeholder Communication Framework for Accelerating MSME Halal Certification",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11748985/",
-      "authors": "S Nahidloh, F Fajar, R Kurniawan, T Pujiati, A Avandi - 2026 5th International …, 2026",
-      "snippet": "Halal certification is essential for MSMEs to ensure regulatory compliance and improve competitiveness, yet its implementation is often hindered by weak stakeholder coordination and ineffective communication. This study proposes a digital stakeholder communication framework, designed as a pseudo-system model, to enhance coordination and accelerate certification processes. The framework integrates MSME and stakeholder data, processes it through a communication …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "The generative AI duality trap: a knowledge governance perspective on knowledge diversity and epistemic convergence in AI-augmented organisations",
-      "url": "https://www.emerald.com/jkm/article-abstract/doi/10.1108/JKM-05-2026-1037/1407067",
-      "authors": "HC Chan, KM Chu - Journal of Knowledge Management, 2026",
-      "snippet": "Purpose This study aims to examine a knowledge management (KM) puzzle: why generative artificial intelligence (GenAI) use relates to knowledge diversity expansion in some organisations and epistemic convergence in others. The authors develop the GenAI duality trap, a cross-level knowledge governance framework in which artificial intelligence (AI)-mediated knowledge outcomes track governance design, not technological capability alone. Design/methodology/approach A multi …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "From Hashed Records to Graduation Risk: Evaluating Foundation Models and Tabular Baselines on Longitudinal Higher-Education Data",
-      "url": "https://www.mdpi.com/2076-3417/16/21/10898/pdf",
-      "authors": "Y Alshammari, D Runfola - Applied Sciences, 2026",
-      "snippet": "In this paper, we explore the ability of generative models to integrate deterministically hashed representations of information in the context of higher education. We compare BERT, RoBERTa, and GPT-2 base configurations for predicting undergraduate graduation within the next four academic years using de-identified institutional records with values supplied as SHA-256 hashes and represented as token sequences. We construct a sample of 155,933 student-terms for 17,605 …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "Role-Specific Agentic RAG: Asymmetric Hybrid-Path Reasoning over Semi-structured Knowledge Bases",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3799682.3840710",
-      "authors": "Y Shi, D Shen, M Wang, B Wang - Proceedings of the 35th ACM International …, 2026",
-      "snippet": "Hybrid Question Answering (HQA) over semi-structured knowledge bases (SKBs) is vital for high-stakes domains like clinical precision medicine. However, HQA over SKBs is challenging because evidence is split across documents and relations, while answers must satisfy both semantic and structural constraints. Standard RAG pipelines retrieve evidence from textual or relational sources separately, failing to jointly capture the semantic conditions and relational constraints required by HQA …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-08",
-      "nr": "na"
-    },
-    {
-      "title": "Cimos: Cost-Effective Multi-Query Oriented Continuous Subgraph Matching",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3799682.3841138",
-      "authors": "Z Zou, K Zhao, Q Li, Z Zhang, L Ding, X Zhao, P Wu - Proceedings of the 35th ACM …, 2026",
-      "snippet": "Continuous subgraph matching over dynamic graphs is a fundamental problem in graph databases, with broad applications in real-time pattern monitoring and risk control. In practice, applications often require monitoring multiple graph patterns simultaneously, making multi-query oriented continuous subgraph matching (MCSM) an increasingly important research topic. Although existing methods have achieved performance gains, their indexes offer limited filtering power and they lack high …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
       "date": "2026-11-08",
       "nr": "na"
     }
