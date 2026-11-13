@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -72,7 +72,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2512.06688",
-          "cites": 103,
+          "cites": 104,
           "key": true,
           "nr": "na"
         },
@@ -84,7 +84,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2506.19823",
-          "cites": 149,
+          "cites": 151,
           "key": true,
           "nr": "na"
         },
@@ -420,6 +420,20 @@
           "nr": "na"
         },
         {
+          "title": "Honeyed Words, Hidden Daggers: Benchmarking and Training LLMs to See Through Mock Politeness",
+          "authors": "C Kang, S Gong, T Yan, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.26059",
+          "cites": 0,
+          "pubdate": "2026-10-19",
+          "arxiv": "2610.26059",
+          "doi": null,
+          "cited_key": "Living the Novel: A System for Generating Self-Training Time",
+          "first_seen": "2026-11-13",
+          "nr": "na"
+        },
+        {
           "title": "Muse Glimmer 30B: An On-Device Agentic Model",
           "authors": "A Abtahizadeh, M Aghamelu, A Ahmed, et al.",
           "year": 2026,
@@ -616,6 +630,20 @@
           "nr": "na"
         },
         {
+          "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+          "authors": "S Peng, K Jiang, J Zheng, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2610.08250",
+          "cites": 0,
+          "pubdate": "2026-10-06",
+          "arxiv": "2610.08250",
+          "doi": null,
+          "cited_key": "Enhancing Persona Consistency for LLMs' Role-Playing using P",
+          "first_seen": "2026-11-13",
+          "nr": "na"
+        },
+        {
           "title": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
           "authors": "A Malik, M Elsherief",
           "year": 2026,
@@ -671,37 +699,9 @@
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-09-30",
           "nr": "na"
-        },
-        {
-          "title": "The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment",
-          "authors": "G Paulo, L Jaburi, N Belrose, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.37914",
-          "cites": 1,
-          "pubdate": "2026-09-29",
-          "arxiv": "2609.37914",
-          "doi": "10.48550/arxiv.2609.37914",
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-11-12",
-          "nr": "na"
-        },
-        {
-          "title": "Correct, Don't Delete: Mitigating Emergent Misalignment with Corrective Supervision",
-          "authors": "J Epifano",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2609.37624",
-          "cites": 1,
-          "pubdate": "2026-09-29",
-          "arxiv": "2609.37624",
-          "doi": "10.48550/arxiv.2609.37624",
-          "cited_key": "Persona Features Control Emergent Misalignment",
-          "first_seen": "2026-11-12",
-          "nr": "na"
         }
       ],
-      "n_citing": 373,
+      "n_citing": 410,
       "query": "persona generation"
     },
     "gABM": {
@@ -726,7 +726,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2312.03664",
-          "cites": 187,
+          "cites": 190,
           "key": true,
           "nr": "na"
         },
@@ -1379,7 +1379,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.03095",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-10-02",
           "arxiv": "2610.03095",
           "doi": null,
