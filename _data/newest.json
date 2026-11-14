@@ -28705,18 +28705,6 @@
         "nr": "na"
       },
       {
-        "title": "Agent-based modeling of the diffusion of environmental innovations — An empirical approach",
-        "authors": "Schwarz, N., & Ernst, A. M.",
-        "year": 2008,
-        "venue": "Technological Forecasting and Social Change",
-        "url": "https://doi.org/10.1016/j.techfore.2008.03.024",
-        "cites": 314,
-        "topic": "gABM",
-        "fwci": 12.71,
-        "pct": 10,
-        "nr": "na"
-      },
-      {
         "title": "Agent-based modeling: A revolution?",
         "authors": "Bankes, S. C.",
         "year": 2002,
@@ -28725,6 +28713,18 @@
         "cites": 305,
         "topic": "gABM",
         "fwci": 5.32,
+        "pct": 10,
+        "nr": "na"
+      },
+      {
+        "title": "Agent‐based Modeling of Animal Movement: A Review",
+        "authors": "Tang, W., & Bennett, D. A.",
+        "year": 2010,
+        "venue": "Geography Compass",
+        "url": "https://doi.org/10.1111/j.1749-8198.2010.00337.x",
+        "cites": 186,
+        "topic": "gABM",
+        "fwci": 4.41,
         "pct": 10,
         "nr": "na"
       }
@@ -28848,17 +28848,6 @@
         "topic": "Memory in Agentic AI",
         "fwci": 0.0,
         "nr": "na"
-      },
-      {
-        "title": "Memory Mechanisms for Agentic Systems in Adaptive Automation: A Comparative Evaluation of Recent Advances (2021–2026)",
-        "authors": "Bhanushali, D., Ngan, C., & Meftah, S.",
-        "year": 2026,
-        "venue": "AI",
-        "url": "https://doi.org/10.3390/ai7110476",
-        "cites": 0,
-        "topic": "Memory in Agentic AI",
-        "fwci": 0.0,
-        "crank": "C"
       }
     ],
     "LLM inference serving": [
