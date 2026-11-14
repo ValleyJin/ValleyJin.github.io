@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -565,7 +565,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.11776",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-10-08",
           "arxiv": "2610.11776",
           "doi": null,
@@ -701,7 +701,7 @@
           "nr": "na"
         }
       ],
-      "n_citing": 410,
+      "n_citing": 413,
       "query": "persona generation"
     },
     "gABM": {
@@ -846,7 +846,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2504.03274",
-          "cites": 57,
+          "cites": 58,
           "key": true,
           "nr": "na"
         },
@@ -960,6 +960,20 @@
           "doi": "10.1145/3767308.3836378",
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-11-12",
+          "nr": "na"
+        },
+        {
+          "title": "Probe What-If Worlds Before You Ship: Persona Simulation for Real-World Decision Making",
+          "authors": "J Zhu, J Hou, Z Tao, et al.",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2611.14700",
+          "cites": 0,
+          "pubdate": "2026-11-10",
+          "arxiv": "2611.14700",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-14",
           "nr": "na"
         },
         {
@@ -1257,7 +1271,7 @@
           "doi": "10.1073/pnas.2531748123",
           "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
           "first_seen": "2026-11-01",
-          "fwci": 14.02,
+          "fwci": 13.97,
           "pct": 10,
           "nr": "na"
         },
@@ -1499,23 +1513,9 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-11-12",
           "nr": "na"
-        },
-        {
-          "title": "Exploring Causal Mechanisms with Generative Agent-Based Models",
-          "authors": "X Liu, H Shang, T Bhat, et al.",
-          "year": 2026,
-          "venue": "arXiv.org",
-          "url": "https://arxiv.org/abs/2609.35819",
-          "cites": 0,
-          "pubdate": "2026-09-21",
-          "arxiv": "2609.35819",
-          "doi": "10.48550/arxiv.2609.35819",
-          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
-          "first_seen": "2026-09-30",
-          "nr": "na"
         }
       ],
-      "n_citing": 528,
+      "n_citing": 527,
       "query": "agent-based modeling"
     }
   }
