@@ -1,11 +1,21 @@
 {
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
       "topic": "Deep persona",
       "query": "Deep persona",
       "papers": [
+        {
+          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
+          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
+          "year": 2025,
+          "venue": "Computer Networks",
+          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
+          "cites": 2,
+          "fwci": 0.6,
+          "nr": "na"
+        },
         {
           "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
           "authors": "Lee, H., Kim, Y., & Kim, S.",
@@ -15,16 +25,6 @@
           "cites": 11,
           "fwci": 2.82,
           "pct": 10,
-          "nr": "na"
-        },
-        {
-          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
-          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
-          "year": 2025,
-          "venue": "Computer Networks",
-          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 2,
-          "fwci": 0.6,
           "nr": "na"
         },
         {
@@ -48,7 +48,7 @@
           "nr": "na"
         }
       ],
-      "count": 11773
+      "count": 11785
     },
     {
       "topic": "gABM",
@@ -98,7 +98,7 @@
           "nr": "na"
         }
       ],
-      "count": 63386
+      "count": 63501
     },
     {
       "topic": "Graph database",
@@ -145,7 +145,7 @@
           "nr": "na"
         }
       ],
-      "count": 134468
+      "count": 134511
     },
     {
       "topic": "Memory in Agentic AI",
@@ -183,7 +183,7 @@
           "nr": "na"
         }
       ],
-      "count": 79483
+      "count": 79548
     },
     {
       "topic": "LLM inference serving",
@@ -196,7 +196,7 @@
           "venue": "IEEE Computer Architecture Letters",
           "url": "https://doi.org/10.1109/lca.2024.3406038",
           "cites": 50,
-          "fwci": 11.82,
+          "fwci": 11.64,
           "pct": 1,
           "nr": "na"
         },
@@ -232,7 +232,7 @@
           "nr": "na"
         }
       ],
-      "count": 8683
+      "count": 8701
     },
     {
       "topic": "Ethereum Layer-2",
@@ -276,7 +276,7 @@
           "venue": "ЕКОНОМІКА І РЕГІОН Науковий вісник",
           "url": "https://doi.org/10.26906/eir.2024.2(93).3396",
           "cites": 4,
-          "fwci": 1.03,
+          "fwci": 1.01,
           "nr": "na"
         }
       ],
@@ -293,7 +293,7 @@
           "venue": "IACR Communications in Cryptology",
           "url": "https://doi.org/10.62056/ayiv4fe-3",
           "cites": 1,
-          "fwci": 0.28,
+          "fwci": 0.27,
           "nr": "na"
         },
         {
@@ -314,7 +314,7 @@
           "venue": "IEEE Transactions on Information Forensics and Security",
           "url": "https://doi.org/10.1109/tifs.2024.3520863",
           "cites": 49,
-          "fwci": 6.21,
+          "fwci": 6.12,
           "pct": 10,
           "nr": "na"
         },
@@ -330,7 +330,7 @@
           "nr": "na"
         }
       ],
-      "count": 55656
+      "count": 55733
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -343,20 +343,9 @@
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2026.3680353",
           "cites": 344,
-          "fwci": 117.19,
+          "fwci": 117.34,
           "pct": 1,
           "crank": "A"
-        },
-        {
-          "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
-          "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
-          "year": 2024,
-          "venue": "ACM Computing Surveys",
-          "url": "https://doi.org/10.1145/3661821",
-          "cites": 320,
-          "fwci": 79.23,
-          "pct": 1,
-          "nr": "na"
         },
         {
           "title": "Graph neural networks for text classification: a survey",
@@ -370,18 +359,29 @@
           "nr": "na"
         },
         {
+          "title": "A Survey of Graph Neural Networks for Social Recommender Systems",
+          "authors": "Sharma, K., Lee, Y., Nambi, S., Salian, A., Shah, S., Kim, S., et al.",
+          "year": 2024,
+          "venue": "ACM Computing Surveys",
+          "url": "https://doi.org/10.1145/3661821",
+          "cites": 320,
+          "fwci": 79.23,
+          "pct": 1,
+          "nr": "na"
+        },
+        {
           "title": "A survey of dynamic graph neural networks",
           "authors": "Zheng, Y., Yi, L., & Wei, Z.",
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 197,
-          "fwci": 20.5,
+          "cites": 198,
+          "fwci": 20.58,
           "pct": 1,
           "nr": "na"
         }
       ],
-      "count": 232253
+      "count": 232374
     },
     {
       "topic": "Ontology",
@@ -423,12 +423,12 @@
           "year": 2025,
           "venue": "RUSSIAN ELECTRONIC SCIENTIFIC JOURNAL",
           "url": "https://doi.org/10.31563/2308-9644-2025-58-4-386-393",
-          "cites": 1,
-          "fwci": 0.24,
+          "cites": 2,
+          "fwci": 0.49,
           "nr": "na"
         }
       ],
-      "count": 28115
+      "count": 28139
     },
     {
       "topic": "AI governance",
@@ -441,7 +441,7 @@
           "venue": "Scientific Reports",
           "url": "https://doi.org/10.1038/s41598-024-71761-0",
           "cites": 107,
-          "fwci": 11.13,
+          "fwci": 11.12,
           "pct": 1,
           "nr": "na"
         },
@@ -452,7 +452,7 @@
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2025.3598023",
           "cites": 58,
-          "fwci": 13.94,
+          "fwci": 13.92,
           "pct": 1,
           "nr": "na"
         },
@@ -463,7 +463,7 @@
           "venue": "Communication Research and Practice",
           "url": "https://doi.org/10.1080/22041451.2024.2391204",
           "cites": 57,
-          "fwci": 67.89,
+          "fwci": 67.27,
           "pct": 1,
           "nr": "na"
         },
@@ -473,13 +473,13 @@
           "year": 2024,
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16100354",
-          "cites": 174,
-          "fwci": 68.62,
+          "cites": 176,
+          "fwci": 69.26,
           "pct": 1,
           "nr": "na"
         }
       ],
-      "count": 120256
+      "count": 120499
     },
     {
       "topic": "NeurIPS",
@@ -620,7 +620,7 @@
           "year": 2024,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
-          "cites": 8,
+          "cites": 9,
           "crank": "A*"
         },
         {
@@ -647,11 +647,11 @@
           "year": 2026,
           "venue": "Computer Vision and Pattern Recognition",
           "url": "https://doi.org/10.48550/arXiv.2605.19329",
-          "cites": 0,
+          "cites": 1,
           "crank": "A*"
         }
       ],
-      "count": 11416
+      "count": 11417
     },
     {
       "topic": "AAAI",
@@ -668,11 +668,11 @@
         },
         {
           "title": "When Are Two Lists Better than One?: Benefits and Harms in Joint Decision-making",
-          "authors": "Donahue, K., Kollias, K., & Gollapudi, S.",
+          "authors": "Donahue, K., Gollapudi, S., & Kollias, K.",
           "year": 2023,
           "venue": "AAAI Conference on Artificial Intelligence",
           "url": "https://doi.org/10.48550/arXiv.2308.11721",
-          "cites": 9,
+          "cites": 10,
           "crank": "A*"
         },
         {
@@ -694,7 +694,7 @@
           "crank": "A*"
         }
       ],
-      "count": 12340
+      "count": 12339
     },
     {
       "topic": "IJCAI",
@@ -909,7 +909,7 @@
           "crank": "A*"
         }
       ],
-      "count": 4847
+      "count": 4848
     },
     {
       "topic": "KDD",
