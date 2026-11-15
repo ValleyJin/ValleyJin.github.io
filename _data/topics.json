@@ -1,21 +1,11 @@
 {
-  "generated": "2026-11-14",
+  "generated": "2026-11-15",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
       "topic": "Deep persona",
       "query": "Deep persona",
       "papers": [
-        {
-          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
-          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
-          "year": 2025,
-          "venue": "Computer Networks",
-          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 2,
-          "fwci": 0.6,
-          "nr": "na"
-        },
         {
           "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
           "authors": "Lee, H., Kim, Y., & Kim, S.",
@@ -25,6 +15,16 @@
           "cites": 11,
           "fwci": 2.82,
           "pct": 10,
+          "nr": "na"
+        },
+        {
+          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
+          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
+          "year": 2025,
+          "venue": "Computer Networks",
+          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
+          "cites": 2,
+          "fwci": 0.6,
           "nr": "na"
         },
         {
@@ -48,7 +48,7 @@
           "nr": "na"
         }
       ],
-      "count": 11785
+      "count": 11807
     },
     {
       "topic": "gABM",
@@ -98,7 +98,7 @@
           "nr": "na"
         }
       ],
-      "count": 63501
+      "count": 63675
     },
     {
       "topic": "Graph database",
@@ -145,7 +145,7 @@
           "nr": "na"
         }
       ],
-      "count": 134511
+      "count": 134613
     },
     {
       "topic": "Memory in Agentic AI",
@@ -183,7 +183,7 @@
           "nr": "na"
         }
       ],
-      "count": 79548
+      "count": 79698
     },
     {
       "topic": "LLM inference serving",
@@ -206,8 +206,8 @@
           "year": 2025,
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
-          "cites": 17,
-          "fwci": 7.0,
+          "cites": 18,
+          "fwci": 7.46,
           "pct": 10,
           "nr": "na"
         },
@@ -232,7 +232,7 @@
           "nr": "na"
         }
       ],
-      "count": 8701
+      "count": 8728
     },
     {
       "topic": "Ethereum Layer-2",
@@ -314,7 +314,7 @@
           "venue": "IEEE Transactions on Information Forensics and Security",
           "url": "https://doi.org/10.1109/tifs.2024.3520863",
           "cites": 49,
-          "fwci": 6.12,
+          "fwci": 6.13,
           "pct": 10,
           "nr": "na"
         },
@@ -330,7 +330,7 @@
           "nr": "na"
         }
       ],
-      "count": 55733
+      "count": 55811
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -343,7 +343,7 @@
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2026.3680353",
           "cites": 344,
-          "fwci": 117.34,
+          "fwci": 117.12,
           "pct": 1,
           "crank": "A"
         },
@@ -375,13 +375,13 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 198,
-          "fwci": 20.58,
+          "cites": 199,
+          "fwci": 20.7,
           "pct": 1,
           "nr": "na"
         }
       ],
-      "count": 232374
+      "count": 232588
     },
     {
       "topic": "Ontology",
@@ -428,7 +428,7 @@
           "nr": "na"
         }
       ],
-      "count": 28139
+      "count": 28194
     },
     {
       "topic": "AI governance",
@@ -473,13 +473,13 @@
           "year": 2024,
           "venue": "Future Internet",
           "url": "https://doi.org/10.3390/fi16100354",
-          "cites": 176,
-          "fwci": 69.26,
+          "cites": 177,
+          "fwci": 69.75,
           "pct": 1,
           "nr": "na"
         }
       ],
-      "count": 120499
+      "count": 120745
     },
     {
       "topic": "NeurIPS",
