@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14",
+  "generated": "2026-11-15",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -1515,7 +1515,7 @@
           "nr": "na"
         }
       ],
-      "n_citing": 527,
+      "n_citing": 529,
       "query": "agent-based modeling"
     }
   }
