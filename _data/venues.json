@@ -1,14 +1,14 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-16",
   "venues": {
     "NeurIPS": {
       "name": "neural information processing systems",
       "type": "conference",
       "link": "https://neurips.cc/",
-      "h": 257,
-      "i10": 7321,
-      "if2": 17.4,
-      "works": 19262,
+      "h": 333,
+      "i10": 9073,
+      "if2": 8.4,
+      "works": 21600,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
@@ -25,10 +25,10 @@
       "name": "International Conference on Machine Learning",
       "type": "conference",
       "link": "https://icml.cc/",
-      "h": 220,
-      "i10": 1393,
+      "h": 271,
+      "i10": 2053,
       "if2": 0,
-      "works": 2040,
+      "works": 2827,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
@@ -49,9 +49,9 @@
       "type": "conference",
       "link": "https://iclr.cc/",
       "h": 86,
-      "i10": 330,
+      "i10": 335,
       "if2": 0,
-      "works": 602,
+      "works": 609,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
@@ -72,9 +72,9 @@
       "type": "conference",
       "link": "https://cvpr.thecvf.com/",
       "h": 798,
-      "i10": 20911,
-      "if2": 37.5,
-      "works": 25295,
+      "i10": 20922,
+      "if2": 27.6,
+      "works": 25322,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Computer Vision and Pattern Recognition",
@@ -92,8 +92,8 @@
       "type": "conference",
       "link": "https://aaai.org/conference/aaai/",
       "h": 318,
-      "i10": 11298,
-      "if2": 9.6,
+      "i10": 11300,
+      "if2": 8.8,
       "works": 25109,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -111,10 +111,10 @@
       "name": "International Joint Conference on Artificial Intelligence",
       "type": "conference",
       "link": "https://www.ijcai.org/",
-      "h": 213,
-      "i10": 5149,
-      "if2": 5.0,
-      "works": 12021,
+      "h": 237,
+      "i10": 6404,
+      "if2": 4.8,
+      "works": 13797,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
@@ -134,8 +134,8 @@
       "type": "conference",
       "link": "https://www.aclweb.org/",
       "h": 341,
-      "i10": 6650,
-      "if2": 16.6,
+      "i10": 6652,
+      "if2": 15.5,
       "works": 12136,
       "domain": "Physical Sciences",
       "field": "Computer Science",
@@ -153,10 +153,10 @@
       "name": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
       "type": "conference",
       "link": "https://aclanthology.org/venues/emnlp/",
-      "h": 310,
-      "i10": 6325,
-      "if2": 9.4,
-      "works": 13122,
+      "h": 326,
+      "i10": 6663,
+      "if2": 12.7,
+      "works": 13542,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
@@ -174,9 +174,9 @@
       "type": "conference",
       "link": "https://iccv.thecvf.com/",
       "h": 500,
-      "i10": 8697,
-      "if2": 11.4,
-      "works": 11849,
+      "i10": 8717,
+      "if2": 25.7,
+      "works": 11872,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Computer Vision and Pattern Recognition",
@@ -193,10 +193,10 @@
       "name": "European Conference on Computer Vision",
       "type": "conference",
       "link": "https://eccv.ecva.net/",
-      "h": 3,
-      "i10": 3,
+      "h": 4,
+      "i10": 4,
       "if2": 0,
-      "works": 15,
+      "works": 18,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Computer Vision and Pattern Recognition",
@@ -208,10 +208,10 @@
       "name": "Knowledge Discovery and Data Mining",
       "type": "conference",
       "link": "https://www.kdd.org/",
-      "h": 31,
-      "i10": 76,
+      "h": 83,
+      "i10": 250,
       "if2": 0,
-      "works": 295,
+      "works": 525,
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Information Systems",
@@ -222,22 +222,13 @@
       "name": "Journal of Machine Learning Research",
       "type": "journal",
       "link": "https://www.jmlr.org/",
-      "h": 120,
+      "h": 193,
       "if2": 0,
-      "works": 806,
+      "works": 1256,
       "issn": "1532-4435",
       "domain": "Physical Sciences",
-      "field": "Mathematics",
-      "sub": "Statistics and Probability",
-      "topics3y": [
-        "Auction Theory and Applications",
-        "Text and Document Classification Technologies",
-        "Machine Learning and Algorithms",
-        "Advanced Bandit Algorithms Research"
-      ],
-      "founded": 2000,
-      "about": "The Journal of Machine Learning Research is a peer-reviewed open access scientific journal covering machine learning. It was established in 2000 and the first editor-in-chief was Leslie Kaelbling. The current editors-in-",
-      "group": "AI",
+      "field": "Computer Science",
+      "sub": "Artificial Intelligence",
       "sjr": 2.0,
       "q": "Q1",
       "cats": [
@@ -257,28 +248,28 @@
           "Statistics and Probability",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auction Theory and Applications",
+        "Text and Document Classification Technologies",
+        "Machine Learning and Algorithms",
+        "Advanced Bandit Algorithms Research"
+      ],
+      "founded": 2000,
+      "about": "The Journal of Machine Learning Research is a peer-reviewed open access scientific journal covering machine learning. It was established in 2000 and the first editor-in-chief was Leslie Kaelbling. The current editors-in-",
+      "group": "AI"
     },
     "TPAMI": {
       "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
       "type": "journal",
       "link": "https://www.computer.org/csdl/journal/tp",
       "h": 575,
-      "if2": 25.7,
-      "works": 12667,
+      "if2": 22.3,
+      "works": 12668,
       "issn": "0162-8828",
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Computer Vision and Pattern Recognition",
-      "topics3y": [
-        "Advanced Neural Network Applications",
-        "Domain Adaptation and Few-Shot Learning",
-        "Multimodal Machine Learning Applications",
-        "3D Shape Modeling and Analysis"
-      ],
-      "founded": 1979,
-      "about": "IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society.",
-      "group": "AI",
       "sjr": 4.83,
       "q": "Q1",
       "cats": [
@@ -302,29 +293,28 @@
           "Software",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Advanced Neural Network Applications",
+        "Domain Adaptation and Few-Shot Learning",
+        "Multimodal Machine Learning Applications",
+        "3D Shape Modeling and Analysis"
+      ],
+      "founded": 1979,
+      "about": "IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society.",
+      "group": "AI"
     },
     "AIJ": {
       "name": "Artificial Intelligence",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/artificial-intelligence",
       "h": 310,
-      "if2": 6.5,
-      "works": 4855,
+      "if2": 4.8,
+      "works": 4857,
       "issn": "0004-3702",
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
-      "topics3y": [
-        "Logic, Reasoning, and Knowledge",
-        "AI-based Problem Solving and Planning",
-        "Multi-Agent Systems and Negotiation",
-        "Reinforcement Learning in Robotics"
-      ],
-      "founded": 1970,
-      "about": "Artificial Intelligence is a scientific journal covering research in artificial intelligence. It was established in 1970 and is published by Elsevier. The journal is abstracted and indexed in Scopus and the Science Citat",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/c/cb/Artificial_Intelligence_%28journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "AI",
       "sjr": 1.29,
       "q": "Q1",
       "cats": [
@@ -336,19 +326,37 @@
           "Linguistics and Language",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Logic, Reasoning, and Knowledge",
+        "AI-based Problem Solving and Planning",
+        "Multi-Agent Systems and Negotiation",
+        "Reinforcement Learning in Robotics"
+      ],
+      "founded": 1970,
+      "about": "Artificial Intelligence is a scientific journal covering research in artificial intelligence. It was established in 1970 and is published by Elsevier. The journal is abstracted and indexed in Scopus and the Science Citat",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/c/cb/Artificial_Intelligence_%28journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "AI"
     },
     "JAIR": {
       "name": "Journal of Artificial Intelligence Research",
       "type": "journal",
       "link": "https://www.jair.org/",
       "h": 176,
-      "if2": 11.0,
+      "if2": 5.6,
       "works": 1896,
       "issn": "1076-9757",
       "domain": "Physical Sciences",
       "field": "Computer Science",
       "sub": "Artificial Intelligence",
+      "sjr": 1.11,
+      "q": "Q1",
+      "cats": [
+        [
+          "Artificial Intelligence",
+          "Q1"
+        ]
+      ],
       "topics3y": [
         "Logic, Reasoning, and Knowledge",
         "Constraint Satisfaction and Optimization",
@@ -358,35 +366,19 @@
       "founded": 1993,
       "about": "The Journal of Artificial Intelligence Research (JAIR) is an open access peer-reviewed scientific journal covering research in all areas of artificial intelligence.",
       "wimg": "https://upload.wikimedia.org/wikipedia/en/6/64/JAIRcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "AI",
-      "sjr": 1.11,
-      "q": "Q1",
-      "cats": [
-        [
-          "Artificial Intelligence",
-          "Q1"
-        ]
-      ]
+      "group": "AI"
     },
     "Futures": {
       "name": "Futures",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/futures",
       "h": 180,
-      "if2": 6.5,
+      "if2": 5.7,
       "works": 6712,
       "issn": "0016-3287",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Management of Technology and Innovation",
-      "topics3y": [
-        "Sustainability and Climate Change Governance",
-        "Scientific Research and Philosophical Inquiry",
-        "Ethics and Social Impacts of AI",
-        "Utopian, Dystopian, and Speculative Fiction"
-      ],
-      "about": "Futures is a peer-reviewed academic journal covering futures studies. It is published by Elsevier. The editors-in-chief are Patrick van der Duin and Chris Groves.",
-      "group": "Futures Studies",
       "sjr": 1.43,
       "q": "Q1",
       "cats": [
@@ -402,28 +394,27 @@
           "Sociology and Political Science",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Sustainability and Climate Change Governance",
+        "Scientific Research and Philosophical Inquiry",
+        "Ethics and Social Impacts of AI",
+        "Utopian, Dystopian, and Speculative Fiction"
+      ],
+      "about": "Futures is a peer-reviewed academic journal covering futures studies. It is published by Elsevier. The editors-in-chief are Patrick van der Duin and Chris Groves.",
+      "group": "Futures Studies"
     },
     "TFSC": {
       "name": "Technological Forecasting and Social Change",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/technological-forecasting-and-social-change",
-      "h": 311,
-      "if2": 22.1,
-      "works": 10282,
+      "h": 312,
+      "if2": 19.2,
+      "works": 10283,
       "issn": "0040-1625",
       "domain": "Social Sciences",
       "field": "Decision Sciences",
       "sub": "Management Science and Operations Research",
-      "topics3y": [
-        "Innovation and Knowledge Management",
-        "Environmental Sustainability in Business",
-        "Technology Adoption and User Behaviour",
-        "Digital Economy and Transformation"
-      ],
-      "founded": 1969,
-      "about": "Technological Forecasting and Social Change is a peer-reviewed academic journal published by Elsevier covering futures studies, technology assessment, and technology forecasting. Articles focus on methodology and actual ",
-      "group": "Futures Studies",
       "sjr": 3.48,
       "q": "Q1",
       "cats": [
@@ -439,29 +430,28 @@
           "Management of Technology and Innovation",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management",
+        "Environmental Sustainability in Business",
+        "Technology Adoption and User Behaviour",
+        "Digital Economy and Transformation"
+      ],
+      "founded": 1969,
+      "about": "Technological Forecasting and Social Change is a peer-reviewed academic journal published by Elsevier covering futures studies, technology assessment, and technology forecasting. Articles focus on methodology and actual ",
+      "group": "Futures Studies"
     },
     "TAR": {
       "name": "The Accounting Review",
       "type": "journal",
       "link": "https://publications.aaahq.org/accounting-review",
       "h": 299,
-      "if2": 7.6,
+      "if2": 4.6,
       "works": 11777,
       "issn": "0001-4826",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "topics3y": [
-        "Auditing, Earnings Management, Governance",
-        "Corporate Finance and Governance",
-        "Accounting and Organizational Management",
-        "Financial Markets and Investment Strategies"
-      ],
-      "founded": 1926,
-      "about": "The Accounting Review is a bimonthly peer-reviewed academic journal published by the American Accounting Association (AAA) that covers accounting with a scope encompassing any accounting-related subject and any research ",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/10/The_Accounting_Review_%28academic_journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Accounting",
       "sjr": 4.4,
       "q": "Q1",
       "cats": [
@@ -477,29 +467,29 @@
           "Finance",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Accounting and Organizational Management",
+        "Financial Markets and Investment Strategies"
+      ],
+      "founded": 1926,
+      "about": "The Accounting Review is a bimonthly peer-reviewed academic journal published by the American Accounting Association (AAA) that covers accounting with a scope encompassing any accounting-related subject and any research ",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/10/The_Accounting_Review_%28academic_journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Accounting"
     },
     "JAE": {
       "name": "Journal of Accounting and Economics",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/journal-of-accounting-and-economics",
       "h": 311,
-      "if2": 11.1,
+      "if2": 9.6,
       "works": 1876,
       "issn": "0165-4101",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "topics3y": [
-        "Auditing, Earnings Management, Governance",
-        "Corporate Finance and Governance",
-        "Financial Markets and Investment Strategies",
-        "Accounting Theory and Financial Reporting"
-      ],
-      "founded": 1979,
-      "about": "The Journal of Accounting and Economics is a peer-reviewed academic journal focusing on the fields of accounting and economics. The editors-in-chief are J. Core, E. deHaan, and W. R. Guay.",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f3/Journal_of_Accounting_and_Economics_%28cover%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Accounting",
       "sjr": 8.75,
       "q": "Q1",
       "cats": [
@@ -515,28 +505,29 @@
           "Finance",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Accounting Theory and Financial Reporting"
+      ],
+      "founded": 1979,
+      "about": "The Journal of Accounting and Economics is a peer-reviewed academic journal focusing on the fields of accounting and economics. The editors-in-chief are J. Core, E. deHaan, and W. R. Guay.",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f3/Journal_of_Accounting_and_Economics_%28cover%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Accounting"
     },
     "JAR": {
       "name": "Journal of Accounting Research",
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/1475679x",
       "h": 308,
-      "if2": 11.2,
+      "if2": 11.5,
       "works": 2814,
       "issn": "0021-8456",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "topics3y": [
-        "Auditing, Earnings Management, Governance",
-        "Corporate Finance and Governance",
-        "Financial Markets and Investment Strategies",
-        "Corporate Social Responsibility Reporting"
-      ],
-      "founded": 1963,
-      "about": "The Journal of Accounting Research (JAR) is a leading peer-reviewed academic journal associated with the University of Chicago. It was established in 1963 and is published by Wiley-Blackwell on behalf of the Chookaszian ",
-      "group": "Accounting",
       "sjr": 9.77,
       "q": "Q1",
       "cats": [
@@ -552,28 +543,28 @@
           "Finance",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Corporate Social Responsibility Reporting"
+      ],
+      "founded": 1963,
+      "about": "The Journal of Accounting Research (JAR) is a leading peer-reviewed academic journal associated with the University of Chicago. It was established in 1963 and is published by Wiley-Blackwell on behalf of the Chookaszian ",
+      "group": "Accounting"
     },
     "CAR": {
       "name": "Contemporary Accounting Research",
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/19113846",
       "h": 199,
-      "if2": 6.2,
+      "if2": 5.5,
       "works": 2429,
       "issn": "0823-9150",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "topics3y": [
-        "Auditing, Earnings Management, Governance",
-        "Corporate Finance and Governance",
-        "Accounting and Organizational Management",
-        "Corporate Governance and Financial Management"
-      ],
-      "founded": 1984,
-      "about": "Contemporary Accounting Research is a peer-reviewed academic journal covering research on all aspects of accounting's role within organizations, markets, or society. The journal publishes articles in all areas of account",
-      "group": "Accounting",
       "sjr": 3.69,
       "q": "Q1",
       "cats": [
@@ -589,30 +580,28 @@
           "Finance",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Accounting and Organizational Management",
+        "Corporate Governance and Financial Management"
+      ],
+      "founded": 1984,
+      "about": "Contemporary Accounting Research is a peer-reviewed academic journal covering research on all aspects of accounting's role within organizations, markets, or society. The journal publishes articles in all areas of account",
+      "group": "Accounting"
     },
     "RAST": {
       "name": "Review of Accounting Studies",
       "type": "journal",
       "link": "https://link.springer.com/journal/11142",
       "h": 162,
-      "if2": 12.6,
-      "works": 1197,
+      "if2": 10.9,
+      "works": 1198,
       "issn": "1380-6653",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "topics3y": [
-        "Auditing, Earnings Management, Governance",
-        "Corporate Finance and Governance",
-        "Financial Markets and Investment Strategies",
-        "Corporate Governance and Financial Management"
-      ],
-      "ogimg": "https://media.springernature.com/w92/springer-static/cover/journal/11142.jpg",
-      "founded": 1996,
-      "about": "The Review of Accounting Studies (RAST) is a quarterly peer-reviewed academic journal covering topics in the field of accounting that includes theoretical, empirical, and experimental research. RAST prioritizes processin",
-      "wimg": "https://upload.wikimedia.org/wikipedia/commons/e/e0/RASTJournalCover.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Accounting",
       "sjr": 5.56,
       "q": "Q1",
       "cats": [
@@ -624,27 +613,30 @@
           "Business, Management and Accounting (miscellaneous)",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Financial Markets and Investment Strategies",
+        "Corporate Governance and Financial Management"
+      ],
+      "ogimg": "https://media.springernature.com/w92/springer-static/cover/journal/11142.jpg",
+      "founded": 1996,
+      "about": "The Review of Accounting Studies (RAST) is a quarterly peer-reviewed academic journal covering topics in the field of accounting that includes theoretical, empirical, and experimental research. RAST prioritizes processin",
+      "wimg": "https://upload.wikimedia.org/wikipedia/commons/e/e0/RASTJournalCover.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Accounting"
     },
     "FFS": {
       "name": "Futures & Foresight Science",
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/25735152",
       "h": 25,
-      "if2": 1.9,
+      "if2": 2.8,
       "works": 291,
       "issn": "2573-5152",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Management of Technology and Innovation",
-      "topics3y": [
-        "Scientific Research and Philosophical Inquiry",
-        "Competitive and Knowledge Intelligence",
-        "Sustainability and Climate Change Governance",
-        "Forecasting Techniques and Applications"
-      ],
-      "about": "Futures & Foresight Science is a quarterly peer-reviewed academic journal published by Wiley. It covers research on advancing methods that aid anticipating the future. The journal was established in 2019 by founding edit",
-      "group": "Futures Studies",
       "sjr": 0.74,
       "q": "Q1",
       "cats": [
@@ -660,26 +652,27 @@
           "Strategy and Management",
           "Q2"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Scientific Research and Philosophical Inquiry",
+        "Competitive and Knowledge Intelligence",
+        "Sustainability and Climate Change Governance",
+        "Forecasting Techniques and Applications"
+      ],
+      "about": "Futures & Foresight Science is a quarterly peer-reviewed academic journal published by Wiley. It covers research on advancing methods that aid anticipating the future. The journal was established in 2019 by founding edit",
+      "group": "Futures Studies"
     },
     "JFS": {
       "name": "Journal of futures studies",
       "type": "journal",
       "link": "https://jfsdigital.org/",
-      "h": 16,
-      "if2": 8.2,
-      "works": 150,
+      "h": 26,
+      "if2": 0.1,
+      "works": 306,
       "issn": "1027-6084",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Management of Technology and Innovation",
-      "topics3y": [
-        "Scientific Research and Philosophical Inquiry",
-        "Innovation and Knowledge Management",
-        "Entrepreneurship Studies and Influences",
-        "Virtual Reality Applications and Impacts"
-      ],
-      "group": "Futures Studies",
       "sjr": 0.38,
       "q": "Q1",
       "cats": [
@@ -695,26 +688,26 @@
           "Development",
           "Q2"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Scientific Research and Philosophical Inquiry",
+        "Innovation and Knowledge Management",
+        "Entrepreneurship Studies and Influences",
+        "Virtual Reality Applications and Impacts"
+      ],
+      "group": "Futures Studies"
     },
     "TASM": {
       "name": "Technology Analysis and Strategic Management",
       "type": "journal",
       "link": "https://www.tandfonline.com/journals/ctas20",
-      "h": 123,
-      "if2": 3.4,
-      "works": 3084,
+      "h": 124,
+      "if2": 3.6,
+      "works": 3085,
       "issn": "0953-7325",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "topics3y": [
-        "Innovation and Knowledge Management",
-        "Digital Economy and Transformation",
-        "Firm Innovation and Growth",
-        "Environmental Sustainability in Business"
-      ],
-      "group": "Futures Studies",
       "sjr": 0.82,
       "q": "Q2",
       "cats": [
@@ -726,21 +719,26 @@
           "Strategy and Management",
           "Q2"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management",
+        "Digital Economy and Transformation",
+        "Firm Innovation and Growth",
+        "Environmental Sustainability in Business"
+      ],
+      "group": "Futures Studies"
     },
     "SMJ": {
       "name": "Strategic Management Journal",
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/10970266",
       "h": 526,
-      "if2": 11.2,
-      "works": 4368,
+      "if2": 8.7,
+      "works": 4369,
       "issn": "0143-2095",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "about": "The Strategic Management Society (SMS) is a professional organization for the advancement of strategic management. The society consists of more than 3,000 members representing various backgrounds and perspectives from mo",
-      "group": "Strategy",
       "sjr": 10.15,
       "q": "Q1",
       "cats": [
@@ -752,20 +750,27 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "Entrepreneurship Studies and Influences",
+        "Management and Organizational Studies"
+      ],
+      "about": "The Strategic Management Society (SMS) is a professional organization for the advancement of strategic management. The society consists of more than 3,000 members representing various backgrounds and perspectives from mo",
+      "group": "Strategy"
     },
     "LRP": {
       "name": "Long Range Planning",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/long-range-planning",
       "h": 282,
-      "if2": 8.3,
+      "if2": 7.7,
       "works": 7646,
       "issn": "0024-6301",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "group": "Strategy",
       "sjr": 2.81,
       "q": "Q1",
       "cats": [
@@ -781,24 +786,26 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management",
+        "International Business and FDI",
+        "Corporate Finance and Governance",
+        "Digital Platforms and Economics"
+      ],
+      "group": "Strategy"
     },
     "AMJ": {
       "name": "Academy of Management Journal",
       "type": "journal",
       "link": "https://aom.org/research/journals/journal",
       "h": 579,
-      "if2": 8.4,
+      "if2": 14.4,
       "works": 4568,
       "issn": "0001-4273",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "ogimg": "https://www.aom.org/wp-content/uploads/2025/09/amj_featured_image.png",
-      "founded": 1958,
-      "about": "The Academy of Management Journal is a bimonthly peer-reviewed academic journal covering all aspects of management. It is published by the Academy of Management and was established in 1958 as the Journal of the Academy o",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/9/98/Logo_Academy_of_Management_Journal.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Strategy",
       "sjr": 10.78,
       "q": "Q1",
       "cats": [
@@ -818,23 +825,30 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Job Satisfaction and Organizational Behavior",
+        "Innovation and Knowledge Management",
+        "Entrepreneurship Studies and Influences"
+      ],
+      "ogimg": "https://www.aom.org/wp-content/uploads/2025/09/amj_featured_image.png",
+      "founded": 1958,
+      "about": "The Academy of Management Journal is a bimonthly peer-reviewed academic journal covering all aspects of management. It is published by the Academy of Management and was established in 1958 as the Journal of the Academy o",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/9/98/Logo_Academy_of_Management_Journal.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Strategy"
     },
     "SO": {
       "name": "Strategic Organization",
       "type": "journal",
       "link": "https://journals.sagepub.com/home/soq",
       "h": 106,
-      "if2": 6.0,
+      "if2": 4.1,
       "works": 688,
       "issn": "1476-1270",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "founded": 2003,
-      "about": "Strategic Organization is a quarterly peer-reviewed academic journal that covers the fields of strategic management and organization studies. Its editors-in-chief are Oliver Alexy, Hans Berends,, Charlotte Cloutier, Davi",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f6/Strategic_Organization.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Strategy",
       "sjr": 4.36,
       "q": "Q1",
       "cats": [
@@ -854,23 +868,29 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "Management Theory and Practice"
+      ],
+      "founded": 2003,
+      "about": "Strategic Organization is a quarterly peer-reviewed academic journal that covers the fields of strategic management and organization studies. Its editors-in-chief are Oliver Alexy, Hans Berends,, Charlotte Cloutier, Davi",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f6/Strategic_Organization.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Strategy"
     },
     "HumRel": {
       "name": "Human Relations",
       "type": "journal",
       "link": "https://journals.sagepub.com/home/hum",
       "h": 267,
-      "if2": 5.5,
+      "if2": 6.3,
       "works": 4958,
       "issn": "0018-7267",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "founded": 1947,
-      "about": "Human Relations is a monthly peer-reviewed academic journal covering research on social relationships in work-related settings. The journal is published by SAGE Publications on behalf of the Tavistock Institute of Human ",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/12/Human_Relations_front_cover_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Strategy",
       "sjr": 4.14,
       "q": "Q1",
       "cats": [
@@ -890,22 +910,29 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Job Satisfaction and Organizational Behavior",
+        "Employment, Labor, and Gender Studies",
+        "Work-Family Balance Challenges"
+      ],
+      "founded": 1947,
+      "about": "Human Relations is a monthly peer-reviewed academic journal covering research on social relationships in work-related settings. The journal is published by SAGE Publications on behalf of the Tavistock Institute of Human ",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/12/Human_Relations_front_cover_image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Strategy"
     },
     "AMR": {
       "name": "Academy of Management Review",
       "type": "journal",
       "link": "https://aom.org/research/journals/academy-of-management-review",
       "h": 566,
-      "if2": 10.7,
-      "works": 3664,
+      "if2": 9.9,
+      "works": 3665,
       "issn": "0363-7425",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "founded": 1976,
-      "about": "The Academy of Management Review (AMR) is a peer-reviewed academic journal on management. According to the Journal Citation Reports, the journal's 2022 impact factor is 16.400, ranking it 3rd out of 227 journals in the c",
-      "group": "Strategy",
       "sjr": 10.0,
       "q": "Q1",
       "cats": [
@@ -921,22 +948,28 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Job Satisfaction and Organizational Behavior",
+        "Innovation and Knowledge Management",
+        "Entrepreneurship Studies and Influences"
+      ],
+      "founded": 1976,
+      "about": "The Academy of Management Review (AMR) is a peer-reviewed academic journal on management. According to the Journal Citation Reports, the journal's 2022 impact factor is 16.400, ranking it 3rd out of 227 journals in the c",
+      "group": "Strategy"
     },
     "JoM": {
       "name": "Journal of Management",
       "type": "journal",
       "link": "https://journals.sagepub.com/home/jom",
       "h": 417,
-      "if2": 14.6,
+      "if2": 11.1,
       "works": 3010,
       "issn": "0149-2063",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "founded": 1975,
-      "about": "The Journal of Management is a peer-reviewed academic journal published by SAGE Publications for the Southern Management Association and covering research on all aspects of management as well as the related field of indu",
-      "group": "Strategy",
       "sjr": 8.25,
       "q": "Q1",
       "cats": [
@@ -948,22 +981,28 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Job Satisfaction and Organizational Behavior",
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance"
+      ],
+      "founded": 1975,
+      "about": "The Journal of Management is a peer-reviewed academic journal published by SAGE Publications for the Southern Management Association and covering research on all aspects of management as well as the related field of indu",
+      "group": "Strategy"
     },
     "OrgSci": {
       "name": "Organization Science",
       "type": "journal",
       "link": "https://pubsonline.informs.org/journal/orsc",
       "h": 407,
-      "if2": 14.9,
+      "if2": 7.8,
       "works": 2760,
       "issn": "1047-7039",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "founded": 1990,
-      "about": "Organization Science is a bimonthly peer-reviewed academic journal published by the Institute for Operations Research and the Management Sciences. It covers research on the dynamics of organizations. In 2012, it was one ",
-      "group": "Strategy",
       "sjr": 7.93,
       "q": "Q1",
       "cats": [
@@ -979,23 +1018,28 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Job Satisfaction and Organizational Behavior",
+        "Entrepreneurship Studies and Influences"
+      ],
+      "founded": 1990,
+      "about": "Organization Science is a bimonthly peer-reviewed academic journal published by the Institute for Operations Research and the Management Sciences. It covers research on the dynamics of organizations. In 2012, it was one ",
+      "group": "Strategy"
     },
     "MgmtSci": {
       "name": "Management Science",
       "type": "journal",
       "link": "http://pubsonline.informs.org/journal/mnsc",
       "h": 494,
-      "if2": 10.9,
-      "works": 13463,
+      "if2": 7.8,
+      "works": 13464,
       "issn": "0025-1909",
       "domain": "Social Sciences",
       "field": "Decision Sciences",
       "sub": "Management Science and Operations Research",
-      "founded": 1954,
-      "about": "Management Science is a peer-reviewed academic journal that covers research on all aspects of management related to strategy, entrepreneurship, innovation, information technology, and organizations as well as all functio",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/4/4a/Management_Sciense_May_2011_cover.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Strategy",
       "sjr": 6.43,
       "q": "Q1",
       "cats": [
@@ -1007,23 +1051,29 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Financial Markets and Investment Strategies",
+        "Supply Chain and Inventory Management",
+        "Decision-Making and Behavioral Economics",
+        "Consumer Market Behavior and Pricing"
+      ],
+      "founded": 1954,
+      "about": "Management Science is a peer-reviewed academic journal that covers research on all aspects of management related to strategy, entrepreneurship, innovation, information technology, and organizations as well as all functio",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/4/4a/Management_Sciense_May_2011_cover.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Strategy"
     },
     "JMS": {
       "name": "Journal of Management Studies",
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/14676486",
       "h": 326,
-      "if2": 9.1,
+      "if2": 8.4,
       "works": 3790,
       "issn": "0022-2380",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "founded": 1963,
-      "about": "The Journal of Management Studies is a peer-reviewed academic journal that was established in 1963 and is published by Wiley-Blackwell on behalf of the Society for the Advancement of Management Studies. The journal publi",
-      "wimg": "https://upload.wikimedia.org/wikipedia/commons/4/47/JMS_Full_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Strategy",
       "sjr": 5.18,
       "q": "Q1",
       "cats": [
@@ -1039,23 +1089,29 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Innovation and Knowledge Management",
+        "Corporate Finance and Governance",
+        "Job Satisfaction and Organizational Behavior"
+      ],
+      "founded": 1963,
+      "about": "The Journal of Management Studies is a peer-reviewed academic journal that was established in 1963 and is published by Wiley-Blackwell on behalf of the Society for the Advancement of Management Studies. The journal publi",
+      "wimg": "https://upload.wikimedia.org/wikipedia/commons/4/47/JMS_Full_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Strategy"
     },
     "OrgStud": {
       "name": "Organization Studies",
       "type": "journal",
       "link": "https://journals.sagepub.com/home/oss",
       "h": 268,
-      "if2": 5.5,
+      "if2": 5.6,
       "works": 4287,
       "issn": "0170-8406",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "founded": 1980,
-      "about": "Organization Studies is a monthly peer-reviewed academic journal that covers the field of organization studies. The journal's editors-in-chief are Renate Meyer and Paolo Quattrone. It was established in 1980 and is publi",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f8/Organization_Studies.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Strategy",
       "sjr": 4.36,
       "q": "Q1",
       "cats": [
@@ -1071,21 +1127,29 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Management and Organizational Studies",
+        "Management Theory and Practice",
+        "Information Systems Theories and Implementation",
+        "Posthumanist Ethics and Activism"
+      ],
+      "founded": 1980,
+      "about": "Organization Studies is a monthly peer-reviewed academic journal that covers the field of organization studies. The journal's editors-in-chief are Renate Meyer and Paolo Quattrone. It was established in 1980 and is publi",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/f/f8/Organization_Studies.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Strategy"
     },
     "HRM": {
       "name": "Human Resource Management",
       "type": "journal",
       "link": "https://onlinelibrary.wiley.com/journal/1099050X",
       "h": 184,
-      "if2": 12.6,
-      "works": 3277,
+      "if2": 10.2,
+      "works": 3278,
       "issn": "0090-4848",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Organizational Behavior and Human Resource Management",
-      "about": "Human resource management (HRM) is the strategic and coherent approach to the effective and efficient management of people in a company or organization. Human resource management is primarily concerned with the managemen",
-      "group": "Strategy",
       "sjr": 4.6,
       "q": "Q1",
       "cats": [
@@ -1105,22 +1169,27 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Job Satisfaction and Organizational Behavior",
+        "Human Resource and Talent Management",
+        "Employee Performance and Management",
+        "AI and HR Technologies"
+      ],
+      "about": "Human resource management (HRM) is the strategic and coherent approach to the effective and efficient management of people in a company or organization. Human resource management is primarily concerned with the managemen",
+      "group": "Strategy"
     },
     "ResPol": {
       "name": "Research Policy",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/research-policy",
       "h": 421,
-      "if2": 11.2,
-      "works": 5306,
+      "if2": 11.7,
+      "works": 5307,
       "issn": "0048-7333",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "about": "Research Policy is a monthly peer-reviewed academic journal published by Elsevier on behalf of the Science Policy Research Unit at the University of Sussex. It was established by British economist Christopher Freeman in ",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/a/a4/Research_Policy_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Strategy",
       "sjr": 4.47,
       "q": "Q1",
       "cats": [
@@ -1140,24 +1209,28 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Innovation and Knowledge Management",
+        "Firm Innovation and Growth",
+        "scientometrics and bibliometrics research",
+        "Intellectual Property and Patents"
+      ],
+      "about": "Research Policy is a monthly peer-reviewed academic journal published by Elsevier on behalf of the Science Policy Research Unit at the University of Sussex. It was established by British economist Christopher Freeman in ",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/a/a4/Research_Policy_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Strategy"
     },
     "JIBS": {
       "name": "Journal of International Business Studies",
       "type": "journal",
       "link": "https://link.springer.com/journal/41267",
       "h": 353,
-      "if2": 11.1,
+      "if2": 10.5,
       "works": 3341,
       "issn": "0047-2506",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "ogimg": "https://media.springernature.com/w92/springer-static/cover/journal/41267.jpg",
-      "founded": 1970,
-      "about": "The Journal of International Business Studies is a double blind peer-reviewed academic journal published by Palgrave Macmillan on behalf of the Academy of International Business covering research on international busines",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/1e/Jibs.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Strategy",
       "sjr": 4.45,
       "q": "Q1",
       "cats": [
@@ -1181,20 +1254,30 @@
           "Strategy and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "International Business and FDI",
+        "Innovation and Knowledge Management",
+        "International Student and Expatriate Challenges",
+        "Corporate Finance and Governance"
+      ],
+      "ogimg": "https://media.springernature.com/w92/springer-static/cover/journal/41267.jpg",
+      "founded": 1970,
+      "about": "The Journal of International Business Studies is a double blind peer-reviewed academic journal published by Palgrave Macmillan on behalf of the Academy of International Business covering research on international busines",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/1e/Jibs.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Strategy"
     },
     "AOS": {
       "name": "Accounting Organizations and Society",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/accounting-organizations-and-society",
       "h": 264,
-      "if2": 9.9,
+      "if2": 5.6,
       "works": 2228,
       "issn": "0361-3682",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "group": "Accounting",
       "sjr": 3.1,
       "q": "Q1",
       "cats": [
@@ -1218,20 +1301,26 @@
           "Sociology and Political Science",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Accounting and Organizational Management",
+        "Auditing, Earnings Management, Governance",
+        "Accounting Theory and Financial Reporting",
+        "Corporate Social Responsibility Reporting"
+      ],
+      "group": "Accounting"
     },
     "AJPT": {
       "name": "Auditing A Journal of Practice & Theory",
       "type": "journal",
       "link": "https://publications.aaahq.org/ajpt",
       "h": 144,
-      "if2": 3.5,
+      "if2": 3.4,
       "works": 1510,
       "issn": "0278-0380",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "group": "Accounting",
       "sjr": 2.32,
       "q": "Q1",
       "cats": [
@@ -1247,22 +1336,26 @@
           "Finance",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Governance and Financial Management",
+        "Corporate Finance and Governance",
+        "Accounting and Organizational Management"
+      ],
+      "group": "Accounting"
     },
     "EAR": {
       "name": "European Accounting Review",
       "type": "journal",
       "link": "https://www.tandfonline.com/toc/rear20/current",
       "h": 141,
-      "if2": 5.0,
+      "if2": 3.8,
       "works": 1630,
       "issn": "0963-8180",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "founded": 1992,
-      "about": "The European Accounting Review is the peer-refereed journal of the European Accounting Association, published by Taylor & Francis.",
-      "group": "Accounting",
       "sjr": 2.27,
       "q": "Q1",
       "cats": [
@@ -1306,23 +1399,28 @@
           "History",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Accounting and Organizational Management",
+        "Accounting Theory and Financial Reporting"
+      ],
+      "founded": 1992,
+      "about": "The European Accounting Review is the peer-refereed journal of the European Accounting Association, published by Taylor & Francis.",
+      "group": "Accounting"
     },
     "CPA": {
       "name": "Critical Perspectives on Accounting",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/critical-perspectives-on-accounting",
       "h": 134,
-      "if2": 9.0,
+      "if2": 6.7,
       "works": 2387,
       "issn": "1045-2354",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "founded": 1990,
-      "about": "Critical Perspectives on Accounting is a peer-reviewed academic journal published by Elsevier. The aim of the journal is to study how accounting works within society and to promote forms of accounting that are in the pub",
-      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/15/Cover_of_Critical_Perspectives_on_Accounting_%28academic_journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "group": "Accounting",
       "sjr": 2.1,
       "q": "Q1",
       "cats": [
@@ -1342,20 +1440,29 @@
           "Sociology and Political Science",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Accounting and Organizational Management",
+        "Accounting Theory and Financial Reporting",
+        "Management and Organizational Studies",
+        "Corporate Social Responsibility Reporting"
+      ],
+      "founded": 1990,
+      "about": "Critical Perspectives on Accounting is a peer-reviewed academic journal published by Elsevier. The aim of the journal is to study how accounting works within society and to promote forms of accounting that are in the pub",
+      "wimg": "https://upload.wikimedia.org/wikipedia/en/1/15/Cover_of_Critical_Perspectives_on_Accounting_%28academic_journal%29.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "group": "Accounting"
     },
     "AiE": {
       "name": "Accounting in Europe",
       "type": "journal",
       "link": "https://www.tandfonline.com/toc/raie20/current",
       "h": 63,
-      "if2": 16.0,
+      "if2": 14.7,
       "works": 375,
       "issn": "1744-9480",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "group": "Accounting",
       "sjr": 1.96,
       "q": "Q1",
       "cats": [
@@ -1371,20 +1478,26 @@
           "Finance",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Social Responsibility Reporting",
+        "Accounting Theory and Financial Reporting",
+        "Corporate Governance and Financial Management"
+      ],
+      "group": "Accounting"
     },
     "SAMPJ": {
       "name": "Sustainability Accounting Management and Policy Journal",
       "type": "journal",
       "link": "https://www.emerald.com/insight/publication/issn/2040-8021",
       "h": 89,
-      "if2": 12.1,
-      "works": 710,
+      "if2": 13.6,
+      "works": 711,
       "issn": "2040-8021",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Strategy and Management",
-      "group": "Accounting",
       "sjr": 1.81,
       "q": "Q1",
       "cats": [
@@ -1400,20 +1513,26 @@
           "Renewable Energy, Sustainability and the Environment",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Corporate Social Responsibility Reporting",
+        "Sustainable Finance and Green Bonds",
+        "Environmental Sustainability in Business",
+        "Accounting and Financial Management"
+      ],
+      "group": "Accounting"
     },
     "IJAIS": {
       "name": "International Journal of Accounting Information Systems",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/international-journal-of-accounting-information-systems",
       "h": 104,
-      "if2": 25.2,
+      "if2": 14.1,
       "works": 776,
       "issn": "1467-0895",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "group": "Accounting",
       "sjr": 1.75,
       "q": "Q1",
       "cats": [
@@ -1433,22 +1552,26 @@
           "Management Information Systems",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Robotic Process Automation Applications",
+        "Information Technology Governance and Strategy",
+        "Information and Cyber Security"
+      ],
+      "group": "Accounting"
     },
     "BAR": {
       "name": "The British Accounting Review",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/the-british-accounting-review",
       "h": 140,
-      "if2": 8.6,
+      "if2": 6.9,
       "works": 2016,
       "issn": "0890-8389",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "founded": 1969,
-      "about": "The British Accounting Review is an academic journal of the British Accounting and Finance Association that was established in 1969. Serving its purpose to educate and connect users, the British Accounting Review helps u",
-      "group": "Accounting",
       "sjr": 1.71,
       "q": "Q1",
       "cats": [
@@ -1456,20 +1579,28 @@
           "Accounting",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Auditing, Earnings Management, Governance",
+        "Corporate Finance and Governance",
+        "Corporate Social Responsibility Reporting",
+        "Corporate Governance and Financial Management"
+      ],
+      "founded": 1969,
+      "about": "The British Accounting Review is an academic journal of the British Accounting and Finance Association that was established in 1969. Serving its purpose to educate and connect users, the British Accounting Review helps u",
+      "group": "Accounting"
     },
     "MAR": {
       "name": "Management Accounting Research",
       "type": "journal",
       "link": "https://www.sciencedirect.com/journal/management-accounting-research",
       "h": 153,
-      "if2": 6.8,
+      "if2": 6.2,
       "works": 1006,
       "issn": "1044-5005",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "group": "Accounting",
       "sjr": 1.62,
       "q": "Q1",
       "cats": [
@@ -1485,20 +1616,26 @@
           "Information Systems and Management",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Accounting and Organizational Management",
+        "Management and Organizational Studies",
+        "Corporate Finance and Governance",
+        "Corporate Governance and Management"
+      ],
+      "group": "Accounting"
     },
     "AAAJ": {
       "name": "Accounting Auditing & Accountability Journal",
       "type": "journal",
       "link": "https://www.emerald.com/insight/publication/issn/0951-3574",
       "h": 193,
-      "if2": 4.3,
+      "if2": 4.2,
       "works": 2312,
       "issn": "0951-3574",
       "domain": "Social Sciences",
       "field": "Business, Management and Accounting",
       "sub": "Accounting",
-      "group": "Accounting",
       "sjr": 1.57,
       "q": "Q1",
       "cats": [
@@ -1510,7 +1647,14 @@
           "Economics, Econometrics and Finance (miscellaneous)",
           "Q1"
         ]
-      ]
+      ],
+      "topics3y": [
+        "Accounting and Organizational Management",
+        "Corporate Social Responsibility Reporting",
+        "Accounting and Financial Management",
+        "Accounting Theory and Financial Reporting"
+      ],
+      "group": "Accounting"
     }
   }
 }

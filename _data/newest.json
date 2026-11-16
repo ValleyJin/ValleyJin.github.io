@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-16",
   "last_full": "2026-09-23",
   "topics": [
     "Deep persona",
@@ -245,7 +245,9 @@
       "cites": 2,
       "topic": "Graph database",
       "fwci": 2.06,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.94,
+      "qcat": "Computer Science Applications",
       "added": "2026-11-15"
     },
     {
@@ -258,7 +260,9 @@
       "cites": 1,
       "topic": "Graph database",
       "fwci": 1.59,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.78,
+      "qcat": "Chemistry (miscellaneous)",
       "added": "2026-11-14"
     },
     {
@@ -284,7 +288,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.68,
+      "qcat": "Communication",
       "added": "2026-11-14"
     },
     {
@@ -310,7 +316,9 @@
       "cites": 1,
       "topic": "Deep persona",
       "fwci": 1.18,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.48,
+      "qcat": "Health (social science)",
       "added": "2026-11-15"
     },
     {
@@ -323,7 +331,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.24,
+      "qcat": "Chemical Engineering (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -336,7 +346,9 @@
       "cites": 1,
       "topic": "gABM",
       "fwci": 1.03,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.72,
+      "qcat": "Mechanics of Materials",
       "added": "2026-11-15"
     },
     {
@@ -349,7 +361,9 @@
       "cites": 2,
       "topic": "gABM",
       "fwci": 2.8,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.1,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-15"
     },
     {
@@ -362,7 +376,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.95,
+      "qcat": "Computer Graphics and Computer-Aided Design",
       "added": "2026-11-15"
     },
     {
@@ -375,7 +391,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.94,
+      "qcat": "Business and International Management",
       "added": "2026-11-15"
     },
     {
@@ -401,7 +419,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.55,
+      "qcat": "History and Philosophy of Science",
       "added": "2026-11-15"
     },
     {
@@ -414,7 +434,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.55,
+      "qcat": "History and Philosophy of Science",
       "added": "2026-11-15"
     },
     {
@@ -427,7 +449,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -440,7 +464,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.85,
+      "qcat": "Education",
       "added": "2026-11-15"
     },
     {
@@ -453,7 +479,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 4.9,
+      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -466,7 +494,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.95,
+      "qcat": "Earth and Planetary Sciences (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -479,7 +509,9 @@
       "cites": 3,
       "topic": "Graph database",
       "fwci": 3.09,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.94,
+      "qcat": "Computer Science Applications",
       "added": "2026-11-15"
     },
     {
@@ -492,7 +524,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.8,
+      "qcat": "Chemical Engineering (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -518,7 +552,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.24,
+      "qcat": "Engineering (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -532,7 +568,9 @@
       "topic": "Memory in Agentic AI",
       "fwci": 4.46,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 4.9,
+      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -545,7 +583,9 @@
       "cites": 1,
       "topic": "Memory in Agentic AI",
       "fwci": 2.37,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.59,
+      "qcat": "Software",
       "added": "2026-11-15"
     },
     {
@@ -558,7 +598,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.44,
+      "qcat": "Histology",
       "added": "2026-11-15"
     },
     {
@@ -571,7 +613,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.56,
+      "qcat": "Decision Sciences (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -584,7 +628,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.56,
+      "qcat": "Electrical and Electronic Engineering",
       "added": "2026-11-15"
     },
     {
@@ -597,7 +643,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 4.1,
+      "qcat": "Engineering (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -610,7 +658,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.64,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-15"
     },
     {
@@ -623,7 +673,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.3,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -637,7 +689,9 @@
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 6.17,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.16,
+      "qcat": "Applied Mathematics",
       "added": "2026-11-15"
     },
     {
@@ -650,7 +704,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.32,
+      "qcat": "Computational Mechanics",
       "added": "2026-11-15"
     },
     {
@@ -663,7 +719,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -676,7 +734,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -689,7 +749,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -702,7 +764,9 @@
       "cites": 15,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.28,
+      "qcat": "Applied Mathematics",
       "added": "2026-11-15"
     },
     {
@@ -715,7 +779,9 @@
       "cites": 5,
       "topic": "Graph neural networks (GNN)",
       "fwci": 2.53,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.04,
+      "qcat": "Biochemistry",
       "added": "2026-11-15"
     },
     {
@@ -728,7 +794,9 @@
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
       "fwci": 1.46,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.87,
+      "qcat": "Information Systems",
       "added": "2026-11-15"
     },
     {
@@ -741,7 +809,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -754,7 +824,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.53,
+      "qcat": "Biochemistry",
       "added": "2026-11-15"
     },
     {
@@ -767,7 +839,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.1,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-15"
     },
     {
@@ -780,7 +854,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -793,7 +869,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -806,7 +884,9 @@
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
       "fwci": 1.27,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.49,
+      "qcat": "Computer Science Applications",
       "added": "2026-11-15"
     },
     {
@@ -819,7 +899,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -832,7 +914,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.74,
+      "qcat": "Agronomy and Crop Science",
       "added": "2026-11-15"
     },
     {
@@ -845,7 +929,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.42,
+      "qcat": "Physics and Astronomy (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -858,7 +944,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 4.21,
+      "qcat": "Computer Science Applications",
       "added": "2026-11-15"
     },
     {
@@ -871,7 +959,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.77,
+      "qcat": "Agricultural and Biological Sciences (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -884,7 +974,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -923,7 +1015,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -936,7 +1030,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -949,7 +1045,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Arts and Humanities (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -962,7 +1060,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.26,
+      "qcat": "Political Science and International Relations",
       "added": "2026-11-15"
     },
     {
@@ -975,7 +1075,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -988,7 +1090,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.78,
+      "qcat": "Library and Information Sciences",
       "added": "2026-11-15"
     },
     {
@@ -1027,7 +1131,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 4.21,
+      "qcat": "Computer Science Applications",
       "added": "2026-11-15"
     },
     {
@@ -1040,7 +1146,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.71,
+      "qcat": "Economics, Econometrics and Finance (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -1053,7 +1161,9 @@
       "cites": 1,
       "topic": "Memory in Agentic AI",
       "fwci": 4.26,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.65,
+      "qcat": "Computational Mathematics",
       "added": "2026-11-13"
     },
     {
@@ -1092,7 +1202,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.18,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-13"
     },
     {
@@ -1106,7 +1218,9 @@
       "topic": "gABM",
       "fwci": 4.84,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.04,
+      "qcat": "Automotive Engineering",
       "added": "2026-11-14"
     },
     {
@@ -1173,7 +1287,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.43,
+      "qcat": "Chemical Engineering (miscellaneous)",
       "added": "2026-11-14"
     },
     {
@@ -1291,7 +1407,9 @@
       "topic": "Graph database",
       "fwci": 3.59,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.39,
+      "qcat": "Physics and Astronomy (miscellaneous)",
       "added": "2026-11-14"
     },
     {
@@ -1304,7 +1422,9 @@
       "cites": 1,
       "topic": "Graph database",
       "fwci": 1.27,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.34,
+      "qcat": "Biochemistry",
       "added": "2026-11-14"
     },
     {
@@ -1317,7 +1437,9 @@
       "cites": 2,
       "topic": "Graph database",
       "fwci": 2.92,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.52,
+      "qcat": "Public Health, Environmental and Occupational Health",
       "added": "2026-11-14"
     },
     {
@@ -1330,7 +1452,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.99,
+      "qcat": "Neurology",
       "added": "2026-11-14"
     },
     {
@@ -1343,7 +1467,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.82,
+      "qcat": "Computational Theory and Mathematics",
       "added": "2026-11-14"
     },
     {
@@ -1460,7 +1586,9 @@
       "cites": 2,
       "topic": "Memory in Agentic AI",
       "fwci": 3.07,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 4.53,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-14"
     },
     {
@@ -1473,7 +1601,9 @@
       "cites": 2,
       "topic": "Memory in Agentic AI",
       "fwci": 2.92,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.1,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-14"
     },
     {
@@ -1486,7 +1616,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.89,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-14"
     },
     {
@@ -1642,7 +1774,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.59,
+      "qcat": "Hardware and Architecture",
       "added": "2026-11-14"
     },
     {
@@ -1656,7 +1790,9 @@
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 25.25,
       "pct": 1,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 6.43,
+      "qcat": "Management Science and Operations Research",
       "added": "2026-11-14"
     },
     {
@@ -1669,7 +1805,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Industrial and Manufacturing Engineering",
       "added": "2026-11-14"
     },
     {
@@ -1696,7 +1834,9 @@
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 4.78,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.39,
+      "qcat": "Physics and Astronomy (miscellaneous)",
       "added": "2026-11-14"
     },
     {
@@ -1709,7 +1849,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.11,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-14"
     },
     {
@@ -1722,7 +1864,9 @@
       "cites": 3,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 2.31,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.27,
+      "qcat": "Nuclear and High Energy Physics",
       "added": "2026-11-14"
     },
     {
@@ -2075,7 +2219,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.17,
+      "qcat": "Linguistics and Language",
       "added": "2026-11-14"
     },
     {
@@ -2179,7 +2325,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.1,
+      "qcat": "Clinical Psychology",
       "added": "2026-11-15"
     },
     {
@@ -2192,7 +2340,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.39,
+      "qcat": "Management of Technology and Innovation",
       "added": "2026-11-15"
     },
     {
@@ -2218,7 +2368,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.24,
+      "qcat": "Literature and Literary Theory",
       "added": "2026-11-15"
     },
     {
@@ -2244,7 +2396,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.86,
+      "qcat": "Applied Psychology",
       "added": "2026-11-15"
     },
     {
@@ -2257,7 +2411,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.37,
+      "qcat": "Cultural Studies",
       "added": "2026-11-15"
     },
     {
@@ -2283,7 +2439,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.28,
+      "qcat": "Gender Studies",
       "added": "2026-11-15"
     },
     {
@@ -2296,7 +2454,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 5.99,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -2309,7 +2469,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.56,
+      "qcat": "Building and Construction",
       "added": "2026-11-15"
     },
     {
@@ -2322,7 +2484,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.28,
+      "qcat": "Gender Studies",
       "added": "2026-11-15"
     },
     {
@@ -2335,7 +2499,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.04,
+      "qcat": "Automotive Engineering",
       "added": "2026-11-15"
     },
     {
@@ -2348,7 +2514,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.79,
+      "qcat": "Medicine (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -2361,7 +2529,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.75,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-15"
     },
     {
@@ -2374,7 +2544,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.64,
+      "qcat": "Biochemistry",
       "added": "2026-11-15"
     },
     {
@@ -2387,7 +2559,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.48,
+      "qcat": "Economics and Econometrics",
       "added": "2026-11-15"
     },
     {
@@ -2413,7 +2587,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.73,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -2426,7 +2602,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.95,
+      "qcat": "Computer Graphics and Computer-Aided Design",
       "added": "2026-11-15"
     },
     {
@@ -2439,7 +2617,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.74,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-15"
     },
     {
@@ -2452,7 +2632,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-15"
     },
     {
@@ -2478,7 +2660,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.89,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-15"
     },
     {
@@ -2491,7 +2675,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.49,
+      "qcat": "Linguistics and Language",
       "added": "2026-11-15"
     },
     {
@@ -2504,7 +2690,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.06,
+      "qcat": "Education",
       "added": "2026-11-15"
     },
     {
@@ -2518,7 +2706,9 @@
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 2.79,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.31,
+      "qcat": "Applied Mathematics",
       "added": "2026-11-15"
     },
     {
@@ -2531,7 +2721,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.58,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-15"
     },
     {
@@ -2648,7 +2840,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.65,
+      "qcat": "Architecture",
       "added": "2026-11-15"
     },
     {
@@ -2798,7 +2992,9 @@
       "cites": 1,
       "topic": "LLM inference serving",
       "fwci": 1.64,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 10.04,
+      "qcat": "Condensed Matter Physics",
       "added": "2026-11-13"
     },
     {
@@ -3271,7 +3467,9 @@
       "topic": "LLM inference serving",
       "fwci": 17.59,
       "pct": 1,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 4.9,
+      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)",
       "added": "2026-11-13"
     },
     {
@@ -3917,7 +4115,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.33,
+      "qcat": "Political Science and International Relations",
       "added": "2026-11-14"
     },
     {
@@ -5161,7 +5361,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.73,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-13"
     },
     {
@@ -6941,7 +7143,9 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q4",
+      "sjr": 0.12,
+      "qcat": "Computer Networks and Communications",
       "added": "2026-11-13"
     },
     {
@@ -11716,7 +11920,9 @@
       "url": "https://arxiv.org/abs/2611.09191",
       "cites": 0,
       "topic": "CVPR",
-      "crank": "A*",
+      "q": "Q2",
+      "sjr": 0.54,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-10"
     },
     {
@@ -13409,7 +13615,9 @@
       "topic": "Ethereum Layer-2",
       "fwci": 10.73,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 5.99,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-05"
     },
     {
@@ -16495,7 +16703,9 @@
       "url": "https://doi.org/10.1007/978-3-032-37393-9_19",
       "cites": 1,
       "topic": "ECCV",
-      "crank": "A*",
+      "q": "Q4",
+      "sjr": 0.1,
+      "qcat": "Literature and Literary Theory",
       "added": "2026-11-04"
     },
     {
@@ -16690,7 +16900,9 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.57,
+      "qcat": "Computer Networks and Communications",
       "added": "2026-11-05"
     },
     {
@@ -16778,7 +16990,9 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.54,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-13"
     },
     {
@@ -18352,7 +18566,9 @@
       "url": "https://arxiv.org/abs/2611.03438",
       "cites": 0,
       "topic": "CVPR",
-      "crank": "A*",
+      "q": "Q2",
+      "sjr": 0.54,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-08"
     },
     {
@@ -19281,7 +19497,9 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.3,
+      "qcat": "Computer Networks and Communications",
       "added": "2026-11-07"
     },
     {
@@ -19346,7 +19564,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.27,
+      "qcat": "Business, Management and Accounting (miscellaneous)",
       "added": "2026-11-01"
     },
     {
@@ -19359,7 +19579,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Software",
       "added": "2026-11-01"
     },
     {
@@ -19372,7 +19594,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Software",
       "added": "2026-11-01"
     },
     {
@@ -19398,7 +19622,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.33,
+      "qcat": "Education",
       "added": "2026-11-01"
     },
     {
@@ -19411,7 +19637,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Software",
       "added": "2026-11-01"
     },
     {
@@ -19467,7 +19695,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Software",
       "added": "2026-11-01"
     },
     {
@@ -19496,7 +19726,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.18,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-01"
     },
     {
@@ -19525,7 +19757,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q4",
+      "sjr": 0.27,
+      "qcat": "Genetics",
       "added": "2026-11-01"
     },
     {
@@ -19538,7 +19772,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.49,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-01"
     },
     {
@@ -19551,7 +19787,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.49,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-01"
     },
     {
@@ -19564,7 +19802,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Software",
       "added": "2026-11-01"
     },
     {
@@ -19603,7 +19843,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.18,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-01"
     },
     {
@@ -19677,7 +19919,9 @@
       "cites": 1,
       "topic": "Graph database",
       "fwci": 1.54,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Software",
       "added": "2026-11-01"
     },
     {
@@ -19718,7 +19962,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-01"
     },
     {
@@ -19731,7 +19977,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q4",
+      "sjr": 0.19,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-01"
     },
     {
@@ -19744,7 +19992,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.18,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-01"
     },
     {
@@ -19905,7 +20155,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.72,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-01"
     },
     {
@@ -19918,7 +20170,9 @@
       "cites": 2,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 1.89,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.91,
+      "qcat": "Applied Mathematics",
       "added": "2026-11-01"
     },
     {
@@ -19931,7 +20185,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.64,
+      "qcat": "Arts and Humanities (miscellaneous)",
       "added": "2026-11-01"
     },
     {
@@ -19944,7 +20200,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.1,
+      "qcat": "Applied Mathematics",
       "added": "2026-11-01"
     },
     {
@@ -20065,7 +20323,9 @@
       "cites": 1,
       "topic": "Graph neural networks (GNN)",
       "fwci": 2.81,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.4,
+      "qcat": "Automotive Engineering",
       "added": "2026-11-01"
     },
     {
@@ -20225,7 +20485,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.53,
+      "qcat": "Information Systems",
       "added": "2026-11-01"
     },
     {
@@ -20238,7 +20500,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.27,
+      "qcat": "Business, Management and Accounting (miscellaneous)",
       "added": "2026-11-01"
     },
     {
@@ -20277,7 +20541,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.71,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-01"
     },
     {
@@ -20291,7 +20557,9 @@
       "topic": "AI governance",
       "fwci": 8.15,
       "pct": 10,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.26,
+      "qcat": "Political Science and International Relations",
       "added": "2026-11-01"
     },
     {
@@ -20317,7 +20585,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.27,
+      "qcat": "Business, Management and Accounting (miscellaneous)",
       "added": "2026-11-01"
     },
     {
@@ -20390,7 +20660,9 @@
       "topic": "Deep persona",
       "fwci": 76.96,
       "pct": 1,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.84,
+      "qcat": "Computer Science Applications",
       "added": "2026-11-03"
     },
     {
@@ -20417,7 +20689,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-03"
     },
     {
@@ -20430,7 +20704,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.37,
+      "qcat": "Developmental and Educational Psychology",
       "added": "2026-11-03"
     },
     {
@@ -20443,7 +20719,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.07,
+      "qcat": "Atomic and Molecular Physics, and Optics",
       "added": "2026-11-03"
     },
     {
@@ -20456,7 +20734,9 @@
       "cites": 1,
       "topic": "gABM",
       "fwci": 1.32,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Software",
       "added": "2026-11-03"
     },
     {
@@ -20469,7 +20749,9 @@
       "cites": 2,
       "topic": "gABM",
       "fwci": 3.07,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.77,
+      "qcat": "Chemical Engineering (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -20482,7 +20764,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 5.49,
+      "qcat": "Biochemistry",
       "added": "2026-11-03"
     },
     {
@@ -20508,7 +20792,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.21,
+      "qcat": "Development",
       "added": "2026-11-03"
     },
     {
@@ -20521,7 +20807,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.64,
+      "qcat": "Geography, Planning and Development",
       "added": "2026-11-03"
     },
     {
@@ -20547,7 +20835,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.9,
+      "qcat": "Arts and Humanities (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -20560,7 +20850,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.88,
+      "qcat": "Arts and Humanities (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -20599,7 +20891,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.37,
+      "qcat": "Developmental and Educational Psychology",
       "added": "2026-11-03"
     },
     {
@@ -20680,7 +20974,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.67,
+      "qcat": "Media Technology",
       "added": "2026-11-03"
     },
     {
@@ -20693,7 +20989,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.89,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-03"
     },
     {
@@ -20719,7 +21017,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.26,
+      "qcat": "Political Science and International Relations",
       "added": "2026-11-03"
     },
     {
@@ -20732,7 +21032,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.14,
+      "qcat": "Business and International Management",
       "added": "2026-11-03"
     },
     {
@@ -20801,7 +21103,9 @@
       "cites": 1,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.98,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-03"
     },
     {
@@ -20814,7 +21118,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.1,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -20827,7 +21133,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.5,
+      "qcat": "Computer Science Applications",
       "added": "2026-11-03"
     },
     {
@@ -20840,7 +21148,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.8,
+      "qcat": "Earth and Planetary Sciences (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -20892,7 +21202,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.26,
+      "qcat": "Political Science and International Relations",
       "added": "2026-11-03"
     },
     {
@@ -20934,7 +21246,9 @@
       "topic": "Graph neural networks (GNN)",
       "fwci": 4.8,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 4.21,
+      "qcat": "Computer Science Applications",
       "added": "2026-11-03"
     },
     {
@@ -20947,7 +21261,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.56,
+      "qcat": "Electrical and Electronic Engineering",
       "added": "2026-11-03"
     },
     {
@@ -21052,7 +21368,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 4.9,
+      "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -21065,7 +21383,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.65,
+      "qcat": "Business, Management and Accounting (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -21091,7 +21411,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.55,
+      "qcat": "Organizational Behavior and Human Resource Management",
       "added": "2026-11-03"
     },
     {
@@ -21104,7 +21426,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.26,
+      "qcat": "Political Science and International Relations",
       "added": "2026-11-03"
     },
     {
@@ -21117,7 +21441,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.26,
+      "qcat": "Political Science and International Relations",
       "added": "2026-11-03"
     },
     {
@@ -21143,7 +21469,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.35,
+      "qcat": "Computer Science Applications",
       "added": "2026-11-03"
     },
     {
@@ -21156,7 +21484,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.26,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -21169,7 +21499,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.26,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -21197,7 +21529,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.94,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-03"
     },
     {
@@ -21210,7 +21544,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.73,
+      "qcat": "Industrial and Manufacturing Engineering",
       "added": "2026-11-03"
     },
     {
@@ -21223,7 +21559,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.19,
+      "qcat": "Cultural Studies",
       "added": "2026-11-03"
     },
     {
@@ -21236,7 +21574,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.29,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-03"
     },
     {
@@ -21249,7 +21589,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.32,
+      "qcat": "Philosophy",
       "added": "2026-11-03"
     },
     {
@@ -21275,7 +21617,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.73,
+      "qcat": "Industrial and Manufacturing Engineering",
       "added": "2026-11-04"
     },
     {
@@ -21288,7 +21632,9 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.73,
+      "qcat": "Industrial and Manufacturing Engineering",
       "added": "2026-11-04"
     },
     {
@@ -21301,7 +21647,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.43,
+      "qcat": "Computer Graphics and Computer-Aided Design",
       "added": "2026-11-04"
     },
     {
@@ -21314,7 +21662,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.04,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-04"
     },
     {
@@ -21327,7 +21677,9 @@
       "cites": 0,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.8,
+      "qcat": "Analytical Chemistry",
       "added": "2026-11-04"
     },
     {
@@ -21341,7 +21693,9 @@
       "topic": "Graph neural networks (GNN)",
       "fwci": 2.8,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.94,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-04"
     },
     {
@@ -21354,7 +21708,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.29,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-04"
     },
     {
@@ -21368,7 +21724,9 @@
       "topic": "Graph neural networks (GNN)",
       "fwci": 6.17,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.32,
+      "qcat": "Computational Mechanics",
       "added": "2026-11-04"
     },
     {
@@ -21381,7 +21739,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.43,
+      "qcat": "Computer Graphics and Computer-Aided Design",
       "added": "2026-11-04"
     },
     {
@@ -21394,7 +21754,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.76,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-04"
     },
     {
@@ -21447,7 +21809,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.25,
+      "qcat": "Electrical and Electronic Engineering",
       "added": "2026-11-05"
     },
     {
@@ -21460,7 +21824,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.05,
+      "qcat": "Aerospace Engineering",
       "added": "2026-11-05"
     },
     {
@@ -21473,7 +21839,9 @@
       "cites": 2,
       "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 1.93,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.73,
+      "qcat": "Condensed Matter Physics",
       "added": "2026-11-05"
     },
     {
@@ -21499,7 +21867,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q4",
+      "sjr": 0.14,
+      "qcat": "Chemical Engineering (miscellaneous)",
       "added": "2026-11-05"
     },
     {
@@ -21512,7 +21882,9 @@
       "cites": 0,
       "topic": "AI governance",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.04,
+      "qcat": "Public Administration",
       "added": "2026-11-05"
     },
     {
@@ -21525,7 +21897,9 @@
       "cites": 0,
       "topic": "Memory in Agentic AI",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.26,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-06"
     },
     {
@@ -21538,7 +21912,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.46,
+      "qcat": "Software",
       "added": "2026-11-06"
     },
     {
@@ -21551,7 +21927,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.46,
+      "qcat": "Software",
       "added": "2026-11-06"
     },
     {
@@ -21564,7 +21942,9 @@
       "cites": 0,
       "topic": "Graph neural networks (GNN)",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.62,
+      "qcat": "Biomedical Engineering",
       "added": "2026-11-06"
     },
     {
@@ -21577,7 +21957,9 @@
       "cites": 2,
       "topic": "Graph database",
       "fwci": 1.4,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.65,
+      "qcat": "Condensed Matter Physics",
       "added": "2026-11-07"
     },
     {
@@ -21604,7 +21986,9 @@
       "topic": "Graph neural networks (GNN)",
       "fwci": 5.87,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.25,
+      "qcat": "Computer Graphics and Computer-Aided Design",
       "added": "2026-11-07"
     },
     {
@@ -21617,7 +22001,9 @@
       "cites": 0,
       "topic": "Ontology",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.15,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-07"
     },
     {
@@ -21630,7 +22016,9 @@
       "cites": 0,
       "topic": "gABM",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.67,
+      "qcat": "Finance",
       "added": "2026-11-08"
     },
     {
@@ -21669,7 +22057,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.65,
+      "qcat": "Artificial Intelligence",
       "added": "2026-11-12"
     },
     {
@@ -21682,7 +22072,9 @@
       "cites": 2,
       "topic": "Graph database",
       "fwci": 3.51,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.36,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-13"
     },
     {
@@ -21695,7 +22087,9 @@
       "cites": 0,
       "topic": "Graph database",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.28,
+      "qcat": "Ocean Engineering",
       "added": "2026-11-13"
     },
     {
@@ -21737,7 +22131,9 @@
       "topic": "Deep persona",
       "fwci": 167.14,
       "pct": 1,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.64,
+      "qcat": "Artificial Intelligence",
       "added": "2026-10-31"
     },
     {
@@ -21763,7 +22159,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.83,
+      "qcat": "Genetics",
       "added": "2026-10-31"
     },
     {
@@ -22010,7 +22408,9 @@
       "topic": "LLM inference serving",
       "fwci": 18.27,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.59,
+      "qcat": "Software",
       "added": "2026-10-31"
     },
     {
@@ -22436,7 +22836,9 @@
       "cites": 1,
       "topic": "Ethereum Layer-2",
       "fwci": 3.57,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.57,
+      "qcat": "Computer Networks and Communications",
       "added": "2026-10-31"
     },
     {
@@ -23159,7 +23561,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q3",
+      "sjr": 0.44,
+      "qcat": "Water Science and Technology",
       "added": "2026-11-01"
     },
     {
@@ -23254,7 +23658,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.37,
+      "qcat": "Geography, Planning and Development",
       "added": "2026-11-01"
     },
     {
@@ -23481,7 +23887,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 2.92,
+      "qcat": "Building and Construction",
       "added": "2026-11-03"
     },
     {
@@ -23494,7 +23902,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.26,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -23507,7 +23917,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.88,
+      "qcat": "Environmental Engineering",
       "added": "2026-11-03"
     },
     {
@@ -23535,7 +23947,9 @@
       "cites": 0,
       "topic": "Ethereum Layer-2",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q2",
+      "sjr": 0.46,
+      "qcat": "Information Systems",
       "added": "2026-11-03"
     },
     {
@@ -23590,7 +24004,9 @@
       "cites": 0,
       "topic": "LLM inference serving",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.95,
+      "qcat": "Hardware and Architecture",
       "added": "2026-11-05"
     },
     {
@@ -23603,7 +24019,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 3.28,
+      "qcat": "Multidisciplinary",
       "added": "2026-11-06"
     },
     {
@@ -23616,7 +24034,9 @@
       "cites": 0,
       "topic": "Deep persona",
       "fwci": 0.0,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 0.59,
+      "qcat": "Advanced and Specialized Nursing",
       "added": "2026-11-10"
     },
     {
@@ -25377,7 +25797,9 @@
       "url": "https://arxiv.org/abs/2610.39946",
       "cites": 0,
       "topic": "CVPR",
-      "crank": "A*",
+      "q": "Q2",
+      "sjr": 0.54,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -25391,7 +25813,9 @@
       "topic": "Ethereum Layer-2",
       "fwci": 7.16,
       "pct": 10,
-      "nr": "na",
+      "q": "Q1",
+      "sjr": 1.07,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -27266,7 +27690,9 @@
       "url": "https://arxiv.org/abs/2610.38587",
       "cites": 0,
       "topic": "CVPR",
-      "crank": "A*",
+      "q": "Q2",
+      "sjr": 0.54,
+      "qcat": "Computer Science (miscellaneous)",
       "added": "2026-11-03"
     },
     {
@@ -28407,16 +28833,774 @@
     }
   ],
   "mostcited": {
-    "Deep persona": [],
-    "gABM": [],
-    "Graph database": [],
-    "Memory in Agentic AI": [],
-    "LLM inference serving": [],
-    "Ethereum Layer-2": [],
-    "Zero-knowledge proofs (ZKP)": [],
-    "Graph neural networks (GNN)": [],
-    "Ontology": [],
-    "AI governance": [],
+    "Deep persona": [
+      {
+        "title": "Safety tag generation and training material recommendation for construction workers: a persona-based approach",
+        "authors": "Duan, P., Zhou, J., & Fan, W.",
+        "year": 2022,
+        "venue": "Engineering Construction & Architectural Management",
+        "url": "https://doi.org/10.1108/ecam-12-2021-1143",
+        "cites": 28,
+        "topic": "Deep persona",
+        "fwci": 4.11,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.03,
+        "qcat": "Architecture"
+      },
+      {
+        "title": "Diverse dialogue generation by fusing mutual persona-aware and self-transferrer",
+        "authors": "Xu, F., Xu, G., Wang, Y., Wang, R., Ding, Q., Liu, P., et al.",
+        "year": 2021,
+        "venue": "Applied Intelligence",
+        "url": "https://doi.org/10.1007/s10489-021-02660-4",
+        "cites": 21,
+        "topic": "Deep persona",
+        "fwci": 1.52,
+        "q": "Q2",
+        "sjr": 0.89,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "Towards Automated Occupant Profile Creation in Smart Buildings: A Machine Learning-Enabled Approach for User Persona Generation",
+        "authors": "Anik, S. M. H., Gao, X., & Meng, N.",
+        "year": 2023,
+        "venue": "Energy and Buildings",
+        "url": "https://doi.org/10.1016/j.enbuild.2023.113485",
+        "cites": 19,
+        "topic": "Deep persona",
+        "fwci": 2.08,
+        "q": "Q1",
+        "sjr": 1.62,
+        "qcat": "Building and Construction"
+      },
+      {
+        "title": "PEDM: A Multi-task Learning Model for Persona-aware Emoji-embedded Dialogue Generation",
+        "authors": "Zhao, S., Jiang, H., Tao, H., Zha, R., Zhang, K., Xu, T., et al.",
+        "year": 2022,
+        "venue": "ACM Transactions on Multimedia Computing Communications and Applications",
+        "url": "https://doi.org/10.1145/3571819",
+        "cites": 19,
+        "topic": "Deep persona",
+        "fwci": 1.06,
+        "q": "Q1",
+        "sjr": 0.93,
+        "qcat": "Computer Networks and Communications"
+      },
+      {
+        "title": "A Novel Two-Stage Generation Framework for Promoting the Persona-Consistency and Diversity of Responses in Neural Dialog Systems",
+        "authors": "Shi, T., & Song, Y.",
+        "year": 2021,
+        "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+        "url": "https://doi.org/10.1109/tnnls.2021.3105584",
+        "cites": 14,
+        "topic": "Deep persona",
+        "fwci": 0.51,
+        "q": "Q1",
+        "sjr": 3.15,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "Learning to improve persona consistency in conversation generation with information augmentation",
+        "authors": "Wang, W., Feng, S., Chen, L., Wang, D., & Zhang, Y.",
+        "year": 2021,
+        "venue": "Knowledge-Based Systems",
+        "url": "https://doi.org/10.1016/j.knosys.2021.107246",
+        "cites": 8,
+        "topic": "Deep persona",
+        "fwci": 0.51,
+        "q": "Q1",
+        "sjr": 1.75,
+        "qcat": "Artificial Intelligence"
+      }
+    ],
+    "gABM": [
+      {
+        "title": "Agent-based modeling: Methods and techniques for simulating human systems",
+        "authors": "Bonabeau, E. W.",
+        "year": 2002,
+        "venue": "Proceedings of the National Academy of Sciences",
+        "url": "https://doi.org/10.1073/pnas.082080899",
+        "cites": 4794,
+        "topic": "gABM",
+        "fwci": 26.04,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.28,
+        "qcat": "Multidisciplinary"
+      },
+      {
+        "title": "Agent-based modeling in marketing: Guidelines for rigor",
+        "authors": "Rand, W. M., & Rust, R. T.",
+        "year": 2011,
+        "venue": "International Journal of Research in Marketing",
+        "url": "https://doi.org/10.1016/j.ijresmar.2011.04.002",
+        "cites": 565,
+        "topic": "gABM",
+        "fwci": 36.18,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 3.73,
+        "qcat": "Marketing"
+      },
+      {
+        "title": "Large language models empowered agent-based modeling and simulation: a survey and perspectives",
+        "authors": "Gao, C., Lan, X., Li, N., Yuan, Y., Ding, J., Zhou, Z., et al.",
+        "year": 2024,
+        "venue": "Humanities and Social Sciences Communications",
+        "url": "https://doi.org/10.1057/s41599-024-03611-3",
+        "cites": 466,
+        "topic": "gABM",
+        "fwci": 48.47,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 0.9,
+        "qcat": "Arts and Humanities (miscellaneous)"
+      },
+      {
+        "title": "The Complexities of Agent-Based Modeling Output Analysis",
+        "authors": "Lee, J., Filatova, T., Ligmann-Zielińska, A., Hassani‐Mahmooei, B., Stonedahl, F., Lorscheid, I., et al.",
+        "year": 2015,
+        "venue": "Journal of Artificial Societies and Social Simulation",
+        "url": "https://doi.org/10.18564/jasss.2897",
+        "cites": 351,
+        "topic": "gABM",
+        "fwci": 26.34,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 0.87,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "Agent-based modeling of the diffusion of environmental innovations — An empirical approach",
+        "authors": "Schwarz, N., & Ernst, A. M.",
+        "year": 2008,
+        "venue": "Technological Forecasting and Social Change",
+        "url": "https://doi.org/10.1016/j.techfore.2008.03.024",
+        "cites": 316,
+        "topic": "gABM",
+        "fwci": 12.68,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 3.48,
+        "qcat": "Applied Psychology"
+      },
+      {
+        "title": "Agent-based modeling: A revolution?",
+        "authors": "Bankes, S. C.",
+        "year": 2002,
+        "venue": "Proceedings of the National Academy of Sciences",
+        "url": "https://doi.org/10.1073/pnas.072081299",
+        "cites": 305,
+        "topic": "gABM",
+        "fwci": 5.45,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 3.28,
+        "qcat": "Multidisciplinary"
+      }
+    ],
+    "Graph database": [
+      {
+        "title": "Survey of graph database models",
+        "authors": "Angles, R., & Gutiérrez, C.",
+        "year": 2008,
+        "venue": "ACM Computing Surveys",
+        "url": "https://doi.org/10.1145/1322432.1322433",
+        "cites": 1810,
+        "topic": "Graph database",
+        "fwci": 162.51,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.99,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "Foundations of Modern Query Languages for Graph Databases",
+        "authors": "Angles, R., Arenas, M., Barceló, P., Hogan, A., Reutter, J. L., & Vrgoč, D.",
+        "year": 2017,
+        "venue": "ACM Computing Surveys",
+        "url": "https://doi.org/10.1145/3104031",
+        "cites": 510,
+        "topic": "Graph database",
+        "fwci": 37.65,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.99,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "Finding Regular Simple Paths in Graph Databases",
+        "authors": "Mendelzon, A. O., & Wood, P. T.",
+        "year": 1995,
+        "venue": "SIAM Journal on Computing",
+        "url": "https://doi.org/10.1137/s009753979122370x",
+        "cites": 417,
+        "topic": "Graph database",
+        "fwci": 10.48,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 0.84,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "An in-depth comparison of subgraph isomorphism algorithms in graph databases",
+        "authors": "Lee, J., Han, W., Kasperovičs, R., & Lee, J.",
+        "year": 2012,
+        "venue": "Proceedings of the VLDB Endowment",
+        "url": "https://doi.org/10.14778/2535568.2448946",
+        "cites": 296,
+        "topic": "Graph database",
+        "fwci": 12.74,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.77,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "Reactome graph database: Efficient access to complex pathway data",
+        "authors": "Fabregat, A., Korninger, F., Viteri, G., Sidiropoulos, K., Marín-García, P., Ping, P., et al.",
+        "year": 2018,
+        "venue": "PLoS Computational Biology",
+        "url": "https://doi.org/10.1371/journal.pcbi.1005968",
+        "cites": 287,
+        "topic": "Graph database",
+        "fwci": 7.11,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.47,
+        "qcat": "Computational Theory and Mathematics"
+      },
+      {
+        "title": "Query languages for graph databases",
+        "authors": "Wood, P. T.",
+        "year": 2012,
+        "venue": "ACM SIGMOD Record",
+        "url": "https://doi.org/10.1145/2206869.2206879",
+        "cites": 276,
+        "topic": "Graph database",
+        "fwci": 25.58,
+        "pct": 1,
+        "q": "Q2",
+        "sjr": 0.63,
+        "qcat": "Information Systems"
+      }
+    ],
+    "Memory in Agentic AI": [
+      {
+        "title": "MemIndex: Agentic Event-based Distributed Memory Management for Multi-agent Systems",
+        "authors": "Saleh, A., Tarkoma, S., Lindgren, A., Donta, P. K., Dustdar, S., Pirttikangas, S., et al.",
+        "year": 2025,
+        "venue": "ACM Transactions on Autonomous and Adaptive Systems",
+        "url": "https://doi.org/10.1145/3774946",
+        "cites": 13,
+        "topic": "Memory in Agentic AI",
+        "fwci": 7.5,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.72,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "Data Management for Agentic Memory: Foundations, Systems, and Challenges",
+        "authors": "Li, G., Tian, J., & Zhou, X.",
+        "year": 2026,
+        "venue": "Proceedings of the VLDB Endowment",
+        "url": "https://doi.org/10.14778/3827998.3828145",
+        "cites": 0,
+        "topic": "Memory in Agentic AI",
+        "fwci": 0.0,
+        "q": "Q1",
+        "sjr": 1.77,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "Securing Agentic AI Systems Against Prompt Injection and Memory Poisoning",
+        "authors": "Singh, S., Choudhary, S. C. S., & Jannat, J.",
+        "year": 2026,
+        "venue": "International Journal of Research Publication and Reviews",
+        "url": "https://doi.org/10.55248/gengpi.07.0526.d13243",
+        "cites": 0,
+        "topic": "Memory in Agentic AI",
+        "fwci": 0.0,
+        "q": "Q3",
+        "sjr": 0.26,
+        "qcat": "Political Science and International Relations"
+      },
+      {
+        "title": "Architectural Strategies For Memory Systems In Agentic Applications: Structured Approaches To Context Management",
+        "authors": "Ramanathan, A. A.",
+        "year": 2026,
+        "venue": "Journal of International Crisis and Risk Communication Research",
+        "url": "https://doi.org/10.63278/jicrcr.vi.3688",
+        "cites": 0,
+        "topic": "Memory in Agentic AI",
+        "fwci": 0.0,
+        "nr": "na"
+      }
+    ],
+    "LLM inference serving": [
+      {
+        "title": "Offline Energy-Optimal LLM Serving: Workload-Based Energy Models for LLM Inference on Heterogeneous Systems",
+        "authors": "Wilkins, G., Keshav, S., & Mortier, R.",
+        "year": 2024,
+        "venue": "ACM SIGEnergy Energy Informatics Review",
+        "url": "https://doi.org/10.1145/3727200.3727217",
+        "cites": 68,
+        "topic": "LLM inference serving",
+        "fwci": 15.83,
+        "pct": 1,
+        "nr": "na"
+      },
+      {
+        "title": "SLO-Aware GPU DVFS for Energy-Efficient LLM Inference Serving",
+        "authors": "Kakolyris, A. K., Masouros, D., Xydis, S., & Soudris, D.",
+        "year": 2024,
+        "venue": "IEEE Computer Architecture Letters",
+        "url": "https://doi.org/10.1109/lca.2024.3406038",
+        "cites": 50,
+        "topic": "LLM inference serving",
+        "fwci": 11.64,
+        "pct": 1,
+        "q": "Q2",
+        "sjr": 0.54,
+        "qcat": "Hardware and Architecture"
+      },
+      {
+        "title": "Apt-Serve: Adaptive Request Scheduling on Hybrid Cache for Scalable LLM Inference Serving",
+        "authors": "Gao, S., Zhang, X., Shen, Y., & Chen, L.",
+        "year": 2025,
+        "venue": "Proceedings of the ACM on Management of Data",
+        "url": "https://doi.org/10.1145/3725394",
+        "cites": 18,
+        "topic": "LLM inference serving",
+        "fwci": 7.46,
+        "pct": 10,
+        "nr": "na"
+      },
+      {
+        "title": "Serving Long-Context LLMs at the Mobile Edge: Test-Time Reinforcement Learning-Based Model Caching and Inference Offloading",
+        "authors": "Xu, M., Niyato, D. T., & Brinton, C. G.",
+        "year": 2026,
+        "venue": "IEEE Transactions on Networking",
+        "url": "https://doi.org/10.1109/ton.2026.3669011",
+        "cites": 16,
+        "topic": "LLM inference serving",
+        "fwci": 20.43,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.49,
+        "qcat": "Computer Networks and Communications"
+      },
+      {
+        "title": "DOPD: A Dynamic PD-Disaggregation Architecture for Maximizing Goodput in LLM Inference Serving",
+        "authors": "Liao, J., Xu, M., Zheng, W., Wang, Y., Ye, K., Buyya, R., et al.",
+        "year": 2026,
+        "venue": "IEEE Transactions on Services Computing",
+        "url": "https://doi.org/10.1109/tsc.2026.3670011",
+        "cites": 8,
+        "topic": "LLM inference serving",
+        "fwci": 28.55,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.6,
+        "qcat": "Computer Networks and Communications"
+      },
+      {
+        "title": "BrownoutServe: SLO-Aware Inference Serving Under Bursty Workloads for MoE-Based LLMs",
+        "authors": "Hu, J., Xu, M., Ye, K., & Xu, C.",
+        "year": 2026,
+        "venue": "IEEE Transactions on Computers",
+        "url": "https://doi.org/10.1109/tc.2026.3655019",
+        "cites": 7,
+        "topic": "LLM inference serving",
+        "fwci": 17.81,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.24,
+        "qcat": "Computational Theory and Mathematics"
+      }
+    ],
+    "Ethereum Layer-2": [
+      {
+        "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
+        "authors": "Melo, C., Miqueias, J., Messias, J., Gonçalves, G., Silva, F. A., Soares, A., et al.",
+        "year": 2025,
+        "venue": "Future Generation Computer Systems",
+        "url": "https://doi.org/10.1016/j.future.2025.108316",
+        "cites": 5,
+        "topic": "Ethereum Layer-2",
+        "fwci": 2.88,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.48,
+        "qcat": "Computer Networks and Communications"
+      },
+      {
+        "title": "Kajian Literatur: Rollups Sebagai Solusi Skalabilitas Ethereum dari Layer 1 ke Layer 2",
+        "authors": "Kumala, Y. N., Parlika, R., & Maulana, H.",
+        "year": 2026,
+        "venue": "Prosiding Seminar Nasional Informatika Bela Negara",
+        "url": "https://doi.org/10.33005/santika.v6i1.912",
+        "cites": 0,
+        "topic": "Ethereum Layer-2",
+        "fwci": 0.0,
+        "nr": "na"
+      },
+      {
+        "title": "A Scalable Layer 2 Off-Chain Protocol for Blockchain Using Ethereum Rollups",
+        "authors": "Unnikrishnan, K. N., & Paul, P. V.",
+        "year": 2026,
+        "venue": "Computing and Informatics",
+        "url": "https://doi.org/10.31577/cai_2026_4_902",
+        "cites": 0,
+        "topic": "Ethereum Layer-2",
+        "fwci": 0.0,
+        "q": "Q3",
+        "sjr": 0.29,
+        "qcat": "Computational Theory and Mathematics"
+      }
+    ],
+    "Zero-knowledge proofs (ZKP)": [
+      {
+        "title": "Proofs that yield nothing but their validity or all languages in NP have zero-knowledge proof systems",
+        "authors": "Goldreich, O., Micali, S. M., & Wigderson, A.",
+        "year": 1991,
+        "venue": "Journal of the ACM",
+        "url": "https://doi.org/10.1145/116825.116852",
+        "cites": 1370,
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 11.73,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 1.37,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "Zero-knowledge proofs of identity",
+        "authors": "Feige, U., Fiat, A., & Z, A. S.",
+        "year": 1988,
+        "venue": "Journal of Cryptology",
+        "url": "https://doi.org/10.1007/bf02351717",
+        "cites": 1052,
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 24.14,
+        "pct": 1,
+        "q": "Q2",
+        "sjr": 0.48,
+        "qcat": "Applied Mathematics"
+      },
+      {
+        "title": "Definitions and properties of zero-knowledge proof systems",
+        "authors": "Goldreich, O., & Oren, Y.",
+        "year": 1994,
+        "venue": "Journal of Cryptology",
+        "url": "https://doi.org/10.1007/bf00195207",
+        "cites": 631,
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 7.97,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.48,
+        "qcat": "Applied Mathematics"
+      },
+      {
+        "title": "On the Composition of Zero-Knowledge Proof Systems",
+        "authors": "Goldreich, O., & Krawczyk, H.",
+        "year": 1996,
+        "venue": "SIAM Journal on Computing",
+        "url": "https://doi.org/10.1137/s0097539791220688",
+        "cites": 415,
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 10.51,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 0.84,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "How To Construct Constant-Round Zero-Knowledge Proof Systems for NP",
+        "authors": "Goldreich, O., & Kahan, A.",
+        "year": 1996,
+        "venue": "Journal of Cryptology",
+        "url": "https://doi.org/10.1007/bf00208001",
+        "cites": 351,
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 8.04,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.48,
+        "qcat": "Applied Mathematics"
+      },
+      {
+        "title": "A Survey on Zero-Knowledge Proof in Blockchain",
+        "authors": "Sun, X., Yu, F. R., Zhang, P., Sun, Z., Xie, W., & Peng, X.",
+        "year": 2021,
+        "venue": "IEEE Network",
+        "url": "https://doi.org/10.1109/mnet.011.2000473",
+        "cites": 348,
+        "topic": "Zero-knowledge proofs (ZKP)",
+        "fwci": 25.77,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.58,
+        "qcat": "Computer Networks and Communications"
+      }
+    ],
+    "Graph neural networks (GNN)": [
+      {
+        "title": "The Graph Neural Network Model",
+        "authors": "Scarselli, F., Gori, M., Tsoi, A. C., Hagenbuchner, M., & Monfardini, G.",
+        "year": 2008,
+        "venue": "IEEE Transactions on Neural Networks",
+        "url": "https://doi.org/10.1109/tnn.2008.2005605",
+        "cites": 10281,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 7.11,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 3.15,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "Graph neural networks: A review of methods and applications",
+        "authors": "Zhou, J., Cui, G., Hu, S., Zhang, Z., Yang, C. H., Liu, Z., et al.",
+        "year": 2020,
+        "venue": "AI Open",
+        "url": "https://doi.org/10.1016/j.aiopen.2021.01.001",
+        "cites": 7867,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 287.15,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.64,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "Graph Neural Networks in Recommender Systems: A Survey",
+        "authors": "Wu, S., Sun, F., Zhang, W., Xie, X. H., & Cui, B.",
+        "year": 2022,
+        "venue": "ACM Computing Surveys",
+        "url": "https://doi.org/10.1145/3535101",
+        "cites": 1613,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 217.16,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 5.99,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "Graph neural network for traffic forecasting: A survey",
+        "authors": "Jiang, W., & Luo, J.",
+        "year": 2022,
+        "venue": "Expert Systems with Applications",
+        "url": "https://doi.org/10.1016/j.eswa.2022.117921",
+        "cites": 1518,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 127.78,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.94,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks",
+        "authors": "Morris, C., Ritzert, M., Fey, M., Hamilton, W. L., Lenssen, J. E., Rattan, G., et al.",
+        "year": 2019,
+        "venue": "AAAI Publications (The Association for the Advancement of Artificial Intelligence (AAAI))",
+        "url": "https://doi.org/10.1609/aaai.v33i01.33014602",
+        "cites": 1446,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 56.5,
+        "pct": 1,
+        "nr": "na"
+      },
+      {
+        "title": "GraphDTA: predicting drug–target binding affinity with graph neural networks",
+        "authors": "Nguyen, T., Le, H., Quinn, T. P., Nguyen, T., Le, T. D., & Venkatesh, S.",
+        "year": 2020,
+        "venue": "Bioinformatics",
+        "url": "https://doi.org/10.1093/bioinformatics/btaa921",
+        "cites": 1347,
+        "topic": "Graph neural networks (GNN)",
+        "fwci": 20.16,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.53,
+        "qcat": "Biochemistry"
+      }
+    ],
+    "Ontology": [
+      {
+        "title": "Formal ontology, conceptual analysis and knowledge representation",
+        "authors": "Guarino, N.",
+        "year": 1995,
+        "venue": "International Journal of Human-Computer Studies",
+        "url": "https://doi.org/10.1006/ijhc.1995.1066",
+        "cites": 1233,
+        "topic": "Ontology",
+        "fwci": 15.73,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 1.13,
+        "qcat": "Education"
+      },
+      {
+        "title": "Development of a method for ontology-based empirical knowledge representation and reasoning",
+        "authors": "Chen, Y.",
+        "year": 2010,
+        "venue": "Decision Support Systems",
+        "url": "https://doi.org/10.1016/j.dss.2010.02.010",
+        "cites": 111,
+        "topic": "Ontology",
+        "fwci": 6.08,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 2.08,
+        "qcat": "Arts and Humanities (miscellaneous)"
+      },
+      {
+        "title": "Ontology-based knowledge representation for additive manufacturing",
+        "authors": "Sanfilippo, E. M., Belkadi, F., & Bernard, A.",
+        "year": 2019,
+        "venue": "Computers in Industry",
+        "url": "https://doi.org/10.1016/j.compind.2019.03.006",
+        "cites": 104,
+        "topic": "Ontology",
+        "fwci": 4.73,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 2.17,
+        "qcat": "Computer Science (miscellaneous)"
+      },
+      {
+        "title": "Ontology-based knowledge representation of industrial production workflow",
+        "authors": "Yang, C., Zheng, Y., Tu, X., Ala-Laurinaho, R., Autiosalo, J., Seppänen, O., et al.",
+        "year": 2023,
+        "venue": "Advanced Engineering Informatics",
+        "url": "https://doi.org/10.1016/j.aei.2023.102185",
+        "cites": 85,
+        "topic": "Ontology",
+        "fwci": 5.89,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 2.02,
+        "qcat": "Artificial Intelligence"
+      },
+      {
+        "title": "Ontology-Based Knowledge Representation in Robotic Systems: A Survey Oriented toward Applications",
+        "authors": "Manzoor, S., Rocha, Y. G., Joo, S., Bae, S., Kim, E., Joo, K., et al.",
+        "year": 2021,
+        "venue": "Applied Sciences",
+        "url": "https://doi.org/10.3390/app11104324",
+        "cites": 81,
+        "topic": "Ontology",
+        "fwci": 2.66,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.56,
+        "qcat": "Computer Science Applications"
+      },
+      {
+        "title": "TransO: a knowledge-driven representation learning method with ontology information constraints",
+        "authors": "Li, Z., Liu, X., Wang, X., Liu, P., & Shen, Y.",
+        "year": 2022,
+        "venue": "World Wide Web",
+        "url": "https://doi.org/10.1007/s11280-022-01016-3",
+        "cites": 77,
+        "topic": "Ontology",
+        "fwci": 4.45,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 0.98,
+        "qcat": "Computer Networks and Communications"
+      }
+    ],
+    "AI governance": [
+      {
+        "title": "A Layered Model for AI Governance",
+        "authors": "Gasser, U., & Almeida, V. A. F.",
+        "year": 2017,
+        "venue": "IEEE Internet Computing",
+        "url": "https://doi.org/10.1109/mic.2017.4180835",
+        "cites": 524,
+        "topic": "AI governance",
+        "fwci": 6.75,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 0.84,
+        "qcat": "Computer Networks and Communications"
+      },
+      {
+        "title": "The Dark Sides of Artificial Intelligence: An Integrated AI Governance Framework for Public Administration",
+        "authors": "Wirtz, B. W., Weyerer, J. C., & Sturm, B. J.",
+        "year": 2020,
+        "venue": "International Journal of Public Administration",
+        "url": "https://doi.org/10.1080/01900692.2020.1749851",
+        "cites": 496,
+        "topic": "AI governance",
+        "fwci": 11.68,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.67,
+        "qcat": "Business and International Management"
+      },
+      {
+        "title": "AI governance: themes, knowledge gaps and future agendas",
+        "authors": "Birkstedt, T., Minkkinen, M., Tandon, A., & Mäntymäki, M.",
+        "year": 2023,
+        "venue": "Internet Research",
+        "url": "https://doi.org/10.1108/intr-01-2022-0042",
+        "cites": 484,
+        "topic": "AI governance",
+        "fwci": 33.5,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.21,
+        "qcat": "Communication"
+      },
+      {
+        "title": "Defining organizational AI governance",
+        "authors": "Mäntymäki, M., Minkkinen, M., Birkstedt, T., & Viljanen, M.",
+        "year": 2022,
+        "venue": "AI and Ethics",
+        "url": "https://doi.org/10.1007/s43681-022-00143-x",
+        "cites": 461,
+        "topic": "AI governance",
+        "fwci": 15.32,
+        "pct": 1,
+        "nr": "na"
+      },
+      {
+        "title": "AI Governance in a Complex and Rapidly Changing Regulatory Landscape: A Global Perspective",
+        "authors": "Zaidan, E., & Ibrahim, I. A.",
+        "year": 2024,
+        "venue": "Humanities and Social Sciences Communications",
+        "url": "https://doi.org/10.1057/s41599-024-03560-x",
+        "cites": 286,
+        "topic": "AI governance",
+        "fwci": 336.36,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 0.9,
+        "qcat": "Arts and Humanities (miscellaneous)"
+      },
+      {
+        "title": "Toward AI Governance: Identifying Best Practices and Potential Barriers and Outcomes",
+        "authors": "Papagiannidis, E., Enholm, I. M., Dremel, C., Mikalef, P., & Krogstie, J.",
+        "year": 2022,
+        "venue": "Information Systems Frontiers",
+        "url": "https://doi.org/10.1007/s10796-022-10251-y",
+        "cites": 285,
+        "topic": "AI governance",
+        "fwci": 9.56,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 2.55,
+        "qcat": "Computer Networks and Communications"
+      }
+    ],
     "NeurIPS": [
       {
         "title": "The Machine Reconnaissance Blind Chess Tournament of NeurIPS 2022",
@@ -28429,152 +29613,9 @@
         "crank": "A*"
       }
     ],
-    "ICML": [
-      {
-        "title": "Improving language models by retrieving from trillions of tokens",
-        "authors": "Borgeaud, S., Mensch, A., Hoffmann, J., Cai, T., Rutherford, E., Millican, K., et al.",
-        "year": 2021,
-        "venue": "International Conference on Machine Learning",
-        "url": "https://doi.org/10.48550/arXiv.2112.04426",
-        "cites": 2038,
-        "topic": "ICML",
-        "crank": "A*"
-      },
-      {
-        "title": "OptNet: Differentiable Optimization as a Layer in Neural Networks",
-        "authors": "Amos, B., & Kolter, J.",
-        "year": 2017,
-        "venue": "International Conference on Machine Learning",
-        "url": "https://doi.org/10.48550/arXiv.1703.00443",
-        "cites": 1444,
-        "topic": "ICML",
-        "crank": "A*"
-      },
-      {
-        "title": "Feature hashing for large scale multitask learning",
-        "authors": "Weinberger, K. Q., Dasgupta, A., Langford, J., Smola, A., & Attenberg, J.",
-        "year": 2009,
-        "venue": "International Conference on Machine Learning",
-        "url": "https://doi.org/10.1145/1553374.1553516",
-        "cites": 1153,
-        "topic": "ICML",
-        "crank": "A*"
-      },
-      {
-        "title": "Parseval Networks: Improving Robustness to Adversarial Examples",
-        "authors": "Cissé, M., Bojanowski, P., Grave, E., Dauphin, Y., & Usunier, N.",
-        "year": 2017,
-        "venue": "International Conference on Machine Learning",
-        "url": "https://doi.org/10.48550/arXiv.1704.08847",
-        "cites": 932,
-        "topic": "ICML",
-        "crank": "A*"
-      },
-      {
-        "title": "Equivariant message passing for the prediction of tensorial properties and molecular spectra",
-        "authors": "Schütt, K. T., Unke, O., & Gastegger, M.",
-        "year": 2021,
-        "venue": "International Conference on Machine Learning",
-        "url": "https://doi.org/10.48550/arXiv.2102.03150",
-        "cites": 914,
-        "topic": "ICML",
-        "crank": "A*"
-      },
-      {
-        "title": "Partially Supervised Classification of Text Documents",
-        "authors": "Liu, B., Lee, W. S., Yu, P. S., & Li, X.",
-        "year": 2002,
-        "venue": "International Conference on Machine Learning",
-        "url": "https://www.semanticscholar.org/paper/006b577653e0e91e1cfd37c32c6d1cfb198a730e",
-        "cites": 669,
-        "topic": "ICML",
-        "crank": "A*"
-      }
-    ],
-    "ICLR": [
-      {
-        "title": "DAB-DETR: Dynamic Anchor Boxes are Better Queries for DETR",
-        "authors": "Liu, S., Li, F., Zhang, H., Yang, X., Qi, X., Su, H., et al.",
-        "year": 2022,
-        "venue": "International Conference on Learning Representations",
-        "url": "https://doi.org/10.48550/arXiv.2201.12329",
-        "cites": 1537,
-        "topic": "ICLR",
-        "crank": "A*"
-      },
-      {
-        "title": "A DIRT-T Approach to Unsupervised Domain Adaptation",
-        "authors": "Shu, R., Hung, H., Narui, H., & Ermon, S.",
-        "year": 2018,
-        "venue": "International Conference on Learning Representations",
-        "url": "https://doi.org/10.48550/arXiv.1802.08735",
-        "cites": 683,
-        "topic": "ICLR",
-        "crank": "A*"
-      },
-      {
-        "title": "NaturalSpeech 2: Latent Diffusion Models are Natural and Zero-Shot Speech and Singing Synthesizers",
-        "authors": "Shen, K., Ju, Z., Tan, X., Liu, E., Leng, Y., He, L., et al.",
-        "year": 2023,
-        "venue": "International Conference on Learning Representations",
-        "url": "https://doi.org/10.48550/arXiv.2304.09116",
-        "cites": 447,
-        "topic": "ICLR",
-        "crank": "A*"
-      },
-      {
-        "title": "Open-World Semi-Supervised Learning",
-        "authors": "Cao, K., Brbic, M., & Leskovec, J.",
-        "year": 2021,
-        "venue": "International Conference on Learning Representations",
-        "url": "https://doi.org/10.48550/arXiv.2102.03526",
-        "cites": 287,
-        "topic": "ICLR",
-        "crank": "A*"
-      },
-      {
-        "title": "An Exponential Learning Rate Schedule for Deep Learning",
-        "authors": "Li, Z., & Arora, S.",
-        "year": 2019,
-        "venue": "International Conference on Learning Representations",
-        "url": "https://doi.org/10.48550/arXiv.1910.07454",
-        "cites": 285,
-        "topic": "ICLR",
-        "crank": "A*"
-      },
-      {
-        "title": "On the Reliability of Watermarks for Large Language Models",
-        "authors": "Kirchenbauer, J., Geiping, J., Wen, Y., Shu, M., Saifullah, K., Kong, K., et al.",
-        "year": 2023,
-        "venue": "International Conference on Learning Representations",
-        "url": "https://doi.org/10.48550/arXiv.2306.04634",
-        "cites": 263,
-        "topic": "ICLR",
-        "crank": "A*"
-      }
-    ],
-    "CVPR": [
-      {
-        "title": "2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017, Honolulu, HI, USA, July 21-26, 2017",
-        "authors": "Anon.",
-        "year": 2017,
-        "venue": "Computer Vision and Pattern Recognition",
-        "url": "https://doi.org/10.1109/cvpr35066.2017",
-        "cites": 44,
-        "topic": "CVPR",
-        "crank": "A*"
-      },
-      {
-        "title": "1998 Conference on Computer Vision and Pattern Recognition (CVPR '98), June 23-25, 1998, Santa Barbara, CA, USA",
-        "authors": "Anon.",
-        "year": 1998,
-        "venue": "Computer Vision and Pattern Recognition",
-        "url": "https://www.semanticscholar.org/paper/0073595eae6b195af3951afbd62050e9a70df48f",
-        "cites": 0,
-        "topic": "CVPR",
-        "crank": "A*"
-      }
-    ],
+    "ICML": [],
+    "ICLR": [],
+    "CVPR": [],
     "AAAI": [
       {
         "title": "Proceedings of the Twenty-Eighth AAAI Conference on Artificial Intelligence, July 27 -31, 2014, Québec City, Québec, Canada.",
@@ -28794,7 +29835,9 @@
         "url": "https://doi.org/10.1007/978-3-032-37447-9",
         "cites": 0,
         "topic": "ECCV",
-        "crank": "A*"
+        "q": "Q4",
+        "sjr": 0.1,
+        "qcat": "Literature and Literary Theory"
       }
     ],
     "KDD": [
@@ -28806,7 +29849,9 @@
         "url": "https://doi.org/10.1145/2623330.2630803",
         "cites": 58,
         "topic": "KDD",
-        "crank": "A*"
+        "q": "Q4",
+        "sjr": 0.1,
+        "qcat": "Multidisciplinary"
       }
     ],
     "JMLR": [],
