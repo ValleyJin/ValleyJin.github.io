@@ -268,17 +268,47 @@ def load_scimago():
     ISSN 매칭(논문 카드·venue)과 제목 매칭(Google Scholar 논문의 venue 텍스트)을 모두 지원.
     실패해도(네트워크 등) 빈 맵으로 조용히 진행."""
     m, tmap = {}, {}
-    try:
-        # SCImago는 봇 UA를 403으로 막는다 → 브라우저 UA + Referer로 요청
-        req = urllib.request.Request(SCIMAGO_URL, headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-            "Referer": "https://www.scimagojr.com/journalrank.php",
-            "Accept": "text/csv,application/octet-stream,*/*",
-        })
-        with urllib.request.urlopen(req, timeout=120) as r:
-            raw = r.read().decode("utf-8", "ignore")
-    except Exception as e:
-        print(f"! SCImago 로드 실패(저널 분위 생략): {e}", file=sys.stderr)
+    # SCImago는 Cloudflare 뒤에 있어 단순 요청을 403으로 막는다. 실제 브라우저에 가까운
+    # 헤더 묶음 + gzip 허용 + 재시도로 받아 본다. 그래도 막히면(또는 CSV 대신 차단
+    # 페이지가 오면) 빈 맵을 반환하고, 호출부(main)가 직전 venues.json의 분위를 보존한다.
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,text/csv,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Referer": "https://www.scimagojr.com/journalrank.php",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "same-origin", "Sec-Fetch-User": "?1",
+        "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+        "sec-ch-ua-mobile": "?0", "sec-ch-ua-platform": '"macOS"',
+        "Connection": "keep-alive",
+    }
+    raw, last_err = None, None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(SCIMAGO_URL, headers=headers)
+            with urllib.request.urlopen(req, timeout=120) as r:
+                data = r.read()
+                enc = (r.headers.get("Content-Encoding") or "").lower()
+            if "gzip" in enc:
+                import gzip
+                data = gzip.decompress(data)
+            elif "deflate" in enc:
+                import zlib
+                try: data = zlib.decompress(data)
+                except zlib.error: data = zlib.decompress(data, -zlib.MAX_WBITS)
+            raw = data.decode("utf-8", "ignore")
+            break
+        except Exception as e:
+            last_err = e
+            if attempt < 2:
+                time.sleep(3 * (attempt + 1))   # 3s, 6s 백오프 후 재시도
+    if raw is None:
+        print(f"! SCImago 로드 실패(이전 분위 보존): {last_err}", file=sys.stderr)
+        return {"issn": m, "title": tmap}
+    if raw.lstrip()[:1] == "<" or "attention required" in raw[:800].lower():
+        print("! SCImago가 CSV 대신 Cloudflare 차단 페이지 반환(이전 분위 보존)", file=sys.stderr)
         return {"issn": m, "title": tmap}
     lines = raw.splitlines()
     if not lines:
@@ -885,6 +915,26 @@ def main():
 
     # 토픽 학회/저널의 영향력지수·분야 → venues.json (칩 선택 시 표시)
     venues_meta = build_venues(topics, scimago, core, cutoff=cutoff)
+    # SCImago가 막혀 분위를 못 받았으면(issn 맵이 빔), 직전 venues.json의 SJR·분위·
+    # 카테고리를 그대로 보존한다. 빈 값으로 덮어쓰면 산점도 필터(v.sjr!=null && v.q)에서
+    # 저널이 통째로 빠져 상위 저널·일부 분야가 화면에서 사라진다(2026-11 Cloudflare 차단 사례).
+    if not scimago.get("issn"):
+        try:
+            prev = (json.loads(VENUES.read_text(encoding="utf-8")) or {}).get("venues", {})
+        except Exception:
+            prev = {}
+        kept = 0
+        for label, v in venues_meta.items():
+            if v.get("type") != "journal" or v.get("sjr") is not None:
+                continue
+            pv = prev.get(label)
+            if pv and pv.get("sjr") is not None:
+                v["sjr"], v["q"] = pv.get("sjr"), pv.get("q")
+                if pv.get("cats") is not None:
+                    v["cats"] = pv.get("cats")
+                kept += 1
+        if kept:
+            print(f"· SCImago 분위 보존: {kept} journals(직전 값 유지)", file=sys.stderr)
     if venues_meta:
         VENUES.write_text(_dump({"generated": date.today().isoformat(), "venues": venues_meta},
                                      ensure_ascii=False, indent=2), encoding="utf-8")
