@@ -914,6 +914,9 @@ body.qmap-fs-open{overflow:hidden}
 .qflt-hint{font-size:9.5px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted)}
 .qleg-q:not(.is-off){color:var(--ink);font-weight:600}
 .qhint{margin:2px 2px 6px;font-size:10.5px;color:var(--muted);line-height:1.5}
+.qasof{margin:0 2px 8px;font-size:11px;color:var(--ink-soft);line-height:1.5;display:flex;align-items:center;gap:7px}
+.qasof b{color:var(--ink);font-weight:600}
+.qasof-old{color:#c98a2b;border:1px solid rgba(201,138,43,.4);border-radius:4px;padding:0 6px;font-size:10px}
 @media(max-width:640px){.qjbar{justify-content:flex-start}.qfld,.qleg-q{font-size:12px;padding:6px 12px}.qflt-lbl{border-right:0;padding-right:0;width:100%}}
 
 /* 점이 많은 산점도: 라벨 기본 숨김, 호버/탭 시만 표시 */

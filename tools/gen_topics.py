@@ -915,14 +915,16 @@ def main():
 
     # 토픽 학회/저널의 영향력지수·분야 → venues.json (칩 선택 시 표시)
     venues_meta = build_venues(topics, scimago, core, cutoff=cutoff)
+    scimago_ok = bool(scimago.get("issn"))                     # 이번 실행에서 SCImago를 실제로 받았나
+    try:
+        prev_root = json.loads(VENUES.read_text(encoding="utf-8")) or {}
+    except Exception:
+        prev_root = {}
+    prev = prev_root.get("venues", {})
     # SCImago가 막혀 분위를 못 받았으면(issn 맵이 빔), 직전 venues.json의 SJR·분위·
     # 카테고리를 그대로 보존한다. 빈 값으로 덮어쓰면 산점도 필터(v.sjr!=null && v.q)에서
     # 저널이 통째로 빠져 상위 저널·일부 분야가 화면에서 사라진다(2026-11 Cloudflare 차단 사례).
-    if not scimago.get("issn"):
-        try:
-            prev = (json.loads(VENUES.read_text(encoding="utf-8")) or {}).get("venues", {})
-        except Exception:
-            prev = {}
+    if not scimago_ok:
         kept = 0
         for label, v in venues_meta.items():
             if v.get("type") != "journal" or v.get("sjr") is not None:
@@ -935,10 +937,16 @@ def main():
                 kept += 1
         if kept:
             print(f"· SCImago 분위 보존: {kept} journals(직전 값 유지)", file=sys.stderr)
+    # SJR·분위 기준일: 이번에 SCImago를 받았으면 오늘, 못 받았으면 직전 값을 승계한다.
+    # 그래프에 이 날짜를 적어, 오늘이면 최신·과거면 백업 유지 중임을 바로 알 수 있게 한다.
+    scimago_asof = date.today().isoformat() if scimago_ok else (prev_root.get("scimago_asof") or prev_root.get("generated"))
     if venues_meta:
-        VENUES.write_text(_dump({"generated": date.today().isoformat(), "venues": venues_meta},
-                                     ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"✓ venues: {len(venues_meta)} venues", file=sys.stderr)
+        payload = {"generated": date.today().isoformat()}
+        if scimago_asof:
+            payload["scimago_asof"] = scimago_asof
+        payload["venues"] = venues_meta
+        VENUES.write_text(_dump(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"✓ venues: {len(venues_meta)} venues · SJR 기준일 {scimago_asof}", file=sys.stderr)
     vidx = build_vidx(venues_meta)    # 내 토픽 venues → 배지 폴백 인덱스
 
     result = {"generated": date.today().isoformat(),

@@ -570,7 +570,10 @@ permalink: /articles/
     /* Metrics 탭: 저널(SJR×IF) / 학회(h-index×i10, 크기=논문수) 2D 지형도 */
     (function(){
       var el=document.getElementById('qmap'); if(!el) return;
-      var vs={}; try{ vs=(JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}).venues||{}; }catch(e){ return; }
+      var vs={}, SJR_ASOF='';
+      try{ var _vroot=JSON.parse((document.getElementById('venues-data')||{}).textContent||'{}')||{}; vs=_vroot.venues||{}; SJR_ASOF=_vroot.scimago_asof||_vroot.generated||''; }catch(e){ return; }
+      // SJR 기준일이 오늘에서 3일 넘게 지났으면 백업(직전 값) 유지 중 — SCImago 접속이 막힌 상태
+      function _asofStale(d){ try{ return (new Date()-new Date(d+'T00:00:00'))/86400000 > 3; }catch(e){ return false; } }
       function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
       // 큐레이션 노트 렌더: 안전 escape 후 **강조**·문단(빈 줄)·줄바꿈만 허용
       function _note(s){return esc(s).replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').replace(/\n\n+/g,'</p><p>').replace(/\n/g,'<br>');}
@@ -680,6 +683,7 @@ permalink: /articles/
         var h='<div class="qflt"><span class="qflt-lbl mono"><span class="qflt-step">1단계</span>분야 선택</span><div class="qjbar">'+fldBtns+'</div></div>';
         h+='<div class="qflt"><span class="qflt-lbl mono"><span class="qflt-step">2단계</span>분위 선택</span><div class="qleg mono">'+qBtns+'</div></div>';
         h+='<div class="qhint mono">점 크기 = 논문 수 · 점 클릭 = 상세 · 휠·핀치 확대, 확대 후 드래그로 이동, 더블클릭 리셋</div>';
+        if(SJR_ASOF){ h+='<div class="qasof mono" title="저널 SJR·분위를 SCImago에서 마지막으로 받아 온 날짜입니다. 오늘과 가까우면 최신, 과거면 SCImago 접속이 막혀 직전 값을 유지 중(백업)입니다.">SJR·분위 기준일 · <b>'+esc(SJR_ASOF)+'</b>'+(_asofStale(SJR_ASOF)?'<span class="qasof-old">백업 유지 중</span>':'')+'</div>'; }
         var jpts=jr.map(function(v){ var ify=(v.if2!=null?v.if2:0); return {x:ify,y:v.sjr,label:v.label,link:v.link,
           cls:String(v.q||'q1').toLowerCase(), r:bub(v.works,jwMax), num:(v.if2!=null?v.if2:'–')+'/'+v.sjr, out:excl.indexOf(v.label)>=0,   // IF/SJR(축 순서)
           hl:(jHL!=null && v.label===jHL),
