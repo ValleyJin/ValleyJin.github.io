@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-17",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -72,7 +72,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2512.06688",
-          "cites": 104,
+          "cites": 117,
           "key": true,
           "nr": "na"
         },
@@ -84,7 +84,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2506.19823",
-          "cites": 151,
+          "cites": 172,
           "key": true,
           "nr": "na"
         },
@@ -108,7 +108,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2509.10127",
-          "cites": 35,
+          "cites": 40,
           "key": true,
           "nr": "na"
         },
@@ -120,7 +120,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "Deep persona",
           "arxiv": "2504.10886",
-          "cites": 14,
+          "cites": 19,
           "key": true,
           "nr": "na"
         },
@@ -355,7 +355,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.34073",
-          "cites": 1,
+          "cites": 2,
           "pubdate": "2026-10-25",
           "arxiv": "2610.34073",
           "doi": null,
@@ -439,7 +439,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.24628",
-          "cites": 4,
+          "cites": 8,
           "pubdate": "2026-10-17",
           "arxiv": "2610.24628",
           "doi": null,
@@ -726,7 +726,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2312.03664",
-          "cites": 190,
+          "cites": 211,
           "key": true,
           "nr": "na"
         },
@@ -750,7 +750,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2311.06957",
-          "cites": 49,
+          "cites": 53,
           "key": true,
           "nr": "na"
         },
@@ -786,7 +786,7 @@
           "venue": "RePEc: Research Papers in Economics",
           "topic": "gABM",
           "arxiv": "2307.04986",
-          "cites": 111,
+          "cites": 127,
           "key": true,
           "nr": "na"
         },
@@ -798,7 +798,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2506.13783",
-          "cites": 2,
+          "cites": 3,
           "key": true,
           "nr": "na"
         },
@@ -846,7 +846,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2504.03274",
-          "cites": 58,
+          "cites": 67,
           "key": true,
           "nr": "na"
         },
@@ -858,7 +858,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2411.07038",
-          "cites": 2,
+          "cites": 3,
           "key": true,
           "nr": "na"
         },
@@ -894,7 +894,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2408.17268",
-          "cites": 9,
+          "cites": 11,
           "key": true,
           "nr": "na"
         },
@@ -906,7 +906,7 @@
           "venue": "arXiv (Cornell University)",
           "topic": "gABM",
           "arxiv": "2507.09495",
-          "cites": 2,
+          "cites": 3,
           "key": true,
           "nr": "na"
         },
@@ -989,7 +989,9 @@
           "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
           "first_seen": "2026-11-12",
           "fwci": 0.0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.75,
+          "qcat": "Geography, Planning and Development"
         },
         {
           "title": "GARP: Real-Time Generative Agents on Local Hardware in a Game Engine",
@@ -1032,7 +1034,9 @@
           "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
           "first_seen": "2026-11-10",
           "fwci": 0.0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.67,
+          "qcat": "Architecture"
         },
         {
           "title": "Cultural Adaptation within Repeated Social Interactions",
@@ -1187,7 +1191,9 @@
           "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
           "first_seen": "2026-10-22",
           "fwci": 0.0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.03,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
@@ -1201,20 +1207,6 @@
           "doi": null,
           "cited_key": "Design and Evaluation of Generative Agent-based Platform for",
           "first_seen": "2026-10-21",
-          "nr": "na"
-        },
-        {
-          "title": "Scam Town: Can Scam Education Spread Like a Vaccine?",
-          "authors": "S Ren, T Duong, X Shen, et al.",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2610.25040",
-          "cites": 0,
-          "pubdate": "2026-10-18",
-          "arxiv": "2610.25040",
-          "doi": null,
-          "cited_key": "Epidemic Modeling with Generative Agents",
-          "first_seen": "2026-10-29",
           "nr": "na"
         },
         {
@@ -1271,9 +1263,11 @@
           "doi": "10.1073/pnas.2531748123",
           "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
           "first_seen": "2026-11-01",
-          "fwci": 13.97,
+          "fwci": 10.81,
           "pct": 10,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 3.28,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Vision:\"What Don't I Know About User's Preferences?\"How Uncertainty Estimation Improves Proactive Assistant Alignment",
@@ -1301,20 +1295,6 @@
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-11-12",
-          "nr": "na"
-        },
-        {
-          "title": "Physiology as Topology: Intervenable Organ Graphs for Longitudinal Patient Forecasting",
-          "authors": "X Liang, Y Chen",
-          "year": 2026,
-          "venue": "arXiv (Cornell University)",
-          "url": "https://arxiv.org/abs/2610.33022",
-          "cites": 0,
-          "pubdate": "2026-10-09",
-          "arxiv": "2610.33022",
-          "doi": null,
-          "cited_key": "Epidemic Modeling with Generative Agents",
-          "first_seen": "2026-10-29",
           "nr": "na"
         },
         {
@@ -1393,7 +1373,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2610.03095",
-          "cites": 1,
+          "cites": 2,
           "pubdate": "2026-10-02",
           "arxiv": "2610.03095",
           "doi": null,
@@ -1414,7 +1394,9 @@
           "cited_key": "Scalable Population Synthesis with Deep Generative Modeling",
           "first_seen": "2026-10-16",
           "fwci": 0.0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.98,
+          "qcat": "Civil and Structural Engineering"
         },
         {
           "title": "Auditing Action Settlement in LLM Agent Environments: Order, Progress, and Replay",
@@ -1464,7 +1446,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.36278",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-28",
           "arxiv": "2609.36278",
           "doi": "10.48550/arxiv.2609.36278",
@@ -1478,7 +1460,7 @@
           "year": 2026,
           "venue": "arXiv (Cornell University)",
           "url": "https://arxiv.org/abs/2609.35250",
-          "cites": 0,
+          "cites": 1,
           "pubdate": "2026-09-28",
           "arxiv": "2609.35250",
           "doi": "10.48550/arxiv.2609.35250",
@@ -1513,9 +1495,37 @@
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-11-12",
           "nr": "na"
+        },
+        {
+          "title": "Exploring Causal Mechanisms with Generative Agent-Based Models",
+          "authors": "X Liu, H Shang, T Bhat, et al.",
+          "year": 2026,
+          "venue": "arXiv.org",
+          "url": "https://arxiv.org/abs/2609.35819",
+          "cites": 0,
+          "pubdate": "2026-09-21",
+          "arxiv": "2609.35819",
+          "doi": "10.48550/arxiv.2609.35819",
+          "cited_key": "Do Large Language Models Solve the Problems of Agent-Based M",
+          "first_seen": "2026-11-17",
+          "nr": "na"
+        },
+        {
+          "title": "Can Agents Adapt Their Institutions And Sacrifice Themselves During Collapse? Executable Self-Governance in a GovSim Commons",
+          "authors": "G Rehm",
+          "year": 2026,
+          "venue": "arXiv (Cornell University)",
+          "url": "https://arxiv.org/abs/2609.22600",
+          "cites": 0,
+          "pubdate": "2026-09-18",
+          "arxiv": "2609.22600",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-17",
+          "nr": "na"
         }
       ],
-      "n_citing": 529,
+      "n_citing": 464,
       "query": "agent-based modeling"
     }
   }
