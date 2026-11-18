@@ -899,7 +899,7 @@
       "venue": "The International journal of networked and distributed computing",
       "url": "https://doi.org/10.1007/s44227-026-00132-0",
       "cites": 0,
-      "topic": "Memory in Agentic AI",
+      "topic": "Zero-knowledge proofs (ZKP)",
       "fwci": 0.0,
       "q": "Q2",
       "sjr": 0.55,
@@ -1122,7 +1122,7 @@
       "venue": "Nature Medicine",
       "url": "https://doi.org/10.1038/s41591-026-04808-6",
       "cites": 3,
-      "topic": "LLM inference serving",
+      "topic": "AI governance",
       "fwci": 3.06,
       "pct": 10,
       "q": "Q1",
@@ -29190,45 +29190,7 @@
         "qcat": "Computational Theory and Mathematics"
       }
     ],
-    "Ethereum Layer-2": [
-      {
-        "title": "A stochastic performance model for evaluating ethereum layer-2 rollups",
-        "authors": "Melo, C., Miqueias, J., Messias, J., Gonçalves, G., Silva, F. A., Soares, A., et al.",
-        "year": 2025,
-        "venue": "Future Generation Computer Systems",
-        "url": "https://doi.org/10.1016/j.future.2025.108316",
-        "cites": 5,
-        "topic": "Ethereum Layer-2",
-        "fwci": 2.15,
-        "q": "Q1",
-        "sjr": 1.48,
-        "qcat": "Computer Networks and Communications"
-      },
-      {
-        "title": "Kajian Literatur: Rollups Sebagai Solusi Skalabilitas Ethereum dari Layer 1 ke Layer 2",
-        "authors": "Kumala, Y. N., Parlika, R., & Maulana, H.",
-        "year": 2026,
-        "venue": "Prosiding Seminar Nasional Informatika Bela Negara",
-        "url": "https://doi.org/10.33005/santika.v6i1.912",
-        "cites": 0,
-        "topic": "Ethereum Layer-2",
-        "fwci": 0.0,
-        "nr": "na"
-      },
-      {
-        "title": "A Scalable Layer 2 Off-Chain Protocol for Blockchain Using Ethereum Rollups",
-        "authors": "Unnikrishnan, K. N., & Paul, P. V.",
-        "year": 2026,
-        "venue": "Computing and Informatics",
-        "url": "https://doi.org/10.31577/cai_2026_4_902",
-        "cites": 0,
-        "topic": "Ethereum Layer-2",
-        "fwci": 0.0,
-        "q": "Q3",
-        "sjr": 0.29,
-        "qcat": "Computational Theory and Mathematics"
-      }
-    ],
+    "Ethereum Layer-2": [],
     "Zero-knowledge proofs (ZKP)": [],
     "Graph neural networks (GNN)": [
       {
@@ -29400,19 +29362,91 @@
         "qcat": "Computer Networks and Communications"
       }
     ],
-    "AI governance": [],
-    "NeurIPS": [
+    "AI governance": [
       {
-        "title": "The Machine Reconnaissance Blind Chess Tournament of NeurIPS 2022",
-        "authors": "Gardner, R. W., Perrotta, G., Shah, A., Kalyanakrishnan, S., Wang, K. A., Clark, G., et al.",
-        "year": 2021,
-        "venue": "Neural Information Processing Systems",
-        "url": "https://www.semanticscholar.org/paper/0050e1c2005479bdad9ce5c21d555b05b7027914",
-        "cites": 4,
-        "topic": "NeurIPS",
-        "crank": "A*"
+        "title": "A Layered Model for AI Governance",
+        "authors": "Gasser, U., & Almeida, V. A. F.",
+        "year": 2017,
+        "venue": "IEEE Internet Computing",
+        "url": "https://doi.org/10.1109/mic.2017.4180835",
+        "cites": 622,
+        "topic": "AI governance",
+        "fwci": 7.14,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 0.84,
+        "qcat": "Computer Networks and Communications"
+      },
+      {
+        "title": "The Dark Sides of Artificial Intelligence: An Integrated AI Governance Framework for Public Administration",
+        "authors": "Wirtz, B. W., Weyerer, J. C., & Sturm, B. J.",
+        "year": 2020,
+        "venue": "International Journal of Public Administration",
+        "url": "https://doi.org/10.1080/01900692.2020.1749851",
+        "cites": 598,
+        "topic": "AI governance",
+        "fwci": 11.64,
+        "pct": 10,
+        "q": "Q2",
+        "sjr": 0.67,
+        "qcat": "Business and International Management"
+      },
+      {
+        "title": "AI governance: themes, knowledge gaps and future agendas",
+        "authors": "Birkstedt, T., Minkkinen, M., Tandon, A., & Mäntymäki, M.",
+        "year": 2023,
+        "venue": "Internet Research",
+        "url": "https://doi.org/10.1108/intr-01-2022-0042",
+        "cites": 576,
+        "topic": "AI governance",
+        "fwci": 33.04,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 2.21,
+        "qcat": "Communication"
+      },
+      {
+        "title": "Defining organizational AI governance",
+        "authors": "Mäntymäki, M., Minkkinen, M., Birkstedt, T., & Viljanen, M.",
+        "year": 2022,
+        "venue": "AI and Ethics",
+        "url": "https://doi.org/10.1007/s43681-022-00143-x",
+        "cites": 525,
+        "topic": "AI governance",
+        "fwci": 15.42,
+        "pct": 1,
+        "nr": "na"
+      },
+      {
+        "title": "Toward AI Governance: Identifying Best Practices and Potential Barriers and Outcomes",
+        "authors": "Papagiannidis, E., Enholm, I. M., Dremel, C., Mikalef, P., & Krogstie, J.",
+        "year": 2022,
+        "venue": "Information Systems Frontiers",
+        "url": "https://doi.org/10.1007/s10796-022-10251-y",
+        "cites": 338,
+        "topic": "AI governance",
+        "fwci": 9.94,
+        "pct": 10,
+        "q": "Q1",
+        "sjr": 2.55,
+        "qcat": "Computer Networks and Communications"
+      },
+      {
+        "title": "AI Governance in a Complex and Rapidly Changing Regulatory Landscape: A Global Perspective",
+        "authors": "Zaidan, E., & Ibrahim, I. A.",
+        "year": 2024,
+        "venue": "Humanities and Social Sciences Communications",
+        "url": "https://doi.org/10.1057/s41599-024-03560-x",
+        "cites": 330,
+        "topic": "AI governance",
+        "fwci": 250.43,
+        "pct": 1,
+        "q": "Q1",
+        "sjr": 0.9,
+        "qcat": "Arts and Humanities (miscellaneous)"
       }
     ],
+    "NeurIPS": [],
     "ICML": [
       {
         "title": "Improving language models by retrieving from trillions of tokens",
