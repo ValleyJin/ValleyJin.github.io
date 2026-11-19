@@ -369,6 +369,42 @@
       "wimg": "https://upload.wikimedia.org/wikipedia/en/6/64/JAIRcover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
       "group": "AI"
     },
+    "Futures": {
+      "name": "Futures",
+      "type": "journal",
+      "link": "https://www.sciencedirect.com/journal/futures",
+      "h": 193,
+      "if2": 6.5,
+      "works": 6715,
+      "issn": "0016-3287",
+      "domain": "Social Sciences",
+      "field": "Business, Management and Accounting",
+      "sub": "Management of Technology and Innovation",
+      "sjr": 1.43,
+      "q": "Q1",
+      "cats": [
+        [
+          "Business and International Management",
+          "Q1"
+        ],
+        [
+          "Development",
+          "Q1"
+        ],
+        [
+          "Sociology and Political Science",
+          "Q1"
+        ]
+      ],
+      "topics3y": [
+        "Sustainability and Climate Change Governance",
+        "Scientific Research and Philosophical Inquiry",
+        "Ethics and Social Impacts of AI",
+        "Utopian, Dystopian, and Speculative Fiction"
+      ],
+      "about": "Futures is a peer-reviewed academic journal covering futures studies. It is published by Elsevier. The editors-in-chief are Patrick van der Duin and Chris Groves.",
+      "group": "Futures Studies"
+    },
     "TFSC": {
       "name": "Technological Forecasting and Social Change",
       "type": "journal",
@@ -653,12 +689,6 @@
           "Development",
           "Q2"
         ]
-      ],
-      "topics3y": [
-        "Scientific Research and Philosophical Inquiry",
-        "Innovation and Knowledge Management",
-        "Entrepreneurship Studies and Influences",
-        "Virtual Reality Applications and Impacts"
       ],
       "group": "Futures Studies"
     },
