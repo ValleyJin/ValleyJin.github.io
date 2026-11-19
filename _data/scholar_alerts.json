@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18",
+  "generated": "2026-11-19",
   "source": "Google Scholar alerts (email)",
   "items": [
     {
@@ -10,9 +10,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-17",
-      "q": "Q1",
-      "sjr": 2.26,
-      "qcat": "Chemical Engineering (miscellaneous)"
+      "nr": "na"
     },
     {
       "title": "PRISMA: A Schema-Coordinated Multi-Agent Framework for Open-Domain Multi-Hop Question Answering",
@@ -22,9 +20,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-17",
-      "q": "Q1",
-      "sjr": 4.83,
-      "qcat": "Applied Mathematics"
+      "crank": "A"
     },
     {
       "title": "Auriga: Harness-Governed LLM Agents for Effective Throughput Optimization in Execute-Order-Validate Permissioned Blockchains",
@@ -94,9 +90,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-17",
-      "q": "Q1",
-      "sjr": 4.83,
-      "qcat": "Applied Mathematics"
+      "crank": "A"
     },
     {
       "title": "From Snapshot to Snooping: An Empirical Study on Geolocation Privacy Leakage in Large Vision Language Models",
@@ -126,9 +120,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-17",
-      "q": "Q1",
-      "sjr": 1.89,
-      "qcat": "Artificial Intelligence"
+      "nr": "na"
     },
     {
       "title": "Adaptive Knowledge Graph Game: A Large Language Model-Driven Framework for Personalized E-Learning",
@@ -138,9 +130,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-17",
-      "q": "Q2",
-      "sjr": 0.48,
-      "qcat": "Applied Mathematics"
+      "nr": "na"
     },
     {
       "title": "DesignTaste: Benchmarking AI-Generator Visual Design Against Award-Wining Works",
@@ -180,9 +170,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-16",
-      "q": "Q1",
-      "sjr": 0.95,
-      "qcat": "Hardware and Architecture"
+      "nr": "na"
     },
     {
       "title": "Large Language Models for Self-Adaptive Systems: Feedback-Loop Integration and Agentic Adaptation",
@@ -232,9 +220,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-16",
-      "q": "Q1",
-      "sjr": 2.92,
-      "qcat": "Building and Construction"
+      "nr": "na"
     },
     {
       "title": "FViT: A Foundation-Tokenized Vision Transformer with Retrieval-Augmented Multi-Scale Ensembling for Deep Learning-Based Spatial Gene Expression Prediction …",
@@ -244,9 +230,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-16",
-      "q": "Q1",
-      "sjr": 1.32,
-      "qcat": "Catalysis"
+      "nr": "na"
     },
     {
       "title": "B-12/Capri: A Local-First AI Companion with Traceable Memory and Controlled Tool Use",
@@ -306,9 +290,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-16",
-      "q": "Q1",
-      "sjr": 1.53,
-      "qcat": "Behavioral Neuroscience"
+      "nr": "na"
     },
     {
       "title": "SCALE: Small-Model-First Concept Abstraction with LLM-Guided Experience Internalization",
@@ -368,9 +350,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-14",
-      "q": "Q1",
-      "sjr": 5.63,
-      "qcat": "Computer Graphics and Computer-Aided Design"
+      "nr": "na"
     },
     {
       "title": "The Digital Dynamics of Language Vitality: Exploring Child‐Algorithm Interactions on YouTube and Language Shift in Bishkek, Kyrgyzstan",
@@ -400,9 +380,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-14",
-      "q": "Q1",
-      "sjr": 1.34,
-      "qcat": "Ecological Modeling"
+      "nr": "na"
     },
     {
       "title": "How communicating an AI's relational risk influences trust perceptions in AI-assisted decision-making",
@@ -412,9 +390,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-14",
-      "q": "Q1",
-      "sjr": 2.06,
-      "qcat": "Business and International Management"
+      "nr": "na"
     },
     {
       "title": "Metal ion intercalation in hydrated V2O5 for natural evaporation-driven electricity generation",
@@ -424,9 +400,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-14",
-      "q": "Q1",
-      "sjr": 2.26,
-      "qcat": "Chemical Engineering (miscellaneous)"
+      "nr": "na"
     }
   ]
 }
