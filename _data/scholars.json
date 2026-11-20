@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -13,7 +13,9 @@
           "venue": "Proceedings of the National Academy of Sciences 108 (1), 18-23, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
           "cites": 312,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 3.28,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Information flow between stock indices",
@@ -22,7 +24,9 @@
           "venue": "EPL (Europhysics Letters) 82 (6), 68003, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:d1gkVwhDpl0C",
           "cites": 211,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.42,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "Impact of the topology of global macroeconomic network on the spreading of economic crises",
@@ -31,7 +35,9 @@
           "venue": "PloS one 6 (3), e18443, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:3vbIHxFL9FgC",
           "cites": 176,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Characteristics of the Korean stock market correlations",
@@ -40,7 +46,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 361 (1), 263-271, 2006",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:u5HHmVD_uO8C",
           "cites": 144,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Interpretable deep learning LSTM model for intelligent economic decision-making",
@@ -49,7 +57,9 @@
           "venue": "Knowledge-Based Systems 248 (19), 108907, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Vztgr1qGG8IC",
           "cites": 129,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.75,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Information flow between composite stock index and individual stocks",
@@ -58,7 +68,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 387 (12), 2851-2856, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:qjMakFHDy7sC",
           "cites": 123,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Global Diversification Discount and Its Discontents: Self-selection Makes a World of Difference",
@@ -66,8 +78,10 @@
           "year": "2016",
           "venue": "Strategic Management Journal 37 (11), 2254-2274, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:mel-f30kHHgC",
-          "cites": 115,
-          "nr": "na"
+          "cites": 116,
+          "q": "Q1",
+          "sjr": 10.15,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Executive compensation, fat cats, and best athletes",
@@ -76,7 +90,9 @@
           "venue": "American Sociological Review 80 (2), 299-328, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:9LpHyFPp1DQC",
           "cites": 100,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 3.28,
+          "qcat": "Sociology and Political Science"
         },
         {
           "title": "Global energy transitions and political systems",
@@ -85,7 +101,9 @@
           "venue": "Renewable and Sustainable Energy Reviews 115, 109370, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:37UQlXuwjP4C",
           "cites": 98,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 4.0,
+          "qcat": "Renewable Energy, Sustainability and the Environment"
         },
         {
           "title": "Network Structure Effects on Incumbency Advantage",
@@ -93,8 +111,10 @@
           "year": "2016",
           "venue": "Strategic Management Journal 37 (8), 1632-1648, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:G1UMdFYMoxkC",
-          "cites": 65,
-          "nr": "na"
+          "cites": 64,
+          "q": "Q1",
+          "sjr": 10.15,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Stakeholders' resistance to telemedicine with focus on physicians: utilizing the Delphi technique",
@@ -103,7 +123,9 @@
           "venue": "Journal of Telemedicine and Telecare 25 (6), 378-385, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:wBLCggQE-ToC",
           "cites": 61,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.38,
+          "qcat": "Health Informatics"
         },
         {
           "title": "Increasing market efficiency in the stock markets",
@@ -121,7 +143,9 @@
           "venue": "Physical Review E 77 (5), 051122, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:3MwzVuqRcA0C",
           "cites": 57,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.68,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Complexity analysis of the stock market",
@@ -130,7 +154,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 379 (1), 179-187, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Y0pCki6q_DkC",
           "cites": 54,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Developments and Challenges of Foresight Evaluation: Review of the Past 30 Years of Research",
@@ -139,7 +165,9 @@
           "venue": "Futures 155, 103291, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Ul_CLA4dPeMC",
           "cites": 50,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.43,
+          "qcat": "Business and International Management"
         },
         {
           "title": "The Dynamics of the EU’s Nuclear Trade Network: An ERGM Analysis",
@@ -148,7 +176,9 @@
           "venue": "Structural Change and Economic Dynamics 63, 470-477, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:uoRD4RTSUPoC",
           "cites": 47,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.42,
+          "qcat": "Economics and Econometrics"
         },
         {
           "title": "Effects of Remote Monitoring of Blood Pressure in Management of Urban Hypertensive Patients: A Systematic Review and Meta-Analysis",
@@ -157,7 +187,9 @@
           "venue": "Telemedicine and e-Health 26 (6), 744-759, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:nqdriD65xNoC",
           "cites": 45,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.77,
+          "qcat": "Health Informatics"
         },
         {
           "title": "Government R&D investment decision-making in the energy sector: LCOE foresight model reveals what regression analysis cannot",
@@ -166,7 +198,9 @@
           "venue": "Energy Strategy Reviews 21, 1-15, 2018",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:SxCCDk4iOpsC",
           "cites": 44,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.38,
+          "qcat": "Energy (miscellaneous)"
         },
         {
           "title": "Critical behavior of the majority voter model is independent of transition rates",
@@ -175,7 +209,9 @@
           "venue": "Physical Review E—Statistical, Nonlinear, and Soft Matter Physics 75 (6 …, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:zYLM7Y9cAGgC",
           "cites": 39,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.68,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Microscopic spin model for the dynamics of the return distribution of the Korean stock market index",
@@ -184,7 +220,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 363 (2), 377-382, 2006",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:K4-iKlO5MD4C",
           "cites": 38,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Opposite effects of R&D cooperation on financial and technological performance in SMEs",
@@ -193,7 +231,9 @@
           "venue": "Journal of Small Business Management 60 (4), 892-925, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:zUl2_INMlC4C",
           "cites": 35,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.35,
+          "qcat": "Business, Management and Accounting (miscellaneous)"
         },
         {
           "title": "Information flow between bitcoin and other financial assets",
@@ -211,7 +251,9 @@
           "venue": "Engineering Applications of Artificial Intelligence 135, 108857, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:RJNGbXJAtMsC",
           "cites": 31,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.78,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Do older workers really reduce firm productivity?",
@@ -229,7 +271,9 @@
           "venue": "PLoS ONE 14 (1), e0209844, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:s85pQhAUCrAC",
           "cites": 30,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Moderating effects of the timing of reward determination and performance standards between rewards and self-efficacy for sustainable intrinsic motivation",
@@ -247,7 +291,9 @@
           "venue": "Plos one 19 (3), e0299833, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:za7pDTvVV8kC",
           "cites": 28,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Intelligent cryptocurrency trading system using integrated AdaBoost-LSTM with market turbulence knowledge",
@@ -256,7 +302,9 @@
           "venue": "Applied Soft Computing 145, 110568, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:ehoypfNsBj8C",
           "cites": 26,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.46,
+          "qcat": "Software"
         },
         {
           "title": "Relationships between capital flow and economic growth: A network analysis",
@@ -265,7 +313,9 @@
           "venue": "Journal of International Financial Markets, Institutions and Money 72, 101345, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:a2necdfpwlEC",
           "cites": 25,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.39,
+          "qcat": "Economics and Econometrics"
         },
         {
           "title": "Government roles in evaluation and arrangement of R&D consortia",
@@ -274,7 +324,20 @@
           "venue": "Technological Forecasting and Social Change 88, 202-215, 2014",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:qE4H1tSSYIIC",
           "cites": 25,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 3.48,
+          "qcat": "Applied Psychology"
+        },
+        {
+          "title": "Mitigating safety challenges in human-robot collaboration: The role of human competence",
+          "authors": "K Jung, JS Yang",
+          "year": "2025",
+          "venue": "Technological Forecasting and Social Change 213, 124022, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:j2GSQqY3pL0C",
+          "cites": 22,
+          "q": "Q1",
+          "sjr": 3.48,
+          "qcat": "Applied Psychology"
         },
         {
           "title": "Agent-based approach for revitalization strategy of knowledge ecosystem",
@@ -283,16 +346,9 @@
           "venue": "Journal of the Physical Society of Japan 78 (3), 034803-034803, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:KlAtU1dfN6UC",
           "cites": 22,
-          "nr": "na"
-        },
-        {
-          "title": "Mitigating safety challenges in human-robot collaboration: The role of human competence",
-          "authors": "K Jung, JS Yang",
-          "year": "2025",
-          "venue": "Technological Forecasting and Social Change 213, 124022, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:j2GSQqY3pL0C",
-          "cites": 21,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "Environmental Policy and the Evolution of Nuclear Trade Network: Insights from the European Union",
@@ -301,7 +357,9 @@
           "venue": "Structural Change and Economic Dynamics 68, 425-432, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:BCdnXsLIVDwC",
           "cites": 19,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.42,
+          "qcat": "Economics and Econometrics"
         },
         {
           "title": "Application of Wang–Landau sampling to a protein model using SMMP",
@@ -310,7 +368,9 @@
           "venue": "Computer Physics Communications 181 (1), 99-104, 2010",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:S2WlVNSe3u4C",
           "cites": 17,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.56,
+          "qcat": "Hardware and Architecture"
         },
         {
           "title": "Gravity model for dyadic Olympic competition",
@@ -319,7 +379,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 513, 447-455, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:U3qCfcK-7lkC",
           "cites": 16,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Exploring the Complexities of Negotiation: Strategies for Successful Intra- and Inter-Team Negotiation in Organizations",
@@ -337,7 +399,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 388 (2-3), 137-144, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:WF5omc3nYNoC",
           "cites": 15,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "The Dynamics of the Global Arms Trade Network: States’ Stability and Instability",
@@ -346,7 +410,9 @@
           "venue": "Defence and Peace Economics 34 (7), 914–930, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:tgTmbKTkO1IC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.6,
+          "qcat": "Social Sciences (miscellaneous)"
         },
         {
           "title": "Why do some firms stop exporting?",
@@ -355,7 +421,9 @@
           "venue": "International Business Review 32, 102141, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:GHsHDPAyICYC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.14,
+          "qcat": "Business and International Management"
         },
         {
           "title": "National offshore wind strategy for late-mover countries",
@@ -364,7 +432,9 @@
           "venue": "Renewable Energy 192, 472-484, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:cRMvf6lLvU8C",
           "cites": 14,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.89,
+          "qcat": "Renewable Energy, Sustainability and the Environment"
         },
         {
           "title": "Can expensive research equipment boost research and development performances?",
@@ -373,7 +443,9 @@
           "venue": "Scientometrics 126, 7715-7742, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:n3vGvpFsckwC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.08,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Finding the right balance: The impact of individual autonomy on balancing exploration and exploitation",
@@ -382,7 +454,9 @@
           "venue": "Journal of Business Research 198, 115483, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:-38epGy1wY0C",
           "cites": 13,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 3.5,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Strategic R&D budget allocation to achieve national energy policy targets: the case of Korea",
@@ -391,7 +465,9 @@
           "venue": "Policy Studies 43 (4), 791-820, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:sJK75vZXtG0C",
           "cites": 13,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.9,
+          "qcat": "Political Science and International Relations"
         },
         {
           "title": "Navigating optimal treaty-shopping routes using a multiplex network model",
@@ -400,7 +476,9 @@
           "venue": "PLOS ONE 16 (8), e0256764, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:AFmTUeZ1pmEC",
           "cites": 13,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Agent-based approach for generation of a money-centered star network",
@@ -409,7 +487,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 387 (22), 5498-5502, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:_FxGoFyzp5QC",
           "cites": 13,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Critical behavior of the X Y model on growing scale-free networks",
@@ -418,7 +498,9 @@
           "venue": "Physical Review E 75 (6), 061130, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Tyk-4Ss8FVUC",
           "cites": 13,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.68,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Effects of the globalization in the Korean financial markets",
@@ -427,7 +509,9 @@
           "venue": "Journal of the Korean Physical Society 48, 135-138, 2006",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:IjCSPb-OGe4C",
           "cites": 13,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.23,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "Why skewed distributions of pay for executives is the cause of much grief: Puzzles and few answers (so far)",
@@ -436,7 +520,9 @@
           "venue": "Networks in Social Policy Problems, 124-142, 2012",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:L_l9e5I586QC",
           "cites": 12,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.78,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Machine learning modeling to forecast uncertainty between capital sudden stop and boom",
@@ -445,7 +531,9 @@
           "venue": "Expert Systems with Applications 237, 121662, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:4E1Y8I9HL1wC",
           "cites": 10,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.94,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "How Allocation of Resources and Attention Aids in Pursuing Multiple Organizational Goals",
@@ -454,7 +542,9 @@
           "venue": "Computational and Mathematical Organization Theory, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:feST4K8J0scC",
           "cites": 10,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.4,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "An agent-based model of deliberative democracy and polarization",
@@ -472,7 +562,9 @@
           "venue": "JOURNAL OF THE KOREAN PHYSICAL SOCIETY 48 (2), 313, 2006",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:YsMSGLbcyi4C",
           "cites": 10,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.23,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "Two kinds of gravitational forces in transport: An analysis using the gravity model",
@@ -481,7 +573,9 @@
           "venue": "International Journal of Modern Physics C, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:U5uP8zs9lfgC",
           "cites": 8,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.3,
+          "qcat": "Computational Theory and Mathematics"
         },
         {
           "title": "R&D cooperation in collaborative consumption of research equipment: An ERGM approach",
@@ -490,7 +584,9 @@
           "venue": "Social Networks 74, 118, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:L7vk9XBBNxgC",
           "cites": 8,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Anthropology"
         },
         {
           "title": "Temporal evolution into a more efficient stock market",
@@ -499,7 +595,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 390 (11), 2002-2008, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Zph67rFs4hoC",
           "cites": 8,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Critical behavior of the XY model on static scale-free networks",
@@ -508,7 +606,9 @@
           "venue": "EPL (Europhysics Letters) 84 (3), 36004, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:eQOLeE2rZwMC",
           "cites": 8,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.42,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "The influence of digital strategy on digital transformation of small and medium-sized enterprises in Korea",
@@ -517,7 +617,9 @@
           "venue": "Industrial Management & Data Systems, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:1wZ_wKGpLuwC",
           "cites": 7,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.26,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "The portfolio eﬀect in the power sector of economies prioritizing renewable energy",
@@ -526,7 +628,9 @@
           "venue": "Energy Policy 208, 114934, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:-vzq6BoH5oUC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.52,
+          "qcat": "Energy (miscellaneous)"
         },
         {
           "title": "Predicting renewable energy stock volatility: A GARCH-CNN approach with indicator analysis",
@@ -535,7 +639,9 @@
           "venue": "Renewable Energy 256, 124296, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:cOfwuRB03ygC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.89,
+          "qcat": "Renewable Energy, Sustainability and the Environment"
         },
         {
           "title": "Global transmission of COVID-19: A gravity model approach",
@@ -544,7 +650,20 @@
           "venue": "International Journal of Modern Physics C (IJMPC) 34 (04), 1-16, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:2Q0AJrNhS-QC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.3,
+          "qcat": "Computational Theory and Mathematics"
+        },
+        {
+          "title": "Understanding Moderators of Home Blood Pressure Telemonitoring Systems in Urban Hypertensive Patients: A Systematic Review and Meta-Analysis",
+          "authors": "WS Choi, IS Shin, JS Yang",
+          "year": "2020",
+          "venue": "Telemedicine and e-Health 26 (8), 1016-1034, 2020",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:2vr6o8x5NLkC",
+          "cites": 6,
+          "q": "Q2",
+          "sjr": 0.77,
+          "qcat": "Health Informatics"
         },
         {
           "title": "Return intervals analysis of the Korean stock market",
@@ -565,22 +684,15 @@
           "nr": "na"
         },
         {
-          "title": "Understanding Moderators of Home Blood Pressure Telemonitoring Systems in Urban Hypertensive Patients: A Systematic Review and Meta-Analysis",
-          "authors": "WS Choi, IS Shin, JS Yang",
-          "year": "2020",
-          "venue": "Telemedicine and e-Health 26 (8), 1016-1034, 2020",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:2vr6o8x5NLkC",
-          "cites": 5,
-          "nr": "na"
-        },
-        {
           "title": "Optimization of consensus time by combining the voter and the majority voter models on scale-free networks",
           "authors": "JS Yang, I Kim, W Kwak",
           "year": "2009",
           "venue": "EPL (Europhysics Letters) 88 (2), 20009, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:UebtZRa9Y70C",
           "cites": 5,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.42,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "Sub-block order parameter in a driven Ising lattice gas using block distribution functions",
@@ -589,7 +701,9 @@
           "venue": "Physical Review E 75 (4), 041108, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:W7OEmFMy1HYC",
           "cites": 5,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.68,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Scaling exponents and transition behavior of the generalized conserved lattice gas model at zero temperature",
@@ -598,7 +712,9 @@
           "venue": "Physical Review E—Statistical, Nonlinear, and Soft Matter Physics 78 (5 …, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Se3iqnhoufwC",
           "cites": 4,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.68,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Complexity and Entropy Density Analysis of the Korean Stock Market.",
@@ -616,7 +732,9 @@
           "venue": "Corporate Social Responsibility and Environmental Management 33 (4), 5236-5255, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:ynsZFq2pu0MC",
           "cites": 3,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.15,
+          "qcat": "Development"
         },
         {
           "title": "Universalism and particularism in the recommendations of the nobel prize for science",
@@ -625,7 +743,9 @@
           "venue": "Scientometrics 129, 847, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:5VjbC5aozO0C",
           "cites": 3,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.08,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Structural Factors Affecting Global Trends towards Isolationism and Expansionism - A BERGM Analysis",
@@ -634,7 +754,9 @@
           "venue": "Global Networks 24 (1), e12448, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:KqnX2w3egDsC",
           "cites": 3,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.19,
+          "qcat": "Social Sciences (miscellaneous)"
         },
         {
           "title": "Measuring the Network Power of States: The United States versus China",
@@ -661,7 +783,9 @@
           "venue": "Scientometrics, 1-34, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:uPCvBZYD9qUC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.08,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "From Weak to Strong Signals: Exploring R&D Projects with Research Equipment",
@@ -670,7 +794,9 @@
           "venue": "Journal of Informetrics 19 (4), 101747, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:I-2NeQpV75MC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.1,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Longevity of Partnering Terrorist Organization: An Empirical Study Using A Network Diffusion Model",
@@ -679,7 +805,9 @@
           "venue": "Terrorism and Political Violence 36 (1), 39-54, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Cvh0bltMcLgC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.33,
+          "qcat": "Political Science and International Relations"
         },
         {
           "title": "Effects of Blocking Treaty Shopping Routes in the Tax Treaty Network",
@@ -706,7 +834,9 @@
           "venue": "New Journal of Physics 11 (6), 063048, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:kNdYIx-mwKoC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.79,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "Does the majority voter model belong to the Ising universality class on three dimensions?",
@@ -715,7 +845,9 @@
           "venue": "Journal of the Korean Physical Society 52 (6), 1947-1950, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:ufrVoPGSRksC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.23,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "Analyzing Developmental Strategies and the Role of ICT in Underdeveloped Economies: Implications for North Korea",
@@ -724,7 +856,9 @@
           "venue": "Journal of the Asia Pacific Economy 31 (1), 301-324, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:WM2K3OHRCGMC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.48,
+          "qcat": "Development"
         },
         {
           "title": "What makes contact tracing successful? An empirical analysis of COVID-19 data from 38 OECD countries",
@@ -733,7 +867,9 @@
           "venue": "Journal of Infection and Public Health, 103112, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:YGhAHpnIhDoC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.15,
+          "qcat": "Infectious Diseases"
         },
         {
           "title": "Calculating the country risk embedded in treaty-shopping networks",
@@ -742,7 +878,9 @@
           "venue": "Technological Forecasting & Social Change 189, 122354, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:_IsBomjs8bsC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 3.48,
+          "qcat": "Applied Psychology"
         },
         {
           "title": "초불확실성 시장에서 ESG 가기업의 회복탄력성에 미치는 영향",
@@ -760,7 +898,9 @@
           "venue": "Progress in Nuclear Energy 139, 103884, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:Vr2j17o0sqMC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.87,
+          "qcat": "Nuclear Energy and Engineering"
         },
         {
           "title": "정부 에너지 R&D 투자가 수혜기업의 매출에 미치는 영향 분석",
@@ -796,7 +936,9 @@
           "venue": "International Journal of Modern Physics C 38 (03), 2750027, 2027",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:jRIwE-1ttnoC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.3,
+          "qcat": "Computational Theory and Mathematics"
         },
         {
           "title": "Beyond culture and language: Tracing emotional distance through facial expressions in Netflix trailers",
@@ -805,7 +947,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 697, 131736, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:uEM9VtRl8xsC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Networks of knowledge: hiring and collaboration networks in economics and physics departments",
@@ -814,7 +958,9 @@
           "venue": "Journal of Informetrics 20 (1), 101777, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:oH8HCDhqVGsC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.1,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Asymmetries in safety outcomes and learning from failure in subcontracting hierarchies",
@@ -823,7 +969,9 @@
           "venue": "European Management Review, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:BFa5h04uPMwC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Central Bank Digital Currency Design, Systemic Risk, and Financial Stability:, A Complex Systems Simulation Approach",
@@ -859,7 +1007,9 @@
           "venue": "Europe’s Journal of Psychology, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:KIRwYnRZzWQC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
         },
         {
           "title": "The Effect of Rater Accuracy on Performance Assessments within Organizations",
@@ -895,7 +1045,9 @@
           "venue": "Transactions of the Korean Nuclear Society Virtual Spring Meeting, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:qmtmRrLr0tkC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.17,
+          "qcat": "Linguistics and Language"
         },
         {
           "title": "Strategy for Development of North Korea with Disruptive Technology",
@@ -958,7 +1110,9 @@
           "venue": "IEEE transactions on magnetics 45 (6), 2651-2654, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&cstart=100&pagesize=100&citation_for_view=gM0qYNUAAAAJ:kO05sadLmrgC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.64,
+          "qcat": "Electrical and Electronic Engineering"
         },
         {
           "title": "(The) study of information flows in financial markets from the viewpoint of complex systems",
@@ -996,7 +1150,9 @@
           "venue": "International Journal of Modern Physics C 38 (03), 2750027, 2027",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:jRIwE-1ttnoC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.3,
+          "qcat": "Computational Theory and Mathematics"
         },
         {
           "title": "Beyond culture and language: Tracing emotional distance through facial expressions in Netflix trailers",
@@ -1005,7 +1161,9 @@
           "venue": "Physica A: Statistical Mechanics and its Applications 697, 131736, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:uEM9VtRl8xsC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Strategic Prioritization of Environmental, Social, and Governance Goals: A Data‐Driven Efficiency Framework",
@@ -1014,7 +1172,9 @@
           "venue": "Corporate Social Responsibility and Environmental Management 33 (4), 5236-5255, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:ynsZFq2pu0MC",
           "cites": 3,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.15,
+          "qcat": "Development"
         },
         {
           "title": "LLMs as complementary tools for innovation surveys research: pattern replication and contextual relevance",
@@ -1023,7 +1183,9 @@
           "venue": "Scientometrics, 1-34, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:uPCvBZYD9qUC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.08,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Networks of knowledge: hiring and collaboration networks in economics and physics departments",
@@ -1032,7 +1194,9 @@
           "venue": "Journal of Informetrics 20 (1), 101777, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:oH8HCDhqVGsC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.1,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Asymmetries in safety outcomes and learning from failure in subcontracting hierarchies",
@@ -1041,7 +1205,9 @@
           "venue": "European Management Review, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:BFa5h04uPMwC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Central Bank Digital Currency Design, Systemic Risk, and Financial Stability:, A Complex Systems Simulation Approach",
@@ -1068,7 +1234,9 @@
           "venue": "Energy Policy 208, 114934, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:-vzq6BoH5oUC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.52,
+          "qcat": "Energy (miscellaneous)"
         },
         {
           "title": "Predicting renewable energy stock volatility: A GARCH-CNN approach with indicator analysis",
@@ -1077,7 +1245,9 @@
           "venue": "Renewable Energy 256, 124296, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:cOfwuRB03ygC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.89,
+          "qcat": "Renewable Energy, Sustainability and the Environment"
         },
         {
           "title": "Analyzing Developmental Strategies and the Role of ICT in Underdeveloped Economies: Implications for North Korea",
@@ -1086,7 +1256,9 @@
           "venue": "Journal of the Asia Pacific Economy 31 (1), 301-324, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:WM2K3OHRCGMC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.48,
+          "qcat": "Development"
         },
         {
           "title": "What makes contact tracing successful? An empirical analysis of COVID-19 data from 38 OECD countries",
@@ -1095,7 +1267,9 @@
           "venue": "Journal of Infection and Public Health, 103112, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:YGhAHpnIhDoC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.15,
+          "qcat": "Infectious Diseases"
         },
         {
           "title": "From Weak to Strong Signals: Exploring R&D Projects with Research Equipment",
@@ -1104,7 +1278,9 @@
           "venue": "Journal of Informetrics 19 (4), 101747, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:I-2NeQpV75MC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.1,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Finding the right balance: The impact of individual autonomy on balancing exploration and exploitation",
@@ -1113,7 +1289,9 @@
           "venue": "Journal of Business Research 198, 115483, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:-38epGy1wY0C",
           "cites": 13,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 3.5,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Mitigating safety challenges in human-robot collaboration: The role of human competence",
@@ -1121,8 +1299,10 @@
           "year": "2025",
           "venue": "Technological Forecasting and Social Change 213, 124022, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:j2GSQqY3pL0C",
-          "cites": 21,
-          "nr": "na"
+          "cites": 22,
+          "q": "Q1",
+          "sjr": 3.48,
+          "qcat": "Applied Psychology"
         },
         {
           "title": "터치스크린 디스플레이용 안티글레어 처리 방법 및 그를 위한 시스템",
@@ -1140,7 +1320,9 @@
           "venue": "Europe’s Journal of Psychology, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:KIRwYnRZzWQC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.1,
+          "qcat": "Literature and Literary Theory"
         },
         {
           "title": "The influence of digital strategy on digital transformation of small and medium-sized enterprises in Korea",
@@ -1149,7 +1331,9 @@
           "venue": "Industrial Management & Data Systems, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:1wZ_wKGpLuwC",
           "cites": 7,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.26,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Machine learning models based on bubble analysis for Bitcoin market crash prediction",
@@ -1158,7 +1342,9 @@
           "venue": "Engineering Applications of Artificial Intelligence 135, 108857, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:RJNGbXJAtMsC",
           "cites": 31,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.78,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Exploring the Complexities of Negotiation: Strategies for Successful Intra- and Inter-Team Negotiation in Organizations",
@@ -1176,7 +1362,9 @@
           "venue": "Plos one 19 (3), e0299833, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:za7pDTvVV8kC",
           "cites": 28,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Environmental Policy and the Evolution of Nuclear Trade Network: Insights from the European Union",
@@ -1185,7 +1373,9 @@
           "venue": "Structural Change and Economic Dynamics 68, 425-432, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:BCdnXsLIVDwC",
           "cites": 19,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.42,
+          "qcat": "Economics and Econometrics"
         },
         {
           "title": "Machine learning modeling to forecast uncertainty between capital sudden stop and boom",
@@ -1194,7 +1384,9 @@
           "venue": "Expert Systems with Applications 237, 121662, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:4E1Y8I9HL1wC",
           "cites": 10,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.94,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Universalism and particularism in the recommendations of the nobel prize for science",
@@ -1203,7 +1395,9 @@
           "venue": "Scientometrics 129, 847, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:5VjbC5aozO0C",
           "cites": 3,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.08,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Developments and Challenges of Foresight Evaluation: Review of the Past 30 Years of Research",
@@ -1212,7 +1406,9 @@
           "venue": "Futures 155, 103291, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:Ul_CLA4dPeMC",
           "cites": 50,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.43,
+          "qcat": "Business and International Management"
         },
         {
           "title": "Structural Factors Affecting Global Trends towards Isolationism and Expansionism - A BERGM Analysis",
@@ -1221,7 +1417,9 @@
           "venue": "Global Networks 24 (1), e12448, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:KqnX2w3egDsC",
           "cites": 3,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.19,
+          "qcat": "Social Sciences (miscellaneous)"
         },
         {
           "title": "Longevity of Partnering Terrorist Organization: An Empirical Study Using A Network Diffusion Model",
@@ -1230,7 +1428,9 @@
           "venue": "Terrorism and Political Violence 36 (1), 39-54, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:Cvh0bltMcLgC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.33,
+          "qcat": "Political Science and International Relations"
         },
         {
           "title": "Two kinds of gravitational forces in transport: An analysis using the gravity model",
@@ -1239,7 +1439,9 @@
           "venue": "International Journal of Modern Physics C, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:U5uP8zs9lfgC",
           "cites": 8,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.3,
+          "qcat": "Computational Theory and Mathematics"
         },
         {
           "title": "The Dynamics of the Global Arms Trade Network: States’ Stability and Instability",
@@ -1248,7 +1450,9 @@
           "venue": "Defence and Peace Economics 34 (7), 914–930, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:tgTmbKTkO1IC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.6,
+          "qcat": "Social Sciences (miscellaneous)"
         },
         {
           "title": "Intelligent cryptocurrency trading system using integrated AdaBoost-LSTM with market turbulence knowledge",
@@ -1257,7 +1461,9 @@
           "venue": "Applied Soft Computing 145, 110568, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:ehoypfNsBj8C",
           "cites": 26,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.46,
+          "qcat": "Software"
         },
         {
           "title": "Why do some firms stop exporting?",
@@ -1266,7 +1472,9 @@
           "venue": "International Business Review 32, 102141, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:GHsHDPAyICYC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.14,
+          "qcat": "Business and International Management"
         },
         {
           "title": "R&D cooperation in collaborative consumption of research equipment: An ERGM approach",
@@ -1275,7 +1483,9 @@
           "venue": "Social Networks 74, 118, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:L7vk9XBBNxgC",
           "cites": 8,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Anthropology"
         },
         {
           "title": "Measuring the Network Power of States: The United States versus China",
@@ -1293,7 +1503,9 @@
           "venue": "Computational and Mathematical Organization Theory, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:feST4K8J0scC",
           "cites": 10,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.4,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Calculating the country risk embedded in treaty-shopping networks",
@@ -1302,7 +1514,9 @@
           "venue": "Technological Forecasting & Social Change 189, 122354, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:_IsBomjs8bsC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 3.48,
+          "qcat": "Applied Psychology"
         },
         {
           "title": "Global transmission of COVID-19: A gravity model approach",
@@ -1311,7 +1525,9 @@
           "venue": "International Journal of Modern Physics C (IJMPC) 34 (04), 1-16, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:2Q0AJrNhS-QC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.3,
+          "qcat": "Computational Theory and Mathematics"
         },
         {
           "title": "The Dynamics of the EU’s Nuclear Trade Network: An ERGM Analysis",
@@ -1320,7 +1536,9 @@
           "venue": "Structural Change and Economic Dynamics 63, 470-477, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:uoRD4RTSUPoC",
           "cites": 47,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.42,
+          "qcat": "Economics and Econometrics"
         },
         {
           "title": "Strategic R&D budget allocation to achieve national energy policy targets: the case of Korea",
@@ -1329,7 +1547,9 @@
           "venue": "Policy Studies 43 (4), 791-820, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:sJK75vZXtG0C",
           "cites": 13,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.9,
+          "qcat": "Political Science and International Relations"
         },
         {
           "title": "Interpretable deep learning LSTM model for intelligent economic decision-making",
@@ -1338,7 +1558,9 @@
           "venue": "Knowledge-Based Systems 248 (19), 108907, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:Vztgr1qGG8IC",
           "cites": 129,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.75,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Opposite effects of R&D cooperation on financial and technological performance in SMEs",
@@ -1347,7 +1569,9 @@
           "venue": "Journal of Small Business Management 60 (4), 892-925, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:zUl2_INMlC4C",
           "cites": 35,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.35,
+          "qcat": "Business, Management and Accounting (miscellaneous)"
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=gM0qYNUAAAAJ&citpid=12"
@@ -1363,7 +1587,9 @@
           "venue": "Proceedings of the VLDB Endowment 2 (1), 622-633, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Y0pCki6q_DkC",
           "cites": 347,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "TurboGraph: a fast parallel graph engine handling billion-scale graphs in a single PC",
@@ -1380,8 +1606,10 @@
           "year": "2018",
           "venue": "Journal of stroke 21 (1), 42, 2018",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wSy_KLzO7YEC",
-          "cites": 310,
-          "nr": "na"
+          "cites": 312,
+          "q": "Q1",
+          "sjr": 2.71,
+          "qcat": "Cardiology and Cardiovascular Medicine"
         },
         {
           "title": "Neural circuits underlying a psychotherapeutic regimen for fear disorders",
@@ -1390,7 +1618,9 @@
           "venue": "Nature 566 (7744), 339-343, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:qwy9JoKyICEC",
           "cites": 200,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 19.71,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Towards Watt-scale hydroelectric energy harvesting by Ti3C2Tx-based transpiration-driven electrokinetic power generators",
@@ -1399,7 +1629,9 @@
           "venue": "Energy & Environmental Science 15 (1), 123-135, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ZqE1mSdD_DYC",
           "cites": 183,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 9.24,
+          "qcat": "Environmental Chemistry"
         },
         {
           "title": "Sulfur–carbon electrode with PEO‐LiFSI‐PVDF composite coating for high‐rate and long‐life lithium–sulfur batteries",
@@ -1408,7 +1640,9 @@
           "venue": "Advanced Energy Materials 13 (36), 2302139, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:pQTOvowfQioC",
           "cites": 148,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 7.68,
+          "qcat": "Materials Science (miscellaneous)"
         },
         {
           "title": "Detection of skin tumors on chicken carcasses using hyperspectral fluorescence imaging",
@@ -1417,7 +1651,20 @@
           "venue": "Transactions of the ASAE 47 (5), 1785-1792, 2004",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kF1pexMAQbMC",
           "cites": 131,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.17,
+          "qcat": "Linguistics and Language"
+        },
+        {
+          "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
+          "authors": "H Lim, MS Kim, Y Cho, J Ahn, S Ahn, JS Nam, J Bae, TG Yun, ID Kim",
+          "year": "2024",
+          "venue": "Advanced Materials 36 (12), 2301080, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QoJ_w57xiyAC",
+          "cites": 125,
+          "q": "Q1",
+          "sjr": 8.27,
+          "qcat": "Materials Science (miscellaneous)"
         },
         {
           "title": "n-gram/2l: A space and time efficient two-level n-gram inverted index structure",
@@ -1429,22 +1676,15 @@
           "nr": "na"
         },
         {
-          "title": "Hydrovoltaic electricity generator with hygroscopic materials: a review and new perspective",
-          "authors": "H Lim, MS Kim, Y Cho, J Ahn, S Ahn, JS Nam, J Bae, TG Yun, ID Kim",
-          "year": "2024",
-          "venue": "Advanced Materials 36 (12), 2301080, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QoJ_w57xiyAC",
-          "cites": 124,
-          "nr": "na"
-        },
-        {
           "title": "Generation of nanoparticles from friction between railway brake disks and pads",
           "authors": "HG Namgung, JB Kim, SH Woo, S Park, M Kim, MS Kim, GN Bae, D Park, ...",
           "year": "2016",
           "venue": "Environmental science & technology 50 (7), 3453-3461, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:43bX7VzcjpAC",
           "cites": 120,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 3.78,
+          "qcat": "Chemistry (miscellaneous)"
         },
         {
           "title": "Fluorine‐Rich Covalent Organic Framework to Boost Electrochemical Kinetics and Storages of K+ Ions for Potassium‐Ion Battery",
@@ -1453,7 +1693,9 @@
           "venue": "Advanced Energy Materials 13 (26), 2300442, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:R-LXmdHK_14C",
           "cites": 100,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 7.68,
+          "qcat": "Materials Science (miscellaneous)"
         },
         {
           "title": "Biofilm matrix and artificial mediator for efficient electron transport in CO2 microbial electrosynthesis",
@@ -1461,8 +1703,10 @@
           "year": "2022",
           "venue": "Chemical Engineering Journal 427, 131885, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ghEM2AJqZyQC",
-          "cites": 98,
-          "nr": "na"
+          "cites": 99,
+          "q": "Q1",
+          "sjr": 2.26,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Hydrothermal synthesis of metal nanoparticles using glycerol as a reducing agent",
@@ -1480,7 +1724,9 @@
           "venue": "International journal of pharmaceutics 341 (1-2), 97-104, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:7H_jS4BsgvYC",
           "cites": 91,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.98,
+          "qcat": "Pharmaceutical Science"
         },
         {
           "title": "Targettree-rrt*: Continuous-curvature path planning algorithm for autonomous parking in complex environments",
@@ -1489,7 +1735,9 @@
           "venue": "IEEE Transactions on Automation Science and Engineering 21 (1), 606-617, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:PlWzFYVEG4EC",
           "cites": 89,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.12,
+          "qcat": "Control and Systems Engineering"
         },
         {
           "title": "PlanRAG: A plan-then-retrieval augmented generation for generative large language models as decision makers",
@@ -1497,7 +1745,7 @@
           "year": "2024",
           "venue": "Proceedings of the 2024 Conference of the North American Chapter of the …, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4Yq6kJLCcecC",
-          "cites": 86,
+          "cites": 88,
           "nr": "na"
         },
         {
@@ -1507,7 +1755,9 @@
           "venue": "PloS one 10 (1), e0116097, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:LkGwnXOMwfcC",
           "cites": 86,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "GTS: A fast and scalable graph processing method based on streaming topology to GPUs",
@@ -1525,7 +1775,9 @@
           "venue": "Biochemical and biophysical research communications 460 (3), 616-621, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Se3iqnhoufwC",
           "cites": 70,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.72,
+          "qcat": "Biochemistry"
         },
         {
           "title": "Experimental study on two-phase heat transfer in microchannel heat sinks with hotspots",
@@ -1552,7 +1804,9 @@
           "venue": "Journal of microencapsulation 23 (7), 741-749, 2006",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:oPLKW5k6eA4C",
           "cites": 63,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Organic Chemistry"
         },
         {
           "title": "Face recognition using partial least squares components",
@@ -1561,7 +1815,9 @@
           "venue": "Pattern Recognition 37 (6), 1303-1306, 2004",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:2v_ZtQDX9iAC",
           "cites": 60,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.15,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "GMiner: A fast GPU-based frequent itemset mining method for large-scale data",
@@ -1570,7 +1826,9 @@
           "venue": "Information Sciences 439, 19-38, 2018",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:738O_yMBCRsC",
           "cites": 59,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.51,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Performance of small spark ignition engine fueled with biogas at different compression ratio and various carbon dioxide dilution",
@@ -1579,7 +1837,9 @@
           "venue": "Fuel 196, 217-224, 2017",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:OBSaB-F7qqsC",
           "cites": 59,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.48,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Electrode-attached cell-driven biogas upgrading of anaerobic digestion effluent CO2 to CH4 using a microbial electrosynthesis cell",
@@ -1588,7 +1848,9 @@
           "venue": "Chemical Engineering Journal 446, 137079, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:G1UMdFYMoxkC",
           "cites": 56,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.26,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Hippocampus-dependent cognitive enhancement induced by systemic gintonin administration",
@@ -1597,7 +1859,9 @@
           "venue": "Journal of Ginseng Research 40 (1), 55-61, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:DrR-2ekChdkC",
           "cites": 56,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.49,
+          "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
         },
         {
           "title": "Business analytics in (a) blink",
@@ -1615,7 +1879,9 @@
           "venue": "Bioresource technology 320, 124333, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:eGYfIraVYiQC",
           "cites": 55,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.98,
+          "qcat": "Bioengineering"
         },
         {
           "title": "Bioelectrosynthetic Conversion of CO2 Using Different Redox Mediators: Electron and Carbon Balances in a Bioelectrochemical System",
@@ -1624,7 +1890,9 @@
           "venue": "Energies 13 (10), 2572, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:eAlLMO4JVmQC",
           "cites": 53,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.75,
+          "qcat": "Control and Optimization"
         },
         {
           "title": "Elastic wave energy entrapment for reflectionless metasurface",
@@ -1633,7 +1901,9 @@
           "venue": "Physical Review Applied 13 (5), 054036, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:AXkvAH5U_nMC",
           "cites": 53,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.25,
+          "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
           "title": "BIGMiner: a fast and scalable distributed frequent pattern miner for big data",
@@ -1642,7 +1912,9 @@
           "venue": "Cluster Computing 21 (3), 1507-1520, 2018",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:XiSMed-E-HIC",
           "cites": 52,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.01,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Size distribution analysis of airborne wear particles released by subway brake system",
@@ -1651,7 +1923,9 @@
           "venue": "Wear 372, 169-176, 2017",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wMgC3FpKEyYC",
           "cites": 50,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.3,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "Day-to-day differences in cortisol levels and molar cortisol-to-DHEA ratios among working individuals",
@@ -1660,7 +1934,9 @@
           "venue": "Yonsei Medical Journal 51 (2), 212-218, 2010",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:mWEH9CqjF64C",
           "cites": 50,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.72,
+          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "The cortisol awakening response in amyotrophic lateral sclerosis is blunted and correlates with clinical status and depressive mood",
@@ -1669,7 +1945,9 @@
           "venue": "Psychoneuroendocrinology 37 (1), 20-26, 2012",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:EPG8bYD4jVwC",
           "cites": 48,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.33,
+          "qcat": "Endocrine and Autonomic Systems"
         },
         {
           "title": "Kyuhyeon An, Himchan Park, Hyunseok Seo, and Jinwook Kim. 2016. GTS: A fast and scalable graph processing method based on streaming topology to GPUs",
@@ -1705,7 +1983,9 @@
           "venue": "International journal of oral and maxillofacial surgery 42 (2), 158-163, 2013",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:_AeoHAGD03cC",
           "cites": 43,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.79,
+          "qcat": "Oral Surgery"
         },
         {
           "title": "Scaling-invariant boundary image matching using time-series matching techniques",
@@ -1714,7 +1994,9 @@
           "venue": "Data & Knowledge Engineering 69 (10), 1022-1042, 2010",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4TOpqqG69KYC",
           "cites": 43,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.78,
+          "qcat": "Information Systems and Management"
         },
         {
           "title": "The thermo-mechanical behavior of brake discs for high-speed railway vehicles",
@@ -1723,7 +2005,9 @@
           "venue": "Journal of Mechanical Science and Technology 33 (4), 1711-1721, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:7Hz3ACDFbsoC",
           "cites": 42,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.41,
+          "qcat": "Mechanical Engineering"
         },
         {
           "title": "Dissolution rate improvement of valsartan by low temperature recrystallization in compressed CO2: Prevention of excessive agglomeration",
@@ -1741,7 +2025,9 @@
           "venue": "PloS one 14 (4), e0215076, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Z5m8FVwuT1cC",
           "cites": 41,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.73,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Simultaneous synthesis of biodiesel and zinc oxide nanoparticles using supercritical methanol",
@@ -1750,7 +2036,9 @@
           "venue": "Fuel 109, 279-284, 2013",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ce2CqMG-AY4C",
           "cites": 41,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.48,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Optimizing the shape of a bumper beam section considering pedestrian protection",
@@ -1759,7 +2047,9 @@
           "venue": "International Journal of Automotive Technology 11 (4), 489-494, 2010",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:6bLC7aUMtPcC",
           "cites": 40,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.43,
+          "qcat": "Automotive Engineering"
         },
         {
           "title": "Cross-linked microchannels for VLSI hotspot cooling",
@@ -1786,7 +2076,9 @@
           "venue": "Food Chemistry 383, 132277, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:1tZ8xJnm2c8C",
           "cites": 38,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.86,
+          "qcat": "Analytical Chemistry"
         },
         {
           "title": "Effects of surface area of titanium dioxide precursors on the hydrothermal synthesis of barium titanate by dissolution–precipitation",
@@ -1795,7 +2087,9 @@
           "venue": "Industrial & Engineering Chemistry Research 52 (37), 13370-13376, 2013",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:RoXSNcbkSzsC",
           "cites": 38,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.76,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Model predictive control method for autonomous vehicles using time-varying and non-uniformly spaced horizon",
@@ -1804,7 +2098,9 @@
           "venue": "IEEE Access 9, 86475-86487, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Vno172sVVMwC",
           "cites": 37,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Joins on encoded and partitioned data",
@@ -1822,7 +2118,9 @@
           "venue": "Artificial cells, nanomedicine, and biotechnology 41 (2), 85-91, 2013",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:L24QuVWYgZ0C",
           "cites": 36,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.97,
+          "qcat": "Biotechnology"
         },
         {
           "title": "Segmentation of handwritten characters for digitalizing Korean historical documents",
@@ -1840,7 +2138,9 @@
           "venue": "Transactions of KSAE 11 (3), 161-166, 2003",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Br1UauaknNIC",
           "cites": 36,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.17,
+          "qcat": "Linguistics and Language"
         },
         {
           "title": "Facile one-pot synthesis of tungsten oxide (WO3− x) nanoparticles using sub and supercritical fluids",
@@ -1852,22 +2152,26 @@
           "nr": "na"
         },
         {
+          "title": "Design and analysis of an active steering bogie for urban trains",
+          "authors": "JH Park, HI Koh, HM Hur, MS Kim, WH You",
+          "year": "2010",
+          "venue": "Journal of mechanical science and technology 24 (6), 1353-1362, 2010",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:-7ulzOJl1JYC",
+          "cites": 35,
+          "q": "Q2",
+          "sjr": 0.41,
+          "qcat": "Mechanical Engineering"
+        },
+        {
           "title": "A study on an analysis model for the thermo-mechanical behavior of a solid disc brake for rapid transit railway vehicles",
           "authors": "H Hong, M Kim, H Lee, I Jo, N Jeong, H Moon, M Suh, J Lee",
           "year": "2018",
           "venue": "Journal of Mechanical Science and Technology 32 (7), 3223-3231, 2018",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:BzfGm06jWhQC",
           "cites": 34,
-          "nr": "na"
-        },
-        {
-          "title": "Design and analysis of an active steering bogie for urban trains",
-          "authors": "JH Park, HI Koh, HM Hur, MS Kim, WH You",
-          "year": "2010",
-          "venue": "Journal of mechanical science and technology 24 (6), 1353-1362, 2010",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:-7ulzOJl1JYC",
-          "cites": 34,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.41,
+          "qcat": "Mechanical Engineering"
         },
         {
           "title": "Controlled release tamsulosin hydrochloride from alginate beads with waxy materials",
@@ -1876,7 +2180,9 @@
           "venue": "Journal of Pharmacy and Pharmacology 57 (12), 1521-1528, 2005",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:yY3RG6sOEgwC",
           "cites": 34,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.77,
+          "qcat": "Pharmaceutical Science"
         },
         {
           "title": "Autonomous driving using imitation learning with look ahead point for semi structured environments",
@@ -1885,7 +2191,9 @@
           "venue": "Scientific Reports 12 (1), 21285, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:VRfTbSk87rEC",
           "cites": 32,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.89,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Optimal location of brake pad for reduction of temperature deviation on brake disc during high-energy braking",
@@ -1894,7 +2202,9 @@
           "venue": "Journal of Mechanical Science and Technology 35 (3), 1109-1120, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:U4n9YNQMCAIC",
           "cites": 32,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.41,
+          "qcat": "Mechanical Engineering"
         },
         {
           "title": "The partitioned-layer index: Answering monotone top-k queries using the convex skyline and partitioning-merging technique",
@@ -1903,7 +2213,9 @@
           "venue": "Information Sciences 179 (19), 3286-3308, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ufrVoPGSRksC",
           "cites": 31,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.51,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Two-level n-gram index structure and methods of index building, query processing and index derivation",
@@ -1930,7 +2242,20 @@
           "venue": "Nucleic acids research 45 (D1), D475-D481, 2017",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:mB3voiENLucC",
           "cites": 30,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 8.11,
+          "qcat": "Genetics"
+        },
+        {
+          "title": "Facing to latency of hyperledger fabric for blockchain-enabled IoT: Modeling and analysis",
+          "authors": "S Lee, M Kim, J Lee, RH Hsu, MS Kim, TQS Quek",
+          "year": "2023",
+          "venue": "IEEE Network 37 (6), 232-239, 2023",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:37UQlXuwjP4C",
+          "cites": 29,
+          "q": "Q1",
+          "sjr": 2.58,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Systems, methods and computer program products for reducing hash table working-set size for improved latency and scalability in a processing system",
@@ -1942,22 +2267,15 @@
           "nr": "na"
         },
         {
-          "title": "Facing to latency of hyperledger fabric for blockchain-enabled IoT: Modeling and analysis",
-          "authors": "S Lee, M Kim, J Lee, RH Hsu, MS Kim, TQS Quek",
-          "year": "2023",
-          "venue": "IEEE Network 37 (6), 232-239, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:37UQlXuwjP4C",
-          "cites": 28,
-          "nr": "na"
-        },
-        {
           "title": "Aluminum space frame BIW optimization considering multidisciplinary design constraints",
           "authors": "BJ Kim, MS Kim, SJ Heo",
           "year": "2005",
           "venue": "International journal of automotive technology 6 (6), 635-641, 2005",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:O0nohqN1r9EC",
           "cites": 28,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.43,
+          "qcat": "Automotive Engineering"
         },
         {
           "title": "Chronicle: A two-stage density-based clustering algorithm for dynamic networks",
@@ -1975,7 +2293,9 @@
           "venue": "Computer Systems Science and Engineering 22 (6), 365-379, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:d1gkVwhDpl0C",
           "cites": 27,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Digitalizing scheme of handwritten Hanja historical documents",
@@ -1993,7 +2313,9 @@
           "venue": "JMIR medical informatics 9 (8), e24762, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:sJPMR1oEGYQC",
           "cites": 26,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.21,
+          "qcat": "Health Informatics"
         },
         {
           "title": "Synthesis of strontium titanate nanoparticles using supercritical water",
@@ -2002,7 +2324,9 @@
           "venue": "Ceramics International 42 (15), 17853-17857, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QyXJ3EUuO1IC",
           "cites": 26,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.96,
+          "qcat": "Ceramics and Composites"
         },
         {
           "title": "A small axial-flux vernier machine with ring-type magnets for the auto-focusing lens drive system",
@@ -2011,7 +2335,20 @@
           "venue": "IEEE Transactions on Magnetics 52 (7), 1-4, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:DyXnQzXoVgIC",
           "cites": 25,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.64,
+          "qcat": "Electrical and Electronic Engineering"
+        },
+        {
+          "title": "Cortisol awakening response and nighttime salivary cortisol levels in healthy working Korean subjects",
+          "authors": "I Shin, R Ahn, S Chun, Y Lee, M Kim, C Lee, S Sung",
+          "year": "2011",
+          "venue": "Yonsei medical journal 52 (3), 435, 2011",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:SGW5VrABaM0C",
+          "cites": 25,
+          "q": "Q2",
+          "sjr": 0.72,
+          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "Preparation of CoMo/Al2O3, CoMo/CeO2, CoMo/TiO2 catalysts using ultrasonic spray pyrolysis for the hydro-desulfurization of 4, 6-dimethyldibenzothiophene for fuel cell applications",
@@ -2020,7 +2357,9 @@
           "venue": "International Journal of Hydrogen Energy 41 (41), 18846-18857, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QsaTk4IG4EwC",
           "cites": 24,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.66,
+          "qcat": "Condensed Matter Physics"
         },
         {
           "title": "MRPrimerW: a tool for rapid design of valid high-quality primers for multiple target qPCR experiments",
@@ -2029,16 +2368,9 @@
           "venue": "Nucleic acids research 44 (W1), W259-W266, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:UeHWp8X0CEIC",
           "cites": 24,
-          "nr": "na"
-        },
-        {
-          "title": "Cortisol awakening response and nighttime salivary cortisol levels in healthy working Korean subjects",
-          "authors": "I Shin, R Ahn, S Chun, Y Lee, M Kim, C Lee, S Sung",
-          "year": "2011",
-          "venue": "Yonsei medical journal 52 (3), 435, 2011",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:SGW5VrABaM0C",
-          "cites": 24,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 8.11,
+          "qcat": "Genetics"
         },
         {
           "title": "Improving discrete diffusion unmasking policies beyond explicit reference policies",
@@ -2065,7 +2397,9 @@
           "venue": "Journal of pharmacy and pharmacology 57 (6), 735-742, 2005",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:hQUaER0FWQ4C",
           "cites": 23,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.77,
+          "qcat": "Pharmaceutical Science"
         },
         {
           "title": "Development of the braking performance evaluation technology for high-speed brake dynamometer",
@@ -2092,7 +2426,9 @@
           "venue": "Chemical and pharmaceutical bulletin 55 (6), 936-939, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:RtRctb2lSbAC",
           "cites": 22,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.32,
+          "qcat": "Chemistry (miscellaneous)"
         },
         {
           "title": "Equilibrium solubility, solvent effect, and equation correlations of cyclosporine in twenty mono solvents and four binary mixtures",
@@ -2101,7 +2437,9 @@
           "venue": "Journal of Molecular Liquids 399, 124389, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:s85pQhAUCrAC",
           "cites": 21,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Atomic and Molecular Physics, and Optics"
         },
         {
           "title": "Distme: A fast and elastic distributed matrix computation engine using gpus",
@@ -2119,7 +2457,9 @@
           "venue": "Archives of pharmacal research 30 (8), 1008-1013, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:mel-f30kHHgC",
           "cites": 21,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.84,
+          "qcat": "Drug Discovery"
         },
         {
           "title": "Automatic summarization based on principal component analysis",
@@ -2137,7 +2477,9 @@
           "venue": "Journal of Chemical Neuroanatomy 52, 49-57, 2013",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:q-HalDI95KYC",
           "cites": 19,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.69,
+          "qcat": "Cellular and Molecular Neuroscience"
         },
         {
           "title": "Structural optimization of a full-text n-gram index using relational normalization",
@@ -2155,7 +2497,9 @@
           "venue": "Transactions of The Korean Society of Automotive Engineers 13 (3), 58, 2005",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:FiDNX6EVdGUC",
           "cites": 19,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.18,
+          "qcat": "Automotive Engineering"
         },
         {
           "title": "Evaluation of temperature effects on brake wear particles using clustered heatmaps",
@@ -2164,7 +2508,9 @@
           "venue": "Environmental Engineering Research 24 (4), 680-689, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:-mN3Mh-tlDkC",
           "cites": 18,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.72,
+          "qcat": "Environmental Engineering"
         },
         {
           "title": "Structural consistency: enabling XML keyword search to eliminate spurious results consistently",
@@ -2182,7 +2528,9 @@
           "venue": "Applied Sciences 11 (17), 8209, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QD3KBmkZPeQC",
           "cites": 17,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.15,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Intra-block partitioning for database management",
@@ -2200,7 +2548,9 @@
           "venue": "Journal of the Korean Society for Precision Engineering 33 (7), 535-540, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:7BrZ7Jt4UNcC",
           "cites": 17,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.13,
+          "qcat": "Industrial and Manufacturing Engineering"
         },
         {
           "title": "MRPrimer: a MapReduce-based method for the thorough design of valid and ranked primers for PCR",
@@ -2209,7 +2559,9 @@
           "venue": "Nucleic acids research 43 (20), e130-e130, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:qjMakFHDy7sC",
           "cites": 17,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 8.11,
+          "qcat": "Genetics"
         },
         {
           "title": "A study on the characteristics of evaporative heat transfer for carbon dioxide in a horizontal tube",
@@ -2227,7 +2579,9 @@
           "venue": "European Radiology 31 (11), 8130-8140, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:N4u4nq0IxgcC",
           "cites": 16,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.72,
+          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "Antireflection film and display device having hard coating layer with specified surface roughness and internal haze",
@@ -2272,7 +2626,9 @@
           "venue": "Animal Cells and Systems 27 (1), 297-308, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:jmjb1lOE9QIC",
           "cites": 15,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.81,
+          "qcat": "Animal Science and Zoology"
         },
         {
           "title": "Analysis of causal relationships for nutrient removal of activated sludge process based on structural equation modeling approaches",
@@ -2281,7 +2637,9 @@
           "venue": "Applied Sciences 9 (7), 1398, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:KaMxkj08jr0C",
           "cites": 15,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.15,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Horizontal reduction: instance-level dimensionality reduction for similarity search in large document databases",
@@ -2299,7 +2657,9 @@
           "venue": "Animal cells and systems 15 (2), 147-154, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:eO3_k5sD8BwC",
           "cites": 15,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.81,
+          "qcat": "Animal Science and Zoology"
         },
         {
           "title": "The preparation of non-aqueous supercapacitors with lithium transition-metal oxide/activated carbon composite positive electrodes",
@@ -2308,7 +2668,9 @@
           "venue": "Bulletin of the Korean Chemical Society 31 (11), 3183-3189, 2010",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:DBa1UEJaJKAC",
           "cites": 15,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.55,
+          "qcat": "Chemistry (miscellaneous)"
         },
         {
           "title": "Studies on the steady state and dynamic characteristics of a carbon dioxide air-conditioning system for vehicles",
@@ -2317,7 +2679,9 @@
           "venue": "Transactions of the Korean Society of Mechanical Engineers, B 31 (6), 531-538, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nqdriD65xNoC",
           "cites": 15,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.17,
+          "qcat": "Linguistics and Language"
         },
         {
           "title": "VLSI hotspot cooling using two-phase microchannel convection",
@@ -2335,7 +2699,9 @@
           "venue": "Journal of Veterinary Science 15 (1), 157, 2014",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Dem6FJhTUoYC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.49,
+          "qcat": "Veterinary (miscellaneous)"
         },
         {
           "title": "Evaluation of rule-based control strategies according to process state diagnosis in A2/O process",
@@ -2344,7 +2710,9 @@
           "venue": "Chemical engineering journal 222, 391-400, 2013",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:QsKbpXNoaWkC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.26,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Potential use of adult bovine serum obtained during the slaughtering process as a biological reagent",
@@ -2353,7 +2721,9 @@
           "venue": "Animal Cells and Systems 17 (2), 106-112, 2013",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wvYxNZNCP7wC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.81,
+          "qcat": "Animal Science and Zoology"
         },
         {
           "title": "Tightly-coupled spatial database features in the Odysseus/OpenGIS DBMS for high-performance",
@@ -2362,7 +2732,9 @@
           "venue": "GeoInformatica 14 (4), 425-446, 2010",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Zph67rFs4hoC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.51,
+          "qcat": "Geography, Planning and Development"
         },
         {
           "title": "Parallel-structure fuzzy system for time series prediction",
@@ -2371,7 +2743,9 @@
           "venue": "International Journal of Fuzzy Systems 3 (1), 331-340, 2001",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:owLR8QvbtFgC",
           "cites": 14,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.67,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Tweaking deep neural networks",
@@ -2380,7 +2754,9 @@
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 44 (9), 5715-5728, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:jL-93Qbq4QoC",
           "cites": 13,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 4.83,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Flaw Evaluation of Bogie connected Part for Railway Vehicle Based on Convolutional Neural Network",
@@ -2398,7 +2774,9 @@
           "venue": "Nucleic acids research 47 (W1), W614-W622, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4MWp96NkSFoC",
           "cites": 13,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 8.11,
+          "qcat": "Genetics"
         },
         {
           "title": "A graph-based database partitioning method for parallel OLAP query processing",
@@ -2416,7 +2794,9 @@
           "venue": "Biotechnology and Bioprocess Engineering 13 (4), 418-423, 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:An6A6Jpfc1oC",
           "cites": 13,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.53,
+          "qcat": "Applied Microbiology and Biotechnology"
         },
         {
           "title": "Optimization of tamsulosin hydrochloride controlled release pellets coated with Surelease and neutralized HPMCP",
@@ -2425,7 +2805,9 @@
           "venue": "Journal of pharmacy and pharmacology 58 (12), 1611-1616, 2006",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:YB4bud6kWLwC",
           "cites": 13,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.77,
+          "qcat": "Pharmaceutical Science"
         },
         {
           "title": "RL-MILP Solver: a reinforcement learning approach for solving mixed-integer linear programs with graph neural networks",
@@ -2443,7 +2825,9 @@
           "venue": "IEEE Internet of Things Journal 10 (14), 12811-12825, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:m92CDrhVnKEC",
           "cites": 12,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.14,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "A deep learning method for intraoperative age-agnostic and disease-specific cardiac output monitoring from arterial blood pressure",
@@ -2461,7 +2845,9 @@
           "venue": "Information Sciences 480, 237-260, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:WA5NYHcadZ8C",
           "cites": 12,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.51,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Influence of fluoride ions contamination in front opening unified pod (FOUP) generating defective bonding pad",
@@ -2470,7 +2856,9 @@
           "venue": "Aerosol and Air Quality Research 17 (3), 936-941, 2017",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:mKu_rENv82IC",
           "cites": 12,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.76,
+          "qcat": "Environmental Chemistry"
         },
         {
           "title": "Development of a protocol to optimize electric power consumption and life cycle environmental impacts for operation of wastewater treatment plant",
@@ -2479,7 +2867,9 @@
           "venue": "Environmental Science and Pollution Research 23 (24), 25451-25466, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:lg2tdxc6qMwC",
           "cites": 12,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.91,
+          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "Linear-time top-k sort method",
@@ -2497,7 +2887,9 @@
           "venue": "International Journal of Circuits, Systems and Signal Processing 2 (3), 2008",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ALROH1vI_8AC",
           "cites": 12,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.26,
+          "qcat": "Political Science and International Relations"
         },
         {
           "title": "Characteristics of evaporative heat transfer and pressure drop of carbon dioxide and correlation development near the critical point",
@@ -2509,13 +2901,26 @@
           "nr": "na"
         },
         {
+          "title": "Chimera: A system design of dual storage and traversal-join unified query processing for SQL/PGQ",
+          "authors": "G Lee, J Park, MS Kim",
+          "year": "2024",
+          "venue": "Proceedings of the VLDB Endowment 18 (2), 279-292, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:m4fbC6XIj1kC",
+          "cites": 11,
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
           "title": "Preparation of hot-melt-extruded solid dispersion based on pre-formulation strategies and its enhanced therapeutic efficacy",
           "authors": "SK Lee, ES Ha, H Park, KT Kang, JS Jeong, JS Kim, I Baek, MS Kim",
           "year": "2023",
           "venue": "Pharmaceutics 15 (12), 2704, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:TaaCk18tZOkC",
           "cites": 11,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Pharmaceutical Science"
         },
         {
           "title": "LineageBA: A fast, exact and scalable graph generation for the Barabási-Albert model",
@@ -2542,7 +2947,9 @@
           "venue": "World Wide Web 18 (3), 491-520, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Tyk-4Ss8FVUC",
           "cites": 11,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.98,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Tuning locality of pair coherence in graphene-based Andreev interferometers",
@@ -2551,7 +2958,9 @@
           "venue": "Scientific Reports 5 (1), 8715, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:rHJHxKgnXwkC",
           "cites": 11,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.89,
+          "qcat": "Multidisciplinary"
         },
         {
           "title": "Performance analysis of cache-conscious hashing techniques for multi-core CPUs",
@@ -2560,7 +2969,9 @@
           "venue": "International Journal of Control and Automation 6 (2), 121-134, 2013",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:UebtZRa9Y70C",
           "cites": 11,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.56,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Gain scheduling control of levitation system in electromagnetic suspension vehicle.",
@@ -2569,7 +2980,9 @@
           "venue": "WSEAS Transactions on Circuits and Systems 5 (12), 1706-1712, 2006",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:CaZNVDsoPx4C",
           "cites": 11,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.15,
+          "qcat": "Electrical and Electronic Engineering"
         },
         {
           "title": "Shape optimization of bumper beam cross section for low speed crash",
@@ -2581,22 +2994,15 @@
           "crank": "B"
         },
         {
-          "title": "Chimera: A system design of dual storage and traversal-join unified query processing for SQL/PGQ",
-          "authors": "G Lee, J Park, MS Kim",
-          "year": "2024",
-          "venue": "Proceedings of the VLDB Endowment 18 (2), 279-292, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:m4fbC6XIj1kC",
-          "cites": 10,
-          "nr": "na"
-        },
-        {
           "title": "GPUTucker: Large-scale GPU-based tucker decomposition using tensor partitioning",
           "authors": "J Lee, D Han, OK Kwon, KW Chon, MS Kim",
           "year": "2024",
           "venue": "Expert Systems with Applications 237, 121445, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:KWzIFqRkAKkC",
           "cites": 10,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.94,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Vision-based autonomous driving for unstructured environments using imitation learning",
@@ -2614,7 +3020,9 @@
           "venue": "International Journal of Systems Applications, Engineering & Development, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kw52XkFRtyQC",
           "cites": 10,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.26,
+          "qcat": "Political Science and International Relations"
         },
         {
           "title": "Automatic loop-shaping of QFT controllers using GAs and evolutionary computation",
@@ -2623,7 +3031,9 @@
           "venue": "Australasian Joint Conference on Artificial Intelligence, 1096-1100, 2005",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:CB2v5VPnA5kC",
           "cites": 10,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.14,
+          "qcat": "Architecture"
         },
         {
           "title": "cuMatch: A GPU-based Memory-Efficient Worst-case Optimal Join Processing Method for Subgraph Queries with Complex Patterns",
@@ -2641,7 +3051,9 @@
           "venue": "IEEE Transactions on Automation Science and Engineering 22, 16250-16265, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:9shLKfS_uJEC",
           "cites": 9,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.12,
+          "qcat": "Control and Systems Engineering"
         },
         {
           "title": "GPrimer: a fast GPU-based pipeline for primer design for qPCR experiments",
@@ -2650,7 +3062,9 @@
           "venue": "BMC bioinformatics 22 (1), 220, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:PVgj2kMGcgYC",
           "cites": 9,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.11,
+          "qcat": "Applied Mathematics"
         },
         {
           "title": "Underbody component monitoring system of railway vehicles using the infra-red thermal images",
@@ -2668,7 +3082,9 @@
           "venue": "Information Sciences 261, 132-148, 2014",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:YOwf2qJgpHMC",
           "cites": 9,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.51,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Experimental studies on the evaporative heat transfer of R32/290 mixtures in a horizontal smooth tube",
@@ -2731,7 +3147,9 @@
           "venue": "Journal of Advanced Transportation 2022 (1), 9328398, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ifOnle78iJkC",
           "cites": 8,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.53,
+          "qcat": "Automotive Engineering"
         },
         {
           "title": "Systems, methods and computer program products for probing a hash table for improved latency and scalability in a processing system",
@@ -2749,7 +3167,9 @@
           "venue": "IEEE Transactions on Knowledge and Data Engineering 27 (10), 2658-2671, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:zYLM7Y9cAGgC",
           "cites": 8,
-          "crank": "A"
+          "q": "Q1",
+          "sjr": 3.02,
+          "qcat": "Computational Theory and Mathematics"
         },
         {
           "title": "Lateral photoconductivity and bound states of self-assembled Ge/Si quantum dots",
@@ -2758,7 +3178,9 @@
           "venue": "Nanotechnology 18 (10), 105403, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:uc_IGeMz5qoC",
           "cites": 8,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.53,
+          "qcat": "Chemistry (miscellaneous)"
         },
         {
           "title": "The Crush Energy Absorption Capacity Optimization for the Side-Member of an Aluminum Space Frame Vehicle",
@@ -2767,7 +3189,9 @@
           "venue": "Trans. of the KSAE 12 (5), 94-100, 2004",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:w0F2JDEymm0C",
           "cites": 8,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.17,
+          "qcat": "Linguistics and Language"
         },
         {
           "title": "Optimization of a F-125 Aluminum Body Considering Static Stiffness, Vibration and Crashworthiness Constraints",
@@ -2794,7 +3218,9 @@
           "venue": "Journal of the American Medical Informatics Association 32 (5), 800-810, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:W2uZP3ddy8sC",
           "cites": 7,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.87,
+          "qcat": "Health Informatics"
         },
         {
           "title": "A cerebellar disinhibitory circuit supports synaptic plasticity",
@@ -2839,7 +3265,9 @@
           "venue": "Bioprocess and biosystems engineering 39 (8), 1191-1199, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Vr2j17o0sqMC",
           "cites": 7,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.75,
+          "qcat": "Bioengineering"
         },
         {
           "title": "Design Method of Railway Wheel Profile with Objective Function of Eqivalent Conicity",
@@ -2848,7 +3276,9 @@
           "venue": "Journal of the Korean Society for Precision Engineering 27 (8), 13-19, 2010",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:1lhNe0rCu4AC",
           "cites": 7,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.13,
+          "qcat": "Industrial and Manufacturing Engineering"
         },
         {
           "title": "Document Thematic words Extraction using principal component analysis",
@@ -2866,7 +3296,9 @@
           "venue": "Bioelectrochemistry 164, 108921, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:3lUAU8Oskd0C",
           "cites": 6,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Biophysics"
         },
         {
           "title": "Active learning using Generative Adversarial Networks for improving generalization and avoiding distractor points",
@@ -2875,7 +3307,9 @@
           "venue": "Expert Systems with Applications 227, 120193, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:-uzm3Y7AvW0C",
           "cites": 6,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.94,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Your lottery ticket is damaged: Towards all-alive pruning for extremely sparse networks",
@@ -2884,7 +3318,9 @@
           "venue": "Information Sciences 634, 608-620, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:NMlhSUseqAsC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.51,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Radical-driven photocatalytic transformation of organic molecules",
@@ -2893,7 +3329,9 @@
           "venue": "Korean Journal of Chemical Engineering 38 (7), 1308-1316, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:9DLIHnF0jcYC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.57,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "A novel sample preparation method on CeO2 nanoparticles with TEM grid embedded liquid CO2 displacement and supercritical CO2 drying for microscopic analysis",
@@ -2911,7 +3349,9 @@
           "venue": "Korean Journal of Chemical Engineering 31 (4), 611-618, 2014",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:DXE8ND7PrJAC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.57,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Multithreaded data merging for multi-core processing unit",
@@ -2938,7 +3378,9 @@
           "venue": "Journal of Animal Science and Technology 54 (1), 2012",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:rTD5ala9j4wC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.77,
+          "qcat": "Animal Science and Zoology"
         },
         {
           "title": "Measurement of the wheel–rail relative displacement for the active wheelsets steering system using the image processing algorithm",
@@ -2974,7 +3416,9 @@
           "venue": "International Journal of Refrigeration 27 (8), 1008, 2004",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ijdKiLOsEJMC",
           "cites": 6,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.82,
+          "qcat": "Building and Construction"
         },
         {
           "title": "A federated learning framework for arbitrary spatio-temporal graph neural networks",
@@ -2983,7 +3427,18 @@
           "venue": "Engineering Applications of Artificial Intelligence 162, 112801, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:x21FZCSn4ZoC",
           "cites": 5,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.78,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "HTFabric: A Fast Re-ordering and Parallel Re-execution Method for a High-Throughput Blockchain",
+          "authors": "J Song, J Jeong, J Lee, I Na, MS Kim",
+          "year": "2024",
+          "venue": "Proceedings of the 33rd ACM International Conference on Information and …, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:naSTrk-c4S8C",
+          "cites": 5,
+          "crank": "A"
         },
         {
           "title": "INFINEL: An efficient GPU-based processing method for unpredictable large output graph queries",
@@ -3001,7 +3456,9 @@
           "venue": "Sensors 22 (24), 9981, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:T_ojBgVMvoEC",
           "cites": 5,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.8,
+          "qcat": "Analytical Chemistry"
         },
         {
           "title": "FuseME: Distributed Matrix Computation Engine based on Cuboid-based Fused Operator and Plan Generation",
@@ -3064,7 +3521,9 @@
           "venue": "Korean Journal of Chemical Engineering 29 (10), 1289-1291, 2012",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:sszUF3NjhM4C",
           "cites": 5,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.57,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Development of self-microemulsifying drug delivery system for enhancing the bioavailability of atorvastatin",
@@ -3073,7 +3532,9 @@
           "venue": "Journal of pharmaceutical investigation 41 (2), 103-109, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:artPoR2Yc-kC",
           "cites": 5,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.95,
+          "qcat": "Pharmaceutical Science"
         },
         {
           "title": "A Study on the Critical Speed of 1/5 Scaled Bogie Model",
@@ -3082,7 +3543,9 @@
           "venue": "Journal of the Korean Society for Railway 10 (6), 800-805, 2007",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:nRpfm8aw39MC",
           "cites": 5,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.21,
+          "qcat": "Automotive Engineering"
         },
         {
           "title": "Odysseus: a high-performance ORDBMS tightly-coupled with spatial database features",
@@ -3127,7 +3590,9 @@
           "venue": "Nature Neuroscience, 1-14, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:8VtEwCQfWZkC",
           "cites": 4,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 11.04,
+          "qcat": "Neuroscience (miscellaneous)"
         },
         {
           "title": "FlexGNN: A High-Performance, Large-Scale Full-Graph GNN System with Best-Effort Training Plan Optimization",
@@ -3137,15 +3602,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:WwIwg2wKZ0QC",
           "cites": 4,
           "nr": "na"
-        },
-        {
-          "title": "HTFabric: A Fast Re-ordering and Parallel Re-execution Method for a High-Throughput Blockchain",
-          "authors": "J Song, J Jeong, J Lee, I Na, MS Kim",
-          "year": "2024",
-          "venue": "Proceedings of the 33rd ACM International Conference on Information and …, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=100&pagesize=100&citation_for_view=1wZVw8QAAAAJ:naSTrk-c4S8C",
-          "cites": 4,
-          "crank": "A"
         },
         {
           "title": "Fedstgnn: A federated spatio-temporal graph neural network",
@@ -3163,7 +3619,9 @@
           "venue": "Sensors 23 (18), 7947, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kUhpeDhEZMUC",
           "cites": 4,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.8,
+          "qcat": "Analytical Chemistry"
         },
         {
           "title": "Data aggregation (dagger) algorithm using adversarial agent policy for dynamic situations",
@@ -3190,7 +3648,9 @@
           "venue": "Pharmaceuticals 14 (2), 114, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:t-hv7AR41mYC",
           "cites": 4,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.14,
+          "qcat": "Drug Discovery"
         },
         {
           "title": "Graph upscaling method for preserving graph properties",
@@ -3217,7 +3677,9 @@
           "venue": "Cluster computing 17 (3), 665-680, 2014",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:8k81kl-MbHgC",
           "cites": 4,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.01,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Towards exploiting gpus for fast pagerank computation of large-scale networks",
@@ -3292,6 +3754,17 @@
           "nr": "na"
         },
         {
+          "title": "SPATS: a practical system for comparative analysis of spatio-temporal graph neural networks",
+          "authors": "H Yoon, KW Chon, MS Kim",
+          "year": "2025",
+          "venue": "Cluster Computing 28 (13), 826, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Azgs6IHzeyYC",
+          "cites": 3,
+          "q": "Q1",
+          "sjr": 1.01,
+          "qcat": "Computer Networks and Communications"
+        },
+        {
           "title": "GFlux: A Fast GPU-Based Out-of-Memory Multi-Hop Query Processing Framework for Trillion-Edge Graphs",
           "authors": "S Oh, H Yoon, D Han, M Kim",
           "year": "2025",
@@ -3307,7 +3780,9 @@
           "venue": "Pharmacology Research & Perspectives 12 (2), e1194, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:lYAcb2jw7qUC",
           "cites": 3,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.74,
+          "qcat": "Pharmacology, Toxicology and Pharmaceutics (miscellaneous)"
         },
         {
           "title": "Connectomenet: A unified deep neural network modeling framework for multi-task learning",
@@ -3316,7 +3791,9 @@
           "venue": "IEEE Access 11, 34297-34308, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:AzKEL7Gb_04C",
           "cites": 3,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Method and apparatus for processing query using N-ary join operators",
@@ -3334,7 +3811,9 @@
           "venue": "IEEE Access 10, 62502-62519, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:IsPWOBWtZBwC",
           "cites": 3,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Continuous-curvature target tree algorithm for path planning in complex parking environments",
@@ -3379,7 +3858,9 @@
           "venue": "Journal of the Korean Society for Precision Engineering 34 (12), 873-879, 2017",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kVjdVfd2voEC",
           "cites": 3,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.13,
+          "qcat": "Industrial and Manufacturing Engineering"
         },
         {
           "title": "Estimation Study on the Wheel/Rail Adhesion Coefficient of Railway Vehicles Using the Scaled Adhesion Tester",
@@ -3388,7 +3869,9 @@
           "venue": "Journal of the Korean Society for Precision Engineering 32 (7), 603-609, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:WC23djZS0W4C",
           "cites": 3,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.13,
+          "qcat": "Industrial and Manufacturing Engineering"
         },
         {
           "title": "An efficient algorithm for updating regular expression indexes in RDF databases",
@@ -3397,7 +3880,9 @@
           "venue": "International Journal of Data Mining and Bioinformatics 11 (2), 205-222, 2015",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:oNZyr7d5Mn4C",
           "cites": 3,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.14,
+          "qcat": "Biochemistry, Genetics and Molecular Biology (miscellaneous)"
         },
         {
           "title": "ATP functional procedure of the train control system for an automated train coupling/decoupling operation",
@@ -3505,7 +3990,9 @@
           "venue": "Neural Computing and Applications 37 (34), 28747-28777, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:EaFouW7jFu4C",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.07,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "GReX: A Graph Neural Network-Based Rerank-then-Expand Method for Detecting Conflicts Among Legal Articles in Korean Criminal Law",
@@ -3517,13 +4004,15 @@
           "nr": "na"
         },
         {
-          "title": "SPATS: a practical system for comparative analysis of spatio-temporal graph neural networks",
-          "authors": "H Yoon, KW Chon, MS Kim",
+          "title": "SearchLight: Neural Architecture Search for Lightweight Spatio-Temporal Graph Neural Networks",
+          "authors": "H Yoon, J Jung, KW Chon, MS Kim",
           "year": "2025",
-          "venue": "Cluster Computing 28 (13), 826, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:Azgs6IHzeyYC",
+          "venue": "IEEE Access, 2025",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:6VlyvFCUEfcC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Real-time motion planning framework for autonomous vehicles with learned committed trajectory distribution",
@@ -3559,7 +4048,9 @@
           "venue": "Biopharmaceutics & Drug Disposition 42 (2-3), 94-102, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:BmWJbWwHJAwC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.54,
+          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "Sex and treatable traits in severe asthma",
@@ -3622,7 +4113,9 @@
           "venue": "Journal of the Korean Society for Precision Engineering 33 (7), 529-534, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:SAZ1SQo2q1kC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q4",
+          "sjr": 0.13,
+          "qcat": "Industrial and Manufacturing Engineering"
         },
         {
           "title": "Simulator design for communication based train control system",
@@ -3658,7 +4151,9 @@
           "venue": "IEICE TRANSACTIONS on Information and Systems 92 (11), 2218-2234, 2009",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:ULOm3_A8WrAC",
           "cites": 2,
-          "nr": "na"
+          "q": "Q3",
+          "sjr": 0.24,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Spatial Clearinghouse Servers for Distributed Environment Using OpenGIS Catalog Interface",
@@ -3685,7 +4180,9 @@
           "venue": "BMC Medical Informatics and Decision Making 26 (1), 143, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:vVJNg6_NJEsC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.22,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Scalable metallic-electron donation systems for optimized glycerol-to-1, 3-propanediol bioconversion",
@@ -3694,7 +4191,9 @@
           "venue": "Chemical Engineering Journal 528, 172338, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:60iIaj97TE0C",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.26,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "Reprint of “A newly isolated Klebsiella variicola JYP01 strain with iron-interaction capability for energy-efficient production of 1, 3-propanediol”",
@@ -3703,16 +4202,9 @@
           "venue": "Journal of the Taiwan Institute of Chemical Engineers, 106443, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:h168fVGZblEC",
           "cites": 1,
-          "nr": "na"
-        },
-        {
-          "title": "SearchLight: Neural Architecture Search for Lightweight Spatio-Temporal Graph Neural Networks",
-          "authors": "H Yoon, J Jung, KW Chon, MS Kim",
-          "year": "2025",
-          "venue": "IEEE Access, 2025",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:6VlyvFCUEfcC",
-          "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.95,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "ScaDANN: A Scalable Disk-based Graph Indexing Method for ANN.",
@@ -3775,7 +4267,9 @@
           "venue": "Environmental Science and Pollution Research 26 (21), 22102-22102, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:KS-xo-ZNxMsC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.91,
+          "qcat": "Medicine (miscellaneous)"
         },
         {
           "title": "Effect of Polymer Type on the Dissolution Profile of a Solid Dispersion of Cilostazol",
@@ -3784,7 +4278,9 @@
           "venue": "Bulletin of the Korean Chemical Society 40 (4), 370-373, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:LK8CI43ZvvMC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.55,
+          "qcat": "Chemistry (miscellaneous)"
         },
         {
           "title": "Ssdminer: A scalable and fast disk-based frequent pattern miner",
@@ -3913,6 +4409,15 @@
           "nr": "na"
         },
         {
+          "title": "DOiT: Better Money-Flow Ranking Can Coexist with Worse Account Selection in Anti-Money Laundering Review",
+          "authors": "G Hong, S Lim, MS Kim",
+          "year": "2026",
+          "venue": "Proceedings of the 7th ACM International Conference on AI in Finance, 819-826, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:v_tt_AnqfNMC",
+          "cites": 0,
+          "nr": "na"
+        },
+        {
           "title": "GSPARC: A Mode-Aware GPU-Based Method for Large-Scale Sparse Tensor Contraction",
           "authors": "S Kim, J Lee, S Park, MS Kim",
           "year": "2026",
@@ -3964,7 +4469,9 @@
           "venue": "Proceedings of the VLDB Endowment 19 (12), 4698-4701, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:E7VqQtBCVmcC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "CONDA: A Connectivity-Aware Dynamic Index for Approximate Nearest Neighbor Search over Evolving Data",
@@ -3973,7 +4480,9 @@
           "venue": "Proceedings of the VLDB Endowment 19 (11), 3357-3370, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:JH5k92_tO-AC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Variable wire gripper and gripper system",
@@ -4046,18 +4555,18 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:WC9gN4BGCRcC",
           "cites": 0,
           "nr": "na"
-        },
-        {
-          "title": "RL-SPH: Learning to Achieve Feasible Solutions for Integer Linear Programs",
-          "authors": "TH Lee, MS Kim",
-          "year": "2024",
-          "venue": "arXiv preprint arXiv:2411.19517, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:M0leSnx2MbUC",
-          "cites": 0,
-          "nr": "na"
         }
       ],
       "recent": [
+        {
+          "title": "DOiT: Better Money-Flow Ranking Can Coexist with Worse Account Selection in Anti-Money Laundering Review",
+          "authors": "G Hong, S Lim, MS Kim",
+          "year": "2026",
+          "venue": "Proceedings of the 7th ACM International Conference on AI in Finance, 819-826, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:v_tt_AnqfNMC",
+          "cites": 0,
+          "nr": "na"
+        },
         {
           "title": "GSPARC: A Mode-Aware GPU-Based Method for Large-Scale Sparse Tensor Contraction",
           "authors": "S Kim, J Lee, S Park, MS Kim",
@@ -4110,7 +4619,9 @@
           "venue": "Proceedings of the VLDB Endowment 19 (12), 4698-4701, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:E7VqQtBCVmcC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "CONDA: A Connectivity-Aware Dynamic Index for Approximate Nearest Neighbor Search over Evolving Data",
@@ -4119,7 +4630,9 @@
           "venue": "Proceedings of the VLDB Endowment 19 (11), 3357-3370, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:JH5k92_tO-AC",
           "cites": 0,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Variable wire gripper and gripper system",
@@ -4164,7 +4677,9 @@
           "venue": "Nature Neuroscience, 1-14, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:8VtEwCQfWZkC",
           "cites": 4,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 11.04,
+          "qcat": "Neuroscience (miscellaneous)"
         },
         {
           "title": "Improving discrete diffusion unmasking policies beyond explicit reference policies",
@@ -4191,7 +4706,9 @@
           "venue": "BMC Medical Informatics and Decision Making 26 (1), 143, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:vVJNg6_NJEsC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.22,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Enhancing Reverse Distillation with Core Exemplar Learning for Unified Multi-Class Anomaly Detection",
@@ -4227,7 +4744,9 @@
           "venue": "Chemical Engineering Journal 528, 172338, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:60iIaj97TE0C",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.26,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "A federated learning framework for arbitrary spatio-temporal graph neural networks",
@@ -4236,7 +4755,9 @@
           "venue": "Engineering Applications of Artificial Intelligence 162, 112801, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:x21FZCSn4ZoC",
           "cites": 5,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.78,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "TAGDN: type-aligning graph diffusion network for capturing long-range dependencies in heterogeneous graphs without over-squashing and over-smoothing",
@@ -4245,7 +4766,9 @@
           "venue": "Neural Computing and Applications 37 (34), 28747-28777, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:EaFouW7jFu4C",
           "cites": 2,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.07,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "GReX: A Graph Neural Network-Based Rerank-then-Expand Method for Detecting Conflicts Among Legal Articles in Korean Criminal Law",
@@ -4262,8 +4785,10 @@
           "year": "2025",
           "venue": "Cluster Computing 28 (13), 826, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:Azgs6IHzeyYC",
-          "cites": 2,
-          "nr": "na"
+          "cites": 3,
+          "q": "Q1",
+          "sjr": 1.01,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Reprint of “A newly isolated Klebsiella variicola JYP01 strain with iron-interaction capability for energy-efficient production of 1, 3-propanediol”",
@@ -4272,7 +4797,9 @@
           "venue": "Journal of the Taiwan Institute of Chemical Engineers, 106443, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:h168fVGZblEC",
           "cites": 1,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 0.95,
+          "qcat": "Chemical Engineering (miscellaneous)"
         },
         {
           "title": "ExtGraph: A Fast Extraction Method of User-intended Graphs from a Relational Database",
@@ -4289,8 +4816,10 @@
           "year": "2025",
           "venue": "IEEE Access, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:6VlyvFCUEfcC",
-          "cites": 1,
-          "nr": "na"
+          "cites": 2,
+          "q": "Q1",
+          "sjr": 0.88,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "FlexGNN: A High-Performance, Large-Scale Full-Graph GNN System with Best-Effort Training Plan Optimization",
@@ -4308,7 +4837,9 @@
           "venue": "Bioelectrochemistry 164, 108921, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:3lUAU8Oskd0C",
           "cites": 6,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Biophysics"
         },
         {
           "title": "A MetaFQ method to Enhance Decision Making in Large Language Models",
@@ -4344,7 +4875,9 @@
           "venue": "IEEE Transactions on Automation Science and Engineering 22, 16250-16265, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:9shLKfS_uJEC",
           "cites": 9,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 2.12,
+          "qcat": "Control and Systems Engineering"
         },
         {
           "title": "GFlux: A Fast GPU-Based Out-of-Memory Multi-Hop Query Processing Framework for Trillion-Edge Graphs",
@@ -4362,7 +4895,9 @@
           "venue": "Journal of the American Medical Informatics Association 32 (5), 800-810, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:W2uZP3ddy8sC",
           "cites": 7,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.87,
+          "qcat": "Health Informatics"
         },
         {
           "title": "ScaDANN: A Scalable Disk-based Graph Indexing Method for ANN.",
@@ -4408,15 +4943,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:0sTkTiv_uMkC",
           "cites": 0,
           "nr": "na"
-        },
-        {
-          "title": "In-Vitro Monitoring of Organic Contaminat Triclosan Using Redox-Modulated Whole-Cell Biosensor",
-          "authors": "H Khandelwal, M Kim, JR Kim",
-          "year": "2024",
-          "venue": "한국에너지기후변화학회 학술대회, 125-125, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:xyvS_IvSCKsC",
-          "cites": 0,
-          "nr": "na"
         }
       ],
       "photo": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=1wZVw8QAAAAJ&citpid=6"
@@ -4431,7 +4957,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14413,
+          "cites": 14511,
           "nr": "na"
         },
         {
@@ -4440,7 +4966,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9692,
+          "cites": 9820,
           "crank": "A*"
         },
         {
@@ -4449,7 +4975,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 905,
+          "cites": 917,
           "nr": "na"
         },
         {
@@ -4458,7 +4984,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 702,
+          "cites": 705,
           "crank": "A*"
         },
         {
@@ -4467,7 +4993,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 395,
+          "cites": 397,
           "crank": "A*"
         },
         {
@@ -4476,8 +5002,10 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 376,
-          "nr": "na"
+          "cites": 379,
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Holistic Evaluation of Text-to-Image Models",
@@ -4485,7 +5013,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 347,
+          "cites": 348,
           "crank": "A*"
         },
         {
@@ -4494,8 +5022,10 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 345,
-          "nr": "na"
+          "cites": 347,
+          "q": "Q1",
+          "sjr": 1.6,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "Evaluating Human-Language Model Interaction",
@@ -4503,8 +5033,10 @@
           "year": "2023",
           "venue": "Transactions on Machine Learning Research (TMLR), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:M3ejUd6NZC8C",
-          "cites": 256,
-          "nr": "na"
+          "cites": 258,
+          "q": "Q2",
+          "sjr": 0.74,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "A Slow Algorithm Improves Users' Assessments of the Algorithm's Accuracy",
@@ -4513,7 +5045,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 3 (CSCW), 1-15, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:u5HHmVD_uO8C",
           "cites": 148,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Random, Messy, Funny, Raw: Finstas as Intimate Reconfigurations of Social Media",
@@ -4521,7 +5055,7 @@
           "year": "2020",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:d1gkVwhDpl0C",
-          "cites": 111,
+          "cites": 112,
           "crank": "A*"
         },
         {
@@ -4530,7 +5064,7 @@
           "year": "2021",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:IjCSPb-OGe4C",
-          "cites": 108,
+          "cites": 109,
           "crank": "A*"
         },
         {
@@ -4539,7 +5073,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 102,
+          "cites": 105,
           "crank": "A*"
         },
         {
@@ -4549,7 +5083,9 @@
           "venue": "Communications of the ACM 66 (8), 105-113, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:TQgYirikUcIC",
           "cites": 94,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.54,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Emotional Amplification During Live-Streaming: Evidence from Comments During and After News Events",
@@ -4558,7 +5094,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 4 (CSCW1), 1-19, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:qjMakFHDy7sC",
           "cites": 89,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Search Media and Elections: A Longitudinal Investigation of Political Search Results",
@@ -4567,7 +5105,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 3 (CSCW), 1-17, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:u-x6o8ySG0sC",
           "cites": 86,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Designing an Online Infrastructure for Collecting AI Data From People With Disabilities",
@@ -4593,8 +5133,17 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 63,
+          "cites": 64,
           "crank": "A*"
+        },
+        {
+          "title": "Shaping the Emerging Norms of Using Large Language Models in Social Computing Research",
+          "authors": "H Shen, T Li, TJJ Li, JS Park, D Yang",
+          "year": "2023",
+          "venue": "Companion Publication of the 2023 Conference on Computer Supported …, 2023",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
+          "cites": 53,
+          "nr": "na"
         },
         {
           "title": "Measuring the Prevalence of Anti-Social Behavior in Online Communities",
@@ -4603,16 +5152,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 6 (CSCW2), 1-29, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:_kc_bZDykSQC",
           "cites": 52,
-          "nr": "na"
-        },
-        {
-          "title": "Shaping the Emerging Norms of Using Large Language Models in Social Computing Research",
-          "authors": "H Shen, T Li, TJJ Li, JS Park, D Yang",
-          "year": "2023",
-          "venue": "Companion Publication of the 2023 Conference on Computer Supported …, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
-          "cites": 51,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Human Subjects Research in the Age of Generative AI: Opportunities and Challenges of Applying LLM-Simulated Data to HCI Studies",
@@ -4630,7 +5172,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 6 (CSCW), 1-21, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:hqOjcs7Dif8C",
           "cites": 22,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Architecting Novel Interactions with Generative AI Models",
@@ -4703,7 +5247,7 @@
           "year": "2025",
           "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:rO6llkc54NcC",
-          "cites": 63,
+          "cites": 64,
           "crank": "A*"
         },
         {
@@ -4712,7 +5256,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 102,
+          "cites": 105,
           "crank": "A*"
         },
         {
@@ -4748,7 +5292,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 905,
+          "cites": 917,
           "nr": "na"
         },
         {
@@ -4766,7 +5310,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 347,
+          "cites": 348,
           "crank": "A*"
         },
         {
@@ -4784,7 +5328,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9692,
+          "cites": 9820,
           "crank": "A*"
         },
         {
@@ -4793,7 +5337,7 @@
           "year": "2023",
           "venue": "Companion Publication of the 2023 Conference on Computer Supported …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
-          "cites": 51,
+          "cites": 53,
           "nr": "na"
         },
         {
@@ -4803,7 +5347,9 @@
           "venue": "Communications of the ACM 66 (8), 105-113, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:TQgYirikUcIC",
           "cites": 94,
-          "nr": "na"
+          "q": "Q1",
+          "sjr": 1.54,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Working With AI to Persuade: Examining a Large Language Model’s Ability to Generate Pro-vaccination Messages",
@@ -4811,8 +5357,10 @@
           "year": "2023",
           "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:4DMP91E08xMC",
-          "cites": 376,
-          "nr": "na"
+          "cites": 379,
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Evaluating Human-Language Model Interaction",
@@ -4820,8 +5368,10 @@
           "year": "2023",
           "venue": "Transactions on Machine Learning Research (TMLR), 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:M3ejUd6NZC8C",
-          "cites": 256,
-          "nr": "na"
+          "cites": 258,
+          "q": "Q2",
+          "sjr": 0.74,
+          "qcat": "Artificial Intelligence"
         },
         {
           "title": "Measuring the Prevalence of Anti-Social Behavior in Online Communities",
@@ -4830,7 +5380,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 6 (CSCW2), 1-29, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:_kc_bZDykSQC",
           "cites": 52,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Social Simulacra: Creating Populated Prototypes for Social Computing Systems",
@@ -4838,7 +5390,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 702,
+          "cites": 705,
           "crank": "A*"
         },
         {
@@ -4847,7 +5399,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 395,
+          "cites": 397,
           "crank": "A*"
         },
         {
@@ -4857,7 +5409,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 6 (CSCW), 1-21, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:hqOjcs7Dif8C",
           "cites": 22,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Can AI Persuade? Examining A Large Language Model’s Ability to Generate Pro-Vaccination Messages",
@@ -4874,8 +5428,10 @@
           "year": "2021",
           "venue": "Foundations and Trends® in Human–Computer Interaction 14 (4), 272-344, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:ufrVoPGSRksC",
-          "cites": 345,
-          "nr": "na"
+          "cites": 347,
+          "q": "Q1",
+          "sjr": 1.6,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "On the opportunities and risks of foundation models",
@@ -4883,7 +5439,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14413,
+          "cites": 14511,
           "nr": "na"
         },
         {
@@ -4901,7 +5457,7 @@
           "year": "2021",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:IjCSPb-OGe4C",
-          "cites": 108,
+          "cites": 109,
           "crank": "A*"
         },
         {
@@ -4920,7 +5476,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 4 (CSCW1), 1-19, 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:qjMakFHDy7sC",
           "cites": 89,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "Re-Examining the Role of Time in Human-Algorithm Interaction",
@@ -4937,7 +5495,7 @@
           "year": "2020",
           "venue": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI), 2020",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:d1gkVwhDpl0C",
-          "cites": 111,
+          "cites": 112,
           "crank": "A*"
         },
         {
@@ -4947,7 +5505,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 3 (CSCW), 1-17, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:u-x6o8ySG0sC",
           "cites": 86,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "A Slow Algorithm Improves Users' Assessments of the Algorithm's Accuracy",
@@ -4956,7 +5516,9 @@
           "venue": "Proceedings of the ACM on Human-Computer Interaction 3 (CSCW), 1-15, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:u5HHmVD_uO8C",
           "cites": 148,
-          "nr": "na"
+          "q": "Q2",
+          "sjr": 0.5,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "“It’s a grid, it’s a form, it’s a spreadsheet!”: Revisiting Sensemaking with Spreadsheets for Presentation and Data Analysis",
