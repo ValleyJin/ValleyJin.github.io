@@ -60,12 +60,107 @@
     {
       "topic": "gABM",
       "query": "generative agent-based modeling",
-      "papers": []
+      "papers": [
+        {
+          "title": "Generative agent‐based modeling: an introduction and tutorial",
+          "authors": "Ghaffarzadegan, N., Majumdar, A., Williams, R., & Hosseinichimeh, N.",
+          "year": 2024,
+          "venue": "System Dynamics Review",
+          "url": "https://doi.org/10.1002/sdr.1761",
+          "cites": 144,
+          "fwci": 11.57,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.1,
+          "qcat": "Management of Technology and Innovation"
+        },
+        {
+          "title": "Generative Agent-Based Models Powered by Large Language Models",
+          "authors": "Lee, B.",
+          "year": 2024,
+          "venue": "Korean Journal of Sociology",
+          "url": "https://doi.org/10.21562/kjs.2024.11.58.4.151",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
+          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
+          "year": 2025,
+          "venue": "Engineering Applications of Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
+          "cites": 23,
+          "fwci": 5.51,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.78,
+          "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "Simulating conversations on social media with generative agent-based models",
+          "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
+          "year": 2025,
+          "venue": "EPJ Data Science",
+          "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
+          "cites": 8,
+          "fwci": 5.99,
+          "pct": 10,
+          "q": "Q2",
+          "sjr": 0.65,
+          "qcat": "Computational Mathematics"
+        }
+      ],
+      "count": 66782
     },
     {
       "topic": "Graph database",
       "query": "Graph database",
-      "papers": []
+      "papers": [
+        {
+          "title": "Baza grafowa w dydaktyce",
+          "authors": "Jaruga, D.",
+          "year": 2026,
+          "venue": "Studia Politologiczne",
+          "url": "https://doi.org/10.33896/spolit.2026.80.1",
+          "cites": 0,
+          "fwci": 0.0,
+          "nr": "na"
+        },
+        {
+          "title": "What If: Causal Analysis with Graph Databases",
+          "authors": "Pachera, A., Palmiotto, M., Bonifati, A., & Mauri, A.",
+          "year": 2025,
+          "venue": "Proceedings of the VLDB Endowment",
+          "url": "https://doi.org/10.14778/3749646.3749671",
+          "cites": 6,
+          "fwci": 1.12,
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "Graph Databases: Revolutionizing Database Design and Data Analysis",
+          "authors": "Baqal, H. M. A., & Sidiq, M. A.",
+          "year": 2024,
+          "venue": "Current Journal of Applied Science and Technology",
+          "url": "https://doi.org/10.9734/cjast/2024/v43i114443",
+          "cites": 7,
+          "fwci": 1.45,
+          "nr": "na"
+        },
+        {
+          "title": "Testing Graph Databases with Synthesized Queries",
+          "authors": "Yin, Z., Liu, S., & Basin, D.",
+          "year": 2025,
+          "venue": "Proceedings of the ACM on Management of Data",
+          "url": "https://doi.org/10.1145/3749186",
+          "cites": 4,
+          "fwci": 1.99,
+          "nr": "na"
+        }
+      ],
+      "count": 142381
     },
     {
       "topic": "Memory in Agentic AI",
@@ -710,7 +805,45 @@
     {
       "topic": "ACL",
       "query": "s2:ACL",
-      "papers": []
+      "papers": [
+        {
+          "title": "From Information to Insight: Leveraging LLMs for Open Aspect-Based Educational Summarization",
+          "authors": "Zhong, Y., & Litman, D.",
+          "year": 2025,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.18653/v1/2025.acl-long.95",
+          "cites": 3,
+          "crank": "A*"
+        },
+        {
+          "title": "QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning and Descriptions",
+          "authors": "Wang, S., Yu, W., Chen, X., Tian, X., Zhang, J., Lu, L., et al.",
+          "year": 2025,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.48550/arXiv.2503.20290",
+          "cites": 37,
+          "crank": "A*"
+        },
+        {
+          "title": "AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models",
+          "authors": "Wu, Y., Yu, W., Cheng, Y., Wang, Y., Zhang, X., Xu, J., et al.",
+          "year": 2024,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.48550/arXiv.2406.09295",
+          "cites": 10,
+          "crank": "A*"
+        },
+        {
+          "title": "MedScore: Generalizable Factuality Evaluation of Open-ended Long-form Medical Answers by Domain-adapted Claim Decomposition and Verification",
+          "authors": "Huang, H., DeLucia, A., Tiyyala, V. M., & Dredze, M.",
+          "year": 2025,
+          "venue": "Annual Meeting of the Association for Computational Linguistics",
+          "url": "https://doi.org/10.18653/v1/2026.findings-acl.693",
+          "cites": 8,
+          "crank": "A*"
+        }
+      ],
+      "count": 11932
     },
     {
       "topic": "EMNLP",
@@ -758,7 +891,45 @@
     {
       "topic": "ICCV",
       "query": "s2:ICCV",
-      "papers": []
+      "papers": [
+        {
+          "title": "On the Complexity-Faithfulness Trade-Off of Gradient-Based Explanations",
+          "authors": "Mehrpanah, A., Gamba, M., Smith, K. A., & Azizpour, H.",
+          "year": 2025,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51701.2025.00337",
+          "cites": 2,
+          "crank": "A*"
+        },
+        {
+          "title": "Computationally-Efficient Neural Image Compression with Shallow Decoders",
+          "authors": "Yang, Y., & Mandt, S.",
+          "year": 2023,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51070.2023.00055",
+          "cites": 56,
+          "crank": "A*"
+        },
+        {
+          "title": "Generalized Few-Shot Point Cloud Segmentation Via Geometric Words",
+          "authors": "Xu, Y., Hu, C., Zhao, N., & Lee, G. H.",
+          "year": 2023,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51070.2023.01966",
+          "cites": 22,
+          "crank": "A*"
+        },
+        {
+          "title": "OVA-Fields: Weakly Supervised Open-Vocabulary Affordance Fields for Robot Operational Part Detection",
+          "authors": "Su, H., Xie, M., Cao, N., Ding, Y., Shao, B., Long, X., et al.",
+          "year": 2025,
+          "venue": "IEEE International Conference on Computer Vision",
+          "url": "https://doi.org/10.1109/ICCV51701.2025.00602",
+          "cites": 7,
+          "crank": "A*"
+        }
+      ],
+      "count": 4640
     },
     {
       "topic": "ECCV",
