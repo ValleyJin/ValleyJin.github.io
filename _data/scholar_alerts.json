@@ -1,7 +1,125 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Access Is Not Use: The Reconstruction–Use Gap in Language-Model Financial Agents",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3858063.3858700",
+      "authors": "Z Duan, J Ren - Proceedings of the 7th ACM International Conference …, 2026",
+      "snippet": "Resolved records can inform forecast assessment, but access does not ensure that a language-model financial agent uses them. We study this reconstruction–use gap in 30,360 A-share firm-years with 27,772 resolved annual earnings-forecast claims, using blinded interventions that hold the current disclosure fixed while changing the resolved record. In a three-checkpoint primary panel, authoritative resolution content alone raises the high-minus-low fulfillment-probability gap (record sensitivity) slightly …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "crank": "A*"
+    },
+    {
+      "title": "Memory× Self-Evolution: When Agents with Cognitive Frameworks Meet Market Paradigm Shifts in Investment",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3858063.3858715",
+      "authors": "D Wang, KH Sew, J Xian, H Xu - Proceedings of the 7th ACM International …, 2026",
+      "snippet": "Fundamental investors reason from cognitive frameworks, and large language model investment agents inherit the same idea, using such a framework as their reasoning backbone. A real market is not stationary. The market shifts, and a thesis that once held can fail after a paradigm shift. Existing financial agents treat the framework as a fixed input and cannot track such a shift. We ask two questions. Can an agent detect that its own framework is being disrupted? Can it revise that framework in time? We …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "nr": "na"
+    },
+    {
+      "title": "Asking for Help at Work: Conversational Colleague Agents (CoCoa) for Scaffolding Workplace Help-Seeking",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3841580.3841604",
+      "authors": "A Gurel, G Regal, E Economidou, M Tscheligi - Proceedings of the 14th International …, 2026",
+      "snippet": "Student employee onboarding is a complex and challenging transition. The use of Artificial-Intelligence (AI)-based conversational agents is a promising direction for onboarding support. While these systems provide immediate responses and solutions to students' questions, they risk replacing human mentorship, a central element of effective, personalized onboarding and community building at the workplace. In this paper, we introduce CoCoa, a multi-agent conversational AI for …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "nr": "na"
+    },
+    {
+      "title": "Overhearing AI Deliberation: Reducing Navigation Cost in 2-on-1 AI Interaction",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3841580.3841598",
+      "authors": "M Nakagawa, T Yamazaki, N Yoshida, K Higuchi - Proceedings of the 14th …, 2026",
+      "snippet": "Conversational AI often places navigation cost on users by requiring them to continuously steer conversations, articulate preferences, and monitor AI responses. Reducing this cost may require giving AI systems more conversational initiative, raising questions about how this shift affects users' agency and responsibility. We explore a 2-on-1 AI deliberation design, where users overhear two agents' discussion and intervene when needed. Informed by a formative study, our system …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "nr": "na"
+    },
+    {
+      "title": "Analysis of the Psychological Impact and Relation of Organizational Networks on Employee Collaborative Processes: Exploring Group Dynamics through LLM Multi …",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3841580.3841627",
+      "authors": "S Saitoh, H Osawa - Proceedings of the 14th International Conference on …, 2026",
+      "snippet": "It is challenging to improve organizational performance by directly controlling internal factors such as psychological safety. Conversely, structural factors, including organizational structure and communication network configurations, are relatively easier to manage. This makes the indirect optimization of collaborative processes through these elements crucial. This study constructed a multi-agent simulation using large language models (LLMs) to explore how organizational structure and …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "crank": "B"
+    },
+    {
+      "title": "When Personalization Becomes Persuasion: Disclosure, Autonomy, and Conversion in Generative-AI Advertising",
+      "url": "https://www.researchbynabidul.com/article/e9bc7e53-d4df-4cd6-be4b-448ae1dae77b",
+      "authors": "MN Haque - Research Journal in Business and Economics, 2025",
+      "snippet": "Generative AI enables advertisers to customize content on a per-person basis with minimal additional expense. The ability to make things seem more relevant can also diminish the persuasive message and reduce consumer choice. This study investigates the influence of personalization intensity and disclosure of AI generated content on the perceived relevance, manipulation, autonomy, trust, and conversion intention. A simulation-based 2× 2 online experiment was designed using 1,248 …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "q": "Q1",
+      "sjr": 2.18,
+      "qcat": "Multidisciplinary"
+    },
+    {
+      "title": "Artificial Intelligence in Gas Turbine Combustor Design: Recent Progress and Future Perspectives",
+      "url": "https://www.mdpi.com/1996-1073/19/22/5486/pdf",
+      "authors": "Y Fang, J Peng, Y Ping, X Liu, J Yan, K Zhou - Energies, 2026",
+      "snippet": "The overall performance, pollutant emissions, and operational reliability of gas turbines are strongly influenced by combustor design. However, combustor design remains challenging because of the strong coupling among turbulent flow, fuel–air mixing, chemical reactions, heat transfer and cooling, and combustion instabilities. Conventional design approaches are often constrained by long development cycles, high computational costs, and difficulties in coordinated multi-objective optimization …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "q": "Q1",
+      "sjr": 0.75,
+      "qcat": "Control and Optimization"
+    },
+    {
+      "title": "Foundation Models in Computer Vision: A Survey and Design Guidelines",
+      "url": "https://ieeexplore.ieee.org/iel8/7433297/7777658/11794939.pdf",
+      "authors": "A Curto-Vilalta, R von Eisenhart-Rothe, D Rueckert… - IEEE Transactions on …, 2026",
+      "snippet": "Foundation models are reshaping computer vision by replacing task-specific pipelines with adaptable models pretrained mainly with self-supervised learning on large-scale data. This review surveys 84 foundation models identified through a structured search and analyzes their use across natural images, medicine, and remote sensing, including both two-dimensional and three-dimensional settings. The article proposes a unified categorization based on training data modality, learning …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "q": "Q1",
+      "sjr": 4.83,
+      "qcat": "Applied Mathematics"
+    },
+    {
+      "title": "Multiple Accounts as Informal Privacy Infrastructure: Managing Audiences and Anticipated Regret on Social Media",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11775497/",
+      "authors": "MJ Dupuis, A Peterson, C Hamilton-Eppler, K Joshi… - 2026 IEEE 17th Annual …, 2026",
+      "snippet": "Social media users maintain multiple, private, and pseudonymous accounts to separate audiences, identities, and content. These arrangements can support privacy while creating additional decisions and maintenance work. This paper examines account segmentation as informal privacy infrastructure through a focused secondary analysis of six segmentation-relevant interviews selected from a parent corpus of 21 university-recruited adults, alongside account-management responses …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "nr": "na"
+    },
+    {
+      "title": "When Transparency May Backfire: Exploratory Signals on Voice and Explanation as a Home Robot Decides Against You",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3841580.3845674",
+      "authors": "SY Kim, C Lee - Proceedings of the 14th International Conference on …, 2026",
+      "snippet": "A home robot can explain why it overrules a household member yet leave that member feeling less influential. A scenario-based 2× 2 video-vignette pilot (N= 31) manipulated procedural voice—a depicted opportunity to express a preference before the decision—and explanation while holding an unfavorable outcome constant. Tests of procedural justice (proposed mediator) and decision acceptance (focal outcome) were imprecise and nonsignificant. Both checks differed by …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-19",
+      "crank": "B"
+    },
+    {
+      "title": "Microbial Electrochemical Synthesis of Nanomaterials: Prospects for Integration with Microfluidics and Artificial Intelligence",
+      "url": "https://link.springer.com/article/10.1007/s42250-026-01912-5",
+      "authors": "V Mohan, V Sathiyamoorthi, Y Palanisamy, R Desikan… - Chemistry Africa, 2026",
+      "snippet": "Microbial electrochemical systems (MES) are increasingly explored as a sustainable platform for nanomaterial synthesis, coupling the metabolic activity of electroactive microorganisms with an externally controllable electrochemical driving force. Unlike purely chemical synthesis, which depends on hazardous stoichiometric reductants, or purely biological synthesis, which offers limited external control, MES substitutes applied cathodic potential for chemical reductants while retaining a living catalytic …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-19",
+      "q": "Q3",
+      "sjr": 0.4,
+      "qcat": "Catalysis"
+    },
     {
       "title": "Monolithic wettability partitioning in laser-induced graphene via in situ fluorination for saturation-resistant hydrovoltaic energy harvesting",
       "url": "https://www.sciencedirect.com/science/article/pii/S1385894726116830",
@@ -10,7 +128,9 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-17",
-      "nr": "na"
+      "q": "Q1",
+      "sjr": 2.26,
+      "qcat": "Chemical Engineering (miscellaneous)"
     },
     {
       "title": "PRISMA: A Schema-Coordinated Multi-Agent Framework for Open-Domain Multi-Hop Question Answering",
@@ -20,7 +140,9 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-17",
-      "crank": "A"
+      "q": "Q1",
+      "sjr": 4.83,
+      "qcat": "Applied Mathematics"
     },
     {
       "title": "Auriga: Harness-Governed LLM Agents for Effective Throughput Optimization in Execute-Order-Validate Permissioned Blockchains",
@@ -90,7 +212,9 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-17",
-      "crank": "A"
+      "q": "Q1",
+      "sjr": 4.83,
+      "qcat": "Applied Mathematics"
     },
     {
       "title": "From Snapshot to Snooping: An Empirical Study on Geolocation Privacy Leakage in Large Vision Language Models",
@@ -120,7 +244,9 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-17",
-      "nr": "na"
+      "q": "Q1",
+      "sjr": 1.89,
+      "qcat": "Artificial Intelligence"
     },
     {
       "title": "Adaptive Knowledge Graph Game: A Large Language Model-Driven Framework for Personalized E-Learning",
@@ -130,7 +256,9 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-17",
-      "nr": "na"
+      "q": "Q2",
+      "sjr": 0.48,
+      "qcat": "Applied Mathematics"
     },
     {
       "title": "DesignTaste: Benchmarking AI-Generator Visual Design Against Award-Wining Works",
@@ -170,7 +298,9 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-16",
-      "nr": "na"
+      "q": "Q1",
+      "sjr": 0.95,
+      "qcat": "Hardware and Architecture"
     },
     {
       "title": "Large Language Models for Self-Adaptive Systems: Feedback-Loop Integration and Agentic Adaptation",
@@ -220,7 +350,9 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-16",
-      "nr": "na"
+      "q": "Q1",
+      "sjr": 2.92,
+      "qcat": "Building and Construction"
     },
     {
       "title": "FViT: A Foundation-Tokenized Vision Transformer with Retrieval-Augmented Multi-Scale Ensembling for Deep Learning-Based Spatial Gene Expression Prediction …",
@@ -230,7 +362,9 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-16",
-      "nr": "na"
+      "q": "Q1",
+      "sjr": 1.32,
+      "qcat": "Catalysis"
     },
     {
       "title": "B-12/Capri: A Local-First AI Companion with Traceable Memory and Controlled Tool Use",
@@ -290,117 +424,9 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "SCALE: Small-Model-First Concept Abstraction with LLM-Guided Experience Internalization",
-      "url": "https://arxiv.org/pdf/2611.12120",
-      "authors": "H Su - arXiv preprint arXiv:2611.12120, 2026",
-      "snippet": "Autonomous agents must continually acquire reusable knowledge from experience without relying on costly large language model (LLM) reasoning for every decision. However, existing experience-based approaches often struggle to transform accumulated observations and reasoning into compact knowledge that lightweight models can independently apply. This paper proposes SCALE, a small-model-first framework that integrates selective LLM reasoning, experience-driven concept …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "Generation and Validation of Driver Personas Using Local Language Models for Multi-Agent Traffic Microsimulation Supporting Sustainable Transport Planning",
-      "url": "https://www.mdpi.com/2071-1050/18/21/11411",
-      "authors": "M Rychlicki, Z Kasprzyk - Sustainability, 2026",
-      "snippet": "The assessment of sustainable transport measures relies on traffic microsimulation, in which safety, travel time, energy consumption, and emissions emerge from individual driver behavior. Driver differences can be described using personas: brief verbal characterizations provided to the decision-making model. The text must retain the specified characteristics and influence the model's responses accordingly. This paper presents a method for generating and evaluating such descriptions for multi …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "Open Problems in Chatbots and Mental Health",
-      "url": "https://arxiv.org/pdf/2611.10997",
-      "authors": "J Moore, JR Anthis, W Agnew, A Mock, K Klyman… - arXiv preprint arXiv …, 2026",
-      "snippet": "General-purpose chatbots are increasingly used for emotional and mental health support. They can be useful, but issues such as sycophancy, reinforcement of delusional beliefs, and poor crisis response create risks that are difficult for researchers to study and evaluate. In this paper, we review the most critical open problems for researchers and policymakers in the use of general-purpose chatbots and their effects on mental health. First, there are tractable problems in the controlled …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "Executable Human Study Programs with Silicon Participants",
-      "url": "https://arxiv.org/pdf/2611.11969",
-      "authors": "X Liu, H Shang, Y Feng, SY Chu, Q Li, YR Shrestha… - arXiv preprint arXiv …, 2026",
-      "snippet": "We introduce HumanStudyProgram, a framework that represents a documented human study as an executable program with configurable LLM-based silicon participants. Its computational abstraction separates study logic from participant implementation through standardized APIs for presenting information and collecting responses. We implement a researcher-facing authoring tool that reconstructs source-linked study descriptions from papers and supplementary materials, supports …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "Trojan Hippo Bench: A Dynamic Benchmark for Persistent Memory Attacks and Defenses in LLM Agents",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3847352.3848090",
-      "authors": "D Das, J Piet, D Kaviani, L Beurer-Kellner, F Tramèr… - Proceedings of the 19th …, 2026",
-      "snippet": "Memory systems enable otherwise-stateless LLM agents to persist user information across sessions, but also introduce a new attack surface. The Trojan Hippo attack is a class of persistent memory attacks that operates under a more realistic threat model than prior memory poisoning work. The attacker plants a dormant payload into an agent's long-term memory via a single untrusted tool call (eg, a crafted email), which activates only when the user later discusses sensitive topics such as finance …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "Shedding Light: A Benchmark for Evaluating Lighting Understanding in Generative Image Models",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3842579",
-      "authors": "J Giroux, JO Hilliard, Y Hold-Geoffroy… - ACM Transactions on …, 2026",
-      "snippet": "Accurate modelling of illumination is central to realistic image synthesis and scene understanding. Yet, there is little exploration into whether image generative models are good at this task or whether physical plausibility remains a key challenge for them. Clearly, significant progress has been made in realistic image synthesis, but do models truly understand lighting in a physically accurate manner? To answer this question, this work proposes a benchmark to assess the lighting understanding and …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "The Digital Dynamics of Language Vitality: Exploring Child‐Algorithm Interactions on YouTube and Language Shift in Bishkek, Kyrgyzstan",
-      "url": "https://anthrosource.onlinelibrary.wiley.com/doi/pdf/10.1111/aman.70136",
-      "authors": "A McDermott, N Escher - American Anthropologist, 2026",
-      "snippet": "What is the role of children's interactions with YouTube's recommendation algorithm in language socialization, and could these interactions influence children's linguistic practices in such a way as to cause language shift? Our paper takes a mixed methodological approach to explore interactions between Kyrgyz families and YouTube, examining the reciprocal relationships between online content recommendations, offline linguistic behavior, and on/offline discourses. First, using …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "DramaGrow: A Regime-Aware Benchmark for Auditing LLM Judges of Multi-Episode Drama",
-      "url": "https://arxiv.org/pdf/2611.09938",
-      "authors": "H Zhang, Y Su - arXiv preprint arXiv:2611.09938, 2026",
-      "snippet": "LLMs can now draft complete multi-episode dramas, and LLM judges are increasingly used to evaluate them. Assessing the reliability of these judges is difficult because drama quality encompasses specification-backed errors, reproducible preferences, and legitimate disagreement among human raters. Most existing evaluations reduce these cases to a single score from one judge call and leave tie calibration, call-to-call variation, and the vote margin underlying the human …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "Intelligent wildfire forecaster",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1364815226003701",
-      "authors": "G Charizanos, H Demirhan, D İçen - Environmental Modelling & Software, 2026",
-      "snippet": "Wildfire risk management increasingly relies on software that converts meteorological observations into interpretable, actionable, and exportable forecast products. Despite rapid advances in fire weather indices, machine learning, and time-series forecasting, workflows often remain fragmented across data services, platforms, and specialist tools. We present the Intelligent Wildfire Forecaster (IWFR), a Python-based analytics application that unifies NASA POWER weather retrieval …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "How communicating an AI's relational risk influences trust perceptions in AI-assisted decision-making",
-      "url": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6253741",
-      "authors": "S Schömbs, S Pareek, J Goncalves, W Johal - International Journal of Human …, 2026",
-      "snippet": "AI systems err, however, existing Strategies to influence a user's trust perception can sometimes fail to foster perceptions and assessments that reflect system limitations, with potentially detrimental real-world consequences. In this paper, we introduce a novel Relational Risk (RR) strategy derived from risk communication research to pre-emptively communicate the likelihood of AI error and its potential consequences, foregrounding the costs of AI error, and compare it with existing Strategies (AI …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-14",
-      "nr": "na"
-    },
-    {
-      "title": "Metal ion intercalation in hydrated V2O5 for natural evaporation-driven electricity generation",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1385894726114521",
-      "authors": "L Li, S Yu, J Park, Y Kim, WH Lee, H Jin, YS Kim - Chemical Engineering Journal, 2026",
-      "snippet": "Electricity generation from natural water motion at solid-liquid interfaces offers a promising route for continuous energy harvesting, yet the interfacial factors governing electricity generation remain insufficiently understood. Herein, metal ion intercalated hydrated vanadium pentoxide (M x V 2 O 5· nH 2 O; MVOH) is employed as a model platform to establish how the identity of intercalated metal ion regulates interfacial charge states and evaporation-driven electricity generation. Na+, Mg 2+ …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-14",
-      "nr": "na"
+      "q": "Q1",
+      "sjr": 1.53,
+      "qcat": "Behavioral Neuroscience"
     }
   ]
 }
