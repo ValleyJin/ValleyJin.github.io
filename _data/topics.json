@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -55,7 +55,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 12587
+      "count": 12577
     },
     {
       "topic": "gABM",
@@ -111,7 +111,7 @@
           "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 67106
+      "count": 67090
     },
     {
       "topic": "Graph database",
@@ -160,7 +160,7 @@
           "nr": "na"
         }
       ],
-      "count": 143242
+      "count": 143148
     },
     {
       "topic": "Memory in Agentic AI",
@@ -204,7 +204,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 84488
+      "count": 84447
     },
     {
       "topic": "LLM inference serving",
@@ -367,7 +367,7 @@
           "qcat": "Information Systems"
         }
       ],
-      "count": 59527
+      "count": 59492
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -426,7 +426,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 246650
+      "count": 246491
     },
     {
       "topic": "Ontology",
@@ -475,7 +475,7 @@
           "qcat": "Linguistics and Language"
         }
       ],
-      "count": 29923
+      "count": 29904
     },
     {
       "topic": "AI governance",
@@ -534,7 +534,7 @@
           "qcat": "Communication"
         }
       ],
-      "count": 126403
+      "count": 126370
     },
     {
       "topic": "NeurIPS",
@@ -668,53 +668,7 @@
     {
       "topic": "CVPR",
       "query": "s2:CVPR",
-      "papers": [
-        {
-          "title": "Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding",
-          "authors": "Wang, S., Lin, Y., & Wu, Y.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
-          "cites": 9,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "ReSpec: Relevance and Specificity Grounded Online Filtering for Learning on Video-Text Data Streams",
-          "authors": "Kim, C. D., Moon, J., Moon, S., Yun, H., Lee, S., Kembhavi, A., et al.",
-          "year": 2025,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52734.2025.02704",
-          "cites": 3,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Learning Correlation Structures for Vision Transformers",
-          "authors": "Kim, M., Seo, P. H., Schmid, C., & Cho, M.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
-          "cites": 41,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "RE-VLM: Event-Augmented Vision-Language Model for Scene Understanding",
-          "authors": "Liu, H., Liu, M., Cui, L., Lin, E., Jiang, D., & Zhu, C.",
-          "year": 2026,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.48550/arXiv.2605.19329",
-          "cites": 1,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        }
-      ],
-      "count": 11417
+      "papers": []
     },
     {
       "topic": "AAAI",
@@ -934,53 +888,7 @@
     {
       "topic": "ECCV",
       "query": "s2:ECCV",
-      "papers": [
-        {
-          "title": "End-to-End Rate-Distortion Optimized 3D Gaussian Representation",
-          "authors": "Wang, H., Zhu, H., He, T., Feng, R., Deng, J., Bian, J., et al.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 118,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "High-Throughput Event-Based Feature Detection and Tracking on an Embedded CPU",
-          "authors": "Elms, E., Latif, Y., & Chin, T.",
-          "year": 2026,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.1007/978-3-032-36969-7_26",
-          "cites": 0,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Rethinking Detection Calibration: A Coordinate and Direction Perspective",
-          "authors": "Lee, J., Jung, S., Lee, J., Lee, S., & Choi, J.",
-          "year": 2026,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2607.29040",
-          "cites": 0,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        },
-        {
-          "title": "Asynchronous Large Language Model Enhanced Planner for Autonomous Driving",
-          "authors": "Chen, Y., Ding, Z., Wang, Z., Wang, Y., Zhang, L., & Liu, S.",
-          "year": 2024,
-          "venue": "European Conference on Computer Vision",
-          "url": "https://doi.org/10.48550/arXiv.2406.14556",
-          "cites": 70,
-          "q": "Q4",
-          "sjr": 0.1,
-          "qcat": "Literature and Literary Theory"
-        }
-      ],
-      "count": 4848
+      "papers": []
     },
     {
       "topic": "KDD",

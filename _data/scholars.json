@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -12,7 +12,7 @@
           "year": "2011",
           "venue": "Proceedings of the National Academy of Sciences 108 (1), 18-23, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
-          "cites": 312,
+          "cites": 313,
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
@@ -307,17 +307,6 @@
           "qcat": "Software"
         },
         {
-          "title": "Relationships between capital flow and economic growth: A network analysis",
-          "authors": "S Park, JS Yang",
-          "year": "2021",
-          "venue": "Journal of International Financial Markets, Institutions and Money 72, 101345, 2021",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:a2necdfpwlEC",
-          "cites": 25,
-          "q": "Q1",
-          "sjr": 1.39,
-          "qcat": "Economics and Econometrics"
-        },
-        {
           "title": "Government roles in evaluation and arrangement of R&D consortia",
           "authors": "J Kim, SJ Bae, JS Yang",
           "year": "2014",
@@ -327,6 +316,17 @@
           "q": "Q1",
           "sjr": 3.48,
           "qcat": "Applied Psychology"
+        },
+        {
+          "title": "Relationships between capital flow and economic growth: A network analysis",
+          "authors": "S Park, JS Yang",
+          "year": "2021",
+          "venue": "Journal of International Financial Markets, Institutions and Money 72, 101345, 2021",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:a2necdfpwlEC",
+          "cites": 24,
+          "q": "Q1",
+          "sjr": 1.39,
+          "qcat": "Economics and Econometrics"
         },
         {
           "title": "Mitigating safety challenges in human-robot collaboration: The role of human competence",
@@ -567,6 +567,17 @@
           "qcat": "Physics and Astronomy (miscellaneous)"
         },
         {
+          "title": "R&D cooperation in collaborative consumption of research equipment: An ERGM approach",
+          "authors": "K Lee, JS Yang",
+          "year": "2023",
+          "venue": "Social Networks 74, 118, 2023",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:L7vk9XBBNxgC",
+          "cites": 9,
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Anthropology"
+        },
+        {
           "title": "Two kinds of gravitational forces in transport: An analysis using the gravity model",
           "authors": "C Lee, H Woo, JS Yang",
           "year": "2023",
@@ -576,17 +587,6 @@
           "q": "Q3",
           "sjr": 0.3,
           "qcat": "Computational Theory and Mathematics"
-        },
-        {
-          "title": "R&D cooperation in collaborative consumption of research equipment: An ERGM approach",
-          "authors": "K Lee, JS Yang",
-          "year": "2023",
-          "venue": "Social Networks 74, 118, 2023",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:L7vk9XBBNxgC",
-          "cites": 8,
-          "q": "Q1",
-          "sjr": 1.2,
-          "qcat": "Anthropology"
         },
         {
           "title": "Temporal evolution into a more efficient stock market",
@@ -706,6 +706,17 @@
           "qcat": "Condensed Matter Physics"
         },
         {
+          "title": "Strategic Prioritization of Environmental, Social, and Governance Goals: A Data‐Driven Efficiency Framework",
+          "authors": "M Choi, S Park, JS Yang",
+          "year": "2026",
+          "venue": "Corporate Social Responsibility and Environmental Management 33 (4), 5236-5255, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:ynsZFq2pu0MC",
+          "cites": 4,
+          "q": "Q1",
+          "sjr": 2.15,
+          "qcat": "Development"
+        },
+        {
           "title": "Scaling exponents and transition behavior of the generalized conserved lattice gas model at zero temperature",
           "authors": "JS Yang, I Kim, W Kwak",
           "year": "2008",
@@ -724,17 +735,6 @@
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:OzeSX8-yOCQC",
           "cites": 4,
           "nr": "na"
-        },
-        {
-          "title": "Strategic Prioritization of Environmental, Social, and Governance Goals: A Data‐Driven Efficiency Framework",
-          "authors": "M Choi, S Park, JS Yang",
-          "year": "2026",
-          "venue": "Corporate Social Responsibility and Environmental Management 33 (4), 5236-5255, 2026",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:ynsZFq2pu0MC",
-          "cites": 3,
-          "q": "Q1",
-          "sjr": 2.15,
-          "qcat": "Development"
         },
         {
           "title": "Universalism and particularism in the recommendations of the nobel prize for science",
@@ -1171,7 +1171,7 @@
           "year": "2026",
           "venue": "Corporate Social Responsibility and Environmental Management 33 (4), 5236-5255, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:ynsZFq2pu0MC",
-          "cites": 3,
+          "cites": 4,
           "q": "Q1",
           "sjr": 2.15,
           "qcat": "Development"
@@ -1482,7 +1482,7 @@
           "year": "2023",
           "venue": "Social Networks 74, 118, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=gM0qYNUAAAAJ:L7vk9XBBNxgC",
-          "cites": 8,
+          "cites": 9,
           "q": "Q1",
           "sjr": 1.2,
           "qcat": "Anthropology"

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "last_full": "2026-09-23",
   "topics": [
     "Deep persona",
@@ -235,6 +235,19 @@
     "AAAJ": "https://openalex.org/works?filter=primary_location.source.id:S4210224324"
   },
   "papers": [
+    {
+      "date": "2026-11-21",
+      "title": "THE EVOLUTION AND ETHICAL INTEGRATION OF ARTIFICIAL INTELLIGENCE IN MODERN EDUCATION: A FRAMEWORK FOR PERSONALIZED LEARNING AND INSTITUTIONAL ACCOUNTABILITY",
+      "authors": "Mukherjee, A., & Roy, S. S.",
+      "year": 2026,
+      "venue": "EPH - International Journal of Business & Management Science",
+      "url": "https://doi.org/10.69980/zt3cpd54",
+      "cites": 0,
+      "topic": "gABM",
+      "fwci": 0.0,
+      "nr": "na",
+      "added": "2026-11-21"
+    },
     {
       "date": "2026-11-20",
       "title": "Artificial intelligence and the rebalanced hemostasis of chronic liver disease: From viscoelastic testing to digital twins",
@@ -28782,22 +28795,6 @@
       "sjr": 1.44,
       "qcat": "Computer Science Applications",
       "added": "2026-11-20"
-    },
-    {
-      "date": "2026-10-31",
-      "title": "PRIVACY-AWARE REQUIREMENTS TRACEABILITY AND RISK INTELLIGENCE FOR INTEROPERABLE DIGITAL HEALTH INFORMATION SYSTEMS",
-      "authors": "Munna, A. A., Adiluzzaman, A., Arif, A., & Huq, S. N.",
-      "year": 2026,
-      "venue": "International Journal of Science and Research Archive",
-      "url": "https://doi.org/10.30574/ijsra.2026.21.1.1860",
-      "cites": 2,
-      "topic": "AI governance",
-      "fwci": 5.28,
-      "pct": 10,
-      "q": "Q3",
-      "sjr": 0.26,
-      "qcat": "Political Science and International Relations",
-      "added": "2026-11-20"
     }
   ],
   "mostcited": {
@@ -29824,7 +29821,7 @@
         "year": 2018,
         "venue": "Annual Meeting of the Association for Computational Linguistics",
         "url": "https://doi.org/10.18653/v1/P18-1208",
-        "cites": 1924,
+        "cites": 1925,
         "topic": "ACL",
         "crank": "A*"
       },
@@ -29918,7 +29915,7 @@
         "year": 2021,
         "venue": "IEEE International Conference on Computer Vision",
         "url": "https://doi.org/10.1109/ICCV48922.2021.01315",
-        "cites": 838,
+        "cites": 839,
         "topic": "ICCV",
         "crank": "A*"
       },
