@@ -1,7 +1,147 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Cognitive grounding improves LLM simulation of collective human behavior",
+      "url": "https://www.nature.com/articles/s43588-026-01080-z",
+      "authors": "H Zhu, B Heydari - Nature Computational Science, 2026",
+      "snippet": "Large language models (LLMs) increasingly stand in for human participants, yet a plausible response is not evidence of a human decision process. The gap matters most when agents interact, where locally reasonable choices compound through delays and feedback into collective outcomes. Behavioral models fit decision rules to human data; we ask whether their qualitative content alone can drive LLM agents, an approach we call cognitive grounding. Here we show, across 231 sessions of the …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Efficiency Gains in Social Science Research: A Prospective Silicon Sampling Protocol for Pre-Treatment and Code Optimization",
+      "url": "https://arxiv.org/pdf/2611.18436",
+      "authors": "N Astitou, E Aucouturier - arXiv preprint arXiv:2611.18436, 2026",
+      "snippet": "This study evaluates the methodological potential of using large language models (LLMs) to generate synthetic datasets prior to real-world data collection, thereby streamlining subsequent processing and statistical analysis. The approach is applied to a survey conducted within the France Life Imaging (FLI) network, leveraging three distinct LLMs (Sonnet 4.6, GPT 5.3, and Kimi 2.6) to simulate responses and prepare data processing workflows. The findings demonstrate significant time savings in code …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Proposed new words and collective identity in human and language model agent groups",
+      "url": "https://www.nature.com/articles/s41598-026-80001-6_reference.pdf",
+      "authors": "K Ito, H Nagai, S Wakamiya, E Aramaki - Scientific Reports, 2026",
+      "snippet": "Groups develop distinctive words even when ordinary expressions are sufficient. Such words can symbolize collective identity, and observational studies link language use to community attachment. We examined identity change in temporary groups of one human and four disclosed large language model (LLM) agents, comparing discussions with and without a neologism proposal across recruitment waves. We recruited 100 Japanese participants in two sequential waves; an agent …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
+      "url": "https://arxiv.org/pdf/2611.18338",
+      "authors": "X Wang, W Pei, S Hou, Y Liu, H Chen, B Li, Y Luo… - arXiv preprint arXiv …, 2026",
+      "snippet": "Text-to-SQL systems translate natural language questions into SQL queries over increasingly complex databases. However, widely used benchmarks evaluate questions independently, overlooking settings where earlier queries over the same database can supply joins or calculations for a new question. We introduce HARE (History-AwaRe Text-to-SQL BEnchmark) to measure the accuracy and cost of adapting historical SQL. HARE comprises 1,600 requests derived from a fixed pool of …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+      "url": "https://arxiv.org/pdf/2611.18531",
+      "authors": "T Brennan, AW Lo, C Zhao - arXiv preprint arXiv:2611.18531, 2026",
+      "snippet": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a common uncertain reward state, and only those taking the rewarded action reproduce. We show that long-run growth is maximized when each …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Simulated quiet quitting risk in generative agents under crisis management strategies",
+      "url": "https://link.springer.com/article/10.1007/s10791-026-10839-x",
+      "authors": "R Hong, F Yao, P Ye, T Wang, Z Zhang - Discover Computing, 2026",
+      "snippet": "Quiet quitting refers to employees maintaining outward compliance while reducing psychological engagement and discretionary effort. Because such withdrawal is partly concealed, it is difficult to observe directly in conventional organizational research. This study develops an exploratory generative-agent simulation to examine how GPT-4o-mini produces compliance and withdrawal-related responses under different crisis-management prompts and personality archetypes. We …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "url": "https://arxiv.org/pdf/2611.18359",
+      "authors": "G Robotics, Q Lan, D Li, S Li, Y Lyu, S Lu, Z Qi, S Wang… - arXiv preprint arXiv …, 2026",
+      "snippet": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Source transparency and accuracy warnings support more selective reliance on generative-AI answers in a randomized online experiment",
+      "url": "https://www.nature.com/articles/s41598-026-80733-5_reference.pdf",
+      "authors": "Y Xing, Z Zhang, Y Zhang, M Zhang, X Lu - Scientific Reports, 2026",
+      "snippet": "Generative-AI systems increasingly provide answers to everyday questions, but users need to decide not only whether to accept an answer, but whether acceptance should depend on answer correctness. This randomized online experiment tested whether visible source information and an accuracy warning supported more selective reliance on AI-style answers. A final analytic sample of 800 adult participants was assigned to one of four between-subjects cue conditions in a 2× 2× …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Understanding Intelligence across Biological and Artificial Systems",
+      "url": "https://media.sciltp.com/articles/2610005509/2610005509.pdf",
+      "authors": "T Dorigo - 2026",
+      "snippet": "What is intelligence, and how can it arise in a physical system? Intelligence has been associated with a variety of capacities: learning, adaptation, perception, memory, communication, empathy, problem solving, planning, and the ability to act successfully in changing environments. No single definition captures all of these aspects, nor is intelligence an exclusively human phenomenon: many of these capacities are found, to different degrees and in different forms, throughout the …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Measuring a Local AI Companion Through Its Own Runtime: Benchmark Defects, Run-to-Run Noise, Model Scale and Prompt Layout in B-12/Capri",
+      "url": "https://www.researchgate.net/profile/Oleksandr-Pylypenko-6/publication/417929897_Measuring_a_Local_AI_Companion_Through_Its_Own_Runtime_Benchmark_Defects_Run-to-Run_Noise_Model_Scale_and_Prompt_Layout_in_B-12Capri/links/6af9e750dc41aa6ac311ab41/Measuring-a-Local-AI-Companion-Through-Its-Own-Runtime-Benchmark-Defects-Run-to-Run-Noise-Model-Scale-and-Prompt-Layout-in-B-12-Capri.pdf",
+      "authors": "O Pylypenko - 2026",
+      "snippet": "A previous report described B-12, a local-first agent runtime, and Capri, its desktop companion. This follow-up asks what an evaluation of such a system actually measures. We ran a 92-scenario suite (80 runnable on the available hardware) through the companion's own runtime inside a filesystem sandbox, instead of calling the language model directly. The first evaluation, which bypassed the runtime, scored 27 of 80 and produced a privacy leak that the harness itself had created; the …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Weather Flow Prediction using Spatial-Temporal Graph Neural Networks",
+      "url": "https://praise-jaravani.github.io/weatherflow-website/assets/docs/project-proposal.pdf",
+      "authors": "G Chikwanha, Z Fuyana, P Jaravani",
+      "snippet": "Weather prediction involves using historical weather observations to predict some future weather condition [5]. Recent work [3, 5] has shown that Spatial-Temporal Graph Neural Networks (STGNNs) generally perform well on weather prediction tasks. In these models, weather prediction is formulated as a graph representation, where nodes represent the weather stations, and edges encode the local dynamics around a weather station and the global relationships between different stations [3, 5 …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Integrating Language Models with Evolving External Knowledge",
+      "url": "https://escholarship.org/content/qt3gj3t6ct/qt3gj3t6ct.pdf",
+      "authors": "D Wu - 2026",
+      "snippet": "Large language models acquire broad capabilities from public training data, but their deployment increasingly takes place in private worlds shaped by individual users, organizations, and specialized environments. These worlds contain personally and economically valuable knowledge that is local, dynamic, and accumulated through continued interaction and experience. This dissertation studies how language models can effectively integrate such evolving external knowledge. We first …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Ideation Arena: Evaluating LLM-driven Research Ideation with Battle-style Human Expert Annotation",
+      "url": "https://aclanthology.org/2026.emnlp-main.688.pdf",
+      "authors": "Z Chen, K Zhao, J Fu, D Liang, Y Wu, J Li, H Xue… - Proceedings of the 2026 …, 2026",
+      "snippet": "Evaluating research ideas generated by LLMs is difficult because their scientific value cannot be fully determined by objective criteria, and no single reference answer specifies what counts as a good idea. To address this challenge, we …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
+    {
+      "title": "Demonstrating Graphionale: How Graph Visualizations of LLM Rationales Affect Human Decision Making",
+      "url": "https://dl.acm.org/doi/full/10.1145/3830397.3842493",
+      "authors": "Z Ma, X Wang, M Yin, V Charisi, S Sun, A Prakash… - Adjunct Proceedings of the …, 2026",
+      "snippet": "Large Language Models (LLMs) increasingly generate rationales to support human decision-making, yet these rationales are typically presented as dense linear text. We demonstrate Graphionale, a co-design-informed system that transforms LLM …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-21",
+      "nr": "na"
+    },
     {
       "title": "Access Is Not Use: The Reconstruction–Use Gap in Language-Model Financial Agents",
       "url": "https://dl.acm.org/doi/pdf/10.1145/3858063.3858700",
@@ -60,9 +200,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-19",
-      "q": "Q1",
-      "sjr": 2.18,
-      "qcat": "Multidisciplinary"
+      "nr": "na"
     },
     {
       "title": "Artificial Intelligence in Gas Turbine Combustor Design: Recent Progress and Future Perspectives",
@@ -72,9 +210,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-19",
-      "q": "Q1",
-      "sjr": 0.75,
-      "qcat": "Control and Optimization"
+      "nr": "na"
     },
     {
       "title": "Foundation Models in Computer Vision: A Survey and Design Guidelines",
@@ -84,9 +220,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-19",
-      "q": "Q1",
-      "sjr": 4.83,
-      "qcat": "Applied Mathematics"
+      "crank": "A"
     },
     {
       "title": "Multiple Accounts as Informal Privacy Infrastructure: Managing Audiences and Anticipated Regret on Social Media",
@@ -116,9 +250,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-19",
-      "q": "Q3",
-      "sjr": 0.4,
-      "qcat": "Catalysis"
+      "nr": "na"
     },
     {
       "title": "Monolithic wettability partitioning in laser-induced graphene via in situ fluorination for saturation-resistant hydrovoltaic energy harvesting",
@@ -128,9 +260,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-17",
-      "q": "Q1",
-      "sjr": 2.26,
-      "qcat": "Chemical Engineering (miscellaneous)"
+      "nr": "na"
     },
     {
       "title": "PRISMA: A Schema-Coordinated Multi-Agent Framework for Open-Domain Multi-Hop Question Answering",
@@ -140,9 +270,7 @@
       "kind": "Citation",
       "scholar": "Min-Soo Kim",
       "date": "2026-11-17",
-      "q": "Q1",
-      "sjr": 4.83,
-      "qcat": "Applied Mathematics"
+      "crank": "A"
     },
     {
       "title": "Auriga: Harness-Governed LLM Agents for Effective Throughput Optimization in Execute-Order-Validate Permissioned Blockchains",
@@ -212,9 +340,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-17",
-      "q": "Q1",
-      "sjr": 4.83,
-      "qcat": "Applied Mathematics"
+      "crank": "A"
     },
     {
       "title": "From Snapshot to Snooping: An Empirical Study on Geolocation Privacy Leakage in Large Vision Language Models",
@@ -244,9 +370,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-17",
-      "q": "Q1",
-      "sjr": 1.89,
-      "qcat": "Artificial Intelligence"
+      "nr": "na"
     },
     {
       "title": "Adaptive Knowledge Graph Game: A Large Language Model-Driven Framework for Personalized E-Learning",
@@ -256,9 +380,7 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-17",
-      "q": "Q2",
-      "sjr": 0.48,
-      "qcat": "Applied Mathematics"
+      "nr": "na"
     },
     {
       "title": "DesignTaste: Benchmarking AI-Generator Visual Design Against Award-Wining Works",
@@ -279,154 +401,6 @@
       "scholar": "Joon Sung Park",
       "date": "2026-11-16",
       "nr": "na"
-    },
-    {
-      "title": "What makes an LLM a tutor? A component-centric survey of LLM-based and agentic tutoring systems",
-      "url": "https://link.springer.com/article/10.1007/s44336-026-00047-y",
-      "authors": "Q Bai, J Zhou, Q Chen, Y Lai, J Zhu, T Yu, Y Zhong… - Vicinagearth, 2026",
-      "snippet": "Large language models (LLMs) are reshaping intelligent tutoring systems (ITSs) by reducing authoring costs and enabling flexible interaction. However, effective tutoring requires more than fluent responses. It also depends on pedagogical control, domain grounding, learner modeling, interaction design, orchestration, and reliable evaluation. We examine these requirements through a component-centric framework that organizes LLM-based tutoring systems into four functional layers: pedagogical …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "LLM-native applications as a paradigm for AI-driven software architecture: Taxonomy, application families, and architecting practices",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0164121226004164",
-      "authors": "PHM Maia, A Bandeira, G Oliveira, C Mendes… - Journal of Systems and …, 2026",
-      "snippet": "Abstract Large Language Models (LLMs) are increasingly shaping the design of modern software systems, moving beyond their role as auxiliary tools toward becoming central components that drive system behavior. However, existing approaches to LLM-enabled applications are often ad hoc and lack architectural foundations that account for emerging concerns such as orchestration, tool integration, knowledge grounding, memory, governance, and observability. In this …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "q": "Q1",
-      "sjr": 0.95,
-      "qcat": "Hardware and Architecture"
-    },
-    {
-      "title": "Large Language Models for Self-Adaptive Systems: Feedback-Loop Integration and Agentic Adaptation",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11760350/",
-      "authors": "K Kara, B Mate, V Scotti, D Perez-Palacin, R Mirandola - 2026 IEEE International …, 2026",
-      "snippet": "Self-Adaptive Systems (SAS) address uncertainty and change through feedback loops that monitor the system and its environment, analyze possible adaptation options, plan suitable adaptations, and execute them to achieve system goals. The rise of Large Language Model (LLM)-based technologies introduces new opportunities to enhance decision-making in SAS. However, the integration of LLMs raises fundamental architectural questions that have not been sufficiently explored …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "Does AI Reinforce Gender Stereotypes? Gender Bias in Job Descriptions Generated by 40+ Large Language Models",
-      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/gwao.70291",
-      "authors": "JM Krebsbach, JE Lee, S Zeck, A Thakur, M Hilbert - Gender, Work & Organization, 2026",
-      "snippet": "Human resource (HR) professionals and office staff are often responsible for competing tasks that quickly accumulate. To increase efficiency, some HR staff are turning to large language models (LLMs) to automate tasks, including creating job postings based on job titles alone. We sought to examine how this practice has the potential to influence applicant pools and hiring outcomes, with attention to gendered effects in organizational settings. Using a broad sample of 48 LLMs, we conducted …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "FastInfer: Breaking the Low-to-Moderate Sparsity Barrier for Efficient LLM Inference",
-      "url": "https://www.computer.org/csdl/proceedings-article/sc/2026/478900a414/2lkuzxWhgVW",
-      "authors": "J Shi, S Li - SC26: International Conference for High Performance …, 2026",
-      "snippet": "As large language models (LLMs) continue to scale, unstructured pruning has become a key technique for reducing inference cost. However, to preserve model quality, pruning is typically limited to low-to-moderate sparsity (30%–60%), where existing GPU-based sparse inference frameworks often fail to deliver consistent speedups over dense baselines. This paper proposes FastInfer, a new sparse LLM inference framework in the low-to-moderate sparsity regime. FastInfer introduces a …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "DiffSpec: Accelerating Long Sequence Generation with Differential Speculative Decoding",
-      "url": "https://www.computer.org/csdl/proceedings-article/sc/2026/478900b726/2lkuAEee36g",
-      "authors": "Z Du, Y Huang, Q Qiu, Y Zhang, D Chen, C Ye, X Liao… - … International Conference for …, 2026",
-      "snippet": "Long sequence generation has become a criticalä workload in LLM inference, but its computational cost remains a primary barrier to scalable deployment. Recent efforts have explored speculative decoding as an effective approach to accelerate long sequence inference, demonstrating substantial performance gains by verifying multiple draft tokens per decoding step. Despite these advances, we observe a fundamental inefficiency in existing designs: uniform speculation increasingly …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "LLM-guided adaptive segmentation of tunnel linings from point clouds",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0926580526005868",
-      "authors": "X Tao, Z Ye, G Wang, J Ninić, B Sheil - Automation in Construction, 2027",
-      "snippet": "Segmenting segmental tunnel-lining point clouds supports automated inspection, but expert-tuned pipelines can degrade as conditions change. This paper presents R4Tun, a framework for bounded, deployment-label-free parameter adaptation of an expert-designed segmentation pipeline, guided by large language models (LLMs) using memory (m), state (s), and knowledge (k). On 30 selected Seg2Tunnel subsets (13 regular, 17 complex), three LLMs using full context increased mean Intersection …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "q": "Q1",
-      "sjr": 2.92,
-      "qcat": "Building and Construction"
-    },
-    {
-      "title": "FViT: A Foundation-Tokenized Vision Transformer with Retrieval-Augmented Multi-Scale Ensembling for Deep Learning-Based Spatial Gene Expression Prediction …",
-      "url": "https://www.mdpi.com/1422-0067/27/22/10104/pdf",
-      "authors": "RI Sumon, DW Park, MA Islam, HC Kim - International Journal of Molecular Sciences, 2026",
-      "snippet": "Spatial transcriptomics links gene expression to tissue morphology but is too costly for routine clinical use, motivating prediction of expression from hematoxylin-and-eosin (H&E) images. FViT (Foundation-tokenized Vision Transformer) tokenizes a spot and its k nearest neighbours with the frozen foundation model Phikon, fuses the tokens with a small trainable Transformer with a relative-position embedding, predicts expression directly and by k-nearest-neighbour retrieval of measured …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "q": "Q1",
-      "sjr": 1.32,
-      "qcat": "Catalysis"
-    },
-    {
-      "title": "B-12/Capri: A Local-First AI Companion with Traceable Memory and Controlled Tool Use",
-      "url": "https://www.researchgate.net/profile/Oleksandr-Pylypenko-6/publication/417646643_B-12_Capri_A_Local-First_AI_Companion_with_Traceable_Memory_and_Controlled_Tool_Use/links/6af19a976d07a224060d5e5c/B-12-Capri-A-Local-First-AI-Companion-with-Traceable-Memory-and-Controlled-Tool-Use.pdf",
-      "authors": "O Pylypenko - 2026",
-      "snippet": "We describe B-12, a local-first agent runtime, and Capri, its desktop companion. The architecture separates generated model output from identity, consent, grants and tool execution; stores conversation and memory outside model weights; and admits requests using an explicit tokenizer and deployment profile. On one laptop with an RTX 4060 Laptop GPU and a quantized Nemotron Bolt E4B model, a historical evaluation on commit 60a4c0b reported 496 passes in 541 runs over 109 …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "Beyond Vision-Language Models: Visual-Semantic Affect Graphs for Emotion Recognition in Artworks",
-      "url": "https://arxiv.org/pdf/2610.35244",
-      "authors": "ND Mai, HT Nguyen, H Takeda - arXiv preprint arXiv:2610.35244, 2026",
-      "snippet": "Emotion recognition in artworks remains challenging because affective meaning is often subjective, implicit, and shaped by relationships between visual form and semantic associations. While vision-language models provide strong multimodal …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "PARLEY: Evaluating LLM Collaboration Through Cooperative Asymmetric Puzzles",
-      "url": "https://arxiv.org/pdf/2611.14242",
-      "authors": "J Hernandez, AD Wilson - arXiv preprint arXiv:2611.14242, 2026",
-      "snippet": "As large language models power autonomous agents, understanding how they collaborate and where they fail becomes critical. We introduce PARLEY, an extensible platform for studying LLM agent collaboration through four asymmetric …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
-      "url": "https://arxiv.org/pdf/2611.14487",
-      "authors": "M Gao, H Zhu, X Su, Y Zhang, D Khashabi, KH Huang - arXiv preprint arXiv …, 2026",
-      "snippet": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "An Extended Evaluator and Backend for Querying Bi-temporal Graph Databases",
-      "url": "https://cfaed.tu-dresden.de/files/Images/people/chair-cc/theses/2604_Mahmoud_DA.pdf",
-      "authors": "B Mahmoud, F Suchert, IJ Castrillon, IA Krause",
-      "snippet": "HashQL is a statically typed functional query language over HASH's bi-temporal knowledge graph. The existing compiler provided parsing, type inference, and type checking. However, its evaluator could execute only a limited subset of the language and was restricted to homogeneous execution. Unsupported constructs included aggregate construction, multi-hop traversals, closures, and invocation of user-defined functions. This work extends the compiler with an end-to-end execution …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-16",
-      "nr": "na"
-    },
-    {
-      "title": "Effectiveness of Rotating Versus Fixed Three‐Section Watchkeeping Schedules on Crews' Well‐Being, Cognitive Performance, Sleep and Salivary Cortisol in the …",
-      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jsr.70498",
-      "authors": "J Abendroth, S Röttger, T Kohn, T Jacobsen - Journal of Sleep Research, 2026",
-      "snippet": "When 24 h‐work needs to be distributed among crew members on ships, on‐watch duty times can be either stable over time or can vary on a regular basis. Research suggests that adaptation to permanent night shift might be less disruptive to humans' innate circadian rhythms than rotating schedules when external and social influences are minimized, such as when working on ships. Since the research on the question of rotation in the design of watchkeeping schedules is still not conclusively …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-16",
-      "q": "Q1",
-      "sjr": 1.53,
-      "qcat": "Behavioral Neuroscience"
     }
   ]
 }
