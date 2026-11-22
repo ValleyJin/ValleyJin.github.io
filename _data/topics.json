@@ -7,18 +7,6 @@
       "query": "Deep persona",
       "papers": [
         {
-          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
-          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
-          "year": 2025,
-          "venue": "Computer Networks",
-          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
-          "cites": 2,
-          "fwci": 0.46,
-          "q": "Q1",
-          "sjr": 1.14,
-          "qcat": "Computer Networks and Communications"
-        },
-        {
           "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
           "authors": "Lee, H., Kim, Y., & Kim, S.",
           "year": 2024,
@@ -29,6 +17,18 @@
           "q": "Q2",
           "sjr": 0.56,
           "qcat": "Computer Science Applications"
+        },
+        {
+          "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
+          "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
+          "year": 2025,
+          "venue": "Computer Networks",
+          "url": "https://doi.org/10.1016/j.comnet.2025.111784",
+          "cites": 2,
+          "fwci": 0.46,
+          "q": "Q1",
+          "sjr": 1.14,
+          "qcat": "Computer Networks and Communications"
         },
         {
           "title": "State of Risk: Predicting the Mental State and Persona of Problem Gamblers Using Markov Chains and Deep Language Models",
@@ -85,19 +85,6 @@
           "nr": "na"
         },
         {
-          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
-          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
-          "year": 2025,
-          "venue": "Engineering Applications of Artificial Intelligence",
-          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
-          "cites": 23,
-          "fwci": 5.34,
-          "pct": 10,
-          "q": "Q1",
-          "sjr": 1.78,
-          "qcat": "Artificial Intelligence"
-        },
-        {
           "title": "Simulating conversations on social media with generative agent-based models",
           "authors": "Jeon, M. S., Mendoza, M., Fernández, M., Providel, E., Rodríguez, F., Espina, N., et al.",
           "year": 2025,
@@ -109,9 +96,22 @@
           "q": "Q2",
           "sjr": 0.65,
           "qcat": "Computational Mathematics"
+        },
+        {
+          "title": "Generative Agent-Based Modeling with Large Language Models for insider threat detection",
+          "authors": "Ferraro, A., Orlando, G. M., & Russo, D.",
+          "year": 2025,
+          "venue": "Engineering Applications of Artificial Intelligence",
+          "url": "https://doi.org/10.1016/j.engappai.2025.111343",
+          "cites": 23,
+          "fwci": 5.34,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.78,
+          "qcat": "Artificial Intelligence"
         }
       ],
-      "count": 67654
+      "count": 67653
     },
     {
       "topic": "Graph database",
@@ -160,7 +160,7 @@
           "nr": "na"
         }
       ],
-      "count": 144099
+      "count": 144097
     },
     {
       "topic": "Memory in Agentic AI",
@@ -204,7 +204,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 85050
+      "count": 85049
     },
     {
       "topic": "LLM inference serving",
@@ -367,7 +367,7 @@
           "qcat": "Information Systems"
         }
       ],
-      "count": 59828
+      "count": 59827
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -387,19 +387,6 @@
           "qcat": "Computational Theory and Mathematics"
         },
         {
-          "title": "A survey of dynamic graph neural networks",
-          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
-          "year": 2024,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 248,
-          "fwci": 19.62,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 1.2,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
           "title": "Graph neural networks for text classification: a survey",
           "authors": "Wang, K., Ding, Y., & Han, S. C.",
           "year": 2024,
@@ -411,6 +398,19 @@
           "q": "Q1",
           "sjr": 3.64,
           "qcat": "Artificial Intelligence"
+        },
+        {
+          "title": "A survey of dynamic graph neural networks",
+          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
+          "year": 2024,
+          "venue": "Frontiers of Computer Science",
+          "url": "https://doi.org/10.1007/s11704-024-3853-2",
+          "cites": 248,
+          "fwci": 19.62,
+          "pct": 1,
+          "q": "Q1",
+          "sjr": 1.2,
+          "qcat": "Computer Science (miscellaneous)"
         },
         {
           "title": "Survey on Graph Neural Networks",
@@ -426,7 +426,7 @@
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 248122
+      "count": 248099
     },
     {
       "topic": "Ontology",
@@ -534,7 +534,7 @@
           "qcat": "Communication"
         }
       ],
-      "count": 127452
+      "count": 127394
     },
     {
       "topic": "NeurIPS",
