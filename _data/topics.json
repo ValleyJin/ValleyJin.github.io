@@ -582,139 +582,17 @@
     {
       "topic": "ICML",
       "query": "s2:ICML",
-      "papers": [
-        {
-          "title": "Balancing Efficiency and Expressiveness: Subgraph GNNs with Walk-Based Centrality",
-          "authors": "Southern, J., Eitan, Y., Bar-Shalom, G., Bronstein, M., Maron, H., & Frasca, F.",
-          "year": 2025,
-          "venue": "International Conference on Machine Learning",
-          "url": "https://doi.org/10.48550/arXiv.2501.03113",
-          "cites": 10,
-          "crank": "A*"
-        },
-        {
-          "title": "High-dimensional Clustering onto Hamiltonian Cycle",
-          "authors": "Huang, T., Cheng, S., Li, S., & Zhang, Z.",
-          "year": 2023,
-          "venue": "International Conference on Machine Learning",
-          "url": "https://doi.org/10.48550/arXiv.2304.14531",
-          "cites": 12,
-          "crank": "A*"
-        },
-        {
-          "title": "High-Dimensional Tensor Regression With Oracle Properties",
-          "authors": "Wang, W., Shi, Y., & Zhao, Z.",
-          "year": 2025,
-          "venue": "International Conference on Machine Learning",
-          "url": "https://www.semanticscholar.org/paper/000e9fb2207f1e40b2195a4d376d8ff46eb54bb7",
-          "cites": 0,
-          "crank": "A*"
-        },
-        {
-          "title": "The Number of Trials Matters in Infinite-Horizon General-Utility Markov Decision Processes",
-          "authors": "Santos, P. P., Sardinha, A., & Melo, F. S.",
-          "year": 2024,
-          "venue": "International Conference on Machine Learning",
-          "url": "https://doi.org/10.48550/arXiv.2409.15128",
-          "cites": 3,
-          "crank": "A*"
-        }
-      ],
-      "count": 7323
+      "papers": []
     },
     {
       "topic": "ICLR",
       "query": "s2:ICLR",
-      "papers": [
-        {
-          "title": "DiffusER: Diffusion via Edit-based Reconstruction",
-          "authors": "Reid, M., Hellendoorn, V., & Neubig, G.",
-          "year": 2023,
-          "venue": "International Conference on Learning Representations",
-          "url": "https://www.semanticscholar.org/paper/0004c4e27e54f13577951416d8ed476e93f00ef9",
-          "cites": 41,
-          "crank": "A*"
-        },
-        {
-          "title": "Anatomy-aware Representation Learning for Medical Ultrasound",
-          "authors": "Oh, S., Kim, M., Jung, G., Lee, H., Kim, Y., Kim, S., et al.",
-          "year": 2026,
-          "venue": "International Conference on Learning Representations",
-          "url": "https://www.semanticscholar.org/paper/0005f86b2ed044280db1e93c8eaa0431a32a9070",
-          "cites": 2,
-          "crank": "A*"
-        },
-        {
-          "title": "Exploiting Hidden Symmetry to Improve Objective Perturbation for DP Linear Learners with a Nonsmooth L1-Norm",
-          "authors": "Chen, D., & Chua, G. A.",
-          "year": 2025,
-          "venue": "International Conference on Learning Representations",
-          "url": "https://www.semanticscholar.org/paper/00094e8c9e3cff020fcc75ced74a751b1104fe8b",
-          "cites": 0,
-          "crank": "A*"
-        },
-        {
-          "title": "FrontierCO: Real-World and Large-Scale Evaluation of Machine Learning Solvers for Combinatorial Optimization",
-          "authors": "Feng, S., Sun, W., Li, S., Talwalkar, A., & Yang, Y.",
-          "year": 2025,
-          "venue": "International Conference on Learning Representations",
-          "url": "https://arxiv.org/abs/2505.16952",
-          "cites": 12,
-          "crank": "A*"
-        }
-      ],
-      "count": 12034
+      "papers": []
     },
     {
       "topic": "CVPR",
       "query": "s2:CVPR",
-      "papers": [
-        {
-          "title": "Omni-Q: Omni-Directional Scene Understanding for Unsupervised Visual Grounding",
-          "authors": "Wang, S., Lin, Y., & Wu, Y.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52733.2024.01352",
-          "cites": 9,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "ReSpec: Relevance and Specificity Grounded Online Filtering for Learning on Video-Text Data Streams",
-          "authors": "Kim, C. D., Moon, J., Moon, S., Yun, H., Lee, S., Kembhavi, A., et al.",
-          "year": 2025,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52734.2025.02704",
-          "cites": 3,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "Learning Correlation Structures for Vision Transformers",
-          "authors": "Kim, M., Seo, P. H., Schmid, C., & Cho, M.",
-          "year": 2024,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.1109/CVPR52733.2024.01792",
-          "cites": 41,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
-          "title": "RE-VLM: Event-Augmented Vision-Language Model for Scene Understanding",
-          "authors": "Liu, H., Liu, M., Cui, L., Lin, E., Jiang, D., & Zhu, C.",
-          "year": 2026,
-          "venue": "Computer Vision and Pattern Recognition",
-          "url": "https://doi.org/10.48550/arXiv.2605.19329",
-          "cites": 1,
-          "q": "Q2",
-          "sjr": 0.54,
-          "qcat": "Computer Science (miscellaneous)"
-        }
-      ],
-      "count": 11417
+      "papers": []
     },
     {
       "topic": "AAAI",

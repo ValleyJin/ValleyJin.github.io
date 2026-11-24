@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-24",
   "source": "Google Scholar",
   "scholars": [
     {
@@ -12,7 +12,7 @@
           "year": "2011",
           "venue": "Proceedings of the National Academy of Sciences 108 (1), 18-23, 2011",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:17ZO-CJnx_8C",
-          "cites": 315,
+          "cites": 316,
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
@@ -111,7 +111,7 @@
           "year": "2016",
           "venue": "Strategic Management Journal 37 (8), 1632-1648, 2016",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gM0qYNUAAAAJ&pagesize=100&citation_for_view=gM0qYNUAAAAJ:G1UMdFYMoxkC",
-          "cites": 65,
+          "cites": 64,
           "q": "Q1",
           "sjr": 10.15,
           "qcat": "Business and International Management"
@@ -1606,7 +1606,7 @@
           "year": "2018",
           "venue": "Journal of stroke 21 (1), 42, 2018",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:wSy_KLzO7YEC",
-          "cites": 311,
+          "cites": 309,
           "q": "Q1",
           "sjr": 2.71,
           "qcat": "Cardiology and Cardiovascular Medicine"
@@ -1617,7 +1617,7 @@
           "year": "2019",
           "venue": "Nature 566 (7744), 339-343, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:qwy9JoKyICEC",
-          "cites": 200,
+          "cites": 199,
           "q": "Q1",
           "sjr": 19.71,
           "qcat": "Multidisciplinary"
@@ -1650,7 +1650,7 @@
           "year": "2004",
           "venue": "Transactions of the ASAE 47 (5), 1785-1792, 2004",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=100&citation_for_view=1wZVw8QAAAAJ:kF1pexMAQbMC",
-          "cites": 131,
+          "cites": 130,
           "q": "Q2",
           "sjr": 0.17,
           "qcat": "Linguistics and Language"
@@ -4015,6 +4015,15 @@
           "qcat": "Computer Science (miscellaneous)"
         },
         {
+          "title": "A Method for Detecting Legal Article Competition for Korean Criminal Law Using a Case-augmented Mention Graph",
+          "authors": "S An, YY Rhim, MS Kim",
+          "year": "2024",
+          "venue": "arXiv preprint arXiv:2412.11787, 2024",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4e5Qn2KL_jwC",
+          "cites": 2,
+          "nr": "na"
+        },
+        {
           "title": "Comparison of self-supervised learning methods for optical coherence tomography image classification",
           "authors": "S Shim, HL Yang, MS Kim",
           "year": "2024",
@@ -4174,6 +4183,17 @@
           "nr": "na"
         },
         {
+          "title": "CONDA: A Connectivity-Aware Dynamic Index for Approximate Nearest Neighbor Search over Evolving Data",
+          "authors": "D Lee, MS Kim",
+          "year": "2026",
+          "venue": "Proceedings of the VLDB Endowment 19 (11), 3357-3370, 2026",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:JH5k92_tO-AC",
+          "cites": 1,
+          "q": "Q1",
+          "sjr": 1.77,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
           "title": "AkasicDB: Demonstrating Omni RAG with a Unified Vector-Graph-Relational DBMS",
           "authors": "G Lee, J Park, D Han, MS Kim",
           "year": "2026",
@@ -4221,15 +4241,6 @@
           "year": "2025",
           "venue": "EDBT/ICDT Workshops, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:sfnaS5RM6jYC",
-          "cites": 1,
-          "nr": "na"
-        },
-        {
-          "title": "A Method for Detecting Legal Article Competition for Korean Criminal Law Using a Case-augmented Mention Graph",
-          "authors": "S An, YY Rhim, MS Kim",
-          "year": "2024",
-          "venue": "arXiv preprint arXiv:2412.11787, 2024",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:4e5Qn2KL_jwC",
           "cites": 1,
           "nr": "na"
         },
@@ -4474,17 +4485,6 @@
           "qcat": "Computer Science (miscellaneous)"
         },
         {
-          "title": "CONDA: A Connectivity-Aware Dynamic Index for Approximate Nearest Neighbor Search over Evolving Data",
-          "authors": "D Lee, MS Kim",
-          "year": "2026",
-          "venue": "Proceedings of the VLDB Endowment 19 (11), 3357-3370, 2026",
-          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&cstart=200&pagesize=100&citation_for_view=1wZVw8QAAAAJ:JH5k92_tO-AC",
-          "cites": 0,
-          "q": "Q1",
-          "sjr": 1.77,
-          "qcat": "Computer Science (miscellaneous)"
-        },
-        {
           "title": "Variable wire gripper and gripper system",
           "authors": "K Song, MS Kim, JP CHOE, JH PARK",
           "year": "2026",
@@ -4629,7 +4629,7 @@
           "year": "2026",
           "venue": "Proceedings of the VLDB Endowment 19 (11), 3357-3370, 2026",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:JH5k92_tO-AC",
-          "cites": 0,
+          "cites": 1,
           "q": "Q1",
           "sjr": 1.77,
           "qcat": "Computer Science (miscellaneous)"
@@ -4914,7 +4914,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2412.11787, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wZVw8QAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=1wZVw8QAAAAJ:4e5Qn2KL_jwC",
-          "cites": 1,
+          "cites": 2,
           "nr": "na"
         },
         {
@@ -4957,7 +4957,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14541,
+          "cites": 14517,
           "nr": "na"
         },
         {
@@ -4966,7 +4966,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9878,
+          "cites": 9930,
           "crank": "A*"
         },
         {
@@ -4975,7 +4975,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 926,
+          "cites": 932,
           "nr": "na"
         },
         {
@@ -4984,7 +4984,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 706,
+          "cites": 709,
           "crank": "A*"
         },
         {
@@ -4993,7 +4993,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 399,
+          "cites": 400,
           "crank": "A*"
         },
         {
@@ -5013,7 +5013,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 349,
+          "cites": 350,
           "crank": "A*"
         },
         {
@@ -5044,7 +5044,7 @@
           "year": "2019",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 3 (CSCW), 1-15, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:u5HHmVD_uO8C",
-          "cites": 148,
+          "cites": 149,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"
@@ -5073,7 +5073,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 106,
+          "cites": 107,
           "crank": "A*"
         },
         {
@@ -5142,7 +5142,7 @@
           "year": "2023",
           "venue": "Companion Publication of the 2023 Conference on Computer Supported …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=100&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
-          "cites": 53,
+          "cites": 54,
           "nr": "na"
         },
         {
@@ -5256,7 +5256,7 @@
           "year": "2025",
           "venue": "Proceedings of the 38th Annual ACM Symposium on User Interface Software and …, 2025",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:HoB7MX3m0LUC",
-          "cites": 106,
+          "cites": 107,
           "crank": "A*"
         },
         {
@@ -5292,7 +5292,7 @@
           "year": "2024",
           "venue": "arXiv preprint arXiv:2411.10109, 2024",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YFjsv_pBGBYC",
-          "cites": 926,
+          "cites": 932,
           "nr": "na"
         },
         {
@@ -5310,7 +5310,7 @@
           "year": "2023",
           "venue": "Thirty-seventh Conference on Neural Information Processing Systems Datasets …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mB3voiENLucC",
-          "cites": 349,
+          "cites": 350,
           "crank": "A*"
         },
         {
@@ -5328,7 +5328,7 @@
           "year": "2023",
           "venue": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Wp0gIr-vW9MC",
-          "cites": 9878,
+          "cites": 9930,
           "crank": "A*"
         },
         {
@@ -5337,7 +5337,7 @@
           "year": "2023",
           "venue": "Companion Publication of the 2023 Conference on Computer Supported …, 2023",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:mVmsd5A6BfQC",
-          "cites": 53,
+          "cites": 54,
           "nr": "na"
         },
         {
@@ -5390,7 +5390,7 @@
           "year": "2022",
           "venue": "Proceedings of the 35th Annual ACM Symposium on User Interface Software and …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:YOwf2qJgpHMC",
-          "cites": 706,
+          "cites": 709,
           "crank": "A*"
         },
         {
@@ -5399,7 +5399,7 @@
           "year": "2022",
           "venue": "Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems …, 2022",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:Se3iqnhoufwC",
-          "cites": 399,
+          "cites": 400,
           "crank": "A*"
         },
         {
@@ -5439,7 +5439,7 @@
           "year": "2021",
           "venue": "arXiv preprint arXiv:2108.07258, 2021",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:LkGwnXOMwfcC",
-          "cites": 14541,
+          "cites": 14517,
           "nr": "na"
         },
         {
@@ -5515,7 +5515,7 @@
           "year": "2019",
           "venue": "Proceedings of the ACM on Human-Computer Interaction 3 (CSCW), 1-15, 2019",
           "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y4Oc0cMAAAAJ&pagesize=40&sortby=pubdate&citation_for_view=Y4Oc0cMAAAAJ:u5HHmVD_uO8C",
-          "cites": 148,
+          "cites": 149,
           "q": "Q2",
           "sjr": 0.5,
           "qcat": "Computer Networks and Communications"

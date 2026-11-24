@@ -29997,7 +29997,20 @@
         "qcat": "Literature and Literary Theory"
       }
     ],
-    "KDD": [],
+    "KDD": [
+      {
+        "title": "Constructing and mining web-scale knowledge graphs: KDD 2014 tutorial",
+        "authors": "Bordes, A., & Gabrilovich, E.",
+        "year": 2014,
+        "venue": "Knowledge Discovery and Data Mining",
+        "url": "https://doi.org/10.1145/2623330.2630803",
+        "cites": 58,
+        "topic": "KDD",
+        "q": "Q4",
+        "sjr": 0.1,
+        "qcat": "Multidisciplinary"
+      }
+    ],
     "JMLR": [],
     "TPAMI": [],
     "AIJ": [],
