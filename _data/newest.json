@@ -29887,18 +29887,7 @@
         "crank": "A*"
       }
     ],
-    "EMNLP": [
-      {
-        "title": "EMNLP versus ACL: Analyzing NLP research over time",
-        "authors": "Gollapalli, S. D., & Li, X.",
-        "year": 2015,
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "url": "https://doi.org/10.18653/v1/D15-1235",
-        "cites": 15,
-        "topic": "EMNLP",
-        "crank": "A*"
-      }
-    ],
+    "EMNLP": [],
     "ICCV": [
       {
         "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
