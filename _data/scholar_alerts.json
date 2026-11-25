@@ -1,7 +1,141 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "A Foundation Model to Measure and Predict Human Behaviour",
+      "url": "https://arxiv.org/pdf/2611.24830",
+      "authors": "H Ye, T Huo, H Li, X Zhang, G Song - arXiv preprint arXiv:2611.24830, 2026",
+      "snippet": "Large language models (LLMs) are increasingly used to infer psychological attributes, predict individual behaviour, and simulate human populations. However, despite generating plausible responses, they often misrepresent individuals and distort population statistics. Here we introduce Chiron, a foundation model to measure and predict human behaviour. We jointly fine-tune an LLM to represent psychological constructs, predict individual behaviour, and align population …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "Who are you? The Personal Imitation Game",
+      "url": "https://arxiv.org/pdf/2611.24888",
+      "authors": "MR Wellyanto, HY Isa, K Xue, V Ravichandran, W Lu… - arXiv preprint arXiv …, 2026",
+      "snippet": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the identity signals interrogators rely on: stylometric features, personality traits, and biographical facts. To demonstrate the framework, we design …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
+      "url": "https://arxiv.org/pdf/2611.24999",
+      "authors": "Z Qin, Y Qiao, SB Frandsen, MT Treadway, L Zhao - arXiv preprint arXiv:2611.24999, 2026",
+      "snippet": "Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computational behavioral science. Existing personalized agents commonly condition actions directly on a static profile, leaving realized state transitions unused as an explicit source of supervision. We introduce a profile-conditioned state world model that uses observed environment--behavior state transitions to learn transition-informed representations for behavioral prediction …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "Broad-spectrum diversity and local homogeneity: A semantic evolution network analysis of artificial intelligence-generated content",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0160791X26004215",
+      "authors": "X Zhang, J Qi, Y Ma, J Li, X Han - Technology in Society, 2026",
+      "snippet": "Beyond the threat of disinformation, artificial intelligence-generated content may cause deep structural crises as it evolves independently within social networks. However, current governance lacks a clear understanding of how AI-generated content network evolves compared to human-generated content. This study proposes a sentence-video dual-scale paradigm for analyzing dynamic semantic networks in the open-world. It uses large-scale data (11,996 videos over 27 months) …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "q": "Q1",
+      "sjr": 2.79,
+      "qcat": "Business and International Management"
+    },
+    {
+      "title": "What Majority Labels Hide: Annotator Disagreement and Model Errors in Multi-Dialect Arabic Sexism Detection",
+      "url": "https://arxiv.org/pdf/2611.24383",
+      "authors": "A Bazaid, A Zubiaga - arXiv preprint arXiv:2611.24383, 2026",
+      "snippet": "Judgements of sexism are subjective and may vary across communities, yet sexism detection datasets usually reduce annotator judgements to a single majority label, obscuring disagreement and how models behave on contested cases. We introduce MuDAS, a dataset of YouTube comments in Saudi, Egyptian and Moroccan Arabic, each labelled by three native speakers of its dialect, with the individual annotations preserved. We use it to evaluate Arabic encoders fine-tuned with hard-label, soft …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "Auto-Rubric as Reward: From Implicit Preference to Explicit Generative Criteria",
+      "url": "https://openreview.net/pdf?id=Zf9vqc7AeL",
+      "authors": "J Tian, F Liu, J Han, Y Jiang, Y Wu, Y Liu, H Li, F Xu… - The Fortieth Annual Conference …",
+      "snippet": "Aligning multimodal generative models with human preferences demands reward signals that respect the compositional, multi-dimensional structure of human judgment. Prevailing RLHF approaches reduce this structure to scalar or pairwise labels, collapsing nuanced preferences into opaque parametric proxies and exposing vulnerabilities to reward hacking. While recent Rubrics-as-Reward (RaR) methods attempt to recover this structure through explicit criteria, generating rubrics …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "Метод симуляції агента в віртуальних середовищах за допомогою великих мовних моделей",
+      "url": "https://ela.kpi.ua/bitstreams/86b0f9b4-7049-4ff7-b802-c76c0e12de43/download",
+      "authors": "СО Богдан - 2026",
+      "snippet": "Анотація У роботі розглянуто підходи до симуляції агентів у віртуальних середовищах та проаналізовано обмеження традиційних сценарних підходів і використання великих мовних моделей без урахування структурованого контексту. Запропоновано метод симуляції віртуального агента, який поєднує велику мовну модель із контекстом середовища. Метод передбачає врахування поточного стану світу, дій користувача, станів об'єктів, пам'яті агента та правил …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "Systematic review of artificial intelligence for ocular imaging-based ageing measures: evidence, challenges, and clinical potential",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2162098926001179",
+      "authors": "K Pushpanathan, GD Yang, MK Kim, Q Peng, Z Da Soh… - Asia-Pacific Journal of …, 2026",
+      "snippet": "Purpose Healthy ageing is a global health priority as populations age and chronic disease burden increases. Artificial intelligence (AI) applied to ocular imaging is a potential approach for deriving non-invasive markers of ageing. This review evaluates the development and validation of AI-derived ageing measures from ocular imaging, and their reported associations with health factors and outcomes. Design Systematic review Methods PubMed, Web of Science, and SCOPUS were …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "q": "Q1",
+      "sjr": 1.61,
+      "qcat": "Medicine (miscellaneous)"
+    },
+    {
+      "title": "Agentic Returns Triage with a Human in the Loop: Tool-Calling Language-Model Architecture, Configuration-Consistency Screening and Deferral Policy for OEM …",
+      "url": "https://www.preprints.org/frontend/manuscript/9d4a9732824818a60d7d6bc307fcc286/download_pub",
+      "authors": "NBM Rolla - 2026",
+      "snippet": "Every returned unit of enterprise networking hardware is triaged at intake: is it what the return authorization says, what condition is it in, where should it go. At the OEM whose platform I built, a technician answers those from a serial scan, a declared configuration, a note and photographs, about 250 times a day. This paper presents a Returns Triage Agent—a tool-calling language-model orchestrator with five typed tools—and a policy layer that routes a unit automatically when calibrated confidence …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "Generative AI for Personalized Music Composition Based on Singing Voice Characteristics and User Preferences",
+      "url": "https://ijaies.org/index.php/home/article/download/242/242",
+      "authors": "E Kilmartin, K Downar, C Hanratty - … Journal of Artificial Intelligence Engineering and …, 2026",
+      "snippet": "Personalized music composition with generative artificial intelligence faces a specific mismatch: most systems condition on genre labels, text prompts, or symbolic style tokens, whereas a singer's voice imposes constraints and affordances that are not captured by generic style controls. This article develops a methodological framework for generating music that is simultaneously conditioned on singing voice characteristics and individual user preferences. The framework represents a singing …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "A Crowd-Audited Atlas of Implicit Bias in LLM-Powered Agents",
+      "url": "https://arxiv.org/pdf/2611.21376",
+      "authors": "J Alexander, Y Li, M Licamele, WH Deng, S Das - arXiv preprint arXiv:2611.21376, 2026",
+      "snippet": "Prior work has shown that large language models (LLMs) express implicit biases in high-publicity, one-off decision scenarios such as hiring and intelligence assessment. However, as people increasingly employ autonomous, LLM-powered AI …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "Standardized Tolerance for Adaptive Reuse and Repair: A Method for HNSW Migration Under Embedding Model Change Scenarios",
+      "url": "https://arxiv.org/pdf/2611.25416",
+      "authors": "H Ma, C Zhu, B Wang, X Yang - arXiv preprint arXiv:2611.25416, 2026",
+      "snippet": "When an embedding model changes, the same collection is re-encoded, and its vector index must be adapted to the new embedding space. Because the source and target vectors represent the same objects, suitable connections in the source index can be reused. We propose STARR (Standardized Tolerance for Adaptive Reuse and Repair) to migrate HNSW indexes after an embedding model change. STARR compares standardized edge lengths over the same source neighbor lists in both …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
+    {
+      "title": "Grading Executable Legal Rules Against Independent Records: Transitional Provisions and Korean SME Status",
+      "url": "https://arxiv.org/pdf/2611.24055",
+      "authors": "J Bae - arXiv preprint arXiv:2611.24055, 2026",
+      "snippet": "Laws are increasingly turned into programs that decide cases, such as whether a firm was a small or medium enterprise (SME) on a given date, and large language models (LLMs) now write them. The programs are usually graded against answers written by someone who read the same law, so a program can score well by sharing the grader's reading rather than by getting the law right. LexTemporis grades them instead against records of what actually happened: 10,901 firm-years of SME status …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-24",
+      "nr": "na"
+    },
     {
       "title": "Evaluating Large Language Models for Synthetic Economic Behavior Generation With Survey Microdata: Evidence From Household Saving Decisions",
       "url": "https://ieeexplore.ieee.org/abstract/document/11802619/",
@@ -13,16 +147,6 @@
       "q": "Q1",
       "sjr": 1.22,
       "qcat": "Human-Computer Interaction"
-    },
-    {
-      "title": "A Crowd-Audited Atlas of Implicit Bias in LLM-Powered Agents",
-      "url": "https://arxiv.org/pdf/2611.21376",
-      "authors": "J Alexander, Y Li, M Licamele, WH Deng, S Das - arXiv preprint arXiv:2611.21376, 2026",
-      "snippet": "Prior work has shown that large language models (LLMs) express implicit biases in high-publicity, one-off decision scenarios such as hiring and intelligence assessment. However, as people increasingly employ autonomous, LLM-powered AI agents that make decisions on their behalf in doing day-to-day tasks, it is of critical importance that we understand how implicit biases, based on sociodemographic assumptions, emerge across a broad milieu of workaday decision scenarios. We …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-22",
-      "nr": "na"
     },
     {
       "title": "Necessary for What? Auditing Demographic Disclosure to LLM Synthetic Respondents",
@@ -295,134 +419,6 @@
       "scholar": "Joon Sung Park",
       "date": "2026-11-21",
       "nr": "na"
-    },
-    {
-      "title": "Demonstrating Graphionale: How Graph Visualizations of LLM Rationales Affect Human Decision Making",
-      "url": "https://dl.acm.org/doi/full/10.1145/3830397.3842493",
-      "authors": "Z Ma, X Wang, M Yin, V Charisi, S Sun, A Prakash… - Adjunct Proceedings of the …, 2026",
-      "snippet": "Large Language Models (LLMs) increasingly generate rationales to support human decision-making, yet these rationales are typically presented as dense linear text. We demonstrate Graphionale, a co-design-informed system that transforms LLM …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "nr": "na"
-    },
-    {
-      "title": "Access Is Not Use: The Reconstruction–Use Gap in Language-Model Financial Agents",
-      "url": "https://dl.acm.org/doi/pdf/10.1145/3858063.3858700",
-      "authors": "Z Duan, J Ren - Proceedings of the 7th ACM International Conference …, 2026",
-      "snippet": "Resolved records can inform forecast assessment, but access does not ensure that a language-model financial agent uses them. We study this reconstruction–use gap in 30,360 A-share firm-years with 27,772 resolved annual earnings-forecast claims, using blinded interventions that hold the current disclosure fixed while changing the resolved record. In a three-checkpoint primary panel, authoritative resolution content alone raises the high-minus-low fulfillment-probability gap (record sensitivity) slightly …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "crank": "A*"
-    },
-    {
-      "title": "Memory× Self-Evolution: When Agents with Cognitive Frameworks Meet Market Paradigm Shifts in Investment",
-      "url": "https://dl.acm.org/doi/pdf/10.1145/3858063.3858715",
-      "authors": "D Wang, KH Sew, J Xian, H Xu - Proceedings of the 7th ACM International …, 2026",
-      "snippet": "Fundamental investors reason from cognitive frameworks, and large language model investment agents inherit the same idea, using such a framework as their reasoning backbone. A real market is not stationary. The market shifts, and a thesis that once held can fail after a paradigm shift. Existing financial agents treat the framework as a fixed input and cannot track such a shift. We ask two questions. Can an agent detect that its own framework is being disrupted? Can it revise that framework in time? We …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "nr": "na"
-    },
-    {
-      "title": "Asking for Help at Work: Conversational Colleague Agents (CoCoa) for Scaffolding Workplace Help-Seeking",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3841580.3841604",
-      "authors": "A Gurel, G Regal, E Economidou, M Tscheligi - Proceedings of the 14th International …, 2026",
-      "snippet": "Student employee onboarding is a complex and challenging transition. The use of Artificial-Intelligence (AI)-based conversational agents is a promising direction for onboarding support. While these systems provide immediate responses and solutions to students' questions, they risk replacing human mentorship, a central element of effective, personalized onboarding and community building at the workplace. In this paper, we introduce CoCoa, a multi-agent conversational AI for …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "nr": "na"
-    },
-    {
-      "title": "Overhearing AI Deliberation: Reducing Navigation Cost in 2-on-1 AI Interaction",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3841580.3841598",
-      "authors": "M Nakagawa, T Yamazaki, N Yoshida, K Higuchi - Proceedings of the 14th …, 2026",
-      "snippet": "Conversational AI often places navigation cost on users by requiring them to continuously steer conversations, articulate preferences, and monitor AI responses. Reducing this cost may require giving AI systems more conversational initiative, raising questions about how this shift affects users' agency and responsibility. We explore a 2-on-1 AI deliberation design, where users overhear two agents' discussion and intervene when needed. Informed by a formative study, our system …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "nr": "na"
-    },
-    {
-      "title": "Analysis of the Psychological Impact and Relation of Organizational Networks on Employee Collaborative Processes: Exploring Group Dynamics through LLM Multi …",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3841580.3841627",
-      "authors": "S Saitoh, H Osawa - Proceedings of the 14th International Conference on …, 2026",
-      "snippet": "It is challenging to improve organizational performance by directly controlling internal factors such as psychological safety. Conversely, structural factors, including organizational structure and communication network configurations, are relatively easier to manage. This makes the indirect optimization of collaborative processes through these elements crucial. This study constructed a multi-agent simulation using large language models (LLMs) to explore how organizational structure and …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "crank": "B"
-    },
-    {
-      "title": "When Personalization Becomes Persuasion: Disclosure, Autonomy, and Conversion in Generative-AI Advertising",
-      "url": "https://www.researchbynabidul.com/article/e9bc7e53-d4df-4cd6-be4b-448ae1dae77b",
-      "authors": "MN Haque - Research Journal in Business and Economics, 2025",
-      "snippet": "Generative AI enables advertisers to customize content on a per-person basis with minimal additional expense. The ability to make things seem more relevant can also diminish the persuasive message and reduce consumer choice. This study investigates the influence of personalization intensity and disclosure of AI generated content on the perceived relevance, manipulation, autonomy, trust, and conversion intention. A simulation-based 2× 2 online experiment was designed using 1,248 …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "q": "Q1",
-      "sjr": 2.18,
-      "qcat": "Multidisciplinary"
-    },
-    {
-      "title": "Artificial Intelligence in Gas Turbine Combustor Design: Recent Progress and Future Perspectives",
-      "url": "https://www.mdpi.com/1996-1073/19/22/5486/pdf",
-      "authors": "Y Fang, J Peng, Y Ping, X Liu, J Yan, K Zhou - Energies, 2026",
-      "snippet": "The overall performance, pollutant emissions, and operational reliability of gas turbines are strongly influenced by combustor design. However, combustor design remains challenging because of the strong coupling among turbulent flow, fuel–air mixing, chemical reactions, heat transfer and cooling, and combustion instabilities. Conventional design approaches are often constrained by long development cycles, high computational costs, and difficulties in coordinated multi-objective optimization …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "q": "Q1",
-      "sjr": 0.75,
-      "qcat": "Control and Optimization"
-    },
-    {
-      "title": "Foundation Models in Computer Vision: A Survey and Design Guidelines",
-      "url": "https://ieeexplore.ieee.org/iel8/7433297/7777658/11794939.pdf",
-      "authors": "A Curto-Vilalta, R von Eisenhart-Rothe, D Rueckert… - IEEE Transactions on …, 2026",
-      "snippet": "Foundation models are reshaping computer vision by replacing task-specific pipelines with adaptable models pretrained mainly with self-supervised learning on large-scale data. This review surveys 84 foundation models identified through a structured search and analyzes their use across natural images, medicine, and remote sensing, including both two-dimensional and three-dimensional settings. The article proposes a unified categorization based on training data modality, learning …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "q": "Q1",
-      "sjr": 4.83,
-      "qcat": "Applied Mathematics"
-    },
-    {
-      "title": "Multiple Accounts as Informal Privacy Infrastructure: Managing Audiences and Anticipated Regret on Social Media",
-      "url": "https://ieeexplore.ieee.org/abstract/document/11775497/",
-      "authors": "MJ Dupuis, A Peterson, C Hamilton-Eppler, K Joshi… - 2026 IEEE 17th Annual …, 2026",
-      "snippet": "Social media users maintain multiple, private, and pseudonymous accounts to separate audiences, identities, and content. These arrangements can support privacy while creating additional decisions and maintenance work. This paper examines account segmentation as informal privacy infrastructure through a focused secondary analysis of six segmentation-relevant interviews selected from a parent corpus of 21 university-recruited adults, alongside account-management responses …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "nr": "na"
-    },
-    {
-      "title": "When Transparency May Backfire: Exploratory Signals on Voice and Explanation as a Home Robot Decides Against You",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3841580.3845674",
-      "authors": "SY Kim, C Lee - Proceedings of the 14th International Conference on …, 2026",
-      "snippet": "A home robot can explain why it overrules a household member yet leave that member feeling less influential. A scenario-based 2× 2 video-vignette pilot (N= 31) manipulated procedural voice—a depicted opportunity to express a preference before the decision—and explanation while holding an unfavorable outcome constant. Tests of procedural justice (proposed mediator) and decision acceptance (focal outcome) were imprecise and nonsignificant. Both checks differed by …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-19",
-      "crank": "B"
-    },
-    {
-      "title": "Microbial Electrochemical Synthesis of Nanomaterials: Prospects for Integration with Microfluidics and Artificial Intelligence",
-      "url": "https://link.springer.com/article/10.1007/s42250-026-01912-5",
-      "authors": "V Mohan, V Sathiyamoorthi, Y Palanisamy, R Desikan… - Chemistry Africa, 2026",
-      "snippet": "Microbial electrochemical systems (MES) are increasingly explored as a sustainable platform for nanomaterial synthesis, coupling the metabolic activity of electroactive microorganisms with an externally controllable electrochemical driving force. Unlike purely chemical synthesis, which depends on hazardous stoichiometric reductants, or purely biological synthesis, which offers limited external control, MES substitutes applied cathodic potential for chemical reductants while retaining a living catalytic …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-19",
-      "q": "Q3",
-      "sjr": 0.4,
-      "qcat": "Catalysis"
     }
   ]
 }
