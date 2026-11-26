@@ -1,7 +1,125 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Fiction as Experiment, Part I: Generative AI and the Parametric Study of Social Cognition",
+      "url": "https://www.mdpi.com/2504-2289/10/11/398/pdf",
+      "authors": "A Conti, S Uboldi, PL Sacco - Big Data and Cognitive Computing, 2026",
+      "snippet": "The simulation hypothesis holds that fiction works as a simulator for social cognition, with readers building generative models of characters' minds. The correlational association has repeatedly been reported, whereas the experimental record is small and unstable, and the most demanding recent test recovered neither. We propose a so far overlooked source of that asymmetry: the simulation that traditional fiction affords is author-constrained, offering one trajectory through the social possibility …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "q": "Q1",
+      "sjr": 1.03,
+      "qcat": "Artificial Intelligence"
+    },
+    {
+      "title": "Fiction as Experiment, Part II: Holding the Events Fixed—A Protocol for Validating Machine-Generated Perspective Shifts",
+      "url": "https://www.mdpi.com/2504-2289/10/11/395/pdf",
+      "authors": "A Conti, S Uboldi, PL Sacco - Big Data and Cognitive Computing, 2026",
+      "snippet": "Rewriting a story from another character's position is an established exercise in literary education and in narrative interventions on perspective-taking, and it has become a machine task, yet the capabilities that its use as a stimulus presupposes have not been measured. Existing evaluations test a model's own social inference on short vignettes, the faithfulness of summaries, or the quality of creative output, and none addresses whether a regeneration preserves a source's events while varying …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "q": "Q1",
+      "sjr": 1.03,
+      "qcat": "Artificial Intelligence"
+    },
+    {
+      "title": "Knowledge-Oriented Trajectories for AI Integration in Industrial Project Management: A Literature-derived Framework",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2452414X26001810",
+      "authors": "P Morato-Huerta, AM Martín-Gómez, JR Lama-Ruiz - Journal of Industrial Information …, 2026",
+      "snippet": "Abstract Industrial Project Management Offices (PMOs) face mounting pressure to integrate Artificial Intelligence (AI), yet most initiatives stall at the operational layer, producing efficiency gains while failing to build the knowledge infrastructure that industrial information integration requires. To address this gap, our study proposes the Knowledge-Oriented AI (KOAI) framework, designed through a three-phase mixed-method approach combining a PRISMA Systematic Literature Review (n …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "q": "Q1",
+      "sjr": 2.15,
+      "qcat": "Industrial and Manufacturing Engineering"
+    },
+    {
+      "title": "We Need to Improve Benchmarks in AI4Math",
+      "url": "https://openreview.net/pdf?id=5Llaz7kMgQ",
+      "authors": "S Frieder, J Bayer, S Looi, J Loader, J Berner, K Collins… - 2026",
+      "snippet": "Benchmarks used to evaluate AI systems for mathematics, in both natural and formal languages, exhibit critical shortcomings that limit community progress toward powerful, open, community-driven mathematical copilots. These limitations range from an excessive focus on theorem proving and autoformalization at the expense of other important mathematical activities, such as conjecture generation, to barriers to evaluating models on privately held research-level benchmarks. Compounding …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "nr": "na"
+    },
+    {
+      "title": "Database, Artificial Intelligence, and Ground Robotics for Robust Weed Recognition and Precision Control in Vegetable Cropping Systems",
+      "url": "https://search.proquest.com/openview/64c162667a5242ace129c9e9fa2e991c/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "authors": "B Deng - 2026",
+      "snippet": "Weed competition represents a major biotic constraint limiting productivity and profitability in vegetable production systems. In addition to the shortage and cost of labor for weed management, the widespread occurrence of herbicide-resistant weeds due to the heavy reliance on herbicides is threatening agricultural sustainability and global food security. Effective weed management in high-value vegetable crops may benefit from highly accurate, automated solutions to mitigate …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "nr": "na"
+    },
+    {
+      "title": "The Values We Live by: Enactment, Alignment, and Politics in Sociotechnical Systems",
+      "url": "https://search.proquest.com/openview/59c382960203d93a93d7bcbf87d97bb0/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "authors": "TP Nguyen - 2026",
+      "snippet": "Technology increasingly shapes critical aspects of public life, but a gap remains between how we intend these systems to behave and how they actually perform in real-world settings. System designers need methods to anticipate when systems will frustrate stakeholders, and mechanisms to incorporate stakeholder feedback. This dissertation focuses on challenges with values enactment: the varied ways human values motivate and inform what sociotechnical artifacts become in practice …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "nr": "na"
+    },
+    {
+      "title": "Generative Artificial Intelligence in Project Management: A Paradox Perspective on Tensions, Responses and Outcomes",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0263786326001304",
+      "authors": "G Huzooree - International Journal of Project Management, 2026",
+      "snippet": "As project environments become more complex and interdependent, managing competing demands becomes central to project work. Generative artificial intelligence (GenAI) intensifies these challenges by embedding generated outputs directly into core project tasks. This systematic literature review examines how GenAI reshapes the conditions under which such demands are organized and addressed. Drawing on a paradox perspective, the study finds that GenAI brings contradictory yet …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "q": "Q1",
+      "sjr": 1.78,
+      "qcat": "Business and International Management"
+    },
+    {
+      "title": "Closing the AI Accountability Gap: Audits and Evaluation in the Age of Artificial Intelligence",
+      "url": "https://search.proquest.com/openview/b81b5ef4387ff994aef6d4fb7114781f/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "authors": "ID Raji - 2026",
+      "snippet": "Overleaf Example Page 1 Closing the AI Accountability Gap : Audits and Evaluation \r\nin the Age of Artificial Intelligence by Inioluwa Deborah Raji A dissertation submitted \r\nin partial satisfaction of the requirements for the degree of Doctor of Philosophy in \r\nComputer Science in the Graduate Division of the University of California, Berkeley \r\nCommittee in charge: Professor Benjamin Recht, Chair Professor Emma Pierson \r\nProfessor Avi Feller Professor Daniel Ho Summer 2026 Page 2 Closing the AI …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "nr": "na"
+    },
+    {
+      "title": "Foundation Models for Astronomy: Development of a Multimodal Foundation Model for Euclid Space Telescope Images and DESI Spectra",
+      "url": "https://riull.ull.es/xmlui/bitstream/handle/915/49102/Foundation%20Models%20for%20Astronomy%20Development%20of%20a%20Multimodal%20Foundation%20Model%20for%20Euclid%20Space%20Telescope%20Images%20and%20DESI%20Spectra.pdf?sequence=1",
+      "authors": "V Alonso Rodríguez - 2026",
+      "snippet": "The arrival of next-generation massive astrophysical surveys, such as the Euclid space telescope and the Dark Energy Spectroscopic Instrument (DESI), presents the unprecedented challenge of exploiting large volumes of highly heterogeneous data. This work introduces, optimizes, and validates AstroPT MM, a bimodal autoregressive foundation model of∼ 100.75 million parameters pretrained in a self-supervised manner. The model unifies the resolved spatial morphology of …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "nr": "na"
+    },
+    {
+      "title": "NOESIS CONTINUUM",
+      "url": "https://www.researchgate.net/profile/Panos-Skouras-2/publication/418122137_NOESIS_CONTINUUM_Persistent_Experience-Based_Learning_Evidence-Guided_Revision_and_Scoped_Verification_of_Decision_Transitions/links/6affdd60c51a3c0fc8d0d75d/NOESIS-CONTINUUM-Persistent-Experience-Based-Learning-Evidence-Guided-Revision-and-Scoped-Verification-of-Decision-Transitions.pdf",
+      "authors": "P Skouras",
+      "snippet": "Abstract Systems that act over long periods must do more than generate responses: they need to preserve useful experience, recover context-specific procedures, revise previously accepted knowledge when evidence changes, and constrain consequential state transitions through inspectable checks. We present Noesis Continuum, a single-author systems architecture combining persistent CanonicalMemory with a bounded active working set and dynamically expanding …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-26",
+      "nr": "na"
+    },
+    {
+      "title": "ADMIT: Support-Gated Memory-Write Admission for Document QA Agents",
+      "url": "https://openreview.net/pdf?id=4sP52RCwde",
+      "authors": "J Shin, G Shim, H Moon, J Seo - The Fortieth Annual Conference on Neural Information …",
+      "snippet": "Document QA agents may reuse unverified intermediate answers in later retrieval and synthesis before checking the final answer. We formalize evidence-based storage decisions as* Evidence-Constrained Memory Admission*(ECMA) and propose** ADMIT** to separate answer delivery from automatic reuse. ADMIT checks whether each proposed value appears in reader-visible text and permits at most one reread per proposed write. Values failing this check after rereading are withheld from …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-26",
+      "nr": "na"
+    },
     {
       "title": "A Foundation Model to Measure and Predict Human Behaviour",
       "url": "https://arxiv.org/pdf/2611.24830",
@@ -300,122 +418,6 @@
       "authors": "N Astitou, E Aucouturier - arXiv preprint arXiv:2611.18436, 2026",
       "snippet": "This study evaluates the methodological potential of using large language models (LLMs) to generate synthetic datasets prior to real-world data collection, thereby streamlining subsequent processing and statistical analysis. The approach is applied to a survey conducted within the France Life Imaging (FLI) network, leveraging three distinct LLMs (Sonnet 4.6, GPT 5.3, and Kimi 2.6) to simulate responses and prepare data processing workflows. The findings demonstrate significant time savings in code …",
       "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "nr": "na"
-    },
-    {
-      "title": "Proposed new words and collective identity in human and language model agent groups",
-      "url": "https://www.nature.com/articles/s41598-026-80001-6_reference.pdf",
-      "authors": "K Ito, H Nagai, S Wakamiya, E Aramaki - Scientific Reports, 2026",
-      "snippet": "Groups develop distinctive words even when ordinary expressions are sufficient. Such words can symbolize collective identity, and observational studies link language use to community attachment. We examined identity change in temporary groups of one human and four disclosed large language model (LLM) agents, comparing discussions with and without a neologism proposal across recruitment waves. We recruited 100 Japanese participants in two sequential waves; an agent …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "q": "Q1",
-      "sjr": 0.89,
-      "qcat": "Multidisciplinary"
-    },
-    {
-      "title": "MEM-SQL: Memory-Empowered Text-to-SQL",
-      "url": "https://arxiv.org/pdf/2611.18338",
-      "authors": "X Wang, W Pei, S Hou, Y Liu, H Chen, B Li, Y Luo… - arXiv preprint arXiv …, 2026",
-      "snippet": "Text-to-SQL systems translate natural language questions into SQL queries over increasingly complex databases. However, widely used benchmarks evaluate questions independently, overlooking settings where earlier queries over the same database can supply joins or calculations for a new question. We introduce HARE (History-AwaRe Text-to-SQL BEnchmark) to measure the accuracy and cost of adapting historical SQL. HARE comprises 1,600 requests derived from a fixed pool of …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "nr": "na"
-    },
-    {
-      "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-      "url": "https://arxiv.org/pdf/2611.18531",
-      "authors": "T Brennan, AW Lo, C Zhao - arXiv preprint arXiv:2611.18531, 2026",
-      "snippet": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a common uncertain reward state, and only those taking the rewarded action reproduce. We show that long-run growth is maximized when each …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "nr": "na"
-    },
-    {
-      "title": "Simulated quiet quitting risk in generative agents under crisis management strategies",
-      "url": "https://link.springer.com/article/10.1007/s10791-026-10839-x",
-      "authors": "R Hong, F Yao, P Ye, T Wang, Z Zhang - Discover Computing, 2026",
-      "snippet": "Quiet quitting refers to employees maintaining outward compliance while reducing psychological engagement and discretionary effort. Because such withdrawal is partly concealed, it is difficult to observe directly in conventional organizational research. This study develops an exploratory generative-agent simulation to examine how GPT-4o-mini produces compliance and withdrawal-related responses under different crisis-management prompts and personality archetypes. We …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "q": "Q2",
-      "sjr": 0.39,
-      "qcat": "Library and Information Sciences"
-    },
-    {
-      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
-      "url": "https://arxiv.org/pdf/2611.18359",
-      "authors": "G Robotics, Q Lan, D Li, S Li, Y Lyu, S Lu, Z Qi, S Wang… - arXiv preprint arXiv …, 2026",
-      "snippet": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the environment, interpreting user intent, reasoning about the task …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "nr": "na"
-    },
-    {
-      "title": "Source transparency and accuracy warnings support more selective reliance on generative-AI answers in a randomized online experiment",
-      "url": "https://www.nature.com/articles/s41598-026-80733-5_reference.pdf",
-      "authors": "Y Xing, Z Zhang, Y Zhang, M Zhang, X Lu - Scientific Reports, 2026",
-      "snippet": "Generative-AI systems increasingly provide answers to everyday questions, but users need to decide not only whether to accept an answer, but whether acceptance should depend on answer correctness. This randomized online experiment tested whether visible source information and an accuracy warning supported more selective reliance on AI-style answers. A final analytic sample of 800 adult participants was assigned to one of four between-subjects cue conditions in a 2× 2× …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "q": "Q1",
-      "sjr": 0.89,
-      "qcat": "Multidisciplinary"
-    },
-    {
-      "title": "Understanding Intelligence across Biological and Artificial Systems",
-      "url": "https://media.sciltp.com/articles/2610005509/2610005509.pdf",
-      "authors": "T Dorigo - 2026",
-      "snippet": "What is intelligence, and how can it arise in a physical system? Intelligence has been associated with a variety of capacities: learning, adaptation, perception, memory, communication, empathy, problem solving, planning, and the ability to act successfully in changing environments. No single definition captures all of these aspects, nor is intelligence an exclusively human phenomenon: many of these capacities are found, to different degrees and in different forms, throughout the …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "nr": "na"
-    },
-    {
-      "title": "Measuring a Local AI Companion Through Its Own Runtime: Benchmark Defects, Run-to-Run Noise, Model Scale and Prompt Layout in B-12/Capri",
-      "url": "https://www.researchgate.net/profile/Oleksandr-Pylypenko-6/publication/417929897_Measuring_a_Local_AI_Companion_Through_Its_Own_Runtime_Benchmark_Defects_Run-to-Run_Noise_Model_Scale_and_Prompt_Layout_in_B-12Capri/links/6af9e750dc41aa6ac311ab41/Measuring-a-Local-AI-Companion-Through-Its-Own-Runtime-Benchmark-Defects-Run-to-Run-Noise-Model-Scale-and-Prompt-Layout-in-B-12-Capri.pdf",
-      "authors": "O Pylypenko - 2026",
-      "snippet": "A previous report described B-12, a local-first agent runtime, and Capri, its desktop companion. This follow-up asks what an evaluation of such a system actually measures. We ran a 92-scenario suite (80 runnable on the available hardware) through the companion's own runtime inside a filesystem sandbox, instead of calling the language model directly. The first evaluation, which bypassed the runtime, scored 27 of 80 and produced a privacy leak that the harness itself had created; the …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "nr": "na"
-    },
-    {
-      "title": "Weather Flow Prediction using Spatial-Temporal Graph Neural Networks",
-      "url": "https://praise-jaravani.github.io/weatherflow-website/assets/docs/project-proposal.pdf",
-      "authors": "G Chikwanha, Z Fuyana, P Jaravani",
-      "snippet": "Weather prediction involves using historical weather observations to predict some future weather condition [5]. Recent work [3, 5] has shown that Spatial-Temporal Graph Neural Networks (STGNNs) generally perform well on weather prediction tasks. In these models, weather prediction is formulated as a graph representation, where nodes represent the weather stations, and edges encode the local dynamics around a weather station and the global relationships between different stations [3, 5 …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-21",
-      "nr": "na"
-    },
-    {
-      "title": "Integrating Language Models with Evolving External Knowledge",
-      "url": "https://escholarship.org/content/qt3gj3t6ct/qt3gj3t6ct.pdf",
-      "authors": "D Wu - 2026",
-      "snippet": "Large language models acquire broad capabilities from public training data, but their deployment increasingly takes place in private worlds shaped by individual users, organizations, and specialized environments. These worlds contain personally and economically valuable knowledge that is local, dynamic, and accumulated through continued interaction and experience. This dissertation studies how language models can effectively integrate such evolving external knowledge. We first …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-21",
-      "nr": "na"
-    },
-    {
-      "title": "Ideation Arena: Evaluating LLM-driven Research Ideation with Battle-style Human Expert Annotation",
-      "url": "https://aclanthology.org/2026.emnlp-main.688.pdf",
-      "authors": "Z Chen, K Zhao, J Fu, D Liang, Y Wu, J Li, H Xue… - Proceedings of the 2026 …, 2026",
-      "snippet": "Evaluating research ideas generated by LLMs is difficult because their scientific value cannot be fully determined by objective criteria, and no single reference answer specifies what counts as a good idea. To address this challenge, we …",
-      "kind": "Related",
       "scholar": "Joon Sung Park",
       "date": "2026-11-21",
       "nr": "na"
