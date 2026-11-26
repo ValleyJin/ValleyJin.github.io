@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "source": "arXiv + OpenAlex + Semantic Scholar",
   "topics": {
     "Deep persona": {
@@ -72,7 +72,7 @@
           "venue": "arXiv",
           "topic": "Deep persona",
           "arxiv": "2512.06688",
-          "cites": 121,
+          "cites": 122,
           "key": true,
           "nr": "na"
         },
@@ -84,9 +84,9 @@
           "venue": "International Conference on Learning Representations",
           "topic": "Deep persona",
           "arxiv": "2506.19823",
-          "cites": 175,
+          "cites": 197,
           "key": true,
-          "fwci": 81.25,
+          "fwci": 84.6,
           "pct": 1,
           "crank": "A*"
         },
@@ -166,6 +166,48 @@
           "doi": null,
           "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
           "first_seen": "2026-11-25",
+          "nr": "na"
+        },
+        {
+          "title": "BRAG: Bayesian Retrieval Augmented Generation",
+          "authors": "J Movellan, M Bilkhu, Y Jung, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31656",
+          "cites": 0,
+          "pubdate": "2026-11-23",
+          "arxiv": "2611.31656",
+          "doi": null,
+          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
+          "first_seen": "2026-11-26",
+          "nr": "na"
+        },
+        {
+          "title": "Monitorable-by-design architectures for a post-Astra world: a compartmentalization-based approach",
+          "authors": "J Watts, J Sokol",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31610",
+          "cites": 0,
+          "pubdate": "2026-11-23",
+          "arxiv": "2611.31610",
+          "doi": null,
+          "cited_key": "Persona Features Control Emergent Misalignment",
+          "first_seen": "2026-11-26",
+          "nr": "na"
+        },
+        {
+          "title": "Reproducible Social Structure Emerges From Free-Form Interaction Among LLM Agents",
+          "authors": "T Alisch, S Murthy, R Hawkins, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31543",
+          "cites": 0,
+          "pubdate": "2026-11-23",
+          "arxiv": "2611.31543",
+          "doi": null,
+          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+          "first_seen": "2026-11-26",
           "nr": "na"
         },
         {
@@ -658,51 +700,9 @@
           "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
           "first_seen": "2026-11-20",
           "nr": "na"
-        },
-        {
-          "title": "Do Personalized LLMs Need the Whole Conversation? Matching the Full History with Only 5% of Its Text via Relevance-Filtered Context",
-          "authors": "E Hayashi, A Shin",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.14952",
-          "cites": 0,
-          "pubdate": "2026-10-10",
-          "arxiv": "2610.14952",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-11-25",
-          "nr": "na"
-        },
-        {
-          "title": "Don't Guess, Just Ask: Evaluating Interactive Requirement Clarification for Repository-Level Software Development",
-          "authors": "M Chen, Z Zhong, M Wang, et al.",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.13022",
-          "cites": 0,
-          "pubdate": "2026-10-09",
-          "arxiv": "2610.13022",
-          "doi": null,
-          "cited_key": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
-          "first_seen": "2026-11-20",
-          "nr": "na"
-        },
-        {
-          "title": "DPPM: Dual-Path Parametric Memory for Personalized Language Models",
-          "authors": "Y Chen, S Liu, J Shi, et al.",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.11776",
-          "cites": 1,
-          "pubdate": "2026-10-08",
-          "arxiv": "2610.11776",
-          "doi": null,
-          "cited_key": "PersonaMem-v2: Towards Personalized Intelligence via Learnin",
-          "first_seen": "2026-11-25",
-          "nr": "na"
         }
       ],
-      "n_citing": 372,
+      "n_citing": 425,
       "query": "persona generation"
     },
     "gABM": {
@@ -727,7 +727,7 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2312.03664",
-          "cites": 215,
+          "cites": 220,
           "key": true,
           "nr": "na"
         },
@@ -751,7 +751,7 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2311.06957",
-          "cites": 55,
+          "cites": 54,
           "key": true,
           "nr": "na"
         },
@@ -847,7 +847,7 @@
           "venue": "arXiv",
           "topic": "gABM",
           "arxiv": "2504.03274",
-          "cites": 68,
+          "cites": 69,
           "key": true,
           "nr": "na"
         },
@@ -984,21 +984,46 @@
           "qcat": "Control and Systems Engineering"
         },
         {
-          "title": "VsensAgent: A Human-Agent Interface for Collaborative Virtual Sensor Data Authoring",
-          "authors": "F Liang, T Min, C Xia, et al.",
+          "title": "E2SIM: Long-Horizon Simulation of Everyday Human Behavior with Evolving States",
+          "authors": "Z Gong, X Yin, T On, et al.",
           "year": 2026,
-          "venue": "Proceedings of the ACM on Human-Computer Interaction",
-          "url": "https://doi.org/10.1145/3859337",
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31641",
           "cites": 0,
           "pubdate": "2026-11-23",
-          "arxiv": null,
-          "doi": "10.1145/3859337",
-          "cited_key": "Design and Evaluation of Generative Agent-based Platform for",
-          "first_seen": "2026-11-21",
-          "fwci": 0.0,
-          "q": "Q2",
-          "sjr": 0.5,
-          "qcat": "Computer Networks and Communications"
+          "arxiv": "2611.31641",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-26",
+          "nr": "na"
+        },
+        {
+          "title": "COGENT: A Modular Cognitive Architecture for Agentic User Simulation",
+          "authors": "Y Chi, A Davies, D Das, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31559",
+          "cites": 0,
+          "pubdate": "2026-11-23",
+          "arxiv": "2611.31559",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-26",
+          "nr": "na"
+        },
+        {
+          "title": "Reproducible Social Structure Emerges From Free-Form Interaction Among LLM Agents",
+          "authors": "T Alisch, S Murthy, R Hawkins, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2611.31543",
+          "cites": 0,
+          "pubdate": "2026-11-23",
+          "arxiv": "2611.31543",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-26",
+          "nr": "na"
         },
         {
           "title": "Social Interaction Breaks Replicate Independence in Controlled-Clone LLM Agents",
@@ -1057,7 +1082,7 @@
           "doi": "10.1038/s43588-026-01080-z",
           "cited_key": "Generative Agent-Based Modeling: Unveiling Social System Dyn",
           "first_seen": "2026-11-19",
-          "fwci": 0.99,
+          "fwci": 0.98,
           "q": "Q1",
           "sjr": 4.25,
           "qcat": "Computer Networks and Communications"
@@ -1248,7 +1273,7 @@
           "doi": "10.1038/s41562-026-02539-9",
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-11-19",
-          "fwci": 0.62,
+          "fwci": 0.61,
           "q": "Q1",
           "sjr": 4.9,
           "qcat": "Behavioral Neuroscience"
@@ -1327,34 +1352,6 @@
           "qcat": "Artificial Intelligence"
         },
         {
-          "title": "Inspectable LLM-Simulated Participants for Qualitative Interview Rehearsal",
-          "authors": "H Zhang, Q Hu, Z Zhang, et al.",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.27333",
-          "cites": 0,
-          "pubdate": "2026-10-19",
-          "arxiv": "2610.27333",
-          "doi": null,
-          "cited_key": "Design and Evaluation of Generative Agent-based Platform for",
-          "first_seen": "2026-10-21",
-          "nr": "na"
-        },
-        {
-          "title": "Scam Town: Can Scam Education Spread Like a Vaccine?",
-          "authors": "S Ren, T Duong, X Shen, et al.",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.25040",
-          "cites": 0,
-          "pubdate": "2026-10-18",
-          "arxiv": "2610.25040",
-          "doi": null,
-          "cited_key": "Epidemic Modeling with Generative Agents",
-          "first_seen": "2026-11-18",
-          "nr": "na"
-        },
-        {
           "title": "LLM Evolution in a Simple Simulated Market",
           "authors": "C Pilgrim, C Krupenye, D Biro, et al.",
           "year": 2026,
@@ -1394,25 +1391,11 @@
           "doi": "10.1073/pnas.2531748123",
           "cited_key": "Can Generative Agent-Based Modeling Replicate the Friendship",
           "first_seen": "2026-11-01",
-          "fwci": 11.93,
+          "fwci": 11.75,
           "pct": 10,
           "q": "Q1",
           "sjr": 3.28,
           "qcat": "Multidisciplinary"
-        },
-        {
-          "title": "Vision:\"What Don't I Know About User's Preferences?\"How Uncertainty Estimation Improves Proactive Assistant Alignment",
-          "authors": "Z An, Z Xuan, Y Yang, et al.",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.15948",
-          "cites": 0,
-          "pubdate": "2026-10-11",
-          "arxiv": "2610.15948",
-          "doi": "10.1145/3798063.3839206",
-          "cited_key": "Design and Evaluation of Generative Agent-based Platform for",
-          "first_seen": "2026-10-15",
-          "nr": "na"
         },
         {
           "title": "OpenSocialJax: Evaluating Social Adaptation in Sequential Social Dilemmas with Open-Ended Environmental Dynamics",
@@ -1426,20 +1409,6 @@
           "doi": null,
           "cited_key": "Generative agent-based modeling with actions grounded in phy",
           "first_seen": "2026-11-12",
-          "nr": "na"
-        },
-        {
-          "title": "Physiology as Topology: Intervenable Organ Graphs for Longitudinal Patient Forecasting",
-          "authors": "X Liang, Y Chen",
-          "year": 2026,
-          "venue": "arXiv",
-          "url": "https://arxiv.org/abs/2610.33022",
-          "cites": 0,
-          "pubdate": "2026-10-09",
-          "arxiv": "2610.33022",
-          "doi": null,
-          "cited_key": "Epidemic Modeling with Generative Agents",
-          "first_seen": "2026-11-18",
           "nr": "na"
         },
         {
@@ -1542,9 +1511,37 @@
           "q": "Q1",
           "sjr": 2.98,
           "qcat": "Civil and Structural Engineering"
+        },
+        {
+          "title": "Auditing Action Settlement in LLM Agent Environments: Order, Progress, and Replay",
+          "authors": "H Chen, B Ye, Y Zhang, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01138",
+          "cites": 0,
+          "pubdate": "2026-10-01",
+          "arxiv": "2610.01138",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-26",
+          "nr": "na"
+        },
+        {
+          "title": "NextMe-800: Anticipating Personal Behavior from Months of Egocentric Video",
+          "authors": "Z Meng, Y Sun, M Gao, et al.",
+          "year": 2026,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2610.01461",
+          "cites": 0,
+          "pubdate": "2026-10-01",
+          "arxiv": "2610.01461",
+          "doi": null,
+          "cited_key": "Generative agent-based modeling with actions grounded in phy",
+          "first_seen": "2026-11-26",
+          "nr": "na"
         }
       ],
-      "n_citing": 504,
+      "n_citing": 461,
       "query": "agent-based modeling"
     }
   }
