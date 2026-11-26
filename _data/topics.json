@@ -1,23 +1,11 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
       "topic": "Deep persona",
       "query": "Deep persona",
       "papers": [
-        {
-          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
-          "authors": "Lee, H., Kim, Y., & Kim, S.",
-          "year": 2024,
-          "venue": "Applied Sciences",
-          "url": "https://doi.org/10.3390/app14031014",
-          "cites": 11,
-          "fwci": 1.98,
-          "q": "Q2",
-          "sjr": 0.56,
-          "qcat": "Computer Science Applications"
-        },
         {
           "title": "Flow persona: A QoS Flow Rule Scheme based on Deep Learning in SDN-IoT",
           "authors": "She, H., Yan, L., An, X., Mao, C., & Guo, Y.",
@@ -29,6 +17,18 @@
           "q": "Q1",
           "sjr": 1.14,
           "qcat": "Computer Networks and Communications"
+        },
+        {
+          "title": "Real-Time Movie Recommendation: Integrating Persona-Based User Modeling with NMF and Deep Neural Networks",
+          "authors": "Lee, H., Kim, Y., & Kim, S.",
+          "year": 2024,
+          "venue": "Applied Sciences",
+          "url": "https://doi.org/10.3390/app14031014",
+          "cites": 11,
+          "fwci": 1.98,
+          "q": "Q2",
+          "sjr": 0.56,
+          "qcat": "Computer Science Applications"
         },
         {
           "title": "State of Risk: Predicting the Mental State and Persona of Problem Gamblers Using Markov Chains and Deep Language Models",
@@ -55,7 +55,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 12717
+      "count": 12824
     },
     {
       "topic": "gABM",
@@ -91,7 +91,7 @@
           "venue": "Engineering Applications of Artificial Intelligence",
           "url": "https://doi.org/10.1016/j.engappai.2025.111343",
           "cites": 23,
-          "fwci": 5.21,
+          "fwci": 5.2,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.78,
@@ -111,7 +111,7 @@
           "qcat": "Computational Mathematics"
         }
       ],
-      "count": 68015
+      "count": 68913
     },
     {
       "topic": "Graph database",
@@ -160,7 +160,7 @@
           "nr": "na"
         }
       ],
-      "count": 144242
+      "count": 147015
     },
     {
       "topic": "Memory in Agentic AI",
@@ -197,14 +197,14 @@
           "venue": "ACM Transactions on Autonomous and Adaptive Systems",
           "url": "https://doi.org/10.1145/3774946",
           "cites": 20,
-          "fwci": 7.92,
+          "fwci": 7.78,
           "pct": 10,
           "q": "Q2",
           "sjr": 0.72,
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 85257
+      "count": 86581
     },
     {
       "topic": "LLM inference serving",
@@ -230,7 +230,7 @@
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
           "cites": 33,
-          "fwci": 11.61,
+          "fwci": 11.54,
           "pct": 1,
           "nr": "na"
         },
@@ -241,27 +241,26 @@
           "venue": "IEEE Transactions on Services Computing",
           "url": "https://doi.org/10.1109/tsc.2026.3670011",
           "cites": 13,
-          "fwci": 28.18,
+          "fwci": 27.93,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.6,
           "qcat": "Computer Networks and Communications"
         },
         {
-          "title": "GoodServe: A SLO-Aware Scheduling Framework for Improving Goodput in LLM Inference Serving",
-          "authors": "Zhao, D., Xian, C., Zong, Z., Jin, Y., Zeng, H., Zhou, J., et al.",
+          "title": "Uncertainty-aware offline reinforcement learning for LLM inference serving with heterogeneous SLOs",
+          "authors": "Feng, E., Wang, G., Li, P., Wang, Y., & Huang, S.",
           "year": 2026,
-          "venue": "IEEE Transactions on Services Computing",
-          "url": "https://doi.org/10.1109/tsc.2026.3732701",
-          "cites": 2,
-          "fwci": 4.34,
-          "pct": 10,
+          "venue": "Scientific Reports",
+          "url": "https://doi.org/10.1038/s41598-026-76614-6",
+          "cites": 0,
+          "fwci": 0.0,
           "q": "Q1",
-          "sjr": 1.6,
-          "qcat": "Computer Networks and Communications"
+          "sjr": 0.89,
+          "qcat": "Multidisciplinary"
         }
       ],
-      "count": 9385
+      "count": 9544
     },
     {
       "topic": "Ethereum Layer-2",
@@ -312,7 +311,7 @@
           "nr": "na"
         }
       ],
-      "count": 729
+      "count": 738
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -325,7 +324,7 @@
           "venue": "IACR Communications in Cryptology",
           "url": "https://doi.org/10.62056/ayiv4fe-3",
           "cites": 1,
-          "fwci": 0.2,
+          "fwci": 0.19,
           "nr": "na"
         },
         {
@@ -334,8 +333,8 @@
           "year": 2024,
           "venue": "IEEE Transactions on Information Forensics and Security",
           "url": "https://doi.org/10.1109/tifs.2024.3520863",
-          "cites": 69,
-          "fwci": 7.11,
+          "cites": 73,
+          "fwci": 7.55,
           "pct": 10,
           "q": "Q1",
           "sjr": 2.19,
@@ -348,7 +347,7 @@
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-026-11557-y",
           "cites": 88,
-          "fwci": 96.62,
+          "fwci": 95.86,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.64,
@@ -361,14 +360,14 @@
           "venue": "IEEE Transactions on Big Data",
           "url": "https://doi.org/10.1109/tbdata.2024.3403370",
           "cites": 93,
-          "fwci": 7.37,
+          "fwci": 7.32,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.53,
           "qcat": "Information Systems"
         }
       ],
-      "count": 59882
+      "count": 60751
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -380,8 +379,8 @@
           "year": 2026,
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2026.3680353",
-          "cites": 374,
-          "fwci": 98.46,
+          "cites": 330,
+          "fwci": 96.91,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.02,
@@ -393,11 +392,24 @@
           "year": 2024,
           "venue": "ACM Computing Surveys",
           "url": "https://doi.org/10.1145/3661821",
-          "cites": 406,
-          "fwci": 71.81,
+          "cites": 404,
+          "fwci": 71.71,
           "pct": 1,
           "q": "Q1",
           "sjr": 5.99,
+          "qcat": "Computer Science (miscellaneous)"
+        },
+        {
+          "title": "Survey on Graph Neural Networks",
+          "authors": "Gkarmpounis, G., Vranis, C., Vretos, N., & Daras, P.",
+          "year": 2024,
+          "venue": "IEEE Access",
+          "url": "https://doi.org/10.1109/access.2024.3456913",
+          "cites": 56,
+          "fwci": 4.41,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 0.88,
           "qcat": "Computer Science (miscellaneous)"
         },
         {
@@ -406,28 +418,15 @@
           "year": 2024,
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-024-10808-0",
-          "cites": 132,
-          "fwci": 10.3,
+          "cites": 131,
+          "fwci": 10.15,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.64,
           "qcat": "Artificial Intelligence"
-        },
-        {
-          "title": "A survey of dynamic graph neural networks",
-          "authors": "Zheng, Y., Yi, L., & Wei, Z.",
-          "year": 2024,
-          "venue": "Frontiers of Computer Science",
-          "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 249,
-          "fwci": 19.73,
-          "pct": 1,
-          "q": "Q1",
-          "sjr": 1.2,
-          "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 248173
+      "count": 252322
     },
     {
       "topic": "Ontology",
@@ -476,7 +475,7 @@
           "qcat": "Linguistics and Language"
         }
       ],
-      "count": 30139
+      "count": 30602
     },
     {
       "topic": "AI governance",
@@ -488,8 +487,8 @@
           "year": 2025,
           "venue": "Transactions on machine learning research",
           "url": "https://doi.org/10.48550/arxiv.2407.14981",
-          "cites": 188,
-          "fwci": 29.64,
+          "cites": 191,
+          "fwci": 29.94,
           "pct": 1,
           "q": "Q2",
           "sjr": 0.74,
@@ -501,8 +500,8 @@
           "year": 2024,
           "venue": "Scientific Reports",
           "url": "https://doi.org/10.1038/s41598-024-71761-0",
-          "cites": 131,
-          "fwci": 10.38,
+          "cites": 134,
+          "fwci": 10.55,
           "pct": 1,
           "q": "Q1",
           "sjr": 0.89,
@@ -514,9 +513,9 @@
           "year": 2025,
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2025.3598023",
-          "cites": 64,
-          "fwci": 11.18,
-          "pct": 1,
+          "cites": 63,
+          "fwci": 10.92,
+          "pct": 10,
           "q": "Q1",
           "sjr": 0.88,
           "qcat": "Computer Science (miscellaneous)"
@@ -527,20 +526,58 @@
           "year": 2024,
           "venue": "Communication Research and Practice",
           "url": "https://doi.org/10.1080/22041451.2024.2391204",
-          "cites": 68,
-          "fwci": 46.94,
+          "cites": 67,
+          "fwci": 46.35,
           "pct": 1,
           "q": "Q2",
           "sjr": 0.55,
           "qcat": "Communication"
         }
       ],
-      "count": 127865
+      "count": 128581
     },
     {
       "topic": "NeurIPS",
       "query": "s2:NeurIPS",
-      "papers": []
+      "papers": [
+        {
+          "title": "Computational Complexity of Learning Neural Networks: Smoothness and Degeneracy",
+          "authors": "Daniely, A., Srebro, N., & Vardi, G.",
+          "year": 2023,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.52202/075280-3334",
+          "cites": 11,
+          "crank": "A*"
+        },
+        {
+          "title": "Inferring stochastic dynamics with growth from cross-sectional data",
+          "authors": "Zhang, S., Maddu, S., Qiu, X., & Chardès, V.",
+          "year": 2025,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2505.13197",
+          "cites": 6,
+          "crank": "A*"
+        },
+        {
+          "title": "Information-theoretic Generalization Analysis for Expected Calibration Error",
+          "authors": "Futami, F., & Fujisawa, M.",
+          "year": 2024,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2405.15709",
+          "cites": 26,
+          "crank": "A*"
+        },
+        {
+          "title": "GREAT Score: Global Robustness Evaluation of Adversarial Perturbation using Generative Models",
+          "authors": "Li, Z., Chen, P., & Ho, T.",
+          "year": 2023,
+          "venue": "Neural Information Processing Systems",
+          "url": "https://doi.org/10.48550/arXiv.2304.09875",
+          "cites": 11,
+          "crank": "A*"
+        }
+      ],
+      "count": 13698
     },
     {
       "topic": "ICML",
@@ -720,7 +757,7 @@
           "crank": "A*"
         }
       ],
-      "count": 12339
+      "count": 12340
     },
     {
       "topic": "IJCAI",
@@ -768,45 +805,7 @@
     {
       "topic": "ACL",
       "query": "s2:ACL",
-      "papers": [
-        {
-          "title": "From Information to Insight: Leveraging LLMs for Open Aspect-Based Educational Summarization",
-          "authors": "Zhong, Y., & Litman, D.",
-          "year": 2025,
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.18653/v1/2025.acl-long.95",
-          "cites": 3,
-          "crank": "A*"
-        },
-        {
-          "title": "QualiSpeech: A Speech Quality Assessment Dataset with Natural Language Reasoning and Descriptions",
-          "authors": "Wang, S., Yu, W., Chen, X., Tian, X., Zhang, J., Lu, L., et al.",
-          "year": 2025,
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.48550/arXiv.2503.20290",
-          "cites": 37,
-          "crank": "A*"
-        },
-        {
-          "title": "AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models",
-          "authors": "Wu, Y., Yu, W., Cheng, Y., Wang, Y., Zhang, X., Xu, J., et al.",
-          "year": 2024,
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.48550/arXiv.2406.09295",
-          "cites": 10,
-          "crank": "A*"
-        },
-        {
-          "title": "MedScore: Generalizable Factuality Evaluation of Open-ended Long-form Medical Answers by Domain-adapted Claim Decomposition and Verification",
-          "authors": "Huang, H., DeLucia, A., Tiyyala, V. M., & Dredze, M.",
-          "year": 2025,
-          "venue": "Annual Meeting of the Association for Computational Linguistics",
-          "url": "https://doi.org/10.18653/v1/2026.findings-acl.693",
-          "cites": 8,
-          "crank": "A*"
-        }
-      ],
-      "count": 11932
+      "papers": []
     },
     {
       "topic": "EMNLP",
@@ -904,7 +903,7 @@
           "year": 2024,
           "venue": "European Conference on Computer Vision",
           "url": "https://doi.org/10.48550/arXiv.2406.01597",
-          "cites": 118,
+          "cites": 120,
           "q": "Q4",
           "sjr": 0.1,
           "qcat": "Literature and Literary Theory"
