@@ -1,7 +1,163 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "source": "Google Scholar alerts (email)",
   "items": [
+    {
+      "title": "Born Digital: Human Digital Twins as Personal Decision-Support Systems",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352250X26002459",
+      "authors": "M Miller, J Goldenberg - Current Opinion in Psychology, 2026",
+      "snippet": "Human digital twins (HDTs), computational representations that mirror an individual's preferences, cognition, and behavior, are poised to reshape how individuals understand themselves and make decisions. This review traces the HDT concept from its engineering origins to current social-science applications and proposes an organizing framework in which an adopted twin serves the individual in three decision-support roles: a (self-) assessment and reflection tool through which …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "q": "Q1",
+      "sjr": 3.43,
+      "qcat": "Psychology (miscellaneous)"
+    },
+    {
+      "title": "Evaluating Autonomous Online Survey Completion Using a Locally Deployed LLM Agent on Consumer-Grade Hardware",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949882126001878",
+      "authors": "PDNC Ohalete - Computers in Human Behavior: Artificial Humans, 2026",
+      "snippet": "Autonomous large language model (LLM) agents present opportunities for survey research and risks to data integrity, yet the mechanisms enabling independent survey completion remain poorly documented. This study investigates whether an autonomous LLM agent can complete multi-page surveys containing diverse question types, how effectively generated responses can be matched to structured response options, and whether platform validation errors can be corrected …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "q": "Q1",
+      "sjr": 3.07,
+      "qcat": "Arts and Humanities (miscellaneous)"
+    },
+    {
+      "title": "Beyond Surface Style: Aligning Multi-Turn User Simulators with Behavioral Consistency",
+      "url": "https://openreview.net/pdf?id=SNwinJOUVi",
+      "authors": "G Chen, R Pan, Z Yang, J Chen, B Cao, Z Li, C Chen… - 2026",
+      "snippet": "Faithful user simulation is fundamental to building, evaluating, and improving interactive AI at scale. However, existing simulators rely on superficial linguistic mimicry and single-turn optimization, failing to capture users' decision processes and multi-turn coherence. To address this, we propose TRACER, a multi-turn user simulator that aligns with real users at both linguistic and decision-making levels by introducing intent states that capture users' decision tendencies and their evolution …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "nr": "na"
+    },
+    {
+      "title": "OSINT Research Platform as Accountability Infrastructure for Collaborative Sensemaking",
+      "url": "https://anmukhop.github.io/uploads/CSCW_26_Accountability_Infrastructure_Workshop.pdf",
+      "authors": "A Mukhopadhyay, K Eze, K Luther - 2026",
+      "snippet": "As AI agents move from answering questions to observing teams, calling tools, and proposing next steps, it becomes difficult to say what the agent contributed, and how the team leveraged those contributions in their final result. Here, we present the OSINT Research Platform (ORP) as a design provocation for accountability infrastructure. ORP is a shared workspace for small teams conducting Open-Source Intelligence (OSINT) vulnerability assessments. A browser extension provides …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "nr": "na"
+    },
+    {
+      "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+      "url": "https://arxiv.org/pdf/2611.27689",
+      "authors": "Z Fan, Z Wang, Y Yuan, W Zhang, J Li, J Xiao, S Tang… - arXiv preprint arXiv …, 2026",
+      "snippet": "Vision-language model (VLM)-based agents offer a promising approach to robotic manipulation, yet remain limited by inadequate memory organization, uncertain failure attribution, and limited reuse of execution experience. We propose Embodied-Harness, a dual-agent framework that improves manipulation by refining the execution harness without updating model parameters. The Actor interacts with the environment through a robot-control interface, while the Reflector converts execution …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "nr": "na"
+    },
+    {
+      "title": "Calibrated reliance on generative-AI health advice: a perspective on correctness, risk, and escalation",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1974040/pdf",
+      "authors": "Q Liu, F Cao, R Deng - Frontiers in Public Health, 2026",
+      "snippet": "Members of the public increasingly consult generative artificial intelligence (AI) for health advice, and research has largely asked whether they trust it. Trust is the wrong yardstick. Reliance on health advice is appropriate only when it tracks whether the advice is correct and what an error would cost. We argue for an outcome standard, calibrated reliance, under which four actions (adopt, verify, reject, and escalate to professional care) are judged jointly against advice correctness and the cost of error …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "q": "Q1",
+      "sjr": 1.1,
+      "qcat": "Public Health, Environmental and Occupational Health"
+    },
+    {
+      "title": "Synthetic Travelers: Using LLMs to Generate Realistic Mobility Behaviours: How well can a pre-trained LLM simulate realistic travel diaries from socio-demographic …",
+      "url": "https://run.unl.pt/bitstreams/d2dfa37c-59a0-40ec-8b22-6b32c2e0799d/download",
+      "authors": "APM Caleiro - 2026",
+      "snippet": "Resumo (s) Understanding how individuals move through space and time is fundamental to urban planning and quality of life yet collecting the travel data needed to model mobility remains costly and geographically uneven. Classical activity-based models and deep generative approaches often oversimplify individual behaviour and require extensive recalibration when applied to new contexts. This thesis introduces SynTrav, an LLMagent framework that generates synthetic …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "nr": "na"
+    },
+    {
+      "title": "Digital Twins and Large Language Models for Wind Turbine Drivetrain Monitoring: A Critical Review of Semantic Interfaces and Validation Gaps",
+      "url": "https://www.mdpi.com/2076-3417/16/23/11582/pdf",
+      "authors": "H Habbouche, M Benbouzid - Applied Sciences, 2026",
+      "snippet": "Wind turbine condition monitoring is central to ensuring availability and reducing operation and maintenance costs. Digital twins and artificial intelligence have transformed fault diagnosis and prognosis, and large language models (LLMs) are now emerging to interpret monitoring results, explain diagnoses, and support maintenance decisions. Combining them raises a new question: how the physical outputs of a digital twin, such as fault signatures, health indicators, and remaining …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "q": "Q4",
+      "sjr": 0.15,
+      "qcat": "Applied Mathematics"
+    },
+    {
+      "title": "CMIR: detecting cross-modal inconsistency and privacy risks in multimodal inputs for large language model systems",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306457326006898",
+      "authors": "HE Jang, J Park, W Kang, D Niewelt, JH Oh - Information Processing & Management, 2027",
+      "snippet": "Online marketplaces increasingly rely on multimodal reviews combining numerical ratings, textual narratives, and user-generated images. Although such reviews inform consumer decisions, inconsistencies across modalities and privacy-sensitive visual content may pose input-level risks in large language model (LLM)-mediated systems. This study introduces Cross-Modal Inconsistency Risk (CMIR), an interpretable review-level framework integrating rating–text inconsistency, rating–image …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "q": "Q1",
+      "sjr": 1.84,
+      "qcat": "Computer Science Applications"
+    },
+    {
+      "title": "Is the Optimiser Needed? Auditing a Digital Decision Support System for Necessity, Decision Stability and Input Fragility Under Turbulence",
+      "url": "https://www.mdpi.com/2079-8954/14/12/1509/pdf",
+      "authors": "V Stantchev, P Rabiei, D Arias-Aranda - Systems, 2026",
+      "snippet": "Optimisation-based decision support systems are adopted under turbulence on two untested assumptions: that the problem needs their stochastic optimiser, and that their committed decision is stable. We audit both, and input fragility, with a five-step protocol on our own published fuzzy relief-allocation system on synthetic instances. Its model is separable: a deterministic rule computes the exact optimum, which dominates 97–100% of the published front points; the check also shows that its …",
+      "kind": "Citation",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "q": "Q2",
+      "sjr": 0.64,
+      "qcat": "Computer Networks and Communications"
+    },
+    {
+      "title": "DEPENDENCY-STRUCTURED GENERATION WITH MASKED DIFFUSION LANGUAGE MODELS",
+      "url": "https://ilikevegetable.github.io/paper/Dependency-Structured-Generation.pdf",
+      "authors": "H Zeng, D Hu, D Cai, J Feng, Y Zhang, Y Xia, Y Zhang…",
+      "snippet": "Autoregressive language models generate along a fixed left-to-right chain, whereas standard masked diffusion language models (MDLMs) train on randomly masked contexts, assigning equal training weight to all possible token reveal orders. Between these endpoints lies a structured regime: several tokens may be ready concurrently, while others should wait for specific evidence. We formalize this regime as dependency-structured generation, in which a model's reveal behavior is …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-27",
+      "nr": "na"
+    },
+    {
+      "title": "Dynamic anion competition induced charge reconstruction toward accelerated ion migration and sulfur conversion kinetics in solid-state Lithium-sulfur batteries",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1385894726120919",
+      "authors": "H Shang, R Yang, Y Wang, Z Mu, X Dong, R Yang… - Chemical Engineering …, 2026",
+      "snippet": "In solid-state lithium‑sulfur batteries (SSLSBs), the dynamically evolving interfacial anion environment makes it challenging for static active sites to simultaneously optimize Li+ migration and sulfur conversion. Herein, an anion competition-induced Lewis acid charge reconstruction strategy is proposed to dynamic coordination regulation. A polyacrylonitrile/UiO-66 nanofiber network reinforced poly (ethylene oxide)/lithium bis (trifluoromethanesulfonyl) imide (LiTFSI) composite electrolyte …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-27",
+      "q": "Q1",
+      "sjr": 6.51,
+      "qcat": "Biochemistry"
+    },
+    {
+      "title": "Recent Advancements in Tungsten Oxide-based Nanomaterials for Gas Sensing Applications",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0360319926053784",
+      "authors": "GC Mosisa, CM Wu, YC Chiu, KG Motora - International Journal of Hydrogen Energy, 2026",
+      "snippet": "This review focuses on tungsten oxide-based nanomaterials WO 3-x and M x WO 3 in gas sensing, emphasizing synthesis, performance enhancement, and underlying mechanisms. Non-stochiometric WO 3-x features intrinsic defects that boost electrical conductivity, while morphological tuning, crystal facet engineering, and elemental doping further optimize detection capabilities. One-dimensional structures such as nanowires and nanoforest offer high surface-to-volume ratios, enabling faster …",
+      "kind": "Citation",
+      "scholar": "Min-Soo Kim",
+      "date": "2026-11-27",
+      "q": "Q1",
+      "sjr": 1.66,
+      "qcat": "Condensed Matter Physics"
+    },
+    {
+      "title": "A Crowd-Audited Atlas of Implicit Bias in LLM-Powered Agents",
+      "url": "https://arxiv.org/pdf/2611.21376",
+      "authors": "J Alexander, Y Li, M Licamele, WH Deng, S Das - arXiv preprint arXiv:2611.21376, 2026",
+      "snippet": "Prior work has shown that large language models (LLMs) express implicit biases in high-publicity, one-off decision scenarios such as hiring and intelligence assessment. However, as people increasingly employ autonomous, LLM-powered AI …",
+      "kind": "Related",
+      "scholar": "Joon Sung Park",
+      "date": "2026-11-27",
+      "nr": "na"
+    },
     {
       "title": "Fiction as Experiment, Part I: Generative AI and the Parametric Study of Social Cognition",
       "url": "https://www.mdpi.com/2504-2289/10/11/398/pdf",
@@ -225,16 +381,6 @@
       "nr": "na"
     },
     {
-      "title": "A Crowd-Audited Atlas of Implicit Bias in LLM-Powered Agents",
-      "url": "https://arxiv.org/pdf/2611.21376",
-      "authors": "J Alexander, Y Li, M Licamele, WH Deng, S Das - arXiv preprint arXiv:2611.21376, 2026",
-      "snippet": "Prior work has shown that large language models (LLMs) express implicit biases in high-publicity, one-off decision scenarios such as hiring and intelligence assessment. However, as people increasingly employ autonomous, LLM-powered AI …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-24",
-      "nr": "na"
-    },
-    {
       "title": "Standardized Tolerance for Adaptive Reuse and Repair: A Method for HNSW Migration Under Embedding Model Change Scenarios",
       "url": "https://arxiv.org/pdf/2611.25416",
       "authors": "H Ma, C Zhu, B Wang, X Yang - arXiv preprint arXiv:2611.25416, 2026",
@@ -284,142 +430,6 @@
       "kind": "Citation",
       "scholar": "Joon Sung Park",
       "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "Using MLLM–driven topic modeling approach with audiovisual data to extract fine-grained perceptual patterns at the neighborhood scale",
-      "url": "https://www.sciencedirect.com/science/article/pii/S036013232601396X",
-      "authors": "T Wang, H Chen, H Long, P Deng - Building and Environment, 2026",
-      "snippet": "Understanding the associations between urban environment and human interpretation is fundamental for urban perception studies. Recent research has integrated multimodal large language models and topic modeling to explore urban perception through street-level data. However, these studies are challenged by the exclusion of auditory stimuli, the spatiotemporal bias within platform-sourced street view imagery, and overly simplified human-AI alignment evaluation. We propose an …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-22",
-      "q": "Q1",
-      "sjr": 1.91,
-      "qcat": "Building and Construction"
-    },
-    {
-      "title": "Do Diffusion Models Learn to Generalize Basic Visual Skills?",
-      "url": "https://arxiv.org/pdf/2611.22427",
-      "authors": "A Sethi, B Zeng, W Chai, Z Liu - arXiv preprint arXiv:2611.22427, 2026",
-      "snippet": "Diffusion models generate high-quality images, but how well they generalize is hard to measure. Current evaluations rely on human preference and prompt-following benchmarks for text-to-image models and on distribution-level metrics such as Fr\\'echet Inception Distance (FID) and Inception Score (IS) for class-conditional models, but these cannot tell whether models learn basic visual skills or largely match training patterns. To address this gap, we introduce the Visual Generative Lab …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "Agency, AI, and acting for a purpose of the agent's own",
-      "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/mila.70065",
-      "authors": "N Shea - Mind & Language, 2026",
-      "snippet": "A feature of the kind of agency that evolved in animals is that their capacity for goal‐directed behaviour is exercised in the service of persistence and reproduction. These are the purposes (in a specific sense) for which behaviour has been produced. Further, there is feedback between having these purposes and goal‐directed behaviour becoming increasingly sophisticated. Artificial intelligence (AI) systems are unlikely ever to have biological purposes. However, the same kind of feedback …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-22",
-      "q": "Q1",
-      "sjr": 1.49,
-      "qcat": "Linguistics and Language"
-    },
-    {
-      "title": "A Scalable Multi Task Learning Framework for Modeling Demographic Disagreements in Annotation Tasks",
-      "url": "https://arxiv.org/pdf/2611.21458",
-      "authors": "S Gupta, M De-Arteaga, M Lease - arXiv preprint arXiv:2611.21458, 2026",
-      "snippet": "Annotators from different demographic backgrounds often disagree in systematic ways due to varying lived experiences, cultural contexts, and their relationship to the content. When such disagreement occurs, one group's perspective may sometimes warrant prioritization because they hold an epistemically advantaged standpoint or bear greater stake in the outcome. For example, when assessing toxicity of posts on social media, it may be important to prioritize a targeted group's viewpoint. We …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "AI Companions for Young Adult Caregivers: Practical Advice, Emotional Depth, and the Limits of Metric Evaluation",
-      "url": "https://arxiv.org/pdf/2611.23147",
-      "authors": "T Garg, X Fu, D Shah, J Huang, S Maheshwari… - arXiv preprint arXiv …, 2026",
-      "snippet": "Young adult caregivers (YACs) are individuals aged 18 to 25 currently taking care of a family member, partner, or friend facing chronic illness. AI companions designed specifically for YACs remain underexplored in prior works. We present Carebot, it uses an open-weight LLM (Gemma 3-27B) as its base model, on which we compared fine-tuning, retrieval-augmented generation (RAG), and a combination of both. The fine-tuning was performed based on an existing dataset of conversations …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "High-Coverage Blind Spots in Online Abuse Monitoring: Account Selection, Held-Out Flagging Rates, and Sample Composition",
-      "url": "https://arxiv.org/pdf/2611.22716",
-      "authors": "Z Liu - arXiv preprint arXiv:2611.22716, 2026",
-      "snippet": "Platforms with limited monitoring capacity may rank target accounts by the number of abusive replies received or by the share of replies labeled abusive. We test how these rankings affect account selection, historical flagged-reply coverage, and held-out labeling rates. In the Online Abusive Attacks (OAA) data (945,987 replies to 384 accounts), two 25-account lists share just one account. Count-based selection covers 75.56% of flagged replies, while rate-based selection covers 5.04%. In a 500 …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "Accurate Prediction of Hepatic Disease Severity in MASLD Using a Learned Phenotype",
-      "url": "https://www.medrxiv.org/content/medrxiv/early/2026/11/17/2026.11.14.26368091.full.pdf",
-      "authors": "EV Strobl, M Miedel, DL Taylor, J Behari - medRxiv, 2026",
-      "snippet": "Background & Aims: Most prognostic models for metabolic dysfunction-associated steatotic liver disease (MASLD) target prespecified hepatic endpoints, potentially limiting attainable accuracy. We developed and externally validated a model that …",
-      "kind": "Related",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "ReMaRL: Learning to Unmask and Remask in Frozen Diffusion Language Models",
-      "url": "https://arxiv.org/pdf/2611.22576",
-      "authors": "E Shibaev, D Biktimirov, I Klimov, A Makoian… - arXiv preprint arXiv …, 2026",
-      "snippet": "Masked diffusion language models generate tokens in parallel, and the order in which tokens are unmasked affects final-answer accuracy. Several methods learn unmasking policies from task rewards, but these policies cannot remask earlier predictions. Remasking lets the model correct those predictions using newly generated context. Heuristic rules guide both unmasking and remasking, while supervised remaskers learn to detect token errors. Neither approach directly …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "SemMask: Semantic-Prioritized Progressive Masking for Diffusion Language Models",
-      "url": "https://arxiv.org/pdf/2611.19560",
-      "authors": "Q Chen, Z Cheng, Z Jiang, Q Gu - arXiv preprint arXiv:2611.19560, 2026",
-      "snippet": "Diffusion Language Models (DLMs) are designed to enable globally parallel generation. However, in practice, they often exhibit pseudo-autoregressive behavior and a function-word-first bias, which undermines their performance on tasks such as text writing and code generation that benefit from global planning and parallel decoding. To address this, we propose SemMask, a novel fine-tuning paradigm that leverages a semantic-prioritized progressive masking strategy to encourage the …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "Aspectos de extração de conhecimento em Big Data na área da saúde",
-      "url": "https://repositorio.unesp.br/bitstreams/4da9e001-3dfe-4de7-bce6-6f60c547dc0c/download",
-      "authors": "TL Andrade - 2026",
-      "snippet": "Com o avanço da tecnologia da informação e a crescente adoção dos registros eletrônicos de saúde (Electronic Health Records–EHR), o volume de dados clínicos disponíveis cresceu de forma expressiva nas últimas décadas. Dados de prontuários, exames laboratoriais, imagens médicas, sinais vitais e até informações genômicas passaram a ser coletados e armazenados digitalmente, formando um ecossistema rico em informações sobre a saúde de populações inteiras …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "Robustness of Active Control Strategies",
-      "url": "https://books.google.com/books?hl=ko&lr=&id=UuYtEgAAQBAJ&oi=fnd&pg=PA277&ots=1QOSR3O9PY&sig=j5JduazPjPedKXJmb0GCG1XMrNM",
-      "authors": "TX Mei¹, H Li - Advances in Dynamics of Vehicles on Roads and …, 2026",
-      "snippet": "This paper presents a fundamental analysis on the control design for active wheelset control and studies the dependency of different control strate-gies on condition changes in vehicle speed and wheel-rail interface. The variation in vehicle's running speed is an important topic for consideration as it strongly influences the dynamic behaviour of the running gear and it is not clear an active controller tuned at one particular speed would also best suited for other speeds, whilst the robustness again …",
-      "kind": "Citation",
-      "scholar": "Min-Soo Kim",
-      "date": "2026-11-22",
-      "nr": "na"
-    },
-    {
-      "title": "Cognitive grounding improves LLM simulation of collective human behavior",
-      "url": "https://www.nature.com/articles/s43588-026-01080-z",
-      "authors": "H Zhu, B Heydari - Nature Computational Science, 2026",
-      "snippet": "Large language models (LLMs) increasingly stand in for human participants, yet a plausible response is not evidence of a human decision process. The gap matters most when agents interact, where locally reasonable choices compound through delays and feedback into collective outcomes. Behavioral models fit decision rules to human data; we ask whether their qualitative content alone can drive LLM agents, an approach we call cognitive grounding. Here we show, across 231 sessions of the …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
-      "q": "Q1",
-      "sjr": 4.25,
-      "qcat": "Computer Networks and Communications"
-    },
-    {
-      "title": "Efficiency Gains in Social Science Research: A Prospective Silicon Sampling Protocol for Pre-Treatment and Code Optimization",
-      "url": "https://arxiv.org/pdf/2611.18436",
-      "authors": "N Astitou, E Aucouturier - arXiv preprint arXiv:2611.18436, 2026",
-      "snippet": "This study evaluates the methodological potential of using large language models (LLMs) to generate synthetic datasets prior to real-world data collection, thereby streamlining subsequent processing and statistical analysis. The approach is applied to a survey conducted within the France Life Imaging (FLI) network, leveraging three distinct LLMs (Sonnet 4.6, GPT 5.3, and Kimi 2.6) to simulate responses and prepare data processing workflows. The findings demonstrate significant time savings in code …",
-      "kind": "Citation",
-      "scholar": "Joon Sung Park",
-      "date": "2026-11-21",
       "nr": "na"
     }
   ]
