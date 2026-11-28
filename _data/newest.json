@@ -29728,20 +29728,7 @@
         "crank": "A*"
       }
     ],
-    "ECCV": [
-      {
-        "title": "Computer Vision – ECCV 2026: 19th European Conference, Malmö, Sweden, September 8–12, 2026, Proceedings, Part XXXVIII",
-        "authors": "Anon.",
-        "year": 2026,
-        "venue": "European Conference on Computer Vision",
-        "url": "https://doi.org/10.1007/978-3-032-37447-9",
-        "cites": 0,
-        "topic": "ECCV",
-        "q": "Q4",
-        "sjr": 0.1,
-        "qcat": "Literature and Literary Theory"
-      }
-    ],
+    "ECCV": [],
     "KDD": [
       {
         "title": "Constructing and mining web-scale knowledge graphs: KDD 2014 tutorial",
