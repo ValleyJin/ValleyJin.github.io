@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "field": "Computer Science · AI & databases",
   "topics": [
     {
@@ -55,7 +55,7 @@
           "qcat": "Applied Mathematics"
         }
       ],
-      "count": 12845
+      "count": 13527
     },
     {
       "topic": "gABM",
@@ -67,8 +67,8 @@
           "year": 2024,
           "venue": "System Dynamics Review",
           "url": "https://doi.org/10.1002/sdr.1761",
-          "cites": 151,
-          "fwci": 11.67,
+          "cites": 154,
+          "fwci": 11.85,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.1,
@@ -104,14 +104,14 @@
           "venue": "EPJ Data Science",
           "url": "https://doi.org/10.1140/epjds/s13688-025-00593-3",
           "cites": 8,
-          "fwci": 5.53,
+          "fwci": 5.5,
           "pct": 10,
           "q": "Q2",
           "sjr": 0.65,
           "qcat": "Computational Mathematics"
         }
       ],
-      "count": 69048
+      "count": 71367
     },
     {
       "topic": "Graph database",
@@ -134,7 +134,7 @@
           "venue": "Proceedings of the VLDB Endowment",
           "url": "https://doi.org/10.14778/3749646.3749671",
           "cites": 6,
-          "fwci": 1.05,
+          "fwci": 1.04,
           "q": "Q1",
           "sjr": 1.77,
           "qcat": "Computer Science (miscellaneous)"
@@ -156,11 +156,11 @@
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3749186",
           "cites": 4,
-          "fwci": 1.82,
+          "fwci": 1.81,
           "nr": "na"
         }
       ],
-      "count": 147135
+      "count": 156546
     },
     {
       "topic": "Memory in Agentic AI",
@@ -197,14 +197,14 @@
           "venue": "ACM Transactions on Autonomous and Adaptive Systems",
           "url": "https://doi.org/10.1145/3774946",
           "cites": 20,
-          "fwci": 7.73,
+          "fwci": 7.69,
           "pct": 10,
           "q": "Q2",
           "sjr": 0.72,
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 86644
+      "count": 91486
     },
     {
       "topic": "LLM inference serving",
@@ -230,7 +230,7 @@
           "venue": "Proceedings of the ACM on Management of Data",
           "url": "https://doi.org/10.1145/3725394",
           "cites": 33,
-          "fwci": 11.46,
+          "fwci": 11.38,
           "pct": 1,
           "nr": "na"
         },
@@ -240,8 +240,8 @@
           "year": 2026,
           "venue": "IEEE Transactions on Services Computing",
           "url": "https://doi.org/10.1109/tsc.2026.3670011",
-          "cites": 13,
-          "fwci": 27.67,
+          "cites": 15,
+          "fwci": 31.7,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.6,
@@ -261,7 +261,7 @@
           "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 9564
+      "count": 10036
     },
     {
       "topic": "Ethereum Layer-2",
@@ -302,17 +302,20 @@
           "qcat": "Computational Theory and Mathematics"
         },
         {
-          "title": "Layer 2 Ecosystem of the Ethereum Blockchain",
-          "authors": "Belz, O.",
-          "year": 2024,
-          "venue": "ЕКОНОМІКА І РЕГІОН Науковий вісник",
-          "url": "https://doi.org/10.26906/eir.2024.2(93).3396",
-          "cites": 4,
-          "fwci": 0.72,
-          "nr": "na"
+          "title": "Impact of EIP-4844 on Ethereum: Consensus Security, Ethereum Usage, Rollup Transaction Dynamics, and Blob Gas Fee Markets",
+          "authors": "Park, S., Mun, B., Lee, S., Jeong, W., Lee, J., Eom, H., et al.",
+          "year": 2025,
+          "venue": "IEEE Transactions on Network Science and Engineering",
+          "url": "https://doi.org/10.1109/tnse.2025.3594281",
+          "cites": 31,
+          "fwci": 11.15,
+          "pct": 10,
+          "q": "Q1",
+          "sjr": 1.88,
+          "qcat": "Computer Networks and Communications"
         }
       ],
-      "count": 737
+      "count": 769
     },
     {
       "topic": "Zero-knowledge proofs (ZKP)",
@@ -335,7 +338,7 @@
           "venue": "IEEE Transactions on Information Forensics and Security",
           "url": "https://doi.org/10.1109/tifs.2024.3520863",
           "cites": 73,
-          "fwci": 7.52,
+          "fwci": 7.5,
           "pct": 10,
           "q": "Q1",
           "sjr": 2.19,
@@ -347,8 +350,8 @@
           "year": 2026,
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-026-11557-y",
-          "cites": 88,
-          "fwci": 95.4,
+          "cites": 90,
+          "fwci": 97.75,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.64,
@@ -361,14 +364,14 @@
           "venue": "IEEE Transactions on Big Data",
           "url": "https://doi.org/10.1109/tbdata.2024.3403370",
           "cites": 93,
-          "fwci": 7.28,
+          "fwci": 7.25,
           "pct": 10,
           "q": "Q1",
           "sjr": 1.53,
           "qcat": "Information Systems"
         }
       ],
-      "count": 60835
+      "count": 68065
     },
     {
       "topic": "Graph neural networks (GNN)",
@@ -381,7 +384,7 @@
           "venue": "IEEE Transactions on Knowledge and Data Engineering",
           "url": "https://doi.org/10.1109/tkde.2026.3680353",
           "cites": 331,
-          "fwci": 96.99,
+          "fwci": 96.36,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.02,
@@ -393,8 +396,8 @@
           "year": 2024,
           "venue": "Artificial Intelligence Review",
           "url": "https://doi.org/10.1007/s10462-024-10808-0",
-          "cites": 134,
-          "fwci": 10.34,
+          "cites": 135,
+          "fwci": 10.37,
           "pct": 1,
           "q": "Q1",
           "sjr": 3.64,
@@ -406,8 +409,8 @@
           "year": 2024,
           "venue": "Frontiers of Computer Science",
           "url": "https://doi.org/10.1007/s11704-024-3853-2",
-          "cites": 252,
-          "fwci": 19.73,
+          "cites": 253,
+          "fwci": 19.72,
           "pct": 1,
           "q": "Q1",
           "sjr": 1.2,
@@ -419,15 +422,15 @@
           "year": 2024,
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2024.3456913",
-          "cites": 56,
-          "fwci": 4.38,
+          "cites": 57,
+          "fwci": 4.44,
           "pct": 10,
           "q": "Q1",
           "sjr": 0.88,
           "qcat": "Computer Science (miscellaneous)"
         }
       ],
-      "count": 252493
+      "count": 257666
     },
     {
       "topic": "Ontology",
@@ -440,7 +443,7 @@
           "venue": "Ontology of Designing",
           "url": "https://doi.org/10.18287/2223-9537-2025-15-4-509-522",
           "cites": 5,
-          "fwci": 0.88,
+          "fwci": 0.87,
           "nr": "na"
         },
         {
@@ -454,6 +457,16 @@
           "nr": "na"
         },
         {
+          "title": "KNOWLEDGE REPRESENTATION USING ONTOLOGY MODELING SYSTEMS",
+          "authors": "Shamsutdinova, T. M.",
+          "year": 2025,
+          "venue": "RUSSIAN ELECTRONIC SCIENTIFIC JOURNAL",
+          "url": "https://doi.org/10.31563/2308-9644-2025-58-4-386-393",
+          "cites": 2,
+          "fwci": 0.35,
+          "nr": "na"
+        },
+        {
           "title": "An Ontology of Exceptions for Knowledge Representation",
           "authors": "Sacco, G., Bozzato, L., & Kutz, O.",
           "year": 2025,
@@ -464,19 +477,9 @@
           "q": "Q1",
           "sjr": 0.67,
           "qcat": "Linguistics and Language"
-        },
-        {
-          "title": "KNOWLEDGE REPRESENTATION USING ONTOLOGY MODELING SYSTEMS",
-          "authors": "Shamsutdinova, T. M.",
-          "year": 2025,
-          "venue": "RUSSIAN ELECTRONIC SCIENTIFIC JOURNAL",
-          "url": "https://doi.org/10.31563/2308-9644-2025-58-4-386-393",
-          "cites": 2,
-          "fwci": 0.35,
-          "nr": "na"
         }
       ],
-      "count": 30643
+      "count": 31955
     },
     {
       "topic": "AI governance",
@@ -489,7 +492,7 @@
           "venue": "Transactions on machine learning research",
           "url": "https://doi.org/10.48550/arxiv.2407.14981",
           "cites": 192,
-          "fwci": 29.94,
+          "fwci": 29.77,
           "pct": 1,
           "q": "Q2",
           "sjr": 0.74,
@@ -501,8 +504,8 @@
           "year": 2024,
           "venue": "Scientific Reports",
           "url": "https://doi.org/10.1038/s41598-024-71761-0",
-          "cites": 134,
-          "fwci": 10.49,
+          "cites": 135,
+          "fwci": 10.52,
           "pct": 1,
           "q": "Q1",
           "sjr": 0.89,
@@ -515,7 +518,7 @@
           "venue": "IEEE Access",
           "url": "https://doi.org/10.1109/access.2025.3598023",
           "cites": 63,
-          "fwci": 10.85,
+          "fwci": 10.79,
           "pct": 10,
           "q": "Q1",
           "sjr": 0.88,
@@ -528,14 +531,14 @@
           "venue": "Communication Research and Practice",
           "url": "https://doi.org/10.1080/22041451.2024.2391204",
           "cites": 67,
-          "fwci": 46.15,
+          "fwci": 46.01,
           "pct": 1,
           "q": "Q2",
           "sjr": 0.55,
           "qcat": "Communication"
         }
       ],
-      "count": 128790
+      "count": 132384
     },
     {
       "topic": "NeurIPS",
